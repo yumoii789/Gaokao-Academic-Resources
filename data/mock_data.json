@@ -1,0 +1,55 @@
+{
+  "standard": [
+    {
+      "questionId": "std-math-2023-01",
+      "content": "已知函数 $f(x) = e^x - ln x$，求 $f(x)$ 的最小值。",
+      "imagePath": "/assets/images/math/std-2023-01.png",
+      "answer": "e",
+      "analysis": "通过求导法，令 $f'(x) = e^x - 1/x = 0$，解得 $x=1$...",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "导数",
+        "单调性"
+      ],
+      "tags": [
+        "2023",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "数学"
+    }
+  ],
+  "spring": [
+    {
+      "questionId": "spr-phys-2022-05",
+      "content": "分析一个理想气体在绝热膨胀过程中的压力变化曲线。",
+      "imagePath": "/assets/images/physics/spr-2022-05.png",
+      "answer": "压力随体积增加而降低",
+      "analysis": "根据绝热过程方程 $PV^gamma = C$...",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "热力学第一定律",
+        "绝热过程"
+      ],
+      "tags": [
+        "2022",
+        "物理",
+        "简答题",
+        "春季高考"
+      ],
+      "year": 2022,
+      "subject": "物理"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "Academic",
+      "translation": "学术的",
+      "example": "The student's academic performance was outstanding.",
+      "difficulty": 2,
+      "book": "Gaokao Essential 5000"
+    }
+  ]
+}
