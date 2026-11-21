@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     description: '普通高考 · 春季高考 · 词汇工坊。权威真题、启发式 AI 助教、高效学习工具。',
     images: ['/og.png'],
   },
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -36,7 +40,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"小墨高考\",\"url\":\"https://yumoii789.github.io/Gaokao-Academic-Resources/\",\"description\":\"普通高考 · 春季高考 · 词汇工坊。权威真题、启发式 AI 助教、高效学习工具。\",\"inLanguage\":\"zh-CN\"}" }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
