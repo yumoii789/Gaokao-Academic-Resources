@@ -98,14 +98,14 @@ export default function QuestionCard({ question }: { question: Question }) {
       <div className="flex gap-3">
         <button
           onClick={() => setShowAnalysis(!showAnalysis)}
-          className="px-4 py-2 text-sm font-medium rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition-colors"
+          className="px-4 py-2 text-sm font-medium rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 transition-colors"
         >
           {showAnalysis ? '隐藏解析' : '查看解析'}
         </button>
         <button
           onClick={askAi}
           className={
-            'px-4 py-2 text-sm font-medium rounded-lg border transition-colors ' +
+            'px-4 py-2 text-sm font-medium rounded-lg border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 transition-colors ' +
             (aiState === 'streaming'
               ? 'border-indigo-300 bg-indigo-50 text-indigo-700'
               : 'border-slate-200 hover:bg-slate-50')

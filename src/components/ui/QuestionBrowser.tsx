@@ -23,7 +23,7 @@ export default function QuestionBrowser({ questions, accent }: { questions: Ques
   );
 
   const pill = (active: boolean) =>
-    'px-3 py-1.5 text-sm rounded-full border transition-colors whitespace-nowrap ' +
+    'px-3 py-1.5 text-sm rounded-full border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-300 transition-colors whitespace-nowrap ' +
     (active
       ? 'border-transparent text-white ' + accent
       : 'border-slate-200 text-slate-600 hover:border-slate-400');

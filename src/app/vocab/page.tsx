@@ -74,7 +74,7 @@ export default function VocabPage() {
     <div className='min-h-screen bg-[#fffdfa] text-[#1a1a1a]'>
       <header className='pt-12 pb-8 px-6 max-w-4xl mx-auto text-center'>
         <Link href='/' className='text-xs text-slate-400 hover:text-amber-600 transition-colors'>← 返回首页</Link>
-        <h1 className='academic-title text-5xl font-bold text-amber-700 mt-4 mb-4'>Vocabulary Studio</h1>
+        <h1 className='academic-title text-4xl md:text-5xl font-bold text-amber-700 mt-4 mb-4'>Vocabulary Studio</h1>
         <p className='text-slate-500 text-lg leading-relaxed'>把词汇记忆变成一场探索之旅。</p>
       </header>
 
@@ -92,7 +92,16 @@ export default function VocabPage() {
               )}
             </div>
           </div>
-          <div className='h-2 bg-amber-50 rounded-full overflow-hidden'>
+          <div
+            className='h-4 -my-1 bg-amber-50 rounded-full overflow-hidden cursor-pointer'
+            title='点击跳转到对应位置'
+            onClick={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              const ratio = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
+              setIsFlipped(false);
+              setCurrentIndex(Math.floor(ratio * words.length));
+            }}
+          >
             <div
               className='h-full bg-gradient-to-r from-amber-400 to-amber-600 rounded-full transition-all duration-500'
               style={{ width: `${percent}%` }}
@@ -102,8 +111,15 @@ export default function VocabPage() {
 
         {/* 3D 翻卡 */}
         <div
-          className='relative h-96 w-full perspective-1000 cursor-pointer mb-10'
+          role='button'
+          tabIndex={0}
+          aria-pressed={isFlipped}
+          aria-label={'单词卡：' + currentWord.word + (isFlipped ? '，当前显示释义' : '，按回车查看释义')}
+          className='relative h-96 w-full perspective-1000 cursor-pointer mb-10 rounded-3xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-amber-300'
           onClick={() => setIsFlipped(!isFlipped)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setIsFlipped(!isFlipped); }
+          }}
         >
           <div className={'relative w-full h-full transition-all duration-500 preserve-3d ' + (isFlipped ? 'rotate-y-180' : '')}>
             <div className='absolute inset-0 backface-hidden glass-card rounded-3xl flex flex-col items-center justify-center p-12 border-amber-100 bg-white'>
