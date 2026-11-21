@@ -30,6 +30,8 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <link rel="icon" type="image/png" href="/Gaokao-Academic-Resources/icon.png" />
+        <link rel="manifest" href="/Gaokao-Academic-Resources/manifest.json" />
+        <meta name="theme-color" content="#4f46e5" />
         <link rel="apple-touch-icon" href="/Gaokao-Academic-Resources/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
