@@ -1,6 +1,8 @@
 import React from 'react';
 import QuestionBrowser from '@/components/ui/QuestionBrowser';
 import mockData from '@data/mock_data.json';
+import { resolvePapers } from '@/lib/papers';
+import type { Paper, Question } from '@/types';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -14,7 +16,8 @@ export const metadata: Metadata = {
 };
 
 export default function StandardPage() {
-  const questions = mockData.standard;
+  const questions = mockData.standard as Question[];
+  const papers = resolvePapers('standard', questions, (mockData as { papers?: Paper[] }).papers);
 
   return (
     <div className='min-h-screen bg-[#fdfdfd] text-[#1a1a1a]'>
@@ -28,6 +31,7 @@ export default function StandardPage() {
       <main className='max-w-5xl mx-auto px-6 pb-24'>
         <QuestionBrowser
           questions={questions}
+          papers={papers}
           accent='bg-indigo-600'
         />
       </main>

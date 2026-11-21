@@ -6,7 +6,7 @@ import MathText from './MathText';
 
 type AiState = 'idle' | 'streaming' | 'done' | 'error';
 
-export default function QuestionCard({ question }: { question: Question }) {
+export default function QuestionCard({ question, index }: { question: Question; index?: number }) {
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [aiState, setAiState] = useState<AiState>('idle');
   const [aiText, setAiText] = useState('');
@@ -81,7 +81,12 @@ export default function QuestionCard({ question }: { question: Question }) {
   return (
     <div className="glass-card p-6 rounded-2xl mb-6">
       <div className="flex justify-between items-start gap-3 mb-4">
-        <span className="text-xs font-mono text-slate-400 shrink-0 pt-1">#{question.questionId}</span>
+        <span className="flex items-center gap-2 shrink-0 pt-1">
+          {typeof index === 'number' && (
+            <span className="px-2 py-0.5 bg-indigo-600 text-white text-xs font-bold rounded-md">第 {index + 1} 题</span>
+          )}
+          <span className="text-xs font-mono text-slate-400">#{question.questionId}</span>
+        </span>
         <div className="flex gap-2 flex-wrap justify-end">
           {question.tags.map(tag => (
             <span key={tag} className="px-2 py-0.5 bg-slate-100 text-slate-600 text-[10px] rounded-full">{tag}</span>
