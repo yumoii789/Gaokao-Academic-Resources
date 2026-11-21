@@ -22,7 +22,7 @@ export default function MathText({ text, className }: { text: string; className?
           <span
             key={i}
             dangerouslySetInnerHTML={{
-              __html: katex.renderToString(p.body, { throwOnError: false, output: 'html' }),
+              __html: katex.renderToString(p.body, { throwOnError: false, output: 'htmlAndMathml' }),
             }}
           />
         )
