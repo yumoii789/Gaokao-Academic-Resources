@@ -6,6 +6,11 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '春季高考真题练习 — 小墨高考',
   description: '春季高考真题在线浏览，逐题作答，即时查看解析。',
+  openGraph: {
+    title: '春季高考真题练习 — 小墨高考',
+    description: '春季高考真题在线浏览，逐题作答，即时查看解析。',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: '小墨高考 — AI驱动的学业提升平台' }],
+  },
 };
 
 export default function SpringPage() {
