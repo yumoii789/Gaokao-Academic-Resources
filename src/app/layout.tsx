@@ -19,10 +19,6 @@ export const metadata: Metadata = {
     description: '普通高考 · 春季高考 · 词汇工坊。权威真题、启发式 AI 助教、高效学习工具。',
     images: ['/og.png'],
   },
-  icons: {
-    icon: '/icon.png',
-    apple: '/apple-touch-icon.png',
-  },
 };
 
 export default function RootLayout({
@@ -33,6 +29,8 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <head>
+        <link rel="icon" type="image/png" href="/Gaokao-Academic-Resources/icon.png" />
+        <link rel="apple-touch-icon" href="/Gaokao-Academic-Resources/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
