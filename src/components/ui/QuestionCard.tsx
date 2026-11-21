@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import type { Question } from '@/types';
+import MathText from './MathText';
 
 type AiState = 'idle' | 'streaming' | 'done' | 'error';
 
@@ -88,9 +89,7 @@ export default function QuestionCard({ question }: { question: Question }) {
         </div>
       </div>
 
-      <div className="academic-title text-lg leading-relaxed mb-4">
-        {question.content}
-      </div>
+      <MathText text={question.content} className="academic-title text-lg leading-relaxed mb-4 block" />
 
       {question.imagePath && (
         <img src={question.imagePath} alt="题目配图" className="rounded-lg mb-4 max-w-full h-auto border border-slate-100" />
@@ -119,9 +118,9 @@ export default function QuestionCard({ question }: { question: Question }) {
       {showAnalysis && (
         <div className="mt-4 p-4 bg-slate-50 rounded-xl text-sm leading-loose text-slate-700 animate-in fade-in slide-in-from-top-2">
           <div className={'font-bold mb-2 ' + (subjectColor === 'emerald' ? 'text-emerald-900' : 'text-indigo-900')}>
-            标准答案：{question.answer}
+            标准答案：<MathText text={question.answer} />
           </div>
-          <div className="whitespace-pre-wrap">{question.analysis}</div>
+          <MathText text={question.analysis} className="whitespace-pre-wrap" />
         </div>
       )}
 

@@ -3,7 +3,6 @@
     {
       "questionId": "std-math-2023-01",
       "content": "已知函数 $f(x) = e^x - ln x$，求 $f(x)$ 的最小值。",
-      "imagePath": "/assets/images/math/std-2023-01.png",
       "answer": "e",
       "analysis": "通过求导法，令 $f'(x) = e^x - 1/x = 0$，解得 $x=1$...",
       "difficulty": 3,
@@ -19,13 +18,356 @@
       ],
       "year": 2023,
       "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-01",
+      "content": "设集合 $A = \\\\{x \\\\mid x^2 - 3x + 2 = 0\\\\}$，$B = \\\\{x \\\\mid x < 2\\\\}$，则 $A \\\\cap B = $（ ）",
+      "answer": "$\\\\{1\\\\}$",
+      "analysis": "解方程 $x^2-3x+2=0$ 得 $x=1$ 或 $x=2$，故 $A=\\\\{1,2\\\\}$。再由 $B=\\\\{x \\\\mid x<2\\\\}$，得 $A \\\\cap B = \\\\{1\\\\}$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "集合的运算",
+        "一元二次方程"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-02",
+      "content": "已知复数 $z = \\\\dfrac{2+i}{1-i}$（$i$ 为虚数单位），则 $|z| = $（ ）",
+      "answer": "$\\\\dfrac{\\\\sqrt{10}}{2}$",
+      "analysis": "$z=\\\\dfrac{(2+i)(1+i)}{(1-i)(1+i)}=\\\\dfrac{2+3i-1}{2}=\\\\dfrac{1+3i}{2}$，故 $|z|=\\\\sqrt{\\\\left(\\\\tfrac12\\\\right)^2+\\\\left(\\\\tfrac32\\\\right)^2}=\\\\dfrac{\\\\sqrt{10}}{2}$。也可先求模：$|z|=\\\\dfrac{|2+i|}{|1-i|}=\\\\dfrac{\\\\sqrt5}{\\\\sqrt2}$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "复数的运算",
+        "复数的模"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-03",
+      "content": "已知向量 $\\\\vec{a}=(1,2)$，$\\\\vec{b}=(x,-1)$，若 $\\\\vec{a} \\\\perp \\\\vec{b}$，则 $x = $（ ）",
+      "answer": "$2$",
+      "analysis": "垂直条件为数量积为零：$\\\\vec{a}\\\\cdot\\\\vec{b}=x-2=0$，解得 $x=2$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "平面向量的数量积",
+        "向量垂直"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-04",
+      "content": "函数 $f(x)=\\\\sin 2x \\\\cos \\\\dfrac{\\\\pi}{6} - \\\\cos 2x \\\\sin \\\\dfrac{\\\\pi}{6}$ 的最小正周期为（ ）",
+      "answer": "$\\\\pi$",
+      "analysis": "由两角差公式：$f(x)=\\\\sin\\\\left(2x-\\\\dfrac{\\\\pi}{6}\\\\right)$，其最小正周期 $T=\\\\dfrac{2\\\\pi}{\\\\omega}=\\\\dfrac{2\\\\pi}{2}=\\\\pi$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "两角和与差",
+        "三角函数的周期"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-05",
+      "content": "已知等差数列 $\\\\{a_n\\\\}$ 满足 $a_2=3$，$a_5=9$，则 $a_{10} = $（ ）",
+      "answer": "$19$",
+      "analysis": "由 $a_5-a_2=3d=6$ 得 $d=2$，$a_1=3-2=1$，故 $a_{10}=1+9\\\\times2=19$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "等差数列",
+        "通项公式"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-06",
+      "content": "从 5 名男生和 4 名女生中随机选取 3 人参加志愿服务，则选中的 3 人中恰有 1 名女生的概率为（ ）",
+      "answer": "$\\\\dfrac{10}{21}$",
+      "analysis": "总取法 $C_9^3=84$；恰 1 名女生：$C_4^1 \\\\cdot C_5^2=4\\\\times10=40$。故所求概率 $P=\\\\dfrac{40}{84}=\\\\dfrac{10}{21}$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "古典概型",
+        "排列组合"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2023-02",
+      "content": "已知双曲线 $\\\\dfrac{x^2}{a^2} - \\\\dfrac{y^2}{b^2} = 1$ $(a>0, b>0)$ 的一条渐近线方程为 $y=2x$，且其焦距为 $2\\\\sqrt{5}$，则双曲线的标准方程为________。",
+      "answer": "$\\\\dfrac{x^2}{1} - \\\\dfrac{y^2}{4} = 1$",
+      "analysis": "渐近线 $y=\\\\dfrac{b}{a}x=2x$ 得 $b=2a$；焦距 $2c=2\\\\sqrt5$ 得 $c=\\\\sqrt5$。由 $c^2=a^2+b^2=5a^2=5$ 得 $a=1, b=2$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "双曲线的标准方程",
+        "渐近线"
+      ],
+      "tags": [
+        "2023",
+        "数学",
+        "填空题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2023-03",
+      "content": "已知函数 $f(x) = x^3 - 3ax + 1$ 在 $(0,1)$ 上单调递减，则实数 $a$ 的取值范围是________。",
+      "answer": "$a \\\\geq 1$",
+      "analysis": "$f'(x)=3x^2-3a$。在 $(0,1)$ 上 $f'(x)<0 \\\\Leftrightarrow x^2<a$ 对所有 $x\\\\in(0,1)$ 成立。由于 $x^2\\\\to 1^-$，需 $a \\\\geq 1$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "利用导数研究单调性",
+        "恒成立问题"
+      ],
+      "tags": [
+        "2023",
+        "数学",
+        "填空题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2023-04",
+      "content": "在正方体 $ABCD-A_1B_1C_1D_1$ 中，棱长为 2，$E$ 为棱 $CC_1$ 的中点，则点 $E$ 到直线 $A_1B$ 的距离为________。",
+      "answer": "$\\\\dfrac{2\\\\sqrt{6}}{3}$",
+      "analysis": "以 $D$ 为原点建系：$A_1(2,0,2)$，$B(2,2,0)$，$E(0,2,1)$。$\\\\overrightarrow{A_1B}=(0,2,-2)$，$\\\\overrightarrow{A_1E}=(-2,2,-1)$。距离 $d=\\\\dfrac{|\\\\overrightarrow{A_1B}\\\\times\\\\overrightarrow{A_1E}|}{|\\\\overrightarrow{A_1B}|}=\\\\dfrac{4\\\\sqrt3}{2\\\\sqrt2}=\\\\dfrac{2\\\\sqrt6}{3}$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "空间向量",
+        "点线距离"
+      ],
+      "tags": [
+        "2023",
+        "数学",
+        "解答题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-math-2024-07",
+      "content": "已知函数 $f(x) = e^x - ax$ 有极小值 $f(x_0)$，且 $x_0 > 0$，求实数 $a$ 的取值范围，并证明：$f(x_0) < \\\\dfrac{1}{a}$。",
+      "answer": "$a > e$；证明见解析",
+      "analysis": "$f'(x)=e^x-a$。有极小值且极小值点 $x_0>0$，需 $a>e$（此时 $x_0=\\\\ln a>0$）。$f(x_0)=a-a\\\\ln a$。设 $g(a)=\\\\dfrac1a-(a-a\\\\ln a)$，对 $a>e$：$g'(a)=\\\\ln a - 2$，$g$ 在 $(e^2,+\\\\infty)$ 递增、$(e,e^2)$ 递减，且 $g(e^2)=\\\\dfrac{1}{e^2}+e^2-2>0$，故 $g(a)>0$，即 $f(x_0)<\\\\dfrac1a$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "导数与极值",
+        "不等式证明",
+        "分类讨论"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "解答题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "std-phys-2024-01",
+      "content": "一物体做匀加速直线运动，初速度为 $4\\\\ \\\\mathrm{m/s}$，加速度为 $2\\\\ \\\\mathrm{m/s^2}$，则它在前 $3\\\\ \\\\mathrm{s}$ 内的位移为（ ）",
+      "answer": "$21\\\\ \\\\mathrm{m}$",
+      "analysis": "由位移公式 $x=v_0t+\\\\dfrac12at^2=4\\\\times3+\\\\dfrac12\\\\times2\\\\times9=12+9=21\\\\ \\\\mathrm{m}$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "匀变速直线运动",
+        "位移公式"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2024-02",
+      "content": "关于万有引力定律，下列说法正确的是（ ）A. 两物体间的引力与质量成正比，与距离成正比  B. 两物体间的引力与距离的平方成反比  C. 引力常量的单位是 $\\\\mathrm{N \\\\cdot m^2/kg}$  D. 物体在地球表面附近的重力就是万有引力",
+      "answer": "B",
+      "analysis": "A 错：引力与距离的平方成反比。C 错：单位为 $\\\\mathrm{N \\\\cdot m^2/kg^2}$。D 错：地表附近的重力是万有引力的一个分量（考虑地球自转时二者略有差异），不能等同。B 正确。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "万有引力定律",
+        "单位制"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2024-03",
+      "content": "质量为 $2\\\\ \\\\mathrm{kg}$ 的物体在光滑水平面上受到水平恒力 $F=6\\\\ \\\\mathrm{N}$ 作用，从静止开始运动 $4\\\\ \\\\mathrm{s}$，则该过程中力 $F$ 对物体做的功为（ ）",
+      "answer": "$144\\\\ \\\\mathrm{J}$",
+      "analysis": "加速度 $a=F/m=3\\\\ \\\\mathrm{m/s^2}$，$4\\\\ \\\\mathrm{s}$ 内位移 $x=\\\\dfrac12at^2=24\\\\ \\\\mathrm{m}$，$W=Fx=6\\\\times24=144\\\\ \\\\mathrm{J}$。也可用动能定理：$v=at=12\\\\ \\\\mathrm{m/s}$，$W=\\\\dfrac12mv^2=144\\\\ \\\\mathrm{J}$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "牛顿第二定律",
+        "功",
+        "动能定理"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2023-02",
+      "content": "一列简谐横波沿 $x$ 轴正方向传播，波速为 $4\\\\ \\\\mathrm{m/s}$，波长 $\\\\lambda = 8\\\\ \\\\mathrm{m}$。波源起振方向向上，则平衡位置处的质点 $P$ 从开始振动起第一次到达波谷所需的时间为（ ）",
+      "answer": "$1.5\\\\ \\\\mathrm{s}$",
+      "analysis": "周期 $T=\\\\dfrac{\\\\lambda}{v}=2\\\\ \\\\mathrm{s}$。质点起振方向与波源相同（向上），先到波峰再回平衡位置再到波谷，需 $\\\\dfrac{3}{4}T=1.5\\\\ \\\\mathrm{s}$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "机械波的传播",
+        "周期与波速"
+      ],
+      "tags": [
+        "2023",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2024-04",
+      "content": "真空中两点电荷 $+Q$ 与 $-Q$ 相距 $2d$，则两电荷连线中点处的电场强度大小为（ ）",
+      "answer": "$\\\\dfrac{2kQ}{d^2}$",
+      "analysis": "两点电荷在中点产生的场强方向均由 $+Q$ 指向 $-Q$，各自大小 $E=\\\\dfrac{kQ}{d^2}$，叠加得 $E_{total}=\\\\dfrac{2kQ}{d^2}$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "电场强度的叠加",
+        "点电荷场强"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2024-05",
+      "content": "闭合线圈在匀强磁场中绕垂直于磁场的轴匀速转动，产生正弦交流电。若线圈转速加倍，则感应电动势的最大值将（ ）A. 不变  B. 加倍  C. 变为 4 倍  D. 减半",
+      "answer": "B",
+      "analysis": "$E_m=NBS\\\\omega$，转速加倍则角速度 $\\\\omega$ 加倍，故 $E_m$ 加倍。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "交变电流",
+        "最大值与转速关系"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2023-03",
+      "content": "一定质量的理想气体从状态 $A$ 等温膨胀到状态 $B$，再从 $B$ 等容降温到状态 $C$。已知 $T_A = 300\\\\ \\\\mathrm{K}$，$V_A = 2\\\\ \\\\mathrm{L}$，$V_B = 6\\\\ \\\\mathrm{L}$，状态 $A$ 的压强 $p_A = 9.0 \\\\times 10^5\\\\ \\\\mathrm{Pa}$。求：气体在状态 $B$ 的压强 $p_B$。",
+      "answer": "$p_B = 3.0 \\\\times 10^5\\\\ \\\\mathrm{Pa}$",
+      "analysis": "$A \\\\to B$ 为等温过程，由玻意耳定律 $p_A V_A = p_B V_B$，得 $p_B = \\\\dfrac{p_A V_A}{V_B} = \\\\dfrac{9.0\\\\times10^5 \\\\times 2}{6} = 3.0\\\\times10^5\\\\ \\\\mathrm{Pa}$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "理想气体状态方程",
+        "等温过程"
+      ],
+      "tags": [
+        "2023",
+        "物理",
+        "计算题",
+        "普通高考"
+      ],
+      "year": 2023,
+      "subject": "物理"
+    },
+    {
+      "questionId": "std-phys-2024-06",
+      "content": "氢原子从 $n=4$ 的能级跃迁到 $n=2$ 的能级，辐射出的光子能量为________ $\\\\mathrm{eV}$。（已知 $E_2=-3.4\\\\ \\\\mathrm{eV}$，$E_4=-0.85\\\\ \\\\mathrm{eV}$）",
+      "answer": "$2.55$",
+      "analysis": "辐射光子能量 $h\\\\nu = E_4 - E_2 = -0.85-(-3.4)=2.55\\\\ \\\\mathrm{eV}$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "玻尔模型",
+        "能级跃迁"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "填空题",
+        "普通高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
     }
   ],
   "spring": [
     {
       "questionId": "spr-phys-2022-05",
       "content": "分析一个理想气体在绝热膨胀过程中的压力变化曲线。",
-      "imagePath": "/assets/images/physics/spr-2022-05.png",
       "answer": "压力随体积增加而降低",
       "analysis": "根据绝热过程方程 $PV^gamma = C$...",
       "difficulty": 2,
@@ -40,6 +382,159 @@
         "春季高考"
       ],
       "year": 2022,
+      "subject": "物理"
+    },
+    {
+      "questionId": "spr-math-2024-01",
+      "content": "已知集合 $A = \\\\{x \\\\mid 1 < x < 3\\\\}$，$B = \\\\{x \\\\mid x \\\\geq 2\\\\}$，则 $A \\\\cup B = $（ ）",
+      "answer": "$\\\\{x \\\\mid x > 1\\\\}$",
+      "analysis": "两个集合取并集：$A$ 提供 $(1,3)$，$B$ 提供 $[2,+\\\\infty)$，并集覆盖 $(1,+\\\\infty)$，故 $A \\\\cup B = \\\\{x \\\\mid x>1\\\\}$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "集合的运算",
+        "不等式"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "选择题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "spr-math-2024-02",
+      "content": "函数 $f(x) = \\\\lg(x-1) + \\\\sqrt{4-x^2}$ 的定义域为________。",
+      "answer": "$(1, 2]$",
+      "analysis": "对数真数大于零：$x-1>0$ 得 $x>1$；根号内非负：$4-x^2\\\\geq0$ 得 $-2\\\\leq x\\\\leq2$。取交集得定义域 $(1,2]$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "函数的定义域",
+        "对数函数"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "填空题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "spr-math-2024-03",
+      "content": "已知二次函数 $f(x) = x^2 - 2ax + 3$ 在区间 $[0, 2]$ 上的最小值为 $-1$，求实数 $a$ 的值。",
+      "answer": "$a = 2$",
+      "analysis": "对称轴 $x=a$。分类讨论：若 $a<0$，最小值 $f(0)=3\\\\neq-1$；若 $0\\\\leq a\\\\leq2$，最小值 $f(a)=3-a^2=-1$ 得 $a=\\\\pm2$，结合范围取 $a=2$；若 $a>2$，最小值 $f(2)=7-4a=-1$ 得 $a=2$，与 $a>2$ 矛盾。综上 $a=2$。",
+      "difficulty": 3,
+      "knowledgePoints": [
+        "二次函数最值",
+        "分类讨论"
+      ],
+      "tags": [
+        "2024",
+        "数学",
+        "解答题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "数学"
+    },
+    {
+      "questionId": "spr-math-2023-02",
+      "content": "在 $\\\\triangle ABC$ 中，$a=3$，$b=5$，$C=120^\\\\circ$，则边 $c = $________。",
+      "answer": "$7$",
+      "analysis": "由余弦定理：$c^2=a^2+b^2-2ab\\\\cos C=9+25-2\\\\times3\\\\times5\\\\times(-\\\\dfrac12)=34+15=49$，故 $c=7$。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "余弦定理",
+        "解三角形"
+      ],
+      "tags": [
+        "2023",
+        "数学",
+        "填空题",
+        "春季高考"
+      ],
+      "year": 2023,
+      "subject": "数学"
+    },
+    {
+      "questionId": "spr-phys-2024-01",
+      "content": "下列物理量中，属于矢量的是（ ）A. 功  B. 动能  C. 动量  D. 电势能",
+      "answer": "C",
+      "analysis": "动量 $p=mv$ 既有大小又有方向，是矢量；功、动能、电势能均为标量。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "矢量与标量",
+        "基本概念"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "选择题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "spr-phys-2024-02",
+      "content": "某人用与水平方向成 $37^\\\\circ$ 角、大小为 $F=50\\\\ \\\\mathrm{N}$ 的力斜向上拉重物，沿水平地面移动 $s=4\\\\ \\\\mathrm{m}$，则拉力做的功为________ $\\\\mathrm{J}$。（$\\\\cos 37^\\\\circ = 0.8$）",
+      "answer": "$160$",
+      "analysis": "$W=Fs\\\\cos\\\\theta=50\\\\times4\\\\times0.8=160\\\\ \\\\mathrm{J}$。",
+      "difficulty": 1,
+      "knowledgePoints": [
+        "恒力做功",
+        "功的计算"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "填空题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "spr-phys-2024-03",
+      "content": "一电阻为 $R$ 的导体棒在磁感应强度为 $B$ 的匀强磁场中垂直切割磁感线，速度为 $v$，有效长度为 $L$。求导体棒中产生的感应电流大小，并判断感应电流方向与导体棒运动方向的关系。",
+      "answer": "$I = \\\\dfrac{BLv}{R}$；方向与运动方向满足右手定则",
+      "analysis": "动生电动势 $E=BLv$，由欧姆定律 $I=\\\\dfrac{E}{R}=\\\\dfrac{BLv}{R}$。方向用右手定则判断：磁感线穿过掌心，拇指指向运动方向，四指指向即为感应电流方向。",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "动生电动势",
+        "欧姆定律",
+        "右手定则"
+      ],
+      "tags": [
+        "2024",
+        "物理",
+        "解答题",
+        "春季高考"
+      ],
+      "year": 2024,
+      "subject": "物理"
+    },
+    {
+      "questionId": "spr-phys-2023-02",
+      "content": "质量为 $1\\\\ \\\\mathrm{kg}$ 的小球从离地 $20\\\\ \\\\mathrm{m}$ 高处自由落下，取 $g=10\\\\ \\\\mathrm{m/s^2}$，以地面为重力势能零点。求：小球落地时的动能。",
+      "answer": "$200\\\\ \\\\mathrm{J}$",
+      "analysis": "自由落体只有重力做功，机械能守恒：$E_k = mgh = 1\\\\times10\\\\times20 = 200\\\\ \\\\mathrm{J}$。（也可先求落地速度 $v=\\\\sqrt{2gh}=20\\\\ \\\\mathrm{m/s}$，再由 $E_k=\\\\dfrac12mv^2=200\\\\ \\\\mathrm{J}$。）",
+      "difficulty": 2,
+      "knowledgePoints": [
+        "机械能守恒",
+        "自由落体"
+      ],
+      "tags": [
+        "2023",
+        "物理",
+        "计算题",
+        "春季高考"
+      ],
+      "year": 2023,
       "subject": "物理"
     }
   ],
