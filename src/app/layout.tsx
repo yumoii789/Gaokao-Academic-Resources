@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yumoii789.github.io/Gaokao-Academic-Resources'),
   title: "小墨高考 — AI驱动的学业提升平台",
   description: "普通高考 · 春季高考 · 词汇工坊。权威真题、启发式 AI 助教、高效学习工具。",
 };
