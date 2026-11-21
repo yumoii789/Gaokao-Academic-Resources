@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import mockData from '@data/mock_data.json';
 import Link from 'next/link';
 
@@ -13,6 +13,15 @@ interface WordProgress {
 }
 
 type ProgressMap = Record<string, WordProgress>;
+type DiffFilter = 'all' | 1 | 2 | 3;
+
+const DIFF_LABEL: Record<number, string> = { 1: '基础', 2: '进阶', 3: '冲刺' };
+const DIFF_ACTIVE: Record<number, string> = {
+  1: 'bg-emerald-600 border-emerald-600 text-white',
+  2: 'bg-amber-600 border-amber-600 text-white',
+  3: 'bg-rose-500 border-rose-500 text-white',
+};
+const DIFF_TEXT: Record<number, string> = { 1: 'text-emerald-600', 2: 'text-amber-600', 3: 'text-rose-500' };
 
 function loadProgress(): ProgressMap {
   try {
@@ -28,6 +37,7 @@ export default function VocabPage() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [progress, setProgress] = useState<ProgressMap>({});
   const [hydrated, setHydrated] = useState(false);
+  const [filter, setFilter] = useState<DiffFilter>('all');
 
   // 挂载后从 localStorage 恢复进度与位置（避免 SSR/CSR 不匹配）
   useEffect(() => {
@@ -44,8 +54,19 @@ export default function VocabPage() {
     if (hydrated) localStorage.setItem(INDEX_KEY, String(currentIndex));
   }, [currentIndex, hydrated]);
 
+  const filtered = useMemo(
+    () => (filter === 'all' ? words : words.filter((w) => w.difficulty === filter)),
+    [words, filter]
+  );
+
+  const switchFilter = useCallback((f: DiffFilter) => {
+    setFilter(f);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+  }, []);
+
   const markWord = useCallback((word: string, known: boolean) => {
-    setProgress(prev => {
+    setProgress((prev) => {
       const next = { ...prev, [word]: { known, reviewedAt: Date.now() } };
       localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
       return next;
@@ -60,14 +81,31 @@ export default function VocabPage() {
     setIsFlipped(false);
   }, []);
 
-  const go = useCallback((delta: number) => {
-    setIsFlipped(false);
-    setCurrentIndex(prev => Math.min(words.length - 1, Math.max(0, prev + delta)));
-  }, [words.length]);
+  const go = useCallback(
+    (delta: number) => {
+      setIsFlipped(false);
+      setCurrentIndex((prev) => Math.min(filtered.length - 1, Math.max(0, prev + delta)));
+    },
+    [filtered.length]
+  );
 
-  const currentWord = words[currentIndex];
-  const knownCount = words.filter(w => progress[w.word]?.known).length;
-  const percent = words.length ? Math.round((knownCount / words.length) * 100) : 0;
+  // 数据驱动的难度统计（全量视角）
+  const diffStats = useMemo(() => {
+    const levels = Array.from(new Set(words.map((w) => w.difficulty))).sort((a, b) => a - b);
+    return levels.map((lv) => {
+      const ws = words.filter((w) => w.difficulty === lv);
+      return {
+        level: lv,
+        label: DIFF_LABEL[lv] || 'L' + lv,
+        total: ws.length,
+        known: ws.filter((w) => progress[w.word]?.known).length,
+      };
+    });
+  }, [words, progress]);
+
+  const currentWord = filtered[currentIndex];
+  const knownInFilter = filtered.filter((w) => progress[w.word]?.known).length;
+  const percent = filtered.length ? Math.round((knownInFilter / filtered.length) * 100) : 0;
   const isKnown = progress[currentWord.word]?.known;
 
   return (
@@ -78,14 +116,65 @@ export default function VocabPage() {
         <p className='text-slate-500 text-lg leading-relaxed'>把词汇记忆变成一场探索之旅。</p>
       </header>
 
-      {/* 进度条 */}
       <main className='max-w-xl mx-auto px-6 pb-24'>
+        {/* 词书统计 + 难度筛选（数据驱动） */}
+        <div className='glass-card rounded-2xl p-5 mb-6'>
+          <div className='flex justify-between items-baseline mb-3'>
+            <h2 className='text-sm font-medium text-slate-600'>词书 · {words[0]?.book}</h2>
+            <span className='font-mono text-xs text-slate-400'>共 {words.length} 词</span>
+          </div>
+          <div className='grid grid-cols-3 gap-2 mb-4'>
+            {diffStats.map((s) => (
+              <div key={s.level} className='rounded-xl border border-amber-100 bg-white/70 p-3'>
+                <div className='flex items-baseline justify-between'>
+                  <span className={'text-xs font-medium ' + (DIFF_TEXT[s.level] || 'text-slate-500')}>{s.label}</span>
+                  <span className='font-mono text-[10px] text-slate-400'>{s.known}/{s.total}</span>
+                </div>
+                <div className='mt-2 h-1.5 bg-amber-50 rounded-full overflow-hidden'>
+                  <div
+                    className='h-full rounded-full transition-all duration-500 bg-gradient-to-r from-amber-400 to-amber-600'
+                    style={{ width: (s.total ? Math.round((s.known / s.total) * 100) : 0) + '%' }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+          {/* 难度筛选 */}
+          <div className='flex items-center gap-2 flex-wrap' role='group' aria-label='按难度筛选单词'>
+            <span className='text-xs text-slate-400 mr-1'>筛选</span>
+            {(['all', 1, 2, 3] as DiffFilter[]).map((f) => {
+              const active = filter === f;
+              const label = f === 'all' ? '全部' : DIFF_LABEL[f];
+              const count = f === 'all' ? words.length : words.filter((w) => w.difficulty === f).length;
+              const activeCls = f === 'all' ? 'bg-amber-600 border-amber-600 text-white' : DIFF_ACTIVE[f];
+              return (
+                <button
+                  key={String(f)}
+                  onClick={() => switchFilter(f)}
+                  aria-pressed={active}
+                  className={
+                    'px-3 py-1 rounded-full border text-xs font-medium transition-all ' +
+                    (active
+                      ? activeCls
+                      : 'border-amber-100 text-slate-500 hover:border-amber-300 hover:text-amber-700')
+                  }
+                >
+                  {label} · {count}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 进度条（当前筛选范围内） */}
         <div className='glass-card rounded-2xl p-4 mb-8'>
           <div className='flex justify-between items-center mb-2 text-xs'>
-            <span className='font-mono text-slate-400'>已掌握 {knownCount} / {words.length}</span>
+            <span className='font-mono text-slate-400'>
+              已掌握 {knownInFilter} / {filtered.length}
+            </span>
             <div className='flex items-center gap-3'>
               <span className='font-mono text-amber-600 font-bold'>{percent}%</span>
-              {hydrated && knownCount > 0 && (
+              {hydrated && knownInFilter > 0 && (
                 <button onClick={resetProgress} className='text-slate-400 hover:text-red-500 transition-colors underline underline-offset-2'>
                   重置
                 </button>
@@ -99,12 +188,12 @@ export default function VocabPage() {
               const rect = e.currentTarget.getBoundingClientRect();
               const ratio = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
               setIsFlipped(false);
-              setCurrentIndex(Math.floor(ratio * words.length));
+              setCurrentIndex(Math.floor(ratio * filtered.length));
             }}
           >
             <div
               className='h-full bg-gradient-to-r from-amber-400 to-amber-600 rounded-full transition-all duration-500'
-              style={{ width: `${percent}%` }}
+              style={{ width: percent + '%' }}
             />
           </div>
         </div>
@@ -128,6 +217,11 @@ export default function VocabPage() {
                   ✓ 已掌握
                 </span>
               )}
+              <span
+                className={'absolute top-5 left-5 px-2.5 py-1 text-xs font-medium rounded-full border border-amber-100 bg-white ' + (DIFF_TEXT[currentWord.difficulty] || 'text-slate-500')}
+              >
+                {DIFF_LABEL[currentWord.difficulty] || 'L' + currentWord.difficulty}
+              </span>
               <span className='text-xs font-mono text-amber-400 mb-4'>WORD</span>
               <h2 className='text-6xl font-bold text-amber-900 academic-title'>{currentWord.word}</h2>
               <p className='mt-8 text-slate-400 text-sm'>点击翻页查看释义</p>
@@ -164,19 +258,13 @@ export default function VocabPage() {
             onClick={() => go(-1)}
             className='px-6 py-2 rounded-full border border-amber-200 text-amber-700 hover:bg-amber-50 transition-all'
           >上一个</button>
-          <span className='text-sm font-mono text-slate-400'>{currentIndex + 1} / {words.length}</span>
+          <span className='text-sm font-mono text-slate-400'>{currentIndex + 1} / {filtered.length}</span>
           <button
             onClick={() => go(1)}
             className='px-6 py-2 rounded-full bg-amber-600 text-white hover:bg-amber-700 transition-all shadow-lg shadow-amber-200'
           >下一个</button>
         </div>
       </main>
-      <style jsx>{`
-        .perspective-1000 { perspective: 1000px; }
-        .preserve-3d { transform-style: preserve-3d; }
-        .backface-hidden { backface-visibility: hidden; }
-        .rotate-y-180 { transform: rotateY(180deg); }
-      `}</style>
     </div>
   );
 }

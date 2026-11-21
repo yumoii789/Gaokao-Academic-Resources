@@ -38,3 +38,9 @@ body {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.04);
 }
+
+/* vocab 翻卡 3D 效果（从 styled-jsx 迁出，便于服务端与客户端一致） */
+.perspective-1000 { perspective: 1000px; }
+.preserve-3d { transform-style: preserve-3d; }
+.backface-hidden { backface-visibility: hidden; }
+.rotate-y-180 { transform: rotateY(180deg); }
