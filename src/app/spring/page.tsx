@@ -1,6 +1,12 @@
 import React from 'react';
 import QuestionCard from '@/components/ui/QuestionCard';
 import mockData from '@data/mock_data.json';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '春季高考真题练习 — 小墨高考',
+  description: '春季高考真题在线浏览，逐题作答，即时查看解析。',
+};
 
 export default function SpringPage() {
   const questions = mockData.spring;
