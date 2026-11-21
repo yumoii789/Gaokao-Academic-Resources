@@ -1,7 +1,10 @@
 
-import React, { useState } from 'react';
+'use client';
 
-export default function QuestionCard({ question }) {
+import React, { useState } from 'react';
+import type { Question } from '@/types';
+
+export default function QuestionCard({ question }: { question: Question }) {
   const [showAnalysis, setShowAnalysis] = useState(false);
 
   return (

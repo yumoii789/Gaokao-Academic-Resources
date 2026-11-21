@@ -1,7 +1,7 @@
 
 import React from 'react';
 import QuestionCard from '@/components/ui/QuestionCard';
-import mockData from '@/data/mock_data.json';
+import mockData from '@data/mock_data.json';
 
 export default function StandardPage() {
   const questions = mockData.standard;

@@ -1,6 +1,6 @@
 import React from 'react';
 import QuestionCard from '@/components/ui/QuestionCard';
-import mockData from '@/data/mock_data.json';
+import mockData from '@data/mock_data.json';
 
 export default function SpringPage() {
   const questions = mockData.spring;
