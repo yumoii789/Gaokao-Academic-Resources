@@ -20,6 +20,7 @@ export default function QuestionBrowser({
   const [year, setYear] = useState<number | '全部'>('全部');
   const [paperId, setPaperId] = useState<string | null>(null);
   const [paperQuery, setPaperQuery] = useState('');
+  const [inlineViewer, setInlineViewer] = useState(false);
 
   const byId = useMemo(() => new Map(questions.map(q => [q.questionId, q])), [questions]);
   const years = useMemo(
@@ -164,18 +165,37 @@ export default function QuestionBrowser({
                   PDF · {(source.bytes / 1024 / 1024).toFixed(1)} MB · 来源 {source.repository}
                 </div>
                 <div className='flex gap-3 text-xs font-medium'>
+                  <button onClick={() => setInlineViewer(v => !v)} className='text-indigo-600 hover:underline'>
+                    {inlineViewer ? '关闭内嵌' : '在线阅读'}
+                  </button>
                   <a href={rawUrl} target='_blank' rel='noreferrer' className='text-indigo-600 hover:underline'>打开 PDF</a>
                   <a href={githubUrl} target='_blank' rel='noreferrer' className='text-slate-500 hover:underline'>GitHub 原卷</a>
                 </div>
               </div>
-              <iframe
-                key={cdnUrl}
-                src={cdnUrl}
-                title={activePaper?.name + ' PDF'}
-                className='w-full h-[72vh] min-h-[560px] bg-slate-100'
-              />
+              {inlineViewer ? (
+                <iframe
+                  key={cdnUrl}
+                  src={cdnUrl}
+                  title={activePaper?.name + ' PDF'}
+                  className='w-full h-[72vh] min-h-[560px] bg-slate-100'
+                />
+              ) : (
+                <div className='flex min-h-[380px] flex-col items-center justify-center bg-gradient-to-br from-indigo-50/70 to-white px-6 py-12 text-center'>
+                  <div className='mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-white text-2xl font-bold text-indigo-600 shadow-sm border border-indigo-100'>PDF</div>
+                  <h3 className='text-lg font-semibold text-slate-800'>{activePaper?.name}</h3>
+                  <p className='mt-2 max-w-md text-sm leading-6 text-slate-500'>
+                    完整原卷包含该卷全部题目。原文件保留在来源仓库，点击后按需加载，不占用本站存储。
+                  </p>
+                  <button
+                    onClick={() => setInlineViewer(true)}
+                    className='mt-6 rounded-full bg-indigo-600 px-6 py-2.5 text-sm font-medium text-white hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400'
+                  >
+                    在线加载原卷
+                  </button>
+                </div>
+              )}
               <p className='px-4 py-3 text-xs leading-5 text-slate-400 bg-white/70'>
-                若内嵌阅读器未加载，请使用上方“打开 PDF”或“GitHub 原卷”。整份原卷包含该卷全部题目。
+                若内嵌阅读器未加载，请使用上方“打开 PDF”或“GitHub 原卷”切换来源。
               </p>
             </div>
           )}
