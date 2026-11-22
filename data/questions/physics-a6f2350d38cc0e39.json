@@ -18,7 +18,7 @@
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014北京理综.pdf#q01",
-      "content": "45\n1.40\n1.30\n1.25\n1.20\n1.10\n电流I（A）\n0.060\n0.120\n0.240\n0.260\n0.360\n0.480\n图2\n（4）根据（3）中所画图线可得出干电池的电动势E＝________V，内电阻r＝________Ω.\n（5）实验中，随着滑动变阻器滑片的移动，电压表的示数U 及干电池的输出功率P 都会发生变化。图3\n的各示意图中正确反映P-U 关系的是________。\n甲                      乙\n图1\n【答案】（1）甲\n（2）BC\n（3）如图\n（4）1.50（1.49～1.51），0.83（0.81～0.85）\n（5）C\n【解析】 （1）根据U＝E－Ir 测量电源电动势和内阻时，需要测出多组对应的路端电压U 和干路电流I ，\n电压表和电流表内阻影响会造成实验误差。电源内阻较小，所以电流表分压影响较大，因此应选择甲电路。\n（3）如图\n（4）根据U-I 图像，电源的电动势等于纵轴的截距，内阻为斜率的绝对值。\n（5）电源输出功率P＝UI＝U\n\n\n\nE－U\nr\n＝－1\nrU2＋E\nrU，P-U 图像为开口向下的二次函数，应选（C）",
+      "content": "下列说法中正确的是（     ）\n（A）物体温度降低，其分子热运动的平均动能增大\n（B）物体温度升高，其分子热运动的平均动能增大\n（C）物体温度降低，其内能一定增大\n（D）物体温度不变，其内能一定不变",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
@@ -32,149 +32,11 @@
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 3,
-        "questionNumber": 1,
+        "page": 1,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
         "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q02",
-      "content": "（16 分）\n如图所示，竖直平面内的四分之一圆弧轨道下端与水平桌面\n相切，小滑块A 和B 分别静止在圆弧轨道的最高点和最低\n点。现将A 无初速度释放，A 与B 碰撞后结合为一个整体，\n并沿桌面滑动。已知圆弧轨道光滑，半径R＝0.2m；A 和B\n的质量相等；A 和B 整体与桌面之间的动摩擦因数μ＝0.2。\n取重力加速度g＝10m/s2。求：\n（1）碰撞前瞬间A 的速率v；\n（2）碰撞后瞬间A 和B 整体的速率v′；\n（3）A 和B 整体在桌面上滑动的距离l。\n【解析】（1）从圆弧最高点滑到最低点的过程中机械能守恒则有：\n2\n1\n2\nA\nA\nA\nm v\nm gR\n=\n可以得出：\n2\n2\n/\nA\nv\ngR\nm s\n=\n=\n图3\n（A）         （B）           （C）            （D）\nP\nU\nO\nP\nU\nO\nP\nU\nO\nP\nU\nO\nB\nA\nO\nR\n（2）在圆弧底部和滑块B 相撞，动量守恒：\n(\n) '\nA\nB\nA\nA\nm\nm\nv\nm v\n+\n=\n得\n1\n'\n1\n/\n2\nA\nv\nv\nm s\n=\n=\n（3）滑块A 和B 粘在一起在桌面上滑行，摩擦力做负功，由动能定理可得：\n2\n2\n1\n1\n1\n(\n) '\ngh\n2\n2\n2\nA\nB\nA\nA\nA\nf l\nm\nm\nv\nm v\nm\n=\n+\n=\n=\n摩擦力：\n(\n)g= 2\ng\nA\nB\nA\nf\nm\nm\nm\n\n\n=\n+\n于是可以得到：\n1\n2\ng\ngR\n2\nA\nA\nm\nl\nm\n\n=\n则：\n0.25m\n4\nR\nl\n\n=\n=",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 4,
-        "questionNumber": 22,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q03",
-      "content": "（18 分）\n万有引力定律揭示了天体运行规律与地上物体运动规律具有内在的一致性。\n（1）用弹簧秤称量一个相对于地球静止的小物体的重量，随称量位置的变化可能会有不同的结果。已知地\n球质量为M，自转周期为T，万有引力常量为G。将地球视为半径为R、质量均匀分布的球体，不考虑空\n气的影响。设在地球北极地面称量时，弹簧秤的读数是F0。\na．若在北极上空高出地面h 处称量，弹簧秤读数为F1，求比值F1/F2 的表达式，并就h＝1.0%R 的情形算\n出具体数值（计算结果保留两位有效数字）；\nb．若在赤道地面称量，弹簧秤读数为F2，求比值F2/F0 的表达式。\n（2）设想地球绕太阳公转的圆周轨道半径r、太阳的半径Rs 和地球的半径R 三者均减小为现在的1.0%，\n而太阳和地球的密度均匀且不变。仅考虑太阳和地球之间的相互作用，以现实地球的1 年为标准，计算“设\n想地球”的1 年将变为多长？\n【解析】 （1）设小物体质量为m。\n（A）在北极地面                      GMm\nR2 ＝F0\n在北极上空高出地面h 处             G\nMm\n（R＋h）2＝F1\nF1\nF0＝\nR2\n（R＋h）2\n当h＝1.0%R 时\nF1\nF0＝1",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 5,
-        "questionNumber": 23,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q04",
-      "content": "012≈0.98.\n（B）在赤道地面，小物体随地球自转做匀速圆周运动，受到万有引力和弹簧秤的作用力，有\nGMm\nR2 －F2＝m4π2\nT2 R\n得F2\nF0＝1－4π2R3\nGMT2.\n（2）地球绕太阳做匀速圆周运动，受到太阳的万有引力，设太阳质量为MS，地球质量为M，地球公转周\n期为TE，有\nGMSM\nr2 ＝Mr4π2\nT2E\n得TE＝\n4π2r3\nGMS＝\n3πr3\nGρR3S.\n其中ρ 为太阳的密度。\n由上式可知，地球公转周期TE 仅与太阳的密度、地球公转轨道半径与太阳半径之比有关。因此“设想地球”\n的1 年与现实地球的1 年时间相同。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 5,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q05",
-      "content": "（20 分）\n导体切割磁感线的运动可以从宏观和微观两个角度来认识。如图所示，固定\n于水平面的U 形导线框处于竖直向下的匀强磁场中，金属直导线MN 在与其\n垂直的水平恒力F 作用下，在导线框上以速度v 做匀速运动，速度v 与恒力\nF 方向相同；导线MN 始终与导线框形成闭合电路。已知导线MN 电阻为R，\n其长度L 恰好等于平行轨道间距，磁场的磁感应强度为（B）忽略摩擦阻力和\n导线框的电阻。\n（1）通过公式推导验证：在Δt 时间内，F 对导线MN 所做的功W 等于电路获得的电能W 电，也等于导线\nMN 中产生的热量Q；\n（2）若导线MN 的质量m＝8.0 g、长度L＝0.10 m，感应电流I＝1.0 A，假设一个原子贡献一个自由电子，\n计算导线MN 中电子沿导线长度方向定向移动的平均速率ve（下表中列出一些你可能会用到的数据）；\n阿伏伽德罗常数NA\n6.0×1023 mol\n－1\n元电荷e",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 6,
-        "questionNumber": 24,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q06",
-      "content": "6×10\n－19 C\n导线MN 的摩尔质量 μ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 6,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q07",
-      "content": "0×10\n－2 kg/mol\n（3）经典物理学认为，金属的电阻源于定向运动的自由电子和金属离子（即金属原子失去电子后的剩余部\n分）的碰撞。展开你想象的翅膀，给出一个合理的自由电子的运动模型；在此基础上，求出导线MN 中金\n属离子对一个自由电子沿导线长度方向的平均作用力f－的表达式。\n【解析】（1）导线产生的感应电动势E＝BLv\n导线匀速运动，受力平衡\nF＝F 安＝BIL\n在Δt 时间内，外力F 对导线做功\nW＝FvΔt＝F 安vΔt＝BILvΔt\n电路获得的电能\nW 电＝qE＝IEΔt＝BILvΔt\n可见，F 对导线MN 做的功等于电路获得的电能W 电；\n导线MN 中产生的热量\nQ＝I2RΔt＝IΔt·IR＝qE＝W 电\n可见，电路获得的电能W 电等于导线MN 中产生的热量Q。\n（2）导线MN 中具有的原子数为\nN＝m\nμNA\n 因为一个金属原子贡献一个电子，所以导线MN 中的自由电子数也是N\n导线MN 单位体积内的自由电子数\nn＝N\nSL\n其中，S 为导线MN 的横截面积。\n因为电流\nI＝nveSe\n所以\nM\nN\nF\nB\nv\nve＝I\nnSe＝IL\nNe＝ILμ\nmNAe\n解得\nve＝7.8×10\n－6 m/s.\n（3）下列解法的共同假设：所有自由电子（简称电子，下同）以同一方式运动。\n方法一：动量解法\n设电子在第一次碰撞结束至下一次碰撞结束之间的运动都相同，经历的时间为Δt，电子的动量变化为零。\n因为导线MN 的运动，电子受到沿导线方向的洛伦兹力f 洛的作用\nf 洛＝evB\n沿导线方向，电子只受到金属离子的作用力和f 洛作用，所以\nIf－f 洛Δt＝0\n其中If 为金属离子对电子的作用力的冲量，其平均作用力为f，则If＝fΔt\n得\nf＝f 洛＝evB\n方法二：能量解法\nS 设电子从导线的一端到达另一端经历的时间为t，在这段时间内，通过导线一端的电子总数\nN＝It\ne\n电阻上产生的焦耳热是由于克服金属离子对电子的平均作用力f 做功产生的。\n在时间t 内，总的焦耳热\nQ＝NfL\n根据能量守恒定律，有\nQ＝W 电＝EIt＝BLvIt\n所以\nf＝evB\n方法三：力的平衡解法\n因为电流不变，所以假设电子以速度ve 相对导线做匀速直线运动。\n因为导线MN 的运动，电子受到沿导线方向的洛伦兹力f 洛的作用\nf 洛＝evB\n沿导线方向，电子只受到金属离子的平均作用力f 和f 洛作有，二力平衡，即f＝f 洛＝evB.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2014,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
-        "page": 6,
-        "questionNumber": 6,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
       }
     }
   ]

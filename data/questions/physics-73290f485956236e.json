@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 12,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2025/2025湖北.pdf#q01",
@@ -340,14 +340,15 @@
     },
     {
       "questionId": "physics:普通高考/2025/2025湖北.pdf#q15",
-      "content": "（18 分）如图所示，一足够长的平直木板放置在水平地面上，木板上有3n（n 是大于1\n的正整数）个质量均为m 的相同小滑块，从左向右依次编号为1、2、…、3n，木板的质量\n为nm。相邻滑块间的距离均为L，木板与地面之间的动摩擦因数为μ，滑块与木板间的动摩\n擦因数为2μ。初始时木板和所有滑块均处于静止状态。现给第1 个滑块一个水平向右的初\n速度，大小为βμgL （β 为足够大常数，g 为重力加速度大小）。滑块间的每次碰撞时间极\n短，碰后滑块均会粘在一起继续运动。最大静摩擦力等于滑动摩擦力。\n（1）求第1 个滑块与第2 个滑块碰撞前瞬间，第1 个滑块的速度大小\n（2）记木板滑动前第j 个滑块开始滑动时的速度为vj，第j + 1 个滑块开始滑动时的速度为\nvj + 1。用已知量和vj 表示vj + 1。\n（3）若木板开始滑动后，滑块间恰好不再相碰，求β 的值。（参考公式：12 + 22 + … + k2 =\n1\n6 k(k + 1)(2k + 1)\n【解析】（1）滑块1 运动时，对木板的摩擦力为f1 = 2μmg\n地面对木板的摩擦力为f2 = 4μnmg\n所以此过程中木板保持不动；每个滑块之间距离为L，所以对滑块1 根据动能定理有\n− 2μmgL = 1\n2 mv12 − 1\n2 mv02\n解得v1 =\n(β − 4)μgL\n（2）滑块间碰撞时间极短，碰后滑块粘在一起运动，若长木板不动，第j 个滑块开始运动时\n加速度为\n2\n2\nj\njmg\na\ng\njm\n\n\n\n=\n=\n根据运动学公式，第j 个滑块开始滑动到和第j + 1 个滑块碰撞时，有\n2\n2\n2\nj\nj\nj\nv\nv\na L\n\n−\n=\n第j 个滑块和第j + 1 个滑块碰撞过程中动量守恒有\n(\n)\n1\n1\nj\nj\njmv\nj\nmv +\n=\n+\n\n联立可得vj + 1 =\nj\nj + 1\nvj2 − 4μgL\n（3）当第k 个木块开始滑动时，木板恰好要滑动，此时有\n(\n)\n2\n=\n3\nkmg\nnm\nnm g\n\n\n\n+\n解得k = 2n（n 为整数）\n则第k + 1 个（即2n + 1）木块开始滑动时，木板开始滑动，要刚好不发生下一次碰撞，假\n设木板和剩下的木块不发生相对滑动，则\n(\n)\n(\n)\n(\n)\n2\n2\n1\n3\n1\nn\nmg\nnm\nnm g\nnm\nn\nm a\n\n\n\n\n+\n−\n+\n=\n+\n−\n\n\n木\n12 / 13\n则\n2\n2\n2\n1\ng\na\ng\nn\n\n\n=\n\n−\n木板和剩下的木块不发生相对滑动。\n对前面k + 1 个（即2n + 1）木块，有\n(\n)\n(\n)\n1\n2\n1\n2\n1\nk\nk\nmg\na\ng\nk\nm\n\n\n+\n\n+\n=\n=\n+\n木板开始滑动时，刚好不发生下一次碰撞，则对前面k + 1 个木块和k + 2 个木块共速，且相\n对位移恰好为L，则\n2\n2\n2\n1\n1\n2\n2\nk\nk\nv\nv\nv\nL\na\na\n+\n+\n−\n−\n=\n共\n共\n则\n2\n2\n1\n2\n4\nkv\nnv\ngL\n\n+\n=\n+\n共\n又\n1\n2\nk\nv\nat\nv\ngt\n\n+\n=\n=\n−\n共\n则\n1\n2\nkv\nv\nn\n+\n=\n共\n则\n2\n1\n8\n2\n1\nk\nn gL\nv\nn\n\n+\n=\n−\nj = 1 时，第一个滑块开始运动的速度v0 =\nβμgL ，则v02 = βμgL\nj = 2 时，根据动量守恒定律可得\n1\n2\n2\nmv\nmv\n=\n可得第2 个滑块开始运动的速度\n(\n)\n2\n1\n4\n2\nv\ngL\n\n\n=\n−\n则\n2\n2\n4\n4\nv\ngL\ngL\n\n\n=\n−\n由第二问可得，(\n)\n2\n2\n2\n2\n2\n1\n1\n4\nj\nj\nj\nv\nj v\nj\ngL\n\n+\n+\n=\n−\n，则对第3 个滑块到第k + 1 个滑块有\n2\n2\n3\n2\n9\n4\n4 4\nv\nv\ngL\n\n= \n−\n2\n2\n4\n3\n16\n9\n9 4\nv\nv\ngL\n\n=\n−\n2\n2\n5\n4\n25\n16\n16 4\nv\nv\ngL\n\n=\n\n−\n\n……\n(\n)\n2\n2\n2\n2\n2\n1\n1\n4\nk\nk\nk\nv\nk v\nk\ngL\n\n+\n+\n=\n−\n\n将从j = 2 到j = k + 1 相关方程累积求和可得\n(\n)\n(\n)(\n)\n2\n2\n2\n2\n3\n2\n2\n1\n2\n1\n2\n1\n1\n4\n1\n2\n3\n4\n3\nk\nk k\nk\nk\nv\ngL\ngL\nk\ngL\ngL\n\n\n\n\n+\n+\n+\n\n\n+\n=\n−\n+\n+\n+\n++\n=\n−\n\n\n13 / 13\n联立\n2\n1\n8\n2\n1\nk\nn gL\nv\nn\n\n+\n=\n−\n，k = 2n\n可得β = 4n(2n + 1)(8n2 + 10n + 5)\n3(2n − 1)",
+      "content": "（18 分）如图所示，一足够长的平直木板放置在水平地面上，木板上有3n（n 是大于1\n的正整数）个质量均为m 的相同小滑块，从左向右依次编号为1、2、…、3n，木板的质量\n为nm。相邻滑块间的距离均为L，木板与地面之间的动摩擦因数为μ，滑块与木板间的动摩\n擦因数为2μ。初始时木板和所有滑块均处于静止状态。现给第1 个滑块一个水平向右的初\n速度，大小为βμgL （β 为足够大常数，g 为重力加速度大小）。滑块间的每次碰撞时间极\n短，碰后滑块均会粘在一起继续运动。最大静摩擦力等于滑动摩擦力。\n（1）求第1 个滑块与第2 个滑块碰撞前瞬间，第1 个滑块的速度大小\n（2）记木板滑动前第j 个滑块开始滑动时的速度为vj，第j + 1 个滑块开始滑动时的速度为\nvj + 1。用已知量和vj 表示vj + 1。\n（3）若木板开始滑动后，滑块间恰好不再相碰，求β 的值。（参考公式：12 + 22 + … + k2 =\n1\n6 k(k + 1)(2k + 1)\n【解析】（1）滑块1 运动时，对木板的摩擦力为f1 = 2μmg\n地面对木板的摩擦力为f2 = 4μnmg\n所以此过程中木板保持不动；每个滑块之间距离为L，所以对滑块1 根据动能定理有\n− 2μmgL = 1\n2 mv12 − 1\n2 mv02\n解得v1 =\n(β − 4)μgL\n（2）滑块间碰撞时间极短，碰后滑块粘在一起运动，若长木板不动，第j 个滑块开始运动时\n加速度为\n2\n2\nj\njmg\na\ng\njm\n\n\n\n=\n=\n根据运动学公式，第j 个滑块开始滑动到和第j + 1 个滑块碰撞时，有\n2\n2\n2\nj\nj\nj\nv\nv\na L\n\n−\n=\n第j 个滑块和第j + 1 个滑块碰撞过程中动量守恒有\n(\n)\n1\n1\nj\nj\njmv\nj\nmv +\n=\n+\n\n联立可得vj + 1 =\nj\nj + 1\nvj2 − 4μgL\n（3）当第k 个木块开始滑动时，木板恰好要滑动，此时有\n(\n)\n2\n=\n3\nkmg\nnm\nnm g\n\n\n\n+\n解得k = 2n（n 为整数）\n则第k + 1 个（即2n + 1）木块开始滑动时，木板开始滑动，要刚好不发生下一次碰撞，假\n设木板和剩下的木块不发生相对滑动，则\n(\n)\n(\n)\n(\n)\n2\n2\n1\n3\n1\nn\nmg\nnm\nnm g\nnm\nn\nm a\n\n\n\n\n+\n−\n+\n=\n+\n−\n\n\n木\n12 / 13\n则\n2\n2\n2\n1\ng\na\ng\nn\n\n\n=\n\n−\n木板和剩下的木块不发生相对滑动。\n对前面k + 1 个（即2n + 1）木块，有\n(\n)\n(\n)\n1\n2\n1\n2\n1\nk\nk\nmg\na\ng\nk\nm\n\n\n+\n\n+\n=\n=\n+\n木板开始滑动时，刚好不发生下一次碰撞，则对前面k + 1 个木块和k + 2 个木块共速，且相\n对位移恰好为L，则\n2\n2\n2\n1\n1\n2\n2\nk\nk\nv\nv\nv\nL\na\na\n+\n+\n−\n−\n=\n共\n共\n则\n2\n2\n1\n2\n4\nkv\nnv\ngL\n\n+\n=\n+\n共\n又\n1\n2\nk\nv\nat\nv\ngt\n\n+\n=\n=\n−\n共\n则\n1\n2\nkv\nv\nn\n+\n=\n共\n则\n2\n1\n8\n2\n1\nk\nn gL\nv\nn\n\n+\n=\n−\nj = 1 时，第一个滑块开始运动的速度v0 =\nβμgL ，则v02 = βμgL\nj = 2 时，根据动量守恒定律可得\n1\n2\n2\nmv\nmv\n=\n可得第2 个滑块开始运动的速度\n(\n)\n2\n1\n4\n2\nv\ngL\n\n\n=\n−\n则\n2\n2\n4\n4\nv\ngL\ngL\n\n\n=\n−\n由第二问可得，(\n)\n2\n2\n2\n2\n2\n1\n1\n4\nj\nj\nj\nv\nj v\nj\ngL\n\n+\n+\n=\n−\n，则对第3 个滑块到第k + 1 个滑块有\n2\n2\n3\n2\n9\n4\n4 4\nv\nv\ngL\n\n= \n−\n2\n2\n4\n3\n16\n9\n9 4\nv\nv\ngL\n\n=\n−\n2\n2\n5\n4\n25\n16\n16 4\nv\nv\ngL\n\n=\n\n−\n\n……\n(\n)\n2\n2\n2\n2\n2\n1\n1\n4\nk\nk\nk\nv\nk v\nk\ngL\n\n+\n+\n=\n−\n\n将从j = 2 到j = k + 1 相关方程累积求和可得\n(\n)\n(\n)(\n)\n2\n2\n2\n2\n3\n2\n2\n1\n2\n1\n2\n1\n1\n4\n1\n2\n3\n4\n3\nk\nk k\nk\nk\nv\ngL\ngL\nk\ngL\ngL\n\n\n\n\n+\n+\n+\n\n\n+\n=\n−\n+\n+\n+\n++\n=\n−\n\n\n2 _ Snugl\nVk 一\n联 立 2n=1, j=on\n可 得 p= 4n(2n Tr He +5)\n13/13",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2025,
       "subject": "物理",
@@ -356,9 +357,9 @@
         "paperId": "physics:普通高考/2025/2025湖北.pdf",
         "page": 11,
         "questionNumber": 15,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     }
   ]

@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 8,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2013/2013海南.pdf#q01",
@@ -271,14 +271,15 @@
     },
     {
       "questionId": "physics:普通高考/2013/2013海南.pdf#q12",
-      "content": "模块3-5 试题（12 分）\n（1）（4 分）原子核23290Th 具有天然放射性，它经过若干次α 衰变和β 衰变后会变成新的原子核。下列原\n子核中，有三种是23290Th 衰变过程中可以产生的，它们是_____（填正确答案标号。选对1 个得2 分，选\n对2 个得3 分，选对3 个得4 分；每选错1 个扣2 分，最低得分为0 分）。\n（A）20482Pb\n（B）20382Pb\n（C）21684Po\n（D）22488Ra\n（E）22688Ra\n（2）（8 分）如图，光滑水平面上有三个物块A、B 和C，它们具有相同的质量，且位于同一直线上。开始\n时，三个物块均静止，先让A 以一定速度与B 碰撞，碰后它们粘在一起，然后又一起与C 碰撞并粘在一\n起，求前后两次碰撞中损失的动能之比。\n【解析】设三个物块A、B 和C 的质量均为m，A 与B 碰撞前A 的速度为v，碰撞后共同速度为\n1v ，A、\nB 与C 碰撞后共同速度为\n2v ，由动量守恒定律得\n1\n(\n)\nmv\nm\nm v\n=\n+\n                         ①\n2\n(\n)\nmv\nm\nm\nm v\n=\n+\n+\n                     ②\n设第一次碰撞中动能的损失为\n1\nE\n\n，第二次碰撞中动能的损失为\n2\nE\n\n，由能量守恒定律得\n2\n2\n1\n1\n1\n1 (\n)\n2\n2\nmv\nm\nm v\nE\n=\n+\n+ \n              ③\n2\n2\n1\n2\n2\n1\n1\n(\n)\n(\n)\n2\n2\nm\nm v\nm\nm\nm v\nE\n+\n=\n+\n+\n+ \n    ④\nA\nB\nC\nM\nN\nA\nB\nC\nA\nB\nC\nM\nN\nr1\ni\nr2\n红\n紫\n9 / 9\n联立①②③④解得\n1\n2\n3\nE\nE\n\n=\n\n                                ⑤",
+      "content": "模块3-5 试题（12 分）\n（1）（4 分）原子核23290Th 具有天然放射性，它经过若干次α 衰变和β 衰变后会变成新的原子核。下列原\n子核中，有三种是23290Th 衰变过程中可以产生的，它们是_____（填正确答案标号。选对1 个得2 分，选\n对2 个得3 分，选对3 个得4 分；每选错1 个扣2 分，最低得分为0 分）。\n（A）20482Pb\n（B）20382Pb\n（C）21684Po\n（D）22488Ra\n（E）22688Ra\n（2）（8 分）如图，光滑水平面上有三个物块A、B 和C，它们具有相同的质量，且位于同一直线上。开始\n时，三个物块均静止，先让A 以一定速度与B 碰撞，碰后它们粘在一起，然后又一起与C 碰撞并粘在一\n起，求前后两次碰撞中损失的动能之比。\n【解析】设三个物块A、B 和C 的质量均为m，A 与B 碰撞前A 的速度为v，碰撞后共同速度为\n1v ，A、\nB 与C 碰撞后共同速度为\n2v ，由动量守恒定律得\n1\n(\n)\nmv\nm\nm v\n=\n+\n                         ①\n2\n(\n)\nmv\nm\nm\nm v\n=\n+\n+\n                     ②\n设第一次碰撞中动能的损失为\n1\nE\n\n，第二次碰撞中动能的损失为\n2\nE\n\n，由能量守恒定律得\n2\n2\n1\n1\n1\n1 (\n)\n2\n2\nmv\nm\nm v\nE\n=\n+\n+ \n              ③\n2\n2\n1\n2\n2\n1\n1\n(\n)\n(\n)\n2\n2\nm\nm v\nm\nm\nm v\nE\n+\n=\n+\n+\n+ \n    ④\nA\nB\nC\nM\nN\nA\nB\nC\nA\nB\nC\nM\nN\nr1\ni\nr2\n红\n紫\n联 立 〇 DG)G1G 解 得\nAE _ ®\nAE,\n9/9",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2013,
       "subject": "物理",
@@ -287,9 +288,9 @@
         "paperId": "physics:普通高考/2013/2013海南.pdf",
         "page": 8,
         "questionNumber": 12,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     }
   ]

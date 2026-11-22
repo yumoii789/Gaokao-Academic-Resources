@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 10,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q01",
@@ -432,14 +432,15 @@
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q19",
-      "content": "（6 分）如图所示，一种光学传感器是通过接收器Q 接收到光的强度变化而触发工作的。光从挡风玻璃\n内侧P 点射向外侧M 点再折射到空气中，测得入射角为α，折射角为β；光从P 点射向外侧N 点，刚好发\n生全反射并被Q 接收，求光从玻璃射向空气时临界角θ 的正弦值表达式。\n11 / 11\n【详解】根据光的折射定律有：n = sinβ\nsinα\n根据光的全反射规律有：sinθ = 1\nn\n联立解得：sinθ = sinα\nsinβ",
+      "content": "（6 分）如图所示，一种光学传感器是通过接收器Q 接收到光的强度变化而触发工作的。光从挡风玻璃\n内侧P 点射向外侧M 点再折射到空气中，测得入射角为α，折射角为β；光从P 点射向外侧N 点，刚好发\n生全反射并被Q 接收，求光从玻璃射向空气时临界角θ 的正弦值表达式。\nM2 iy 外 侧\n9\n1 i 挡 风 玻 璃\n光 源 P 接 收 器 C 内 侧\n【 详 解 】 根 据 光 的 折 射 定 律 有 : n = SE\n根 据 兆 的 全 反 射 规 律 有 ,sing = ©\n联 立 解 得 ,sing = wo\n11 / 11",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2021,
       "subject": "物理",
@@ -448,9 +449,9 @@
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 10,
         "questionNumber": 18,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     }
   ]

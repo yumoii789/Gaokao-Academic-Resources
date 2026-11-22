@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 12,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2026/2026湖南.pdf#q01",
@@ -409,14 +409,15 @@
     },
     {
       "questionId": "physics:普通高考/2026/2026湖南.pdf#q18",
-      "content": "（16 分）\n如图，长为L 的轻杆竖直放置，上端固定一质量为m\n的小球，下端连接于水平地面上某固定点，杆可绕该点无\n摩擦转动。小球内部安装了质量不计的智能弹射装置。受\n轻微扰动后，小球和杆从静止开始一起运动，当两者间弹\n力为0 时，小球脱离轻杆，重力加速度为g，不计空气阻力。\n（1）求小球接触地面瞬间的速度v 的大小；\n（2）求小球接触地面瞬间的速度与水平面夹角α 的正切值；\n（3）小球与地面碰撞前后，竖直方向分速度大小相等、方向相反，水平方向分速度相\n等。碰撞后瞬间，智能弹射装置工作，小球在极短时间内分裂成两部分，两部分速度方向均\n与小球分裂前瞬间的速度方向成θ 角（θ 已知，且0 < θ < α）。设两部分质量之比为k，弹射\n装置释放的能量为E。\n（ⅰ）求E 与k 的关系；\n（ⅱ）当E 最小时，若分裂后两部分第一次落地时刻相同，求两部分第一次落地点的间\n距d。\n【解析】（1）根据机械能守恒定律有\n2\n1\n2\nmgL\nmv\n=\n解得小球接触地面瞬间的速度的大小v =\n2gL\n（2）设小球脱离轻杆时，轻杆与竖直方向的夹角为β，如图所示\n物理试题 第12页（共13 页）\n设此时小球的速度为v1，根据机械能守恒定律\n2\n1\n1\n(1 cos\n)\n2\nmgL\nmv\n\n−\n=\n对小球，根据牛顿第二定律\n2\n1\ncos\nv\nmg\nm L\n=\n解得\n2\ncos\n3\n=\n，\n1\n2\n3\ngL\nv =\n此时小球水平方向分速度\n1\n1 cos\nxv\nv\n\n=\n竖直方向分速度\n1\n1sin\nyv\nv\n\n=\n竖直方向，根据速度位移关系\n2\n2\n1\n2\ncos\ny\ny\nv\nv\ng L\n\n−\n=\n\n小球接触地面瞬间的速度与水平面夹角α 的正切值\n1\ntan\ny\nx\nv\nv\n=\n联立解得tanα =\n23\n2\n（3）（ⅰ）设其中一部分的质量为m0，则另一部分质量为km0，如图所示\n根据动量守恒定律有\n0 2\n0 3\nsin\nsin\nkm v\nm v\n\n\n=\n，\n0 2\n0 3\ncos\ncos\nkm v\nm v\nmv\n\n\n+\n=\n弹射装置释放的能量\n2\n2\n2\n0\n2\n0 3\n1\n1\n1\n2\n2\n2\nE\nkm v\nm v\nmv\n=\n+\n−\n联立可得E = [(1 + k)2\n4kcos2θ − 1]mgL\n（ⅱ）根据数学知识可知，当k = 1 时，E 最小为\n2\nmin\ntan\nE\nmgL\n\n=\n即有\n0 2\n0 3\nsin\nsin\nm v\nm v\n\n\n=\n，\n0 2\n0 3\ncos\ncos\nm v\nm v\nmv\n\n\n+\n=\n，\n2\n2\n2\nmin\n0\n2\n0 3\n1\n1\n1\n2\n2\n2\nE\nm v\nm v\nmv\n=\n+\n−\n两小球同时落地，运动时间为\n3\n2\nsin\nsin\n2\n2 v\nv\nt\ng\ng\n\n\n=\n\n=\n\n物理试题 第13页（共13 页）\n可得\n3\n2\nv\nv\n=\n两小球的距离\n2\n2\nsin\nd\nv\nt\n\n=\n\n由tanα =\n23\n2 可得\n23\nsin\n27\n=\n联立可得d = 8\n9 69 Ltanθ",
+      "content": "（16 分）\n如图，长为L 的轻杆竖直放置，上端固定一质量为m\n的小球，下端连接于水平地面上某固定点，杆可绕该点无\n摩擦转动。小球内部安装了质量不计的智能弹射装置。受\n轻微扰动后，小球和杆从静止开始一起运动，当两者间弹\n力为0 时，小球脱离轻杆，重力加速度为g，不计空气阻力。\n（1）求小球接触地面瞬间的速度v 的大小；\n（2）求小球接触地面瞬间的速度与水平面夹角α 的正切值；\n（3）小球与地面碰撞前后，竖直方向分速度大小相等、方向相反，水平方向分速度相\n等。碰撞后瞬间，智能弹射装置工作，小球在极短时间内分裂成两部分，两部分速度方向均\n与小球分裂前瞬间的速度方向成θ 角（θ 已知，且0 < θ < α）。设两部分质量之比为k，弹射\n装置释放的能量为E。\n（ⅰ）求E 与k 的关系；\n（ⅱ）当E 最小时，若分裂后两部分第一次落地时刻相同，求两部分第一次落地点的间\n距d。\n【解析】（1）根据机械能守恒定律有\n2\n1\n2\nmgL\nmv\n=\n解得小球接触地面瞬间的速度的大小v =\n2gL\n（2）设小球脱离轻杆时，轻杆与竖直方向的夹角为β，如图所示\n物理试题 第12页（共13 页）\n设此时小球的速度为v1，根据机械能守恒定律\n2\n1\n1\n(1 cos\n)\n2\nmgL\nmv\n\n−\n=\n对小球，根据牛顿第二定律\n2\n1\ncos\nv\nmg\nm L\n=\n解得\n2\ncos\n3\n=\n，\n1\n2\n3\ngL\nv =\n此时小球水平方向分速度\n1\n1 cos\nxv\nv\n\n=\n竖直方向分速度\n1\n1sin\nyv\nv\n\n=\n竖直方向，根据速度位移关系\n2\n2\n1\n2\ncos\ny\ny\nv\nv\ng L\n\n−\n=\n\n小球接触地面瞬间的速度与水平面夹角α 的正切值\n1\ntan\ny\nx\nv\nv\n=\n联立解得tanα =\n23\n2\n（3）（ⅰ）设其中一部分的质量为m0，则另一部分质量为km0，如图所示\n根据动量守恒定律有\n0 2\n0 3\nsin\nsin\nkm v\nm v\n\n\n=\n，\n0 2\n0 3\ncos\ncos\nkm v\nm v\nmv\n\n\n+\n=\n弹射装置释放的能量\n2\n2\n2\n0\n2\n0 3\n1\n1\n1\n2\n2\n2\nE\nkm v\nm v\nmv\n=\n+\n−\n联立可得E = [(1 + k)2\n4kcos2θ − 1]mgL\n（ⅱ）根据数学知识可知，当k = 1 时，E 最小为\n2\nmin\ntan\nE\nmgL\n\n=\n即有\n0 2\n0 3\nsin\nsin\nm v\nm v\n\n\n=\n，\n0 2\n0 3\ncos\ncos\nm v\nm v\nmv\n\n\n+\n=\n，\n2\n2\n2\nmin\n0\n2\n0 3\n1\n1\n1\n2\n2\n2\nE\nm v\nm v\nmv\n=\n+\n−\n两小球同时落地，运动时间为\n3\n2\nsin\nsin\n2\n2 v\nv\nt\ng\ng\n\n\n=\n\n=\n\n网 - 闹\n两 小 球 的 距 离 也 2 sin\nsina = 23\n73 5\n由 tana = 坚 可 得 27\na, 8\n联 立 可 得 d= G Lianb\n物 理 试 题 第 13 页 ( 共 13 页 )",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2026,
       "subject": "物理",
@@ -425,9 +426,9 @@
         "paperId": "physics:普通高考/2026/2026湖南.pdf",
         "page": 11,
         "questionNumber": 15,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     }
   ]

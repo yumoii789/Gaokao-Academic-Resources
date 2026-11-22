@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 18,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2020/2020江苏.pdf#q01",
@@ -478,14 +478,15 @@
     },
     {
       "questionId": "physics:普通高考/2020/2020江苏.pdf#q21",
-      "content": "（16 分）空间存在两个垂直于Oxy 平面的匀强磁\n场，y 轴为两磁场的边界，磁感应强度分别为2B0、3B0。\n甲、乙两种比荷不同的粒子同时从原点O 沿x 轴正向射\n入磁场，速度均为v。甲第1 次、第2 次经过y 轴的位\n置分别为P、Q，其轨迹如图所示。甲经过Q 时，乙也\n恰好同时经过该点。已知甲的质量为m，电荷量为q。\n不考虑粒子间的相互作用和重力影响。求：\n（1）Q 到O 的距离d；\n（2）甲两次经过P 点的时间间隔Δt；\n（3）乙的比荷q′\nm′ 可能的最小值。\n【解析】（1）甲粒子先后在两磁场中做匀速圆周运动，设半径分别为r1、r2\n带电粒子在磁场中做匀速圆周运动，由洛伦兹力提供向心力，由\n2v\nqvB\nm R\n=\n 得，\nr1 = mv\n2qB0 ，r2 = mv\n3qB0\nQ、O 的距离为：d = 2r1－2r2 = mv\n3qB0\n（2）【官方解答】甲粒子先后在两磁场中做匀速圆周运动，设运动时间分别为t1、t2\n由T = 2πm\nqB 得，t1 = πm\n2qB0 ，t2 = πm\n3qB0  且 Δt = 2t1＋3t2\n解得\nΔt = 2πm\nqB0\n由（1）可知，完成一周期运动上升的距离为d，粒子再次经过P，经过N 个周期，\n1\n2\n3\nR\nOP\nN\nd\nd\n=\n=\n=\n所以，再次经过P 点的时间为\n3\nt\nNT\nT\n=\n=\n由匀速圆周运动的规律得，\n1\n1\n0\n2 R\nm\nT\nv\nqB\n\n\n=\n=\n，\n2\n2\n0\n2\n2\n3\nR\nm\nT\nv\nqB\n\n\n=\n=\n3B0\n2B0\ny\nx\nO\nP\nQ\nv\n绕一周的时间为：\n1\n2\n2\n2\nT\nT\nT =\n+\n解得：T = 5πm\n6qB0\n所以，再次经过P 点的时间为 t = 3T = 5πm\n2qB0\n两次经过P 点的时间间隔为：\n1\n2\nT\nt\nt\n= −\n解得：Δt = 2πm\nqB0\n（3）【官方解答】乙粒子周期性地先后在两磁场中做匀速圆周运动\n若经过两磁场的次数均为n（n = 1，2，3，…）\n相遇时，有 n m′v\n3q′B0  = d，n5πm′\n6q′B0  = t1＋\nt2\n解得\nq′\nm′  = n q\nm\n根据题意，n = 1 舍去，当n = 2 时，q′\nm′ 有最小值 （q′\nm′ ）min = 2q\nm\n若先后经过右侧、左侧磁场的次数分别为（n＋1）、n（n = 1，2，3，…），经分析不可能相\n遇。\n综上分析，比荷的最小值为2q\nm\n由洛伦兹力提供向心力，由\n2v\nqvB\nm R\n=\n 得，\n1\n0\n'\n'\n2 '\nm v\nR\nq B\n=\n2\n0\n'\n'\n3 '\nm v\nR\nq B\n=\n1\n2\n'\n2\n' 2\n'\nd\nR\nR\n=\n−\n若乙粒子从第一象限进入第二象限的过程中与甲粒子在Q 点相遇，则：\n1\n2\n'\n'\nR\nnd\nOQ\nd\n+\n=\n=\n'\n'\n'\n1\n2\n1\n1\n2\n(\n)\n2\n2\n2\n2\n2\nT\nT\nT\nT\nT\nn\n+\n+\n=\n+\n结合以上式子，n 无解。\n若乙粒子从第二象限进入第一象限的过程中与甲离子在Q 点相遇，则：\n'\nnd\nOQ\n=\n'\n'\n1\n2\n1\n2\n(\n)\n2\n2\n2\n2\nT\nT\nT\nT\nn\n+\n=\n+\n计算可得\nq′\nm′  = n q\nm （n = 1，2，3，…）\n由于甲乙粒子比荷不同，则n = 2 时，乙的比荷q′\nm′ 最小，为q′\nm′  = 2q\nm\n解析",
+      "content": "（16 分）空间存在两个垂直于Oxy 平面的匀强磁\n场，y 轴为两磁场的边界，磁感应强度分别为2B0、3B0。\n甲、乙两种比荷不同的粒子同时从原点O 沿x 轴正向射\n入磁场，速度均为v。甲第1 次、第2 次经过y 轴的位\n置分别为P、Q，其轨迹如图所示。甲经过Q 时，乙也\n恰好同时经过该点。已知甲的质量为m，电荷量为q。\n不考虑粒子间的相互作用和重力影响。求：\n（1）Q 到O 的距离d；\n（2）甲两次经过P 点的时间间隔Δt；\n（3）乙的比荷q′\nm′ 可能的最小值。\n【解析】（1）甲粒子先后在两磁场中做匀速圆周运动，设半径分别为r1、r2\n带电粒子在磁场中做匀速圆周运动，由洛伦兹力提供向心力，由\n2v\nqvB\nm R\n=\n 得，\nr1 = mv\n2qB0 ，r2 = mv\n3qB0\nQ、O 的距离为：d = 2r1－2r2 = mv\n3qB0\n（2）【官方解答】甲粒子先后在两磁场中做匀速圆周运动，设运动时间分别为t1、t2\n由T = 2πm\nqB 得，t1 = πm\n2qB0 ，t2 = πm\n3qB0  且 Δt = 2t1＋3t2\n解得\nΔt = 2πm\nqB0\n由（1）可知，完成一周期运动上升的距离为d，粒子再次经过P，经过N 个周期，\n1\n2\n3\nR\nOP\nN\nd\nd\n=\n=\n=\n所以，再次经过P 点的时间为\n3\nt\nNT\nT\n=\n=\n由匀速圆周运动的规律得，\n1\n1\n0\n2 R\nm\nT\nv\nqB\n\n\n=\n=\n，\n2\n2\n0\n2\n2\n3\nR\nm\nT\nv\nqB\n\n\n=\n=\n3B0\n2B0\ny\nx\nO\nP\nQ\nv\n绕一周的时间为：\n1\n2\n2\n2\nT\nT\nT =\n+\n解得：T = 5πm\n6qB0\n所以，再次经过P 点的时间为 t = 3T = 5πm\n2qB0\n两次经过P 点的时间间隔为：\n1\n2\nT\nt\nt\n= −\n解得：Δt = 2πm\nqB0\n（3）【官方解答】乙粒子周期性地先后在两磁场中做匀速圆周运动\n若经过两磁场的次数均为n（n = 1，2，3，…）\n相遇时，有 n m′v\n3q′B0  = d，n5πm′\n6q′B0  = t1＋\nt2\n解得\nq′\nm′  = n q\nm\n根据题意，n = 1 舍去，当n = 2 时，q′\nm′ 有最小值 （q′\nm′ ）min = 2q\nm\n若先后经过右侧、左侧磁场的次数分别为（n＋1）、n（n = 1，2，3，…），经分析不可能相\n遇。\n综上分析，比荷的最小值为2q\nm\n由洛伦兹力提供向心力，由\n2v\nqvB\nm R\n=\n 得，\n1\n0\n'\n'\n2 '\nm v\nR\nq B\n=\n2\n0\n'\n'\n3 '\nm v\nR\nq B\n=\n1\n2\n'\n2\n' 2\n'\nd\nR\nR\n=\n−\n若乙粒子从第一象限进入第二象限的过程中与甲粒子在Q 点相遇，则：\n1\n2\n'\n'\nR\nnd\nOQ\nd\n+\n=\n=\n'\n'\n'\n1\n2\n1\n1\n2\n(\n)\n2\n2\n2\n2\n2\nT\nT\nT\nT\nT\nn\n+\n+\n=\n+\n结合以上式子，n 无解。\n若乙粒子从第二象限进入第一象限的过程中与甲离子在Q 点相遇，则：\n'\nnd\nOQ\n=\n'\n'\n1\n2\n1\n2\n(\n)\n2\n2\n2\n2\nT\nT\nT\nT\nn\n+\n=\n+\n计 算 可 得 万 =n (n=1, 2,3, =\nm m\n由 于 甲 乙 粒 孔 比 荷 不 同 , 则 n =2 时 , 乙 的 比 荷 丁 最 小 , HL = 刹\n解析",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2020,
       "subject": "物理",
@@ -494,9 +495,9 @@
         "paperId": "physics:普通高考/2020/2020江苏.pdf",
         "page": 11,
         "questionNumber": 16,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     },
     {

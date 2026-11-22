@@ -18,7 +18,7 @@
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015广东理综.pdf#q01",
-      "content": "00\n1.00\n(21\n)\n10\nE\nr\n=\n+\n+\n，\n解得E＝3.15V≈3.2V，r＝0.50Ω。",
+      "content": "甲、乙两人同时同地出发骑自行车做直线运动，前1 小时内的位移–时间图\n像如图所示。下列表述正确的是（    ）\n（A）0.2~0.5 小时内，甲的加速度比乙的大\n（B）0.2~0.5 小时内，甲的速度比乙的大\n（C）0.6-0.8 小时内，甲的位移比乙的小\n（D）0.8 小时内，甲、乙骑行的路程相等",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
@@ -32,54 +32,8 @@
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015广东理综.pdf",
-        "page": 4,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q02",
-      "content": "（18 分）如图（a）所示，平行长直金属导轨水平放置，间距L＝0.4m。导轨右端接有阻值R＝1Ω 的\n电阻，导体棒垂直放置在导轨上，且接触良好。导体棒及导轨的电阻均不计，导轨间正方形区域abcd 内有\n方向竖直向下的匀强磁场，bd 连线与导轨垂直，长度也为L 从0 时刻开始，磁感应强度B 的大小随时间t\n变化，规律如图（b）所示；同一时刻，棒从导轨左端开始向右匀速运动，1s 后刚好进入磁场。若使棒在导\n轨上始终以速度v＝1m/s 做直线运动，求：\n（1）棒进入磁场前，回路中的电动势E；\n（2）棒在运动过程中受到的最大安培力F，以及棒通过三角形abd 区域时电流i 与时间t 的关系式。\n【解析】（1）棒在进入磁场前，棒没有做切割磁感线，但磁场的强弱发生变化，导致磁通量发生变化。\nabcd 的面积\n2\n1\n2\nS\nL\n=\n                                          ①\nBS\nE\nn\nn\nt\nt\n\n\n=\n=\n\n\n                                           ②\n由①②联立得：E＝0.04V\n（2）棒进入磁场中后，做切割磁感线运动，当棒到达bd 时，产生的感应电流最大，同时切割长度最大，\n到达bd 时，产生的感应电动势\nbd\nE\nBL v\n=\n                        ③\n产生的感应电流\nE\nI\nR\n=\n                                         ④\n所受最大安培力\nbd\nF\nBIL\n=\n                                      ⑤\n由③④⑤联立得：F＝0.04N\n棒通过三角形abd 区域时，切割的长度\n2\nl\nvt\n=\n                     ⑥\n产生的感应电动势E\nBlv\n=\n                                      ⑦\n感应电流\nE\ni\nR\n\n=\n                                                ⑧\n由⑥⑦⑧联立感应电流为：\n2\n2Bv\ni\nt\nR\n=",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
-        "page": 4,
-        "questionNumber": 35,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q03",
-      "content": "（18 分）如图所示，一条带有圆轨道的长轨道水平固定，圆轨道竖直，底端分别与两侧的直轨道相切，\n半径R＝0.5m。物块A 以v0＝6m/s 的速度滑入圆轨道，滑过最高点Q，再沿圆轨道滑出后，与直轨上P 处\n静止的物块B 碰撞，碰后粘在一起运动，P 点左侧轨道光滑，右侧轨道呈粗糙段，光滑段交替排列，每段\n长度都为L＝0.1m。物块与各粗糙段间的动摩擦因素都为μ＝0.1，A、B 的质量均为m＝1kg（重力加速度\ng 取10m/s2；A、B 视为质点，碰撞时间极短）。\n（1）求A 滑过Q 点时的速度大小v 和受到的弹力大小F；\n（2）若碰后AB 最终停止在第k 个粗糙段上，求k 的数值；\n（3）求碰后AB 滑至第n 个（n＜k）光滑段上的速度vn 与n 的关系式。\n【解析】（1）物块A 滑入圆轨道到达Q 的过程中机械能守恒，根据机械能守恒：\n2\n2\n0\n1\n1\n2\n2\n2\nmv\nmv\nmgR\n=\n+\n                                   ①\n物块A 在做圆周运动：\n2\nN\nv\nF\nmg\nm R\n+\n=\n                      ②\n由①②联立得：v＝4m/s\nFN＝102N    方向向下                         ③\n（2）在与B 碰撞前，系统机械能守恒，所以与B 碰前A 的速度为6m/s，A 和B 在碰撞过程中动量守恒：\n0\n1\n(\n)\nA\nA\nB\nm v\nm\nm\nv\n=\n+\n                                     ④\nAB 碰后向右滑动，由动能定理得：\n2\n1\n1\n(\n)\n0\n(\n)\n2\nA\nB\nA\nB\nm\nm\ngs\nm\nm\nv\n\n−\n+\n=\n−\n+\n                       ⑤\n由④⑤联立得s＝4.5m\n45\ns\nk\nL\n\n=\n=\n（3）碰后AB 滑至第n 个光滑段上的速度vn，由动能定理得：\n2\n2\n1\n1\n1\n(\n)\n(\n)\n(\n)\n2\n2\nA\nB\nA\nB\nn\nA\nB\nm\nm\ngnL\nm\nm\nv\nm\nm\nv\n\n−\n+\n=\n+\n−\n+\n               ⑥\n解得：\n2\n1\n2\nnv\nv\ngnL\n\n=\n−",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
-        "page": 5,
-        "questionNumber": 36,
+        "page": 1,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
         "needsReview": false

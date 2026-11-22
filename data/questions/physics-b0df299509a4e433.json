@@ -13,8 +13,8 @@
     "format": "pdf"
   },
   "textPages": 10,
-  "ocrPages": 0,
-  "emptyPages": 1,
+  "ocrPages": 1,
+  "emptyPages": 0,
   "questions": [
     {
       "questionId": "physics:普通高考/2004/2004上海.pdf#q01",
@@ -1145,14 +1145,15 @@
     },
     {
       "questionId": "physics:普通高考/2004/2004上海.pdf#q50",
-      "content": "（1）套筒不拉出时杆恰平衡，两套筒相对秤纽的力矩与所求力矩相等，设套筒长为 L，合力矩为\nM = 2mg（AL\n2\nE\nA− d）\n= 2×0.1×10×（0.08 − 0.02）N·m\n= 0.12 N·m\n（2）由力矩平衡得\nm1gd = mgx1 + mg（x1 + x2），\n解得 m1 = A2x1 + x2\nd\nE\nAm = A2×0.05 + 0.08\n0.02\nE\nA×0.1 kg = 0.9 kg\n（3）正常称 1 kg 物体时内外套筒可一起向外拉出 xʹ，由力矩平衡得\nm2ʹgd = 2mgxʹ\n解得\nxʹ = Am2ʹ\n2m\nE\nAd = A\n1\n2×0.1\nE\nA×0.02 m = 0.1 m\n外层套筒丢失后称物，此时内套筒左端离秤纽距离为\nxʹ − d = 0.08 m，\n由力矩平衡得\nm2gd + M = mg（xʹ − d + AL\n2\nE\nA），\n解得\nm2 = Am\nd\nE\nA（xʹ − d + AL\n2\nE\nA）− AM\ngd\nE\nA= 0.2 kg。\n- 9 -\n- 10 -\n解析",
+      "content": "（1）套筒不拉出时杆恰平衡，两套筒相对秤纽的力矩与所求力矩相等，设套筒长为 L，合力矩为\nM = 2mg（AL\n2\nE\nA− d）\n= 2×0.1×10×（0.08 − 0.02）N·m\n= 0.12 N·m\n（2）由力矩平衡得\nm1gd = mgx1 + mg（x1 + x2），\n解得 m1 = A2x1 + x2\nd\nE\nAm = A2×0.05 + 0.08\n0.02\nE\nA×0.1 kg = 0.9 kg\n（3）正常称 1 kg 物体时内外套筒可一起向外拉出 xʹ，由力矩平衡得\nm2ʹgd = 2mgxʹ\n解得\nxʹ = Am2ʹ\n2m\nE\nAd = A\n1\n2×0.1\nE\nA×0.02 m = 0.1 m\n外层套筒丢失后称物，此时内套筒左端离秤纽距离为\nxʹ − d = 0.08 m，\n由力矩平衡得\nm2gd + M = mg（xʹ − d + AL\n2\nE\nA），\n解得\nm2 = Am\nd\nE\nA（xʹ − d + AL\n2\nE\nA）− AM\ngd\nE\nA= 0.2 kg。\n9\n- 10 -\n解析",
       "answer": "暂无结构化答案",
       "analysis": "原卷自动结构化，未提供人工校对解析。",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "OCR待校对"
       ],
       "year": 2004,
       "subject": "物理",
@@ -1161,9 +1162,9 @@
         "paperId": "physics:普通高考/2004/2004上海.pdf",
         "page": 8,
         "questionNumber": 23,
-        "extraction": "text",
+        "extraction": "ocr",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true
       }
     },
     {
