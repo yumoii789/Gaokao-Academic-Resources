@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+  "name": "2013北京理综",
+  "track": "standard",
+  "year": 2013,
+  "subject": "物理",
+  "source": {
+    "repository": "deekur/gaokaophysics",
+    "path": "普通高考/2013/2013北京理综.pdf",
+    "url": "https://raw.githubusercontent.com/deekur/gaokaophysics/main/%E6%99%AE%E9%80%9A%E9%AB%98%E8%80%83/2013/2013%E5%8C%97%E4%BA%AC%E7%90%86%E7%BB%BC.pdf",
+    "bytes": 396433,
+    "format": "pdf"
+  },
+  "textPages": 6,
+  "ocrPages": 0,
+  "emptyPages": 0,
+  "questions": [
+    {
+      "questionId": "physics:普通高考/2013/2013北京理综.pdf#q01",
+      "content": "1\nm\nx\nx\nx\nx h\nm\n=\n+\n+\n=\n对整个预备运动，由题设条件以及功和能的关系，有\n2\n0\n0\n1\n(\n)\n2\nm\nW\nkx\nmg h\nx\n+\n=\n+\n得W＝2525J＝2.5×103J",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+        "page": 5,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013北京理综.pdf#q02",
+      "content": "（20 分）对于同一物理问题，常常可以从宏观与微观两个不同角度进行研究，找出其内在联系，从而\n更加深刻地理解其物理本质。\n（1）一段横截面积为S、长为l 的直导线，单位体积内有n 个自由电子，电子电量为e。该导线通有电流\n时，假设自由电子定向移动的速率均为v。\n（a）求导线中的电流I；\n（b）将该导线放在匀强磁场中，电流方向垂直于磁感应强度B，导线所受安培力大小为F 安，导线内自由\n电子所受洛伦兹力大小的总和为F，推导F 安＝F。\nx\nO\nF\nx\nO\nF\n6 / 6\n（2）正方体密闭容器中有大量运动粒子，每个粒子质量为m，单位体积内粒子数量n 为恒量。为简化问\n题，我们假定：粒子大小可以忽略；其速率均为v，且与器壁各面碰撞的机会均等；与器壁碰撞前后瞬间，\n粒子速度方向都与器壁垂直，且速率不变。利用所学力学知识，导出器壁单位面积所受粒子压力f 与m、\nn 和v 的关系。\n（注意：解题过程中需要用到、但题目没有给出的物理量，要在解题时做必要的说明）\n【解析】（1）（a）设Δt 时间内通过导体横截面的电量为Δq，由电流定义，有\nI＝Δq\nΔt ＝neSvΔt\nΔt\n ＝neS\n（b）每个自由电子所受的洛伦兹力F 洛＝evB\n设导体中共有N 个自由电子N＝n·Sl\n导体中自由电子所受洛伦兹力大小的总和\nF＝NF 洛＝nSl·evB\n由安培力公式，有F 安＝IlB＝neSv·lB\n得F 安＝F\n（2）一个粒子每与器壁碰撞一次给器壁的冲量为\nΔI＝2mv\n如图，以器壁上的面积S 为底，以vΔt 为高构成柱体，由题设可知，其内的粒子在Δt 时间内有1/6 与器壁\nS 发生碰撞，碰壁粒子总数为\nN＝1\n6 nSvΔt\nΔt 时间内粒子的冲量为\nI＝NΔt＝1\n3 nSmv2Δt\n面积为S 的器壁受到粒子压力为F＝I\nΔt\n器壁单位面积所受粒子压力为\nf＝F\nS ＝1\n3 nmv2\n【解二】考虑单位面积，t 时间内能达到容器壁的粒子所占据的体积为V＝Svt＝1×vt，\n其中粒子有均等的概率与容器各面相碰，即可能达到目标区域的粒子数为1\n6 nV＝1\n6 nvt，\n由动量定理可得：f＝ΔP\nt ＝\n1\n6nvt（2×mv）\nt\n ＝1\n3 nmv2",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+        "page": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true
+      }
+    }
+  ]
+}
