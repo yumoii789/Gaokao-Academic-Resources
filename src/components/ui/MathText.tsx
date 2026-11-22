@@ -3,12 +3,12 @@ import 'katex/dist/katex.min.css';
 
 export default function MathText({ text, className }: { text: string; className?: string }) {
   const parts: { type: 'text' | 'math'; body: string }[] = [];
-  const regex = /\$([^$]+)\$/g;
+  const regex = /\$([^$]+)\$|\\\[([^\]]+)\\\]|\\\(([^)]+)\\\)/g;
   let last = 0;
   let m: RegExpExecArray | null;
   while ((m = regex.exec(text)) !== null) {
     if (m.index > last) parts.push({ type: 'text', body: text.slice(last, m.index) });
-    parts.push({ type: 'math', body: m[1] });
+    parts.push({ type: 'math', body: m[1] || m[2] || m[3] });
     last = m.index + m[0].length;
   }
   if (last < text.length) parts.push({ type: 'text', body: text.slice(last) });

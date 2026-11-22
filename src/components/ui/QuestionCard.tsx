@@ -2,74 +2,55 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import type { Question } from '@/types';
+import { streamTutor } from '@/lib/ai';
 import MathText from './MathText';
+import FormattedText from './FormattedText';
 
 type AiState = 'idle' | 'streaming' | 'done' | 'error';
+type AiMode = 'hint' | 'explain';
 
 export default function QuestionCard({ question, index }: { question: Question; index?: number }) {
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [aiState, setAiState] = useState<AiState>('idle');
+  const [aiMode, setAiMode] = useState<AiMode>('hint');
   const [aiText, setAiText] = useState('');
   const abortRef = useRef<AbortController | null>(null);
 
-  useEffect(() => {
-    return () => { abortRef.current?.abort(); };
-  }, []);
+  useEffect(() => () => abortRef.current?.abort(), []);
 
-  async function askAi() {
+  async function askAi(mode: AiMode) {
     if (aiState === 'streaming') {
       abortRef.current?.abort();
       setAiState('done');
       return;
     }
-    if (aiState === 'done') {
-      setAiText('');
-    }
+    setAiMode(mode);
+    setAiText('');
     setAiState('streaming');
     const controller = new AbortController();
     abortRef.current = controller;
-
+    const systemPrompt = mode === 'hint'
+      ? '你是高考启发式助教。先指出审题关键，再给一个引导问题和一个提示，不直接给最终答案，控制在250字内。'
+      : '你是高考解析老师。按“审题—知识点—逐步推导—答案核验”讲解。若题干缺失或OCR可疑，必须明确指出，不得编造。';
     try {
-      const res = await fetch('/api/ai', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        signal: controller.signal,
-        body: JSON.stringify({
-          prompt: question.content,
-          context: '科目: ' + question.subject + ' | 年份: ' + question.year + ' | 知识点: ' + question.knowledgePoints.join('、'),
-        }),
-      });
-      if (!res.ok || !res.body) throw new Error('AI service unavailable');
-
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let buffer = '';
-      let text = '';
-
-      while (true) {
-        const step = await reader.read();
-        if (step.done) break;
-        buffer += decoder.decode(step.value, { stream: true });
-        const lines = buffer.split('\n');
-        buffer = lines.pop() || '';
-        for (const line of lines) {
-          const trimmed = line.trim();
-          if (!trimmed.startsWith('data:')) continue;
-          const payload = trimmed.slice(5).trim();
-          if (payload === '[DONE]') continue;
-          try {
-            const delta = JSON.parse(payload)?.choices?.[0]?.delta?.content;
-            if (delta) {
-              text += delta;
-              setAiText(text);
-            }
-          } catch { /* 忽略不完整 JSON 行 */ }
-        }
-      }
-      setAiState(text ? 'done' : 'error');
-      if (!text) setAiText('');
-    } catch (e) {
-      if ((e as Error).name !== 'AbortError') {
+      const text = await streamTutor([
+        { role: 'system', content: systemPrompt },
+        {
+          role: 'user',
+          content: [
+            '科目：' + question.subject,
+            '年份：' + question.year,
+            '知识点：' + question.knowledgePoints.join('、'),
+            '题目：',
+            question.content,
+          ].join('\n'),
+        },
+      ], value => {
+        if (!controller.signal.aborted) setAiText(value);
+      }, controller.signal);
+      if (!controller.signal.aborted) setAiState(text ? 'done' : 'error');
+    } catch (error) {
+      if ((error as Error).name !== 'AbortError' && !controller.signal.aborted) {
         setAiState('error');
         setAiText('');
       }
@@ -100,7 +81,7 @@ export default function QuestionCard({ question, index }: { question: Question; 
         <img src={question.imagePath} alt="题目配图" className="rounded-lg mb-4 max-w-full h-auto border border-slate-100" />
       )}
 
-      <div className="flex gap-3">
+      <div className="flex flex-wrap gap-3">
         <button
           onClick={() => setShowAnalysis(!showAnalysis)}
           className="px-4 py-2 text-sm font-medium rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 transition-colors"
@@ -108,15 +89,17 @@ export default function QuestionCard({ question, index }: { question: Question; 
           {showAnalysis ? '隐藏解析' : '查看解析'}
         </button>
         <button
-          onClick={askAi}
-          className={
-            'px-4 py-2 text-sm font-medium rounded-lg border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 transition-colors ' +
-            (aiState === 'streaming'
-              ? 'border-indigo-300 bg-indigo-50 text-indigo-700'
-              : 'border-slate-200 hover:bg-slate-50')
-          }
+          onClick={() => askAi('hint')}
+          className="px-4 py-2 text-sm font-medium rounded-lg border border-slate-200 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 transition-colors"
         >
-          {aiState === 'streaming' ? '■ 停止' : aiState === 'done' ? '↻ 重新引导' : '✦ AI 引导'}
+          {aiState === 'streaming' ? '■ 停止' : aiState === 'done' && aiMode === 'hint' ? '↻ 重新引导' : '✦ AI 引导'}
+        </button>
+        <button
+          onClick={() => askAi('explain')}
+          disabled={aiState === 'streaming'}
+          className="px-4 py-2 text-sm font-medium rounded-lg border border-indigo-200 text-indigo-700 hover:bg-indigo-50 disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 transition-colors"
+        >
+          {aiState === 'done' && aiMode === 'explain' ? '↻ 重新解析' : '✦ AI 解析'}
         </button>
       </div>
 
@@ -133,10 +116,10 @@ export default function QuestionCard({ question, index }: { question: Question; 
         <div className="mt-4 p-4 rounded-xl text-sm leading-loose text-slate-700 bg-gradient-to-br from-indigo-50/60 to-transparent border border-indigo-100 animate-in fade-in slide-in-from-top-2">
           <div className="flex items-center gap-2 mb-2">
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse" />
-            <span className="font-bold text-indigo-900 text-xs font-mono">AI 助教 · 启发式引导</span>
+            <span className="font-bold text-indigo-900 text-xs font-mono">AI 助教 · {aiMode === 'hint' ? '启发式引导' : '逐步解析'}</span>
           </div>
           <div className="whitespace-pre-wrap">
-            {aiText}
+            <FormattedText text={aiText} />
             {aiState === 'streaming' && <span className="inline-block w-0.5 h-4 bg-indigo-400 ml-0.5 animate-pulse align-text-bottom" />}
           </div>
         </div>
@@ -144,7 +127,7 @@ export default function QuestionCard({ question, index }: { question: Question; 
 
       {aiState === 'error' && (
         <div className="mt-4 p-3 rounded-xl bg-red-50 border border-red-100 text-sm text-red-600">
-          AI 服务暂时不可用，请稍后再试。
+          AI 服务暂不可用，请检查网络后重试。
         </div>
       )}
     </div>

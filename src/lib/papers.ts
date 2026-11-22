@@ -1,5 +1,7 @@
 import mathPapers from '@data/gaokaomath.papers.json';
 import physicsPapers from '@data/gaokaophysics.papers.json';
+import mathStructured from '@data/gaokaomath.questions.index.json';
+import physicsStructured from '@data/gaokaophysics.questions.index.json';
 import type { Paper, Question } from '@/types';
 
 const SUBJECT_SLUG: Record<string, string> = {
@@ -15,6 +17,11 @@ const SUBJECT_SLUG: Record<string, string> = {
 };
 
 const ARCHIVE_PAPERS = [...mathPapers, ...physicsPapers] as Paper[];
+const STRUCTURED = new Map(
+  [...mathStructured, ...physicsStructured]
+    .filter(x => x.count > 0)
+    .map(x => [x.paperId, x])
+);
 
 export function buildPapers(track: 'standard' | 'spring', questions: Question[]): Paper[] {
   const groups = new Map<string, Question[]>();
@@ -54,5 +61,7 @@ export function resolvePapers(
     ? explicit
     : ARCHIVE_PAPERS.filter(p => p.track === track);
   const papers = archive.length > 0 ? archive : buildPapers(track, questions);
-  return [...papers].sort((a, b) => b.year - a.year || a.name.localeCompare(b.name, 'zh-CN'));
+  return [...papers]
+    .map(p => ({ ...p, structured: STRUCTURED.get(p.paperId) }))
+    .sort((a, b) => b.year - a.year || a.name.localeCompare(b.name, 'zh-CN'));
 }

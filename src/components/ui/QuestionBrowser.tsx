@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import type { Paper, Question } from '@/types';
 import QuestionCard from './QuestionCard';
+import StructuredPaper from './StructuredPaper';
 
 const encodePath = (path: string) => path.split('/').map(encodeURIComponent).join('/');
 
@@ -21,6 +22,7 @@ export default function QuestionBrowser({
   const [paperId, setPaperId] = useState<string | null>(null);
   const [paperQuery, setPaperQuery] = useState('');
   const [inlineViewer, setInlineViewer] = useState(false);
+  const [showOriginal, setShowOriginal] = useState(false);
 
   const byId = useMemo(() => new Map(questions.map(q => [q.questionId, q])), [questions]);
   const years = useMemo(
@@ -42,6 +44,11 @@ export default function QuestionBrowser({
   const activePaper = view === 'paper'
     ? paperChoices.find(p => p.paperId === paperId) || paperChoices[0] || null
     : null;
+  useEffect(() => {
+    setShowOriginal(false);
+    setInlineViewer(false);
+  }, [activePaper?.paperId]);
+
   const filtered = useMemo(
     () => questions.filter(q =>
       (subject === '全部' || q.subject === subject) && (year === '全部' || q.year === year)
@@ -158,13 +165,20 @@ export default function QuestionBrowser({
             </div>
           </div>
 
-          {source && (
+          {source && activePaper?.structured && !showOriginal && (
+            <StructuredPaper paper={activePaper} onShowOriginal={() => setShowOriginal(true)} />
+          )}
+
+          {source && (!activePaper?.structured || showOriginal) && (
             <div className='glass-card rounded-2xl overflow-hidden'>
               <div className='flex flex-wrap items-center justify-between gap-3 px-4 py-3 border-b border-slate-100 bg-white/80'>
                 <div className='text-xs text-slate-500'>
                   PDF · {(source.bytes / 1024 / 1024).toFixed(1)} MB · 来源 {source.repository}
                 </div>
                 <div className='flex gap-3 text-xs font-medium'>
+                  {showOriginal && activePaper?.structured && (
+                    <button onClick={() => setShowOriginal(false)} className='text-indigo-600 hover:underline'>返回逐题</button>
+                  )}
                   <button onClick={() => setInlineViewer(v => !v)} className='text-indigo-600 hover:underline'>
                     {inlineViewer ? '关闭内嵌' : '在线阅读'}
                   </button>
