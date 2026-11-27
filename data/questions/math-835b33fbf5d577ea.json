@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2025/2025北京.pdf",
   "name": "2025北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q01",
       "content": "已知集合M = {x | 2x −1 > 5}, N = {1, 2, 3}, 则M ∩N =\n(\n)\n(A) {1, 2, 3}\n(B) {2, 3}\n(C) {3}\n(D) ∅",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q02",
       "content": "已知复数z 满足i · z + 2 = 2i, 则|z| =\n(\n)\n(A)\n√\n2\n(B) 2\n√\n2\n(C) 4\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q03",
       "content": "双曲线x2 −4y2 = 4 的离心率为\n(\n)\n(A)\n√\n3\n2\n(B)\n√\n5\n2\n(C) 5\n4\n(D)\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q04",
       "content": "为了得到函数y = 9x 的图象, 只需把函数y = 3x 的图象上所有点的(\n)\n(A) 横坐标变为原来的1\n2 倍(纵坐标不变)\n(B) 横坐标变为原来的2 倍(纵坐标不变)\n(C) 纵坐标变为原来的1\n3 倍(横坐标不变)\n(D) 纵坐标变为原来的3 倍(横坐标不变)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q05",
       "content": "已知{an} 是公差不为零的等差数列, a1 = −2, 若a3, a4, a6 成等比数列,\n则a10 =\n(\n)\n(A) −20\n(B) −18\n(C) 16\n(D) 18",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q06",
       "content": "已知a > 0, b > 0, 则\n(\n)\n(A) a2 + b2 > 2ab (B) 1\na + 1\nb ⩾1\nab\n(C) a + b >\n√\nab\n(D) 1\na + 1\nb ⩽\n2\n√\nab",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q07",
       "content": "已知函数f (x) 的定义域为D, 则“f (x) 的值域为R”是“对任意M ∈R,\n存在x0 ∈D, 使得|f (x0)| > M”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q08",
       "content": "设函数f (x) = sin ωx + cos ωx (ω > 0), 若f (x + π) = f (x) 恒成立, 且\nf (x) 在\n[\n0, π\n4\n]\n上存在零点, 则ω 的最小值为\n(\n)\n(A) 8\n(B) 6\n(C) 4\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q09",
       "content": "在一定条件下, 某人工智能大语言模型训练N 个单位的数据量所需要的时\n间T = klog2N (单位: h), 其中k 为常数. 在此条件下, 已知训练数据量\nN 从106 个单位增加到1.024 × 109 个单位时, 训练时间增加20 h; 当训练\n数据量N 从1.024 × 109 个单位增加到4.096 × 109 个单位时, 训练时间增\n加\n(\n)\n(A) 2 h\n(B) 4 h\n(C) 20 h\n(D) 40 h",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q10",
       "content": "在平面直角坐标系xOy 中,\n���#   »\nOA\n���=\n���#    »\nOB\n���=\n√\n2,\n���#   »\nAB\n���= 2, 设C (3, 4), 则\n���2#   »\nCA + #   »\nAB\n���的取值范围是\n(\n)\n(A) [6, 14]\n(B) [6, 12]\n(C) [8, 14]\n(D) [8, 12]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q11",
       "content": "已知抛物线y2 = 2px (p > 0) 的顶点到焦点的距离为3, 则p =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q12",
       "content": "已知(1 −2x)4 = a0 −2a1x + 4a2x2 −8a3x3 + 16a4x4, 则a0 =\n;\na1 + a2 + a3 + a4 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q13",
       "content": "已知α, β ∈[0, 2π], 且sin (α + β) = sin (α −β), cos (α + β)̸ = cos (α −β).\n写出满足条件的一组α, β 的值α =\n, β =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q14",
       "content": "某科技兴趣小组用3D 打印机制作的一个零件可以抽象为如图所示的多\n面体, 其中ABCDEF 是一个平面多边形, 平面AFR ⊥平面ABC, 平面\nCDT ⊥平面ABC, AB ⊥BC, AB\nEF\nRS\nCD, BC\nDE\nST\nAF. 若AB = BC = 8, AF = CD = 4, RA = RF = TC = TD = 5\n2, 则\n该多面体的体积为\n.\nA\nF\nR\nS\nB\nE\nC\nD\nT",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -332,22 +421,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-835b33fbf5d577ea-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-835b33fbf5d577ea-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q15",
       "content": "关于定义域为R 的函数f (x), 给出下列四个结论:\n①存在在R 上单调递增的函数f (x) 使得f (x) + f (2x) = −x 恒成立;\n②存在在R 上单调递减的函数f (x) 使得f (x) −f (2x) = x 恒成立;\n③使得f (x) + f (−x) = cos x 恒成立的函数f (x) 存在且有无穷多个;\n④使得f (x) −f (−x) = cos x 恒成立的函数f (x) 存在且有无穷多个.\n其中正确结论的序号是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -355,22 +454,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q16",
       "content": "在△ABC 中, cos A = −1\n3, a sin C = 4\n√\n2.\n(1) 求c 的值;\n(2) 再从条件①、条件②、条件③这三个条件中选择一个作为已知, 使得\n△ABC 存在, 求BC 边上的高.\n条件①: a = 6; 条件②: a sin B = 10\n√\n2\n3\n; 条件③: △ABC 的面积为10\n√\n2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -378,22 +483,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q17",
       "content": "如图, 在四棱锥P −ABCD 中, △ADC 与△BAC 均为等腰直角三角形,\n∠ADC = 90◦, ∠BAC = 90◦, E 为BC 的中点.\n(1) 若F, G 分别为PD, PE 的中点, 求证: FG\n平面PAB;\n(2) 若PA ⊥平面ABCD, PA = AC, 求直线AB 与平面PCD 所成角的\n正弦值.\nA\nF\nG\nP\nB\nE\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -401,22 +512,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-835b33fbf5d577ea-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-835b33fbf5d577ea-q017-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-835b33fbf5d577ea-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q18",
       "content": "某次考试中, 只有一道单项选择题考查了某个知识点, 甲、乙两校的高一年\n级学生都参加了这次考试. 为了解学生对该知识点的掌握情况, 随机抽查\n了甲、乙两校高一年级各100 名学生该题的答题数据, 其中甲校学生选择\n正确的人数为80, 乙校学生选择正确的人数为75. 假设学生之间答题相互\n独立. 用频率估计概率.\n(1) 估计甲校高一年级学生该题选择正确的概率p;\n(2) 从甲、乙两校高一年级学生中各随机抽取1 名. 设X 为这2 名学生中\n该题选择正确的人数, 估计X = 1 的概率及X 的数学期望;\n(3) 假设: 如果没有掌握该知识点, 学生就从题目给出的四个选项中随机选\n择一个作为答案; 如果掌握该知识点, 甲校学生选择正确的概率为100%,\n乙校学生选择正确的概率为85%. 设甲、乙两校高一年级学生掌握该知识\n点的概率估计值分别为p1, p2, 判断p1 与p2 的大小. (结论不要求证明)\n1211",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -424,22 +546,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q19",
       "content": "已知椭圆E: x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为\n√\n2\n2 , 椭圆E 上的点到\n两焦点的距离之和为4.\n(1) 求椭圆E 的方程;\n(2) 设O 为坐标原点, 点M (x0, y0)\n(x0̸ = 0) 在椭圆E 上, 直线\nx0x + 2y0y −4 = 0 与直线y = 2, y = −2 分别交于点A, B.\n设\n△OAM 和△OBM 的面积分别为S1, S2, 比较S1\nS2\n与|OA|\n|OB| 的大小.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -447,22 +575,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q20",
       "content": "已知函数f (x) 的定义域是(−1, +∞), f (0) = 0, 导函数f ′ (x) =\nln (1 + x)\n1 + x\n.\n设l1 是曲线y = f (x) 在点A (a, f (a)) (a̸ = 0) 处的切\n线.\n(1) 求f ′ (x) 的最大值;\n(2) 当−1 < a < 0 时, 证明: 除切点A 外, 曲线y = f (x) 在直线l1 的上\n方;\n(3) 设过点A 的直线l2 与直线l1 垂直, l1, l2 与x 轴交点的横坐标分别是\nx1, x2. 若a > 0, 求2a −x2 −x1\nx2 −x1\n的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -470,22 +604,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025北京.pdf#q21",
       "content": "已知集合A = {1, 2, 3, 4, 5, 6, 7, 8}, M = {(x, y) | x ∈A, y ∈A}. 从\nM 中选取n 个不同的元素组成一个序列: (x1, y1), (x2, y2), · · · , (xn, yn),\n其中(xi, yi) 称为该序列的第i 项(i = 1, 2, · · · , n), 若该序列的相邻项\n(xi, yi), (xi+1, yi+1) 满足\n{\n|xi+1 −xi| = 3,\n|yi+1 −yi| = 4\n或\n{\n|xi+1 −xi| = 4,\n|yi+1 −yi| = 3\n(i = 1, 2,\n· · · , n −1), 则称该序列为K 列.\n(1) 对于第1 项为(3, 3) 的K 列, 写出它的第2 项;\n(2) 设Γ 为K 列, 且Γ 中的项(xi, yi) (i = 1, 2, · · · , n) 满足: 当i 为\n奇数时, xi ∈{1, 2, 7, 8}; 当i 为偶数时, xi ∈{3, 4, 5, 6}, 判断(3, 2),\n(4, 4) 能否同时为Γ 中的项, 并说明理由;\n(3) 证明: 由M 的全部元素组成的序列都不是K 列.\n1212",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -493,11 +633,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

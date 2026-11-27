@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
   "name": "2015浙江理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q01",
       "content": "下列说法正确的是（    ）\n（A）电流通过导体的热功率与电流大小成正比\n（B）力对物体所做的功与力的作用时间成正比\n（C）电容器所带电荷量与两极板间的电势差成正比\n（D）弹性限度内，弹簧的劲度系数与弹簧伸长量成正比",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据公式P＝I2R 可知，电阻一定时，电流通过导体的热功率与电流的平方成正比，A 错误；根据\n公式W＝Fscosα，力对物体所做的功与力的作用时间无关，B 错误；根据公式C＝Q/U，电容器所带电荷量\n与两极板间的电势差成正比，C 正确；弹簧的劲度系数是由弹簧的材料等自身因素有关，D 错误，选项C\n正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -33,11 +44,369 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q02",
+      "content": "如图所示，气垫导轨上滑块经过光电门时，其上的遮光条将光遮\n住，电子计时器可自动记录遮光时间Δt，测得遮光条的宽度为Δx，用\nΔx\nΔt 近似代表滑块通过光电门时的瞬时速度，为使Δx\nΔt 更接近瞬时速度，\n正确的措施是（    ）\n（A）换用宽度更窄的遮光条\n（B）提高测量遮光条宽度的精确度\n（C）使滑块的释放点更靠近光电门\n（D）增大气垫导轨与水平面的夹角",
+      "answer": "暂无结构化答案",
+      "analysis": "平均速度近似等于瞬时速度，即在Δt→0 的情况下，Δx/Δt 近似看做瞬时速度，所以要使得Δx/Δt\n更接近通过光电门的瞬时速度，需要缩短通过时间，即换用宽度更窄的遮光条，选项A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q03",
+      "content": "如图所示为静电力演示仪，两金属极板分别固定于绝缘支架上，且正\n对平行放置。工作时两板分别接高压直流电源的正负极，表面镀铝的乒乓\n球用绝缘细线悬挂在金属极板中间，则（    ）\n（A）乒乓球的左侧感应出负电荷\n（B）乒乓球受到扰动后，会被吸在左极板上\n（C）乒乓球共受到电场力，重力和库仑力三个力的作用\n（D）用绝缘棒将乒乓球拨到与右极板接触，放开后乒乓球会在两极板间\n来回碰撞",
+      "answer": "暂无结构化答案",
+      "analysis": "从图知金属板间电场水平向左，故乒乓球上的电子移到右侧，即乒乓球的右侧感应出负电荷，A\n错误：由于静电感应使乒乓球左右两侧感应出的电荷量相等，所以受到的电场力相等，乒乓球受到扰动后，\n最终仍会静止，不会吸附到左极板上，B 错误；乒乓球受到重力和电场力作用，库仑力即为电场力，C 错\n误；用绝缘棒将乒乓球拨到与右极板接触使乒乓球带正电，在电场力作用下，运动到左极板与左极板接触，\n左\n右\n高压直流电源\n+\n–\n2 / 7\n然后乒乓球带负电，接着在电场力作用下，又运动到右极板与右极板接触，乒乓球带正电，在电场力作用\n下，运动到左极板，如此重复，即乒乓球会在两极板间来回碰撞，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q04",
+      "content": "如图所示为足球球门，球门宽为L，一个球员在球门中心正前方距离球门s 处\n高高跃起，将足球顶入球门的左下方死角（图中P 点）。球员顶球点的高度为h。足\n球做平抛运动（足球可看做质点，忽略空气阻力）则（    ）\n（A）足球位移大小x＝\n L2\n4 ＋s2\n（B）足球初速度的大小v0＝\ng\n2h（L2\n4 ＋s2）\n（C）足球末速度的大小v＝\ng\n2h（L2\n4 ＋s2）＋4gh\n（D）足球初速度的方向与球门线夹角的正切值tanθ＝L\n2s",
+      "answer": "暂无结构化答案",
+      "analysis": "由几何知识得足球的位移\n2\n2\n2\n4\nL\nx\nh\ns\n=\n+\n+\n，A 错误；足球做平抛运动有\n2\n0\n1\n2\nx\nv t\nh\ngt\n=\n=\n，\n，\n解得v0＝\ng\n2h（L2\n4 ＋s2） ，B 正确；足球末速度大小为\n2\n2\n2\n2\n0\n(\n)\n2\n2\n4\ng\nL\nv\nv\ngt\ns\ngh\nh\n\n\n=\n+\n=\n+\n+\n\n\n\n\n，C 错误；\n足球初速度的方向与球门线夹角的正切值\n2\ntan\n2\ns\ns\nL\nL\n=\n=\n，D 错误，选项B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q004-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q05",
+      "content": "我国科学家正在研制航母舰载机使用的电磁弹射器。舰载机总质量为3×104kg，设起飞过程中发动机\n的推力恒为1.0×105N；弹射器有效作用长度为100m，推力恒定。要求舰载机在水平弹射结束时速度大小\n达到80m/s。弹射过程中舰载机所受总推力为弹射器和发动机推力之和，假设所受阻力为总推力的20%，\n则（    ）\n（A）弹射器的推力大小为1.1×106N\n（B）弹射器对舰载机所做的功为1.1×108J\n（C）弹射器对舰载机做功的平均功率为8.8×107W\n（D）舰载机在弹射过程中的加速度大小为32m/s2",
+      "answer": "暂无结构化答案",
+      "analysis": "设发动机、弹射器的推力分别为F1、F2，则阻力f＝0.2(F1＋F2)，由动能定理[(F1＋F2)–f]s＝mv2/2，\n而F1＝1.0×105N，故F2＝1.1×106N，A 正确；弹射器对舰载机所做的功为W2＝F2s＝1.1×108J，B 正确；舰\n载机在弹射过程中的加速度大小为\n2\n1\n2\n(\n)\n32m/s\nF\nF\nf\na\nm\n+\n−\n=\n=\n，D 正确；弹射过程中运动时间\n2\n2.5\ns\nt\ns\na\n=\n=\n，弹射器对舰载机做功的平均功率为P2＝W2/t＝4.4×107W，C 错误，选项ABD 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q06",
+      "content": "如图所示为赛车场的一个水平“U”形弯道，转弯处为圆心在O 点的半圆，内外半径分别为r 和2r。\n一辆质量为m 的赛车通过AB 线经弯道到达AʹBʹ线，有如图所示的①②③三条路线，其中路线③是以Oʹ\n为圆心的半圆，OOʹ＝r。赛车沿圆弧路线行驶时，路面对轮胎的最大径向静摩擦力为Fmax。选择路线，赛\n3 / 7\n车以不打滑的最大速率通过弯道（所选路线内赛车速率不变，发动机功率\n足够大），则（    ）\n（A）选择路线①，赛车经过的路程最短\n（B）选择路线②，赛车的速率最小\n（C）选择路线③，赛车所用时间最短\n（D）①②③三条路线的圆弧上，赛车的向心加速度大小相等",
+      "answer": "暂无结构化答案",
+      "analysis": "由图及几何关系知：路线①的路程为s1＝2r＋πr，路线②的路程为\ns2＝2r＋2πr，路线③的路程为s3＝2πr，A 正确；赛车以不打滑的最大速率\n通过弯道有Fmax＝man＝mv2\nR ，速度\nmax\nF\nR\nv\nm\n=\n，即半径越大，速度越大，\n选择线路①赛车的速率最小，B 错误、D 正确；根据t＝s/v，代入数据解得选择路线③，赛车所用时间最\n短，C 正确，选项ACD 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q07",
+      "content": "如图所示，用两根长度相同的绝缘细线把一个质量为0.1kg 的小球A 悬挂到水平板的MN 两点，A 上\n带有Q＝3.0×10-6C 的正电荷。两线夹角为120°，两线上的拉力大小分别为F1 和F2。A 的正下方0.3m 处\n放有一带等量异种电荷的小球B，B 与绝缘支架的总质量为0.2kg（重力加速度取g＝10m/s2；静电力常量\nk＝9.0×109N·m2/C2，A、B 球可视为点电荷）则（    ）\n（A）支架对地面的压力大小为2.0N\n（B）两线上的拉力大小F1＝F2＝1.9N\n（C）将B 水平右移，使M、A、B 在同一直线上，此时两线上的拉力大\n小为F1＝1.225N，F2＝1.0N\n（D）将B 移到无穷远处，两线上的拉力大小F1＝F2＝0.866N",
+      "answer": "暂无结构化答案",
+      "analysis": "A、B 两电荷得作用力为库仑引力，支架对地面的压力大小为\n2\n1.2N\nA\nB\nB\nq q\nF\nm g\nk\nr\n=\n−\n=\n，A\n错误；三力平衡夹角恰为\n120°，则两线上的拉力大小\n1\n2\n2\n1.9N\nA\nB\nA\nq q\nF\nF\nm g\nk\nr\n=\n=\n+\n=\n，B 正确；将B 水平右移，使M、A、B 在同一直线上，则两小球距离\n0\n0.6m\nsin30\nr\nr=\n=\n，故\n0\n0\n1\n2\n2\n(\n)sin 60\nsin 60\nA\nB\nq q\nF\nk\nF\nr\n\n\n−\n=\n\n0\n0\n1\n2\n2\n(\n)cos60\ncos60\nA\nB\nA\nq q\nF\nk\nF\nm g\nr\n\n\n−\n+\n=\n\n，\n解得\n1\n2\n1.225N,\n1.0N\nF\nF\n\n\n=\n=\n，C 正确；将B 移到无穷远处，两小球的库仑引力为0，两线上的拉力大小\n1\n2\ng=1N\nA\nF\nF\nm\n=\n=\n，D 错误，选项BC 正确。\n非选择题部分（共180 分）\n非选择题部分共12 题，共180 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q08",
+      "content": "（10 分）甲同学准备做“验证机械能守恒定律”实验，乙同学准备做“探究加速度与力、质量的关系”\n实验。\nA\nB\nAʹ\nBʹ\nOʹ\nO\nr\n2r\n①\n②\n③\nA\nB\nM\nN\nF1\nF2\n120°\n4 / 7\n（1）上图中A、B、C、D、E 表示部分实验器材，甲同学需在图中选用的器材_____________；乙同学需\n在图中选用的器材___________。（用字母表示）\n（2）乙同学在实验室选齐所需器材后，经正确操作获得如图所示的两条纸带①和②。纸带__________的加\n速度大（填①或者②），其加速度大小为____________。",
+      "answer": "BDE",
+      "analysis": "（1）“验证机械能守恒定律”实验，需要在竖直面上打出一条重锤下落的纸带，即可验证，故选\n仪器AB；“探究加速度与力、质量的关系”实验需要钩码拉动小车打出一条纸带，故选BDE。\n（2）纸带①中前第l、2 点与第2、3 点的位移差为连续相等时间内位移差Δx1＝(32.40–30.70)–(30.70–29.10)\n＝0.1(cm)；纸带①中前第l、2 点与第2、3 点的位移差为连续相等时间内位移差Δx2＝(31.65–29.00)–(29.00–\n27.40)＝0.05(cm)；由匀变速直线运动Δx＝aT2，可知纸带①加速度大为a＝Δx/T2＝2.5m/s2。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q008-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q008-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q008-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q09",
+      "content": "（10 分）图1 是小红同学在做“描绘小灯泡的伏安特性曲线”实验的实物连接图。\n（1）根据图1 画出实验电路图\n（2）调节滑动变阻器得到了两组电流表与电压表的示数如图2 中的①②③④所示，电流表量程为0.6A，\n电压表量程为3V。所示读数为：①__________②__________③__________④__________。两组数据得到的\n电阻分别为__________和__________。",
+      "answer": "（1）如图\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n29\n28\n30\n31\n32\n33\n34\n35\n36\ncm\ncm\n①\n②\n①\n②\n③\n④\n图1\n图2\n5 / 7\n（2）①0.10A、②0.24A、③2.00V、④0.27V。\n（8.3 0.1）Ω 和（2.70.1）Ω，如填为（2.7 0.1）Ω 和（8.30.1）Ω 也行。",
+      "analysis": "（1）从实物图中可知电压表测量灯泡两端电压，电流表采用外接法，滑动变阻器采用分压接法，\n故电路图如图所示\n（2）电流表的量程为0.6A，最小分度值为0.02A，①的读数为0.10A，②的读数为0.24A，电压表量程为\n3V，最小分度值为0.1V，③的读数为2.00V，④的读数为0.27V。由I＝U/R 知：①④为同组数据得电阻为\n2.7Ω，②③为另组数据得电阻为8.3Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q009-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q10",
+      "content": "（18 分）如图所示，用一块长L1＝1.0m 的木板在墙和桌面间架设\n斜面，桌面高H＝0.8m，长L2＝1.5m。斜面与水平桌面的倾角θ 可在\n0～60°间调节后固定。将质量m＝0.2kg 的小物块从斜面顶端静止释\n放，物块与斜面间的动摩擦因数μ1＝0.05，物块与桌面间的动摩擦因\n数μ2，忽略物块在斜面与桌面交接处的能量损失。（重力加速度取g＝\n10m/s2；最大静摩擦力等于滑动摩擦力）\n（1）求θ 角增大到多少时，物块能从斜面开始下滑；（用正切值表示）\n（2）当θ 增大到37°时，物块恰能停在桌面边缘，求物块与桌面间的动摩擦因数μ2（已知sin37°＝0.6，\ncos37°＝0.8）\n（3）继续增大θ 角，发现θ＝53°时物块落地点与墙面的距离最大，求此最大距离xm。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）为使小物块下滑mgsin\n1mgcos\n\n\nθ 满足的条件tanθ≥0.05\n（2）克服摩擦力做功\n1\n1\n2\n2\n1\ncos\ncos\nf\nW\nmgL\nmg L\nL\n\n\n\n\n=\n+\n−\n（\n）\n由动能定理得\n1sin\n-\n0\nf\nmgL\nW\n\n=\n代入数据得μ2＝0.8\n（3）由动能定理得\n2\n1\n1\nsin\n-\n2\nf\nmgL\nW\nmv\n\n=\n代入数据得v＝1m/s\n2\n1\n2\nH\ngt\n=\nt＝0.4s\nx1＝vt＝0.4m\nxm＝x1＋L2＝1.9m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q010-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q11",
+      "content": "（20 分）小明同学设计了一个“电磁天平”，如图1 所示，等臂\n天平的左臂为挂盘，右臂挂有矩形线圈，两臂平衡。线圈的水平边长\nL＝0.1m，竖直边长H＝0.3m，匝数为N1。线圈的下边处于匀强磁场\nA\nV\nR\nE\nS\nB0\nI\n图1\nB0\n图2\nB\nd\nθ\n6 / 7\n内，磁感应强度B0＝1T，方向垂直线圈平面向里。线圈中通有可在0~2.0A 范围内调节的电流I。挂盘放上\n待测物体后，调节线圈中电流使得天平平衡，测出电流即可测得物体的质量。（重力加速度取g＝10m/s2）\n（1）为使电磁天平的量程达到0.5kg，线圈的匝数N1 至少为多少\n（2）进一步探究电磁感应现象，另选N2＝100 匝、形状相同的线圈，总电阻R＝10Ω，不接外电流，两臂\n平衡，如图2 所示，保持B0 不变，在线圈上部另加垂直纸面向外的匀强磁场，且磁感应强度B 随时间均\n匀变大，磁场区域宽度d＝0.1m。当挂盘中放质量为0.01kg 的物体时，天平平衡，求此时磁感应强度的变\n化率ΔB\nΔt 。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）线圈受到安培力\n1\n0\n1\n0\nmg=\nF\nN B IL\nN B IL\n=\n天平平衡\n代入数据得N1＝25 匝\n（2）由电磁感应定律得E＝N2ΔΦ\nΔt ＝N2ΔB\nΔt Ld\n由欧姆定律得\n'\nE\nI\nR\n=\n线圈受到安培力\n2\n0\nF\nN B I L\n\n\n=\n天平平衡\n2\n2\n0\nB dL\nm g\nN B\nt\nR\n\n=\n\n\n代入数据可得ΔB\nΔt ＝0.1T/s",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015浙江理综.pdf#q12",
+      "content": "（22 分）使用回旋加速器的实验需要把离子束从加速器中引出，离子束引出的方法有磁屏蔽通道法和\n静电偏转法等。质量为m，速度为v 的离子在回旋加速器内\n旋转，旋转轨道时半径为r 的圆，圆心在O 点，轨道在垂直\n纸面向外的匀强磁场中，磁感应强度为B。\n为引出离子束，使用磁屏蔽通道法设计引出器。引出器原理\n如图所示，一对圆弧形金属板组成弧形引出通道，通道的圆\n心位于Oʹ点（Oʹ点图中未画出）。引出离子时，令引出通道内\n磁场的磁感应强度降低，从而使离子从P 点进入通道，沿通\n道中心线从Q 点射出。已知OQ 长度为L。OQ 与OP 的夹角为θ，\n（1）求离子的电荷量q 并判断其正负；\n（2）离子从P 点进入，Q 点射出，通道内匀强磁场的磁感应强度应降为Bʹ，求Bʹ；\n（3）换用静电偏转法引出离子束，维持通道内的原有磁感应强度B 不变，在内外金属板间加直流电压，\n两板间产生径向电场，忽略边缘效应。为使离子仍从P 点进入，Q 点射出，求通道内引出轨迹处电场强度\nE 的方向和大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）离子做圆周运动\n2\nmv\nBqv\nr\n=\nq＝mv\nBr ，正电荷\n（2）如图所示\nv P\nQ\nL\nB\nθ\nr\nO\n引出通道\nR\nQ\nO\nOʹ\nL\nr\nP\nR–r\nθ\n7 / 7\nOʹQ＝R， OQ＝L， OʹO＝R–r\n引出轨迹为圆弧\n2\nmv\nB qv\nR\n\n=\nmv\nR\nqB\n=\n\n根据几何关系得\n2\n2\n2\n2\n2\ncos\n2\n2 cos\n(2\n2 cos )\n(\n2\ncos )\nr L\nrL\nR\nr\nL\nmv\nmv\nr\nL\nB\nqR\nq r\nL\nrL\n\n\n\n\n−\n=\n−\n−\n=\n=\n+\n−\n（3）电场强度方向沿径向向外\n引出轨迹为圆弧\n2\nmv\nBqv\nEq\nR\n−\n=\nE＝Bv－mv2（2r－2Lcosθ）\nq（r2＋L2－2rLcosθ）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015浙江理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q012-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-959eb2a980ac9483-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 0,
+    "assigned": 17,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

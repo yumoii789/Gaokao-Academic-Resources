@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010天津理综.pdf",
   "name": "2010天津理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 12,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 12,
+    "reviewCount": 1,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010天津理综.pdf#q01",
       "content": "本卷共8 题，每题6 分，共48 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B，",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2010/2010天津理综.pdf#q02",
       "content": "下列关于电磁波的说法正确的是（    ）\n（A）均匀变化的磁场能够在空间产生电场\n（B）电磁波在真空和介质中传播速度相同\n（C）只要有电场和磁场，就能产生电磁波\n（D）电磁波在同种介质中只能沿直线传播",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A，",
+      "analysis": "变化的磁场可以产生电场，变化的电场可以产生磁场。A 正确。电磁波在真空和介质中传播速度\n不同，B 错误。电磁波是由变化的电场和变化的磁场由近及远的传播形成，C 错误。电磁波可以产生反射、\n折射、衍射和干涉，D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -56,11 +74,354 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q03",
+      "content": "下列关于原子和原子核的说法正确的是（     ）\n（A）β 衰变现象说明电子是原子核的组成部分\n（B）玻尔理论的假设之一是原子能量的量子化\n（C）放射性元素的半衰期随温度的升高而变短\n（D）比结合能越小表示原子核中的核子结合得越牢固",
+      "answer": "暂无结构化答案",
+      "analysis": "β 衰变是原子核中的质子转化为中子和电子，但电子不是原子核的组成部分，A 错误。玻尔理论\n的假设是把量子化代入到原子能量，B 正确。放射性元素的半衰期不随温度、状态及化学变化而变化。C\n错误。比结合能越大表示原子核中的核子结合得越牢固，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q04",
+      "content": "质点做直线运动的 v – t 图像如图所示，规定向右为正方向，则该质点\n在前 8 s 内平均速度的大小和方向分别为（     ）\n（A）0.25 m/s，向右\n（B）0.25 m/s，向左\n（C）1 m/s，向右\n（D）1 m/s，向左",
+      "answer": "B，",
+      "analysis": "由题图得前8s 内的位移\n1\n1\n3 2\n5 ( 2)\n2\n2\n2\nx\nm\nm\nm\n=\n\n+\n−\n= −\n，则\n平均速度\n2\n/\n8\nx\nv\nm s\nt\n−\n=\n=\n=－0.25m/s，负号表示方向向左。B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q05",
+      "content": "一列简谐横波沿x 轴正向传播，传到M 点时波形如图所示，\n再经0.6s，N 点开始振动，则该波的振幅A 和频率f 为（    ）\n（A）A＝1m，f＝5Hz\n（B）A＝0.5m，f＝5Hz\n（C）A＝1m，f＝2.5Hz\n（D）A＝0.5m，f＝2.5Hz\ny/m\nx/m\nO\n0.5\n-0.5\n1 2 3 4 5 6 7 8 9 10 11 12\nM\nN\nv/ms−1\nt/s\nO\n2\n−2\n1 2 3 4 5 6 7 8\n2 / 9",
+      "answer": "D，",
+      "analysis": "由题图的振幅A=0.5m，波长λ=4m。经0.6s，N 点开始振动得波速\n11 5\n/\n10\n/\n0.6\nv\nm s\nm s\n−\n=\n=\n，所\n以频率\n10\n2.5\n4\nv\nf\nHz\nHz\n\n=\n=\n=\n，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q005-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q06",
+      "content": "在静电场中，将一正电荷从a 点移到b 点，电场力做了负功，则（    ）\n（A）b 点的电场强度一定比a 点大\n（B）电场线方向一定从b 指向a\n（C）b 点的电势一定比a 点高\n（D）该电荷的动能一定减小",
+      "answer": "C，",
+      "analysis": "正电荷从a 移动到b 点，电场力做了负功，电势能增加，说明b 点的电势一定比a 点高，选项C\n正确。电场强度的大小与电势的高低无关，无法确定， A 错误。b 点的电势比a 点高，即a、b 在不同的\n等势面上，但电场线方向不一定从b 指向a，B 错误。虽然电荷的电势能增加，如有重力做功，该电荷的\n动能不一定减小，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q07",
+      "content": "探测器绕月球做匀速圆周运动，变轨后在周期较小的轨道上仍做匀速圆周运动，则变轨后与变轨前相\n比（    ）\n（A）轨道半径变小\n（B）向心加速度变小\n（C）线速度变小\n（D）角速度变小",
+      "answer": "A，",
+      "analysis": "由于\n2\n2\n2\n(\n)\nMm\nG\nm\nr\nr\nT\n\n=\n，所以\n2\n3\n2\n4\nGMT\nr\n\n=\n，T 变小，r 变小，A 正确。又\n2\nn\nMm\nG\nma\nr\n=\n，\n2\nn\nGM\na\nr\n=\n，\nr 变小，an 增大，B 错误。由\n2\n2\nMm\nv\nG\nm\nr\nr\n=\n，\nGM\nv\nr\n=\n，r 变小，v 增大，C 错误。由\n2\n2\nMm\nG\nm\nr\nr\n\n=\n，\n3\nGM\nr\n=\n，r 变小，ω增大，D 错误",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q08",
+      "content": "为探究理想变压器原、副线圈电压、电流的关系，将原线圈接到电压有\n效值不变的正弦交流电源上，副线圈连接相同的灯泡L1、L2，电路中分别\n接了理想交流电压表V1、V2 和理想交流电流表A1，A2，导线电阻不计，\n如图所示。当开关S 闭合后（    ）\n（A）A1 示数变大，A1 与A2 示数的比值不变\n（B）A1 示数变大，A1 与A2 示数的比值变大\n（C）V2 示数变小，V1 与V2 示数的比值变大\n（D）V2 示数不变，V1 与V2 示数的比值不变",
+      "answer": "A、D，",
+      "analysis": "由于理想变压器原线圈接到电压有效值不变，则副线圈电压不变，V2 示数不变，V1 与V2 示数的\n比值不变，C 错误、D 正确。开关S 闭合后，变压器副线圈的负载电阻减小，V2 不变，由欧姆定律可得A1\n示数变大，由于理想变压器P2=P1，V1 与V2 示数的比值不变，所以A1 与A2 示数的比值不变，A 正确、B\n错误。正确选项AD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q09",
+      "content": "用同一光电管研究a、b 两种单色光产生的光电效应，得到光电流I 与光电管两极间所加电压U 的关系\n如图。则这两种光（     ）\n（A）照射该光电管时a 光使其逸出的光电子最大初动能大\nA1\n~\nL1\nL2\nV1\nV2\nA2\nS\n3 / 9\n（B）从同种玻璃射入空气发生全反射时，a 光的临界角大\n（C）通过同一装置发生双缝干涉，a 光的相邻条纹间距大\n（D）通过同一玻璃三棱镜时，a 光的偏折程度大",
+      "answer": "B、\nC，\nII 卷",
+      "analysis": "由光电效应方程\n2\n0\n1\n2\nm\nmv\nh\nW\n\n=\n−\n，由题图可得b 光照射光电管时\n使其逸出的光电子最大初动能大，b 光的频率大，波长小。A 错误。b 光的\n频率大，在玻璃中的折射率nb 大，由\n1\narcsin\nC\nn\n=\n从同种玻璃射入空气发生全反射时，b 光的临界角小，\na 光大，B 正确。发生双缝干涉时，\nd\nx\nL \n=\n，b 光波长小，相邻条纹间距b 光小，a 光大，C 正确。在\n玻璃中的折射率nb>na，b 光的偏折程度大，D 错误。正确\n第Ⅱ卷\n注意事项：\n1．用黑色墨水的钢笔或签字笔将答案写在答题卡上。\n2．本卷共4 题，共72 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q10",
+      "content": "（18 分）（1）如图所示，在高为h 的平台边缘水平抛出小球A，同时在\n水平地面上距台面边缘水平距离为s 处竖直上抛小球B，两球运动轨迹在同\n一竖直平面内，不计空气阻力，重力加速度为g。若两球能在空中相遇，则\n小球A 的初速度vA 应大于_________，A、B 两球初速度之比vA\nvB为_________。",
+      "answer": "（1）s\ng\n2h ，s\nh\n（2）①B、D\n②B、D\n（3）①电流表A 不能准确测量流过电压表V1 的电流\n②测量电压表V1 内阻RV 的实验电路图略\n③RV＝U1R2\nU2－U1，U1 表示V1 的电压，U2 表示V1 和R2 串联的总电压，",
+      "analysis": "（1）由于A 做平抛运动有：s=vAt，h=gt2/2，要使两球在空中相遇，\n所用时间比小于t，所以\n2\nA\ng\nv\ns\nh\n\n。由s=vAt/，h－h/=gt/2/2，h/=vBt/－gt/2/2\n得：\nA\nB\nv\ns\nv\nh\n=\n（2）在探究合力的方法时，先将橡皮条的一端固定在水平木板上，另一端系上带有绳套的两根细绳。实验\n时，需要两次拉伸橡皮条，一次是通过两细绳用两个弹簧秤互成角度地拉橡皮条，另一次是用一个弹簧秤\n通过细绳拉橡皮条。\n①实验对两次拉伸橡皮条的要求中，下列哪些说法是正确的_________（填字母代号）\n（A）将橡皮条拉伸相同长度即可\n（B）将橡皮条沿相同方向拉到相同长度\n（C）将弹簧秤都拉伸到相同刻度\n（D）将橡皮条和绳的结点拉到相同位置\n②同学们在操作过程中有如下议论，其中对减小实验误差有益的说法是_________（填字母代号）\n（A）两细绳必须等长\n（B）弹簧秤、细绳、橡皮条都应与木板平行\n（C）用两弹簧秤同时拉细绳时两弹簧秤示数之差应尽可能大\n（D）拉橡皮条的细绳要长些，标记同一细绳方向的两点要远些\n（2）①实验中两次拉伸橡皮条要将橡皮条拉伸相同长，即将橡皮条和绳的结点拉到相同位置。\n②为了减小实验误差，尽可能使弹簧秤、细绳、橡皮条与木板平行；为了能更好地确定力的方向，细绳要\n长些，标记同一细绳方向的两点要远些。\na\nb\nUC2\nO\nU\nI\nUC1\nh\nvA\nvB\nA\nB\ns\n4 / 9\n（3）要测量电压表V1 的内阻RV，其量程为2V，内阻约2kΩ。实验室提供的器材有：\n电流表A，量程0.6A，内阻约0.1Ω；\n电压表V2，量程5V，内阻为5kΩ；\n定值电阻R1，阻值30Ω；\n定值电阻R2，阻值为3kΩ；\n滑动变阻器R3，最大阻值100Ω，额定电流1.5A；\n电源E，电动势6V，内阻约0.5Ω；\n开关S 一个，导线若干。\n①有人拟将待测电压表V1 和电流表A 串联接入电压合适的测量电路中，测出V1\n的电压和电流，再计算出RV。该方案实际上不可行，其最主要的原因是_________\n②请从上述器材中选择必要的器材，设计一个测量电压表V1 内阻RV 的实验电路。\n要求测量尽量准确，实验必须在同一电路中，且在不增减元件的条件下完成。试\n画出符合要求的实验电路图（图中电源与开关已连接好），并标出所选元件的相应\n字母代号：_________\n③由上问写出V1 内阻RV 的表达方式，说明式中各测量量的物理意义。\n（3）①由于电压表的内阻很大，流过的电流较小，待测电压表V1 和电流表A 串联接入电压合适的测量电\n路中，电流表A 不能准确测量出流过电压表V1 的电流。\n②由于电压表V1 接入电路后，由电流通过时其两端电压可以直接读出，因而利用串联分压的特点，选用标\n准电压表V2 和定值电阻R2 ，反复测量通过滑动变阻器R3 控制即可。测量电压表V1 内阻RV 的实验电路\n如图\n③根据串联电路的特点：\n1\n2\n1\n2\nV\nU\nU\nU\nR\nR\n−\n=\n（式中U1 表示V1 的电压， U2 表示V1 和R2 串联的总电压），所\n以\nv\nR =\n1\n2\n2\n1\nU R\nU\nU\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q010-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q010-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q11",
+      "content": "（16 分）如图所示，小球A 系在细线的一端，线的另一端固定在\nO 点，O 点到水平面的距离为h。物块B 质量是小球的5 倍，置于粗\n糙的水平面上且位于O 点的正下方，物块与水平面间的动摩擦因数为\nμ。现拉动小球使线水平伸直，小球由静止开始释放，运动到最低点时\n与物块发生正碰（碰撞时间极短），反弹后上升至最高点时到水平面的\n距离为h/16。小球与物块均视为质点，不计空气阻力，重力加速度为\ng，求物块在水平面上滑行的时间t。",
+      "answer": "暂无结构化答案",
+      "analysis": "设小球的质量为m，运动到最低点与物块碰撞前的速度大小为v1，取小球运动到最低点重力势能\nV2\nV1\nR2\nR3\nE\nS\nA\nB\nh\nO\nE\nS\n5 / 9\n为零，根据机械能守恒有：\n2\n1\n1\n2\nmgh\nmv\n=\n………………………………①\n                                 得：\n1\n2\nv\ngh\n=\n设碰撞后小珠反弹的速度大小为v1/，同理有：\n/ 2\n1\n1\n16\n2\nh\nmg\nmv\n=\n…………………………②\n                                 得：\n/\n1\n8\ngh\nv =\n设碰后物块的速度大小v2，取水平向右为正方向，根据动量守恒定律有\n/\n1\n1\n2\n5\nmv\nmv\nmv\n= −\n+\n…………………………③\n                                 得：\n2\n8\ngh\nv =\n ……………………………………④\n物块在水平面上所受摩擦力的大小为： F=5μmg……………………………………………⑤\n设物块在水平面上滑行的时间为t，根据动量定理有：\n2\n0\n5\nFt\nmv\n−\n=\n−\n…………………⑥\n                                得：\n2\n4\ngh\nt\ng\n\n=\n………………………………………⑦",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q12",
+      "content": "（18 分）如图所示，质量m1＝0.1kg，电阻R1＝0.3，长度l＝\n0.4m 的导体棒ab 横放在U 型金属框架上。框架质量m2＝0.2kg，放\n在绝缘水平面上，与水平面间的动摩擦因数μ＝0.2，相距0.4m 的\nMMʹ、NNʹ相互平行，电阻不计且足够长。电阻R2＝0.1的MN 垂\n直于MMʹ。整个装置处于竖直向上的匀强磁场中，磁感应强度B＝\n0.5T。垂直于ab 施加F＝2N 的水平恒力，ab 从静止开始无摩擦地\n运动，始终与MMʹ、NNʹ保持良好接触，当ab 运动到某处时，框架开始运动。设框架与水平面间最大静摩\n擦力等于滑动摩擦力，g 取10m/s2。\n（1）求框架开始运动时ab 速度v 的大小；\n（2）从ab 开始运动到框架开始运动的过程中，MN 上产生的热量Q＝0.1J，求该过程ab 位移x 的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "(1)ab 对框架的压力\n1\n1\nF\nm g\n=\n………………………………①\n框架受水平面的支持力\n2\n1\nN\nF\nm g\nF\n=\n+\n………………………………②\n依题意，最大静摩擦力等于滑动摩擦力，则框架受到最大静摩擦力\n2F\nFN\n\n=\n…………………………………………………③\nab 中的感应电动势E= Blv ……………………………………………④\nMN 中电流\n1\n2\nE\nI\nR\nR\n=\n+\n …………………………………………⑤\nMN 受到的安培力\nIl\nF\nB\n=\n安\n…………………………………………⑥\na\nb\nM\nM′\nN\nN′\nB\nF\n6 / 9\n框架开始运动时\n2\nF\nF\n=\n安\n  ……………………………………………⑦\n由上述各式代入数据解得v=6m/s ……………………………………⑧\n      (2) 闭合回路中产生的总热量：\n1\n2\n2\nR +R Q\nR\nQ =\n总\n……………………⑨\n由能量守恒定律，得：\n2\n1\n1\n2\nFx\nm v\nQ\n=\n+\n总……………………………⑩\n代入数据解得x=1.1m …………………………………………………⑾",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q012-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010天津理综.pdf#q13",
+      "content": "（20 分）质谱分析技术已广泛应用于各前沿科学领域。\n汤姆孙发现电子的质谱装置示意如图，M、N 为两块水平放置\n的平行金属极板，板长为L，板右端到屏的距离为D，且D 远\n大于L，OʹO 为垂直于屏的中心轴线，不计离子重力和离子在\n板间偏离OʹO 的距离。以屏中心O 为原点建立xOy 直角坐标\n系，其中x 轴沿水平方向，y 轴沿竖直方向。\n（1）设一个质量为m0、电荷量为q0 的正离子以速度v0 沿OʹO\n的方向从Oʹ点射入，板间不加电场和磁场时，离子打在屏上O 点。若在两极板间加一沿＋y 方向场强为E\n的匀强电场，求离子射到屏上时偏离O 点的距离y0；\n（2）假设你利用该装置探究未知离子，试依照以下实验结果计算未知离子的质量数。\n上述装置中，保留原电场，再在板间加沿－y 方向的匀强磁场。现有电荷量相同的两种正离子组成的离子\n流，仍从Oʹ点沿OʹO 方向射入，屏上出现两条亮线。在两线上取y 坐标相同的两个光点，对应的x 坐标分\n别为3.24mm 和3.00mm，其中x 坐标大的光点是碳12 离子击中屏产生的，另一光点是未知离子产生的。\n尽管入射离子速度不完全相同，但入射速度都很大，且在板间运动时OʹO 方向的分速度总是远大于x 方向\n和y 方向的分速度。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）离子在电场中受到的电场力\n0\ny\nF\nq E\n=\n…………………………①\n离子获得的加速度\n0\ny\ny\nF\na\nm\n=\n……………………………②\n离子在板间运动的时间\n0\n0\nL\nt\nv\n=\n…………………………③\n到达极板右边缘时，离子在+y 方向的分速度\n0\ny\ny\nv\na t\n=\n …………………④\n离子从板右端到达屏上所需时间\n0\n0\nD\nt\nv\n=\n……………………………………⑤\n离子射到屏上时偏离O 点的距离\n0\n0\ny\ny\nv t\n=\n由上述各式，得\n0\n0\n2\n0 0\nq ELD\ny\nm v\n=\n ……………………………………………⑥\n（2）设离子电荷量为q，质量为m，入射时速度为v，磁场的磁感应强度为B，磁场对离子的洛伦兹力\nO′\nM\nN\nO\ny\nx\n屏\nL\nD\n7 / 9\nx\nF\nqvB\n=\n…………………………………⑦\n已知离子的入射速度都很大，因而粒子在磁场中运动时闻甚短。所经过的圆弧与圆周相比甚小，且在\n板中运动时，ＯＯ＇分逮度总是远大于在ｘ方向和ｙ方向的分速度，洛伦兹力变化甚微，顾可作恒力处理，\n洛伦兹力产生的加速度\nx\nqvB\na\nm\n=\n……………………………………⑧\nxa 是离子在x 方向的加速度，离子在x 方向的运动可视为初速度为零的匀加速直线运动，到达极板右\n端时，离子在x 方向的分速度\n( )\nx\nx\nqvB L\nqBL\nv\na t\nm\nv\nm\n=\n=\n=\n ……………………………………………………⑨\n离子飞出极板到达屏时，在x 方向上偏离O 点的距离\n'\n(\n)\nx\nqBL D\nqBLD\nx\nv t\nm\nv\nmv\n=\n=\n……………………………………………………⑩\n当离子的初速度为任意值时，离子到达屏上时的位置在y 方向上偏离O 点的距离为y ，考虑到⑥式，得\n2\nqELD\ny\nmv\n=\n……………………………………………………………⑾\n由⑩、⑾两式得\n2\nk\nx\ny\nm\n=\n………………………………………………………………⑿\n其中\n2\nqB LD\nk\nE\n=\n上式表明，k 是与离子进入板间初速度无关的定值，对两种离子均相同，由题设条件知，x 坐标3.24mm\n的光点对应的是碳12 离子，其质量为\n1\n12\nm\nu\n=\n，x 坐标3.00mm 的光点对应的是未知离子，设其质量为\n2\nm ，由⑿式代入数据可得\n2\n14\nm\nu\n\n……………………………………………………………… ⒀\n故该未知离子的质量数为14。\n8 / 9",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010天津理综.pdf",
+        "page": 6,
+        "endPage": 8,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q013-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7a7ad0ed78dae3f8-q013-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 10,
+    "answerGraphics": 0,
+    "assigned": 10,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2009/2009辽宁理.pdf",
   "name": "2009辽宁理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q01",
       "content": "已知集合M = {x | −3 < x ⩽5}, N = {x | −5 < x < 5}, 则M ∩N =(\n)\n(A) {x | −5 < x < 5}\n(B) {x | −3 < x < 5}\n(C) {x | −5 < x ⩽5}\n(D) {x | −3 < x ⩽5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q02",
       "content": "已知复数z = 1 −2i, 那么1\nz =\n(\n)\n(A)\n√\n5\n5 + 2\n√\n5\n5 i\n(B)\n√\n5\n5 −2\n√\n5\n5 i\n(C) 1\n5 + 2\n5i\n(D) 1\n5 −2\n5i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q03",
       "content": "平面向量a 与b 的夹角为60◦, a = (2, 0), |b| = 1, 则|a + 2b| =\n(\n)\n(A)\n√\n3\n(B) 2\n√\n3\n(C) 4\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q04",
       "content": "已知圆C 与直线x −y = 0 及x −y −4 = 0 都相切, 圆心在直线x + y = 0\n上, 则圆C 的方程为\n(\n)\n(A) (x + 1)2 + (y −1)2 = 2\n(B) (x −1)2 + (y + 1)2 = 2\n(C) (x −1)2 + (y −1)2 = 2\n(D) (x + 1)2 + (y + 1)2 = 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q05",
       "content": "从5 名男医生、4 名女医生中选3 名医生组成一个医疗小分队, 要求其中\n男、女医生都有, 则不同的组队方案共有\n(\n)\n(A) 70 种\n(B) 80 种\n(C) 100 种\n(D) 140 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q06",
       "content": "设等比数列{an} 的前n 项和为Sn, 若S6\nS3\n= 3, 则S9\nS6\n=\n(\n)\n(A) 2\n(B) 7\n3\n(C) 8\n3\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q07",
       "content": "曲线y =\nx\nx −2 在点(1, −1) 处的切线方程为\n(\n)\n(A) y = x −2\n(B) y = −3x + 2\n(C) y = 2x −3\n(D) y = −2x + 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q08",
       "content": "已知函数f(x) = A cos(ωx + φ) 的图象如图所示, f\n(π\n2\n)\n= −2\n3, 则\nf(0) =\n(\n)\nx\nπ\n2\n7π\n12\n11π\n12\ny\n−2\n3\nO\n(A) −2\n3\n(B) 2\n3\n(C) −1\n2\n(D) 1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -194,22 +255,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q09",
       "content": "已知偶函数f(x) 在区间[0, +∞) 单调增加, 则满足f(2x −1) < f\n(1\n3\n)\n的\nx 取值范围是\n(\n)\n(A)\n(1\n3, 2\n3\n)\n(B)\n[1\n3, 2\n3\n)\n(C)\n(1\n2, 2\n3\n)\n(D)\n[1\n2, 2\n3\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q10",
       "content": "某店一个月的收入和支出总共记录了N 个数据a1, a2, · · · , aN, 其中收入\n记为正数, 支出记为负数. 该店用下边的程序框图计算月总收入S 和月净\n盈利V , 那么在图中空白的判断框和处理框中, 应分别填入下列四个选项\n中的\n(\n)\n开始\n输入N, a1, a2, · · · , aN\nk = 1, S = 0, T = 0\nA = ak\nk = k + 1\nT = T + A\nS = S + A\nk < N\n输出S, V\n结束\n否\n是\n是\n否\n(A) A > 0, V = S −T\n(B) A < 0, V = S −T\n(C) A > 0, V = S + T\n(D) A < 0, V = S + T",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -240,22 +317,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q11",
       "content": "正六棱锥P −ABCDEF 中, G 为PB 的中点, 则三棱锥D −GAC 与三\n棱锥P −GAC 体积之比为\n(\n)\n(A) 1 : 1\n(B) 1 : 2\n(C) 2 : 1\n(D) 3 : 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -263,22 +350,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q12",
       "content": "若x1 满足2x + 2x = 5, x2 满足2x + 2log2(x −1) = 5, 则x1 + x2 = (\n)\n(A) 5\n2\n(B) 3\n(C) 7\n2\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -286,22 +379,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q13",
       "content": "某企业有3 个分厂生产同一种电子产品, 第一、二、三分厂的产量之比为\n1 : 2 : 1, 用分层抽样方法(每个分厂的产品为一层) 从3 个分厂生产的电子\n产品中共取100 件作使用寿命的测试, 由所得的测试结果算得从第一、二、\n三分厂取出的产品的使用寿命的平均值分别为980 h, 1020 h, 1032 h, 则抽\n取的100 件产品的使用寿命的平均值为\nh.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -309,22 +408,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q14",
       "content": "等差数列{an} 的前n 项和为Sn, 且6S5 −5S3 = 5, 则a4 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -332,22 +441,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q15",
       "content": "设某几何体的三视图如下(尺寸的长度单位为m).\n则该几何体的体积\n为\nm3.\n2\n2\n2\n1\n3\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -355,22 +470,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q16",
       "content": "已知F 是双曲线x2\n4 −y2\n12 = 1 的左焦点, A(1, 4), P 是双曲线右支上的动\n点, 则|PF| + |PA| 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -378,22 +499,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q17",
       "content": "如图, A, B, C, D 都在同一个与水平面垂直的平面内, B, D 为两岛上的两\n座灯塔的塔顶. 测量船于水面A 处测得B 点和D 点的仰角分别为75◦,\n30◦, 于水面C 处测得B 点和D 点的仰角均为60◦, AC = 0.1 km. 试探\n究图中B, D 间距离与另外哪两点间距离相等, 然后求B, D 的距离. (计\n算结果精确到0.01 km,\n√\n2 ≈1.414,\n√\n6 ≈2.449)\nA\nB\nC\nD\n75◦\n30◦60◦\n60◦\n537",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -401,22 +532,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q18",
       "content": "如图, 已知两个正方形ABCD 和DCEF 不在同一平面内, M, N 分别为\nAB, DF 的中点.\n(1) 若平面ABCD ⊥平面DCEF, 求直线MN 与平面DCEF 所成角的\n正值弦;\n(2) 用反证法证明: 直线ME 与BN 是两条异面直线.\nA\nB\nM\nF\nC\nD\nE\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -424,22 +565,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q19",
       "content": "某人向一目射击4 次, 每次击中目标的概率为1\n3. 该目标分为3 个不同的\n部分, 第一、二、三部分面积之比为1 : 3 : 6. 击中目标时, 击中任何一部\n分的概率与其面积成正比.\n(1) 设X 表示目标被击中的次数, 求X 的分布列;\n(2) 若目标被击中2 次, A 表示事件“第一部分至少被击中1 次或第二部分\n被击中2 次”, 求P(A).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -447,22 +598,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q20",
       "content": "已知椭圆C 过点A\n(\n1, 3\n2\n)\n, 两个焦点为(−1, 0), (1, 0).\n(1) 求椭圆C 的方程;\n(2) E, F 是椭圆C 上的两个动点, 如果直线AE 的斜率与AF 的斜率互\n为相反数, 证明直线EF 的斜率为定值, 并求出这个定值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -470,22 +627,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q21",
       "content": "已知函数f(x) = 1\n2x2 −ax + (a −1) ln x, a > 1.\n(1) 讨论函数f(x) 的单调性;\n(2) 证明:\n若a < 5, 则对于任意x1, x2 ∈(0, +∞), x1̸ = x2, 有\nf(x1) −f(x2)\nx1 −x2\n> −1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -493,22 +660,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009辽宁理.pdf#q22",
-      "content": "三选一.\n【A】已知△ABC 中, AB = AC, D 是△ABC 外接圆劣弧˜\nAC 上的点(不\n与点A, C 重合), 延长BD 至E.\n(1) 求证: AD 的延长线平分∠CDE;\n(2) 若∠BAC = 30◦, △ABC 中BC 边上的高为2 +\n√\n3, 求△ABC 外接\n圆的面积.\nA\nE\nB\nC\nD\n【B】在直角坐标系xOy 中, 以O 为极点, x 正半轴为极轴建立极坐标系,\n曲线C 的极坐标方程为ρ cos\n(\nθ −π\n3\n)\n= 1, M, N 分别为C 与x 轴, y 轴\n的交点.\n(1) 写出C 的直角坐标方程, 并求M, N 的极坐标;\n(2) 设MN 的中点为P, 求直线OP 的极坐标方程.\n【C】设函数f(x) = |x −1| + |x −a|.\n(1) 若a = −1, 解不等式f(x) ⩾3;\n(2) 如果∀x ∈R, f(x) ⩾2, 求a 的取值范围.\n538",
+      "content": "三选一.\n【A】已知△ABC 中, AB = AC, D 是△ABC 外接圆劣弧˜\nAC 上的点(不\n与点A, C 重合), 延长BD 至E.\n(1) 求证: AD 的延长线平分∠CDE;\n(2) 若∠BAC = 30◦, △ABC 中BC 边上的高为2 +\n√\n3, 求△ABC 外接\n圆的面积.\nA\nE\nB\nC\nD\n【B】在直角坐标系xOy 中, 以O 为极点, x 正半轴为极轴建立极坐标系,\n曲线C 的极坐标方程为ρ cos\n(\nθ −π\n3\n)\n= 1, M, N 分别为C 与x 轴, y 轴\n的交点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1) 写出C 的直角坐标方程, 并求M, N 的极坐标;\n(2) 设MN 的中点为P, 求直线OP 的极坐标方程.\n【C】设函数f(x) = |x −1| + |x −a|.\n(1) 若a = −1, 解不等式f(x) ⩾3;\n(2) 如果∀x ∈R, f(x) ⩾2, 求a 的取值范围.\n538",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -516,11 +689,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-51936a029bbddb4f-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
   "name": "1958安徽(来源网络,不确定真实性)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 5,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 5,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf#q01",
       "content": "（每小题7 分，计35 分）\n(a) 已知方程𝑥2 −2𝑥+ 𝑞= 0 两根的差的平方等于16，求𝑞的值。\n(b) 计算：log 3\n2\n9\n4 + (0.25)−3\n2 + log2 sin 135∘。\n(c) 证明：sin(𝛼+ 𝛽) < sin 𝛼+ sin 𝛽（𝛼, 𝛽都是锐角）。\n(d) 说明函数𝑦= |𝑥2 −4| 的图像和函数𝑦= 𝑥2 的图像对于坐标轴的位置有什么区别。\n(e) 夹在两个平行平面间的两条线段，它们的长的和是28 寸，它们在同一个平面上的射影是9 寸和5 寸，\n求这两条线段的长。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf#q02",
       "content": "（每小题10 分，计20 分）\n(a) 解方程组：\n⎧{{\n⎨{{⎩\nlog3(2𝑥+ 8) −log3 𝑦= 1\n√2𝑥+ 14 −√2𝑦+ 7 = 0\n(b) 解方程：\n(√2 + √3)\n𝑥\n+ (√2 −√3)\n𝑥\n= 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf#q03",
       "content": "（14 分）设sin 𝛼为sin 𝜃与cos 𝜃的等差中项，sin 𝛽为sin 𝜃与cos 𝜃的等比中项，求证：\n2 cos 2𝛼= cos 2𝛽",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf#q04",
       "content": "（15 分）已知三棱锥的底面积为𝑆，高为𝐻，过这个三棱锥的三个侧棱的中点作一截面，求过这个三\n棱锥的底面上任一点为顶点，以所作截面为底的新三棱锥的体积。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf#q05",
       "content": "（16 分）在圆内接四边形𝐴𝐵𝐶𝐷中，对应边𝐴𝐵、𝐷𝐶的延长线交于𝑃，𝐴𝐷、𝐵𝐶的延长线交于𝑄。\n(a) 求证：𝑃𝐵⋅𝐶𝐴= 𝑃𝐶⋅𝐵𝐷；\n(b) 求证：∠𝑃及∠𝑄的平分线互相垂直。\n𝐴\n𝐵\n𝐶\n𝐷\n𝑃\n𝑄",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -125,11 +160,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958安徽(来源网络,不确定真实性).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 1,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1956/1956.pdf",
   "name": "1956",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 4,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 5,
+    "answerBlocks": 5,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 5,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1956/1956.pdf#q01",
       "content": "甲、利用对数性质,计算lg25+lg2·lg50.\n  （log 是以10 为底的对数log10 的记号）\n乙、设m 是实数,求证方程2x2-(4m-1)x-m2-m=0 的两\n个根必定都是实数.\n丙、设M 是△ABC 的边AC 的中点,过M 作直线交AB 直线于E,过B 作直\n线平行于ME 交AC 直线于F.求证△AEF 的面积等于△ABC 的面积的一半.\n丁、一个三角形三边的长分别是尺\n尺及\n尺求这个三角形的\n最大角的度数．\n3\n,4\n37\n,\n戊、设\n与\n是方程\n的两个根求证\n．\ntan\ntan\nx + 6x + 7 = 0\n,\nsin(\n+ ) = cos(\n+ )\n2\nα\nβ\nα\nβ\nα\nβ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "甲、解:  ∵lg2=1-lg5,lg50=1+lg5,\n原式=lg25+lg2·lg50=lg25+(1-lg5)(1+lg5)=lg25+1-lg25=1.\n乙、解:方程的判别式Δ=(4m-1)2+8(m2+m)=24m2+1,\n∵ m2 ≥0 ,∴Δ>0,\n所以二个根全是实数.\n丙、解:连BM.\n△AEF 的面积=△ABF 的面积+△BEF 的面积,\n∵ BF∥MF,\n∴ △BEF 的面积=△BFM 的面积,\n∴ △AEF 的面积=△BAM 的面积.\n∵△\n的面积\n△\n的面积\n∴△\n的面积\n△\n的面积．\nBAM\n= 1\n2\nABC\n,\nAEF\n= 1\n2\nABC\n丁、解:最大角对最大边,由余弦定律得\n 37=32+42-2·3·4cosθ\n ∴\nθ\n  cos\n= 9 +16 - 37\n24\n= - 1\n2 ,\n ∴ θ=120°.\n戊、解:tanα+tanβ=-6,tanα·tanβ=7;\n∴\n，\n∴\n．\n  sin(\n+ )\ncos(\n+ )\n = tan(\n+ ) = tan\n+ tan\n1\ntan tan\n  sin(\n+ ) = cos(\n+ )\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\n−\n= −\n−\n=\n6\n6\n1",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1956,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1956/1956.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1956/1956.pdf#q02",
       "content": "解联立方程\n7\n12\n136\n2\n2\nx\ny\nx\ny\nx\ny\n+\n−\n−\n=\n+\n=\n\n\n\n，\n．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：  7 x + y\nx2\n−\n−\n=\n+\n=\n\n\n\nx\ny\ny\n12\n1\n136\n2\n2\n( )\n( )\n由\n移项得\n即\n∴\n或\n(1)\n(x + y)\n7 x + y +12 = 0,\n   ( x + y\n3)( x + y\n4) = 0,\n   x + y = 3,\nx + y) = 4.\n−\n−\n−\n两边分别平方,x+y=9,或x+y=16.\n分别与(2)联立:\n (\n)\nx + y = 9\nx\n (\n)\nx + y = 16\nx\n2\n2\nⅠ\n，\n；\nⅡ\n，\n．\n+\n=\n\n\n\n+\n=\n\n\n\ny\ny\n2\n2\n136\n136\n   解方程组(Ⅰ),得\n(\n)\nx + y = 9\nx\n (\n)\nx + y = 9\nx\nx = 9 + 191\n2\n9\n191\n2\nx = 9\n191\n2\n9 + 191\n2\n1\n2\nⅠ\n，\n；\nⅡ\n，\n；\n，\n；\n，\n；\n−\n=\n\n\n\n−\n= −\n\n\n\n=\n−\n\n\n\n\n\n\n−\n=\n\n\n\n\n\n\ny\ny\ny\ny\n191\n191\n1\n2\n解方程组(Ⅱ)得\n(\n) x + y = 16\nx\n (\n) x + y = 16\nx\nx = 10\nx =\n10\n3\n4\nⅠ\n，\n；\nⅡ\n，\n；\n，\n；\n，\n；\n−\n=\n\n\n\n−\n= −\n\n\n\n=\n\n\n\n=\n\n\n\ny\ny\ny\ny\n4\n4\n6\n6\n3\n4\n   综上述,共得四组解:\nx = 9 + 191\n2\n9\n191\n2\nx = 9\n191\n2\n9 + 191\n2\nx = 10\n6\nx = 6\n10\n1\n2\n3\n4\n，\n；\n，\n；\n，\n；\n，\n．\ny\ny\ny\ny\n1\n2\n2\n4\n=\n−\n\n\n\n\n\n\n−\n=\n\n\n\n\n\n\n=\n\n\n\n=\n\n\n\n经检验,以上四组解均为原方程的解.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1956,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1956/1956.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1956/1956.pdf#q03",
       "content": "设是等边三角形\n外接圆\n⌒\n上的一点求证\n·\n．\nP\nABC\n,\nPA\nBC\nAB\nPB\nPC\n2\n2\n=\n+",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:令AP 与BC 的交点是M,\n∵ ∠APB=∠ABM.\n ∴ △ABP∽△AMB,∴ AP·AM=AB2,(1)\n ∵ ∠APC=∠BPM,∠PAC=∠PBM,\n ∴ △ACP∽△BMP,∴AP·MP=PB·PC,   (2)\n (1)+(2),得 AP·AM+AP·MP=AB2+PB·PC,\n 即 AP2=AB2+PB·PC.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1956,
       "subject": "数学",
@@ -79,22 +98,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1956/1956.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1956/1956.pdf#q04",
       "content": "有一四棱柱体,底面ABCD 为菱形,∠A’AB=∠A’AD（如右图）,求证平面\nA’ACC’垂直于底面ABCD.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解∵\n∴\n⊥\n∵∠＇\n∠＇\n∴△\n≌△＇\n∴\n＇\n＇\n∴\n＇⊥\n∴平面＇\n⊥\n故平面\n＇\n＇⊥\n:\nAB = AD\nAO\nBD.\nA\nAB =\nA\nAD,\nAAB\nA\nAD.\n  A\nB = A\nD,\n A\nO\nBD,\nA\nOA\nBD,\n A\nACC\nABCD.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1956,
       "subject": "数学",
@@ -102,22 +125,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1956/1956.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-386dfda27d60a7b1-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-386dfda27d60a7b1-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1956/1956.pdf#q05",
       "content": "若三角形的三个角成等差级数,则其中一定有一个角是60°;若这样的\n三角形的三边又成等比级数,则三个角都是60°,试证明之.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:令三角形的三个角是A,B,C,\n由  A-B=B-C,A+B+C=180°,\n得  B=60°\n设三边的长为a,aq,aq2,则长边aq 的边所对的角即为60°,\n根据余弦定理,\n(aq)2=a2+(aq2)2-2a·aq2cos60°,\na2q2=a2+a2q4-a2q2.\n∴  q=±1.但q=-1 不合题意,\n于是此三角形边长各为a 因而三个角都是60°.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1956,
       "subject": "数学",
@@ -125,11 +156,24 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1956/1956.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 4,
+    "assigned": 0,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 1,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

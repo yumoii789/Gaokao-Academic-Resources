@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
   "name": "2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q01",
       "content": "右图是伽利略1604 年做斜面实验时的一页\n手稿照片，照片左上角的三列数据如下表。表中\n第二列是时间，第三列是物体沿斜面运动的距\n离，第一列是伽利略在分析实验数据时添加的。\n根据表中的数据，伽利略可以得出的结论是\n（    ）\n（A）物体具有惯性\n（B）斜面倾角一定时，加速度与质量无关\n（C）物体运动的距离与时间的平方成正比\n（D）物体运动的加速度与重力加速度成正比",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "伽利略对一个简单的加速度运动有两种猜测：一是物体的速度随位移均匀变化，另一个是物体的\n速度随时间均匀变化。他比较倾向后者，然后从数学上推理得出，如果物体的速度随时间均匀变化，则其\n位移将与时间的平方成正比（初速度为零时）。伽利略做这个实验的目的就是验证自己的后一个想法。正确\n选项C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -33,11 +44,375 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q02",
+      "content": "如图，一半径为R 的圆盘上均匀分布着电荷量为Q 的电荷，在垂直于圆盘且过圆\n心c 的轴线上有a、b、d 三个点，a 和b、b 和c、c 和d 间的距离均为R，在a 点处有\n一电荷量为q（q＞0）的固定点电荷。已知b 点处的场强为零，则d 点处场强的大小为\n（k 为静电力常量）（    ）\n（A）k3q\nR2\n（B）k10q\n9R2\n（C）kQ＋q\nR2\n（D）k9Q＋q\n9R2",
+      "answer": "暂无结构化答案",
+      "analysis": "由b 处的合场强为零可知圆盘在此处产生的场强与点电荷q 在此处产生的场强大小相等。d 与b\n关于圆盘对称，因此圆盘在d 处产生的场强与在b 处产生的场强大小相等。根据以上分析可知：Ed\n(\n)\n2\n2\n2\n10\n9\n3\nd\nq\nq\nq\nE\nk\nk\nk\nR\nR\nR\n=\n+\n=\n。正确选项B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q03",
+      "content": "一水平放置的平行板电容器的两极板间距为d，极板分别与电池两极相连，上极板中心有一小孔（小\n孔对电场的影响可忽略不计）。小孔正上方d\n2 处的P 点有一带电粒子，该粒子从静止开始下落，经过小孔\n1\n1\n32\n4\n2\n130\n9\n3\n298\n16 4\n526\n25 5\n824\n36 6 1192\n49 7 1600\n64 8 2104\na\nb\nc\nd\nq\nQ\n2 / 10\n进入电容器，并在下极板处（未与极板接触）返回。若将下极板向上平移d\n3 ，则从P 点开始下落的相同粒\n子将（    ）\n（A）打到下极板上\n（B）在下极板处返回\n（C）在距上极板d\n2 处返回\n（D）在距上极板2d\n5 处返回",
+      "answer": "暂无结构化答案",
+      "analysis": "第一个运动过程由动能定理可知：mg（d＋d\n2 ）－qEd＝0－0；电容器保持与电源相连并且板间距\n减为原来的2\n3 时，场强将由E 变为2\n3 E，设粒子在距上极板x 的位置返回，则在此处时速度为零，由动能\n定理可知：mg（x＋d\n2 ）－q·2\n3 E·x＝0－0。两式联立可得x＝2\n5 d。正确选项D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q04",
+      "content": "如图，在水平面（纸面）内有三根相同的均匀金属棒ab、ac 和MN，其中ab、ac\n在a 点接触，构成“V”字型导轨。空间存在垂直于纸面的均匀磁场。用力使MN 向\n右匀速运动，从图示位置开始计时，运动中MN 始终与∠bac 的平分线垂直且和导轨\n保持良好接触。下列关于回路中电流i 与时间t 的关系图线，可能正确的是（    ）\nA              B              C              D",
+      "answer": "暂无结构化答案",
+      "analysis": "在导体棒MN 向右匀速运动过程中，由于其连入电路部分长度随时间线性增加，从而其电动势随\n时间线性增加。又由电阻定律可知，构成回路的三角形周长随时间线性增加，则其总电阻随时间线性增加。\n结合闭合电路欧姆定律可知，电流应恒定不变。正确选项A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q05",
+      "content": "如图，半径为R 的圆是一圆柱形匀强磁场区域的横截面（纸面），磁感应强度大小为B，\n方向垂直于纸面向外。一电荷量为q（q＞0）、质量为m 的粒子沿平行于直径ab 的方向射入\n磁场区域，射入点与ab 的距离为R/2。已知粒子射出去的磁场与射入磁场时运动方向间的\n夹角为60°，则粒子的速率为（不计重力）（     ）\n（A）qBR\n2m\n（B）qBR\nm\n（C）3qBR\n2m\n（D）2qBR\nm",
+      "answer": "暂无结构化答案",
+      "analysis": "如图所示，粒子射出磁场与射入磁场时运动方向间的夹角为60°，则\n其运动轨迹所对的圆心角NCM 也为60°。在三角形OHM 中，cos∠HOM＝\n1\n2 ，所以用HOM 为60°。由角边角定理可知，三角形OMN 与三角形CMN 全\n等，即圆周运动半径与磁场区域圆半径相等。由qvB＝mv2\nR 可知v＝qBR\nm 。正\n确选项B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q06",
+      "content": "如图，直线a 和曲线b 分别是在平直公路上行驶的汽车a 和b 的位置-时间（x-t）图线。由图可知（    ）\ni\nt\nO\ni\nt\nO\ni\nt\nO\ni\nt\nO\na\nb\nc\nM\nN\na\nb\nB\nq\na\nb\nB\nO\nC\nM\nN\nH\n3 / 10\n（A）在时刻t1，a 车追上b 车\n（B）在时刻t2，a、b 两车运动方向相反\n（C）在t1 到t2 这段时间内，b 车的速率先减少后增加\n（D）在t1 到t2 这段时间内，b 车的速率一直比a 车的大",
+      "answer": "暂无结构化答案",
+      "analysis": "t1 时刻之前，b 在a 的后面，而在此时间b 追上a，A 错。在x-t 图中，切线斜率表示物体的运动\n速度，其中斜率的绝对值表示速度的大小，斜率的正负表示运动方向，可知BC 正确。正确选项BC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q07",
+      "content": "2012 年6 月18 日，神州九号飞船与天宫一号目标飞行器在离地面343km 的近圆形轨道上成功进行了\n我国首次载人空间交会对接。对接轨道所处的空间存在极其稀薄的大气，下面说法正确的是（     ）\n（A）为实现对接，两者运行速度的大小都应介于第一宇宙速度和第二宇宙速度之间\n（B）如不加干预，在运行一段时间后，天宫一号的动能可能会增加\n（C）如不加干预，天宫一号的轨道高度将缓慢降低\n（D）航天员在天宫一号中处于失重状态，说明航天员不受地球引力作用",
+      "answer": "暂无结构化答案",
+      "analysis": "由于空气阻力的作用，其轨道半径越来越小，速度越来越大。失重并不是物体不受重力，而是对\n悬挂物的拉力或对支撑物的压力小于自身的重力，D 错误。在圆形轨道上绕地球做匀速圆周运动时，第一\n宇宙速度是其最大的环绕速度，A 错误。正确选项BC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q08",
+      "content": "2012 年11 月，“歼15”舰载机在“辽宁号”航空母舰上着舰成功。图（a）为利用阻拦系统让舰载机\n在飞行甲板上快速停止的原理示意图。飞机着舰并成功钩住阻拦索后，飞机的动力系统立即关闭，阻拦系\n统通过阻拦索对飞机施加一作用力，使飞机在甲板上短距离滑行后停止，某次降落，以飞机着舰为计时零\n点，飞机在t＝0.4s 时恰好钩住阻拦索中间位置，其着舰到停止的速度-时间图线如图（b）所示。假如无阻\n拦索，飞机从着舰到停止需要的滑行距离约为1000m。已知航母始终静止，重力加速度的大小为g。则（    ）\n（A）从着舰到停止，飞机在甲板上滑行的距离约为无阻拦索时的1/10\n（B）在0.4s~2.5s 时间内，阻拦索的张力几乎不随时间变化\n（C）在滑行过程中，飞行员所承受的加速度大小会超过2.5g\n（D）在0.4s~2.5s 时间内，阻拦系统对飞机做功的功率几乎不变",
+      "answer": "暂无结构化答案",
+      "analysis": "过（0，70）和（3.0，0）的直线与两坐标轴所围的三角形面积可替代曲线下的面积，其面积值为\n飞机在甲板上滑行的距离，A 正确。在0.4s～2.5s 时间内，飞机近似做匀变速运动，加速度不变，合力不\n变，阻拦索对飞机的合力不变，但由于阻拦索之间的夹角在小，因此阻拦索中的力在变小，B 错误。由在\n0.4s～2.5s 时间内直线斜率可知飞机运动的最大加速度会超过2.5g，C 正确。阻拦索对飞机的合力不变，但\n飞机的速度在减小，因此阻拦索系统对飞机做功的功率减小，D 错误。正确选项AC\n第II 卷",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q008-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q09",
+      "content": "（7 分）\n+\n+\n飞机\n阻拦索\n定滑轮\n图(a)\n70\n60\n50\n40\n30\n20\n10\n0\n0.5 1.0 1.5 2.0\n2.5 3.0\n3.5 t/s\nv/(ms-1)\n图(b)\nO\nx\nt\nt1\nt2\na\nb\n4 / 10\n图（a）为测量物块与水平桌面之间动摩擦因数的实验装置示意图。实验步骤如下：\n①用天平测量物块和遮光片的总质量M、重物的质量m；\n用游标卡尺测量遮光片的宽度d；用米尺测最两光电门之\n间的距离s；\n②调整轻滑轮，使细线水平；\n③让物块从光电门A 的左侧由静止释放，用数字毫秒计\n分别测出遮光片经过光电门A和光电门B所用的时间ΔtA\n和ΔtB，求出加速度a；\n④多次重复步骤③，求a 的平均值a ；\n⑤根据上述实验数据求出动擦因数μ。\n回答下列问题：\n（1）测量d 时，某次游标卡尺（主尺的最小分度为1mm）的示数如图（b）所示，其读数为________cm。\n（2）物块的加速度a 可用d、s、ΔtA 和ΔtB 表示为a＝____________。\n（3）动摩擦因数μ 可用M、m、a 和重力加速度g 表示为μ＝_____________\n（4）如果细线没有调整到水平，由此引起的误差属于___________（填“偶然误差”或“系统误差”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）游标卡尺的读数：0.9cm+12×0.05mm＝0.960cm。\n（2）由于vA＝d\nΔtA ，vB＝d\nΔtB ，由运动学公式知vB2－vA2＝2as，联立解得：a＝1\n2s [（d\nΔtA ）2－（d\nΔtB ）2]。\n（3）由牛顿第二定律得：mg－FT＝m a ；FT－μMg＝M a ，联立解得μ＝\nmg－（M＋m）a\nMg\n 。\n（4）系统误差是由于仪器本身不精确，或实验方法粗略，或实验原理不完善而产生的。偶然误差是由各种\n偶然因素对实验者、测量仪器、被测物理量的影响而产生的。细线没有调整到水平引起的误差属于系统误\n差。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q10",
+      "content": "（8 分）某学生实验小组利用图（a）所示电路，测量多用电表内电池的电动势\n和电阻“×1k”挡内部电路的总电阻。使用的器材有：\n⚫\n多用电表；\n⚫\n电压表：量程5V，内阻十几千欧；\n⚫\n滑动变阻器：最大阻值5kΩ\n⚫\n导线若干。\n回答下列问题：\n（1）将多用电表挡位调到电阻“×1k”挡，再将红表笔和黑表笔______，调零点。\n（2）将图（a）中多用电表的红表笔和______（填“1”或“2”）端相连，黑表笔连接另一端。\n（3）将滑动变阻器的滑片调到适当位置，使多角电表的示数如图（b）所示，这时电压表的示数如图（c）\n所示。多用电表和电压表的读数分别为________kΩ 和________V。\n0\n5\n10\n15\n20\n1\n2\n3\n图(b)\nA\nB\nd\ns\n图(a)\n重物\n轻滑轮\n光电门\n光电门\n遮光片\n物块\n细线\n多用\n电表\nV +\n2\n1\n黑\n红\n图(a)\n5 / 10\n（4）调节滑动变阻器的滑片，使其接入电路的阻值为零。此时多用电表和电压表的读\n数分别为12.0kΩ 和4.00V。从测量数据可知，电压表的内阻为________kΩ。\n（5）多用电表电阻挡内部电路可等效为由一个无内阻的电池、一个理想电流表和一个\n电阻串联而成的电路，如图（d）所示。根据前面的实验数据计算可得，此多用电表内\n电池的电动势为______V，电阻“×1k”挡内部电路的总电阻为________kΩ。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）欧姆表测电阻时，先选档；然后进行欧姆调零，将红、黑表笔短接，调整\n欧姆调零旋钮，使指针指到欧姆表刻度的零位置；再测量、读数。\n（2）对于多用电表欧姆档，其电流从黑表笔流出，从红表笔流入，而电压表则要求电流从“＋”接线柱流\n入，因此红表笔应和“1”端相连。\n（3）多用电表欧姆档的测量值等于表盘上读数乘以倍率，电阻“×1k”读第一排，读数为15.0×1k＝15.0kΩ；\n直流电压5V，最小分度为0.1V，估读到分度值下一位，读数为3.60V。\n（4）调节滑动变阻器的滑片，使其接入电路的阻值为零，多用电表的读数即为电压表的内阻。\n（5）由闭合电路欧姆定律得：E＝U＋U\nRV （R 滑＋r），有：E＝3.6＋\n3.6\n12.0×103 [（15－12）×103＋r]，E＝\n4.0＋\n4.0\n12.0×103 r。解得：E＝9.00V，r＝15.0kΩ。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q010-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q010-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q010-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q11",
+      "content": "（13 分）\n水平桌面上有两个玩具车A 和B，两者用一轻质细橡皮筋相连，在橡皮筋上有一红色标记R。在初始时橡\n皮筋处于拉直状态，A、B 和R 分别位于直角坐标系中的（0，2l）、（0，－l）和（0，\n0）点。已知A 从静止开始沿y 轴正向做加速度大小为a 的匀加速运动；B 平行于\nx 轴朝x 轴正向匀速运动。在两车此后运动的过程中，标记R 在某时刻通过点（l，\nl）。假定橡皮筋的伸长是均匀的，求B 运动速度的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "设B 车的速度大小为v。如图，标记R 在时刻t 通过点K（l，l），此时A、\nB 的位置分别为H、G。由运动学公式，H 的纵坐标yA、G 的横坐标xB 分别为\nyA＝2l＋1\n2 at2                        ①\nxB＝vt                               ②\n在开始运动时，R 到A 和B 的距离之比为2∶1，即\nOE∶OF＝2∶1\n由于橡皮筋的伸长是均匀的，在以后任一时刻R 到A 和B 的距离之比都为2∶1。因此，在时刻t 有\nHK∶KG＝2∶1                           ③\nA-V-Ω\nV\n图(b)\n图(c)\n图(d)\n y\nx\nyA H\n2l\nl\nK(l,l)\nO\n－l F I\nG\nxB\nE\n6 / 10\n由于ΔFGH 相似于ΔIGK，有\n(\n)\n:\n:\nB\nB\nHG KG\nx\nx\nl\n=\n−\n                     ④\n(\n) (\n)\n:\n: 2\nA\nHG KG\ny\nl\nl\n=\n+\n                    ⑤\n由③④⑤式得\n3\n2\nB\nx\nl\n=\n                                   ⑥\n5\nA\ny\nl\n=\n                                    ⑦\n联立①②⑥⑦式得\nv＝1\n4\n6al               ⑧",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf#q12",
+      "content": "（19 分）如图，两条平行导轨所在平面与水平地面的夹角为θ，\n间距为L。导轨上端接有一平行板电容器，电容为C。导轨处于匀强\n磁场中，磁感应强度大小为B，方向垂直于导轨平面。在导轨上放置\n一质量为m 的金属棒，棒可沿导轨下滑，且在下滑过程中保持与导轨\n垂直并良好接触。已知金属棒与导轨之间的动摩擦因数为μ，重力加\n速度大小为g。忽略所有电阻。让金属棒从导轨上端由静止开始下滑，\n求：\n（1）电容器极板上积累的电荷量与金属棒速度大小的关系；\n（2）金属棒的速度大小随时间变化的关系。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设金属棒下滑的速度大小为v，则感应电动势为\nE\nBLv\n=\n                            ①\n平行板电容器两极板之间的电势差为\nU\nE\n=\n                              ②\n设此时电容器极板上积累的电荷量为Q，按定义有\nQ\nC\nU\n=\n                              ③\n联立①②③式得\nQ\nCBLv\n=\n                            ④\n（2）设金属棒的速度大小为v 时经历的时间为t，通过金属棒的电流为i，金属棒受到的磁场的作用力方\n向沿导轨向上，大小为\n1f\nBLi\n=\n                                  ⑤\n设在时间间隔(\n)\n,t t\nt\n+ \n内流经金属棒的电荷量为Q\n\n，按定义有\nQ\ni\nt\n\n= \n                                   ⑥\nQ\n\n也是平行板电容器极板在时间间隔(\n)\n,t t\nt\n+ \n内增加的电荷量，由④式得\nQ\nCBL v\n\n=\n                               ⑦\nm\nθ\nL\nB\nC\n7 / 10\n式中，v\n为金属棒的速度变化量，按定义有\nv\na\nt\n\n= \n                                     ⑧\n金属棒所受的摩擦力方向斜向上，大小为\n2f\nN\n\n=\n                                     ⑨\n式中，N 是金属棒对于导轨的正压力的大小，有\ncos\nN\nmg\n\n=\n                                 ⑩\n金属棒在时刻t 的加速度方向沿斜面向下，设其大小为a，根据牛顿第二定律有\n1\n2\nsin\nmg\nf\nf\nma\n−\n−\n=\n                        ⑾\n联立⑤至⑾式得\n(\n)\n2\n2\nsin\ncos\nm\na\ng\nm\nB L C\n\n\n\n−\n=\n+\n                        ⑿\n由⑿式及题设可知，金属棒做初速度为零的匀加速运动。T 时刻金属棒的速度大小为\n(\n)\n2\n2\nsin\ncos\nm\nv\ngt\nm\nB L C\n\n\n\n−\n=\n+\n                        ⒀\n（二）选考题：共45 分。请考生从给出的3 道物理题、3 道化学题、2 道生物题中每科任选一题作答，并\n用2B 铅笔在答题卡上把所选题目的题号涂黑。注意所做题目的题号必须与所涂题目的题号一致，在答题\n卡选答区域指定位置答题。如果多做，则每学科按所做第一题计分。\n33．【物理——选修3-3】（15 分）\n（1）（6 分）两个相距较远的分子仅在分子力作用下由静止开始运动，直至不再靠近。在此过程中，下列\n说法正确的是__________（填正确答案标号。选对1 个得3 分，选对2 个得4 分，选对3 个得6 分。每选\n错1 个扣3 分，最低得分为0 分）\nA．分子力先增大，后一直减小\nB．分子力先做正功，后做负功\nC．分子动能先增大，后减小\nD．分子势能先增大，后减小\nE．分子势能和动能之和不变\n由分子力随分子间距离变化关系分析知，分子力先增大，然后减小，再增大，A 选项错误；分子\n从相距很远处开始运动，则r＞r0 时合力为引力，力和位移的夹角小于90°，分子力做正功，分子动能大。\nr＞r0 时合力为斥力，力和位移的夹角大于90°，分子力做负功，分子动能减小，BC 选项正确；由分子力做\n功与分子势能变化关系知，分子势能先减小，后增大，D 选项错误；分子仅在分子力作用下运动，只有分\n子力做功，分子势能和动能之间相互转化，分子势能和动能之和不变；E 选项正确；\n8 / 10\n（2）（9 分）如图，两个侧壁绝热、顶部和底部都导热的相同气缸直立放置，气缸\n底部和顶部均有细管连通，顶部的细管带有阀门K。两气缸的容积均为V0，气缸中\n各有一个绝热活塞（质量不同，厚度可忽略）。开始时K 关闭，两活塞下方和右活\n塞上方充有气体（可视为理想气体），压强分别为p0 和p0/3；左活塞在气缸正中间，\n其上方为真空；右活塞上方气体体积为V0/4。现使气缸底与一恒温热源接触，平衡\n后左活塞升至气缸顶部，且与顶部刚好没有接触；然后打开K，经过一段时间，重\n新达到平衡。已知外界温度为T0，不计活塞与气缸壁间的摩擦。求：\n（1）恒温热源的温度T；\n（2）重新达到平衡后左气缸中活塞上方气体的体积Vx。\n（1）与恒温热源接触后，在K 未打开时，右活塞不动，两活塞下方的气体经历等压过程，由盖·吕\n萨克定律得\nT\nT0 ＝7V0/4\n5V0/4         ①\n得T＝7\n5 T0        ②\n（2i）由初始状态的力学平衡条件可知，左活塞质量比右活塞的大。打开K 后，\n左活塞下降至某一位置，右活塞必须升至气缸顶，才能满足力学平衡条件。\n气缸顶部与外界接触，底部与恒温热源接触，两部分气体各自经历等温过程，设左活塞上方气体压强为p，\n由玻意耳定律得 pVx＝p\n3 ·V0\n4\n③\n（p＋p0）（2V0－Vx）＝p0·7\n4 V0\n④\n联立③④式得\n6Vx2－V0Vx－V02＝0\n其解为\nVx＝1\n2 V0                              ⑤\n另一解Vx＝－1\n3 V0 不合题意，舍去。\n34．【物理——选修3-4】（15 分）\n（1）（6 分）如图，a、b、c、d 是均匀媒质中x 轴上的四个质点，相\n邻两点的间距依次为2m、4m 和6m。一列简谐横波以2m/s 的波速沿\nx 轴正向传播，在t＝0 时刻到达质点a 处，质点a 由平衡位置开始竖\n直向下运动，t＝3s 时a 第一次到达最高点。下列说法正确的是_____（填正确答案标号。选对1 个得3 分，\n选对2 个得4 分，选对3 个得6 分。每选错1 个扣3 分，最低得分为0 分）\nA．在t＝6s 时刻波恰好传到质点d 处\nB．在t＝5s 时刻质点c 恰好到达最高点\nC．质点b 开始振动后，其振动周期为4s\nD．在4s＜t＜6s 的时间间隔内质点c 向上运动\nE．当质点d 向下运动时，质点b 一定向上运动\n当t＝6 时,波传播的距离Δx＝vt＝2×6m＝12m,A 选项正确； t＝0 时刻质点a 由平衡位置开始竖\n直向下运动，t＝3s 时a 第一次到达最高点，所以T＝4s，C 选项正确；质点c 恰好到达最高点的时间t＝\n3s＋6/2s＝6s，B 选项错误；t＝4s 时，质点C 位于波谷，D 项正确；由λ＝vT 知λ＝2×4m＝8m，bd＝10m\n＝5\n4 λ，所以当质点d 从最高点向下运动时，质点b 从平衡位置向下运动，E 选项错误。\np0/3\np0\nK\na\nb\nc\nd\nx\np0/3\np0\nK\n恒 温 热 源\npVx\nK\n恒 温 热 源\n9 / 10\n（2）（9 分）图示为一光导纤维（可简化为一长玻璃丝）的示意图，玻璃\n丝长为L，折射率为n，AB 代表端面。已知光在真空中的传播速度为c。\n（1）为使光线能从玻璃丝的AB 端面传播到另一端面，求光线在端面AB\n上的入射角应满足的条件；\n（2）求光线从玻璃丝的AB 端面传播到另一端面所需的最长时间。\n（i）设光线在端面AB 上C 点（如图）的入射角为i，折射角为r，由折射定律有\nsin\nsin\ni\nn\nr\n=\n                        ①\n设该光线射向玻璃丝内壁D 点的入射角为，为了使该光线可在此光导纤维中传播，应有\n\n\n\n                           ②\n式中是光线在玻璃丝内发生全反射时的临界角，它满足\n1\nsin\nn\n=\n                        ③\n由几何关系得\n90\nr\n+\n=\n                       ④\n由①②③④式得\n2\nsin\n1\ni\nn\n\n−\n                      ⑤\n（ii）光在玻璃丝中传播速度的大小为\nc\nv\nn\n=\n                              ⑥\n光速在玻璃丝中轴线方向的分量为\nsin\nxv\nv\na\n=\n                          ⑦\n光线从玻璃丝端面AB 传播到其另一端面所需时间为\nx\nL\nT\nv\n=\n                              ⑧\n光线在玻璃丝中传播，在刚好发生全反射时，光线从端面AB 传播到其另一面所需的时间最长，由\n②③⑥⑦⑧式得\n2\nmax\nLn\nT\nc\n=\n                            ⑨\n35．【物理——选修3-5】（15 分）\n（1）（6 分）一质子束入射到能止靶核2713Al 上，产生如下核反应：p＋2713Al→X＋n，式中p 代表质子，n\n代表中子，X 代表核反应产生的新核。由反应式可知，新核X 的质子数为__________，中子数为______。\n根据核反应过程电荷数守恒和质量数守恒，新核X 的质子数为1＋13－0＝14，质量数为1＋27－\n1＝27，所以中子数＝27－14＝13。\n（2）（9 分）在粗糙的水平桌面上有两个静止的木块A 和B，两者相距为d。现给A 一初速度，使A 与B\n发生弹性正碰，碰撞时间极短。当两木块都停止运动后，相距仍然为d。已知两木块与桌面之间的动摩擦\n因数均为μ，B 的质量为A 的2 倍，重力加速度大小为g。求A 的初速度的大小。\nA\nB\nA\nB\nC\nD\ni\nr\nα\n10 / 10\n设在发生碰撞前的瞬间，木块A 的速度大小为v；在碰撞后的瞬间，A 和B 的速度分别为\n1v 和\n2v 。在碰撞过程中，由能量和动量守恒定律，得\n(\n)\n2\n2\n2\n1\n2\n1\n1\n1 2\n2\n2\n2\nmv\nmv\nm v\n=\n+\n             ①\n1\n2\n2\nmv\nmv\nmv\n=\n+\n                     ②\n式中，以碰撞前木块A 的速度方向为正，由①②式得\n2\n1\n2\nv\nv =\n                              ③\n设碰撞后A 和B 的运动的距离分别为\n1d 和\n2\nd ，由动能定理得\n2\n1\n1\n1\n0\n2\nngd\nmv\n\n−\n=\n−\n                    ④\n(\n)\n(\n)\n2\n2\n2\n1\n2\n0\n2\n2\nm gd\nm v\n\n−\n=\n−\n            ⑤\n依题意有\n1\n2\nd\nd\nd\n=\n+\n                             ⑥\n设A 的初速度大小为\n0v ，由动能定理得\n2\n2\n0\n1\n1\n2\n2\nmgd\nmv\nmv\n\n−\n=\n−\n                 ⑦\n联立②至⑦式，得\n0\n28\n5\nv\ngd\n\n=\n                          ⑧",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标1理综(河南,河北,山西,江西,湖北,湖南,陕西).pdf",
+        "page": 6,
+        "endPage": 10,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p008-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p009-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p009-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ccb86cd7c2cd3a7c-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 0,
+    "assigned": 23,
+    "rendered": 24,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

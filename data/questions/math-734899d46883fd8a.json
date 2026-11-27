@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
   "name": "2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q01",
       "content": "复数2 + i\n1 −2i 的共轭复数是\n(\n)\n(A) −3\n5i\n(B) 3\n5i\n(C) −i\n(D) i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q02",
       "content": "下列函数中, 既是偶函数又在(0, +∞) 单调递增的函数是\n(\n)\n(A) y = x3\n(B) y = |x| + 1\n(C) y = −x2 + 1\n(D) y = 2−|x|",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -56,22 +77,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q002-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q03",
       "content": "执行如图的程序框图, 如果输入的N 是6, 那么输出的p 是\n(\n)\n开始\n输入N\nk = 1, p = 1\np = p · k\nk < N\nk = k + 1\n输出p\n结束\n否\n是\n(A) 120\n(B) 720\n(C) 1440\n(D) 5040",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -79,22 +111,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q04",
       "content": "有3 个兴趣小组, 甲、乙两位同学各自参加其中一个小组, 每位同学参加各\n个小组的可能性相同, 则这两位同学参加同一个兴趣小组的概率为\n(\n)\n(A) 1\n3\n(B) 1\n2\n(C) 2\n3\n(D) 3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -102,22 +144,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q05",
       "content": "已知角θ 的顶点与原点重合, 始边与x 轴的正半轴重合, 终边在直线\ny = 2x 上, 则cos 2θ =\n(\n)\n(A) −4\n5\n(B) −3\n5\n(C) 3\n5\n(D) 4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -125,22 +173,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q06",
       "content": "在一个几何体的三视图中, 正视图和俯视图如下图所示, 则相应的侧视图\n可以为\n(\n)\n俯视图\n正视图\n(A)\n(B)\n(C)\n(D)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -148,22 +202,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q07",
       "content": "设直线l 过双曲线C 的一个焦点, 且与C 的一条对称轴垂直, l 与C 交于\nA, B 两点, |AB| 为C 的实轴长的2 倍, 则C 的离心率为\n(\n)\n(A)\n√\n2\n(B)\n√\n3\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -171,22 +235,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q08",
       "content": "(\nx + a\nx\n) (\n2x −1\nx\n)5\n的展开式中各项系数的和为2, 则该展开式中常数项\n为\n(\n)\n(A) −40\n(B) −20\n(C) 20\n(D) 40",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -194,22 +264,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q09",
       "content": "由曲线y = √x, 直线y = x −2 及y 轴所围成的图形的面积为\n(\n)\n(A) 10\n3\n(B) 4\n(C) 16\n3\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -217,22 +293,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q10",
       "content": "已知a 与b 均为单位向量, 其夹角为θ, 有下列四个命题:\np1: |a + b| > 1 ⇔θ ∈\n[\n0, 2π\n3\n)\np2: |a + b| > 1 ⇔θ ∈\n(2π\n3 , π\n]\np3: |a −b| > 1 ⇔θ ∈\n[\n0, π\n3\n)\np4: |a −b| > 1 ⇔θ ∈\n(π\n3 , π\n]\n其中的真命题是\n(\n)\n(A) p1, p4\n(B) p1, p3\n(C) p2, p3\n(D) p2, p4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -240,22 +326,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q11",
       "content": "设函数f (x) = sin (ωx + φ) + cos (ωx + φ)\n(\nω > 0, |φ| < π\n2\n)\n的最小正周\n期为π, 且f (−x) = f (x), 则\n(\n)\n(A) f (x) 在\n(\n0, π\n2\n)\n单调递减\n(B) f (x) 在\n(π\n4 , 3π\n4\n)\n单调递减\n(C) f (x) 在\n(\n0, π\n2\n)\n单调递增\n(D) f (x) 在\n(π\n4 , 3π\n4\n)\n单调递增",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -263,22 +355,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q12",
       "content": "函数y =\n1\n1 −x 的图象与函数y = 2 sin πx (−2 ⩽x ⩽4) 的图象所有交点\n的横坐标之和等于\n(\n)\n(A) 2\n(B) 4\n(C) 6\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -286,22 +384,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q13",
       "content": "若变量x, y 满足约束条件\n{\n3 ⩽2x + y ⩽9,\n6 ⩽x −y ⩽9,\n则z = x + 2y 的最小值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -309,22 +413,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q14",
       "content": "在平面直角坐标系xOy 中, 椭圆C 的中心为原点, 焦点F1、F2 在x 轴上,\n离心率为\n√\n2\n2 , 过F1 的直线l 交C 于A、B 两点, 且△ABF2 的周长为\n16, 那么C 的方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q15",
       "content": "已知矩形ABCD 的顶点都在半径为4 的球O 的球面上, 且AB = 6,\nBC = 2\n√\n3, 则棱锥O −ABCD 的体积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -355,22 +471,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q16",
       "content": "在△ABC 中, B = 60◦, AC =\n√\n3, 则AB + 2BC 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -378,22 +500,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q17",
       "content": "等比数列{an} 的各项均为正数, 且2a1 + 3a2 = 1, a2\n3 = 9a2a6.\n(1) 求数列{an} 的通项公式;\n(2) 设bn = log3a1 + log3a2 + · · · + log3an, 求数列\n{ 1\nbn\n}\n的前n 项和.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -401,22 +529,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q017-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q18",
       "content": "如图, 四棱锥P −ABCD 中, 底面ABCD 为平行四边形, ∠DAB = 60◦,\nAB = 2AD, PD ⊥底面ABCD.\n(1) 证明: PA ⊥BD;\n(2) 若PD = AD, 求二面角A −PB −C 的余弦值.\nA\nB\nD\nC\nP\n685",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -424,22 +563,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q19",
       "content": "某种产品的质量以其质量指标值衡量, 质量指标值越大表明质量越好, 且\n质量指标值大于或等于102 的产品为优质品. 现用两种新配方(分别称为\nA 配方和B 配方) 做试验, 各生产了100 件这种产品, 并测量了每件产品\n的质量指标值, 得到了下面试验结果:\nA 配方的频数分布表\n指标值分组\n[90, 94)\n[94, 98)\n[98, 102)\n[102, 106)\n[106, 110]\n频数\n8\n20\n42\n22\n8\nB 配方的频数分布表\n指标值分组\n[90, 94)\n[94, 98)\n[98, 102)\n[102, 106)\n[106, 110]\n频数\n4\n12\n42\n32\n10\n(1) 分别估计用A 配方, B 配方生产的产品的优质品率;\n(2) 已知用B 配方生产一件产品的利润y (单位: 元) 与其质量指标值t 的\n关系式为y =\n\n\n\n\n\n\n\n−2,\nt < 94,\n2,\n94 ⩽t < 102,\n4,\nt ⩾102.\n从用B 配方生产的产品中任取一件,\n其利润记为X (单位: 元), 求X 的分布列及数学期望. (以实验结果中质\n量指标值落入各组的频率作为一件产品的质量指标值落入相应组的概率)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -447,22 +596,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q20",
       "content": "在平面直角坐标系xOy 中, 已知点A (0, −1), B 点在直线y = −3 上, M\n点满足#     »\nMB\n#   »\nOA, #     »\nMA · #   »\nAB = #     »\nMB · #   »\nBA, M 点的轨迹为曲线C.\n(1) 求C 的方程;\n(2) P 为C 上的动点, l 为C 在P 点处的切线, 求O 点到l 距离的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -470,22 +625,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q21",
       "content": "已知函数f (x) = a ln x\nx + 1 + b\nx, 曲线y = f (x) 在点(1, f (1)) 处的切线方程\n为x + 2y −3 = 0.\n(1) 求a, b 的值;\n(2) 如果当x > 0, 且x̸ = 1 时, f (x) > ln x\nx −1 + k\nx, 求k 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -493,22 +654,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q22",
       "content": "如图, D, E 分别为△ABC 的边AB, AC 上的点, 且不与△ABC 的顶点\n重合. 已知AE 的长为m, AC 的长为n, AD, AB 的长是关于x 的方程\nx2 −14x + mn = 0 的两个根.\n(1) 证明: C, B, D, E 四点共圆;\n(2) 若∠A = 90◦, 且m = 4, n = 6, 求C, B, D, E 所在圆的半径.\nA\nB\nD\nC\nE\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -516,22 +683,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q23",
       "content": "在直角坐标系xOy 中, 曲线C1 的参数方程为\n{\nx = 2 cos α,\ny = 2 + 2 sin α,\n(α 为参\n数), M 是C1 上的动点, P 点满足#    »\nOP = 2#     »\nOM, P 点的轨迹为曲线C2.\n(1) 求C2 的方程;\n(2) 在以O 为极点, x 轴的正半轴为极轴的极坐标系中, 射线θ = π\n3 与C1\n的异于极点的交点为A, 与C2 的异于极点的交点为B, 求|AB|.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -539,22 +716,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf#q24",
       "content": "设函数f(x) = |x −a| + 3x, 其中a > 0.\n(1) 当a = 1 时, 求不等式f(x) ⩾3x + 2 的解集;\n(2) 若不等式f(x) ⩽0 的解集为{x | x ⩽−1}, 求a 的值.\n686",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -562,11 +745,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011新课标理(河南,黑龙江,吉林,海南,宁夏,山西,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q024-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-734899d46883fd8a-q024-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2007/2007四川文.pdf",
   "name": "2007四川文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q01",
       "content": "设集合M = {4, 5, 6, 8}, 集合N = {3, 5, 7, 8}, 那么M ∪N =\n(\n)\n(A) {3, 4, 5, 6, 7, 8}\n(B) {5, 8}\n(C) {3, 5, 7, 8}\n(D) {4, 5, 6, 8}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q02",
       "content": "函数f(x) = 1 + log2 x 与g(x) = 2−x+1 在同一直角坐标系下的图象大致\n是\n(\n)\n(A)\nx\n1\n2\n1\n2\ny\nO\n(B)\nx\n1\n2\n1\n2\ny\nO\n(C)\nx\n1\n2\n1\n2\ny\nO\n(D)\nx\n1\n2\n1\n2\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q03",
       "content": "某商场买来一车苹果, 从中随机抽取了10 个苹果, 其重量(单位: 克) 分别\n为: 150, 152, 153, 149, 148, 146, 151, 150, 152, 147, 由此估计这车苹果单\n个重量的期望值是\n(\n)\n(A) 150.2 克\n(B) 149.8 克\n(C) 149.4 克\n(D) 147.8 克",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q04",
       "content": "如图, ABCD −A1B1C1D1 为正方体, 下面结论错误的是\n(\n)\nA\nB\nC\nD\nA1\nB1\nC1\nD1\n(A) BD\n平面CB1D1\n(B) AC1 ⊥BD\n(C) AC1 ⊥平面CB1D1\n(D) 异面直线AD 与CB1 角为60◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q05",
       "content": "如果双曲线x2\n4 −y2\n2 = 1 上一点P 到双曲线右焦点的距离是2, 那么点P\n到y 轴的距离是\n(\n)\n(A) 4\n√\n6\n3\n(B) 2\n√\n6\n3\n(C) 2\n√\n6\n(D) 2\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q06",
       "content": "设球O 的半径是1, A、B、C 是球面上三点, 已知A 到B、C 两点的球面\n距离都是π\n2 , 且二面角B −OA −C 的大小为π\n3 , 则从A 点沿球面经B、\nC 两点再回到A 点的最短距离是\n(\n)\nO\nA\nB\nC\n(A) 7π\n6\n(B) 5π\n4\n(C) 4π\n3\n(D) 3π\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q07",
       "content": "等差数列{an} 中, a1 = 1, a3 +a5 = 14, 其前n 项和Sn = 100, 则n =(\n)\n(A) 9\n(B) 10\n(C) 11\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q08",
       "content": "设A(a, 1), B(2, b), C(4, 5) 为坐标平面上三点, O 为坐标原点, 若#   »\nOA 与\n#    »\nOB 在#    »\nOC 上的投影相同, 则a 与b 满足的关系式为\n(\n)\n(A) 4a −5b = 3\n(B) 5a −4b = 3\n(C) 4a + 5b = 14 (D) 5a + 4b = 14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -194,22 +255,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q008-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q008-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q09",
       "content": "用数字1, 2, 3, 4, 5 可以组成没有重复数字, 并且比20000 大的五位偶数\n共有\n(\n)\n(A) 48 个\n(B) 36 个\n(C) 24 个\n(D) 18 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -217,22 +289,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q10",
       "content": "已知抛物线y = −x2 + 3 上存在关于直线x + y = 0 对称的相异两点A、\nB, 则|AB| 等于\n(\n)\n(A) 3\n(B) 4\n(C) 3\n√\n2\n(D) 4\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -240,22 +322,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q11",
       "content": "某公司有60 万元资金, 计划投资甲、乙两个项目, 按要求对项目甲的投资\n不小于对项目乙投资的2\n3 倍, 且对每个项目的投资不能低于5 万元, 对项\n目甲每投资1 万元可获得0.4 万元的利润, 对项目乙每投资1 万元可获得\n0.6 万元的利润, 该公司正确规划投资后, 在这两个项目上共可获得的最大\n利润为\n(\n)\n(A) 36 万元\n(B) 31.2 万元\n(C) 30.4 万元\n(D) 24 万元",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -263,22 +355,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q12",
       "content": "如图, l1、l2、l3 是同一平面内的三条平行直线, l1 与l2 间的距离是1, l2 与\nl3 间的距离是2, 正三角形ABC 的三顶点分别在l1、l2、l3 上, 则△ABC\n的边长是\n(\n)\nA\nB\nC\nl2\nl3\nl1\n(A) 2\n√\n3\n(B) 4\n√\n6\n3\n(C) 3 −\n√\n7\n4\n(D) 2 −\n√\n21\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -286,22 +384,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q012-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q012-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q13",
       "content": "(\nx −1\nx\n)n\n的展开式中的第5 项为常数项, 那么正整数n 的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -309,22 +418,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q14",
       "content": "如图, 在正三棱柱ABC −A1B1C1 中, 侧棱长为\n√\n2, 底面三角形的边长为\n1, 则BC1 与侧面ACC1A1 所成的角是\n.\nA\nC\nB\nA1\nC1\nB1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -332,22 +447,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q15",
       "content": "已知⊙O 的方程是x2 +y2 −2 = 0, ⊙O′ 的方程是x2 +y2 −8x+10 = 0, 由\n动点P 向⊙O 和⊙O′ 所引的切线长相等, 则动点P 的轨迹方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -355,22 +480,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q16",
       "content": "下面有五个命题:\n①函数y = sin4 x −cos4 x, 的最小正周期是π;\n②终边在y 轴上的角的集合是\n{\nα\n����α = kπ\n2 , k ∈Z\n}\n;\n③在同一坐标系中, 函数y = sin x 的图象和函数y = x 的图象有三个公\n共点;\n④把函数y = 3 sin\n(\n2x + π\n3\n)\n的图象向右平移π\n6 得到y = 3 sin 2x 的图\n象;\n⑤角θ 为第一象限角的充要条件是sin θ > 0.\n其中真命题的序号是\n. (写出所有)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -378,22 +509,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q17",
       "content": "厂家在产品出厂前, 需对产品做检验, 厂家对一般产品致冷商家的, 商家符\n合规定拾取一定数量的产品做检验, 以决定是否验收这些产品.\n(1) 若厂家库房中的每件产品合格的概率为0.3, 从中任意取出4 种进行检\n验, 求至少要1 件是合格产品的概率;\n(2) 若厂家发给商家20 件产品, 其中有3 件不合格, 按合同规定该商家从\n中任取2 件, 来进行检验, 只有2 件产品合格时才接收这些产品, 否则拒\n收, 分别求出该商家计算出不合格产品为1 件和2 件的概率, 并求该商家\n拒收这些产品的概率.\n411",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -401,22 +538,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q18",
       "content": "已知cos α = 1\n7, cos(α −β) = 13\n14, 且0 < β < α < π\n2 .\n(1) 求tan 2α 的值;\n(2) 求β.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -424,22 +567,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q19",
       "content": "如图, PCBM 是直角梯形, ∠PCB = 90◦, PM\nBC, 直线AM 与直线\nPC 所成的角为60◦, 又AC = 1, BC = 2PM = 2, ∠ACB = 90◦.\n(1) 求证: AC ⊥BM;\n(2) 求二面角M −AB −C 的大小;\n(3) 求多面体PMABC 的体积.\nA\nB\nC\nP\nM",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -447,22 +596,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d801d161012cfe9e-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q20",
       "content": "设函数f(x) = ax3 + bx + c (a̸ = 0) 为奇函数, 其图象在点(1, f(1)) 处的\n切线与直线x −6y −7 = 0 垂直, 导函数f ′(x) 的最小值为−12.\n(1) 求a, b, c 的值;\n(2) 求函数f(x) 的单调递增区间, 并求函数f(x) 在[−1, 3] 上的最大值和\n最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -470,22 +629,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q21",
       "content": "已知F1、F2 分别是椭圆x2\n4 + y2 −1 的左、右焦点.\n(1) 若P 是第一象限内该椭圆上的一点, 且#     »\nPF1 · #     »\nPF2 = −5\n4, 求点P 的坐\n标;\n(2) 设过定点M(0, 2) 的直线l 与椭圆交于不同的两点A、B, 且∠AOB\n为锐角(其中O 为作标原点), 求直线l 的斜率k 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -493,22 +658,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007四川文.pdf#q22",
       "content": "已知函数f (x) = x2 −4, 设曲线y = f (x) 在点(xn, f (xn)) 处的切线与x\n轴的交点为(xn+1, 0) (n ∈N∗), 其中x1 为正实数.\n(1) 用xn 表示xn+1;\n(2) 若x1 = 4, 记an = lg xn + 2\nxn −2, 证明数列{an} 成等比数列, 并求数列\n{xn} 的通项公式;\n(3) 若x1 = 4, bn = xn −2, Tn 是数列{bn} 的前n 项和, 证明Tn < 3.\n412",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -516,11 +687,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

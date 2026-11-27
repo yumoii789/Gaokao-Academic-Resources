@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/1999/1999全国.pdf",
   "name": "1999全国",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 11,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q01",
-      "content": "下 列 说 法 正 确 的 是\n(A) 当 氡 原 子 从 n 二 2 的 状 态 既 迁 到 二 6 的 状 态 时 , 发 射 出 光 子\n(BY 放 射 性 元 素 的 半 衰 期 是 指 大 量 该 元 素 的 原 子 核 中 有 半 数 发 生 衰 变 需 要 的 时 间\n(C) 同 一 元 素 的 两 种 同 位 素 具 有 相 同 的 质 子 数\n(D) 中 子 与 质 子 结 合 成 氖 核 时 吸 收 能 量",
+      "content": "本 题 共 12 小 题 ; 每 小 题 4 分 , 共 48 分 . 在 每 小 题 给 出 的 四 个 选 项 中 , 有 的 小 题 只 有\n一 个 选 项 正 确 , 有 的 小 题 有 多 个 选 项 正 确 、 全 部 选 对 的 得 4 分 , 选 不 全 的 得 2 分 , 有\n选 错 或 不 答 的 得 0 分 .\n1. 下 列 说 法 正 确 的 是\n(A) 当 氡 原 子 从 n 二 2 的 状 态 既 迁 到 二 6 的 状 态 时 , 发 射 出 光 子\n(BY 放 射 性 元 素 的 半 衰 期 是 指 大 量 该 元 素 的 原 子 核 中 有 半 数 发 生 衰 变 需 要 的 时 间\n(C) 同 一 元 素 的 两 种 同 位 素 具 有 相 同 的 质 子 数\n(D) 中 子 与 质 子 结 合 成 氖 核 时 吸 收 能 量",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
         "confidence": 91,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q02",
-      "content": "一 太 阳 能 电 池 板 , 测 得 它 的 开 路 电 压 为 800 mV, 短 路 电 流 为 40 mA. 若 将 该 电 池 板\n与 一 阻 值 为 20 Q 的 电 阻 器 连 成 一 闭 合 电 路 , 则 它 的 路 端 电 压 是\n(A) 0.10 V (B) 0.20 V 《C) 0.30 Y (D) 0. 40 V\n3 下 列 说 法 正 确 的 是\n(A)%§Ra 衰 变 为 弥 Rn 要 经 过 1 次 a 衰 变 和 1 次 〖 衰 变\n(BYU 衰 变 为 弥 Pa 要 经 过 1 次 a 衰 变 和 1 次 衰 变\n(C) 坤 Th 衰 变 为 培 Pb 要 经 过 6 次 a 衰 变 和 4 次 衰 变\n(D) 弥 U 衰 变 为 弥 Rn 要 经 过 4 次 a 衰 变 和 4 次 〖 衰 变",
+      "content": "一 太 阳 能 电 池 板 , 测 得 它 的 开 路 电 压 为 800 mV, 短 路 电 流 为 40 mA. 若 将 该 电 池 板\n与 一 阻 值 为 20 Q 的 电 阻 器 连 成 一 闭 合 电 路 , 则 它 的 路 端 电 压 是\n(A) 0.10 V (B) 0.20 V 《C) 0.30 Y (D) 0. 40 V",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -56,22 +78,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "ocr",
         "confidence": 91,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q03",
-      "content": "一 定 质 量 的 理 想 气 体 处 于 平 衡 状 态 I , 现 设 法 使 其 温 度 降 低 而 压 强 升 高 、 达 到 平 衡 状\n态 [ , 则\n(A) 状 态 I 时 气 体 的 密 度 比 状 态 卫 时 的 大\n(B) 状 态 I 时 分 子 的 平 均 动 能 比 状 态 I 时 的 大\n(C) 状 态 工 时 分 子 间 的 平 均 距 离 比 状 态 工 时 的 大\n(D) 状 态 I 时 每 个 分 子 的 动 能 都 比 状 态 [ 时 的 分 子 平 均 动 能 大",
+      "content": "下 列 说 法 正 确 的 是\n(A)%§Ra 衰 变 为 弥 Rn 要 经 过 1 次 a 衰 变 和 1 次 〖 衰 变\n(BYU 衰 变 为 弥 Pa 要 经 过 1 次 a 衰 变 和 1 次 衰 变\n(C) 坤 Th 衰 变 为 培 Pb 要 经 过 6 次 a 衰 变 和 4 次 衰 变\n(D) 弥 U 衰 变 为 弥 Rn 要 经 过 4 次 a 衰 变 和 4 次 〖 衰 变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -79,22 +112,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "ocr",
         "confidence": 91,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q04",
-      "content": "假 设 地 球 表 面 不 存 在 大 气 层 , 那 么 人 们 观 察 到 的 日 出 时 刻 与 实 际 存 在 大 气 层 的 情 况\n相 比 ,\n(A) 将 提 前 (B) 将 延 后\n(C) 在 某 些 地 区 将 提 前 , 在 另 一 些 地 区 将 延 后 (D) 不 变\nSLOT",
+      "content": "一 定 质 量 的 理 想 气 体 处 于 平 衡 状 态 I , 现 设 法 使 其 温 度 降 低 而 压 强 升 高 、 达 到 平 衡 状\n态 [ , 则\n(A) 状 态 I 时 气 体 的 密 度 比 状 态 卫 时 的 大\n(B) 状 态 I 时 分 子 的 平 均 动 能 比 状 态 I 时 的 大\n(C) 状 态 工 时 分 子 间 的 平 均 距 离 比 状 态 工 时 的 大\n(D) 状 态 I 时 每 个 分 子 的 动 能 都 比 状 态 [ 时 的 分 子 平 均 动 能 大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -102,45 +142,67 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "ocr",
         "confidence": 91,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q05",
-      "content": "图 为 地 磁 场 磁 感 线 的 示 意 图 , 在 北 半 球 地 碟 场 的 竖 直 分 量 asss ease\n向 下 , 飞 机 在 我 国 上 空 匀 途 巡 航 , 机 翼 保 持 水 平 , 飞 行 高 I 1\n度 不 变 , 由 于 地 碟 场 的 作 用 , 金 属 机 翼 上 有 电 势 差 , 设 飞 P , 一\n行 员 左 方 机 嘉 未 端 处 的 电 势 为 U, , 右 方 机 翼 末 端 处 的 电 势 >\nA U;, G 门 仁\n(A) 若 飞 机 从 西 往 东 飞 ,U 比 U 高 INS\n(B) 若 飞 机 从 东 往 西 飞 ,U: 比 U 高\n(© 若 飞 机 从 南 往 北 飞 ,U 比 U 高\n(D) 若 飞 机 从 北 往 南 飞 ,Ue 比 D 高",
+      "content": "假 设 地 球 表 面 不 存 在 大 气 层 , 那 么 人 们 观 察 到 的 日 出 时 刻 与 实 际 存 在 大 气 层 的 情 况\n相 比 ,\n(A) 将 提 前 (B) 将 延 后\n(C) 在 某 些 地 区 将 提 前 , 在 另 一 些 地 区 将 延 后 (D) 不 变\nSLOT",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 2,
-        "questionNumber": 6,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "ocr",
-        "confidence": 87,
-        "needsReview": true
-      }
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q06",
-      "content": "下 面 是 4 种 亮 度 可 调 的 台 灯 的 电 路 示 意 图 , 它 们 所 用 的 白 炽 灯 泡 相 同 , 东 都 是\n“220 V,40 W“、 当 灯 泡 所 消 耗 的 功 率 都 调 至 20 瓦 时 , 晨 种 台 灯 消 耗 的 功 率 最 小 ?\n匕 220 V x 220 V 人 220 V K 220 V\nOO o 一 o 一 0 o o 一 FE\n| Sa —\n变 ° V 2 变 变 阻 器\n自 2 Co 脱\n# x V T QQ\\) |B\n# |< pe\n(a) (B) © (D)",
+      "content": "图 为 地 磁 场 磁 感 线 的 示 意 图 , 在 北 半 球 地 碟 场 的 竖 直 分 量 asss ease\n向 下 , 飞 机 在 我 国 上 空 匀 途 巡 航 , 机 翼 保 持 水 平 , 飞 行 高 I 1\n度 不 变 , 由 于 地 碟 场 的 作 用 , 金 属 机 翼 上 有 电 势 差 , 设 飞 P , 一\n行 员 左 方 机 嘉 未 端 处 的 电 势 为 U, , 右 方 机 翼 末 端 处 的 电 势 >\nA U;, G 门 仁\n(A) 若 飞 机 从 西 往 东 飞 ,U 比 U 高 INS\n(B) 若 飞 机 从 东 往 西 飞 ,U: 比 U 高\n(© 若 飞 机 从 南 往 北 飞 ,U 比 U 高\n(D) 若 飞 机 从 北 往 南 飞 ,Ue 比 D 高",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -148,22 +210,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 2,
-        "questionNumber": 7,
+        "endPage": 2,
+        "questionNumber": 6,
         "extraction": "ocr",
         "confidence": 87,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q07",
-      "content": "一 物 体 静 止 在 升 降 机 的 地 板 上 , 在 升 降 机 加 速 上 升 的 过 程 中 , 地 板 对 物 体 的 支 持 力 所\n做 的 功 等 于\nCA) 物 体 势 能 的 增 加 量\n(B) 物 体 动 能 的 增 加 量\n(C) 物 体 动 能 的 增 加 量 加 上 物 体 势 能 的 增 加 量\nCD) 物 体 动 能 的 增 加 量 加 上 克 服 重 力 所 做 的 功\n9, 如 图 , 细 杆 的 一 端 与 一 小 球 相 连 , 可 绕 过 O 点 的 水 平 轴 自 由 转 动 , 现 给 小 球 一 初 速\n度 , 使 它 做 国 周 运 动 , 图 中 a、0 分 别 表 示 小 球 轨 道 的 最 低 点 和 最 高 点 , 则 杆 对 球 的 作\n用 力 可 能 是 L\n(A) a 处 为 拉 力 ,5 处 为 拉 力 F\nCB) a 处 为 拉 力 ,0 处 为 推 力 E\n(©) a 处 为 推 力 ,0 处 为 拉 力 一 | i\n(D) a 处 为 推 力 ,5 处 为 推 力 no\n10, 地 球 同 步 卫 星 到 地 心 的 距 离 r 可 由 人 一 一 外 5 求 出 , 已 知 式 中 a 的 单 位 是 m,0 的 单 位\n是 s,c 的 单 位 是 m/s\n“ 128\n(A) a 是 地 球 半 径 , 是 地 球 自 转 的 周 期 ,c 是 地 球 表 面 处 的 重 力 加 速 度\nCB) a 是 地 球 半 径 ,0 是 同 步 卫 星 绕 地 心 运 动 的 周 期 ,c 是 同 步 卫 星 的 加 途 度\n(©) a 是 赤 道 周 长 , 是 地 球 自 转 周 期 ,c 是 同 步 卫 星 的 加 速 度\n(D) a 是 地 球 半 径 ,0 是 同 步 卫 星 绕 地 心 运 动 的 周 期 ,c 是 地 球 表 面 处 的 重 力 加 速 度\n11, 如 图 所 示 , 两 木 块 的 质 量 分 别 为 “ 和 m , 两 轻 质 弹 簧 的 劲 度 系 数 分 [ 7 一\nSIH ko 和 心 , 上 面 木 块 压 在 上 面 的 弹 簧 上 ( 但 不 拴 接 ) , 整 个 系 统 处 【\n于 平 衡 状 态 , 现 缓 惺 向 上 提 上 面 的 木 块 , 直 到 它 刚 离 开 上 面 弹 簧 , 在 7\n这 过 程 中 下 面 木 块 移 动 的 距 离 为\n(A) = (B) vo ©) (D) a 一 s\n12, 一 匀 强 磁 场 , 磁 场 方 向 垂 直 纸 面 , 规 定 向 里 的 方 向 为 正 , 在 碟 场 中 有 一 细 金 属 圆 环 ,\n线 圈 平 面 位 于 纸 面 内 , 如 图 1 所 示 , 现 令 碟 感 强 度 B 随 时 间 ! 变 化 , 先 接 图 2 中 所 示\n的 Oc 图 线 变 化 , 后 来 又 按 图 线 be 和 cd 变 化 , 令 s, 、ss、5s 分 别 表 示 这 三 段 变 化 过 程\n中 感 应 电 动 势 的 大 小 , , 习 , 分 别 表 示 对 应 的 感 应 电 流 , 则\n顺 时 针 B ,\nC ) E\nd\n图 1 图 2\n(A) e>es, 〗 沿 逆 时 针 方 向 ,T: 沿 顺 时 针 方 向\n(B) e <es:,T 沿 逗 时 针 方 向 , 沿 顺 时 针 方 向\n(©) s<es, 沿 顺 时 针 方 向 , 沿 逆 时 针 方 向\n(D) es:=es, 了 沿 顺 时 针 方 向 , 沿 顺 时 针 方 向\n二 、 本 题 共 4 小 题 ; 每 小 题 5 分 , 共 20 分 , 把 答 案 填 在 题 中 的 槲 线 上 或 画 在 图 中 .\n13, 一 东 单 色 兆 , 在 真空 中 波 长 为 6. 00X10-7 m, 射 人 折 射 率 为 1. 50 的 玻 璃 中 , 它 在 此\n玻 璃 中 的 波 长 是 m, 频 率 是 _ Hz ( 真 空 中 光 速 是 3. 00 x\n10* m/s)\n14, 一 跳 水 运 动 员 从 离 水 面 10 m 高 的 平 台 上 向 上 既 起 , 举 双 臂 直 体 离 开 台 面 , 此 时 其 重\n心 位 于 从 手 到 脚 全 长 的 中 点 , 跋 起 后 重 心 升 高 0.45 m 达 到 最 高 点 , 落 水 时 身 体 坐\n直 , 手 先 人 水 , ( 在 此 过 程 中 运 动 员 水 平 方 向 的 运 动 忽 略 不 计 ) 4 D\n从 离 开 跳 台 到 手 触 水 面 、 他 可 用 于 完 成 空 中 动 作 的 时 间 是 。 |\ns. ( 计 算 时 , 可 以 把 运 动 员 看 作 全 部 质 量 集 中 在\n重 心 的 一 个 质 点 ,g 取 为 10 m/s , 结 果 保 留 二 位 数 字 .)",
+      "content": "下 面 是 4 种 亮 度 可 调 的 台 灯 的 电 路 示 意 图 , 它 们 所 用 的 白 炽 灯 泡 相 同 , 东 都 是\n“220 V,40 W“、 当 灯 泡 所 消 耗 的 功 率 都 调 至 20 瓦 时 , 晨 种 台 灯 消 耗 的 功 率 最 小 ?\n匕 220 V x 220 V 人 220 V K 220 V\nOO o 一 o 一 0 o o 一 FE\n| Sa —\n变 ° V 2 变 变 阻 器\n自 2 Co 脱\n# x V T QQ\\) |B\n# |< pe\n(a) (B) © (D)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -171,22 +244,127 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 2,
-        "questionNumber": 8,
+        "endPage": 2,
+        "questionNumber": 7,
         "extraction": "ocr",
         "confidence": 87,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q08",
-      "content": "图 中 A、B、C、 卫 是 匀 强 电 场 中 一 正 方 形 的 四 个 顶 点 , 已 知 A、 gc\n29 。\nB、C 三 点 的 电 势 分 别 为 U 一 15 V, Uy=3V, Ue=—3 V, 由 此 可 得 D 点 电 势 U\n= - t",
+      "content": "一 物 体 静 止 在 升 降 机 的 地 板 上 , 在 升 降 机 加 速 上 升 的 过 程 中 , 地 板 对 物 体 的 支 持 力 所\n做 的 功 等 于\nCA) 物 体 势 能 的 增 加 量\n(B) 物 体 动 能 的 增 加 量\n(C) 物 体 动 能 的 增 加 量 加 上 物 体 势 能 的 增 加 量\nCD) 物 体 动 能 的 增 加 量 加 上 克 服 重 力 所 做 的 功",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 8,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q09",
+      "content": "如 图 , 细 杆 的 一 端 与 一 小 球 相 连 , 可 绕 过 O 点 的 水 平 轴 自 由 转 动 , 现 给 小 球 一 初 速\n度 , 使 它 做 国 周 运 动 , 图 中 a、0 分 别 表 示 小 球 轨 道 的 最 低 点 和 最 高 点 , 则 杆 对 球 的 作\n用 力 可 能 是 L\n(A) a 处 为 拉 力 ,5 处 为 拉 力 F\nCB) a 处 为 拉 力 ,0 处 为 推 力 E\n(©) a 处 为 推 力 ,0 处 为 拉 力 一 | i\n(D) a 处 为 推 力 ,5 处 为 推 力 no",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 9,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q10",
+      "content": "地 球 同 步 卫 星 到 地 心 的 距 离 r 可 由 人 一 一 外 5 求 出 , 已 知 式 中 a 的 单 位 是 m,0 的 单 位\n是 s,c 的 单 位 是 m/s\n“ 128\n(A) a 是 地 球 半 径 , 是 地 球 自 转 的 周 期 ,c 是 地 球 表 面 处 的 重 力 加 速 度\nCB) a 是 地 球 半 径 ,0 是 同 步 卫 星 绕 地 心 运 动 的 周 期 ,c 是 同 步 卫 星 的 加 途 度\n(©) a 是 赤 道 周 长 , 是 地 球 自 转 周 期 ,c 是 同 步 卫 星 的 加 速 度\n(D) a 是 地 球 半 径 ,0 是 同 步 卫 星 绕 地 心 运 动 的 周 期 ,c 是 地 球 表 面 处 的 重 力 加 速 度",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 10,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q11",
+      "content": "如 图 所 示 , 两 木 块 的 质 量 分 别 为 “ 和 m , 两 轻 质 弹 簧 的 劲 度 系 数 分 [ 7 一\nSIH ko 和 心 , 上 面 木 块 压 在 上 面 的 弹 簧 上 ( 但 不 拴 接 ) , 整 个 系 统 处 【\n于 平 衡 状 态 , 现 缓 惺 向 上 提 上 面 的 木 块 , 直 到 它 刚 离 开 上 面 弹 簧 , 在 7\n这 过 程 中 下 面 木 块 移 动 的 距 离 为\n(A) = (B) vo ©) (D) a 一 s",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -194,114 +372,221 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 3,
-        "questionNumber": 15,
+        "endPage": 3,
+        "questionNumber": 11,
         "extraction": "ocr",
         "confidence": 88,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q09",
-      "content": "图 a 中 有 一 条 均 匀 的 绳 ,1、2、3、4、... 是 绳 上 一 系 列 等 间 隔 的 点 , 现 有 一 列 简 谐 樟\n波 沿 此 绳 传 播 , 菜 时 刻 , 绳 上 9、10、11、12 四 点 的 位 置 和 运 动 方 向 如 图 0 所 示 ( 其\n他 点 的 运 动 情 况 未 画 出 ), 其 中 点 12 的 位 移 为 零 , 向 上 运 动 , 点 9 的 位 移 达 到 最 大\n值 , 试 在 图 c 中 画 出 再 经 过 忘 周 期 时 点 3、4、5、6 的 位 置 和 速 度 方 向 , 其 他 点 不 必\n画 ,( 图 c 的 横 、 纵 坐 标 与 图 a、0 完 全 相 同 )\n=\n三 七 三 兰 二 二 : 二 一 一 一 二 二 二 二 三 一 : 二 = 一\nHERE EEE EEE ED\n= om.\n三 、 本 题 共 3 小 题 , 共 17 分 , 把 答 案 填 在 题 中 的 横 线 上 或 按 题 目 要 求 作 图 .",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 4,
-        "questionNumber": 16,
-        "extraction": "ocr",
-        "confidence": 85,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q10",
-      "content": "〈4 分 ) 用 游 标 为 50 分 度 的 卡 尼 ( 测 量 值 可 准 确 到 0. 02 mm) 测 定 棠 圆 简 的 内 径 时 ,\n卡 尼 上 的 示 数 如 图 , 可 读 出 圆 简 的 内 径 为 om,\n目 x [I\n| |\n01 2 3 4 ON 7 8 9 10 11 12 13 14 15\nNRC, |\nNC.\n=) i\nHY\nspo",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 4,
-        "questionNumber": 17,
-        "extraction": "ocr",
-        "confidence": 85,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q11",
-      "content": "(6 分 ) 某 同 学 用 小 灯 泡 、 凸 透 镜 和 光 屏 在 水 平 光 具 座 上 做 测 量 凸 透 镜 焦 距 的 实 验 .\n先 使 小 灯 泡 、 透 镜 和 屏 的 中 心 等 高 , 再 调 节 三 者 间 的 距 离 , 使 屏 上 出 现 清 晰 的 灯\n丝 像 .\n(1) 测 量 透 镜 到 灯 泡 的 距 离 , 及 透 镜 到 光 屏 的 距 离 / , 则 可 得 到 透 镜 的 焦 距 f=\n( 用 n , 表 示 ).\n2) 保 持 透 镜 不 动 , 将 光 屏 向 远 离 透 镜 的 方 向 移 动 一 个 焦 距 的 距 离 , 再 移 动 小 灯 泡 ,\n使 屏 上 得 到 清 晰 的 像 , 指 出 该 像 是 放 大 还 是 缩 小 的 、 是 正 立 还 是 倒 立 的 , 是 实 像\n还 是 虚 像 .\n5 答 : 【",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 5,
-        "questionNumber": 18,
-        "extraction": "ocr",
-        "confidence": 90,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q12",
-      "content": "〈7 分 ) 图 1 为 测 量 电 阻 的 电 路 ,R, 为 待 测 电 阻 , 又 的 阻 值 已 知 ,R 「 为 保 护 电 阻 , 阻\n值 未 知 , 电 源 毛 的 电 动 势 未 知 K 、Ky 均 为 单 刀 双 掷 开 关 A 为 电 流 表 , 其 内 阻\n不 计 ;\n(1) 按 图 1 所 示 的 电 路 , 在 图 2 的 实 物 图 上 连 线 .\n: 古 口\nsss a\nR. , - 方 /\na 幼\nfr: = 语\n==\n图 1 图 2\n(2) 测 量 R, 的 步 骤 为 : KK. 向 4 闭 合 ,K 向 闭 合 、 记 下 电 流 表 读 数\nI. 再 将 K, 向 c 闭 合 ,Ku 向 闭 合 、 记 电 流 表 读 数 .\n计 算 R. 的 公 式 是 史 . 一 【\n四 、 本 题 共 5 小 题 ,65 分 . 解 答 应 写 出 必 要 的 文 字 说 明 、 方 程 式 和 重 要 演 算 步 骤 、 只 写\n出 最 后 答 案 的 不 能 得 分 、 有 数 值 计 算 的 题 , 答 案 中 必 须 明 确 写 出 数 值 和 单 位 .\n20,(12 分 ) 试 在 下 述 简 化 情 况 下 由 牛 顿 定 律 导 出 动 量 守 恒 定 律 的 表 达 式 : 系 统 是 两 个 质\n点 , 相 互 作 用 力 是 恒 力 , 不 受 其 他 力 , 沿 直 线 运 动 , 要 求 说 明 推 导 过 程 中 每 步 的 根\n据 , 以 及 式 中 各 符 号 和 最 后 结 果 中 各 项 的 意 义 .",
+      "content": "一 匀 强 磁 场 , 磁 场 方 向 垂 直 纸 面 , 规 定 向 里 的 方 向 为 正 , 在 碟 场 中 有 一 细 金 属 圆 环 ,\n线 圈 平 面 位 于 纸 面 内 , 如 图 1 所 示 , 现 令 碟 感 强 度 B 随 时 间 ! 变 化 , 先 接 图 2 中 所 示\n的 Oc 图 线 变 化 , 后 来 又 按 图 线 be 和 cd 变 化 , 令 s, 、ss、5s 分 别 表 示 这 三 段 变 化 过 程\n中 感 应 电 动 势 的 大 小 , , 习 , 分 别 表 示 对 应 的 感 应 电 流 , 则\n顺 时 针 B ,\nC ) E\nd\n图 1 图 2\n(A) e>es, 〗 沿 逆 时 针 方 向 ,T: 沿 顺 时 针 方 向\n(B) e <es:,T 沿 逗 时 针 方 向 , 沿 顺 时 针 方 向\n(©) s<es, 沿 顺 时 针 方 向 , 沿 逆 时 针 方 向\n(D) es:=es, 了 沿 顺 时 针 方 向 , 沿 顺 时 针 方 向\n二 、 本 题 共 4 小 题 ; 每 小 题 5 分 , 共 20 分 , 把 答 案 填 在 题 中 的 槲 线 上 或 画 在 图 中 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 5,
-        "questionNumber": 19,
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 12,
         "extraction": "ocr",
-        "confidence": 90,
-        "needsReview": true
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q13",
-      "content": "(124%) 为 了 安 全 , 在 公 路 上 行 驶 的 汽 车 之 间 应 保 持 必 要 的 距 离 . 已 知 某 高 速 公 路 的\n最 高 限 速 v=120 km/h. 假 设 前 方 车 辆 突 然 停 止 后 车 司 机 从 发 现 这 一 情 况 , 经 操 纵\n刹 车 , 到 汽 车 开 始 减 速 所 经 历 的 时 间 ( 即 反 应 时 间 ) { 二 0. 50 s 刹 车 时 汽 车 受 到 阻\nGJS 0\n力 的 大 小 广 为 汽 车 重 力 的 0. 40 倍 , 该 高 速 公 路 上 汽 车 间 的 距 离 s 至 少 应 为 多 少 ? 取\n重 力 加 速 度 g 一 10 m/s\".",
+      "content": "一 东 单 色 兆 , 在 真空 中 波 长 为 6. 00X10-7 m, 射 人 折 射 率 为 1. 50 的 玻 璃 中 , 它 在 此\n玻 璃 中 的 波 长 是 m, 频 率 是 _ Hz ( 真 空 中 光 速 是 3. 00 x\n10* m/s)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 13,
+        "extraction": "ocr",
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q14",
+      "content": "一 跳 水 运 动 员 从 离 水 面 10 m 高 的 平 台 上 向 上 既 起 , 举 双 臂 直 体 离 开 台 面 , 此 时 其 重\n心 位 于 从 手 到 脚 全 长 的 中 点 , 跋 起 后 重 心 升 高 0.45 m 达 到 最 高 点 , 落 水 时 身 体 坐\n直 , 手 先 人 水 , ( 在 此 过 程 中 运 动 员 水 平 方 向 的 运 动 忽 略 不 计 ) 4 D\n从 离 开 跳 台 到 手 触 水 面 、 他 可 用 于 完 成 空 中 动 作 的 时 间 是 。 |\ns. ( 计 算 时 , 可 以 把 运 动 员 看 作 全 部 质 量 集 中 在\n重 心 的 一 个 质 点 ,g 取 为 10 m/s , 结 果 保 留 二 位 数 字 .)",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 14,
+        "extraction": "ocr",
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q15",
+      "content": "图 中 A、B、C、 卫 是 匀 强 电 场 中 一 正 方 形 的 四 个 顶 点 , 已 知 A、 gc\n29 。\nB、C 三 点 的 电 势 分 别 为 U 一 15 V, Uy=3V, Ue=—3 V, 由 此 可 得 D 点 电 势 U\n= - t",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 15,
+        "extraction": "ocr",
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q015-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q015-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q16",
+      "content": "图 a 中 有 一 条 均 匀 的 绳 ,1、2、3、4、... 是 绳 上 一 系 列 等 间 隔 的 点 , 现 有 一 列 简 谐 樟\n波 沿 此 绳 传 播 , 菜 时 刻 , 绳 上 9、10、11、12 四 点 的 位 置 和 运 动 方 向 如 图 0 所 示 ( 其\n他 点 的 运 动 情 况 未 画 出 ), 其 中 点 12 的 位 移 为 零 , 向 上 运 动 , 点 9 的 位 移 达 到 最 大\n值 , 试 在 图 c 中 画 出 再 经 过 忘 周 期 时 点 3、4、5、6 的 位 置 和 速 度 方 向 , 其 他 点 不 必\n画 ,( 图 c 的 横 、 纵 坐 标 与 图 a、0 完 全 相 同 )\n=\n三 七 三 兰 二 二 : 二 一 一 一 二 二 二 二 三 一 : 二 = 一\nHERE EEE EEE ED\n= om.\n三 、 本 题 共 3 小 题 , 共 17 分 , 把 答 案 填 在 题 中 的 横 线 上 或 按 题 目 要 求 作 图 .",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 16,
+        "extraction": "ocr",
+        "confidence": 85,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q016-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q016-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q17",
+      "content": "〈4 分 ) 用 游 标 为 50 分 度 的 卡 尼 ( 测 量 值 可 准 确 到 0. 02 mm) 测 定 棠 圆 简 的 内 径 时 ,\n卡 尼 上 的 示 数 如 图 , 可 读 出 圆 简 的 内 径 为 om,\n目 x [I\n| |\n01 2 3 4 ON 7 8 9 10 11 12 13 14 15\nNRC, |\nNC.\n=) i\nHY\nspo",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1999,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1999/1999全国.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 17,
+        "extraction": "ocr",
+        "confidence": 85,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q017-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q017-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1999/1999全国.pdf#q18",
+      "content": "(6 分 ) 某 同 学 用 小 灯 泡 、 凸 透 镜 和 光 屏 在 水 平 光 具 座 上 做 测 量 凸 透 镜 焦 距 的 实 验 .\n先 使 小 灯 泡 、 透 镜 和 屏 的 中 心 等 高 , 再 调 节 三 者 间 的 距 离 , 使 屏 上 出 现 清 晰 的 灯\n丝 像 .\n(1) 测 量 透 镜 到 灯 泡 的 距 离 , 及 透 镜 到 光 屏 的 距 离 / , 则 可 得 到 透 镜 的 焦 距 f=\n( 用 n , 表 示 ).\n2) 保 持 透 镜 不 动 , 将 光 屏 向 远 离 透 镜 的 方 向 移 动 一 个 焦 距 的 距 离 , 再 移 动 小 灯 泡 ,\n使 屏 上 得 到 清 晰 的 像 , 指 出 该 像 是 放 大 还 是 缩 小 的 、 是 正 立 还 是 倒 立 的 , 是 实 像\n还 是 虚 像 .\n5 答 : 【",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
@@ -309,264 +594,221 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
         "page": 5,
-        "questionNumber": 21,
+        "endPage": 5,
+        "questionNumber": 18,
         "extraction": "ocr",
         "confidence": 90,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q14",
-      "content": "(13 分 ) 在 光 滢 水 平 面 上 有 一 质 量 劝 二 1.0X1073 kg、 电 量 g 二 1. 0X10-““ C 的 带 正 电\n小 球 , 静 止 在 O 点 , 以 O 点 为 原 点 , 在 该 水 平 面 内 建 立 直 角 坐 标 系 Ozy, 现 突 然 加\n一 泷 乙 轻 正 方 向 、 场 强 大 小 三 一 2. 0 X 10° V/m 的 匀 强 电 场 , 使 小 球 开 始 运 动 , 经 过",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q018-p005-f01.jpg"
       ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 6,
-        "questionNumber": 22,
-        "extraction": "ocr",
-        "confidence": 88,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q15",
-      "content": "0 s, 所 加 电 场 突 然 变 为 沿 y 轴 正 方 向 , 场 强 大 小 仍 为 E=2.0X10° V/m 的 匀 强 电\n场 , 再 经 过 1.0 s, 所 加 电 场 又 突 然 变 为 另 一 个 匀 强 电 场 , 使 小 球 在 此 电 场 作 用 下 经\n1.0 s 速 度 变 为 零 . 求 此 电 场 的 方 向 及 速 度 变 为 零 时 小 球 的 位 置 .\n23,(13 分 ) 如 图 , 气 缸 由 两 个 横 截 面 不\n同 的 圆 筒 连 接 而 成 , 活 塞 A、 一 了 言 二 井 『\n质 刚 性 细 杆 连 接 在 一 起 , 可 无 摩 擦 移 - 昧 _ 厂 一 一 一\n动 、A、 卫 的 质 量 分 别 为 力 一 12 ke. 图 1\nw 一 8.0 kg, 横 截 面 积 分 别 为 Sa =",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 6,
-        "questionNumber": 1,
-        "extraction": "ocr",
-        "confidence": 88,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q16",
-      "content": "0X 107? m?*, Sy =12.0X 107% m’.\n一 定 质 量 的 理 想 气 体 被 封 闭 在 两 活 塘 『\n之 间 , 活 塞 外 侧 大 气 压 强 加 一 1.0 x\n10° Pa. 巳\n(1) 气 缸 水 平 放 置 达 到 如 图 1 所 示 的 平 衡 状 态 , 求 气 体 的 压 强\n(2) 已 知 此 时 气 体 的 体 积 介 二 2.0 X 10-。 ms, 现 保 持 温 度 不 变 , 将 气 缸 坂 直 放 置 ,\n达 到 平 衡 后 如 图 2 所 示 , 与 图 1 相 比 , 活 塞 在 气 缸 内 移 动 的 距 离 ! 为 多 少 ? RE\n力 加 速 度 g 一 10 m/s’.\n24,(15 分 ) 图 中 虚 线 MN 是 一 垂 直 纸 面 的 平 面 与 纸 面 的 交 线 , 4\n在 平 面 右 侧 的 半 空 间 存 在 一 磁 感 强 度 为 B 的 匀 强 磷 场 , 方 向 【\n垂 直 纸 面 向 外 , 是 MN 上 的 一 点 , 从 O 点 可 以 向 磁 场 区 02 .\n域 发 射 电 量 为 十 、 质 量 为 吉 、 速 率 为 的 粒 子 , 粒 子 射 人 e u\n磁 场 时 的 速 度 可 在 纸 面 内 各 个 方 向 , 已 知 先 后 射 人 的 两 个 粘 。 p ,\n子 恰 好 在 磁 场 中 给 定 的 P 点 相 遇 ,P 到 O 的 距 离 为 , 不 计 © CC cc\n重 力 及 粒 子 间 的 相 互 作 用 . hh A\n(1) 求 所 考 察 的 粒 子 在 磁 场 中 的 转 道 半 径\n(2) 求 这 两 个 粒 子 从 O 点 射 人 碟 场 的 时 间 间 隔 .\n“ 132 。\n1999 年 普 通 高 等 学 校 招 生 全 国 统 一 考 试\n物 理 试 题 参 考 答 案 及 评 分 标 准\n一 、 答 案 及 评 分 标 准 : 全 题 48 分 , 每 小 题 4 分 , 每 小 题 全 选 对 的 给 4 分 , 选 不 全 的 给 2\n分 , 有 选 错 的 给 0 分 , 不 答 的 给 0 分\nlly 18 (€ 2 卫 BIE 4, B. C 5. B\nCOARSE flo (© 8. C.D GL A IE 10. A. D\n1 6 12。 B D\n二 、 答 案 及 评 分 标 准 : 全 题 20 分 , 每 小 题 5 分 , 答 案 正 确 的 , 按 下 列 答 案 后 面 括 号 内 的\n分 数 给 分 ; 答 错 的 , 不 答 的 , 都 给 0 分 .",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 6,
-        "questionNumber": 4,
-        "extraction": "ocr",
-        "confidence": 88,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q17",
-      "content": "4.00X107\"(3 分 ) 5.00X 10\" (2 43)\n14 17 (5 分 , 答 1. 8 秒 同 样 给 分 . )\n15, & 520)",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 7,
-        "questionNumber": 13,
-        "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1999/1999全国.pdf#q18",
-      "content": "WE. (5 分 , 未 标 明 途 度 方 向 的 给 2 分 、 有 任 何 错 误 的 给 0 分 )\n木 OF I i re aE\n三 、 答 案 及 评 分 标 准 : 全 题 17 分 , 其 中 17 题 4 分 ,18 题 6 分 , 19 题 7 分 、 答 案 正 确 的 ,\n按 下 列 答 案 后 面 括 号 内 的 分 数 给 分 ; 答 错 的 , 不 答 的 , 都 给 0 分 .\n1 7 52。12..(4 分 )\nLl “",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1999,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 7,
-        "questionNumber": 16,
-        "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q018-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q19",
-      "content": "(1) =F; (3 分 )\n(2) 放 大 倒 立 实 像 ,(3 分 )",
+      "content": "〈7 分 ) 图 1 为 测 量 电 阻 的 电 路 ,R, 为 待 测 电 阻 , 又 的 阻 值 已 知 ,R 「 为 保 护 电 阻 , 阻\n值 未 知 , 电 源 毛 的 电 动 势 未 知 K 、Ky 均 为 单 刀 双 掷 开 关 A 为 电 流 表 , 其 内 阻\n不 计 ;\n(1) 按 图 1 所 示 的 电 路 , 在 图 2 的 实 物 图 上 连 线 .\n: 古 口\nsss a\nR. , - 方 /\na 幼\nfr: = 语\n==\n图 1 图 2\n(2) 测 量 R, 的 步 骤 为 : KK. 向 4 闭 合 ,K 向 闭 合 、 记 下 电 流 表 读 数\nI. 再 将 K, 向 c 闭 合 ,Ku 向 闭 合 、 记 电 流 表 读 数 .\n计 算 R. 的 公 式 是 史 . 一 【\n四 、 本 题 共 5 小 题 ,65 分 . 解 答 应 写 出 必 要 的 文 字 说 明 、 方 程 式 和 重 要 演 算 步 骤 、 只 写\n出 最 后 答 案 的 不 能 得 分 、 有 数 值 计 算 的 题 , 答 案 中 必 须 明 确 写 出 数 值 和 单 位 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 7,
-        "questionNumber": 18,
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 19,
         "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
-      }
+        "confidence": 90,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q019-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q019-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q20",
-      "content": "(1) 如 图 . (3 分 . 有 任 何 锦 , 给 0 分 )\ny 7, =]\n心 AA 4 heh\nms ns\n4\n. atDtm “\n留\n“ 规 833 一\n2) a, b, LR, (4 分 . 有 错 , 给 0 分 )\n四 、 参 考 解 答 及 评 分 标 准 :",
+      "content": "(12 分 ) 试 在 下 述 简 化 情 况 下 由 牛 顿 定 律 导 出 动 量 守 恒 定 律 的 表 达 式 : 系 统 是 两 个 质\n点 , 相 互 作 用 力 是 恒 力 , 不 受 其 他 力 , 沿 直 线 运 动 , 要 求 说 明 推 导 过 程 中 每 步 的 根\n据 , 以 及 式 中 各 符 号 和 最 后 结 果 中 各 项 的 意 义 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 7,
-        "questionNumber": 19,
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 20,
         "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
+        "confidence": 90,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q21",
-      "content": "参 考 解 答 :\nSom 和 m 分 别 表 示 两 质 点 的 质 量 , 和 Fs 分 别 表 示 它 们 所 受 的 作 用 力 ,a 和 a\n分 别 表 示 它 们 的 加 速 度 , 和 t 分 别 表 示 F 和 F 作 用 的 时 间 , 和 z 分 别 表 示 它 们 相\n互 作 用 过 程 中 的 初 速 度 ,v 和 wa 分 别 表 示 末 速 度 . 根 据 牛 顿 第 二 定 律 , 有\nFi=ma,, F,=ma, ©)\n由 加 速 度 的 定 义 可 知\nLa “\n代 入 上 式 , 可 得\nFiti=m (uv, , F,v 一 m “ ®\n根 据 牛 顿 第 三 定 律 , 可 知\nFi=—F,, ti=t, @\n由 G、@@ 可 得\n1Di 十 aDa =m, +myu,’ ®\n其 中 uv 和 v 为 两 质 点 的 初 动 量 ww “ 和 v 为 两 质 点 的 末 动 量 , 这 就 是 动 量 守\n恒 定 律 的 表 达 式 .\n评 分 标 准 : 本 题 12 分 .\nG@、@、@ 各 1 分 , 团 式 2 分 , @ 式 3 分 . 正 确 、 清 楚 说 明 每 步 的 根 据 给 2\n分 , 正 确 说 出 式 中 各 符 号 和 结 果 中 各 项 意 义 的 再 给 2 分 .",
+      "content": "(124%) 为 了 安 全 , 在 公 路 上 行 驶 的 汽 车 之 间 应 保 持 必 要 的 距 离 . 已 知 某 高 速 公 路 的\n最 高 限 速 v=120 km/h. 假 设 前 方 车 辆 突 然 停 止 后 车 司 机 从 发 现 这 一 情 况 , 经 操 纵\n刹 车 , 到 汽 车 开 始 减 速 所 经 历 的 时 间 ( 即 反 应 时 间 ) { 二 0. 50 s 刹 车 时 汽 车 受 到 阻\nGJS 0\n力 的 大 小 广 为 汽 车 重 力 的 0. 40 倍 , 该 高 速 公 路 上 汽 车 间 的 距 离 s 至 少 应 为 多 少 ? 取\n重 力 加 速 度 g 一 10 m/s\".",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 8,
-        "questionNumber": 20,
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 21,
         "extraction": "ocr",
-        "confidence": 86,
-        "needsReview": true
-      }
+        "confidence": 90,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q021-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q021-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q22",
-      "content": "参 考 解 答 :\n在 反 应 时 间 内 、 汽 车 作 匀 速 运 动 , 运 动 的 距 离\nsl 二 U @\n设 刹 车 时 汽 车 的 加 速 度 的 大 小 为 a, 汽 车 的 质 量 为 m, A\nS=ma ©)\n自 刻 车 到 停 下 、 汽 车 运 动 的 距 离\n口 - 切 ®\n所 求 距 离\n5 二 s1 十 s @\n由 以 上 各 式 得\ns=1.6X10° m ®\n评 分 标 准 : 本 题 12 分 .\nDO. @. @ 式 各 3 分 , 结 果 正 确 再 给 3 分 ( 结 果 为 1. 5X10: m 的 , 同 样 给 分 )\n。 134 。\n22, 参 考 解 答 :\n由 牛 顿 定 律 得 知 , 在 匀 强 电 场 中 小 球 加 速 度 的 大 小 为\na 二 2 与\n代 人 数 值 得\n(= LOWE 0X0 o,20 m/s\n当 场 强 沿 z 正 方 向 时 , 经 过 1 秒 钟 小 球 的 速 度 大 小 为\nv,=at=0.20X1.0=0. 20 m/s ©)\n速 度 的 方 向 沿 z 轴 正 方 向 , 小 球 沿 z 轴 方 向 移 动 的 距 离\nAz, = 言 a 二 方 x0. 20%1.02=0.10 m @\n在 第 2 秒 内 , 电 场 方 向 沿 y 轴 正 方 向 , 故 小 球 在 z 方 向 做 速 度 为 : 的 匀 速 运 动 , 在 y 方\n向 做 初 速 为 零 的 匀 加 速 运 动 , 沿 z 方 向 移 动 的 距 离\nAz, =v,t=0.20 m @\n沿 方 向 移 动 的 距 离\nAy=—at' = X0. 20% 1.02=0.10 m @\n故 在 第 2 秒 末 小 球 到 达 的 位 置 坐 标\n2: =Ax +Ax,=0.30 m ®\ny,=Ay=0.10 m @\n在 第 2 秒 未 小 球 在 z FREI ri EAD v, «FE y 方 向 的 分 速 度\nv,=at=0.20X1.0=0. 20 m/s ®\n由 上 可 知 , 此 时 运 动 方 向 与 z 轴 成 45“ 角 . 要 使 小 球 速 度 能 变 为 零 , 则 在 第 3 秒 内 所 加 匀\n强 电 场 的 方 向 必 须 与 此 方 向 相 反 , 即 指 向 第 三 象 限 , 与 z 轴 成 225“ 角 .\n在 第 3 秒 内 , 设 在 电 场 作 用 下 小 球 加 速 度 的 z 分 量 和 y 分 量 分 别 为 a:、a,, 则\n。 一 究 一 0. 20 m/s’ ©)\na,=\"=0. 20 m/s” (0)\n在 第 3 秒 末 小 球 到 达 的 位 置 坐 标 为\n乙 3 =x; +o — art =0. 40 m O\n=e tut — Tai =0, 20 m O\n评 分 标 准 : 本 题 13 分 .\n正 确 得 出 第 1 秒 未 的 运 动 情 况 占 2 分 , 第 2 秒 未 的 运 动 情 况 占 3 分 , 正 确 指 出\n. 135 -\n场 强 方 向 给 4 分 , 求 得 最 后 位 置 给 4 分 .",
+      "content": "(13 分 ) 在 光 滢 水 平 面 上 有 一 质 量 劝 二 1.0X1073 kg、 电 量 g 二 1. 0X10-““ C 的 带 正 电\n小 球 , 静 止 在 O 点 , 以 O 点 为 原 点 , 在 该 水 平 面 内 建 立 直 角 坐 标 系 Ozy, 现 突 然 加\n一 泷 乙 轻 正 方 向 、 场 强 大 小 三 一 2. 0 X 10° V/m 的 匀 强 电 场 , 使 小 球 开 始 运 动 , 经 过\n1.0 s, 所 加 电 场 突 然 变 为 沿 y 轴 正 方 向 , 场 强 大 小 仍 为 E=2.0X10° V/m 的 匀 强 电\n场 , 再 经 过 1.0 s, 所 加 电 场 又 突 然 变 为 另 一 个 匀 强 电 场 , 使 小 球 在 此 电 场 作 用 下 经\n1.0 s 速 度 变 为 零 . 求 此 电 场 的 方 向 及 速 度 变 为 零 时 小 球 的 位 置 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 8,
-        "questionNumber": 21,
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 22,
         "extraction": "ocr",
-        "confidence": 86,
-        "needsReview": true
-      }
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q022-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2e4d8254db9d72cb-q022-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q23",
-      "content": "参 考 解 答 :\n(1) 气 缸 处 于 图 1 位 置 时 , 设 气 缸 内 气 体 压 强 为 b , 对 于 活 塞 和 杆 , 力 的 平 衡 条\n件 为\n力 S 十 力 Ss 一 力 Sa 十 力 S5 O\n解 得 pr=po=1.0X10° Pa @\n(2) 气 缸 处 于 图 2 位 置 时 , 设 气 缸 内 气 体 压 强 为 b: , 对 于 活 塞 和 杆 , 力 的 平 衡 条\n件 为\n办 Sa 十 办 Ss 十 (ma 十 ma)g 二 boSa 十 pSs @)\n设 V 为 气 缸 处 于 图 2 位 置 时 缸 内 气 体 的 体 积 , 由 玻 意 耳 定 律 可 得\nbiV 二 b V。 @\n由 几 何 关 系 可 得\nVi—V,=I1(5,—S3) ®\n由 以 上 各 式 解 得\n1 二 9 1 X 10 San ®\n评 分 标 准 : 本 题 13 分 .\n第 (1) 问 4 分 . @ 式 3 分 , @ 式 1 分 , 第 2) 问 9 分 , @ 式 3 分 , @. @ 、\n@ 式 各 2 分 . ( 最 后 结 果 在 9.0X10。 m~0. 10 m 之 间 的 同 样 给 分 )",
+      "content": "(13 分 ) 如 图 , 气 缸 由 两 个 横 截 面 不\n同 的 圆 筒 连 接 而 成 , 活 塞 A、 一 了 言 二 井 『\n质 刚 性 细 杆 连 接 在 一 起 , 可 无 摩 擦 移 - 昧 _ 厂 一 一 一\n动 、A、 卫 的 质 量 分 别 为 力 一 12 ke. 图 1\nw 一 8.0 kg, 横 截 面 积 分 别 为 Sa =\n4.0X 107? m?*, Sy =12.0X 107% m’.\n一 定 质 量 的 理 想 气 体 被 封 闭 在 两 活 塘 『\n之 间 , 活 塞 外 侧 大 气 压 强 加 一 1.0 x\n10° Pa. 巳\n(1) 气 缸 水 平 放 置 达 到 如 图 1 所 示 的 平 衡 状 态 , 求 气 体 的 压 强\n(2) 已 知 此 时 气 体 的 体 积 介 二 2.0 X 10-。 ms, 现 保 持 温 度 不 变 , 将 气 缸 坂 直 放 置 ,\n达 到 平 衡 后 如 图 2 所 示 , 与 图 1 相 比 , 活 塞 在 气 缸 内 移 动 的 距 离 ! 为 多 少 ? RE\n力 加 速 度 g 一 10 m/s’.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 10,
+        "page": 6,
+        "endPage": 6,
         "questionNumber": 23,
         "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1999/1999全国.pdf#q24",
-      "content": "、 参 考 解 答 :\n(1) 设 粒 子 在 磁 场 中 做 圆 周 运 动 的 轨 道 半 径 为 R, 由 牛 顿 第 二 定 律 , 有\nsoB 一 力 宇\n得 R=2% ®\n(2) 如 图 所 示 、 以 OP 为 弦 可 画 两 个 半 径 相 同 的 圆 、 分 别 表 示 在 P 点 相 遇 的 两 个 粒\n子 的 轨 道 , 圆 心 和 直 径 分 别 为 O, 、O 〇 , 和 OO,Q, 、OO,Q, , 在 0 处 两 个 圆 的 切 线 分 别 表 示\n两 个 粒 子 的 射 入 方 合 , 用 9 表 示 它 们 之 间 的 夹 角 . 由 几 何 关 系 “\n可 知 “\n不 F0IQ, 一 LF0Q, 一 ) @ 1 . 国 医\nWO 点 射 人 到 相 遇 , 粒 子 1 的 路 程 为 半 个 圆 周 加 弧 长 Q 丁 / NI 引 : 总\nQ, P=R0 9 X=; . 。 .\n粒 子 2 的 路 程 为 半 个 圆 周 减 弧 长 FQ; =\nf_ s 一\n粒 子 1 运 动 的 时 间\na 一 方 T 型 ®\n。 136 。\n其 中 工 为 圆 周 运 动 的 周 期 , 粒 子 2 运 动 的 时 间 为\n- 子 r 城 e\n两 粒 子 射 人 的 时 间 间 隔\nAt 一 血 一 书 二 2 Ry O\n国 Reos Lom 11\n得 b 一 2arccos 怀 ®\n由 @ 〇 O、@ 〇 、@ 三 式 得\na 维 areeos(888) ©]\n评 分 标 准 : 本 题 15 分 . 第 (D 问 3 分 . 第 (2) 间 12 分 @ 、@ 式 各 4 分 , @、@ 式 各\n2 分 .\nGis oO",
+      "content": "(15 分 ) 图 中 虚 线 MN 是 一 垂 直 纸 面 的 平 面 与 纸 面 的 交 线 , 4\n在 平 面 右 侧 的 半 空 间 存 在 一 磁 感 强 度 为 B 的 匀 强 磷 场 , 方 向 【\n垂 直 纸 面 向 外 , 是 MN 上 的 一 点 , 从 O 点 可 以 向 磁 场 区 02 .\n域 发 射 电 量 为 十 、 质 量 为 吉 、 速 率 为 的 粒 子 , 粒 子 射 人 e u\n磁 场 时 的 速 度 可 在 纸 面 内 各 个 方 向 , 已 知 先 后 射 人 的 两 个 粘 。 p ,\n子 恰 好 在 磁 场 中 给 定 的 P 点 相 遇 ,P 到 O 的 距 离 为 , 不 计 © CC cc\n重 力 及 粒 子 间 的 相 互 作 用 . hh A\n(1) 求 所 考 察 的 粒 子 在 磁 场 中 的 转 道 半 径\n(2) 求 这 两 个 粒 子 从 O 点 射 人 碟 场 的 时 间 间 隔 .\n“ 132 。\n1999 年 普 通 高 等 学 校 招 生 全 国 统 一 考 试\n物 理 试 题 参 考 答 案 及 评 分 标 准\n一 、 答 案 及 评 分 标 准 : 全 题 48 分 , 每 小 题 4 分 , 每 小 题 全 选 对 的 给 4 分 , 选 不 全 的 给 2\n分 , 有 选 错 的 给 0 分 , 不 答 的 给 0 分\nlly 18 (€ 2 卫 BIE 4, B. C 5. B\nCOARSE flo (© 8. C.D GL A IE 10. A. D\n1 6 12。 B D\n二 、 答 案 及 评 分 标 准 : 全 题 20 分 , 每 小 题 5 分 , 答 案 正 确 的 , 按 下 列 答 案 后 面 括 号 内 的\n分 数 给 分 ; 答 错 的 , 不 答 的 , 都 给 0 分 .\n13. 4.00X107\"(3 分 ) 5.00X 10\" (2 43)\n14 17 (5 分 , 答 1. 8 秒 同 样 给 分 . )\n15, & 520)\n16. WE. (5 分 , 未 标 明 途 度 方 向 的 给 2 分 、 有 任 何 错 误 的 给 0 分 )\n木 OF I i re aE\n三 、 答 案 及 评 分 标 准 : 全 题 17 分 , 其 中 17 题 4 分 ,18 题 6 分 , 19 题 7 分 、 答 案 正 确 的 ,\n按 下 列 答 案 后 面 括 号 内 的 分 数 给 分 ; 答 错 的 , 不 答 的 , 都 给 0 分 .\n1 7 52。12..(4 分 )\nLl “\n18. (1) =F; (3 分 )\n(2) 放 大 倒 立 实 像 ,(3 分 )\n19. (1) 如 图 . (3 分 . 有 任 何 锦 , 给 0 分 )\ny 7, =]\n心 AA 4 heh\nms ns\n4\n. atDtm “\n留\n“ 规 833 一\n2) a, b, LR, (4 分 . 有 错 , 给 0 分 )\n四 、 参 考 解 答 及 评 分 标 准 :\n20. 参 考 解 答 :\nSom 和 m 分 别 表 示 两 质 点 的 质 量 , 和 Fs 分 别 表 示 它 们 所 受 的 作 用 力 ,a 和 a\n分 别 表 示 它 们 的 加 速 度 , 和 t 分 别 表 示 F 和 F 作 用 的 时 间 , 和 z 分 别 表 示 它 们 相\n互 作 用 过 程 中 的 初 速 度 ,v 和 wa 分 别 表 示 末 速 度 . 根 据 牛 顿 第 二 定 律 , 有\nFi=ma,, F,=ma, ©)\n由 加 速 度 的 定 义 可 知\nLa “\n代 入 上 式 , 可 得\nFiti=m (uv, , F,v 一 m “ ®\n根 据 牛 顿 第 三 定 律 , 可 知\nFi=—F,, ti=t, @\n由 G、@@ 可 得\n1Di 十 aDa =m, +myu,’ ®\n其 中 uv 和 v 为 两 质 点 的 初 动 量 ww “ 和 v 为 两 质 点 的 末 动 量 , 这 就 是 动 量 守\n恒 定 律 的 表 达 式 .\n评 分 标 准 : 本 题 12 分 .\nG@、@、@ 各 1 分 , 团 式 2 分 , @ 式 3 分 . 正 确 、 清 楚 说 明 每 步 的 根 据 给 2\n分 , 正 确 说 出 式 中 各 符 号 和 结 果 中 各 项 意 义 的 再 给 2 分 .\n21. 参 考 解 答 :\n在 反 应 时 间 内 、 汽 车 作 匀 速 运 动 , 运 动 的 距 离\nsl 二 U @\n设 刹 车 时 汽 车 的 加 速 度 的 大 小 为 a, 汽 车 的 质 量 为 m, A\nS=ma ©)\n自 刻 车 到 停 下 、 汽 车 运 动 的 距 离\n口 - 切 ®\n所 求 距 离\n5 二 s1 十 s @\n由 以 上 各 式 得\ns=1.6X10° m ®\n评 分 标 准 : 本 题 12 分 .\nDO. @. @ 式 各 3 分 , 结 果 正 确 再 给 3 分 ( 结 果 为 1. 5X10: m 的 , 同 样 给 分 )\n。 134 。\n22, 参 考 解 答 :\n由 牛 顿 定 律 得 知 , 在 匀 强 电 场 中 小 球 加 速 度 的 大 小 为\na 二 2 与\n代 人 数 值 得\n(= LOWE 0X0 o,20 m/s\n当 场 强 沿 z 正 方 向 时 , 经 过 1 秒 钟 小 球 的 速 度 大 小 为\nv,=at=0.20X1.0=0. 20 m/s ©)\n速 度 的 方 向 沿 z 轴 正 方 向 , 小 球 沿 z 轴 方 向 移 动 的 距 离\nAz, = 言 a 二 方 x0. 20%1.02=0.10 m @\n在 第 2 秒 内 , 电 场 方 向 沿 y 轴 正 方 向 , 故 小 球 在 z 方 向 做 速 度 为 : 的 匀 速 运 动 , 在 y 方\n向 做 初 速 为 零 的 匀 加 速 运 动 , 沿 z 方 向 移 动 的 距 离\nAz, =v,t=0.20 m @\n沿 方 向 移 动 的 距 离\nAy=—at' = X0. 20% 1.02=0.10 m @\n故 在 第 2 秒 末 小 球 到 达 的 位 置 坐 标\n2: =Ax +Ax,=0.30 m ®\ny,=Ay=0.10 m @\n在 第 2 秒 未 小 球 在 z FREI ri EAD v, «FE y 方 向 的 分 速 度\nv,=at=0.20X1.0=0. 20 m/s ®\n由 上 可 知 , 此 时 运 动 方 向 与 z 轴 成 45“ 角 . 要 使 小 球 速 度 能 变 为 零 , 则 在 第 3 秒 内 所 加 匀\n强 电 场 的 方 向 必 须 与 此 方 向 相 反 , 即 指 向 第 三 象 限 , 与 z 轴 成 225“ 角 .\n在 第 3 秒 内 , 设 在 电 场 作 用 下 小 球 加 速 度 的 z 分 量 和 y 分 量 分 别 为 a:、a,, 则\n。 一 究 一 0. 20 m/s’ ©)\na,=\"=0. 20 m/s” (0)\n在 第 3 秒 末 小 球 到 达 的 位 置 坐 标 为\n乙 3 =x; +o — art =0. 40 m O\n=e tut — Tai =0, 20 m O\n评 分 标 准 : 本 题 13 分 .\n正 确 得 出 第 1 秒 未 的 运 动 情 况 占 2 分 , 第 2 秒 未 的 运 动 情 况 占 3 分 , 正 确 指 出\n. 135 -\n场 强 方 向 给 4 分 , 求 得 最 后 位 置 给 4 分 .\n23. 参 考 解 答 :",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1) 气 缸 处 于 图 1 位 置 时 , 设 气 缸 内 气 体 压 强 为 b , 对 于 活 塞 和 杆 , 力 的 平 衡 条\n件 为\n力 S 十 力 Ss 一 力 Sa 十 力 S5 O\n解 得 pr=po=1.0X10° Pa @\n(2) 气 缸 处 于 图 2 位 置 时 , 设 气 缸 内 气 体 压 强 为 b: , 对 于 活 塞 和 杆 , 力 的 平 衡 条\n件 为\n办 Sa 十 办 Ss 十 (ma 十 ma)g 二 boSa 十 pSs @)\n设 V 为 气 缸 处 于 图 2 位 置 时 缸 内 气 体 的 体 积 , 由 玻 意 耳 定 律 可 得\nbiV 二 b V。 @\n由 几 何 关 系 可 得\nVi—V,=I1(5,—S3) ®\n由 以 上 各 式 解 得\n1 二 9 1 X 10 San ®\n评 分 标 准 : 本 题 13 分 .\n第 (1) 问 4 分 . @ 式 3 分 , @ 式 1 分 , 第 2) 问 9 分 , @ 式 3 分 , @. @ 、\n@ 式 各 2 分 . ( 最 后 结 果 在 9.0X10。 m~0. 10 m 之 间 的 同 样 给 分 )\n24.、 参 考 解 答 :\n(1) 设 粒 子 在 磁 场 中 做 圆 周 运 动 的 轨 道 半 径 为 R, 由 牛 顿 第 二 定 律 , 有\nsoB 一 力 宇\n得 R=2% ®\n(2) 如 图 所 示 、 以 OP 为 弦 可 画 两 个 半 径 相 同 的 圆 、 分 别 表 示 在 P 点 相 遇 的 两 个 粒\n子 的 轨 道 , 圆 心 和 直 径 分 别 为 O, 、O 〇 , 和 OO,Q, 、OO,Q, , 在 0 处 两 个 圆 的 切 线 分 别 表 示\n两 个 粒 子 的 射 入 方 合 , 用 9 表 示 它 们 之 间 的 夹 角 . 由 几 何 关 系 “\n可 知 “\n不 F0IQ, 一 LF0Q, 一 ) @ 1 . 国 医\nWO 点 射 人 到 相 遇 , 粒 子 1 的 路 程 为 半 个 圆 周 加 弧 长 Q 丁 / NI 引 : 总\nQ, P=R0 9 X=; . 。 .\n粒 子 2 的 路 程 为 半 个 圆 周 减 弧 长 FQ; =\nf_ s 一\n粒 子 1 运 动 的 时 间\na 一 方 T 型 ®\n。 136 。\n其 中 了 为 圆 周 运 动 的 周 期 , 粒 子 2 运 动 的 时 间 为\n1 一 -Rb\n口 二 井 1 一 PF\n两 粒 子 射 人 的 时 间 间 隔\nAt=t,—t,=2 城\nv\n国 Reos Lom 11\n得 (f= 2arccos 怀\nHO. ©. =X\"\nat=\"arccos( 72)\n评 分 标 准 : 本 题 15 分 . 第 (1) 问 3 分 . 第 (2) 问 12 分 .\n2 分 ,\n®\n@\n®\n@\n@、@ 式 各 4 分 , @、@ 式 各\nN37",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "原卷解析"
       ],
       "year": 1999,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1999/1999全国.pdf",
-        "page": 10,
+        "page": 6,
+        "endPage": 11,
         "questionNumber": 24,
         "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 14,
+    "rendered": 14,
+    "scanPages": 11,
+    "scanRegions": 14,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
   "name": "2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q01",
       "content": "已知集合A = {x | x < 2}, B = {x | 3 −2x > 0}, 则\n(\n)\n(A) A ∩B =\n{\nx\n����x < 3\n2\n}\n(B) A ∩B = ∅\n(C) A ∪B =\n{\nx\n����x < 3\n2\n}\n(D) A ∪B = R",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q02",
       "content": "为评估一种农作物的种植效果, 选了n 块地作试验田, 这n 块地的亩产量\n(单位: kg) 分别是x1, x2, · · · , xn, 下面给出的指标中可以用来评估这种农\n作物亩产量稳定程度的是\n(\n)\n(A) x1, x2, · · · , xn 的平均数\n(B) x1, x2, · · · , xn 的标准差\n(C) x1, x2, · · · , xn 的最大值\n(D) x1, x2, · · · , xn 的中位数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q03",
       "content": "下列各式的运算结果为纯虚数的是\n(\n)\n(A) i (1 + i)2\n(B) i2 (1 −i)\n(C) (1 + i)2\n(D) i (1 + i)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q04",
       "content": "如图, 正方形ABCD 内的图形来自中国古代的太极图, 正方形内切圆中的\n黑色部分和白色部分关于正方形的中心成中心对称. 在正方形内随机取一\n点, 则此点取自黑色部分的概率是\n(\n)\nA\nB\nC\nD\n(A) 1\n4\n(B) π\n8\n(C) 1\n2\n(D) π\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -102,22 +135,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q004-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q004-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q05",
       "content": "已知F 是双曲线C: x2 −y2\n3 = 1 的右焦点, P 是C 上一点, 且PF 与x\n轴垂直, 点A 的坐标是(1, 3). 则△APF 的面积为\n(\n)\n(A) 1\n3\n(B) 1\n2\n(C) 2\n3\n(D) 3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -125,22 +170,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q06",
       "content": "如图, 在下列四个正方体中, A, B 为正方体的两个顶点, M, N, Q 为所在\n棱的中点, 则在这四个正方体中, 直线AB 与平面MNQ 不平行的是(\n)\n(A)\nB\nA\nM\nN\nQ\n(B)\nA\nB\nM\nN\nQ\n(C)\nA\nB\nM\nN\nQ\n(D)\nB\nA\nM\nN\nQ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -148,22 +199,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q07",
       "content": "设x, y 满足约束条件\n\n\n\n\n\n\n\nx + 3y ⩽3,\nx −y ⩾1,\ny ⩾0,\n则z = x + y 的最大值为\n(\n)\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -171,22 +232,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q08",
       "content": "函数y =\nsin 2x\n1 −cos x 的部分图象大致为\n(\n)\n(A)\nx\n1\n−π\nπ\ny\n1\nO\n(B)\nx\n1\n−π\nπ\ny\n1\nO\n(C)\nx\n1\n−π\nπ\ny\n1\nO\n(D)\nx\n1\n−π\nπ\ny\n1\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -194,22 +261,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q09",
       "content": "已知函数f (x) = ln x + ln (2 −x), 则\n(\n)\n(A) f (x) 在(0, 2) 单调递增\n(B) f (x) 在(0, 2) 单调递减\n(C) y = f (x) 的图象关于直线x = 1 对称\n(D) y = f (x) 的图象关于点(1, 0) 对称",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -217,22 +290,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q10",
       "content": "如图程序框图是为了求出满足3n −2n > 1000 的最小偶数n, 那么在\n和\n两个空白框中, 可以分别填入\n(\n)\n开始\n输入n = 0\nA = 3n −2n\n输出n\n结束\n否\n是\n(A) A > 1000 和n = n + 1\n(B) A > 1000 和n = n + 2\n(C) A ⩽1000 和n = n + 1\n(D) A ⩽1000 和n = n + 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -240,22 +319,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q11",
       "content": "△ABC\n的内角A,\nB,\nC\n的对边分别为a,\nb,\nc,\n已知sin B +\nsin A (sin C −cos C) = 0, a = 2, c =\n√\n2, 则C =\n(\n)\n(A) π\n12\n(B) π\n6\n(C) π\n4\n(D) π\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -263,22 +353,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q12",
       "content": "设A, B 是椭圆C: x2\n3 + y2\nm = 1 长轴的两个端点, 若C 上存在点M 满足\n∠AMB = 120◦, 则m 的取值范围是\n(\n)\n(A) (0, 1] ∪[9, +∞)\n(B)\n(\n0,\n√\n3\n]\n∪[9, +∞)\n(C) (0, 1] ∪[4, +∞)\n(D)\n(\n0,\n√\n3\n]\n∪[4, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -286,22 +387,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q13",
       "content": "已知向量a = (−1, 2), b = (m, 1), 若向量a + b 与a 垂直, 则m =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -309,22 +420,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q14",
       "content": "曲线y = x2 + 1\nx 在点(1, 2) 处的切线方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -332,22 +449,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q15",
       "content": "已知α ∈\n(\n0, π\n2\n)\n, tan α = 2, 则cos\n(\nα −π\n4\n)\n=\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -355,22 +478,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q16",
       "content": "已知三棱锥S −ABC 的所有顶点都在球O 的球面上, SC 是球O 的直径,\n若平面SCA ⊥平面SCB, SA = AC, SB = BC, 三棱锥S −ABC 的体\n积为9, 则球O 的表面积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -378,22 +507,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q17",
       "content": "记Sn 为等比数列{an} 的前n 项和. 已知S2 = 2, S3 = −6.\n(1) 求{an} 的通项公式;\n(2) 求Sn, 并判断Sn+1, Sn, Sn+2 是否能成等差数列.\n1039",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -401,22 +540,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q18",
       "content": "如图, 在四棱锥P −ABCD 中, AB\nCD, 且∠BAP = ∠CDP = 90◦.\n(1) 证明: 平面PAB ⊥平面PAD;\n(2) 若PA = PD = AB = DC, ∠APD = 90◦, 且四棱锥P −ABCD 的体\n积为8\n3, 求该四棱锥的侧面积.\nC\nB\nD\nP\nA",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -424,22 +569,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-375c5387d31cd39e-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q19",
       "content": "为了监控某种零件的一条生产线的生产过程, 检验员每隔30 min 从该生产\n线上随机抽取一个零件, 并测量其尺寸(单位: cm). 下面是检验员在一天\n内依次抽取的16 个零件的尺寸:\n抽取次序\n1\n2\n3\n4\n5\n6\n7\n8\n零件尺寸\n9.95\n10.12\n9.96\n9.96\n10.01\n9.92\n9.98\n10.04\n抽取次序\n9\n10\n11\n12\n13\n14\n15\n16\n零件尺寸\n10.26\n9.91\n10.13\n10.02\n9.22\n10.04\n10.05\n9.95\n经计算得\nx = 1\n16\n16\n∑\ni=1\nxi = 9.97, s =\n√\n1\n16\n16\n∑\ni=1\n(xi −x)2 =\n√\n1\n16\n( 16\n∑\ni=1\nx2\ni −16x2\n)\n≈\n0.212,\n√\n16\n∑\ni=1\n(i −8.5)2 ≈18.439,\n16\n∑\ni=1\n(xi −x) (i −8.5) = −2.78, 其中xi 为\n抽取的第i 个零件的尺寸, i = 1, 2, · · · , 16.\n(1) 求(xi, i)\n(i = 1, 2, · · · , 16) 的相关系数r, 并回答是否可以认为\n这一天生产的零件尺寸不随生产过程的进行而系统地变大或变小; (若\n|r| < 0.25, 则可以认为零件的尺寸不随生产过程的进行而系统地变大或变\n小)\n(2) 一天内抽检零件中, 如果出现了尺寸在(x −3s, x + 3s) 之外的零件, 就\n认为这条生产线在这一天的生产过程可能出现了异常情况, 需对当天的生\n产过程进行检查.\n①从这一天抽检的结果看, 是否需对当天的生产过程进行检查?\n②在(x −3s, x + 3s) 之外的数据称为离群值, 试剔除离群值, 估计这\n条生产线当天生产的零件尺寸的均值与标准差. (精确到0.01)\n附:\n样本\n(xi, yi)\n(i\n=\n1,\n2,\n· · · ,\nn)\n的相关系数\nr\n=\nn∑\ni=1\n(xi −x) (yi −y)\n√n∑\ni=1\n(xi −x)2\n√n∑\ni=1\n(yi −y)2\n,\n√\n0.008 ≈0.09.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -447,22 +602,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q20",
       "content": "设A, B 为曲线C: y = x2\n4 上两点, A 与B 的横坐标之和为4.\n(1) 求直线AB 的斜率;\n(2) 设M 为曲线C 上一点, C 在M 处的切线与直线AB 平行, 且\nAM ⊥BM, 求直线AB 的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -470,22 +631,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q21",
       "content": "已知函数f (x) = ex (ex −a) −a2x.\n(1) 讨论f (x) 的单调性;\n(2) 若f (x) ⩾0, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -493,22 +660,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q22",
       "content": "在直角坐标系xOy 中, 曲线C 的参数方程为\n{\nx = 3 cos θ,\ny = sin θ,\n(θ 为参数), 直\n线l 的参数方程为\n{\nx = a + 4t,\ny = 1 −t,\n(t 为参数).\n(1) 若a = −1, 求C 与l 的交点坐标;\n(2) 若C 上的点到l 距离的最大值为\n√\n17, 求a.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -516,22 +689,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf#q23",
       "content": "已知函数f (x) = −x2 + ax + 4, g (x) = |x + 1| + |x −1|.\n(1) 当a = 1 时, 求不等式f (x) ⩾g (x) 的解集;\n(2) 若不等式f (x) ⩾g (x) 的解集包含[−1, 1], 求a 的取值范围.\n1040",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -539,11 +718,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017全国1文(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014四川理综.pdf",
   "name": "2014四川理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014四川理综.pdf#q01",
       "content": "如图所示，甲是远距离输电线路的示意图，乙是发电机输出电压随时间变化的图像，则（    ）\n（A）用户用电器上交流电的频率是 100 Hz\n（B）发电机输出交流电的电压有效值是 500 V\n（C）输电线的电流只由降压变压器原副线圈的匝数比决定\n（D）当用户用电器的总电阻增大时，输电线上损失的功率减小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "从图乙得到交流电的频率是 50 Hz，变压器在输电过程中不改变交流电的频率，A 错误；从图乙\n得到发电机输出电压的最大值是 50 V，所以有效值为 250 2 V，B 错误；输电线的电流是由降压变压器\n的负载电阻和输出电压决定的，C 错误；由于变压器的输出电压不变，当用户用电器的总电阻增大时，输\n出电流减小，根据电流与匝数成反比的关系可知，输电线上的电流减小，由 P 线 = I2 线R 线 可知，输电线\n上损失的功率减小，选项 D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,11 +44,340 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q001-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q02",
+      "content": "电磁波已广泛运用于很多领域。下列关于电磁波的说法符合实际的是（    ）\n（A）电磁波不能产生衍射现象\n（B）常用的遥控器通过发出紫外线脉冲信号来遥控电视机\n（C）根据多普勒效应可以判断遥远天体相对于地球的运动速度\n（D）光在真空中运动的速度在不同惯性系中测得的数值可能不同",
+      "answer": "暂无结构化答案",
+      "analysis": "衍射现象是波的特有现象，A 错误；常用的遥控器通过发出红外线脉冲信号来遥控电视机，B 错\n误；遥远天体和地球的距离发生变化时，遥远天体的电磁波由于相对距离发生变化而出现多普勒效应，所\n以能测出遥远天体相对地球的运动速度，C 正确；光在真空中运动的速度在不同惯性系中测得的数值是相\n同的，即光速不变原理，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q03",
+      "content": "如图所示，口径较大、充满水的薄壁圆柱形浅玻璃缸底有一发光小球，则（    ）\n（A）小球必须位于缸底中心才能从侧面看到小球\n（B）小球所发的光能从水面任何区域射出\n（C）小球所发的光从水中进入空气后频率变大\n（D）小球所发的光从水中进入空气后传播速度变大\n发电机 升压\n变压器\n输电线\n用户\n降压\n变压器\n甲\nu/V\n500\nt/s\n0.01\n− 500\nO\n0.02\n乙\n2 / 8",
+      "answer": "暂无结构化答案",
+      "analysis": "光从水中进入空气，只要在没有发生全反射的区域，就可以看到光线射出，所以 A、B 错误；光\n的频率是由光源决定的，与介质无关，所以 C 错误；由v = c\nn得，光从水中进入空气后传播速度变大，所\n以D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q04",
+      "content": "有一条两岸平直、河水均匀流动、流速恒为 v 的大河。小明驾着小船渡河，去程时船头指向始终与河\n岸垂直，回程时行驶路线与河岸垂直。去程与回程所用时间的比值为 k，船在静水中的速度大小相同，则\n小船在静水中的速度大小为（    ）\n（A）\nkv\nk2 − 1\n（B）\nv\n1 − k2\n（C）\nkv\n1 − k2\n（D）\nv\nk2 − 1",
+      "answer": "暂无结构化答案",
+      "analysis": "设河岸宽为 d，船速为 u，则根据渡河时间关系得 d\nu∶\nd\nu2－v2 = k，解得 u =\nv\n1 − k2，所以 B\n选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q05",
+      "content": "如图所示，甲为 t = 1 s 时某横波的波形图像，乙为\n该波传播方向上某一质点的振动图像，距该质点 Δx =\n0.5 m 处质点的振动图像可能是（    ）",
+      "answer": "暂无结构化答案",
+      "analysis": "从甲图可以得到波长为 2 m，从乙图可以得到周期为 2 s，即波速为 1 m/s；由乙图的振动图像可\n以找到 t = 1 s 时，该质点位移为负，并且向下运动，距该质点Δx = 0.5 m 处的质点与该质点的振动情况\n相差 T\n4，即将乙图中的图像向左或右平移 1\n4 周期即可得到距该质点 Δx = 0.5 m 处质点的振动图像，故只\n有 A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q06",
+      "content": "如图所示，一不计电阻的光滑 U 形金属框水平放置，光滑、\n竖直玻璃挡板 H、P 固定在框上，H、P 的间距很小。质量为 0.2\nkg 的细金属杆 CD 恰好无挤压地放在两挡板之间，与金属框接\n触良好并围成边长为 1 m 的正方形，其有效电阻为 0.1 Ω。此时\n在整个空间加方向与水平面成 30° 角且与金属杆垂直的匀强磁\n场，磁感应强度随时间变化规律是 B = （0.4 − 0.2t）T，图示磁场\n方向为正方向。框、档板和杆不计形变。则（     ）\n（A）t = 1 s 时，金属杆中感应电流方向从 C 到 D\n（B）t = 3 s 时，金属杆中感应电流方向从 D 到 C\n（C）t = 1 s 时，金属杆对挡板 P 的压力大小为 0.1 N\n（D）t = 3 s 时，金属杆对挡板 H 的压力大小为 0.2 N",
+      "answer": "AC",
+      "analysis": "由于B = （0.4－0.2t）T，在t = 1s 时穿过平面的磁通量向下并减少，则根据楞次定律可以判断，\n金属杆中感应电流方向从C 到D，A 正确。在t = 3 s 时穿过平面的磁通量向上并增加，则根据楞次定律可\nA\ny/m\nO\n− A\n1\n2\nt/s\nD\nA\ny/m\nO\n− A\n1\n2\nt/s\nC\nA\ny/m\nO\n− A\n1\n2\nt/s\nB\nA\ny/m\nO\n− A\n1\n2\nt/s\nA\nA\n− A\n− A\nO\n1\n2\n2\nx/m\n甲\nt/s\n1\n0.25\ny/m\ny/m\nA\nO\n乙\nB\nH\nC\nD\nP\n30°\n3 / 8\n以判断，金属杆中感应电流方向仍然是从C 到D，B 错误．由法拉第电磁感应定律得E = ΔΦ\nΔt = ΔB\nΔt Ssin 30°\n= 0.1V，由闭合电路的欧姆定律得电路电流I = E\nR = 1A，在t = 1s 时，B = 0.2T，方向斜向下，电流方向从\nC 到D，金属杆对挡板P 的压力水平向右，大小为FP = BILsin 30° = 0.1N，C 正确．同理，在t = 3s 时，金\n属杆对挡板H 的压力水平向左，大小为FH = BILsin 30° = 0.1N，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q07",
+      "content": "如右图所示，水平传送带以速度 v1 匀速运动，小物体 P、Q 由通过定\n滑轮且不可伸长的轻绳相连，t = 0 时刻 P 在传送带左端具有速度 v2，P 与\n定滑轮间的绳水平，t = t0 时刻 P 离开传送带。不计定滑轮质量和摩擦，绳\n足够长。正确描述小物体 P 速度随时间变化的图像可能是（    ）",
+      "answer": "暂无结构化答案",
+      "analysis": "若P 在传送带左端时的速度v2 小于v1，则P 受到向右的摩擦力，当P 受到的摩擦力大于绳的拉\n力时，P 做加速运动，则有两种可能：第一种是一直做加速运动，第二种是先做加速度运动，当速度达到\nv1 后做匀速运动，所以B 正确；当P 受到的摩擦力小于绳的拉力时，P 做减速运动，也有两种可能：第一\n种是一直做减速运动，从右端滑出；第二种是先做减速运动再做反向加速运动，从左端滑出。若P 在传送\n带左端具有的速度v2 大于v1，则小物体P 受到向左的摩擦力，使P 做减速运动，则有三种可能：第一种是\n一直做减速运动，第二种是速度先减到v1，之后若P 受到绳的拉力和静摩擦力作用而处于平衡状态，则其\n以速度v1 做匀速运动，第三种是速度先减到v1，之后若P 所受的静摩擦力小于绳的拉力，则P 将继续减\n速直到速度减为0，再反向做加速运动并且摩擦力反向，加速度不变，从左端滑出，所以C 正确。\n第II 卷 （非选择题:共68 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q08",
+      "content": "（17 分）\n（1）（6 分）\n小文同学在探究物体做曲线运动的条件时，将一条形磁铁放在桌\n面的不同位置，让小钢珠在水平桌面上从同一位置以相同初速 v0\n运动，得到不同轨迹。图中 a、b、c、d 为其中四条运动轨轨，磁\n铁放在位置 A 时，小钢珠的运动轨迹是_________（填轨迹字母\n代号），磁铁放在位置 B 时，小钢珠的运动轨迹是_________（填\n轨迹字母代号）。实验表明，当物体所受合外力的方向跟它的速度方向__________（选填“在”或“不在”）\n同一直线上时，物体做曲线运动。",
+      "answer": "（1）D、C\n（2）变大\n（3）关系图线如图\n（4）31",
+      "analysis": "（1）由磁铁的引力作用及曲线运动的规律可知 A 处时沿 b 轨迹，B 处时沿 c 轨迹。\n（2）（11 分）\n右图是测量阻值约几十欧的未知电阻 Rx 的原理图，图中 R0 是保护电阻（10\nΩ），R1 是电用箱（0 ~ 99.9 Ω），R 是滑动变阻器，A1 和 A2 是电流表，E 是\n电源（电动势 10 V，内阻很小）。\n在保证安全和满足要求的情况下，使测量范围尽可能大。实验具体步骤如下：\nA\nv\nv\nv\nv\nt\nt\nt\nt\nO\nO\nO\nO\nt0\nt0\nt0\nt0\nv2\nv2\nv2\nv2\nB\nC\nD\nP\nQ\nv2\nv1\nv0\nd\nc\nb\na\nB\nA\nRx\nR0\nR1\nR\nE\nS\nA2\nA1\n4 / 8\n（i）连接好电路，将滑动变阻器 R 调到大；\n（ii）闭合 S，从最大值开始调节电阻箱 R1，先调 R1 为适当位置，再调节滑动变阻器 R，使 A1 示数 I1\n= 0.15 A，记下此时电阻箱的阻值 R1 和 A2 的示数 I2；\n（iii）重复步骤（ii），再测量 6 组 R1 和 I2 值；\n（iv）将实验测得的 7 组数据在坐标纸上描点。\n根据实验回答以下问题：\n①现有四只供选用的电流表：\n（A）电流表（0 ~ 3 mA，内阻为 2.0 Ω）\n（B）电流表（0 ~ 3 mA，内阻未知）\n（C）电流表（0 ~ 0.3 A，内阻为 5.0 Ω）\n（D）电流表（0 ~ 0.3 A，内阻未知）\nA1 应选用_______，A2 应选_______。\n②测得一组 R1 和 I2 值后，调整电阻箱 R1，使其阻值变小，要使 A1 示数 I1 = 0.15 A，应让滑动变阻器\nR 接入电路的阻值_________（选填“不变”、“变大”或“变小”）。\n③在坐标纸上画出 R1 与 I2 的关系图。\n④根据以上实验得出 Rx = ________Ω。\n①A1 的示数能达到 0.15 A，A2 的示数由图像可知能达到 0.3 A，故 A1、A2 的量程均选 0.3 A，\n由电路图可列出关系式（Rx + RA2）I2 =（R0 + R1 + RA1）I1，整理后可得 RA2 + Rx = I1\nI2（R0 + R1 + RA1），由\n此可知，若 RA1 已知，则无论R1、I2 如何变化，Rx＋RA2 均为定值，无法得到Rx，故应使RA2 已知，即A1\n选D，A2 选C。\n②当 R1 减小时，如果在滑动变阻器的电阻值保持不变的情况下，电路的总电阻减小，由闭合电路的欧姆\n定律可得总电流I 增大，由分压关系知，并联部分得的电压减小，则I2 减小，由I1 = I－I2 得I1 增大，要使\nI1 = 0.15 A，则需滑动变阻器分得的电压增大，即R 的阻值变大。\n④根据（Rx＋RA2）I2 = （R0＋R1＋RA1）I2，可得R1 = Rx＋RA2\nI1\nI2－（R0－RA1），即 R1–I2 图像的斜率 k =\nRx＋RA2\nI1\n，根据图像并代入相关数据，可得 Rx = 31Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p004-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q09",
+      "content": "（15 分）\n10\nI2/A\nR1/Ω\n20\n30\n40\n50\n60\n0.05 0.10 0.15 0.20 0.25 0.30\nO\n10\nI2/A\nR1/Ω\n20\n30\n40\n50\n60\n0.05 0.10 0.15 0.20 0.25 0.30\nO\n5 / 8\n石墨烯是近些年发现的一种新材料，其超高强度及超强导电、导热等非\n凡的物理化学性质有望使 21 世纪的世界发生革命性的变化，其发现\n者由此获得 2010 年诺贝尔物理学奖。用石墨烯制作超级缆绳，人类搭\n建“太空电梯”的梦想有望在本世纪实现。科学家们设想，通过地球同\n步轨进站向地面垂下一条缆绳至赤道基站，电梯仓沿着这条缆绳运行，\n实观外太空和地球之间便捷的物资交换。\n（1）若“太空电梯”将货物从赤道基站运到距离地面高度为h1 的同步\n轨进站，求轨道站内质量为 m1 的货物相对地心运动的动能。设地球自\n转角速度为 ω，地球半径为 R。\n（2）当电梯仓停在距地面高度 h2 = 4R 的站点时，求仓内质量 m2 = 50\nkg 的人对水平地板的压力大小。取地面附近重力加速度 g = 10 m/s2，\n地球自转角速度 ω = 7.3×10−5 rad/s，地球半径 R = 6.4×103 km。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设货物相对地心的距离为 r1，线速度为 v1，则\nr1 = R＋h1                                             ①\nv1 = r1ω                                ②\n货物对地心的动能为\n2\n1 1\n1\n2\nk\nE\nm v\n=\n                             ③\n联立①②③式       Ek = 1\n2 m1ω2（R＋h1）2                     ④\n说明：①②③④式各1 分\n（2）设地球质量为M，人相对地心的距离为r2，相信加速度为a向，受地球的万有引力为F，则\nr2 = R＋h2                                            ⑤\n2\n1\na\nr\n\n=\n向\n                                           ⑥\n2\n2\nm M\nF\nG\nr\n=\n                          ⑦\n2\nGM\ng\nR\n=\n                              ⑧\n设水平地板对人的支持力大小为N，人对水平地板的压力大小为N’，则\n2\nF\nN\nm a\n−\n=\n向                          ⑨\nNʹ = N                                  ⑩\n联立⑤～⑩式并代入数据得 Nʹ = 11.5 N                          ⑾\n说明：⑥⑦⑧⑨式各2 分，⑤⑩⑾式各1 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q10",
+      "content": "（17 分）\n在如图所示的竖在平面内，水平轨道 CD 和倾斜轨\n道 GH 与半径 r = 9\n44 m 的光滑圆弧轨道分别相切\n于 D 点和 G 点，GH 与水平面的夹角 θ = 37°。过\nG 点、垂直于纸面的竖直平面左侧有匀强磁场，磁场\n方向垂直于纸面的向里，磁感应强度 B = 1.25 T；过\nD 点、垂直于纸面的竖起平面右侧有匀强电场，电场\n方向水平向右，电场强度 E = 1×104 N/C。小物体 P1\ns\nD\nG\nC\nF\nP1\nP2\nO\nH\nE\nr\nθ\nB\n6 / 8\n质量 m = 2×10−3 kg、电荷量 q = + 8×10−6 C，受到水平向右的推力 F = 9.98×10−3 N 的作用力，沿 CD 向\n右做匀速直线运动，到达 D 点后撤去推力。当 P1 到达倾斜轨道底端 G 点时，不带电的小物体 P2 在 GH\n顶端静止释放，经过时间 t = 0.1 s 与 P1 相遇。P1 与 P2 与轨道 CD、GH 间的动摩擦因数均为 μ = 0.5，\n取 g = 10 m/s2，sin37° = 0.6，cos37° = 0.8，物体电荷量保持不变，不计空气阻力。求：\n（1）小物体 P1 在水平轨道 CD 上运动速度 v 的大小；\n（2）倾斜轨道 GH 的长度 s。",
+      "answer": "暂无结构化答案",
+      "analysis": "⑴设小物体P1 在匀强磁场中运动的速度为v，受到向上的洛伦兹力为F1，受到的摩擦力为f，则\nF1 = qvB                                      ①\nf = μ（mg－F1）                                 ②\n由题意，水平方向合理为零\nF－f = 0                                       ③\n联立①②③式，代入数据解得\nv = 4 m/s                                      ④\n说明：①③式各1 分，②④式各2 分\n⑵设P1 在G 点的速度大小为vG，由于洛伦兹力不做功，根据动能定理\n2\n1\n1\nsin\n(1 cos )\n2\n2\nG\nqEr\nmgr\nmv\nmv\n\n\n−\n−\n=\n−\n                    ⑤\nP1 在GH 上运动，受到重力、电场力和摩擦力的作用，设加速度为a1，根据牛顿第二定律\nqEcosθ－mgsinθ－μ（mgcosθ＋qEsinθ） = ma1                   ⑥\nP1 与P2 在GH 上相遇时，设P1 在GH 运动的距离为s1，则\n2\n1\n1\n1\n2\nG\ns\nv t\na t\n=\n+\n                         ⑦\n设P2 质量为m2，在GH 上运动的加速度为a2，则\nm2gsinθ－μm2gcosθ＋qEsinθ） = m2a2                 ⑧\n    P1 与P2 在GH 上相遇时，设P2 在GH 运动的距离为s2，则\n2\n2\n2\n1\n2\ns\na t\n=\n                           ⑨\n联立⑤～⑨式，代入数据得\ns = s1＋s2                            ⑩\ns = 0.56 m                           ⑾\n说明：⑦⑧⑨⑩式各1 分，⑥⑾式各2 分\n7 / 8",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014四川理综.pdf#q11",
+      "content": "（19 分）\n如图所示，水平放置的不带电的平行金属板 p 和 b 相距\nh，与图示电路相连，金属板厚度不计，忽略边缘效应。P\n板上表面光滑，涂有绝缘层，其上 O 点右侧相距 h 处有\n小孔 K；b 板上有小孔 T，且 O、T 在同一条竖直线上，\n图示平面为竖直平面。质量为 m、电荷量为 − q（q > 0）\n的静止粒子被发射装置（图中未画出）从 O 点发射，沿\np 板上表面运动时间 t 后到达 K 孔，不与板碰撞地进入\n两板之间。粒子视为质点，在图示平面内运动，电荷量保持不变，不计空气阻力，重力加速度大小为 g。\n（1）求发射装置对粒子做的功；\n（2）电路中的直流电源内阻为 r，开关 S 接“1”位置时，进入板间的粒子落在 b 板上的 A 点，A 点\n与过 K 孔竖直线的距离为 l。此后将开关 S 接“2”位置，求阻值为 R 的电阻中的电流强度；\n（3）若选用恰当直流电源，电路中开关 S 接“1”位置，使进入板间的粒子受力平衡，此时在板间某区域\n加上方向垂直于图面的、磁感应强度大小合适的匀强磁场（磁感应强度 B 只能在 0 ~ Bm = （21 + 5）m\n（21 − 2）qt\n范围内选取），使粒子恰好从 b 板的 T 孔飞出，求粒子飞出时速度方向与 b 板面的夹角的所有可能值（可\n用反三角函数表示）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设粒子在p 板上做匀速直线运动的速度为v0，有\nh = v0t                                ①\n设发射装置对粒子做的功为W，由动能定律\n2\n0\n1\n2\nW\nmv\n=\n                             ②\n联立①②式可得\n2\n2\n2\nmh\nW\nt\n=\n                               ③\n说明：①②式各2 分，③式各1 分\n（2）S 接“1”位置时，电源的电动势E0 与板间电势差U 有\n                       E0 = U                                 ④\n板间产生匀强电场的场强为E，粒子进入板间时有水平方向的速度v0，在板间受到竖直方向的重力和电场\n力作用而做类平抛运动，设加速度为a，运动时间为t1，有\nU = Eh                                ⑤\nmg－qE = ma                          ⑥\n2\n1\n1\n2\nh\nat\n=\n                              ⑦\nl = v0 t1                                ⑧\n    S 接“2”位置时，则在电阻R 上流过的电流I 满足\n0\nE\nI\nR\nr\n=\n+\n                            ⑨\n联立①④～⑨式得\n3\n2 2\n2\n(\n)\nmh\nh\nI\ng\nq R\nr\nl t\n\n\n=\n−\n\n\n+\n\n\n                 ⑩\n说明：④～⑩式各1 分\n（3）由题意知此时在板间运动的粒子重力与电场力平衡，当粒子从K 进入板间后立即进入磁场做匀速圆\n周运动，如图所示，粒子从D 点出磁场区域后沿DT 做匀速直线运动，DT 与b 板上表面的夹角为题目所\n求夹角θ，磁场的磁感应强度B 取最大值时的夹角θ 为最大值θm，设粒子做匀速圆周运动的半径为R，有\nO\nh\nh\nK\nT\np\nb\nl\nA\nS\nR\n1\n2\n8 / 8\n2\n0\n0\nmv\nqv B\nR\n=\n                        ⑾\n过D 点作b 板的垂线与b 板的上表面交于G，由几何关系有\n(1 cos )\nDG\nh\nR\n\n=\n−\n+\n               ⑿\nsin\nTG\nh\nR\n\n=\n+\n                    ⒀\nsin\ntan\ncos\nDG\nDG\n\n\n\n=\n=\n                 ⒁\n联立①⑾～⒁式，将B = Bm 代入，求得\n2\narcsin 5\nm\n\n=\n                       ⒂\n当B 逐渐减小，粒子做匀速圆周运动的半径为R 也随之变大，D 点向b 板靠近，DT 与b 板上表面的夹角\nθ 也越变越小，当D 点无限接近于b 板上表面时，粒子离开磁场后在板间几乎沿着b 板上表面从T 孔飞出\n板间区域，此时Bm＞B＞0 满足题目要求，夹角θ 趋近θ0，即\nθ0 = 0                                     ⒃\n则题目所求为             0＜θ≤arcsin2\n5                            ⒄\n说明：⑾～⒄式各1 分\nG\nO\nh\nh\nK\nT\np\nb\nθ\nθ\nD",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014四川理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q011-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d696d78361991e9b-q011-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 20,
+    "answerGraphics": 0,
+    "assigned": 20,
+    "rendered": 20,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

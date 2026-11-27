@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
   "name": "2012重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q01",
       "content": "装有砂粒的试管竖直静浮于水面，如图所示。将试管竖直提起少许，然后由\n静止释放并开始计时，在一定时间内试管在竖直方向近似做简谐运动。若取竖\n直向上为正方向，则以下描述试管振动的图象中可能正确的是（    ）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据题中规定的正方向，开始计时时刻位移为正的最大值，由于简谐运动的图象是正弦或余弦曲\n线，可知D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,376 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q001-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q001-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q001-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q02",
+      "content": "如图所示，理想变压器的原线圈接u = 11000 2sin100πt（V）的交变电压，副\n线圈通过电阻r = 6 Ω 的导线对“220 V/880W”的电器RL 供电，该电器正常工作。\n由此可知（    ）\n（A）原、副线圈的匝数比为50∶1\n（B）交变电压的频率为100 Hz\n（C）副线圈中电流的有效值为4 A\n（D）变压器的输入功率为880 W",
+      "answer": "暂无结构化答案",
+      "analysis": "输入电压的有效值为11000 V，用电器的额定电压为220 V，所以变压器的输出电压大于220 V，\n原副线圈的匝数比小于50\n1 ，A 错误；由输入电压的表达式知，f = 100 π\n2 π Hz = 50 Hz，B 错误；副线圈中的\n电流与用电器中的电流相同，I = P\nU = 4 A，C 正确；变压器的输出功率为用电器的功率和导线电阻损耗的\n功率之和，大于880 W，所以变压器的输入功率大于880 W，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q03",
+      "content": "图为伽利略设计的一种测温装置示意图，玻璃管的上端与导热良好的玻璃泡连\n通，下端插入水中，玻璃泡中封闭有一定量的空气。若玻璃管内水柱上升，则外界大\n气的变化可能是（     ）\n（A）温度降低，压强增大\n（B）温度升高，压强不变\n（C）温度升高，压强减小\n（D）温度不变，压强减小",
+      "answer": "暂无结构化答案",
+      "analysis": "设玻璃泡中气体压强为p，外界大气压强为p′，则p′ = p + ρgh，且玻璃泡中\n气体与外界大气温度相同．液柱上升，气体体积减小，根据理想气体的状态方程pV\nT = C 可知，p\nT变大，即\np′\nT变大，BCD 均不符合要求，A 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q04",
+      "content": "质量为m 的人站在质量为2m 的平板小车上，以共同的速度在水平地面上沿直线前行，车所受地面阻\n力的大小与车对地面压力的大小成正比。当车速为v0 时，人从车上以相对于地面大小为v0 的速度水平向\n后跳下。跳离瞬间地面阻力的冲量忽略不计，则能正确表示车运动的v－t 图象为（    ）\nx\nO\nt\nA\nx\nt\nB\nx\nt\nC\nt\nD\nx\nO\nu\nR\nS\nr\n外界\n空气\n玻璃泡\n玻璃管\n水\n第2页（共6页）",
+      "answer": "暂无结构化答案",
+      "analysis": "人跳车前，人和车以大于v0 的初速度做匀减速直线运动，加速度大小为a = μ×3mg\n3m = μg；人跳车\n瞬间，人和车组成的系统动量守恒，规定初速度方向为正方向，则3mv0 = －mv0 + 2mv，得v = 2v0，此后\n车做减速运动的加速度a′ = μ×2mg\n2m = μg = a，B 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q004-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q05",
+      "content": "冥王星与其附近的另一星体卡戎可视为双星系统，质量比约为7∶1，同时绕它们连线上某点O 做匀\n速圆周运动。由此可知，冥王星绕O 点运动的（    ）\n（A）轨道半径约为卡戎的1\n7\n（B）角速度大小约为卡戎的1\n7\n（C）线速度大小约为卡戎的7 倍\n（D）向心力大小约为卡戎的7 倍",
+      "answer": "暂无结构化答案",
+      "analysis": "双星系统内的两颗星运动的角速度相同，B 错误；双星的向心力为二者间的万有引力，所以向心\n力大小也相同，D 错误；根据m1ω2r1 = m2ω2r2，得r1\nr2 = m2\nm1 = 1\n7，A 正确；根据v = ωr，得v1\nv2 = r1\nr2 = 1\n7，C\n错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q06",
+      "content": "以下是物理学史上3 个著名的核反应方程：x + 73Li→ 2y，y + 147N→ x + 178O，y + 94Be→ z + 126C，x、y\n和z 是3 种不同的粒子，其中z 是（    ）\n（A）α 粒子\n（B）质子\n（C）中子\n（D）电子",
+      "answer": "暂无结构化答案",
+      "analysis": "将上述三个方程相加，整理后得37Li + 714N + 49Be→ 817O + 612C + z，根据电荷数守恒和质量数守\n恒，z 的质量数为1，电荷数为0，为中子，C 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q07",
+      "content": "空间中P、Q 两点处各固定一个点电荷，其中P 点处为正电荷，P、\nQ 两点附近电场的等势面分布如图所示，a、b、c、d 为电场中的4 个点，\n则（      ）\n（A）P、Q 两点处的电荷等量同种\n（B）a 点和b 点的电场强度相同\n（C）c 点的电势低于d 点的电势\n（D）负电荷从a 到c，电势能减少",
+      "answer": "暂无结构化答案",
+      "analysis": "由图中等势面的对称性知，P、Q 两处为等量异种电荷，A 错误；由于电场线与等势面垂直，所以\nab 两处的电场强度方向不同，B 错误；P 处为正电荷，c 在离P 更近的等势面上，c 点的电势高于d 点的\n电势，C 错误；从a 到c，电势升高，负电荷电势能减少，D 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q08",
+      "content": "如图所示，正方形区域MNPQ 内有垂直纸面向里的匀强磁场。在外力作用\n下，一正方形闭合刚性导线框沿QN 方向匀速运动，t = 0 时刻，其四个顶点M′、\nN′、P′、Q′恰好在磁场边界中点。下列图象中能反映线框所受安培力f 的大小随\n时间t 变化规律的是（      ）\nO\nt\nB\n2v0\nv0\nv\nO\nt\nC\nv0\nv\nO\nt\nD\nv0\nv\n0.5v0\nO\nt\nA\nv\n1.5v0\nv0\nd\nc\na\nb\nQ\nP\nN\nM\nMʹ\nQʹ\nQ\nNʹ\nPʹ\nP\nv\n第3页（共6页）",
+      "answer": "暂无结构化答案",
+      "analysis": "第一段时间从初位置到M′N′离开磁场，图甲表示该过程的任意一个位置，切割磁感线的有效长度\n为M1A 与N1B 之和，即为M1M′长度的2 倍，此时电动势E = 2Bvtv，线框受的安培力f = 2BIvt = 4B2v3t2\nR\n，\n图象是开口向上的抛物线，CD 错误；如图乙所示，线框的右端M2N2 刚好出磁场时，左端Q2P2 恰与MP 共\n线，此后一段时间内有效长度不变，一直到线框的左端与M′N′重合，这段时间内电流不变，安培力大小不\n变；最后一段时间如图丙所示，从匀速运动至M2N2 开始计时，有效长度为A′C′ = l－2vt′，电动势E′ = B（l\n－2vt′）v，线框受的安培力F′ = B2l－2vt′2v\nR\n，图象是开口向上的抛物线，A 错误，B 正确\n第二部分（非选择题共174 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q008-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q008-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q008-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q008-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q09",
+      "content": "（19 分）\n（1）如图所示为光学实验用的长方体玻璃砖，它的________面不能用手直接接触。\n在用插针法测定玻璃砖折射率的实验中，两位同学绘出的玻璃砖和三个针孔 a、\nb、c 的位置相同，且插在 c 位置的针正好挡住插在 a、b 位置的针的像，但最\n后一个针孔的位置不同，分别为 d、e 两点，如图所示，计算折射率时，用________\n（填“d”或“e”）得到的值较小，用________（填“d”或“e”）点得到的值误\n差较小。\n（2）某中学生课外科技活动小组利用铜片、锌片和家乡盛产的\n柑橘制作了果汁电池，他们测量这种电池的电动势E 和内阻r，\n并探究电极间距对E 和r 的影响，实验器材如图所示。\n①测量E 和r 的实验方案为：调节滑动变阻器，改变电源两端\n的电压U 和流过电源的电流I，依据公式______，利用测量数据\n作出U－I 图象，得出E 和r。\n②将电压表视为理想表，要求避免电流表分压作用对测量结果\n的影响，请在图中用笔画线代替导线连接电路。\nO\nt\nA\nf\nO\nt\nB\nf\nO\nt\nC\nf\nO\nt\nD\nf\nN\nM\nQ\nM’\nQ’\nN’\nP’\nP\nv\nM1\nQ1\nN1\nP1\nA\nB\nN\nM\nQ\nM’\nQ’\nN’\nP’\nP\nv\nM1\nQ1\nN1\nP1\nA\nM2\nQ2\nN2\nP2\n光学面\n磨砂面\nV\n+\nA\n+\n果汁\n铜片\n（正极）\n锌片\n（负极）\nC/\nN\nM\nQ\nM’\nQ’\nN’\nP’\nP\nv\nA/\nM3\nQ3\nN3\nP3\nb\na\ne\n玻璃砖\nd\nc\n第4页（共6页）\n③实验中依次减小铜片与锌片的间距，分别得到相\n应果汁电池的U－I 图象如图中（a）（b）（c）（d）所\n示，由此可知：\n在该实验中，随电极间距的减小，电源电动势\n________（填“增大”、“减小”或“不变”），电源内\n阻________（填“增大”、“减小”或“不变”）。曲线\n（c）对应的电源电动势E = __________V，内阻r =\n________Ω，当外电路总电阻为2500 Ω 时，该电源\n的输出功率P = ________mW。（均保留三位有效数\n字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）玻璃砖的光学面不能用手直接接触，接\n触面的污渍会影响接触面的平整，进而影响折射率的测定。连接dc、\nec 并延长至玻璃砖的光学面与白纸的交线，交点为出射点，入射点\n与出射点的连线即为折射光线，入射角一定，用d 点时，折射角大，\n折射率小；对于两光学面平行的玻璃砖，入射光线和出射光线平行，\nec 连线与入射光线平行，误差小。\n（2）①根据闭合电路的欧姆定律，U = E－Ir。\n②如图所示。\n③图线与纵轴的交点的纵坐标即为电动势，交点纵坐标不变，所以\n电动势不变，为0.975 V；图线斜率的绝对值即为内阻，斜率的绝对值变大，内阻变大．（c）对应图线斜率\n绝对值约为478（从线上选取两点即可求斜率），电源的输出功率P = ( E\nR+r )2R = (\n0.975\n2500+478 )2×2500 W =\n0.268 mW。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p004-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q10",
+      "content": "（16 分）如图所示为一种摆式摩擦因数测量仪，可测量轮胎与地面\n间动摩擦因数，其主要部件有：底部固定有轮胎橡胶片的摆锤和连接摆\n锤的轻质细杆。摆锤的质量为m，细杆可绕轴O 在竖直平面内自由转\n动，摆锤重心到O 点距离为L。测量时，测量仪固定于水平地面，将摆\n锤从与O 等高的位置处静止释放。摆锤到最低点附近时，橡胶片紧压地\n面擦过一小段距离s（s＜L），之后继续摆至与竖直方向成θ 角的最高位\n置。若摆锤对地面的压力可视为大小为F 的恒力，重力加速度为g，求：\n（1）摆锤在上述过程中损失的机械能；\n（2）在上述过程中摩擦力对摆锤所做的功；\n（3）橡胶片与地面之间的动摩擦因数。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）机械能的损失：\n1\n2\nE\nE\nE\n\n=\n−\n损失的机械能：\n1\n2\n(1 cos )\ncos\nE\nE\nE\nmgL\nmgL\nmgL\n\n\n\n=\n−\n=\n−\n−\n=\n（2）由动能定理得：\ncos\n0\nf\nmgL\nW\n+\n=\n摩擦力对摆锤所做的功\ncos\nf\nW\nmgL\n\n= −\n（3）由于\nf\nW\nFs\n\n= −\nI/mA\nU/V\n0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0\n0.50\n0.55\n0.60\n0.65\n0.70\n0.75\n0.80\n0.85\n0.90\n0.95\n0\n1.00\n(a)\n(b)\n(c)\n(d)\nL\n橡胶片\n摆锤\nm\n支架\n刻度盘\nO\nθ\n固定底座\ns\nV\n+\nA\n+\n果汁\n铜片\n（正极）\n锌片\n（负极）\n第5页（共6页）\n橡胶片与地面之间的动摩擦因数：\ncos\nmgL\nFs\n\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q11",
+      "content": "（18 分）有人设计了一种带电颗粒的速率分选装置，其原理\n如图所示，两带电金属板间有匀强电场，方向竖直向上，其中\nPQNM 矩形区域内还有方向垂直纸面向外的匀强磁场。一束比荷\n（电荷量与质量之比）均为1\nk的带正电颗粒，以不同的速率沿着磁\n场区域的水平中心线为O′O 进入两金属板之间，其中速率为v0 的\n颗粒刚好从Q 点处离开磁场，然后做匀速直线运动到达收集板。\n重力加速度为g，PQ = 3d，NQ = 2d，收集板与NQ 的距离为l，不\n计颗粒间相互作用。求：\n（1）电场强度E 的大小；\n（2）磁感应强度B 的大小；\n（3）速率为λv0（λ＞1）的颗粒打在收集板上的位置到O 点的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设带电颗粒的电荷量为q，质量为m.有\nEq = mg\n将q\nm = 1\nk代入，得E = kg\n（2）如图，有\nqv0B = mv02\nR\nR2 = （3d）2 + （R－d）2\n得B = kv0\n5d\n（3）如图所示，有\nqλv0B = mλv02\nR1\ntanθ =\n3d\nR12－3d2\ny1 = R1－R12－3d2\ny2 = ltanθ\ny = y1 + y2\n得y = d（5λ－\n25λ2－9） +\n3l\n25λ2－9",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q011-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q011-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q011-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012重庆理综.pdf#q12",
+      "content": "（19 分）某校举行托乒乓球跑步比赛，赛道为水平直道，比赛距离为\ns。比赛时．某同学将球置于球拍中心，以大小为a 的加速度从静止开始做\n匀加速直线运动，当速度达到v0 时，再以v0 做匀速直线运动跑至终点。整\n个过程中球一直保持在球拍中心不动。比赛中，该同学在匀速直线运动阶段\n保持球拍的倾角为θ0，如图所示，设球在运动中受到的空气阻力大小与其速\n度大小成正比，方向与运动方向相反，不计球与球拍之间的摩擦，球的质量\n为m，重力加速度为g。\n（1）求空气阻力大小与球速大小的比例系数k；\n（2）求在加速跑阶段球拍倾角θ 随速度v 变化的关系式；\n（3）整个匀速跑阶段，若该同学速度仍为v0，而球拍的倾角比θ0 大了β 并保持不变，不计球在球拍上的\nO’\n金属极板\n+ + + + + +\n- - - -\n- -\n+ +\n- -\n M\n N\nQ\nP\n2d\n3d\n金属极板\n带电\n颗粒\n发射源\nl\n收\n集\n板\nO\nr\nv0\nθ0\n乒乓球\n球拍\nO/\n+ + + + + +\n- - - -\n- -\n+ +\n- -\n M\n N\nQ\nP\n3d\nO\nO//\nR-d\nR\nO/\n+ + + + + +\n- - - -\n- -\n+ +\n- -\n M\n N\nQ\nP\n3d\nO\nθ\nR\ny1\ny2\nθ\n第6页（共6页）\n移动引起的空气阻力变化，为保证到达终点前球不从球拍上距离中心为r 的下边沿掉落，求β 应满足的条\n件。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）在匀速运动阶段，有mgtanθ0 = kv0\n得k = mgtanθ0\nv0\n（2）加速阶段，设球拍对球的支持力为N′，有\nN′sinθ－kv = ma\nN′cosθ = mg\n得tanθ = a\ng + v\nv0tanθ0\n（3）以速度v0 匀速运动时，设空气阻力与重力的合力为F，有F = mg\ncosθ0\n球拍倾角为θ0 + β 时，空气阻力与重力的合力不变，设球沿球拍面下滑的加速度大小为a′，有\nFsinβ = ma′\n设匀速跑阶段所用时间为t，有\nt = s\nv0 − v0\n2a\n球不从球拍上掉落的条件 1\n2a′t2≤r\n得 sinβ≤\n2rcosθ0\ng（s\nv0 − v0\n2a）2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012重庆理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5d2c277decf6e551-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 24,
+    "answerGraphics": 0,
+    "assigned": 24,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2008/2008福建理.pdf",
   "name": "2008福建理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q01",
       "content": "若复数(a2 −3a + 2) + (a −1)i 是纯虚数, 则实数a 的值为\n(\n)\n(A) 1\n(B) 2\n(C) 1 或2\n(D) −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q02",
       "content": "设集合A =\n{\nx\n����\nx\nx −1 < 0\n}\n, B = {x | 0 < x < 3}, 那么“m ∈A”是\n“m ∈B”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q03",
       "content": "设{an} 是公比为正数的等比数列, 若a1 = 7, a5 = 16, 则数列{an} 前7\n项的和为\n(\n)\n(A) 63\n(B) 64\n(C) 127\n(D) 128",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q04",
       "content": "函数f(x) = x3 + sin x + 1 (x ∈R), 若f(a) = 2, 则f(−a) 的值为\n(\n)\n(A) 3\n(B) 0\n(C) −1\n(D) −2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q05",
       "content": "某一批花生种子, 如果每1 粒发牙的概率为4\n5, 那么播下4 粒种子恰有2\n粒发芽的概率是\n(\n)\n(A) 16\n625\n(B) 96\n625\n(C) 192\n625\n(D) 256\n625",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q06",
       "content": "如图, 在长方体ABCD−A1B1C1D1 中, AB = BC = 2, AA1 = 1, 则BC1\n与平面BB1D1D 所成角的正弦值为\n(\n)\nA\nB\nC\nD\nA1\nB1\nC1\nD1\n(A)\n√\n6\n3\n(B) 2\n√\n6\n5\n(C)\n√\n15\n5\n(D)\n√\n10\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -148,22 +197,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q006-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q006-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q07",
       "content": "某班级要从4 名男生、2 名女生中选派4 人参加某次社区服务, 如果要求\n至少有1 名女生, 那么不同的选派方案种数为\n(\n)\n(A) 14\n(B) 24\n(C) 28\n(D) 48",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -171,22 +231,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q08",
       "content": "若实数x、y 满足\n{\nx −y + 1 ⩽0,\nx > 0,\n则y\nx 的取值范围是\n(\n)\n(A) (0, 1)\n(B) (0, 1]\n(C) (1, +∞)\n(D) [1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -194,22 +260,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q09",
       "content": "函数f(x) = cos x (x ∈R) 的图象按向量(m, 0) 平移后, 得到函数\ny = −f ′(x) 的图象, 则m 的值可以为\n(\n)\n(A) π\n2\n(B) π\n(C) −π\n(D) −π\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -217,22 +289,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q10",
       "content": "在△ABC 中, 角A、B、C 的对边分别为a、b、c. 若(a2 +c2 −b2) tan B =\n√\n3ac, 则角B 的值为\n(\n)\n(A) π\n6\n(B) π\n3\n(C) π\n6 或5π\n6\n(D) π\n3 或2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -240,22 +318,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q11",
       "content": "双曲线x2\na2 = y2\nb2 = 1 (a > 0, b > 0) 的两个焦点为F1、F2, 若P 为其上一\n点, 且|PF1| = 2|PF2|, 则双曲线离心率的取值范围为\n(\n)\n(A) (1, 3)\n(B) (1, 3]\n(C) (3, +∞)\n(D) [3, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -263,22 +347,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q12",
       "content": "已知函数y = f(x), y = g(x) 的导函数的图象如下图, 那么y = f(x),\ny = g(x) 的图象可能是\n(\n)\nx0\ny = f ′(x)\ny = g′(x)\nx\ny\nO\n(A)\nx0\ny = f(x)\ny = g(x)\nx\ny\nO\n(B)\nx0\ny = f(x)\ny = g(x)\nx\ny\nO\n(C)\nx0\ny = g(x)\ny = f(x)\nx\ny\nO\n(D)\nx0\ny = g(x)\ny = f(x)\nx\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -286,22 +376,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q13",
       "content": "若(x −2)5 = a5x5 + a4x4 + a3x3 + a2x2 + a1x + a0, 则a1 + a2 + a3 + a4 +\na5 =\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -309,22 +409,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q14",
       "content": "若直线3x + 4y + m = 0 与圆\n{\nx = 1 + cos θ,\ny = −2 + sin θ,\n(θ 为参数) 没有公共点,\n则实数m 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -332,22 +438,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q15",
       "content": "若三棱锥的三个侧面两两垂直, 且侧棱长均为\n√\n3, 则其外接球的表面积\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -355,22 +467,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q16",
       "content": "设P 是一个数集, 且至少含有两个数, 若对任意a、b ∈P, 都有a+b、a−b、\nab、a\nb ∈P (除数b̸ = 0), 则称P 是一个数域. 例如有理数集Q 是数域; 数\n集F =\n{\na + b\n√\n2 | a, b ∈Q\n}\n也是数域. 有下列命题: ①整数集是数域;\n②若有理数集Q ⊆M, 则数集M 必为数域; ③数域必为无限集; ④存在\n无穷多个数域. 其中正确的命题的序号是\n. (把你认为正确的命题的\n序号填填上)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -378,22 +496,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q17",
       "content": "已知向量m = (sin A, cos A), n = (\n√\n3, −1), m · n = 1, 且A 为锐角.\n(1) 求角A 的大小;\n(2) 求函数f(x) = cos 2x + 4 cos A sin x (x ∈R) 的值域.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -401,22 +525,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q18",
       "content": "如图, 在四棱锥P −ABCD 中, 侧面PAD ⊥底面ABCD, 侧棱PA =\nPD =\n√\n2, 底面ABCD 为直角梯形, 其中BC\nAD, AB ⊥AD,\nAD = 2AB = 2BC = 2, O 为AD 中点.\n(1) 求证: PO ⊥平面ABCD;\n(2) 求异面直线PD 与CD 所成角的大小;\n(3) 线段AD 上是否存在点Q, 使得它到平面PCD 的距离为\n√\n3\n2 ? 若存\n在, 求出AQ\nQD 的值; 若不存在, 请说明理由.\nA\nB\nC\nD\nO\nP\n441",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -424,22 +554,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q018-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q018-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q19",
       "content": "已知函数f(x) = 1\n3x3 + x2 −2.\n(1) 设{an} 是正数组成的数列, 前n 项和为Sn, 其中a1 = 3.\n若点\n(an, a2\nn+1 −2an+1) (n ∈N∗) 在函数y = f ′(x) 的图象上, 求证: 点(n, Sn)\n也在y = f ′(x) 的图象上;\n(2) 求函数f(x) 在区间(a −1, a) 内的极值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -447,22 +589,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q20",
       "content": "某项考试按科目A、科目B 依次进行, 只有当科目A 成绩合格时, 才可继\n续参加科目B 的考试. 已知每个科目只允许有一次补考机会, 两个科目成\n绩均合格方可获得证书. 现某人参加这项考试, 科目A 每次考试成绩合格\n的概率均为2\n3, 科目B 每次考试成绩合格的概率均为1\n2. 假设各次考试成\n绩合格与否均互不影响.\n(1) 求他不需要补考就可获得证书的概率;\n(2) 在这项考试过程中, 假设他不放弃所有的考试机会, 记他参加考试的次\n数为ξ, 求ξ 的数学期望Eξ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -470,22 +618,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q21",
       "content": "如图, 椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的一个焦点是F(1, 0), O 为坐标原点.\n(1) 已知椭圆短轴的两个三等分点与一个焦点构成正三角形, 求椭圆的方\n程;\n(2) 设过点F 的直线l 交椭圆于A、B 两点. 若直线l 绕点F 任意转动,\n值有|OA|2 + |OB|2 < |AB|2, 求a 的取值范围.\nx\ny\nO\nF\nl\nA\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -493,22 +647,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008福建理.pdf#q22",
       "content": "已知函数f(x) = ln(1 + x) −x.\n(1) 求f(x) 的单调区间;\n(2) 记f(x) 在区间[0, π] (n ∈N∗) 上的最小值为bn, 令an = ln(1+n)−bn.\n①如果对一切n, 不等式√an < √an+2 −\nc\n√an+2\n恒成立, 求实数c 的\n取值范围;\n②求证: a1\na2\n+ a1a3\na2a4\n+ · · · + a1a3 · · · a2n−1\na2a4 · · · a2n\n< √2an + 1 −1.\n442",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -516,11 +680,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0589bbf38a89a3a-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

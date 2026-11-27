@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1979/1979文.pdf",
   "name": "1979文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 8,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 8,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q01",
       "content": "求函数y = 2x2 −x + 1 的极小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q02",
       "content": "化简:\n[(\n1 + sin2 θ\n)2 −cos4 θ\n] [\n(1 + cos2 θ)\n2 −sin4 θ\n]\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q03",
       "content": "甲, 乙二容器内都盛有酒精, 甲有V1 公斤, 乙有V2 公斤. 甲中纯酒精与水\n(重量) 之比为m1 : n1, 乙中纯酒精与水之比为m2 : n2. 问将二者混合后\n所得液体中纯酒精与水之比是多少?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q04",
       "content": "叙述并证明勾股定理.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -102,22 +131,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2cc74c65f5368dfc-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2cc74c65f5368dfc-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q05",
       "content": "外国船只除特许外不得进入离我海岸线D 里以内的区域. 设A 及B 是我\n们的观测站, A 及B 间的距离为S 里, 海岸线是过A, B 的直线, 一外国\n船在P 点, 在A 站测得∠BAP = α, 同时在B 站测得∠BAP = β. 问α\n及β 满足什么简单的三角函数值不等式, 就应当向此未经特许的外国船发\n出警告, 命令退出我海域?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -125,22 +165,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q06",
       "content": "美国的物价从1939 年的100 增加到四〸年后1979 年的500 , 如果每年物\n价增长率相同, 问每年增长百分之几?\n(注意: x < 0.1, 可用: ln(1 + x) ≈x, 取lg 2 = 0.3, ln 10 = 2.3)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -148,22 +194,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q07",
       "content": "设CEDF 是一个已知圆的内接矩形, 过D 作该圆的切线与CE 的延长线\n相交于点A, 与CF 的延长线相交于点B. 求证: BF\nAE = BC3\nAC3 .\nA\nB\nC\nD\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -171,22 +223,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2cc74c65f5368dfc-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2cc74c65f5368dfc-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1979/1979文.pdf#q08",
       "content": "过原点O 作圆x2 + y2 −2x −4y + 4 = 0 的任意割线交圆于P1, P2 两点,\n求P1P2 的中点P 的轨迹.\n14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1979,
       "subject": "数学",
@@ -194,11 +256,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1979/1979文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

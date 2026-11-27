@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2006/2006上海文.pdf",
   "name": "2006上海文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q01",
       "content": "已知集合A = {−1, 3, m}, 集合B = {3, 4}.\n若B ⊆A, 则实数\nm =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q02",
       "content": "已知两条直线l1: ax + 3y −3 = 0, l2: 4x + 6y −1 = 0. 若l1\nl2, 则\na =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q03",
       "content": "若函数f(x) = ax (a > 0, 且a̸ = 1) 的反函数的图象过点(2, −1), 则\na =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q04",
       "content": "计算: lim\nn→∞\nn(n2 + 1)\n6n3 + 1\n=\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q05",
       "content": "若复数z = (m −2) + (m + 1)i 为纯虚数(i 为虚数单位), 其中m ∈R, 则\n|z| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q06",
       "content": "函数y = sin x cos x 的最小正周期是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q07",
       "content": "已知双曲线的中心在原点, 一个顶点的坐标是(3, 0), 且焦距与虚轴长之比\n为5 : 4, 则双曲线的标准方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q08",
       "content": "方程log3(x2 −10) = 1 + log3 x 的解是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q09",
       "content": "已知实数x、y 满足\n\n\n\n\n\n\n\n\n\n\n\n\n\nx + y −3 ⩾0,\nx + 2y −5 ⩽0,\nx ⩾0,\ny ⩾0,\n则y −2x 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q10",
       "content": "在一个小组中有8 名女同学和4 名男同学, 从中任意地挑选2 名同学担任\n交通安全宣传志愿者, 那么选到的两名都是女同学的概率是\n. (结果\n用分数表示)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q11",
       "content": "若曲线|y| = 2x + 1 与直线y = b 没有公共点, 则b 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q12",
       "content": "如图, 平面中两条直线l1 和l2 相交于点O. 对于平面上任意一点M, 若p、\nq 分别是M 到直线l1 和l2 的距离, 则称有序非负实数对(p, q) 是点M\n的“距离坐标”. 根据上述定义, “距离坐标”是(1, 2) 的点的个数是\n.\nO\nl2\nl1\nM(p, q)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -286,22 +363,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q13",
       "content": "如图, 在平行四边形ABCD 中, 下列结论中错误的是\n(\n)\nC\nB\nA\nD\n(A) #   »\nAB = #    »\nDC\n(B) #    »\nAD + #   »\nAB = #   »\nAC\n(C) #   »\nAB −#    »\nAD = #    »\nBD\n(D) #    »\nAD + #    »\nCB = #»0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -309,22 +396,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q14",
       "content": "如果a < 0, b > 0, 那么, 下列不等式中正确的是\n(\n)\n(A) 1\na < 1\nb\n(B) √−a <\n√\nb\n(C) a2 < b2\n(D) |a| > |b|",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -332,22 +429,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q15",
       "content": "若空间中有两条直线, 则“这两条直线为异面直线”是“这两条直线没有公共\n点”的\n(\n)\n(A) 充分非必要条件\n(B) 必要非充分条件\n(C) 充分必要条件\n(D) 既非充分又非必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q16",
       "content": "如果一条直线与一个平面垂直, 那么, 称此直线与平面构成一个“正交线面\n对”. 在一个正方体中, 由两个顶点确定的直线与含有四个顶点的平面构成\n的“正交线面对”的个数是\n(\n)\n(A) 48\n(B) 18\n(C) 24\n(D) 36",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -378,22 +487,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q17",
       "content": "已知α 是第一象限的角, 且cos α = 5\n13, 求\nsin\n(\nα + π\n4\n)\ncos(2α + 4π) 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -401,22 +516,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q18",
       "content": "如图, 当甲船位于A 处时获悉, 在其正东方向相距20 海里的B 处有一艘\n渔船遇险等待营救. 甲船立即前往救援, 同时把消息告知在甲船的南偏西\n30◦, 相距10 海里C 处的乙船, 试问乙船应朝北偏东多少度的方向沿直线\n前往B 处救援? (角度精确到1◦)\nC\n30◦\n10\nB\n20\nA\n北\n•\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -424,22 +545,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q19",
       "content": "在直三棱柱ABC −A1B1C1 中, ∠ABC = 90◦, AB = BC = 1.\n(1) 求异面直线B1C1 与AC 所成角的大小;\n(2) 若A1C 与平面ABC 所成角为45◦, 求三棱锥A1 −ABC 的体积.\nC\nB\nA\nC1\nB1\nA1\n330",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -447,22 +579,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-eda49ca19ef3ba86-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q20",
       "content": "设数列{an} 的前n 项和为Sn, 且对任意正整数n, an + Sn = 4096.\n(1) 求数列{an} 的通项公式;\n(2) 设数列{log2an} 的前n 项和为Tn, 对数列{Tn}, 从第几项起\nTn < −509?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -470,22 +612,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q21",
       "content": "已知在平面直角坐标系xOy 中的一个椭圆, 它的中心在原点, 左焦点为\nF(−\n√\n3, 0), 且右顶点为D(2, 0), 设点A 的坐标是\n(\n1, 1\n2\n)\n.\n(1) 求该椭圆的标准方程;\n(2) 若P 是椭圆上的动点, 求线段PA 中点M 的轨迹方程;\n(3) 过原点O 的直线交椭圆于点B、C, 求△ABC 面积的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -493,22 +641,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006上海文.pdf#q22",
       "content": "已知函数y = x + a\nx 有如下性质: 如果常数a > 0, 那么该函数在(0, √a]\n上是减函数, 在[√a, +∞) 上是增函数.\n(1) 如果函数y = x + 2b\nx (x > 0) 在(0, 4] 上是减函数, 在[4, +∞) 上是增\n函数, 求b 的值;\n(2) 设常数c ∈[1, 4], 求函数f(x) = x + c\nx (1 ⩽x ⩽2) 的最大值和最小值;\n(3) 当n 是正整数时, 研究函数g(x) = xn + c\nxn (c > 0) 的单调性, 并说明\n理由.\n331",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -516,11 +670,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006上海文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

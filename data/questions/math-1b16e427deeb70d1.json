@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2008/2008北京理.pdf",
   "name": "2008北京理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q01",
       "content": "已知全集U = R, 集合A = {x | −2 ⩽x ⩽3}, B = {x|x < −1 或x > 4},\n那么集合A ∩\n(\n∁UB\n)\n等于\n(\n)\n(A) {x | −2 ⩽x < 4}\n(B) {x | x ⩽3 或x ⩾4}\n(C) {x | −2 ⩽x < −1}\n(D) {x | −1 ⩽x ⩽3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q02",
       "content": "若a = 20.5, b = logπ3, c = log2 sin 2π\n5 , 则\n(\n)\n(A) a > b > c\n(B) b > a > c\n(C) c > a > b\n(D) b > c > a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q03",
       "content": "“函数f(x) (x ∈R) 存在反函数”是“函数f(x) 在R 上为增函数”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q04",
       "content": "若点P 到直线x = −1 的距离比它到点(2, 0) 的距离小1, 则点P 的轨迹\n为\n(\n)\n(A) 圆\n(B) 椭圆\n(C) 双曲线\n(D) 抛物线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q05",
       "content": "若实数x, y 满足\n\n\n\n\n\n\n\nx −y + 1 ⩾0,\nx + y ⩾0,\nx ⩽0,\n则z = 3x+2y 的最小值是\n(\n)\n(A) 0\n(B) 1\n(C)\n√\n3\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q06",
       "content": "已知数列{an} 对任意的p, q ∈N∗满足ap+q = ap + aq, 且a2 = −6, 那么\na10 等于\n(\n)\n(A) −165\n(B) −33\n(C) −30\n(D) −21",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q07",
       "content": "过直线y = x 上的一点作圆(x −5)2 + (y −1)2 = 2 的两条切线l1, l2, 当\n直线l1, l2 关于y = x 对称时, 它们之间的夹角为\n(\n)\n(A) 30◦\n(B) 45◦\n(C) 60◦\n(D) 90◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q08",
       "content": "如图, 动点P 在正方体ABCD −A1B1C1D1 的对角线BD1 上. 过点P\n作垂直于平面BB1D1D 的直线, 与正方体表面相交于MN. 设BP = x,\nMN = y, 则函数y = f(x) 的图象大致是\n(\n)\nA\nB\nC\nP\nM\nN\nD\nA1\nB1\nC1\nD1\n(A)\nx\ny\nO\n(B)\nx\ny\nO\n(C)\nx\ny\nO\n(D)\nx\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -194,22 +251,36 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q09",
       "content": "已知(a −i)2 = 2i, 其中i 是虚数单位, 那么实数a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q10",
       "content": "已知向量a 与b 的夹角为120◦, 且|a| = |b| = 4, 那么b · (2a + b) 的值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q11",
       "content": "若\n(\nx2 + 1\nx3\n)n\n展开式的各项系数之和为32, 则n =\n, 其展开式中\n的常数项为\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q12",
       "content": "如图, 函数f(x) 的图象是折线段ABC, 其中A, B, C 的坐标分别为(0, 4),\n(2, 0), (6, 4), 则f(f(0)) =\n; lim\n∆x→0\nf(1 + ∆x) −f(1)\n∆x\n=\n. (用数\n字作答)\nC\nA\nB\nO\n1\n2\n3\n4\n5\n6\nx\n4\n1\n2\n3\ny",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q13",
       "content": "已知函数f(x) = x2 −cos x, 对于\n[\n−π\n2 , π\n2\n]\n上的任意x1, x2, 有如下条件:\n①x1 > x2; ②x2\n1 > x2\n2; ③|x1| > x2. 其中能使f(x1) > f(x2) 恒成立的条\n件序号是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q14",
       "content": "某校数学课外小组在坐标纸上, 为学校的一块空地设计植树方案如下: 第\nk 棵树种植在点Pk(xk, yk) 处, 其中x1 = 1, y1 = 1, 当k ⩾2 时,\n\n\n\n\n\n\n\nxk = xk−1 + 1 −5\n[\nT\n(k −1\n5\n)\n−T\n(k −2\n5\n)]\n,\nyk = yk−1 + T\n(k −1\n5\n)\n−T\n(k −2\n5\n)\n.\nT(a) 表示非负实数a 的\n整数部分, 例如T(2.6) = 2, T(0.2) = 0. 按此方案, 第6 棵树种植点的坐标\n应为\n; 第2008 棵树种植点的坐标应为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q15",
       "content": "已知函数f(x) = sin2ωx +\n√\n3 sin ωx sin\n(\nωx + π\n2\n)\n(ω > 0) 的最小正周期\n为π.\n(1) 求ω 的值;\n(2) 求函数f(x) 在区间\n[\n0, 2π\n3\n]\n上的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -355,22 +466,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q16",
       "content": "如图, 在三棱锥P −ABC 中, AC = BC = 2, ∠ACB = 90◦, AP = BP =\nAB, PC ⊥AC.\n(1) 求证: PC ⊥AB;\n(2) 求二面角B −AP −C 的大小;\n(3) 求点C 到平面APB 的距离.\nA\nB\nC\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -378,22 +495,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1b16e427deeb70d1-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q17",
       "content": "甲、乙等五名奥运志愿者被随机地分到A, B, C, D 四个不同的岗位服务,\n每个岗位至少有一名志愿者.\n(1) 求甲、乙两人同时参加A 岗位服务的概率;\n(2) 求甲、乙两人不在同一个岗位服务的概率;\n(3) 设随机变量ξ 为这五名志愿者中参加A 岗位服务的人数, 求ξ 的分布\n列.\n425",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -401,22 +528,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q18",
       "content": "已知函数f(x) = 2x −b\n(x −1)2 , 求导函数f ′(x), 并确定f(x) 的单调区间.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -424,22 +557,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q19",
       "content": "已知菱形ABCD 的顶点A, C 在椭圆x2 + 3y2 = 4 上, 对角线BD 所在\n直线的斜率为1.\n(1) 当直线BD 过点(0, 1) 时, 求直线AC 的方程;\n(2) 当∠ABC = 60◦时, 求菱形ABCD 面积的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -447,22 +586,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008北京理.pdf#q20",
       "content": "对于每项均是正整数的数列A: a1, a2, · · · , an, 定义变换T1, T1 将数\n列A 变换成数列T1(A):\nn, a1 −1, a2 −1, · · · , an −1.\n对于每项\n均是非负整数的数列B:\nb1, b2, · · · , bm, 定义变换T2, T2 将数列B\n各项从大到小排列, 然后去掉所有为零的项, 得到数列T2(B); 又定义\nS(B) = 2(b1 + 2b2 + · · · + mbm) + b2\n1 + b2\n2 + · · · + b2\nm. 设A0 是每项均\n为正整数的有穷数列, 令Ak+1 = T2(T1(Ak)) (k = 0, 1, 2, · · · ).\n(1) 如果数列A0 为5,3,2, 写出数列A1, A2;\n(2) 对于每项均是正整数的有穷数列A, 证明S(T1(A)) = S(A);\n(3) 证明: 对于任意给定的每项均为正整数的有穷数列A0, 存在正整数K,\n当k ⩾K 时, S(Ak+1) = S(Ak).\n426",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -470,11 +615,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
   "name": "2016浙江10月",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 17,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 13,
+    "sourceAnswers": 18,
+    "sourceAnalysis": 23,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q01",
-      "content": "答题时，请按照答题紙上“注意事項”的要求，在答題纸相应的位置上规范作答，在本试卷\n上的作答一律无效.",
+      "content": "答题时，请按照答题紙上“注意事項”的要求，在答題纸相应的位置上规范作答，在本试卷\n上的作答一律无效.\n3.非选择題的答案必须使用黑色字迹的签字笔或钢笔写在答题纸上相应区城内，作图时可先\n使用2B 铅笔，确定后必须使用黑色字迹的签字笔或钢笔描黑.\n4.可能用到的相关公式或参教：重力加速度g 均取10 m/s2.\n选择题部分",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q02",
-      "content": "非选择題的答案必须使用黑色字迹的签字笔或钢笔写在答题纸上相应区城内，作图时可先\n使用2B 铅笔，确定后必须使用黑色字迹的签字笔或钢笔描黑.",
+      "content": "下列物理量中属于标量的是（    ）\n（A）路程\n（B）位移\n（C）速度\n（D）加速度",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "位移、速度、加速度都为矢量，即有大小又有方向，路程只有大小，没有方向，是\n标量，故选项A 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q03",
-      "content": "可能用到的相关公式或参教：重力加速度g 均取10 m/s2.\n选择题部分",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "下列均属于国际基本单位的是（    ）\n（A）m，N，J\n（B）m，kg，J\n（C）m，kg，s\n（D）kg，m/s、N",
+      "answer": "C",
+      "analysis": "长度，质量，时间等为基本物理量，基本物理量的单位为基本单位，长度、质量、\n时间在国际单位制中的基本单位为米、千克、秒即m、kg、s，故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -79,22 +100,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q04",
-      "content": "下列物理量中属于标量的是（    ）\n（A）路程\n（B）位移\n（C）速度\n（D）加速度",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "中国女排在2016 年奥运会比赛中再度夺冠，因为比赛中精彩瞬间的照片，此\n时排球受到的力有（    ）\n（A）推力\n（B）重力、推力\n（C）重力、空气对球的作用力\n（D）重力、推力、空气对球的作用力",
+      "answer": "C",
+      "analysis": "排球此时在空中，与人体没有接触，故球收到重力、空气对球的作用力，\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -102,11 +132,640 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q05",
+      "content": "如图所示，无人机在空中匀速上升时，不断增加的能量是（    ）\n（A）动能\n（B）动能、重力势能\n（C）重力势能、机械能\n（D）动能、重力势能、机械能",
+      "answer": "暂无结构化答案",
+      "analysis": "匀速上升过程中，其所受合力为零，则合外力所做的功为0，推力对它做正功，则\n机械能增加，重力做负功，重力势能将会增加，故选项C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q005-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q06",
+      "content": "在G20 峰会“最忆是杭州”的文化文艺演出中，芭蕾舞演员保持如图所示姿势\n原地旋转，此时手臂上A、B 两点角速度大小分别为ω1、ω2，线速度大小分别为\nvA、vB，则（    ）\n（A）ω1＜ω2\n（B）ω1＞ω2\n（C）vA＜vB\n（D）vA＞vB",
+      "answer": "D",
+      "analysis": "可以把A、B 两点看成是同轴转动的两个质点，则ω1 = ω2，由v\n= ωr 得，vA＞vB故选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q07",
+      "content": "某探险者在野外攀岩时，踩落一小石块，约5 s 后听到石头直接落到崖底的声音，探险者\n离崖底的高度最接近的是（    ）\n（A）25 m\n（B）50 m\n（C）110 m\n（D）150 m",
+      "answer": "D",
+      "analysis": "由于声音在空气中传播的速度比自由落体下落5 s 的速度大的多，可以忽略声音在\n空气中的传播时间，由自由落体规律\n2\n2\n1\n1 10 5\n125\n2\n2\nh\ngt\nm\n=\n=\n\n\n=\n则选（C）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q08",
+      "content": "一水平固定的水管，水从管口以不变的速度源源不断地喷出，水管距地面高h = 1.8m，\n水落地的位置到管口的水平距离x = 1.2 m，不计空气及摩擦阻力，水从管口喷出的初速度大\n小是（    ）\n（A）1.2 m/s\n（B）2.0 m/s\n（C）3.0 m/s\n（D）4.9 m/s",
+      "answer": "B",
+      "analysis": "设水从管口喷出的速度为v0，认为做了平抛运动，则由平抛运动规律有\n2\n0\n1\n,\n2\nx\nv t h\ngt\n=\n=\n，\n2\n2\n0\n10 1.2\n/\n2\n/\n2\n2 1.8\ngx\nv\nm s\nm s\nh\n\n=\n=\n=\n\n，故选B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q09",
+      "content": "如图为某一电场的电场线，M、N、P 为电场线上的三个点，M、N\n是同一电场线上两点，下列判断正确的是（    ）\n（A）M、N、P 三点中N 点的场强最大\n（B）M、N、P 三点中N 点的电势最高\n（C）负电荷在M 点的电势能大于在N 点的电势能\n（D）正电荷从M 点自由释放，电荷将沿电场线运动到N 点",
+      "answer": "暂无结构化答案",
+      "analysis": "电场线的疏密表示场强的强弱，由图可知N 处最密，则M、N、P 三点中N 点的场\n强最大，A 正确；顺着电场线电势要降落，M、N、P 三点中M 点的电势最高，B 错误；根\n据Ep = qφ 可知，负电荷在M 点的电势能小于在N 点的电势能，C 错误；正电荷从M 点自\n由释放后由于受到电场力作用，会做曲线运动，但不会沿着电场线运动，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q009-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q009-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q10",
+      "content": "—根细橡胶管中灌满盐水，两端用短粗铜丝塞住管口，管中盐水柱长为40 cm 时，测得电\n阻为R，若溶液的电阻随长度、横截面积的变化规律与金属导体相同。现将管中盐水柱均匀\n拉长至50 cm（盐水体积不变，仍充满橡胶管）。则盐水柱电阻为（    ）\n（A）4\n5 R\n（B）5\n4 R\n（C）16\n25 R\n（D）25\n16 R\nM\nN\nP",
+      "answer": "暂无结构化答案",
+      "analysis": "由电阻定律有\nl\nR\nS\n\n=\n，又V\nlS\n=\n，则\n2\nR\nl\n\n，\n2\n40\n(\n)\n50\nR\nR =\n\n，所以选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q11",
+      "content": "如图所示，把一根通电的硬直导线ab，用轻绳悬挂在通电螺线\n管正上方，直导线中的电流方向由a 向b。闭合开关S 瞬间，导线\na 端所受安培力的方向是（    ）\n（A）向上\n（B）向下\n（C）垂直纸面向外\n（D）垂直纸面向里",
+      "answer": "暂无结构化答案",
+      "analysis": "在a 端附近取一电流元如图所示，由左手定则可知，受到\n的安培力垂直直面向里，故选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q011-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q12",
+      "content": "如图为一种服务型机器人，其额定功率为48 W，额定工作电压为24 V，机\n器人的锂电池容量为20 A·h。则机器人（    ）\n（A）额定工作电流为20 A\n（B）充满电后最长工作时间为2 h\n（C）电池充满电后总电量为7.2×104 C\n（D）以额定电流工作时每秒消耗能量为20 J",
+      "answer": "C",
+      "analysis": "由P\nUI\n=\n得：\n48\n/\n2\n24\nI\nP U\nA\nA\n=\n=\n=\n，A 错误；Q\nIt\n=\n，\n/\n20/ 2\n10\nt\nQ I\nh\n=\n=\n=\n，\nB 错误；\n3\n4\n2 10 3.6 10\n7.2 10\nQ\nIt\nC\nC\n=\n=\n\n\n\n=\n\n，C 正确；以额定电流工作时每秒消耗能\n量\n24 2 1\n48\nE\nUIt\nJ\n=\n=\n=\n.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q012-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q13",
+      "content": "如图所示，“天宫二号”在距离地面393 km 的近圆轨道运行，已知万有引力常量G =\n6.67×10−11 N·m2/kg2，地球质量M = 6.0×1024 kg，地球半径R = 6.4×103 km。由以上数据可估\n算（    ）\n（A）“天宫二号”质量\n（B）“天宫二号”运行速度\n（C）“天宫二号”受到的向心力\n（D）地球对“天宫二号”的引力",
+      "answer": "B",
+      "analysis": "“天宫二号”是环绕天体，其质量是不可求的，A 错误；\n2\n2\nMm\nv\nG\nm\nr\nr\n=\n，又r\nR\nh\n=\n+\n可解得，运行速度，B 正确，由于天宫二号的质量未知，向心力和引力解不出来，C、D 错\n误。\nB\nI l\n",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q013-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q013-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q14",
+      "content": "如图所示质量为m、电荷量为q 的带电小球A 用绝缘细线悬挂于O 点，\n带有电荷量也为q 的小球B 固定在O 点正下方绝缘柱上。其中O 点与小球A\n的间距为l，O 点与小球B 的间距为3 l，当小球A 平衡时，悬线与竖直方向\n夹角θ = 30°，带电小球A、B 均可视为点电荷，静电力常量为k，则（    ）\n（A）A、B 间库仑力大小F = kq2\n2l2\n（B）A、B 间库仑力大小F =\n3\n3 mg\n（C）细线拉力大小FT = kq2\n3l2\n（D）细线拉力大小FT =\n3 mg",
+      "answer": "B",
+      "analysis": "A 的受力如图所示，几何三角形OAB 与力三角形相似，对于变\n成\n比\n例\n3\nT\nF\nl\nmg\nl\n=\n，\n则\n3\n3\nT\nmg\nF =\n，\n由\n余\n弦\n定\n律\n2\n2\n2\n( 3 )\n2 3 cos30\nAB\nl\nl\nl\nl\n=\n+\n−\n=\n，则\n2\n2\n3\n3\nT\nmg\nkq\nF\nF\nl\n=\n=\n=\n，故\nB 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q014-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q014-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q014-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q014-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q15",
+      "content": "【加试题】用a、b 两种不同波长的光，先后用同一装置做双缝干涉实验，得到两种干\n涉条纹，其中a 光的干涉条纹间距大于b 光的条纹间距，则（    ）\n（A）a 光的波长大于b 光的波长\n（B）a 光的频率大于b 光的频率\n（C）在玻璃中，a 光的速度等于b 光的速度\n（D）从玻璃射向空气发生全反射时，a 光的临界角大于b 光的临界角",
+      "answer": "AD",
+      "analysis": "根据\nL\nx\nd \n=\n得，\nd\nx L\n= \n，则a 光的波长大于b 光的波长，A 正确；由c\nf\n\n=\n知，波长越长，频率越小，B 错误；光的频率小，则折射率小，根据\nc\nn\nv\n=\n，可知在同种介\n质中，a 的速度大于b 的速度，C 错误；\n1\nsinC\nn\n=\n，a 的临界角大于b 的临界角，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q16",
+      "content": "【加试题】如图为氢原子能级图，氢原子中的电子从n = 5 能\n级跃迁到n = 2 能级可产生a 光；从n = 4 能级跃迁到n = 2 能级可\n产生b 光。a 光和b 光的波长分別为λa 和λb，照射到逸出功为2.29\neV 的金属钠表面均可产生光电效应，遏止电压分别为Ua 和Ub，\n则（    ）\n（A）λa＞λb\n（B）Ua＞Ub\n（C）a 光的光子能量为2.86eV\n（D）b 光产生的光电子最大初动能Ek = 0.26eV",
+      "answer": "BCD",
+      "analysis": "氢原子中的电子从\nn = 5\n跃迁到\nn = 2\n产生的\na\n光，\nA\nB\nO\nθ\n1\n− 13.6\n− 1.51\n− 0.85\n0\n− 3.40\n2\n3\n4\nn\nE/eV\n∞\n− 0.54\n5\n5\n2\n0.54\n( 3.40)\n2.86\nE\nE\nE\neV\n\n=\n−\n= −\n−−\n=\n，氢原子中的电子从n = 4 跃迁到n = 2 产生的\nb 光，\n4\n2\n0.85\n( 3.40)\n2.55\nE\nE\nE\neV\n\n=\n−\n= −\n−−\n=\n，能量能量越高频率越大，波长越小，则\na\nb\n\n\n\n，选项C 正确，A 错误；由光电效应方程\n2\n0\n1\n2\nc\ne\ne\neU\nm v\nh\nW\n\n=\n=\n−\n有频率越高的\nc\nU\n越大，即\na\nb\nU\nU\n\n，\n2\n0\n1\n2.55\n2.29\n0.26\n2\ne\ne\nm v\nh\nW\neV\neV\n\n=\n−\n=\n−\n=\n，则B、D 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q016-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q016-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q016-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q17",
+      "content": "【加试题】用中子（10n）轰击铀核（23592U）产生裂变反应，会产生钡核（14156Ba）\n和氪（9236Kr）并释放中子（10n），当达到某些条件时可发生链式反应，—个铀核（23592U）\n裂变时，释放的能量约为200 MeV（1eV = 1.6×10−19 J）。以下说法正确的是（    ）\n（A）23592U 的裂变方程为23592U→14156Ba＋9236Kr＋10n\n（B）23592U 的裂变方程为23592U＋10n→14156Ba＋9236Kr＋310n\n（C）23592U 发生链式反应的条件与铀块的体积有关\n（D）—个23592U 裂变时，质量亏损约为3.6×10−28 kg",
+      "answer": "BCD",
+      "analysis": "235\n92 U 的裂变方程为\n141\n235\n1\n92\n1\n56\n92\n0\n36\n0\n3\nU\nn\nBa\nKr\nn\n+\n⎯⎯→\n+\n+\n，故A 错B 对；当铀块体积\n大于临界体积时链式反应才会发生，C 正确；1 u = 1.66×10-27kg，又1u = 931.5MeV，则200\nMeV 相当于0.2147u，故质量亏损为1.66×10-27×0.2147 约为\n28\n3.6 10\nkg\n−\n\n，故D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q017-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q017-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q18",
+      "content": "（5 分）在“探究小车速度随时间变化的规律”实验中\n（1）下列说法中不正确或不必要的是_______（填字母）。\n（A）长木板的一端必須垫高，使小车在不挂钩码时能在木板上做匀速运动\n（B）连接钩码和小车的细线应与长木板保持平行\n（C）小车应靠近打点计时器，先接通电源，后释车\n（D）选择计数点时，必须从纸带上第一个点开始\n（2）图1 是实验中打下的一段纸带，算出计数点2 的速度大小为_______m/s，并在图2 中\n标出，其余计数点1、3、4、5 对应的小车瞬时速度大小在图2 中已标出。\n（3）作图并求得小车的加速度大小为_______m/s2。",
+      "answer": "(1)AD;(2)0.58~0.61;(3)见解析;(4)1.43~1.53.",
+      "analysis": "（1）A 选项要求必须把长木板一段垫高，这个没必要，因为此实验中无需平衡摩擦\n力，A 选；细线与长木板平行，车要停靠在打点计时器旁边，B、C 不选；在处理数据时应\n选点迹清晰地理想纸带，所以不一定要选第一个点作为计数点，D 选。\n（2）\n2\n(15.8\n3.9) 10\n0.60\n/\n0.2\nx\nv\nm s\nt\n−\n\n−\n\n=\n=\n\n；\n（3）\n2\n1.02\n0.42\n/\n1.50\n0.5\n0.1\nv\na\nm s\nt\n\n−\n=\n=\n=\n\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q018-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q018-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q018-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q19",
+      "content": "（5 分）“描绘小灯泡的伏安特性曲线”实验，要求采用分压电路，电流表外接，小王的\n连线如图1 所示，闭合开关S 前请老师检查，老师指出图中标示的①②两根连线有一处错\n误，错误连线是____（填“①”或“②”）；图中标示的③，④和⑤三根连线有一条错误，错\n误连线是______（填“③”、“④”或“⑤”），小王正确连线后，闭合开关S 前，应将滑动变\n阻器滑片C 移到______处（填“A”或“B”），闭合开关S，此时电压表读数为_______V，\n缓慢移动滑片C 至某一位置时，电流表指针如图2 所示，电流表的示数为_______A。",
+      "answer": "①;④;A;0;0.32.",
+      "analysis": "电路要求采用分压式接法，则连线①是错误的，应接A 处；电流表要求外接，连\n线④应接-；闭含开关S 前，应将滑动变阻器滑片C 移到A 处；闭合开关S，此时电压表读\n数为0 V；缓慢移动滑片C 至某一位置时，电流表的示数为0.32 A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q019-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q019-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q019-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q20",
+      "content": "（9 分）在某段平直的铁路上，一列以324 km/h 高速行\n驶的列车某时刻开始匀减速行驶，5 min 后恰好停在某车站，\n并在该站停留4 min，随后匀加速驶离车站，经8.1 km 后恢\n复到原速324 km/h。\n（1）求列车减速时的加速度大小；\n（2）若该列车总质量为8.0×102 kg，所受阻力恒为车重的\n0.1 倍，求列车驶离车站加速过程中牵引力的大小；\n（3）求列车从开始减速到恢复原速这段时间内的平均速度大小。",
+      "answer": "(1)0.3m/s2;(2)1.2 × 106N;(3)108km/h.",
+      "analysis": "（1）0\n324\n/\n90\n/\nv\nkm h\nm s\n=\n=\n，设匀减速的加速度为a1，则\n2\n1\n90\n0.3\n/\n300\na\nm s\n=\n=\n；\n（2）由运动学公式\n2\n2\n0\n2\nv\nv\nax\n−\n=\n可得\n2\n2\n0.5\n/\na\nm s\n=\n根据牛顿运动定律F\nf\nma\n−\n=\n，有\n3\n1.2 10\nF\nN\n=\n\n;\n（3）列出减速行驶的时间1\n300\nt\ns\n=\n列出减速行驶的位移\n2\n1\n1 1\n1\n13500\n2\nx\na t\nm\n=\n=\n列车在车站停留时间2\n240\nt\ns\n=\n列车加速行驶的时间\n0\n3\n2\n3\n180\nv\nt\ns\na\n=\n=\n列出加速行驶的位移\n2\n8100\nx\nm\n=\n1\n2\n1\n2\n3\n30\n/\n108\n/\nx\nx\nv\nm s\nkm h\nt\nt\nt\n+\n=\n=\n=\n+\n+",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q020-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q020-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q21",
+      "content": "（12 分）如图1 所示。游乐场的过山车可以底朝上在竖直圆轨道上运\n行，可抽象为图2 的模型。倾角为45°的直轨道AB、半径R = 10 m 的光\n滑竖直圆轨道和倾角为37°的直轨道EF，分别通过水平光滑衔接轨道\nBCCʹE 平滑连接，另有水平减速直轨道FG 与EF 平滑连接EG 间的水平\n距离l = 40 m。现有质量m = 500 kg 的过山车，从高h = 40 m 的A 点静止\n下滑，经BCDCʹEF 最终停在G 点，过山车与轨道AB、EF 的动摩擦因数\n均为μ1 = 0.2，与减速直轨道FG 的动摩擦因数均为μ2 = 0.75，过山车可视\n为质点，运动中不脱离轨道，求：\n（1）过山车运动至圆轨道最低点C时的速度大小；\n（2）过山车运动至圆轨道最高点D 时对轨道的作用力；\n（3）减速直轨道FG的长度x（已知sin37° = 0.6，cos37° = 0.8）。",
+      "answer": "(1)8√10m/s;(2)7000N,竖直向上；(3)30m.",
+      "analysis": "（1）过山车到达C 点的速度为vc，由动能定理\n2\n1\n1\ncos45 cos45\n2\nC\nh\nmgh\nmg\nmv\n\n\n−\n\n=\n代入数据可得\nvC=8 10 m/s\n（2）过山车到达D 点的速度为vD，由机械能守恒定律\n2mgR+1\n2 mvD2=1\n2 mvC2\n由牛顿笫二定律\nmg+FD=\n2\nD\nD\nv\nmg\nF\nm R\n+\n=\n联立代入数据可得：FD = 7000 N\n由牛顿第三定律可知.轨道受到的力F’D = 7000 N\n（3）过山车从A 到达G 点.由动能定理可得\n1\n1\n2\n(\n)tan37\ncot 45\n(\n)\n0\nmgh\nmg l\nx\nmgh\nmg l\nx\nmgx\n\n\n\n−\n−\n−\n−\n−\n−\n=\n代入数据可得x = 30m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q021-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q021-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q021-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q22",
+      "content": "（4分）【加试題】\n（1）在“探究单摆周期与摆长的关系”实验中，测量单摆的周期时，图1 中______（填“甲”、\n“乙”或“丙”）作为计时开始于终止的位置更好些。",
+      "answer": "(1)乙;(2)AD.",
+      "analysis": "（1）乙 因小球通过平衡位置时的速度较大，有利于计时。\n（2）如图2 所示，在用可拆变压器“探究变压器线圈两端的电压\n与匝数的关系”的实验中，下列说法正确的是_______（填字母）\n（A）用可拆变压器，能方便地从不同接线柱上选取不同匝数的线圈\n（B）测量原、副线圈的电压，可用“测定电池的电动势和内阻”实\n验中的直流电压表\n（C）原线圈接0、8 接线柱，副线圈接0、4 接线柱，副线圈电\n压大于原线圈电压\n（D）为便于探究，先保持原线圈匝数和电压不变，改变副线圈\n的匝数，研究其对副线圈电压的影响。\n（2）利用直流电压表是不能测量交流电的，B 错；\n1\n1\n2\n2\nU\nn\nU\nn\n=\n，由于\n1\n2\nn\nn\n\n，故原\n线圈电压大于副线圈的电压，C 错；故选AD",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 9,
+        "endPage": 9,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q022-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q022-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q022-p009-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q022-p009-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q022-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q23",
+      "content": "（10分）【加试题】为了探究电动机转速与弹簧伸长量之间的关系，小明设计了如图所\n示的装置。半径为l 的圆形金属导轨固定在水平面上，一根长也为l，电阻为R 的金属棒ab\n一端与导轨接触良好，另一端固定在圆心处的导电转轴OOʹ上，由电动机A 带动旋转。在金\n属导轨区域内存在垂直于导轨平面，大小为B1、方向竖直向下的匀强磁场。另有一质量为\nm、方向竖直向下的匀强磁场。另有一质量为m、电阻为R 的金属棒cd 用轻质弹簧悬挂在\n竖直平面内，并与固定在竖直平面内的“U”型导轨保持良好接触，导轨间距为l，底部接阻\n值也为R 的电阻，处于大小为B2、方向垂直导轨平面向里的匀强磁场中。从圆形金属导轨\n引出导线和通过电刷从转轴引出导线经开关S 与“U”型导轨连接。当开关S 断开，棒cd 静\n止时，弹簧伸长量为x0；当开关S 闭合，电动机以某一转速匀速转动，棒cd 再次静止时，\n弹簧伸长量变为x（不超过弹性限度）。不计其余电阻和摩擦等阻力，求此时：\n（1）通过棒cd 的电流Icd；\n（2）电动机对该装置的输出功率P；\n（3）电动机转动角速度ω 与弹簧伸长量x 之间的函数关系。\n甲 小球到达最高点时\n乙 小球经过平衡位置时\n丙 小球经过任意位置时",
+      "answer": "(1)\n𝑚𝑔(𝑥−𝑥0)\n𝐵2𝑙𝑥0\n;(2)\n6𝑚2𝑔2𝑅(𝑥−𝑥0)2\n𝐵2\n2𝑙2𝑥0\n2\n;\n(3)\n6𝑚𝑔𝑅(𝑥−𝑥0)\n𝐵1𝐵2𝑙3𝑥0 .",
+      "analysis": "（1）S 断开，cd 棒静止有\n0\nmg\nkx\n=\nS 闭合，cd 棒静止时受到的安培力\n2\ncd\nF\nI B l\n=\nCd 棒静止有\n2\ncd\nmg\nI B l\nkl\n+\n=\n得：\n0\n2\n0\n(\n)\ncd\nmg x\nx\nI\nB lx\n−\n=\n（2）回路总电阻：\n1\n3\n2\n2\nR\nR\nR\nR\n=\n+\n=\n总\n总电流：\n0\n2\n0\n2\n(\n)\nmg x\nx\nI\nB lx\n−\n=\n由能量守恒，得\n2\n2\n2\n2\n0\n2 2\n2\n2\n0\n6\n(\n)\n= m g R x\nx\nP\nI R\nB l x\n−\n=\n总\n（3）由法拉第电磁感应定律：\n2\n1\n1\n2\nE\nB\nl\nt\n\n\n\n=\n=\n\n回路总电流：\n2\n1\n3\nB\nl\nI\nR\n\n=\n得\n0\n3\n1\n2\n0\n6\n(\n)\nmgR x\nx\nB B l x\n\n−\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q023-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q023-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2016浙江10月.pdf#q24",
+      "content": "（10 分）【加试题】如图所示，在x 轴的上方存\n在垂直纸面向里，磁感应强度大小为B0 的匀强磁场，\n位于x 轴下方离子源C 发射质量为m，电荷量为q 的\n一束负离子，其初速度大小范围为0 ~ 3 v0，这束离\n子经电势差为U = mv02\n2q 的电场加速后，从小孔O（坐\n标原点）垂直x 轴并垂直磁场射入磁场区域，最后打\n到x 轴上。在x 轴上2a～3a 区间水平固定放置一探\n测板（a = mv02\nqB0 ）。假设每秒射入磁场的离子总数为N0，打到x 轴上的离子数均为分布（离\n子重力不计）。\n（1）求离子束从小孔O 射入磁场后打到x 轴的区间。\n（2）调整磁感应强度的大小，可使速度最大的离子恰好打在探测板右端，求此时的磁感应\n强度大小B1；\n（3）保持磁感应强度B1 不变，求每秒打在探测板上的离子数N；若打在板上的离子80%被\n板吸收，20%被反弹回，弹回速度大小为板前速度大小的0.6 倍。求探测板受到的作用力大\n小。",
+      "answer": "(1)2𝑎≤𝑥≤4𝑎；(2)𝐵1 =\n4\n3 𝐵0；(3)𝐹=\n56\n45 𝑁0𝑚𝑣0.",
+      "analysis": "（1）根据动能定理，可得\n2\n2\n1\n1\n1\n2\n2\nqU\nmv\nmv\n=\n−\n2\n1\n2qU\nv\nv\nm\n=\n+\n可得\n0\n0\n2\nv\nv\nv\n\n\n离子在磁场中运动\n2\n0\nmv\nqvB\nR\n=\n0\nmv\nR\nqB\n=\n离子打在x 轴上的坐标表达式为\n0\n2\n2\nmv\nx\nR\nqB\n=\n=\n代入数据得2\n4\na\nx\na\n\n\n（2）当速度最大的离子打在探测板右端\n1\n3\n2\na\nR\n=\n0\n1\n1\n2mv\nR\nqB\n=\n1\n0\n3\n4\nB\nB\n=\n（3）离子束能打到探测板的实际范围为2\n3\na\nx\na\n\n\n对应的速度范围为\n0\n0\n3\n2\n4 v\nv\nv\n\n\n\n每秒打在探测板上的离子数为\n0\n0\n0\n0\n0\n0\n4\n2\n2\n3\n2\n3\nv\nv\nN\nN\nN\nv\nv\n−\n=\n=\n−\n根据动量定理\n吸收的离子受到板的作用力大小\n0\n0\n0\n0\n8\n0.8\n4\n(2\n)\n2\n3\n9\nP\nN mv\nN\nF\nmv\nmv\nt\n\n=\n=\n+\n=\n\n吸\n吸\n反弹的离子受到板的作用力大小\n0\n0\n0\n0\n0\n0\n16\n0.2\n4\n[2\n0.6\n)+\nm\n0.6\n)]\n2\n3\n45\nP\nN mv\nN\nF\nm v\nv\nv\nv\nt\n\n=\n=\n+\n+\n=\n\n反\n反\n（\n（\n根据牛顿第三定律，探测板受到的作用力大小\n0\n0\n56\n45\nF\nN mv\n=\n解析\n1.\nA\n位移、速度、加速度都是既有大小又有方向、相加时遵循平行四边形定\n则的矢量；路程只有大小，没有方向，是标量，故A 正确.\n2.\nC\n长度，质量，时间等为基本物理量，基本物理量的单位为基本单位.长度、\n质量、时间在国际单位制中的基本单位为米、千克、秒,即m、kg、s，故C 正确.\n3.\nC\n图中排球受到的力是：重力、空气对球的阻力，此刻人手与球并没有接\n触，所以没有推力，故C 正确.\n4.\nC\n无人机在匀速上升过程中，它的质量不变，速度不变，则动能不变；同\n时高度增加，其重力势能增加，因机械能等于动能与势能的总和，所以无人机的机械能增加，\n故C 正确.\n5.\nD\n可以把𝐴、𝐵两点看成是同轴转动的两个质点，则𝜔1 = 𝜔2，由𝑣= 𝜔𝑟得\n𝑣𝐴> 𝑣𝐵，故D 正确.\n6.\nC\n由于声音在空气中传播的速度比自由落体下落5s的速度大的多，可以忽\n略声音在空气中的传播时间，由自由落体规律ℎ=\n1\n2 𝑔𝑡2 =\n1\n2 × 10 × 52m = 125m，故C 正确.\n7.\nB\n水平喷出的水做平抛运动，由平抛运动规律知，在竖直方向上有ℎ=\n1\n2 𝑔𝑡2，解得𝑡= 0.6s；在水平方向上有𝑥= 𝑣0𝑡，解得水平速度为𝑣0 = 2.0m/s，故B 正确.\n8.\nA\n电场线的疏密反应了场的强弱，𝑁点处电场线最密，所以𝑁点场强最大，\n故A 正确；顺着电场线的方向，电势降低，所以𝑀点的电势最高，故B 错误；由𝐸p = 𝑞𝜑，\n𝜑𝑀> 𝜑𝑃> 𝜑𝑁可知，负电荷在𝑁点电势能大于在𝑀点的电势能，故C 错误；在𝑀点静止释\n放，正电荷在电场力的作用下运动，但是运动轨迹并不是电场线，故D 错误.\n9.\nD\n由于总体积不变，设16cm长时的横截面积为𝑆；长度变为20cm后，横截\n面积𝑆′ =\n4\n5 𝑆，由电阻定律得𝑅= 𝜌\n𝐿\n𝑆可知𝑅= 𝜌\n16\n𝑆，𝑅′ = 𝜌\n5\n4𝐿\n4\n5𝑆，联立解得𝑅′ =\n25\n16 𝑅，故D 正确.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2016浙江10月.pdf",
+        "page": 11,
+        "endPage": 13,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q024-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q024-p011-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q024-p013-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0d1ddd18942f4856-q024-p011-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 31,
+    "answerGraphics": 2,
+    "assigned": 29,
+    "rendered": 30,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

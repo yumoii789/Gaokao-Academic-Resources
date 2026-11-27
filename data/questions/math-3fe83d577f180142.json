@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2024/2024北京.pdf",
   "name": "2024北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q01",
       "content": "已知集合M = {x | −3 < x < 1}, N = {x | −1 ⩽x < 4}, 则M ∪N =(\n)\n(A) {x | −1 ⩽x < 1}\n(B) {x | x > −3}\n(C) {x | −3 < x < 4}\n(D) {x | x < 4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q02",
       "content": "若复数z 满足z\ni = −1 −i, 则z =\n(\n)\n(A) −1 −i\n(B) −1 + i\n(C) 1 −i\n(D) 1 + i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q03",
       "content": "圆x2 + y2 −2x + 6y = 0 的圆心到直线x −y + 2 = 0 的距离为\n(\n)\n(A)\n√\n2\n(B) 2\n(C) 3\n(D) 3\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q04",
       "content": "在(x −√x)\n4 的展开式中, x3 的系数为\n(\n)\n(A) 6\n(B) −6\n(C) 12\n(D) −12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q05",
       "content": "设a, b 是向量, 则“(a + b) · (a −b) = 0”是“a = −b 或a = b”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q06",
       "content": "设函数f (x) = sin ωx (ω > 0). 已知f (x1) = −1, f (x2) = 1, 且|x1 −x2|\n的最小值为π\n2 , 则ω =\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q07",
       "content": "生物丰富度指数d = S −1\nln N\n是河流水质的一个评价指标, 其中S, N 分别\n表示河流中的生物种类数与生物个体总数. 生物丰富度指数d 越大, 水质\n越好. 如果某河流治理前后的生物种类数S 没有变化, 生物个体总数由N1\n变为N2, 生物丰富度指数由2.1 提高到3.15, 则\n(\n)\n(A) 3N2 = 2N1\n(B) 2N2 = 3N1\n(C) N 2\n2 = N 3\n1\n(D) N 3\n2 = N 2\n1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q08",
       "content": "如图, 在四棱锥P −ABCD 中, 底面ABCD 是边长为4 的正方形,\nPA = PB = 4, PC = PD = 2\n√\n2. 该棱锥的高为\n(\n)\nB\nC\nD\nA\nP\n(A) 1\n(B) 2\n(C)\n√\n2\n(D)\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -194,22 +247,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-3fe83d577f180142-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-3fe83d577f180142-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q09",
       "content": "已知(x1, y1), (x2, y2) 是函数y = 2x 的图象上两个不同的点, 则\n(\n)\n(A) log2\ny1 + y2\n2\n< x1 + x2\n2\n(B) log2\ny1 + y2\n2\n> x1 + x2\n2\n(C) log2\ny1 + y2\n2\n< x1 + x2\n(D) log2\ny1 + y2\n2\n> x1 + x2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q10",
       "content": "已知M = {(x, y) | y = x + t (x2 −x) , 1 ⩽x ⩽2, 0 ⩽t ⩽1} 是平面直角\n坐标系中的点集. 设d 是M 中两点间的距离的最大值, S 是M 表示的图\n形的面积, 则\n(\n)\n(A) d = 3, S < 1\n(B) d = 3, S > 1\n(C) d =\n√\n10, S < 1\n(D) d =\n√\n10, S > 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q11",
       "content": "抛物线y2 = 16x 的焦点坐标为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q12",
       "content": "在平面直角坐标系xOy 中, 角α 与角β 均以Ox 为始边, 它们的终边关于\n原点对称. 若α ∈\n[π\n6 , π\n3\n]\n, 则cos β 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q13",
       "content": "若直线y = k (x −3) 与双曲线x2\n4 −y2 = 1 只有一个公共点, 则k 的一个\n取值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q14",
       "content": "汉代刘歆设计的“铜嘉量”是龠、合、升、斗、斛五量合一的标准量器, 其中\n升量器、斗量器、斛量器的形状均可视为圆柱. 若升、斗、斛量器的容积成\n公比为10 的等比数列, 底面直径依次为65 mm, 325 mm, 325 mm, 且斛量\n器的高为230 mm, 则斗量器的高为\nmm, 升量器的高为\nmm.\n(不计量器的厚度)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -332,22 +425,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q15",
       "content": "设{an} 与{bn} 是两个不同的无穷数列, 且都不是常数列.\n记集合\nM = {k | ak = bk, k ∈N∗}, 给出下列四个结论:\n①若{an} 与{bn} 均为等差数列, 则M 中最多有1 个元素;\n②若{an} 与{bn} 均为等比数列, 则M 中最多有2 个元素;\n③若{an} 为等差数列, {bn} 为等比数列, 则M 中最多有3 个元素;\n④若{an} 为递增数列, {bn} 为递减数列, 则M 中最多有1 个元素.\n其中正确结论的序号是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -355,22 +454,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q16",
       "content": "在△ABC 中, ∠A 为钝角, a = 7, sin 2B =\n√\n3\n7 b cos B.\n(1) 求∠A;\n(2) 再从条件①、条件②、条件③这三个条件中选择一个作为已知, 使得\n△ABC 存在, 求△ABC 的面积.\n条件①: b = 7; 条件②: cos B = 13\n14; 条件③: c sin A = 5\n√\n3\n2 .\n注: 如果选择的条件不符合要求, 第(2) 问得0 分; 如果选择多个符合要求\n的条件分别解答, 按第一个解答计分.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -378,22 +483,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q17",
       "content": "如图, 在四棱锥P −ABCD 中, BC\nAD, AB = BC = 1, AD = 3. 点E\n在AD 上, 且PE ⊥AD, PE = DE = 2.\n(1) 若F 为线段PE 的中点, 求证: BF\n平面PCD;\n(2) 若AB ⊥平面PAD, 求平面PAB 与平面PCD 夹角的余弦值.\nB\nC\nD\nA\nP\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -401,22 +512,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-3fe83d577f180142-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-3fe83d577f180142-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q18",
       "content": "某保险公司为了解该公司某种保险产品的索赔情况, 从合同保险期限届满\n的保单中随机抽取1000 份, 记录并整理这些保单的索赔情况, 获得数据如\n下表:\n索赔次数\n0\n1\n2\n3\n4\n保单份数\n800\n100\n60\n30\n10\n假设: 一份保单的保费为0.4 万元; 前三次索赔时, 保险公司每次赔偿0.8\n万元; 第四次索赔时, 保险公司赔偿0.6 万元.\n假设不同保单的索赔次数相互独立. 用频率估计概率.\n(1) 估计一份保单索赔次数不少于2 的概率;\n(2) 一份保单的毛利润定义为这份保单的保费与赔偿总金额之差.\n①记X 为一份保单的毛利润, 估计X 的数学期望EX;\n②如果无索赔的保单的保费减少4%, 有索赔的保单的保费增加20%,\n试比较这种情况下一份保单毛利润的数学期望估计值与①中EX 估计值\n的大小. (结论不要求证明)\n1197",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -424,22 +545,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q19",
       "content": "已知椭圆E: x2\na2 + y2\nb2 = 1 (a > b > 0), 以椭圆E 的焦点和短轴端点为顶\n点的四边形是边长为2 的正方形. 过点(0, t) (t >\n√\n2) 且斜率存在的直线\n与椭圆E 交于不同的两点A, B, 过点A 和C (0, 1) 的直线AC 与椭圆E\n的另一个交点为D.\n(1) 求椭圆E 的方程及离心率;\n(2) 若直线BD 的斜率为0, 求t 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -447,22 +574,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q20",
       "content": "设函数f (x) = x + k ln (1 + x) (k̸ = 0), 直线l 是曲线y = f (x) 在点\n(t, f (t)) (t > 0) 处的切线.\n(1) 当k = −1 时, 求f (x) 的单调区间;\n(2) 求证: l 不经过点(0, 0);\n(3) 当k = 1 时, 设点A (t, f (t)) (t > 0), C (0, f (t)), O (0, 0) , B 为l 与y\n轴的交点, S△ACO 与S△ABO 分别表示△ACO 与△ABO 的面积. 是否\n存在点A 使得2S△ACO = 15S△ABO 成立? 若存在, 这样的点A 有几个?\n(参考数据: 1.09 < ln 3 < 1.10, 1.60 < ln 5 < 1.61, 1.94 < ln 7 < 1.95)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -470,22 +603,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2024/2024北京.pdf#q21",
       "content": "已知集合M = {(i, j, k, w) | i ∈{1, 2}, j ∈{3, 4}, k ∈{5, 6}, w ∈\n{7, 8}, 且i + j + k + w 为偶数}. 给定数列A: a1, a2, · · · , a8 和序列Ω:\nT1, T2, · · · , Ts, 其中Tt = (it, jt, kt, wt) ∈M (t = 1, 2, · · · , s), 对数列A\n进行如下变换: 将A 的第i1, j1, k1, w1 项均加1, 其余项不变, 得到的数列\n记作T1 (A); 将T1 (A) 的第i2, j2, k2, w2 项均加1, 其余项不变, 得到的数\n列记作T2T1 (A); · · · ; 以此类推, 得到数列Tx · · · T2T1 (A), 简记为Ω(A).\n(1) 给定数列A: 1, 3, 2, 4, 6, 3, 1, 9 和序列Ω: (1, 3, 5, 7), (2, 4, 6, 8),\n(1, 3, 5, 7), 写出Ω(A);\n(2) 是否存在序列Ω, 使得Ω(A) 为a1 + 2, a2 + 6, a3 + 4, a4 + 2, a5 + 8,\na6 + 2, a7 + 4, a8 + 4? 若存在, 写出一个Ω, 若不存在, 说明理由;\n(3) 若数列A 的各项均为正整数, 且a1 + a3 + a5 + a7 为偶数, 求证: “存\n在序列Ω, 使得Ω(A) 的各项都相等”的充要条件为“a1 + a2 = a3 + a4 =\na5 + a6 = a7 + a8”.\n1198",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2024,
       "subject": "数学",
@@ -493,11 +632,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2024/2024北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

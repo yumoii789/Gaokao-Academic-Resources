@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016天津理综.pdf",
   "name": "2016天津理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 10,
+    "reviewCount": 3,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016天津理综.pdf#q01",
       "content": "本卷共8 题，每题6 分，共48 分。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2016/2016天津理综.pdf#q02",
       "content": "我国成功研发的反隐身先进米波雷达堪称隐身飞机的克星，它标志着我国雷达\n研究又创新的里程碑，米波雷达发射无线电波的波长在1~10 m 范围内，则对该无\n线电波的判断正确的是（    ）\n（A）米波的频率比厘米波频率高\n（B）和机械波一样须靠介质传播\n（C）同光波一样会发生反射现象\n（D）不可能产生干涉和衍射现象",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "【考点定位】电磁波的传播\n【名师点睛】此题考查了电磁波及机械波的特点；要知道电磁波传播不需要介质，而机械波的传播需要介\n质；干涉和衍射是所有波特有的现象；知道波长、波速和频率之间的关系式：\nv\nf\n\n=\n。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -56,11 +78,372 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q03",
+      "content": "右图是a、b 两光分别经过同一双缝干涉装置后在屏上形成的干涉图样，则\n（    ）\n（A）在同种均匀介质中，a 光的传播速度比b 光的大\n（B）从同种介质射入真空发生全反射时a 光临界角大\n（C）照射在同一金属板上发生光电效应时，a 光的饱和电流大\n（D）若两光均由氢原子能级跃迁产生，产生a 光的能级能量差大",
+      "answer": "暂无结构化答案",
+      "analysis": "2 / 10\n试题分析：由图可知a 光的干涉条纹间距小于b 光的，根据\nL\nx\nd \n=\n可知，a 的波长小于b 的波长，a 光\n的频率大于b 光的频率，a 光的折射率大于b 光的折射率，则根据\nc\nn\nv\n=\n可知，在同种介质中传播时a 光的\n传播速度较小，选项A 错误；根据\n1\nsin C\nn\n=\n可知，从同种介质中射入真空，a 光发生全反射的临界角小，\n选项B 错误；发生光电效应时饱和光电流与入射光的强度有关，故无法比较饱和光电流的大小，选项C 错\n误；a 光的频率较高，若两光均由氢原子能级跃迁产生，则产生a 光的能级差大，选项D 正确。\n【考点定位】双缝干涉、全反射、光电效应、玻尔理论\n【名师点睛】此题考查了双缝干涉、全反射、光电效应以及玻尔理论等知识点；要知道双缝干涉中条纹间距\n的表达式\nL\nx\nd \n=\n，能从给定的图片中得到条纹间距的关系；要知道光的频率越大，折射率越大，全反射\n临界角越小，波长越小，在介质中传播的速度越小。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q04",
+      "content": "我国即将发射“天宫二号”空间实验室，之后发生“神舟十一号”飞船\n与“天宫二号”对接。假设“天宫二号”与“神舟十一号”都围绕地球做匀\n速圆周运动，为了实现飞船与空间实验室的对接，下列措施可行的是（    ）\n（A）使飞船与空间实验室在同一轨道上运行，然后飞船加速追上空间实验\n室实现对接\n（B）使飞船与空间实验室在同一轨道上运行，然后空间实验室减速等待飞\n船实现对接\n（C）飞船先在比空间实验室半径小的轨道上加速，加速后飞船逐渐靠近空间实验室，两者速度接近时实现\n对接\n（D）飞船先在比空间实验室半径小的轨道上减速，减速后飞船逐渐靠近空间实验室，两者速度接近时实现\n对接",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：若使飞船与空间实验室在同一轨道上运行，飞船加速会进入较高的轨道，空间实验室减速会进入\n较低的轨道，都不能实现对接，选项AB 错误；要想实现对接，可使飞船在比空间实验室半径较小的轨道上\n加速，然后飞船将进入较高的空间实验室轨道，逐渐靠近空间站后，两者速度接近时实现对接，选项C 正\n确，选项D 错误。\n【考点定位】变轨问题\n【名师点睛】此题考查了卫星的变轨问题；关键是知道卫星在原轨道上加速时，卫星所受的万有引力不足以\n提供向心力而做离心运动，卫星将进入较高轨道；同理如果卫星速度减小，卫星将做近心运动而进入较低轨\n道。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q05",
+      "content": "如图所示，平行板电容器带有等量异种电荷，与静电计相连，静电计金属外\n壳和电容器下极板都接地。在两极板间有一个固定在P 点的点电荷，以E 表示\n两板间的电场强度，Ep 表示点电荷在P 点的电势能，θ 表示静电计指针的偏角。\n若保持下极板不动，将上极板向下移动一小段距离至图中虚线位置，则（    ）\n（A）θ 增大，E 增大\n（B）θ 增大，Ep 不变\n3 / 10\n（C）θ 减小，Ep 增大\n（D）θ 减小，E 不变\n【学科网考点定位】电容器、电场强度、电势及电势能\n【名师点睛】此题是对电容器的动态讨论；首先要知道电容器问题的两种情况：电容器带电荷量一定和电容\n器两板间电势差一定；其次要掌握三个基本公式：\n4\nS\nC\nkd\n\n\n=\n，\nU\nE\nd\n=\n，Q = CU；同时记住一个特殊的结\n论：电容器带电荷量一定时，电容器两板间的场强大小与两板间距无关。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q005-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q06",
+      "content": "如图所示，理想变压器原线圈接在交流电源上，图中各电表\n均为理想电表。下列说法正确的是（    ）\n（A）当滑动变阻器的滑动触头P 向上滑动时，R1 消耗的功率变\n大\n（B）当滑动变阻器的滑动触头P 向上滑动时，电压表V 示数\n变大\n（C）当滑动变阻器的滑动触头P 向上滑动时，电流表A1 示数变大\n（D）若闭合开关S，则电流表A1 示数变大、A2 示数变大",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：当滑动变阻器的滑动触头P 向上滑动时，R 的阻值变大，副线圈中电流变小，原线圈中电流也变\n小，电流表A1 示数变小；R1 消耗的功率及两端电压均变小，副线圈总电压不变，则电压表的示数变大，选\n项AC 错误，B 正确。若闭合开关S，则副线圈总电阻变小，电流变大，原线圈中电流变大，电流表A1 示数\n变大；R1 两端电压变大，R2 两端电压变小，电流表A2 示数变小，选项D 错误。\n【学科网考点定位】变压器；电路的动态分析\n【名师点睛】此题考查变压器问题的动态分析；要知道变压器副线圈电压是由原线圈电压和匝数比决定的，\n与副线圈中负载无关；副线圈电路的动态分析基本上和直流电路的动态分析一样，先从局部变化的电阻开始\n分析，然后分析总电阻，再分析电流，然后再分析各局部的电压和电流。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q07",
+      "content": "物理学家通过对实验的深入观察和研究，获得正确的科学认知，推动物理学的发展。下列说法符合事实\n的是（    ）\n（A）赫兹通过一系列实验，证实了麦克斯韦关于光的电磁理论\n（B）查德威克用α 粒子轰击147N 获得反冲核178O，发现了中子\n（C）贝克勒尔发现的天然放射性现象，说明原子核有复杂结构\n（D）卢瑟福通过对阴极射线的研究，提出了原子核式结构模型",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：麦克斯韦预言了电磁波的存在，赫兹通过实验证实了麦克斯韦的电磁理论，选项A 正确；卢瑟\n4 / 10\n福用α 粒子轰击147N，获得反冲核178O，发现了质子，选项B 错误；贝克勒尔发现的天然放射性现象，说\n明原子核具有复杂结构，选项C 正确；卢瑟福通过对α 粒子散射实验的研究，提出了原子的核式结构模型，\n选项D 错误。\n【考点定位】物理学史\n【名师点睛】此题是对近代物理学史的考查；都是课本上涉及的物理学家的名字及其伟大贡献，只要多看\n书、多积累即可很容易得分；对物理学史的考查历来都是考试的热点问题，必须要熟练掌握。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q08",
+      "content": "在均匀介质中坐标原点O 处有一波源做简谐运动，其表达式为y =\n5sin(π\n2 t)，它在介质中形成的简谐横波沿x 轴正方向传播，某时刻波刚好传\n播到x = 12 m 处，波形图象如图所示，则（    ）\n（A）此后再经6 s 该波传播到x = 24 m 处\n（B）M 点在此后第3 s 末的振动方向沿y 轴正方向\n（C）波源开始振动时的运动方向沿y 轴负方向\n（D）此后M 点第一次到达y = －3 m 处所需时间是2 s\n【考点定位】机械波的传播、质点的振动\n【名师点睛】此题考查了质点的振动及机械波的传播；要知道质点振动一个周期，波向前传播一个波长的距\n离；各个质点的振动都是重复波源的振动，质点在自己平衡位置附近上下振动，而不随波迁移；能根据波形\n图及波的传播方向判断质点的振动方向。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q008-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q008-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q09",
+      "content": "我国高铁技术处于世界领先水平，和谐号动车组是由动车和拖车编组\n而成，提供动力的车厢叫动车，不提供动力的车厢叫拖车。假设动车组各\n车厢质量均相等，动车的额定功率都相同，动车组在水平直轨道上运行过\n程中阻力与车重成正比。某列动车组由8 节车厢组成，其中第1、5 节车\n厢为动车，其余为拖车，则该动车组（    ）\n（A）启动时乘客受到车厢作用力的方向与车运动的方向相反\n（B）做匀加速运动时，第5、6 节与第6、7 节车厢间的作用力之比为3∶2\n（C）进站时从关闭发动机到停下来滑行的距离与关闭发动机时的速度成正比\n（D）与改为4 节动车带4 节拖车的动车组最大速度之比为1∶2",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：列车启动时，乘客随车厢加速运动，加速度方向与车的运动方向相同，故乘客受到车厢的作用力\n5 / 10\n方向与车运动方向相同，选项A 错误。动车组运动的加速度\n2\n8\n8\n4\nF\nkmg\nF\na\nkg\nm\nm\n−\n=\n=\n−\n，对第6、7、8 节\n车厢整体：F56 = 3ma+3kmg = 0.75F；对第7、8 节车厢整体：F67 = 2ma+2kmg = 0.5F；故第5、6 节车厢与第\n6、7 节车厢间的作用力之比为3:2，选项B 正确。根据动能定理\n2\n1\n2 Mv\nkMgs\n=\n，解得\n2\n2\nv\ns\nkg\n=\n，可知进站\n时从关闭发动机到停下来滑行的距离与关闭发动机时速度的平方成正比，选项C 错误；8 节车厢有2 节动\n车时的最大速度为\nm1\n2\n8\nP\nv\nkmg\n=\n；8 节车厢有4 节动车时的最大速度为\nm2\n4\n8\nP\nv\nkmg\n=\n，则\nm1\nm2\n1\n2\nv\nv\n=\n，选项D 正\n确。\n【考点定位】牛顿第二定律、功率、动能定理\n【名师点睛】此题是力学综合问题，考查牛顿第二定律、功率以及动能定理等知识点；解题时要能正确选择\n研究对象，灵活运用整体法及隔离法列方程；注意当功率一定时，牵引力等于阻力的情况，速度最大。\n第Ⅱ卷\n注意事项：\n1．用黑色墨水的钢笔或签字笔将答案写在答题卡上。\n2．本卷共4 题，共72 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q10",
+      "content": "（18 分）\n（1）如图所示，方盒A 静止在光滑的水平面上，盒内有一个小滑块B，盒\n的质量是滑块质量的2 倍，滑块与盒内水平面间的动摩擦因数为μ。若滑块\n以速度v 开始向左运动，与盒的左右壁发生无机械能损失的碰撞，滑块在盒\n中来回运动多次，最终相对盒静止，则此时盒的速度大小为________，滑块\n相对于盒运动的路程为________。",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：设滑块质量为m，则盒的质量为2m；对整个过程，由动量守恒定律可得mv = 3mv 共，解得v 共 =\n3\nv\n，由能量守恒定律可知\n2\n2\n1\n1 3\n( )\n2\n2\n3\nv\nmgx\nmv\nm\n\n=\n−\n\n\n，解得\n2\n3\nv\nx\ng\n\n=\n。\n【考点定位】动量守恒定律、能量守恒定律\n【名师点睛】此题是对动量守恒定律及能量守恒定律的考查；关键是分析两个物体相互作用的物理过程，选\n择好研究的初末状态，根据动量守恒定律和能量守恒定律列出方程；注意系统的动能损失等于摩擦力与相对\n路程的乘积。\n6 / 10\n（2）某同学利用图示装置研究小车的匀变速直线运动。\n①实验中必要的措施是______。\n（A）细线必须与长木板平行\n（B）先接通电源再释放小车\n（C）小车的质量远大于钩码的质量\n（D）平衡小车与长木板间的摩擦力\n②他实验时将打点计时器接到频率为50 HZ 的交流电源上，\n得到一条纸带，打出的部分计数点如图所示（每相邻两个计数点间还有4 个点，图中未画出）。s1 = 3.59\ncm，s2 = 4.41 cm，s3 = 5.19 cm，s4 = 5.97 cm，s5 = 6.78 cm，s6 = 7.64 cm。则小车的加速度a = ______m/s2\n（要求充分利用测量的数据），打点计时器在打B 点时小车的速度vB = _______m/s。（结果均保留两位有效\n数字）\n②两相邻计数点间的时间间隔T = 0.1 s；由逐差法可得a =\n6\n5\n4\n3\n2\n1\n2\n9\ns\ns\ns\ns\ns\ns\nT\n+\n+\n−\n−\n−\n = 0.80 m/s2，打点计时\n器在打B 点时小车的速度vB =\n1\n2\n2\ns\ns\nT\n+\n = 0.40 m/s。\n【考点定位】研究小车的匀变速直线运动实验\n【名师点睛】此题是一道考查研究小车的匀变速直线运动的常规实验题；注意不要把此实验与验证牛顿第二\n定律的实验相混淆；在验证牛顿第二定律的实验中，要求小车的质量远大于钩码的质量和平衡小车与长木板\n间的摩擦力，但在此实验中是不必要的；此题考查学生对力学基本实验的掌握情况。\n（3）某同学想要描绘标有“3.8 V，0.3 A”字样小灯泡L 的伏安特性曲线，要求测量数据尽量精确，绘制曲\n线完整，可供该同学选用的器材除了开关、导线外，还有：\n电压表V1（量程0~3 V，内阻等于3 kΩ）\n电压表V2（量程0~15 V，内阻等于15 kΩ）\n电流表A1（量程0~200 mA，内阻等于10 Ω）\n电流表A2（量程0~3 A，内阻等于0.1 Ω）\n滑动变阻器R1（0~10 Ω，额定电流2 A）\n滑动变阻器R2（0~1 kΩ，额定电流0.5 A）\n定值电阻R3（阻值等于1 Ω）\n定值电阻R4（阻值等于10 Ω）\n定值电阻R5（阻值等于1 kΩ）\n7 / 10\n电源E（E = 6 V，内阻不计）\n①请画出实验电路图，并将各元件字母代码标在该元件的符号旁。\n②该同学描绘出的I-U 图象应是下图中的______。\n【学科网考点定位】探究小灯泡的伏安特性曲线实验、电表改装、器材选取、电路设计\n【名师点睛】此题考查了探究小灯泡的伏安特性曲线的实验；此题的难点在于题中所给的电表量程都不适\n合，所以不管是电流表还是电压表都需要改装，所以要知道电表的改装方法；改装成电压表要串联分压电\n阻；改装成电流表要并联分流电阻；其他部分基本和课本实验一样。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p007-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p007-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q11",
+      "content": "（16 分）我国将于2022 年举办冬奥会，跳台滑雪是其中最\n具观赏性的项目之一。如图所示，质量m = 60 kg 的运动员从长直\n助滑道AB 的A 处由静止开始以加速度a = 3.6 m/s2 匀加速滑下，\n到达助滑道末端B 时速度vB = 24 m/s，A 与B 的竖直高度差H =\n48 m。为了改变运动员的运动方向，在助滑道与起跳台之间用一段\n弯曲滑道衔接，其中最低点C 处附近是一段以O 为圆心的圆弧。\n助滑道末端B 与滑道最低点C 的高度差h = 5 m，运动员在B、C\n间运动时阻力做功W = －1530 J，取g = 10 m/s2。\n（1）求运动员在AB 段下滑时受到阻力Ff 的大小；\n（2）若运动员能够承受的最大压力为其所受重力的6 倍，则C 点所在圆弧的半径R 至少应为多大。",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：（1）运动员在AB 上做初速度为零的匀加速运动，设AB 的长度为x，则有\n2\nB\nv = 2ax①\n由牛顿第二定律有\nmg\nH\nx –Ff = ma②\n联立①②式，代入数据解得Ff = 144 N③\n（2）设运动员到达C 点时的速度为vC，在由B 到达C 的过程中，由动能定理有\n8 / 10\nmgh+W =\n1\n2 m\n2\nC\nv –\n1\n2 m\n2\nB\nv ④\n设运动员在C 点所受的支持力为FN，由牛顿第二定律有FN–mg =\n2\nC\nv\nR ⑤\n由运动员能够承受的最大压力为其所受重力的6 倍，联立④⑤式，代入数据解得R = 12.5 m⑥\n【考点定位】动能定理、牛顿第二定律的应用\n【名师点睛】此题是力学综合题，主要考查动能定理及牛顿第二定律的应用；解题的关键是搞清运动员运动\n的物理过程，分析其受力情况，然后选择合适的物理规律列出方程求解；注意第（1）问中斜面的长度和倾\n角未知，需设出其中一个物理量。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q12",
+      "content": "（18 分）如图所示，空间中存在着水平向右的匀强电场，电场强度大小为\nE = 5 3 N/C，同时存在着水平方向的匀强磁场，其方向与电场方向垂直，磁感\n应强度大小B = 0.5 T。有一带正电的小球，质量m = 1×10–6 kg，电荷量q = 2×10–\n6 C，正以速度v 在图示的竖直面内做匀速直线运动，当经过P 点时撤掉磁场（不\n考虑磁场消失引起的电磁感应现象），取g = 10 m/s2。求：\n（1）小球做匀速直线运动的速度v 的大小和方向；\n（2）从撤掉磁场到小球再次穿过P 点所在的这条电场线经历的时间t。",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：（1）小球匀速直线运动时受力如图，其所受的三个力在同一平面内，合力为零，有\nqvB =\n2\n2\n2\n2\nq E\nm g\n+\n①\n代入数据解得v = 20 m/s②\n速度v 的方向与电场E 的方向之间的夹角θ 满足tan θ =\nqE\nmg ③\n代入数据解得tan θ =\n3 ，θ = 60°④\n（2）解法一：\n撤去磁场，小球在重力与电场力的合力作用下做类平抛运动，设其加速度为a，有\na =\n2\n2\n2\n2\nq E\nm g\nm\n+\n⑤\n设撤掉磁场后小球在初速度方向上的分位移为x，有x = vt⑥\n设小球在重力与电场力的合力方向上分位移为y，有y =\n1\n2 at2⑦\n9 / 10\n【考点定位】物体的平衡、牛顿运动定律的应用、平抛运动\n【名师点睛】此题是带电粒子在复合场中的运动问题，主要考察物体的平衡、牛顿运动定律的应用、平抛运\n动等知识；关键是要知道物体做匀速直线运动时，物体所受的重力、洛伦兹力和电场力平衡；撤去磁场后粒\n子所受重力和电场力都是恒力，将做类平抛运动；知道了物体的运动性质才能选择合适的物理规律列出方程\n求解。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q012-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016天津理综.pdf#q13",
+      "content": "（20 分）电磁缓速器是应用于车辆上以提高运行安全性的辅助制动装置，\n其工作原理是利用电磁阻尼作用减缓车辆的速度。电磁阻尼作用可以借助如\n下模型讨论：如图所示，将形状相同的两根平行且足够长的铝条固定在光滑\n斜面上，斜面与水平方向夹角为θ。一质量为m 的条形磁铁滑入两铝条间，\n恰好匀速穿过，穿过时磁铁两端面与两铝条的间距始终保持恒定，其引起电\n磁感应的效果与磁铁不动、铝条相对磁铁运动相同。磁铁端面是边长为d 的\n正方形，由于磁铁距离铝条很近，磁铁端面正对两铝条区域的磁场均可视为\n匀强磁场，磁感应强度为B，铝条的高度大于d，电阻率为ρ。为研究问题方\n便，铝条中只考虑与磁铁正对部分的电阻和磁场，其他部分电阻和磁场可忽\n略不计，假设磁铁进入铝条间以后，减少的机械能完全转化为铝条的内能，\n重力加速度为g。\n（1）求铝条中与磁铁正对部分的电流I；\n（2）若两铝条的宽度均为b，推导磁铁匀速穿过铝条间时速度v 的表达式；\n（3）在其他条件不变的情况下，仅将两铝条更换为宽度b'＞b 的铝条，磁铁\n仍以速度v 进入铝条间，试简要分析说明磁铁在铝条间运动时的加速度和速度如何变化。",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：（1）磁铁在铝条间运动时，两根铝条受到的安培力大小相等均为F 安，有\nF 安 = IdB①\n磁铁受到沿斜面向上的作用力为F，其大小有\nF = 2F 安②\n磁铁匀速运动时受力平衡，则有F–mgsin θ = 0③\n联立①②③式可得I =\nsin\n2\nmg\nBd\n\n④\n10 / 10\n（2）磁铁穿过铝条时，在铝条中产生的感应电动势为E，有E = Bdv⑤\n铝条与磁铁正对部分的电阻为R，由电阻定律有R = ρ\nd\ndb ⑥\n由欧姆定律有I =\nE\nR ⑦\n联立④⑤⑥⑦式可得 v =\n2\n2\nsin\n2\nmg\nB d b\n\n\n⑧\n（3）磁铁以速度v 进入铝条间，恰好做匀速运动时，磁铁受到沿斜面向上的作用力F，联立①②⑤⑥⑦式\n可得F = 2B2d2bv\nρ\n⑨\n当铝条的宽度bʹ＞b 时，磁铁以速度v 进入铝条间时，磁铁受到的作用力变为Fʹ，有Fʹ = 2B2d2bʹv\nρ\n可见，Fʹ＞F = mgsinθ，磁铁所受到的合力方向沿斜面向上，获得与运动方向相反的加速度，磁铁将减速下\n滑，此时加速度最大。之后，随着运动速度减小，Fʹ也随着减小，磁铁所受的合力也减小，由于磁铁加速度\n与所受到的合力成正比，磁铁的加速度逐渐减小。综上所述，磁铁做加速度逐渐减小的减速运动，直到Fʹ =\nmgsinθ 时，磁铁重新达到平衡状态，将再次以较小的速度匀速下滑。\n【考点定位】安培力、物体的平衡、电阻定律、欧姆定律\n【名师点睛】此题以电磁缓冲器为背景设置题目，综合考查了安培力、物体的平衡、电阻定律及欧姆定律等\n知识点，要求学生首先理解题意，抽象出物理模型，选择适当的物理规律列出方程求解；此题综合性较强，\n能较好地考查考生综合分析问题与解决问题的能力。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016天津理综.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q013-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a16b5ba07a3b788e-q013-p009-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 0,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

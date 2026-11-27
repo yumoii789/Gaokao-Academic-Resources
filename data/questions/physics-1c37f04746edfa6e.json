@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011上海.pdf",
   "name": "2011上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 18,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 33,
+    "answerBlocks": 26,
+    "sourceAnswers": 29,
+    "sourceAnalysis": 4,
+    "reviewCount": 29,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q01",
       "content": "电场线分布如图所示，电场中 a，b 两点的电场强度大小分别为已知\nEa 和 Eb，电势分别为 φa 和 φb，则（    ）\n（A）Ea > Eb，φa > φb\n（B）Ea > Eb，φa < φb\n（C）Ea < Eb，φa > φb\n（D）Ea < Eb，φa < φb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q02",
       "content": "卢瑟福利用α 粒子轰击金箔的实验研究原子结构，正确反映实验结果的示意图是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -56,22 +77,37 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q03",
       "content": "用一束紫外线照射某金属时不能产生光电效应，可能使该金属产生光电效应的措施是\n（    ）\n（A）改用频率更小的紫外线照射\n（B）改用X 射线照射\n（C）改用强度更大的原紫外线照射\n（D）延长原紫外线的照射时间",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -79,22 +115,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q04",
       "content": "如图，一定量的理想气体从状态a 沿直线变化到状态b，在此过程中，\n其压强（    ）\n（A）逐渐增大\n（B）逐渐减小\n（C）始终不变\n（D）先增大后减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -102,22 +144,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q05",
       "content": "两个相同的单摆静止于平衡位置，使摆球分别以水平初速 v1、v2（v1 > v2）在竖直平面\n内做小角度摆动，它们的频率与振幅分别为f1、f2 和A1、A2，则（    ）\n（A）f1 > f2，A1 = A2\n（B）f1 < f2，A1 = A2\n（C）f1 = f2，A1 > A2\n（D）f1 = f2，A1 < A2\na\nb\nO\nV\nT\na\nb\nA\nB\nC\nD",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -125,22 +177,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q06",
       "content": "右表是某逻辑电路的真值表，该电路是（     ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -148,22 +206,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q07",
       "content": "在存放放射性元素时，若把放射性元素①置于大量水中；②密封于铅盒中；③与轻核元\n素结合成化合物，则（    ）\n（A）措施①可减缓放射性元素衰变\n（B）措施②可减缓放射性元素衰变\n（C）措施③可减缓放射性元素衰变\n（D）上述措施均无法减缓放射性元素衰变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -171,22 +235,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q08",
       "content": "某种气体在不同温度下的气体分子速率分布曲线如图所示，图中\nf(v)表示v 处单位速率区间内的分子数百分率，所对应的温度分别为\nTⅠ，TⅡ，TⅢ，则（    ）\n（A）TⅠ > TⅡ > TⅢ\n（B）TⅢ > TⅡ > TⅠ\n（C）TⅡ > TⅠ，TⅡ > TⅢ\n（D）TⅠ = TⅡ = TⅢ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -194,22 +264,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q09",
       "content": "天然放射性元素放出的三种射线的穿透能力实验结果如图所示，由\n此可推知（     ）\n（A）②来自于原子核外的电子\n（B）①的电离作用最强，是一种电磁波\n（C）③的电离作用较强，是一种电磁波\n（D）③的电离作用最弱，属于原子核内释放的光子",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -217,22 +297,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q10",
       "content": "两波源 S1、S2 在水槽中形成的波形如图所示，其中实\n线表示波峰，虚线表示波谷，则（    ）\n（A）在两波相遇的区域中会产生干涉\n（B）在两波相遇的区域中不会产生干涉\n（C）a 点的振动始终加强\n（D）a 点的振动始终减弱",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -240,22 +330,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q010-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q11",
       "content": "如图，人沿平直的河岸以速度v 行走，且通过不可伸长的绳拖船，\n船沿绳的方向行进，此过程中绳始终与水面平行。当绳与河岸的夹角\n为α，船的速率为（     ）\n（A）vsinα\n（B）v\nsinα\n（C）vcosα\n（D）v\ncosα\n输入\n输出\n0\n0\n1\n0\n1\n1\n1\n0\n1\n1\n1\n0\n≥1\n&\n1\n≥1\n1\n&\nA\nB\nC\nD\nO\nf(v)\nv\nⅠ\nⅡ\nⅢ\n纸\n铝\n铅\n三种射线\n①\n②\n③\na\nS1\nS2\n船\n俯视图\n人\nv\n岸\n河\nα",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -263,22 +363,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q011-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q011-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q12",
       "content": "如图所示电路中，闭合电键S，当滑动变阻器的滑动触头P 从最高端向下\n滑动时，（       ）\n（A）电压表V 读数先变大后变小，电流表A 读数变大\n（B）电压表V 读数先变小后变大，电流表A 读数变小\n（C）电压表V 读数先变大后变小，电流表A 读数先变小后变大\n（D）电压表V 读数先变小后变大，电流表A 读数先变大后变小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -286,22 +396,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q012-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q13",
       "content": "如图，均匀带正电的绝缘圆环a 与金属圆环b 同心共面放置，当a 绕O 点\n在其所在平面内旋转时，b 中产生顺时针方向的感应电流，且具有收缩趋势，由\n此可知，圆环a（     ）\n（A）顺时针加速旋转\n（B）顺时针减速旋转\n（C）逆时针加速旋转\n（D）逆时针减速旋转",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -309,22 +429,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q013-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q013-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q14",
       "content": "两个等量异种点电荷位于x 轴上，相对原点对称分布，正确描述电势φ 随位置x 变化规\n律的是图（     ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -332,22 +462,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q15",
       "content": "如图，一长为 L 的轻杆一端固定在光滑铰链上，另一端固定一质量\n为 m 的小球。一水平向右的拉力作用于杆的中点，使杆以角速度 ω 匀\n速转动，当杆与水平方向成 60° 时，拉力的功率为（    ）\n（A）mgLω\n（B）3\n2 mgLω\n（C）1\n2 mgLω （D）3\n6 mgLω",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -355,22 +491,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q015-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q16",
       "content": "如图，在水平面上的箱子内，带异种电荷的小球 a、b 用绝缘细线\n分别系于上、下两边，处于静止状态。地面受到的压力为 N，球 b 所受\n细线的拉力为 F。剪断连接球 b 的细线后，在球 b 上升过程中地面受\n到的压力（     ）\n（A）小于 N\n（B）等于 N\n（C）等于 N + F\n（D）大于 N + F\nφ\nx\nO\nφ\nx\nO\nφ\nx\nO\nφ\nx\nO\nA\nB\nC\nD\na\nb\nO\nIb\n60°\nF\nω\nV\nA\nP\nR\nE,r\nS\na\nb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -378,22 +528,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q016-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q016-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q17",
       "content": "用极微弱的可见光做双缝干涉\n实验，随着时间的增加，在屏上先后\n出现如图（a）、（b）、（c）所示的图\n像，则（     ）\n（A）图像（a）表明光具有粒子性\n（B）图像（c）表明光具有波动性\n（C）用紫外光观察不到类似的图像\n（D）实验表明光是一种概率波",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "ABD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -401,22 +561,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q017-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q017-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q18",
       "content": "如图，质量为m、长为L 的直导线用两绝缘细线悬挂于O、Oʹ，\n并处于匀强磁场中。当导线中通以沿x 正方向的电流I，且导线保持\n静止时，悬线与竖直方向夹角为θ。则磁感应强度方向和大小可能为\n（     ）\n（A）z 正向，mg\nIL tanθ\n（B）y 正向，mg\nIL\n（C）z 负向，mg\nIL tanθ\n（D）沿悬线向上，mg\nIL sinθ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -424,22 +594,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q018-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q018-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q19",
       "content": "受水平外力F 作用的物体，在粗糙水平面上作直线运动，其 v−t 图\n线如图所示，则（     ）\n（A）在0 ~ t1 秒内，外力F 大小不断增大\n（B）在t1 时刻，外力F 为零\n（C）在t1 ~ t2 秒内，外力F 大小可能不断减小\n（D）在t1 ~ t2 秒内，外力F 大小可能先减小后增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "CD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -447,22 +627,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q019-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q019-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q20",
       "content": "如图，磁场垂直于纸面，磁感应强度在竖直方向均匀分布，水平方\n向非均匀分布。一铜制圆环用丝线悬挂于O 点，将圆环拉至位置a 后无\n初速释放，在圆环从a 摆向b 的过程中（     ）\n（A）感应电流方向先逆时针后顺时针再逆时针\n（B）感应电流方向一直是逆时针\n（C）安培力方向始终与速度方向相反\n（D）安培力方向始终沿水平方向\nI\nO\nO′\nz\ny\nx\nθ\nθ\n（a）\n（b）\n（c）\nO\nt1\nv\nt2\nt\na\nb\nO\n第Ⅱ卷（共94分）\n考生注意：\n1．第II卷（21-33题）由人工阅卷。考生应用蓝色或黑色的钢笔或圆珠笔将第ll卷所有试题\n的答案写在试卷上，用铅笔答题或将答案涂写在答题卡上一律不给分（作图可用铅笔）。\n2．第30、31、32、33题要求写出必要的文字说明、方程式和重要的演算步骤。只写出最后\n答案，而未写出主要演算过程的，不能得分。有关物理量的数值计算问题，答案中必须明\n确写出数值和单位。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -470,22 +660,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q020-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q020-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q21",
       "content": "如图，当用激光照射直径小于激光束的不透明圆盘时，在圆盘后屏\n上的阴影中心出现了一个亮斑。这是光的_______（填“干涉”、“衍射”\n或“直线传播”）现象，这一实验支持了光的_________（填“波动说”、\n“微粒说”或“光子说”）。\n22A、22B选做一题\n═══════════════════════════════════════════════════════",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "衍射，波动说\n22A．守恒，不守恒\n22B．增大，增大",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -493,22 +693,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q021-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q021-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q22",
       "content": "A.光滑水平面上两小球a、b 用不可伸长的松弛细绳相连。开始时a 球静止，b 球以一定\n速度运动直至绳被拉紧，然后两球一起运动，在此过程中两球的总动量_______（填“守恒”\n或“不守恒”）；机械能_________（填“守恒”或“不守恒”）。\n22．B．人造地球卫星在运行过程中由于受到微小的阻力，轨道半径将缓慢减小。在此运动\n过程中，卫星所受万有引力大小将_________（填“减小”或“增大”）；其动能将________\n（填“减小”或“增大”）。\n═══════════════════════════════════════════════════════",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -516,22 +726,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q23",
       "content": "如图，在竖直向下，场强为E 的匀强电场中，长为l 的绝缘轻杆可绕\n固定轴O 在竖直面内无摩擦转动，两个小球 A、B 固定于杆的两端，A、\nB 的质量分别为 m1 和 m2（m1 < m2），A 带负电，电量为 q1，B 带正电，\n电量为 q2。杆从静止开始由水平位置转到竖直位置，在此过程中电场力做\n功为_______________，在竖直位置处两球的总动能为__________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（q1 + q2）El\n2\n，（q1 + q2）El + （m2 − m1）gl\n2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -539,22 +755,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q023-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q023-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q24",
       "content": "两列简谐波沿x 轴相向而行，\n波速均为 v = 0.4 m/s，两波源分别\n位于 A、B 处，t = 0 时的波形如图\n所示。当 t = 2.5 s 时，M 点的位移\n为_______cm ，N 点的位移为\n_____cm。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "2，0",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -562,22 +788,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q024-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q024-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q25",
       "content": "以初速为 v0，射程为 s 的平抛运动轨迹制成一光滑轨道。一物体由静止开始从轨道顶\nl/2\nA\nB\nO\nA\n2.0\n− 2.0\ny/cm\nv\nB\n1.0\nM\nN\n0.5\nv\nx/m\nO\n端滑下，当其到达轨道底部时，物体的速率为_______，其水平方向的速度大小为________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "gs\nv0 ，\nv0\n1 + \n\n\n\nv02\ngs\n2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -585,22 +821,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q26",
       "content": "（5 分）如图，为测量作匀加速直线运动小车的加速度，将宽度均为b 的挡光片A、B\n固定在小车上，测得二者间距为d。\n（1）当小车匀加速经过光电门时，测得两挡光片先后经过的时间Δt1 和Δt2，则小车加速度\na = ______________。\n（2）（多选题）为减小实验误差，可采取的方法是（    ）\n（A）增大两挡光片宽度b\n（B）减小两挡光片宽度b\n（C）增大两挡光片间距d\n（D）减小两挡光片间距d",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）b2\n2d [\n1\n(Δt2)2 −\n1\n(Δt1)2 ]\n（2）BC（3 分）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -608,22 +850,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 26,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q026-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q026-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q27",
       "content": "（5 分）在“用单分子油膜估测分子大小”实验中，\n（1）某同学操作步骤如下：\n①取一定量的无水酒精和油酸，制成一定浓度的油酸酒精溶液；\n②在量筒中滴入一滴该溶液，测出它的体积；\n③在蒸发皿内盛一定量的水，再滴入一滴油酸酒精溶液，待其散开稳定；\n④在蒸发皿上覆盖透明玻璃，描出油膜形状，用透明方格纸测量油膜的面积。\n改正其中的错误：______________________________________________________________。\n（2）若油酸酒精溶液体积浓度为0.10%，一滴溶液的体积为4.8×10−3 ml，其形成的油膜面\n积为40 cm2，则估测出油酸分子的直径为________m。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）②在量筒中滴入 N 滴溶液\n（1 分）\n③在水面上先撒上痱子粉\n（1 分）\n（2）1.2×10−9\n（3 分）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -631,22 +883,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 27,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q28",
       "content": "（5 分）在“研究回路中感应电动势大小与磁通量变化快慢的关系”实验（见图（a））\n中，得到E − 1\nΔt 图线如图（b）所示。\n（1）（多选题）在实验中需保持不变的是（    ）\n（A）挡光片的宽度\n（B）小车的释放位置\n（C）导轨倾斜的角度\n（D）光电门的位置\n（2）线圈匝数增加一倍后重做该实验，在图（b）中画出实验图线。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）AD（3 分）\n（2）见图（2 分）\nE\n1/Δt\nO",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -654,22 +912,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 28,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q028-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q028-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q028-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q29",
       "content": "（9 分）实际电流表有内阻，可等效为理想电流表与电阻的串联。测\n量实际电流表G1 内阻r1 的电路如图所示。供选择的仪器如下：\n①待测电流表G1（0 ~ 5 mA，内阻约300 Ω），②电流表G2（0 ~ 10 mA，\n内阻约100 Ω），③定值电阻R1（300 Ω），④定值电阻R2（10 Ω），滑动变\n阻器R3（0 ~ 1000 Ω），⑤滑动变阻器R4（0 ~ 20 Ω），⑥干电池（1.5 V），\n⑦电键S 及导线若干。\n光电门\n螺线管\n电压传感器\n支架\n挡光片\n磁铁\n（a）\n（b）\nE\n1/Δt\nO\nA\nB\nd\nb\nb\nG1\nG2\nP\nS\n（1）定值电阻应选_______，滑动变阻器应选_________。（在空格内填写序号）\n（2）用连线连接实物图。\n（3）补全实验步骤：\n①按电路图连接电路，_____________________；\n②闭合电键S，移动滑动触头至某一位置，记录G1，G2 的读数I1，I2；\n③____________________________________；\n④以I2 为纵坐标，I1 为横坐标，作出相应图线，如图所示。\n（4）根据I2 − I1 图线的斜率k 及定值电阻，写出待测电流表内阻的\n表达式________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）③，⑥\n（各1 分）\n（2）见图（2 分）\n（3）① 将滑动触头移至最左端（写最小给分，最大不给分）\n（1 分）\n③ 多次移动滑动触头，记录相应的 G1，G2 读数 I1，I2。（1 分）\n（4）r1 = （k − 1）R1\n（3 分）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -677,22 +946,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 29,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p007-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p007-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q029-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q30",
       "content": "（10 分）如图，绝热气缸 A 与导热气缸 B 均固定于地\n面，由刚性杆连接的绝热活塞与两气缸间均无摩擦。两气缸\n内装有处于平衡状态的理想气体，开始时体积均为 V0、温度\n均为 T0。缓慢加热 A 中气体，停止加热达到稳定后，A 中\n气体压强为原来的 1.2 倍。设环境温度始终保持不变，求气缸 A 中气体的体积 VA 和\n温度 TA。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（10 分）\n设初态压强为p0，膨胀后A，B 压强相等，有\npB = 1.2p0\n（1 分）\nB 中气体始末状态温度相等，由玻意耳定律得\np0V0 = 1.2p0（2V0 − VA）\n（3 分）\nVA = 7\n6 V0\n（1 分）\nA 部分气体满足\np0V0\nT0 = 1.2p0VA\nTA\n（4 分）\n解得 TA = 1.4T0\n（1 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -700,22 +983,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 30,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q030-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q030-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q31",
       "content": "（12 分）如图，质量m = 2 kg 的物体静止于水平地\n面的A 处，A、B 间距L = 20 m。用大小为30 N，沿水\n平方向的外力拉此物体，经t0 = 2s 拉至B 处。（已知\ncos37° = 0.8，sin37° = 0.6。取g = 10 m/s2）\n（1）求物体与地面间的动摩擦因数μ；\n（2）用大小为30 N，与水平方向成37°的力斜向上拉此物体，使物体从A 处由静止开始运\n动并能到达B 处，求该力作用的最短时间t。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（12 分）\n（1）物体做匀加速运动，由运动学公式得\nL = 1\n2 at02\n（1 分）\n解得 a = 2L\nt02 = 2×20\n22 m/s2 = 10 m/s2\n（1 分）\n由牛顿第二定律\nF − f = ma\n（1 分）\n解得 f =（30 − 2×10）N = 10 N\n（1 分）\n故 μ = f\nmg = 10\n2×10 = 0.5\n（1 分）\n（2）设F 作用的最短时间为t，小车先以大小为a 的加速度匀加速t 秒，撤去外力后，以大\n小为aʹ，的加速度匀减速tʹ秒到达B 处，速度恰为0，由牛顿定律\nmA\nmA\n待测电流表\nFcos37° − μ（mg − Fsin37°） = ma\n（1 分）\n解得 a = F（cos37° + μsin37°）\nm\n − μg = （30×（0.8 + 0.5×0.6）\n2\n − 0.5×10）m/s2 = 11.5 m/s2\n（1 分）\naʹ = f\nm = μg = 5 m/s2\n（1 分）\n由于匀加速阶段的末速度即为匀减速阶段的初速度，因此有\nat = aʹtʹ\n（1 分）\n解得 tʹ = a\naʹ t = 11.5\n5 t = 2.3t\n（1 分）\n又 L = 1\n2 at2 + 1\n2 aʹtʹ2\n（1 分）\n解得 t =\n2L\na + 2.32aʹ  =\n2×20\n11.5 + 2.32×5 s = 1.03 s\n（1 分）\n（2）另解：设力F 作用的最短时间为t，相应的位移为s，物体到达B 处速度恰为0，由动\n能定理\n［Fcos37° − μ（mg − Fsin37°）］s − μmg（L − s） = 0\n（2 分）\n解得 s =\nμmgL\nF（cos37° + μsin37°） =\n0.5×2×10×20\n30×（0.8 + 0.5×0.6） m = 6.06 m\n（1 分）\n由牛顿定律\nFcos37° − μ（mg − Fsin37°） = ma\n（1 分）\n解得 a = F（cos37° + μsin37°）\nm\n − μg = （30×（0.8 + 0.5×0.6）\n2\n − 0.5×10）m/s2 = 11.5 m/s2\n又 s = 1\n2 at2\n（1 分）\n解得 t =\n2s\na =\n2×6.06\n11.5 s = 1.03 s\n（1 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -723,22 +1014,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 31,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q031-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q031-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q32",
       "content": "（14 分）电阻可忽略的光滑平行金属导轨长 s = 1.15 m，\n两导轨间距 L = 0.75 m，导轨倾角为 30°，导轨上端 ab 接\n一阻值 R = 1.5 Ω 的电阻，磁感应强度 B = 0.8 T 的匀强磁\n场垂直轨道平面向上。阻值 r = 0.5 Ω，质量 m = 0.2 kg 的金\n属棒与轨道垂直且接触良好，从轨道上端 ab 处由静止开始\n下滑至底端，在此过程中金属棒产生的焦耳热 Qr = 0.1 J。\n（取\nmA\nmA\n待测电流表\na\nB\n30°\nb\nR\nA\nB\nL\nm\nI1\nI2\nO\nA\nB\ng = 10m/s2）求：\n（1）金属棒在此过程中克服安培力的功 W 安；\n（2）金属棒下滑速度 v = 2 m/s 时的加速度 a；\n（3）为求金属棒下滑的最大速度 vm，有同学解答如下：由动能定理 W\n重 − W\n安 = 1\n2\nmvm2，……。由此所得结果是否正确？若正确，说明理由并完成本小题；若不正确，给出正\n确的解答。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（14 分）\n（1）下滑过程中安培力的功即为在电阻上产生的焦耳热，由于 R = 3r，因此\nQR = 3Qr = 0.3 J\n（1 分）\n故 W 安 = Q = QR + Qr = 0.4 J\n（2 分）\n（2）金属棒下滑时受重力和安培力\nF 安 = BIL = B2L2v\nR + r\n（1 分）\n由牛顿第二定律 mgsin30° − B2L2v\nR + r  = ma\n（3 分）\n解得 a = gsin30° −\nB2L2v\nm（R + r）  = （10×0.5 −\n0.82×0.752×2\n0.2×（1.5 + 0.5） ）m/s2 = 3.2 m/s2\n（2\n分）\n（3）此解法正确。\n（1 分）\n金属棒下滑时受重力和安培力作用，其运动满足\nmgsin30° − B2L2v\nR + r = ma\n上式表明，加速度随速度增加而减小，棒作加速度减小的加速运动。无论最终是否达到匀速，\n当棒到达斜面底端时速度一定为最大。由动能定理可以得到棒的末速度，因此上述解法正确。\n（2 分）\nmgssin30° − Q = 1\n2 mvm2\n（1 分）\n解得 vm =\n2gssin30° − 2Q\nm  =\n2×10×1.15×0.5 − 2×0.4\n0.2 m/s = 2.74 m/s\n（1 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -746,22 +1045,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 32,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q032-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q032-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011上海.pdf#q33",
       "content": "（14 分）如图（a），磁铁A、B 的同名磁极相对放置，\n置于水平气垫导轨上。A 固定于导轨左端，B 的质量m = 0.5\nkg，可在导轨上无摩擦滑动。将B 在A 附近某一位置由静\n止释放，由于能量守恒，可通过测量B 在不同位置处的速\n度，得到B 的势能随位置x 的变化规律，见图（c）中曲线\nⅠ。若将导轨右端抬高，使其与水平面成一定角度（如图（b）\n所示），则B 的总势能曲线如图（c）中 Ⅱ 所示，将B 在x\n= 20 cm 处由静止释放，求：（解答时必须写出必要的推断说\n明。取g = 9.8 m/s2）\n（1）B 在运动过程中动能最大的位置；\n（2）运动过程中B 的最大速度和最大位移。\n（3）图（c）中直线 Ⅲ 为曲线 Ⅱ 的渐近线，求导轨的倾角。\n（4）若A、B 异名磁极相对放置，导轨的倾角不变，在图（c）上画出B 的总势能随x 的变\n化曲线。\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\nO\n5.0\n10.0\n15.0\n20.0\nx/cm\nE/J\n（c）\nⅠ\nⅢ\nⅡ\n导轨\nx\nA B\n（a）\n导轨\nx\nA\nB\n（b）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（14 分）\n（1）由能量守恒知，势能最小处动能最大\n（1 分）\n由图线 Ⅱ 得 x = 6.1 cm（在5.9 ~ 6.3 cm 间均视为正确）。\n（2 分）\n（2）由图读得释放处势能Ep = 0.90 J，此即 B 的总能量。\n由于运动中总能量守恒，因此在势能最小处动能最大，由图像得最小势能为0.47 J，则最大\n动能为\nEkm = 0.9 − 0.47 = 0.43 J\n（2 分）\n（Ekm 在0.42 ~ 0.44 J 间均视为正确）\n最大速度为\nvm =\n2Ekm\nm =\n2×0.43\n0.5\n m/s = 1.31 m/s\n（1 分）\n（vm 在1.29 ~ 1.33 m/s 间均视为正确）\nx = 20.0 cm 处的总能量为0.90 J，最大位移由E = 0.90 J 的水平直线与曲线II 的左侧交点确\n定，由图中读出交点位置为x = 2.0 cm，因此，最大位移\nΔx = 20.0 − 2.0 = 18.0 cm\n（2 分）\n（Δx 在17.9 ~ 18.1 cm 间均视为正确）\n（3）渐近线 Ⅲ 表示 B 的重力势能随位置变化关系，即\nEpg = mgxsinθ = kx\n（2 分）\n解得 sinθ = k\nmg\n由图读出直线斜率为\nk = 0.85 − 0.30\n20.0 − 7.0 = 4.23×10−2 J/cm\nθ = sin−1（k×102\nmg ）= sin−1（4.23\n0.5×9.8 ） = 59.7°\n（1 分）\n（θ 在 59° ~ 61° 间均视为正确）\n（4）若异名磁极相对放置，A，B 间相互作用势能为负值，总势能如图。\n（2 分）\n中 ar\n“D5ILzELdLz:E\n“LUELzELLzE\nTT\nof ERAN EEENY Ze” ciuny\nEE\nMTNA\nCNA TT\nbzzEySE-FT\nE\n解析\n1．C",
+      "analysis": "电场线的疏密程度表示场强大小，沿电场线的方向电势逐渐降低，故C 正确.\n2．D\n由原子核式结构，结合𝛼粒子散射实验的现象分析：绝大部分𝛼粒子穿过金箔\n后速度方向不改变，只有少数离核较近的粒子发生了较大角度的偏转(离核越近，偏转角越\n大)，极少数正对着金原子核的𝛼粒子被弹回，故D 正确.\n3．B\n每种金属都有极限频率，只有入射光的频率大于金属的极限频率时才能产生光\n电效应，是否发生光电效应与光照强度、光照时间无关，故B 正确.\n4．A\n过𝑎点和𝑏点分别画岀等压线如图所示，从图中可以看出𝑝𝑎< 𝑝𝑏，故A 正确.\n5．C\n两单摆做小角度振动，由𝑇= 2π√\n𝐿\n𝑔可知，两单摆摆长相同，故周期和频率都相同；\n由机械能守恒知，在最低点水平速率越大，向上振动得越高，振幅越大，故C 正确.\n6．D\n从真值表可以看出，此逻辑电路为“与非”门电路，故D 正确.\n7．D\n放射性元素的衰变是从原子核内部发生的，任何物理的、化学的因素都不能改变放\n射性元素的衰变快慢，故D 正确.\n8．B\n气体分子的平均速率随温度的升高而增大，表现出“中间多两头小”的规律，但随着\n温度的升高，𝑓(𝑣)的最大值向速率大的方向移动，故B 正确.\n9．D\n从图中所示三种射线的穿透能力看出，①为𝛼射线，②为𝛽射线；③为𝛾射线.𝛽射\n线是从原子核变化产生的，实质是一个中子衰变成质子放出的高速电子流；𝛼射线实质上是\n氦核流，电离作用最强；𝛾射线为波长很短的电磁波，电离作用很弱，穿透能力最强，故D\n项正确.\n10．B\n波在同种均匀介质中的波速相等，由波长、频率和波速的关系𝑣= 𝜆𝑓知，由于两列\n波的波长不同，故频率不同，所以不能产生干涉现象，故B 正确.\n11．C\n将人的速度分解为垂直于绳的分速度𝑣1和沿绳方向的分速度𝑣2，其中沿绳方向速度\n以大小等于船的速度，即等于𝑣cos𝛼，故C 正确.\n12．A\n滑动变阻器下部电阻𝑅1与上部电阻𝑅2并联.当滑片𝑃下滑时，𝑅2增大，𝑅1减小，电路\n中的总电阻先变大后变小，电压表测路端电压，电压表示数先变大后变小.当滑片𝑃下滑时，\n电流表先测通过𝑅1的电流，电流表示数由零变大，𝑅1为零时，电流表测干路电流，示数最大，\n故A 正确.\n13．B\n𝑏有收缩趋势说明𝑎环中电流在减小，转速减慢，使得穿过𝑏环的磁通量减小，所以\n𝑏环中感应电流的方向与𝑎环方向相同，故B 正确.\n14．A\n画出等量异种点电荷周围电场线如图所示，其中虚线所示的中垂线为等势线.由于\n沿电场线方向电势逐渐降低，且连线的中点与无限远处等势，故A 正确.\n15．C\n轻杆中点速度大小为𝑣=\n1\n2 𝜔𝐿①；由有固定转动轴的物体的平衡条件得\n𝑚𝑔𝐿cos60° = 𝐹·\n1\n2 𝐿sin60°②；拉力的功率𝑃= 𝐹𝑣cos30°③,由①②③得𝑃=\n1\n2 𝑚𝑔𝐿𝜔，故C\n正确.\n16．D\n剪断细线前，系统处于静止状态，压力 N 等于系统的总重力，即 N = Mg + mag\n+ mbg；剪断连接球 b 的细线后，b 球向上做加速运动，系统处于超重状态，压力大于总\n重力，故 AB 错误；\n再选 a 和箱为研究对象，箱子受到的支持力 Nʹ = Mg + mag + F 库，其中 F 库 为 b 球对 a\n球的库仑力。因为平衡时 F 库 = mbg + F，而球 b 加速上升过程中，随着两球距离的减\n小，F 库ʹ > F 库 = mbg + F，故 Nʹ > Mg + mag + mbg + F = N + F，故 D 正确。\n17．ACD\n照射时间短时，在光屏上显示出一些亮点，说明光子表现出粒子性；当照射时间比\n较长时，单个光子到达屏的位置虽然是不确定的，但大量光子到达光屏上的位置服从统计规\n律，表明大量光子表现岀波动性，说明光是一种概率波，故ABD 正确.\n18．BC\n由左手定则先判断各种情况下安培力的方向，看是否平衡，若平衡再由平衡条件求\n解𝐵的大小.若磁感应强度𝐵沿𝑧正向，安培力方向向左，不可能平衡，故A 错误；若𝐵沿𝑦正\n向，安培力方向竖直向上，可以平衡，由平衡条件得𝐵𝐼𝐿= 𝑚𝑔，可得𝐵=\n𝑚𝑔\n𝐼𝐿，故B 正确；\n若𝐵沿𝑧负向，安培力方向水平向右，受力分析如图所示，则有𝑚𝑔tan𝜃= 𝐵𝐼𝐿，可得𝐵=\n𝑚𝑔\n𝐼𝐿tan𝜃，故C 正确；若𝐵沿悬线向上则安培力方向斜向左下，不能平衡，故D 错误.\n19．CD\n从𝑣−𝑡图象可以看出，加速度先为正，大小减小；后为负，大小增大.𝑡1时刻加速度\n为0.由牛顿第二定律可知，𝑡1时刻合外力为零，故B 错误；在0~𝑡1秒内，𝐹−𝑓= 𝑚𝑎，𝑎减\n小，𝐹减小，故A 错误；在𝑡1~𝑡2秒内，当外力𝐹与阻力𝑓方向相反时，𝑓−𝐹= 𝑚𝑎，𝑎增大，\n外力𝐹减小；当外力𝐹与阻力𝑓方向相同时，𝑓+ 𝐹= 𝑚𝑎，𝑎增大，外力𝐹增大，故CD 正确.\n20．AD\n本题磁场的特点是靠近中心线磁场较强，而两侧磁场较弱.圆环从𝑎摆向𝑏的过程中，\n磁感线先是向里增多，感应电流的方向是逆时针；然后是向里减少，向外增多，感应电流的\n方向是顺时针；再后是向外减小，感应电流的方向是逆时针.由于上、下半圆受到安培力大小\n相等，所以只需分析左、右半圆受到的安培力即可.安培力总是阻碍导圆环由左向右运动，故\n方向水平向左,故AD 正确.\n21．衍射;波动说.\n22A.\n守恒;不守恒.\n两球相互作用的过程满足动量定律的条件−系统受到的合外力为零；但不\n满足机械能守恒定律的条件，因为在绳被拉紧的短暂过程中，机械能有损失转化为内能(这\n类似于完全非弹性碰撞).\n22B.\n增大;增大.\n由万有引力定律𝐹= 𝐺\n𝑀𝑚\n𝑟2 知，随着卫星距地心的距离逐渐减小，引力将增\n大；由于轨道半径逐渐减小，故每一状态都可以看成是圆周运动，由𝐺\n𝑀𝑚\n𝑟2 = 𝑚\n𝑣2\n𝑟得𝐸k =\n1\n2 𝑚𝑣2 =\n𝐺𝑀\n2𝑟，所以随着𝑟的减小，动能将增大.\n23.\n(𝑞1+𝑞2)𝐸𝑙\n2\n;\n[(𝑞1+𝑞2)𝐸+(𝑚2−𝑚1)𝑔]𝑙\n2\n.\n𝐴球受到的电场力方向向上、𝐵球受到的电场力方向向下，电场力对两球均\n做正功，电场力做的总功𝑊= 𝑞1𝐸·\n𝐿\n2 + 𝑞2𝐸·\n𝐿\n2 =\n(𝑞1+𝑞2)𝐸𝐿\n2\n，两球从静止开始运动，故两球的\n总动能等于合外力对系统做的功Δ𝐸k =\n(𝑞1+𝑞2)𝐸𝐿\n2\n+ 𝑚2𝑔\n𝐿\n2 −𝑚1𝑔\n𝐿\n2 =\n[(𝑞1+𝑞2)𝐸+(𝑚2−𝑚1)𝑔]𝐿\n2\n.\n24.\n2；0.\n从图中可以看出，两列波的振幅均为2cm，由𝑣=\n𝜆\n𝑇可知，𝐴波的周期𝑇𝐴=\n0.5s，𝐵波的周期𝑇𝐵= 1s.则经过2.5s的时间，𝐴波向右传播了5 个周期，𝐵波向左传播2.5个\n周期，作出波形图知，两列波在𝑁点均处于平衡位置，𝐴波在𝑀点处的质点处于平衡位置，𝐵\n波位于波峰位置，故𝑀点位移为2cm，𝑁点位移为0.\n25．gs\nv0 ，\nv0\n1 + \n\n\n\nv02\ngs\n2 .\n由平抛运动的规律可得轨道高度为 h = 1\n2 g\n\n\n\ns\nv0\n2\n = gs2\n2v02 。物体从轨道顶端由静止\n滑到底部时，由机械能守恒定律得 mgh = 1\n2 mv2，得 v = gs\nv0 。\n设速度方向与水平方向的夹角为 θ，由平抛运动的规律可得 tanθ = vy\nvx =\n2gh\nv0 = gs\nv02 ；而\n物块落到轨道底部时水平分速度 vx = vcosθ，解得 vx =\nv0\n1 + \n\n\n\nv02\ngs\n2 。\n26．(1)\n𝑏2\n2𝑑[\n1\n(Δ𝑡2)2 −\n1\n(Δ𝑡1)2]；(2)BC.\n(1)物块通过两光电门的速度分别为𝑣𝑎=\n𝑏\nΔ𝑡1，𝑣𝑏=\n𝑏\nΔ𝑡2，由𝑣𝑏\n2 −𝑣𝑎\n2 = 2𝑎𝑑得𝑎=\n𝑏2\n2𝑑[\n1\n(Δ𝑡2)2 −\n1\n(Δ𝑡1)2].\n(2)本实验测速度的原理是用挡光片通过光电门时的平均速度代替瞬时速度，所以挡\n光片通过光电门的时间越短，即宽度越小，误差越小；另外两挡光片间的距离越大，误差越\n小，故BC 正确.\n27．(1)②在量筒中滴入𝑁滴溶液；③在水面上先撒上痱子粉；\n(2)1.2 × 10−9.\n(2)一滴溶液含油酸的体积𝑉= 4.8 × 10−3mL × 0.10% = 4.8 × 10−6mL,由\n𝑉= 𝑆𝑑可得，油酸的直径𝑑=\n𝑉\n𝑆= 1.2 × 10−9m.\n28.\n(1)AD；(2)如图所示.\n(1)由法拉第电磁感应定律知𝐸= 𝑛\nΔ𝛷\nΔ𝑡，从图象中可以看出𝐸∝\n1\nΔ𝑡，说明实\n验中控制Δ𝛷不变，所以应保持光电门的位置和挡光片的宽度不变，故AD 正确；\n(2)𝐸−\n1\nΔ𝑡的斜率等于𝑛Δ𝛷，在Δ𝛷不变时，若𝑛增加一倍，则斜率增加一倍，图线见答\n图.\n29.\n(1)③；⑥；(2)如图所示；\n(3)①将滑动触头移至最左端(写最小也正确)；③多次移动滑动触头，记录\n相应的G1，G2读数𝐼1，𝐼2；\n(4)𝑟1 = (𝑘−1)𝑅1.\n(1)由实验原理图，待测电阻𝑟1 =\n𝐼2−𝐼1\n𝐼1 𝑅，因为两电表的量程之差与待测电表的量程\n相当，所以与G1并联的定值电阻的阻值与𝑟1差不多，约为300Ω，故定值电阻选𝑅1；滑动变阻\n器用的是分压式接法，应选用阻值较小的变阻器，选𝑅4.\n(4)由𝑟1 =\n𝐼2−𝐼1\n𝐼1 𝑅1 = (\n𝐼2\n𝐼1 −1) 𝑅1得𝑟1 = (𝑘−1)𝑅1.\n关注知识与能力、过程与方法\n1、试卷的总体情况\n试卷以2011 年上海市考试手册为依据，紧扣课程标准和教材内容，注重对中学物理教\n学形成良好的导向作用。以有助于高校选拔新生、有助于中学实施素质教育和对学生创新精\n神与实践能力的培养为指导思想，在考查学生高中物理基础知识和基本技能的基础上，重点\n考查了学生的物理思维能力、物理实验能力、综合分析和应用能力。\n试卷结构与2010 年相同。总题数为33 题，约4900 字，阅读量、计算量与去年相当。\n试卷注重对基本物理概念、物理思想和物理方法的考查，所涉及的知识点占《考试说明》中\n所列知识点的72%，试卷估计总体难度为0.69(103.04 分)，且有一定的梯度。难度适中的题\n目(在0.6―0.8 之间)共90 分(占60%)，难度系数大于0.8 的题目共34 分(占22%)，考察学生\n对基本知识、概念与方法的基础性考题共114 分(占76%)。\n2、试卷的主要特色\n试卷重点关注试题与科学、技术、社会、生活等主题的结合，关注新教材体现的教学思\n想、教学理念、教学方法的特点，把考查知识与能力、过程与方法、情感态度价值观渗透在\n试卷中。\n试卷的单选题考查的知识点分布较广，有力学、静电学、直流电、热学、光学、原子物\n理。在思维和分析能力的要求上也略高于去年。而填空题的难度略低于去年。今年的实验题\n仍然注意了对规定实验的考察，并且重点考察了学生是否亲手做过相应的实验，这样做的目\n的是为了促进在教学过程中对课程标准中规定的教学实验的重视，而非为应付考试而纸上谈\n兵。\n为了对今后中学物理教学有良好的导向作用，进一步重视教材在教学中的重要地位，今\n年物理试题继续保持了前两年对课本的重视程度。如第1、2、3、6、8、17、21、26、27、\n28 等题均来源于高中物理试用本教材的内容，其目的是希望高中物理教学或复习不要抛开\n课本而沉湎于题海之中。\n试卷中有相当一部分试题体现了对学生物理思维能力和分析、推理能力的考察，如第20、\n25、32 题。在学习高中物理时要求学生把物理模型、物理过程、物理规律以物理图象的形\n式，简单、直观、正确地展现出来，并能通过从图象中获取相关信息，还原、理解简单的甚\n至比较复杂的物理模型及所遵循的物理规律。有关这方面的能力在今年的试卷中得到比较充\n分的体现，如第19、24、28、33 题。命制这些试题的目的，旨在引导教师和学生重视教材，\n重视知识形成和发展的过程。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -769,11 +1076,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011上海.pdf",
         "page": 8,
+        "endPage": 8,
         "questionNumber": 33,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q033-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q033-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-1c37f04746edfa6e-q033-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 44,
+    "answerGraphics": 9,
+    "assigned": 35,
+    "rendered": 40,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 5
+  }
 }

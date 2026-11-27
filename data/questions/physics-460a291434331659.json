@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015北京理综.pdf",
   "name": "2015北京理综",
   "track": "standard",
@@ -15,110 +16,373 @@
   "textPages": 4,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 12,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015北京理综.pdf#q01",
-      "content": "80\n1.91\n重力加速度g/（m·s−2）",
+      "content": "下列说法正确的是（    ）\n（A）物体放出热量，其内能一定减小\n（B）物体对外做功，其内能一定减小\n（C）物体吸收热量，同时对外做功，其内能可能增加\n（D）物体放出热量，同时对外做功，其内能可能不变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
-        "page": 2,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q02",
-      "content": "74\n9.73\n图1\nO\nP1\nP2\na\nb\naʹ\nbʹ\nA\nR1\nR2\n1\n2\n3\n3 / 5\n请计算出第3 组实验中的T = _____s，g = ____m/s2。\n④用多组实验数据做出T2–L 图像，也可以求出重力加速度g。已知三位同学做出的\nT2–L 图线的示意图如图2 中的a、b、c 所示，其中a 和b 平行，b 和c 都过原点，\n图线b 对应的g 值最接近当地重力加速度的值。则相对于图线b，下列分析正确的\n是_____（选填选项前的字母）。\n（A）出现图线a 的原因可能是误将悬点到小球下端的距离记为摆长L\n（B）出现图线c 的原因可能是误将49 次全振动记为50 次\n（C）图线c 对应的g 值小于图线b 对应的g 值\n⑤某同学在家里测重力加速度。他找到细线和铁锁，制成一个单摆，如图 3 所示。\n由于家里只有一根量程为30 cm 的刻度尺，于是他在细线上的A 点做了一个标记，\n使得悬点O 到A 点间的细线长度小于刻度尺量程。保持该标记以下的细线长度不\n变，通过改变O、A 间细线长度以改变摆长。实验中，当O、A 间细线的长度分别\n为l1、l2 时，测得相应单摆的周期为T1、T2。由此可得重力加速度g = __________\n（用l1、l2、T1、T2 表示）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
-        "page": 2,
-        "questionNumber": 9,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q03",
-      "content": "（16 分）\n如图所示，足够长的平行光滑金属导轨水平放置，宽度L=0.4m，一端连接R=1Ω\n的电阻。导轨所在空间存在竖直向下的匀强磁场，磁感应强度B=1T。导体棒MN\n放在导轨上，其长度恰好等于导轨间距，与导轨接触良好。导轨和导体棒的电阻\n均可忽略不计。在平行于导轨的拉力F 作用下，导体棒沿导轨向右匀速运动，速\n度v=5m/s。求：\n（1）感应电动势E 和感应电流I；\n（2）在0.1s 时间内，拉力的冲量IF 的大小；\n（3）若将MN 换为电阻r=1Ω 的导体棒，其它条件不变，求导体棒两端的电压U。\n解：（1）由法拉第电磁感应定律可得，感应电动势E=BLv=1×0.4×5V=2V\n感应电流I=E\nR =2\n1 A=2A\n（2）拉力大小等于安培力大小F=BIL=1×2×0.4N=0.8N\n冲量大小IF=FΔt=0.8×0.1N·s=0.08N·s\n（3）由闭合电路欧姆定律可得，电路中电流Iʹ= E\nR＋r =2\n2 A=1A\n由欧姆定律可得，导体棒两端电压U=IʹR=1V",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
-        "page": 3,
-        "questionNumber": 22,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q04",
-      "content": "（18 分）\n如图所示，弹簧的一端固定，另一端连接一个物块，弹簧质量不计。\n物块（可视为质点）的质量为m，在水平桌面上沿x 轴运动，与桌\n面间的动摩擦因数为μ。以弹簧原长时物块的位置为坐标原点O，当\n弹簧的伸长量为x 时，物块所受弹簧弹力大小为F=kx，k 为常量。\n（1）请画出F 随x 变化的示意图；并根据F-x 图像求物块沿x 轴从\nO 点运动到位置x 的过程中弹力所做的功。\n（2）物块由x1 向右运动到x3，然后由x3 返回到x2，在这个过程中，\n（A）求弹力所做的功，并据此求弹性势能的变化量；\n（B）求滑动摩擦力所做的功；并与弹力做功比较，说明为什么不存在与摩擦力对应的“摩擦力势能”的概\n念。\n解：（1）F-x 图像如图\nR\nM\nN\nv\nB\nO\nx1\nx2\nx3\nx\nT2\nO\nL\na\nb\nc\n图2\n图3\nA\nO\n4 / 5\n物块沿x 轴从O 点运动到位置x 的过程中，弹力做负功；F-x 图线下的面积等\n于弹力做功大小，弹力做功\nW=－1\n2 kx·x=－1\n2 kx2\n（2）（A）物块由x1 向右运动到x3 的过程中，弹力做功\nWT1=－1\n2 （kx1＋kx3）（x3－x1）=1\n2 kx12－1\n2 kx32\n物块由x3 向左运动到x2 的过程中，弹力做功\nWT2=－1\n2 （kx2＋kx3）（x3－x2）=1\n2 kx32－1\n2 kx22\n整个过程中，弹力做功\nWT=WT1＋WT2=1\n2 kx12－1\n2 kx22\n弹性势能的变化量\nΔEp=－WT=1\n2 kx22－1\n2 kx12\n（B）整个过程中，摩擦力做功\nWf=－μmg（2x3－x1－x2）\n与弹力做功比较，弹力做功与x3 无关，即与实际路径无关，只与始末位置有关，所以，我们可以定义一个\n由物体之间的相互作用力（弹力）和相对位置决定的能量——弹性势能，而摩擦力做功与x 有关，即与实\n际路径有关，所以，不可以定义与摩擦力对应的“摩擦力势能”。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2015,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
-        "page": 3,
-        "questionNumber": 23,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q05",
-      "content": "（20 分）\n真空中放置的平行金属板可以用作光电转换装置，如图所示。光照前两\n板都不带电。以光照射A 板，则板中的电子可能吸收光的能量而逸出。\n假设所有逸出的电子都垂直于A 板向B 板运动，忽略电子之间的相互作\n用。保持光照条件不变。a 和b 为接线柱。\n已知单位时间内从A 板逸出的电子数为N，电子逸出时的最大动能为\nEkm。元电荷为e。\n（1）求A 板和B 板之间的最大电势差Um，以及将a、b 短接时回路中\n的电流I 短。\n（2）图示装置可看作直流电源，求其电动势E 和内阻r。\n（3）在a 和b 之间连接一个外电阻时，该电阻两端的电压为U。外电阻上消耗的电功率设为P；单位时间\n内到达B 板的电子，在从A 板运动到B 板的过程中损失的动能之和设为ΔEk。请推导证明：P=ΔEk。（注\n意：解题过程中需要用到、但题目没有给出的物理量，要在解题中做必要的说明）\n解：（1）由动能定理得：Ekm=eU，可得Um=Ekm\ne\n短路时所有逸出电子都到达B 板，故短路电流I 短=Ne\n（2）电源的电动势等于断路时的路端电压，即上面求出的Um，所以E=Um=Ekm\ne\n电源内阻：r= E\nI短 =Ekm\nNe2\n（3）外电阻两端的电压为U，则电源两端的电压也是U。\n由动能定理，一个电子经电源内部电场后损失的动能之和ΔEke=eU\n设单位时间内有Nʹ个电子到达B 板，则损失的动能之和ΔEk=NʹΔEke=NʹeU\nx\nF\n答图\nA\nB\na\nb\n根 据 电 流 的 定 义 , 此 时 电 源 内 部 的 电 流 一 Ne\n此 时 流 过 外 电 阻 的 电 流 也 是 东 ye, 外 电 阻 上 消 耗 的 电 功 率 P=IU=NeL\n所 以 P=AE:\n5/5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q02",
+      "content": "下列核反应方程中，属于α 衰变的是（    ）\n（A）147N＋42He→178O＋11H\n（B）23892U→23490Th＋42He\n（C）21H＋31H→42He＋10n\n（D）23490Th→23491Pa＋0-1e",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q03",
+      "content": "周期为2.0s 的简谐横波沿x 轴传播，该波在某时刻的图像如图所示，\n此时质点P 沿y 轴负方向运动。则该波（    ）\n（A）沿x 轴正方向传播，波速v=20m/s\n（B）沿x 轴正方向传播，波速v=10m/s\n（C）沿x 轴负方向传播，波速v=20m/s\n（D）沿x 轴负方向传播，波速v=10m/s",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q04",
+      "content": "假设地球和火星都绕太阳做匀速圆周运动，己知地球到太阳的距离小于火星到太阳的距离，那么（    ）\n（A）地球公转周期大于火星的公转周期\n（B）地球公转的线速度小于火星公转的线速度\n（C）地球公转的加速度小于火星公转的加速度\n（D）地球公转的角速度大于火星公转的角速度",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q05",
+      "content": "实验观察到，静止在匀强磁场中A 点的原子核发生β 衰变，衰变产生的新核\n与电子恰在纸面内做匀速圆周运动，运动方向和轨迹示意如图。则（    ）\n（A）轨迹1 是电子的，磁场方向垂直纸面向外\n（B）轨迹2 是电子的，磁场方向垂直纸面向外\n（C）轨迹l 是新核的，磁场方向垂直纸面向里\n（D）轨迹2 是新核的，磁场方向垂直纸面向里",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q005-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q06",
+      "content": "“蹦极”运动中，长弹性绳的一端固定，另一端绑在人身上，人从几十米高处跳下。将蹦极过程简化\n为人沿竖直方向的运动。从绳恰好伸直，到人第一次下降至最低点的过程中，下列分析正确的是（    ）\n（A）绳对人的冲量始终向上，人的动量先增大后减小\n（B）绳对人的拉力始终做负功，人的动能一直减小\n（C）绳恰好伸直时，绳的弹性势能为零，人的动能最大\n（D）人在最低点时，绳对人的拉力等于人所受的重力\n2\n1\nA\n20\n40\n0\nx/m\ny/cm\nP\n2 / 5",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q07",
+      "content": "如图所示，其中电流表A 的量程为0.6A，表盘均匀划分为30 个小格，每一\n小格表示0.02A；R1 的阻值等于电流表内阻的1\n2 ；R2 的阻值等于电流表内阻的2\n倍。若用电流表A 的表盘刻度表示流过接线柱1 的电流值，则下列分析正确的是\n（    ）\n（A）将接线柱1、2 接入电路时，每一小格表示0.04A\n（B）将接线柱1、2 接入电路时，每一小格表示0.02A\n（C）将接线柱1、3 接入电路时，每一小格表示0.06A\n（D）将接线柱1、3 接入电路时，每一小格表示0.01A",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q08",
+      "content": "利用所学物理知识，可以初步了解常用的公交一卡通（IC 卡）的工作原理及相关问题。IC 卡内部有一\n个由电感线圈L 和电容C 构成的LC 振荡电路。公交车上的读卡机（刷卡时“嘀”的响一声的机器）向外\n发射某一特定频率的电磁波。刷卡时，IC 卡内的线圈L 中产生感应电流，给电容C 充电，达到一定的电压\n后，驱动卡内芯片进行数据处理和传输。下列说法正确的是（    ）\n（A）IC 卡工作所需要的能量来源于卡内的电池\n（B）仅当读卡机发射该特定频率的电磁波时，IC 卡才能有效工作\n（C）若读卡机发射的电磁波偏离该特定频率，则线圈L 中不会产生感应电流\n（D）IC 卡只能接收读卡机发射的电磁波，而不能向读卡机传输自身的数据信息\n第二部分（非选择题 共180 分）",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q09",
+      "content": "（18 分）\n（1）“测定玻璃的折射率”的实验中，在白纸上放好玻璃砖，aaʹ和bbʹ\n分别是玻璃砖与空气的两个界面，如图所示。在玻璃砖的一侧插上两枚\n大头针Pl 和P2，用“＋”表示大头针的位置，然后在另一侧透过玻璃砖\n观察，并依次插上大头针P3 和P4。在插P3 和P4 时，应使_____（选填\n选项前的字母）。\n（A）P3 只挡住Pl 的像\n（B）P4 只挡住P2 的像\n（C）P3 同时挡住P1、P2 的像\n（2）用单摆测定重力加速度的实验装置如图1 所示。\n①组装单摆时，应在下列器材中选用_____（选填选项前的字母）。\n（A）长度为1 m 左右的细线\n（B）长度为30 cm 左右的细线\n（C）直径为1.8 cm 的塑料球\n（D）直径为1.8 cm 的铁球\n②测出悬点O 到小球球心的距离（摆长）L 及单摆完成n 次全振动所用的时\n间t，则重力加速度g = _________（用L、n、t 表示）。\n③下表是某同学记录的3 组实验数据，并做了部分计算处理。\n组次\n1\n2\n3\n摆长L/cm\n80.00\n90.00\n100.00\n50 次全振动所用的时间t/s\n90.0\n95.5\n100.5\n振动周期T/s\n1.80\n1.91\n重力加速度g/（m·s−2）\n9.74\n9.73\n图1\nO\nP1\nP2\na\nb\naʹ\nbʹ\nA\nR1\nR2\n1\n2\n3\n3 / 5\n请计算出第3 组实验中的T = _____s，g = ____m/s2。\n④用多组实验数据做出T2–L 图像，也可以求出重力加速度g。已知三位同学做出的\nT2–L 图线的示意图如图2 中的a、b、c 所示，其中a 和b 平行，b 和c 都过原点，\n图线b 对应的g 值最接近当地重力加速度的值。则相对于图线b，下列分析正确的\n是_____（选填选项前的字母）。\n（A）出现图线a 的原因可能是误将悬点到小球下端的距离记为摆长L\n（B）出现图线c 的原因可能是误将49 次全振动记为50 次\n（C）图线c 对应的g 值小于图线b 对应的g 值\n⑤某同学在家里测重力加速度。他找到细线和铁锁，制成一个单摆，如图 3 所示。\n由于家里只有一根量程为30 cm 的刻度尺，于是他在细线上的A 点做了一个标记，\n使得悬点O 到A 点间的细线长度小于刻度尺量程。保持该标记以下的细线长度不\n变，通过改变O、A 间细线长度以改变摆长。实验中，当O、A 间细线的长度分别\n为l1、l2 时，测得相应单摆的周期为T1、T2。由此可得重力加速度g = __________\n（用l1、l2、T1、T2 表示）。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q009-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q009-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q10",
+      "content": "（16 分）\n如图所示，足够长的平行光滑金属导轨水平放置，宽度L=0.4m，一端连接R=1Ω\n的电阻。导轨所在空间存在竖直向下的匀强磁场，磁感应强度B=1T。导体棒MN\n放在导轨上，其长度恰好等于导轨间距，与导轨接触良好。导轨和导体棒的电阻\n均可忽略不计。在平行于导轨的拉力F 作用下，导体棒沿导轨向右匀速运动，速\n度v=5m/s。求：\n（1）感应电动势E 和感应电流I；\n（2）在0.1s 时间内，拉力的冲量IF 的大小；\n（3）若将MN 换为电阻r=1Ω 的导体棒，其它条件不变，求导体棒两端的电压U。\n解：（1）由法拉第电磁感应定律可得，感应电动势E=BLv=1×0.4×5V=2V\n感应电流I=E\nR =2\n1 A=2A\n（2）拉力大小等于安培力大小F=BIL=1×2×0.4N=0.8N\n冲量大小IF=FΔt=0.8×0.1N·s=0.08N·s\n（3）由闭合电路欧姆定律可得，电路中电流Iʹ= E\nR＋r =2\n2 A=1A\n由欧姆定律可得，导体棒两端电压U=IʹR=1V",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q11",
+      "content": "（18 分）\n如图所示，弹簧的一端固定，另一端连接一个物块，弹簧质量不计。\n物块（可视为质点）的质量为m，在水平桌面上沿x 轴运动，与桌\n面间的动摩擦因数为μ。以弹簧原长时物块的位置为坐标原点O，当\n弹簧的伸长量为x 时，物块所受弹簧弹力大小为F=kx，k 为常量。\n（1）请画出F 随x 变化的示意图；并根据F-x 图像求物块沿x 轴从\nO 点运动到位置x 的过程中弹力所做的功。\n（2）物块由x1 向右运动到x3，然后由x3 返回到x2，在这个过程中，\n（A）求弹力所做的功，并据此求弹性势能的变化量；\n（B）求滑动摩擦力所做的功；并与弹力做功比较，说明为什么不存在与摩擦力对应的“摩擦力势能”的概\n念。\n解：（1）F-x 图像如图\nR\nM\nN\nv\nB\nO\nx1\nx2\nx3\nx\nT2\nO\nL\na\nb\nc\n图2\n图3\nA\nO\n4 / 5\n物块沿x 轴从O 点运动到位置x 的过程中，弹力做负功；F-x 图线下的面积等\n于弹力做功大小，弹力做功\nW=－1\n2 kx·x=－1\n2 kx2\n（2）（A）物块由x1 向右运动到x3 的过程中，弹力做功\nWT1=－1\n2 （kx1＋kx3）（x3－x1）=1\n2 kx12－1\n2 kx32\n物块由x3 向左运动到x2 的过程中，弹力做功\nWT2=－1\n2 （kx2＋kx3）（x3－x2）=1\n2 kx32－1\n2 kx22\n整个过程中，弹力做功\nWT=WT1＋WT2=1\n2 kx12－1\n2 kx22\n弹性势能的变化量\nΔEp=－WT=1\n2 kx22－1\n2 kx12\n（B）整个过程中，摩擦力做功\nWf=－μmg（2x3－x1－x2）\n与弹力做功比较，弹力做功与x3 无关，即与实际路径无关，只与始末位置有关，所以，我们可以定义一个\n由物体之间的相互作用力（弹力）和相对位置决定的能量——弹性势能，而摩擦力做功与x 有关，即与实\n际路径有关，所以，不可以定义与摩擦力对应的“摩擦力势能”。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015北京理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q011-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q011-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q011-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015北京理综.pdf#q12",
+      "content": "（20 分）\n真空中放置的平行金属板可以用作光电转换装置，如图所示。光照前两\n板都不带电。以光照射A 板，则板中的电子可能吸收光的能量而逸出。\n假设所有逸出的电子都垂直于A 板向B 板运动，忽略电子之间的相互作\n用。保持光照条件不变。a 和b 为接线柱。\n已知单位时间内从A 板逸出的电子数为N，电子逸出时的最大动能为\nEkm。元电荷为e。\n（1）求A 板和B 板之间的最大电势差Um，以及将a、b 短接时回路中\n的电流I 短。\n（2）图示装置可看作直流电源，求其电动势E 和内阻r。\n（3）在a 和b 之间连接一个外电阻时，该电阻两端的电压为U。外电阻上消耗的电功率设为P；单位时间\n内到达B 板的电子，在从A 板运动到B 板的过程中损失的动能之和设为ΔEk。请推导证明：P=ΔEk。（注\n意：解题过程中需要用到、但题目没有给出的物理量，要在解题中做必要的说明）\n解：（1）由动能定理得：Ekm=eU，可得Um=Ekm\ne\n短路时所有逸出电子都到达B 板，故短路电流I 短=Ne\n（2）电源的电动势等于断路时的路端电压，即上面求出的Um，所以E=Um=Ekm\ne\n电源内阻：r= E\nI短 =Ekm\nNe2\n（3）外电阻两端的电压为U，则电源两端的电压也是U。\n由动能定理，一个电子经电源内部电场后损失的动能之和ΔEke=eU\n设单位时间内有Nʹ个电子到达B 板，则损失的动能之和ΔEk=NʹΔEke=NʹeU\nx\nF\n答图\nA\nB\na\nb\n根 据 电 流 的 定 义 , 此 时 电 源 内 部 的 电 流\n此 时 流 过 外 电 阻 的 电 流 也 是 东 we, 外 !\n所 以 P=AEK\nI=N'e,\n阻 上 消 耗 的 电 功 率 P=IU=NeU\n5/5",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -126,11 +390,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015北京理综.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 24,
         "extraction": "ocr",
-        "confidence": null,
-        "needsReview": true
-      }
+        "confidence": 88,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q012-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-460a291434331659-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

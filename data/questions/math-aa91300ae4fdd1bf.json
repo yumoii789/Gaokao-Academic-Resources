@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2013/2013浙江理.pdf",
   "name": "2013浙江理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q01",
       "content": "已知i 是虚数单位, 则(−1 + i) (2 −i) =\n(\n)\n(A) −3 + i\n(B) −1 + 3i\n(C) −3 + 3i\n(D) −1 + i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q02",
       "content": "设集合S = {x | x > −2}, T = {x | x2 + 3x −4 ⩽0}, 则\n(\n∁RS\n)\n∪T =(\n)\n(A) (−2, 1]\n(B) (−∞, −4]\n(C) (−∞, 1]\n(D) [1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q03",
       "content": "已知x, y 为正实数, 则\n(\n)\n(A) 2lg x+lg y = 2lg x + 2lg y\n(B) 2lg(x+y) = 2lg x · 2lg y\n(C) 2lg x·lg y = 2lg x + 2lg y\n(D) 2lg(xy) = 2lg x · 2lg y",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q04",
       "content": "已知函数f (x) = A cos (ωx + φ) (A > 0, ω > 0, φ ∈R), 则“f (x) 是奇函\n数”是“φ = π\n2 ”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q05",
       "content": "某程序框图如图所示, 若该程序运行后输出的值是9\n5, 则\n(\n)\n开始\nS = 1, k = 1\nk > a?\nS = S +\n1\nk(k + 1)\nk = k + 1\n输出S\n结束\n否\n是\n(A) a = 4\n(B) a = 5\n(C) a = 6\n(D) a = 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q06",
       "content": "已知α ∈R, sin α + 2 cos α =\n√\n10\n2 , 则tan 2α =\n(\n)\n(A) 4\n3\n(B) 3\n4\n(C) −3\n4\n(D) −4\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q07",
       "content": "设△ABC, P0 是边AB 上一定点, 满足P0B = 1\n4AB, 且对于边AB 上任\n一点P, 恒有#    »\nPB · #    »\nPC ⩾#     »\nP0B · #     »\nP0C. 则\n(\n)\n(A) ∠ABC = 90◦(B) ∠BAC = 90◦(C) AB = AC\n(D) AC = BC",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q08",
       "content": "已知e 为自然对数的底数, 设函数f (x) = (ex −1) (x −1)k (k = 1, 2),\n则\n(\n)\n(A) 当k = 1 时, f (x) 在x = 1 处取得极小值\n(B) 当k = 1 时, f (x) 在x = 1 处取得极大值\n(C) 当k = 2 时, f (x) 在x = 1 处取得极小值\n(D) 当k = 2 时, f (x) 在x = 1 处取得极大值",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q09",
       "content": "如图, F1, F2 是椭圆C1: x2\n4 + y2 = 1 与双曲线C2 的公共焦点, A, B 分别\n是C1, C2 在第二、四象限的公共点. 若四边形AF1BF2 为矩形, 则C2 的\n离心率是\n(\n)\nx\ny\nO\nB\nF1\nF2\nA\n(A)\n√\n2\n(B)\n√\n3\n(C) 3\n2\n(D)\n√\n6\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -217,22 +288,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q10",
       "content": "在空间中, 过点A 作平面π 的垂线, 垂足为B, 记B = fπ (A). 设α, β 是\n两个不同的平面, 对空间任意一点P, Q1 = fβ (fα (P)), Q2 = fα (fβ (P)),\n恒有PQ1 = PQ2, 则\n(\n)\n(A) 平面α 与平面β 垂直\n(B) 平面α 与平面β 所成的(锐) 二面角为45◦\n(C) 平面α 与平面β 平行\n(D) 平面α 与平面β 所成的(锐) 二面角为60◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -240,22 +321,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q11",
       "content": "设二项式\n(√x −\n1\n3√x\n)5\n的展开式中常数项为A, 则A =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -263,22 +350,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q12",
       "content": "若某几何体的三视图(单位:\ncm) 如图所示,\n则此几何体的体积等\n于\ncm3.\n俯视图\n正视图\n侧视图\n4\n3\n3\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -286,22 +379,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q012-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q012-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q13",
       "content": "设z = kx + y, 其中实数x, y 满足\n\n\n\n\n\n\n\nx + y −2 ⩾0,\nx −2y + 4 ⩾0,\n2x −y −4 ⩽0,\n若z 的最大值为12,\n则实数k =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -309,22 +413,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q14",
       "content": "将A, B, C, D, E, F 六个字母排成一排, 且A, B 均在C 的同侧, 则不同\n的排法共有\n种. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q15",
       "content": "设F 为抛物线C: y2 = 4x 的焦点, 过点P (−1, 0) 的直线l 交抛物线C\n于A, B 两点, 点Q 为线段AB 的中点. 若|FQ| = 2, 则直线l 的斜率等\n于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -355,22 +471,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q16",
       "content": "△ABC 中, ∠C = 90◦, M 是BC 的中点.\n若sin ∠BAM = 1\n3, 则\nsin ∠BAC =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -378,22 +500,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q17",
       "content": "设e1, e2 为单位向量, 非零向量b = xe1 + ye2, x, y ∈R. 若e1, e2 的夹\n角为π\n6 , 则|x|\n|b| 的最大值等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -401,22 +529,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q18",
       "content": "在公差为d 的等差数列{an} 中, 已知a1 = 10, 且a1, 2a2 + 2, 5a3 成等比\n数列.\n(1) 求d, an;\n(2) 若d < 0, 求|a1| + |a2| + |a3| + · · · + |an|.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -424,22 +558,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q19",
       "content": "设袋子中装有a 个红球, b 个黄球, c 个蓝球, 且规定: 取出一个红球得1\n分, 取出一个黄球2 分, 取出一个蓝球得3 分.\n(1) 当a = 3, b = 2, c = 1 时, 从该袋子中任取(有放回, 且每球取到的机会\n均等) 2 个球, 记随机变量ξ 为取出此2 个球所得分数之和, 求ξ 分布列;\n(2) 从该袋子中任取(且每球取到的机会均等) 1 个球, 记随机变量η 为取\n出此球所得分数. 若Eη = 5\n3, Dη = 5\n9, 求a : b : c.\n853",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -447,22 +587,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q20",
       "content": "如图, 在四面体A −BCD 中, AD ⊥平面BCD, BC ⊥CD, AD = 2,\nBD = 2\n√\n2. M 是AD 的中点, P 是BM 的中点, 点Q 在线段AC 上, 且\nAQ = 3QC.\n(1) 证明: PQ\n平面BCD;\n(2) 若二面角C −BM −D 的大小为60◦, 求∠BDC 的大小.\nA\nB\nC\nD\nP\nM\nQ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -470,22 +620,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q21",
       "content": "如图, 点P (0, −1) 是椭圆C1: x2\na2 + y2\nb2 = 1 (a > b > 0) 的一个顶点, C1 的\n长轴是圆C2: x2 + y2 = 4 的直径. l1, l2 是过点P 且互相垂直的两条直线,\n其中l1 交圆C2 于A, B 两点, l2 交椭圆C1 于另一点D.\n(1) 求椭圆C1 的方程;\n(2) 求△ABD 面积取最大值时直线l1 的方程.\nx\ny\nO\nl2\nA\nB\nl1\nD\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -493,22 +653,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013浙江理.pdf#q22",
       "content": "已知a ∈R, 函数f (x) = x3 −3x2 + 3ax −3a + 3.\n(1) 求曲线y = f (x) 在点(1, f (1)) 处的切线方程;\n(2) 当x ∈[0, 2] 时, 求|f (x)| 的最大值.\n854",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -516,11 +686,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa91300ae4fdd1bf-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

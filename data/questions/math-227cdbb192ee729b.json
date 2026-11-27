@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2006/2006江西文.pdf",
   "name": "2006江西文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q01",
       "content": "已知集合P = {x | x(x −1) ⩾0}, Q =\n{\nx\n����\n1\nx −1 > 0\n}\n, 则P ∩Q 等\n于\n(\n)\n(A) ∅\n(B) {x | x ⩾1}\n(C) {x | x > 1}\n(D) {x | x ⩾1 或x < 0}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q02",
       "content": "函数y = 4 sin\n(\n2x + π\n3\n)\n+ 1 的最小正周期为\n(\n)\n(A) π\n2\n(B) π\n(C) 2π\n(D) 4π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q03",
       "content": "在各项均不为零的等差数列{an} 中, 若an+1 −a2\nn + an−1 = 0 (n ⩾2), 则\nS2n−1 −4n =\n(\n)\n(A) −2\n(B) 0\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q04",
       "content": "下列四个条件中, p 是q 的必要不充分条件的是\n(\n)\n(A) p: a > b, q: a2 > b2\n(B) p: a > b, q: 2a > 2b\n(C) p: ax2 + by2 = c 为双曲线, q: ab < 0\n(D) p : ax2 + bx + c > 0, q:\nc\nx2 + b\nx + a > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q05",
       "content": "对于R 上可导的任意函数f(x), 若满足(x −1)f ′(x) ⩾0, 则必有\n(\n)\n(A) f(0) + f(2) < 2f(1)\n(B) f(0) + f(2) ⩽2f(1)\n(C) f(0) + f(2) ⩾2f(1)\n(D) f(0) + f(2) > 2f(1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q06",
       "content": "若不等式x2 + ax + 1 ⩾0 对一切x ∈\n(\n0, 1\n2\n]\n成立, 则a 的最小值为(\n)\n(A) 0\n(B) −2\n(C) −5\n2\n(D) −3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q07",
       "content": "在\n(√x + 2\nx\n)n\n的二项展开式中, 若常数项为60, 则n 等于\n(\n)\n(A) 3\n(B) 6\n(C) 9\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q08",
       "content": "袋中有40 个小球, 其中红色球16 个、蓝色球12 个、白色球8 个、黄色\n球4 个, 从中随机抽取10 个球作成一个样本, 则这个样本恰好是按分层抽\n样方法得到的概率为\n(\n)\n(A) C1\n4C2\n8C3\n12C4\n16\nC10\n40\n(B) C2\n4C1\n8C3\n12C4\n16\nC10\n40\n(C) C2\n4C3\n8C1\n12C4\n16\nC10\n40\n(D) C1\n4C3\n8C4\n12C2\n16\nC10\n40",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -194,22 +255,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q09",
       "content": "如果四棱锥的四条侧棱都相等, 就称它为“等腰四棱锥”, 四条侧棱称为它的\n腰. 以下4 个命题中, 假命题的是\n(\n)\n(A) 等腰四棱锥的腰与底面所成的角都相等\n(B) 等腰四棱锥的侧面与底面所成的二面角都相等或互补\n(C) 等腰四棱锥的底面四边形必存在外接圆\n(D) 等腰四棱锥的各顶点必在同一球面上",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q10",
       "content": "已知等差数列{an} 的前n 项和为Sn, 若#    »\nOB = a1 #   »\nOA + a200 #    »\nOC, 且A、\nB、C 三点共线(该直线不过点O), 则S200 等于\n(\n)\n(A) 100\n(B) 101\n(C) 200\n(D) 201",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q11",
       "content": "P 为双曲线x2\n9 −y2\n16 = 1 的右支上一点, M N 分别是圆(x + 5)2 + y2 = 4\n和(x −5)2 + y2 = 1 上的点, 则|PM| −|PN| 的最大值为\n(\n)\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q12",
       "content": "某地一天内的气温Q(t) (单位:\n◦C) 与时刻t (单位: 时) 之间的关系如图\n所示, 令C(t) 表示时间段[0, t] 内的温差(即时间段[0, t] 内的最高气温与\n最低气温的差). C(t) 与t 之间的函数关系用下列图象表示, 则正确的图象\n大致是\n(\n)\n12\n8\n16\n4\n24\n20\nt\nQ(t)\n4\n−4\n−2\n−12\nO\n(A)\n12\n8\n16\n4\n24\n20\nt\nC(t)\n4\n16\nO\n(B)\n12\n8\n16\n4\n24\n20\nt\nC(t)\n4\n16\nO\n(C)\n12\n8\n16\n4\n24\n20\nt\nC(t)\n4\n16\nO\n(D)\n12\n8\n16\n4\n24\n20\nt\nC(t)\n4\n2\n16\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q13",
       "content": "已知向量#»a = (1, sin θ), #»b = (1, cos θ), 则\n���#»a −#»b\n���的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q14",
       "content": "设f(x) = log3(x+6) 的反函数为f −1(x), 若[f −1(m)+6]·[f −1(n)+6] = 27,\n则f(m + n) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q15",
       "content": "如图, 已知正三棱柱ABC −A1B1C1 的底面边长为1, 高为8, 一质点自A\n点出发, 沿着三棱柱的侧面绕行两周到达A1 点的最短路线长为\n.\nA\nB\nC\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -355,22 +466,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q16",
       "content": "已知F1、F2 为双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0 且a̸ = b) 的两个焦点,\nP 为双曲线右支上异于顶点的任意一点, 点O 为坐标原点. 下面四个命题:\n①△PF1F2 的内切圆的圆心必在直线x = a 上;\n②△PF1F2 的内切圆的圆心必在直线x = b 上;\n③△PF1F2 的内切圆的圆心必在直线OP 上;\n④△PF1F2 的内切圆必通过点(a, 0).\n其中真命题的代号是\n. (写出所有真命题的代号)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -378,22 +499,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q17",
       "content": "已知函数f(x) = x3 + ax2 + bx + c 在x = −2\n3 与x = 1 时都取得极值.\n(1) 求a、b 的值与函数f(x) 的单调区间;\n(2) 若对x ∈[−1, 2], 不等式f(x) < c2 恒成立, 求c 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -401,22 +528,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q18",
       "content": "某商场举行抽奖促销互动, 抽奖规则是: 从装有9 个白球、1 个红球的箱子\n中每次随机地摸出一个球, 记下颜色后放回, 摸出一个红球可获得二等奖;\n摸出两个红球可获得一等奖. 现有甲、乙两位顾客, 规定: 甲摸一次, 乙摸\n两次. 求:\n(1) 甲、乙两人都没有中奖的概率;\n(2) 甲、两人中至少有一人获二等奖的概率.\n306",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -424,22 +561,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q19",
       "content": "在锐角△ABC 中, 角A、B、C 所对的边分别为a、b、c, 已知sin A = 2\n√\n2\n3 .\n(1) 求tan2 B + C\n2\n+ sin2 A\n2 的值;\n(2) 若a = 2, S△ABC =\n√\n2, 求b 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -447,22 +594,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q20",
       "content": "如图, 已知三棱锥O −ABC 的侧棱OA、OB、OC 两两垂直, 且OA = 1,\nOB = OC = 2, E 是OC 的中点.\n(1) 求O 点到面ABC 的距离;\n(2) 求异面直线BE 与AC 所成的角;\n(3) 求二面角E −AB −C 的大小.\nC\nB\nO\nE\nA",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -470,22 +623,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q21",
       "content": "如图, 椭圆Q: x2\na2 + y2\nb2 = 1 (a > b > 0) 的右焦点为F(c, 0), 过点F 的一\n动直线m 绕点F 转动, 并且交椭圆于A、B 两点, P 为线段AB 的中点.\n(1) 求点P 的轨迹H 的方程;\n(2) 在Q 的方程中, 令a2 = 1 + cos θ + sin θ, b2 = sin θ\n(\n0 < θ ⩽π\n2\n)\n, 设\n轨迹H 的最高点和最低点分别为M 和N. 当θ 为何值时, △MNF 为一\n个正三角形?\n•\ny\nx\nF\nB\nA\nO\nP\nD\nl\nm",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -493,22 +656,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006江西文.pdf#q22",
       "content": "已知各项均为正数的数列{an} 满足: a1 = 3, 且2an+1 −an\n2an −an+1\n= anan+1,\nn ∈N∗.\n(1) 求数列{an} 的通项公式;\n(2) 设Sn = a2\n1 + a2\n2 + · · · + a2\nn, Tn = 1\na2\n1\n+ 1\na2\n2\n+ · · · + 1\na2\nn\n, 求Sn + Tn, 并确\n定最小正整数n, 使Sn + Tn 为整数.\n307",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -516,11 +689,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006江西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-227cdbb192ee729b-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

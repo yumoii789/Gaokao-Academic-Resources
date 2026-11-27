@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2022/2022天津.pdf",
   "name": "2022天津",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q01",
       "content": "设全集U = {−2, −1, 0, 1, 2}, 集合A = {0, 1, 2}, B = {−1, 2}, 则\nA ∩\n(\n∁UB\n)\n=\n(\n)\n(A) {0, 1}\n(B) {0, 1, 2}\n(C) {−1, 1, 2}\n(D) {−1, 0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q02",
       "content": "“x 为整数”是“2x + 1 为整数”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 即不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q03",
       "content": "函数y = |x2 −1|\nx\n的图象大致为\n(\n)\n(A)\nx\n1\ny\nO\n(B)\nx\n1\ny\nO\n(C)\nx\n1\ny\nO\n(D)\nx\n1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -79,22 +102,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q003-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q04",
-      "content": "将1916 年到2015 年的全球年平均气温(单位:\n◦C), 共100 个数\n据, 分成6 组: [13.55, 13.75), [13.75, 13.95), [13.95, 14.15), [14.15, 14.35),\n[14.35, 14.55), [14.55, 14.75], 并整理得到如下的频率分布直方图, 则全球年\n平均气温在区间[14.35, 14.75] 内的有\n(\n)\n频率\n组距\n0\n全球年平均气温/◦C",
+      "content": "将1916 年到2015 年的全球年平均气温(单位:\n◦C), 共100 个数\n据, 分成6 组: [13.55, 13.75), [13.75, 13.95), [13.95, 14.15), [14.15, 14.35),\n[14.35, 14.55), [14.55, 14.75], 并整理得到如下的频率分布直方图, 则全球年\n平均气温在区间[14.35, 14.75] 内的有\n(\n)\n频率\n组距\n0\n全球年平均气温/◦C\n13.95 14.15 14.35 14.55 14.75\n13.75\n13.55\n0.40\n1.30\n1.55\n0.60\n0.50\n0.65\n(A) 22 年\n(B) 23 年\n(C) 25 年\n(D) 35 年",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -102,22 +137,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q05",
-      "content": "95 14.15 14.35 14.55 14.75\n13.75\n13.55\n0.40\n1.30\n1.55\n0.60\n0.50\n0.65\n(A) 22 年\n(B) 23 年\n(C) 25 年\n(D) 35 年\n5. 设a = 20.7, b =\n(1\n3\n)0.7\n, c = log2\n1\n3, 则a, b, c 的大小关系为\n(\n)\n(A) a < b < c\n(B) c < a < b\n(C) b < c < a\n(D) c < b < a\n6. 化简(2 log4 3 + log8 3) (log3 2 + log9 2) =\n(\n)\n(A) 1\n(B) 5\n4\n(C) 2\n(D) 5\n2\n7. 已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 1) 的左、右焦点分别为F1, F2, 抛物\n线y2 = 4\n√\n5x 的准线l 经过F1, 且l 与双曲线的一条渐近线交于点A. 若\n∠F1F2A = π\n4 , 则双曲线的方程为\n(\n)\n(A) x2\n16 −y2\n4 = 1 (B) x2\n4 −y2\n16 = 1 (C) x2\n4 −y2 = 1\n(D) x2 −y2\n4 = 1\n8. 〸字歇山顶是中国古代建筑屋顶的经典样式之一, 图1 中的故宫角楼的顶\n部即为〸字歇山顶. 其上部可视为由两个相同的直三棱柱交叠而成的几何\n体(图2). 这两个直三棱柱有一个公共侧面ABCD. 在底面BCE 中, 若\nBE = CE = 3, ∠BEC = 120◦, 则该几何体的体积为\n(\n)\n图1\n图2\nB\nC\nE\nD\nA\n(A) 27\n2\n(B) 27\n√\n3\n2\n(C) 27\n(D) 27\n√\n3\n9. 关于函数f(x) = 1\n2 sin 2x, 给出下列结论:\n①f(x) 的最小正周期是2π;\n②f(x) 在区间\n[\n−π\n4 , π\n4\n]\n上单调递增;\n③当x ∈\n[\n−π\n6 , π\n3\n]\n时, f(x) 的取值范围为\n[\n−\n√\n3\n4 ,\n√\n3\n4\n]\n;\n④f(x) 的图象可以由函数g(x) = 1\n2 sin\n(\n2x + π\n4\n)\n的图象向左平移π\n8 个\n单位长度得到.\n其中正确结论的个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+      "content": "设a = 20.7, b =\n(1\n3\n)0.7\n, c = log2\n1\n3, 则a, b, c 的大小关系为\n(\n)\n(A) a < b < c\n(B) c < a < b\n(C) b < c < a\n(D) c < b < a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -125,22 +170,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 13,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q06",
-      "content": "已知i 是虚数单位, 化简11 −3i\n1 + 2i 的结果为\n.",
+      "content": "化简(2 log4 3 + log8 3) (log3 2 + log9 2) =\n(\n)\n(A) 1\n(B) 5\n4\n(C) 2\n(D) 5\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -148,22 +199,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 10,
+        "endPage": 1,
+        "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q07",
-      "content": "在\n(√x + 3\nx2\n)5\n的展开式中, 常数项是\n.",
+      "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 1) 的左、右焦点分别为F1, F2, 抛物\n线y2 = 4\n√\n5x 的准线l 经过F1, 且l 与双曲线的一条渐近线交于点A. 若\n∠F1F2A = π\n4 , 则双曲线的方程为\n(\n)\n(A) x2\n16 −y2\n4 = 1 (B) x2\n4 −y2\n16 = 1 (C) x2\n4 −y2 = 1\n(D) x2 −y2\n4 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -171,22 +228,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 11,
+        "endPage": 1,
+        "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q08",
-      "content": "若直线x −y + m = 0 (m > 0) 被圆(x −1)2 + (y −1)2 = 3 截得的弦长等\n于m, 则m 的值为\n.",
+      "content": "〸字歇山顶是中国古代建筑屋顶的经典样式之一, 图1 中的故宫角楼的顶\n部即为〸字歇山顶. 其上部可视为由两个相同的直三棱柱交叠而成的几何\n体(图2). 这两个直三棱柱有一个公共侧面ABCD. 在底面BCE 中, 若\nBE = CE = 3, ∠BEC = 120◦, 则该几何体的体积为\n(\n)\n图1\n图2\nB\nC\nE\nD\nA\n(A) 27\n2\n(B) 27\n√\n3\n2\n(C) 27\n(D) 27\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -194,22 +257,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 12,
+        "endPage": 1,
+        "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q09",
-      "content": "现有52 张扑克牌(去掉大小王), 每次取一张, 取后不放回, 则两次都抽到\nA 的概率为\n; 在第一次抽到A 的条件下, 第二次也抽到A 的概率\n是\n.",
+      "content": "关于函数f(x) = 1\n2 sin 2x, 给出下列结论:\n①f(x) 的最小正周期是2π;\n②f(x) 在区间\n[\n−π\n4 , π\n4\n]\n上单调递增;\n③当x ∈\n[\n−π\n6 , π\n3\n]\n时, f(x) 的取值范围为\n[\n−\n√\n3\n4 ,\n√\n3\n4\n]\n;\n④f(x) 的图象可以由函数g(x) = 1\n2 sin\n(\n2x + π\n4\n)\n的图象向左平移π\n8 个\n单位长度得到.\n其中正确结论的个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -217,22 +286,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 13,
+        "endPage": 1,
+        "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q10",
-      "content": "在△ABC 中, 点D 为AC 的中点, 点E 满足#    »\nCB = 2#    »\nBE. 记#   »\nCA = a,\n#    »\nCB = b, 用a, b 表示#    »\nDE =\n; 若AB ⊥DE, 则∠ACB 的最大值\n为\n.",
+      "content": "已知i 是虚数单位, 化简11 −3i\n1 + 2i 的结果为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -240,22 +319,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 14,
+        "endPage": 1,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q11",
-      "content": "设a ∈R. 对任意实数x, 用f(x) 表示|x| −2, x2 −ax + 3a −5 中的较小\n者. 若函数f(x) 至少有3 个零点, 则a 的取值范围为\n.",
+      "content": "在\n(√x + 3\nx2\n)5\n的展开式中, 常数项是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -263,22 +352,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 15,
+        "endPage": 1,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q12",
-      "content": "在△ABC 中, 角A, B, C 所对的边分别为a, b, c. 已知a =\n√\n6, b = 2c,\ncos A = −1\n4.\n(1) 求c 的值;\n(2) 求sin B 的值;\n(3) 求sin(2A −B) 的值.",
+      "content": "若直线x −y + m = 0 (m > 0) 被圆(x −1)2 + (y −1)2 = 3 截得的弦长等\n于m, 则m 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -286,22 +381,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 16,
+        "endPage": 1,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q13",
-      "content": "如图, 在直三棱柱ABC −A1B1C1 中, AC ⊥AB, 点D, E, F 分别为\nA1B1, AA1, CD 的中点, AB = AC = AA1 = 2.\n(1) 求证: EF\n平面ABC;\n(2) 求直线BE 与平面CC1D 所成角的正弦值;\n(3) 求平面A1CD 与平面CC1D 夹角的余弦值.\nB\nC\nD\nA\nE\nA1\nB1\nC1\nF\n1171",
+      "content": "现有52 张扑克牌(去掉大小王), 每次取一张, 取后不放回, 则两次都抽到\nA 的概率为\n; 在第一次抽到A 的条件下, 第二次也抽到A 的概率\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -309,68 +410,148 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 1,
-        "questionNumber": 17,
+        "endPage": 1,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q14",
-      "content": "设{an} 为等差数列, {bn} 为等比数列, 且a1 = b1 = a2 −b2 = a3 −b3 = 1.\n(1) 求{an} 和{bn} 的通项公式;\n(2) 记{an} 的前n 项和为Sn. 求证: (Sn+1 + an+1) bn = Sn+1bn+1 −Snbn;\n(3) 求\n2n\n∑\nk=1\n[\nak+1 −(−1)kak\n]\nbk.",
+      "content": "在△ABC 中, 点D 为AC 的中点, 点E 满足#    »\nCB = 2#    »\nBE. 记#   »\nCA = a,\n#    »\nCB = b, 用a, b 表示#    »\nDE =\n; 若AB ⊥DE, 则∠ACB 的最大值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
-        "page": 2,
-        "questionNumber": 18,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q15",
-      "content": "椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的右焦点F、右顶点A 和上顶点B 满足\n|BF|\n|AB| =\n√\n3\n2 .\n(1) 求椭圆的离心率;\n(2) 直线l 与椭圆有唯一公共点M, 与y 轴相交于点N (N 异于M). 记\nO 为原点, 若|OM| = |ON|, 且△MON 的面积为\n√\n3, 求椭圆的方程.",
+      "content": "设a ∈R. 对任意实数x, 用f(x) 表示|x| −2, x2 −ax + 3a −5 中的较小\n者. 若函数f(x) 至少有3 个零点, 则a 的取值范围为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
-        "page": 2,
-        "questionNumber": 19,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022天津.pdf#q16",
-      "content": "已知a, b ∈R, 函数f(x) = ex −a sin x, g(x) = b√x.\n(1) 求曲线y = f(x) 在点(0, f(0)) 处的切线方程;\n(2) 若曲线y = f(x) 和y = g(x) 有公共点,\n①当a = 0 时, 求b 的取值范围;\n②求证: a2 + b2 > e.\n1172",
+      "content": "在△ABC 中, 角A, B, C 所对的边分别为a, b, c. 已知a =\n√\n6, b = 2c,\ncos A = −1\n4.\n(1) 求c 的值;\n(2) 求sin B 的值;\n(3) 求sin(2A −B) 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2022/2022天津.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2022/2022天津.pdf#q17",
+      "content": "如图, 在直三棱柱ABC −A1B1C1 中, AC ⊥AB, 点D, E, F 分别为\nA1B1, AA1, CD 的中点, AB = AC = AA1 = 2.\n(1) 求证: EF\n平面ABC;\n(2) 求直线BE 与平面CC1D 所成角的正弦值;\n(3) 求平面A1CD 与平面CC1D 夹角的余弦值.\nB\nC\nD\nA\nE\nA1\nB1\nC1\nF\n1171",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2022/2022天津.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c6e2236dd08a2767-q017-p001-f01.jpg"
+    },
+    {
+      "questionId": "math:普通高考/2022/2022天津.pdf#q18",
+      "content": "设{an} 为等差数列, {bn} 为等比数列, 且a1 = b1 = a2 −b2 = a3 −b3 = 1.\n(1) 求{an} 和{bn} 的通项公式;\n(2) 记{an} 的前n 项和为Sn. 求证: (Sn+1 + an+1) bn = Sn+1bn+1 −Snbn;\n(3) 求\n2n\n∑\nk=1\n[\nak+1 −(−1)kak\n]\nbk.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -378,11 +559,83 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022天津.pdf",
         "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2022/2022天津.pdf#q19",
+      "content": "椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的右焦点F、右顶点A 和上顶点B 满足\n|BF|\n|AB| =\n√\n3\n2 .\n(1) 求椭圆的离心率;\n(2) 直线l 与椭圆有唯一公共点M, 与y 轴相交于点N (N 异于M). 记\nO 为原点, 若|OM| = |ON|, 且△MON 的面积为\n√\n3, 求椭圆的方程.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2022/2022天津.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2022/2022天津.pdf#q20",
+      "content": "已知a, b ∈R, 函数f(x) = ex −a sin x, g(x) = b√x.\n(1) 求曲线y = f(x) 在点(0, f(0)) 处的切线方程;\n(2) 若曲线y = f(x) 和y = g(x) 有公共点,\n①当a = 0 时, 求b 的取值范围;\n②求证: a2 + b2 > e.\n1172",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2022/2022天津.pdf",
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 7,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
   "name": "2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 3,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q01",
       "content": "伽利略根据小球在斜面上运动的实验和理想实验，提出了惯性的概念，从而奠定了牛顿力学的基础。\n早期物理学家关于惯性有下列说法，其中正确的是（    ）\n（A）物体抵抗运动状态变化的性质是惯性\n（B）没有力作用，物体只能处于静止状态\n（C）行星在圆周轨道上保持匀速率运动的性质是惯性\n（D）运动物体如果没有受到力的作用，将继续以同一速度沿同一直线运动",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "惯性是物体抵抗运动状态变化而保持静止或匀速直线运动状态的性质，A 正确；没有力的作用，\n物体将处于静止或匀速直线运动状态，B 错误；行星在圆形轨道上保持匀速率运动的原因是行星受到地球\n的万有引力作用，不是由于惯性，C 错误；运动物体如果没有受到力的作用，将一直匀速直线运动下去，\nD 正确．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,370 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q02",
+      "content": "如图，x 轴在水平地面内，y 轴沿竖直方向。图中画出了从y 轴上沿x 轴正向抛出的三个小球a、b 和\nc 的运动轨迹，其中b 和c 是从同一点抛出的，不计空气阻力，则\n（     ）\n（A）a 的飞行时间比b 的长\n（B）b 和c 的飞行时间相同\n（C）a 的水平速度比b 的小\n（D）b 的初速度比c 的大",
+      "answer": "暂无结构化答案",
+      "analysis": "平抛运动可看成水平方向的匀速直线运动和竖直方向的\n自由落体运\n动的合运动，因y＝1\n2gt2，ya＜yb＝yc，所以b 和c 飞行时间相等且比a 的飞行时间长，A 错误，B 正确；因\nx＝vt，xa＞xb＞xc，ta＜tb＝tc，故va＞vb＞vc，C 错误，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q03",
+      "content": "如图，一小球放置在木板与竖直墙面之间。设墙面对球的压力大小为N1，球对木板的压\n力大小为N2。以木板与墙连接点所形成的水平直线为轴，将木板从图示位置开始缓慢地转\n到水平位置。不计摩擦，在此过程中（    ）\n（A）N1 始终减小，N2 始终增大\n（B）N1 始终减小，N2 始终减小\n（C）N1 先增大后减小，N2 始终减小\n（D）N1 先增大后减小，N2 先减小后增大",
+      "answer": "暂无结构化答案",
+      "analysis": "受力分析如图所示：重力的大小方向都不变，可知N1、N2 的合力大\n小、方向都不变，当木板向下转动时，N1、N2 变化如图所示，即N1、N2 都减\n小，所以正确选项为B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q04",
+      "content": "自耦变压器铁芯上只绕有一个线圈，原、副线圈都只取该线圈的某部分，一升压式自耦调压变压器的\n电路如图所示，其副线圈匝数可调。已知变压器线圈总匝数为1900 匝；原线圈为1100 匝，接在有效值为\n220V 的交流电源上。当变压器输出电压调至最大时，负载R 上的功率为2.0kW。设此时原线圈中电流有\n效值为I1，负载两端电压的有效值为U2，且变压器是理想的，则U2 和I1 分别约为（   ）\na\nb\nc\nx\ny\nO\nN1\nN2\nG\nG/\n第2页（共9页）\n（A）380V 和5.3A\n（B）380V 和9.1A\n（C）240V 和5.3A\n（D）240V 和9.1A",
+      "answer": "暂无结构化答案",
+      "analysis": "由理想变压器原理：\n1\n1\n2\n2\nU\nn\nU\nn\n=\n得：\n2\n2\n1\n1\n1900\n220\n380\n1100\nn\nU\nU\nV\nV\nn\n=\n=\n\n=\n，又\n1\n2\n1 1\n2\n2\nP\nP\nU I\nU I\n=\n=\n=\n所以：\n2\n1\n1\n2000\n9.1\n220\nP\nI\nA\nA\nU\n=\n=\n=\n，所以B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q05",
+      "content": "如图，平行板电容器的两个极板与水平地面成一角度，两极板与一直流电源相\n连。若一带电粒子恰能沿图中所示水平直线通过电容器，则在此过程中，该粒子\n（    ）\n（A）所受重力与电场力平衡\n（B）电势能逐渐增加\n（C）动能逐渐增加\n（D）做匀变速直线运动",
+      "answer": "暂无结构化答案",
+      "analysis": "受力分析如图所示，重力与电场力的合力与速度方向相反，所以粒子做匀\n减速直线运动，动能减小，所以A、C 错误，D 正确；因为电场力与速度方向夹角\n为钝角，所以电场力做负功，电势能增加，即B 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q06",
+      "content": "如图，均匀磁场中有一由半圆弧及其直径构成的导线框，半圆直径与磁场边\n缘重合；磁场方向垂直于半圆面（纸面）向里，磁感应强度大小为B0。使该线框\n从静止开始绕过圆心O、垂直于半圆面的轴以角速度ω 匀速转动半周，在线框中\n产生感应电流。现使线框保持图中所示位置，磁感应强度大小随时间线性变化。\n为了产生与线框转动半周过程中同样大小的电流，磁感应强度随时间的变化率\nΔB\nΔt 的大小应为（    ）\n（A）4ωB0\nπ\n（B）2ωB0\nπ\n（C）ωB0\nπ\n（D）ωB0\n2π",
+      "answer": "C",
+      "analysis": "线圈匀速转动过程中：\n2\n2\n0\n0\n1\n1\n2\n2\nB R\nB R\nE\nI\nr\nr\nr\n\n\n=\n=\n=\n；由法拉第电磁感应定律，磁感应强度大小\n随时间线性变化产生电流\n2\n2\n1\n1\n1\n1\n1\n2\n2\nB\nR\nE\nBR\nI\nr\nr\nt\nr\nt\nr\nt\n\n\n\n\n\n\n=\n=\n=\n=\n\n\n\n，由题意产生同样大小的电流，所\n以\n0\nB\nB\nt\n\n\n\n=\n\n，故C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q07",
+      "content": "如图，一载流长直导线和一矩形导线框固定在同一平面内，线框在长直导线右侧，\n且其长边与长直导线平行。已知在t＝0 到t＝t1 的时间间隔内，直导线中电流i 发生某种\n变化，而线框中感应电流总是沿顺时针方向；线框受到的安培力的合力先水平向左、后\n水平向右。设电流i 正方向与图中箭头方向相同，则i 随时间t 变化的图线可能是（   ）\n~\nR\nB0\nO\nω\ni\nv\nG\nqE\n第3页（共9页）",
+      "answer": "A",
+      "analysis": "由楞次定律可知：线框受力水平向左时，线圈中的磁场要阻碍原磁场引起的磁通量的减弱，说明\n导线中的电流正在减弱；线框受力水平向右时，线圈中的磁场要阻碍原磁场引起的磁通量的增强，说明导\n线中的电流正在增强；所以导线中的电流先减弱后增强，所以CD 错误；又因线圈中的电流为顺时针方向，\n所以由右手螺旋定则知线圈产生磁场为垂直纸面向里，因为线圈中的磁场要阻碍原磁场引起的磁通量的减\n弱，故导线初始状态在导线右侧产生的磁场方向为垂直纸面向里，由右手螺旋定则知导线中电流方向为正\n方向，所以A 正确，B 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q08",
+      "content": "假设地球是一半径为R、质量分布均匀的球体。一矿井深度为d。已知质量分布均匀的球壳对壳内物\n体的引力为零。矿井底部和地面处的重力加速度大小之比为（   ）\n（A）1－d\nR\n（B）1＋d\nR\n（C）（R－d\nR ）2\n（D）（R\nR－d ）2",
+      "answer": "暂无结构化答案",
+      "analysis": "在地球表面\n2\nMm\nG\nmg\nR\n=\n，又\n3\n4\n3\nM\nR\n\n\n=\n\n，所以\n2\n4\n3\nM\ng\nG\nG R\nR\n\n\n=\n=\n，因为球壳对球内物体\n的引力为零，所以在深为d 的矿井内\n2\n(\n)\nMm\nG\nmg\nR\nd\n\n=\n−\n，得\n2\n4\n(\n)\n(\n)\n3\nM\ng\nG\nG\nR\nd\nR\nd\n\n\n=\n=\n−\n−\n，所以\n1\ng\nR\nd\nd\ng\nR\nR\n\n−\n=\n= −\n。\n第Ⅱ卷",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q09",
+      "content": "（5 分）\n某同学利用螺旋测微器测量一金属板的厚度。该螺旋测微器校零时的示数如图（a）所示，测量金属板厚度\n时的示数如图（b）所示。图（a）所示读数为_________mm，图（b）所示读数为_________mm，所测金属\n板的厚度为_________mm。",
+      "answer": "暂无结构化答案",
+      "analysis": "根据螺旋测微器的读数规则，读数＝固定刻度＋可动刻度×0.01 mm，图(a)所示读数为0.010 mm，\n图(b)所示读数为6.870 mm，所测金属板的厚度为6.870 mm －0.010 mm ＝6.860 mm。\nO\ni\nt\nA\nt1\nO\ni\nt\nB\nt1\nO\ni\nC\nt1\nt\nO\ni\nD\nt1\nt\n0\n图(a)\n10\n5\n0\n45\n0\n图(b)\n5\n45\n40\n35\n30\n第4页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q10",
+      "content": "（10 分）\n图中虚线框内存在一沿水平方向、且与纸面垂直的匀强磁场。现\n通过测量通电导线在磁场中所受的安培力，来测量磁场的磁感应\n强度大小、并判定其方向。所用部分器材已在图中给出，其中D\n为位于纸面内的U 形金属框，其底边水平，两侧边竖直且等长；\nE 为直流电源；R 为电阻箱；○\nA 为电流表；S 为开关。此外还有\n细沙、天平、米尺和若干轻质导线。\n（1）在图中画线连接成实验电路图。\n（2）完成下列主要实验步骤中的填空\n①按图接线。\n②保持开关S 断开，在托盘内加入适量细沙，使D 处于平衡状态；然后用天平称出细沙质量m1。\n③闭合开关S，调节R 的值使电流大小适当，在托盘内重新加入适量细沙，使D________；然后读出\n___________________，并用天平称出____________。\n④用米尺测量_______________。\n（3）用测量的物理量和重力加速度g 表示磁感应强度的大小，可以得出B＝_________。\n（4）判定磁感应强度方向的方法是：若____________，磁感应强度方向垂直纸面向外；反之，磁感应强度\n方向垂直纸面向里。",
+      "answer": "（1）如图所示\n（2）③重新处于平衡状态，电流表的示数I，此时细沙的质量m2\n④D 的底边长度\n（3）|m2－m1|g\nIl\n（4）m2＞m1",
+      "analysis": "（1）依题意：绝缘线圈、电流表、变阻器、开关、电源组成闭合回路，连接如图。\n（2）③只有绝缘线圈重新达到平衡状态才可以读出电流表的示数，测出细沙的质量，利用平衡条件得到绝\n缘线圈所受安培力、拉力、重力的关系。故三处应填：重新处于平衡状态；电流表的示数I；此时细沙的质\n量\n④要求安培力必须知道磁场中导线受安培力的有效长度即D 的底边长度\n（3）由拉力、安培力、重力的平衡得：F ±F 安＝m1g,，且F＝m2g、F 安＝BIl。所以\n2\n1\nm\nm g\nB\nIl\n−\n=\n（4）磁感应强度方向垂直纸面向外，D 受安培力向下，绝缘线圈平衡必须\n2\n1\nm\nm\n",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q010-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q11",
+      "content": "（14 分）\nS\nE\n电流表\n光滑轻滑轮\n绝缘细线\n轻绳\n支架\n轻质\n托盘\nA\nR\nS\nA\nR\nE\n电流表\n光滑轻滑轮\n绝缘细线\n轻绳\n支架\n轻质\n托盘\n第5页（共9页）\n拖把是由拖杆和拖把头构成的擦地工具（如图）。设拖把头的质量为m，拖杆质量可以\n忽略；拖把头与地板之间的动摩擦因数为常数μ，重力加速度为g，某同学用该拖把\n在水平地板上拖地时，沿拖杆方向推拖把，拖杆与竖直方向的夹角为θ。\n（1）若拖把头在地板上匀速移动，求推拖把的力的大小。\n（2）设能使该拖把在地板上从静止刚好开始运动的水平推力与此时地板对拖把的正\n压力的比值为λ。已知存在一临界角θ0，若θ≤θ0，则不管沿拖杆方向的推力多大，都\n不可能使拖把从静止开始运动。求这一临界角的正切tanθ0。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设该同学沿拖杆方向用大小为F 的力推拖把。将推拖把的力沿竖直和水\n平方向分解，按平衡条件有\ncos\nF\nmg\nN\n+\n=\n                                     ①\nsin\nF\nf\n=\n                                           ②\n式中N 和f 分别为地板对拖把的正压力和摩擦力。按摩擦定律有\n           f\nN\n\n=\n                                              ③\n联立①②③式得\nsin\ncos\nF\nmg\n\n\n\n\n=\n−\n                                 ④\n（2）若不管沿拖杆方向用多大的力都不能使拖把从静止开始运动，应有\nsin\nF\nN\n\n\n\n                                        ⑤\n这时，①式仍满足。联立①⑤式得\n        sin\ncos\nmg\nF\n\n\n\n\n−\n\n                                ⑥\n    现考察使上式成立的θ 角的取值范围。注意到上式右边总大于零，且当F 无限大时极限为零，有\n        sin\ncos\n0\n\n\n\n−\n\n                                    ⑦\n    使上式成立的θ 角满足\n0\n\n\n\n，这里θ0 是题中所定义的临界角，即当\n0\n\n\n\n时，不管拖杆方向用多大\n的力都推不动拖把。临界角的正切为\n0\ntan\n\n=\n                                           ⑧",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf#q12",
+      "content": "（18 分）\n如图，一半径为R 的圆表示一柱形区域的横截面（纸面）。在柱形区域内加一方向垂直于纸面的匀强磁场，\n一质量为m、电荷量为q 的粒子沿图中直线在圆上的a 点射入柱形区域，在圆上\n的b 点离开该区域，离开时速度方向与直线垂直。圆心O 到直线的距离为3\n5 R。\n现将磁场换为平等于纸面且垂直于直线的匀强电场，同一粒子以同样速度沿直线\n在a 点射入柱形区域，也在b 点离开该区域。若磁感应强度大小为B，不计重力，\n求电场强度的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "粒子在磁场中做圆周运动。设圆周半径为r，由牛顿第二定律和洛仑兹力\n公式得\n拖把头\nθ\n拖杆\nb\na\nO\n第6页（共9页）\n2v\nqvB\nm r\n=\n                                     ①\n式中v 为粒子在a 点的速度。\n过b 点和O 点作直线的垂线，分别于直线交于c 和d 点。由几何关系，线段ab 、\nbc 和过a、b 两点的轨迹圆弧的两条半径（未画出）围成一正方形。因此\n        ab\nbc\nr\n=\n=\n                                        ②\n设cd\nx\n=\n。由几何关系得\n4\nac\n5 R\nx\n=\n+\n                                      ③\n2\n2\n3\nbc\n5 R\nR\nx\n=\n+\n−\n                               ④\n联立②③④式得\n7\n5\nr\nR\n=\n                                       ⑤\n    再考虑粒子在电场中的运动。设电场强度的大小为E，粒子在电场中做类平抛运动。设其加速度大小\n为a，由牛顿第二定律和带电粒子在电场中的受力公式得\n            qE＝ma                                           ⑥\n粒子在电场力方向和直线方向所走的距离均为r，由运动学公式得\n2\n1\n2\nr\nat\n=\n                                        ⑦\n             r＝vt                                            ⑧\n式中t 是粒子在电场中运动的时间。联立①⑤⑥⑦⑧式得\n2\n14\n5\nqRB\nE\nm\n=\n（二）选考题：共45 分\n33．【物理——选修3-3】（15 分）\n（1）（6 分）关于热力学定律，下列说法正确的是_________（填入正确选项前的字母，选对1 个给3 分，\n选对2 个给4 分，选对3 个给6 分，每选错1 个扣3 分，最低得分为0 分）。\n（A）为了增加物体的内能，必须对物体做功或向它传递热量\n（B）对某物体做功，必定会使该物体的内能增加\n（C）可以从单一热源吸收热量，使之完全变为功\n（D）不可能使热量从低温物体传向高温物体\n（E）功转变为热的实际宏观过程是不可逆过程\n做功和热传递是改变内能的两种方式，A 正确，B 错误；可以从单一热源吸收热量，使之完全变\n为功，也可以使热量从低温物体传给高温物体，但要引起其他变化，C 正确，D 错误；根据热力学第二定\n律，一切与热现象有关的宏观过程都是不可逆的，E 错误。\nb\na\nO\nc\nd\n第7页（共9页）\n（2）（9 分）如图，由U 形管和细管连接的玻璃泡A、B 和C 浸泡在温度\n均为0℃的水槽中，B 的容积是A 的3 倍。阀门S 将A 和B 两部分隔开。\nA内为真空，B和C内都充有气体。U形管内左边水银柱比右边的低60mm。\n打开阀门S，整个系统稳定后，U 形管内左右水银柱高度相等。假设U 形\n管和细管中的气体体积远小于玻璃泡的容积。\n（i）求玻璃泡C 中气体的压强（以mmHg 为单位）\n（ii）将右侧水槽的水从0℃加热到一定温度时，U 形管内左右水银柱高度差又为60mm，求加热后右侧水\n槽的水温。\n（1）在打开阀门S 前，两水槽水温均为T0＝273K。设玻璃泡B 中气体的压强为p1，体积为VB，\n玻璃泡C 中气体的压强为pC，依题意有\np1＝pC＋Δp                                  ①\n式中Δp＝60mmHg，打开阀门S 后，两水槽水温仍为T0，设玻璃泡B 中气体的压强为pB。依题意，有\npB＝pC                                          ②\n玻璃泡A 和B 中气体的体积为\nV2＝VA＋VB                                       ③\n根据玻意耳定律得\np1VB＝pBV2                                       ④\n联立①②③④式，并代入题给数据得\npC＝VB\nVA Δp＝180mmHg                          ⑤\n（2）当右侧水槽的水温加热至T时，U 形管左右水银柱高度差为Δp。玻璃泡C 中气体的压强为\nC\nB\np\np\np\n=\n+                                    ⑥\n玻璃泡C 的气体体积不变，根据查理定理得\n0\nC\nC\np\np\nT\nT\n\n=\n\n                                        ⑦\n联立②⑤⑥⑦式，并代入题给数据得\nTʹ＝364K                                       ⑧\n34．【物理——选修3-4】（15 分）\n（1）（6 分）一简谐横波沿x 轴正向传播，t＝0 时刻的波形如图（a）所示，x＝0.30m 处的质点的振动图线\n如图（b）所示，该质点在t＝0 时刻的运动方向沿y 轴_________（填“正向”或“负向”）。已知该波的波\n长大于0.30m，则该波的波长为_______m。\n图(a)\nO\n2\nx/m\ny/cm\n图(b)\nO\n2\ny/cm\nt/s\n左\nS\n右\nA\nB\nC\n第8页（共9页）\n（1）由b 图可知，0 时刻质点振动方向沿y 轴正向；根据质点\n带动法和波向右传播，由a 图知介质中各质点的振动方向如图示，由振\n动方程\n2\nsin\ny\nA\nt\nT\n\n=\n，既有\n2\n2\n2sin\nt\nT\n\n=\n得：\n2\n2\nsin\n2\nt\nT\n\n=\n，又波\n长大于0.3m，所以2\n3\n4\nt\nT\n\n\n=\n，得：\n3\n8\nt\nT\n=\n，又\n0.3\n3\n8\nx\nv\nT\nt\nT\n\n\n=\n=\n=\n\n，\n所以\n0.8m\n=\n（2）（9 分）一玻璃立方体中心有一点状光源。今在立方体的部分表面镀上不\n透明薄膜，以致从光源发出的光线只经过一次折射不能透出立方体。已知该玻\n璃的折射率为2 ，求镀膜的面积与立方体表面积之比的最小值。\n如图，考虑从玻璃立方体中心O 点发出的一条光线，假设它斜射到玻\n璃立方体上表面发生折射。根据折射定律有\nsin\nsin\nn\n\n\n=\n                                    ①\n式中，n 是玻璃的折射率，入射角等于θ，α 是折射角。\n    现假设A 点是上表面面积最小的不透明薄膜边缘上的一点。由题意，在A 点刚好发生全发射，故\n2\nA\n\n\n=\n                                          ②\n    设线段OA 在立方体上表面的投影长为RA，由几何关系有\n2\n2\nsin\n2\nA\nA\nA\nR\na\nR\n=\n\n\n+\n\n\n\n                             ③\n式中a 为玻璃立方体的边长。由①②③式得\n2\n2\n1\nA\na\nR\nn\n=\n−\n                                   ④\n由题给数据得\n2\nA\na\nR =\n                                         ⑤\n       由题意，上表面所镀的面积最小的不透明薄膜应是半径为RA 的圆。所求的镀膜面积S与玻璃立方\n体的表面积S 之比为\n2\n2\n6\n6\nS\nR\nS\na\n\n=\n                                      ⑥\n    由⑤⑥式得\n4\nS\nS\n\n=\n                                          ⑦\n35．【物理——选修3-5】（15 分）\n（1）（6 分）氘核和氚核可发生热核聚变而释放巨大的能量，该反应方程为：21H＋31H→42He＋x，式中x\n是某种粒子。已知：21H、31H、42He 和粒子x 的质量分别为2.0141u、3.0161u、4.0026u 和1.0087u；1u＝\n931.5MeV/c2，c 是真空中的光速。由上述反应方程和数据可知，粒子x 是__________，该反应释放出的能\nR\nθ\na/2\nO\n2\nx/m\ny/cm\n第9页（共9页）\n量为_________MeV（结果保留3 位有效数字）\n根据2\n3\n4\n1\n1\n2\nH\nH\nH\nx\n+\n→\n+\n并结合质量数守恒和电荷数守恒知x 为1\n0n 。由质能方程\n2\nE\nmc\n\n= \n得：\n2\n3\n4\n1\n2\n3\n4\n1\n1\n1\n2\n0\n1\n1\n2\n0\n2\n936\n(\n)\n(\n)\n17.6\n1\nH\nH\nHe\nn\nH\nH\nHe\nn\nMeV\nE\nm\nm\nm\nm\nc\nm\nm\nm\nm\nMeV\nu\n\n=\n+\n−\n−\n=\n+\n−\n−\n=\n。\n（2）（9 分）如图，小球a、b 用等长细线悬挂于同一固定点O。让球a 静止下垂，将球b 向右拉起，使细\n线水平。从静止释放球b，两球碰后粘在一起向左摆动，此后细线与竖直方向之间\n的最大偏角为60°。忽略空气阻力，求：\n（i）两球a、b 的质量之比；\n（ii）两球在碰撞过程中损失的机械能与球b 在碰前的最大动能之比。\n（i）设球b 的质量为m2，细线长为L，球b 下落至最低点、但未与球a 相\n碰时的速率为v，由机械能守恒定律得\n2\n2\n2\n1\n2\nm gL\nm v\n=\n                                  ①\n     式中g 是重力加速度的大小。设球a 的质量为m1；在两球碰后的瞬间，两球共同速度为v，以向左\n为正。由动量守恒定律得\n2\n1\n2\n(\n)\nm v\nm\nm v\n=\n+\n                                ②\n          设两球共同向左运动到最高处时，细线与竖直方向的夹角为θ，由机械能守恒定律得\n2\n1\n2\n1\n2\n1 (\n)\n(\n)\n(1 cos )\n2 m\nm v\nm\nm gL\n\n\n+\n=\n+\n−\n            ③\n          联立①②③式得\n1\n2\n1\n1\n1 cos\nm\nm\n\n=\n−\n−\n                              ④\n     代入题给数据得\n1\n2\n2\n1\nm\nm =\n−                                     ⑤\n       （ii）两球在碰撞过程中的机械能损失是\n2\n1\n2\n(\n)\n(1 cos )\nQ\nm gL\nm\nm gL\n\n=\n−\n+\n−\n                     ⑥\n      联立①⑥式，Q 与碰前球b 的最大动能\n2\n2\n1\n(\n)\n2\nk\nk\nE\nE\nm v\n=\n之比为\n1\n2\n2\n1\n(1 cos )\nk\nm\nm\nQ\nE\nm\n\n+\n= −\n−\n                           ⑦\n      联立⑤⑦式，并代入题给数据得\n2\n1\n2\nk\nQ\nE = −\n                                       ⑧\na\nb\nO",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012新课标理综(河南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江西,湖北,湖南,云南,陕西,宁夏,新疆).pdf",
+        "page": 5,
+        "endPage": 9,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p007-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p008-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p008-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p008-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4990e0e21441956c-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

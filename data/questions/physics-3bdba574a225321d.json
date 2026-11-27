@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
   "name": "2016全国3理综(广西,贵州,云南)",
   "track": "standard",
@@ -15,490 +16,436 @@
   "textPages": 8,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 5,
+    "reviewCount": 9,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q01",
-      "content": "本试卷分第Ⅰ卷（选择题）和第Ⅱ卷（非选择题）两部分。",
+      "content": "本试卷分第Ⅰ卷（选择题）和第Ⅱ卷（非选择题）两部分。\n2.答题前，考生务必将自己的姓名、准考证号填写在本试题相应的位置。\n3.全部答案在答题卡上完成，答在本试题上无效。\n4.考试结束后，将本试题和答题卡一并交回。\n第Ⅰ卷（选择题共126 分）\n本卷共21 小题，每小题6 分，共126 分。\n可能用到的相对原子质量：",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q02",
-      "content": "答题前，考生务必将自己的姓名、准考证号填写在本试题相应的位置。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 2,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q03",
-      "content": "全部答案在答题卡上完成，答在本试题上无效。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 3,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q04",
-      "content": "考试结束后，将本试题和答题卡一并交回。\n第Ⅰ卷（选择题共126 分）\n本卷共21 小题，每小题6 分，共126 分。\n可能用到的相对原子质量：\n二、选择题：本大题共8 小题，每小题6 分。在每小题给出的四个选项中，第14~17 题只\n有一项是符合题目要求，第18~21 题有多项符合题目要求。全部选对的得6 分，选对但不\n全的得3 分。有选错的得0 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 4,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q05",
-      "content": "关于行星运动的规律，下列说法符合史实的是（    ）\n（A）开普勒在牛顿定律的基础上，导出了行星运动的规律\n（B）开普勒在天文观测数据的基础上，总结出了行星运动的规律\n（C）开普勒总结出了行星运动的规律，找出了行星按照这些规律运动的原因\n（D）开普勒总结出了行星运动的规律，发现了万有引力定律",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 14,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q06",
-      "content": "关于静电场的等势面，下列说法正确的是（    ）\n（A）两个电势不同的等势面可能相交\n（B）电场线与等势面处处相互垂直\n（C）同一等势面上各点电场强度一定相等\n（D）将一负的试探电荷从电势较高的等势面移至电势较低的等势面，电场力做正功\n【解析】\n试题分析：等势面相交，则电场线一定相交，故在同一点存在两个不同的电场强度方向，与\n事实不符，A 错误；电场线与等势面垂直，B 正确；同一等势面上的电势相同，但是电场强\n度不一定相同，C 错误；将一负电荷从高电势处移动到低电势处，受到的电场力的方向是从\n低电势指向高电势，所以电场力的方向与运动的方向相反，电场力做负功，D 错误。\n【考点定位】考查了电势，等势面，电场力做功\n【方法技巧】电场中电势相等的各个点构成的面叫做等势面；等势面与电场线垂直，沿着等\n势面移动点电荷，电场力不做功，等势面越密，电场强度越大，等势面越疏，电场强度越小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 15,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q07",
-      "content": "一质点做速度逐渐增大的匀加速直线运动，在时间间隔t 内位移为s，动能变为原来的\n9 倍。该质点的加速度为（    ）\n（A）s\nt2\n（B）3s\n2t2\n（C）4s\nt2\n（D）8s\nt2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 1,
-        "questionNumber": 16,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q08",
-      "content": "如图，两个轻环a 和b 套在位于竖直面内的一段固定圆弧\n上：一细线穿过两轻环，其两端各系一质量为m 的小球。在a 和\nb 之间的细线上悬挂一小物块。平衡时，a、b 间的距离恰好等于\n圆弧的半径。不计所有摩擦。小物块的质量为（    ）\n（A）m\n2\n（B）3\n2 m\n（C）m\n（D）2m\n【解析】\n试题分析：根据题意设悬挂小物块的点为Oʹ，圆弧的圆心为O，由于ab＝R，所以三角形\nOab 为等边三角形，根据几何知识可得∠aOʹb＝120°，而一条绳子上的拉力相等，故T＝mg，\n小物块受到两条绳子的拉力作用且两力大小相等，夹角为120°，故受到的拉力的合力等于\nmg，因为小物块受到绳子的拉力和重力作用，处于静止状态，故拉力的合力等于小物块的重\n力，为mg，所以小物块的质量为m，C 正确。\n【考点定位】考查了共点力平衡条件的应用\n【方法技巧】在处理共点力平衡问题时，关键是对物体进行受力分析，然后根据正交分解法\n将各个力分解成两个方向上的力，然后列式求解，如果物体受到三力处于平衡状态，则可根\n据矢量三角形法，将三个力移动到一个三角形中，然后根据角度列式求解，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 2,
-        "questionNumber": 17,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q09",
-      "content": "平面OM 和平面ON 之间的夹角为30°，其横截面（纸\n面）如图所示，平面OM 上方存在匀强磁场，磁感应强度大\n小为B，方向垂直于纸面向外。一带电粒子的质量为m，电\n荷量为q（q＞0）。粒子沿纸面以大小为v 的速度从PM 的某\n点向左上方射入磁场，速度与OM 成30°角。已知粒子在磁\n场中的运动轨迹与ON 只有一个交点，并从OM 上另一点射出磁场。不计重力。粒子离开磁\n场的射点到两平面交线O 的距离为（    ）\n（A）mv\n2Bq\n（B）3mv\nBq\n（C）2mv\nBq\n（D）4mv\nBq",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 2,
-        "questionNumber": 18,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q10",
-      "content": "如图，理想变压器原、副线圈分别接有额定电压相同的灯泡a 和\nb。当输入电压U 为灯泡额定电压的10 倍时，两灯泡均能正常发光。\n下列说法正确的是（    ）\n（A）原、副线圈匝数之比为9∶1\n（B）原、副线圈匝数之比为1∶9\n（C）此时a 和b 的电功率之比为9∶1\n（D）此时a 和b 的电功率之比为1∶9\n【解析】设灯泡的额定电压为\n0\nU ，两灯泡均能正常发光，所以原线圈输出端电压为\n1\n0\n9\nU\nU\n=\n，\n副线圈两端电压为\n2\n0\nU\nU\n=\n，故\n1\n2\n9\n1\nU\nU =\n，根据\n1\n1\n2\n2\n9\n1\nU\nn\nU\nn\n=\n=\n，A 正确，B 错误；根据公式\n1\n2\n2\n1\nI\nn\nI\nn\n=\n可得\n1\n2\n1\n9\nI\nI =\n，由于小灯泡两端的电压相等，所以根据公式P＝UI 可得两者的电功\n率之比为1∶9，C 错误，D 正确。\n【考点定位】考查了理想变压器，电功率的计算\n【方法技巧】对于变压器需要掌握公式\n、\n，以及知道副线圈的电流以及功\n率决定了原线圈中的电流和功率，理想变压器是理想化模型，一是不计线圈内阻；二是没有\n出现漏磁现象．同时当电路中有变压器时，只要将变压器的有效值求出，则就相当于一个新\n的恒定电源，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 2,
-        "questionNumber": 19,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q11",
-      "content": "如图，一固定容器的内壁是半径为R 的半球面；在半\n球面水平直径的一端有一质量为m 的质点P。它在容器内\n壁由静止下滑到最低点的过程中，克服摩擦力做的功为\nW。重力加速度大小为g。设质点P 在最低点时，向心加\n速度的大小为a，容器对它的支持力大小为N，则（    ）\n（A）a＝2(mgR－W)\nmR\n（B）a＝2mgR－W\nmR\n（C）N＝3mgR－2W\nR\n（D）N＝2(mgR－W)\nR",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 3,
-        "questionNumber": 20,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q12",
-      "content": "如图，M 为半圆形导线框，圆心为OM；N 是圆心角\n为直角的扇形导线框，圆心为ON；两导线框在同一竖直面\n（纸面）内；两圆弧半径相等；过直线OMON 的水平面上\n方有一匀强磁场，磁场方向垂直于纸面。现使线框M、N\n在t＝0 时从图示位置开始，分别绕垂直于纸面、且过OM\n和ON 的轴，以相同的周期T 逆时针匀速转动，则（    ）\n（A）两导线框中均会产生正弦交流电\n（B）两导线框中感应电流的周期都等于T\n（C）在t＝T\n8 时，两导线框中产生的感应电动势相等\n（D）两导线框的电阻相等时，两导线框中感应电流的有效值也相等\n第II 卷（非选择题共174 分）\n三、非选择题：包括必考题和选考题两部分。第22 题~第32 题为必考题，每个试题考生都\n必须做答。第33 题~第40 题为选考题，考生根据要求做答。\n（一）必考题（共129 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 3,
-        "questionNumber": 21,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q13",
-      "content": "（5 分）某同学用图中所给器材进行与安培力有关的实验。两根金属导轨ab 和a1b1 固\n定在同一水平面内且相互平行，足够大的电磁铁（未画出）的N 极位于两导轨的正上方，S\n极位于两导轨的正下方，一金属棒置于导轨上且两导轨垂直。\n（1）在图中画出连线，完成实验电路。要求滑动变阻器以限流方式接入电路，且在开关闭\n合后，金属棒沿箭头所示的方向移动。\n（2）为使金属棒在离开导轨时具有更大的速度，有人提出以下建议：\nA．适当增加两导轨间的距离\nB．换一根更长的金属棒\nC．适当增大金属棒中的电流\n其中正确的是__________（填入正确选项前的标号）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 3,
-        "questionNumber": 22,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q14",
-      "content": "（10 分）某物理课外小组利用图（a）中的装置\n探究物体加速度与其所受合外力之间的关系。途中，\n置于试验台上的长木板水平放置，其右端固定一轻滑\n轮：轻绳跨过滑轮，一段与放在木板上的小滑车相连，\n另一端可悬挂钩码。本实验中可用的钩码共有N＝5\n个，每个质量均为0.010kg。实验步骤如下：\n（1）将5 个钩码全部放入小车中，在长木板左下方\n垫上适当厚度的小物快，使小车9（和钩码）可以在木板上匀速下滑。\n（2）将n（依次取n＝1，2，3，4，5）个钩码挂在轻绳右端，其余N-n 各钩码仍留在小车\n内；用手按住小车并使轻绳与木板平行。释放小车，同时用传感器记录小车在时刻t 相对于\n其起始位置的位移s，绘制s-t 图像，经数据处理后可得到相应的加速度a。\n（3）对应于不同的n 的a 值见下表。n＝2 时的s-t 图像如图（b）所示：由图（b）求出此\n时小车的加速度（保留2 位有效数字），将结果填入下表。\nn\n1\n2\n3\n4\n5\na/m·s-2\n0.20\n0.58\n0.78",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 4,
-        "questionNumber": 23,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q15",
-      "content": "00\n（4）利用表中的数据在图（c）中补齐数据点，并作出a-n 图像。从图像可以看出：当物体\n质量一定时，物体的加速度与其所受的合外力成正比。\n（5）利用a–n 图像求得小车（空载）的质量为_______kg（保留2 位有效数字，重力加速度\n取g＝9.8 m·s–2）。\n（6）若以“保持木板水平”来代替步骤（1），下列说法正确的是_______（填入正确选项钱\n的标号）\nA．a–n 图线不再是直线\nB．a–n 图线仍是直线，但该直线不过原点\nC．a–n 图线仍是直线，但该直线的斜率变大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 4,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q16",
-      "content": "（12 分）如图，在竖直平面内由1\n4 圆弧AB 和1\n2 圆弧BC 组成的\n光滑固定轨道，两者在最低点B 平滑连接。AB 弧的半径为R，BC 弧\n的半径为R\n2 。一小球在A 点正上方与A 相距R\n4 处由静止开始自由下\n落，经A 点沿圆弧轨道运动。\n（1）求小球在B、A 两点的动能之比；\n（2）通过计算判断小球能否沿轨道运动到C 点。\n【解析】（1）设小球的质量为m，小球在A 点的动能为EkA，由机械能守恒可得\nEkA＝mgR\n4\n①\n设小球在B 点的动能为EkB，同理有Ekb＝mg5R\n4\n②\n由①②联立可得EkA\nEkB ＝5\n③\n（2）若小球能沿轨道运动到C 点，小球在C 点所受轨道的正压力N 应满足\n④\n设小球在C 点的速度大小为\n，根据牛顿运动定律和向心加速度公式有\n⑤\n联立④⑤可得\n⑥\n根据机械能守恒可得\n⑦\n根据⑥⑦可知，小球恰好可以沿轨道运动到C 点\n【考点定位】考查了机械能守恒，牛顿运动定律，圆周运动，\n【方法技巧】分析清楚小球的运动过程，把握圆周运动最高点临界速度的求法：重力等于向\n心力，同时要熟练运用机械能守恒定律．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 5,
-        "questionNumber": 24,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q17",
-      "content": "（20 分）如图，两条相距l 的光滑平行金属导轨位于\n同一水平面（纸面）内，其左端接一阻值为R 的电阻；一\n与导轨垂直的金属棒置于两导轨上；在电阻、导轨和金属\n棒中间有一面积为S 的区域，区域中存在垂直于纸面向里\n的均匀磁场，磁感应强度打下B1 随时间t 的变化关系为B1\n＝kt，式中k 为常量；在金属棒右侧还有一匀强磁场区域，\n区域左边界MN（虚线）与导轨垂直，磁场的磁感应强度\n大小为B0，方向也垂直于纸面向里。某时刻，金属棒在一\n外加水平恒力的作用下从静止开始向右运动，在t0 时刻恰好以速度v0 越过MN，此后向右\n做匀速运动。金属棒与导轨始终相互垂直并接触良好，它们的电阻均忽略不计。求：\n（1）在t＝0 到t＝t0 时间间隔内，流过电阻的电荷量的绝对值；\n（2）在时刻t（t＞t0）穿过回路的总磁通量和金属棒所受外加水平恒力的大小。\n（二）选考题：共45 分。请考生从给出的3 道物理题、3 道化学题、2 道生物题中每科任\n选一题做答，并用2B 铅笔在答题卡上把所选题目题号后的方框涂黑。注意所选题目的题号\n必须与所涂题目的题号一致，在答题卡选答区域指定位置答题。如果多做，则每学科按所做\n的第一题计分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 5,
-        "questionNumber": 25,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q18",
-      "content": "【物理选修3-3】\n（1）（5 分）关于气体的内能，下列说法正确的是________。（填正确答案标号。选对1 个\n得2 分，选对2 个得4 分，选对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）质量和温度都相同的气体，内能一定相同\n（B）气体温度不变，整体运动速度越大，其内能越大\n（C）气体被压缩时，内能可能不变\n（D）一定量的某种理想气体的内能只与温度有关\n（E）一定量的某种理想气体在等压膨胀过程中，内能一定增加\n（2）（10 分）一U 形玻璃管竖直放置，左端开口，\n右端封闭，左端上部有一光滑的轻活塞。初始时，\n管内汞柱及空气柱长度如图所示。用力向下缓慢推\n活塞，直至管内两边汞柱高度相等时为止。求此时\n右侧管内气体的压强和活塞向下移动的距离。已知\n玻璃管的横截面积处处相同；在活塞向下移动的过\n程中，没有发生气体泄漏；大气压强p0＝75.0 cmHg。\n环境温度不变。\n【解析】\n试题分析：设初始时，右管中空气柱的压强为\n1p ，长度为1l ；左管中空气柱的压强为\n2\n0\np\np\n=\n，长度为2l 。活塞被推下h 后，右管中空\n气柱的压强为\n1p，长度为1l；左管中空气柱的压强为\n2p，长度为2l。以cmHg 为压强单\n位。由题给条件得\n1\n0\n(20.0\n5.00)cmHg\np\np\n=\n+\n−\n1\n20.0\n5.00\n(20.0\n)cm\n2\nl\n−\n=\n−\n根据玻意耳定律得\n1 1\n1 1\np l\np l\n=\n联立解得\n1\n144 cmHg\np=\n根据题意可得\n2\n1\np\np\n\n\n=\n，2\n20.0\n5.00\n4.00 cm\ncm\n2\nl\nh\n−\n=\n+\n−\n根据玻意耳定律得\n2 2\n2 2\np l\np l\n=\n，解得\n9.42 cm\nh =\n【考点定位】考查了理想气体状态方程的应用\n【方法技巧】由题意知两部分封闭气体的温度与环境温度保持相等，气体都作等温变化．先\n对左端气体研究，根据玻意耳定律求出活塞下移后的压强．水银面相平时，两部分气体的压\n强相等，再研究右端气体，求出活塞下移后的长度和气体压强，根据几何关系求解活塞向下\n移动的距离．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 6,
-        "questionNumber": 33,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q19",
-      "content": "【物理选修3-4】\n（1）由波源S 形成的简谐横波在均匀介质中向左、右传播。波源振动的频率为20 Hz，波\n速为16 m/s。已知介质中P、Q 两质点位于波源S 的两侧，且P、Q 和S 的平衡位置在一条\n直线上，P、Q 的平衡位置到S 的平衡位置之间的距离分别为15.8 m、14.6 m，P、Q 开始振\n动后，下列判断正确的是_____。（填正确答案标号。选对1 个得2 分，选对2 个得4 分，选\n对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）P、Q 两质点运动的方向始终相同\n（B）P、Q 两质点运动的方向始终相反\n（C）当S 恰好通过平衡位置时，P、Q 两点也正好通过平衡位置\n（D）当S 恰好通过平衡位置向上运动时，P 在波峰\n（E）当S 恰好通过平衡位置向下运动时，Q 在波峰\n（2）如图，玻璃球冠的折射率为3 ，其底面镀银，底面的半径是球半\n径的3\n2 倍；在过球心O 且垂直于底面的平面（纸面）内，有一与底面\n垂直的光线射到玻璃球冠上的M 点，该光线的延长线恰好过底面边缘上\n的A 点。求该光线从球面射出的方向相对于其初始入射方向的偏角。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 7,
-        "questionNumber": 34,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q20",
-      "content": "【物理选修3-5】\n（1）一静止的铝原子核2713Al 俘获一速度为1.0×107m/s 的质子p 后，变为处于激发态的硅\n原子核2814Si，下列说法正确的是_________（填正确的答案标号，选对一个得2 分，选对2\n个得4 分，选对3 个得5 分，没错选1 个扣3 分，最低得分为零分）\n（A）核反应方程为p＋2713Al→2814Si\n（B）核反应方程过程中系统动量守恒\n（C）核反应过程中系统能量不守恒\n（D）核反应前后核子数相等，所以生成物的质量等于反应物的质量之和\n（E）硅原子核速度的数量级为105m/s，方向与质子初速度方向一致\n【解析】\n试题分析：根据质量数和电荷数守恒可得核反应方程\n27\n28\n*\n13\n14\np\nAl\nSi\n+\n→\n，A 正确；过程中释\n放的核力远远大于外力，故系统动量守恒，B 正确；核反应过程中系统能量守恒，C 错\n误；由于反应过程中，要释放大量的能量，即伴随着质量亏损，所以生成物的质量小于反\n应物的质量之和，D 错误；由动量守恒可知，\n28\nmv\nmv\n=\n，解得\n7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2016,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 7,
-        "questionNumber": 35,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q21",
-      "content": "0 10 m/s\n28\nv=\n\n，故数\n量级约为105 m/s，故E 正确。\n【考点定位】考查了动量守恒，能量守恒，核反应方程，\n【方法技巧】由质量数、电荷数守恒可知核反应方程；由动量守恒可知硅原子核速度的数量\n级及速度方向，本大题包含了3-5 原子物理的内容，难度不大，但从题目来看考查范围很广，\n要求能全面掌握\n（2）如图所示，水平地面上有两个静止的小物块a 和b，其\n连线与墙垂直：a 和b 相距l；b 与墙之间也相距l；a 的质量\n为m，b 的质量为3\n4 m，两物块与地面间的动摩擦因数均相同，现使a 以初速度v0 向右滑动，\n此后a 与b 发生弹性碰撞，但b 没有与墙发生碰撞，重力加速度大小为g，求物块与地面间\n的动摩擦因数满足的条件。\n解 析",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
-        "page": 7,
+        "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
-        "extraction": "ocr",
+        "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q02",
+      "content": "关于行星运动的规律，下列说法符合史实的是（    ）\n（A）开普勒在牛顿定律的基础上，导出了行星运动的规律\n（B）开普勒在天文观测数据的基础上，总结出了行星运动的规律\n（C）开普勒总结出了行星运动的规律，找出了行星按照这些规律运动的原因\n（D）开普勒总结出了行星运动的规律，发现了万有引力定律",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q03",
+      "content": "关于静电场的等势面，下列说法正确的是（    ）\n（A）两个电势不同的等势面可能相交\n（B）电场线与等势面处处相互垂直\n（C）同一等势面上各点电场强度一定相等\n（D）将一负的试探电荷从电势较高的等势面移至电势较低的等势面，电场力做正功",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：等势面相交，则电场线一定相交，故在同一点存在两个不同的电场强度方向，与\n事实不符，A 错误；电场线与等势面垂直，B 正确；同一等势面上的电势相同，但是电场强\n度不一定相同，C 错误；将一负电荷从高电势处移动到低电势处，受到的电场力的方向是从\n低电势指向高电势，所以电场力的方向与运动的方向相反，电场力做负功，D 错误。\n【考点定位】考查了电势，等势面，电场力做功\n【方法技巧】电场中电势相等的各个点构成的面叫做等势面；等势面与电场线垂直，沿着等\n势面移动点电荷，电场力不做功，等势面越密，电场强度越大，等势面越疏，电场强度越小",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q04",
+      "content": "一质点做速度逐渐增大的匀加速直线运动，在时间间隔t 内位移为s，动能变为原来的\n9 倍。该质点的加速度为（    ）\n（A）s\nt2\n（B）3s\n2t2\n（C）4s\nt2\n（D）8s\nt2",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q05",
+      "content": "如图，两个轻环a 和b 套在位于竖直面内的一段固定圆弧\n上：一细线穿过两轻环，其两端各系一质量为m 的小球。在a 和\nb 之间的细线上悬挂一小物块。平衡时，a、b 间的距离恰好等于\n圆弧的半径。不计所有摩擦。小物块的质量为（    ）\n（A）m\n2\n（B）3\n2 m\n（C）m\n（D）2m",
+      "answer": "暂无结构化答案",
+      "analysis": "试题分析：根据题意设悬挂小物块的点为Oʹ，圆弧的圆心为O，由于ab＝R，所以三角形\nOab 为等边三角形，根据几何知识可得∠aOʹb＝120°，而一条绳子上的拉力相等，故T＝mg，\n小物块受到两条绳子的拉力作用且两力大小相等，夹角为120°，故受到的拉力的合力等于\nmg，因为小物块受到绳子的拉力和重力作用，处于静止状态，故拉力的合力等于小物块的重\n力，为mg，所以小物块的质量为m，C 正确。\n【考点定位】考查了共点力平衡条件的应用\n【方法技巧】在处理共点力平衡问题时，关键是对物体进行受力分析，然后根据正交分解法\n将各个力分解成两个方向上的力，然后列式求解，如果物体受到三力处于平衡状态，则可根\n据矢量三角形法，将三个力移动到一个三角形中，然后根据角度列式求解，",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q06",
+      "content": "平面OM 和平面ON 之间的夹角为30°，其横截面（纸\n面）如图所示，平面OM 上方存在匀强磁场，磁感应强度大\n小为B，方向垂直于纸面向外。一带电粒子的质量为m，电\n荷量为q（q＞0）。粒子沿纸面以大小为v 的速度从PM 的某\n点向左上方射入磁场，速度与OM 成30°角。已知粒子在磁\n场中的运动轨迹与ON 只有一个交点，并从OM 上另一点射出磁场。不计重力。粒子离开磁\n场的射点到两平面交线O 的距离为（    ）\n（A）mv\n2Bq\n（B）3mv\nBq\n（C）2mv\nBq\n（D）4mv\nBq",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q07",
+      "content": "如图，理想变压器原、副线圈分别接有额定电压相同的灯泡a 和\nb。当输入电压U 为灯泡额定电压的10 倍时，两灯泡均能正常发光。\n下列说法正确的是（    ）\n（A）原、副线圈匝数之比为9∶1\n（B）原、副线圈匝数之比为1∶9\n（C）此时a 和b 的电功率之比为9∶1\n（D）此时a 和b 的电功率之比为1∶9",
+      "answer": "暂无结构化答案",
+      "analysis": "设灯泡的额定电压为\n0\nU ，两灯泡均能正常发光，所以原线圈输出端电压为\n1\n0\n9\nU\nU\n=\n，\n副线圈两端电压为\n2\n0\nU\nU\n=\n，故\n1\n2\n9\n1\nU\nU =\n，根据\n1\n1\n2\n2\n9\n1\nU\nn\nU\nn\n=\n=\n，A 正确，B 错误；根据公式\n1\n2\n2\n1\nI\nn\nI\nn\n=\n可得\n1\n2\n1\n9\nI\nI =\n，由于小灯泡两端的电压相等，所以根据公式P＝UI 可得两者的电功\n率之比为1∶9，C 错误，D 正确。\n【考点定位】考查了理想变压器，电功率的计算\n【方法技巧】对于变压器需要掌握公式\n、\n，以及知道副线圈的电流以及功\n率决定了原线圈中的电流和功率，理想变压器是理想化模型，一是不计线圈内阻；二是没有\n出现漏磁现象．同时当电路中有变压器时，只要将变压器的有效值求出，则就相当于一个新\n的恒定电源，",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q007-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q08",
+      "content": "如图，一固定容器的内壁是半径为R 的半球面；在半\n球面水平直径的一端有一质量为m 的质点P。它在容器内\n壁由静止下滑到最低点的过程中，克服摩擦力做的功为\nW。重力加速度大小为g。设质点P 在最低点时，向心加\n速度的大小为a，容器对它的支持力大小为N，则（    ）\n（A）a＝2(mgR－W)\nmR\n（B）a＝2mgR－W\nmR\n（C）N＝3mgR－2W\nR\n（D）N＝2(mgR－W)\nR",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q09",
+      "content": "如图，M 为半圆形导线框，圆心为OM；N 是圆心角\n为直角的扇形导线框，圆心为ON；两导线框在同一竖直面\n（纸面）内；两圆弧半径相等；过直线OMON 的水平面上\n方有一匀强磁场，磁场方向垂直于纸面。现使线框M、N\n在t＝0 时从图示位置开始，分别绕垂直于纸面、且过OM\n和ON 的轴，以相同的周期T 逆时针匀速转动，则（    ）\n（A）两导线框中均会产生正弦交流电\n（B）两导线框中感应电流的周期都等于T\n（C）在t＝T\n8 时，两导线框中产生的感应电动势相等\n（D）两导线框的电阻相等时，两导线框中感应电流的有效值也相等\n第II 卷（非选择题共174 分）",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q10",
+      "content": "（5 分）某同学用图中所给器材进行与安培力有关的实验。两根金属导轨ab 和a1b1 固\n定在同一水平面内且相互平行，足够大的电磁铁（未画出）的N 极位于两导轨的正上方，S\n极位于两导轨的正下方，一金属棒置于导轨上且两导轨垂直。\n（1）在图中画出连线，完成实验电路。要求滑动变阻器以限流方式接入电路，且在开关闭\n合后，金属棒沿箭头所示的方向移动。\n（2）为使金属棒在离开导轨时具有更大的速度，有人提出以下建议：\nA．适当增加两导轨间的距离\nB．换一根更长的金属棒\nC．适当增大金属棒中的电流\n其中正确的是__________（填入正确选项前的标号）",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q11",
+      "content": "（10 分）某物理课外小组利用图（a）中的装置\n探究物体加速度与其所受合外力之间的关系。途中，\n置于试验台上的长木板水平放置，其右端固定一轻滑\n轮：轻绳跨过滑轮，一段与放在木板上的小滑车相连，\n另一端可悬挂钩码。本实验中可用的钩码共有N＝5\n个，每个质量均为0.010kg。实验步骤如下：\n（1）将5 个钩码全部放入小车中，在长木板左下方\n垫上适当厚度的小物快，使小车9（和钩码）可以在木板上匀速下滑。\n（2）将n（依次取n＝1，2，3，4，5）个钩码挂在轻绳右端，其余N-n 各钩码仍留在小车\n内；用手按住小车并使轻绳与木板平行。释放小车，同时用传感器记录小车在时刻t 相对于\n其起始位置的位移s，绘制s-t 图像，经数据处理后可得到相应的加速度a。\n（3）对应于不同的n 的a 值见下表。n＝2 时的s-t 图像如图（b）所示：由图（b）求出此\n时小车的加速度（保留2 位有效数字），将结果填入下表。\nn\n1\n2\n3\n4\n5\na/m·s-2\n0.20\n0.58\n0.78\n1.00\n（4）利用表中的数据在图（c）中补齐数据点，并作出a-n 图像。从图像可以看出：当物体\n质量一定时，物体的加速度与其所受的合外力成正比。\n（5）利用a–n 图像求得小车（空载）的质量为_______kg（保留2 位有效数字，重力加速度\n取g＝9.8 m·s–2）。\n（6）若以“保持木板水平”来代替步骤（1），下列说法正确的是_______（填入正确选项钱\n的标号）\nA．a–n 图线不再是直线\nB．a–n 图线仍是直线，但该直线不过原点\nC．a–n 图线仍是直线，但该直线的斜率变大",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q011-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q12",
+      "content": "（12 分）如图，在竖直平面内由1\n4 圆弧AB 和1\n2 圆弧BC 组成的\n光滑固定轨道，两者在最低点B 平滑连接。AB 弧的半径为R，BC 弧\n的半径为R\n2 。一小球在A 点正上方与A 相距R\n4 处由静止开始自由下\n落，经A 点沿圆弧轨道运动。\n（1）求小球在B、A 两点的动能之比；\n（2）通过计算判断小球能否沿轨道运动到C 点。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设小球的质量为m，小球在A 点的动能为EkA，由机械能守恒可得\nEkA＝mgR\n4\n①\n设小球在B 点的动能为EkB，同理有Ekb＝mg5R\n4\n②\n由①②联立可得EkA\nEkB ＝5\n③\n（2）若小球能沿轨道运动到C 点，小球在C 点所受轨道的正压力N 应满足\n④\n设小球在C 点的速度大小为\n，根据牛顿运动定律和向心加速度公式有\n⑤\n联立④⑤可得\n⑥\n根据机械能守恒可得\n⑦\n根据⑥⑦可知，小球恰好可以沿轨道运动到C 点\n【考点定位】考查了机械能守恒，牛顿运动定律，圆周运动，\n【方法技巧】分析清楚小球的运动过程，把握圆周运动最高点临界速度的求法：重力等于向\n心力，同时要熟练运用机械能守恒定律．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q012-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q012-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf#q13",
+      "content": "（20 分）如图，两条相距l 的光滑平行金属导轨位于\n同一水平面（纸面）内，其左端接一阻值为R 的电阻；一\n与导轨垂直的金属棒置于两导轨上；在电阻、导轨和金属\n棒中间有一面积为S 的区域，区域中存在垂直于纸面向里\n的均匀磁场，磁感应强度打下B1 随时间t 的变化关系为B1\n＝kt，式中k 为常量；在金属棒右侧还有一匀强磁场区域，\n区域左边界MN（虚线）与导轨垂直，磁场的磁感应强度\n大小为B0，方向也垂直于纸面向里。某时刻，金属棒在一\n外加水平恒力的作用下从静止开始向右运动，在t0 时刻恰好以速度v0 越过MN，此后向右\n做匀速运动。金属棒与导轨始终相互垂直并接触良好，它们的电阻均忽略不计。求：\n（1）在t＝0 到t＝t0 时间间隔内，流过电阻的电荷量的绝对值；\n（2）在时刻t（t＞t0）穿过回路的总磁通量和金属棒所受外加水平恒力的大小。\n（二）选考题：共45 分。请考生从给出的3 道物理题、3 道化学题、2 道生物题中每科任\n选一题做答，并用2B 铅笔在答题卡上把所选题目题号后的方框涂黑。注意所选题目的题号\n必须与所涂题目的题号一致，在答题卡选答区域指定位置答题。如果多做，则每学科按所做\n的第一题计分。\n33．【物理选修3-3】",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）（5 分）关于气体的内能，下列说法正确的是________。（填正确答案标号。选对1 个\n得2 分，选对2 个得4 分，选对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）质量和温度都相同的气体，内能一定相同\n（B）气体温度不变，整体运动速度越大，其内能越大\n（C）气体被压缩时，内能可能不变\n（D）一定量的某种理想气体的内能只与温度有关\n（E）一定量的某种理想气体在等压膨胀过程中，内能一定增加\n（2）（10 分）一U 形玻璃管竖直放置，左端开口，\n右端封闭，左端上部有一光滑的轻活塞。初始时，\n管内汞柱及空气柱长度如图所示。用力向下缓慢推\n活塞，直至管内两边汞柱高度相等时为止。求此时\n右侧管内气体的压强和活塞向下移动的距离。已知\n玻璃管的横截面积处处相同；在活塞向下移动的过\n程中，没有发生气体泄漏；大气压强p0＝75.0 cmHg。\n环境温度不变。\n试题分析：设初始时，右管中空气柱的压强为\n1p ，长度为1l ；左管中空气柱的压强为\n2\n0\np\np\n=\n，长度为2l 。活塞被推下h 后，右管中空\n气柱的压强为\n1p，长度为1l；左管中空气柱的压强为\n2p，长度为2l。以cmHg 为压强单\n位。由题给条件得\n1\n0\n(20.0\n5.00)cmHg\np\np\n=\n+\n−\n1\n20.0\n5.00\n(20.0\n)cm\n2\nl\n−\n=\n−\n根据玻意耳定律得\n1 1\n1 1\np l\np l\n=\n联立解得\n1\n144 cmHg\np=\n根据题意可得\n2\n1\np\np\n\n\n=\n，2\n20.0\n5.00\n4.00 cm\ncm\n2\nl\nh\n−\n=\n+\n−\n根据玻意耳定律得\n2 2\n2 2\np l\np l\n=\n，解得\n9.42 cm\nh =\n【考点定位】考查了理想气体状态方程的应用\n【方法技巧】由题意知两部分封闭气体的温度与环境温度保持相等，气体都作等温变化．先\n对左端气体研究，根据玻意耳定律求出活塞下移后的压强．水银面相平时，两部分气体的压\n强相等，再研究右端气体，求出活塞下移后的长度和气体压强，根据几何关系求解活塞向下\n移动的距离．\n34．【物理选修3-4】\n（1）由波源S 形成的简谐横波在均匀介质中向左、右传播。波源振动的频率为20 Hz，波\n速为16 m/s。已知介质中P、Q 两质点位于波源S 的两侧，且P、Q 和S 的平衡位置在一条\n直线上，P、Q 的平衡位置到S 的平衡位置之间的距离分别为15.8 m、14.6 m，P、Q 开始振\n动后，下列判断正确的是_____。（填正确答案标号。选对1 个得2 分，选对2 个得4 分，选\n对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）P、Q 两质点运动的方向始终相同\n（B）P、Q 两质点运动的方向始终相反\n（C）当S 恰好通过平衡位置时，P、Q 两点也正好通过平衡位置\n（D）当S 恰好通过平衡位置向上运动时，P 在波峰\n（E）当S 恰好通过平衡位置向下运动时，Q 在波峰\n（2）如图，玻璃球冠的折射率为3 ，其底面镀银，底面的半径是球半\n径的3\n2 倍；在过球心O 且垂直于底面的平面（纸面）内，有一与底面\n垂直的光线射到玻璃球冠上的M 点，该光线的延长线恰好过底面边缘上\n的A 点。求该光线从球面射出的方向相对于其初始入射方向的偏角。\n35．【物理选修3-5】\n（1）一静止的铝原子核2713Al 俘获一速度为1.0×107m/s 的质子p 后，变为处于激发态的硅\n原子核2814Si，下列说法正确的是_________（填正确的答案标号，选对一个得2 分，选对2\n个得4 分，选对3 个得5 分，没错选1 个扣3 分，最低得分为零分）\n（A）核反应方程为p＋2713Al→2814Si\n（B）核反应方程过程中系统动量守恒\n（C）核反应过程中系统能量不守恒\n（D）核反应前后核子数相等，所以生成物的质量等于反应物的质量之和\n（E）硅原子核速度的数量级为105m/s，方向与质子初速度方向一致\n试题分析：根据质量数和电荷数守恒可得核反应方程\n27\n28\n*\n13\n14\np\nAl\nSi\n+\n→\n，A 正确；过程中释\n放的核力远远大于外力，故系统动量守恒，B 正确；核反应过程中系统能量守恒，C 错\n误；由于反应过程中，要释放大量的能量，即伴随着质量亏损，所以生成物的质量小于反\n应物的质量之和，D 错误；由动量守恒可知，\n28\nmv\nmv\n=\n，解得\n7\n1.0 10 m/s\n28\nv=\n\n，故数\n量级约为105 m/s，故E 正确。\n【考点定位】考查了动量守恒，能量守恒，核反应方程，\n【方法技巧】由质量数、电荷数守恒可知核反应方程；由动量守恒可知硅原子核速度的数量\n级及速度方向，本大题包含了3-5 原子物理的内容，难度不大，但从题目来看考查范围很广，\n要求能全面掌握\n（2）如图所示，水平地面上有两个静止的小物块a 和b，其\n连线与墙垂直：a 和b 相距l；b 与墙之间也相距l；a 的质量\n为m，b 的质量为3\n4 m，两物块与地面间的动摩擦因数均相同，现使a 以初速度v0 向右滑动，\n此后a 与b 发生弹性碰撞，但b 没有与墙发生碰撞，重力加速度大小为g，求物块与地面间\n的动摩擦因数满足的条件。\n解 析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国3理综(广西,贵州,云南).pdf",
+        "page": 5,
+        "endPage": 9,
+        "questionNumber": 25,
+        "extraction": "ocr",
+        "confidence": 96,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q013-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q013-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q013-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q013-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3bdba574a225321d-q013-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 16,
+    "answerGraphics": 0,
+    "assigned": 16,
+    "rendered": 16,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

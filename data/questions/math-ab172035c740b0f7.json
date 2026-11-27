@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2018/2018北京文.pdf",
   "name": "2018北京文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q01",
       "content": "已知集合A = {x | |x| < 2}, B = {−2, 0, 1, 2}, 则A ∩B =\n(\n)\n(A) {0, 1}\n(B) {−1, 0, 1}\n(C) {−2, 0, 1, 2} (D) {−1, 0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q001-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q02",
       "content": "在复平面内, 复数\n1\n1 −i 的共轭复数对应的点位于\n(\n)\n(A) 第一象限\n(B) 第二象限\n(C) 第三象限\n(D) 第四象限",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +78,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q03",
       "content": "执行如图所示的程序框图, 输出的s 值为\n(\n)\n开始\nk = 1, s = 1\ns = s + (−1)k ·\n1\n1 + k\nk = k + 1\nk ⩾3\n输出s\n结束\n是\n否\n(A) 1\n2\n(B) 5\n6\n(C) 7\n6\n(D) 7\n12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +107,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q04",
       "content": "设a, b, c, d 是非零实数, 则“ad = bc”是“a, b, c, d 成等比数列”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +141,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q05",
       "content": "“〸二平均律”是通用的音律体系, 明代朱载堉最早用数学方法计算出半音\n比例, 为这个理论的发展做出了重要贡献. 〸二平均律将一个纯八度音程\n分成〸二份, 依次得到〸三个单音, 从第二个单音起, 每一个单音的频率与\n它的前一个单音的频率的比都等于\n12√\n2. 若第一个单音的频率为f, 则第\n八个单音的频率为\n(\n)\n(A)\n3√\n2f\n(B)\n3√\n22f\n(C)\n12√\n25f\n(D)\n12√\n27f",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +170,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q06",
       "content": "某四棱锥的三视图如图所示, 在此四棱锥的侧面中, 直角三角形的个数\n为\n(\n)\n2\n2\n1\n1\n正(主) 视图\n俯视图\n侧(左) 视图\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +199,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q07",
       "content": "在平面直角坐标系中, ˜\nAB, ¯\nCD, ˜\nEF, ¯\nGH 是圆x2 + y2 = 1 上的四段\n弧(如图), 点P 在其中一段上, 角α 以Ox 为始边, OP 为终边.\n若\ntan α < cos α < sin α, 则P 所在的圆弧是\n(\n)\nx\ny\nO\nA\nB\nC\nD\nE\nF\nG\nH\n(A) ˜\nAB\n(B) ¯\nCD\n(C) ˜\nEF\n(D) ¯\nGH",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +232,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q08",
       "content": "设集合A = {(x, y) | x −y ⩾1, ax + y > 4, x −ay ⩽2}, 则\n(\n)\n(A) 对任意实数a, (2, 1) ∈A\n(B) 对任意实数a, (2, 1)̸ ∈A\n(C) 当且仅当a < 0 时, (2, 1)̸ ∈A\n(D) 当且仅当a ⩽3\n2 时, (2, 1)̸ ∈A",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +265,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q09",
       "content": "设向量a = (1, 0), b (−1, m). 若a ⊥(ma −b), 则m =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +294,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q10",
       "content": "已知直线l 过点(1, 0) 且垂直于x 轴. 若l 被抛物线y2 = 4ax 截得的线段\n长为4, 则抛物线的焦点坐标为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +323,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q11",
       "content": "能说明“若a > b, 则1\na < 1\nb”为假命题的一组a, b 的值依次为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +352,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q12",
       "content": "若双曲线x2\na2 −y2\n4 = 1 (a > 0) 的离心率为\n√\n5\n2 , 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +381,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q13",
       "content": "若x, y 满足x + 1 ⩽y ⩽2x, 则2y −x 的最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +410,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q14",
       "content": "若△ABC 的面积为\n√\n3\n4 (a2 + c2 −b2), 且∠C 为钝角, 则∠B =\n;\nc\na 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +439,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q15",
       "content": "设{an} 是等差数列, 且a1 = ln 2, a2 + a3 = 5 ln 2.\n(1) 求{an} 的通项公式;\n(2) 求ea1 + ea2 + · · · + ean.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +468,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q16",
       "content": "已知函数f (x) = sin2 x +\n√\n3 sin x cos x.\n(1) 求f (x) 的最小正周期;\n(2) 若f (x) 在区间\n[\n−π\n3 , m\n]\n上的最大值为3\n2, 求m 的最小值.\n1063",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +501,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q17",
       "content": "电影公司随机收集了电影的有关数据, 经分类整理得到下表:\n电影类型\n第一类\n第二类\n第三类\n第四类\n第五类\n第六类\n电影部数\n140\n50\n300\n200\n800\n510\n好评率\n0.4\n0.2\n0.15\n0.25\n0.2\n0.1\n好评率是指: 一类电影中获得好评的部数与该类电影的部数的比值.\n(1) 从电影公司收集的电影中随机选取1 部, 求这部电影是获得好评的第\n四类电影的概率;\n(2) 随机选取1 部电影, 估计这部电影没有获得好评的概率;\n(3) 电影公司为增加投资回报, 拟改变投资策略, 这将导致不同类型电影的\n好评率发生变化. 假设表格中只有两类电影的好评率数据发生变化, 那么\n哪类电影的好评率增加0.1, 哪类电影的好评率减少0.1, 使得获得好评的\n电影总部数与样本中的电影总部数的比值达到最大? (只需写出结论)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +530,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q18",
       "content": "如图, 在四棱锥P −ABCD 中, 底面ABCD 为矩形, 平面PAD ⊥平面\nABCD, PA ⊥PD, PA = PD, E, F 分别为AD, PB 的中点.\n(1) 求证: PE ⊥BC;\n(2) 求证: 平面PAB ⊥平面PCD;\n(3) 求证: EF\n平面PCD;\nA\nP\nF\nE\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +559,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ab172035c740b0f7-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q19",
       "content": "设函数f (x) = [ax2 −(3a + 1) x + 3a + 2] ex.\n(1) 若曲线y = f (x) 在点(2, f (2)) 处的切线斜率为0, 求a;\n(2) 若f (x) 在x = 1 处取得极小值, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +592,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018北京文.pdf#q20",
       "content": "已知椭圆M: x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为\n√\n6\n3 , 焦距为2\n√\n2, 斜\n率为k 的直线l 与椭圆M 有两个不同的交点A, B.\n(1) 求椭圆M 的方程;\n(2) 若k = 1, 求|AB| 的最大值;\n(3) 设P (−2, 0), 直线PA 与椭圆M 的另一个交点为C, 直线PB 与椭圆\nM 的另一个交点为D. 若C, D 和点Q\n(\n−7\n4, 1\n4\n)\n共线, 求k.\n1064",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,11 +621,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

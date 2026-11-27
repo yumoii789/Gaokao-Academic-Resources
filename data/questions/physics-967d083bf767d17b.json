@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2025/2025湖南.pdf",
   "name": "2025湖南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 14,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q01",
-      "content": "关于原子核衰变，下列说法正确的是（    ）\nA．原子核衰变后生成新核并释放能量，新核总质量等于原核质量\nB．大量某放射性元素的原子核有半数发生衰变所需时间，为该元素的半衰期\nC．放射性元素的半衰期随环境温度升高而变长\nD．采用化学方法可以有效改变放射性元素的半衰期\n【详解】A．原子核衰变时释放能量，根据质能方程，总质量会减少，新核总质量小于原核\n质量，故A 错误；\nB．半衰期定义为大量放射性原子核半数发生衰变所需的时间，题干中强调“大量”，符合\n定义，故B 正确；\nC．半衰期由原子核内部结构决定，与温度无关，故C 错误；\nD．半衰期不受化学方法影响，因化学变化不改变原子核性质，故D 错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "关于原子核衰变，下列说法正确的是（    ）\nA．原子核衰变后生成新核并释放能量，新核总质量等于原核质量\nB．大量某放射性元素的原子核有半数发生衰变所需时间，为该元素的半衰期\nC．放射性元素的半衰期随环境温度升高而变长\nD．采用化学方法可以有效改变放射性元素的半衰期",
+      "answer": "B",
+      "analysis": "A．原子核衰变时释放能量，根据质能方程，总质量会减少，新核总质量小于原核\n质量，故A 错误；\nB．半衰期定义为大量放射性原子核半数发生衰变所需的时间，题干中强调“大量”，符合\n定义，故B 正确；\nC．半衰期由原子核内部结构决定，与温度无关，故C 错误；\nD．半衰期不受化学方法影响，因化学变化不改变原子核性质，故D 错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q02",
-      "content": "如图，物块以某一初速度滑上足够长的固定光滑斜面，物块的水平\n位移、竖直位移、水平速度、竖直速度分别用x、y、vx、vy 表示。物块\n向上运动过程中，下列图像可能正确的是（    ）\n【详解】根据题意可知，物块沿斜面向上做匀减速直线运动，设初速度为v0，加速度为大小\na，斜面倾角为θ。\nAB．物块在水平方向上做匀减速直线运动，初速度为\n0\n0 cos\nx\nv\nv\n\n=\n，加速度大小为\ncos\nxa\na\n\n=\n，则有\n2\n2\n0\n2\nx\nx\nx\nv\nv\na x\n−\n= −\n整理可得\n(\n)\n2\n0 cos\n2 cos\nxv\nv\na\nx\n\n\n=\n−\n\n可知，\nxv\nx\n−\n图像为类似抛物线的一部分，故AB 错误；\nCD．物块在竖直方向上做匀减速直线运动，速度为\n0\n0 sin\ny\nv\nv\n\n=\n，加速度大小为\nsin\ny\na\na\n\n=\n，\n则有\n2\n2\n0\n2\ny\ny\ny\nv\nv\na y\n−\n= −\nO\nvx\nx\nA\nO\nvx\nx\nB\nO\nvy\ny\nC\nO\nvy\ny\nD\n2 / 14\n整理可得\n(\n)\n2\n0 sin\n2 sin\nyv\nv\na\ny\n\n\n=\n−\n\n可知，vy–y 图像为类似抛物线的一部分，故C 正确，D 错误。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，物块以某一初速度滑上足够长的固定光滑斜面，物块的水平\n位移、竖直位移、水平速度、竖直速度分别用x、y、vx、vy 表示。物块\n向上运动过程中，下列图像可能正确的是（    ）",
+      "answer": "C",
+      "analysis": "根据题意可知，物块沿斜面向上做匀减速直线运动，设初速度为v0，加速度为大小\na，斜面倾角为θ。\nAB．物块在水平方向上做匀减速直线运动，初速度为\n0\n0 cos\nx\nv\nv\n\n=\n，加速度大小为\ncos\nxa\na\n\n=\n，则有\n2\n2\n0\n2\nx\nx\nx\nv\nv\na x\n−\n= −\n整理可得\n(\n)\n2\n0 cos\n2 cos\nxv\nv\na\nx\n\n\n=\n−\n\n可知，\nxv\nx\n−\n图像为类似抛物线的一部分，故AB 错误；\nCD．物块在竖直方向上做匀减速直线运动，速度为\n0\n0 sin\ny\nv\nv\n\n=\n，加速度大小为\nsin\ny\na\na\n\n=\n，\n则有\n2\n2\n0\n2\ny\ny\ny\nv\nv\na y\n−\n= −\nO\nvx\nx\nA\nO\nvx\nx\nB\nO\nvy\ny\nC\nO\nvy\ny\nD\n2 / 14\n整理可得\n(\n)\n2\n0 sin\n2 sin\nyv\nv\na\ny\n\n\n=\n−\n\n可知，vy–y 图像为类似抛物线的一部分，故C 正确，D 错误。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -56,22 +71,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p002-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q03",
-      "content": "如图，ABC 为半圆柱体透明介质的横截面，AC 为直径，B 为\nABC 的中点。真空中一束单色光从AC 边射入介质，入射点为A\n点，折射光直接由B 点出射。不考虑光的多次反射，下列说法正\n确的是（    ）\nA．入射角θ 小于45°\nB．该介质折射率大于2\nC．增大入射角，该单色光在BC 上可能发生全反射\nD．减小入射角，该单色光在AB 上可能发生全反射\n【详解】AB．根据题意，画出光路图，如图所示。\n由几何关系可知，折射角为45°，则由折射定律有\nsin\n2 sin\n1\nsin 45\nn\n\n\n=\n=\n\n\n则有\n2\nsin\n2\n\n，\n2\nn \n解得θ > 45°\n故AB 错误；\nC．根据题意，由\n1\nsinC\nn\n=\n可知\n2\nsin\n2\nC \n即C > 45°\n增大入射角，光路图如图所示。\n由几何关系可知，光在BC 上的入射角小于45°，则该单色光\n在BC 上不可能发生全反射，故C 错误；\nD．减小入射角，光路图如图所示\n由几何关系可知，光在AB 上的入射角大于45°，可能大于临界角，则该单色光在AB 上可\n能发生全反射，故D 正确。\n故选D。\n真空\n介质\nC\nB\nA\nθ\n3 / 14",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，ABC 为半圆柱体透明介质的横截面，AC 为直径，B 为\nABC 的中点。真空中一束单色光从AC 边射入介质，入射点为A\n点，折射光直接由B 点出射。不考虑光的多次反射，下列说法正\n确的是（    ）\nA．入射角θ 小于45°\nB．该介质折射率大于2\nC．增大入射角，该单色光在BC 上可能发生全反射\nD．减小入射角，该单色光在AB 上可能发生全反射",
+      "answer": "D",
+      "analysis": "AB．根据题意，画出光路图，如图所示。\n由几何关系可知，折射角为45°，则由折射定律有\nsin\n2 sin\n1\nsin 45\nn\n\n\n=\n=\n\n\n则有\n2\nsin\n2\n\n，\n2\nn \n解得θ > 45°\n故AB 错误；\nC．根据题意，由\n1\nsinC\nn\n=\n可知\n2\nsin\n2\nC \n即C > 45°\n增大入射角，光路图如图所示。\n由几何关系可知，光在BC 上的入射角小于45°，则该单色光\n在BC 上不可能发生全反射，故C 错误；\nD．减小入射角，光路图如图所示\n由几何关系可知，光在AB 上的入射角大于45°，可能大于临界角，则该单色光在AB 上可\n能发生全反射，故D 正确。\n故选D。\n真空\n介质\nC\nB\nA\nθ\n3 / 14",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -79,22 +107,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q003-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q003-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q003-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q003-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q003-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q04",
-      "content": "我国研制的“天问二号”探测器，任务是对伴地小行星及彗星交会等进行多目标探测。\n某同学提出探究方案，通过释放卫星绕小行星进行圆周运动，可测得小行星半径R 和质量\nM。为探测某自转周期为T0 的小行星，卫星先在其同步轨道上运行，测得距离小行星表面高\n度为h，接下来变轨到小行星表面附近绕其做匀速圆周运动，测得周期为T1。已知引力常量\n为G，不考虑其他天体对卫星的引力，可根据以上物理得到R =\na2/3\nb2/3 − a2/3 h，M = 4π2R3\nGc2 。\n下列选项正确的是（    ）\nA．a 为T1，b 为T0，c 为T1\nB．a 为T1，b 为T0，c 为T0\nC．a 为T0，b 为T1，c 为T1\nD．a 为T0，b 为T1，c 为T0\n【详解】根据题意，卫星在同步轨道和表面附近轨道运行时轨道半径分别为R + h、R。设小\n行星和卫星的质量分别为M、m\n由开普勒第三定律有\n3\n3\n2\n2\n0\n1\n)\nR\nh\nR\nT\nT\n+\n=\n（\n解得\n2\n3\n1\n2\n2\n3\n3\n0\n1\nT\nR\nh\nT\nT\n=\n−\n卫星绕小行星表面附近做匀速圆周运动，由万有引力提供向心力有\n2\n2\n2\n1\n4\nGMm\nm\nR\nR\nT\n\n=\n解得M = 4π2R3\nGT12\n对应结果可得a 为T1，b 为T0，c 为T1。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "我国研制的“天问二号”探测器，任务是对伴地小行星及彗星交会等进行多目标探测。\n某同学提出探究方案，通过释放卫星绕小行星进行圆周运动，可测得小行星半径R 和质量\nM。为探测某自转周期为T0 的小行星，卫星先在其同步轨道上运行，测得距离小行星表面高\n度为h，接下来变轨到小行星表面附近绕其做匀速圆周运动，测得周期为T1。已知引力常量\n为G，不考虑其他天体对卫星的引力，可根据以上物理得到R =\na2/3\nb2/3 − a2/3 h，M = 4π2R3\nGc2 。\n下列选项正确的是（    ）\nA．a 为T1，b 为T0，c 为T1\nB．a 为T1，b 为T0，c 为T0\nC．a 为T0，b 为T1，c 为T1\nD．a 为T0，b 为T1，c 为T0",
+      "answer": "A",
+      "analysis": "根据题意，卫星在同步轨道和表面附近轨道运行时轨道半径分别为R + h、R。设小\n行星和卫星的质量分别为M、m\n由开普勒第三定律有\n3\n3\n2\n2\n0\n1\n)\nR\nh\nR\nT\nT\n+\n=\n（\n解得\n2\n3\n1\n2\n2\n3\n3\n0\n1\nT\nR\nh\nT\nT\n=\n−\n卫星绕小行星表面附近做匀速圆周运动，由万有引力提供向心力有\n2\n2\n2\n1\n4\nGMm\nm\nR\nR\nT\n\n=\n解得M = 4π2R3\nGT12\n对应结果可得a 为T1，b 为T0，c 为T1。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -102,22 +141,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q05",
-      "content": "如图，两带电小球的质量均为m，小球A 用一端固定在\n墙上的绝缘轻绳连接，小球B 用固定的绝缘轻杆连接。A 球\n静止时，轻绳与竖直方向的夹角为60°，两球连线与轻绳的\n夹角为30°，整个系统在同一竖直平面内，重力加速度大小\n为g。下列说法正确的是（    ）\nA．A 球静止时，轻绳上拉力为2mg\nB．A 球静止时，A 球与B 球间的库仑力为2mg\nC．若将轻绳剪断，则剪断瞬间A 球加速度大小为g\nD．若将轻绳剪断，则剪断瞬间轻杆对B 球的作用力变小\n【详解】AB．根据题意A 球静止时，对A 球受力分析，如\n图所示\n由平行四边形定则及几何关系，轻绳上拉力为T = mg\nA 球与B 球间的库仑力F = 2mgcos30° =\n3 mg\n故AB 错误；\nC．若将轻绳剪断，则剪断瞬间A 球受到轻绳的拉力消失，其它两\n力保持不变，根据三力平衡知识，此时A 球的合外力大小为mg，\n则加速度大小为g，故C 正确；\nD．若将轻绳剪断，则剪断瞬间B 球受到的库仑力、重力不变，小球仍然处在静止状态，则\n4 / 14\n轻杆对B 球的作用力不变，故D 错误。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，两带电小球的质量均为m，小球A 用一端固定在\n墙上的绝缘轻绳连接，小球B 用固定的绝缘轻杆连接。A 球\n静止时，轻绳与竖直方向的夹角为60°，两球连线与轻绳的\n夹角为30°，整个系统在同一竖直平面内，重力加速度大小\n为g。下列说法正确的是（    ）\nA．A 球静止时，轻绳上拉力为2mg\nB．A 球静止时，A 球与B 球间的库仑力为2mg\nC．若将轻绳剪断，则剪断瞬间A 球加速度大小为g\nD．若将轻绳剪断，则剪断瞬间轻杆对B 球的作用力变小",
+      "answer": "C",
+      "analysis": "AB．根据题意A 球静止时，对A 球受力分析，如\n图所示\n由平行四边形定则及几何关系，轻绳上拉力为T = mg\nA 球与B 球间的库仑力F = 2mgcos30° =\n3 mg\n故AB 错误；\nC．若将轻绳剪断，则剪断瞬间A 球受到轻绳的拉力消失，其它两\n力保持不变，根据三力平衡知识，此时A 球的合外力大小为mg，\n则加速度大小为g，故C 正确；\nD．若将轻绳剪断，则剪断瞬间B 球受到的库仑力、重力不变，小球仍然处在静止状态，则\n4 / 14\n轻杆对B 球的作用力不变，故D 错误。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -125,22 +168,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q005-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q005-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q06",
-      "content": "如图，某小组设计了灯泡亮度可调的电路，a、b、c 为\n固定的三个触点，理想变压器原、副线圈匝数比为k，灯\n泡L 和三个电阻的阻值均恒为R，交变电源输出电压的\n有效值恒为U。开关S 与不同触点相连，下列说法正确\n的是（    ）\nA．S 与a 相连，灯泡的电功率最大\nB．S 与a 相连，灯泡两端的电压为kU\nk2 + 3\nC．S 与b 相连，流过灯泡的电流为\nU\n(k2 + 2)R\nD．S 与c 相连，灯泡的电功率为\nU2\n(k2 + 1)R\n【详解】设变压器原、副线圈的电压分别为U1、U2，灯泡L 的阻值为R，根据等效电阻的\n思想有灯泡的等效电阻\n1\n1\nU\nR\nI\n=\n等\n灯泡L 的阻值\n2\n2\nU\nR\nI\n=\n由理想变压器原理，电压关系\n1\n2\n1\nU\nk\nU =\n电流关系\n1\n2\n1\nI\nI\nk\n=\n联立解得R 等 = k2R\nA．S 与a 相连，根据等效电源思想，灯泡的电功率最大时应该满足\n3\nR\nR\n=\n等\n因为k 值不确定，灯泡的电功率不一定最大，故A 错误；\nB．S 与a 相连，变压器原线圈电压\n2\n1\n2\n3\nU\nU\nk R\nk R\nR\n=\n\n+\n灯泡两端的电压为U2 = U1\nk =\nkU\nk2 + 3\nB 正确；\nC．S 与b 相连，变压器原线圈电路接入两个电阻，变压器原线圈的电流\n1\n2\n2\nU\nI\nk R\nR\n=\n+\n流过灯泡的电流I2 = kI1 =\nkU\n(k2 + 2)R\nC 错误；\n5 / 14\nD．S 与c 相连，变压器原线圈电路接入一个电阻，变压器原线圈的电流\n1\n2\n'\nU\nI\nk R\nR\n=\n+\n流过灯泡的电流\n(\n)\n2\n1\n2\n'\n'\n1\nkU\nI\nkI\nk\nR\n=\n=\n+\n灯泡的电功率为PL = I12RL =\nk2U2\n(k2 + 1)2R\nD 错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，某小组设计了灯泡亮度可调的电路，a、b、c 为\n固定的三个触点，理想变压器原、副线圈匝数比为k，灯\n泡L 和三个电阻的阻值均恒为R，交变电源输出电压的\n有效值恒为U。开关S 与不同触点相连，下列说法正确\n的是（    ）\nA．S 与a 相连，灯泡的电功率最大\nB．S 与a 相连，灯泡两端的电压为kU\nk2 + 3\nC．S 与b 相连，流过灯泡的电流为\nU\n(k2 + 2)R\nD．S 与c 相连，灯泡的电功率为\nU2\n(k2 + 1)R",
+      "answer": "B",
+      "analysis": "设变压器原、副线圈的电压分别为U1、U2，灯泡L 的阻值为R，根据等效电阻的\n思想有灯泡的等效电阻\n1\n1\nU\nR\nI\n=\n等\n灯泡L 的阻值\n2\n2\nU\nR\nI\n=\n由理想变压器原理，电压关系\n1\n2\n1\nU\nk\nU =\n电流关系\n1\n2\n1\nI\nI\nk\n=\n联立解得R 等 = k2R\nA．S 与a 相连，根据等效电源思想，灯泡的电功率最大时应该满足\n3\nR\nR\n=\n等\n因为k 值不确定，灯泡的电功率不一定最大，故A 错误；\nB．S 与a 相连，变压器原线圈电压\n2\n1\n2\n3\nU\nU\nk R\nk R\nR\n=\n\n+\n灯泡两端的电压为U2 = U1\nk =\nkU\nk2 + 3\nB 正确；\nC．S 与b 相连，变压器原线圈电路接入两个电阻，变压器原线圈的电流\n1\n2\n2\nU\nI\nk R\nR\n=\n+\n流过灯泡的电流I2 = kI1 =\nkU\n(k2 + 2)R\nC 错误；\n5 / 14\nD．S 与c 相连，变压器原线圈电路接入一个电阻，变压器原线圈的电流\n1\n2\n'\nU\nI\nk R\nR\n=\n+\n流过灯泡的电流\n(\n)\n2\n1\n2\n'\n'\n1\nkU\nI\nkI\nk\nR\n=\n=\n+\n灯泡的电功率为PL = I12RL =\nk2U2\n(k2 + 1)2R\nD 错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -148,22 +199,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q006-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q006-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q07",
-      "content": "如图，A（0,0）、B（4,0）、C（0,3）在xy 平面内，两波源分\n别置于A、B 两点。t = 0 时，两波源从平衡位置起振，起振方\n向相同且垂直于xy 平面。频率均为2.5 Hz。两波源持续产生振\n幅相同的简谐横波，波分别沿AC、BC 方向传播，波速均为10\nm/s。下列说法正确的是（    ）\nA．两横波的波长均为4 m\nB．t = 0.4 s 时，C 处质点加速度为0\nC．t = 0.4 s 时，C 处质点速度不为0\nD．t = 0.6 s 时，C 处质点速度为0\n【详解】A．两横波的波长均为\n4m\nv\nf\n=\n=\n故A 正确；\nBC．两列波传到C 处所需时间分别为\n1\n3 s=0.3s\n10\nt =\n，\n2\n2\n2\n3\n4 s=0.5s\n10\nt\n+\n=\n，\n1\n0.4s\nT\nf\n=\n=\n故t = 0.4 s 时，A 处波已传到C 处且振动了\n1\n4 T\n，故C 处质点处于正向或负向最大位移处，\n加速度最大，速度为零，故BC 错误；\nD．分析可知t = 0.6 s 时两列波都已传播到C 处，C 处质点到两波源的距离差为\n1\n5m\n3m\n2m= 2\nx\n\n=\n−\n=\n故C 处为振动减弱点，由于两列波振幅相同，故C 处位移始终为零，速度为零，故D 正确。\n故选AD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，A（0,0）、B（4,0）、C（0,3）在xy 平面内，两波源分\n别置于A、B 两点。t = 0 时，两波源从平衡位置起振，起振方\n向相同且垂直于xy 平面。频率均为2.5 Hz。两波源持续产生振\n幅相同的简谐横波，波分别沿AC、BC 方向传播，波速均为10\nm/s。下列说法正确的是（    ）\nA．两横波的波长均为4 m\nB．t = 0.4 s 时，C 处质点加速度为0\nC．t = 0.4 s 时，C 处质点速度不为0\nD．t = 0.6 s 时，C 处质点速度为0",
+      "answer": "AD",
+      "analysis": "A．两横波的波长均为\n4m\nv\nf\n=\n=\n故A 正确；\nBC．两列波传到C 处所需时间分别为\n1\n3 s=0.3s\n10\nt =\n，\n2\n2\n2\n3\n4 s=0.5s\n10\nt\n+\n=\n，\n1\n0.4s\nT\nf\n=\n=\n故t = 0.4 s 时，A 处波已传到C 处且振动了\n1\n4 T\n，故C 处质点处于正向或负向最大位移处，\n加速度最大，速度为零，故BC 错误；\nD．分析可知t = 0.6 s 时两列波都已传播到C 处，C 处质点到两波源的距离差为\n1\n5m\n3m\n2m= 2\nx\n\n=\n−\n=\n故C 处为振动减弱点，由于两列波振幅相同，故C 处位移始终为零，速度为零，故D 正确。\n故选AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -171,22 +230,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q007-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q007-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q08",
-      "content": "一匀强电场的方向平行于xOy 平面，平面内A 点和B\n点的位置如图所示。电荷量为 + q、− q 和 + 2q 的三个试\n探电荷先后分别置于O 点、A 点和B 点时，电势能均为\nEp（Ep > 0）。下列说法正确的是（    ）\nA．OA 中点的电势为零\nB．电场的方向与x 轴正方向成60°角\n6 / 14\nC．电场强度的大小为2Ep\nqd\nD．电场强度的大小为2 2Ep\nqd\n【详解】A．根据题意可知O 点、A 点和B 点的电势分别为φO = Ep\nq ，φA = − Ep\nq ，φB = Ep\n2q 。\n故OA 中点的电势为φM = 1\n2 (φO + φA) = 0。\n故A 正确；\nB．如图，设N 点为AB 的三等分点，同理易知N 点电势为\n0，连接MN 为一条等势线，过A 点做MN 的垂线，可知电\n场线沿该垂线方向，指向右下方，由AM = AN 可知∠NMA\n= 45°，故电场的方向与x 轴正方向成45°角，故B 错误；\nCD．电场强度的大小为\nE =\n0 − (− Ep\nq )\n1\n2dcos45°\n = 2 2Ep\nqd\n故C 错误，D 正确。\n故选AD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一匀强电场的方向平行于xOy 平面，平面内A 点和B\n点的位置如图所示。电荷量为 + q、− q 和 + 2q 的三个试\n探电荷先后分别置于O 点、A 点和B 点时，电势能均为\nEp（Ep > 0）。下列说法正确的是（    ）\nA．OA 中点的电势为零\nB．电场的方向与x 轴正方向成60°角\n6 / 14\nC．电场强度的大小为2Ep\nqd\nD．电场强度的大小为2 2Ep\nqd",
+      "answer": "AD",
+      "analysis": "A．根据题意可知O 点、A 点和B 点的电势分别为φO = Ep\nq ，φA = − Ep\nq ，φB = Ep\n2q 。\n故OA 中点的电势为φM = 1\n2 (φO + φA) = 0。\n故A 正确；\nB．如图，设N 点为AB 的三等分点，同理易知N 点电势为\n0，连接MN 为一条等势线，过A 点做MN 的垂线，可知电\n场线沿该垂线方向，指向右下方，由AM = AN 可知∠NMA\n= 45°，故电场的方向与x 轴正方向成45°角，故B 错误；\nCD．电场强度的大小为\nE =\n0 − (− Ep\nq )\n1\n2dcos45°\n = 2 2Ep\nqd\n故C 错误，D 正确。\n故选AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -194,22 +261,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q008-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q008-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q008-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q09",
-      "content": "如图，关于x 轴对称的光滑导轨固定在水平面内，导\n轨形状为抛物线，顶点位于O 点。一足够长的金属杆初始\n位置与y 轴重合，金属杆的质量为m，单位长度的电阻为\nr0。整个空间存在竖直向上的匀强磁场，磁感应强度为B。\n现给金属杆一沿x 轴正方向的初速度v0，金属杆运动过程\n中始终与y 轴平行，且与电阻不计的导轨接触良好。下列\n说法正确的是（    ）\nA．金属杆沿x 轴正方向运动过程中，金属杆中电流沿y\n轴负方向\nB．金属杆可以在沿x 轴正方向的恒力作用下做匀速直线运动\nC．金属杆停止运动时，与导轨围成的面积为mv0r0\nB2\nD．若金属杆的初速度减半，则金属杆停止运动时经过的距离小于原来的一半\n【详解】A．根据右手定则可知金属杆沿x 轴正方向运动过程中，金属杆中电流沿y 轴负方\n向，故A 正确；\nB．若金属杆可以在沿x 轴正方向的恒力F 作用下做匀速直线运动，可知\n=\nF\nF\nBIL\n=\n安\n，\n0\n0\n0\n0\n0\n=\nBLv\nBLv\nBv\nI\nR\nLr\nr\n=\n=\n7 / 14\n可得\n2\n0\n0\nB Lv\nF\nr\n=\n由于金属杆运动过程中接入导轨中的长度L 在变化，故F 在变化，故B 错误；\nC．取一微小时间Δt 内，设此时金属杆接入导轨中的长度为Lʹ，根据动量定理有\nBI L t\nBL q\nm v\n\n\n−\n= −\n=\n\n同时有\n0\n0\n0\nΦ\nΦ\nB\nS\nt\nq\nt\nL r\nL r\nL r\n\n\n\n\n=\n=\n=\n\n\n\n联立得\n2\n0\nB\nS\nm v\nr\n\n−\n=\n\n对从开始到金属杆停止运动时整个过程累积可得\n2\n0\n0\n0\nB S\nmv\nr\n−\n=\n−\n解得此时金属杆与导轨围成的面积为\n0 0\n2\nmv\nS\nr\nB\n=\n故C 正确；\nD．若金属杆的初速度减半，根据前面分析可知当金属杆停止运动时金属杆与导轨围成的面\n积为\n1\n2\nS\nS\n=\n，根据抛物线的图像规律可知此时金属杆停止运动时经过的距离大于原来的一\n半，故D 错误。\n故选AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，关于x 轴对称的光滑导轨固定在水平面内，导\n轨形状为抛物线，顶点位于O 点。一足够长的金属杆初始\n位置与y 轴重合，金属杆的质量为m，单位长度的电阻为\nr0。整个空间存在竖直向上的匀强磁场，磁感应强度为B。\n现给金属杆一沿x 轴正方向的初速度v0，金属杆运动过程\n中始终与y 轴平行，且与电阻不计的导轨接触良好。下列\n说法正确的是（    ）\nA．金属杆沿x 轴正方向运动过程中，金属杆中电流沿y\n轴负方向\nB．金属杆可以在沿x 轴正方向的恒力作用下做匀速直线运动\nC．金属杆停止运动时，与导轨围成的面积为mv0r0\nB2\nD．若金属杆的初速度减半，则金属杆停止运动时经过的距离小于原来的一半",
+      "answer": "AC",
+      "analysis": "A．根据右手定则可知金属杆沿x 轴正方向运动过程中，金属杆中电流沿y 轴负方\n向，故A 正确；\nB．若金属杆可以在沿x 轴正方向的恒力F 作用下做匀速直线运动，可知\n=\nF\nF\nBIL\n=\n安\n，\n0\n0\n0\n0\n0\n=\nBLv\nBLv\nBv\nI\nR\nLr\nr\n=\n=\n7 / 14\n可得\n2\n0\n0\nB Lv\nF\nr\n=\n由于金属杆运动过程中接入导轨中的长度L 在变化，故F 在变化，故B 错误；\nC．取一微小时间Δt 内，设此时金属杆接入导轨中的长度为Lʹ，根据动量定理有\nBI L t\nBL q\nm v\n\n\n−\n= −\n=\n\n同时有\n0\n0\n0\nΦ\nΦ\nB\nS\nt\nq\nt\nL r\nL r\nL r\n\n\n\n\n=\n=\n=\n\n\n\n联立得\n2\n0\nB\nS\nm v\nr\n\n−\n=\n\n对从开始到金属杆停止运动时整个过程累积可得\n2\n0\n0\n0\nB S\nmv\nr\n−\n=\n−\n解得此时金属杆与导轨围成的面积为\n0 0\n2\nmv\nS\nr\nB\n=\n故C 正确；\nD．若金属杆的初速度减半，根据前面分析可知当金属杆停止运动时金属杆与导轨围成的面\n积为\n1\n2\nS\nS\n=\n，根据抛物线的图像规律可知此时金属杆停止运动时经过的距离大于原来的一\n半，故D 错误。\n故选AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -217,22 +293,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q009-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q009-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q10",
-      "content": "如图，某爆炸能量测量装置由装载台和滑轨等构成，C 是可以在滑轨上运动的标准测量\n件，其规格可以根据测量需求进行调整。滑轨安装在高度为h 的水平面上。测量时，将弹药\n放入装载台圆筒内，两端用物块A 和B 封装，装载台与滑轨等高。引爆后，假设弹药释放\n的能量完全转化为A 和B 的动能。极短时间内B 嵌入C 中形成组合体D，D 与滑轨间的动\n摩擦因数为μ。D 在滑轨上运动s1 距离后抛出，落地点距抛出点水平距离为s2，根据s2 可计\n算出弹药释放的能量。某次测量中，A、B、C 质量分别为3m、m、5m，s1 = h\nμ ，整个过程\n发生在同一竖直平面内，不计空气阻力，重力加速度大小为g。则（    ）\nA．D 的初动能与爆炸后瞬间A 的动能相等\nB．D 的初动能与其落地时的动能相等\n圆筒\n滑轨\ns1\ns2\nh\n装\n载\n台\nA\nB\nC(D)\n8 / 14\nC．弹药释放的能量为36mgh（1 + s22\n4h2 ）\nD．弹药释放的能量为48mgh（1 + s22\n4h2 ）\n【详解】A．爆炸后，AB 组成的系统动量守恒，即3mv1 = mv2\nB 与C 碰撞过程动量守恒mv2 = 6mv\n联立解得v = 0.5v1。\n爆炸后瞬间A 的动能\n2\nkA\n1\n1\n=\n3\n2\nE\nm v\n\n\nD 的初动能\n(\n)\n2\nkD\n1\n1\n=\n6\n0.5\n2\nE\nm\nv\n\n\n两者不相等，故A 错误；\nB．D 水平滑动过程中摩擦力做功为\nf\n1\n=\n6\n6\n6\nh\nW\nmg S\nmg\nmgh\n\n\n\n−\n\n\n= −\n\n\n= −\n做平抛运动过程中重力做的功为\n=6\nG\nW\nmgh\n故D 从开始运动到落地瞬间合外力做功为0，根据动能定理可知D 的初动能与其落地时的\n动能相等，故B 正确；\nCD．D 物块平抛过程有\n2\n1\n2\nh\ngt\n=\n，\n0\n2\nv\nS\nt\n=\n联立可得\n0\n2\n2\ng\nv\nS\nh\n=\nD 水平滑动过程中根据动能定理有\n2\n2\n0\n1\n1\n6\n6\n6\n2\n2\nmgh\nmv\nmv\n−\n=\n\n−\n\n化简得\n2\n2\n2\n2\n2\nS g\nv\ngh\nh\n=\n+\n弹药释放的能量完全转化为A 和B 的动能，则爆炸过程的能量为\n2\n2\n2\n2\n2\n2\n2\n1\n2\n2\n1\n1\n3\n24\n24\n2\n48\n1\n2\n2\n2\n4\nS g\nS\nE\nmv\nmv\nmv\ngh\nmgh\nh\nh\n\n\n\n\n=\n\n+\n\n=\n=\n+\n=\n+\n\n\n\n\n\n\n\n\n故C 错误，D 正确。\n故选BD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，某爆炸能量测量装置由装载台和滑轨等构成，C 是可以在滑轨上运动的标准测量\n件，其规格可以根据测量需求进行调整。滑轨安装在高度为h 的水平面上。测量时，将弹药\n放入装载台圆筒内，两端用物块A 和B 封装，装载台与滑轨等高。引爆后，假设弹药释放\n的能量完全转化为A 和B 的动能。极短时间内B 嵌入C 中形成组合体D，D 与滑轨间的动\n摩擦因数为μ。D 在滑轨上运动s1 距离后抛出，落地点距抛出点水平距离为s2，根据s2 可计\n算出弹药释放的能量。某次测量中，A、B、C 质量分别为3m、m、5m，s1 = h\nμ ，整个过程\n发生在同一竖直平面内，不计空气阻力，重力加速度大小为g。则（    ）\nA．D 的初动能与爆炸后瞬间A 的动能相等\nB．D 的初动能与其落地时的动能相等\n圆筒\n滑轨\ns1\ns2\nh\n装\n载\n台\nA\nB\nC(D)\n8 / 14\nC．弹药释放的能量为36mgh（1 + s22\n4h2 ）\nD．弹药释放的能量为48mgh（1 + s22\n4h2 ）",
+      "answer": "BD",
+      "analysis": "A．爆炸后，AB 组成的系统动量守恒，即3mv1 = mv2\nB 与C 碰撞过程动量守恒mv2 = 6mv\n联立解得v = 0.5v1。\n爆炸后瞬间A 的动能\n2\nkA\n1\n1\n=\n3\n2\nE\nm v\n\n\nD 的初动能\n(\n)\n2\nkD\n1\n1\n=\n6\n0.5\n2\nE\nm\nv\n\n\n两者不相等，故A 错误；\nB．D 水平滑动过程中摩擦力做功为\nf\n1\n=\n6\n6\n6\nh\nW\nmg S\nmg\nmgh\n\n\n\n−\n\n\n= −\n\n\n= −\n做平抛运动过程中重力做的功为\n=6\nG\nW\nmgh\n故D 从开始运动到落地瞬间合外力做功为0，根据动能定理可知D 的初动能与其落地时的\n动能相等，故B 正确；\nCD．D 物块平抛过程有\n2\n1\n2\nh\ngt\n=\n，\n0\n2\nv\nS\nt\n=\n联立可得\n0\n2\n2\ng\nv\nS\nh\n=\nD 水平滑动过程中根据动能定理有\n2\n2\n0\n1\n1\n6\n6\n6\n2\n2\nmgh\nmv\nmv\n−\n=\n\n−\n\n化简得\n2\n2\n2\n2\n2\nS g\nv\ngh\nh\n=\n+\n弹药释放的能量完全转化为A 和B 的动能，则爆炸过程的能量为\n2\n2\n2\n2\n2\n2\n2\n1\n2\n2\n1\n1\n3\n24\n24\n2\n48\n1\n2\n2\n2\n4\nS g\nS\nE\nmv\nmv\nmv\ngh\nmgh\nh\nh\n\n\n\n\n=\n\n+\n\n=\n=\n+\n=\n+\n\n\n\n\n\n\n\n\n故C 错误，D 正确。\n故选BD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -240,22 +324,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q010-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q010-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025湖南.pdf#q11",
       "content": "（7 分）某同学通过观察小球在黏性液体中的运动，探究其动力学规律，步骤如下：\n9 / 14\n（1）用螺旋测微器测量小球直径D 如图1 所示，D =__________mm。\n（2）在液面处由静止释放小球，同时使用频闪摄影仪记录小球下落过程中不同时刻的位置，\n频闪仪每隔0.5 s 闪光一次。装置及所拍照片示意图如图2 所示（图中的数字是小球到液面\n的测量距离，单位是cm）。\n（3）根据照片分析，小球在A、E 两点间近似做匀速运动，速度大小v =__________m/s（保\n留2 位有效数字）。\n（4）小球在液体中运动时受到液体的黏滞阻力f = kDv（k 为与液体有关的常量），已知小球\n密度为ρ，液体密度为ρ0，重力加速度大小为g，则k 的表达式为k =__________（用题中给\n出的物理量表示）。\n（5）为了进一步探究动力学规律，换成直径更小的同种材质小球，进行上述实验，匀速运\n动时的速度将__________（填“增大”“减小”或“不变”）。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）根据图1 可知小球直径D = 2mm + 20.7×0.01 mm = 2.207 mm\n（3）由图2 可知A、E 两点间的距离为\n(\n)\n2\n7.02\n5.00\n10 m\n2.02m\nx\n−\n=\n−\n\n=\n时间为\n0\n4\n4 0.5s=2s\nt\nt\n=\n=\n\n所以速度为\n2\n2.02 10 m\n0.010m/s\n2s\nx\nv\nt\n−\n\n=\n=\n\n（4）小球匀速运动，根据受力平衡有\n0\ngV\ngV\nf\n\n\n=\n+\n求得体积公式为\n3\n3\n4\n4\n3\n3\n2\nD\nV\nR\n\n\n\n=\n=\n\n\n\n\n整理可得k = (ρ − ρ0)gV\nDv\n = (ρ − ρ0)gπD2\n6v\n（5）根据（4）可知v∝D2，所以换成直径更小的同种材质小球，速度将减小。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -263,11 +355,154 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025湖南.pdf",
         "page": 8,
+        "endPage": 9,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q011-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q011-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025湖南.pdf#q12",
+      "content": "（9 分）车辆运输中若存在超载现象，将带来安全隐患。由普通水泥和导电材料混合制\n成的导电水泥，可以用于监测道路超载问题。某小组对此进行探究。\n（1）选择一块均匀的长方体导电水泥块样品，用多用电表粗测其电阻。将多用电表选择开\n关旋转到“×1 k”挡，正确操作后，指针位置如图1 所示，则读数为__________Ω。\n（2）进一步提高实验精度，使用伏安法测量水泥块电阻，电源E 电动势6 V，内阻可忽略，\n电压表量程0 ~ 6 V，内阻约10 kΩ，电流表程0 ~ 600 μA，内阻约100 Ω。实验中要求滑动\n变阻器采用分压接法，在图2 中完成余下导线的连接__________。\n10 / 14\n（3）如图2，测量水泥块的长为a，宽为b，高为c。用伏安法测得水泥块电阻为R，则电\n阻率ρ =__________（用R、a、b、c 表示）。\n（4）测得不同压力F 下的电阻R，算出对应的电阻率ρ，作出ρ–F 图像如图3 所示。\n（5）基于以上结论，设计压力报警系统，电路如图4 所示。报警器在两端电压大于或等于\n3 V 时启动，R1 为水泥块，R2 为滑动变阻器，当R2 的滑片处于某位置，R1 上压力大于或等\n于F0 时，报警器启动。报警器应并联在__________两端（填“R1”或“R2”）。\n（6）若电源E 使用时间过长，电动势变小，R1 上压力大于或等于F1 时，报警器启动，则\nF1__________F0（填“大于”“小于”或“等于”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）多用电表选择开关旋转到“×1 k”挡，故根据图1 可知读数为8000 Ω；\n（2）长方体导电水泥块样品的电阻Rx >\nRARV ，故采用电流表内接法；实验中要求滑动\n变阻器采用分压接法，故连接实物图如图\n（3）根据电阻定律R = ρL\nS\n可知ρ = RS\nL = Rab\nc\n（5）根据图3 可知压力越大电阻率越小，即电阻越小；回路中电流增加，R2 电压增加，R1\n电压减小，而报警器在两端电压大于或等于3 V 时启动，故应将报警器并联在R2 两端；\n（6）电源电动势E 减小，要使报警器启动，即R2 两端电压要仍为3 V，根据串联分压有\n11 / 14\n2\n2\n2\n2\n1\n1\n1\n1\nR\nU\nE\nE\nR\nR\nR\nR\n=\n=\n+\n+\n可知E 减小需要R1 更小，又因为F 越大R1 越小，可知F1 需要大于F0。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025湖南.pdf",
+        "page": 9,
+        "endPage": 11,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q012-p010-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q012-p010-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q012-p010-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q012-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025湖南.pdf#q13",
+      "content": "（10 分）用热力学方法可测量重力加速度。如图所示，\n粗细均匀的细管开口向上竖直放置，管内用液柱封闭了一\n段长度为L1 的空气柱。液柱长为h，密度为ρ。缓慢旋转细\n管至水平，封闭空气柱长度为L2，大气压强为p0。\n（1）若整个过程中温度不变，求重力加速度g 的大小；\n（2）考虑到实验测量中存在各类误差，需要在不同实验参\n数下进行多次测量，如不同的液柱长度、空气柱长度、温度\n等。某次实验测量数据如下，液柱长h = 0.20 m，细管开口\n向上竖直放置时空气柱温度T1 = 305.7 K。水平放置时调控空气柱温度，当空气柱温度T2 =\n300.0 K 时，空气柱长度与竖直放置时相同。已知ρ = 1.0×103 kg/m3，p0 = 1.0×105 Pa。根据\n该组实验数据，求重力加速度g 的值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）竖直放置时里面气体的压强为p1 = p0 + ρgh\n水平放置时里面气体的压强p2 = p0\n由等温过程可得\n1\n1\n2\n2\np L s\np L s\n=\n解得g = p0(L2 − L)\nρhL1\n（2）由等容过程\n1\n2\n1\n2\np\np\nT\nT\n=\n代入数据可得 g = 9.5 m/s2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025湖南.pdf",
+        "page": 11,
+        "endPage": 11,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q013-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q013-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025湖南.pdf#q14",
+      "content": "（14 分）如图。直流电源的电动势为E0，\n内阻为r0，滑动变阻器R 的最大阻值为2r0，平\n行板电容器两极板水平放置，板间距离为d，\n板长为3 d，平行板电容器的右侧存在方向垂\n直纸面向里的匀强磁场。闭合开关S，当滑片\n处于滑动变阻器中点时，质量为m 的带正电粒\n子以初速度v0 水平向右从电容器左侧中点a 进\n入电容器，恰好从电容器下极板右侧边缘b 点进入磁场，随后又从电容器上极板右侧边缘c\n点进入电容器，忽略粒子重力和空气阻力。\n（1）求粒子所带电荷量q；\n（2）求磁感应强度B 的大小；\n（3）若粒子离开b 点时，在平行板电容器的右侧再加一个方向水平向右的匀强电场，场强\n大小为4 3E0\n3d\n ，求粒子相对于电容器右侧的最远水平距离xm。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）粒子在电容器中做类平抛运动，水平方向做匀速直线运动有\n0\n3d\nv t\n=\n12 / 14\n竖直方向做匀变速直线运动\n0\n2\n2\nyv\nd\nt\n+\n=\n，\ny\nqU\nv\nat\nt\nmd\n=\n=\n由闭合回路欧姆定律可得\n0\n0\n0\n2\nr\nU\nE\nr\nr\n=\n+\n联立可得vy =\n3\n3 v0，q = mv02\nE0\n（2）粒子进入磁场与竖直方向的夹角为\ntan\n60\nx\ny\nv\nv\n=\n=\n\n，\n0\n0\n2 3\nsin60\n3\nv\nv\nv\n=\n=\n\n粒子在磁场中做匀速圆周运动\n2v\nqvB\nm R\n=\n由几何关系易得\n3\n2\ncos30\n3\nd\nd\nR =\n=\n\n联立可得B = 2E0\ndv0\n（3）取一个竖直向上的速度使得其对应的洛伦兹力和水平向右的电场力平衡，则有\n1\ny\nqv B\nqE\n=\n解得\n1\n0\n2 3\n3\nyv\nv\n=\n粒子以vy1 速度向上做匀速直线运动，粒子做圆周运动的合速度的竖直方向分速度为\n2\n1\n0\n3\ny\ny\ny\nv\nv\nv\nv\n=\n+\n=\n此时合速度与竖直方向的夹角为\n0\n0\ntan\n3\nv\nv\n=\n合速度为\n(\n)\n2\n2\n0\n0\n3\nv\nv\nv\n=\n+\n粒子做圆周运动的半径\n\n= mv\nr\nBq\n最远距离为xm = r + rcosα = 2 + 3\n2\n d\n13 / 14",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025湖南.pdf",
+        "page": 11,
+        "endPage": 13,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q014-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q014-p012-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q014-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025湖南.pdf#q15",
+      "content": "（16 分）某地为发展旅游经济，因地制宜利\n用山体举办了机器人杂技表演。表演中，需要将\n质量为m 的机器人抛至悬崖上的A 点，图为山体\n截面与表演装置示意图。a、b 为同一水平面上两\n条光滑平行轨道，轨道中有质量为M 的滑杆。滑\n杆用长度为L 的轻绳与机器人相连。初始时刻，\n轻绳绷紧且与轨道平行，机器人从B 点以初速度\nv 竖直向下运动，B 点位于轨道平面上，且在A 点\n正下方，AB = 1.2L。滑杆始终与轨道垂直，机器\n人可视为质点且始终作同一竖直平面内运动，不\n计空气阻力，轻绳不可伸长，sin37° = 0.6，重力\n加速度大小为g。\n（1）若滑杆固定，v =\ngL ，当机器人运动到滑杆正下方时，求轻绳拉力的大小；\n（2）若滑杆固定，当机器人运动到滑杆左上方且轻绳与水平方向夹角为37°时，机器人松开\n轻绳后被抛至A 点，求v 的大小；\n（3）若滑杆能沿轨道自由滑动，M = km，且k ≥ 1，当机器人运动到滑杆左上方且轻绳与\n水平方向夹角为37°时，机器人松开轻绳后被抛至A 点，求v 与k 的关系式及v 的最小值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由B 点到最低点过程动能定理有\n2\n2\n0\n1\n1\n2\n2\nmv\nmv\nmgl\n−\n=\n最低点牛顿第二定律可得\n2\n0v\nF\nmg\nm l\n−\n=\n联立可得F = 4mg\n（2）轻绳运动到左上方与水平方向夹角为37°时由能量守恒可得\n2\n2\n2\n1\n1\nsin37\n2\n2\nmv\nmgl\nmv\n=\n+\n水平方向\n2\ncos37\nsin37\nx\nl\nl\nv\nt\n\n=\n+ =\n\n竖直方向取向上为正可得\n2\n2\n1\n1.2\nsin37\ncos37\n2\ny\nl\nl\nv\nt\ngt\n\n=\n−\n=\n−\n联立可得v =\n37\n10 gl\n（3）当机器人运动到滑杆左上方且与水平方向夹角为37°时计为点C，由能量守恒可得\n2\n2\n2\n1\n2\n1\n1\n1\nsin37\n2\n2\n2\nmv\nmgl\nmv\nkmv\n=\n+\n+\n设v1 的水平速度和竖直速度分别为vx，vy，则有\n2\n2\n2\n1\nx\ny\nv\nv\nv\n=\n+\n则水平方向动量守恒可得\n2\nx\nmv\nkmv\n=\n水平方向满足人船模型可得\n1\n2\nmx\nkmx\n=\n14 / 14\n此时机器人相对滑杆做圆周运动，因此有速度关系为\n2\ntan37\nx\ny\nv\nv\nv\n+\n=\n设此时机器人的速度与竖直方向的夹角为θ，则有速度关系\ntan\nx\ny\nv\nv\n=\n水平方向\n2\ncos37\nx\nl\nl\nx\nv\nt\n+ −\n=\n\n竖直方向\n2\n1\n1.2\nsin37\n2\ny\nl\nl\nv\nt\ngt\n−\n=\n−\n联立可得\n(\n)\n2\n9\n14\n10\n1\n5\nkgl\nv\ngl\nk\n=\n+\n+\n即v =\n9kgl\n10(k + 1) + 14\n5 gl\n显然当k = 1 时取得最小，此时vmin =\n13\n4 gl",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025湖南.pdf",
+        "page": 13,
+        "endPage": 14,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q015-p013-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-967d083bf767d17b-q015-p013-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 25,
+    "answerGraphics": 0,
+    "assigned": 25,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

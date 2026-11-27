@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1983/1983理.pdf",
   "name": "1983理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 13,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q01",
       "content": "两条异面直线, 指的是\n（\n）\n(A) 在空间内不相交的两条直线\n(B) 分别位于两个不同平面内的两条直线\n(C) 某一平面内的一条直线和这个平面外的一条直线\n(D) 不在同一平面内的两条直线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q02",
       "content": "方程x2 −y2 = 0 表示的图形是\n（\n）\n(A) 两条相交直线\n(B) 两条平行直线\n(C) 两条重合直线\n(D) 一个点",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q03",
       "content": "三个数a, b, c 不全为零的充要条件是\n（\n）\n(A) a, b, c 都不是零\n(B) a, b, c 中最多有一个是零\n(C) a, b, c 中只有一个是\n(D) a, b, c 中至少有一个不是零",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q04",
       "content": "设α = 4π\n3 , 则arccos(cos α) 的值是\n（\n）\n(A) 4π\n3\n(B) −2π\n3\n(C) 2π\n3\n(D) π\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q05",
       "content": "0.32, log20.3, 20.3 这三个数之间的大小顺序是\n（\n）\n(A) 0.32 < 20.3 < log20.3\n(B) 0.32 < log20.3 < 20.3\n(C) log20.3 < 0.32 < 20.3\n(D) log20.3 < 20.3 < 0.32",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q06",
       "content": "(1) 在同一平面直角坐标系内, 分别画出两个方程y = −√x, x = √−y 的\n图形, 并写出它们交点的坐标.\n(2) 在极坐标系内, 方程ρ = 5 cos θ 表示什么曲线? 画出它的图形.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q07",
       "content": "(1) 已知y = e−x sin 2x, 求微分dy.\n(2) 一个小组共有10 名同学, 其中4 名是女同学, 6 名是男同学.\n要\n从小组内选出3 名代表, 其中至少有1 名女同学, 求一共有多少种选法.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q08",
       "content": "计算行列式(要求结果最简):\n�������\nsin α\ncos(α + φ)\ncos α\ncos β\nsin(β −φ)\nsin β\nsin φ\ncos 2φ\ncos φ\n�������\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q09",
       "content": "(1) 证明: 对于任意实数t, 复数z =\n√\n| cos t| +\n√\n| sin t|i 的模r = |z| 适合\nr ⩽\n4√\n2.\n(2) 当实数t 取什么值时, 复数z =\n√\n| cos t| +\n√\n| sin t|i 的幅角主值θ 适\n合0 ⩽θ ⩽π\n4 ?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q10",
       "content": "如图, 在三棱锥S −ABC 中, S 在底面上的射影N 位于底面的高CD 上;\nM 是侧棱SC 上的一点, 使截面MAB 与底面所成的角等于∠NSC, 求\n证: SC 垂直于截面MAB.\nA\nB\nC\nD\nS\nM\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -240,22 +305,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q11",
       "content": "如图, 已知椭圆长轴|A1A2| = 6, 焦距|F1F2| = 4\n√\n2, 过椭圆焦点F1 作一\n直线, 交椭圆于两点M, N. 设∠F2F1M = α (0 ⩽α < π), 当α 取什么值\n时, |MN| 等于椭圆短轴的长?\nA1\nA2\nF1\nF2\nM\nα\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -263,22 +338,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q12",
       "content": "已知数列{an} 的首项a1\n= b (b̸ = 0), 它的前n 项的和Sn\n=\na1 + a2 + · · · + an (n ⩾1), 并且S1, S2, Sn, · · · 是一个等比数列, 其\n公比为p (p̸ = 0 且|p| < 1).\n(1) 证明: a2, a3, · · · , an, · · · (即{an} 从第二项起) 是一个等比数列;\n(2) 设Wn = a1S1 + a2S2 + a3S3 + · · · + anSn (n ⩾1), 求lim\nn→∞Wn (用b,\np 表示).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -286,22 +371,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1983/1983理.pdf#q13",
       "content": "(1) 已知a, b 为实数, 并且e < a < b, 其中e 是自然对数的底数, 证明:\nab > ba;\n(2) 如果正实数a, b 满足ab = ba, 且a < 1, 证明: a = b.\n21",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1983,
       "subject": "数学",
@@ -309,11 +400,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1983/1983理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d2e3a0942e8ed9-q013-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

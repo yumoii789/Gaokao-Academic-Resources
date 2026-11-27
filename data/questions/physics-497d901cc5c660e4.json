@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2021/2021广东.pdf",
   "name": "2021广东",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 18,
+    "answerBlocks": 0,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 17,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q01",
-      "content": "科学家发现银河系中存在大量的放射性同位素铝26，铝26 的半衰期为72 万年，其衰变方程为2613Al→\n2612Mg＋Y，下列说法正确的是（    ）\n（A）Y 是氦核\n（B）Y 是质子\n（C）再经过72 万年，现有的铝26 衰变一半\n（D）再经过144 万年，现有的铝26 全部衰变\n【详解】AB．根据核反应的质量数和电荷数守恒可知，该核反应是\n2613Al→2612Mg＋01e\n即Y 是正电子，选项AB 错误；\nCD．因72 万年是一个半衰期，可知再过72 万年，现有的铝26 衰变一半；再过144 万年，即两个半衰期，\n现有的铝26 衰变四分之三，选项C 正确，D 错误；\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "科学家发现银河系中存在大量的放射性同位素铝26，铝26 的半衰期为72 万年，其衰变方程为2613Al→\n2612Mg＋Y，下列说法正确的是（    ）\n（A）Y 是氦核\n（B）Y 是质子\n（C）再经过72 万年，现有的铝26 衰变一半\n（D）再经过144 万年，现有的铝26 全部衰变",
+      "answer": "C",
+      "analysis": "AB．根据核反应的质量数和电荷数守恒可知，该核反应是\n2613Al→2612Mg＋01e\n即Y 是正电子，选项AB 错误；\nCD．因72 万年是一个半衰期，可知再过72 万年，现有的铝26 衰变一半；再过144 万年，即两个半衰期，\n现有的铝26 衰变四分之三，选项C 正确，D 错误；\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q02",
-      "content": "2021 年4 月，我国自主研发的空间站“天和”核心舱成功发射并入轨运行，若核心舱绕地球的运行可视为\n匀速圆周运动，已知引力常量，由下列物理量能计算出地球质量的是（    ）\n（A）核心舱的质量和绕地半径\n（B）核心舱的质量和绕地周期\n（C）核心舱的绕地角速度和绕地周期\n（D）核心舱的绕地线速度和绕地半径\n【详解】根据核心舱做圆周运动的向心力由地球的万有引力提供，可得\n2\n2\n2\n2\n2\n4\nMm\nv\nπ\nG\nm\nmω r\nm\nr\nr\nr\nT\n=\n=\n=\n可得\n2\n2\n3\n2\n3\n2\n4\nv r\nr\nr\nM\nG\nG\nGT\n\n\n=\n=\n=\n可知已知核心舱的质量和绕地半径、已知核心舱的质量和绕地周期以及已知核心舱的角速度和绕地周期，\n都不能求解地球的质量；若已知核心舱的绕地线速度和绕地半径可求解地球的质量。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2021 年4 月，我国自主研发的空间站“天和”核心舱成功发射并入轨运行，若核心舱绕地球的运行可视为\n匀速圆周运动，已知引力常量，由下列物理量能计算出地球质量的是（    ）\n（A）核心舱的质量和绕地半径\n（B）核心舱的质量和绕地周期\n（C）核心舱的绕地角速度和绕地周期\n（D）核心舱的绕地线速度和绕地半径",
+      "answer": "D",
+      "analysis": "根据核心舱做圆周运动的向心力由地球的万有引力提供，可得\n2\n2\n2\n2\n2\n4\nMm\nv\nπ\nG\nm\nmω r\nm\nr\nr\nr\nT\n=\n=\n=\n可得\n2\n2\n3\n2\n3\n2\n4\nv r\nr\nr\nM\nG\nG\nGT\n\n\n=\n=\n=\n可知已知核心舱的质量和绕地半径、已知核心舱的质量和绕地周期以及已知核心舱的角速度和绕地周期，\n都不能求解地球的质量；若已知核心舱的绕地线速度和绕地半径可求解地球的质量。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q03",
-      "content": "唐代《来耜经》记载了曲辕犁相对直辕\n犁的优势之一是起土省力，设牛用大小相\n等的拉力F 通过耕索分别拉两种犁，F 与\n竖直方向的夹角分别为α 和β，α＜β，如\n图所示，忽略耕索质量，耕地过程中，下\n列说法正确的是（    ）\n（A）耕索对曲辕犁拉力的水平分力比对直辕犁的大\n（B）耕索对曲辕犁拉力的竖直分力比对直辕犁的大\n2 / 11\n（C）曲辕犁匀速前进时，耕索对犁的拉力小于犁对耕索的拉力\n（D）直辕犁加速前进时，耕索对犁的拉力大于犁对耕索的拉力\n【详解】A．将拉力F 正交分解如图所示\n则在x 方向可得出：Fx 曲 = Fsinα，Fx 直 = Fsinβ\n在y 方向可得出：Fy 曲 = Fcosα，Fy 直 = Fcosβ\n由题知α<β，则sinα<sinβ，cosα>cosβ\n则可得到：Fx 曲<Fx 直，Fy 曲>Fy 直\nA 错误、B 正确；\nCD．耕索对犁的拉力与犁对耕索的拉力是一对相互作用力，它们大小相等，方向相反，无论是加速还是匀\n速，则CD 错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "唐代《来耜经》记载了曲辕犁相对直辕\n犁的优势之一是起土省力，设牛用大小相\n等的拉力F 通过耕索分别拉两种犁，F 与\n竖直方向的夹角分别为α 和β，α＜β，如\n图所示，忽略耕索质量，耕地过程中，下\n列说法正确的是（    ）\n（A）耕索对曲辕犁拉力的水平分力比对直辕犁的大\n（B）耕索对曲辕犁拉力的竖直分力比对直辕犁的大\n2 / 11\n（C）曲辕犁匀速前进时，耕索对犁的拉力小于犁对耕索的拉力\n（D）直辕犁加速前进时，耕索对犁的拉力大于犁对耕索的拉力",
+      "answer": "B",
+      "analysis": "A．将拉力F 正交分解如图所示\n则在x 方向可得出：Fx 曲 = Fsinα，Fx 直 = Fsinβ\n在y 方向可得出：Fy 曲 = Fcosα，Fy 直 = Fcosβ\n由题知α<β，则sinα<sinβ，cosα>cosβ\n则可得到：Fx 曲<Fx 直，Fy 曲>Fy 直\nA 错误、B 正确；\nCD．耕索对犁的拉力与犁对耕索的拉力是一对相互作用力，它们大小相等，方向相反，无论是加速还是匀\n速，则CD 错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -79,22 +98,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q003-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q04",
-      "content": "由于高度限制，车库出入口采用图所示的曲杆道闸，道闸由转动杆OP\n与横杆PQ 链接而成，P、Q 为横杆的两个端点。在道闸抬起过程中，杆\nPQ 始终保持水平。杆OP 绕O 点从与水平方向成30°匀速转动到60°的\n过程中，下列说法正确的是（    ）\n（A）P 点的线速度大小不变\n（B）P 点的加速度方向不变\n（C）Q 点在竖直方向做匀速运动\n（D）Q 点在水平方向做匀速运动\n【详解】A．由题知杆OP 绕O 点从与水平方向成30°匀速转动到60°，则P 点绕O 点做匀速圆周运动，则\nP 点的线速度大小不变，A 正确；\nB．由题知杆OP 绕O 点从与水平方向成30°匀速转动到60°，则P 点绕O 点做匀速圆周运动，P 点的加速度\n方向时刻指向O 点，B 错误；\nC．Q 点在竖直方向的运动与P 点相同，位移y 关于时间t 的关系为：y = lOPsin（π\n6 +ωt）\n则可看出Q 点在竖直方向不是匀速运动，C 错误；\nD．Q 点在水平方向的位移x 关于时间t 的关系为\nx = lOPcos（π\n6 +ωt）+lPQ\n则可看出Q 点在水平方向也不是匀速运动，D 错误。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "由于高度限制，车库出入口采用图所示的曲杆道闸，道闸由转动杆OP\n与横杆PQ 链接而成，P、Q 为横杆的两个端点。在道闸抬起过程中，杆\nPQ 始终保持水平。杆OP 绕O 点从与水平方向成30°匀速转动到60°的\n过程中，下列说法正确的是（    ）\n（A）P 点的线速度大小不变\n（B）P 点的加速度方向不变\n（C）Q 点在竖直方向做匀速运动\n（D）Q 点在水平方向做匀速运动",
+      "answer": "A",
+      "analysis": "A．由题知杆OP 绕O 点从与水平方向成30°匀速转动到60°，则P 点绕O 点做匀速圆周运动，则\nP 点的线速度大小不变，A 正确；\nB．由题知杆OP 绕O 点从与水平方向成30°匀速转动到60°，则P 点绕O 点做匀速圆周运动，P 点的加速度\n方向时刻指向O 点，B 错误；\nC．Q 点在竖直方向的运动与P 点相同，位移y 关于时间t 的关系为：y = lOPsin（π\n6 +ωt）\n则可看出Q 点在竖直方向不是匀速运动，C 错误；\nD．Q 点在水平方向的位移x 关于时间t 的关系为\nx = lOPcos（π\n6 +ωt）+lPQ\n则可看出Q 点在水平方向也不是匀速运动，D 错误。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -102,22 +130,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q05",
-      "content": "截面为正方形的绝缘弹性长管中心有一固定长直导线，长管外表面固定着对称分\n布的四根平行长直导线，若中心直导线通入电流I1，四根平行直导线均通入电流I2，\nI1≫I2，电流方向如图所示，下列截面图中可能正确表示通电后长管发生形变的是\n（    ）\n【详解】因I1≫I2，则可不考虑四个边上的直导线之间的相互作用；根据两通电直导线间的安培力作用满足\n“同向电流相互吸引，异向电流相互排斥”，则正方形左右两侧的直导线I2 要受到I1 吸引的安培力，形成凹\nA                  B                 C                  D\n3 / 11\n形，正方形上下两边的直导线I2 要受到I1 排斥的安培力，形成凸形，故变形后的形状如图C。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "截面为正方形的绝缘弹性长管中心有一固定长直导线，长管外表面固定着对称分\n布的四根平行长直导线，若中心直导线通入电流I1，四根平行直导线均通入电流I2，\nI1≫I2，电流方向如图所示，下列截面图中可能正确表示通电后长管发生形变的是\n（    ）",
+      "answer": "C",
+      "analysis": "因I1≫I2，则可不考虑四个边上的直导线之间的相互作用；根据两通电直导线间的安培力作用满足\n“同向电流相互吸引，异向电流相互排斥”，则正方形左右两侧的直导线I2 要受到I1 吸引的安培力，形成凹\nA                  B                 C                  D\n3 / 11\n形，正方形上下两边的直导线I2 要受到I1 排斥的安培力，形成凸形，故变形后的形状如图C。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -125,22 +161,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q005-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q06",
-      "content": "图是某种静电推进装置的原理图，发射极与吸极接在高压电\n源两端，两极间产生强电场，虚线为等势面，在强电场作用下，\n一带电液滴从发射极加速飞向吸极，a、b 是其路径上的两点，不\n计液滴重力，下列说法正确的是（    ）\n（A）a 点的电势比b 点的低\n（B）a 点的电场强度比b 点的小\n（C）液滴在a 点的加速度比在b 点的小\n（D）液滴在a 点的电势能比在b 点的大\n【详解】A．高压电源左为正极，则所加强电场的场强向右，而沿着电场线电势逐渐降低，可知φa＞φb，\n故A 错误；\nB．等差等势线的疏密反映场强的大小，由图可知a 处的等势线较密，则Ea＞Eb，故B 错误；\nC．液滴的重力不计，根据牛顿第二定律可知，液滴的加速度为a = qE\nm ；因Ea＞Eb，可得aa＞ab，故C 错\n误；\nD．液滴在电场力作用下向右加速，则电场力做正功，动能增大，电势能减少，即Epa＞Epb，故D 正确；\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "图是某种静电推进装置的原理图，发射极与吸极接在高压电\n源两端，两极间产生强电场，虚线为等势面，在强电场作用下，\n一带电液滴从发射极加速飞向吸极，a、b 是其路径上的两点，不\n计液滴重力，下列说法正确的是（    ）\n（A）a 点的电势比b 点的低\n（B）a 点的电场强度比b 点的小\n（C）液滴在a 点的加速度比在b 点的小\n（D）液滴在a 点的电势能比在b 点的大",
+      "answer": "D",
+      "analysis": "A．高压电源左为正极，则所加强电场的场强向右，而沿着电场线电势逐渐降低，可知φa＞φb，\n故A 错误；\nB．等差等势线的疏密反映场强的大小，由图可知a 处的等势线较密，则Ea＞Eb，故B 错误；\nC．液滴的重力不计，根据牛顿第二定律可知，液滴的加速度为a = qE\nm ；因Ea＞Eb，可得aa＞ab，故C 错\n误；\nD．液滴在电场力作用下向右加速，则电场力做正功，动能增大，电势能减少，即Epa＞Epb，故D 正确；\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -148,22 +194,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q006-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q07",
-      "content": "某同学设计了一个充电装置，如图所示，假设永\n磁铁的往复运动在螺线管中产生近似正弦式交流\n电，周期为 0.2 s，电压最大值为 0.05 V，理想变压\n器原线圈接螺线管，副线圈接充电电路，原、副线圈\n匝数比为 1∶60，下列说法正确的是（    ）\n（A）交流电的频率为 10 Hz\n（B）副线圈两端电压最大值为 3 V\n（C）变压器输入电压与永磁铁磁场强弱无关\n（D）充电电路的输入功率大于变压器的输入功率\n【详解】A．周期是 T = 0.2s，频率是\n1\n5Hz\nf\nT\n=\n=\n故A 错误；\nB．由理想变压器原理可知\n1\n1\n2\n2\nU\nn\nU\nn\n=\n解得，副线两端的最大电压为\n2\n2\n1\n1\n3V\nn\nU\nU\nn\n=\n=\n故B 正确；\nC．根据法拉第电磁感应定律可知，永磁铁磁场强，线圈中产生的感应电动势越大，变压器的输入电压会越\n大，故C 错误；\nD．由理想变压器原理可知，充电电路的输入功率等于变压器的输入功率，故D 错误。\n故选B。\n4 / 11\n二、多项选择题：本题共3 小题，每小题6 分，共18 分。在每小题给出的四个选项中，有多项符合题目要\n求。全部选对的得6 分，选对但不全的得3 分，有选错的得0 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某同学设计了一个充电装置，如图所示，假设永\n磁铁的往复运动在螺线管中产生近似正弦式交流\n电，周期为 0.2 s，电压最大值为 0.05 V，理想变压\n器原线圈接螺线管，副线圈接充电电路，原、副线圈\n匝数比为 1∶60，下列说法正确的是（    ）\n（A）交流电的频率为 10 Hz\n（B）副线圈两端电压最大值为 3 V\n（C）变压器输入电压与永磁铁磁场强弱无关\n（D）充电电路的输入功率大于变压器的输入功率",
+      "answer": "B",
+      "analysis": "A．周期是 T = 0.2s，频率是\n1\n5Hz\nf\nT\n=\n=\n故A 错误；\nB．由理想变压器原理可知\n1\n1\n2\n2\nU\nn\nU\nn\n=\n解得，副线两端的最大电压为\n2\n2\n1\n1\n3V\nn\nU\nU\nn\n=\n=\n故B 正确；\nC．根据法拉第电磁感应定律可知，永磁铁磁场强，线圈中产生的感应电动势越大，变压器的输入电压会越\n大，故C 错误；\nD．由理想变压器原理可知，充电电路的输入功率等于变压器的输入功率，故D 错误。\n故选B。\n4 / 11",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -171,22 +225,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q08",
-      "content": "赛龙舟是端午节的传统活动。下列v-t 和s-t 图像描述了五条相同的龙舟从同一起点线同时出发、沿长直\n河道划向同一终点线的运动全过程，其中能反映龙舟甲与其它龙舟在途中出现船头并齐的有（    ）\n【详解】A．此图是速度图像，由图可知，甲的速度一直大于乙的速度，所以中途不可能出现甲乙船头并齐，\n故A 错误；\nB．此图是速度图像，由图可知，开始丙的速度大，后来甲的速度大，速度图像中图像与横轴围成的面积表\n示位移，由图可以判断在中途甲、丙位移会相同，所以在中途甲丙船头会并齐，故B 正确；\nC．此图是位移图像，由图可知，丁一直运动在甲的前面，所以中途不可能出现甲丁船头并齐，故C 错误；\nD．此图是位移图像，交点表示相遇，所以甲戊在中途船头会齐，故D 正确。\n故选BD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "赛龙舟是端午节的传统活动。下列v-t 和s-t 图像描述了五条相同的龙舟从同一起点线同时出发、沿长直\n河道划向同一终点线的运动全过程，其中能反映龙舟甲与其它龙舟在途中出现船头并齐的有（    ）",
+      "answer": "BD",
+      "analysis": "A．此图是速度图像，由图可知，甲的速度一直大于乙的速度，所以中途不可能出现甲乙船头并齐，\n故A 错误；\nB．此图是速度图像，由图可知，开始丙的速度大，后来甲的速度大，速度图像中图像与横轴围成的面积表\n示位移，由图可以判断在中途甲、丙位移会相同，所以在中途甲丙船头会并齐，故B 正确；\nC．此图是位移图像，由图可知，丁一直运动在甲的前面，所以中途不可能出现甲丁船头并齐，故C 错误；\nD．此图是位移图像，交点表示相遇，所以甲戊在中途船头会齐，故D 正确。\n故选BD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -194,22 +256,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q008-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q09",
-      "content": "长征途中，为了突破敌方关隘，战士爬上陡销的山头，居高临下\n向敌方工事内投掷手榴弹，战士在同一位置先后投出甲、乙两颗质量\n均为m 的手榴弹，手榴弹从投出的位置到落地点的高度差为h，在\n空中的运动可视为平抛运动，轨迹如图所示，重力加速度为g，下列\n说法正确的有（    ）\n（A）甲在空中的运动时间比乙的长\n（B）两手榴弹在落地前瞬间，重力的功率相等\n（C）从投出到落地，每颗手榴弹的重力势能减少mgh\n（D）从投出到落地，每颗手榴弹的机械能变化量为mgh\n【详解】A．由平抛运动规律可知，做平抛运动的时间\n2h\nt\ng\n=\n因为两手榴弹运动的高度差相同，所以在空中运动时间相等，故A 错误；\nB．做平抛运动的物体落地前瞬间重力的功率\ncos\n2\ny\nP\nmgv\nmgv\nmg\ngh\n\n=\n=\n=\n因为两手榴弹运动的高度差相同，质量相同，所以落地前瞬间，两手榴弹重力功率相同，故B 正确；\nC．从投出到落地，手榴弹下降的高度为h，所以手榴弹重力势能减小量\np\nE\nmgh\n\n=\n故C 正确；\nD．从投出到落地，手榴弹做平抛运动，只有重力做功，机械能守恒，故D 错误。\n故选BC。\nA                   B                   C                   D\n5 / 11",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "长征途中，为了突破敌方关隘，战士爬上陡销的山头，居高临下\n向敌方工事内投掷手榴弹，战士在同一位置先后投出甲、乙两颗质量\n均为m 的手榴弹，手榴弹从投出的位置到落地点的高度差为h，在\n空中的运动可视为平抛运动，轨迹如图所示，重力加速度为g，下列\n说法正确的有（    ）\n（A）甲在空中的运动时间比乙的长\n（B）两手榴弹在落地前瞬间，重力的功率相等\n（C）从投出到落地，每颗手榴弹的重力势能减少mgh\n（D）从投出到落地，每颗手榴弹的机械能变化量为mgh",
+      "answer": "BC",
+      "analysis": "A．由平抛运动规律可知，做平抛运动的时间\n2h\nt\ng\n=\n因为两手榴弹运动的高度差相同，所以在空中运动时间相等，故A 错误；\nB．做平抛运动的物体落地前瞬间重力的功率\ncos\n2\ny\nP\nmgv\nmgv\nmg\ngh\n\n=\n=\n=\n因为两手榴弹运动的高度差相同，质量相同，所以落地前瞬间，两手榴弹重力功率相同，故B 正确；\nC．从投出到落地，手榴弹下降的高度为h，所以手榴弹重力势能减小量\np\nE\nmgh\n\n=\n故C 正确；\nD．从投出到落地，手榴弹做平抛运动，只有重力做功，机械能守恒，故D 错误。\n故选BC。\nA                   B                   C                   D\n5 / 11",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -217,22 +287,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q009-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q10",
-      "content": "如图所示，水平放置足够长光滑金属导轨abc 和de，ab 与\nde 平行，bc 是以O 为圆心的圆弧导轨，圆弧be 左侧和扇形Obc\n内有方向如图的匀强磁场，金属杆OP 的O 端与e 点用导线相\n接，P 端与圆弧bc 接触良好，初始时，可滑动的金属杆MN 静\n止在平行导轨上，若杆OP 绕O 点在匀强磁场区内从b 到c 匀速\n转动时，回路中始终有电流，则此过程中，下列说法正确的有\n（    ）\n（A）杆OP 产生的感应电动势恒定\n（B）杆OP 受到的安培力不变\n（C）杆MN 做匀加速直线运动\n（D）杆MN 中的电流逐渐减小\n【详解】A．OP 转动切割磁感线产生的感应电动势为\n2\n1\n2\nE\nBr \n=\n因为OP 匀速转动，所以杆OP 产生的感应电动势恒定，故A 正确；\nBCD．杆OP 匀速转动产生的感应电动势产生的感应电流由M 到N 通过MN 棒，由左手定则可知，MN 棒会\n向左运动，MN 棒运动会切割磁感线，产生电动势与原来电流方向相反，让回路电流减小，MN 棒所受合力\n为安培力，电流减小，安培力会减小，加速度减小，故D 正确，BC 错误。\n故选AD。\n三、非选择题：共54 分，第11~14 题为必考题，考生都必须作答。第15~16 题为选考题，考生根据要求\n作答。\n（一）必考题：共42 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，水平放置足够长光滑金属导轨abc 和de，ab 与\nde 平行，bc 是以O 为圆心的圆弧导轨，圆弧be 左侧和扇形Obc\n内有方向如图的匀强磁场，金属杆OP 的O 端与e 点用导线相\n接，P 端与圆弧bc 接触良好，初始时，可滑动的金属杆MN 静\n止在平行导轨上，若杆OP 绕O 点在匀强磁场区内从b 到c 匀速\n转动时，回路中始终有电流，则此过程中，下列说法正确的有\n（    ）\n（A）杆OP 产生的感应电动势恒定\n（B）杆OP 受到的安培力不变\n（C）杆MN 做匀加速直线运动\n（D）杆MN 中的电流逐渐减小",
+      "answer": "AD",
+      "analysis": "A．OP 转动切割磁感线产生的感应电动势为\n2\n1\n2\nE\nBr \n=\n因为OP 匀速转动，所以杆OP 产生的感应电动势恒定，故A 正确；\nBCD．杆OP 匀速转动产生的感应电动势产生的感应电流由M 到N 通过MN 棒，由左手定则可知，MN 棒会\n向左运动，MN 棒运动会切割磁感线，产生电动势与原来电流方向相反，让回路电流减小，MN 棒所受合力\n为安培力，电流减小，安培力会减小，加速度减小，故D 正确，BC 错误。\n故选AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -240,22 +318,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q010-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q11",
-      "content": "（7 分）某兴趣小组测量一缓冲装置中弹簧的劲度系数，缓\n冲装置如图所示，固定在斜面上的透明有机玻璃管与水平面夹\n角为30°，弹簧固定在有机玻璃管底端。实验过程如下：先沿管\n轴线方向固定一毫米刻度尺，再将单个质量为200g 的钢球（直\n径略小于玻璃管内径）逐个从管口滑进，每滑进一个钢球，待弹\n簧静止，记录管内钢球的个数n 和弹簧上端对应的刻度尺示数\nL0，数据如表所示。实验过程中弹簧始终处于弹性限度内。采用\n逐差法计算弹簧压缩量，进而计算其劲度系数。\nn\n1\n2\n3\n4\n5\n6\nLn/cm\n8.04\n10.03",
+      "content": "（7 分）某兴趣小组测量一缓冲装置中弹簧的劲度系数，缓\n冲装置如图所示，固定在斜面上的透明有机玻璃管与水平面夹\n角为30°，弹簧固定在有机玻璃管底端。实验过程如下：先沿管\n轴线方向固定一毫米刻度尺，再将单个质量为200g 的钢球（直\n径略小于玻璃管内径）逐个从管口滑进，每滑进一个钢球，待弹\n簧静止，记录管内钢球的个数n 和弹簧上端对应的刻度尺示数\nL0，数据如表所示。实验过程中弹簧始终处于弹性限度内。采用\n逐差法计算弹簧压缩量，进而计算其劲度系数。\nn\n1\n2\n3\n4\n5\n6\nLn/cm\n8.04\n10.03\n12.05\n14.07\n16.11\n18.09\n（1）利用ΔLi = Li+3－Li（i = 1，2，3）计算弹簧的压缩量：ΔL1 = 6.03 cm，ΔL2 = 6.08 cm，ΔL3 = ______cm，\n压缩量的平均值∆𝐿̅̅̅̅ = ΔL1+ΔL2+ΔL3\n3\n  = ______cm；\n（2）上述∆𝐿̅̅̅̅是管中增加______个钢球时产生的弹簧平均压缩量；\n（3）忽略摩擦，重力加速度g 取9.80 m/s2，该弹簧的劲度系数为______N/m。（结果保留3 位有效数字）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）根据压缩量的变化量为\n3\n6\n3\n(18.09 12.05)cm\n6.04cm\nL\nL\nL\n\n=\n−\n=\n−\n=\n压缩量的平均值为\n1\n2\n3\n6.03\n6.08\n6.04 cm\n6.05cm\n3\n3\nL\nL\nL\nL\n\n\n+ \n+ \n+\n+\n=\n=\n6 / 11\n（2）因三个ΔL 是相差3 个钢球的压缩量之差，则所求平均值为管中增加3 个钢球时产生的弹簧平均压缩\n量；\n（3）根据钢球的平衡条件有\n3\nsin\nmg\nk\nL\n=\n\n解得\n-2\n3\nsin\n3 0.2 9.8 sin30 N/m\n48.6N/m\n6.05 10\nmg\nk\nL\n\n\n\n\n\n=\n=\n\n\n",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -263,114 +349,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q011-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021广东.pdf#q12",
-      "content": "05",
+      "content": "（9 分）某小组研究热敏电阻阻值随温度的变化规律。根据实验需要已选用了规格和量程合适的器材。\n（1）先用多用电表预判热敏电阻阻值随温度的变化趋势。选择适当倍率的欧姆挡，将两表笔______，调节\n欧姆调零旋钮，使指针指向右边“0 Ω”处。测量时观察到热敏电阻温度越高，相同倍率下多用电表指针向\n右偏转角度越大，由此可判断热敏电阻阻值随温度的升高而__________。\n（2）再按图连接好电路进行测量。\n①闭合开关S 前，将滑动变阻器R1 的滑片滑到_______端（选填“a”或“b”）。\n将温控室的温度设置为T，电阻箱R0 调为某一阻值R01。闭合开关S，调节滑动变阻器R1，使电压表和电流\n表的指针偏转到某一位置。记录此时电压表和电流表的示数、T 和R01。断开开关S。\n再将电压表与热敏电阻C 端间的导线改接到D 端，闭合开关S。反复调节R0 和R1，使电压表和电流表的示\n数与上述记录的示数相同。记录此时电阻箱的阻值R02。断开开关S。\n②实验中记录的阻值R01_____R02（选填“大于”、“小于”或“等于”）。此时热敏电阻阻值RT = _____。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）选择倍率适当的欧姆档，将两表笔短接；欧姆表指针向右偏转角度越大，则阻值越小，可判断\n热敏电阻的阻值随温度升高而减小。\n（2）①闭合开关S 前，应将滑动变阻器R1 的阻值调到最大，即将滑片滑到b 端；\n②因两次电压表和电流表的示数相同，因为\nR01 = R02＋RT\n即\nRT = R01－R02\n可知R01 大于R02。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
-      ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 5,
-        "questionNumber": 12,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q13",
-      "content": "07",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 5,
-        "questionNumber": 14,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q14",
-      "content": "11",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 5,
-        "questionNumber": 16,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q15",
-      "content": "09\n（1）利用ΔLi = Li+3－Li（i = 1，2，3）计算弹簧的压缩量：ΔL1 = 6.03 cm，ΔL2 = 6.08 cm，ΔL3 = ______cm，\n压缩量的平均值∆𝐿̅̅̅̅ = ΔL1+ΔL2+ΔL3\n3\n  = ______cm；\n（2）上述∆𝐿̅̅̅̅是管中增加______个钢球时产生的弹簧平均压缩量；\n（3）忽略摩擦，重力加速度g 取9.80 m/s2，该弹簧的劲度系数为______N/m。（结果保留3 位有效数字）\n【详解】（1）根据压缩量的变化量为\n3\n6\n3\n(18.09 12.05)cm\n6.04cm\nL\nL\nL\n\n=\n−\n=\n−\n=\n压缩量的平均值为\n1\n2\n3\n6.03\n6.08\n6.04 cm\n6.05cm\n3\n3\nL\nL\nL\nL\n\n\n+ \n+ \n+\n+\n=\n=\n6 / 11\n（2）因三个ΔL 是相差3 个钢球的压缩量之差，则所求平均值为管中增加3 个钢球时产生的弹簧平均压缩\n量；\n（3）根据钢球的平衡条件有\n3\nsin\nmg\nk\nL\n=\n\n解得\n-2\n3\nsin\n3 0.2 9.8 sin30 N/m",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 5,
-        "questionNumber": 18,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q16",
-      "content": "6N/m\n6.05 10\nmg\nk\nL\n\n\n\n\n\n=\n=\n\n\n\n12．（9 分）某小组研究热敏电阻阻值随温度的变化规律。根据实验需要已选用了规格和量程合适的器材。\n（1）先用多用电表预判热敏电阻阻值随温度的变化趋势。选择适当倍率的欧姆挡，将两表笔______，调节\n欧姆调零旋钮，使指针指向右边“0 Ω”处。测量时观察到热敏电阻温度越高，相同倍率下多用电表指针向\n右偏转角度越大，由此可判断热敏电阻阻值随温度的升高而__________。\n（2）再按图连接好电路进行测量。\n①闭合开关S 前，将滑动变阻器R1 的滑片滑到_______端（选填“a”或“b”）。\n将温控室的温度设置为T，电阻箱R0 调为某一阻值R01。闭合开关S，调节滑动变阻器R1，使电压表和电流\n表的指针偏转到某一位置。记录此时电压表和电流表的示数、T 和R01。断开开关S。\n再将电压表与热敏电阻C 端间的导线改接到D 端，闭合开关S。反复调节R0 和R1，使电压表和电流表的示\n数与上述记录的示数相同。记录此时电阻箱的阻值R02。断开开关S。\n②实验中记录的阻值R01_____R02（选填“大于”、“小于”或“等于”）。此时热敏电阻阻值RT = _____。\n【详解】（1）选择倍率适当的欧姆档，将两表笔短接；欧姆表指针向右偏转角度越大，则阻值越小，可判断\n热敏电阻的阻值随温度升高而减小。\n（2）①闭合开关S 前，应将滑动变阻器R1 的阻值调到最大，即将滑片滑到b 端；\n②因两次电压表和电流表的示数相同，因为\nR01 = R02＋RT\n即\nRT = R01－R02\n可知R01 大于R02。\n13．（11 分）算盘是我国古老的计算工具，中心带孔的相同算珠可在算盘的固定导杆上滑动，使用前算珠\n需要归零，如图所示，水平放置的算盘中有甲、乙两颗算珠未在归零位置，甲靠边框b，甲、乙相隔s1 = 3.5\n7 / 11\n×10-2 m，乙与边框a 相隔s2 = 2.0×10-2 m，算珠与导杆间的动摩擦因数μ = 0.1。现用手指将甲以0.4 m/s 的\n初速度拨出，甲、乙碰撞后甲的速度大小为0.1 m/s，方向不变，碰撞时间极短且不计，重力加速度g 取10\nm/s2。\n（1）通过计算，判断乙算珠能否滑动到边框a；\n（2）求甲算珠从拨出到停下所需的时间。\n【详解】（1）甲乙滑动时的加速度大小均为\n2\n1m/s\na\ng\n\n=\n=\n甲与乙碰前的速度 v1，则\n2\n2\n1\n0\n1\n2\nv\nv\nas\n=\n−\n解得 v1 = 0.3 m/s\n甲乙碰撞时由动量守恒定律\n1\n2\n3\nmv\nmv\nmv\n=\n+\n解得碰后乙的速度\nv3 = 0.2 m/s\n然后乙做减速运动，当速度减为零时则\n2\n2\n3\n2\n0.2 m=0.02m\n2\n2 1\nv\nx\ns\na\n=\n=\n=\n\n可知乙恰好能滑到边框 a；\n（2）甲与乙碰前运动的时间\n0\n1\n1\n0.4\n0.3s=0.1s\n1\nv\nv\nt\na\n−\n−\n=\n=\n碰后甲运动的时间\n2\n2\n0.1s=0.1s\n1\nv\nt\na\n=\n=\n则甲运动的总时间为\n1\n2\n0.2s\nt\nt\nt\n=\n+\n=\n14．（15 分）如图是一种花瓣形电子加速器简化示意图，空间有三个同心圆a、b、c 围成的区域，圆a 内为\n无场区，圆a 与圆b 之间存在辐射状电场，圆b 与圆c 之间有三个圆心角均略小于90°的扇环形匀强磁场区\n8 / 11\nⅠ、Ⅱ和Ⅲ。各区感应强度恒定，大小不同，方向均垂直纸面向外。电子以初动能Ek0 从圆b 上P 点沿径向\n进入电场，电场可以反向，保证电子每次进入电场即被全程加速，已知圆a 与圆b 之间电势差为U，圆b 半\n径为R，圆c 半径为3 R，电子质量为m，电荷量为e，忽略相对论效应，取tan22.5° = 0.4。\n（1）当Ek0 = 0 时，电子加速后均沿各磁场区边缘进入磁场，且在电场内相邻运动轨迹的夹角θ 均为45°，\n最终从Q 点出射，运动轨迹如图中带箭头实线所示，求Ⅰ区的磁感应强度大小、电子在Ⅰ区磁场中的运动\n时间及在Q 点出射时的动能；\n（2）已知电子只要不与Ⅰ区磁场外边界相碰，就能从出射区域出射。当Ek0 = keU 时，要保证电子从出射区\n域出射，求k 的最大值。\n【详解】（1）电子在电场中加速有\n2\n1\n2\n2\neU\nmv\n=\n在磁场Ⅰ中，由几何关系可得\ntan22.5\n0.4\nr\nR\nR\n=\n=\n2\n1\nv\nB ev\nm r\n=\n联立解得\nB1 =\n1\n5 eUm\nB\neR\n=\n在磁场Ⅰ中的运动周期为\n2 r\nT\nv\n\n=\n由几何关系可得，电子在磁场Ⅰ中运动的圆心角为\n5\n4\n\n\n=\n在磁场Ⅰ中的运动时间为\n2\nt\nT\n\n\n=\n联立解得\n9 / 11\nt =\n4\nR meU\nt\neU\n\n=\n从Q 点出来的动能为\nEk = 8eU\n（2）在磁场Ⅰ中的做匀速圆周运动的最大半径为\nmr ，此时圆周的轨迹与Ⅰ边界相切，由几何关系可得\n(\n)\n2\n2\n2\nm\nm\n3R\nr\nR\nr\n−\n=\n+\n解得\nm\n3\n3\nr\nR\n=\n由于\n2\nm\n1\nm\nm\nv\nB ev\nm r\n=\n2\nm\n1\n2\n2\neU\nmv\nkeU\n=\n−\n联立解得\n13\n6\nk =\n（二）选考题：共12 分，请考生从2 道题中任选一题作答。如果多做，则按所做的第一题计分。\n【选修3-3】\n15．（6 分）在高空飞行的客机上某乘客喝完一瓶矿泉水后，把瓶盖拧紧。下飞机后发现矿泉水瓶变瘪了，\n机场地面温度与高空客舱内温度相同。由此可判断，高空客舱内的气体压强______（选填“大于”、“小于”\n或“等于”）机场地面大气压强：从高空客舱到机场地面，矿泉水瓶内气体的分子平均动能______（选填“变\n大”、“变小”或“不变”）。\n【详解】（1）机场地面温度与高空客舱温度相同，由题意知瓶内气体体积变小，以瓶内气体为研究对象，根\n据波意耳定律pV = C，故可知高空客舱内的气体压强小于机场地面大气压强；\n（2）由于温度是平均动能的标志，气体的平均动能只与温度有关，机场地面温度与高空客舱温度相同，故\n从高空客舱到机场地面，瓶内气体的分子平均动能不变。\n16．（6 分）为方便抽取密封药瓶里的药液，护士一般先用注射器注入少量气体到药瓶里后再抽取\n药液，如图所示，某种药瓶的容积为0.9 mL，内装有0.5 mL 的药液，瓶内气体压强为1.0×105 Pa，\n护士把注射器内横截面积为0.3 cm2、长度为0.4 cm、压强为1.0×105 Pa 的气体注入药瓶，若瓶内\n外温度相同且保持不变，气体视为理想气体，求此时药瓶内气体的压强。\n【详解】以注入后的所有气体为研究对象，由题意可知瓶内气体发生等温变化，设瓶内气体体积\n为V1，有\n3\n1\n0.9mL\n0.5mL=0.4mL=0.4cm\nV =\n−\n注射器内气体体积为V2，有\n3\n3\n2\n0.3 0.4cm\n0.12cm\nV =\n\n=\n根据理想气体状态方程有\n10 / 11\n(\n)\n0\n1\n2\n1 1\np V\nV\npV\n+\n=\n代入数据解得\n5\n1",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -378,69 +380,150 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 6,
-        "questionNumber": 48,
+        "endPage": 6,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q17",
-      "content": "3 10 Pa\np =\n\n【选修3-4】",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q012-p006-f01.jpg"
       ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 10,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q012-p006-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q18",
-      "content": "（6 分）如图所示，一个轻质弹簧下端挂一小\n球，小球静止。现将小球向下拉动距离A 后由静\n止释放，并开始计时，小球在竖直方向做简谐运\n动，周期为T。经T\n8 时间，小球从最低点向上运动\n的距离_____A\n2 （选填“大于”、\n“小于”或“等于”）；\n在T\n4 时刻，小球的动能______（选填“最大”或“最\n小”）。\n【详解】（1）根据简谐振动的位移公式\n2\ncos\ny\nA\nt\nT\n\n\n\n= −\n\n\n\n\n则\n8\nT\nt =\n时有\n2\n2\nsin\n8\n2\nT\ny\nA\nA\nT\n\n\n\n= −\n\n= −\n\n\n\n\n所以小球从最低点向上运动的距离为\n2\n2\n2\n1\n2\n2\n2\ny\nA\nA\nA\nA\n−\n=\n−\n=\n\n则小球从最低点向上运动的距离小于2\nA\n。\n（2）在\n4\nT\nt =\n时，小球回到平衡位置，具有最大的振动速度，所以小球的动能最大。",
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q13",
+      "content": "（11 分）算盘是我国古老的计算工具，中心带孔的相同算珠可在算盘的固定导杆上滑动，使用前算珠\n需要归零，如图所示，水平放置的算盘中有甲、乙两颗算珠未在归零位置，甲靠边框b，甲、乙相隔s1 = 3.5\n7 / 11\n×10-2 m，乙与边框a 相隔s2 = 2.0×10-2 m，算珠与导杆间的动摩擦因数μ = 0.1。现用手指将甲以0.4 m/s 的\n初速度拨出，甲、乙碰撞后甲的速度大小为0.1 m/s，方向不变，碰撞时间极短且不计，重力加速度g 取10\nm/s2。\n（1）通过计算，判断乙算珠能否滑动到边框a；\n（2）求甲算珠从拨出到停下所需的时间。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2021,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2021/2021广东.pdf",
-        "page": 10,
-        "questionNumber": 17,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2021/2021广东.pdf#q19",
-      "content": "（6 分）如图所示，一种光学传感器是通过接收器Q 接收到光的强度变化而触发工作的。光从挡风玻璃\n内侧P 点射向外侧M 点再折射到空气中，测得入射角为α，折射角为β；光从P 点射向外侧N 点，刚好发\n生全反射并被Q 接收，求光从玻璃射向空气时临界角θ 的正弦值表达式。\nM2 iy 外 侧\n9\n1 i 挡 风 玻 璃\n光 源 P 接 收 器 C 内 侧\n【 详 解 】 根 据 光 的 折 射 定 律 有 : n = SE\n根 据 兆 的 全 反 射 规 律 有 ,sing = ©\n联 立 解 得 ,sing = wo\n11 / 11",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）甲乙滑动时的加速度大小均为\n2\n1m/s\na\ng\n\n=\n=\n甲与乙碰前的速度 v1，则\n2\n2\n1\n0\n1\n2\nv\nv\nas\n=\n−\n解得 v1 = 0.3 m/s\n甲乙碰撞时由动量守恒定律\n1\n2\n3\nmv\nmv\nmv\n=\n+\n解得碰后乙的速度\nv3 = 0.2 m/s\n然后乙做减速运动，当速度减为零时则\n2\n2\n3\n2\n0.2 m=0.02m\n2\n2 1\nv\nx\ns\na\n=\n=\n=\n\n可知乙恰好能滑到边框 a；\n（2）甲与乙碰前运动的时间\n0\n1\n1\n0.4\n0.3s=0.1s\n1\nv\nv\nt\na\n−\n−\n=\n=\n碰后甲运动的时间\n2\n2\n0.1s=0.1s\n1\nv\nt\na\n=\n=\n则甲运动的总时间为\n1\n2\n0.2s\nt\nt\nt\n=\n+\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021广东.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q013-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q013-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q14",
+      "content": "（15 分）如图是一种花瓣形电子加速器简化示意图，空间有三个同心圆a、b、c 围成的区域，圆a 内为\n无场区，圆a 与圆b 之间存在辐射状电场，圆b 与圆c 之间有三个圆心角均略小于90°的扇环形匀强磁场区\n8 / 11\nⅠ、Ⅱ和Ⅲ。各区感应强度恒定，大小不同，方向均垂直纸面向外。电子以初动能Ek0 从圆b 上P 点沿径向\n进入电场，电场可以反向，保证电子每次进入电场即被全程加速，已知圆a 与圆b 之间电势差为U，圆b 半\n径为R，圆c 半径为3 R，电子质量为m，电荷量为e，忽略相对论效应，取tan22.5° = 0.4。\n（1）当Ek0 = 0 时，电子加速后均沿各磁场区边缘进入磁场，且在电场内相邻运动轨迹的夹角θ 均为45°，\n最终从Q 点出射，运动轨迹如图中带箭头实线所示，求Ⅰ区的磁感应强度大小、电子在Ⅰ区磁场中的运动\n时间及在Q 点出射时的动能；\n（2）已知电子只要不与Ⅰ区磁场外边界相碰，就能从出射区域出射。当Ek0 = keU 时，要保证电子从出射区\n域出射，求k 的最大值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电子在电场中加速有\n2\n1\n2\n2\neU\nmv\n=\n在磁场Ⅰ中，由几何关系可得\ntan22.5\n0.4\nr\nR\nR\n=\n=\n2\n1\nv\nB ev\nm r\n=\n联立解得\nB1 =\n1\n5 eUm\nB\neR\n=\n在磁场Ⅰ中的运动周期为\n2 r\nT\nv\n\n=\n由几何关系可得，电子在磁场Ⅰ中运动的圆心角为\n5\n4\n\n\n=\n在磁场Ⅰ中的运动时间为\n2\nt\nT\n\n\n=\n联立解得\n9 / 11\nt =\n4\nR meU\nt\neU\n\n=\n从Q 点出来的动能为\nEk = 8eU\n（2）在磁场Ⅰ中的做匀速圆周运动的最大半径为\nmr ，此时圆周的轨迹与Ⅰ边界相切，由几何关系可得\n(\n)\n2\n2\n2\nm\nm\n3R\nr\nR\nr\n−\n=\n+\n解得\nm\n3\n3\nr\nR\n=\n由于\n2\nm\n1\nm\nm\nv\nB ev\nm r\n=\n2\nm\n1\n2\n2\neU\nmv\nkeU\n=\n−\n联立解得\n13\n6\nk =\n（二）选考题：共12 分，请考生从2 道题中任选一题作答。如果多做，则按所做的第一题计分。\n【选修3-3】",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021广东.pdf",
+        "page": 7,
+        "endPage": 9,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q014-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q014-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q15",
+      "content": "（6 分）在高空飞行的客机上某乘客喝完一瓶矿泉水后，把瓶盖拧紧。下飞机后发现矿泉水瓶变瘪了，\n机场地面温度与高空客舱内温度相同。由此可判断，高空客舱内的气体压强______（选填“大于”、“小于”\n或“等于”）机场地面大气压强：从高空客舱到机场地面，矿泉水瓶内气体的分子平均动能______（选填“变\n大”、“变小”或“不变”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）机场地面温度与高空客舱温度相同，由题意知瓶内气体体积变小，以瓶内气体为研究对象，根\n据波意耳定律pV = C，故可知高空客舱内的气体压强小于机场地面大气压强；\n（2）由于温度是平均动能的标志，气体的平均动能只与温度有关，机场地面温度与高空客舱温度相同，故\n从高空客舱到机场地面，瓶内气体的分子平均动能不变。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021广东.pdf",
+        "page": 9,
+        "endPage": 9,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q16",
+      "content": "（6 分）为方便抽取密封药瓶里的药液，护士一般先用注射器注入少量气体到药瓶里后再抽取\n药液，如图所示，某种药瓶的容积为0.9 mL，内装有0.5 mL 的药液，瓶内气体压强为1.0×105 Pa，\n护士把注射器内横截面积为0.3 cm2、长度为0.4 cm、压强为1.0×105 Pa 的气体注入药瓶，若瓶内\n外温度相同且保持不变，气体视为理想气体，求此时药瓶内气体的压强。",
+      "answer": "暂无结构化答案",
+      "analysis": "以注入后的所有气体为研究对象，由题意可知瓶内气体发生等温变化，设瓶内气体体积\n为V1，有\n3\n1\n0.9mL\n0.5mL=0.4mL=0.4cm\nV =\n−\n注射器内气体体积为V2，有\n3\n3\n2\n0.3 0.4cm\n0.12cm\nV =\n\n=\n根据理想气体状态方程有\n10 / 11\n(\n)\n0\n1\n2\n1 1\np V\nV\npV\n+\n=\n代入数据解得\n5\n1\n1.3 10 Pa\np =\n\n【选修3-4】",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021广东.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q016-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q016-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q17",
+      "content": "（6 分）如图所示，一个轻质弹簧下端挂一小\n球，小球静止。现将小球向下拉动距离A 后由静\n止释放，并开始计时，小球在竖直方向做简谐运\n动，周期为T。经T\n8 时间，小球从最低点向上运动\n的距离_____A\n2 （选填“大于”、\n“小于”或“等于”）；\n在T\n4 时刻，小球的动能______（选填“最大”或“最\n小”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据简谐振动的位移公式\n2\ncos\ny\nA\nt\nT\n\n\n\n= −\n\n\n\n\n则\n8\nT\nt =\n时有\n2\n2\nsin\n8\n2\nT\ny\nA\nA\nT\n\n\n\n= −\n\n= −\n\n\n\n\n所以小球从最低点向上运动的距离为\n2\n2\n2\n1\n2\n2\n2\ny\nA\nA\nA\nA\n−\n=\n−\n=\n\n则小球从最低点向上运动的距离小于2\nA\n。\n（2）在\n4\nT\nt =\n时，小球回到平衡位置，具有最大的振动速度，所以小球的动能最大。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -448,11 +531,61 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021广东.pdf",
         "page": 10,
+        "endPage": 10,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q017-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q017-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021广东.pdf#q18",
+      "content": "（6 分）如图所示，一种光学传感器是通过接收器Q 接收到光的强度变化而触发工作的。光从挡风玻璃\n内侧P 点射向外侧M 点再折射到空气中，测得入射角为α，折射角为β；光从P 点射向外侧N 点，刚好发\n生全反射并被Q 接收，求光从玻璃射向空气时临界角θ 的正弦值表达式。\nM 8 iv\nba\n1 :\n元 源 P 【\n【 详 解 】 根 据 光 的 折 射 定 律 有 : n :\n- 1\n根 据 光 的 全 反 射 规 律 有 :sing = ,;\n联 立 解 得 ,sing = 河\n外 侧\n挡 风 玻 璃\n收 器 C 内 侧\nsing\n11/11",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021广东.pdf",
+        "page": 10,
+        "endPage": 11,
         "questionNumber": 18,
         "extraction": "ocr",
-        "confidence": null,
-        "needsReview": true
-      }
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q018-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-497d901cc5c660e4-q018-p011-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

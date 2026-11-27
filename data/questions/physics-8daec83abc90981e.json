@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2006/2006四川理综.pdf",
   "name": "2006四川理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 4,
+    "reviewCount": 8,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q01",
       "content": "2006 年我国自行研制的“枭龙”战机04 架在四川某地试飞成功。假设该战机起飞前从\n静止开始做匀加速直线运动，达到起飞速度v 所需时间为t，则起飞前的运动距离为（   ）\n（A）vt\n（B）vt/2\n（C）2vt\n（D）不能确定",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q02",
       "content": "现有a、b、c 三束单色光，其波长关系为λa > λb > λc。用b 光束照射某种金属时，恰能\n发生光电效应。若分别用a 光束和c 光束照射该金属，则可以断定（     ）\n（A）a 光束照射时，不能发生光电效应\n（B）c 光束照射时，不能发生光电效应\n（C）a 光束照射时，释放出的光电子数目最多\n（D）c 光束照射时，释放出的光电子的最大初动能最小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q03",
       "content": "某核反应方程21H + 31H→42He + X。已知21H 的质量为2.0136u，31H 的质量为3.0180u，\n42He 的质量为4.0026u，X 的质量为1.0087u。则下列说法中正确的是（     ）\n（A）X 是质子，该反应释放能量\n（B）X 是中子，该反应释放能量\n（C）X 是质子，该反应吸收能量\n（D）X 是中子，该反应吸收能量",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q04",
       "content": "如图所示，接有灯泡L 的平行金属导轨水平放置在匀强\n磁场中，一导体杆与两导轨良好接触并做往复运动，其运动\n情况与弹簧振子做简谐运动的情况相同。图中O 位置对应\n于弹簧振子的平衡位置，P、Q 两位置对应于弹簧振子的最\n大位移处。若两导轨的电阻不计，则（     ）\n（A）杆由O 到P 的过程中，电路中电流变大\n（B）杆由P 到Q 的过程中，电路中电流一直变大\n（C）杆通过O 处时，电路中电流方向将发生改变\n（D）杆通过O 处时，电路中电流最大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q05",
       "content": "如图所示，理想变压器原、副线圈匝数之比为20︰1，原\n线圈接正弦交流电源，副线圈接入“220 V，60 W”灯泡一只，\n且灯泡正常发光。则（     ）\n（A）电流表的示数为\nA3 2\nE220\nE\nA\n2\n（B）电源输出功率为 1200 W\n（C）电流表的示数为\nA 3\n220\nE\nA\n（D）原线圈端电压为 11 V",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q06",
       "content": "对一定质量的气体，下列说法中正确的是（       ）\n（A）温度升高，压强一定增大\n（B）温度升高，分子热运动的平均动能一定增大\n（C）压强增大，体积一定减小\n（D）吸收热量，可能使分子热运动加剧、气体体积增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q07",
       "content": "带电粒子M 只在电场力作用下由P 点运动到Q 点，在此过程中克服电场力做了2.6×10−6\nJ 的功。那么（        ）\n（A）M 在P 点的电势能一定小于它在Q 点的电势能\n（B）P 点的场强一定小于Q 点的场强\n（C）P 点的电势一定高于Q 点的电势\n（D）M 在P 点的动能一定大于它在Q 点的动能",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q08",
       "content": "质量不计的弹簧下端固定一小球。现手持弹簧上端使小球随手在竖直方向上以同样大\n小的加速度a（a < g）分别向上、向下做匀加速直线运动。若忽略空气阻力，弹簧的伸长分\n别为x1、x2；若空气阻力不能忽略且大小恒定，弹簧的伸长分别为x1′、x2′。则（       ）\n（A）x1′ + x1 = x2 + x2′\n（B）x1′ + x1 < x2 + x2′\n（C）x1′ + x2′ = x1 + x2\n（D）x1′ + x2′ < x1 + x2\n第Ⅱ卷",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q09",
       "content": "（17 分）\n在“用单摆测定重力加速度”的实验中\n（1）测摆长时，若正确测出悬线长l 和摆球直径d，则摆长为_______；\n（2）测周期时，当摆球经过________位置时开始计时并计数1 次，测出经过该位置N 次（约\n60～100 次）的时间为t，则周期为______。\n此外，请你从下列器材中选用所需器材，再设计一个实验，粗略测出重力加速度g，并参照\n示例填写下表（示例的方法不能再用）\nA．天平；B．刻度尺；C．弹簧秤；D．电磁打点计时器；E．带夹子的重锤；\nF．纸带；G．导线若干；H．铁架台；I．低压交流电源；J．低压直流电源；\nG．小车；K．螺旋测微器；M．斜面（高度可调，粗糙程度均匀）\n所选器材（只填器材序\n号）\n简述实验方法（不要求写出具体步骤）\n示例\nB、D、E、F、G、H、I\n安装仪器，接通电源，让纸带随重锤竖直下落。\n用刻度尺测出所需数据，处理数据，得出结果\n3\n实验设计\n（2）在“测定金属的电阻率”实验中，需要测量金属丝的长度和直径。现用最小分度为1mm\n的米尺测量金属丝长度，图中箭头所指位置是拉直的金属丝两端在米尺上相对应的位置，测\n得的金属丝长度为________mm。在测量金属丝直径时，如果受条件限制，身边只有米尺1\n把和圆柱形铅笔1 支。如何较准确地测量金属丝的直径？请简述测量方法：\n____________________________________________________________________________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）①l + d/2；②平衡；A 2t\nN－1\nE\nA、C、E；用弹簧秤称出带夹子重锤的重力大小G，再用天平测出其质量m，则g =\nG/m。\n或B、D、F、G、I、K、M  安装仪器，接通电源，让纸带随小车一起沿斜面下滑。用刻\n度尺测出所需数据。改变斜面高度再测一次。利用两次数据，由牛顿第二定律算出结果。\n（2）①972.0 mm\n②在铅笔上紧密排绕金属丝N 匝，用米尺量出该N 匝金属丝的宽度D，由此可以计算得出\n金属丝的平均直径为D/N",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -217,22 +284,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q10",
       "content": "（16 分）荡秋千是大家喜爱的一项体育活动。随着科技的迅速发展，将来的某一天，\n同学们也许会在其它星球上享受荡秋千的乐趣。假设你当时所在星球的质量为M、半径为\nR，可将人视为质点，秋千质量不计、摆长不变、摆角小于90°，万有引力常量为G。那么，\n（1）该星球表面附近的重力加速度g 星等于多少？\n（2）若经过最低位置的速度为v0，你能上升的最大高度是多少？",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）g 星 = AGM\nR2\nE\n（2）h = AR2v02\n2GM\nE\n23. (1)\n𝐺𝐺𝐺𝐺\n𝑅𝑅2;(2)\n𝑅𝑅2𝑣𝑣02\n2𝐺𝐺𝐺𝐺.",
+      "analysis": "(1)设人的质量为𝑚𝑚，在星球表面附近的重力等于万有引力，有\n𝑚𝑚𝑔𝑔星=\n𝐺𝐺𝐺𝐺𝐺𝐺\n𝑅𝑅2 ①,\n解得\ng 星 = AGM\nR2\nE\nA\n②\n(2)设人能上升的最大高度为ℎ，由功能关系得\n𝑚𝑚𝑔𝑔星ℎ=\n1\n2 𝑚𝑚𝑣𝑣0\n2③，\n解得 h = AR2v02\n2GM\nE\nA\n④",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -240,22 +315,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q11",
       "content": "（19 分）如图所示的电路中，两平行金属板A、\nB 水平放置，两板间的距离d = 40 cm。电源电动势\nE = 24 V，内电阻r = 1Ω，电阻R = 15 Ω。闭合开关\nS，待电路稳定后，将一带正电的小球从B 板小孔以\n初速度v0 = 4 m/s 竖直向上射入板间。若小球带电量\n为q = 1×10−2 C，质量为m = 2×10−2 kg，不考虑空气\n阻力。那么，滑动变阻器接入电路的阻值为多大时，\n小球恰能到达A 板？此时，电源的输出功率是多大？",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "R 滑 = 8Ω，P 出 = 23W\n24. 8Ω，23W.",
+      "analysis": "(1)小球进入板间后，受重力和电场力作用，且到𝐴𝐴板时速度为零,设两板间电\n压为𝑈𝑈𝐴𝐴𝐴𝐴,由动能定理得\n−𝑚𝑚𝑚𝑚𝑚𝑚−𝑞𝑞𝑈𝑈𝐴𝐴𝐴𝐴= 0 −\n1\n2 𝑚𝑚𝑣𝑣0\n2①,\n滑动变阻器两端电压为\n𝑈𝑈滑= 𝑈𝑈𝐴𝐴𝐴𝐴= 8V②，\n设通过滑动变阻器电流为𝐼𝐼，由欧姆定律得\n5\n𝐼𝐼=\n𝐸𝐸−𝑈𝑈滑\n𝑅𝑅+𝑟𝑟= 1A③，\n滑动变阻器接入电路的电阻为\n𝑅𝑅滑=\n𝑈𝑈滑\n𝐼𝐼= 8Ω④.\n则电源的输出功率为\n𝑃𝑃出= 𝐼𝐼2(𝑅𝑅+ 𝑅𝑅滑) = 23W⑤.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -263,22 +342,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006四川理综.pdf#q12",
       "content": "（20 分）如图所示，在足够大的空间范围\n内，同时存在着竖直向上的匀强电场和垂直纸\n面向里的水平匀强磁场，磁感应强度B = 1.57T。\n小球1 带正电，其电量与质量之比\nAq1\nm1\nE\nA = 4 C/kg，\n所受重力与电场力的大小相等；小球2 不带电，\n静止放置于固定的水平悬空支架上。小球1 向\n右以v0 = 23.59 m/s 的水平速度与小球2 正碰，\n碰后经过0.75 s 再次相碰。设碰撞前后两小球\n带电情况不发生改变，且始终保持在同一竖直平面内。（取g = 10 m/s2）问：\n（1）电场强度E 的大小是多少？\n（2）两小球的质量之比\nAm2\nm1\nE\nA是多少？\n4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）E = 2.5 N/C\n（2）m2/m1 = 11\n25. (1)2.5N/m;(2)11.",
+      "analysis": "(1)由题意知，小球1 所受的重力与电场力始终平衡，则有\n𝑚𝑚1𝑔𝑔= 𝑞𝑞1𝐸𝐸①，\n解得𝐸𝐸= 2.5N/m②.\n(2)相碰后小球1 做匀速圆周运动，由牛顿第二定律得\n𝑞𝑞1𝑣𝑣1𝐵𝐵= 𝑚𝑚1\n𝑣𝑣12\n𝑅𝑅1 ③,\n解得半径为\n𝑅𝑅1 =\n𝑚𝑚1𝑣𝑣1\n𝑞𝑞1𝐵𝐵④\n运动的周期为\n𝑇𝑇=\n2π𝑚𝑚1\n𝑞𝑞1𝐵𝐵= 1s⑤\n两小球运动时间为\n𝑡𝑡= 0.75s =\n3\n4𝑇𝑇，\n小球1 只能逆时针经\n3\n4个圆周时与小球2 再次相碰⑥.\n第一次相碰后小球2 做平抛运动，由平抛规律得\nℎ= 𝑅𝑅1 =\n1\n2 𝑔𝑔𝑡𝑡2⑦，\n𝐿𝐿= 𝑅𝑅1 = 𝑣𝑣2𝑡𝑡⑧，\n两小球第一次碰撞前后动量守恒，以水平向右为正方向，由动量守恒得\n𝑚𝑚1𝑣𝑣0 = −𝑚𝑚1𝑣𝑣1 + 𝑚𝑚2𝑣𝑣2⑨，\n由⑦⑧式得𝑣𝑣2 = 3.75m/s，\n由④式得𝑣𝑣1 =\n𝑞𝑞1𝐵𝐵𝑅𝑅1\n𝑚𝑚1\n= 17.66m/s,\n故两小球质量之比\n𝑚𝑚2\n𝑚𝑚1 =\n𝑣𝑣0+𝑣𝑣1\n𝑣𝑣2\n= 11. Am2\nm1\nE\nA= 11\n⑩\n6\n解析\n14．B\n战机运动的平均速度为𝑣𝑣̅ =\n𝑣𝑣\n2，得𝑠𝑠= 𝑣𝑣̅𝑡𝑡=\n𝑣𝑣\n2 𝑡𝑡，故B 正确.\n15．A\n由题意知波长𝜆𝜆𝑎𝑎> 𝜆𝜆𝑏𝑏> 𝜆𝜆𝑐𝑐，则有频率𝜈𝜈𝑎𝑎< 𝜈𝜈𝑏𝑏(极限频率) < 𝜈𝜈𝑐𝑐，故A 正确，BC 错\n误；又由光电效应方程知D 错误.\n16．B\n由质量数和电荷数守恒得X是中子，反应后质量亏损必释放能量，故B 正确.\n17．D\n杆切割磁感线运动的速度大，感应电动势大，电路中电流大.由𝑂𝑂到𝑃𝑃的过程中速度\n减小，故A 错误；杆通过𝑂𝑂处时速度最大，故B 错误D 正确；杆的运动方向在𝑃𝑃、𝑄𝑄处改变\n时，电流方向发生改变，故C 错误.\n18．C\n由灯泡正常发光知，副线圈电压为220V,又原、副线圈电压与匝数成正比，故D 错\n误；输入、输出功率相等，故B 错误；电流表的示数为有效值，故A 错误C 正确.\n19．BD\n由\n𝑝𝑝𝑝𝑝\n𝑇𝑇为恒量得AC 错误；温度升高，分子热的平均动能增大，故B 正确；吸收热\n量，气体体积增大对外做功，温度可能升高，热运动加剧，故D 正确.\n20．AD\n因克服电场力做功，电势能增加，动能减小，故AD 正确；𝑃𝑃、𝑄𝑄两点的场强大小\n不能确定，故B 错误；粒子电性未知，所以𝑃𝑃、𝑄𝑄两点的电势高低不能判定，故C 错误.\n21．C\n忽略空气阻力时，向上有𝑘𝑘𝑥𝑥1 −𝑚𝑚𝑚𝑚= 𝑚𝑚𝑚𝑚，向下有𝑚𝑚𝑚𝑚−𝑘𝑘𝑥𝑥2 = 𝑚𝑚𝑚𝑚，得𝑥𝑥1 + 𝑥𝑥2 =\n2𝑚𝑚𝑚𝑚\n𝑘𝑘；\n考虑空气阻力时，向上有𝑘𝑘𝑥𝑥1\n′ −𝑚𝑚𝑚𝑚−𝑓𝑓= 𝑚𝑚𝑚𝑚，向下有𝑚𝑚𝑚𝑚−𝑘𝑘𝑥𝑥2\n′ −𝑓𝑓= 𝑚𝑚𝑚𝑚，得𝑥𝑥1\n′ + 𝑥𝑥2\n′ =\n2𝑚𝑚𝑚𝑚\n𝑘𝑘，\n故C 正确.\n7\n22．(1)①𝑙𝑙+\n𝑑𝑑\n2;②平衡;\n2𝑡𝑡\n𝑁𝑁−1;\n所选器材\n简述实验方法\n实验设\n计\nA、C、E\n用弹簧秤称出带夹子\n重锤的重力大小𝐺𝐺，再\n用天平测出其质量𝑚𝑚，\n则𝑔𝑔= 𝐺𝐺/𝑚𝑚.\n或实验\n设计\nB、D、F、G、\nI、K、M\n安装仪器，接通电源，\n让纸带随小车一起沿\n斜面下滑.用刻度尺测\n出所需数据.改变斜面\n高度再测一次.利用两\n次数据，由牛顿第二定\n律算出结果.\n(2)①972.0mm;\n②在铅笔上紧密排绕金属丝𝑁𝑁匝，用米尺量出该𝑁𝑁匝金属丝的宽度𝐷𝐷，由此可以计算得出金\n属丝的平均直径是\n𝐷𝐷\n𝑁𝑁.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -286,11 +373,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006四川理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8daec83abc90981e-q012-p003-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 1,
+    "assigned": 5,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

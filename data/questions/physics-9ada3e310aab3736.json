@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015广东理综.pdf",
   "name": "2015广东理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015广东理综.pdf#q01",
       "content": "甲、乙两人同时同地出发骑自行车做直线运动，前1 小时内的位移–时间图\n像如图所示。下列表述正确的是（    ）\n（A）0.2~0.5 小时内，甲的加速度比乙的大\n（B）0.2~0.5 小时内，甲的速度比乙的大\n（C）0.6-0.8 小时内，甲的位移比乙的小\n（D）0.8 小时内，甲、乙骑行的路程相等",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由位移–时间图知0.2~0.5 小时内，甲、乙都做匀速直线运动，加速度\n都为0，故A 错误；图线斜率表示速度大小，所以甲的速度大于乙的速度，B 正确；0.6~0.8 小时内，甲的\n位移是–5m，乙的位移是–3m，C 错误；0.8 小时内甲乙的位移相同，但是路程不一样，D 错误，选项B 正\n确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -33,11 +44,358 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015广东理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q02",
+      "content": "如图所示，帆板在海面上以速度v 朝正西方向运动，帆船以速度v 朝正北方向\n航行，以帆板为参照物（    ）\n（A）帆船朝正东方向航行，速度大小为v\n（B）帆船朝正西方向航行，速度大小为v\n（C）帆船朝南偏东45°方向航行，速度大小为\n2 v\n（D）帆船朝北偏东45°方向航行，速度大小为2 v",
+      "answer": "暂无结构化答案",
+      "analysis": "以帆板为参照物，就把帆板看成是静止的，则帆船在水平方向以速度v 向\n东运动，竖直方向以速度v 向北运动，根据矢量合成的平行四边形定则可以求得帆\n船以帆板为参照物是以v 的速度向北偏东45°运动，故选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q03",
+      "content": "如图为加热装置的示意图，使用电阻丝加热导气管，视变压器为理想变压器，\n原线圈接入电压有效值恒定的交流电并保持匝数不变，调节触头P，使输出电压有\n效值由220V 降至110V。调节前后（    ）\n（A）副线圈中的电流比为1∶2\n（B）副线圈输出功率比为2∶1\n（C）副线圈的接入匝数比为2∶1\n（D）原线圈输入功率比为1∶2",
+      "answer": "暂无结构化答案",
+      "analysis": "原线圈的输入电压和匝数不变，根据输出电压的有效值由220V 降到110V，可以知道副线圈的匝\n数变为原来的1\n2\n， C 正确；根据\n2\nU\nP\nR\n=\n可以知道，副线圈的输出功率变为原来的1\n4\n，同样原线圈的输入\n功率也变为原来的1\n4\n，B、D 错误；又\nU\nI\nR\n=\n，副线圈的电流应该变为原来的1\n2\n，A 错误，选项C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q04",
+      "content": "在同一匀强磁场中，α 粒子（42He）和质子（11H）做匀速圆周运动，若他们的动量大小相等，则α 粒\n子和质子（    ）\n（A）运动半径之比是2∶1\n（B）运动周期之比是2∶1\n（C）运动速度大小之比是4∶1\n（D）受到的洛伦兹力之比是2∶1",
+      "answer": "暂无结构化答案",
+      "analysis": "质量之比是4：1，电荷量之比是2：1，根据动量相等可以知道其速度之比是1：4，洛伦兹力为\nqvB，所以洛伦兹力之比为1：2，C、D 错误；由\n2v\nqvB\nm R\n=\n及\n2 R\nT\nv\n\n=\n可得：半径之比是1：2，周期之\n比是2：1，A 错误、B 正确，选项B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q05",
+      "content": "如图为某实验器材的结构示意图，金属内筒和隔热外筒间封闭了一定体积的空\n气，内筒中有水。在水加热升温的过程中，被封闭的空气（    ）\n（A）内能增大\n（B）压强增大\n（C）分子间引力和斥力都减小\n（D）所有分子运动速率都增大",
+      "answer": "暂无结构化答案",
+      "analysis": "空气体积不变，故做功为0，即W＝0。由于外壁隔热，无热传递。水加热升温会吸收热量，故\nQ>0，由热力学第一定律ΔU＝Q+W 得：ΔU>0，内能增加，A 正确；温度升高，分子热运动变剧烈，对器\n壁撞击加强，故压强变大，B 正确；由于体积、质量不变，分子间距离不变，故作用力大小不变，C 错误；\n温度升高，分子的平均热运动速率加快，不代表每一个都加快，D 错误，选项AB 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q06",
+      "content": "科学家使用核反应获取氚，再利用氘和氚的核反应获得能量，核反应方程分别为：X＋Y→42He＋31H\n＋4.9MeV 和21H＋31H→42He＋X＋17.6MeV，下列表述正确的有（     ）\n（A）X 是中子\n（B）Y 的质子数是3，中子数是6\n（C）两个核反应都没有质量亏损\n（D）氘和氚的核反应是核聚变反应",
+      "answer": "暂无结构化答案",
+      "analysis": "由核反应过程质量守恒和电荷量守恒可知X 是中子，Y 的质子数为6，中子数为6，A 正确、B 错\n误；两个核反应方程为核聚变反应，聚变放出能量，一定有质量亏损，C 错误、D 正确，选项AD 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q07",
+      "content": "如图所示，三条绳子的一端都系在细直杆顶端。另一端都固定在水平地面上。将\n杆竖直紧压在地面上。若三条绳长度不同，下列说法正确的有（    ）\n（A）三条绳中的张力都相等\n（B）杆对地面的压力大于自身重力\n（C）绳子对杆的拉力在水平方向的合力为零\n（D）绳子拉力的合力与杆的重力是一对平衡力",
+      "answer": "暂无结构化答案",
+      "analysis": "由受力分析可知：三个绳子长度不同，即与地面夹角不等，故其张力大小不等，A 错误；由于支\n持力与重力和绳子向下的分力平衡，故对地面的压力应与重力和绳子向下分力的和等大，B 正确；杆在水\n平方向处于平衡状态，故三绳水平方向合力为零，C 正确；绳的拉力，重力和杆受到的支持力三力平衡，\nD 错误，选项BC 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q08",
+      "content": "在星球表面发射探测器，当发射速度为v 时，探测器可绕星球表面做匀速圆周运动；当发射速度为2v\n时，可摆脱星球引力束缚脱离该星球。已知地球、火星两星球的质量比约为10∶1、半径比约为2∶1，下\n列说法正确的有（    ）\n（A）探测器的质量越大，脱离星球所需要的发射速度越大\n（B）探测器在地球表面受到的引力比在火星表面的大\n（C）探测器分别脱离两星球所需要的发射速度相等\n（D）探测器脱离星球的过程中，势能逐渐增大",
+      "answer": "暂无结构化答案",
+      "analysis": "根据\n2\n2\nMm\nv\nG\nm\nR\nR\n=\n得发射速度\nGM\nv\nR\n=\n，脱离星球所需要的发射速度为\n2\n2 GM\nv\nv\nR\n=\n=\n，\n与探测器的质量无关，A 错误；由\n2\nMm\nF\nG R\n=\n，则\n2\n2\n5\n=\n= 2\nF\nM R\nF\nM R\n星\n地\n地\n星\n星\n地\n，地球表面的引力大于火星表面的引\n力，B 正确；由脱离星球发射速度\n2 GM\nv\nR\n=\n可得\n= 5\nv\nM R\nv\nM R\n=\n\n星\n地\n地\n星\n星\n地\n，C 错误；脱离星球的过程中，\n高度在增加，势能增大，D 正确。选项BD 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q09",
+      "content": "如图所示的水平匀强电场中，将两个带电小球M 和N 分别沿图示路径\n移动到同一水平线上的不同位置，释放后，M、N 保持静止，不计重力，则\n（    ）\n（A）M 的带电量比N 的大\n（B）M 带负电荷、N 带正电荷\n（C）静止时M 受到的合力比N 的大\n（D）移动过程中匀强电场对M 做负功",
+      "answer": "暂无结构化答案",
+      "analysis": "释放后，M、N 保持静止，两小球各自受电场力和两小球间的库仑力等大反向，故两小球所受电\n场力大小相等，在匀强电场中：F＝qE，则q 相等，A 错误；\n若M 带负电荷、N 带正电荷，则M 受到向左的电场力，向右的库仑力可平衡，N 受到向左的库仑力和向\n右电场力可平衡，B 正确；\n静止时，受合力为零，C 错误；M 带负电荷受到向左的电场力，向右运动电场力做负功，D 正确。\n选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q10",
+      "content": "（1）（8 分）某同学使用打点计时器测量当地的重力加速度。\n①请完成以下主要实验步骤：按图（a）安装实验器材并连接电源；竖直提起系有重物的纸带，使重物_______\n（填“靠近”或“远离”）计时器下端；________，__________，使重物自由下落；关闭电源，取出纸带；\n换新纸带重复实验。\n②图（b）和（c）是实验获得的两条纸带，应选取_____（填“b”或“c”）来计算重力加速度。在实验操\n作和数据处理都正确的情况下，得到的结果仍小于当地重力加速度，主要原因是空气阻力和_______。",
+      "answer": "暂无结构化答案",
+      "analysis": "①为了使实验数据能更好地记录在纸带上及减小实验误差，重物应靠近打点计时器；②由图可看\n出（b） 纸带做加速运动、（c）纸带包含加速和减速过程，由自由落体运动是匀加速运动，故选（b）来计\n算加速度，由于空气阻力和摩擦阻力的作用使测得的加速度小于重力加速度，测量结果偏小。\n（2）\n（10 分）某实验小组研究两个未知元件X 和Y 的伏安特性，使用的器材包括电压表（内阻约为3kΩ），\nE\nM\nN\n电流表（内阻约为1Ω），定值电阻等。\n图1\n①使用多用电表粗测元件X 的电阻。选择“×1”欧姆挡测量，示数如图1（a）所示，读数为_______Ω。\n据此应该选择图1 中的________（填“b”或“c”）的电路进行实验。\n②连接所选电路，闭合S；滑动变阻器的滑片P 从左向右滑动，电流表的示数逐渐______（填“增大”或\n“减小”）；依次记录电流及相应的电压；将元件X 换成Y，重复实验。\n③如图2（a）是根据实验数据作出的U–I 图线，由图可判断元件_____（填“X”或“Y”）是非线性元件。\n图2\n④该小组还借助X 和Y 中的线性元件和阻值R＝21Ω 的定值电阻，测量待测电池的电动势E 和内阻r，电\n路如图2（b）所示所示。闭合S1 和S2，电压表读数为3.00V；断开S2，读数为1.00V。利用图（a）可算\n得E＝_____V，r＝_______Ω（结果均保留两位有效数字，视电压表为理想电压表）\n①由题图读得：10×1Ω＝10Ω，为小电阻，为了减小误差应采用电流表外接法，即图15（b）接法；\n②闭合S，滑动变阻器的滑片P 从左向右滑动，使测量电路电压增大，由欧姆定律得电流增大；③根据线\n性元件的U–I 图线为直线，非线性元件的U–I 图线为曲线可得：Y 是非线性元件；④由图16（a）可得线\n性元件X 的阻值为10Ω，根据闭合电路欧姆定律及题意有：\n3.00\n3.00\n10\nE\nr\n=\n+\n和\n1.00\n1.00\n(21\n)\n10\nE\nr\n=\n+\n+\n，\n解得E＝3.15V≈3.2V，r＝0.50Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 34,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q010-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q010-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q11",
+      "content": "（18 分）如图（a）所示，平行长直金属导轨水平放置，间距L＝0.4m。导轨右端接有阻值R＝1Ω 的\n电阻，导体棒垂直放置在导轨上，且接触良好。导体棒及导轨的电阻均不计，导轨间正方形区域abcd 内有\n方向竖直向下的匀强磁场，bd 连线与导轨垂直，长度也为L 从0 时刻开始，磁感应强度B 的大小随时间t\n变化，规律如图（b）所示；同一时刻，棒从导轨左端开始向右匀速运动，1s 后刚好进入磁场。若使棒在导\n轨上始终以速度v＝1m/s 做直线运动，求：\n（1）棒进入磁场前，回路中的电动势E；\n（2）棒在运动过程中受到的最大安培力F，以及棒通过三角形abd 区域时电流i 与时间t 的关系式。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）棒在进入磁场前，棒没有做切割磁感线，但磁场的强弱发生变化，导致磁通量发生变化。\nabcd 的面积\n2\n1\n2\nS\nL\n=\n                                          ①\nBS\nE\nn\nn\nt\nt\n\n\n=\n=\n\n\n                                           ②\n由①②联立得：E＝0.04V\n（2）棒进入磁场中后，做切割磁感线运动，当棒到达bd 时，产生的感应电流最大，同时切割长度最大，\n到达bd 时，产生的感应电动势\nbd\nE\nBL v\n=\n                        ③\n产生的感应电流\nE\nI\nR\n=\n                                         ④\n所受最大安培力\nbd\nF\nBIL\n=\n                                      ⑤\n由③④⑤联立得：F＝0.04N\n棒通过三角形abd 区域时，切割的长度\n2\nl\nvt\n=\n                     ⑥\n产生的感应电动势E\nBlv\n=\n                                      ⑦\n感应电流\nE\ni\nR\n\n=\n                                                ⑧\n由⑥⑦⑧联立感应电流为：\n2\n2Bv\ni\nt\nR\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 35,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015广东理综.pdf#q12",
+      "content": "（18 分）如图所示，一条带有圆轨道的长轨道水平固定，圆轨道竖直，底端分别与两侧的直轨道相切，\n半径R＝0.5m。物块A 以v0＝6m/s 的速度滑入圆轨道，滑过最高点Q，再沿圆轨道滑出后，与直轨上P 处\n静止的物块B 碰撞，碰后粘在一起运动，P 点左侧轨道光滑，右侧轨道呈粗糙段，光滑段交替排列，每段\n长度都为L＝0.1m。物块与各粗糙段间的动摩擦因素都为μ＝0.1，A、B 的质量均为m＝1kg（重力加速度\ng 取10m/s2；A、B 视为质点，碰撞时间极短）。\n（1）求A 滑过Q 点时的速度大小v 和受到的弹力大小F；\n（2）若碰后AB 最终停止在第k 个粗糙段上，求k 的数值；\n（3）求碰后AB 滑至第n 个（n＜k）光滑段上的速度vn 与n 的关系式。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）物块A 滑入圆轨道到达Q 的过程中机械能守恒，根据机械能守恒：\n2\n2\n0\n1\n1\n2\n2\n2\nmv\nmv\nmgR\n=\n+\n                                   ①\n物块A 在做圆周运动：\n2\nN\nv\nF\nmg\nm R\n+\n=\n                      ②\n由①②联立得：v＝4m/s\nFN＝102N    方向向下                         ③\n（2）在与B 碰撞前，系统机械能守恒，所以与B 碰前A 的速度为6m/s，A 和B 在碰撞过程中动量守恒：\n0\n1\n(\n)\nA\nA\nB\nm v\nm\nm\nv\n=\n+\n                                     ④\nAB 碰后向右滑动，由动能定理得：\n2\n1\n1\n(\n)\n0\n(\n)\n2\nA\nB\nA\nB\nm\nm\ngs\nm\nm\nv\n\n−\n+\n=\n−\n+\n                       ⑤\n由④⑤联立得s＝4.5m\n45\ns\nk\nL\n\n=\n=\n（3）碰后AB 滑至第n 个光滑段上的速度vn，由动能定理得：\n2\n2\n1\n1\n1\n(\n)\n(\n)\n(\n)\n2\n2\nA\nB\nA\nB\nn\nA\nB\nm\nm\ngnL\nm\nm\nv\nm\nm\nv\n\n−\n+\n=\n+\n−\n+\n               ⑥\n解得：\n2\n1\n2\nnv\nv\ngnL\n\n=\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015广东理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 36,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q012-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9ada3e310aab3736-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2022/2022上海.pdf",
   "name": "2022上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 20,
+    "sourceAnswers": 17,
+    "sourceAnalysis": 3,
+    "reviewCount": 18,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q01",
-      "content": "试卷满分100 分，考试时间60 分钟。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "试卷满分100 分，考试时间60 分钟。\n2．本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。\n3．答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q02",
-      "content": "本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。",
+      "content": "元素\nZ\nAX 的同位素可能为\nA．\nZ + 1\nA + 1X\nB．\nZ\nA + 1X\nC．\nA\nZ + 1X\nD．A − 1\nZ − 1X",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q03",
-      "content": "答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "麦克风静止在水平桌面上，蛇形杆对话筒a 的作用力方向为",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q04",
-      "content": "元素\nZ\nAX 的同位素可能为\nA．\nZ + 1\nA + 1X\nB．\nZ\nA + 1X\nC．\nA\nZ + 1X\nD．A − 1\nZ − 1X",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在单缝衍射实验中，仅减小缝宽，光屏上衍射条纹的\nA．间距变宽，光强增强\nB．间距变窄，光强增强\nC．间距变宽，光强减弱\nD．间距变窄，光强减弱",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q05",
-      "content": "麦克风静止在水平桌面上，蛇形杆对话筒a 的作用力方向为",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "乒乓球放在水中，当水温升高时，乒乓球内气体的分子热运动\nA．加剧，压强变大\nB．减弱，压强变大\nC．加剧，压强变小\nD．减弱，压强变小",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q06",
-      "content": "在单缝衍射实验中，仅减小缝宽，光屏上衍射条纹的\nA．间距变宽，光强增强\nB．间距变窄，光强增强\nC．间距变宽，光强减弱\nD．间距变窄，光强减弱",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某原子核发生衰变时放出一个正电子，生成的新核比原来的核增加了一个\nA．核子\nB．中子\nC．质子\nD．电子",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -148,68 +193,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q07",
-      "content": "乒乓球放在水中，当水温升高时，乒乓球内气体的分子热运动\nA．加剧，压强变大\nB．减弱，压强变大\nC．加剧，压强变小\nD．减弱，压强变小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2022,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2022/2022上海.pdf",
-        "page": 1,
-        "questionNumber": 4,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q08",
-      "content": "某原子核发生衰变时放出一个正电子，生成的新核比原来的核增加了一个\nA．核子\nB．中子\nC．质子\nD．电子",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2022,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2022/2022上海.pdf",
-        "page": 1,
-        "questionNumber": 5,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q09",
       "content": "北京冬奥会上，某运动员以不变的速率沿如图所示路径滑行，其角速度\n为ω 和加速度大小a 的变化为\nA．ω 减小，a 减小\nB．ω 增大，a 增大\nC．ω 减小，a 增大\nD．ω 增大，a 减小\nA\na\na\na\na\nF\nF\nF\nF\nB\nC\nD\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -217,22 +222,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q007-p001-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q10",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q08",
       "content": "两声源发出的波在空气中传播，用声传感器在某一位置\n分别测得两列波的信号如图（a）、（b）所示。若这两列波\n的频率分别为fa 和fb，波长分别为λa 和λb，则\nA．fa > fb，λa < λb，\nB．fa < fb，λa < λb\nC．fa > fb，λa > λb\nD．fa < fb，λa > λb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -240,22 +255,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q008-p002-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q11",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q09",
       "content": "物体 Ⅰ、Ⅱ 从静止开始做直线运动的位移 –时间关系如图所示，图\n中两条曲线均为抛物线。在t0 时刻，两个物体的速度大小分别为vⅠ和\nvⅡ、加速度大小分别为aⅠ和aⅡ，则\nA．vⅠ < vⅡ，aⅠ < aⅡ\nB．vⅠ > vⅡ，aⅠ < aⅡ\nC．vⅠ < vⅡ，aⅠ> aⅡ\nD．vⅠ > vⅡ，aⅠ > aⅡ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -263,22 +288,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q009-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q10",
+      "content": "如图所示，两根粗细相同的玻璃管竖直放置，下端用橡皮管连接，静止时左管\n上端封闭着一段长为30 cm 的气体，右管开口，左管水银面比右管内水银面高25\ncm（大气压强相当于75 cm 高的水银柱产生的压强）。移动玻璃管使两管内水银\n面等高后，左管内气柱长度为\nA．20 cm\nB．22.5 cm\nC．40 cm\nD．45 cm",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q010-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q11",
+      "content": "木卫 Ⅰ 和木卫 Ⅱ 绕木星公转的周期分别为42 小时28 分和85 小时14 分。假设两卫\n星绕木星近似做匀速圆周运动，若它们的公转半径分别为RⅠ和RⅡ、公转速度大小分别为vⅠ\n和vⅡ，则\nA．RⅠ > RⅡ，vⅠ > vⅡ\nB．RⅠ < RⅡ，vⅠ > vⅡ\nC．RⅠ > RⅡ，vⅠ < vⅡ\nD．RⅠ < RⅡ，vⅠ < vⅡ",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q12",
-      "content": "如图所示，两根粗细相同的玻璃管竖直放置，下端用橡皮管连接，静止时左管\n上端封闭着一段长为30 cm 的气体，右管开口，左管水银面比右管内水银面高25\ncm（大气压强相当于75 cm 高的水银柱产生的压强）。移动玻璃管使两管内水银\n面等高后，左管内气柱长度为\nA．20 cm\nB．22.5 cm\nC．40 cm\nD．45 cm",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "圆满完成任务的神舟十三号载人飞船返回舱在返回过程中打开降落伞减速，所受空气阻\n力随速度减小而减小，若返回舱竖直向下运动，其加速度\nA．逐渐减小\nB．逐渐增大\nC．先增大再减小\nD．先减小再增大",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -286,22 +383,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
-        "questionNumber": 9,
+        "endPage": 2,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q13",
-      "content": "木卫 Ⅰ 和木卫 Ⅱ 绕木星公转的周期分别为42 小时28 分和85 小时14 分。假设两卫\n星绕木星近似做匀速圆周运动，若它们的公转半径分别为RⅠ和RⅡ、公转速度大小分别为vⅠ\n和vⅡ，则\nA．RⅠ > RⅡ，vⅠ > vⅡ\nB．RⅠ < RⅡ，vⅠ > vⅡ\nC．RⅠ > RⅡ，vⅠ < vⅡ\nD．RⅠ < RⅡ，vⅠ < vⅡ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，有界匀强磁场垂直于光滑水平面，一矩形线框在水平面\n内从磁场左边界以初速v0 向右运动。在其穿过磁场的过程中，速\n度先后发生变化的时间段分别为 t1 和 t2，克服安培力做功分别为\nW1 和 W2，则\nA．t1 > t2，W1 > W2\nB．t1 < t2，W1 > W2\nC．t1 > t2，W1 < W2\nD．t1 < t2，W1 < W2",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -309,22 +412,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
-        "questionNumber": 10,
+        "endPage": 2,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q013-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q013-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q14",
-      "content": "圆满完成任务的神舟十三号载人飞船返回舱在返回过程中打开降落伞减速，所受空气阻\n力随速度减小而减小，若返回舱竖直向下运动，其加速度\nA．逐渐减小\nB．逐渐增大\nC．先增大再减小\nD．先减小再增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在描述气体性质的状态参量中，__________是气体分子热运动能够到达的空间范围；而\n压强从微观上看，是___________________________________的宏观表现。",
+      "answer": "体积，气体分子频繁撞击容器壁",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -332,22 +445,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
-        "questionNumber": 11,
+        "endPage": 2,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q15",
-      "content": "如图，有界匀强磁场垂直于光滑水平面，一矩形线框在水平面\n内从磁场左边界以初速v0 向右运动。在其穿过磁场的过程中，速\n度先后发生变化的时间段分别为 t1 和 t2，克服安培力做功分别为\nW1 和 W2，则\nA．t1 > t2，W1 > W2\nB．t1 < t2，W1 > W2\nC．t1 > t2，W1 < W2\nD．t1 < t2，W1 < W2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "玉兔二号月球车使用的核电池中涉及的核反应为23894Pu → 23492U + _______，该反应属\n于__________（选填：“衰变”或“裂变”）反应。\n1\nt/×10−3 s\nO\ny\n（a）\n2\n1\nt/×10−3 s\nO\ny\n（b）\n2\nx\nt\nO\nⅠ\nⅡ\nt0\nv0\nB\n3",
+      "answer": "4\n2 He，衰变",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -355,68 +474,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 2,
-        "questionNumber": 12,
+        "endPage": 3,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022上海.pdf#q16",
-      "content": "在描述气体性质的状态参量中，__________是气体分子热运动能够到达的空间范围；而\n压强从微观上看，是___________________________________的宏观表现。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2022,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2022/2022上海.pdf",
-        "page": 2,
-        "questionNumber": 13,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q17",
-      "content": "玉兔二号月球车使用的核电池中涉及的核反应为23894Pu → 23492U + _______，该反应属\n于__________（选填：“衰变”或“裂变”）反应。\n1\nt/×10−3 s\nO\ny\n（a）\n2\n1\nt/×10−3 s\nO\ny\n（b）\n2\nx\nt\nO\nⅠ\nⅡ\nt0\nv0\nB\n3",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2022,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2022/2022上海.pdf",
-        "page": 2,
-        "questionNumber": 14,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q18",
       "content": "如图，半径为R 的金属圆环水平放置，匀强磁场方向竖直向下，位于\n半径为r 的圆形区域内。若磁场的磁感应强度大小逐渐增大，则圆环中感应\n电流的方向为__________（选填：“顺时针”或“逆时针”）。若保持磁场\n的磁感应强度大小B 不变，仅使其方向改变180°，则改变前后穿过圆环磁\n通量的变化量大小为__________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "逆时针，2Bπr2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -424,22 +503,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q016-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q016-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q19",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q17",
       "content": "如图，电荷量为Q 的均匀带电圆环水平放置，在圆环中心O 的正上方固\n定一电荷量为q 的点电荷，点电荷与O 间距离为d，点电荷受到的静电力大\n小_____（选填“大于”、“等于”或“小于”）kQq\nd2 ，式中静电力常量k 的\n单位为__________（用SI 中的基本单位表示）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "<，kg·m3·s−4·A−2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -447,22 +536,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q017-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q017-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q20",
-      "content": "已知直线电流在其周围产生磁场的磁感应强度大小与电流成正比。\n如图，正方形线框abcd 由四根完全相同的电阻丝构成，大小为I 的电流\n由a 流入，由d 流出。流经ad 的电流在O 点产生磁场的磁感应强度大\n小为B，方向______________（选填：“垂直纸面向里”或“垂直纸面\n向外”）；线框中电流在O 点产生磁场的磁感应强度大小为__________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q18",
+      "content": "已知直线电流在其周围产生磁场的磁感应强度大小与电流成正比。\n如图，正方形线框abcd 由四根完全相同的电阻丝构成，大小为I 的电流\n由a 流入，由d 流出。流经ad 的电流在O 点产生磁场的磁感应强度大\n小为B，方向______________（选填：“垂直纸面向里”或“垂直纸面\n向外”）；线框中电流在O 点产生磁场的磁感应强度大小为__________。\n三、综合题（共40 分）\n要求：第19、20 题在列式计算、逻辑推理以及回答问题过程中，须给出必要的图示、文字\n说明、公式、演算等。",
+      "answer": "垂直于纸面向外，0\n三、综合题（共40 分）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -470,22 +569,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q018-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q21",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q19",
       "content": "（10 分）在“用单摆测定重力加速度”的实验中：\n（1）摆球质量和摆线质量分别为m 球和m 线，摆球直径和摆线\n长为分别为d 和l，则选择摆球和摆线的要求是\nA．m 球 ≫ m 线，d ≪ l\nB．m 球 ≪ m 线，d ≪ l\nC．m 球 ≫ m 线，d ≫ l\nD．m 球 ≪ m 线，d ≫ l\n（2）某同学在实验过程中，多次改变摆线长度l，测量相应的\n摆球摆动周期T，获得T2–l 关系如图所示，由此可得重力加速\n度值为______m/s2。（保留到小数点后2 位）\n（3）为了减小误差，应在摆球经过最低点还是到达最高点开始计时？为什么？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）A\n（2）9.75\n（3）如果选择最高点计时，由于人目测摆球达到最高点速度为 0 很难，计时点很难把握，\n时间误差就会大。最低点却恰恰相反，球的速度最大，计时点把握在瞬间完成，相对较容易，\n准确度高。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -493,22 +602,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q019-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q019-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q22",
-      "content": "（14 分）如图，一固定轨道由水平部分AB 和光滑弧形部\n分BC 平滑连接，AB 段长为L，离地高度为h1，BC 间高度差\n为h2。一质量为m、与AB 间动摩擦因数为μ 的小物块在水平\n恒力作用下，自A 点由静止开始运动，至B 点撤去水平恒力，\n之后冲过C 点落至地面。（重力加速度为g）\n（1）若物块落地前瞬间动能为E1，求物块在B 点时的动能EkB；\n（2）为使物块落地前瞬间动能小于E1，水平恒力应满足什么条件？\nq\nQ\nO\na\nb\nc\nd\nO\nR\nr\nB\nT2/s2\nl/cm\n95.0\n74.0\n3.000\n3.850",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q20",
+      "content": "（14 分）如图，一固定轨道由水平部分AB 和光滑弧形部\n分BC 平滑连接，AB 段长为L，离地高度为h1，BC 间高度差\n为h2。一质量为m、与AB 间动摩擦因数为μ 的小物块在水平\n恒力作用下，自A 点由静止开始运动，至B 点撤去水平恒力，\n之后冲过C 点落至地面。（重力加速度为g）\n（1）若物块落地前瞬间动能为E1，求物块在B 点时的动能EkB；\n（2）为使物块落地前瞬间动能小于E1，水平恒力应满足什么条件？\nq\nQ\nO\na\nb\nc\nd\nO\nR\nr\nB\nT2/s2\nl/cm\n95.0\n74.0\n3.000\n3.850\n60.0\n1.350\nB\nC\nA\nh1\nh2\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）从 B 到落地过程，由机械能守恒定律可得（以地面为零势能面）：\nmgh1 + EkB = E1，\n解得：EkB = E1 − mgh1\n（2）从 A 到 B 过程，设最大推力为 Fmax，由牛顿第二定律可得：\nFmax – μmg = ma\na = Fmax\nm − μg\n由运动学公式：vB2 = 2aL = 2（Fmax\nm − μg）L\nEkB = 1\n2 mvB2 = E1 − mgh1\n解得：Fmax = E1 + μmgL − mgh1\nL\n要能过 C 点，即 C 点的临界速度为 0，设此过程 B 点的速度为 vB′，根据机械能守恒定\n律\nvB′ =\n2gh2\n设最小推力为 Fmin，由运动学公式和牛顿第二定律可解得：\nFmin = （μ + h2\nL ）mg\n此题也可以用全过程动能定理更简便地得出答案。\n整个过程：FmaxL − μmgL + mgh1 = E1\n所以，Fmax = E1 + μmgL − mgh1\nL\n要能过 C 点，对整个过程：FminL − μmgL + mgh2 = 0\n所以，Fmin = （μ + h2\nL ）mg\n6\n综上所述，（μ + h2\nL ）mg < F < E1 + μmgL − mgh1\nL",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -516,34 +633,62 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q020-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q020-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022上海.pdf#q23",
-      "content": "0\n1.350\nB\nC\nA\nh1\nh2\n4\n20．（16 分）如图（a）所示，两水平固定金属导轨间距L = 0.75\nm，一导体棒与导轨垂直放置，导轨左端连接一阻值为R 的定值\n电阻和一最大阻值为20 Ω 的滑动变阻器，系统处于磁感应强度\nB = 0.4 T 且与导轨所在平面垂直的匀强磁场中，使导体棒以恒\n定速度向右运动。当滑动变阻器接入电路阻值最大时，电路中a、\nb、c、d 各点电势如图（b）所示；当滑动变阻器接入电路阻值为\n最大阻值一半时，电路中各点电势如图（c）所示。（图中φ0 大\n小未知，导轨电阻不计。）\n（1）分析并说明磁场方向；\n（2）分析并说明定值电阻在方框 Ⅰ 中还是方框 Ⅱ\n中，并求其阻值R；\n（3）求导体棒匀速运动的速度v；\n（4）当滑动变阻器接入电路的阻值Rp 为多大时，滑\n动变阻器消耗的功率最大？并求出该最大功率Pm。\nⅠ\nⅡ\na\nb\nc\nd\nB\nv\n（a）\n（b）\nφ0\n0 a b\nc\nd a\n0\na\nb c\nd a\n1.2\nφ/V\nφ0\nφ/V\n1.0\n（c）\n5",
+      "questionId": "physics:普通高考/2022/2022上海.pdf#q21",
+      "content": "（16 分）如图（a）所示，两水平固定金属导轨间距L = 0.75\nm，一导体棒与导轨垂直放置，导轨左端连接一阻值为R 的定值\n电阻和一最大阻值为20 Ω 的滑动变阻器，系统处于磁感应强度\nB = 0.4 T 且与导轨所在平面垂直的匀强磁场中，使导体棒以恒\n定速度向右运动。当滑动变阻器接入电路阻值最大时，电路中a、\nb、c、d 各点电势如图（b）所示；当滑动变阻器接入电路阻值为\n最大阻值一半时，电路中各点电势如图（c）所示。（图中φ0 大\n小未知，导轨电阻不计。）\n（1）分析并说明磁场方向；\n（2）分析并说明定值电阻在方框 Ⅰ 中还是方框 Ⅱ\n中，并求其阻值R；\n（3）求导体棒匀速运动的速度v；\n（4）当滑动变阻器接入电路的阻值Rp 为多大时，滑\n动变阻器消耗的功率最大？并求出该最大功率Pm。\nⅠ\nⅡ\na\nb\nc\nd\nB\nv\n（a）\n（b）\nφ0\n0 a b\nc\nd a\n0\na\nb c\nd a\n1.2\nφ/V\nφ0\nφ/V\n1.0\n（c）\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）a 点电势最高，说明左半部分电路中的电流是从 a 流向 d，则棒中的感应电流方\n向向上，根据右手定则，可以判断出磁场方向垂直纸面向里。\n（2）滑动变阻器接入阻值减小时，Uab 变大，根据串联电路分压特点，说明“Ⅰ”中的阻值\n分到的电压增多，“Ⅰ”中为定值电阻。\n金属棒的电阻不计，Uad = E = φ0\n两次滑动变阻器的电压 Ucd：\n20\n20 + R φ0 = 1.2，\n10\n10 + R φ0 = 1.0\n联立方程得：R = 5 Ω，φ0 = 1.5 V\n（3）导体棒切割磁感线，E = BLv = φ0 = 1.5 V，得\nv = E\nBL =\n1.5\n0.4×0.75 = 5 m/s\n（4）将定值电阻与金属棒看成一个等效电源，列出最大功率的表达式，运用配方或基本不\n等式求极值，可得当 Rp = R = 5 Ω 时滑动变阻器消耗的功率最大。\n注意：直接用推论，写成“将定值电阻与金属棒看成一个等效电源，可得当 Rp = R = 5 Ω 时\n滑动变阻器消耗的功率最大”的形式要扣分。\nI =\nE\nR + Rp = 1.5\n5 + 5 A = 0.15 A\nP = I2Rp = 0.152×5 W = 0.1125 W\n7\n9．p1 = p0 – ρgh = 50 cmHg，V1 = 30S；p2 = p0 = 75 cmHg。\n由玻意耳定律：p1V1 = p2V2，l2 = 20 cm\n正确选项为 A。\n11．由于减速，可知空气阻力 f > mg；由牛顿第二定律 a = f − mg\nm\n 可知，随着速度的减小\nf 也减小，导致加速度 a 也随之减小。\n正确选项为 A。\n12．由右手定则可判断线框进磁场时线框中感应电流为逆时针\n方向，由左手定则可判断安培力方向向左，同理可判断线框出\n磁场时安培力方向也向左，因此在两个速度发生变化的时间段\n中线框都做减速运动。\n由 F 安 = B2l2v\nR = ma 可知，进磁场过程中的平均安培力较大，\n进磁场和出磁场过程的位移相等，由 W = Fs 可知 W1 > W2。\n线框在进、出磁场过程中都做加速度减小的减速运动，可以画出对应的 v – t 图像，在位移\n相等的情况下，根据图像可得出 t1 < t2 的结论。\n正确选项为 B。\n16．（1）由微元的思想，可将环形圆环看成由 n 个带电量为 Q′（Q′\n= Q\nn ）的点电荷，则点电荷 q 受到的静电力可看成 n 个 Q′ 对 q\n的静电力竖直分量的累积，即 F = nFʹcosθ = n k\nQ\nn ·q\nL2 cosθ，显然 F\n< k Qq\nd2 。\n（2）由库仑定律可知 k 的单位为 N·m2/C2，而 N 用基本单位可表示为 kg·m/s2，C 用\n基本单位可表示为 A·s，因此 k 用基本单位的表示为 kg·m3·s−4·A−2。\n17．（1）电路结构为 ab、bc、cd 串联后与 ad 并联，由电路分析\n可知 ad 中的电流方向向下，由右手螺旋定则可知 ad 在 O 点产\n生的磁场方向为“垂直于纸面向外”。\n（2）由右手螺旋定则可知 ab、bc、cd 三个电流在 O 点产生的磁\n场方向都为“垂直于纸面向里”。\n由电路结构可知，通过 ad 的电流为通过 ab、bc、cd 支路的 3 倍，\n又因为电流产生的磁感应强度的大小在距离相同的情况下与电流\n大小成正比，因此三者产生的磁感应强度的大小为 ad 产生的磁感应强度的 1/3。由磁场叠\n加原理可知四个磁场的矢量和为 0。\nd\nq\nQ′\nO\nL\nθ\nF′\na\nb\nc\nd\nO\nI\nI/3\nI/3\nI/3\nv\nt\nO\ns\nt1\nt2\ns",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022上海.pdf",
-        "page": 3,
-        "questionNumber": 60,
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q021-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q021-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q021-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q021-p004-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-652672d73b996ee7-q021-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 14,
+    "answerGraphics": 2,
+    "assigned": 12,
+    "rendered": 15,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

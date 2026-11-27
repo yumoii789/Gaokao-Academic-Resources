@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
   "name": "2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q01",
       "content": "在电磁学发展过程中，许多科学家做出了贡献。下列说法正确的是（     ）\n（A）奥斯特发现了电流磁效应；法拉第发现了电磁感应现象\n（B）麦克斯韦预言了电磁波；楞次用实验证实了电磁波的存在\n（C）库仑发现了点电荷的相互作用规律；密立根通过油滴实验测定了元电荷的数值\n（D）安培发现了磁场对运动电荷的作用规律；洛仑兹发现了磁场对电流的作用规律",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "赫兹用实验证实了电磁波的存在，B 错误。洛仑磁发现了磁场对运动电荷作用的规律，D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,11 +44,371 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q02",
+      "content": "一根轻质弹簧一端固定，用大小为F1 的力压弹簧的另一端，平衡时长度为l1；改用大小为F2 的力拉\n弹簧，平衡时长度为l2。弹簧的拉伸或压缩均在弹性限度内，该弹簧的劲度系数为（    ）\n（A）AF2－F1\nl2－l1 E\nA\n（B）AF2＋F1\nl2＋l1 E\nA\n（C）AF2＋F1\nl2－l1 E\nA\n（D）AF2－F1\nl2＋l1 E",
+      "answer": "C",
+      "analysis": "根据胡克定律有：\n1\n0\n1\n(\n)\nF\nk l\nl\n=\n−\n，\n2\n2\n0\n(\n)\nF\nk l\nl\n=\n−\n，解得：k＝\n2\n1\n2\n1\nF\nF\nl\nl\n+\n−\n，C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q03",
+      "content": "如图所示，在外力作用下某质点运动的v-t 图象为正弦曲线。从图中可以\n判断（     ）\n（A）在0～t1 时间内，外力做正功\n（B）在0～t1 时间内，外力的功率逐渐增大\n（C）在t2 时刻，外力的功率最大\n（D）在t1～t3 时间内，外力做的总功为零",
+      "answer": "暂无结构化答案",
+      "analysis": "根据P＝Fv 和图象斜率表示加速度，加速度对应合外力，外力的功率先减小后增大，B 错误。t2\n时刻外力的功率为零，C 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q04",
+      "content": "静电除尘器是目前普遍采用的一种高效除尘器。某除尘器模型的收尘板是很长的\n条形金属板，图中直线ab 为该收尘板的横截面。工作时收尘板带正电，其左侧的电\n场线分布如图所示；粉尘带负电，在电场力作用下向收尘板运动，最后落在收尘板上。\n若用粗黑曲线表示原来静止于P 点的带电粉尘颗粒的运动轨迹，下列4 幅图中可能\n正确的是（忽略重力和空气阻力）（     ）\nv\nt\nO\nt1\nt2\nt3\na\nb\nP\n2 / 7",
+      "answer": "暂无结构化答案",
+      "analysis": "粉尘受力方向为电场线方向，从静止开始运动应该是A 图情况，不会是BCD 情况，A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p002-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p002-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q05",
+      "content": "如图所示，一物块置于水平地面上。当用与水平方向成60°角的力F1\n拉物块时，物块做匀速直线运动；当改用与水平方向成30°角的力F2 推物\n块时，物块仍做匀速直线运动。若F1 和F2 的大小相等，则物块与地面之\n间的动摩擦因数为（     ）\n（A）A 3 EA－1\n（B）2－A 3 EA\n（C）AAEA 3\nE2\nE\nA－A1\n2 E\nA\n（D）1－AAEA 3\nE2\nE",
+      "answer": "暂无结构化答案",
+      "analysis": "物体受重力mg、支持力FN、摩擦力Ff、已知力F 处于平衡，根据平衡条件，有：\nFcos60°＝μ（mg－Fsin60°）\nFcos30°＝μ（mg＋Fsin30°）\n联立解得：μ＝2－A 3 E",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q06",
+      "content": "电源的效率η 定义为外电路电阻消耗的功率与电源的总功率之\n比。在测电源电动势和内电阻的实验中得到的实验图线如图所示，图\n中U 为路端电压，I 为干路电流，a、b 为图线上的两点，相应状态下\n电源的效率分别为ηa、ηb。由图可知ηa、ηb 的值分别为（    ）\n（A）A3\n4 E\nA、A1\n4 E\nA\n（B）A1\n3 E\nA、A2\n3 E\nA\n（C）A1\n2 E\nA、A1\n2 E\nA\n（D）A2\n3 E\nA、A1\n3 E",
+      "answer": "暂无结构化答案",
+      "analysis": "电源效率\nU\nE\nη =\n，E 为电源的总电压（即电动势），根据图象\n可知Ua＝2\n3 E 、Ub＝1\n3 E ，所以选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q07",
+      "content": "太阳系中的8 大行星的轨道均可以近似看成圆轨道。下列4 幅图是用来描述这些行星运动所遵从的某\n一规律的图像。图中坐标系的横轴是lg AT\nT0\nE\nA，纵轴是lg A R\nR0\nE\nA；这里T 和R 分别是行星绕太阳运行的周期和\n相应的圆轨道半径，T0 和R0 分别是水星绕太阳运行的周期和相应的圆轨道半径。下列4 幅图中正确的是\n（   ）\na\nb\nP\na\nb\nP\na\nb\nP\n（A）            （B）            （C）              （D）\na\nb\nP\n3\n2\n1\n0\n1\n2\n3\nlg R\nR0\nlg T\nT0\nlg R\nR0\nlg R\nR0\nlg R\nR0\nlg T\nT0\nlg T\nT0\nlg T\nT0\n3\n3\n3\n2\n2\n2\n1\n1\n1\n0\n0\n0\n1\n1\n1\n2\n2\n2\n3\n3\n3\n×\n×\nU/V\nI/A\nO\na\nb\n60º\nF1\n30º\nF2\n3 / 7",
+      "answer": "暂无结构化答案",
+      "analysis": "根据开普勒周期定律：\n2\n3\nT\nkR\n=\n，\n2\n3\n0\n0\nT\nkR\n=\n两式相除后取对数，得：\n2\n3\n2\n3\n0\n0\nlg\nlg\nT\nR\nT\nR\n=\n，整理得：\n0\n0\n2lg\n3lg\nT\nR\nT\nR\n=\n，选项B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q007-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q08",
+      "content": "如图所示，两个端面半径同为R 的圆柱形铁芯同轴水平放置，相对的端面之\n间有一缝隙，铁芯上绕导线并与电源连接，在缝隙中形成一匀强磁场。一铜质细\n直棒ab 水平置于缝隙中，且与圆柱轴线等高、垂直。让铜棒从静止开始自由下落，\n铜棒下落距离为0.2R 时铜棒中电动势大小为E1，下落距离为0.8R 时电动势大小\n为E2。忽略涡流损耗和边缘效应。关于E1、E2 的大小和铜棒离开磁场前两端的极\n性，下列判断正确的是（     ）\n（A）E1＞E2，a 端为正\n（B）E1＞E2，b 端为正\n（C）E1＜E2，a 端为正\n（D）E1＜E2，b 端为正",
+      "answer": "暂无结构化答案",
+      "analysis": "根据E＝BLv，\n1\n2 0.96\n0.2\nE\nB\nR g\nR\n=\n×\n×\n，\n2\n2 0.36\n0.8\nE\nB\nR g\nR\n=\n×\n×\n，可见E1<E2。又根\n据右手定则判定电流方向从a 到b，在电源内部电流时从电源负极流向正极，所以D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q09",
+      "content": "（4 分）\n图为验证机械能守恒定律的实验装置示意图。现有的器材\n为：带铁夹的铁架台、电磁打点计时器、纸带、带铁夹的\n重锤、天平。回答下列问题：\n（1）为完成此实验，除了所给的器材，还需要的器材有\n_______。（填入正确选项前的字母）\n（A）米尺\n（B）秒表\n（C）0～12V 的直流电源\n（D）0～12V 的交流电源\n（2）实验中误差产生的原因有______。（写出两个原因）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）用A 项米尺测量长度，用D 项交流电源供打点计时器使用。（2）\n纸带与打点计时器之间有摩擦，用米尺测量纸带上点的位置时读数有误差，计算势能变化时，选取始末两\n点距离过近，交流电频率不稳定。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q10",
+      "content": "（11 分）\n用对温度敏感的半导体材料制成的某热敏电阻RT，在给定温度范围内，其阻值随温度的变化是非线性的。\n某同学将RT 和两个适当的固定电阻R1、R2 连成图1 虚线框内所示的电路，以使该电路的等效电阻RL 的阻\n值随RT 所处环境温度的变化近似为线性的，且具有合适的阻值范围。为了验证这个设计，他采用伏安法测\n量在不同温度下RL 的阻值，测量电路如图1 所示，图中的电压表内阻很大。RL 的测量结果如表1 所示。\n表一\n温度t（℃）\n30.0\n40.0\n50.0\n60.0\n70.0\n80.0\n90.0\nRL 阻值（Ω）\n54.3\n51.5\n48.3\n44.7\n41.4\n37.9\n34.7\n回答下列问题：\n（1）根据图1 所示的电路，在图2 所示的实物图上连线。\na\nb\n4 / 7\n（2）为了检验RL 与t 之间近似为线性关系，在坐标纸上作RL-t 关系图线\n（3）在某一温度下，电路中的电流表、电压表的示数如图3、4 所示。电流表的读数为____，电压表的读\n数为______。此时等效电阻RL 的阻值为______：热敏电阻所处环境的温度约为________。",
+      "answer": "（1）如图所示\nV\nmA\nR1\nRT（放在控温装置中）\nR2\nR\nS\nE\n图2\nV\nA\nR1\nR2\nRT\nR\nE\nS\n图1\nRL/Ω\n50\n40\n30 30\n40\n50\n60\n70\n80\n90\nt/℃\n0\n50\n100\n150\n0\nmA\n1\n2\n3\n4\n5\n6\nV\n图3\n图4\nV\nmA\nR1\nRT（放在控温装置中）\nR2\nR\nS\nE\n5 / 7\n（2）如图所示\n（3）115.0mA，5.00V，43.5Ω，64.0℃",
+      "analysis": "（1）根据电路图连接电路。（2）根据数据描出点，拟合成直线。（3）\n23.0 150\n115.0\n30\nI =\n×\n=\nmA，\n50.0\n6\n5.00\n60\nU =\n×\n=\nV，\n3\n5.00\n43.5\n115.0 10\nR\n−\n=\n=\nΩ\n×\n，对照图找出相应的温度64.0℃。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 3,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p005-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q11",
+      "content": "（14 分）\n短跑名将博尔特在北京奥运会上创造了100m 和200m 短跑项目的新世界纪录，他的成绩分别是9.69s 和\n19.30s。假定他在100m 比赛时从发令到起跑的反应时间是0.15s，起跑后做匀加速运动，达到最大速率后\n做匀速运动。200m 比赛时，反应时间及起跑后加速阶段的加速度和加速时间与100m 比赛时相同，但由于\n弯道和体力等因素的影响，以后的平均速率只有跑100m 时最大速率的96%。求：\n（1）加速所用时间和达到的最大速率；\n（2）起跑后做匀加速运动的加速度。（结果保留两位小数）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设加速所用时间t，匀速运动的速度为v，则有：\nA1\n2\nE\nAvt＋v（9.69－0.15－t）＝100，\nA1\n2\nE\nAvt＋0.96v（19.30－0.15－t）＝200\n联立解得：t＝1.29s，v＝11.24m/s\n（2）设起跑后做匀加速运动的加速度a，则a＝Av\nt\nE\nA＝A11.24\n1.29\nE\nAm/s2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf#q12",
+      "content": "（18 分）\n如图所示，在0≤x≤a、0≤y≤Aa\n2\nE\nA范围内有垂直于xy 平面向外\n的匀强磁场，磁感应强度大小为B。坐标原点O 处有一个粒子\n源，在某时刻发射大量质量为m、电荷量为q 的带正电粒子，\n它们的速度大小相同，速度方向均在xy 平面内，与y 轴正方向\n的夹角分布在0～90°范围内。己知粒子在磁场中做圆周运动的\n半径介于a/2 到a 之间，从发射粒子到粒子全部离开磁场经历\n的时间恰好为粒子在磁场中做圆周运动周期的四分之一。求最后离开磁场的粒子从粒子源射出时的\nRL/Ω\n50\n40\n30\n30\n40\n50\n60\n70\n80\n90\nt/℃\na\na/2\ny\nx\nO\nB\n6 / 7\n（1）速度的大小；\n（2）速度方向与y 轴正方向夹角的正弦。",
+      "answer": "暂无结构化答案",
+      "analysis": "设粒子的发射速度为v，粒子做圆周运动的轨道半径为R，\n根据牛顿第二定律和洛伦兹力得：\n2v\nqvB\nm R\n=\n，解得：\nmv\nR\nqB\n=\n    当a/2<R<a 时，在磁场中运动的时间最长的粒子，其轨迹是圆心为\nC 的圆弧，圆弧与磁场的边界相切，如图所示，设该粒子在磁场中运动\n的时间为t，依题意，t＝T/4 时，∠OCA＝π/2\n设最后离开磁场的粒子的发射方向与y 轴正方向的夹角为α，由几\n何关系得：\nsin\nsin\ncos\n2\na\nR\nR\nR\na\nR\nα\nα\nα\n=\n−\n=\n−\n，\n，且\n2\n2\nsin\ncos\n1\nα\nα\n+\n=\n解得：\n6\n6\n(2\n)\n(2\n)\n2\n2\naqB\nR\na\nv\nm\nα\n=\n−\n=\n−\n6- 6\n，\n，sin = 10\n（二）选考题：共45 分。请考生从给出的2 道物理题、2 道化学题、2 道生物题中每科任选一题做答，并\n用2B 铅笔在答题卡上把所选题目的题号涂黑。注意所做题目的题号必须与所涂题目的题号一致，在答题\n卡选答区域指定位置答题。如果多做，则每学科按所做的第一题计分。\n33．【物理——选修3-4】（15 分）\n（1）（5 分）如图，一个三棱镜的截面为等腰直角△ABC，∠A 为直角。\n此截面所在平面内的光线沿平行于BC 边的方向射到AB 边，进入棱镜后\n直接射到AC 边上，并刚好能发生全反射。该棱镜材料的折射率为\n_________。（填入正确选项前的字母）\n（A）AAEA 6\nE2 E\nA\n（B）A 2 EA\n（C）A3\n2 E\nA\n（D）A 3 E\n根据折射率定义有，sin\n1\nsin\n2\nn\n∠=\n∠，sin\n3\n1\nn\n∠= ，已知∠1＝450∠2+∠3＝900，解得：n＝\n6\n2\n[来\n（2）（10 分）波源S1 和S2 振动方向相同，频率均为4Hz，分别置于均匀介质中x\n轴上的O、A 两点处，OA＝2m，如图所示。两波源产生的简谐横波沿x 轴相向传\n播，波速为4m/s。己知两波源振动的初始相位相同。求：\n（ⅰ）简谐横波的波长；\n（ⅱ）OA 间合振动振幅最小的点的位置。\n（i ）设波长为λ，频率为ν，则v＝λν，代入已知数据得：λ＝1m\n       （ii ）以O 为坐标原点，设P 为OA 间任一点，其坐标为x，则两波源到P 点的波程差Δl＝x-（2-\nx），0≤x≤2。其中x、Δl 以m 为单位。\n        合振动振幅最小的点的位置满足\n1\n(\n)\n2\nl\nk\nλ\n∆=\n+\n，k 为整数\n        解得：x＝0.25m。0.75m，1.25m，1.75m.\n34．【物理——选修3-5】（15 分）\nA\nx\ny\nD\nP\nO\nR\nC\nv\nα\nα\nα\na\nA\nB\nC\nx\nS1\nS2\nO\nA\na\na/2\ny\nx\nO\nB\nA\nD\nC\nP\nR\nR\nα\nα\nα\nv\n7 / 7\n（1）（5 分）用频率为ν0 的光照射大量处于基态的氢原子，在所发射的光谱中仅能观测到频率分别为ν1、\nν2、ν3 的三条谱线，ν1＞ν2＞ν3 且，则_________。（填入正确选项前的字母）\n（A）ν0＜ν1\n（B）ν3＝ν1＋ν2\n（C）ν0＝ν1＋ν2＋ν3\n（D）A1\nν1 E\nA＝A1\nν2 E\nA＋A1\nν3 E\n大量氢原子跃迁时只有三个频率的光谱，这说明是从n＝3 能级向低能级跃迁，根据能量守恒有，\nhν3＝hν1＋hν2，解得：ν3＝ν1＋ν2，选项B 正确\n（2）（10 分）如图所示，光滑的水平地面上有一木板，其左端放有一重\n物，右方有一竖直的墙。重物质量为木板质量的2 倍，重物与木板间的\n动摩擦因数为μ。使木板与重物以共同的速度v0 向右运动，某时刻木板\n与墙发生弹性碰撞，碰撞时间极短。求木板从第一次与墙碰撞到再次碰\n撞所经历的时间。设木板足够长，重物始终在木板上。重力加速度为g。\n木板第一次与墙碰撞后，向左匀减速直线运动，直到静止，再反向向右匀加速直线运动直到与重\n物有共同速度，再往后是匀速直线运动，直到第二次撞墙。\n木板第一次与墙碰撞后，重物与木板相互作用直到有共同速度，动量守恒，有：\n0\n0\n2\n(2\n)\nmv\nmv\nm\nm v\n−\n=\n+\n，解得：\n0\n3\nv\nv =\n木板在第一个过程中，用动量定理，有：\n0\n1\n(\n)\n2\nmv\nm\nv\nmgt\nµ\n−\n−\n=\n    用动能定理，有：\n2\n2\n0\n1\n1\n2\n2\n2\nmv\nmv\nmgs\nµ\n−\n= −\n    木板在第二个过程中，匀速直线运动，有：\n2\ns\nvt\n=\n    木板从第一次与墙碰撞到再次碰撞所经历的时间t＝t1+t2＝\n0\n2\n3\nv\ng\nµ\n+\n0\n2\n3\nv\ng\nµ\n＝\n0\n4\n3\nv\ng\nµ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010新课标理综(辽宁,吉林,黑龙江,湖南,陕西,宁夏).pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q012-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b1a16dd82414e9c8-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 24,
+    "answerGraphics": 0,
+    "assigned": 24,
+    "rendered": 24,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

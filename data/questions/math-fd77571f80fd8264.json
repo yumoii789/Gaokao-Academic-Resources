@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:春季高考/2002/2002春季上海.pdf",
   "name": "2002春季上海",
   "track": "spring",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q01",
       "content": "函数y =\n1\n3 −2x −x2 的定义域为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q02",
       "content": "若椭圆的两个焦点坐标为F1(−1, 0), F2(5, 0), 长轴长为10, 则椭圆的方程\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q03",
       "content": "若全集I = R, f(x)、g(x) 均为x 的二次函数, P = {x | f(x) < 0},\nQ = {x | g(x) ⩾0}, 则不等式组\n{\nf(x) < 0,\ng(x) < 0\n的解集可用P、Q 表示\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q04",
       "content": "设f(x) 是定义在R 上的奇函数. 若当x ⩾0 时, f(x) = log3(1 + x), 则\nf(−2) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q05",
       "content": "若在\n(\n5√x −1\nx\n)n\n的展开式中, 第4 项是常数项, 则n =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q06",
       "content": "已知f(x) =\n√\n1 −x\n1 + x, 若α ∈\n(π\n2 , π\n)\n, 则f(cos α) + f(−cos α) 可化简\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q07",
       "content": "六位身高全不相同的同学拍照留念, 摄影师要求前后两排各三人, 则后排\n每人均比前排同学高的概率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q08",
       "content": "设曲线C1 和C2 的方程分别为F1(x, y) = 0 和F2(x, y) = 0, 则点\nP(a, b) /∈C1 ∩C2 的一个充分条件为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q09",
       "content": "若f(x) = 2 sin ωx (0 < ω < 1) 在区间\n[\n0, π\n3\n]\n上的最大值是\n√\n2, 则\nω =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q10",
       "content": "如图表示一个正方体表面的一种展开图, 图中的四条线段AB、CD、EF\n和GH 在原正方体中相互异面的有\n对.\nE\nH\nB\nG\nC\nA\nF\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -240,22 +309,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q11",
       "content": "如图所示, 客轮以速度2v 由A 至B 再到C 匀速航行, 货轮从AC 的中点\nD 出发, 以速度v 沿直线匀速航行, 将货物送达客轮. 已知AB ⊥BC, 且\nAB = BC = 50 海里. 若两船同时出发, 则两船相遇之处距C 点\n海\n里. (结果精确到小数点后1 位)\nA\nB\nC\nD•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q12",
       "content": "如图, 若从点O 所作的两条射线OM、ON 上分别有点M1、M2 与点N1、\nN2, 则三角形面积之比S△OM1N1\nS△OM2N2\n= OM1\nOM2\n· ON1\nON2\n. 若从点O 所作的不在同\n一平面内的三条射线OP、OQ 和OR 上, 分别有点P1、P2, 点Q1、Q2 和\n点R1、R2, 则类似的结论为\n.\nO\nN\nM\nN1 N2\nM1\nM2\nO\nP\nR\nQ\nP1\nP2\nQ1\nQ2\nR1\nR2\n•\n•\n•\n•\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q13",
       "content": "若a、b、c 为任意向量, m ∈R, 则下列等式不一定成立的是\n(　)\n(A) (a + b) + c = a + (b + c)\n(B) (a + b) · c = a · c + b · c\n(C) m(a + b) = ma + mb\n(D) (a · b)c = a(b · c)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q14",
       "content": "在△ABC 中, 若2 cos B sin A = sin C, 则△ABC 的形状一定是\n(　)\n(A) 等腰直角三角形\n(B) 直角三角形\n(C) 等腰三角形\n(D) 等边三角形",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q15",
       "content": "设A > 0, a̸ = 1, 函数y = logax 的反函数和y = loga\n1\nx 的反函数的图象\n关于\n(　)\n(A) x 轴对称\n(B) y 轴对称\n(C) y = x 对称\n(D) 原点对称",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -355,22 +466,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q16",
       "content": "设{an} (n ∈N) 是等差数列, Sn 是其前n 项的和, 且S5 < S6,\nS6 = S7 > S8, 则下列结论错误的是\n(　)\n(A) d < 0\n(B) a7 = 0\n(C) S9 > S5\n(D) S6 和S7 均为Sn 的最大值",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -378,22 +495,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q17",
       "content": "已知z、ω 为复数, (1 + 3i)z 为纯虚数, ω =\nz\n2 + i, 且|ω| = 5\n√\n2, 求ω.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -401,22 +524,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q18",
       "content": "已知F1、F2 为双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的焦点. 过F2 作\n垂直x 轴的直线交双曲线于点P, 且∠PF1F2 = 30◦, 求双曲线的渐近方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -424,22 +553,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q19",
       "content": "如图, 三棱柱OAB−O1A1B1, 平面OBB1O1 ⊥平面OAB, ∠O1OB = 60◦,\n∠AOB = 90◦, 且OB = OO1 = 2, OA =\n√\n3. 求:\n(1) 二面角O1 −AB −O 的大小;\n(2) 异面直线A1B 与AO1 所成角的大小.\n(上述结果用反三角函数值表示)\nA\nB\nO\nO1\nA1\nB1\n99",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -447,22 +586,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fd77571f80fd8264-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q20",
       "content": "已知函数f(x) = ax + x −2\nx + 1 (a > 1).\n(1) 证明: 函数f(x) 在(−1, +∞) 上为增函数;\n(2) 用反证法证明方程f(x) = 0 没有负数根.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -470,22 +619,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q21",
       "content": "某公司全年的利润为b 元, 其中一部分作为奖金发给n 位职工, 奖金分配\n方案如下: 首先将职工按工作业绩(工作业绩均不相同) 从大到小, 由1 到\nn 排序, 第1 位职工得奖金b\nn 元, 然后再将余额除以n 发给第2 位职工,\n按此方法将奖金逐一发给每位职工, 并将最后剩余部分作为公司发展基金.\n(1) 设ak (1 ⩽k ⩽m) 为第k 位职工所得奖金额, 试求a2、a3, 并用k、n\n和b 表示a (不必证明);\n(2) 证明ak > ak+1 (k = 1, 2, · · · , n −1), 并解释此不等式关于分配原则\n的实际意义;\n(3) 发展基金与n 和b 有关, 记为Pn(b), 对常数b, 当n 变化时, 求\nlim\nn→∞Pn(b).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -493,22 +648,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2002/2002春季上海.pdf#q22",
       "content": "对于函数f(x), 若存在x0 ∈R, 使f(x0) = x0 成立, 则称x0 为f(x) 的不\n动点. 已知函数f(x) = ax2 + (b + 1)x + (b −1) (a̸ = 0).\n(1) 当a = 1, b = −2 时, 求函数f(x) 的不动点;\n(2) 若对任意实数b, 函数f(x) 恒有两个相异的不动点, 求a 的取值范围;\n(3) 在(2) 的条件下, 若y = f(x) 图上A、B 两点的横坐标是函数f(x) 的\n不动点, 且A, B 两点关于直线y = kx +\n1\n2a2 + 1 对称, 求b 的最小值.\n100",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "数学",
@@ -516,11 +677,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2002/2002春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2012/2012辽宁理.pdf",
   "name": "2012辽宁理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q01",
       "content": "已知全集U = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, 集合A = {0, 1, 3, 5, 8},\n集合B = {2, 4, 5, 6, 8}, 则\n(\n∁UA\n)\n∩\n(\n∁UB\n)\n=\n(\n)\n(A) {5, 8}\n(B) {7, 9}\n(C) {0, 1, 3}\n(D) {2, 4, 6}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q02",
       "content": "复数2 −i\n2 + i =\n(\n)\n(A) 3\n5 −4\n5i\n(B) 3\n5 + 4\n5i\n(C) 1 −4\n5i\n(D) 1 + 3\n5i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q03",
       "content": "已知两个非零向量a, b 满足|a + b| = |a −b|, 则下面结论正确的是(\n)\n(A) a\nb\n(B) a ⊥b\n(C) |a| = |b|\n(D) a + b = a −b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q04",
       "content": "已知命题p: ∀x1, x2 ∈R, (f (x2) −f (x1)) (x2 −x1) ⩾0, 则¬p 是\n(\n)\n(A) ∃x1, x2 ∈R, (f (x2) −f (x1)) (x2 −x1) ⩽0\n(B) ∀x1, x2 ∈R, (f (x2) −f (x1)) (x2 −x1) ⩽0\n(C) ∃x1, x2 ∈R, (f (x2) −f (x1)) (x2 −x1) < 0\n(D) ∀x1, x2 ∈R, (f (x2) −f (x1)) (x2 −x1) < 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q05",
       "content": "一排9 个座位坐了3 个三口之家, 若每家人坐在一起, 则不同的坐法种数\n为\n(\n)\n(A) 3 × 3!\n(B) 3 × (3!)3\n(C) (3!)4\n(D) 9!",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q06",
       "content": "在等差数列{an} 中, 已知a4 + a8 = 16, 则该数列前11 项和S11 =\n(\n)\n(A) 58\n(B) 88\n(C) 143\n(D) 176",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -148,22 +189,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q07",
       "content": "已知sin α −cos α =\n√\n2, α ∈(0, π), 则tan α =\n(\n)\n(A) −1\n(B) −\n√\n2\n2\n(C)\n√\n2\n2\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q08",
       "content": "设变量x, y 满足\n\n\n\n\n\n\n\nx −y ⩽10,\n0 ⩽x + y ⩽20,\n0 ⩽y ⩽15,\n则2x + 3y 的最大值为\n(\n)\n(A) 20\n(B) 35\n(C) 45\n(D) 55",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q09",
       "content": "执行如图所示的程序框图, 则输出的S 值是\n(\n)\n(A) −1\n(B) 3\n2\n(C) 2\n3\n(D) 4\n开始\nS = 4\ni = 1\ni < 9\nS =\n2\n2 −S\ni = i + 1\n输出S\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -217,22 +280,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q10",
       "content": "在长为12 cm 的线段AB 上任取一点C. 现作一矩形, 邻边长分别等于线\n段AC, CB 的长, 则该矩形面积小于32 cm2 的概率为\n(\n)\n(A) 1\n6\n(B) 1\n3\n(C) 2\n3\n(D) 4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q11",
       "content": "设函数f (x) (x ∈R) 满足f (−x) = f (x), f (x) = f (2 −x), 且当\nx ∈[0, 1] 时, f (x) = x3. 又函数g (x) = |x cos (πx) |, 则函数h (x) =\ng (x) −f (x) 在\n[\n−1\n2, 3\n2\n]\n上的零点个数为\n(\n)\n(A) 5\n(B) 6\n(C) 7\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q12",
       "content": "若x ∈[0, +∞), 则下列不等式恒成立的是\n(\n)\n(A) ex ⩽1 + x + x2\n(B)\n1\n√1 + x ⩽1 −1\n2x + 1\n4x2\n(C) cos x ⩾1 −1\n2x2\n(D) ln (1 + x) ⩾x −1\n8x2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -286,22 +371,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q13",
       "content": "一个几何体的三视图如图所示, 则该几何体的表面积为\n.\n1\n1\n2\n1\n0.5\n2\n0.5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -309,22 +400,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q14",
       "content": "已知等比数列{an} 为递增数列, 且a2\n5 = a10, 2 (an + an+2) = 5an+1, 则数\n列{an} 的通项公式an =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q15",
       "content": "已知P, Q 为抛物线x2 = 2y 上两点, 点P, Q 的横坐标分别为4, −2, 过\nP, Q 分别作抛物线的切线, 两切线交于A, 则点A 的纵坐标为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q16",
       "content": "已知正三棱锥P −ABC, 点P, A, B, C 都在半径为\n√\n3 的球面上. 若PA,\nPB, PC 两两互相垂直, 则球心到截面ABC 的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -378,22 +491,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q17",
       "content": "在△ABC 中, 角A, B, C 的对边分别为a, b, c. 角A, B, C 成等差数列.\n(1) 求cos B 的值;\n(2) 若边a, b, c 成等比数列, 求sin A sin C 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -401,22 +520,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q18",
       "content": "如图, 直三棱柱ABC −A′B′C′, ∠BAC = 90◦, AB = AC = λAA′, 点M,\nN 分别为A′B 和B′C′ 的中点.\n(1) 证明: MN\n平面A′ACC′;\n(2) 若二面角A′ −MN −C 为直二面角, 求λ 的值.\nA\nC\nB\nA′\nM\nN\nC′\nB′\n751",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -424,22 +553,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q19",
       "content": "电视传媒公司为了解某地区电视观众对某类体育节目的收视情况, 随机抽\n取了100 名观众进行调查. 下面是根据调查结果绘制的观众日均收看该体\n育节目时间的频率分布直方图:\n频率\n组距\n0\n分钟\n0.010\n0.018\n0.022\n0.025\n0.020\n0.005\n10\n20\n30\n40\n50\n60\n将日均收看该体育节目时间不低于40 分钟的观众称为“体育迷”.\n(1) 根据已知条件完成下面的2 × 2 列联表, 并据此资料你是否认为“体育\n迷”与性别有关?\n非体育迷\n体育迷\n合计\n男\n女\n10\n55\n合计\n(2) 将上述调查所得到的频率视为概率. 现在从该地区大量电视观众中, 采\n用随机抽样方法每次抽取一名观众, 抽取3 次, 记被抽取的3 名观众中的\n“体育迷”人数为X. 若每次抽取的结果是相互独立的, 求X 的分布列, 期\n望E (X) 和方差D (X).\n附: χ2 = n (n11n22 −n12n21)2\nn1+n2+n+1n+2\n,\nP (χ2 ⩾k)\n0.05\n0.01\nk\n3.841\n6.635 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -447,22 +586,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q20",
       "content": "如图, 椭圆C0: x2\na2 + y2\nb2 = 1 (a > b > 0, a, b 为常数), 动圆C1: x2+y2 = t2\n1,\nb < t1 < a. 点A1, A2 分别为C0 的左, 右顶点, C1 与C0 相交于A, B, C,\nD 四点.\n(1) 求直线AA1 与直线A2B 交点M 的轨迹方程;\n(2) 设动圆C2: x2 + y2 = t2\n2 与C0 相交于A′, B′, C′, D′ 四点, 其中\nb < t2 < a, t1̸ = t2. 若矩形ABCD 与矩形A′B′C′D′ 的面积相等, 证明:\nt2\n1 + t2\n2 为定值.\nx\ny\nO\nA\nB\nC\nD\nA2\nA1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -470,22 +619,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q21",
       "content": "设f (x) = ln (x + 1) + √x + 1 + ax + b (a, b ∈R, a, b 为常数), 曲线\ny = f (x) 与直线y = 3\n2x 在(0, 0) 点相切.\n(1) 求a, b 的值;\n(2) 证明: 当0 < x < 2 时, f (x) <\n9x\nx + 6.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -493,22 +652,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q22",
       "content": "如图, ⊙O 和⊙O′ 相交于A, B 两点, 过A 作两圆的切线分别交两圆于C,\nD 两点, 连接DB 并延长交⊙O 于点E. 证明:\n(1) AC · BD = AD · AB;\n(2) AC = AE.\nA\nB\nE\nO\nO′\nD\nC\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -516,22 +681,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q022-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q022-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-49101213eb645a29-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q23",
       "content": "在直角坐标系xOy 中, 圆C1: x2 + y2 = 4, 圆C2: (x −2)2 + y2 = 4.\n(1) 在以O 为极点, x 轴非负半轴为极轴的极坐标系中, 分别写出圆C1、\nC2 的极坐标方程, 并求出圆C1, C2 的交点坐标(用极坐标表示);\n(2) 求圆C1 与C2 的公共弦的参数方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -539,22 +715,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012辽宁理.pdf#q24",
       "content": "已知\nf (x)\n=\n|ax + 1|\n(a ∈R),\n不等式\nf (x)\n⩽\n3\n的解集为\n{x | −2 ⩽x ⩽1}.\n(1) 求a 的值;\n(2) 若\n���f (x) −2f\n(x\n2\n)���⩽k 恒成立, 求k 的取值范围.\n752",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -562,11 +744,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012辽宁理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1985/1985广东理.pdf",
   "name": "1985广东理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 41,
+    "answerBlocks": 22,
+    "sourceAnswers": 22,
+    "sourceAnalysis": 8,
+    "reviewCount": 33,
+    "shortQuestions": 2
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q01",
       "content": "函数\narctg(1\n)\ny\nx\n=\n−\n的定义域是        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "{ |\n1}\nx x ≤",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q02",
       "content": "如果\n2\n1\n1\nx\nf\nx\nx\n\n=\n\n\n−\n\n\n，则\n( )\nf x =        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q03",
       "content": "如果一个圆锥底面的半径增大到原来的三倍，但要保持它的体积不变，则其高必须缩小到原来的        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q04",
       "content": "在直角坐标系中，通过点\n,\n（0 0）(1 0)\n，和(0 2)\n，的圆的方程是        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q05",
       "content": "π\n2π\n3π\n4π\ntg\ntg\ntg\ntg\n5\n5\n5\n5\n+\n+\n+\n的值等于        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q06",
       "content": "1\n4\n7\n(3\n2)\nlim\n(\n1)\nn\nn\nn n\n→∞\n+\n+\n+\n+\n−\n+\n\n的值等于        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q07",
       "content": "函数\n2\nsin (2 )\ny\nx\n=\n的最小正周期是       ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "π\n2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q08",
       "content": "已知函数\n5\n( )\narctg\nf x\nax\nx\n=\n+\n，其中a 为常数，且\n(2)\n10\nf\n=\n，则\n( 2)\nf −\n的值是        ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q09",
       "content": "已知圆的方程为\n2\n2\n(\n2)\n9\nx\ny\n+\n−\n=\n，用平行于x 轴的直径\n把圆分为上下半圆，则以上半圆弧（包括端点）为图象的函\n数表达式是         ．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q10",
-      "content": "请把方程\n2\n2\n0\ny x\ny\nx\nx\n−\n−\n+\n=\n所表示的曲线画\n在右边的直角坐标系中．\n二、（本题满分44 分）本题共有20 个小题，每一个小题都给出代号为A，B，C，D，E 的五个结论，其中只有一\n个结论是正确的，请把正确结论的代号写在下表该题号下的空格内第1 至16 小题，每个小题选对得2 分，其余每\n个小题选对得3 分，不选、选错或者选出的代号超过一个，一律得0 分：",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "请把方程\n2\n2\n0\ny x\ny\nx\nx\n−\n−\n+\n=\n所表示的曲线画\n在右边的直角坐标系中．",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q11",
       "content": "数\n2 x\ny\n−\n=\n的图象的大致形状是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "E  2．A  3．B  4．A  5．C  6．C  7．E  8．B  9．D  10．C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -263,22 +334,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f48a46d81129f5fb-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-f48a46d81129f5fb-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f48a46d81129f5fb-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q12",
       "content": "极坐标方程\n10\n5\n3cos\nρ\nθ\n=\n−\n所表示的曲线是（    ）\nA．椭圆\nB．圆\nC．双曲线\nD．抛物线\nE．双曲线的一支",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "假设当\n(\n1)\nn\nk k\n=\n≥\n时，不等式成立，即\n| sin\n|\n| sin\n|\nk\nk\nθ\nθ\n≤\n．\n那么，当\n1\nn\nk\n=\n+ 时\n| sin(\n1) | | sin\ncos\ncos\nsin\n|\nk\nk\nk\nθ\nθ\nθ\nθ\nθ\n+\n=\n+\n| sin\ncos\n|\n| cos\nsin\n|\nk\nk\nθ\nθ\nθ\nθ\n+\n≤\n| sin\n|| cos\n|\n| cos\n|| sin\n|\nk\nk\nθ\nθ\nθ\nθ\n=\n+\n| sin\n|\n| sin\n|\n| sin\n|\n| sin\n|\nk\nk\nθ\nθ\nθ\nθ\n+\n+\n≤\n≤\n(\n1) | sin\n|\nk\nθ\n=\n+\n．\nx\ny\n1  2  3  4\nO\n这就是说，原不等式对于\n1\nn\nk\n=\n+ 成立．\n根据（1）和（2），原不等式对于任意自然数n 都成立．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -286,22 +368,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q13",
       "content": "以\n(13)\nA ，，\n( 51)\nB −，为端点的线段的垂直平分线的方程是（   ）\nA．3\n8\n0\nx\ny\n−\n+\n=\nB．3\n4\n0\nx\ny\n+\n+\n=\nx\ny\n1\n1\nO\nx\ny\n（0，1）\nO\nA．\nx\ny\n（1，1）\nO\nＢ．\nx\ny\n（1，0）\nO\nＣ．\nx\ny\n（1，0）\nO\nＤ．\nx\ny\n（0，1）\nO\nＥ．\nC． 2\n6\n0\nx\ny\n−\n−\n=\nD．2\n2\n0\nx\ny\n+\n+\n=\nE．3\n8\n0\nx\ny\n+\n+\n=",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "1\nED\nAB\nCE\n，\n∵\n⊥\n⊥侧面\n1\n1\nABB A ，连结CD ，依三垂线定理有\n1\nCD\nAB\n⊥\n，故\nCDE\n∠\n是截面\n1\nCAB 和\n侧面\n1\n1\nABB A 所成的二面角的平面角，且为锐角．CE 是Rt\nABC\n△\n的斜边上的中线，故\n1\n2\n2\nCE\nAB\n=\n=\n，\n又\n2 3\n3\nED =\n，于是，在Rt\nCED\n△\n中，\n6\ntg\n2\nCE\nCDE\nED\n∠\n=\n=\n，\n故截面\n1\nCAB 和侧面\n1\n1\nABB A 所成的较小的二面角等于\n6\narctg 2\n．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -309,22 +395,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q14",
       "content": "如果双曲线\n2\n2\n2\n2\n1\nx\ny\na\nb\n−\n= 的两条渐近线互相垂直，则双曲线的离心率是（    ）\nA．\n2\nB．2\nC．\n3\nD．2 2\nE．3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -332,22 +422,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q15",
       "content": "设集合C = {复数}，R={实数}，M={纯虚数}，其中C 为全集，则（    ）\nA．M\nR\nC\n=\n\nB．M\nR\nC\n=\n\nC．R\nR\nC\n=\n\nD．\n{0}\nM\nR =\n\nE．C\nR\nM\n=\n",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "本 题 考 查 利 用 导 数 求 函 数 极 值 和 讨 论 方 程 的 不 同 的 实 根 个 数 的 能 力 .\nWD 解 : 厂 C =5x —5=5(x\"-1).\n令 广 C9 =0, 即 5Crt -D =0, 这 个 方 程 的 实 根 是 x= 士 1 , 而\nCD=-1+5+C=C+4,\n=1l-5+C=C-4.\n函 数 一 (x) 的 变 化 情 况 如 下 表 所 示 :\n医 城 区 乙 医 圭 匹 刀 医 利 匹 刀\nIEE IE BCR IE BC\nLo fen [fen [7]\nPEL f (x) 的 极 大 值 是 一 C-0) = C+4, f(x) 的 极 小 值 是 广 ) = C—4.\nC2) 证 : 用 反 证 法 证 明 . 假 如 方 程 广 x) = 0 的 不 同 实 根 个 数 大 于 3, 则 至 少 可 拖 到 四 个 不 同 的 实 数 xi <x, <x, <x,»\nFE (0) = f(x) = f(x) = f(x) =0,\n根 据 微 分 中 值 定 理 , 有 (xp x), , 使 得\nFG) =) = FE), -m0,\n由 式 @ 及 口 > 吊 , 可 知 广 (8.) =0 . 这 表 明 方 程 广 Cr) =0 在 区 间 (x x) 中 至 少 有 一 个 实 根 8 ; 同 理 可 证 : 方 程\n( )\n0\nf\nx\n′\n=\n在区间\n2\n3\n(\n)\nx\nx\n，\n，\n3\n4\n(\n)\nx\nx\n，\n中分别有实根\n2\n3\nθ\nθ\n，\n．显然，有\n1\n2\n3\nθ\nθ\nθ\n<\n<\n，即方程\n( )\n0\nf\nx\n′\n=\n至少有三个\n不同的实根，这与（1）中所得的结果相矛盾，从而，方程\n( )\n0\nf x =\n的不同实根的个数不大于3．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -355,22 +451,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q16",
       "content": "2(\n0)\ny\nx\nx\n=\n≤\n的反函数是（    ）\nA．y\nx\n=\nB．y\nx\n= ±\nC．y\nx\n= −\nD．y\nx\n=\n−\nE．y\nx\n= −−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -378,22 +478,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q17",
       "content": "如果\n2\n(\n1)\nlog a\ny\nx\n−\n=\n在(0\n)\n+ ∞\n，\n内是减函数，则a 的取值范围是（    ）\nA．|\n| 1\na >\nB．|\n|\n2\na <\nC．\n2\na >\nD．\n2\na < −\nE．1 |\n|\n2\na\n<\n<",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -401,22 +507,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q18",
       "content": "如果n 是正偶数，则\n0\n2\n2\nn\nn\nn\nn\nn\nn\nC\nC\nC\nC\n−\n+\n+\n+\n+\n=\n\n（    ）\nA．2n\nB．\n1\n2n−\nC．\n2\n2n−\nD．\n1\n(\n1)2n\nn\n−\n−\nE．\n2\n(\n1)2n\nn\n−\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -424,22 +536,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q19",
       "content": "已知180\n270\nα\n<\n<\n\n，且\n4\nsin(270\n)\n5\nα\n+\n=\n\n，则tg 2\na = （    ）\nA．3\nB．2\nC．2\n−\nD．3\n−\nE．\n1\n3\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -447,22 +565,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q20",
       "content": "方程sin3\nsin\n0\nx\nx\n−\n=\n的解集是（    ）\nA．{ |\nπ\nx x\nk\nk\n=\n，\n是整数}\nB．\nπ\nπ\n{ |\n2\n4\nk\nx x\nk\n=\n+\n，\n是整数}\nC．{\n|\nπ\nx x\nk\n=\n或\nπ\nπ\n2\n4\nk\nx =\n+\n，k 是整数}\nD．{\nπ\n|\nπ+ 2\nx x\nk\n=\n，k 是整数}\nE．{\nπ\n|\n2\nk\nx x =\n，k 是整数}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -470,22 +594,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q21",
       "content": "(\n)\n1\n2\narcsin\narctg\n2\narccos\n3\n3\n\n\n\n\n−\n−\n−\n\n\n\n\n\n\n\n\n，\n，\n的大小关系是（    ）\nA．\n(\n)\n1\n2\narcsin\narctg\n2\narccos\n3\n3\n\n\n\n\n−\n−\n−\n\n\n\n\n\n\n\n\n<\n<\nB．\n(\n)\n1\n2\narcsin\narccos\narctg\n2\n3\n3\n\n\n\n\n−\n−\n<\n−\n\n\n\n\n\n\n\n\n<\nC．\n(\n)\n1\n2\narctg\n2\narcsin\narccos\n3\n3\n\n\n\n\n−\n<\n−\n−\n\n\n\n\n\n\n\n\n<\nD．\n(\n)\n2\n1\narctg\n2\narccos\narcsin\n3\n3\n\n\n\n\n−\n<\n−\n<\n−\n\n\n\n\n\n\n\n\nE．\n(\n)\n2\n1\narccos\narcsin\narctg\n2\n3\n3\n\n\n\n\n−\n<\n−\n−\n\n\n\n\n\n\n\n\n<",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -493,22 +623,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q22",
       "content": "设向量OZ\n\n对应于复数2 3\n4i\n−\n+\n，把OZ\n\n按顺时针方向旋转60得到\n1\nOZ\n\n，则与向量\n1\nOZ\n\n对应的复数是（    ）\nA．3 3\ni\n−\n−\nB．\n3\n5i\n+\nC．2 3\n4i\n−\n−\nD．2 3\n4i\n+\nE．1 3 3i\n+",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -516,22 +652,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q23",
       "content": "某班上午要上语文、数学、体育和外语四门课，又体育老师因故不能上第一节和第四节，则不同排课方案的种\n数是（    ）\nA．24\nB．22\nC．20\nD．12\nE．10",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -539,22 +681,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q24",
       "content": "6\n1\nx\nx\n\n\n+\n\n\n\n\n的展开式的常数项是（    ）\nA．1\nB．6\nC．15\nD．20\nE．30",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -562,22 +710,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q25",
       "content": "已知{\n}\nna\n为等差数列，且有\n2\n3\n10\n11\n48\na\na\na\na\n+\n+\n+\n=\n，则\n6\n7\na\na\n+\n= （    ）\nA．12\nB．16\nC．20\nD．24\nE．28",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -585,22 +739,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q26",
       "content": "直角三角形ABC 的斜边BC 在平面α 内，顶点A 在平面α 外，则\nABC\n△\n的两条直角边在平面α 上的射影与\n斜边BC 所组成的图形只能是（    ）\nA．一条线段\nB．一个锐角三角形\nC．一个钝角三角形\nD．一条线段或一个钝角三角形\nE．一条线段或一个锐角三角形",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -608,22 +768,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q27",
       "content": "如果实数x 与y 满足方程\n4\n0\nx\ny\n+\n−\n=\n，则\n2\n2\nx\ny\n+\n的最小值是（    ）\nA．4\nB．6\nC．8\nD．10\nE．12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -631,22 +797,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q28",
       "content": "和y 轴相切，且和半圆\n2\n2\n4(0\n2)\nx\ny\nx\n+\n=\n≤≤\n相内切的动圆圆心的轨迹方程是（    ）\nA．\n2\n4(\n1)(0\n1)\ny\nx\nx\n= −\n−\n<\n≤\nB．\n2\n4(\n1)(0\n1)\ny\nx\nx\n=\n−\n<\n≤\nC．\n2\n4(\n1)(0\n1)\ny\nx\nx\n=\n+\n<\n≤\nD．\n2\n2(\n1)(0\n1)\ny\nx\nx\n= −\n−\n<\n≤\nE．\n2\n2(\n1)(0\n1)\ny\nx\nx\n=\n+\n<\n≤",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
@@ -654,334 +826,398 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1985/1985广东理.pdf#q29",
       "content": "设a\nb\nc\n，，是空间中的三条直线，下面给出四个命题：\n①如果a\nb\n⊥\n，b\nc\n⊥\n，则a\nc\n∥\n．\n②如果a\nb\n，是异面直线，b\nc\n，是异面直线，则a\nc\n，也是异面直线．\n③如果a 和b 相交，b 和c 相交，则a 和c 也相交．\n④如果a 和b 共面，b 和c 共面，则a 和c 也共面．\n那么，在上述命题中，真命题的个数是（    ）\nA．4\nB．3\nC．2\nD．1\nE．0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 4,
-        "questionNumber": 19,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q30",
-      "content": "棱柱成为直棱柱的一个必要但不充分的条件是（    ）\nA．棱住有一条侧棱与底面垂直\nB．棱柱有一条侧棱与底面的两条边垂直\nC．棱住有一条侧面与底面的一条边垂直\nD．棱住有一条侧面是矩形，且它与底面垂直\nE．棱住有两个相邻的侧面互相垂直\n第二卷\n考生注意：这份试题共四道大题，满分56 分，第五题是附加题，满分10 分，不计入总分．\n一、（本题满分14 分）\n用数学归纳法证明：| sin\n|\n| sin\n|\nn\nn\nθ\nθ\n≤\n．（n 是自然数）\n二、（本题满分14 分）\n已知直三棱柱\n1\n1\n1\nABC\nA B C\n−\n的侧棱\n1\n4cm\nAA =\n，它的底面\nABC\n△\n中有\n2cm\n90\nAC\nBC\nC\n=\n=\n∠\n=\n\n，\n，E 是AB 的\n中点．\n（1）求证：\n1\nCE\nAB\n⊥\n．\n（2）求证：CE 和\n1\nAB 所在的异面直线的距离等于2 3 cm\n3\n．\n（3）求截面\n1\nACB 与侧面\n1\n1\nABB A 所成的二面角的大小（只求其中的锐角，可用反三角函数表示）．\n三、（本题满分14 分）\n设函数\n2\n2\n3\n1\n( )\nlog\n4\n4\n1\nf x\nx\nmx\nm\nm\nm\n\n\n=\n−\n+\n+\n+\n\n\n−\n\n\n，其中m 是实数，又用M 表示集合{\n|\n1}\nm m >\n．\n（1）求证：当m\nM\n∈\n时，\n( )\nf x 对所有实数x 都有意义；反之，如果\n( )\nf x 对所有实数x 都有意义，则m\nM\n∈\n．\n（2）当m\nM\n∈\n时，求函数\n( )\nf x 的最小值．\n（3）求证：对每一个m\nM\n∈\n，函数\n( )\nf x 的最小值都不小于1．\n四、（本题满分14 分）\n在直角坐标系中，有椭圆I 和抛物线II，它们的参数方程分别是\nI：\n2cos\n3sin\nx\nm\ny\nφ\nφ\n=\n+\n\n=\n\n，\n．\n（m 是常数，φ 是参数）\nII：\n2\n3\n2\n6\nx\nt\ny\nt\n=\n+\n\n\n=\n\n（t 是参数）\n（1）求证：当\n4\nm =\n时，椭圆I 有一个焦点和一条准线分别与抛物线II 的焦点和准线重合．\n（2）求证：当且仅当\n1 7\n2 2\nm\n\n\n∈−\n\n\n\n\n，\n时，椭圆I 与抛物线II 有交点．\n（3）在区间\n1 7\n2 2\n\n\n−\n\n\n\n\n，\n中有哪些m 值，使得椭圆I 和抛物线II 的交点与坐标原点的距离等于这个交点与椭圆I 的中\n心的距离？\n五、（附加题，本题满分10 分，不计入总分）\n已知函数\n5\n( )\n5\nf x\nx\nx\nc\n=\n−\n+\n，其中c 是实数．\n（1）求\n( )\nf x 的极大值和极小值．\n（2）证明方程\n( )\n0\nf x =\n的不同实根的个数不大于3．\n1985 年广东省高等学校招生统一考试\n数学（理工农医类）答案\n第一卷\n一、本题考查基础知识和基本运算，只需要直接写出结果．每一个小题，结果正确的，给2 分．10 个小题的给分的\n和就是本题全题的给分．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 4,
-        "questionNumber": 20,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q31",
-      "content": "{ |\n1}\nx x ≤",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q32",
-      "content": "2\n1\nx\nx −",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 2,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q33",
-      "content": "1\n9",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 3,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q34",
-      "content": "2\n2\n2\n0\nx\ny\nx\ny\n+\n−\n−\n=",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 4,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q35",
-      "content": "0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 5,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q36",
-      "content": "3\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 6,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q37",
-      "content": "π\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 7,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q38",
-      "content": "10\n−",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 8,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q39",
-      "content": "2\n2\n9\n( 3\n3)\ny\nx\nx\n=\n+\n−\n−≤≤",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 9,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q40",
-      "content": "如图\n二、本题考查基础知识和基本运算．第1~16 小题，每个小题选对给2 分；第17~20 小题，每个小题选对给3 分，\n不选、错选或者选出的代号超过一个的，一律给0 分．20 个小题的给分的和就是本题全题的给分．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 10,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q41",
-      "content": "E  2．A  3．B  4．A  5．C  6．C  7．E  8．B  9．D  10．C",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1985,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1985/1985广东理.pdf#q42",
-      "content": "C  12．B  13．D  14．C  15．D  16．D  17．C  18．A  19．E  20．B\n第二卷\n一、本题考查绝对值不等式和三角函数的基本知识与数学归纳法的运用．\n证：（1）当\n1\nn =\n时，左边| sin\n|\nθ\n=\n= 右边，所以原不等式成立．\n（2）假设当\n(\n1)\nn\nk k\n=\n≥\n时，不等式成立，即\n| sin\n|\n| sin\n|\nk\nk\nθ\nθ\n≤\n．\n那么，当\n1\nn\nk\n=\n+ 时\n| sin(\n1) | | sin\ncos\ncos\nsin\n|\nk\nk\nk\nθ\nθ\nθ\nθ\nθ\n+\n=\n+\n| sin\ncos\n|\n| cos\nsin\n|\nk\nk\nθ\nθ\nθ\nθ\n+\n≤\n| sin\n|| cos\n|\n| cos\n|| sin\n|\nk\nk\nθ\nθ\nθ\nθ\n=\n+\n| sin\n|\n| sin\n|\n| sin\n|\n| sin\n|\nk\nk\nθ\nθ\nθ\nθ\n+\n+\n≤\n≤\n(\n1) | sin\n|\nk\nθ\n=\n+\n．\nx\ny\n1  2  3  4\nO\n这就是说，原不等式对于\n1\nn\nk\n=\n+ 成立．\n根据（1）和（2），原不等式对于任意自然数n 都成立．\n二、本题考查空间的两条直线的位置关系，二面角大小的计算以及空间想象能力和逻辑推理能力．\n（1）证：\n1\n1\n1\nABC\nA B C\n−\n∵\n是直三棱住，\n1\nAA\nABC\n∴\n⊥底面\n．\nCE ⊂\n∵\n平面ABC ，\n1\nCE\nAA\n∴\n⊥\n．\n又E 是等腰三角形ABC 底边AB 的中点，\nCE\nAB\n∴\n⊥\n，故CE ⊥平面\n1\n1\nABB A ．\n1\nAB ⊂\n∵\n平面\n1\n1\nABB A ，\n1\nCE\nAB\n∴\n⊥\n．\n（2）证：\n1\nCE\nAB\nCE\nAB\n，\n∵\n⊥\n⊥\n，\nCE\n∴\n⊥平面\n1\n1\nABB A ．\n过E 作\n1\nED\nAB\n⊥\n，垂足为D ，ED ⊂平面\n1\n1\nABB A ，\nCE\nED\n⊥\n∴\n．\n故ED 是CE 和\n1\nAB 所在的异面直线的距离．\n在\n1\nRt\nABB\n△\n和Rt\nADE\n△\n中，\nA\n∠\n公共，\n∴\n1\nABB\nADE\n△\n∽△\n，∴\n1\n1\nED\nAE\nBB\nAB\n=\n即\n1\n1\nAE BB\nED\nAB\n=\n\n．\n2\n90\nAC\nBC\nACB\n=\n=\n∠\n=\n\n，\n∵\n，\n1\n2 2\n2\n2\nAB\nAE\nAB\n=\n=\n=\n，\n∴\n．\n又在\n1\nRt\nABB\n△\n中，\n1\n4\nBB =\n，\n2\n2\n1\n1\n8 16\n2 6\nAB\nAB\nBB\n=\n+\n=\n+\n=\n∴\n．\n2 4\n2 3\n3\n2 6\nED =\n=\n\n∴\n（cm）\n（3）解：\n1\nED\nAB\nCE\n，\n∵\n⊥\n⊥侧面\n1\n1\nABB A ，连结CD ，依三垂线定理有\n1\nCD\nAB\n⊥\n，故\nCDE\n∠\n是截面\n1\nCAB 和\n侧面\n1\n1\nABB A 所成的二面角的平面角，且为锐角．CE 是Rt\nABC\n△\n的斜边上的中线，故\n1\n2\n2\nCE\nAB\n=\n=\n，\n又\n2 3\n3\nED =\n，于是，在Rt\nCED\n△\n中，\n6\ntg\n2\nCE\nCDE\nED\n∠\n=\n=\n，\n故截面\n1\nCAB 和侧面\n1\n1\nABB A 所成的较小的二面角等于\n6\narctg 2\n．\n三、本题考查二次函数与对数函数的基本性质，不等式的证明和不等式的解法．\n（1）证：当m\nM\n∈\n时，有\n1\nm > ，从而对所有的实数x 都有\n2\n2\n2\n1\n1\n1\n4\n4\n(\n2 )\n0\n1\n1\n1\nx\nmx\nm\nm\nx\nm\nm\nm\nm\nm\nm\n−\n+\n+\n+\n=\n−\n+\n+\n+\n>\n−\n−\n−\n≥\n于是，当m\nM\n∈\n时，函数\n2\n2\n3\n1\n( )\nlog\n4\n4\n1\nf x\nx\nmx\nm\nm\nm\n\n\n=\n−\n+\n+\n+\n\n\n−\n\n\n对所有的实数x 都有意义．\n反之，如果\n( )\nf x 对所有的实数x 都有意义，则对所有的实数x ，都有\n2\n2\n1\n4\n4\n0\n1\nx\nmx\nm\nm\nm\n−\n+\n+\n+\n>\n−\n，\n而当\n2\nx\nm\n=\n时，上式变为\n1\n0\n1\nm\nm\n+\n>\n−\n，\n即\n2\n1\n0\n1\nm\nm\nm\n−\n+ >\n−\n或\n2\n1\n3\n2\n4\n0\n1\nm\nm\n\n\n−\n+\n\n\n\n\n>\n−\n．\n由于上式左端的分子总是正数，所以它的分母\n1\n0\nm −>\n，即\n1\nm > ，从而m\nM\n∈\n．\n（2）解：因为以3 为底的对数函数是增函数，所以，从①式得\n2\n3\n3\n1\n1\n( )\nlog\n(\n2 )\nlog\n1\n1\nf m\nx\nm\nm\nm\nm\nm\n\n\n\n\n=\n−\n+\n+\n+\n\n\n\n\n−\n−\n\n\n\n\n≥\n．\n又因为\n3\n1\n(2 )\nlog\n1\nf\nm\nm\nm\n\n\n=\n+\n\n\n−\n\n\n．\n所以，当m\nM\n∈\n时，\n( )\nf x 的最小值是\n3\n1\nlog\n1\nm\nm\n\n\n+\n\n\n−\n\n\n．\n（3）证：当m\nM\n∈\n时，有\n1\nm > ，所以\n1\n1\n(\n1)\n1\n1\n1\nm\nm\nm\nm\n+\n=\n−\n+\n+\n−\n−\n1\n2 (\n1)\n1\n3\n1\nm\nm\n−\n+ =\n−\n≥\n，\n上式两端取以3 为底的对数，得\n3\n3\n1\nlog\nlog 3\n1\n1\nm\nm\n\n\n+\n=\n\n\n−\n\n\n≥\n．\n于是，根据（2）的结果可知，对每一个m\nM\n∈\n，\n( )\nf x 的最小值都不小于1．\n四、本题考查二次曲线的基础知识，曲线参数方程的应用，以及逻辑推理能力和计算能力．\n（1）证：将曲线I，II 的方程化为直角坐标方程\nI：\n2\n2\n(\n)\n1\n4\n3\nx\nm\ny\n−\n+\n=\n，II：\n2\n3\n6\n2\ny\nx\n\n\n=\n−\n\n\n\n\n．\n当\n4\nm =\n时，椭圆I 中心的坐标为(4 0)\n，，长轴在x 轴上，长半轴长\n4\n2\na =\n=\n，短半轴长\n3\nb =\n，从而，半焦距\n2\n2\n1\nc\na\nb\n=\n−\n=\n，焦点坐标(4\n0)\nc\n± ，即为(5 0)\n，和(3 0)\n，，准线方程\n2\n4\na\nx\nc\n=\n±\n，即为\n8\nx =\n和\n0\nx =\n．\n由抛物线II 的方程可知：该抛物线以x 轴为对称轴，开口向右，顶点的坐标为3 0\n2\n\n\n\n\n\n\n，，焦点至顶点的距离是\n3\n2\n2\np =\n，\n从而焦点的坐标为3\n0\n2\n2\np\n\n\n+\n\n\n\n\n，即为(3 0)\n，，准线方程是\n3\n2\n2\np\nx =\n−\n即为\n0\nx =\n．\n所以，椭圆I 的左焦点和左准线分别与抛物线II 的焦点和准线重合．\n（2）证：将曲线I，II 的直角坐标方程联立\n2\n2\n2\n(\n)\n1\n4\n3\n(*)\n3\n6\n2\nx\nm\ny\ny\nx\n\n−\n+\n=\n\n\n\n\n=\n−\n\n\n\n\n\n\n，\n．\n①\n②\n那么，曲线I，II 有交点⇔方程组（*）有实数解x\ny\n，．这时，(\n)\nx\ny\n，\n为交点．\n将②代入①，整理得\n2\n2\n(8\n2 )\n16\n0\nx\nm x\nm\n+\n−\n+\n−\n=\n；③\n又由于\n2\n3\n0\n2\n6\ny\nx −\n=\n≥\n，故方程组（*）有实数解⇔方程③有不小于3\n2\n的实根．\n方程③的两个根为\n1\n(4\n)\n2 2(4\n)\nx\nm\nm\n= −\n−\n+\n−\n，\n2\n(4\n)\n2 2(4\n)\nx\nm\nm\n= −\n−\n−\n−\n．\n可见，当且仅当4\n0\nm\n−\n≥\n时，\n1\n2\nx\nx\n，\n是实根，且这时\n2\n0\nx ≤\n．\n由此可知：方程③有不小于3\n2\n的实根⇔m 满足不等式组\n4\n0\n3\n(4\n)\n2 2(4\n)\n2\nm\nm\nm\n−\n−\n−\n+\n−\n\n，\n．\n≥\n≥\n解此不等式组的解集\n1\n7\n|\n2\n2\nm\nm\n\n\n−\n\n\n\n\n≤\n≤\n．\n综合起来，即得：当且仅当\n1 7\n2 2\nm\n\n\n∈−\n\n\n\n\n，\n时，椭圆I 与抛物线II 有交点．\n（3 ）因为椭圆I 中心的坐标为(\n0)\nm，，所以，曲线I，II 的交点(\n)\nx\ny\n，\n满足题设，等价于x\ny\n，\n满足\n2\n2\n2\n2\n(\n)\nx\ny\nx\nm\ny\n+\n=\n−\n+\n，即是\n(\n2 )\n0\nm m\nx\n−\n=\n，          ①\n由（2）的证明可知，曲线I，II 的交点横坐标是\nx=(m—4)+22(d-m). w 一 |\n将 它 代 入 @ 式 , 得 知 所 求 的 力 值 应 潇 足 方 程\nm[8—m—4\\2(4—m)]=0, ame[-37].\n解 方 程 : 由 力 三 0 得 加 五 0, 由 8 力 -4J2(4 一 7 =0. 即\n2+16m 一 64 三 0,\nfm, 井 8(V2 -1) [\n力 =-80E+Ds[ 一 扎 | ( 应 含 去 )\n2 2\n直 接 检 验 可 知 , 当 力 五 0 或 8(V2 -1 时 , 曲 线 D, 工 的 交 点 满 足 题 设 条 件 , 故 所 求 的 力 的 值 是 0 和 8(V2 -1) .\n五 、 本 题 考 查 利 用 导 数 求 函 数 极 值 和 讨 论 方 程 的 不 同 的 实 根 个 数 的 能 力 .\nWD 解 : 厂 C =5x —5=5(x\"-1).\n令 广 C9 =0, 即 5Crt -D =0, 这 个 方 程 的 实 根 是 x= 士 1 , 而\nCD=-1+5+C=C+4,\n=1l-5+C=C-4.\n函 数 一 (x) 的 变 化 情 况 如 下 表 所 示 :\n医 城 区 乙 医 圭 匹 刀 医 利 匹 刀\nIEE IE BCR IE BC\nLo fen [fen [7]\nPEL f (x) 的 极 大 值 是 一 C-0) = C+4, f(x) 的 极 小 值 是 广 ) = C—4.\nC2) 证 : 用 反 证 法 证 明 . 假 如 方 程 广 x) = 0 的 不 同 实 根 个 数 大 于 3, 则 至 少 可 拖 到 四 个 不 同 的 实 数 xi <x, <x, <x,»\nFE (0) = f(x) = f(x) = f(x) =0,\n根 据 微 分 中 值 定 理 , 有 (xp x), , 使 得\nFG) =) = FE), -m0,\n由 式 @ 及 口 > 吊 , 可 知 广 (8.) =0 . 这 表 明 方 程 广 Cr) =0 在 区 间 (x x) 中 至 少 有 一 个 实 根 8 ; 同 理 可 证 : 方 程\n( )\n0\nf\nx\n′\n=\n在区间\n2\n3\n(\n)\nx\nx\n，\n，\n3\n4\n(\n)\nx\nx\n，\n中分别有实根\n2\n3\nθ\nθ\n，\n．显然，有\n1\n2\n3\nθ\nθ\nθ\n<\n<\n，即方程\n( )\n0\nf\nx\n′\n=\n至少有三个\n不同的实根，这与（1）中所得的结果相矛盾，从而，方程\n( )\n0\nf x =\n的不同实根的个数不大于3．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "待补解析"
       ],
       "year": 1985,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1985/1985广东理.pdf",
-        "page": 6,
-        "questionNumber": 11,
-        "extraction": "ocr",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 19,
+        "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q30",
+      "content": "棱柱成为直棱柱的一个必要但不充分的条件是（    ）\nA．棱住有一条侧棱与底面垂直\nB．棱柱有一条侧棱与底面的两条边垂直\nC．棱住有一条侧面与底面的一条边垂直\nD．棱住有一条侧面是矩形，且它与底面垂直\nE．棱住有两个相邻的侧面互相垂直",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q31",
+      "content": "求证：\n1\nCE\nAB\n⊥\n．",
+      "answer": "证：\n1\n1\n1\nABC\nA B C\n−\n∵\n是直三棱住，\n1\nAA\nABC\n∴\n⊥底面\n．\nCE ⊂\n∵\n平面ABC ，\n1\nCE\nAA\n∴\n⊥\n．\n又E 是等腰三角形ABC 底边AB 的中点，\nCE\nAB\n∴\n⊥\n，故CE ⊥平面\n1\n1\nABB A ．\n1\nAB ⊂\n∵\n平面\n1\n1\nABB A ，\n1\nCE\nAB\n∴\n⊥\n．",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q32",
+      "content": "求证：CE 和\n1\nAB 所在的异面直线的距离等于2 3 cm\n3\n．",
+      "answer": "证：\n1\nCE\nAB\nCE\nAB\n，\n∵\n⊥\n⊥\n，\nCE\n∴\n⊥平面\n1\n1\nABB A ．\n过E 作\n1\nED\nAB\n⊥\n，垂足为D ，ED ⊂平面\n1\n1\nABB A ，\nCE\nED\n⊥\n∴\n．\n故ED 是CE 和\n1\nAB 所在的异面直线的距离．\n在\n1\nRt\nABB\n△\n和Rt\nADE\n△\n中，\nA\n∠\n公共，\n∴\n1\nABB\nADE\n△\n∽△\n，∴\n1\n1\nED\nAE\nBB\nAB\n=\n即\n1\n1\nAE BB\nED\nAB\n=\n\n．\n2\n90\nAC\nBC\nACB\n=\n=\n∠\n=\n\n，\n∵\n，\n1\n2 2\n2\n2\nAB\nAE\nAB\n=\n=\n=\n，\n∴\n．\n又在\n1\nRt\nABB\n△\n中，\n1\n4\nBB =\n，\n2\n2\n1\n1\n8 16\n2 6\nAB\nAB\nBB\n=\n+\n=\n+\n=\n∴\n．\n2 4\n2 3\n3\n2 6\nED =\n=\n\n∴\n（cm）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q33",
+      "content": "求截面\n1\nACB 与侧面\n1\n1\nABB A 所成的二面角的大小（只求其中的锐角，可用反三角函数表示）．",
+      "answer": "暂无结构化答案",
+      "analysis": "证：当m\nM\n∈\n时，有\n1\nm > ，所以\n1\n1\n(\n1)\n1\n1\n1\nm\nm\nm\nm\n+\n=\n−\n+\n+\n−\n−\n1\n2 (\n1)\n1\n3\n1\nm\nm\n−\n+ =\n−\n≥\n，\n上式两端取以3 为底的对数，得\n3\n3\n1\nlog\nlog 3\n1\n1\nm\nm\n\n\n+\n=\n\n\n−\n\n\n≥\n．\n于是，根据（2）的结果可知，对每一个m\nM\n∈\n，\n( )\nf x 的最小值都不小于1．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q34",
+      "content": "求证：当m\nM\n∈\n时，\n( )\nf x 对所有实数x 都有意义；反之，如果\n( )\nf x 对所有实数x 都有意义，则m\nM\n∈\n．",
+      "answer": "暂无结构化答案",
+      "analysis": "证：当m\nM\n∈\n时，有\n1\nm > ，从而对所有的实数x 都有\n2\n2\n2\n1\n1\n1\n4\n4\n(\n2 )\n0\n1\n1\n1\nx\nmx\nm\nm\nx\nm\nm\nm\nm\nm\nm\n−\n+\n+\n+\n=\n−\n+\n+\n+\n>\n−\n−\n−\n≥\n于是，当m\nM\n∈\n时，函数\n2\n2\n3\n1\n( )\nlog\n4\n4\n1\nf x\nx\nmx\nm\nm\nm\n\n\n=\n−\n+\n+\n+\n\n\n−\n\n\n对所有的实数x 都有意义．\n反之，如果\n( )\nf x 对所有的实数x 都有意义，则对所有的实数x ，都有\n2\n2\n1\n4\n4\n0\n1\nx\nmx\nm\nm\nm\n−\n+\n+\n+\n>\n−\n，\n而当\n2\nx\nm\n=\n时，上式变为\n1\n0\n1\nm\nm\n+\n>\n−\n，\n即\n2\n1\n0\n1\nm\nm\nm\n−\n+ >\n−\n或\n2\n1\n3\n2\n4\n0\n1\nm\nm\n\n\n−\n+\n\n\n\n\n>\n−\n．\n由于上式左端的分子总是正数，所以它的分母\n1\n0\nm −>\n，即\n1\nm > ，从而m\nM\n∈\n．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q35",
+      "content": "当m\nM\n∈\n时，求函数\n( )\nf x 的最小值．",
+      "answer": "暂无结构化答案",
+      "analysis": "因为以3 为底的对数函数是增函数，所以，从①式得\n2\n3\n3\n1\n1\n( )\nlog\n(\n2 )\nlog\n1\n1\nf m\nx\nm\nm\nm\nm\nm\n\n\n\n\n=\n−\n+\n+\n+\n\n\n\n\n−\n−\n\n\n\n\n≥\n．\n又因为\n3\n1\n(2 )\nlog\n1\nf\nm\nm\nm\n\n\n=\n+\n\n\n−\n\n\n．\n所以，当m\nM\n∈\n时，\n( )\nf x 的最小值是\n3\n1\nlog\n1\nm\nm\n\n\n+\n\n\n−\n\n\n．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q36",
+      "content": "求证：对每一个m\nM\n∈\n，函数\n( )\nf x 的最小值都不小于1．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q37",
+      "content": "求证：当\n4\nm =\n时，椭圆I 有一个焦点和一条准线分别与抛物线II 的焦点和准线重合．",
+      "answer": "暂无结构化答案",
+      "analysis": "证：将曲线I，II 的方程化为直角坐标方程\nI：\n2\n2\n(\n)\n1\n4\n3\nx\nm\ny\n−\n+\n=\n，II：\n2\n3\n6\n2\ny\nx\n\n\n=\n−\n\n\n\n\n．\n当\n4\nm =\n时，椭圆I 中心的坐标为(4 0)\n，，长轴在x 轴上，长半轴长\n4\n2\na =\n=\n，短半轴长\n3\nb =\n，从而，半焦距\n2\n2\n1\nc\na\nb\n=\n−\n=\n，焦点坐标(4\n0)\nc\n± ，即为(5 0)\n，和(3 0)\n，，准线方程\n2\n4\na\nx\nc\n=\n±\n，即为\n8\nx =\n和\n0\nx =\n．\n由抛物线II 的方程可知：该抛物线以x 轴为对称轴，开口向右，顶点的坐标为3 0\n2\n\n\n\n\n\n\n，，焦点至顶点的距离是\n3\n2\n2\np =\n，\n从而焦点的坐标为3\n0\n2\n2\np\n\n\n+\n\n\n\n\n，即为(3 0)\n，，准线方程是\n3\n2\n2\np\nx =\n−\n即为\n0\nx =\n．\n所以，椭圆I 的左焦点和左准线分别与抛物线II 的焦点和准线重合．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q38",
+      "content": "求证：当且仅当\n1 7\n2 2\nm\n\n\n∈−\n\n\n\n\n，\n时，椭圆I 与抛物线II 有交点．",
+      "answer": "暂无结构化答案",
+      "analysis": "证：将曲线I，II 的直角坐标方程联立\n2\n2\n2\n(\n)\n1\n4\n3\n(*)\n3\n6\n2\nx\nm\ny\ny\nx\n\n−\n+\n=\n\n\n\n\n=\n−\n\n\n\n\n\n\n，\n．\n①\n②\n那么，曲线I，II 有交点⇔方程组（*）有实数解x\ny\n，．这时，(\n)\nx\ny\n，\n为交点．\n将②代入①，整理得\n2\n2\n(8\n2 )\n16\n0\nx\nm x\nm\n+\n−\n+\n−\n=\n；③\n又由于\n2\n3\n0\n2\n6\ny\nx −\n=\n≥\n，故方程组（*）有实数解⇔方程③有不小于3\n2\n的实根．\n方程③的两个根为\n1\n(4\n)\n2 2(4\n)\nx\nm\nm\n= −\n−\n+\n−\n，\n2\n(4\n)\n2 2(4\n)\nx\nm\nm\n= −\n−\n−\n−\n．\n可见，当且仅当4\n0\nm\n−\n≥\n时，\n1\n2\nx\nx\n，\n是实根，且这时\n2\n0\nx ≤\n．\n由此可知：方程③有不小于3\n2\n的实根⇔m 满足不等式组\n4\n0\n3\n(4\n)\n2 2(4\n)\n2\nm\nm\nm\n−\n−\n−\n+\n−\n\n，\n．\n≥\n≥\n解此不等式组的解集\n1\n7\n|\n2\n2\nm\nm\n\n\n−\n\n\n\n\n≤\n≤\n．\n综合起来，即得：当且仅当\n1 7\n2 2\nm\n\n\n∈−\n\n\n\n\n，\n时，椭圆I 与抛物线II 有交点．\n（3 ）因为椭圆I 中心的坐标为(\n0)\nm，，所以，曲线I，II 的交点(\n)\nx\ny\n，\n满足题设，等价于x\ny\n，\n满足\n2\n2\n2\n2\n(\n)\nx\ny\nx\nm\ny\n+\n=\n−\n+\n，即是\n(\n2 )\n0\nm m\nx\n−\n=\n，          ①\n由（2）的证明可知，曲线I，II 的交点横坐标是\nx=(m—4)+22(d-m). w 一 |\n将 它 代 入 @ 式 , 得 知 所 求 的 力 值 应 潇 足 方 程\nm[8—m—4\\2(4—m)]=0, ame[-37].\n解 方 程 : 由 力 三 0 得 加 五 0, 由 8 力 -4J2(4 一 7 =0. 即\n2+16m 一 64 三 0,\nfm, 井 8(V2 -1) [\n力 =-80E+Ds[ 一 扎 | ( 应 含 去 )\n2 2\n直 接 检 验 可 知 , 当 力 五 0 或 8(V2 -1 时 , 曲 线 D, 工 的 交 点 满 足 题 设 条 件 , 故 所 求 的 力 的 值 是 0 和 8(V2 -1) .",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q39",
+      "content": "在区间\n1 7\n2 2\n\n\n−\n\n\n\n\n，\n中有哪些m 值，使得椭圆I 和抛物线II 的交点与坐标原点的距离等于这个交点与椭圆I 的中\n心的距离？",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q40",
+      "content": "求\n( )\nf x 的极大值和极小值．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1985/1985广东理.pdf#q41",
+      "content": "证明方程\n( )\n0\nf x =\n的不同实根的个数不大于3．\n1985 年广东省高等学校招生统一考试",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1985,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1985/1985广东理.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f48a46d81129f5fb-q041-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f48a46d81129f5fb-q041-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 1,
+    "assigned": 3,
+    "rendered": 3,
+    "scanPages": 1,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

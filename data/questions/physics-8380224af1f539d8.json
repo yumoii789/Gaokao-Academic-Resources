@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011天津理综.pdf",
   "name": "2011天津理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q01",
-      "content": "下列能揭示原子具有核式结构的实验是（     ）\n（A）光电效应实验\n（B）伦琴射线的发现\n（C）α 粒子散射实验\n（D）氢原子光谱的发现\n解析：光电效应实验说明光具有粒子性，A 错误；x 射线（伦琴射线）的发现是19 世纪末20 世\n纪初物理学的三大发现（x 射线1896 年、放射线1896 年、电子1897 年）之一，这一发现标志\n着现代物理学的产生，B 错误；氢原子光谱的发现解释了原子的稳定性以及原子光谱的分立特\n征，D 错误； 卢瑟福的α 粒子散射实验揭示原子具有核式结构，C 正确。",
+      "content": "下列能揭示原子具有核式结构的实验是（     ）\n（A）光电效应实验\n（B）伦琴射线的发现\n（C）α 粒子散射实验\n（D）氢原子光谱的发现",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "光电效应实验说明光具有粒子性，A 错误；x 射线（伦琴射线）的发现是19 世纪末20 世\n纪初物理学的三大发现（x 射线1896 年、放射线1896 年、电子1897 年）之一，这一发现标志\n着现代物理学的产生，B 错误；氢原子光谱的发现解释了原子的稳定性以及原子光谱的分立特\n征，D 错误； 卢瑟福的α 粒子散射实验揭示原子具有核式结构，C 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q02",
-      "content": "如图所示，A、B 两物块叠放在一起，在粗糙的水平面上保持相对静止地\n向右做匀减速直线运动，运动过程中B 受到的摩擦力（    ）\n（A）方向向左，大小不变\n（B）方向向左，逐渐减小\n（C）方向向右，大小不变\n（D）方向向右，逐渐减小\n解析：对于多个物体组成的物体系统，若系统内各个物体具有相同的运动状态，应优先选取整\n体法分析，再采用隔离法求解。取A、B 系统整体分析有f 地A = μ（mA＋mB）g = （mA＋mB）\na，a = μg，B 与A 具有共同的运动状态，取B 为研究对象，由牛顿第二定律有：fAB = μmBg =\nmBa = 常数，物体B 做速度方向向右的匀减速运动，故而加速度方向向左。A 正确。",
+      "content": "如图所示，A、B 两物块叠放在一起，在粗糙的水平面上保持相对静止地\n向右做匀减速直线运动，运动过程中B 受到的摩擦力（    ）\n（A）方向向左，大小不变\n（B）方向向左，逐渐减小\n（C）方向向右，大小不变\n（D）方向向右，逐渐减小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "对于多个物体组成的物体系统，若系统内各个物体具有相同的运动状态，应优先选取整\n体法分析，再采用隔离法求解。取A、B 系统整体分析有f 地A = μ（mA＋mB）g = （mA＋mB）\na，a = μg，B 与A 具有共同的运动状态，取B 为研究对象，由牛顿第二定律有：fAB = μmBg =\nmBa = 常数，物体B 做速度方向向右的匀减速运动，故而加速度方向向左。A 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -56,22 +71,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q03",
-      "content": "质点做直线运动的位移x 与时间t 的关系为x = 5t＋t2（各物理量均采用国际单位制单位），\n则该质点（     ）\n（A）第1s 内的位移是5m\n（B）前2s 内的平均速度是6m/s\n（C）任意相邻1s 内的位移差都是1m\n（D）任意1s 内的速度增量都是2m/s\n解析：第1s 内的位移只需将t = 1 代入即可求出x = 6m，A 错误；前2s 内的平均速度为v－ = s2\n2\n= 52＋22\n2\n = 7m/s，B 错；由题给解析式可以求得加速度为a = 2m/s2，x = aT2 = 2m，C 错；由\n加速的定义可知D 正确",
+      "content": "质点做直线运动的位移x 与时间t 的关系为x = 5t＋t2（各物理量均采用国际单位制单位），\n则该质点（     ）\n（A）第1s 内的位移是5m\n（B）前2s 内的平均速度是6m/s\n（C）任意相邻1s 内的位移差都是1m\n（D）任意1s 内的速度增量都是2m/s",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "第1s 内的位移只需将t = 1 代入即可求出x = 6m，A 错误；前2s 内的平均速度为v－ = s2\n2\n= 52＋22\n2\n = 7m/s，B 错；由题给解析式可以求得加速度为a = 2m/s2，x = aT2 = 2m，C 错；由\n加速的定义可知D 正确",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -79,22 +102,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q04",
-      "content": "在匀强磁场中，一矩形金属线框绕与磁感线垂直\n的转轴匀速转动，如图1 所示，产生的交变电动势的\n图象如图2 所示，则（    ）\n（A）t = 0.005 s 时线框的磁通量变化率为零\n（B）t = 0.01 s 时线框平面与中性面重合\n（C）线框产生的交变电动势有效值为 311 V\n（D）线框产生的交变电动势的频率为 100 Hz\n解析：由图2 可知，该交变电动势瞬时值的表达式为e = 311sin100t。当t = 0.005s 时，瞬时值\ne = 311V，此时磁通量变化率最大，A 错；同理当t = 0.01s 时，e = 0V，此时线框处于中性面位\n置，磁通量最大，磁通量的变化率为零，B 正确；对于正弦交变电流其有效值为Emax/ 2，题给\nA\nB\nv\ne/V\nB\nt/s\nO\n311\n− 311\n0.01\n0.02\n图2\n图1\n第2页（共7页）\n电动势的有效值为220V，C 错；交变电流的频率为f = 1/T = ω/2π = 50Hz，D 错。",
+      "content": "在匀强磁场中，一矩形金属线框绕与磁感线垂直\n的转轴匀速转动，如图1 所示，产生的交变电动势的\n图象如图2 所示，则（    ）\n（A）t = 0.005 s 时线框的磁通量变化率为零\n（B）t = 0.01 s 时线框平面与中性面重合\n（C）线框产生的交变电动势有效值为 311 V\n（D）线框产生的交变电动势的频率为 100 Hz",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由图2 可知，该交变电动势瞬时值的表达式为e = 311sin100t。当t = 0.005s 时，瞬时值\ne = 311V，此时磁通量变化率最大，A 错；同理当t = 0.01s 时，e = 0V，此时线框处于中性面位\n置，磁通量最大，磁通量的变化率为零，B 正确；对于正弦交变电流其有效值为Emax/ 2，题给\nA\nB\nv\ne/V\nB\nt/s\nO\n311\n− 311\n0.01\n0.02\n图2\n图1\n第2页（共7页）\n电动势的有效值为220V，C 错；交变电流的频率为f = 1/T = ω/2π = 50Hz，D 错。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -102,22 +129,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q05",
-      "content": "板间距为d 的平行板电容器所带电荷量为Q 时，两极板间的电势差为U1，板间场强为E1。\n现将电容器所带电荷量变为2Q，板间距变为1\n2d，其他条件不变，这时两极板间电势差为U2，\n板间场强为E2，下列说法正确的是（    ）\n（A）U2 = U1，E2 = E1\n（B）U2 = 2U1，E2 = 4E1\n（C）U2 = U1，E2 = 2E1\n（D）U2 = 2U1，E2 = 2E1\n解析：考查平行板电容器的相关知识。U1 = Q\nC = 4kdQ\nS\n，E1 = U1\nd = 4kQ\nS ，当电荷量变为2Q\n时，U2 = 2Q\nC' = 4kdQ\nS\n = U1，E2 = U2\nd/2 = 8kQ\nS = 2E1，，C 选项正确。",
+      "content": "板间距为d 的平行板电容器所带电荷量为Q 时，两极板间的电势差为U1，板间场强为E1。\n现将电容器所带电荷量变为2Q，板间距变为1\n2d，其他条件不变，这时两极板间电势差为U2，\n板间场强为E2，下列说法正确的是（    ）\n（A）U2 = U1，E2 = E1\n（B）U2 = 2U1，E2 = 4E1\n（C）U2 = U1，E2 = 2E1\n（D）U2 = 2U1，E2 = 2E1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "考查平行板电容器的相关知识。U1 = Q\nC = 4kdQ\nS\n，E1 = U1\nd = 4kQ\nS ，当电荷量变为2Q\n时，U2 = 2Q\nC' = 4kdQ\nS\n = U1，E2 = U2\nd/2 = 8kQ\nS = 2E1，，C 选项正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -125,22 +161,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q06",
-      "content": "甲、乙两单色光分别通过同一双缝干涉装置得到各自的干涉图样，设相邻两个亮条纹的中\n心距离为Δx，若Δx 甲＞Δx 乙，则下列说法正确的是（    ）\n（A）甲光能发生偏振现象，则乙光不能\n（B）真空中甲光的波长一定大于乙光的波长\n（C）甲光的光子能量一定大于乙光的光子能量\n（D）在同一种均匀介质中甲光的传播速度大于乙光\n解析：偏振现象是横波特有的现象，甲乙都可以有偏振现象发生，A 错；由x 甲＞x 乙，x = L\nd\n可知甲光的波长大于乙光，B 正确；光子能量取决于光子的频率，而光子频率与波长成反比，\nC 错；波速与波长之间同步变化，D 正确。",
+      "content": "甲、乙两单色光分别通过同一双缝干涉装置得到各自的干涉图样，设相邻两个亮条纹的中\n心距离为Δx，若Δx 甲＞Δx 乙，则下列说法正确的是（    ）\n（A）甲光能发生偏振现象，则乙光不能\n（B）真空中甲光的波长一定大于乙光的波长\n（C）甲光的光子能量一定大于乙光的光子能量\n（D）在同一种均匀介质中甲光的传播速度大于乙光",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "偏振现象是横波特有的现象，甲乙都可以有偏振现象发生，A 错；由x 甲＞x 乙，x = L\nd\n可知甲光的波长大于乙光，B 正确；光子能量取决于光子的频率，而光子频率与波长成反比，\nC 错；波速与波长之间同步变化，D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -148,22 +188,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q07",
-      "content": "位于坐标原点处的波源A 沿y 轴做简谐运动，A 刚好完成一次全振动时，在介质中形成的\n简谐横波的波形如图所示，B 是沿波传播方向上介质的一个质点，则（   ）\n（A）波源A 开始振动时的运动方向沿y 轴负方向\n（B）此后1\n4周期内回复力对波源A 一直做负功\n（C）经半个周期时间质点B 将向右迁移半个波长\n（D）在一个周期时间内A 所受回复力的冲量为零\n答案：ABD\n解析：由A 刚好完成一次全振动时的图线可知波源A 的起振方向沿y 轴负方向，A 正确；经过\n1\n4周期之后质点A 将向负向最大位移运动，回复力做负功，B 正确；质点不随波迁移，C 错误；\n由简谐运动的对称性可知回复力在一个周期内的冲量为零，D 正确。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "位于坐标原点处的波源A 沿y 轴做简谐运动，A 刚好完成一次全振动时，在介质中形成的\n简谐横波的波形如图所示，B 是沿波传播方向上介质的一个质点，则（   ）\n（A）波源A 开始振动时的运动方向沿y 轴负方向\n（B）此后1\n4周期内回复力对波源A 一直做负功\n（C）经半个周期时间质点B 将向右迁移半个波长\n（D）在一个周期时间内A 所受回复力的冲量为零",
+      "answer": "ABD",
+      "analysis": "由A 刚好完成一次全振动时的图线可知波源A 的起振方向沿y 轴负方向，A 正确；经过\n1\n4周期之后质点A 将向负向最大位移运动，回复力做负功，B 正确；质点不随波迁移，C 错误；\n由简谐运动的对称性可知回复力在一个周期内的冲量为零，D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -171,22 +215,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q08",
-      "content": "质量为m 的探月航天器在接近月球表面的轨道上飞行，其运动视为匀速圆周运动。已知月\n球质量为M，月球半径为R，月球表面重力加速度为g，引力常量为G，不考虑月球自转的影\n响，则航天器的（    ）\n（A）线速度v =\nGM\nR\n（B）角速度ω =\nRg\n（C）运行周期T = 2π\nR\ng\n（D）向心加速度a = GM\nR2\nx\nO\nB\ny\nA\nv\n第3页（共7页）\n解析：万有引力提供卫星做圆周运动的向心力，代入相关公式即可\n第Ⅱ卷",
+      "content": "质量为m 的探月航天器在接近月球表面的轨道上飞行，其运动视为匀速圆周运动。已知月\n球质量为M，月球半径为R，月球表面重力加速度为g，引力常量为G，不考虑月球自转的影\n响，则航天器的（    ）\n（A）线速度v =\nGM\nR\n（B）角速度ω =\nRg\n（C）运行周期T = 2π\nR\ng\n（D）向心加速度a = GM\nR2\nx\nO\nB\ny\nA\nv\n第3页（共7页）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "万有引力提供卫星做圆周运动的向心力，代入相关公式即可\n第Ⅱ卷",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -194,22 +246,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q09",
-      "content": "（18 分）\n（1）某同学用测力计研究在竖直方向运行的电梯运动状态。他在地面上用测力计测量砝码的\n重力，示数为G。他在电梯中用测力计仍测量同一砝码的重力，发现测力计的示数小于G，由\n此判断此时电梯的运动状态可能是________________。\n解析：物体处于失重状态，加速度方向向下，故而可能是减速上升或加速下降。\n（2）用螺旋测微器测量某金属丝直径的结果如图所示。该金属丝的\n直径是_______mm。\n解析：注意副尺一定要有估读。读数为1.5+20.6×0.01mm = 1.706mm。\n因为个人情况不同，估读不一定一致，本题读数1.704～1.708 都算\n正确。\n（3）某同学用大头针、三角板、量角器等器材测半圆形玻璃砖的折射\n率。开始玻璃砖的位置如图中实线所示，使大头针P1、P2 与圆心O 在\n同一直线上，该直线垂直于玻璃砖的直径边，然后使玻璃砖绕圆心O\n缓慢转动，同时在玻璃砖直径边一侧观察P1、P2 的像，且P2 的像挡住\nP1 的像。如此观察，当玻璃砖转到图中虚线位置时，上述现象恰好消\n失。此时只需测量出_____________，即可计算出玻璃砖的折射率。请\n用你的测量量表示出折射率______。\n解析：由题意可知，当玻璃砖转过某一角度θ 时，刚好发生全反射，在直\n径边一侧观察不到P1、P2 的像，做出如图所示的光路图可知，当转过角\n度θ 时有n = 1/sin。\n（4）某同学测量阻值约为25kΩ 的电阻Rx，现备有下列器材：\nA．电流表（量程100 μA，内阻约为2 kΩ）；\nB．电流表（量程500 μA，内阻约为300 Ω）；\nC．电压表（量程15 V，内阻约为100 kΩ）；\nD．电流表（量程50 V，内阻约为500 kΩ）；\nE．直流电源（20 V，允许最大电流1 A）；\nF．滑动变阻器（最大阻值1kΩ，额定功率1W）；\nG．电键和导线若干。\n电流表应选_______，电压表应选_________。（填字母代号）\n该同学正确选择仪器后连接了以下电路，为保证实验顺利进行，并使测量误差尽量减小，实验\n前请你检查该电路，指出电路在接线上存在的问题：\nθ θ\nP1\nP2\nO\n θ\nP1\nP2\nO\n第4页（共7页）\n①________________________________；\n②________________________________。\n解析：电学实验选择仪器的一般步骤如下：①根据量程选择电流表和电压表，不能超过表的量\n程，不能量程太大导致表的读数偏小；② 根据题中关键语句，如精确测量，从零开始连续可调\n等等选择分压电路亦或是限流电路；分压电路滑动变阻器选择小阻值，限流电路滑动变阻器选\n择大阻值；③ 选择电流表的内外接法，一般的原则是“大内偏大，小外偏小”；也可以根据RV/Rx\n与Rx/RA 之间的关系来判断，当RV/Rx＞Rx/RA 时，采用电流表的外接法，反之选择电流表内接\n法。\n（1）本题中，待测电阻Rx 的阻值约为25kΩ，直流电源电动势为20V，经粗略计算电路中最大\n的电流约为Imax = E\nR =\n20\n25103 = 800A，所以电流表选择B；虽然电压表C 的量程不足，但是\n相比起来电压表D 的量程超过太多，读数偏小，所以电压表选择C 表。\n（2）根据本题解析的第②、③两条原则可知电路图的问题为：①电流表应采用内接的方法；②\n滑动变阻器应采用分压器方式的接法 。",
+      "content": "（18 分）\n（1）某同学用测力计研究在竖直方向运行的电梯运动状态。他在地面上用测力计测量砝码的\n重力，示数为G。他在电梯中用测力计仍测量同一砝码的重力，发现测力计的示数小于G，由\n此判断此时电梯的运动状态可能是________________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "物体处于失重状态，加速度方向向下，故而可能是减速上升或加速下降。\n（2）用螺旋测微器测量某金属丝直径的结果如图所示。该金属丝的\n直径是_______mm。\n注意副尺一定要有估读。读数为1.5+20.6×0.01mm = 1.706mm。\n因为个人情况不同，估读不一定一致，本题读数1.704～1.708 都算\n正确。\n（3）某同学用大头针、三角板、量角器等器材测半圆形玻璃砖的折射\n率。开始玻璃砖的位置如图中实线所示，使大头针P1、P2 与圆心O 在\n同一直线上，该直线垂直于玻璃砖的直径边，然后使玻璃砖绕圆心O\n缓慢转动，同时在玻璃砖直径边一侧观察P1、P2 的像，且P2 的像挡住\nP1 的像。如此观察，当玻璃砖转到图中虚线位置时，上述现象恰好消\n失。此时只需测量出_____________，即可计算出玻璃砖的折射率。请\n用你的测量量表示出折射率______。\n由题意可知，当玻璃砖转过某一角度θ 时，刚好发生全反射，在直\n径边一侧观察不到P1、P2 的像，做出如图所示的光路图可知，当转过角\n度θ 时有n = 1/sin。\n（4）某同学测量阻值约为25kΩ 的电阻Rx，现备有下列器材：\nA．电流表（量程100 μA，内阻约为2 kΩ）；\nB．电流表（量程500 μA，内阻约为300 Ω）；\nC．电压表（量程15 V，内阻约为100 kΩ）；\nD．电流表（量程50 V，内阻约为500 kΩ）；\nE．直流电源（20 V，允许最大电流1 A）；\nF．滑动变阻器（最大阻值1kΩ，额定功率1W）；\nG．电键和导线若干。\n电流表应选_______，电压表应选_________。（填字母代号）\n该同学正确选择仪器后连接了以下电路，为保证实验顺利进行，并使测量误差尽量减小，实验\n前请你检查该电路，指出电路在接线上存在的问题：\nθ θ\nP1\nP2\nO\n θ\nP1\nP2\nO\n第4页（共7页）\n①________________________________；\n②________________________________。\n电学实验选择仪器的一般步骤如下：①根据量程选择电流表和电压表，不能超过表的量\n程，不能量程太大导致表的读数偏小；② 根据题中关键语句，如精确测量，从零开始连续可调\n等等选择分压电路亦或是限流电路；分压电路滑动变阻器选择小阻值，限流电路滑动变阻器选\n择大阻值；③ 选择电流表的内外接法，一般的原则是“大内偏大，小外偏小”；也可以根据RV/Rx\n与Rx/RA 之间的关系来判断，当RV/Rx＞Rx/RA 时，采用电流表的外接法，反之选择电流表内接\n法。\n（1）本题中，待测电阻Rx 的阻值约为25kΩ，直流电源电动势为20V，经粗略计算电路中最大\n的电流约为Imax = E\nR =\n20\n25103 = 800A，所以电流表选择B；虽然电压表C 的量程不足，但是\n相比起来电压表D 的量程超过太多，读数偏小，所以电压表选择C 表。\n（2）根据本题解析的第②、③两条原则可知电路图的问题为：①电流表应采用内接的方法；②\n滑动变阻器应采用分压器方式的接法 。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -217,22 +273,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q009-p004-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q10",
-      "content": "（16 分）如图所示，圆管构成的半圆形竖直轨道固定在水平地面\n上，轨道半径为R，MN 为直径且与水平面垂直，直径略小于圆管内径\n的小球A 以某一初速度冲进轨道，到达半圆轨道最高点M 时与静止于\n该处的质量与A 相同的小球B 发生碰撞，碰后两球粘在一起飞出轨道，\n落地点距N 为2R。重力加速度为g，忽略圆管内径，空气阻力及各处\n摩擦均不计，求：\n（1）粘合后的两球从飞出轨道到落地的时间t；\n（2）小球A 冲进轨道时速度v 的大小。\n直流电源\n+\nV\nμA\nRx\nB\nA\nR\nO\nN\nM\n第5页（共7页）\n解析：（1）粘合后的两球飞出轨道后做平抛运动，竖直方向分运动为自由落体运动，有2R = 1\n2\ngt2，解得t = 2\nR\ng，\n（2）设球A 的质量为m，碰撞前速度大小为v1，把球A 冲进轨道最低点时的重力势能定为0，\n由机械能守恒定律知1\n2mv2 = 1\n2mv12＋2mgR，设碰撞后粘合在一起的两球速度大小为v2，由动量\n守恒定律知mv1 = 2 mv2，飞出轨道后做平抛运动，水平方向分运动为匀速直线运动，有2R =\nv2t， 综合得v2 = 2 2gR。",
+      "content": "（16 分）如图所示，圆管构成的半圆形竖直轨道固定在水平地面\n上，轨道半径为R，MN 为直径且与水平面垂直，直径略小于圆管内径\n的小球A 以某一初速度冲进轨道，到达半圆轨道最高点M 时与静止于\n该处的质量与A 相同的小球B 发生碰撞，碰后两球粘在一起飞出轨道，\n落地点距N 为2R。重力加速度为g，忽略圆管内径，空气阻力及各处\n摩擦均不计，求：\n（1）粘合后的两球从飞出轨道到落地的时间t；\n（2）小球A 冲进轨道时速度v 的大小。\n直流电源\n+\nV\nμA\nRx\nB\nA\nR\nO\nN\nM\n第5页（共7页）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）粘合后的两球飞出轨道后做平抛运动，竖直方向分运动为自由落体运动，有2R = 1\n2\ngt2，解得t = 2\nR\ng，\n（2）设球A 的质量为m，碰撞前速度大小为v1，把球A 冲进轨道最低点时的重力势能定为0，\n由机械能守恒定律知1\n2mv2 = 1\n2mv12＋2mgR，设碰撞后粘合在一起的两球速度大小为v2，由动量\n守恒定律知mv1 = 2 mv2，飞出轨道后做平抛运动，水平方向分运动为匀速直线运动，有2R =\nv2t， 综合得v2 = 2 2gR。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -240,22 +307,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q010-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q11",
-      "content": "（18 分）如图所示，两根足够长的光滑金属导\n轨MN、PQ 间距为l = 0.5m，其电阻不计，两导轨及\n其构成的平面均与水平面成30°角。完全相同的两金\n属棒ab、cd 分别垂直导轨放置，每棒两端都与导轨\n始终有良好接触，已知两棒的质量均为0.02kg，电阻\n均为R = 0.1Ω，整个装置处在垂直于导轨平面向上\n的匀强磁场中，磁感应强度为B = 0.2T，棒ab 在平\n行于导轨向上的力F 作用下，沿导轨向上匀速运动，\n而棒cd 恰好能保持静止。取g = 10m/s2，问：\n（1）通过cd 棒的电流I 是多少，方向如何？\n（2）棒ab 受到的力F 多大？\n（3）棒cd 每产生Q = 0.1J 的热量，力F 做的功W 是多少？\n解析：（1）棒cd 受到的安培力Fcd = IlB，棒cd 在共点力作用下平衡，则Fcd = mgsin30，代入\n数据解得 I = 1A，方向由右手定则可知由d 到c。\n（2）棒ab 与棒cd 受到的安培力大小相等Fab = Fcd，对棒ab 由共点力平衡有F = mgsin30\n＋IlB，代入数据解得F = 0.2N，\n（3）设在时间t 内棒cd 产生Q = 0.1J 热量，由焦耳定律可知Q = I2Rt，设ab 棒匀速运动\n的速度大小为v，则产生的感应电动势E = Blv，由闭合电路欧姆定律知I = E\n2R，由运动学公式\n知，在时间t 内，棒ab 沿导轨的位移x = vt，力F 做的功W = Fx，综合上述各式，代入数据解\n得 W = 0.4J，",
+      "content": "（18 分）如图所示，两根足够长的光滑金属导\n轨MN、PQ 间距为l = 0.5m，其电阻不计，两导轨及\n其构成的平面均与水平面成30°角。完全相同的两金\n属棒ab、cd 分别垂直导轨放置，每棒两端都与导轨\n始终有良好接触，已知两棒的质量均为0.02kg，电阻\n均为R = 0.1Ω，整个装置处在垂直于导轨平面向上\n的匀强磁场中，磁感应强度为B = 0.2T，棒ab 在平\n行于导轨向上的力F 作用下，沿导轨向上匀速运动，\n而棒cd 恰好能保持静止。取g = 10m/s2，问：\n（1）通过cd 棒的电流I 是多少，方向如何？\n（2）棒ab 受到的力F 多大？\n（3）棒cd 每产生Q = 0.1J 的热量，力F 做的功W 是多少？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）棒cd 受到的安培力Fcd = IlB，棒cd 在共点力作用下平衡，则Fcd = mgsin30，代入\n数据解得 I = 1A，方向由右手定则可知由d 到c。\n（2）棒ab 与棒cd 受到的安培力大小相等Fab = Fcd，对棒ab 由共点力平衡有F = mgsin30\n＋IlB，代入数据解得F = 0.2N，\n（3）设在时间t 内棒cd 产生Q = 0.1J 热量，由焦耳定律可知Q = I2Rt，设ab 棒匀速运动\n的速度大小为v，则产生的感应电动势E = Blv，由闭合电路欧姆定律知I = E\n2R，由运动学公式\n知，在时间t 内，棒ab 沿导轨的位移x = vt，力F 做的功W = Fx，综合上述各式，代入数据解\n得 W = 0.4J，",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -263,22 +338,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q011-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011天津理综.pdf#q12",
-      "content": "（20 分）回旋加速器在核科学、核技术、核医学等高新技术领域得到了广泛应用，有力地\n推动了现代科学技术的发展。\n30°\na\nb\nc\nd\nN\nQ\nM\nP\nB\nF\n第6页（共7页）\n（1）当今医学成像诊断设备PET/CT 堪称“现\n代医学高科技之冠”，它在医疗诊断中，常利用\n能放射电子的同位素碳11 为示踪原子，碳11\n是由小型回旋加速器输出的高速质子轰击氮\n14 获得，同时还产生另一粒子，试写出核反应\n方程。若碳11 的半衰期τ 为20min，经2.0h 剩\n余碳11 的质量占原来的百分之几？（结果取2\n位有效数字）\n（2）回旋加速器的原理如图，D1 和D2 是两个\n中空的半径为R 的半圆金属盒，它们接在电压\n一定、频率为f 的交流电源上，位于D1 圆心处\n的质子源A 能不断产生质子（初速度可以忽\n略，重力不计），它们在两盒之间被电场加速，D1、D2 置于与\n盒面垂直的磁感应强度为B 的匀强磁场中。若质子束从回旋\n加速器输出时的平均功率为P，求输出时质子束的等效电流I\n与P、B、R、f 的关系式（忽略质子在电场中运动的时间，其\n最大速度远小于光速）\n（3）试推理说明：质子在回旋加速器中运动时，随轨道半径\nr 的增大，同一盒中相邻轨道的半径之差Δr 是增大、减小还\n是不变？\n解析：（1）核反应方程为14\n 7 N＋1\n1H→11\n 6 C＋4\n2He，设碳11 原有质量为m0，经过t = 2.0h 剩余的质\n量为mt，根据半衰期定义，有：mt/m0 = （1/2）t/ = （1/2）120/20 = 1.6%，\n（2）设质子质量为m，电荷量为q，质子离开加速器时速度大小为v，由牛顿第二定律\n知：qvB = mv2\nR，质子运动的回旋周期为：T = 2R\nv = 2m\nqB ，由回旋加速器工作原理可知，交变\n电源的频率与质子回旋频率相同，由周期T 与频率f 的关系可得：f = 1\nT，设在t 时间内离开加\n速器的质子数为N，则质子束从回旋加速器输出时的平均功率P = Nmv2/2\nt\n，输出时质子束的等\n效电流为：I = Nq\nt ，由上述各式得I =\nP\nBR2f\n，\n（3）方法一：设k（k∈N*）为同一盒子中质子运动轨道半径的序数，相邻的轨道半径分别为\nrk，rk+1（rk＞rk+1），rk = rk+1－rk，在相应轨道上质子对应的速度大小分别为vk，vk+1，D1、D2\n之间的电压为U，由动能定理知2qU = 1\n2mvk+12－1\n2mvk2，由洛伦兹力充当质子做圆周运动的向\n心力，知rk = mvk\nqB ，则2qU = q2B2\n2m （rk+12－rk2），整理得rk =\n4mU\nqB2（rk+1＋rk） ，因U、q、m、\nB 均为定值，令C = 4mU\nqB2 ，由上式得rk =\nC\nrk+1＋rk，相邻轨道半径rk+1，rk+2 之差rk+1 = rk+2－\nrk+1， 同理rk+1 =\nC\nrk+1＋rk+2， 因为rk+2＞rk，比较rk，rk+1 得rk+1＜rk，说明随轨道半径r 的\n增大，同一盒中相邻轨道的半径之差r 减小\n方法二：设k（k∈N*）为同一盒子中质子运动轨道半径的序数，相邻的轨道半径分别为rk，rk+1\n（rk＞rk+1），rk = rk+1－rk，在相应轨道上质子对应的速度大小分别为vk，vk+1，D1、D2 之间的\nA\nB\nD1\nD2\n接交流电源\n第7页（共7页）\n电压为U，由洛伦兹力充当质子做圆周运动的向心力，知rk = mvk\nqB ，故rk/rk+1 = vk/vk+1，由动能\n定理知，质子每加速一次，其动能增量Ek = qU，以质子在D2 盒中运动为例，第k 次进入D2\n时，被电场加速（2k－1）次，速度大小为vk =\n（2k－1）2qU\nm\n，同理，质子第（k＋1）次进\n入D2 时，速度大小为vk＋1 =\n（2k＋1）2qU\nm\n， 综合上述各式可得rk/rk+1 = vk/vk+1 =\n2k－1\n2k＋1，\n整理得rk2/rk+12 = 2k－1\n2k＋1，rk =\n2rk+12\n（2k＋1）（rk+1＋rk），同理，对于相邻轨道半径rk+1，rk+2，rk+1\n= rk+2－rk+1，整理后有rk＋1 =\n2rk+12\n（2k＋1）（rk+1＋rk+2），因为rk+2＞rk，比较rk，rk+1 得rk+1＜\nrk，说明随轨道半径r 的增大，同一盒中相邻轨道的半径之差r 减小",
+      "content": "（20 分）回旋加速器在核科学、核技术、核医学等高新技术领域得到了广泛应用，有力地\n推动了现代科学技术的发展。\n30°\na\nb\nc\nd\nN\nQ\nM\nP\nB\nF\n第6页（共7页）\n（1）当今医学成像诊断设备PET/CT 堪称“现\n代医学高科技之冠”，它在医疗诊断中，常利用\n能放射电子的同位素碳11 为示踪原子，碳11\n是由小型回旋加速器输出的高速质子轰击氮\n14 获得，同时还产生另一粒子，试写出核反应\n方程。若碳11 的半衰期τ 为20min，经2.0h 剩\n余碳11 的质量占原来的百分之几？（结果取2\n位有效数字）\n（2）回旋加速器的原理如图，D1 和D2 是两个\n中空的半径为R 的半圆金属盒，它们接在电压\n一定、频率为f 的交流电源上，位于D1 圆心处\n的质子源A 能不断产生质子（初速度可以忽\n略，重力不计），它们在两盒之间被电场加速，D1、D2 置于与\n盒面垂直的磁感应强度为B 的匀强磁场中。若质子束从回旋\n加速器输出时的平均功率为P，求输出时质子束的等效电流I\n与P、B、R、f 的关系式（忽略质子在电场中运动的时间，其\n最大速度远小于光速）\n（3）试推理说明：质子在回旋加速器中运动时，随轨道半径\nr 的增大，同一盒中相邻轨道的半径之差Δr 是增大、减小还\n是不变？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）核反应方程为14\n 7 N＋1\n1H→11\n 6 C＋4\n2He，设碳11 原有质量为m0，经过t = 2.0h 剩余的质\n量为mt，根据半衰期定义，有：mt/m0 = （1/2）t/ = （1/2）120/20 = 1.6%，\n（2）设质子质量为m，电荷量为q，质子离开加速器时速度大小为v，由牛顿第二定律\n知：qvB = mv2\nR，质子运动的回旋周期为：T = 2R\nv = 2m\nqB ，由回旋加速器工作原理可知，交变\n电源的频率与质子回旋频率相同，由周期T 与频率f 的关系可得：f = 1\nT，设在t 时间内离开加\n速器的质子数为N，则质子束从回旋加速器输出时的平均功率P = Nmv2/2\nt\n，输出时质子束的等\n效电流为：I = Nq\nt ，由上述各式得I =\nP\nBR2f\n，\n（3）方法一：设k（k∈N*）为同一盒子中质子运动轨道半径的序数，相邻的轨道半径分别为\nrk，rk+1（rk＞rk+1），rk = rk+1－rk，在相应轨道上质子对应的速度大小分别为vk，vk+1，D1、D2\n之间的电压为U，由动能定理知2qU = 1\n2mvk+12－1\n2mvk2，由洛伦兹力充当质子做圆周运动的向\n心力，知rk = mvk\nqB ，则2qU = q2B2\n2m （rk+12－rk2），整理得rk =\n4mU\nqB2（rk+1＋rk） ，因U、q、m、\nB 均为定值，令C = 4mU\nqB2 ，由上式得rk =\nC\nrk+1＋rk，相邻轨道半径rk+1，rk+2 之差rk+1 = rk+2－\nrk+1， 同理rk+1 =\nC\nrk+1＋rk+2， 因为rk+2＞rk，比较rk，rk+1 得rk+1＜rk，说明随轨道半径r 的\n增大，同一盒中相邻轨道的半径之差r 减小\n方法二：设k（k∈N*）为同一盒子中质子运动轨道半径的序数，相邻的轨道半径分别为rk，rk+1\n（rk＞rk+1），rk = rk+1－rk，在相应轨道上质子对应的速度大小分别为vk，vk+1，D1、D2 之间的\nA\nB\nD1\nD2\n接交流电源\n第7页（共7页）\n电压为U，由洛伦兹力充当质子做圆周运动的向心力，知rk = mvk\nqB ，故rk/rk+1 = vk/vk+1，由动能\n定理知，质子每加速一次，其动能增量Ek = qU，以质子在D2 盒中运动为例，第k 次进入D2\n时，被电场加速（2k－1）次，速度大小为vk =\n（2k－1）2qU\nm\n，同理，质子第（k＋1）次进\n入D2 时，速度大小为vk＋1 =\n（2k＋1）2qU\nm\n， 综合上述各式可得rk/rk+1 = vk/vk+1 =\n2k－1\n2k＋1，\n整理得rk2/rk+12 = 2k－1\n2k＋1，rk =\n2rk+12\n（2k＋1）（rk+1＋rk），同理，对于相邻轨道半径rk+1，rk+2，rk+1\n= rk+2－rk+1，整理后有rk＋1 =\n2rk+12\n（2k＋1）（rk+1＋rk+2），因为rk+2＞rk，比较rk，rk+1 得rk+1＜\nrk，说明随轨道半径r 的增大，同一盒中相邻轨道的半径之差r 减小",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -286,11 +369,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011天津理综.pdf",
         "page": 5,
+        "endPage": 7,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q012-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8380224af1f539d8-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 12,
+    "answerGraphics": 0,
+    "assigned": 12,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

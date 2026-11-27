@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:春季高考/2004/2004春季上海.pdf",
   "name": "2004春季上海",
   "track": "spring",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q01",
       "content": "若复数z 满足z(1 + i) = 2, 则z 的实部是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q02",
       "content": "方程lg x + lg(x + 3) = 1 的解x =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q03",
       "content": "在△ABC 中, a, b, c 分别是∠A、∠B、∠C 所对的边. 若∠A = 105◦,\n∠B = 45◦, b = 2\n√\n2, 则c =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q04",
       "content": "过抛物线y2 = 4x 的焦点F 作垂直于x 轴的直线, 交抛物线于A、B 两\n点, 则以F 为圆心、AB 为直径的圆方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q05",
       "content": "已知函数f(x) = log3\n(4\nx + 2\n)\n, 则方程f −1(x) = 4 的解x =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q06",
       "content": "如图, 在底面边长为2 的正三棱锥V −ABC 中, E 是BC 的中点, 若\n△V AE 的面积是1\n4, 则侧棱V A 与底面所成角的大小为\n. (结果用\n反三角函数值表示)\nA\nB\nC\nE\nV",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +189,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q07",
       "content": "在数列{an} 中, a1 = 3, 且对任意大于1 的正整数n, 点(√an, √an−1) 在\n直线x −y −\n√\n3 = 0 上, 则lim\nn→∞\nan\n(n + 1)2 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q08",
       "content": "根据下列5 个图形及相应点的个数的变化规律, 试猜测第n 个图中\n有\n个点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +251,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q09",
       "content": "一次二期课改经验交流会打算交流试点学校的论文5 篇和非试点学校的论\n文3 篇. 若任意排列交流次序, 则最先和最后交流的论文都为试点学校的\n概率是\n. (结果用分数表示)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q10",
       "content": "若平移椭圆4(x + 3)2 + 9y2 = 36, 使平移后的椭圆中心在第一象限, 且它\n与x 轴、y 轴分别只有一个交点, 则平移后的椭圆方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q11",
       "content": "如图, 在由二项式系数所构成的杨辉三角形中, 第\n行中从左至右第\n14 与第15 个数的比为2 : 3.\n第0 行\n第1 行\n第2 行\n第3 行\n第4 行\n第5 行\n· · · · · ·\n1\n1\n1\n1\n2\n1\n1\n3\n3\n1\n1\n4\n4\n6\n1\n1\n1\n5\n5\n10\n10\n· · · · · ·",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q12",
       "content": "在等差数列{an} 中, 当ar = as (r̸ = s) 时, {an} 必定是常数数列. 然而在\n等比数列{an} 中, 对某些正整数r、s (r̸ = s), 当ar = as 时, 非常数数列\n{an} 的一个例子是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +375,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q13",
       "content": "下列函数中, 周期为1 的奇函数是\n(　)\n(A) y = 1 −2sin2πx\n(B) y = sin\n(\n2πx + π\n3\n)\n(C) y = tan π\n2 x\n(D) y = sin πx cos πx",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q14",
       "content": "若非空集合M ⊆N, 则“a ∈M 或a ∈N”是“a ∈M ∩N”的\n(　)\n(A) 充分非必要条件\n(B) 必要非充分条件\n(C) 充要条件\n(D) 既非充分又非必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q15",
       "content": "在△ABC 中, 有命题①#   »\nAB −#   »\nAC = #    »\nBC; ②#   »\nAB + #    »\nBC + #   »\nCA = #»0 ; ③若\n(#   »\nAB+ #   »\nAC)·(#   »\nAB−#   »\nAC) = 0, 则△ABC 为等腰三角形; ④若#   »\nAC · #   »\nAB > 0,\n则△ABC 为锐角三角形. 上述命题正确的是\n(　)\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ②③④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +462,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q16",
       "content": "若p = a + 1\na + 2 (a > 0), q = arccos t (−1 ⩽t ⩽1), 则下列不等式恒成立\n的是\n(　)\n(A) p ⩾π > q\n(B) p > q ⩾0\n(C) 4 > p ⩾q\n(D) p ⩾q > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +495,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q17",
       "content": "在直角坐标系xOy 中, 已知点P(2 cos x+1, 2 cos 2x+2) 和点Q(cos x, −1),\n其中x ∈[0, π]. 若向量#    »\nOP 与#    »\nOQ 垂直, 求x 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +524,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q017-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q017-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q18",
       "content": "已知实数p 满足不等式2x + 1\nx + 2 < 0, 试判断方程z2 −2z + 5 −p2 = 0 有\n无实根, 并给出证明.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +559,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q19",
       "content": "某市2003 年共有1 万辆燃油型公交车. 有关部门计划于2004 年投入128\n辆电力型公交车, 随后电力型公交车每年的投入比上一年增加50%, 试问:\n(1) 该市在2010 年应该投入多少辆电力型公交车?\n(2) 到哪一年底, 电力型公交车的数量开始超过该市公交车总量的1\n3?\n157",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +588,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q20",
       "content": "如图, 点P 为斜三棱柱ABC −A1B1C1 的侧棱BB1 上一点, PM ⊥BB1\n交AA1 于点M, PN ⊥BB1 交CC1 于点N.\n(1) 求证: CC1 ⊥MN;\n(2) 在任意△DEF 中有余弦定理:\nDE2\n= DF 2 + EF 2 −2DF ·\nEF cos ∠DFE. 拓展到空间, 类比三角形的余弦定理, 写出斜三棱柱的三\n个侧面面积与其中两个侧面所成的二面角之间的关系式, 并予以证明.\nB1\nC1\nA1\nP\nM\nN\nB\nC\nA",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +617,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2eacc00e6a64a642-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q21",
       "content": "已知函数f (x) = |x −a|, g (x) = x2 + 2ax + 1 (a 为正常数), 且函数f (x)\n与g (x) 的图象在y 轴上的截距相等.\n(1) 求a 的值;\n(2) 求函数f (x) + g (x) 的单调递增区间;\n(3) 若n 为正整数, 证明: 10f(n) ·\n(4\n5\n)g(n)\n< 4.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +650,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2004/2004春季上海.pdf#q22",
       "content": "已知倾斜角为45◦的直线l 过点A(1, −2) 和点B, B 在第一象限,\n|AB| = 3\n√\n2.\n(1) 求点B 的坐标;\n(2) 若直线l 与双曲线C: x2\na2 −y2 = 1 (a > 0) 相交于E、F 两点, 且线段\nEF 的中点坐标为(4, 1), 求a 的值;\n(3) 对于平面上任一点P, 当点Q 在线段AB 上运动时, 称|PQ| 的最小\n值为P 与线段AB 的距离. 已知点P 在x 轴上运动, 写出点P(t, 0) 到线\n段AB 的距离h 关于t 的函数关系式.\n158",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +679,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2004/2004春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

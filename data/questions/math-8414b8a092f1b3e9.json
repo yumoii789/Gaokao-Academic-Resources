@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
   "name": "2020全国3文(云南,广西,贵州,西藏,四川)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q01",
       "content": "已知集合A = {1, 2, 3, 5, 7, 11}, B = {x | 3 < x < 15}, 则A ∩B 中元\n素的个数为\n(\n)\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q02",
       "content": "若z (1 + i) = 1 −i, 则z =\n(\n)\n(A) 1 −i\n(B) 1 + i\n(C) −i\n(D) i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q03",
       "content": "设一组样本数据x1, x2, · · · , xn 的方差为0.01, 则数据10x1, 10x2, · · · ,\n10xn 的方差为\n(\n)\n(A) 0.01\n(B) 0.1\n(C) 1\n(D) 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q04",
       "content": "Logistic 模型是常用数学模型之一, 可应用于流行病学领城. 有学者根据\n公布数据建立了某地区新冠肺炎累计确诊病例数I (t) (t 的单位: 天) 的\nLogistic 模型: I (t) =\nK\n1 + e−0.23(t−53) , 其中K 为最大确诊病例数.\n当\nI (t∗) = 0.95K 时, 标志着已初步遏制疫情, 则t∗约为(ln 19 ≈3)\n(\n)\n(A) 60\n(B) 63\n(C) 66\n(D) 69",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q05",
       "content": "已知sin θ + sin\n(\nθ + π\n3\n)\n= 1, 则sin\n(\nθ + π\n6\n)\n=\n(\n)\n(A) 1\n2\n(B)\n√\n3\n3\n(C) 2\n3\n(D)\n√\n2\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q06",
       "content": "在平面内, A, B 是两个定点, C 是动点. 若#   »\nAC · #    »\nBC = 1, 则点C 的轨迹\n为\n(\n)\n(A) 圆\n(B) 椭圆\n(C) 抛物线\n(D) 直线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q07",
       "content": "设O 为坐标原点, 直线x = 2 与抛物线C: y2 = 2px (p > 0) 交于D, E\n两点. 若OD ⊥OE, 则C 的焦点坐标为\n(\n)\n(A)\n(1\n4, 0\n)\n(B)\n(1\n2, 0\n)\n(C) (1, 0)\n(D) (2, 0)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q08",
       "content": "点(0, −1) 到直线y = k (x + 1) 距离的最大值为\n(\n)\n(A) 1\n(B)\n√\n2\n(C)\n√\n3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q09",
       "content": "下图为某几何体的三视图, 则该几何体的表面积是\n(\n)\n2\n2\n2\n(A) 6 + 4\n√\n2\n(B) 4 + 4\n√\n2\n(C) 6 + 2\n√\n3\n(D) 4 + 2\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -217,22 +276,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q009-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q009-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q009-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q10",
       "content": "设a = log32, b = log53, c = 2\n3, 则\n(\n)\n(A) a < c < b\n(B) a < b < c\n(C) b < c < a\n(D) c < a < b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -240,22 +311,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q11",
       "content": "在△ABC 中, cos C = 2\n3, AC = 4, BC = 3, 则tan B =\n(\n)\n(A)\n√\n5\n(B) 2\n√\n5\n(C) 4\n√\n5\n(D) 8\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -263,22 +340,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q12",
       "content": "已知函数f (x) = sin x +\n1\nsin x, 则\n(\n)\n(A) f (x) 的最小值为2\n(B) f (x) 的图象关于y 轴对称\n(C) f (x) 的图象关于直线x = π 对称\n(D) f (x) 的图象关于直线x = π\n2 对称",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -286,22 +369,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q13",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\nx + y ⩾0,\n2x −y ⩾0,\nx ⩽1,\n则z = 3x + 2y 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -309,22 +398,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q14",
       "content": "设双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的一条渐近线为y =\n√\n2x, 则C\n的离心率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -332,22 +427,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q15",
       "content": "设函数f (x) =\nex\nx + a. 若f ′ (1) = e\n4, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -355,22 +456,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q16",
       "content": "已知圆锥的底面半径为1, 母线长为3, 则该圆锥内半径最大的球的体积\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -378,22 +485,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q17",
       "content": "设等比数列{an} 满足a1 + a2 = 4, a3 −a1 = 8.\n(1) 求{an} 的通项公式;\n(2) 记Sn 为数列{log3an} 的前n 项和. 若Sm + Sm+1 = Sm+3, 求m.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -401,22 +514,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q18",
       "content": "某学生兴趣小组随机调查了某市100 天中每天的空气质量等级和当天到某\n公园锻炼的人次, 整理数据得到下表(单位: 天):\n空气质量等级\n锻炼人次\n[0, 200]\n(200, 400]\n(400, 600]\n1 (优)\n2\n16\n25\n2 (良)\n5\n10\n12\n3 (轻度污染)\n6\n7\n8\n4 (中度污染)\n7\n2\n0\n(1) 分别估计该市一天的空气质量等级为1, 2, 3, 4 的概率;\n(2) 求一天中到该公园锻炼的平均人次的估计值(同一组中的数据用该组\n区间的中点值为代表);\n(3) 若某天的空气质量等级为1 或2, 则称这天“空气质量好”; 若某天的空\n气质量等级为3 或4, 则称这天“空气质量不好”. 根据所给数据, 完成下面\n的2 × 2 列联表, 并根据列联表, 判断是否有95% 的把握认为一天中到该\n公园锻炼的人次与该市当天的空气质量有关?\n人次⩽400\n人次> 400\n空气质量好\n空气质量不好\n附: K2 =\nn (ad −bc)2\n(a + b) (c + d) (a + c) (b + d),\nP (K2 ⩾k)\n0.050\n0.010\n0.001\nk\n3.841\n6.635\n10.828\n1127",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -424,22 +543,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q19",
       "content": "如图, 在长方体ABCD −A1B1C1D1 中, 点E, F 分别在棱DD1, BB1 上,\n且2DE = ED1, BF = 2FB1. 证明:\n(1) 当AB = BC 时, EF ⊥AC;\n(2) 点C1 在平面AEF 内.\nB1\nC1\nA1\nD1\nD\nB\nC\nA\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -447,22 +576,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8414b8a092f1b3e9-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q20",
       "content": "已知函数f (x) = x3 −kx + k2.\n(1) 讨论f (x) 的单调性;\n(2) 若f (x) 有三个零点, 求k 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -470,22 +609,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q21",
       "content": "已知椭圆C: x2\n25 + y2\nm2 = 1 (0 < m < 5) 的离心率为\n√\n15\n4 , A, B 分别为C\n的左、右顶点.\n(1) 求C 的方程;\n(2) 若点P 在C 上, 点Q 在直线x = 6 上, 且|BP| = |BQ|, BP ⊥BQ,\n求△APQ 的面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -493,22 +638,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q22",
       "content": "在直角坐标系xOy 中, 曲线C 的参数方程为\n{\nx = 2 −t −t2,\ny = 2 −3t + t2,\n(t 为参数\n且t̸ = 1), C 与坐标轴交于A, B 两点.\n(1) 求|AB|;\n(2) 以坐标原点为极点, x 轴正半轴为极轴建立极坐标系, 求直线AB 的极\n坐标方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -516,22 +667,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf#q23",
       "content": "设a, b, c ∈R, a + b + c = 0, abc = 1.\n(1) 证明: ab + bc + ca < 0;\n(2) 用max {a, b, c} 表示a, b, c 中的最大值, 证明: max {a, b, c} ⩾\n3√\n4.\n1128",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -539,11 +696,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

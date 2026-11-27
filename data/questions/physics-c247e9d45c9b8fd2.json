@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2020/2020北京.pdf",
   "name": "2020北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 22,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 14,
+    "sourceAnswers": 20,
+    "sourceAnalysis": 20,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2020/2020北京.pdf#q01",
-      "content": "单选题\n1．以下现象不属于干涉的是（    ）\n（A）白光经过杨氏双缝得到彩色图样\n（B）白光照射肥皂膜呈现彩色图样\n（C）白光经过三棱镜得到彩色图样\n（D）白光照射水面油膜呈现彩色图样",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "以下现象不属于干涉的是（    ）\n（A）白光经过杨氏双缝得到彩色图样\n（B）白光照射肥皂膜呈现彩色图样\n（C）白光经过三棱镜得到彩色图样\n（D）白光照射水面油膜呈现彩色图样",
+      "answer": "C",
+      "analysis": "A．根据光的干涉定义可知白光经过杨氏双缝得到彩色图样是杨氏双缝干涉，故A\n错误；\nB．由于重力的作用，肥皂膜形成了上薄下厚的薄膜，光线通过薄膜时频率不变，干涉条纹\n的产生是由于光线在薄膜前后两表面反射形成的两列光波的叠加，白光照射肥皂膜呈现彩色\n图样是属于干涉现象，故B 错误；\nC．白光经过三棱镜得到彩色图样是光在折射时产生的色散现象，故C 正确；\nD．水面上的油膜呈现彩色是光的干涉现象，属于薄膜干涉，故D 错误；\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2020,
       "subject": "物理",
@@ -33,11 +44,614 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q02",
+      "content": "氢原子能级示意如图。现有大量氢原子处于n = 3 能级上，下列\n说法正确的是（    ）\n（A）这些原子跃迁过程中最多可辐射出2 种频率的光子\n（B）从n = 3 能级跃迁到n = 1 能级比跃迁到n = 2 能级辐射的光\n子频率低\n（C）从n = 3 能级跃迁到n = 4 能级需吸收0.66 eV 的能量\n（D）n = 3 能级的氢原子电离至少需要吸收13.6 eV 的能量",
+      "answer": "C",
+      "analysis": "A．大量氢原子处于n = 3 能级跃迁到n = 1 最多可辐射出\nC32 = 3 种不同频率的光子，故A 错误；\nB．根据能级图可知从n = 3 能级跃迁到n = 1 能级辐射的光子能量为\n1\n13.6eV\n1.51eV\nh=\n-\n从n = 3 能级跃迁到n = 2 能级辐射的光子能量为\n2\n3.4eV\n1.51eV\nh=\n-\n比较可知从n = 3 能级跃迁到n = 1 能级比跃迁到n = 2 能级辐射的光子频率高，故B 错误；\nC．根据能级图可知从n = 3 能级跃迁到n = 4 能级，需要吸收的能量为\n1.51eV\n0.85eV=0.66eV\nE =\n-\n1\n−13.6\n−1.51\n−0.85\n0\n−3.40\n2\n3\n4\nn\nE /eV\n∞\n5\n−0.54\n故C 正确；\nD．根据能级图可知氢原子处于n = 3 能级的能量为－1.51 eV，故要使其电离至少需要吸收\n1.51 eV 的能量，故D 错误；\n故选C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q03",
+      "content": "随着通信技术的更新换代，无线通信使用的电磁波频率更高，频率资源更丰富，在相同\n时间内能够传输的信息量更大。第5 代移动通信技术（简称5G）意味着更快的网速和更大\n的网络容载能力，“4G 改变生活，5G 改变社会”。与4G 相比，5G 使用的电磁波（    ）\n（A）光子能量更大\n（B）衍射更明显\n（C）传播速度更大\n（D）波长更长",
+      "answer": "A",
+      "analysis": "A．因为5G 使用的电磁波频率比4G 高，根据E = hν 可知5G 使用的电磁波比4G\n光子能量更大，故A 正确；\nB．发生明显衍射的条件是障碍物（或孔）的尺寸可以跟波长相比，甚至比波长还小；因5G\n使用的电磁波频率更高，即波长更短，故5G 越不容易发生明显衍射，故B 错误；\nC．光在真空中的传播速度都是相同的；光在介质中的传播速度为\nc\nv\nn\n=\n5G 的频率比4G 高，而频率越大折射率越大，光在介质中的传播速度越小，故C 错误；\nD．因5G 使用的电磁波频率更高，根据\nc\n\n\n=\n可知波长更短，故D 错误。\n故选A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q04",
+      "content": "如图所示，一定量的理想气体从状态A 开始，经历两个过\n程，先后到达状态B 和C。有关A、B 和C 三个状态温度TA、\nTB 和TC 的关系，正确的是（    ）\n（A）TA = TB，TB = TC\n（B）TA＜TB，TB＜TC\n（C）TA = TC，TB＞TC\n（D）TA = TC，TB＜TC",
+      "answer": "C",
+      "analysis": "由图可知状态A 到状态B 是一个等压过程，根据\nA\nB\nA\nB\nV\nV\nT\nT\n=\n因为VB＞VA，故TB＞TA；而状态B 到状态C 是一个等容过程，有\nC\nB\nB\nC\np\np\nT\nT\n=\n因为pB＞pC，故TB＞TC；对状态A 和C 有\n0\n0\n0\n0\n3\n3\n2\n2\n5\n5\nA\nC\np\nV\np\nV\nT\nT\n创\n=\np\n3p0\n2p0\np0\nV0\n2V0\n3V0 V\n0\nA\nB\nC\n可得TA = TC；综上分析可知C 正确，ABD 错误；\n故选C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q05",
+      "content": "我国首次火星探测任务被命名为“天问一号”。已知火星质量约为地球质量的10%，半径\n约为地球半径的50%，下列说法正确的是（    ）\n（A）火星探测器的发射速度应大于地球的第二宇宙速度\n（B）火星探测器的发射速度应介于地球的第一和第二宇宙速度之间\n（C）火星的第一宇宙速度大于地球的第一宇宙速度\n（D）火星表面的重力加速度大于地球表面的重力加速度",
+      "answer": "A",
+      "analysis": "A．当发射速度大于第二宇宙速度时，探测器将脱离地球的引力在太阳系的范围内\n运动，火星在太阳系内，所以火星探测器的发射速度应大于第二宇宙速度，故A 正确；\nB．第二宇宙速度是探测器脱离地球的引力到太阳系中的临界条件，当发射速度介于地球的\n第一和第二宇宙速度之间时，探测器将围绕地球运动，故B 错误；\nC．万有引力提供向心力，则有\n2\n1\n2\nmv\nGMm\nR\nR\n=\n解得第一宇宙速度为\n1\nGM\nv\nR\n=\n所以火星的第一宇宙速度为\n10%\n5\n=\n50%\n5\nv\nv\nv\n=\n地\n地\n火\n所以火星的第一宇宙速度小于地球的第一宇宙速度，故C 错误；\nD．万有引力近似等于重力，则有\n2\nGMm\nmg\nR\n=\n解得星表面的重力加速度\n(\n)\n2\n2\n10%\n2\n=\n=\n= 5\n50%\nGM\ng\ng\ng\nR\n火\n地\n地\n火\n火\n所以火星表面的重力加速度小于地球表面的重力加速度，故D 错误。\n故选A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q06",
+      "content": "一列简谐横波某时刻波形如图甲\n所示。由该时刻开始计时，质点L 的\n振动情况如图乙所示。下列说法正确\n的是（    ）\n（A）该横波沿x 轴负方向传播\n（B）质点N 该时刻向y 轴负方向运动\n（C）质点L 经半个周期将沿x 轴正方\n甲\nO\ny\nK\nL\nN\nM\nx\n乙\nt\nO\ny\n向移动\n（D）该时刻质点K 与M 的速度、加速度都相同",
+      "answer": "B",
+      "analysis": "AB．由图可知乙质点L 的振动情况，该时刻质点L 向y 轴正方向振动。根据上下\n坡法或者平移法可知，该横波沿x 轴正方向传播，质点N 该时刻向y 轴负方向运动，故A\n错误，故B 正确；\nC．质点L 只在平衡位置附近y 轴方向上下振动，波传播时，质点不会沿x 轴正方向移动，\n故C 错误；\nD．该时刻质点K 与M 的速度为零，质点K 加速度为-y 方向，质点M 加速度为+y 方向，\n故D 错误。\n故选B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q006-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q006-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q07",
+      "content": "真空中某点电荷的等势面示意如图，图中相邻等势面间电势差相\n等。下列说法正确的是（    ）\n（A）该点电荷一定为正电荷\n（B）P 点的场强一定比Q 点的场强大\n（C）P 点电势一定比Q 点电势低\n（D）正检验电荷在P 点比在Q 点的电势能大",
+      "answer": "B",
+      "analysis": "A．正电荷和负电荷周围的等势面都为一组同心球壳，该点\n电荷不一定为正电荷，故A 错误；\nB．相邻等势面间电势差相等，P 点附近的等差等势面更加密集，故P 点的场强一定比Q 点\n的场强大，故B 正确；\nC．正电荷和负电荷周围的等势面都为一组同心球壳，若为正点电荷，则P 点电势一定比Q\n点电势高，故C 错误；\nD．从等势面的情况无法判断该点电荷为正点电荷还是负点电荷，无法判断P 点电势与Q 点\n电势的高低，就无法判断正检验电荷在P 点和在Q 点的电势能的大小，故D 错误。\n故选B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q007-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q007-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q08",
+      "content": "如图所示，在带负电荷的橡胶圆盘附近悬挂一个小磁针。现驱动圆\n盘绕中心轴高速旋转，小磁针发生偏转。下列说法正确的是（    ）\n（A）偏转原因是圆盘周围存在电场\n（B）偏转原因是圆盘周围产生了磁场\n（C）仅改变圆盘的转动方向，偏转方向不变\n（D）仅改变圆盘所带电荷的电性，偏转方向不变",
+      "answer": "B",
+      "analysis": "AB．小磁针发生偏转是因为带负电荷的橡胶圆盘高速旋转形成电流，而电流周围\n有磁场，磁场会对放入其中的小磁针有力的作用，故A 错误，B 正确；\nC．仅改变圆盘的转动方向，形成的电流的方向与初始相反，小磁针的偏转方向也与之前相\n反，故C 错误；\nD．仅改变圆盘所带电荷的电性，形成的电流的方向与初始相反，小磁针的偏转方向也与之\n前相反，故D 错误。\n故选B。\nP\nQ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q09",
+      "content": "如图所示，理想变压器原线圈接在u =\nUmsin(ωt＋φ)的交流电源上，副线圈接三个阻值\n相同的电阻R，不计电表内电阻影响。闭合开关\nS 后（    ）\n（A）电流表A2 的示数减小\n（B）电压表V1 的示数减小\n（C）电压表V2 的示数不变\n（D）电流表A1 的示数不变",
+      "answer": "A",
+      "analysis": "开关S 闭合时，副线圈总的电阻减小，由于变压器的匝数比和输入的电压都不变，\n所以输出的电压也不变，即V1 示数不变，但因副线圈的总电阻减小，则副线圈的总电流增\n大，则原线圈的电流增大，故A1 的示数变大；由于副线圈的电流增大，故串联在副线圈的\n电阻R 两端的电压增大，而副线圈的总电压不变，所以副线圈并联部分的电压减小，即V2\n的示数减小，故电流表A2 的示数减小，故A 正确，BCD 错误。\n故选A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q10",
+      "content": "分子力F 随分子间距离r 的变化如图所示。将两分子从\n相距r = r2 处释放，仅考虑这两个分于间的作用，下列说法\n正确的是（    ）\n（A）从r = r2 到r = r0 分子间引力、斥力都在减小\n（B）从r = r2 到r = r1 分子力的大小先减小后增大\n（C）从r = r2 到r = r0 分子势能先减小后增大\n（D）从r = r2 到r = r1 分子动能先增大后减小",
+      "answer": "D",
+      "analysis": "A．从r = r2 到r = r0 分子间引力、斥力都在增加，但斥力增加得更快，故A 错误；\nB．由图可知，在r = r0 时分子力为零，故从r = r2 到r = r1 分子力的大小先增大后减小再增\n大，故B 错误；\nC．分子势能在r = r0 时分子势能最小，故从r = r2 到r = r0 分子势能一直减小，故C 错误；\nD．从r = r2 到r = r1 分子势能先减小后增大，故分子动能先增大后减小，故D 正确。\n故选D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q11",
+      "content": "某同学利用图甲所示装置研究摩擦力的变化情况。实验台上固定一个力传感器，传感器\n用棉线拉住物块，物块放置在粗糙的长木板上。水平向左拉木板，传感器记录的F-t 图像如\n图乙所示。下列说法正确的是（    ）\n（A）实验中必须让木板保持匀速运动\n（B）图乙中曲线就是摩擦力随时间的变化曲线\n（C）最大静摩擦力与滑动摩擦力之比约为10∶7\n（D）只用图乙中数据可得出物块与木板间的动摩擦因数\nO\nF\nr1\nr0\nr2\nr",
+      "answer": "C",
+      "analysis": "AB．为了能研究摩擦力随时间的变化曲线，故物块一直要处于静止状态，则向左\n的摩擦力一直与向右轻绳的拉力平衡，图乙是向右轻绳的拉力随时间变化曲线，故图乙也可\n以反映摩擦力随时间变化的曲线，由图可乙知向右轻绳的拉力先增大后减小，最后趋于不变，\n故物块先受静摩擦力作用后受滑动摩擦力作用，所以不需要让木板保持匀速运动，故AB 错\n误；\nC．由图可知，最大静摩擦力约为10 N，滑动摩擦力约为7 N，故最大静摩擦力与滑动摩擦\n力之比约为10∶7，故C 正确；\nD．根据\nFf = μFN，FN = mg。\n可知，由于不知道物块的重力，故无法求物块与木板间的动摩擦因数，故D 错误。\n故选C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q12",
+      "content": "图甲表示某金属丝的电阻R 随摄氏温度\nt 变化的情况。把这段金属丝与电池、电流表\n串联起来（图乙），用这段金属丝做测温探\n头，把电流表的刻度改为相应的温度刻度，\n就得到了一个简易温度计。下列说法正确的\n是（    ）\n（A）tA 应标在电流较大的刻度上，且温度与\n电流是线性关系\n（B）tA 应标在电流较大的刻度上，且温度与电流是非线性关系\n（C）tB 应标在电流较大的刻度上，且温度与电流是线性关系\n（D）tB 应标在电流较大的刻度上，且温度与电流是非线性关系",
+      "answer": "B",
+      "analysis": "由甲图可知，tA 点对应的电阻阻值较小，由闭合电路欧姆定律知对应电路中的电流\n较大，故tA 应标在电流较大的刻度上；而tB 点对应的电阻阻值较大，由闭合电路欧姆定律\n知对应电路中的电流较小，故tB 应标在电流较小的刻度上；由图甲得\n0\nR\nR\nkt\n=\n+\n其中\n0\nR 为图线的纵截距，由闭合电路欧姆定律得\ng\nE\nI\nR\nR\nr\n=\n+\n+\n联立解得\n0\nR\nRg\nr\nE\nt\nkI\nk\n+\n+\n=\n−\n可知t 与I 是非线性关系，故B 正确，ACD 错误。\n故选B\nR\nE\nS\nA\nA\nB\nt\nO\nR\n乙\n甲\ntA\ntB",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q012-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q012-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q13",
+      "content": "在同一竖直平面内，3 个完全相同的小钢球（1 号、2 号、3 号）悬挂\n于同一高度；静止时小球恰能接触且悬线平行，如图所示。在下列实验中，\n悬线始终保持绷紧状态，碰撞均为对心正碰。以下分析正确的是（    ）\n（A）将1 号移至高度h 释放，碰撞后，观察到2 号静止、3 号摆至高度\nh。若2 号换成质量不同的小钢球，重复上述实验，3 号仍能摆至高度h\n（B）将1、2 号一起移至高度h 释放，碰撞后，观察到1 号静止，2、3 号\n一起摆至高度h，释放后整个过程机械能和动量都守恒\n（C）将右侧涂胶的1 号移至高度h 释放，1、2 号碰撞后粘在一起，根据机械能守恒，3 号\n仍能摆至高度h\n（D）将1 号和右侧涂胶的2 号一起移至高度h 释放，碰撞后，2、3 号粘在一起向右运动，\n未能摆至高度h，释放后整个过程机械能和动量都不守恒",
+      "answer": "D",
+      "analysis": "A．1 号球与质量不同的2 号球相碰撞后，1 号球速度不为零，则2 号球获得的动\n能小于1 号球撞2 号球前瞬间的动能，所以2 号球与3 号球相碰撞后，3 号球获得的动能也\n小于1 号球撞2 号球前瞬间的动能，则3 号不可能摆至高度h，故A 错误；\nB．1、2 号球释放后，三小球之间的碰撞为弹性碰撞，且三小球组成的系统只有重力做功，\n所以系统的机械能守恒，但整个过程中，系统所受合外力不为零，所以系统动量不守恒，故\nB 错误；\nC．1、2 号碰撞后粘在一起，为完全非弹性碰撞，碰撞过程有机械能损失，所以1、2 号球\n再与3 号球相碰后，3 号球获得的动能不足以使其摆至高度h，故C 错误；\nD．碰撞后，2、3 号粘在一起，为完全非弹性碰撞，碰撞过程有机械能损失，且整个过程中，\n系统所受合外力不为零，所以系统的机械能和动量都不守恒，故D 正确。\n故选D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q013-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q013-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q14",
+      "content": "在无风的环境，某人在高处释放静止的篮球，篮球\n竖直下落；如果先让篮球以一定的角速度绕过球心的水\n平轴转动（如图）再释放，则篮球在向下掉落的过程中\n偏离竖直方向做曲线运动。其原因是，转动的篮球在运\n动过程中除受重力外，还受到空气施加的阻力f1 和偏转\n力f2。这两个力与篮球速度v 的关系大致为：f1 = k1v2，方向与篮球运动方向相反； f2 = k2v，\n方向与篮球运动方向垂直。下列说法正确的是（    ）\n（A）k1、k2 是与篮球转动角速度无关的常量\n（B）篮球可回到原高度且角速度与释放时的角速度相同\n（C）人站得足够高，落地前篮球有可能向上运动\n（D）释放条件合适，篮球有可能在空中持续一段水平直线运动",
+      "answer": "C",
+      "analysis": "A．篮球未转动时，篮球竖直下落，没有受到偏转力f2 的作用，而篮球转动时，将\n受到偏转力f2 的作用，所以偏转力f2 = k2v 中的k2 与篮球转动角速度有关，故A 错误；\nB．空气阻力一直对篮球做负功，篮球的机械能将减小，篮球的角速度也将减小，所以篮球\n没有足够的能量回到原高度，故B 错误；\nC．篮球下落过程中，其受力情况如图所示。\n篮球下落过程中，由受力分析可知，随着速度不断增大，篮球\n受到f1 和f2 的合力沿竖直方向的分力可能比重力大，可使篮球\n竖直方向的分速度减小为零或变成竖直向上，所以篮球可能向\n上运动，故C 正确；\nD．如果篮球的速度变成水平方向，则空气阻力的作用会使篮球速度减小，则篮球受到的偏\n1\n2\n3\nv\nf1 = k1v2\nf2 = k2v\n转力f2 将变小，不能保持f2 与重力持续等大反向，所以不可能在空中持续一段水平直线运\n动，故D 错误。\n故选C。\n第二部分\n本部分共6 题，共58 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q014-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q014-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q014-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q15",
+      "content": "（9 分）在“探究加速度与物体受力、物体质量的关系”实验中，做如下探究：\n（1）为猜想加速度与质量的关系，可利用图1 所示装置进行对比实验。两小车放在水平板\n上，前端通过钩码牵引，后端各系一条细线，用板擦把两条细线按在桌上，使小车静止。抬\n起板擦，小车同时运动，一段时间后按下板擦，小车同时停下。对比两小车的位移，可知加\n速度与质量大致成反比。关于实验条件，下列正确的是：________（选填选项前的字母）。\n（A）小车质量相同，钩码质量不同\n（B）小车质量不同，钩码质量相同\n（C）小车质量不同，钩码质量不同\n（2）某同学为了定量验证（1）中得到的初步关系，设计实验并得到小车加速度a 与质量M\n的7 组实验数据，如下表所示。在图2 所示的坐标纸上已经描好了6 组数据点，请将余下的\n一组数据描在坐标纸上，并作出a-1\nM 图像______。\n次数\n1\n2\n3\n4\n5\n6\n7\na/(m·s-2)\n0.62\n0.56\n0.48\n0.40\n0.32\n0.24\n0.15\nM/kg\n0.25\n0.29\n0.33\n0.40\n0.50\n0.71\n1.00\n（3）在探究加速度与力的关系实验之前，需要思考如何\n测“力”。请在图3 中画出小车受力的示意图。为了简化\n“力”的测量，下列说法正确的是：__________（选填选项前的字母）。\nA．使小车沿倾角合适的斜面运动，小车受力可等效为只受绳的拉力\nB．若斜面倾角过大，小车所受合力将小于绳的拉力\nC．无论小车运动的加速度多大，砂和桶的重力都等于绳的拉力\nD．让小车的运动趋近于匀速运动，砂和桶的重力才近似等于绳的拉力",
+      "answer": "(1)B；(2)如图甲所示；(3)如图乙所示；AD.",
+      "analysis": "（1）为了探究加速度与质量的关系，必须控制小车所受拉力相同，而让小车的质量\n不同，所以钩码质量相同，故B 正确。\n（2）数据描点和a- 1\nM 图像如图所示\n（3）A．使小车沿倾角合适的斜面运动，小车所受重力沿斜面的分力刚好等于小车所受的摩\n擦力，则小车受力可等效为只受绳的拉力，故A 正确；\nB．若斜面倾角过大，重力沿斜面的分力大于摩擦力，小车所受合力将大于绳的拉力，不利\n于简化“力”的测量，故B 错误；\nC．由牛顿第二定律可知，无论小车运动的加速度多大，砂和桶的重力都大于绳的拉力，故\nC 错误；\nD．当小车的质量远大于砂和桶的质量时，砂和桶的重力近似等于绳的拉力，故D 错误。\n故选A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q015-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q015-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q015-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q015-p009-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q015-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q16",
+      "content": "（9 分）用图1 所示的甲、乙两种方法测量某电源的电动势和内电阻（约为1 Ω）。其中\nR 为电阻箱，电流表的内电阻约为0.1 Ω，电压表的内电阻约为3 kΩ。\n（1）利用图1 中甲图实验电路测电源的电动势E 和内电阻r，\n所测量的实际是图2 中虚线框所示“等效电源”的电动势E′和\n内电阻r′。若电流表内电阻用RA 表示，请你用E、r 和RA 表\n示出E′、r′，并简要说明理由。\n（2）某同学利用图像分析甲、乙两种方法中由电表内电阻引\n起的实验误差。在图3 中，实线是根据实验数据（图甲：U = IR，图乙：I = U\nR ）描点作图\n得到的U-I 图像；虚线是该电源的路端电压U 随电流I 变化的U-I 图像（没有电表内电阻影\n响的理想情况）。\n在图3 中，对应图甲电路分析的U-I 图像是：__________；对应图乙电路分析的U-I 图像是：\n________。\n（3）综合上述分析，为了减小由电表内电阻引起的实验误差，本实验应选择图1 中的______\n（填“甲”或“乙”）。",
+      "answer": "(1)𝐸′ = 𝐸，𝑟′ = 𝑟+ 𝑅A；\n断路时，“等效电源”路端电压的数值等于其电动势；短路时，短路电流𝐼=\n𝐸′\n𝑟′ =\n𝐸\n𝑟+𝑅A.\n(2)C；A；(3)乙.",
+      "analysis": "（1）将电源和电流表视为等效电源，电源电动势是电源本身具有的属性，电流表不\n具有产生电动势的本领，所以等效电源的电动势仍然为E′ = E，而电流表的内阻和电动势的\n内阻作为等效电源的内阻，即r′ = r＋RA。\n（2）对甲图，考虑电表内阻时，根据闭合电路欧姆定律得\nA\n(\n)\nE\nU\nIr\nU\nI r\nR\n=\n+\n=\n+\n+\n路\n内\n变形得\nA\n(\n)\nU\nr\nR\nI\nE\n= −\n+\n+\n直接通过实验获得数据，可得\nU\nrI\nE\n= −\n+\n图像与纵轴截距均为电源电动势E ，虚线对应的斜率大小为r ，实线对应的斜率大小为\nA\n(\n)\nr\nR\n+\n，所以对应图甲电路分析的U\nI\n−\n图像是C；\n对乙图，考虑电表内阻时（即虚线对应的真实情况），根据闭合电路欧姆定律得\nV\nV\n(\n)\nU\nr\nE\nU\nIr\nU\nI\nr\nU\nIr\nU\nR\nR\n=\n+\n=\n+\n+\n=\n+\n+\n路\n内\n变形得\nV\nV\nV\nV\nR r\nR\nU\nI\nE\nR\nr\nR\nr\n= −\n+\n+\n+\n直接通过实验获得数据，可得\nU\nrI\nE\n= −\n+\n虚线对应的斜率大小为r ，实线对应的斜率大小为\nV\nV\nR\nr\nr\nR\nr\n\n+\n，虚线对应的纵轴截距为E ，\nA\nO\nU\nI\nB\nO\nU\nI\nC\nO\nU\nI\nD\nO\nU\nI\n实线对应的纵轴截距为\nV\nV\nR\nE\nE\nR\nr\n\n+\n；两图线在\n0\nU =\n时，对应的短路电流均为\nE\nI\nr\n=\n短\n，\n所以对应图乙电路分析的U\nI\n−\n图像是A。\n（3）图甲虽然测量的电源电动势准确，但电流表分压较为明显，所以内阻测量的误差很大；\n图乙虽然电动势和内阻测量均偏小，但是电压表内阻很大，分流不明显，所以电动势和内阻\n的测量误差较小，所以选择图乙可以减小由电表内电阻引起的实验误差。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 9,
+        "endPage": 11,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p010-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p010-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p010-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p010-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q016-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q17",
+      "content": "（9 分）无人机在距离水平地面高度h 处，以速度v0 水平匀速飞行并释放一包裹，不计\n空气阻力，重力加速度为g。\n（1）求包裹释放点到落地点的水平距离x；\n（2）求包裹落地时的速度大小v；\n（3）以释放点为坐标原点，初速度方向为x 轴方向，竖直向下为y 轴方向，建立平面直角\n坐标系，写出该包裹运动的轨迹方程。",
+      "answer": "(1)𝑣0√\n2ℎ\n𝑔；(2)√𝑣𝑦2 + 𝑣0\n2 = √2𝑔ℎ+ 𝑣0\n2；(3)\n𝑔\n2𝑣0\n2 𝑥2",
+      "analysis": "（1）包裹脱离无人机后做平抛运动，在竖直方向做自由落体运动，则\n2\n1\n2\nh\ngt\n=\n解得t =\n2h\ng\n水平方向上做匀速直线运动，所以水平距离为\nx = v0t = v0\n2h\ng\n（2）包裹落地时，竖直方向速度为\n2\ny\nh\nv\ngt\ng\ng\n=\n=\n落地时速度为\nv =\nv02+vy2  =\nv02+2gh\n（3）包裹做平抛运动，分解位移\n0\nx\nv t\n=\n\n2\n1\n2\ny\ngt\n=\n\n两式消去时间得包裹的轨迹方程为 y =\ng\n2v02 x2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 11,
+        "endPage": 11,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q18",
+      "content": "（9 分）如图甲所示，N = 200\n匝的线圈（图中只画了2 匝），电阻\nr = 2 Ω，其两端与一个R = 48 Ω 的\n电阻相连，线圈内有指向纸内方向\n的磁场。线圈中的磁通量按图乙所\n示规律变化。\n（1）判断通过电阻R 的电流方向；\nΦ/Wb\nt/s\n乙\n0.10\n0.015\n0.010\n0.005\n0\na\nb\nR\nB\n甲\n（2）求线圈产生的感应电动势E；\n（3）求电阻R 两端的电压U。",
+      "answer": "(1)𝑎→𝑏；(2)10V；(3)9.6V",
+      "analysis": "（1）根据图像可知，线圈中垂直于纸面向里的磁场增大，为了阻碍线圈中磁通量的\n增大，根据楞次定律可知线圈中感应电流产生的磁场垂直于纸面向外，根据安培定则可知线\n圈中的感应电流为逆时针方向，所通过电阻R 的电流方向为a→b。\n（2）根据法拉第电磁感应定律\n0.015\n0.010\n200\nV\n10V\n0.10\nE\nN\nt\n\n−\n=\n=\n\n=\n\n（3）电阻R 两端的电压为路端电压，根据分压规律可知\n48\n10V\n9.6V\n48\n2\nR\nU\nE\nR\nr\n=\n=\n\n=\n+\n+",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q018-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q018-p011-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q018-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q19",
+      "content": "（10 分）如图甲所示，真空中有一长直细金属导线MN，\n与导线同轴放置一半径为R 的金属圆柱面。假设导线沿径向\n均匀射出速率相同的电子，已知电子质量为m，电荷量为e。\n不考虑出射电子间的相互作用。\n（1）可以用以下两种实验方案测量出射电子的初速度：\n（A）在柱面和导线之间，只加恒定电压；\n（B）在柱面内，只加与MN 平行的匀强磁场。\n当电压为U0 或磁感应强度为B0 时，刚好没有电子到达柱面。\n分别计算出射电子的初速度v0。\n（2）撤去柱面，沿柱面原位置放置一个弧长为a、长度为b 的金属片，如图乙所示。在该\n金属片上检测到出射电子形成的电流为I，电子流对该金属片的压强为p。求单位长度导线\n单位时间内出射电子的总动能。",
+      "answer": "(1)\n𝑒𝐵0𝑅\n2𝑚；(2)\nπ𝑅𝑝2𝑒𝑎𝑏\n𝑚𝐼",
+      "analysis": "（1）（A）在柱面和导线之间，只加恒定电压U0，粒子刚好没有电子到达柱面，此\n时速度为零，根据动能定理有\n2\n0\n0\n1\n2\neU\nmv\n−\n= −\n解得\nv0 =\n2eU0\nm\n（B）在柱面内，只加与MN 平行的匀强磁场，磁感应强度为B0 时，刚好没有电子到达柱\n面，设粒子的偏转半径为r，根据几何关系有\n2r = R\n根据洛伦兹力提供向心力，则有\n2\n0\n0\n0\nv\nB qv\nm r\n=\n解得\nv0 = B0qR\n2m\n（2）撤去柱面，设单位长度射出电子数为N，则单位时间都到柱面的粒子数为\n0\n2\nN\nn\nR\n\n=\n金属片上电流\n0\nI\nn eab\n=\n由于电子流对金属片的压强为p，则电子流对金属片单位时间内的压力为\nF = p·ab\n由牛顿第三定律可得，金属片对电子流的作用为\n·\n'\nF\np a\nF\nb\n= −\n= −\n根据动量定理有\n0\n0\n'\nF\nt\nn ab t mv\n= −\n\n解得\n0\npeab\nv\nmI\n=\n故总动能为\nEk = n0ab·1\n2 mv02 = Ne2p2a3b3\n4πRmI2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 12,
+        "endPage": 13,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q019-p012-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q019-p012-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020北京.pdf#q20",
+      "content": "（12 分）某试验列车按照设定的直线运动模式，\n利用计算机控制制动装置，实现安全准确地进站停车。\n制动装置包括电气制动和机械制动两部分。图1 所示\n为该列车在进站停车过程中设定的加速度大小a\n车随\n速度v 的变化曲线。\n（1）求列车速度从20 m/s 降至3 m/s 经过的时间t 及\n行进的距离x。\n（2）有关列车电气制动，可以借助图2 模型来理解。\n图中水平平行金属导轨处于竖直方向的匀强磁场中，\n回路中的电阻阻值为R，不计金属棒MN 及导轨的电\n阻。MN 沿导轨向右运动的过程，对应列车的电气制\n动过程，可假设MN 棒运动的速度与列车的速度、棒\n的加速度与列车电气制动产生的加速度成正比。列车\n开始制动时，其速度和电气制动产生的加速度大小对应图1 中的P 点。论证电气制动产生\n的加速度大小随列车速度变化的关系，并在图1 中画出图线。\n（3）制动过程中，除机械制动和电气制动外，列车还会受到随车速减小而减小的空气阻力。\n分析说明列车从100 m/s 减到3 m/s 的过程中，在哪个速度附近所需机械制动最强？\n（注意：解题过程中需要用到、但题目没有给出的物理量，要在解题时做必要的说明）",
+      "answer": "(1)𝑥≈279.3m；(2)见解析；(3)3m/s",
+      "analysis": "（1）由图1 可知，列车速度从20 m/s 降至3 m/s 的过程加速度为0.7 m/s2 的匀减速\n直线运动，由加速度的定义式a = Δv\nΔt 得\nM\n图2\nN\nR\nt =\n20\n3\n170\ns\ns\n24.3s\n0.7\n7\nv\nt\na\n\n−\n=\n=\n=\n\n由速度位移公式v2－v02 = －2ax 得\n2\n2\n2\n2\n0\n3\n20 m\n279.3m\n2\n2 0.7\nv\nv\nx\na\n−\n−\n=\n=\n=\n−\n−\n（2）由MN 沿导轨向右运动切割磁场线产生感应电动势\nE = Blv\n回路中感应电流 I = E\nR\nMN 受到的安培力 F = BIL\n加速度为\na = F\nm\n结合上面几式得 a = B2l2v\nmR\n所以棒的加速度与棒的速度为正比例函数。又因为列车的电气制动过程，可假设MN 棒运\n动的速度与列车的速度、棒的加速度与列车电气制动产生的加速度成正比，所以列车电气制\n动产生的加速度与列车的速度成正比，为过P 点的正比例函数。画出的图线如下图所示。\n（3）由（2）可知，列车速度越小，电气制动的加速度越小。由题设可知列车还会受到随车\n速减小而减小的空气阻力。所以电气制动和空气阻力产生的加速度都随速度的减小而减小。\n由图1 中，列车速度从20 m/s 降至3 m/s 的过程中加速度大小a 车随速度v 减小而增大，所\n以列车速度从20 m/s 降至3 m/s 的过程中所需的机械制动逐渐变强，所以列车速度为3 m/s\n附近所需机械制动最强。\n解析\n1.\nC\n白光经过三棱镜得到彩色图样是光的色散现象，属于光的折射，故C 符合题\n意.\n2.\nC\n大量氢原子处于𝑛= 3能级上，最多可以辐射出C3\n2 = 3种频率的光子，故\nA 错误；根据ℎ31𝜈= 𝐸3 −𝐸1 = 12.09eV，ℎ32𝜈= 𝐸3 −𝐸2 = 1.89eV可知，从𝑛= 3能级跃迁\n到𝑛= 1能级比跃迁到𝑛= 2能级辐射的光子的频率高，故B 错误；从𝑛= 3能级跃迁到𝑛=4\n能级需要吸收能量Δ𝐸= 𝐸4 −𝐸3 = (−0.85eV) −(−1.51eV) = 0.66eV，故C 正确；𝑛= 3能\n级的氢原子电离至少需要吸收1.51eV的能量，故D 错误.\n3.\nA\n5G使用的电磁波频率更高，光子能量𝐸= ℎ𝜈更大，故A 正确；5G使用\n的电磁波频率更高，波长更短，衍射更不明显，故BD 错误；不同频率的电磁波在空气中传\n播的速度都等于光速𝑐，故C 错误.\n4.\nC\n由理想气体状态方程\n𝑝𝑉\n𝑇= 𝐶可知𝑇𝐵> 𝑇𝐴= 𝑇𝐶，故C 正确ABD 错误.\n5.\nA\n火星探测器发射后应脱离地球的束缚围绕火星运动，所以火星探测器的\n发射速度应大于地球的第二宇宙速度，故A 正确B 错误；由𝐺\n𝑀𝑚\n𝑅2 = 𝑚𝑔可得\n𝑔火\n𝑔地\n=\n𝑀火\n𝑀地\n⋅\n𝑅2地\n𝑅2火=\n1\n10 ×\n22\n12 =\n2\n5，火星表面的重力加速度小于地球表面的重力加速度，故D 错误；由𝑣1 = √𝑔𝑅可\n得火星的第一宇宙速度与地球的第一宇宙速度之比为\n𝑣1 火\n𝑣1 地\n=\n√𝑔火𝑅火\n√𝑔地𝑅地\n= √\n2\n5 ×\n1\n2 = √\n1\n5，即火星的\n第一宇宙速度小于地球的第一宇宙速度，故C 错误.\n6.\nB\n由波形图和质点𝐿的振动图像可知，该横波沿𝑥轴正方向传播，故A 错误；\n由同侧法可知，质点𝑁该时刻向𝑦轴负方向运动，故B 正确；质点不随波迁移，即质点𝐿不沿\n𝑥轴正方向移动，经半个周期后其将沿𝑦轴负方向运动，故C 错误；该时刻质点𝐾与𝑀的速度\n都是零，加速度都是最大，但加速度的方向相反，故D 错误.\n7.\nB\n题图示为等势面，无法判断场源电荷的正负，故该点电荷可能为负电荷，\n故A 错误；场源点电荷一定位于同心圆的圆心处，故根据点电荷电场强度公式可知，𝑃点的\n电场强度一定比𝑄点的电场强度大，故B 正确；若点电荷为正电荷，则𝑃点电势比𝑄点电势\n高，故C 错误；若该点电荷为负电荷，𝑃点的电势比𝑄点电势低，正检验电荷在𝑃点的电势能\n比在𝑄点小，故D 错误.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020北京.pdf",
+        "page": 13,
+        "endPage": 16,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q020-p013-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q020-p014-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c247e9d45c9b8fd2-q020-p013-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 31,
+    "answerGraphics": 3,
+    "assigned": 28,
+    "rendered": 29,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

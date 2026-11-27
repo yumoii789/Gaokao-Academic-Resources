@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
   "name": "2003全国旧课程文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q01",
       "content": "直线y = 2x 关于x 轴对称的直线方程为\n(\n)\n(A) y = −1\n2x\n(B) y = 1\n2x\n(C) y = −2x\n(D) y = 2x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q02",
       "content": "已知x ∈\n(\n−π\n2 , 0\n)\n, cos x = 4\n5, 则tan 2x =\n(\n)\n(A) 7\n24\n(B) −7\n24\n(C) 24\n7\n(D) −24\n7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q03",
       "content": "抛物线y = ax2 的准线方程是y = 2, 则a 的值为\n(\n)\n(A) 1\n8\n(B) −1\n8\n(C) 8\n(D) −8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q04",
       "content": "等差数列{an} 中, 已知a1 = 1\n3, a2 + a5 = 4, an = 33, 则n 为\n(\n)\n(A) 48\n(B) 49\n(C) 50\n(D) 51",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q05",
       "content": "双曲线虚轴的一个端点为M, 两个焦点为F1, F2, ∠F1MF2 = 120◦, 则双\n曲线的离心率为\n(\n)\n(A)\n√\n3\n(B)\n√\n6\n2\n(C)\n√\n6\n3\n(D)\n√\n3\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q06",
       "content": "设函数f(x) =\n{\n2−x −1\nx ⩽0,\nx\n1\n2 ,\nx > 0,\n若f(x0) > 1, 则x0 的取值范围是(\n)\n(A) (−1, 1)\n(B) (−1, +∞)\n(C) (−∞, −2) ∪(0, +∞)\n(D) (−∞, −1) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q07",
       "content": "已知f(x5) = lg x, 则f(2) =\n(\n)\n(A) lg 2\n(B) lg 32\n(C) lg 1\n32\n(D) 1\n5 lg 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q08",
       "content": "函数y = sin(x + φ) (0 ⩽φ ⩽π) 是R 上的偶函数, 则φ =\n(\n)\n(A) 0\n(B) π\n4\n(C) π\n2\n(D) π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q09",
       "content": "已知点(a, 2) (a > 0) 到直线l: x −y + 3 = 0 的距离为1, 则a =\n(\n)\n(A)\n√\n2\n(B) 2 −\n√\n2\n(C)\n√\n2 −1\n(D)\n√\n2 + 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q10",
       "content": "已知圆锥的底面半径为R, 高为3R, 它的内接圆柱的底面半径为3\n4R, 该\n圆柱的全面积为\n(\n)\n(A) 2πR2\n(B) 9\n4πR2\n(C) 8\n3πR2\n(D) 5\n2πR2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q11",
       "content": "已知长方形的四个顶点A(0, 0), B(2, 0), C(2, 1) 和D(0, 1), 一质点从AB\n的中点P0 沿与AB 的夹角θ 的方向射到BC 上的点P1 后, 依次反射到\nCD、DA 和AB 上的点P2、P3 和P4 (入射角等于反射角). 若P1 与P4\n重合, 则tan θ =\n(\n)\n(A) 1\n3\n(B) 2\n5\n(C) 1\n2\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q12",
       "content": "一个四面体的所有棱长都为\n√\n2, 四个顶点在同一球面上, 则此球的表面积\n为\n(\n)\n(A) 3π\n(B) 4π\n(C) 3\n√\n3π\n(D) 6π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q13",
       "content": "不等式\n√\n4x −x2 < x 的解集是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q14",
       "content": "(\nx2 −1\n2x\n)9\n的展开式中x9 系数是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -332,22 +425,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q15",
       "content": "在平面几何里, 有勾股定理: “设△ABC 的两边AB, AC 互相垂直, 则\nAB2 + AC2 = BC2. ”拓展到空间, 类比平面几何的勾股定理, 研究三棱\n锥的侧面面积与底面面积间的关系, 可以得出的正确结论是: “设三棱锥\nA −BCD 的三个侧面ABC、ACD、ADB 两两互相垂直, 则\n. ”",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -355,22 +454,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q16",
       "content": "如图, 一个地区分为5 个行政区域, 现给地图着色, 要求相邻地区不得使用\n同一颜色, 现有4 种颜色可供选择, 则不同的着色方法共有种\n. (以\n数字作答)\n1\n2\n3\n5\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -378,22 +483,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q17",
       "content": "已知正四棱柱ABCD −A1B1C1D1, AB = 1, AA1 = 2, E 为CC1 中点,\nF 为BD1 中点.\n(1) 证明: EF 为BD1 与CC1 的公垂线;\n(2) 求点D1 到面BDE 的距离.\nA\nB\nC\nD\nE\nF\nA1\nB1\nC1\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -401,22 +516,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q18",
       "content": "已知复数z 的辐角为60◦, 且|z −1| 是|z| 和|z −2| 的等比中项, 求|z|.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -424,22 +545,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q19",
       "content": "已知数列{an} 满足a1 = 1, an = 3n−1 + an−1 (n ⩾2).\n(1) 求a2, a3;\n(2) 证明: an = 3n −1\n2\n.\n136",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -447,22 +574,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q20",
       "content": "已知函数f(x) = 2 sin x(sin x + cos x).\n(1) 求函数f(x) 的最小正周期和最大值;\n(2) 在给出的直角坐标系中, 画出函数y = f(x) 在区间\n[\n−π\n2 , π\n2\n]\n上的图\n象.\nπ\n2\n−π\n2\ny\nx\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -470,22 +607,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q21",
       "content": "在某海滨城市附近海面有一台风, 据监测, 当前台风中心位于城市O (如\n图) 的东偏南θ\n(\ncos θ =\n√\n2\n10\n)\n方向300 km 的海面P 处, 并以20 km/h\n的速度向西偏北45◦方向移动, 台风侵袭的范围为圆形区域, 当前半径为\n60 km, 并以10 km/h 的速度不断增大, 问几小时后该城市开始受到台风\n的侵袭?\n东\n北\n海\n岸\n线\ny\nx\nθ\nP\nr(t)\nP ′\nO\n45◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -493,22 +636,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003全国旧课程文.pdf#q22",
       "content": "已知常数a > 0, 在矩形ABCD 中, AB = 4, BC = 4a, O 为AB 的中点,\n点E、F、G 分别在BC、CD、DA 上移动, 且BE\nBC = CF\nCD = DG\nDA, P 为\nGE 与OF 的交点(如图), 问是否存在两个定点, 使P 到这两点的距离的\n和为定值? 若存在, 求出这两点的坐标及此定值; 若不存在, 请说明理由.\nB\nA\nO\nC\nD\nE\nF\nG\nP\ny\nx\n137",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -516,11 +665,31 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003全国旧课程文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q022-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q022-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-85e0e2cb87ffd258-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

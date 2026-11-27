@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2022/2022浙江.pdf",
   "name": "2022浙江",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q01",
       "content": "设集合A = {1, 2}, B = {2, 4, 6}, 则A ∪B =\n(\n)\n(A) {2}\n(B) {1, 2}\n(C) {2, 4, 6}\n(D) {1, 2, 4, 6}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q02",
       "content": "已知a, b ∈R, a + 3i = (b + i)i (i 为虚数单位), 则\n(\n)\n(A) a = 1, b = −3\n(B) a = −1, b = 3\n(C) a = −1, b = −3\n(D) a = 1, b = 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q03",
       "content": "若实数x, y 满足约束条件\n\n\n\n\n\n\n\nx −2 ⩾0,\n2x + y −7 ⩽0,\nx −y −2 ⩽0,\n则z = 3x + 4y 的最大值\n是\n(\n)\n(A) 20\n(B) 18\n(C) 13\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q04",
       "content": "设x ∈R, 则“sin x = 1”是“cos x = 0”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q05",
       "content": "某几何体的三视图如图所示(单位: cm), 则该几何体的体积(单位: cm3)\n是\n(\n)\n俯视图\n正视图\n侧视图\n1\n2\n1\n1\n2\n1\n1\n2\n2\n(A) 22π\n(B) 8π\n(C) 22\n3 π\n(D) 16\n3 π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -125,22 +160,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q06",
       "content": "为了得到函数y = 2 sin 3x 的图象, 只要把函数y = 2 sin\n(\n3x + π\n5\n)\n图象上\n所有的点\n(\n)\n(A) 向左平移π\n5 个单位长度\n(B) 向右平移π\n5 个单位长度\n(C) 向左平移π\n15 个单位长度\n(D) 向右平移π\n15 个单位长度",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q07",
       "content": "已知2a = 5, log8 3 = b, 则4a−3b =\n(\n)\n(A) 25\n(B) 5\n(C) 25\n9\n(D) 5\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q08",
       "content": "如图, 已知正三棱柱ABC −A1B1C1, AC = AA1, E, F 分别是棱BC,\nA1C1 上的点. 记EF 与AA1 所成的角为α, EF 与平面ABC 所成的角\n为β, 二面角F −BC −A 的平面角为γ, 则\n(\n)\nA\nF\nC\nB\nE\nA1\nC1\nB1\n(A) α ⩽β ⩽γ\n(B) β ⩽α ⩽γ\n(C) β ⩽γ ⩽α\n(D) α ⩽γ ⩽β",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -194,22 +251,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q09",
       "content": "已知a, b ∈R, 若对任意x ∈R, a|x −b| + |x −4| −|2x −5| ⩾0, 则(\n)\n(A) a ⩽1, b ⩾3\n(B) a ⩽1, b ⩽3\n(C) a ⩾1, b ⩾3\n(D) a ⩾1, b ⩽3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q10",
       "content": "已知数列{an} 满足a1 = 1, an+1 = an −1\n3a2\nn (n ∈N∗), 则\n(\n)\n(A) 2 < 100a100 < 5\n2\n(B) 5\n2 < 100a100 < 3\n(C) 3 < 100a100 < 7\n2\n(D) 7\n2 < 100a100 < 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q11",
       "content": "我国南宋著名数学家秦九韶, 发现了从三角形三边求面积的公式, 他把这\n种方法称为“三斜求积”, 它填补了我国传统数学的一个空白. 如果把这个方\n法写成公式, 就是S =\n�\n�\n�\n�1\n4\n[\nc2a2 −\n(c2 + a2 −b2\n2\n)2]\n, 其中a, b, c 是三角\n形的三边, S 是三角形的面积. 设某三角形的三边a =\n√\n2, b =\n√\n3, c = 2,\n则该三角形的面积S =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q12",
       "content": "已知多项式(x + 2)(x −1)4 = a0 + a1x + a2x2 + a3x3 + a4x4 + a5x5, 则\na2 =\n, a1 + a2 + a3 + a4 + a5 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q13",
       "content": "若3 sin α −sin β =\n√\n10, α + β = π\n2 , 则sin α =\n, cos 2β =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q14",
       "content": "已知函数f(x) =\n\n\n\n−x2 + 2,\nx ⩽1,\nx + 1\nx −1,\nx > 1,\n则f\n(\nf\n(1\n2\n))\n=\n; 若当\nx ∈[a, b] 时, 1 ⩽f(x) ⩽3, 则b −a 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q15",
       "content": "现有7 张卡片, 分别写上数字1, 2, 2, 3, 4, 5, 6.\n从这7 张卡片中随\n机抽取3 张, 记所抽取卡片上数字的最小值为ξ, 则P(ξ = 2) =\n,\nE(ξ) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -355,22 +466,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q16",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的左焦点为F, 过F 且斜率为\nb\n4a 的直线交双曲线于点A (x1, y1), 交双曲线的渐近线于点B (x2, y2) 且\nx1 < 0 < x2. 若|FB| = 3|FA|, 则双曲线的离心率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -378,22 +495,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q17",
       "content": "设点P 在单位圆的内接正八边形A1A2 · · · A8 的边A1A2 上, 则#      »\nPA1\n2 +\n#      »\nPA2\n2 + · · · + #      »\nPA8\n2 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -401,22 +524,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q18",
       "content": "在△ABC 中, 角A, B, C 所对的边分别为a, b, c.\n已知4a =\n√\n5c,\ncos C = 3\n5.\n(1) 求sin A 的值;\n(2) 若b = 11, 求△ABC 的面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -424,22 +553,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q19",
       "content": "如图, 已知ABCD 和CDEF 都是直角梯形, AB\nDC, DC\nEF,\nAB = 5, DC = 3, EF = 1, ∠BAD = ∠CDE = 60◦, 二面角F −DC −B\n的平面角为60◦. 设M, N 分别为AE, BC 的中点.\n(1) 证明: FN ⊥AD;\n(2) 求直线BM 与平面ADE 所成角的正弦值.\nA\nB\nC\nE\nF\nD\nN\nM\n1177",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -447,22 +582,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q20",
       "content": "已知等差数列{an} 的首项a1 = −1, 公差d > 1. 记{an} 的前n 项和为\nSn (n ∈N∗).\n(1) 若S4 −2a2a3 + 6 = 0, 求Sn;\n(2) 若对于每个n ∈N∗, 存在实数cn, 使an + cn, an+1 + 4cn, an+2 + 15cn\n成等比数列, 求d 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -470,22 +615,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q21",
       "content": "如图, 已知椭圆x2\n12 + y2 = 1. 设A, B 是椭圆上异于P(0, 1) 的两点, 且点\nQ\n(\n0, 1\n2\n)\n在线段AB 上, 直线PA, PB 分别交直线y = −1\n2x + 3 于C,\nD 两点.\n(1) 求点P 到椭圆上点的距离的最大值;\n(2) 求|CD| 的最小值.\nx\ny\nP\nD\nC\nA\nB\nQ\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -493,22 +644,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2022/2022浙江.pdf#q22",
       "content": "设函数f(x) = e\n2x + ln x (x > 0).\n(1) 求f(x) 的单调区间;\n(2) 已知a, b ∈R, 曲线y = f(x) 上不同的三点(x1, f (x1)), (x2, f (x2)),\n(x3, f (x3)) 处的切线都经过点(a, b). 证明:\n①若a > e, 则0 < b −f(a) < 1\n2\n(a\ne −1\n)\n;\n②若0 < a < e, x1 < x2 < x3, 则2\ne + e −a\n6e2\n< 1\nx1\n+ 1\nx3\n< 2\na −e −a\n6e2 .\n(注: e = 2.71828 · · · 是自然对数的底数)\n1178",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -516,11 +677,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2022/2022浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f725582d9534cc71-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 7,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

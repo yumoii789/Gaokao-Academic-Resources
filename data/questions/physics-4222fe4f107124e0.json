@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2007/2007江苏.pdf",
   "name": "2007江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 18,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 19,
+    "answerBlocks": 10,
+    "sourceAnswers": 13,
+    "sourceAnalysis": 6,
+    "reviewCount": 13,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q01",
       "content": "分子动理论较好地解释了物质的宏观热力学性质。据此可判断下列说法中错误的是（    ）\n（A）显微镜下观察到墨水中的小炭粒在不停的作无规则运动，这反映了液体分子运动的无\n规则性\n（B）分子间的相互作用力随着分子间距离的增大，一定先减小后增大\n（C）分子势能随着分子间距离的增大，可能先减小后增大\n（D）在真空、高温条件下，可以利用分子扩散向半导体材料掺入其它元素",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q02",
       "content": "2006 年美国和俄罗斯的科学家利用回旋加速器，通过（钙48）轰击（锎249）发生核反\n应，成功合成了第118 号元素，这是迄今为止门捷列夫元素周期表中原子序数最大的元素，\n实验表明，该元素的原子核先放出3 个相同的粒子x，再连续经过3 次α 衰变后，变成质量\n为282 的第112 号元素的原子核，则上述过程中的粒子x 是（    ）\n（A）中子\n（B）质子\n（C）电子\n（D）α 粒子",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q03",
       "content": "光的偏振现象说明光是横波，下列现象中不能反映光的偏振特性的是（    ）\n（A）一束自然光相继通过两个偏振片，以光束为轴旋转其中一个偏振片，透射光的强度发\n生变化\n（B）一束自然光入射到两种介质的分界面上，当反射光与折射光线之间的夹角恰好是90°\n时，反射光是偏振光\n（C）日落时分，拍摄水面下的景物，在照相机镜头前装上偏振光片可以使景象更清晰\n（D）通过手指间的缝隙观察日光灯，可以看到秋色条纹",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q04",
       "content": "μ 子与氢原子核（质子）构成的原子称为μ 氢原子\n（hydrogen muon atom），它在原子核物理的研究中有重要\n作用。图为μ 氢原子的能级示意图。假定光子能量为E 的\n一束光照射容器中大量处于n = 2 能级的μ 氢原子，μ 氢\n原子吸收光子后，发出频率为ν1、ν2、ν3、ν4、ν5 和ν6 的\n光，且频率依次增大，则E 等于（       ）\n（A）h（ν3 − ν1 ）\n（B）h（ν5 + ν6）\n（C）hν3\n（D）hν4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q05",
       "content": "如图所示，实线和虚线分别为某种波在t 时刻和t + Δt 时刻的波形曲线。B 和C 是横坐\n标分别为d 和3d 的两个质点，下列说法中正确的是（     ）\n（A）任一时刻，如果质点B 向上运动，则质点C 一定向下运动\n（B）任一时刻，如果质点B 速度为零，则质点C 的速度也为零\nO\ny\nd\n2d\n3d\n4d\n5d\n6d\n7d\nd\n2\nx\nt 时刻\nt + Δt 时刻\n−2529.6\n−632.4\n−281.1\n−158.1\n−101.2\n0\n1\n2\n3\n4\n5\n∞\nn\nE/eV\n第 2 页 共 18 页\n（C）如果波是向右传播的，则波的周期可能为\nA6\n7\nE\nAΔt\n（D）如果波是向左传播的，则波的周期可能为\nA 6\n13\nE\nAΔt",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -125,22 +160,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q005-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q06",
       "content": "如图所示，光滑水平面上放置质量分别为m 和2m 的\n四个木块，其中两个质量为m 的木块间用一不可伸长的轻\n绳相连，木块间的最大静摩擦力是μmg。现用水平拉力F\n拉其中一个质量为2m 的木块，使四个木块以同一加速度\n运动，则轻绳对m 的最大拉力为（     ）\n（A）A3\n5\nE\nAμmg\n（B）A3\n4\nE\nAμmg\n（C）A3\n2\nE\nAμmg\n（D）3μmg",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -148,22 +194,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q07",
       "content": "现代物理学认为，光和实物粒子都具有波粒二象性。下列事实中突出体现波动性的是\n（    ）\n（A）一定频率的光照射到锌板上，光的强度越大，单位时间内锌板上发射的光电子就越多\n（B）肥皂液是无色的，吹出的肥皂泡却是彩色的\n（C）质量为10−3 kg、速度为10−2 m/s 的小球，其德布罗意波长约为10−23 m，不过我们能清\n晰地观测到小球运动的轨迹\n（D）人们常利用热中子研究晶体的结构，因为热中子的德布罗意波长一晶体中原子间距大\n致相同",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q08",
       "content": "2006 年度诺贝尔物理学奖授予了两名美国科学家，以表彰他们发现了宇宙微波背景辐射\n的黑体谱形状及其温度在不同方向上的微小变化。他们的出色工作被誉为是宇宙学研究进入\n精密科学时代的起点，下列与宇宙微波背景辐射黑体谱相关的说法中正确的是（    ）\n（A）微波是指波长在10−3 m 到10 m 之间的电磁波\n（B）微波和声波一样都只能在介质中传播\n（C）黑体的热辐射实际上是电磁辐射\n（D）普朗克在研究黑体的热辐射问题中提出了能量子假说",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -194,22 +256,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q09",
       "content": "某同学欲采用如图所示的电路完成相关实验。图中电流表的量程为0.6 A，内阻约0.1 Ω；\n电压表的量程为3 V，内阻约6 kΩ；G 为小量程电流表；电源电动势约3 V，内阻较小，下\n列电路中正确的是（    ）\nm\nm\n2m\n2m\nF\n第 3 页 共 18 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -217,22 +285,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q10",
       "content": "假设太阳系中天体的密度不变，天体直径和天体之间距离都缩小到原来的一半，地球绕\n太阳公转近似为匀速圆周运动，则下列物理量变化正确的是（        ）\n（A）地球的向心力变为缩小前的一半\n（B）地球的向心力变为缩小前的\nA 1\n16\nE\n（C）地球绕太阳公转周期与缩小前的相同\n（D）地球绕太阳公转周期变为缩小前的一半",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -240,22 +319,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q11",
       "content": "如图所示，绝热气缸中间用固定栓将可无摩擦移动的导\n热隔板固定，隔板质量不计，左右两室分别充有一定量的氢\n气和氧气（视为理想气体）。初始时，两室气体的温度相等，\n氢气的压强大于氧气的压强，松开固定栓直至系统重新达到\n平衡，下列说法中正确的是（       ）\n（A）初始时氢分子的平均动能大于氧分子的平均动能\n（B）系统重新达到平衡时，氢气的内能比初始时的小\n（C）松开固定栓直至系统重新达到平衡的过程中有热量从氧气传递到氢气\n（D）松开固定栓直至系统重新达到平衡的过程中，氧气的内能先增大后减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "CD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -263,22 +348,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q12",
       "content": "（9 分）要描绘某电学元件（最大电流不超过6 mA，\n最大电压不超过7 V）的伏安特性曲线，设计电路如图，\n图中定值电阻R 为1 kΩ，用于限流；电流表量程为10\nmA，内阻约为5 Ω；电压表（未画出）量程为10 V，内\n阻约为10 kΩ；电源电动势E 为12 V，内阻不计。\n（1）实验时有两个滑动变阻器可供选择：\na、阻值0 到200 Ω，额定电流0.3 A\nb、阻值0 到20 Ω，额定电流0.5 A\n本实验应选的滑动变阻器是_______（填“a”或“b”）\n（2）正确接线后，测得数据如下表\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nU（V）\n0.00\n3.00\n6.00\n6.16\n6.28\n6.32\n6.36\n6.38\n6.39\n6.40\nI（mA）\n0.00\n0.00\n0.00\n0.06\n0.50\n1.00\n2.00\n3.00\n4.00\n5.50\nA\nV\n测定一段电阻丝（约5 Ω）的电阻\nA．\nB．\nC．\nD．\nV\nA\nR\n测定电源的电动势和内电阻（约3 Ω）\n描绘小灯泡（额定电压为2.5 V）的伏安特性曲线\nA\nV\nG\n测定电流表内阻\n氧气\n氢气\n固定栓\n绝热气缸\n导热隔板\n待测元件\nA\nM\nN\nP\nR\nO\nE\n第 4 页 共 18 页\n①根据以上数据，电压表是并联在M 与____________之间的（填“O”或“P”）\n②根据以上数据，画出该元件的伏安特性曲线。\n（3）画出待测元件两端电压UMO 随MN 间电压UMN 变化的示意图为（无需数值）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）a\n（2）①P\n②如图\n（3）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -286,22 +381,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q012-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q012-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q012-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q012-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q13",
-      "content": "（13 分）如（a）图，质量为 M 的滑块 A 放在气垫\n导轨 B 上，C 为位移传感器，它能将滑块 A 到传感器 C\n的距离数据实时传送到计算机上，经计算机处理后在屏幕\n上显示滑块 A 的位移–时间（s–t）图象和速率–时间（v–\nt）图象。整个装置置于高度可调节的斜面上，斜面的长度\n为 l、高度为 h。（取重力加速度 g = 9.8 m/s2，结果可保\n留一位有效数字）\n（1）现给滑块 A 一沿气垫导轨向上的初速度，A 的 v–\nt 图线如（b）图所示。从图线可得滑块 A 下滑时的加速\n度 a = ______m/s2，摩擦力对滑块A 运动的影响_______。（填“明显，不可忽略”或“不明\n显，可忽略”）\n（2）此装置还可用来验证牛顿第二定律。实验时通过改变______，可验证质量一定时，加\n速度与力成正比的关系；实验时通过改变______，可验证力一定时，加速度与质量成反比的\n关系。\n（3）将气垫导轨换成滑板，滑块 A 换成滑块 A′，给滑块 A′ 一沿滑板向上的初速度，A′\n的 s–t 图线如（c）图。图线不对称是由于______造成的，通过图线可求得滑板的倾角 θ =\n________（用反三角函数表示），滑块与滑板间的动摩擦因数μ = _______。\nUMO\nUMN\nC\nA\nB\nh\nl\n图（a）\n第 5 页 共 18 页\n四．计算题或推导证明题：本题共6 小题，共计90 分。解答时请写出必要的文字说明、方\n程式和重要的演算步骤。只写出最后答案的不能得分，有数值计算的题，答案中必须明确写\n出数值和单位。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（13 分）如（a）图，质量为 M 的滑块 A 放在气垫\n导轨 B 上，C 为位移传感器，它能将滑块 A 到传感器 C\n的距离数据实时传送到计算机上，经计算机处理后在屏幕\n上显示滑块 A 的位移–时间（s–t）图象和速率–时间（v–\nt）图象。整个装置置于高度可调节的斜面上，斜面的长度\n为 l、高度为 h。（取重力加速度 g = 9.8 m/s2，结果可保\n留一位有效数字）\n（1）现给滑块 A 一沿气垫导轨向上的初速度，A 的 v–\nt 图线如（b）图所示。从图线可得滑块 A 下滑时的加速\n度 a = ______m/s2，摩擦力对滑块A 运动的影响_______。（填“明显，不可忽略”或“不明\n显，可忽略”）\n（2）此装置还可用来验证牛顿第二定律。实验时通过改变______，可验证质量一定时，加\n速度与力成正比的关系；实验时通过改变______，可验证力一定时，加速度与质量成反比的\n关系。\n（3）将气垫导轨换成滑板，滑块 A 换成滑块 A′，给滑块 A′ 一沿滑板向上的初速度，A′\n的 s–t 图线如（c）图。图线不对称是由于______造成的，通过图线可求得滑板的倾角 θ =\n________（用反三角函数表示），滑块与滑板间的动摩擦因数μ = _______。\nUMO\nUMN\nC\nA\nB\nh\nl\n图（a）\n第 5 页 共 18 页",
+      "answer": "（1）6；不明显，可忽略\n（2）斜面高度h；滑块A 的质量M 及斜面的高度h，且使Mh 不变\n（3）滑动摩擦力；arcsin0.6（arcsin0.57 ~ arcsin0.64）；0.3",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -309,22 +416,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q013-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q013-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q013-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q14",
       "content": "（14 分）如图所示，巡查员站立于一空的贮液池\n边，检查池角处出液口的安全情况。已知池宽为L，\n照明灯到池底的距离为H。若保持照明光束方向不\n变，向贮液池中注入某种液体，当液面高为H/2 时，\n池底的光斑距离出液口L/4。\n（1）试求当液面高为\nA2\n3\nE\nAH 时，池底的光斑到出液口\n的距离x。\n（2）控制出液口缓慢地排出液体，使液面以v0 的速率匀速下降，试求池底的光斑移动的速\n率vx。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）解法一：由几何关系知：x\nl\nL\nh\nH\n+\n=\n由折射定律得：\n2\n2\n2\n2\nL\nl\nn\nL\nH\nl\nh\n=\n⋅\n+\n+\n代入\n2\nH\nh =\n，\n4\nL\nl =\n得：\n2\n2\n2\n2\n4\nL\nH\nn\nL\nH\n+\n=\n+\n8\n7\n6\n5\n4\n3\n2\n1\nU/V\nI/mA\n0\n7\n6\n5\n4\n3\n2\n1\n8\nUMO\nUMN\n第 8 页 共 18 页\n2\nL\nx\nh\nH\n=\n解法二：由几何关系知：x\nl\nL\nh\nH\n+\n=\n液面高度变化，折射角不变，由\n2\nH\nh =\n，\n4\nL\nl =\n得：\n2\nl\nL\nh\nH\n=\n2\nL\nx\nh\nH\n=\n解得：x = AL\n3\nE\n（2）vx = A L\n2H\nE\nAvh",
+      "analysis": "(1)几何关系如图所示，由几何关系知\n𝑥𝑥+𝑙𝑙\nℎ=\n𝐿𝐿\n𝐻𝐻①，\nℎ=\n𝐻𝐻\n2时，𝑥𝑥=\n𝐿𝐿\n4，\n故tan𝛾𝛾=\n𝑙𝑙\nℎ=\n𝐿𝐿\n4\n𝐻𝐻\n2\n=\n𝐿𝐿\n2𝐻𝐻②，\n因为液面高度变化，折射角𝛾𝛾不变，故由①式得\n𝑥𝑥+𝑙𝑙\nℎ=\n𝑥𝑥\nℎ+\n𝑙𝑙\nℎ=\n𝐿𝐿\n𝐻𝐻③，\n②代入③得𝑥𝑥=\n𝐿𝐿\n2𝐻𝐻ℎ，\n将ℎ=\n2\n3 𝐻𝐻代入④中得𝑥𝑥=\n𝐿𝐿\n3.\n(2)因为Δ𝑥𝑥=\n𝐿𝐿\n2𝐻𝐻Δℎ，所以𝑣𝑣𝑥𝑥=\n𝐿𝐿\n2𝐻𝐻· 𝑣𝑣ℎ.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -332,22 +450,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q014-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q014-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q15",
       "content": "（14 分）直升机沿水平方向匀速飞往\n水源取水灭火，悬挂着m = 500 kg 空箱的\n悬索与竖直方向的夹角θ1  = 45°。直升机\n取水后飞往火场，加速度沿水平方向，大\n小稳定在a = 1.5 m/s2 时，悬索与竖直方向\n的夹角θ2 = 14°。如果空气阻力大小不变，\n且忽略悬索的质量，试求水箱中水的质量\nM。（取重力加速度g = 10 m/s2；sin14° = 0.242；cos14° = 0.970）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：直升机取水，水箱受力平衡：\n1\n1\nsin\n0\nT\nf\nθ −\n=\n①\n1\n1\ncos\n0\nT\nmg\nθ −\n=\n②\n由①②解得：f = mgtanθ1\n③\n直升机返回，由牛顿第二定律得：\n2\n2\nsin\n(\n)\nT\nf\nM\nm a\nθ −\n=\n+\n④\n2\n2\ncos\n(\n)\n0\nT\nM\nm\nθ −\n+\n=\n⑤\n解得水箱中水的质量为：M = 4.5×103 kg\n第 9 页 共 18 页",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -355,22 +481,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q16",
       "content": "（15 分）如图所示，带电量分别为4q 和 − q 的小球\nA、B 固定在水平放置的光滑绝缘细杆上，相距为d。若杆\n上套一带电小环C，带电体A、B 和C 均可视为点电荷。\n（1）求小环C 的平衡位置。\n（2）若小环C 带电量为q，将小环拉离平衡位置一小位移x（|x|≪d）后静止释放，试判断\n小环C 能否回到平衡位置。（回答“能”或“不能”即可）\n（3）若小环C 带电量为－q，将小环拉离平衡位置一小位移x（|x|≪d）后静止释放，试证\n明小环C 将作简谐运动。\nB\nd\n− q\n4q\nA\nθ1\nθ2\n火场\n水源\n3.0\n2.5\n2.0\n1.5\n1.0\n0.5\n0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1\nv/(ms−1)\nt/s\n图 b\n0.9\n0.8\n0.7\n0.6\n0.5\n0.3\n0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0\ns/m\nt/s\n0.4\n0.2\n0.1\n图 c\nH\nH/2\nL\nL/4\n出液口\n第 6 页 共 18 页\n（提示：当α≪1 时，则\nA\n1\n（1＋α）n\nE\nA≈1 − nα）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设C 在AB 连线的延长线上距离B 为l 处达到平衡，带电量为Q。由库仑定律得：\n2\nqQ\nF\nk r\n=\n由平衡条件得：\n2\n2\n4\n0\n(\n)\nC\nkqQ\nkqQ\nF\nd\nl\nl\n−\n=\n+\n=\n+\n解得：1\n1\n3\nl\nd\n= −\n（舍去）；l2 = d\n所以平衡位置为：l = d\n（2）不能\n（3）环C 带电 − q，平衡位置不变，拉离平衡位置一小位移 x 后，C 受力为：\n𝐹𝐹𝐶𝐶=\n−4𝑘𝑘𝑞𝑞2\n(2𝑑𝑑+𝑥𝑥)2 +\n𝑘𝑘𝑞𝑞2\n(𝑑𝑑+𝑥𝑥)2,\n利用近似关系化简得：FC = －Akq2\nd3\nE\nAx\n所以小环C 将做简谐运动。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -378,22 +508,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q016-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q016-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q016-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q17",
       "content": "（15 分）磁谱仪是测量α 能谱的重要仪器。\n磁谱仪的工作原理如图所示，放射源S 发出质量\n为m、电量为q 的α 粒子沿垂直磁场方向进入磁\n感应强度为B 的匀强磁场，被限束光栏Q 限制在\n2φ 的小角度内，α 粒子经磁场偏转后打到与束光\n栏平行的感光片P 上。（重力影响不计）\n（1）若能量在E～E + ΔE（＞0，且ΔE≪E）范围\n内的α 粒子均垂直于限束光栏的方向进入磁场。\n试求这些α 粒子打在胶片上的范围Δx1。\n（2）实际上，限束光栏有一定的宽度，α 粒子将在2φ 角内进入磁场。试求能量均为E 的α\n粒子打到感光胶片上的范围Δx2。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：设α 粒子以速度v 进入磁场，打在胶片上的位置\n距S 的距离为x\n圆周运动\n2v\nqvB\nm R\n=\nα 粒子的动能\n2\n1\n2\nE\nmv\n=\n且  x = 2R\n解得：\n2 2mE\nx\nqB\n=\n由上式可得：Δx1≈A 2mE\nEqBE\nE\nAΔE\n（2）动能为E 的α 粒子沿±φ 角入射，轨道半径相同，\n设为R\n圆周运动：\n2v\nqvB\nm R\n=\nα 粒子的动能\n2\n1\n2\nE\nmv\n=\n由几何关系得\nΔx2 =\n2\n2\n2 2\n4 2\n2\n2 cos\n(1 cos )\nsin 2\nmE\nmE\nx\nR\nR\nqB\nqB\nϕ\nϕ\nϕ\n∆\n=\n−\n=\n−\n=\n = A4 2mE\nEqB\nE\nAsin2\nAφ\n2\nE\n17. (1) √2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞𝑞𝑞Δ𝐸𝐸；(2)\n4√2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞\nsin2 𝜑𝜑\n2.\n第 10 页 共 18 页\n(1)设𝛼𝛼粒子以速度𝑣𝑣进入磁场，打在胶片上的位置距𝑆𝑆的距离为𝑥𝑥,由洛伦兹力提\n供向心力得\n𝑞𝑞𝑞𝑞𝑞𝑞= 𝑚𝑚\n𝑣𝑣2\n𝑅𝑅①，\n𝛼𝛼粒子的动能为\n𝐸𝐸=\n1\n2 𝑚𝑚𝑣𝑣2②，\n又𝑥𝑥= 2𝑅𝑅③，\n由①②③式可得𝑥𝑥=\n2√2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞\n④，\n由④可得Δ𝑥𝑥1 =\n2�2𝑚𝑚(𝐸𝐸+Δ𝐸𝐸)\n𝑞𝑞𝑞𝑞\n−\n2√2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞，\n化简可得Δ𝑥𝑥1 ≈√2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞𝑞𝑞Δ𝐸𝐸.\n(2)动能为𝐸𝐸的𝛼𝛼粒子沿±𝜑𝜑角入射，轨迹半径相同，设为𝑅𝑅，由洛伦兹力提供向心力得\n𝑞𝑞𝑞𝑞𝑞𝑞= 𝑚𝑚\n𝑣𝑣2\n𝑅𝑅，\n𝛼𝛼粒子的动能为\n𝐸𝐸=\n1\n2 𝑚𝑚𝑣𝑣2，\n由几何关系得\nΔ𝑥𝑥2 = 2𝑅𝑅−2𝑅𝑅cos𝜑𝜑=\n4√2𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞\nsin2 𝜑𝜑\n2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -401,22 +540,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q017-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q017-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q18",
       "content": "（16 分）如图所示，空间等间距分\n布着水平方向的条形匀强磁场，竖直方\n向磁场区域足够长，磁感应强度B = 1\nT，每一条形磁场区域的宽度及相邻条\n形磁场区域的间距均为d = 0.5 m，现有\n一边长l = 0.2 m、质量m = 0.1 kg、电\n阻R = 0.1 Ω 的正方形线框MNOP 以v0\n= 7 m/s 的初速从左侧磁场边缘水平进\n入磁场，求：\n（1）线框MN 边刚进入磁场时受到安培力的大小F；\n（2）线框从开始进入磁场到竖直下落的过程中产生的焦耳热Q；\n（3）线框能穿过的完整条形磁场区域的个数n。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）线框MN 边刚进入磁场时有：\nF = BIl = AB2l2v0\nR\nE\nA= 2.8 N\n（2）设线框竖直下落H 时，速度为vH\n由能量守恒得：mgH + A1\n2\nE\nAmv02 = Q + A1\n2\nE\nAmvH2\n自由落体规律：vH2 = 2gH\n第 11 页 共 18 页\n解得：Q = A1\n2\nE\nAmv02 = 2.45J\n（3）解法一：\n只有在线框进入和穿出条形磁场区域时，才产生感应电动势，线框部分进入磁场区域x 时\n有：\n2 2\nBlv\nB l\nF\nBlI\nBl\nv\nR\nR\n=\n=\n=\n在t→Δt 时间内，由动量定理：－FΔt = mΔv\n求和：\n2 2\n2 2\n0\nB l\nB l\nv t\nx\nmv\nR\nR\n∆=\n∆=\n∑\n∑\n解得：\n2 2\n0\nB l x\nmv\nR\n=\n穿过条形磁场区域的个数为：\n4.4\n2\nx\nn\nl\n=\n≈\n可穿过4 个完整条形磁场区域\n解法二：\n线框穿过第1 个条形磁场左边界过程中：\n2 /\nBl\nt\nF\nBlI\nBl\nR\n∆\n=\n=\n根据动量定理：\n1\n0\nF t\nmv\nmv\n−∆=\n−\n解得：\n2 3\n1\n0\nB l\nmv\nmv\nR\n−\n=\n−\n同理线框穿过第1 个条形磁场右边界过程中有：\n1\n2 3\n/\n1\nB l\nmv\nmv\nR\n−\n=\n−\n所以线框穿过第1 个条形磁场过程中有：\n1\n2 3\n/\n0\n2B l\nmv\nmv\nR\n−\n=\n−\n设线框能穿过n 个条形磁场，则有：\n2 3\n0\n2\n0\nB l\nn\nmv\nR\n−\n=\n−\n解得：\n0\n2 3\n4.4\n2\nmv R\nn\nB l\n=\n≈\n可穿过4 个完整条形磁场区域。\n18. (1)2.8N；(2)2.45J；(3)4.\n(1)线框𝑀𝑀𝑀𝑀边刚开始进人磁场区域时，切割产生的感应电动势为\n第 12 页 共 18 页\n𝐸𝐸= 𝐵𝐵𝐵𝐵𝑣𝑣0①,\n感应电流为\n𝐼𝐼=\n𝐸𝐸\n𝑅𝑅②，\n线框受到的安培力为\n𝐹𝐹= 𝐵𝐵𝐵𝐵𝐵𝐵③，\n由①②③解得𝐹𝐹= 2.8N.\n(2)设线框竖直下落时，线框下落了𝐻𝐻，速度为𝑣𝑣𝐻𝐻，由能量守恒得\n𝑚𝑚𝑚𝑚𝑚𝑚+\n1\n2 𝑚𝑚𝑣𝑣0\n2 = 𝑄𝑄+\n1\n2𝑚𝑚𝑣𝑣𝐻𝐻\n2，\n由自由落体规律得\n𝑣𝑣𝐻𝐻\n2 = 2𝑔𝑔𝑔𝑔，\n解得𝑄𝑄=\n1\n2 𝑚𝑚𝑣𝑣0\n2 = 2.45J.\n(3)解法一：只有在线框进入和穿出条形磁场区域时，才产生感应电动势,线框部分进入\n磁场区域𝑥𝑥时，产生的感应电动势为\n𝐸𝐸= 𝐵𝐵𝐵𝐵𝐵𝐵，\n感应电流为\n𝐼𝐼=\n𝐸𝐸\n𝑅𝑅，\n线框受到的安培力为\n𝐹𝐹= 𝐵𝐵𝐵𝐵𝐵𝐵\n解得𝐹𝐹=\n𝐵𝐵2𝑙𝑙2\n𝑅𝑅𝑣𝑣，\n在𝑡𝑡~𝑡𝑡+ Δ𝑡𝑡时间内，由动量定量得\n−𝐹𝐹Δ𝑡𝑡= 𝑚𝑚Δ𝑣𝑣，\n求和∑\n𝐵𝐵2𝑙𝑙2\n𝑅𝑅𝑣𝑣Δ𝑡𝑡= ∑\n𝐵𝐵2𝑙𝑙2\n𝑅𝑅Δ𝑥𝑥= 𝑚𝑚𝑣𝑣0，\n解得\n𝐵𝐵2𝑙𝑙2\n𝑅𝑅𝑥𝑥= 𝑚𝑚𝑣𝑣0，\n穿过条形磁场区域的个数为𝑛𝑛=\n𝑥𝑥\n2𝑙𝑙，\n解得𝑛𝑛≈4.4，\n可穿过4 个完整条形磁场区域\n解法二：线框穿过第1 个条形磁场左边界过程中，产生的平均感应电动势为\n𝐸𝐸=\n𝐵𝐵𝑙𝑙2\nΔ𝑡𝑡，\n平均感应电流为\n𝐼𝐼=\n𝐸𝐸\n𝑅𝑅，\n线框受到的平均安培力为\n𝐹𝐹= 𝐵𝐵𝐼𝐼𝑙𝑙\n由动量定理得\n−𝐹𝐹Δ𝑡𝑡= 𝑚𝑚𝑣𝑣1 −𝑚𝑚𝑣𝑣0，\n第 13 页 共 18 页\n解得−\n𝐵𝐵2𝑙𝑙3\n𝑅𝑅\n= 𝑚𝑚𝑣𝑣1 −𝑚𝑚𝑣𝑣0，\n同理线框穿过第1 个条形磁场右边界过程中，有\n−𝐵𝐵2𝑙𝑙3\n𝑅𝑅\n= 𝑚𝑚𝑣𝑣1\n′ −𝑚𝑚𝑣𝑣1，\n所以线框穿过第1 个条形磁场过程中有\n−\n2𝐵𝐵2𝑙𝑙3\n𝑅𝑅\n= 𝑚𝑚𝑣𝑣1\n′ −𝑚𝑚𝑣𝑣0\n设线框能穿过𝑛𝑛个条形磁场，则有\n−𝑛𝑛\n2𝐵𝐵2𝑙𝑙3\n𝑅𝑅\n= 0 −𝑚𝑚𝑣𝑣0，\n解得𝑛𝑛=\n𝑚𝑚𝑣𝑣0𝑅𝑅\n2𝐵𝐵2𝑙𝑙3 ≈4.4，\n可穿过4 个完整条形磁场区域.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -424,22 +571,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q018-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007江苏.pdf#q19",
       "content": "（16 分）如图所示，一轻绳吊着粗细均匀的棒，棒下端离地面高H，上端套着一\n个细环。棒和环的质量均为m，相互间最大静摩擦力等于滑动摩擦力kmg（k > 1）。\n断开轻绳，棒和环自由下落。假设棒足够长，与地面发生碰撞时，触地时间极短，无\n动能损失。棒在整个运动过程中始终保持竖直，空气阻力不计。求：\n（1）棒第一次与地面碰撞弹起上升过程中，环的加速度；\n（2）从断开轻绳到棒与地面第二次碰撞的瞬间，棒运动的路程S；\n（3）从断开轻绳到棒和环都静止，摩擦力对环及棒做的总功W。\nS\nP\nB\nφ\nx\nφ\nQ\nd\nd\nd\nd\nd\nd\nd\nd\nd\nv0\nP\nO\nM\nN\nH\n棒\n环\n第 7 页 共 18 页",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）设棒第一次上升过程中，环的加速度为a 环，由牛顿第二定律得：\nkmg − mg = ma 环\n解得：a 环 = （k − 1）g，方向竖直向上\n（2）设棒第一次落地的速度大小为v1\n由机械能守恒得：\n2\n1\n1 2\n2\n2 mv\nmgH\n=\n解得：\n1\n2\nv\ngH\n=\n设棒弹起后的加速度为a 棒，由牛顿第二定律得：\na 棒 = −（k + 1）g\n棒第一次弹起的最大高度为：\n2\n1\n1\n2\nv\nH\na\n=\n棒\n解得：\n1\n1\nH\nH\nk\n=\n+\n棒运动的路程为：S = H + 2H1 = Ak＋3\nk＋1\nE H\n（3）解法一：\n棒第一次弹起经过t1 时间，与环达到相同速度v/1\n环的速度：v/1 = －v1 + a 环t1\n棒的速度：v/1 = v1 + a 棒t1\n环的位移：\n2\n1 1\n1\n1\n1\n2\nh\nv t\na t\n= −\n+\n环\n环\n棒的位移：\n2\n1 1\n1\n1\n1\n2\nh\nv t\na t\n=\n+\n棒\n棒\n环第一次相对棒的位移为：\n1\n1\n1\n2H\nx\nh\nh\nk\n=\n−\n= −\n环\n棒\n第 14 页 共 18 页\n棒环一起下落至地：\n2\n2\n/\n2\n1\n1\n2\nv\nv\ngh\n−\n=\n棒\n解得：\n2\n2gH\nv\nk\n=\n同理，环第二次相对棒的位移为\n2\n2\n2H\nx\nh\nh\nk\n=\n−\n= −\n环2\n棒2\n……\n2\nn\nn\nH\nx\nk\n= −\n环相对棒的总位移为：x = x1 + x2 + …… + xn\n摩擦力对棒及环做的总功为：\nW = kmgx = －2kmgH/（k－1）\n解法二：\n设环相对棒滑动距离为l\n根据能量守恒mgH + mg（H + l） = kmgl\n摩擦力对棒及环做的总功为：W = －kmgl\n解得：W = －A2kmgH\nk－1\nE\n19. (1)(𝑘𝑘−1)𝑔𝑔，方向竖直向上；(2)\n𝑘𝑘+3\n𝑘𝑘+1 𝐻𝐻；(3) −\n2𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘\n𝑘𝑘−1 .\n(1)设棒第一次上升过程中，环的加速度为𝑎𝑎环，环受合力为\n𝐹𝐹环= 𝑘𝑘𝑘𝑘𝑘𝑘−𝑚𝑚𝑚𝑚①，\n由牛顿第二定律得\n𝐹𝐹环= 𝑚𝑚𝑎𝑎环②，\n由①②得𝑎𝑎环= (𝑘𝑘−1)𝑔𝑔，方向竖直向上.\n(2)设以地面为零势能面，向上为正方向，棒第一次落地的速度大小为𝑣𝑣1，由机械能守\n恒得\n1\n2 2𝑚𝑚𝑣𝑣1\n2 = 2𝑚𝑚𝑚𝑚𝑚𝑚，\n解得𝑣𝑣1 = �2𝑔𝑔𝑔𝑔，\n设棒弹起后的加速度𝑎𝑎棒，由牛顿第二定律得\n𝑎𝑎棒= −(𝑘𝑘+ 1)𝑔𝑔，\n棒第一次弹起的最大高度为\n𝐻𝐻1 = −\n𝑣𝑣12\n2𝑎𝑎棒\n，\n解得𝐻𝐻1 =\n𝐻𝐻\n𝑘𝑘+1，\n第 15 页 共 18 页\n棒运动的路程为𝑠𝑠= 𝐻𝐻+ 2𝐻𝐻1 =\n𝑘𝑘+3\n𝑘𝑘+1 𝐻𝐻.\n(3)解法一：棒第一次弹起经过的时间为𝑡𝑡1，与环达到相同速度𝑣𝑣1\n′，环的速度为\n𝑣𝑣1\n′ = −𝑣𝑣1 + 𝑎𝑎环𝑡𝑡1，\n棒的速度为\n𝑣𝑣1\n′ = 𝑣𝑣1 + 𝑎𝑎棒𝑡𝑡1，\n环的位移为\nℎ环1 = −𝑣𝑣1𝑡𝑡1 +\n1\n2 𝑎𝑎环𝑡𝑡1\n2，\n棒的位移ℎ棒1 = 𝑣𝑣1𝑡𝑡1 +\n1\n2 𝑎𝑎棒𝑡𝑡1\n2，\n又𝑥𝑥1 = ℎ环1 −ℎ棒1，\n解得𝑥𝑥1 = −\n2𝐻𝐻\n𝑘𝑘，\n棒环一起下落至地时，有\n𝑣𝑣2\n2 −𝑣𝑣1\n′2 = 2𝑔𝑔ℎ棒1，\n解得𝑣𝑣2 = �\n2𝑔𝑔𝑔𝑔\n𝑘𝑘，\n同理，环第二次相对棒的位移为\n𝑥𝑥2 = ℎ环2 −ℎ棒2 = −\n2𝐻𝐻\n𝑘𝑘2，\n…\n同理，环第𝑛𝑛次相对棒的位移为\n𝑥𝑥𝑛𝑛= −\n2𝐻𝐻\n𝑘𝑘𝑛𝑛，\n环相对棒的总位移为\n𝑥𝑥= 𝑥𝑥1 + 𝑥𝑥2 + ⋯+ 𝑥𝑥𝑛𝑛，\n摩擦力对棒及环做的总功为\n𝑊𝑊= 𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘，\n解得𝑊𝑊= −\n2𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘\n𝑘𝑘−1 .\n解法二：设环相对棒滑动距离为𝑙𝑙，由能量守恒得\n𝑚𝑚𝑚𝑚𝑚𝑚+ 𝑚𝑚𝑚𝑚(𝐻𝐻+ 𝑙𝑙) = 𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘，\n摩擦力对棒及环做的总功为\n𝑊𝑊= −𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘，\n联立解得𝑊𝑊= −\n2𝑘𝑘𝑘𝑘𝑘𝑘𝑘𝑘\n𝑘𝑘−1 .\n第 16 页 共 18 页\n解析\n1．B\n墨水中的小炭粒做布朗运动，反映了液体分子做无规则运动，故A 正确；分子间\n的相互作用力表现为斥力时，分子间距离越大，分子力越小；当分子间的作用力表现为引力，\n分子间的距离由最小开始变大时，分子间作用力先增大，后减小，故C 正确B 错误；由于\n分子是做永不停息的无规则运动的，高温情况下，分子能很快地扩散到其他材料中，故D 正\n确.\n2．A\n由钙48与锏249合成的第118号元素质量数是297；发生3 次𝛼𝛼衰变,质量数少12核\n电荷数少了6，可见，先放出的三个粒子电荷数是0，质量数是1，是中子，故A 正确.\n3．D\n通过手指的缝隙观察日光灯，看到彩色条纹，是光的衍射现象，故D 错误.\n4．C\nμ氢原子吸收某频率为𝜈𝜈的光子后，跃迁到第𝑛𝑛能级，由于\n能发出6 种光子，说明𝑛𝑛= 4，从𝑛𝑛= 4跃迁到各个较低能级上放出\n的光子的频率如图所示，可知，光子的能量是𝐸𝐸= ℎ𝜈𝜈3，故C 正确.\n5．C\n把实线波形回左平移𝑑𝑑，并利用波的传播方向与质点振动\n方向之间的关系，能判断出𝐵𝐵、𝐶𝐶的振动方向可能都向上，故A 错误；把波向左平移\n𝑑𝑑\n4，质点\n𝐵𝐵的速度为零，质点𝐶𝐶的速度不为零，故B 错误；波向右传播时，向前传播的距离是𝑥𝑥=\n𝑑𝑑\n2 +\n3𝑑𝑑𝑑𝑑，(𝑛𝑛= 0，1，2，…)，由𝑣𝑣=\n𝜆𝜆\n𝑇𝑇=\nΔ𝑥𝑥\nΔ𝑡𝑡，𝑇𝑇=\n𝜆𝜆Δ𝑡𝑡\nΔ𝑥𝑥=\n3𝑑𝑑Δ𝑡𝑡\n�𝑑𝑑\n2+3𝑑𝑑𝑑𝑑�可知，波的周期可能为\n6\n7 Δ𝑡𝑡，故\nC 正确；如果波向左传播，向前传播的距离是𝑥𝑥=\n5𝑑𝑑\n2 + 3𝑑𝑑𝑑𝑑, (𝑛𝑛= 0,1,2, … )，由𝑣𝑣=\n𝜆𝜆\n𝑇𝑇=\nΔ𝑥𝑥\nΔ𝑡𝑡，\n𝑇𝑇=\n𝜆𝜆Δ𝑡𝑡\nΔ𝑥𝑥=\n3𝑑𝑑Δ𝑡𝑡\n�5𝑑𝑑\n2 +3𝑑𝑑𝑑𝑑�可知，波的周期不可能是\n6\n13 Δ𝑡𝑡，故D 错误.\n6．B\n对四个木块组成的整体受力分析，设整体加速度为𝑎𝑎，水平方向受拉力𝐹𝐹的作用，\n𝐹𝐹= 6𝑚𝑚𝑚𝑚；如果对左边的两个木块组成的整体受力分析，水平方向只受拉力𝑇𝑇，𝑇𝑇= 3𝑚𝑚𝑚𝑚=\n𝐹𝐹\n2；对左边质量2𝑚𝑚的木块受力分析，水平方向只受静摩擦力作用，𝑓𝑓= 2𝑚𝑚𝑚𝑚；对除右边质量\n2𝑚𝑚以外的三个木块组成的整体受力分析，水平方向只受静摩擦力作用，由𝑓𝑓= 4𝑚𝑚𝑚𝑚，所以，\n这时整体受到的静摩擦力最大, 𝑓𝑓= 𝜇𝜇𝜇𝜇𝜇𝜇，𝑎𝑎=\n𝜇𝜇𝜇𝜇\n4 ，𝑇𝑇=\n3\n4𝜇𝜇𝜇𝜇𝜇𝜇，故B 正确，\n7．BD\n第 17 页 共 18 页\n光子照到锌板上，发生光电效应，说明光有粒子性，故A 错误；白光在肥皂泡上发\n生薄膜干涉时，会出现彩色条纹，光的干涉现象说明了光有波动性，故B 正确；由于实物的\n波长很小，波动性不明显，表现为粒子性，所以能看到小球的轨迹，故C 错误；用热中子研\n究晶体结构，其实是通过中子的衍射来“观察”晶体的，是利用中子的波动性，故D 正确.\n8．ACD\n微波的波长范围是1mm到10m，故A 正确；微波能在真空中传播，故B 错误；黑\n体热辐射实际上是电磁辐射，故C 正确；普朗克在研究黑体的热辐射问题时提出了能量子\n假说，故D 正确.\n9．AB\n电路AC测量的是相对较小的电阻，用安培表外接法是恰当的，A 图中滑动变阻器用\n限流接法也符合实验要求，故A 正确；C 图中电路要描述小灯泡的伏安曲线，需要在从零开\n始的较大范围内调节电压，故C 错误；B 图是测定电源电动势和内电阻的电路是正确的，故\nB 正确；D 图中变阻箱与滑动变阻器的位置颠倒，故D 错误.\n10．BC\n地球质量𝑚𝑚= 𝜌𝜌1 ·\n4\n3 π𝑅𝑅1\n3，太阳质量𝑀𝑀= 𝜌𝜌2 ·\n4\n3 π𝑅𝑅2\n3,由万有引力定律得𝐹𝐹万= 𝐺𝐺\n𝑀𝑀𝑀𝑀\n𝑟𝑟2 =\n16π2𝐺𝐺𝜌𝜌1𝜌𝜌2𝑅𝑅13𝑅𝑅23\n9𝑟𝑟2\n，地球受到的万有引力等于向心力，当天体直径和距离𝑟𝑟缩小一半时，向心力变\n为原来的\n1\n16，故B 正确A 错误；又𝐺𝐺\n𝑀𝑀𝑀𝑀\n𝑟𝑟2 = 𝑚𝑚\n4π2\n𝑇𝑇2 𝑟𝑟，解得𝑇𝑇=\n4π2𝑟𝑟3\n𝐺𝐺𝐺𝐺=\n4π2𝑟𝑟3\n𝐺𝐺𝜌𝜌2⋅4\n3π𝑅𝑅2\n3，当天体直径和\n距离𝑟𝑟缩小一半时，𝑇𝑇不变，故C 正确D 错误.\n11．CD\n温度是分子平均动能大小的标志，初始时，氢气和氧气的温度相同，分子平均动能\n相同，故A 错误；气体与气缸外部没有热传递和其他能量交换，气缸内气体内能不会变化，\n故B 错误；在刚松开固定栓时，氢气膨胀，对氧气做功，氢气内能减小，氢气温度降低，氧\n气内能增加，氧气温度升高；由于隔板是导热的，热量从氧气传递到氢气，直至温度相同，\n氧气的内能又减小，故CD 正确.\n12．\n(1)选择滑动变阻器首先要考虑安全，如果选用b滑动变阻器，滑动变阻中的电\n流将超过0.5A的额定电流，因此不合适，故选a.\n(2)从表格数据可以看出，元件电阻在1000Ω以上，相对电表内阻是大电阻，电压表分流\n作用明显，应接𝑀𝑀𝑀𝑀之间.\n(3)可以计算出𝑀𝑀𝑀𝑀之间的电压分别是0.00V，3.00V，6.00V，6.22V，6.78V，7.32V，8.36V，\n9.38V，10.39V，11.90V，通过粗略描点可以得到如图所示的图象.\n13．(1)6；不明显，可忽略；(2)斜面高度ℎ；滑块𝐴𝐴的质量𝑀𝑀及斜面的高度ℎ，且使𝑀𝑀ℎ不变；\n(3)滑动摩擦力；arcsin0.6(arcsin0.57~arcsin0.64都算对)；\n0.3(0.2~0.4都算对).\n(1)从图象可以看出，滑块上滑和下滑过程中的加速度基本相等，所以摩擦力对滑\n块的运动影响不明显，可以忽略。根据加速度的定义式可以得出 𝑎𝑎=\nΔ𝑣𝑣\nΔ𝑡𝑡=\n2.9\n0.48 m/s2 = 6m/s2；\n第 18 页 共 18 页\n（2）牛顿第二定律研究的是加速度与合外力和质量的关系.当质量一定时，可以改变力的大\n小，当斜面高度不同时,滑块受到的力不同,可以探究加速度与合外力的关系.由于滑块下滑加\n速的力是由重力沿斜面向下的分力提供,所以要保证向下的分力不变,应该使𝑀𝑀𝑀𝑀⋅\nℎ\n𝑙𝑙不变,所以\n应该调节滑块𝐴𝐴的质量𝑀𝑀及斜面的高度ℎ,且使𝑀𝑀ℎ不变.\n（3）滑板与滑块间的滑动摩擦力比较大，导致图象成拋物线形.从图上可以读出，物体沿斜\n面向上滑动时，加速度 𝑎𝑎1 = 𝑔𝑔sin𝜃𝜃+ 𝜇𝜇𝜇𝜇cos𝜃𝜃，由运动学公式得𝑠𝑠1 =\n1\n2𝑎𝑎1𝑡𝑡1\n2，𝑠𝑠1 = 0.81m −\n0.20m，𝑡𝑡1 = 0.4s，物体沿斜面向下滑动时，加速度𝑎𝑎2 = 𝑔𝑔sin𝜃𝜃−𝜇𝜇𝜇𝜇cos𝜃𝜃，由运动学公式，\n𝑠𝑠2 =\n1\n2 𝑎𝑎2𝑡𝑡2\n2，𝑠𝑠2 = 0.84m −0.20m，𝑡𝑡2 = 0.6s，由上面的关系可以解出arcsin𝜃𝜃= 0.6,𝜇𝜇= 0.3.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -447,11 +606,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007江苏.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q019-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q019-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q019-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4222fe4f107124e0-q019-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 28,
+    "answerGraphics": 6,
+    "assigned": 22,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

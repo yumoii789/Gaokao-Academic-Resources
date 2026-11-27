@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009北京理综.pdf",
   "name": "2009北京理综",
   "track": "standard",
@@ -15,41 +16,376 @@
   "textPages": 11,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 12,
+    "sourceAnalysis": 12,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009北京理综.pdf#q01",
-      "content": "0 10\n3 0.4\nE\nV\nV\n−\n−\n×\n×\n×\n=\n=\n×\n×\n（2）能使仪表显示的流量变为正值的方法简便，合理即可，如：改变通电线圈中电流的方\n向，是磁场B 反向，或将传感器输出端对调接入显示仪表。\n（3）传感器的显示仪表构成闭合电路，有闭合电路欧姆定律\nE\nI\nR\nr\n=\n+\n( /\n)\nRE\nE\nU\nIR\nR\nr\nI\nr R\n=\n=\n=\n+\n+\n        ③\n输入显示仪表是a、c 间的电压U，流量示数和U 一一对应， E 与液体电阻率无关，而r 随\n电阻率的变化而变化，由③式可看出， r 变化相应的U 也随之变化。在实际流量不变的情\n况下，仪表显示的流量示数会随a、c 间的电压U 的变化而变化，增大R，使R ? r，则U≈E,\n这样就可以降低液体电阻率的变化对显示仪表流量示数的影响。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2009,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
-        "page": 8,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q02",
-      "content": "（20 分）\n（1）如图1 所示，ABC 为一固定在竖直平\n面内的光滑轨道，BC 段水平，AB 段与BC\n段平滑连接。质量为m1 的小球从高为h 处\n由静止开始沿轨道下滑，与静止在轨道BC\n段上质量为m2 的小球发生碰撞，碰撞前后\n两球的运动方向处于同一水平线上，且在碰\n撞过程中无机械能损失，求碰撞后小球m2 的速度大小v2。\n（2）碰撞过程中的能量传递规律在物理学中有着广泛的应用。为了探究这一规律，我们采\n用多球依次碰撞、碰撞前后速度在同一直线上、且无机械能损失的简化模型。如图2 所示，\n在固定光滑水平直轨道上，质量分别为m1、m2、……mn－1、mn、……的若干个球沿直线相\n间排列，给第一个球初动能Ek1，从而引起各球的依次碰撞。定义其中第n 个球经过一次碰\n撞后获得的动能Ekn 与Ek1 之比为第一个球对第n 个球的动能传递系数k1n。\na．求k1n；\nb．若m1 = 4 m0，m3 = 3 m0，m0 为确定的已知量，求m2 为何值时，k13 最大。\n答案：（1）\n1\n1\n2\n2\n2\nm\ngh\nm\nm\n+\n。\nm1\nm2\nm3\nmn-1\nmn\n……\n……\n图2\nm1\nm2\nA\nB\nC\nh\n图1\n9 / 12\n（2）a）\n1\n2\n2\n2\n1\n2\n3\n1\n1\n2\n2\n2\n1\n2\n2\n3\n1\n4\n(\n) (\n)\n(\n)\nn\nn\nn\nn\nn\nn\nm m m\nm\nm\nk\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n+\n+\n+\nL\nL\n；b）\n2\n0\n13\n2\nm\nm\nk\n=\n时，\n最大。\n【解析】（1）设碰撞前的速度为，根据机械能守恒定律\n2\n1\n1 10\n1\n2\nm gh\nm v\n=\n          ①\n设碰撞后m1 与m2 的速度分别为v1 和v2，根据动量守恒定律\n1 10\n1 1\n2\n2\nm v\nm v\nm v\n=\n+\n          ②\n由于碰撞过程中无机械能损失\n2\n2\n2\n1 10\n1 1\n2\n2\n1\n1\n1\n2\n2\n2\nm v\nm v\nm v\n=\n+\n      ③\n②、③式联立解得\n1 10\n2\n1\n2\n2m v\nv\nm\nm\n=\n+\n               ④\n   将①代入得④\n1\n2\n1\n2\n2\n2\nm\ngh\nv\nm\nm\n=\n+\n（2）a 由④式，考虑到\n1\n2\n2\n1\n10\n2\n2\n2\n1\n1\n2\n2\nK\nK\nE\nm v\nE\nm v\n=\n=\n和\n得\n根据动能传递系数的定义，对于1、2 两球\n2\n1\n2\n12\n2\n1\n1\n2\n4\n(\n)\nk\nk\nE\nm m\nk\nE\nm\nm\n=\n=\n+\n    ⑤\n同理可得，球m2 和球m3 碰撞后，动能传递系数k13 应为\n3\n2\n3\n2\n3\n1\n2\n13\n2\n2\n1\n1\n2\n1\n2\n2\n3\n4\n4\n(\n)\n(\n)\nk\nk\nk\nk\nk\nk\nE\nE\nE\nm m\nm m\nk\nE\nE\nE\nm\nm\nm\nm\n=\n=\n•\n=\n•\n+\n+\n       ⑥\n依次类推，动能传递系数k1n 应为\n2\n3\n2\n3\n1\n1\n2\n2\n2\n2\n1\n1\n2\n(\n1\n1\n2\n2\n3\n1\n4\n4\n4\n)\n(\n)\n(\n)\n(\n)\nkn\nk\nk\nkn\nn\nn\nin\nk\nk\nk\nk n\nn\nn\nE\nE\nE\nE\nm m\nm\nm\nm m\nk\nE\nE\nE\nE\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n=\n•\n=\n•\n+\n+\n+\n解得\n1\n2\n2\n2\n1\n2\n3\n1\n1\n2\n2\n2\n1\n2\n2\n3\n1\n4\n(\n) (\n)\n(\n)\nn\nn\nn\nn\nn\nn\nm m m\nm\nm\nk\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n+\n+\n+\nb.将m1=4m0,m3=mo 代入⑥式可得\n2\n2\n2\n12\n0\n0\n2\n2\n64\n(4\n)(\n)\no\nm\nk\nm\nm\nm\nm\nm\n\n\n=\n\n\n+\n+\n\n\n为使k13 最大，只需使\n2\n0\n2\n2\n2\n2\n2\n0\n0\n2\n4\n1\n(4\n)(\n)\n4\no\nm\nm\nm\nm\nm\nm\nm\nm\nm\n=\n+\n+\n+\n最大，即\n取最小值，\n。\nAm; 一 2m,\namr m, “im Amy rn\n医 2 。\n当 J 而 =224 , 即 m =2mJ 时 , 心 最 大 。\nV\n10 / 12\n11 / 12\n答案\n13．D\n14．B\n15．D\n16．A\n17．A\n18．C\n19．C\n20．B\n21．（1）①15.02， ②2.31，6.6×102，\n（2）①图略，②图略，③图略，④1.5，0.3\n22．（1）在地球表面附近满足GAMm\nR2\nE\nA = mg，GM = R2g，对卫星GAMm\nR2\nE\nA = mAv12\nR\nE\nA，v1 = A RgE\nA；\n（2）对卫星F = GA\nMm\n（R＋h）2\nE\nA = A\nR2gm\n（R＋h）2\nE\nA = mA4π2\nT2\nE\nA（R＋h），T = A2π\nR\nE\nAAAEA\n（R＋h）2\ng\n E\nA，\n23．（1）Q = Sv = AπD2v\n4\nE\nA，感应电动势为E = BDv = BDA 4Q\n πD2\nE\nA = A4QB\n πD\nE\nA = 1.0×10\n－3V，\n（2）如改变通电线圈的电流方向、使磁场方向相反、将传感器输出端对调接入显示仪表等。\n（3）I = A E\nR＋r\nE\nA，U = IR = A ER\nR＋r\nE\nA = A\nE\n1＋r/R\nE\nA，输入显示仪表的是U，当r 变化时U 会随之变\n化，增大R，使R≫r，则U 近似等于E，这样就可以降低液体电阻率变化对显示仪表示数\n的影响\n12 / 12\n24．（1）设碰撞前m1 的速度为v10，m1gh = A1\n2\nE\nAmv102，碰撞后m1 与m2 的速度分别为v1 与v2，\n则m1v10 = m1v1＋m2v2，A1\n2\nE\nAm1v102 = A1\n2\nE\nAm1v12＋A1\n2\nE\nAm2v22，解得：v2 = A 2m1v10\nm1＋m2\nE\nA = AAEA2m1 2gh\nEm1＋m2\nE\nA，\n（2）a．Ek1 = A1\n2\nE\nAm1v102，Ek2 = A1\n2\nE\nAm2v22 = A\n4m1m2\n（m1＋m2）2\nE\nAEk1，k12 = AEk2\nEk1\nE\nA = A\n4m1m2\n（m1＋m2）2\nE\nA，同\n理可得：k13 = AEk3\nEk1\nE\nA = AEk3\nEk2\nE\nA×AEk2\nEk1\nE\nA = A\n4m1m2\n（m1＋m2）2\nE\nA×A\n4m2m3\n（m2＋m3）2\nE\nA，……，k1n = A\n4m1m2\n（m1＋m2）2\nE\nA×A\n4m2m3\n（m2＋m3）2\nE\nA…… = A\n4m12m22m32…… m n\n（m1＋m2）2（m2＋m3）2……（mn－1＋mn）2\nE\nA，\nb．k13 = A\n4m1m2\n（m1＋m2）2\nE\nA×A\n4m2m3\n（m2＋m3）2\nE\nA = 64m0[m2/（4m0＋m2）（m0＋m2）]2，要k13 最大，只\n要使m2/（4m0＋m2）（m0＋m2） = 1/（5m0＋m2＋4m02/m2）最大，即m2 = 2m0。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "做布朗运动实验，得到某个观察记录如图，图中记录的是（   ）\n（A）分子无规则运动的情况\n（B）某个微粒做布朗运动的轨迹\n（C）某个微粒做布朗运动的速度-时间图线\n（D）按等时间间隔依次记录的某个运动微粒位置的连线",
+      "answer": "D",
+      "analysis": "布朗运动是悬浮在液体中的固体小颗粒的无规则运动，而非\n分子的运动，故A 项错误；既然运动是无规则的，所以微粒没有固定\n的运动轨迹，故B 项错误，对于某个微粒而言在不同时刻的速度大小和方向均是不确定的，\n所以无法确定其在某一个时刻的速度，故也就无法描绘其速度—时间图线，故C 项错误；只\n有D 项正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q02",
+      "content": "下列现象中，与原子核内部变化有关的是（\n）\n（A）α 粒子散射现象\n（B）天然放射现象\n（C）光电效应现象\n（D）原子发光现象",
+      "answer": "B",
+      "analysis": "α 粒子散射实验表明了原子内部有一个很小的核，并没有涉及到核内部的变化，故\nA 项错误；天然放射现象是原子核内部发生变化自发的放射出α 粒子或电子，从而发生α 衰\n变或β 衰变，故B 项正确；光电效应是原子核外层电子获得光子能量脱离原子核的束缚而\n逸出，没有涉及到原子核的变化，故C 项错误；原子发光是原子跃迁形成的也没有涉及到原\n子核的变化，故D 项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q03",
+      "content": "类比是一种有效的学习方法，通过归纳和比较，有助于掌握新知识，提高学习效率。在\n类比过程中，既要找出共同之处，又要抓住不同之处。某同学对机械波和电磁波进行类比，\n总结出下列内容，其中不正确\n．．．的是（    ）\n（A）机械波的频率、波长和波速三者满足的关系，对电磁波也适用\n（B）机械波和电磁波都能产生干涉和衍射现象\n（C）机械波的传播依赖于介质，而电磁波可以在真空中传播\n（D）机械波既有横波又有纵波，而电磁波只有纵波",
+      "answer": "D",
+      "analysis": "波长、波速、频率的关系对任何波都是成立的，对电磁波当然成立，故A 选项正\n确；干涉和衍射是波的特性，机械波、电磁波都是波，这些特性都具有，故B 项正确；机械\n波是机械振动在介质中传播形成的，所以机械波的传播需要介质而电磁波是交替变化的电场\n和磁场由近及远的传播形成的，所以电磁波传播不需要介质，故C 项正确；机械波既有横波\n又有纵波，但是电磁波只能是横波，其证据就是电磁波能够发生偏振现象，而偏振现象是横\n2 / 12\n波才有的， D 项错误。故正确答案应为D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q04",
+      "content": "某静电场的电场线分布如图所示，图中P、Q 两点的电场强\n度分别为EP 和EQ，电势分别为UP 和UQ。则（\n）\n（A）EP＞EQ，UP＞UQ\n（B）EP＞EQ，UP＜UQ\n（C）EP＜EQ，UP＞UQ\n（D）EP＜EQ，UP＜UQ",
+      "answer": "A",
+      "analysis": "从图可以看出P 点的电场线的密集程度大于Q 点的密\n集程度，故P 点的场强大于Q 点的场强，因电场线的方向由P\n指向Q，而沿电场线的方向电势逐渐降低，P 点的电势高于Q 点的电势，故A 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q004-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q05",
+      "content": "一简谐机械波沿x 轴正方向传播，周期为T，波长为λ，\n若在x = 0 处质点的振动图像如右图所示，则该波在t = T/2\n时的波形曲线为（\n）\n（A）               （B）              （C）             （D）",
+      "answer": "A",
+      "analysis": "从振动图上可以看出x=0 处的质点在t=T/2 时刻处于平衡位置，且正在向下振动，\n四个选项中只有A 图符合要求，故A 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q005-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q005-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q06",
+      "content": "如图所示，将质量为m 的滑块放在倾角为θ 的固定斜面上，滑\n块与斜面之间的动摩擦因数为μ，若滑块与斜面之间的最大静摩擦力\n与滑动摩擦力大小相等，重力加速度为g，则（     ）\n（A）将滑块由静止释放，如果μ＞tanθ，滑块将下滑\n（B）给滑块沿斜面向下的初速度，如果μ＜tanθ，滑块将减速下滑\n（C）用平行于斜面向上的力拉滑块向上匀速运动，如果μ = tanθ，拉力大小应是2mgsinθ\n（D）用平行于斜面向下的力拉滑块向下匀速运动，如果μ = tanθ，拉力大小应是mgsinθ",
+      "answer": "C",
+      "analysis": "对处于斜面上的物块受力分析，要使物块沿斜面下滑则mgsinθ>μmgcosθ，故μ<tanθ，\n故AB 错误；若要使物块在平行于斜面向上的拉力F 的作用下沿斜面匀速上滑，由平衡条件\n有：F－mgsinθ－μmgcosθ=0 故F=mgsinθ+μmgcosθ，若μ=tanθ，则mgsinθ=μmgcosθ，即\nF=2mgsinθ 故C 项正确；若要使物块在平行于斜面向下的拉力F 作用下沿斜面向下匀速滑\n动，由平衡条件有：F+mgsinθ －μmgcosθ=0 则F=μmgcosθ －mgsinθ 若μ=tanθ ，则\nmgsinθ=μmgcosθ，即F=0，故D 项错误。\n+\nP\nQ\nA\ny\nx\nO λ/2\nλ\nA\ny\nx\nO\nλ/2\nλ\nA y\nx\nO\nλ/2\nλ\nA\ny\nx\nO\nλ/2\nλ\nA\ny\nt\nO\nT/2\nT\nθ\nm\n3 / 12",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q07",
+      "content": "如图所示的虚线区域内，充满垂直于纸面向里的匀强磁场和竖直\n向下的匀强电场，一带电粒子a（不计重力）以一定的初速度由左边\n界的O 点射入磁场、电场区域，恰好沿直线由区域右边界的O′点（图\n中未标出）穿出。若撤去该区域内的磁场，而保留电场不变，另一个\n同样的粒子b（不计重力）仍以相同初速度由O 点射入，从区域右边\n界穿出，则粒子b（\n）\n（A）穿出位置一定在O′下方\n（B）穿出位置一定在O′上方\n（C）运动时，在电场中的电势能一定减小\n（D）在电场中运动时，动能一定减小",
+      "answer": "C",
+      "analysis": "a 粒子要在电场、磁场的复合场区内做直线运动，则该粒子一定做匀速直线运动，\n故对粒子a 有：Bqv=Eq 即只要满足E =Bv 无论粒子带正电还是负电，粒子都可以沿直线穿\n出复合场区，当撤去磁场只保留电场时，粒子b 由于电性不确定，故无法判断从O’点的上\n方或下方穿出，故AB 错误；粒子b 在穿过电场区的过程中必然受到电场力的作用而做类平\n抛的运动，电场力做正功，其电势能减小，动能增大，故C 项正确D 项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q08",
+      "content": "图示为一个内、外半径分别为R1 和R2 的圆环状均\n匀带电平面，其单位面积带电量为σ。取环面中心O 为\n坐标原点，以垂直于环面的轴线为x 轴。设轴上任意点\nP 到O 的距离为x，P 点电场强度的大小为E。下面给\n出E 的四个表达式（式中k 为静电力常量），其中只有\n一个是合理的。你可能不会求解此处的场强E，但是你\n可以通过一定的物理分析，对下列表达式的合理性做出\n判断。根据你的判断，E 的合理表达式应为（    ）\n（A）E = 2σπk（AAEA\nR1\nx2＋R12 E\nA－AAEA\nR2\nx2＋R22 E\nA）x\n（B）E = 2σπk（AEA\n1\nx2＋R12 E\nA－AAEA\n1\nx2＋R22 E\nA）x\n（C）E = 2σπk（AEA\nR1\nx2＋R12 E\nA＋AAEA\nR2\nx2＋R22 E\nA）x\n（D）E = 2σπk（AAEA\n1\nx2＋R12 E\nA＋AAEA\n1\nx2＋R22 E\nA）x",
+      "answer": "B",
+      "analysis": "当R1=0 时，对于A 项而言E=0，此时带电圆环演变为带电圆面，中心轴线上一点\n的电场强度E>0，故A 项错误；当x=0 时，此时要求的场强为O 点的场强，由对称性可知\nEO=0，对于C 项而言，x=0 时E 为一定值，故C 项错误。当x→∞时E→0，而D 项中E→4πκσ\n故D 项错误；所以正确选项只能为B。\n第II 卷",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q008-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q008-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q09",
+      "content": "（18 分）\n（1）在《用双缝干涉测量光的波长》实验中，将双缝干涉仪按要求安装在光具座上（如图\n1），并选用缝间距d = 0.2mm 的双缝屏。从仪器注明的规格可知，像屏与双缝屏间的距离L\n= 700mm。然后接通电源使光源正常工作。\nB\nE\nO\nx\nO\nR1\nR2\nP\nσ\n4 / 12\n①已知测量头主尺的最小刻度是毫米，副尺上有50 个分度，某同学调整手轮后，从测量头\n的目镜看去，第一次映入眼帘的干涉条纹如图2（a）所示，图2（a）中的数字是该同学给\n各暗纹的编号，此时图2（b）中的游标尺上的读数x1 = 1.16mm，接着再转动手轮，映入眼\n帘的干涉条纹如图3（a）所示，此时图3（b）中的游标尺上的读数x2 = _______mm。\n②利用上述测量结果，经计算可得两上相邻明纹（或暗纹）间的距离Δx = ______mm，这种\n色光的波长λ = _______mm。",
+      "answer": "（1）①15.02， ②2.31，6.6×102，\n（2）①图略，②图略，③图略，④1.5，0.3",
+      "analysis": "由游标卡尺的读数规则可知x2=15.0mm+1×0.02mm=15.02mm；图2（a）中暗纹与\n图3（a）中暗纹间的间隔为6 个，故△x=（x2－x1）/6=(15.02－1.16)/6=2.31mm；由△x=Lλ/d\n可知λ=d△x/L=0.20mm×2.31mm/700mm=6.6×102nm。\n（2）某同学通过查找资料自己动手制作了一个电池，该同学想测量一下这个电池的电动势\nE 和内电阻r。但是从实验室只借到一个开关、一个电阻箱（最大电阻为999.9Ω，可当标准\n电阻用）、一只电流表（量程IA = 0.6A，内阻rA = 0.1Ω）和若干导线。\n①请根据测量电动势E 和内电阻r 的要求，设计图1 中器件的连接方式。画线把它们接起\n来。\n②接通开关，逐次改变电阻箱的阻值R，读出与R 对应的电流表的示数I，并作记录。当电\n阻箱的阻值R = 2.6Ω 时，其对应的电流表的示数如图2 所示。处理实验数据时，首先计算\n光源\n凸透镜 滤光片 单缝 双缝\n遮光筒\n测量头及目镜\n图 1\n1 2 3 4\n5\n(a)\n7 8 9\n4\n5\n(a)\n6\n10\n11\n0\n0 cm\n1\n2\n1\n0\n1 cm\n2\n1\n(b)\n(b)\n图 2\n图 3\nA\n电池\n图1\n5 / 12\n出每个电流值I 的倒数1/I，再制作R-1/I 坐标图，如图3 所示，图中已标出了（R，1/I）的\n几个与测量对应的坐标点，请你将与图2 实验数据对应的坐标点也标在图3 上。\n③在图3 上把描绘出的坐标点连成图线。\n④根据图3 描绘出的图线，可以出这个电池的电动势E = ______V；内电阻r = _______Ω。\n（2）根据闭合电路欧姆定律，测量电源的电动势和内电阻，需要得到电源的路端电\n压和通过电源的电流，在本实验中没有电压表，但是可以用电阻箱和电流表串联充当电压表，\n测量电源的路端电压，通过电流表的电流也是通过电源的电流，所以只需要将电流表和电阻\n箱串联接在电源两端即可。实物图的连接如答图4 所示。由闭合电路欧姆定律有： E =I\n（R+r+rg），解得：\n1\n(\n)\ng\nR\nE\nr\nr\nI\n=\n⋅\n−\n+\n，根据R-1/I 图线可知：电源的电动势等于图线的斜\n率，内阻为纵轴负方向的截距减去电流表的内阻。\n图2\nA\n0\n0.2\n0.4\n0.6\nR/Ω\n/A-1\n1\nI\n6\n5\n4\n3\n2\n1\nO\n4\n1\n2\n3\n5\n-1\n图3\n6 / 12",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 3,
+        "endPage": 6,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p005-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p005-f08.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p006-f09.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p006-f10.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q10",
+      "content": "（16 分）已知地球半径为R，地球表面重力加速度为g，不考虑地球自转的影响。\n（1）推导第一宇宙速度v1 的表达式；\n（2）若卫星绕地球做匀速圆周运动，运行轨道距地面高度为h，求卫星的运行周期T；",
+      "answer": "（1）\n1v\nRg\n=\n（2）\n2\n2\n(\n)\nR\nh\nR\ng\nπ\n+",
+      "analysis": "（1）设卫星的质量为m，地球的质量为M，\n在地球表面附近满足\n2\nMm\nG\nmg\nR\n=\n得\n2\nGM\nR g\n=\n       ①\n卫星做圆周运动的向心力等于它受到的万有引力\n2\n1\n2\nv\nMm\nm\nG\nR\nR\n=\n      ②\n①式代入②式，得到\n1v\nRg\n=\nA\nR/Ω\n/A-1\n1\nI\n6\n5\n4\n3\n2\n1\nO\n4\n1\n2\n3\n5\n-1\n7 / 12\n（2）考虑①式，卫星受到的万有引力为\n2\n2\n2\n(\n)\n(\n)\nMm\nmgR\nF\nG R\nh\nR\nh\n=\n=\n+\n+\n    ③\n由牛顿第二定律\n2\n2\n4\n(\n)\nF\nm\nR\nh\nT\nπ\n=\n+\n    ④\n③、④联立解得\n2\n2\n(\n)\nR\nh\nT\nR\ng\nπ\n+\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q010-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q11",
+      "content": "（18 分）单位时间内流过管道横截面的液体体积叫做液体的体积流量（以下简称流量）。\n有一种利用电磁原理测量非磁性导电液体（如自来水、啤酒等）流量的装置，称为电磁流量\n计。它主要由将流量转换为电压信号的传感器和显示仪表两部分组成。\n传感器的结构如图所示，圆筒形测量管内壁绝缘，其上装有一对电极a 和c，a、c 间的距离\n等于测量管的直径D，测量管的轴线与a、c 的连线方向以及通电线圈产生的磁场方向三者\n相互垂直。当导电液体流过测量管时，在电极a、c 间出现感应电动势E，并通过与电极连\n接的仪表显示出液体的流量Q。设磁场均匀恒定，磁感应强度为B。\n（1）已知D = 0.4m，B = 2.5×10-3T，Q = 0.12m3/s，设液体在测量管内各处流速相同，试求\nE 的大小（π 取3.0）；\n（2）一新建供水站安装了电磁流量计，在向个供水时流量本应显示为正值，但实际显示却\n为负值。经检查，是误将测量管接反了，即液体从测量管出水口流入，入水口流出。因水已\n加压充满管道，不便再将测量管拆下重装，请你提出使显示仪表的流量批示变为正值的简便\n方法；\n（3）显示仪表相当于传感器负载电阻，其阻值记为R。a、c 间导电液体的电阻r 随液体电\n阻率的变化而变化，从而会影响显示仪表的示数。试以E、R、r 为参量给出电极a、c 间输\n出电压U 的表达式，并说明怎样可以降低液体电阻率变化对显示仪表示数的影响？",
+      "answer": "（1）1.0×10-3V（2）见解析（3）\n( /\n)\nE\nU\nI\nr R\n=\n+\n，见解析",
+      "analysis": "（1）导电液体通过测量管时，相当于导线做切割磁感线的运动，在电极a、c 间切\na\nc\nB\nD\nv\n液体入口\n测量管\n通电线圈\n测量管轴线\n接电源\n液体出口\n通电线圈\n显示仪器\n8 / 12\n割感应线的液柱长度为D， 设液体的流速为v，则产生的感应电动势为\nE=BDv           ①\n由流量的定义，有Q=Sv=\n2\n4\nD v\nπ\n        ②\n式联立解得\n2\n4\n4\nQ\nBQ\nE\nBD\nD\nD\nπ\nπ\n=\n=\n代入数据得\n3\n3\n4 2.5 10\n0.12\n1.0 10\n3 0.4\nE\nV\nV\n−\n−\n×\n×\n×\n=\n=\n×\n×\n（2）能使仪表显示的流量变为正值的方法简便，合理即可，如：改变通电线圈中电流的方\n向，是磁场B 反向，或将传感器输出端对调接入显示仪表。\n（3）传感器的显示仪表构成闭合电路，有闭合电路欧姆定律\nE\nI\nR\nr\n=\n+\n( /\n)\nRE\nE\nU\nIR\nR\nr\nI\nr R\n=\n=\n=\n+\n+\n        ③\n输入显示仪表是a、c 间的电压U，流量示数和U 一一对应， E 与液体电阻率无关，而r 随\n电阻率的变化而变化，由③式可看出， r 变化相应的U 也随之变化。在实际流量不变的情\n况下，仪表显示的流量示数会随a、c 间的电压U 的变化而变化，增大R，使R ? r，则U≈E,\n这样就可以降低液体电阻率的变化对显示仪表流量示数的影响。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009北京理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q011-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009北京理综.pdf#q12",
+      "content": "（20 分）\n（1）如图1 所示，ABC 为一固定在竖直平\n面内的光滑轨道，BC 段水平，AB 段与BC\n段平滑连接。质量为m1 的小球从高为h 处\n由静止开始沿轨道下滑，与静止在轨道BC\n段上质量为m2 的小球发生碰撞，碰撞前后\n两球的运动方向处于同一水平线上，且在碰\n撞过程中无机械能损失，求碰撞后小球m2 的速度大小v2。\n（2）碰撞过程中的能量传递规律在物理学中有着广泛的应用。为了探究这一规律，我们采\n用多球依次碰撞、碰撞前后速度在同一直线上、且无机械能损失的简化模型。如图2 所示，\n在固定光滑水平直轨道上，质量分别为m1、m2、……mn－1、mn、……的若干个球沿直线相\n间排列，给第一个球初动能Ek1，从而引起各球的依次碰撞。定义其中第n 个球经过一次碰\n撞后获得的动能Ekn 与Ek1 之比为第一个球对第n 个球的动能传递系数k1n。\na．求k1n；\nb．若m1 = 4 m0，m3 = 3 m0，m0 为确定的已知量，求m2 为何值时，k13 最大。",
+      "answer": "（1）\n1\n1\n2\n2\n2\nm\ngh\nm\nm\n+\n。\nm1\nm2\nm3\nmn-1\nmn\n……\n……\n图2\nm1\nm2\nA\nB\nC\nh\n图1\n9 / 12\n（2）a）\n1\n2\n2\n2\n1\n2\n3\n1\n1\n2\n2\n2\n1\n2\n2\n3\n1\n4\n(\n) (\n)\n(\n)\nn\nn\nn\nn\nn\nn\nm m m\nm\nm\nk\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n+\n+\n+\nL\nL\n；b）\n2\n0\n13\n2\nm\nm\nk\n=\n时，\n最大。",
+      "analysis": "（1）设碰撞前的速度为，根据机械能守恒定律\n2\n1\n1 10\n1\n2\nm gh\nm v\n=\n          ①\n设碰撞后m1 与m2 的速度分别为v1 和v2，根据动量守恒定律\n1 10\n1 1\n2\n2\nm v\nm v\nm v\n=\n+\n          ②\n由于碰撞过程中无机械能损失\n2\n2\n2\n1 10\n1 1\n2\n2\n1\n1\n1\n2\n2\n2\nm v\nm v\nm v\n=\n+\n      ③\n②、③式联立解得\n1 10\n2\n1\n2\n2m v\nv\nm\nm\n=\n+\n               ④\n   将①代入得④\n1\n2\n1\n2\n2\n2\nm\ngh\nv\nm\nm\n=\n+\n（2）a 由④式，考虑到\n1\n2\n2\n1\n10\n2\n2\n2\n1\n1\n2\n2\nK\nK\nE\nm v\nE\nm v\n=\n=\n和\n得\n根据动能传递系数的定义，对于1、2 两球\n2\n1\n2\n12\n2\n1\n1\n2\n4\n(\n)\nk\nk\nE\nm m\nk\nE\nm\nm\n=\n=\n+\n    ⑤\n同理可得，球m2 和球m3 碰撞后，动能传递系数k13 应为\n3\n2\n3\n2\n3\n1\n2\n13\n2\n2\n1\n1\n2\n1\n2\n2\n3\n4\n4\n(\n)\n(\n)\nk\nk\nk\nk\nk\nk\nE\nE\nE\nm m\nm m\nk\nE\nE\nE\nm\nm\nm\nm\n=\n=\n•\n=\n•\n+\n+\n       ⑥\n依次类推，动能传递系数k1n 应为\n2\n3\n2\n3\n1\n1\n2\n2\n2\n2\n1\n1\n2\n(\n1\n1\n2\n2\n3\n1\n4\n4\n4\n)\n(\n)\n(\n)\n(\n)\nkn\nk\nk\nkn\nn\nn\nin\nk\nk\nk\nk n\nn\nn\nE\nE\nE\nE\nm m\nm\nm\nm m\nk\nE\nE\nE\nE\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n=\n•\n=\n•\n+\n+\n+\n解得\n1\n2\n2\n2\n1\n2\n3\n1\n1\n2\n2\n2\n1\n2\n2\n3\n1\n4\n(\n) (\n)\n(\n)\nn\nn\nn\nn\nn\nn\nm m m\nm\nm\nk\nm\nm\nm\nm\nm\nm\n−\n−\n−\n=\n+\n+\n+\nb.将m1=4m0,m3=mo 代入⑥式可得\n2\n2\n2\n12\n0\n0\n2\n2\n64\n(4\n)(\n)\no\nm\nk\nm\nm\nm\nm\nm\n\n\n=\n\n\n+\n+\n\n\n为使k13 最大，只需使\n2\n0\n2\n2\n2\n2\n2\n0\n0\n2\n4\n1\n(4\n)(\n)\n4\no\nm\nm\nm\nm\nm\nm\nm\nm\nm\n=\n+\n+\n+\n最大，即\n取最小值，\n蝶 一 厅 _ 达\n用 吴 @ Ny\n当 / 万 - 怡 咤 = 2m if\n2\nAm 订 知\nkk\n10 / 12\n11 / 12",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -57,11 +393,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009北京理综.pdf",
         "page": 8,
+        "endPage": 11,
         "questionNumber": 24,
         "extraction": "ocr",
-        "confidence": null,
-        "needsReview": true
-      }
+        "confidence": 64,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q012-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q012-p011-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-63df5e97a8cb7880-q012-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 29,
+    "answerGraphics": 0,
+    "assigned": 29,
+    "rendered": 29,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

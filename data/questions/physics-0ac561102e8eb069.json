@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2022/2022江苏.pdf",
   "name": "2022江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 16,
+    "answerBlocks": 0,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 15,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q01",
-      "content": "本试卷共 6 页，满分为 100 分，考试时间为 75 分钟。考试结束后，请将本试卷和答题\n卡一并交回。",
+      "content": "如需作图，必须用 2B 铅笔绘、写清楚，线条、符号等须加黑、加粗。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q02",
-      "content": "答题前，请务必将自己的姓名，准考证号用 0.5 毫米黑色墨水的签字笔填写在试卷及答\n题卡的规定位置。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "高铁车厢里的水平桌面上放置一本书，书与桌面间的动摩擦因数为 0.4，最大静摩擦力\n等于滑动摩擦力，取重力加速度 g = 10 m/s2。若书不滑动，则高铁的最大加速度不超过（    ）\nA．2.0 m/s2\nB．4.0 m/s2\nC．6.0 m/s2\nD．8.0 m/s2",
+      "answer": "B",
+      "analysis": "书放在水平桌面上，若书相对于桌面不滑动，则最大静摩擦力提供加速度\nm\nm\nf\nmg\nma\n\n=\n=\n解得\n2\nm\n4m/s\na\ng\n\n=\n=\n书相对高铁静止，故若书不动，高铁的最大加速度 4.0 m/s2，B 正确，ACD 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -56,22 +77,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q03",
-      "content": "请认真核对监考员在答题卡上所粘贴的条形码上的姓名、准考证号与本人是否相符。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，电路中灯泡均正常发光，阻值分别为 R1\n= 2 Ω，R2 = 3 Ω，R3 = 2 Ω，R4 = 4 Ω，电源电动势 E =\n12 V，内阻不计，四个灯泡中消耗功率最大的是（    ）\nA．R1\nB．R2\nC．R3\nD．R4",
+      "answer": "A",
+      "analysis": "由电路图可知 R3 与 R4 串联后与 R2 并联，再\n与 R1 串联。并联电路部分的等效电阻为\n(\n)\n(\n)\n2\n3\n4\n2\n3\n4\n=\n2\nR\nR\nR\nR\nR\nR\nR\n+\n= \n+\n+\n并\n由闭合电路欧姆定律可知，干路电流即经过 R1 的电流为\n1\n1\n3A\nE\nI\nI\nR\nR\n=\n=\n=\n+\n并\n并联部分各支路电流大小与电阻成反比，则\n(\n)\n(\n)\n3\n4\n2\n2\n3\n4\n1\n1.5A\n2\nR\nR\nI\nI\nI\nR\nR\nR\n+\n=\n=\n=\n+\n+\n(\n)\n2\n3\n4\n2\n3\n4\n1\n1.5A\n2\nR\nI\nI\nI\nI\nR\nR\nR\n=\n=\n=\n=\n+\n+\n四个灯泡的实际功率分别为\n2\n1\n1\n1\n18W\nP\nI R\n=\n=\n，\n2\n2\n2\n2\n6.75W\nP\nI R\n=\n=\n，\n2\n3\n3\n3\n4.5W\nP\nI R\n=\n=\n，\n2\n4\n4\n4\n9W\nP\nI R\n=\n=\n故四个灯泡中功率最大的是 R1，故 A 正确，BCD 错误。\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -79,137 +104,147 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q04",
-      "content": "作答选择题，必须用 2B 铅笔将答题卡上对应选项的方框涂满，涂黑；如需改动，请用\n橡皮擦干净后，再选涂其他答案。作答非选择题，必须用 0.5 毫米黑色墨水的签字笔在答题\n卡上的指定位置作答，在其他位置作答一律无效。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，两根固定的通电长直导线 a、b 相互垂直，a 平\n行于纸面，电流方向向右，b 垂直于纸面，电流方向向里，则\n导线 a 所受安培力方向（    ）\nA．平行于纸面向上\nB．平行于纸面向下\nC．左半部分垂直纸面向外，右半部分垂直纸面向里\nD．左半部分垂直纸面向里，右半部分垂直纸面向外",
+      "answer": "C",
+      "analysis": "根据安培定则，可判断出导线 a 左侧部分的空间磁场方向\n斜向右上，右侧部分的磁场方向斜向下方，根据左手定则可\n判断出左半部分垂直纸面向外，右半部分垂直纸面向里。\n故 C 正确，ABD 错误。\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
-        "page": 1,
-        "questionNumber": 4,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q004-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q05",
-      "content": "如需作图，必须用 2B 铅笔绘、写清楚，线条、符号等须加黑、加粗。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "上海光源通过电子-光子散射使光子能量增加，光子能量增加后（    ）\nA．频率减小\nB．波长减小\nC．动量减小\nD．速度减小",
+      "answer": "B",
+      "analysis": "AB．根据 E\nh\n=\n 可知光子的能量增加后，光子的频率增加，又根据\nc\n\n\n=\n 可\n知光子波长减小，故 A 错误，B 正确；\nCD．根据\nh\np\n\n=\n 可知光子的动量增加；又因为光子质量不变，根据 p = mv 可知光子速\n度增加，故 C 错误，D 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
-        "page": 1,
-        "questionNumber": 5,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q06",
-      "content": "高铁车厢里的水平桌面上放置一本书，书与桌面间的动摩擦因数为 0.4，最大静摩擦力\n等于滑动摩擦力，取重力加速度 g = 10 m/s2。若书不滑动，则高铁的最大加速度不超过（    ）\nA．2.0 m/s2\nB．4.0 m/s2\nC．6.0 m/s2\nD．8.0 m/s2\n【详解】书放在水平桌面上，若书相对于桌面不滑动，则最大静摩擦力提供加速度\nm\nm\nf\nmg\nma\n\n=\n=\n解得\n2\nm\n4m/s\na\ng\n\n=\n=\n书相对高铁静止，故若书不动，高铁的最大加速度 4.0 m/s2，B 正确，ACD 错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，半径为 r 的圆形区域内有垂直于纸面的匀强磁场，磁感应\n强度 B 随时间 t 的变化关系为 B = B0 + kt，B0、k 为常量，则图中半径\n为 R 的单匝圆形线圈中产生的感应电动势大小为（    ）\nA．πkr2\nB．πkR2\nC．πB0r2\nD．πB0R2",
+      "answer": "A",
+      "analysis": "由题意可知磁场的变化率为\nB\nkt\nk\nt\nt\n\n=\n=\n\n根据法拉第电磁感应定律可知\n2\n2\nB r\nE\nk r\nt\nt\n\n\n\n\n=\n=\n=\n\n\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
-        "page": 1,
-        "questionNumber": 1,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q07",
-      "content": "如图所示，电路中灯泡均正常发光，阻值分别为 R1\n= 2 Ω，R2 = 3 Ω，R3 = 2 Ω，R4 = 4 Ω，电源电动势 E =\n12 V，内阻不计，四个灯泡中消耗功率最大的是（    ）\nA．R1\nB．R2\nC．R3\nD．R4\n【详解】由电路图可知 R3 与 R4 串联后与 R2 并联，再\n与 R1 串联。并联电路部分的等效电阻为\n(\n)\n(\n)\n2\n3\n4\n2\n3\n4\n=\n2\nR\nR\nR\nR\nR\nR\nR\n+\n= \n+\n+\n并\n由闭合电路欧姆定律可知，干路电流即经过 R1 的电流为\n1\n1\n3A\nE\nI\nI\nR\nR\n=\n=\n=\n+\n并\n并联部分各支路电流大小与电阻成反比，则\n(\n)\n(\n)\n3\n4\n2\n2\n3\n4\n1\n1.5A\n2\nR\nR\nI\nI\nI\nR\nR\nR\n+\n=\n=\n=\n+\n+\n(\n)\n2\n3\n4\n2\n3\n4\n1\n1.5A\n2\nR\nI\nI\nI\nI\nR\nR\nR\n=\n=\n=\n=\n+\n+\n四个灯泡的实际功率分别为\n2\n1\n1\n1\n18W\nP\nI R\n=\n=\n，\n2\n2\n2\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "自主学习活动中，同学们对密闭容器中的氢气性质进行讨论，下列说法中正确的是（    ）\nA．体积增大时，氢气分子的密集程度保持不变\nB．压强增大是因为氢气分子之间斥力增大\nC．因为氢气分子很小，所以氢气在任何情况下均可看成理想气体\nD．温度变化时，氢气分子速率分布中各速率区间的分子数占总分子数的百分比会变化",
+      "answer": "D",
+      "analysis": "A．密闭容器中的氢气质量不变，分子个数不变，根据 n = N0\nV 可知当体积增大时，\n单位体积的个数变小，分子的密集程度变小，故 A 错误；\nB．气体压强产生的原因是大量气体分子对容器壁的持续的、无规则撞击产生的；压强增大\n并不是因为分子间斥力增大，故 B 错误；\nC．普通气体在温度不太低，压强不太大的情况下才能看作理想气体，故 C 错误；\nD．温度是气体分子平均动能的标志，大量气体分子的速率呈现“中间多，两边少”的规律，\n温度变化时，大量分子的平均速率会变化，即分子速率分布中各速率区间的分子数占总分子\n数的百分比会变化，故 D 正确。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
-        "page": 1,
-        "questionNumber": 2,
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022江苏.pdf#q08",
-      "content": "75W\nP\nI R\n=\n=\n，\n2\n3\n3\n3\n4.5W\nP\nI R\n=\n=\n，\n2\n4\n4\n4\n9W\nP\nI R\n=\n=\n故四个灯泡中功率最大的是 R1，故 A 正确，BCD 错误。\n故选 A。\n3．如图所示，两根固定的通电长直导线 a、b 相互垂直，a 平\n行于纸面，电流方向向右，b 垂直于纸面，电流方向向里，则\n导线 a 所受安培力方向（    ）\nA．平行于纸面向上\nB．平行于纸面向下\nC．左半部分垂直纸面向外，右半部分垂直纸面向里\nD．左半部分垂直纸面向里，右半部分垂直纸面向外\n【详解】\n根据安培定则，可判断出导线 a 左侧部分的空间磁场方向\n斜向右上，右侧部分的磁场方向斜向下方，根据左手定则可\n判断出左半部分垂直纸面向外，右半部分垂直纸面向里。\n故 C 正确，ABD 错误。\n故选 C。\n4．上海光源通过电子-光子散射使光子能量增加，光子能量增加后（    ）\nA．频率减小\nB．波长减小\nC．动量减小\nD．速度减小\n【详解】AB．根据 E\nh\n=\n 可知光子的能量增加后，光子的频率增加，又根据\nc\n\n\n=\n 可\n知光子波长减小，故 A 错误，B 正确；\nCD．根据\nh\np\n\n=\n 可知光子的动量增加；又因为光子质量不变，根据 p = mv 可知光子速\n度增加，故 C 错误，D 错误。\n故选 B。\n5．如图所示，半径为 r 的圆形区域内有垂直于纸面的匀强磁场，磁感应\n强度 B 随时间 t 的变化关系为 B = B0 + kt，B0、k 为常量，则图中半径\n为 R 的单匝圆形线圈中产生的感应电动势大小为（    ）\nA．πkr2\nB．πkR2\nC．πB0r2\nD．πB0R2\n【详解】由题意可知磁场的变化率为\nB\nkt\nk\nt\nt\n\n=\n=\n\n根据法拉第电磁感应定律可知\n2\n2\nB r\nE\nk r\nt\nt\n\n\n\n\n=\n=\n=\n\n\n故选 A。\n6．自主学习活动中，同学们对密闭容器中的氢气性质进行讨论，下列说法中正确的是（    ）\nA．体积增大时，氢气分子的密集程度保持不变\nB．压强增大是因为氢气分子之间斥力增大\nC．因为氢气分子很小，所以氢气在任何情况下均可看成理想气体\nD．温度变化时，氢气分子速率分布中各速率区间的分子数占总分子数的百分比会变化\n【详解】A．密闭容器中的氢气质量不变，分子个数不变，根据 n = N0\nV 可知当体积增大时，\n单位体积的个数变小，分子的密集程度变小，故 A 错误；\nB．气体压强产生的原因是大量气体分子对容器壁的持续的、无规则撞击产生的；压强增大\n并不是因为分子间斥力增大，故 B 错误；\nC．普通气体在温度不太低，压强不太大的情况下才能看作理想气体，故 C 错误；\nD．温度是气体分子平均动能的标志，大量气体分子的速率呈现“中间多，两边少”的规律，\n温度变化时，大量分子的平均速率会变化，即分子速率分布中各速率区间的分子数占总分子\n数的百分比会变化，故 D 正确。\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，一定质量的理想气体分别经历 a→b 和 a→c\n两个过程，其中 a→b 为等温过程，状态 b、c 的体积相同，\n则（    ）\nA．状态 a 的内能大于状态 b\nB．状态 a 的温度高于状态 c\nC．a → c 过程中气体吸收热量\nD．a → c 过程中外界对气体做正功",
+      "answer": "C",
+      "analysis": "A．由于 a → b 的过程为等温过程，即状态 a 和\n状态 b 温度相同，分子平均动能相同，对于理想气体状态 a 的内能等于状态 b 的内能，\n故 A 错误；\nB．由于状态 b 和状态 c 体积相同，且 pb < pc，根据查理定律可知 Tb < Tc，又因为 Ta =\nTb，故 Ta < Tc，故 B 错误；\nCD．因为 a → c 过程气体体积增大，气体对外界做正功；而气体温度升高，内能增加，根\n据 ΔU = W + Q 可知气体吸收热量；故 C 正确，D 错误；\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
-      ],
-      "year": 2022,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2022/2022江苏.pdf",
-        "page": 1,
-        "questionNumber": 6,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q09",
-      "content": "如图所示，一定质量的理想气体分别经历 a→b 和 a→c\n两个过程，其中 a→b 为等温过程，状态 b、c 的体积相同，\n则（    ）\nA．状态 a 的内能大于状态 b\nB．状态 a 的温度高于状态 c\nC．a → c 过程中气体吸收热量\nD．a → c 过程中外界对气体做正功\n【详解】A．由于 a → b 的过程为等温过程，即状态 a 和\n状态 b 温度相同，分子平均动能相同，对于理想气体状态 a 的内能等于状态 b 的内能，\n故 A 错误；\nB．由于状态 b 和状态 c 体积相同，且 pb < pc，根据查理定律可知 Tb < Tc，又因为 Ta =\nTb，故 Ta < Tc，故 B 错误；\nCD．因为 a → c 过程气体体积增大，气体对外界做正功；而气体温度升高，内能增加，根\n据 ΔU = W + Q 可知气体吸收热量；故 C 正确，D 错误；\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -217,22 +252,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q008-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q10",
-      "content": "某滑雪赛道如图所示，滑雪运动员从静止开始沿斜面下滑，\n经圆弧滑道起跳将运动员视为质点，不计摩擦力及空气阻力，\n此过程中，运动员的动能 Ek 与水平位移 x 的关系图像正确的\n是（    ）\n【详解】设斜面倾角为 θ，不计摩擦力和空气阻力，由题意可知运动员在沿斜面下滑过程中\n根据动能定理有 Ek = mgxtanθ 即 Ek\nx = mgtanθ。\n下滑过程中开始阶段倾角 θ 不变，Ek-x 图像为一条直线；经过圆弧轨道过程中 θ 先减小\n后增大，即图像斜率先减小后增大。\n故选 A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q09",
+      "content": "某滑雪赛道如图所示，滑雪运动员从静止开始沿斜面下滑，\n经圆弧滑道起跳将运动员视为质点，不计摩擦力及空气阻力，\n此过程中，运动员的动能 Ek 与水平位移 x 的关系图像正确的\n是（    ）",
+      "answer": "A",
+      "analysis": "设斜面倾角为 θ，不计摩擦力和空气阻力，由题意可知运动员在沿斜面下滑过程中\n根据动能定理有 Ek = mgxtanθ 即 Ek\nx = mgtanθ。\n下滑过程中开始阶段倾角 θ 不变，Ek-x 图像为一条直线；经过圆弧轨道过程中 θ 先减小\n后增大，即图像斜率先减小后增大。\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -240,22 +283,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q009-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q009-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q11",
-      "content": "如图所示，正方形 ABCD 四个顶点各固定一个带正电的点\n电荷，电荷量相等，O 是正方形的中心，将 A 点的电荷沿 OA\n的延长线向无穷远处移动，则（    ）\nA．在移动过程中，O 点电场强度变小\nB．在移动过程中，C 点的电荷所受静电力变大\nC．在移动过程中，移动的电荷所受静电力做负功\nD．当其移动到无穷远处时，O 点的电势高于 A 点\n【详解】A．O 是等量同种电荷连线的中点，场强为 0，将 A 处的正点电荷沿 OA 方向移\n至无穷远处，O 点电场强度变大，故 A 不符合题意；\nB．移动过程中，C 点场强变小，正电荷所受静电力变小，故 B 错误；\nC．A 点电场方向沿 OA 方向，移动过程中，移动电荷所受静电力做正功，故 C 错误；\nD．A 点电场方向沿 OA 方向，沿电场线方向电势降低，移动到无穷远处时，O 点的电势\n高于 A 点电势，故 D 正确。\n故选 D。\nA\nB\nC\nD",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q10",
+      "content": "如图所示，正方形 ABCD 四个顶点各固定一个带正电的点\n电荷，电荷量相等，O 是正方形的中心，将 A 点的电荷沿 OA\n的延长线向无穷远处移动，则（    ）\nA．在移动过程中，O 点电场强度变小\nB．在移动过程中，C 点的电荷所受静电力变大\nC．在移动过程中，移动的电荷所受静电力做负功\nD．当其移动到无穷远处时，O 点的电势高于 A 点",
+      "answer": "D",
+      "analysis": "A．O 是等量同种电荷连线的中点，场强为 0，将 A 处的正点电荷沿 OA 方向移\n至无穷远处，O 点电场强度变大，故 A 不符合题意；\nB．移动过程中，C 点场强变小，正电荷所受静电力变小，故 B 错误；\nC．A 点电场方向沿 OA 方向，移动过程中，移动电荷所受静电力做正功，故 C 错误；\nD．A 点电场方向沿 OA 方向，沿电场线方向电势降低，移动到无穷远处时，O 点的电势\n高于 A 点电势，故 D 正确。\n故选 D。\nA\nB\nC\nD",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -263,22 +317,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q010-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q12",
-      "content": "如图所示，轻质弹簧一端固定，另一端与物块 A 连接在\n一起，处于压缩状态，A 由静止释放后沿斜面向上运动到最大\n位移时，立即将物块 B 轻放在 A 右侧，A、B 由静止开始一\n起沿斜面向下运动，下滑过程中 A、B 始终不分离，当 A 回\n到初始位置时速度为零，A、B 与斜面间的动摩擦因数相同、\n弹簧未超过弹性限度，则（    ）\nA．当上滑到最大位移的一半时，A 的加速度方向沿斜面向下\nB．A 上滑时、弹簧的弹力方向不发生变化\nC．下滑时，B 对 A 的压力先减小后增大\nD．整个过程中 A、B 克服摩擦力所做的总功大于 B 的重力势能减小量\n【详解】B．由于 A、B 在下滑过程中不分离，设在最高点的弹力为 F，方向沿斜面向下为\n正方向，斜面倾角为 θ，AB 之间的弹力为 FAB，摩擦因素为 μ，刚下滑时根据牛顿第二定\n律对 AB 有\n(\n)\n(\n)\n(\n)\nA\nB\nA\nB\nA\nB\nsin\ncos\nF\nm\nm\ng\nm\nm\ng\nm\nm\na\n\n\n\n+\n+\n−\n+\n=\n+\n对 B 有\nB\nB\nAB\nB\nsin\ncos\nm g\nm g\nF\nm a\n\n\n\n−\n−\n=\n联立可得\nAB\nA\nB\nB\nF\nF\nm\nm\nm\n= −\n+\n由于 A 对 B 的弹力 FAB 方向沿斜面向上，故可知在最高点 F 的方向沿斜面向上；由于在\n最开始弹簧弹力也是沿斜面向上的，弹簧一直处于压缩状态，所以 A 上滑时、弹簧的弹力\n方向一直沿斜面向上，不发生变化，故 B 正确；\nA．设弹簧原长在 O 点，A 刚开始运动时距离 O 点为 x1，A 运动到最高点时距离 O 点为\nx2；下滑过程 AB 不分离，则弹簧一直处于压缩状态，上滑过程根据能量守恒定律可得\n(\n)(\n)\n2\n2\n1\n2\n1\n2\n1\n1\nsin\n2\n2\nkx\nkx\nmg\nf\nx\nx\n\n=\n+\n+\n−\n化简得\n(\n)\n1\n2\n2\nsin\nmg\nf\nk\nx\nx\n+\n=\n+\n当位移为最大位移的一半时有\n(\n)\n1\n2\n1\nin\n=\ns\n+\n2\nF\nf\nx\nx\nk x\nmg\n\n−\n\n\n−\n−\n\n\n\n\n合\n带入 k 值可知 F 合 = 0，即此时加速度为 0，故 A 错误；\nC．根据 B 的分析可知\nAB\nA\nB\nB\nF\nF\nm\nm\nm\n= −\n+\n再结合 B 选项的结论可知下滑过程中 F 向上且逐渐变大，则下滑过程 FAB 逐渐变大，根\n据牛顿第三定律可知 B 对 A 的压力逐渐变大，故 C 错误；\nD．整个过程中弹力做的功为 0，A 重力做的功为 0，当 A 回到初始位置时速度为零，根\n据功能关系可知整个过程中 A、B 克服摩擦力所做的总功等于 B 的重力势能减小量，故 D\n错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q11",
+      "content": "如图所示，轻质弹簧一端固定，另一端与物块 A 连接在\n一起，处于压缩状态，A 由静止释放后沿斜面向上运动到最大\n位移时，立即将物块 B 轻放在 A 右侧，A、B 由静止开始一\n起沿斜面向下运动，下滑过程中 A、B 始终不分离，当 A 回\n到初始位置时速度为零，A、B 与斜面间的动摩擦因数相同、\n弹簧未超过弹性限度，则（    ）\nA．当上滑到最大位移的一半时，A 的加速度方向沿斜面向下\nB．A 上滑时、弹簧的弹力方向不发生变化\nC．下滑时，B 对 A 的压力先减小后增大\nD．整个过程中 A、B 克服摩擦力所做的总功大于 B 的重力势能减小量",
+      "answer": "B",
+      "analysis": "B．由于 A、B 在下滑过程中不分离，设在最高点的弹力为 F，方向沿斜面向下为\n正方向，斜面倾角为 θ，AB 之间的弹力为 FAB，摩擦因素为 μ，刚下滑时根据牛顿第二定\n律对 AB 有\n(\n)\n(\n)\n(\n)\nA\nB\nA\nB\nA\nB\nsin\ncos\nF\nm\nm\ng\nm\nm\ng\nm\nm\na\n\n\n\n+\n+\n−\n+\n=\n+\n对 B 有\nB\nB\nAB\nB\nsin\ncos\nm g\nm g\nF\nm a\n\n\n\n−\n−\n=\n联立可得\nAB\nA\nB\nB\nF\nF\nm\nm\nm\n= −\n+\n由于 A 对 B 的弹力 FAB 方向沿斜面向上，故可知在最高点 F 的方向沿斜面向上；由于在\n最开始弹簧弹力也是沿斜面向上的，弹簧一直处于压缩状态，所以 A 上滑时、弹簧的弹力\n方向一直沿斜面向上，不发生变化，故 B 正确；\nA．设弹簧原长在 O 点，A 刚开始运动时距离 O 点为 x1，A 运动到最高点时距离 O 点为\nx2；下滑过程 AB 不分离，则弹簧一直处于压缩状态，上滑过程根据能量守恒定律可得\n(\n)(\n)\n2\n2\n1\n2\n1\n2\n1\n1\nsin\n2\n2\nkx\nkx\nmg\nf\nx\nx\n\n=\n+\n+\n−\n化简得\n(\n)\n1\n2\n2\nsin\nmg\nf\nk\nx\nx\n+\n=\n+\n当位移为最大位移的一半时有\n(\n)\n1\n2\n1\nin\n=\ns\n+\n2\nF\nf\nx\nx\nk x\nmg\n\n−\n\n\n−\n−\n\n\n\n\n合\n带入 k 值可知 F 合 = 0，即此时加速度为 0，故 A 错误；\nC．根据 B 的分析可知\nAB\nA\nB\nB\nF\nF\nm\nm\nm\n= −\n+\n再结合 B 选项的结论可知下滑过程中 F 向上且逐渐变大，则下滑过程 FAB 逐渐变大，根\n据牛顿第三定律可知 B 对 A 的压力逐渐变大，故 C 错误；\nD．整个过程中弹力做的功为 0，A 重力做的功为 0，当 A 回到初始位置时速度为零，根\n据功能关系可知整个过程中 A、B 克服摩擦力所做的总功等于 B 的重力势能减小量，故 D\n错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -286,22 +348,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q011-p004-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q13",
-      "content": "（15 分）小明利用手机测量当地的重力加速度，实验\n场景如图1 所示，他将一根木条平放在楼梯台阶边缘，小\n球放置在木条上，打开手机的“声学秒表”软件，用钢尺\n水平击打木条使其转开后、小球下落撞击地面，手机接收\n到钢尺的击打声开始计时，接收到小球落地的撞击声停止\n计时，记录下击打声与撞击声的时间间隔 t，多次测量不同\n台阶距离地面的高度 h 及对应的时间间隔 t。\n（1）现有以下材质的小球，实验中应当选用______。\nA．钢球\nB．乒乓球\nC．橡胶球\n（2）用分度值为 1 mm 的刻度尺测量某级台阶高度 h 的\n示数如图 2 所示，则 h = ______cm。\n（3）作出 2h – t2 图线，如图 3 所示，则可得到重力加速度 g = ______m/s2。\n（4）在图 1 中，将手机放在木条与地面间的中点附近进行测量，若将手机放在地面 A 点，\n设声速为 v，考虑击打声的传播时间，则小球下落时间可表示为 t′ = ______（用 h、t 和 v\n表示）。\n（5）有同学认为，小明在实验中未考虑木条厚度，用图像法计算的重力加速度 g 必然有偏\n差。请判断该观点是否正确，简要说明理由_____________________。\n【详解】（1）为了减小空气阻力等误差影响，应该选用材质密度较大的小钢球，故选 A。\n（2）刻度尺的分度值为 1 mm，估读到分度值的下一位，由图可知 h = 61.30 cm；\n（3）根据\n2\n1\n2\nh\ngt\n=\n可知\n2\n2h\ng\nt\n=\n故在 2h – t2 图像中斜率表示重力加速度，则根据图线有\n2\n2\n3.27\n0.50 m/s\n9.55m/s\n0.35\n0.06\ng\n−\n=\n\n−\n（4）下落过程中声音传播的时间为 t1 = h\nv\n则小球下落的时间为 t′ = t + t1 = t + h\nv\n（5）设木条厚度为 H，则台阶距离地面的高度 h1 时的时间为 t1，高度 h2 时的时间为 t2；\n则根据前面的分析有\ng = 2(h2 + H) − 2(h1 + H)\nt22 − t12\n = 2(h2 − h1)\nt22 − t12\n可知与 H 无关。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q12",
+      "content": "（15 分）小明利用手机测量当地的重力加速度，实验\n场景如图1 所示，他将一根木条平放在楼梯台阶边缘，小\n球放置在木条上，打开手机的“声学秒表”软件，用钢尺\n水平击打木条使其转开后、小球下落撞击地面，手机接收\n到钢尺的击打声开始计时，接收到小球落地的撞击声停止\n计时，记录下击打声与撞击声的时间间隔 t，多次测量不同\n台阶距离地面的高度 h 及对应的时间间隔 t。\n（1）现有以下材质的小球，实验中应当选用______。\nA．钢球\nB．乒乓球\nC．橡胶球\n（2）用分度值为 1 mm 的刻度尺测量某级台阶高度 h 的\n示数如图 2 所示，则 h = ______cm。\n（3）作出 2h – t2 图线，如图 3 所示，则可得到重力加速度 g = ______m/s2。\n（4）在图 1 中，将手机放在木条与地面间的中点附近进行测量，若将手机放在地面 A 点，\n设声速为 v，考虑击打声的传播时间，则小球下落时间可表示为 t′ = ______（用 h、t 和 v\n表示）。\n（5）有同学认为，小明在实验中未考虑木条厚度，用图像法计算的重力加速度 g 必然有偏\n差。请判断该观点是否正确，简要说明理由_____________________。",
+      "answer": "A",
+      "analysis": "（1）为了减小空气阻力等误差影响，应该选用材质密度较大的小钢球，故选 A。\n（2）刻度尺的分度值为 1 mm，估读到分度值的下一位，由图可知 h = 61.30 cm；\n（3）根据\n2\n1\n2\nh\ngt\n=\n可知\n2\n2h\ng\nt\n=\n故在 2h – t2 图像中斜率表示重力加速度，则根据图线有\n2\n2\n3.27\n0.50 m/s\n9.55m/s\n0.35\n0.06\ng\n−\n=\n\n−\n（4）下落过程中声音传播的时间为 t1 = h\nv\n则小球下落的时间为 t′ = t + t1 = t + h\nv\n（5）设木条厚度为 H，则台阶距离地面的高度 h1 时的时间为 t1，高度 h2 时的时间为 t2；\n则根据前面的分析有\ng = 2(h2 + H) − 2(h1 + H)\nt22 − t12\n = 2(h2 − h1)\nt22 − t12\n可知与 H 无关。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -309,22 +379,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q012-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q012-p005-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q14",
-      "content": "（8 分）如图所示，两条距离为 D 的平行光线，\n以入射角 θ 从空气射入平静水面，反射光线与折射光\n线垂直，求：\n（1）水的折射率 n；\n（2）两条折射光线之间的距离 d。\n【详解】（1）设折射角为 γ，根据几何关系可得\n90\n\n\n=\n−\n根据折射定律可得\nsin\nsin\nn\n\n\n=\n联立可得 n = tanθ\ntan\nn\n\n=\n（2）如图所示\n根据几何关系可得\nsin\ntan\nsin(90\n)\nD\nd\nD\n\n\n\n=\n\n=\n−",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q13",
+      "content": "（8 分）如图所示，两条距离为 D 的平行光线，\n以入射角 θ 从空气射入平静水面，反射光线与折射光\n线垂直，求：\n（1）水的折射率 n；\n（2）两条折射光线之间的距离 d。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设折射角为 γ，根据几何关系可得\n90\n\n\n=\n−\n根据折射定律可得\nsin\nsin\nn\n\n\n=\n联立可得 n = tanθ\ntan\nn\n\n=\n（2）如图所示\n根据几何关系可得\nsin\ntan\nsin(90\n)\nD\nd\nD\n\n\n\n=\n\n=\n−",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -332,22 +412,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q013-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q013-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q013-p006-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q15",
-      "content": "（8 分）利用云室可以知道带电粒子的性质，如图所示，云室中存在磁感应强度大小为\nB 的匀强磁场，一个质量为 m、速度为 v 的电中性粒子在 A 点分裂成带等量异号电荷的\n粒子 a 和 b，a、b 在磁场中的径迹是两条相切的圆弧，相同时间内的径迹长度之比 la∶lb\n= 3∶1，半径之比 ra∶rb = 6∶1，不计重力及粒子间的相互作用\n力，求：\n（1）粒子 a、b 的质量之比 ma∶mb；\n（2）粒子 a 的动量大小 pa。\n【详解】（1）分裂后带电粒子在磁场中偏转做匀速圆周运动，洛\n伦兹力提供向心力，则有\n2v\nqvB\nm r\n=\n解得\nmv\nr\nqB\n=\n由题干知半径之比 ra∶rb = 6∶1，故\n:\n6:1\na\na\nb b\nm v\nm v =\n因为相同时间内的径迹长度之比 la∶lb = 3∶1，则分裂后粒子在磁场中的速度为\n3:\n:\n1\na\nb\nv\nv =\n联立解得 ma∶mb = 2∶1\n（2）中性粒子在A 点分裂成带等量异号电荷的粒子a 和b，分裂过程中，没有外力作用，\n动量守恒，根据动量守恒定律\na\na\nb b\nmv\nm v\nm v\n=\n+\n因为分裂后动量关系为\n:\n6:1\na\na\nb b\nm v\nm v =\n，联立解得\npa = mava = 6\n7 mv",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q14",
+      "content": "（8 分）利用云室可以知道带电粒子的性质，如图所示，云室中存在磁感应强度大小为\nB 的匀强磁场，一个质量为 m、速度为 v 的电中性粒子在 A 点分裂成带等量异号电荷的\n粒子 a 和 b，a、b 在磁场中的径迹是两条相切的圆弧，相同时间内的径迹长度之比 la∶lb\n= 3∶1，半径之比 ra∶rb = 6∶1，不计重力及粒子间的相互作用\n力，求：\n（1）粒子 a、b 的质量之比 ma∶mb；\n（2）粒子 a 的动量大小 pa。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）分裂后带电粒子在磁场中偏转做匀速圆周运动，洛\n伦兹力提供向心力，则有\n2v\nqvB\nm r\n=\n解得\nmv\nr\nqB\n=\n由题干知半径之比 ra∶rb = 6∶1，故\n:\n6:1\na\na\nb b\nm v\nm v =\n因为相同时间内的径迹长度之比 la∶lb = 3∶1，则分裂后粒子在磁场中的速度为\n3:\n:\n1\na\nb\nv\nv =\n联立解得 ma∶mb = 2∶1\n（2）中性粒子在A 点分裂成带等量异号电荷的粒子a 和b，分裂过程中，没有外力作用，\n动量守恒，根据动量守恒定律\na\na\nb b\nmv\nm v\nm v\n=\n+\n因为分裂后动量关系为\n:\n6:1\na\na\nb b\nm v\nm v =\n，联立解得\npa = mava = 6\n7 mv",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -355,22 +444,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q014-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q014-p007-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q16",
-      "content": "（13 分）在轨空间站中物体处于完全失重状态，对空间站的影响可忽略，空间站上操控\n货物的机械臂可简化为两根相连的等长轻质臂杆，每根臂杆长为 L，如题图 1 所示，机械\n臂一端固定在空间站上的 O 点，另一端抓住质量为 m 的货物，在机械臂的操控下，货物\n先绕 O 点做半径为 2L、角速度为 ω 的匀速圆周运动，运动到 A 点停下，然后在机械臂\n操控下，货物从 A 点由静止开始做匀加速直线运动，经时间 t 到达 B 点，A、B 间的距\n离为 L。\n（1）求货物做匀速圆周运动时受到合力提供的向心力大小 Fn；\n（2）求货物运动到 B 点时机械臂对其做功的瞬时功率 P。\n（3）在机械臂作用下，货物、空间站和地球的位置如题图 2 所示，它们在同一直线上，货\n物与空间站同步做匀速圆周运动，已知空间站轨道半径为 r，货物与空间站中心的距离为 d，\n忽略空间站对货物的引力，求货物所受的机械臂作用力与所受的地球引力之比 F1∶F2。\n【详解】（1）质量为 m 的货物绕 O 点做匀速圆周运动，半径为 2L，根据牛顿第二定律可\n知\n2\n2\nn\n2\n2\nF\nm\nL\nm\nL\n\n\n=\n\n=\n（2）货物从静止开始以加速度 a 做匀加速直线运动，根据运动学公式可知\n2\n1\n2\nL\nat\n=\n解得 a = 2L\nt2 ，货物到达 B 点时的速度大小为 v = at = 2L\nt\n货物在机械臂的作用下在水平方向上做匀加速直线运动，机械臂对货物的作用力即为货物所\n受合力 ma，所以经过 t 时间，货物运动到 B 点时机械臂对其做功的瞬时功率为\nP = mav = m·2L\nt2 ·2L\nt = 4mL2\nt3\n（3）空间站和货物同轴转动，角速度 ω0 相同，对质量为 m0 空间站，质量为 M 的地球\n提供向心力\n2\n0\n0\n0\n2\nMm\nG\nm\nr\nr\n\n=\n解得\n2\n3\n0\nGM\nr\n\n=\n货物在机械臂的作用力 F1 和万有引力 F2 的作用下做匀速圆周运动，则\n2\n2\n1\n0 (\n)\nF\nF\nm\nr\nd\n\n−\n=\n−\n货物受到的万有引力\n2\n3\n0\n2\n2\n2\n(\n)\n(\n)\nm\nr\nMm\nF\nG r\nd\nr\nd\n\n=\n=\n−\n−\n解得机械臂对货物的作用力大小为\n2\n3\n3\n3\n2\n2\n0\n1\n0\n0\n2\n2\n(\n)\n(\n)\n(\n)\n(\n)\nm\nr\nr\nr\nd\nF\nm\nr\nd\nm\nr\nd\nr\nd\n\n\n\n−\n−\n=\n−\n−\n=\n−\n−\n则 F1\nF2 = r3 − (r − d)3\nr3",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q15",
+      "content": "（13 分）在轨空间站中物体处于完全失重状态，对空间站的影响可忽略，空间站上操控\n货物的机械臂可简化为两根相连的等长轻质臂杆，每根臂杆长为 L，如题图 1 所示，机械\n臂一端固定在空间站上的 O 点，另一端抓住质量为 m 的货物，在机械臂的操控下，货物\n先绕 O 点做半径为 2L、角速度为 ω 的匀速圆周运动，运动到 A 点停下，然后在机械臂\n操控下，货物从 A 点由静止开始做匀加速直线运动，经时间 t 到达 B 点，A、B 间的距\n离为 L。\n（1）求货物做匀速圆周运动时受到合力提供的向心力大小 Fn；\n（2）求货物运动到 B 点时机械臂对其做功的瞬时功率 P。\n（3）在机械臂作用下，货物、空间站和地球的位置如题图 2 所示，它们在同一直线上，货\n物与空间站同步做匀速圆周运动，已知空间站轨道半径为 r，货物与空间站中心的距离为 d，\n忽略空间站对货物的引力，求货物所受的机械臂作用力与所受的地球引力之比 F1∶F2。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）质量为 m 的货物绕 O 点做匀速圆周运动，半径为 2L，根据牛顿第二定律可\n知\n2\n2\nn\n2\n2\nF\nm\nL\nm\nL\n\n\n=\n\n=\n（2）货物从静止开始以加速度 a 做匀加速直线运动，根据运动学公式可知\n2\n1\n2\nL\nat\n=\n解得 a = 2L\nt2 ，货物到达 B 点时的速度大小为 v = at = 2L\nt\n货物在机械臂的作用下在水平方向上做匀加速直线运动，机械臂对货物的作用力即为货物所\n受合力 ma，所以经过 t 时间，货物运动到 B 点时机械臂对其做功的瞬时功率为\nP = mav = m·2L\nt2 ·2L\nt = 4mL2\nt3\n（3）空间站和货物同轴转动，角速度 ω0 相同，对质量为 m0 空间站，质量为 M 的地球\n提供向心力\n2\n0\n0\n0\n2\nMm\nG\nm\nr\nr\n\n=\n解得\n2\n3\n0\nGM\nr\n\n=\n货物在机械臂的作用力 F1 和万有引力 F2 的作用下做匀速圆周运动，则\n2\n2\n1\n0 (\n)\nF\nF\nm\nr\nd\n\n−\n=\n−\n货物受到的万有引力\n2\n3\n0\n2\n2\n2\n(\n)\n(\n)\nm\nr\nMm\nF\nG r\nd\nr\nd\n\n=\n=\n−\n−\n解得机械臂对货物的作用力大小为\n2\n3\n3\n3\n2\n2\n0\n1\n0\n0\n2\n2\n(\n)\n(\n)\n(\n)\n(\n)\nm\nr\nr\nr\nd\nF\nm\nr\nd\nm\nr\nd\nr\nd\n\n\n\n−\n−\n=\n−\n−\n=\n−\n−\n则 F1\nF2 = r3 − (r − d)3\nr3",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -378,22 +475,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q015-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q015-p007-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022江苏.pdf#q17",
-      "content": "（16 分）某装置用电场控制带电粒子运动，工作原理如图所示，矩形 ABCD 区域内存\n在多层紧邻的匀强电场，每层的高度均为 d，电场强度大小均为 E，方向沿竖直方向交替变\n化，AB 边长为 12d，BC 边长为 8d，质量为 m、电荷量为 +q 的粒子流从装置左端中点\n射入电场，粒子初动能为 Ek，入射角为 θ，在纸面内运动，不计重力及粒子间的相互作用\n力。\n（1）当 θ = θ0 时，若粒子能从 CD 边射出，求该粒子通过电场的时间 t；\n（2）当 Ek = 4qEd 时，若粒子从 CD 边射出电场时与轴线 OO′ 的距离小于 d，求入射角\nθ 的范围；\n（3）当 Ek = 8\n3 qEd，粒子在 θ 为 − π\n2 ~ π\n2  范围内均匀射入电场，求从 CD 边出射的粒\n子与入射粒子的数量之比 N∶N0。\n【详解】（1）电场方向竖直向上，粒子所受电场力在竖直方向上，粒子在\n水平方向上做匀速直线运动，速度分解如图所示\n粒子在水平方向的速度为\n0\ncos\nxv\nv\n\n=\n根据\n2\nk\n1\n2\nE\nmv\n=\n可知\nk\n2E\nv\nm\n=\n解得 t =\n8d\nvcosθ0\nm\n2Ek\n（2）粒子进入电场时的初动能\n2\nk\n0\n1\n4\n2\nE\nqEd\nmv\n=\n=\n粒子进入电场后只有电场力做功，粒子竖直方向上反复\n运动后，根据题意可知最终的运动的空间如图所示\n若粒子从 OO′ 上部分离开 CD 边，则电场力做负功，\n根据动能定理可知\nk1\nk\nE\nE\nqEx\n−\n=\n−\n其中\n2\n2\n1\nk1\n1\n1\n(\n)\n2\ny\nx\nv\nE\nm\nv\n=\n+\n2\n2\n0\n0\nk\n1\n(\n)\n2\ny\nx\nv\nE\nm\nv\n=\n+\n粒子在水平方向上做匀速直线运动，所以\n0\n1\nx\nx\nv\nv\n=\n，竖直方向上\n0\n0\n1\nsin\nyv\nv\n\n=\n，动能定理的\n方程可化解为\n2\n2\n2\n2\n2\n1\n0\n1\n0\n1\n1\n1\n1\n1\nsin\n2\n2\n2\n2\ny\ny\ny\nqEx\nmv\nmv\nmv\nmv\n\n−\n=\n−\n=\n−\n当\n1\n0\nyv\n=\n时，x 取到最大值，即\n2\n2\nm\n0\n1\n1\nsin\n2\nqEx\nmv\n\n−\n= −\n解得粒子在竖直方向上的最大位移为\n2\nm\n1\n4 sin\nx\nd\n\n=\n根据题意可知\nm\nx\nd\n\n，可知\n1\n1\nsin\n2\n\n，得 θ1 < 30°\n粒子在 OO′ 上、下部分运动呈现对称性，所以入射角的范围为\n− 30° < θ < 30° 或 − π\n6 < θ < π\n6\n（3）粒子在水平方向做匀速直线运动，粒子穿过电场所用时间为\nk\n2\n2\n8\n1\n12\ncos\n2\ncos\nd\nm\nmd\nt\nE\nE\nv\nq\n\n\n=\n\n=\n\n若粒子恰好能到达 OO′ 上方 5d 的位置时速度减小至 0，根据动量定理可知\n1\n1\n2\n2\nk\n0\n0\n0\nsin\n0\n2\nsin\ny\nqEt\nmv\nmv\nE\nm\n\n\n−\n=\n−\n=\n−\n=\n−\n\n解得\n1\n2\n16\nsin\nmd\nt\nqE\n\n=\n\n粒子在竖直方向上再运动 d 的距离恰好从 D 点离开，根据运动学公式可知\n2\n0\n1\n2\nd\nat\n=\n解得\n0\n2md\nt\nqE\n=\n当 t1 + t0 = t 时，粒子恰好从 D 点离开，解得\n2\nsin\n0.6\n\n则\n2\n37\n\n\n\n，根据对称性可知粒子入射角的范围为\n37\n37\n\n\n\n−\n\n\n则从 CD 边出射的粒子与入射粒子的数量之比 N\nN0 ≈ 90\n37",
+      "questionId": "physics:普通高考/2022/2022江苏.pdf#q16",
+      "content": "（16 分）某装置用电场控制带电粒子运动，工作原理如图所示，矩形 ABCD 区域内存\n在多层紧邻的匀强电场，每层的高度均为 d，电场强度大小均为 E，方向沿竖直方向交替变\n化，AB 边长为 12d，BC 边长为 8d，质量为 m、电荷量为 +q 的粒子流从装置左端中点\n射入电场，粒子初动能为 Ek，入射角为 θ，在纸面内运动，不计重力及粒子间的相互作用\n力。\n（1）当 θ = θ0 时，若粒子能从 CD 边射出，求该粒子通过电场的时间 t；\n（2）当 Ek = 4qEd 时，若粒子从 CD 边射出电场时与轴线 OO′ 的距离小于 d，求入射角\nθ 的范围；\n（3）当 Ek = 8\n3 qEd，粒子在 θ 为 − π\n2 ~ π\n2  范围内均匀射入电场，求从 CD 边出射的粒\n子与入射粒子的数量之比 N∶N0。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）电场方向竖直向上，粒子所受电场力在竖直方向上，粒子在\n水平方向上做匀速直线运动，速度分解如图所示\n粒子在水平方向的速度为\n0\ncos\nxv\nv\n\n=\n根据\n2\nk\n1\n2\nE\nmv\n=\n可知\nk\n2E\nv\nm\n=\n解得 t =\n8d\nvcosθ0\nm\n2Ek\n（2）粒子进入电场时的初动能\n2\nk\n0\n1\n4\n2\nE\nqEd\nmv\n=\n=\n粒子进入电场后只有电场力做功，粒子竖直方向上反复\n运动后，根据题意可知最终的运动的空间如图所示\n若粒子从 OO′ 上部分离开 CD 边，则电场力做负功，\n根据动能定理可知\nk1\nk\nE\nE\nqEx\n−\n=\n−\n其中\n2\n2\n1\nk1\n1\n1\n(\n)\n2\ny\nx\nv\nE\nm\nv\n=\n+\n2\n2\n0\n0\nk\n1\n(\n)\n2\ny\nx\nv\nE\nm\nv\n=\n+\n粒子在水平方向上做匀速直线运动，所以\n0\n1\nx\nx\nv\nv\n=\n，竖直方向上\n0\n0\n1\nsin\nyv\nv\n\n=\n，动能定理的\n方程可化解为\n2\n2\n2\n2\n2\n1\n0\n1\n0\n1\n1\n1\n1\n1\nsin\n2\n2\n2\n2\ny\ny\ny\nqEx\nmv\nmv\nmv\nmv\n\n−\n=\n−\n=\n−\n当\n1\n0\nyv\n=\n时，x 取到最大值，即\n2\n2\nm\n0\n1\n1\nsin\n2\nqEx\nmv\n\n−\n= −\n解得粒子在竖直方向上的最大位移为\n2\nm\n1\n4 sin\nx\nd\n\n=\n根据题意可知\nm\nx\nd\n\n，可知\n1\n1\nsin\n2\n\n，得 θ1 < 30°\n粒子在 OO′ 上、下部分运动呈现对称性，所以入射角的范围为\n− 30° < θ < 30° 或 − π\n6 < θ < π\n6\n（3）粒子在水平方向做匀速直线运动，粒子穿过电场所用时间为\nk\n2\n2\n8\n1\n12\ncos\n2\ncos\nd\nm\nmd\nt\nE\nE\nv\nq\n\n\n=\n\n=\n\n若粒子恰好能到达 OO′ 上方 5d 的位置时速度减小至 0，根据动量定理可知\n1\n1\n2\n2\nk\n0\n0\n0\nsin\n0\n2\nsin\ny\nqEt\nmv\nmv\nE\nm\n\n\n−\n=\n−\n=\n−\n=\n−\n\n解得\n1\n2\n16\nsin\nmd\nt\nqE\n\n=\n\n粒子在竖直方向上再运动 d 的距离恰好从 D 点离开，根据运动学公式可知\n2\n0\n1\n2\nd\nat\n=\n解得\n0\n2md\nt\nqE\n=\n当 t1 + t0 = t 时，粒子恰好从 D 点离开，解得\n2\nsin\n0.6\n\n则\n2\n37\n\n\n\n，根据对称性可知粒子入射角的范围为\n37\n37\n\n\n\n−\n\n\n则从 CD 边出射的粒子与入射粒子的数量之比 N\nN0 ≈ 90\n37",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -401,11 +506,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022江苏.pdf",
         "page": 8,
+        "endPage": 10,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q016-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q016-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q016-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0ac561102e8eb069-q016-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 21,
+    "answerGraphics": 0,
+    "assigned": 21,
+    "rendered": 22,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

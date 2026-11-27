@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009福建理综.pdf",
   "name": "2009福建理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 10,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009福建理综.pdf#q01",
       "content": "光在科学技术、生产和生活中有着广泛的应用，下列说法正确的是（     ）\n（A）用透明的标准平面样板检查光学平面的平整程度是利用光的偏振现象\n（B）用三棱镜观察白光看到的彩色图样是利用光的衍射现象\n（C）在光导纤维束内传送图像是利用光的色散现象\n（D）光学镜头上的增透膜是利用光的干涉现象",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "用透明的标准平面样板检查光学平面的平整程度是利用光的薄膜干涉现象，A 错；\n用三棱镜观察白光看到的彩色图样是利用光的折射形成的色散现象，B 错；在光导纤维束内\n传送图像是利用光的全反射现象，C 错；光学镜头上的增透膜是利用光的干涉现象，D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,11 +44,311 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q02",
+      "content": "“嫦娥一号”月球探测器在环绕月球运行过程中，设探测器运行的轨道半径为r，运行\n速率为v，当探测器在飞越月球上一些环形山中的质量密集区上空时（    ）\n（A）r、v 都将略为减小\n（B）r、v 都将保持不变\n（C）r 将略为减小，v 将略为增大\n（D）r 将略为增大，v 将略为减小",
+      "answer": "暂无结构化答案",
+      "analysis": "当探测器在飞越月球上一些环形山中的质量密集区上空时，引力变大，探测器做近\n心运动，曲率半径略为减小，同时由于引力做正功，动能略为增加，所以速率略为增大",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q03",
+      "content": "如图所示，平行板电容器与电动势为E 的直流电源（内阻不计）\n连接，下极板接地。一带电油滴位于容器中的P 点且恰好处于平衡\n状态。现将平行板电容器的上极板竖直向上移动一小段距离（     ）\n（A）带点油滴将沿竖直方向向上运动\n（B）P 点的电势将降低\n（C）带点油滴的电势将减少\n（D）若电容器的电容减小，则极板带电量将增大",
+      "answer": "暂无结构化答案",
+      "analysis": "电容器两端电压U 不变，由公式\nU\nE\nd\n=\n，场强变小，电场力变小，带点油滴将沿\n竖直方向向下运动，A 错；P 到下极板距离d 不变，而强场E 减小，由公式U = Ed 知P 与\n正极板的电势差变小，又因为下极板电势不变，所以P 点的电势变小，B 对；由于电场力向\n上，而电场方向向下，可以推断油滴带负电，又P 点的电势降低，所以油滴的电势能增大，\nC 错；图中电容器两端电压U 不变，电容C 减小时由公式Q = CU，带电量减小，D 错。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q04",
+      "content": "一台小型发电机产生的电动势随时间变化的正弦规律图象如图甲所示。已知发电机线圈\n内阻为5.0Ω，则外接一只电阻为95.0Ω 的灯泡，如图乙所示，则（    ）\nP\nE\n2 / 9\n（A）电压表V 的示数为 220 V\n（B）电路中的电流方向每秒钟改变 50 次\n（C）灯泡实际消耗的功率为 484 W\n（D）发电机线圈内阻每秒钟产生的焦耳热为 24.2 J",
+      "answer": "暂无结构化答案",
+      "analysis": "电压表示数为灯泡两端电压的有效值，由图像知电动势的最大值Em = 220 2 V，\n有效值E = 220V，灯泡两端电压\n(\n)\nRE\nU\n209\nR\nV\nr\n=\n=\n+\n，A 错；由图像知T = 0.02S，一个周\n期内电流方向变化两次，可知1s 内电流方向变化100 次，B 错；灯泡的实际功率\n2\n2\nU\n209\nP\nW\n459.8W\nR\n95\n=\n=\n=\n，C 错；电流的有效值\nE\nI\n2.2\nR\nA\nr\n=\n=\n+\n，发电机线圈内阻每秒钟\n产生的焦耳热为\n2\n2\n2.2\n5 1\n24.2\nQ\nI rt\nJ\nJ\n=\n=\n× ×\n=\n，D 对。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q05",
+      "content": "图甲为一列简谐横波在 t = 0.10 s 时刻的波形图，P 是平衡位置为 x = 1 m 处的质点，\nQ 是平衡位置为 x = 4 m 处的质点，图乙为质点 Q 的振动图象，则（    ）\n（A）t = 0.15 s 时，质点 Q 的加速度达到正向最大\n（B）t = 0.15 s 时，质点 P 的运动方向沿 y 轴负方向\n（C）从 t = 0.10 s 到 t = 0.25 s，该波沿 x 轴正方向传播了 6 m\n（D）从 t = 0.10 s 到 t = 0.25 s，质点 P 通过的路程为 30 cm",
+      "answer": "暂无结构化答案",
+      "analysis": "由y-t 图像知，周期T = 0.2s，且在t = 0.1sQ 点在平衡位置沿y 负方向运动，可以\n推断波没x 负方向传播，所以C 错；\n从t = 0.10s 到t = 0.15s 时，Δt = 0.05s = T/4，质点Q 从图甲所示的位置振动T/4 到达负最大\n位移处，又加速度方向与位移方向相反，大小与位移的大小成正比，所以此时Q 的加速度\n达到正向最大，而P 点从图甲所示位置运动T/4 时正在由正最大位移处向平衡位置运动的途\n中，速度沿y 轴负方向，所以A、B 都对；\n振动的质点在t = 1T 内，质点运动的路程为4A；t = T/2，质点运动的路程为2A；但t = T/4，\n质点运动的路程不一定是1A；t = 3T/4，质点运动的路程也不一定是3A。本题中从t = 0.10s\nV\nO\nOʹ\n乙\n u/V\nt/×10-2s\nO\n220 2\n1\n2\n-220 2\n甲\ny/cm\nt/s\nO\n乙\n10\n−10\n0..05 0.10\n0.15 0.20\ny/cm\nx/m\nO\n4\n8\n甲\n10\n−10\n6\n2\nP\nQ\n3 / 9\n到t = 0.25s 内，Δt = 0.15s = 3T/4，P 点的起始位置既不是平衡位置，又不是最大位移处，所\n以在3T/4 时间内的路程不是30cm。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q06",
+      "content": "如图所示，固定位置在同一水平面内的两根平行长直金属\n导轨的间距为 d，其右端接有阻值为 R 的电阻，整个装置处在\n竖直向上磁感应强度大小为 B 的匀强磁场中。一质量为 m（质\n量分布均匀）的导体杆 ab 垂直于导轨放置，且与两导轨保持良\n好接触，杆与导轨之间的动摩擦因数为 μ。现杆在水平向左、垂\n直于杆的恒力 F 作用下从静止开始沿导轨运动距离 L 时，速度恰好达到最大（运动过程中\n杆始终与导轨保持垂直）。设杆接入电路的电阻为 r，导轨电阻不计，重力加速度大小为 g。\n则此过程（    ）\n（A）杆的速度最大值为\nA（F − μmg）R\nB2d2\nE\n（B）流过电阻 R 的电量为\nA Bdl\nR＋r\nE\n（C）恒力 F 做的功与摩擦力做的功之和等于杆动能的变化量\n（D）恒力 F 做的功与安培力做的功之和大于杆动能的变化量",
+      "answer": "暂无结构化答案",
+      "analysis": "当杆达到最大速度vm 时，\n2\n2\n0\nm\nB d v\nF\nmg\nR\nr\nµ\n−\n−\n=\n+\n得\n(\n)(\n)\n2\n2\nm\nF\nmg\nR\nr\nv\nB d\nµ\n−\n+\n=\n，A\n错；由公式\n(\n)\n(\n)\nB S\nBdL\nq\nR\nr\nR\nr\nR\nr\n∆Φ\n∆\n=\n=\n=\n+\n+\n+\n，B 对；在棒从开始到达到最大速度的过程中由\n动能定理有：\nF\nf\nK\nW\nW\nW\nE\n+\n+\n= ∆\n安\n，其中Wf\nmg\nµ\n= −\n，W\nQ\n= −\n安\n，恒力F 做的功与摩\n擦力做的功之和等于杆动能的变化量与回路产生的焦耳热之和，C 错；恒力F 做的功与安倍\n力做的功之和等于于杆动能的变化量与克服摩擦力做的功之和，D 对。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q07",
+      "content": "（18 分）\n（1）（6 分）在通用技术课上，某小组在组装潜艇模型时，需要一枚截面为外\n方内圆的小螺母，如图所示。现需要精确测量小螺母的内径，可选用的仪器有：\n（A）50 等分的游标卡尺\n（B）螺旋测微器\n①在所提供的仪器中应选用__________。\n②在测量过程中，某同学在小螺母中空部分360°范围内选取不同的位置进行多次测量取平\n均值的目的是___________。",
+      "answer": "A",
+      "analysis": "（1）①游标卡尺方便地测量内径、外径和深度，而螺旋测微器只能测外径。故选A。\n②多次测量取平均值的目的就是减小偶然误差。\na\nb\nR\nF\nB\nr\n4 / 9\n（2）（12 分）某研究性学习小组为了制作一种\n传感器，需要选用一电器元件。图为该电器元\n件的伏安特性曲线，有同学对其提出质疑，先\n需进一步验证该伏安特性曲线，实验室备有下\n列器材：\n器材（代号）\n规格\n电流表（A1）\n电流表（A2）\n电压表（V1）\n电压表（V2）\n滑动变阻器（R1）\n滑动变阻器（R2）\n直流电源（E）\n开关（S）\n导线若干\n量程0~50mA，内阻约为50Ω\n量程0~200mA，内阻约为10Ω\n量程0~3V，内阻约为10kΩ\n量程0~15V，内阻约为25kΩ\n阻值范围0~15Ω，允许最大电流1A\n阻值范围0~1kΩ，允许最大电流100mA\n输出电压6V，内阻不计\n①为提高实验结果的准确程度，电流表应选用_________；电压表应选用_______；滑动变阻\n器应选用____________。（以上均填器材代号）\n②为达到上述目的，请在虚线框内画出正确的实验电路原理图，并标明所用器材的代号。\n③若发现实验测得的伏安特性曲线与图中曲线基本吻合，请说明该伏安特性曲线与小电珠的\n伏安特性曲线有何异同点？\n相同点：______________________________________，\n不同点：______________________________________。\n（2）①图像中电流0～0.14A，电流表选A2；电源电压6V，但图像只要求电压在0～\n3V 之间调整，为了测量准确电压表选V1；由于绘制图像的需要，要求电压从0～3V 之间调\n整，所以滑动变阻器只能采用分压式接法，为了能很好调节电压，滑动变阻器应选用阻值较\n小的R1。\n②该元件约几十Ω，\nV\nA\nR\nR\nR\nR\n>\n，电压表的分流作用可以忽略，所以采用电流表外接法；实\n验数据的采集要求从零开始，所以滑动变阻器采用分压式接法。\n元件\nI/A\nU/V\nO\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n0.02\n0.04\n0.06\n0.08\n0.10\n0.12\n0.14\n5 / 9\n③从图像的形状和斜率变化趋势上去找相同点和不同点，突出都是“非线性”，图像上某点与\n原点连线的斜率是电阻的倒数。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 3,
+        "endPage": 5,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q007-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q007-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q007-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q08",
+      "content": "（15 分）\n如图所示，射击枪水平放置，射击枪与目标靶中心\n位于离地面足够高的同一水平线上，枪口与目标靶\n之间的距离s = 100 m，子弹射出的水平速度v =\n200m/s，子弹从枪口射出的瞬间目标靶由静止开始\n释放，不计空气阻力，取重力加速度g 为 10 m/s2，求：\n（1）从子弹由枪口射出开始计时，经多长时间子弹击中目标靶？\n（2）目标靶由静止开始释放到被子弹击中，下落的距离h 为多少？",
+      "answer": "暂无结构化答案",
+      "analysis": "本题考查的平抛运动的知识。\n（1）子弹做平抛运动，它在水平方向的分运动是匀速直线运动，设子弹经t 时间集中目标\n靶，则\n    t = s\nv\n    代入数据得\n    t = 0.5s\n    （2）目标靶做自由落体运动，则h =\n2\n1\n2 gt\n代入数据得 h = 1.25m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q008-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q008-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q09",
+      "content": "（19 分）\n如图甲，在水平地面上固定一倾角为θ 的光滑绝缘斜面，斜面处于电场强度大小为E、方向\n沿斜面向下的匀强电场中。一劲度系数为k 的绝缘轻质弹簧的一端固定在斜面底端，整根弹\n簧处于自然状态。一质量为m、带电量为q（q＞0）的滑块从距离弹簧上端为s0 处静止释放，\n滑块在运动过程中电量保持不变，设滑块与弹簧接触过程没有机械能损失，弹簧始终处在弹\n性限度内，重力加速度大小为g。\n（1）求滑块从静止释放到与弹簧上端接触瞬间所经历的时间t1；\n（2）若滑块在沿斜面向下运动的整个过程中最大速度大小为vm，求滑块从静止释放到速度\n元件\nA2\nV1\nR1\nE\nS\nE\nθ\ns0\n甲\nv\nvm\nv1\nO\nt\nt1 t2\nt3\n乙\nv\ns\n射击枪\n目标靶\n6 / 9\n大小为vm 过程中弹簧的弹力所做的功W；\n（3）从滑块静止释放瞬间开始计时，请在乙图中画出滑块在沿斜面向下运动的整个过程中\n速度与时间关系v-t 图象。图中横坐标轴上的t1、t2 及t3 分别表示滑块第一次与弹簧上端接\n触、第一次速度达到最大值及第一次速度减为零的时刻，纵坐标轴上的v1 为滑块在t1 时刻\n的速度大小，vm 是题中所指的物理量。（本小题不要求写出计算过程\n．．．．．．．．．．．．）",
+      "answer": "暂无结构化答案",
+      "analysis": "本题考查的是电场中斜面上的弹簧类问题。涉及到匀变速直线运动、运用动能定理\n处理变力功问题、最大速度问题和运动过程分析。\n（1）滑块从静止释放到与弹簧刚接触的过程中作初速度为零的匀加速直线运动，设加速度\n大小为a，则有\n    qE+mgsinθ = ma                    ①\n2\n0\n1\n1\n2\ns\nat\n=\n                        ②\n联立①②可得\n0\n1\n2\nsin\nms\nt\nqE\nmg\nθ\n=\n+\n                ③\n（2）滑块速度最大时受力平衡，设此时弹簧压缩量为\n0x ，则有\n0\nsin\nmg\nqE\nkx\nθ +\n=\n                  ④\n    从静止释放到速度达到最大的过程中，由动能定理得\n2\n0\n1\n(\nsin\n) (\n)\n0\n2\nm\nm\nmg\nqE\nx\nx\nW\nmv\nθ +\n•\n+\n+\n=\n−\n       ⑤\n联立④⑤可得\n2\n0\n1\nsin\n(\nsin\n) (\n)\n2\nm\nmg\nqE\nW\nmv\nmg\nqE\ns\ns\nk\nθ\nθ\n+\n=\n−\n+\n•\n+\n（3）如图",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p006-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009福建理综.pdf#q10",
+      "content": "（20 分）\n图为可测定比荷的某装置的简化示意图，在第一象限区\n域内有垂直于纸面向里的匀强磁场，磁感应强度大小B\n= 2.0×10-3T，在y 轴上距坐标原点L = 0.50m 的P 处为\n离子的入射口，在y 上安放接收器，现将一带正电荷的\n粒子以v = 3.5×104m/s 的速率从P 处射入磁场，若粒\n子在y 轴上距坐标原点L = 0.50m 的M 处被观测到，且\n运动轨迹半径恰好最小，设带电粒子的质量为m，电量\n为q，不计其重力。\nv\nvm\nv1\nO\nt\nt1 t2\nt3\ny\nx\nO\nL\nL\nB\nP\nM\n入射口\n接收器\n7 / 9\n（1）求上述粒子的比荷\nAq\nm\nE\nA；\n（2）如果在上述粒子运动过程中的某个时刻，在第一象限内再加一个匀强电场，就可以使\n其沿y 轴正方向做匀速直线运动，求该匀强电场的场强大小和方向，并求出从粒子射入磁场\n开始计时经过多长时间加这个匀强电场；\n（3）为了在M 处观测到按题设条件运动的上述粒子，在第一象限内的磁场可以局限在一个\n矩形区域内，求此矩形磁场区域的最小面积，并在图中画出该矩形。",
+      "answer": "D",
+      "analysis": "本题考查带电粒子在磁场中的运动。第（2）问涉及到复合场（速度选择器模型）\n第（3）问是带电粒子在有界磁场（矩形区域）中的运动。\n（1）设粒子在磁场中的运动半径为r。如图甲，依题意M、P 连线即为该粒子在磁场中作匀\n速圆周运动的直径，由几何关系得\n2\n2\nL\nr =\n        ①\n由洛伦兹力提供粒子在磁场中作匀速圆周运动的向心力，可得\n2v\nqvB\nm r\n=\n        ②\n联立①②并代入数据得\nq\nm\n = 4.9×\n7\n10 C/kg（或5.0×\n7\n10 C/kg）   ③\n（2）设所加电场的场强大小为E。如图乙，当粒子子经过Q 点时，速度沿y 轴正方向，依\n题意，在此时加入沿x 轴正方向的匀强电场，电场力与此时洛伦兹力平衡，则有\n    qE\nqvB\n=\n       ④\n代入数据得\n70\n/\nE\nN C\n=\n    ⑤\n8 / 9\n所加电场的长枪方向沿x 轴正方向。由几何关系可知，圆弧PQ 所对应的圆心角为45°，设\n带点粒子做匀速圆周运动的周期为T，所求时间为t，则有\n0\n0\n45\n360\nt\nT\n=\n    ⑥\n2 r\nT\nv\nπ\n=\n       ⑦\n联立①⑥⑦并代入数据得\n6\n7.9 10\nt\ns\n−\n=\n×\n  ⑧\n（3）如图丙，所求的最小矩形是MM1P1P，该区域面积\n2\n2\nS\nr\n=\n           ⑨\n联立①⑨并代入数据得\n2\n0.25\nS\nm\n=\n矩形如图丙中\n1 1\nMM PP （虚线）\n28．【物理——选修3-3】（本题共有两小题，每小题6 分，共12 分。每小题只有一个选项\n符合题意。）\n（1）现代科学技术的发展与材料科学、能源的开发密切相关，下列关于材料、能源的说法\n正确的是_________。\n（A）化石能源为清洁能源\n（B）纳米材料的粒度在1～100μm 之间\n（C）半导体材料的导电性能介于金属导体和绝缘体之间\n（D）液晶既有液体的流动性，又有光学性质的各向同性\n（1）化石能源燃烧时产生二氧化碳，造成温室气体效应；煤碳和石油中含有硫，燃\n烧时产生二氧化硫等物质使雨水的酸度增高等等，说明化石能源不是清洁能源；①错；纳米\n材料的粒度在1～100nm，而不是1～100μm，②错；液晶既有液体的流动性，又有光学性质\ny\nx\nO\nL\nL\nB\nP\nM\n9 / 9\n的各向异性（不是同性），④错。正确选项为③\n（2）一定质量的理想气体在某一过程中，外界对气体做功 7.0×104J，气体内能减少 1.3×\n105J，则此过程________。\n（A）气体从外界吸收热量2.0×105J\n（B）气体向外界放出热量2.0×105J\n（C）气体从外界吸收热量2.0×104J\n（D）气体向外界放出热量6.0×104J\n（2）W = 7.0×104J，ΔU = －1.3×105J，由热力学第一定律\nW+Q = ΔU\nQ = －2.0×105J\n表明气体向外界放热2.0×105J，正确选项为②\n29．【物理——选修3-5】（本题共有两个小题，每小题6 分，共12 分。每小题只有一个选\n项符合题意。）\n（1）随着现代科学的发展，大量的科学发展促进了人们对原子、原子核的认识，下列有关\n原子、原子核的叙述正确的是_________。\n（A）卢瑟福α 粒子散射实验说明原子核内部具有复杂的结构\n（B）天然放射现象表明原子核内部有电子\n（C）轻核聚变反应方程有：21H＋32H→62He＋10n\n（D）氢原子从n = 3 能级跃迁到n = 1 能级和从n = 2 能级跃迁到n = 1 能级，前者跃迁辐射\n出的光子波长比后者的长\n（A）α 粒子散射实验说明原子内部有复杂结构，但并没有得出原子核内部结构．故\nA 错误．\nB、贝克勒尔发现天然放射现象表明原子核内部有复杂结构，而放出的电子是原子核中的中\n子转变为一个质子和一个电子，电子释放出来．故B 错误．\nC、该核反应方程电荷数不守恒、质量数不守恒．故C 错误．\nD、氢原子从n = 3 能级跃迁到n = 1 能级和从n = 2 能级跃迁到n = 1 能级，前者辐射的光子\n能量大，则光子频率大，波长短．故D 正确．故选D\n（2）一炮艇总质量为M，以速度v0 匀速行驶，从船上以相对海岸的水平速度v 沿前进方向\n射出一质量为m 的炮弹，发射炮弹后艇的速度为vʹ，若不计水的阻力，则下列各关系式中\n正确的是______。（填选项前的编号）\n（A）Mv0 = （M－m）vʹ＋mv\n（B）Mv0 = （M－m）vʹ＋m（v＋v0）\n（C）Mv0 = （M－m）vʹ＋m（v＋vʹ）\n（D）Mv0 = Mvʹ＋mv\n以地面为参照物，发射炮弹过程中动量守恒，所以有：\nMv0 = （M－m）vʹ＋mv，\n故BCD 错误，A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009福建理综.pdf",
+        "page": 6,
+        "endPage": 9,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p008-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p008-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b5b26aaaedf6a153-q010-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 21,
+    "answerGraphics": 0,
+    "assigned": 21,
+    "rendered": 21,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

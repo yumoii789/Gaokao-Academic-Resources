@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
   "name": "2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆)",
   "track": "standard",
@@ -15,86 +16,147 @@
   "textPages": 6,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q01",
-      "content": "磁场指向纸里：\n2\nr\nkQq －qvB＝\nr\nT\nm\n2\n1\n2\n4π",
+      "content": "对一定质量的气体，下列说法正确的是（     ）\n（A）在体积缓慢不断增大的过程中，气体一定对外界做功\n（B）在压强不断增大有过程中，外界对气体一定做功\n（C）在体积不断被压缩的过程中，内能一定增加\n（D）在与外界没有发生热量交换的过程中，内能一定不变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "当气体增大时，气体对外界做功，当气体减小时，外界对气体做功；故A 选正确；根据pV/T＝常\n数，p 增大时，V 不一定变化，故B 选项错；在V 减小的过程中，可能向外界放热，根据ΔE＝W＋Q 可\n知，内能不一定增大，故C 选项错误；Q＝0 的过程中，W 不一定为0，故D 选项错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
-        "page": 2,
-        "questionNumber": 1,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q02",
-      "content": "磁场指向纸外：\n2\nr\nkQq ＋qvB＝\nr\nT\nm\n2\n2\n2\n4π",
+      "content": "一列横波在x 轴上传播，在x＝0 与x＝1cm 的两点\n的振动图线分别如图中实线与虚线所示。由此可以得出\n（     ）\n（A）波长一定是4cm\n（B）波的周期一定是4s\n（C）波的振幅一定是2cm\n（D）波的传播速度一定是1cm/s",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据振动图象两个最大值的横坐标之差为振动周期，故T＝4s，B 选项正确；从图象可看出振幅\nA＝2cm，C 选项正确；根据题中所给的振动图象无法得到波长（或波速），也就无法根据λ＝v/T 算出波\n速（或波长），故A、D 选项错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
-        "page": 2,
-        "questionNumber": 2,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q03",
-      "content": "比较上述式子，T1＞T0，T2＜T0，故AD 选项正确。",
+      "content": "如图所示，PQS 是固定于竖直平面内的光滑的1/4 圆周轨道，圆心O 在S 的\n正上方。在O、P 两点各有一质量为m 的有物块a 和b，从同时刻开始，a 自由下\n落，b 沿圆弧下滑。以下说法正确的是（     ）\n（A）a 比b 先到达S，它们在S 点的动量不相等\n（B）a 与b 先到达S，它们在S 点的动量不相等\n（C）a 比b 先到达S，它们在S 点的动量相等\n（D）b 比a 先到达S，它们在S 点的动量相等",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "a 做自由落体运动，ta＝\ng\nR\n2\n，b 做变速圆周运动，视为振动处理，tb＝T/4＝\ng\nR\n4\n2\nπ\n，ta＜tb；根\n据机械能守恒得知，a、b 到达S 的速度大小相等，但方向不同，动量mv 大小相等，但方向不同，故A 选\n项正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
-        "page": 2,
-        "questionNumber": 3,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q04",
-      "content": "假定地球、月球都静止不动，用火箭从地球沿地月连线发射一探测器。假定探测器在地球表面附近脱\n离火箭。用W 表示探测器从脱离火箭处到月球的过程中克服地球引力做的功，用Ek 表示探测器脱离火箭\n时的动能，若不计空气阻力，则（    ）\n（A）Ek 必须大于或等于W，探测器才能到达月球\n（B）Ek 小于W，探测器也可能到达月球\n（C）Ek＝W/2，探测器一定能到达月球\n（D）Ek＝W/2，探测器一定不能到达月球\n【分析】设月球引力对探测器做的功为W1，根据动能定理可得：－W＋W1＝0－Ek，根据F＝Gm1m2/r2 可\n知，F 地＞F 月，W＞W1，故BD 选项正确。\nE3\nE2\nE1\nv\n＋\n3",
+      "content": "如图，P 是偏振片，P 的透振方向（用带的箭头的实线表示）为竖直方向。下列四种入射光束中，哪几\n种照射P 时能在P 的另一侧观察到透射光？（        ）\n（A）太阳光\n（B）沿竖直方向振动的光\n（C）沿水平方向振动的光\n0 1\n2\n3\n4 5\n-1\n-2\n-3\n-4\nt/s\ny/cm\n2\n1\n-2\n-1\nP\n光束\nO\nP\nS\nQ\n2\n（D）沿与竖直方向成45°角振动的光",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据光的现象，只要光的振动方向不与偏振片的狭逢垂直，光都能通过偏振片，太阳光沿后垂直\n传播方向的各个振动，能，沿竖直方向振动的光能通过偏振片，沿与竖直方向成45°角振动的光也能通过\n偏振片。故A、B、D 都正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2007,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q05",
+      "content": "氢原子在某三个相邻能级间跃迁时，可发出三种不同波长的辐射光。已知其中的两个波长分别为λ1 和\nλ2，且λ1＞λ2，则另一个波长可能是（    ）\n（A）λ1＋λ2\n（B）λ1－λ2\n（C）λ1λ2/（λ1＋λ2）\n（D）λ1λ2/（λ1－λ2）",
+      "answer": "暂无结构化答案",
+      "analysis": "玻尔原子模型的跃迁假设（E 初－E 终＝hν）及λ＝c/ν 可得：E3－E1\n＝\n3\nλ\nhc ，E3－E2＝\n2\nλ\nhc ，E2－E1＝\n1\nλ\nhc ， 所以得：\n2\n1\n3\nλ\nλ\nλ\nhc\nhc\nhc\n+\n=\n⇒λ3＝\n2\n1\n2\n1\nλ\nλ\nλ\nλ\n+\n，故C 选项正确，同理D 选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -102,45 +164,84 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
         "page": 2,
-        "questionNumber": 20,
+        "endPage": 2,
+        "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q05",
-      "content": "如图所示，在PQ、QR 区域是在在着磁感应强度大小相等、方向相\n反的匀强磁场，磁场方向均垂直于纸面，bc 边与磁场的边界P 重合。导\n线框与磁场区域的尺寸如图所示。从t＝0 时刻开始线框匀速横穿两个磁\n场区域。以a→b→c→d→e→f 为线框中有电动势的正方向。以下四个ε\n－t 关系示意图中正确的是（      ）\n【分析】楞次定律或左手定则可判定线框刚开始进入磁场时，电流方向，即感应电动势的方向为顺时针方\n向，故D 选项错误；1－2s 内，磁通量不变化，感应电动势为0，A 选项错误；2－3s 内，产生感应电动势\nE＝2Blv＋Blv＝3Blv，感应电动势的方向为逆时针方向（正方向），故C 选项正确。\n第Ⅱ卷\n本试卷共10 小题，共174 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2007,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
-        "page": 3,
-        "questionNumber": 21,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q06",
-      "content": "（17 分）\n（1）在做“用单摆测定重力加速度”的实验中，有人提出以下几点建议：\n（A）适当加长摆线\n（B）质量相同，体积不同的摆球，应选用体积较大的\n（C）单摆偏离平衡位置的角度不能太大\n（D）单摆偏离平衡位置时开始计时，经过一次全振动后停止计时，用此时间间隔作为单摆摆动的周期\n其中对提高测量结果精度有利的是_________。\n【分析】根据单摆的周期公式T＝2πA\nl\ng\nE\nA可得，g＝A4π2l\nT2\nE\nA，从该公式可看出，增大摆长l，有利于减小误\n差，提高测量结果精度；T 对测量结果影响较大，采用累计法测量以减小误差，故C 无法提高测量结果精\n度；对B 来说，由于球体积较大，空气阻力也大，单摆振动次数少，不利于采用累计法测量周期；故B 不\n利于提高测量结果精度；只有在小角度的情形下，单摆的周期才满足T＝2πA\nl\ng\nE\nA。综合上述，应选择AC。\n（2）有一电流表A，量程为1mA，内阻rg 约为100Ω。要求测量其内\n阻。可选用的器材有：电阻箱R0，最大阻值为99999.9Ω；滑动变阻器\n甲，最大阻值为10kΩ；滑动变阻器乙，最大阻值为2kΩ；电源E1，电\n动势约为2V，内阻不计；电源E2，电动势约为6V，内阻不计；开关2\n个，导线若干。采用的测量电路图如图所示，实验步骤如下：\n（A）断开S1 和S2，将R 调到最大\n（B）合上S1，调节R 使A 满偏\n（C）合上S2，调节R1 使A 半偏，此时可认为的A 的内阻rg＝R1。试问：\n（1）在上述可供选择的器材中，可变电阻R1 应该选_______；为了使测量尽是精确，可变电阻R 应该选择\n________；电源E 应该选择________。\nε\n4\n3\nε\n3\n4\n1\n3\n4 t\n0\nε\n4 t\n1\n3\n2\n（A）\n2\n1\n0\nε\n（B）\n2\n0\nt\n（C）\n2\n1\n0\nt\n（D）\nA\nS1\nS2\nR1\nR\nE\n×\n×\n×\n×\n×\n×\n×\n×\n．\n．\n．\n．\n．\n．\n．\n．\nl\nl\nl\nl\n2l\n2l\nf\na\nb\nc\nd\ne\nP\nQ\nR\n4\n（2）认为内阻rg＝R1，此结果与的rg 真实值相比________。（填“偏大”、“偏小”、“相等”）\n【分析】（ⅰ）根据半偏法的测量原理，R1 必须选R0；由于电流表的满偏电流很小，要求R1 的阻值很大，\n故R 应选滑动变阻器甲，电源选择E2，误差较小。\n（ⅱ）根据闭合电路的欧姆定律及电路特点可得：\n合上S1，调节R 使A 满偏：Ig＝\nr\nr\nR\nE\ng +\n+\n合上S2，调节R1 使A 半偏（电路中的总电流）：I＝\nr\nR\nr\nR\nr\nR\nE\ng\ng\n+\n+\n+\n1\n1\n故：I＞Ig。\n所以，通过电阻箱的电流IR1：IR1＞Ig\n用U 表示电阻箱两端电压，则R1＝\n1\nR\nI\nU ＜\n2\ngI\nU ＝Ig\n即：rg＞R1\n故：认为内阻rg＝R1，此结果与的rg 真实值相比偏小。",
+      "content": "如图所示，一带负电的质点在固定的正的点电荷作用下绕该正电荷做匀速圆周运动，周期为T0，轨道\n平面位于纸面内，质点的速度方向如图中箭头所示。现加一垂直于轨道平面的匀强磁场，已知轨道半径并\n不因此而改变，则（    ）\n（A）若磁场方向指向纸里，质点运动的周期大于T0\n（B）若磁场方向指向纸里，质点运动的周期小于T0\n（C）若磁场方向指向纸外，质点运动的周期小于T0\n（D）若磁场方向指向纸外，质点运动的周期小于T0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "匀速圆周运动、库仑定律、洛仑兹力、左手定则等知识列出：\n未加磁场：\n2\nr\nkQq ＝\nr\nT\nm\n0\n2\n4π\n              （1）\n磁场指向纸里：\n2\nr\nkQq －qvB＝\nr\nT\nm\n2\n1\n2\n4π\n         （2）\n磁场指向纸外：\n2\nr\nkQq ＋qvB＝\nr\nT\nm\n2\n2\n2\n4π\n         （3）\n    比较上述式子，T1＞T0，T2＜T0，故AD 选项正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2007,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q07",
+      "content": "假定地球、月球都静止不动，用火箭从地球沿地月连线发射一探测器。假定探测器在地球表面附近脱\n离火箭。用W 表示探测器从脱离火箭处到月球的过程中克服地球引力做的功，用Ek 表示探测器脱离火箭\n时的动能，若不计空气阻力，则（    ）\n（A）Ek 必须大于或等于W，探测器才能到达月球\n（B）Ek 小于W，探测器也可能到达月球\n（C）Ek＝W/2，探测器一定能到达月球\n（D）Ek＝W/2，探测器一定不能到达月球",
+      "answer": "暂无结构化答案",
+      "analysis": "设月球引力对探测器做的功为W1，根据动能定理可得：－W＋W1＝0－Ek，根据F＝Gm1m2/r2 可\n知，F 地＞F 月，W＞W1，故BD 选项正确。\nE3\nE2\nE1\nv\n＋\n3",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2007,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q08",
+      "content": "如图所示，在PQ、QR 区域是在在着磁感应强度大小相等、方向相\n反的匀强磁场，磁场方向均垂直于纸面，bc 边与磁场的边界P 重合。导\n线框与磁场区域的尺寸如图所示。从t＝0 时刻开始线框匀速横穿两个磁\n场区域。以a→b→c→d→e→f 为线框中有电动势的正方向。以下四个ε\n－t 关系示意图中正确的是（      ）",
+      "answer": "暂无结构化答案",
+      "analysis": "楞次定律或左手定则可判定线框刚开始进入磁场时，电流方向，即感应电动势的方向为顺时针方\n向，故D 选项错误；1－2s 内，磁通量不变化，感应电动势为0，A 选项错误；2－3s 内，产生感应电动势\nE＝2Blv＋Blv＝3Blv，感应电动势的方向为逆时针方向（正方向），故C 选项正确。\n第Ⅱ卷\n本试卷共10 小题，共174 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -148,22 +249,62 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
         "page": 3,
-        "questionNumber": 22,
+        "endPage": 3,
+        "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q008-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q008-p003-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q07",
-      "content": "（16 分）\n如图所示，位于竖直平面内的光滑轨道，由一段斜的直轨道的\n与之相切的圆形轨道连接而成，圆形轨道的半径为R。一质量\n为m 的小物块从斜轨道上某处由静止开始下滑，然后沿圆形\n轨道运动。要求物块能通过圆形轨道的最高点，且在该最高点\n与轨道间的压力不能超过5mg（g 为重力加速度）。求物块初\n始位置相对于圆形轨道底部的高度h 的取值范围。\n【分析】设物块在圆形轨道最高点的速度为v，由机械能守恒\n得\nmgh＝2mgR＋2\n1 mv2                                  ①\n物块在最高点受的力为重力mg、轨道的压力N。重力与压力的合力提供向心力，有\nmg＋N＝m R\nv2\n                                       ②\n物块能通过最高点的条件是\nN＞0                       ③\n由②③式得\nv≥\ngR                      ④\n由①④式得\nh≥2\n5 R                      ⑤\n按题的要求，N≤5mg，由②⑤式得\nv≤\ngR\n6\n                     ⑥\nm\nh\nR\n5\n由①⑥式得\nh≤5R                       ⑦\nh 的取值范围是\n2\n5 R≤h≤5R",
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q09",
+      "content": "（17 分）\n（1）在做“用单摆测定重力加速度”的实验中，有人提出以下几点建议：\n（A）适当加长摆线\n（B）质量相同，体积不同的摆球，应选用体积较大的\n（C）单摆偏离平衡位置的角度不能太大\n（D）单摆偏离平衡位置时开始计时，经过一次全振动后停止计时，用此时间间隔作为单摆摆动的周期\n其中对提高测量结果精度有利的是_________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据单摆的周期公式T＝2πA\nl\ng\nE\nA可得，g＝A4π2l\nT2\nE\nA，从该公式可看出，增大摆长l，有利于减小误\n差，提高测量结果精度；T 对测量结果影响较大，采用累计法测量以减小误差，故C 无法提高测量结果精\n度；对B 来说，由于球体积较大，空气阻力也大，单摆振动次数少，不利于采用累计法测量周期；故B 不\n利于提高测量结果精度；只有在小角度的情形下，单摆的周期才满足T＝2πA\nl\ng\nE\nA。综合上述，应选择AC。\n（2）有一电流表A，量程为1mA，内阻rg 约为100Ω。要求测量其内\n阻。可选用的器材有：电阻箱R0，最大阻值为99999.9Ω；滑动变阻器\n甲，最大阻值为10kΩ；滑动变阻器乙，最大阻值为2kΩ；电源E1，电\n动势约为2V，内阻不计；电源E2，电动势约为6V，内阻不计；开关2\n个，导线若干。采用的测量电路图如图所示，实验步骤如下：\n（A）断开S1 和S2，将R 调到最大\n（B）合上S1，调节R 使A 满偏\n（C）合上S2，调节R1 使A 半偏，此时可认为的A 的内阻rg＝R1。试问：\n（1）在上述可供选择的器材中，可变电阻R1 应该选_______；为了使测量尽是精确，可变电阻R 应该选择\n________；电源E 应该选择________。\nε\n4\n3\nε\n3\n4\n1\n3\n4 t\n0\nε\n4 t\n1\n3\n2\n（A）\n2\n1\n0\nε\n（B）\n2\n0\nt\n（C）\n2\n1\n0\nt\n（D）\nA\nS1\nS2\nR1\nR\nE\n×\n×\n×\n×\n×\n×\n×\n×\n．\n．\n．\n．\n．\n．\n．\n．\nl\nl\nl\nl\n2l\n2l\nf\na\nb\nc\nd\ne\nP\nQ\nR\n4\n（2）认为内阻rg＝R1，此结果与的rg 真实值相比________。（填“偏大”、“偏小”、“相等”）\n（ⅰ）根据半偏法的测量原理，R1 必须选R0；由于电流表的满偏电流很小，要求R1 的阻值很大，\n故R 应选滑动变阻器甲，电源选择E2，误差较小。\n（ⅱ）根据闭合电路的欧姆定律及电路特点可得：\n合上S1，调节R 使A 满偏：Ig＝\nr\nr\nR\nE\ng +\n+\n合上S2，调节R1 使A 半偏（电路中的总电流）：I＝\nr\nR\nr\nR\nr\nR\nE\ng\ng\n+\n+\n+\n1\n1\n故：I＞Ig。\n所以，通过电阻箱的电流IR1：IR1＞Ig\n用U 表示电阻箱两端电压，则R1＝\n1\nR\nI\nU ＜\n2\ngI\nU ＝Ig\n即：rg＞R1\n故：认为内阻rg＝R1，此结果与的rg 真实值相比偏小。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2007,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q10",
+      "content": "（16 分）\n如图所示，位于竖直平面内的光滑轨道，由一段斜的直轨道的\n与之相切的圆形轨道连接而成，圆形轨道的半径为R。一质量\n为m 的小物块从斜轨道上某处由静止开始下滑，然后沿圆形\n轨道运动。要求物块能通过圆形轨道的最高点，且在该最高点\n与轨道间的压力不能超过5mg（g 为重力加速度）。求物块初\n始位置相对于圆形轨道底部的高度h 的取值范围。",
+      "answer": "暂无结构化答案",
+      "analysis": "设物块在圆形轨道最高点的速度为v，由机械能守恒\n得\nmgh＝2mgR＋2\n1 mv2                                  ①\n物块在最高点受的力为重力mg、轨道的压力N。重力与压力的合力提供向心力，有\nmg＋N＝m R\nv2\n                                       ②\n物块能通过最高点的条件是\nN＞0                       ③\n由②③式得\nv≥\ngR                      ④\n由①④式得\nh≥2\n5 R                      ⑤\n按题的要求，N≤5mg，由②⑤式得\nv≤\ngR\n6\n                     ⑥\nm\nh\nR\n5\n由①⑥式得\nh≤5R                       ⑦\nh 的取值范围是\n2\n5 R≤h≤5R",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -171,46 +312,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q08",
-      "content": "（19 分）\n用放射源钋的α 射线轰击铍时，能发射出一种穿透力极强的中性射线，这就是所谓铍“辐射”。1932 年，\n查德威克用铍“辐射”分别照射（轰击）氢和氮（它们可视为处于静止状态），测得照射后沿铍：“辐射”\n方向高速运动的氢核和氮核的速度之比为7.0。查德威克假设铍“辐射”是由一种质量不为零的中性粒子构\n成的，从而通过实验在历史上首次发现了中子。假定铍“辐射”中的中性粒子与氢核或氮核发生弹性正碰，\n试在一考虑相对论效应的条件下计算构成铍“辐射”的中性粒子的质量。（质量用原子质量单位u 表示，\n1u 等于12C 原子质量的十二分之一。取氢核和氮核的质量分别为1.0u 和14.0u。）\n【分析】设构成铍“辐射”的中性粒子的质量和速度分别为m 和v，氢核的质量为mH。构成铍“辐射”的中性\n粒子与氢核发生弹性正碰，碰后两粒子的速度分别为vʹ和v /\nH 。由动量守恒与能量守恒定律得\nmv＝m v / ＋mH v /\nH                     ①\n2\n/\n2\n/\n2\n2\n1\n2\n1\n2\n1\nH\nmv\nmv\nmv\n+\n=\n                 ②\n     解得\nv /\nH ＝\nH\nm\nm\nmv\n+\n2\n                      ③\n同理，对于质量为mN 的氮核，其碰后速度为\nv /\nN ＝\nN\nm\nm\nmv\n+\n2\n                      ④\n由③④式可得\nm＝\n/\n/\n/\n/\nN\nH\nH\nH\nN\nN\nv\nv\nv\nm\nv\nm\n−\n−\n                    ⑤\n根据题意可知\nv /\nH =7.0v /\nN                                               ⑥\n将上式与题给数据代入⑤式得\nm＝1.2u                                                  ⑦",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q010-p004-f01.jpg"
       ],
-      "year": 2007,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
-        "page": 5,
-        "questionNumber": 24,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q010-p004-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q09",
-      "content": "（20 分）\n6\n如图所示，在坐标系Oxy 的第一象限中在在沿y 轴正方向的匀强电\n场，场强大小为E。在其它象限中在在匀强磁场，磁场方向垂直于纸\n面向里，A 是y 轴上的一点，它到坐标原点O 的距离为h；C 是x 轴\n上的一点，到O 点的距离为l，一质量为m、电荷量为q 的带负电的\n粒子以某一初速度沿x 轴方向从A 点进入电场区域，继而通过C 点\n进入磁场区域，并再次通过A 点，此时速度方向与y 轴正方向成锐\n角。不计重力作用。试求：\n（1）粒子经过C 点时速度的大小和方向；\n（2）磁感应强度的大小B。\n【分析】（1）以a 表示粒子在电场作用下的加速度，有\nqE＝ma\n①\n加速度沿y 轴负方向。沿粒子从A 点进入电场时的初速度为v0，由A 点运动到C 点经历的时间为t，则有\nh＝2\n1 at2                                       ②\nl＝v0t                ③\n由②③式得\nv0＝\nh\na\nl\n2\n                      ④\n设粒子从C 点进入磁场时的速度为v，v 垂直于x 轴的分量\nv1＝\nah\n2\n                                    ⑤\n由①④⑤式得\nv＝\n2\n1\n2\n0\nv\nv +\n＝\nmh\nl\nh\nqE\n2\n)\n4\n(\n2\n2 +\n⑥\n设粒子经过C 点时的速度方向与x 轴的夹角为α，则有\ntanα＝\n0\n1\nv\nv\n⑦\n由④⑤⑦式得\nα＝arctan l\nh\n2\n⑧\n（2）粒子从C 点进入磁场后在磁场中作速度为v 的圆周运动。若圆周的半径为R，则有\nqvB＝m R\nv                                        ⑨\n设圆心为P，则PC 必与过C 的速度垂直，且有PC ＝PA＝R。用β 表示PA与y 轴的夹角，由几何关系\n得\nRcosβ＝Rcosα＋h                                    ⑩\n                Rsinβ＝l－Rsinα\nA○\n11 E\n由⑧⑩A○\n11 EA式解得\n         R＝\n2\n2\n2\n2\n4\n2\nl\nh\nhl\nl\nh\n+\n+\nA○\n12 E\n由 @ 式 得\n1 2mhE\nB 一 1 厂 一 一 D\n历 +PN 9\n7",
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q11",
+      "content": "（19 分）\n用放射源钋的α 射线轰击铍时，能发射出一种穿透力极强的中性射线，这就是所谓铍“辐射”。1932 年，\n查德威克用铍“辐射”分别照射（轰击）氢和氮（它们可视为处于静止状态），测得照射后沿铍：“辐射”\n方向高速运动的氢核和氮核的速度之比为7.0。查德威克假设铍“辐射”是由一种质量不为零的中性粒子构\n成的，从而通过实验在历史上首次发现了中子。假定铍“辐射”中的中性粒子与氢核或氮核发生弹性正碰，\n试在一考虑相对论效应的条件下计算构成铍“辐射”的中性粒子的质量。（质量用原子质量单位u 表示，\n1u 等于12C 原子质量的十二分之一。取氢核和氮核的质量分别为1.0u 和14.0u。）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "设构成铍“辐射”的中性粒子的质量和速度分别为m 和v，氢核的质量为mH。构成铍“辐射”的中性\n粒子与氢核发生弹性正碰，碰后两粒子的速度分别为vʹ和v /\nH 。由动量守恒与能量守恒定律得\nmv＝m v / ＋mH v /\nH                     ①\n2\n/\n2\n/\n2\n2\n1\n2\n1\n2\n1\nH\nmv\nmv\nmv\n+\n=\n                 ②\n     解得\nv /\nH ＝\nH\nm\nm\nmv\n+\n2\n                      ③\n同理，对于质量为mN 的氮核，其碰后速度为\nv /\nN ＝\nN\nm\nm\nmv\n+\n2\n                      ④\n由③④式可得\nm＝\n/\n/\n/\n/\nN\nH\nH\nH\nN\nN\nv\nv\nv\nm\nv\nm\n−\n−\n                    ⑤\n根据题意可知\nv /\nH =7.0v /\nN                                               ⑥\n将上式与题给数据代入⑤式得\nm＝1.2u                                                  ⑦",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
         "文本层提取",
-        "OCR待校对"
+        "原卷解析"
       ],
       "year": 2007,
       "subject": "物理",
@@ -218,11 +343,58 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
         "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf#q12",
+      "content": "（20 分）\n6\n如图所示，在坐标系Oxy 的第一象限中在在沿y 轴正方向的匀强电\n场，场强大小为E。在其它象限中在在匀强磁场，磁场方向垂直于纸\n面向里，A 是y 轴上的一点，它到坐标原点O 的距离为h；C 是x 轴\n上的一点，到O 点的距离为l，一质量为m、电荷量为q 的带负电的\n粒子以某一初速度沿x 轴方向从A 点进入电场区域，继而通过C 点\n进入磁场区域，并再次通过A 点，此时速度方向与y 轴正方向成锐\n角。不计重力作用。试求：\n（1）粒子经过C 点时速度的大小和方向；\n（2）磁感应强度的大小B。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）以a 表示粒子在电场作用下的加速度，有\nqE＝ma\n①\n加速度沿y 轴负方向。沿粒子从A 点进入电场时的初速度为v0，由A 点运动到C 点经历的时间为t，则有\nh＝2\n1 at2                                       ②\nl＝v0t                ③\n由②③式得\nv0＝\nh\na\nl\n2\n                      ④\n设粒子从C 点进入磁场时的速度为v，v 垂直于x 轴的分量\nv1＝\nah\n2\n                                    ⑤\n由①④⑤式得\nv＝\n2\n1\n2\n0\nv\nv +\n＝\nmh\nl\nh\nqE\n2\n)\n4\n(\n2\n2 +\n⑥\n设粒子经过C 点时的速度方向与x 轴的夹角为α，则有\ntanα＝\n0\n1\nv\nv\n⑦\n由④⑤⑦式得\nα＝arctan l\nh\n2\n⑧\n（2）粒子从C 点进入磁场后在磁场中作速度为v 的圆周运动。若圆周的半径为R，则有\nqvB＝m R\nv                                        ⑨\n设圆心为P，则PC 必与过C 的速度垂直，且有PC ＝PA＝R。用β 表示PA与y 轴的夹角，由几何关系\n得\nRcosβ＝Rcosα＋h                                    ⑩\n                Rsinβ＝l－Rsinα\nA○\n11 E\n由⑧⑩A○\n11 EA式解得\n         R＝\n2\n2\n2\n2\n4\n2\nl\nh\nhl\nl\nh\n+\n+\nA○\n12 E\n由 @@) 式 得\n1 [2mhE\nB 一 一 工 [2mhE\n历 + 9\n巳\n7",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "原卷解析"
+      ],
+      "year": 2007,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2007/2007大纲2理综(内蒙古,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,新疆).pdf",
+        "page": 5,
+        "endPage": 7,
         "questionNumber": 25,
         "extraction": "ocr",
-        "confidence": null,
-        "needsReview": true
-      }
+        "confidence": 66,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q012-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d975c7f321e4831e-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

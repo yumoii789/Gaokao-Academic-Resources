@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2009/2009湖南文.pdf",
   "name": "2009湖南文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q01",
       "content": "log2\n√\n2 的值为\n(\n)\n(A) −\n√\n2\n(B)\n√\n2\n(C) −1\n2\n(D) 1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q02",
       "content": "抛物线y2 = −8x 的焦点坐标是\n(\n)\n(A) (2, 0)\n(B) (−2, 0)\n(C) (4, 0)\n(D) (−4, 0)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q03",
       "content": "设Sn 是等差数列{an} 的前n 项和, 已知a2 = 3, a6 = 11, 则S7 等于(\n)\n(A) 13\n(B) 35\n(C) 49\n(D) 63",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q04",
       "content": "如图, D, E, F 分别是△ABC 的边AB, BC, CA 的中点, 则\n(\n)\nC\nB\nA\nE\nF\nD\n(A) #    »\nAD + #    »\nBE + #    »\nCF = 0\n(B) #    »\nBD −#    »\nCF + #    »\nDF = 0\n(C) #    »\nAD + #    »\nCE −#    »\nCF = 0\n(D) #    »\nBD −#    »\nBE −#    »\nFC = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q05",
       "content": "某地政府召集5 家企业的负责人开会, 其中甲企业有2 人到会, 其余4 家\n企业各有1 人到会, 会上有3 人发言, 则这3 人来自3 家不同企业的可能\n情况的种数为\n(\n)\n(A) 14\n(B) 16\n(C) 20\n(D) 48",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q06",
       "content": "平面六面体ABCD −A1B1C1D1 中, 既与AB 共面也与CC1 共面的棱的\n条数为\n(\n)\n(A) 3\n(B) 4\n(C) 5\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q07",
       "content": "若函数y = f(x) 的导函数在区间[a, b] 上是增函数, 则函数y = f(x) 在区\n间[a, b] 上的图象可能是\n(\n)\n(A)\na\nx\nb\ny\nO\n(B)\na\nx\nb\ny\nO\n(C)\na\nx\nb\ny\nO\n(D)\na\nx\nb\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q08",
       "content": "设函数y = f(x) 在(−∞, +∞) 内有定义. 对于给定的正数K, 定义函数\nfK(x) =\n{\nf(x),\nf(x) ⩽K,\nK,\nf(x) > K.\n取函数f(x) = 2−|x|. 当K = 1\n2 时, 函数\nfK(x) 的单调递增区间为\n(\n)\n(A) (−∞, 0)\n(B) (0, +∞)\n(C) (−∞, −1)\n(D) (1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q09",
       "content": "某班共30 人, 其中15 人喜爱篮球运动, 10 人喜爱兵乓球运动, 8 人对这两\n项运动都不喜爱, 则喜爱篮球运动但不喜爱乒乓球运动的人数为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q10",
       "content": "若x > 0, 则x + 2\nx 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q11",
       "content": "在(1 + √x)\n4 的展开式中, x 的系数为\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q12",
       "content": "一个总体分为A, B 两层, 用分层抽样方法从总体中抽取一个容量为10\n的样本. 已知B 层中每个个体被抽到的概率都为1\n12, 则总体中的个体数\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -286,22 +371,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q13",
       "content": "过双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的一个焦点作圆x2 + y2 = a2 的\n两条切线, 切点分别为A, B. 若∠AOB = 120◦(O 是坐标原点), 则双曲\n线线C 的离心率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -309,22 +400,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q14",
       "content": "在锐角△ABC 中, BC = 1, B = 2A, 则AC\ncos A 的值等于\n, AC 的取\n值范围为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q15",
       "content": "如图, 两块斜边长相等的直角三角板拼在一起. 若#    »\nAD = x#   »\nAB + y#   »\nAC, 则\nx =\n, y =\n.\nA\nB\nC\nD\nE\n45◦\n60◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -355,22 +462,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q16",
       "content": "已知向量a = (sin θ, cos θ −2 sin θ), b = (1, 2).\n(1) 若a\nb, 求tan θ 的值;\n(2) 若|a| = |b|, 0 < θ < π, 求θ 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -378,22 +495,35 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q016-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q016-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q016-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q17",
       "content": "为拉动经济增长, 某市决定新建一批重点工程, 分别为基础设施工程、民\n生工程和产业建设工程三类. 这三类工程所含项目的个数分别占总数的1\n2、\n1\n3、1\n6. 现在3 名工人独立地从中任选一个项目参与建设. 求:\n(1) 他们选择的项目所属类别互不相同的概率;\n(2) 至少有1 人选择的项目属于民生工程的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -401,22 +531,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q18",
       "content": "如图, 在正三棱柱ABC −A1B1C1 中, AB = 4, AA1 =\n√\n7. 点D 是BC\n的中点, 点E 在AC 上, 且DE ⊥A1E.\n(1) 证明: 平面A1DE ⊥平面ACC1A1;\n(2) 求直线AD 和平面A1DE 所成角的正弦值.\nC\nB\nB1\nA\nA1\nD\nC1\nE\n529",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -424,22 +560,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9e8bf357e0082ded-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q19",
       "content": "已知函数f(x) = x3 + bx2 + cx 的导函数的图象关于直线x = 2 对称.\n(1) 求b 的值;\n(2) 若f(x) 在x = t 处取得极小值, 记此极小值为g(t), 求g(t) 的定义域\n和值域.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -447,22 +593,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q20",
       "content": "已知椭圆C 的中心在原点, 焦点在x 轴上, 以两个焦点和短轴的两个端点\n为顶点的四边形是一个面积为8 的正方形(记为Q).\n(1) 求椭圆C 的方程;\n(2) 设点P 是椭圆C 的左准线与x 轴的交点, 过点P 的直线l 与椭圆C\n相交于M, N 两点. 当线段MN 的中点落在正方形Q 内(包括边界) 时,\n求直线l 的斜率的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -470,22 +622,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009湖南文.pdf#q21",
       "content": "对于数列{un}, 若存在常数M > 0, 对任意的n ∈N∗, 恒有|un+1 −un| +\n|un −un−1| + · · · + |u2 −u1| ⩽M, 则称数列{un} 为B−数列.\n(1) 首项为1, 公比为−1\n2 的等比数列是否为B−数列? 请说明理由;\n(2) 设Sn 是数列{xn} 的前n 项和, 给出下列两组论断:\nA 组: ①数列{xn} 是B−数列\n②数列{xn} 不是B−数列\nB 组: ③数列{Sn} 是B−数列\n④数列{Sn} 不是B−数列\n请以其中一组中的一个论断为条件, 另一组中的一个论断为结论组成一个\n命题. 判断所给命题的真假, 并证明你的结论;\n(3) 若数列{an} 是B−数列, 证明: 数列{a2\nn} 也是B−数列.\n530",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -493,11 +651,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

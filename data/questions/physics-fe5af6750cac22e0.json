@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
   "name": "2002全国旧课程理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 6,
+    "answerBlocks": 10,
+    "sourceAnswers": 6,
+    "sourceAnalysis": 0,
+    "reviewCount": 6,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q01",
-      "content": "答第Ⅰ卷前，考生务必将自己的姓名、准考证号、考试科目涂写在答题卡上。考试结束，\n将试题卷和答题卡一并交回。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "目前普通认为，质子和中子都是由被称为u 夸克和d 夸克的两类夸克组成。u 夸克带电\n量为\nA2\n3\nE\nAe，d 夸克带电量为－A1\n3\nE\nAe，e 为基元电荷。下列论断可能正确的是（    ）\n（A）质子由1 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和2 个d 夸克组成\n（B）质子由2 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和2 个d 夸克组成\n（C）质子由1 个u 夸克和2 个d 夸克组成，中子由2 个u 夸克和1 个d 夸克组成\n（D）质子由2 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和1 个d 夸克组成",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q02",
-      "content": "每小题选出答案后，用铅笔把答题卡上对应题目的答案标号涂黑，如需改动，用橡皮擦\n干净后，再选涂其它答案标号，不能答在试题卷上。\n在下列各题的四个选项中，只有一个选项是符合题目要求的。\n以下数据可供解题时参考：\n原子量：H 1  C 12  N 14  O 16   Na 23   P 31  Cl 35.5   Ca 40   Fe 56   Cu 64",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在光滑水平地面上有两个相同的弹性小球A、B，质量都为m。现B 球静止，A 球向B\n球运动，发生正碰。已知碰撞过程中总机械能守恒，两球压缩最紧时的弹性势能为Ep，则碰\n前A 球的速度等于（     ）\n（A）A\nEp\nm\nE\nA\n（B）A\n2Ep\nm\nE\nA\n（C）2 A\nEp\nm\nE\nA\n（D）2 A\n2Ep\nm\nE",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -56,68 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q03",
-      "content": "目前普通认为，质子和中子都是由被称为u 夸克和d 夸克的两类夸克组成。u 夸克带电\n量为\nA2\n3\nE\nAe，d 夸克带电量为－A1\n3\nE\nAe，e 为基元电荷。下列论断可能正确的是（    ）\n（A）质子由1 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和2 个d 夸克组成\n（B）质子由2 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和2 个d 夸克组成\n（C）质子由1 个u 夸克和2 个d 夸克组成，中子由2 个u 夸克和1 个d 夸克组成\n（D）质子由2 个u 夸克和1 个d 夸克组成，中子由1 个u 夸克和1 个d 夸克组成",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 1,
-        "questionNumber": 15,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q04",
-      "content": "在光滑水平地面上有两个相同的弹性小球A、B，质量都为m。现B 球静止，A 球向B\n球运动，发生正碰。已知碰撞过程中总机械能守恒，两球压缩最紧时的弹性势能为Ep，则碰\n前A 球的速度等于（     ）\n（A）A\nEp\nm\nE\nA\n（B）A\n2Ep\nm\nE\nA\n（C）2 A\nEp\nm\nE\nA\n（D）2 A\n2Ep\nm\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 1,
-        "questionNumber": 16,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q05",
       "content": "图中EF、GH 为平行的金属导轨，其电阻可不计，R\n为电阻器，G 为电容器，AB 为可在EF 和GH 上滑动的导\n体横杆。有均匀磁场垂直与导轨平面。若用I1 和I2 分别表\n示图中该处导线中的电流，则当横杆AB（      ）\n（A）匀速滑动时，I1 = 0，I2 = 0\n（B）匀速滑动时，I1 ≠ 0，I2 ≠ 0\n（C）加速滑动时，I1 = 0，I2 = 0\n（D）加速滑动时，I1 ≠ 0，I2 ≠ 0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -125,22 +102,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q04",
+      "content": "质点所受的力 F 随时间变化的规律如图所示，力的方向\n始终在一直线上。已知 t = 0 时质点的速度为零。在图示 t1、\nt2、t3 和 t4 各时刻中，哪一时刻质点的动能最大？（    ）\n（A）t1\n（B）t2\n（C）t3\n（D）t4",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2002,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q05",
+      "content": "为了观察门外情况，有人在门上开一小圆孔，将一块圆\n柱形玻璃嵌入其中，圆柱体轴线与门面垂直。从圆柱底面中心看出去，\n可以看到的门外入射光线与轴线间的最大夹角称做视场角。已知该玻\n璃的折射率为 n，圆柱长为 l，底面半径为 r，则视场角是（    ）\n（A）arcsin A\nnl\nr2 + l2\nE\nA\n（B）arcsin A\nnr\nr2 + l2\nE\n（C）arcsin A\nr\nn r2 + l2\nE\nA\n（D）arcsin A\nl\nn r2 + l2\nE",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2002,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q06",
-      "content": "质点所受的力 F 随时间变化的规律如图所示，力的方向\n始终在一直线上。已知 t = 0 时质点的速度为零。在图示 t1、\nt2、t3 和 t4 各时刻中，哪一时刻质点的动能最大？（    ）\n（A）t1\n（B）t2\n（C）t3\n（D）t4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在如图所示的电路中，R1、R2、R3 和 R4 皆为定值电阻，\nR5 为可变电阻，电源的电动势为 E，内阻为 r。设电流表 A\n的读数为 I，电压表 V 的读数为 U。当 R5 的滑动触点向图\n中 a 端移动时（    ）\n（A）I 变大，U 变小\n（B）I 变大，U 变大\n（C）I 变小，U 变大\n（D）I 变小，U 变小\n第Ⅱ卷\n（非选择题  共10 题  共180 分）\n注意事项：\n1．用钢笔或圆珠笔直接答在试题卷中（除题Ⅱ有特殊规定外）\n2．答卷前将密封线内的项目填写清楚。\n26．（20 分）蹦床是运动员在一张绷紧的弹性网上蹦跳、翻滚并做各种空中动作的运动项\n目。一个质量为 60 kg 的运动员，从离水平网面 3.2 m 高处自由下落，着网后沿竖直方向\n蹦回到离水平网面 5.0 m 高处。已知运动员与网接触的时间为 1.2 s。若把在这段时间内网\n对运动员的作用力当作恒力处理，求此力的大小。（g = 10 m/s2）\n27．（20 分）电视机的显像管中，电子束的偏转\n是用磁偏转技术实现的。电子束经过电压为U 的\n加速电场后，进入一圆形匀强磁场区，如图所示。\n磁场方向垂直于圆面。磁场区的中心为O，半径为\nr。当不加磁场时，电子束将通过O 点而打到屏幕\n的中心M 点。为了让电子束射到屏幕边缘P，需\n要加磁场，使电子束偏转一己知角度θ，此时磁场\n的磁感应强度B 应为多少？\n2r\nl\n29．（37 分）大气压强对许多物理实验和化\n学实验有着重要影响。\n（17 分）现用“验证玻意耳定律”的仪器来\n测量大气压强 p0。注射器针筒已被固定在竖\n直方向上，针筒上所标刻度是注射器的容\n积，最大刻度 Vm = 10 ml。注射器活塞已装\n上钩码框架，如图所示。此外，还有一架托\n盘天平、若干钩码、一把米尺、一个针孔橡\n皮帽和少许润滑油。\n（1）下面是实验步骤，试填写所缺的②和⑤。\n①用米尺测出注射器针筒上全部刻度的长度 L。\n②_____________________________________。\n③把适量的润滑油抹在注射器的活塞上，将活塞插入针筒中，上下拉动活塞，使活塞与针筒\n的间隙内均匀地涂上润滑油。\n④将活塞插到适当的位置。\n⑤___________________________________________________。\n⑥在钩码框架两侧挂上钩码，记下挂上的钩码质量 m1。小达到平衡后，记下注射器中空气\n柱的体积 V1。在这个过程中不要用手接触注射器以保证空气柱温度不变。\n⑦增加钩码的个数，使钩码的质量增大为 m2，达到平衡后，记下空气柱的体积 V2。\n（2）求出计算大气压强 p0 的公式。（用已给的和测得的物理量表示）\n30．（27 分）有三根长度皆为 l = 1.00 m 的不可伸长的绝缘轻线，\n其中两根的一端固定在天花板上的 O 点，另一端分别拴有质量皆为\nm = 1.00×10−2 kg 的带电小球A 和 B，它们的电量分别为 − q 和 +\nq，q = 1.00×10−7 C。A、B 之间用第三根线连接起来。空间中存在大\n小为 E = 1.00×106 N/C 的匀强电场，场强方向沿水平方向右。平衡\n时 A、B 球的位置如图所示。现将 O、B 之间的线烧断，由于有空\n气阻力，A、B 球最后会达到新的平衡位置。求最后两球的机械能与\n电势能总和与烧断前相比改变了多少。（不计两带电小球间相互作用的静电力）\nO\nA\nB\n− q\n+ q\nE",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -148,195 +197,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
         "page": 2,
-        "questionNumber": 18,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q07",
-      "content": "为了观察门外情况，有人在门上开一小圆孔，将一块圆\n柱形玻璃嵌入其中，圆柱体轴线与门面垂直。从圆柱底面中心看出去，\n可以看到的门外入射光线与轴线间的最大夹角称做视场角。已知该玻\n璃的折射率为 n，圆柱长为 l，底面半径为 r，则视场角是（    ）\n（A）arcsin A\nnl\nr2 + l2\nE\nA\n（B）arcsin A\nnr\nr2 + l2\nE\n（C）arcsin A\nr\nn r2 + l2\nE\nA\n（D）arcsin A\nl\nn r2 + l2\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
-        "questionNumber": 19,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q08",
-      "content": "在如图所示的电路中，R1、R2、R3 和 R4 皆为定值电阻，\nR5 为可变电阻，电源的电动势为 E，内阻为 r。设电流表 A\n的读数为 I，电压表 V 的读数为 U。当 R5 的滑动触点向图\n中 a 端移动时（    ）\n（A）I 变大，U 变小\n（B）I 变大，U 变大\n（C）I 变小，U 变大\n（D）I 变小，U 变小\n第Ⅱ卷\n（非选择题  共10 题  共180 分）\n注意事项：",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q09",
-      "content": "用钢笔或圆珠笔直接答在试题卷中（除题Ⅱ有特殊规定外）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p003-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p003-f06.jpg"
       ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q10",
-      "content": "答卷前将密封线内的项目填写清楚。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
-        "questionNumber": 2,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q11",
-      "content": "（20 分）蹦床是运动员在一张绷紧的弹性网上蹦跳、翻滚并做各种空中动作的运动项\n目。一个质量为 60 kg 的运动员，从离水平网面 3.2 m 高处自由下落，着网后沿竖直方向\n蹦回到离水平网面 5.0 m 高处。已知运动员与网接触的时间为 1.2 s。若把在这段时间内网\n对运动员的作用力当作恒力处理，求此力的大小。（g = 10 m/s2）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
-        "questionNumber": 26,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q12",
-      "content": "（20 分）电视机的显像管中，电子束的偏转\n是用磁偏转技术实现的。电子束经过电压为U 的\n加速电场后，进入一圆形匀强磁场区，如图所示。\n磁场方向垂直于圆面。磁场区的中心为O，半径为\nr。当不加磁场时，电子束将通过O 点而打到屏幕\n的中心M 点。为了让电子束射到屏幕边缘P，需\n要加磁场，使电子束偏转一己知角度θ，此时磁场\n的磁感应强度B 应为多少？\n2r\nl",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 2,
-        "questionNumber": 27,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q13",
-      "content": "（37 分）大气压强对许多物理实验和化\n学实验有着重要影响。\n（17 分）现用“验证玻意耳定律”的仪器来\n测量大气压强 p0。注射器针筒已被固定在竖\n直方向上，针筒上所标刻度是注射器的容\n积，最大刻度 Vm = 10 ml。注射器活塞已装\n上钩码框架，如图所示。此外，还有一架托\n盘天平、若干钩码、一把米尺、一个针孔橡\n皮帽和少许润滑油。\n（1）下面是实验步骤，试填写所缺的②和⑤。\n①用米尺测出注射器针筒上全部刻度的长度 L。\n②_____________________________________。\n③把适量的润滑油抹在注射器的活塞上，将活塞插入针筒中，上下拉动活塞，使活塞与针筒\n的间隙内均匀地涂上润滑油。\n④将活塞插到适当的位置。\n⑤___________________________________________________。\n⑥在钩码框架两侧挂上钩码，记下挂上的钩码质量 m1。小达到平衡后，记下注射器中空气\n柱的体积 V1。在这个过程中不要用手接触注射器以保证空气柱温度不变。\n⑦增加钩码的个数，使钩码的质量增大为 m2，达到平衡后，记下空气柱的体积 V2。\n（2）求出计算大气压强 p0 的公式。（用已给的和测得的物理量表示）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 3,
-        "questionNumber": 29,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2002/2002全国旧课程理综.pdf#q14",
-      "content": "（27 分）有三根长度皆为 l = 1.00 m 的不可伸长的绝缘轻线，\n其中两根的一端固定在天花板上的 O 点，另一端分别拴有质量皆为\nm = 1.00×10−2 kg 的带电小球A 和 B，它们的电量分别为 − q 和 +\nq，q = 1.00×10−7 C。A、B 之间用第三根线连接起来。空间中存在大\n小为 E = 1.00×106 N/C 的匀强电场，场强方向沿水平方向右。平衡\n时 A、B 球的位置如图所示。现将 O、B 之间的线烧断，由于有空\n气阻力，A、B 球最后会达到新的平衡位置。求最后两球的机械能与\n电势能总和与烧断前相比改变了多少。（不计两带电小球间相互作用的静电力）\nO\nA\nB\n− q\n+ q\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2002,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2002/2002全国旧课程理综.pdf",
-        "page": 3,
-        "questionNumber": 30,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fe5af6750cac22e0-q006-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 10,
+    "assigned": 8,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

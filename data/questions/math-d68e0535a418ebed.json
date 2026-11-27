@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
   "name": "2004北京理(旧课程)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q01",
       "content": "设全集是实数集R, M = {x | −2 ⩽x ⩽2}, N = {x | x < 1}, 那么M ∩N\n等于\n(\n)\n(A) {x | x < −2}\n(B) {x | −2 < x < 1}\n(C) {x | x < 1}\n(D) {x | −2 ⩽x < 1}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q02",
       "content": "满足条件|z −i| = |3 + 4i| 的复数z 在复平面上对应点的轨迹是\n(\n)\n(A) 一条直线\n(B) 两条直线\n(C) 圆\n(D) 椭圆",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q03",
       "content": "设m, n 是两条不同的直线, α, β, γ 是三个不同的平面, 给出下列四个命\n题:\n①若m ⊥α, n\nα, 则m ⊥n;\n②若α\nβ, β\nγ, m ⊥α, 则m ⊥γ;\n③若m\nα, n\nα, 则m\nn;\n④若α ⊥γ, β ⊥γ, 则α\nβ.\n其中正确命题的序号是\n(\n)\n(A) ①和②\n(B) ②和③\n(C) ③和④\n(D) ①和④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q04",
       "content": "如图, 在正方体ABCD −A1B1C1D1 中, P 是侧面BB1C1C 内一动点,\n若P 到直线BC 与直线C1D1 的距离相等, 则动点P 的轨迹所在的曲线\n是\n(\n)\nA\nB\nC\nD\nP\nA1\nB1\nC1\nD1\n•\n(A) 直线\n(B) 圆\n(C) 双曲线\n(D) 抛物线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q05",
       "content": "函数f(x) = x2−2ax−3 在区间[1, 2] 上存在反函数的充分必要条件是(\n)\n(A) a ∈(−∞, 1]\n(B) a ∈[2, +∞)\n(C) a ∈[1, 2]\n(D) a ∈(−∞, 1] ∪[2, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q06",
       "content": "已知a、b、c 满足c < b < a 且ac < 0, 那么下列选项中一定成立的是(\n)\n(A) ab > ac\n(B) c(b −a) < 0\n(C) cb2 < ab2\n(D) ac(a −c) > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q07",
       "content": "从长度分别为1, 2, 3, 4, 5 的五条线段中, 任取三条的不同取法共有n 种.\n在这些取法中, 以取出的三条线段为边可组成的钝角三角形的个数为m,\n则m\nn 等于\n(\n)\n(A) 1\n10\n(B) 1\n5\n(C) 3\n10\n(D) 2\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q08",
       "content": "函数f(x) =\n{\nx,\nx ∈P,\n−x,\nx ∈M,\n其中P, M 为实数集R 的两个非空子集, 又\n规定f(P) = {y | y = f(x), x ∈P }, f(M) = {y | y = f(x), x ∈M }, 给\n出下列四个判断:\n①若P ∩M̸ = ∅, 则f(P) ∩f(M)̸ = ∅;\n②若P ∪M = R, 则f(P) ∪f(M) = R;\n③若P ∪M = R, 则f(P) ∪f(M) = R;\n④若P ∪M̸ = R, 则f(P) ∪f(M)̸ = R.\n其中正确判断有\n(\n)\n(A) 1 个\n(B) 2 个\n(C) 3 个\n(D) 4 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q09",
       "content": "函数y = cos 2x −2\n√\n3 sin x cos x 的最小正周期是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q10",
       "content": "方程lg(4x + 2) = lg 2x + lg 3 的解是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q11",
       "content": "某地球仪上北纬30◦纬线的长度为12πcm, 该地球仪的半径是\ncm,\n表面积是\ncm2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q12",
       "content": "曲线C:\n{\nx = cos θ,\ny = −1 + sin θ,\n(θ 为参数) 的普通方程是\n, 如果曲线C\n与直线x + y + a = 0 有公共点, 那么实数a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q13",
       "content": "在函数f(x) = ax2 + bx + c 中, 若a, b, c 成等比数列且f(0) = −4, 则\nf(x) 有最\n值(填“大”或“小”), 且该值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q14",
       "content": "定义“等和数列”: 在一个数列中, 如果每一项与它的后一项的和都为同一个\n常数, 那么这个数列叫做等和数列, 这个常数叫做该数列的公和. 已知数列\n{an} 是等和数列, 且a1 = 2, 公和为5, 那么a18 的值为\n, 且这个数\n列的前21 项和S21 的计算公式为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +425,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q15",
       "content": "在△ABC 中, sin A + cos A =\n√\n2\n2 , AC = 2, AB = 3, 求tan A 的值和\n△ABC 的面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +458,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q16",
       "content": "如图, 在正三棱柱ABC −A1B1C1 中, AB = 3, AA1 = 4, M 为AA1 的中\n点, P 是BC 上一点, 且由P 沿棱柱侧面经过棱CC1 到M 的最短路线长\n为\n√\n29, 设这条最短路线与CC1 的交点为N, 求:\n(1) 该三棱柱的侧面展开图的对角线长;\n(2) PC 和NC 的长;\n(3) 平面NMP 与平面ABC 所成二面角(锐角) 的大小. (用反三角函数\n表示)\nA\nM\nC\nN\nP\nB\nA1\nC1\nB1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +491,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q17",
       "content": "如图, 过抛物线y2 = 2px (p > 0) 上一定点P(x0, y0) (y0 > 0), 作两条直\n线分别交抛物线于A(x1, y1), B(x2, y2).\n(1) 求该抛物线上纵坐标为p\n2 的点到其焦点F 的距离;\n(2) 当PA 与PB 的斜率存在且倾斜角互补时, 求y1 + y2\ny0\n的值, 并证明直\n线AB 的斜率是非零常数.\nB\nA\nP\nx\ny\nO\n156",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +524,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d68e0535a418ebed-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q18",
       "content": "函数f(x) 是定义在[0, 1] 上的增函数, 满足f(x) = 2f\n(x\n2\n)\n且f(1) = 1,\n在每个区间\n( 1\n2i ,\n1\n2i−1\n]\n(i = 1, 2, · · · ) 上, y = f(x) 的图象都是斜率为同\n一常数k 的直线的一部分.\n(1) 求f (0) 及f\n(1\n2\n)\n, f\n(1\n4\n)\n的值, 并归纳出f\n( 1\n2i\n)\n(i = 1, 2, · · · ) 的\n表达式;\n(2) 设直线x = 1\n2i , x =\n1\n2i−1 , x 轴及y = f(x) 的图象围成的矩形的面积\n为ai (i = 1, 2, · · · ), 记S(k) = lim\nn→∞(a1 + a2 + · · · + an), 求S(k) 的表达\n式, 并写出其定义域和最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +557,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q19",
       "content": "某段城铁线路上依次有A, B, C 三站, AB = 15 km, BC = 3 km, 在列车\n运行时刻表上, 规定列车8 时整从A 站发车, 8 时07 分到达B 站并停车\n1 分钟, 8 时12 分到达C 站, 在实际运行中, 假设列车从A 站正点发车,\n在B 站停留1 分钟, 并在行驶时以同一速度v km/h 匀速行驶, 列车从A\n站到达某站的时间与时刻表上相应时间之差的绝对值称为列车在该站的运\n行误差.\n(1) 分别写出列车在B、C 两站的运行误差;\n(2) 若要求列车在B、C 两站的运行误差之和不超过2 分钟, 求v 的取值\n范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +586,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004北京理(旧课程).pdf#q20",
       "content": "给定有限个正数满足条件T: 每个数都不大于50 且总和L = 1275. 现将\n这些数按下列要求进行分组, 每组数之和不大于150 且分组的步骤是:\n首先, 从这些数中选择这样一些数构成第一组, 使得150 与这组数之和的\n差r1 与所有可能的其他选择相比是最小的, r1 称为第一组余差;\n然后, 在去掉已选入第一组的数后, 对余下的数按第一组的选择方式构成\n第二组, 这时的余差为r2; 如此继续构成第三组(余差为r3)、第四组(余差\n为r4)、· · · , 直至第N 组(余差为rN) 把这些数全部分完为止.\n(1) 判断r1, r2, · · · , rN 的大小关系, 并指出除第N 组外的每组至少含有\n几个数;\n(2) 当构成第n (n < N) 组后, 指出余下的每个数与rn 的大小关系, 并证\n明rn−1 > 150n −L\nn −1\n;\n(3) 对任何满足条件T 的有限个正数, 证明: N ⩽11.\n157",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,11 +615,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004北京理(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

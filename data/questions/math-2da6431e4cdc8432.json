@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2001/2001广东,河南.pdf",
   "name": "2001广东,河南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q01",
       "content": "不等式x −1\nx −3 > 0 的解集为\n(\n)\n(A) {x | x < 1}\n(B) {x | x > 3}\n(C) {x | x < 1 或x > 3}\n(D) {x | 1 < x < 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q02",
       "content": "若一个圆锥的轴截面是等边三角形, 其面积为\n√\n3, 则这个圆锥的全面积\n是\n(\n)\n(A) 3π\n(B) 3\n√\n3π\n(C) 6π\n(D) 9π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q03",
       "content": "极坐标方程ρ2 cos 2θ = 1 所表示的曲线是\n(\n)\n(A) 两条相交直线(B) 圆\n(C) 椭圆\n(D) 双曲线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q04",
       "content": "若定义在区间(−1, 0) 内的函数f(x) = log2a(x + 1) 满足f(x) > 0, 则a\n的取值范围是\n(\n)\n(A)\n(\n0, 1\n2\n)\n(B)\n(\n0, 1\n2\n]\n(C)\n(1\n2, +∞\n)\n(D) (0, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q05",
       "content": "已知复数z =\n√\n2 +\n√\n6i, 则arg 1\nz 是\n(A) π\n3\n(B) 5π\n3\n(C) π\n6\n(D) 11π\n6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q06",
       "content": "函数y = 2−x + 1 (x > 0) 的反函数是\n(A) y = log2\n1\nx −1, x ∈(1, 2)\n(B) y = −log2\n1\nx −1, x ∈(1, 2)\n(C) y = log2\n1\nx −1, x ∈(1, 2]\n(D) y = −log2\n1\nx −1, x ∈(1, 2]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q07",
       "content": "若0 < α < β < π\n4 , sin α + cos α = a, sin β + cos β = b, 则\n(\n)\n(A) a > b\n(B) a < b\n(C) ab < 1\n(D) ab > 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q08",
       "content": "在正三棱柱ABC −A1B1C1 中, 若AB =\n√\n2BB1, 则AB1 与C1B 所成\n的角的大小为\n(\n)\n(A) 60◦\n(B) 90◦\n(C) 45◦\n(D) 120◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q09",
       "content": "设f(x), g(x) 都是单调函数, 有如下四个命题中, 正确的命题是\n(\n)\n①若f(x) 单调递增, g(x) 单调递增, 则f(x) −g(x) 单调递增;\n②若f(x) 单调递增, g(x) 单调递减, 则f(x) −g(x) 单调递增;\n③若f(x) 单调递减, g(x) 单调递增, 则f(x) −g(x) 单调递减;\n④若f(x) 单调递减, g(x) 单调递减, 则f(x) −g(x) 单调递减.\n(A) ①③\n(B) ①④\n(C) ②③\n(D) ②④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q10",
       "content": "对于抛物线y2 = 4x 上任意一点Q, 点P(a, 0) 都满足|PQ| ⩾|a|, 则a 的\n取值范围是\n(\n)\n(A) (−∞, 0)\n(B) (−∞, 2]\n(C) [0, 2]\n(D) (0, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q11",
       "content": "一间民房的屋顶有如图三种不同的盖法: ①单向倾斜; ②双向倾斜; ③四\n向倾斜. 记三种盖法屋顶面积分别为P1, P2, P3. 若屋顶斜面与水平面所成\n的角都是α, 则\n(\n)\n①\n②\n③\n(A) P3 > P2 > P1 (B) P3 > P2 = P1 (C) P3 = P2 > P1 (D) P3 = P2 = P1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -263,22 +338,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q12",
       "content": "如图, 小圆圈表示网络的结点, 结点之间的连线表示它们有网线相联. 连线\n标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点A\n向结点B 传递信息, 信息可以分开沿不同的路线同时传递. 则单位时间内\n传递的最大信息量为\n(\n)\nB\nA\n3\n4\n5\n6\n6\n6\n7\n8\n12\n12\n(A) 26\n(B) 24\n(C) 20\n(D) 19",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -286,22 +371,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q13",
       "content": "已知甲、乙两组各有8 人, 现从每组抽取4 人进行计算机知识竞赛, 比赛\n人员的组成共有\n种可能. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q14",
       "content": "双曲线x2\n9 −y2\n16\n= 1 的两个焦点为F1, F2, 点P 在双曲线上, 若\nPF1 ⊥PF2, 则点P 到x 轴的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q15",
       "content": "设{an} 是公比为q 的等比数列, Sn 是它的前n 项和. 若{Sn} 是等差数\n列, 则q =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q16",
       "content": "圆周上有2n 个等分点(n > 1), 以其中三个点为顶点的直角三角形的个数\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -378,22 +491,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q17",
       "content": "求函数y = (sin x + cos x)2 + 2 cos2 x 的最小正周期.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -401,22 +520,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q18",
       "content": "已知等差数列前三项为a, 4, 3a, 前n 项的和为Sn, Sk = 2550.\n(1) 求a 及k 的值;\n(2) 求lim\nn→∞\n( 1\nS1\n+ 1\nS2\n+ · · · + 1\nSn\n)\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -424,22 +549,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q19",
       "content": "如图, 在底面是直角梯形的四棱锥S −ABCD 中, ∠ABC = 90◦, SA ⊥面\nABCD, SA = AB = BC = 1, AD = 1\n2.\n(1) 求四棱锥S −ABCD 的体积;\n(2) 求面SCD 与面SBA 所成的二面角的正切值.\nA\nB\nC\nD\nS\n93",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -447,22 +578,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2da6431e4cdc8432-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q20",
       "content": "设计一幅宣传画, 要求画面面积为4840 cm2, 画面的宽与高的比为\nλ (λ < 1), 画面的上、下各留8 cm 空白, 左、右各留5 cm 空白.\n怎\n样确定画面的高与宽尺寸, 能使宣传画所用纸张面积最小?\n如果要求\nλ ∈\n[2\n3, 3\n4\n]\n, 那么λ 为何值时, 能使宣传画所用纸张面积最小?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -470,22 +611,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q21",
       "content": "已知椭圆x2\n2 + y2 = 1 的右准线l 与x 轴相交于点E, 过椭圆右焦点F 的\n直线与椭圆相交于A, B 两点, 点C 在右准线l 上, 且BC\nx 轴, 求证:\n直线AC 经过线段EF 的中点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -493,22 +640,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2001/2001广东,河南.pdf#q22",
       "content": "设f(x) 是定义在R 上的偶函数, 其图象关于直线x = 1 对称, 对任意x1,\nx2 ∈\n[\n0, 1\n2\n]\n, 都有f(x1 + x2) = f(x1) · f(x2), 且f(1) = a > 0.\n(1) 求f\n(1\n2\n)\n, f\n(1\n4\n)\n;\n(2) 证明: f(x) 是周期函数;\n(3) 记an = f\n(\n2n + 1\n2n\n)\n, 求lim\nn→∞(ln an).\n94",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "数学",
@@ -516,11 +669,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2001/2001广东,河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 3,
+    "rendered": 4,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

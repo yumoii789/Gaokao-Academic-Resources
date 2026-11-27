@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1987/1987广东理.pdf",
   "name": "1987广东理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 38,
+    "answerBlocks": 12,
+    "sourceAnswers": 8,
+    "sourceAnalysis": 4,
+    "reviewCount": 35,
+    "shortQuestions": 2
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q01",
       "content": "函数\n2\n2\ny\nx\nx\n=\n−\n的定义域是（  ）\nＡ．(\n)\n0\n−∞，\nＢ．(\n]\n0 2\n，\nＣ．[\n]\n0 2\n，\nＤ．[\n]\n2 0\n−，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q02",
       "content": "指数方程2 4\n5 2\n2\n0\nx\nx\n−\n+\n=\n\n\n的解集是（  ）\nＡ．{ }\n1\nＢ．1 1\n2\n\n\n\n\n\n\n，\nＣ．\n1\n1 2\n\n\n−\n\n\n\n\n，\nＤ．{\n}\n11\n−，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q03",
       "content": "使函数\ncos2\ny\nx\n=\n取得最小值的所有x 的集合是（  ）\nＡ．{\n}\nπ\nπ\nx x\nk\nk\n=\n+\n∈Z\n，\nＢ．\nπ\nπ\n2\nx x\nk\nk\n\n\n=\n+\n∈\n\n\n\n\nZ\n，\nＣ．{\n}\nπ\n2 π\nx x\nk\nk\n=\n+\n∈Z\n，\nＤ．\nπ\n2 π\n2\nx x\nk\nk\n\n\n=\n+\n∈\n\n\n\n\nZ\n，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "如果\n0\na >\n，\n0\nb >\n，\n0\nc >\n，那么3\n3\na\nb\nc\nabc\n+\n+\n≤\n．",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q04",
       "content": "如果圆锥的高和底面直径都等于a ，则该圆锥的体积为（  ）\nＡ．\n3\nπ\n4 a\nＢ．\n3\nπ\n6 a\nＣ．\n3\nπ\n12 a\nＤ．\n3\nπ\n3 a",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(\n)\n2\n2\n1\n1\n4\n8\ny\nx\n−\n+\n=",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q05",
       "content": "在圆\n2\n2\n4\nx\ny\n+\n=\n上，与直线4\n3\n12\n0\nx\ny\n+\n−\n=\n距离最小的点的坐标是（  ）\nＡ．8 6\n5 5\n\n\n\n\n\n\n，\nＢ．8\n6\n5\n5\n\n\n−\n\n\n\n\n，\nＣ．\n8 6\n5 5\n\n\n−\n\n\n\n\n，\nＤ．\n8\n6\n5\n5\n\n\n−\n−\n\n\n\n\n，",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3\n−",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q06",
       "content": "若复数\n(\n)\n2\nz\na\ni\n=\n+\n的辐角是3 π\n2\n，则实数a 的值是（  ）\nＡ．1\nＢ．1\n−\nＣ．\n2\n−\nＤ．\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q07",
       "content": "不等式3\n1\n1\n2\nx\nx\n−\n−\n≥的解集是（  ）\nＡ．\n3\n2\n4\nx\nx\n\n\n\n\n\n\n≤≤\nＢ．\n3\n2\n4\nx\nx\n\n\n<\n\n\n\n\n≤\nＣ．\n3\n2\n4\nx x\nx\n\n\n>\n\n\n\n\n或≤\nＤ．{\n}\n2\nx x <",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q08",
       "content": "若ctg\n3\n2\nθ =\n，则cosθ 的值是（  ）\nＡ．3\n5\nＢ．\n3\n5\n−\nＣ．\n4\n5\n−\nＤ．4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q09",
       "content": "在闭区间[\n]\nπ\nπ\n−，\n上，方程\n1\nsin\ncos\nsin\nx\nx\nx =\n−\n的不同的实根个数是（  ）\nＡ．2\nＢ．3\nＣ．4\nＤ．5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q10",
       "content": "用0 ，1，2 ，3这四个数字，组成个位数不为1的没有重复数字的四位数，共有（  ）\nＡ．16个\nＢ．14个\nＣ．12个\nＤ．10个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q11",
       "content": "设\n( )\n2\n1\n3\n4\n3\n4\nx\nf x\nx\nx\nx\n+ \n\n=\n∈\n≠−\n\n\n+ \n\nR且\n，则\n( )\n1 2\nf −\n= （  ）\nＡ．\n5\n6\n−\nＢ．5\n11\nＣ．2\n5\nＤ．\n2\n5\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q12",
       "content": "圆锥曲线\n2\n4\n4\n0\ny\ny\nx\n−\n+\n=\n的准线方程是（  ）\nＡ．\n0\nx =\nＢ．\n1\nx = −\nＣ．\n1\nx =\nＤ．\n2\nx =",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q13",
       "content": "设常数\n0\na >\n，椭圆\n2\n2\n2\n2\n0\nx\nax\na y\n−\n+\n=\n的长轴是短轴的2 倍，则a =（  ）\nＡ．2 或1\n2\nＢ．2\nＣ．1\n2\nＤ．\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q14",
       "content": "设双曲线的半焦距为c ，两条准线距离为d ，且c\nd\n=\n，则这双曲线的离心率e =（  ）\nＡ．\n3\nＢ．\n2\nＣ．2\nＤ．3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q15",
       "content": "设实数\nπ 3 π\n2 4\nθ\n\n\n∈\n\n\n\n，\n，那么方程\n2\n2\n1\ncsc\n2\n2\nsec\nx\ny\nθ\nθ\n+\n=\n−\n−\n所表示的曲线是（  ）\nＡ．焦点在y 轴上的椭圆\nＢ．焦点在x 轴上的椭圆\nＣ．焦点在y 轴上的双曲线\nＤ．焦点在x 轴上的双曲线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q16",
       "content": "若正三棱锥的一个侧面的面积与底面的面积的比等于2\n3\n，则这个三棱锥的侧面和底面所成的二面角是（  ）\nＡ．\n3\narccos 4\nＢ．\n3\narcsin 4\nＣ．30\nＤ．60",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q17",
       "content": "设α\nβ\n，\n是不重合的两个平面，l 和m 是不重合的两条直线，那么，α\nβ\n∥\n的一个充分条件是（  ）\nＡ．l\nα\n⊂\n，m\nα\n⊂\n，且l\nβ\n∥\n，m\nβ\n∥\nＢ．l\nα\n⊂\n，m\nβ\n⊂\n，且l\nm\n∥\nＣ．l\nα\n⊥\n，m\nβ\n∥\n，且l\nm\n∥\nＤ．l\nα\n∥\n，m\nβ\n∥\n，且l\nm\n∥",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q18",
       "content": "函数\n(\n)\n(\n)\nctg\n0\nπ\ny\nx x\n= −\n∈\n，\n的反函数可以写成（  ）\nＡ．\nπ\narctg\n2\ny\nx\n=\n−\nＢ．\nπ\narctgx\n2\ny =\n+\nＣ．\nπ\narctg\ny\nx\n=\n−\nＤ．\nπ\narctg\ny\nx\n=\n+",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q19",
       "content": "设(\n)\n(\n)\n(\n)\n3\n4\n50\n2\n3\n50\n0\n1\n2\n3\n50\n1\n1\n1\nx\nx\nx\na\na x\na x\na x\na x\n+\n+\n+\n+\n+\n+\n=\n+\n+\n+\n+\n+\n\n\n，则\n3a =（  ）\nＡ．\n3\n51\nC\nＢ．\n4\n51\nC\nＣ．\n3\n50\n2C\nＤ．\n4\n50\nC",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -447,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q20",
       "content": "如果实数a\nb\nc\n，，不全为负数，那么（  ）\nＡ．实数a\nb\nc\n，，中，至少有一个正数\nＢ．实数a\nb\nc\n，，中，既有正数又有负数\nＣ．实数a\nb\nc\n，，的乘积不为负数\nＤ．实数a\nb\nc\n，，中，至多有两个负数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -470,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q21",
       "content": "平行六面体成为直平行六面体的一个充分必要条件是（  ）\nＡ．它有两个矩形的侧面\nＢ．它的一条侧棱垂直于底面的两条边\nＣ．它有两条侧棱都垂直于底面的一条边\nＤ．它有两个侧面都垂直于底面",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -493,22 +624,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q22",
       "content": "若动点P 的横坐标x 和纵坐标y ，使得lg y ，lg x ，lg\n2\ny\nx\n−\n\n\n\n\n\n\n成等差数列，则动点p 的轨迹的图形是（  ）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -516,22 +653,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q23",
       "content": "若函数\n( )\n(\n)\n4\n5\nsin\nπ\n3\n2\nf x\nx\nx\n\n\n=\n+\n∈\n\n\n\n\nR 和( )\n(\n)\n[\n]\n(\n)\nsin arccos\n11\ng x\nx\nx\n=\n∈−，，则（  ）\nＡ．\n( )\nf x 是偶函数而\n( )\ng x 是奇函数\nＢ．\n( )\nf x 是奇函数而\n( )\ng x 是偶函数\nＣ．\n( )\nf x 和( )\ng x 都是奇函数\nＤ．\n( )\nf x 和( )\ng x 都是偶函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -539,22 +682,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q24",
       "content": "在直角坐标系中，\nABC\n△\n的三个顶点是\n(\n)\n0 3\nA\n，，\n(\n)\n3 3\nB\n，，\n(\n)\n2 0\nC\n，，若直线x\na\n=\n将\nABC\n△\n分割成面积相\n等的两部分，则实数a 的值是（  ）\nＡ．\n3\nＢ．\n2\n1\n2\n+\nＣ．\n3\n1\n3\n+\nＤ．\n2\n2\n2\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -562,22 +711,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1987/1987广东理.pdf#q25",
-      "content": "若实数x\ny\n，满足\n2\n2\n2\n4\n0\nx\ny\nx\ny\n+\n−\n+\n=\n，则\n2\nx\ny\n−\n的最大值是（  ）\nＡ．\n5\nＢ．10\nＣ．9\nＤ．5\n2 5\n+\n第二卷\n考生注意：本卷共五大题，考生必须全部作答，满分70 分．\n一、本题满分15 分．本题共有5 小题，每小题都有用横线表示的空位，请把你认为合适的内容写在横线上方的空\n位置．每个小题满分3 分．\n（1）\n2\n9\nlog\n2\nlog 27\n+\n的值是__________．\n（2）若圆的极坐标方程为\n6cos\nρ\nθ\n=\n，则这个圆的半径是__________．\n（3）命题“三个正数a\nb\nc\n，，的几何平均数不大于这三个数的算术平均数”用数学符号表示，可写成“如果\n__________，那么__________．”\n（4）已知椭圆的两个焦点是\n(\n)\n1 0\n1\nF\n−\n，\n和\n(\n)\n2 0 3\nF\n，，并且点\n(\n)\n21\nA\n，在该椭圆上，那么，这个椭圆的方程是__________．\n（5）\n1\n1\n2\n3\nlim 2\n3\nn\nn\nn\nn\nn\n−\n−\n→∞\n−\n+\n的值是__________．\n二、本题满分12 分\n在三棱台\n1\n1\n1\nA B C\nABC\n−\n中，侧棱\n1\nB B⊥底面ABC ，且\n1\nπ\n2\nABC\nAAC\n=\n=\n∠\n∠\n，\n1\n1\n2\n2cm\nAB\nA B\n=\n=\n．\n（1）求证：\n1\nBC\nA B\n⊥\n，\n1\nBC\nA A\n⊥\n，\n1\n1\nA A\nA B\n⊥\n；\n（2）求异面直线\n1A A 和BC 的距离．\n三、本题满分13 分\n已知复数\ncos\nsin\nz\ni\nα\nα\n=\n+\n．\ncos\nsin\nu\ni\nβ\nβ\n=\n+\n．且\n4\n3\n5\n5\nz\nu\ni\n+\n=\n+\n．\n（1）求\n(\n)\ntg α\nβ\n+\n的值；\n（2）求证：\n2\n2\n0\nz\nu\nzu\n+\n+\n=\n．\n四、本题满分15 分\n直线l 过抛物线\n(\n)\n2\n2\n0\ny\npx p\n=\n≠\n的焦点．并且与这抛物线相交于\n(\n)\n1\n1\nA x\ny\n，\n和\n(\n)\n2\n2\nB x\ny\n，\n两点．\n（1）求证：\n2\n1\n2\n4x x\np\n=\n\n；\n（2）求证：对于这抛物线的任何给定的一条弦CD ，直线l 不是CD 的垂直平分线．\n五、本题满分15 分\n设实数\n0\na ≠\n，数列{ }\nna\n是首项为a ，公比为(\n)\na\n−\n的等比数列，记\nlg\nn\nn\nn\nb\na\na\n=\n\n，\n1 2\nn =\n\n，，；\n1\n2\nn\nn\nS\nb\nb\nb\n=\n+\n+\n+\n\n，\n1 2\nn =\n\n，，；\nA\nB\nC\n1\nC\n1\nB\n1A\n（1）求证：当\n1\na ≠−时，对任意自然数n ，都有\n(\n)\n(\n)\n(\n)\n1\n2\nlg\n1\n1\n1\n1\nn\nn\nn\na\na\nS\nn\nna a\na\n+\n\n\n=\n+ −\n+\n+\n\n\n+\n；\n（2）请问：当0\n1\na\n<\n< 时，是否存在自然数M ，使得对任意自然数n ，都有\nn\nM\nb\nb\n≤\n？证明你的结论．\n1987 数学试题解答及评分标准（广东省理工农医类）\n第一卷\n本卷考查基础知识和基本技能．\n每一个小题，选对给2 分，不选、选错或者选出的代号超过一个的，一律得0 分．25 个小题的给分之和就是本卷\n全卷的给分．\nＡ型题答案\n题号\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n答案\nC\nD\nB\nC\nA\nB\nB\nD\nA\nB\nA\nD\nA\nB\nC\nD\nC\n18\n19\n20\n21\n22\n23\n24\n25\nB\nB\nD\nD\nC\nD\nA\nB\n第二卷\n一、本题考查基础知识和基本技能，只需直接写出结果．\n每一个小题，结果正确的，给3 分．5 个小题的给分之和就是本题全题的给分．\n（1）2\n（2）3\n（3）如果\n0\na >\n，\n0\nb >\n，\n0\nc >\n，那么3\n3\na\nb\nc\nabc\n+\n+\n≤\n．\n（4）\n(\n)\n2\n2\n1\n1\n4\n8\ny\nx\n−\n+\n=\n（5）3\n−\n二、本题主要考查直线，平面和多面体的基础知识，以及空间想象能力和逻辑推理能力．证出第（1）小题给7 分，\n解出第（2）小题给5 分．\n（1）证：\n1\nB B\n\n⊥底面ABC （题设）而BC ⊂平面ABC ，\n1\nB B\nBC\n∴\n⊥\n，又BC\nAB\n⊥\n（题设），\n1\nAB\nB B\nB\n=\n\n，\nBC\n∴\n⊥平面\n1\n1\nBB A A，B 是垂足． ················· 3 分\n而\n1A B ⊂平面\n1\n1\nBB A A，\n1A A ⊂平面\n1\n1\nBB A A，\n1\nBC\nA B\n∴\n⊥\n，\n1\nBC\nA A\n⊥\n． ············ 5 分\n其次，\n1\n1\nAA\nAC\n⊥\n，（题设）\n1\nAA\nBC\n⊥\n，（已证）\n1\nBC\nAC\nC\n=\n\n，\n1\nAA\n∴\n⊥平面\n1A BC ，而\n1A B ⊂平面\n1A BC ，\n1\n1\nAA\nA B\n∴\n⊥\n． ································ 7 分\n（2）解：依设有\n1\nB B⊥平面\n1\n1\n1\nA B C ，\n1\n1\nB A ⊂平面\n1\n1\n1\nA B C ，\n1\n1\n1\nBB\nB A\n∴\n⊥\n，又\n1\n1\nBA\nA A\n⊥\n（已证）\n1\n1\n1\nπ\n2\nBB A\nBA A\n∴\n=\n=\n∠\n∠\n，\n由棱台性质知\n1\n1\nAB\nA B\n∥\n，\n1\n1\n1\nB A B\nA BA\n∴\n=\n∠\n∠\n．\n1\n1\n1\nA B B\nBA A\n∴△\n∽△\n，\nA\n1A\nB\n1\nB\nD\n1\n1\n1\n1\nA B\nA B\nA B\nAB\n=\n， ·························································································· 10 分\n依设\n1\n1\n2\n2cm\nAB\nA B\n=\n=\n，\n1\n1\n1cm\nA B\n∴\n=\n．\n2\n1\n1\n1\n1 2\n2\nA B\nA B AB\n∴\n=\n=\n=\n\n\n，\n1\n2\nA B =\n（cm ）．\n由（1）已证\n1\n1\nA B\nAA\n⊥\n，\n1A B\nBC\n⊥\n，\n且\n1\n1\n1\nA B\nAA\nA\n=\n\n，\n1A B\nBC\nB\n=\n\n，\n1A B\n∴\n是异面直线\n1\nAA 与BC 的公垂线．\n1A A\n∴\n和BC 的距离是\n2cm ． ····································································· 12 分\n三、本题主要考查三角函数和复数的基础知识，以及运算能力．解出第（1）小题给7 分，证出第（2）小题给6 分．\n（1）解：由设可得\n(\n) (\n)\ncos\ncos\nsin\nsin\nz\nu\ni\nα\nβ\nα\nβ\n+\n=\n+\n+\n+\n4\n3\n5\n5 i\n=\n+\n，\n4\ncos\ncos\n5\nα\nβ\n∴\n+\n=\n，\n3\nsin\nsin\n5\nα\nβ\n+\n=\n； ····················································································· 2 分\n和差化积得\n3\n2cos\nsin\n2\n2\n5\nα\nβ\nα\nβ\n−\n+\n=\n，①\n4\n2cos\ncos\n2\n2\n5\nα\nβ\nα\nβ\n−\n+\n=\n；②\n①÷②得\n3\ntg\n2\n4\nα\nβ\n+\n=\n， ·············································································· 5 分\n(\n)\n2\n2tg\n24\n2\ntg\n7\n1\ntg\n2\nα\nβ\nα\nβ\nα\nβ\n+\n∴\n+\n=\n=\n+\n−\n． ······························································· 7 分\n（2）证：\n2\n2\n4\n3\n1\n5\n5\nz\nu\n\n\n\n\n+\n=\n+\n=\n\n\n\n\n\n\n\n\n\n，又\n2cos\ncos\nsin\n2\n2\n2\nz\nu\ni\nα\nβ\nα\nβ\nα\nβ\n−\n+\n+\n\n\n+\n=\n+\n\n\n\n\n1\ncos\n2\n2\nα\nβ\n−\n∴\n=\n．····················································································· 9 分\n又\n(\n)\n(\n)\n2\n2\ncos2\ncos2\ncos\nsin 2\nsin 2\nsin\nz\nu\nzu\ni\nα\nβ\nα\nβ\nα\nβ\nα\nβ\n+\n+\n=\n+\n+\n+\n+\n+\n+\n+\n\n\n\n\n\n\n\n\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n2cos\ncos\ncos\n2cos\nsin\nsin\ni\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\n=\n−\n+\n+\n+\n+\n−\n+\n+\n+\n\n\n\n\n(\n)\n(\n)\n(\n)\n2cos\n1\ncos\nsin\ni\nα\nβ\nα\nβ\nα\nβ\n=\n−\n+\n+\n+\n+\n\n\n\n\n\n\n(\n)\n2cos\n1 zu\nα\nβ\n=\n−\n+\n\n\n\n\n， ··········································································· 12 分\n而\n(\n)\n2\ncos\n2cos\n1\n2\nα\nβ\nα\nβ\n−\n−\n=\n−\n2\n2\n1\n1\n2 cos\n1\n2\n1\n2\n2\n2\nα\nβ\n−\n\n\n=\n−=\n−= −\n\n\n\n\n\n，\n(\n)\n2cos\n1\n0\nα\nβ\n∴\n−\n+ =\n，\n故\n2\n2\n0\nz\nu\nzu\n+\n+\n=\n． ·················································································· 13 分\n四、本题主要考查直线和抛物线的基础知识，以及运算能力和逻辑推理能力．证得第（1）小题给8 分，证得第（2）\n小题给7 分．\n（1）证：以\n0\np >\n为例，作图如右．\n抛物线\n2\n2\ny\npx\n=\n的焦点为\n0\n2\np\nF \n\n\n\n\n\n，．\n···················································· 1 分\n依设F\nl\n∈，且l 与这抛物线有两个交点．\n分两种情况讨论：\n（ⅰ）当l\nx\n⊥\n轴时，l 的方程为\n2\np\nx =\n，\n故\n1\n2\n2\np\nx\nx\n=\n=\n，\n2\n1\n2\n4x x\np\n=\n． ······································································· 3 分\n（ⅱ）当l 不垂直于x 轴时，l 的方程为\n2\np\ny\nk x\n\n\n=\n−\n\n\n\n\n，\n0\nk ≠\n．\n代入\n2\n2\ny\npx\n=\n，得\n2\n2\n2\n2\n1\n0\n4\np\np\nx\np\nx\nk\n\n\n−\n+\n+\n=\n\n\n\n\n， ··············································· 6 分\n1x ，\n2x 是这方程的根，由韦达定理得\n2\n1\n2\n4\np\nx x =\n，即\n2\n1\n2\n4x x\np\n=\n．\n由（ⅰ），（ⅱ）证得（1）．············································································ 8 分\n（2 ）证：依题可设\n2\n2\nc\nC\nc\np\n\n\n\n\n\n\n，\n，\n2\n2\nd\nD\nd\np\n\n\n\n\n\n\n，\n且有c\nd\n≠\n．记CD 的垂直平分线为l′ ，则l′ 的方程是\n(\n)\n2\n2\n2\n2\n2\n4\n2\n2\nc\nd\nc\nd\nc\nd\ny\nc\nd\nx\np\np\np\n\n\n\n+\n+\n\n\n−\n−\n+\n−\n−\n\n\n\n\n\n\n\n\n\n\n0\n=\n．\n因\n0\nc\nd\n−\n≠\n，可化方程为\n(\n)\n( )\n2\n2\n2\n2\n4\n*\n8\n2\nc\nd\nc\nd\ny\np\nc\nd\nx\np\np\n+\n+\n=\n+\n+\n−\n ·························· 12 分\n（ⅰ）当F\nl′\n∈\n时，有(\n)(\n)\n2\n2\n2\n2\n0\nc\nd\np\nc\nd\n+\n+\n+\n=\n，\n而\n2\n2\n2\n2\n0\np\nc\nd\n+\n+\n≠\n，(\n)\n0\np ≠\n\n故\n0\nc\nd\n+\n=\n，这时，l′的方程化为\n0\ny =\n．\n从而，l′与抛物线\n2\n2\ny\npx\n=\n只相交于原点．而l 与此抛物线有两个不同交点，因而l′与l 不相重合．l 不是CD 的垂\nx\ny\nO\nC A\nD\nB\nl\n直平分线．\n（ⅱ）当F\nl′\n∉\n时，由于l 通过F ，故l 与l′也不相重合，l 不是CD 的垂直平分线．\n综上所述，（2）得证． ················································································ 15 分\n五、本题主要考查数列的基础知识，以及分析问题的能力．\n证得第（1）小题给9 分，解出第（2）小题给6 分．\n（1）证：依设，有\n(\n)\n(\n)\n1\n1\n1\nn\nn\nn\nna\na\na\na\n−\n−\n=\n−\n= −\n\n，\n(\n)\n1\nlg\n1\nlg\nn\nn\nn\nn\nn\nb\na\na\nna\na\n−\n∴\n=\n= −\n，\n1\nn =\n，2 ， ··············································· 2 分\n记\n1\n2\nn\nn\nS\nb\nb\nb\n=\n+\n+\n+\n\n，\n则有\n(\n)\n(\n)\n1\n2\n1\nlg\n1 2\n3\n1\nn\nn\nn\nS\na\na\na\na\nna\n−\n−\n\n\n=\n−\n+\n+\n+ −\n\n\n\n ··········································· 3 分\n(\n)\n(\n)\n(\n)\n2\n3\nlg\n2\n3\n1\nn\nn\nn\na S\na\na\na\na\na\nna\n\n\n−\n=\n−+\n−\n+\n+ −\n\n\n\n两式相减，\n得(\n)\n(\n)\n(\n)\n(\n)\n1\n2\n3\n1\n1\nlg\n1\n1\n1\nn\nn\nn\nn\nn\na S\na\na\na\na\na\na\nna\n−\n−\n\n\n+\n=\n−\n+\n−\n+\n+ −\n−−\n\n\n\n ····················· 6 分\n1\na ≠−\n\n，\n(\n)\n(\n)\n(\n)\n(\n)\nlg\n1\n1\n1\n1\nn\nn\nn\nn\na\na\na\nS\nna\na\na\n\n\n−−\n∴\n=\n−−\n\n\n+\n−−\n\n\n\n\n(\n)\n(\n)\n(\n)\n(\n)\n2\nlg\n1\n1\n1\n1\nn\nn\nn\na\na\na\nna\na\na\n\n\n=\n−−\n−−\n+\n\n\n+\n(\n)\n(\n)\n(\n)\n1\n2\nlg\n1\n1\n1\n1\nn\nn\na\na\nn\nna a\na\n+\n\n\n=\n+ −\n+\n+\n\n\n+\n ····························································· 9 分\n（2）解：存在所要求的自然数M ．证明如下：\n0\n1\na\n<\n<\n\n，\nlg\nlg\n0\na\na\n∴\n=\n<\n，\n当n 是奇数时，\n(\n)\n1\n1\nlg\n0\nn\nn\nnb\nna\na\n−\n= −\n<\n，\n当n 是偶数时，\n(\n)\n1\n1\nlg\n0\nn\nn\nnb\nna\na\n−\n= −\n>\n． ······················································· 10 分\n设k 是自然数，因\n2\n1\n0\na\n−\n≠\n，故\n2\n2\n2\nk\nk\nb\nb\n+ −\n(\n)\n2\n2\n2\n2\n2\nlg\n2\nlg\nk\nk\nk\na\na\nka\na\n+\n= −\n+\n+\n(\n)\n(\n)\n2\n2\n2\nlg\n1\nk\na\na\nk\na\nk\n\n\n=\n−\n+\n+\n\n\n(\n) (\n)\n2\n2\n2\n2\nlg\n1\nk\na\na\na\nk\na\n\n\n=\n−\n−\n\n\n(\n)(\n)\n2\n2\n2\n2\n2\nlg\n1\n1\nk\na\na\na\na\nk\na\n\n\n=\n−\n−\n\n\n−\n\n\n2\n2\nlg\n0\nk\na\na <\n\n，\n2\n1\n0\na\n−\n>\n，\n(\n)\n2\n2\n2\nk\nk\nb\nb\n+\n∴\n−\n与\n2\n2\n1\na\nk\na\n\n\n−\n\n\n−\n\n\n有相反的正负符号，或者同为零． ··························· 13 分\n记K 是不大于\n2\n2\n1\na\na\n−\n的最大整数，则有\n(\n)\n2\n2\n2\n0\n0\n0\nk\nk\nk\nK\nb\nb\nk\nK\nk\nK\n+\n>\n<\n\n\n−\n=\n\n<\n>\n\n，当\n，\n≥，当\n，\n，当\n；\n即有\n2\n4\n2\n2\n2\nK\nK\nb\nb\nb\nb\n+\n<\n<\n<\n\n≤\n，\n2\n2\n2\n4\n2\n6\nK\nK\nK\nb\nb\nb\n+\n+\n+\n>\n>\n>\n而对任何自然数k ，又有\n2\n1\n2\n2\n0\nK\nK\nb\nb\n−\n+\n<\n<\n．\n所以，取\n2\n2\nM\nK\n=\n+\n，则对任何自然数n ，都有\nn\nM\nb\nb\n≤\n． ································ 15 分",
+      "content": "若实数x\ny\n，满足\n2\n2\n2\n4\n0\nx\ny\nx\ny\n+\n−\n+\n=\n，则\n2\nx\ny\n−\n的最大值是（  ）\nＡ．\n5\nＢ．10\nＣ．9\nＤ．5\n2 5\n+",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1987,
       "subject": "数学",
@@ -585,11 +740,397 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1987/1987广东理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q26",
+      "content": "2\n9\nlog\n2\nlog 27\n+\n的值是__________．",
+      "answer": "证：\n1\nB B\n\n⊥底面ABC （题设）而BC ⊂平面ABC ，\n1\nB B\nBC\n∴\n⊥\n，又BC\nAB\n⊥\n（题设），\n1\nAB\nB B\nB\n=\n\n，\nBC\n∴\n⊥平面\n1\n1\nBB A A，B 是垂足． ················· 3 分\n而\n1A B ⊂平面\n1\n1\nBB A A，\n1A A ⊂平面\n1\n1\nBB A A，\n1\nBC\nA B\n∴\n⊥\n，\n1\nBC\nA A\n⊥\n． ············ 5 分\n其次，\n1\n1\nAA\nAC\n⊥\n，（题设）\n1\nAA\nBC\n⊥\n，（已证）\n1\nBC\nAC\nC\n=\n\n，\n1\nAA\n∴\n⊥平面\n1A BC ，而\n1A B ⊂平面\n1A BC ，\n1\n1\nAA\nA B\n∴\n⊥\n． ································ 7 分",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q27",
+      "content": "若圆的极坐标方程为\n6cos\nρ\nθ\n=\n，则这个圆的半径是__________．",
+      "answer": "暂无结构化答案",
+      "analysis": "解：依设有\n1\nB B⊥平面\n1\n1\n1\nA B C ，\n1\n1\nB A ⊂平面\n1\n1\n1\nA B C ，\n1\n1\n1\nBB\nB A\n∴\n⊥\n，又\n1\n1\nBA\nA A\n⊥\n（已证）\n1\n1\n1\nπ\n2\nBB A\nBA A\n∴\n=\n=\n∠\n∠\n，\n由棱台性质知\n1\n1\nAB\nA B\n∥\n，\n1\n1\n1\nB A B\nA BA\n∴\n=\n∠\n∠\n．\n1\n1\n1\nA B B\nBA A\n∴△\n∽△\n，\nA\n1A\nB\n1\nB\nD\n1\n1\n1\n1\nA B\nA B\nA B\nAB\n=\n， ·························································································· 10 分\n依设\n1\n1\n2\n2cm\nAB\nA B\n=\n=\n，\n1\n1\n1cm\nA B\n∴\n=\n．\n2\n1\n1\n1\n1 2\n2\nA B\nA B AB\n∴\n=\n=\n=\n\n\n，\n1\n2\nA B =\n（cm ）．\n由（1）已证\n1\n1\nA B\nAA\n⊥\n，\n1A B\nBC\n⊥\n，\n且\n1\n1\n1\nA B\nAA\nA\n=\n\n，\n1A B\nBC\nB\n=\n\n，\n1A B\n∴\n是异面直线\n1\nAA 与BC 的公垂线．\n1A A\n∴\n和BC 的距离是\n2cm ． ····································································· 12 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q28",
+      "content": "命题“三个正数a\nb\nc\n，，的几何平均数不大于这三个数的算术平均数”用数学符号表示，可写成“如果\n__________，那么__________．”",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q29",
+      "content": "已知椭圆的两个焦点是\n(\n)\n1 0\n1\nF\n−\n，\n和\n(\n)\n2 0 3\nF\n，，并且点\n(\n)\n21\nA\n，在该椭圆上，那么，这个椭圆的方程是__________．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q30",
+      "content": "1\n1\n2\n3\nlim 2\n3\nn\nn\nn\nn\nn\n−\n−\n→∞\n−\n+\n的值是__________．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q31",
+      "content": "求证：\n1\nBC\nA B\n⊥\n，\n1\nBC\nA A\n⊥\n，\n1\n1\nA A\nA B\n⊥\n；",
+      "answer": "暂无结构化答案",
+      "analysis": "解：由设可得\n(\n) (\n)\ncos\ncos\nsin\nsin\nz\nu\ni\nα\nβ\nα\nβ\n+\n=\n+\n+\n+\n4\n3\n5\n5 i\n=\n+\n，\n4\ncos\ncos\n5\nα\nβ\n∴\n+\n=\n，\n3\nsin\nsin\n5\nα\nβ\n+\n=\n； ····················································································· 2 分\n和差化积得\n3\n2cos\nsin\n2\n2\n5\nα\nβ\nα\nβ\n−\n+\n=\n，①\n4\n2cos\ncos\n2\n2\n5\nα\nβ\nα\nβ\n−\n+\n=\n；②\n①÷②得\n3\ntg\n2\n4\nα\nβ\n+\n=\n， ·············································································· 5 分\n(\n)\n2\n2tg\n24\n2\ntg\n7\n1\ntg\n2\nα\nβ\nα\nβ\nα\nβ\n+\n∴\n+\n=\n=\n+\n−\n． ······························································· 7 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q32",
+      "content": "求异面直线\n1A A 和BC 的距离．",
+      "answer": "证：\n2\n2\n4\n3\n1\n5\n5\nz\nu\n\n\n\n\n+\n=\n+\n=\n\n\n\n\n\n\n\n\n\n，又\n2cos\ncos\nsin\n2\n2\n2\nz\nu\ni\nα\nβ\nα\nβ\nα\nβ\n−\n+\n+\n\n\n+\n=\n+\n\n\n\n\n1\ncos\n2\n2\nα\nβ\n−\n∴\n=\n．····················································································· 9 分\n又\n(\n)\n(\n)\n2\n2\ncos2\ncos2\ncos\nsin 2\nsin 2\nsin\nz\nu\nzu\ni\nα\nβ\nα\nβ\nα\nβ\nα\nβ\n+\n+\n=\n+\n+\n+\n+\n+\n+\n+\n\n\n\n\n\n\n\n\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n2cos\ncos\ncos\n2cos\nsin\nsin\ni\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\nα\nβ\n=\n−\n+\n+\n+\n+\n−\n+\n+\n+\n\n\n\n\n(\n)\n(\n)\n(\n)\n2cos\n1\ncos\nsin\ni\nα\nβ\nα\nβ\nα\nβ\n=\n−\n+\n+\n+\n+\n\n\n\n\n\n\n(\n)\n2cos\n1 zu\nα\nβ\n=\n−\n+\n\n\n\n\n， ··········································································· 12 分\n而\n(\n)\n2\ncos\n2cos\n1\n2\nα\nβ\nα\nβ\n−\n−\n=\n−\n2\n2\n1\n1\n2 cos\n1\n2\n1\n2\n2\n2\nα\nβ\n−\n\n\n=\n−=\n−= −\n\n\n\n\n\n，\n(\n)\n2cos\n1\n0\nα\nβ\n∴\n−\n+ =\n，\n故\n2\n2\n0\nz\nu\nzu\n+\n+\n=\n． ·················································································· 13 分",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q33",
+      "content": "求\n(\n)\ntg α\nβ\n+\n的值；",
+      "answer": "暂无结构化答案",
+      "analysis": "证：以\n0\np >\n为例，作图如右．\n抛物线\n2\n2\ny\npx\n=\n的焦点为\n0\n2\np\nF \n\n\n\n\n\n，．\n···················································· 1 分\n依设F\nl\n∈，且l 与这抛物线有两个交点．\n分两种情况讨论：\n（ⅰ）当l\nx\n⊥\n轴时，l 的方程为\n2\np\nx =\n，\n故\n1\n2\n2\np\nx\nx\n=\n=\n，\n2\n1\n2\n4x x\np\n=\n． ······································································· 3 分\n（ⅱ）当l 不垂直于x 轴时，l 的方程为\n2\np\ny\nk x\n\n\n=\n−\n\n\n\n\n，\n0\nk ≠\n．\n代入\n2\n2\ny\npx\n=\n，得\n2\n2\n2\n2\n1\n0\n4\np\np\nx\np\nx\nk\n\n\n−\n+\n+\n=\n\n\n\n\n， ··············································· 6 分\n1x ，\n2x 是这方程的根，由韦达定理得\n2\n1\n2\n4\np\nx x =\n，即\n2\n1\n2\n4x x\np\n=\n．\n由（ⅰ），（ⅱ）证得（1）．············································································ 8 分\n（2 ）证：依题可设\n2\n2\nc\nC\nc\np\n\n\n\n\n\n\n，\n，\n2\n2\nd\nD\nd\np\n\n\n\n\n\n\n，\n且有c\nd\n≠\n．记CD 的垂直平分线为l′ ，则l′ 的方程是\n(\n)\n2\n2\n2\n2\n2\n4\n2\n2\nc\nd\nc\nd\nc\nd\ny\nc\nd\nx\np\np\np\n\n\n\n+\n+\n\n\n−\n−\n+\n−\n−\n\n\n\n\n\n\n\n\n\n\n0\n=\n．\n因\n0\nc\nd\n−\n≠\n，可化方程为\n(\n)\n( )\n2\n2\n2\n2\n4\n*\n8\n2\nc\nd\nc\nd\ny\np\nc\nd\nx\np\np\n+\n+\n=\n+\n+\n−\n ·························· 12 分\n（ⅰ）当F\nl′\n∈\n时，有(\n)(\n)\n2\n2\n2\n2\n0\nc\nd\np\nc\nd\n+\n+\n+\n=\n，\n而\n2\n2\n2\n2\n0\np\nc\nd\n+\n+\n≠\n，(\n)\n0\np ≠\n\n故\n0\nc\nd\n+\n=\n，这时，l′的方程化为\n0\ny =\n．\n从而，l′与抛物线\n2\n2\ny\npx\n=\n只相交于原点．而l 与此抛物线有两个不同交点，因而l′与l 不相重合．l 不是CD 的垂\nx\ny\nO\nC A\nD\nB\nl\n直平分线．\n（ⅱ）当F\nl′\n∉\n时，由于l 通过F ，故l 与l′也不相重合，l 不是CD 的垂直平分线．\n综上所述，（2）得证． ················································································ 15 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q34",
+      "content": "求证：\n2\n2\n0\nz\nu\nzu\n+\n+\n=\n．",
+      "answer": "暂无结构化答案",
+      "analysis": "解：存在所要求的自然数M ．证明如下：\n0\n1\na\n<\n<\n\n，\nlg\nlg\n0\na\na\n∴\n=\n<\n，\n当n 是奇数时，\n(\n)\n1\n1\nlg\n0\nn\nn\nnb\nna\na\n−\n= −\n<\n，\n当n 是偶数时，\n(\n)\n1\n1\nlg\n0\nn\nn\nnb\nna\na\n−\n= −\n>\n． ······················································· 10 分\n设k 是自然数，因\n2\n1\n0\na\n−\n≠\n，故\n2\n2\n2\nk\nk\nb\nb\n+ −\n(\n)\n2\n2\n2\n2\n2\nlg\n2\nlg\nk\nk\nk\na\na\nka\na\n+\n= −\n+\n+\n(\n)\n(\n)\n2\n2\n2\nlg\n1\nk\na\na\nk\na\nk\n\n\n=\n−\n+\n+\n\n\n(\n) (\n)\n2\n2\n2\n2\nlg\n1\nk\na\na\na\nk\na\n\n\n=\n−\n−\n\n\n(\n)(\n)\n2\n2\n2\n2\n2\nlg\n1\n1\nk\na\na\na\na\nk\na\n\n\n=\n−\n−\n\n\n−\n\n\n2\n2\nlg\n0\nk\na\na <\n\n，\n2\n1\n0\na\n−\n>\n，\n(\n)\n2\n2\n2\nk\nk\nb\nb\n+\n∴\n−\n与\n2\n2\n1\na\nk\na\n\n\n−\n\n\n−\n\n\n有相反的正负符号，或者同为零． ··························· 13 分\n记K 是不大于\n2\n2\n1\na\na\n−\n的最大整数，则有\n(\n)\n2\n2\n2\n0\n0\n0\nk\nk\nk\nK\nb\nb\nk\nK\nk\nK\n+\n>\n<\n\n\n−\n=\n\n<\n>\n\n，当\n，\n≥，当\n，\n，当\n；\n即有\n2\n4\n2\n2\n2\nK\nK\nb\nb\nb\nb\n+\n<\n<\n<\n\n≤\n，\n2\n2\n2\n4\n2\n6\nK\nK\nK\nb\nb\nb\n+\n+\n+\n>\n>\n>\n而对任何自然数k ，又有\n2\n1\n2\n2\n0\nK\nK\nb\nb\n−\n+\n<\n<\n．\n所以，取\n2\n2\nM\nK\n=\n+\n，则对任何自然数n ，都有\nn\nM\nb\nb\n≤\n． ································ 15 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q35",
+      "content": "求证：\n2\n1\n2\n4x x\np\n=\n\n；",
+      "answer": "证：依设，有\n(\n)\n(\n)\n1\n1\n1\nn\nn\nn\nna\na\na\na\n−\n−\n=\n−\n= −\n\n，\n(\n)\n1\nlg\n1\nlg\nn\nn\nn\nn\nn\nb\na\na\nna\na\n−\n∴\n=\n= −\n，\n1\nn =\n，2 ， ··············································· 2 分\n记\n1\n2\nn\nn\nS\nb\nb\nb\n=\n+\n+\n+\n\n，\n则有\n(\n)\n(\n)\n1\n2\n1\nlg\n1 2\n3\n1\nn\nn\nn\nS\na\na\na\na\nna\n−\n−\n\n\n=\n−\n+\n+\n+ −\n\n\n\n ··········································· 3 分\n(\n)\n(\n)\n(\n)\n2\n3\nlg\n2\n3\n1\nn\nn\nn\na S\na\na\na\na\na\nna\n\n\n−\n=\n−+\n−\n+\n+ −\n\n\n\n两式相减，\n得(\n)\n(\n)\n(\n)\n(\n)\n1\n2\n3\n1\n1\nlg\n1\n1\n1\nn\nn\nn\nn\nn\na S\na\na\na\na\na\na\nna\n−\n−\n\n\n+\n=\n−\n+\n−\n+\n+ −\n−−\n\n\n\n ····················· 6 分\n1\na ≠−\n\n，\n(\n)\n(\n)\n(\n)\n(\n)\nlg\n1\n1\n1\n1\nn\nn\nn\nn\na\na\na\nS\nna\na\na\n\n\n−−\n∴\n=\n−−\n\n\n+\n−−\n\n\n\n\n(\n)\n(\n)\n(\n)\n(\n)\n2\nlg\n1\n1\n1\n1\nn\nn\nn\na\na\na\nna\na\na\n\n\n=\n−−\n−−\n+\n\n\n+\n(\n)\n(\n)\n(\n)\n1\n2\nlg\n1\n1\n1\n1\nn\nn\na\na\nn\nna a\na\n+\n\n\n=\n+ −\n+\n+\n\n\n+\n ····························································· 9 分",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q36",
+      "content": "求证：对于这抛物线的任何给定的一条弦CD ，直线l 不是CD 的垂直平分线．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q37",
+      "content": "求证：当\n1\na ≠−时，对任意自然数n ，都有\n(\n)\n(\n)\n(\n)\n1\n2\nlg\n1\n1\n1\n1\nn\nn\nn\na\na\nS\nn\nna a\na\n+\n\n\n=\n+ −\n+\n+\n\n\n+\n；",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 1,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1987/1987广东理.pdf#q38",
+      "content": "请问：当0\n1\na\n<\n< 时，是否存在自然数M ，使得对任意自然数n ，都有\nn\nM\nb\nb\n≤\n？证明你的结论．",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1987,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1987/1987广东理.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 3,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 1,
+    "missingFigureRefs": 0
+  }
 }

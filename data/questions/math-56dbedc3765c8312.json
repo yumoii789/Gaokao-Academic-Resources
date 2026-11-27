@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1977/1977内蒙古文.pdf",
   "name": "1977内蒙古文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 4,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 3,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 3,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1977/1977内蒙古文.pdf#q01",
-      "content": "(42 分 )\n( 计 算 sin( - 9902)\n(2) 化 简 4 12a +9a° :\n-21)° 不\n《3) E\n(3D)\n4) 己 知 1g2=0.3010, fC) =log, x “ 权 : (5)\n5) 求 函 数 达 - 邵 1\nt 的 定 义 基\n0 0\n(6) 己 知 : sind=0.6, kK (sing - cos 二 72 的 值",
+      "content": "(42 分 )\n( 计 算 sin( - 9902)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977内蒙古文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
         "confidence": 83,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-56dbedc3765c8312-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-56dbedc3765c8312-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1977/1977内蒙古文.pdf#q02",
-      "content": "(20 分 )\n(1) 已 知 : 梯 彤 ABCD,AD / BC, 观 角 线 AC 和 BD 相 交 于 E, 过 5 作 平 行\n于 底 的 直 线 , 交 AB 于 M, 交 CD 于 N, 求 证 : ME=EN,\n〈2) 国 台 上 底 直 径 为 12cm, 下 底 李 径 为 24cm, 高 为 8cm, 求 园 台 的 体 积 和 全\n面 积 。 (x =8.14, 缤 果 精 确 到 0.1cm。 或 0.1cm》",
+      "content": "化 简 4 12a +9a° :\n-21)° 不\n《3) E\n(3D)\n4) 己 知 1g2=0.3010, fC) =log, x “ 权 : (5)\n5) 求 函 数 达 - 邵 1\nt 的 定 义 基\n0 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -56,22 +78,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977内蒙古文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "ocr",
         "confidence": 83,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-56dbedc3765c8312-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-56dbedc3765c8312-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1977/1977内蒙古文.pdf#q03",
-      "content": "(18 分 ) 已 知 : 直 线 3x+y =5 及 2x-3y+4= 0 交 于 A 库 。\n求 , (1) 过 A 点 且 与 y 轻 垂 直 的 直 线 方 程 :\n(2) 过 A 点 丁 与 直 线 2x +y+ 1 = 0 平 行 的 直 线 方 程 ;\n(3) 进 A 点 且 与 李 线 2# + 9 +1 = 0 垂 直 的 直 线 方 程 。",
+      "content": "己 知 : sind=0.6, kK (sing - cos 二 72 的 值\n2 、 (20 分 )\n(1) 已 知 : 梯 彤 ABCD,AD / BC, 观 角 线 AC 和 BD 相 交 于 E, 过 5 作 平 行\n于 底 的 直 线 , 交 AB 于 M, 交 CD 于 N, 求 证 : ME=EN,\n〈2) 国 台 上 底 直 径 为 12cm, 下 底 李 径 为 24cm, 高 为 8cm, 求 园 台 的 体 积 和 全\n面 积 。 (x =8.14, 缤 果 精 确 到 0.1cm。 或 0.1cm》\n3 、(18 分 ) 已 知 : 直 线 3x+y =5 及 2x-3y+4= 0 交 于 A 库 。\n求 , (1) 过 A 点 且 与 y 轻 垂 直 的 直 线 方 程 :\n(2) 过 A 点 丁 与 直 线 2x +y+ 1 = 0 平 行 的 直 线 方 程 ;\n(3) 进 A 点 且 与 李 线 2# + 9 +1 = 0 垂 直 的 直 线 方 程 。\n4 、 〈20 分 ) 红 旗 担 拉 机 厂 今 年 元 月 份 生 产 出 一 批 甲 乙 两 种 型 号 的 拖 拉 机 , 其 中 生\n产 乙 型 16 司 。 从 二 月 份 起 , 甲 型 每 月 增 产 10 台 , 而 乙 型 按 每 月 相 同 增 长 率 逐 月 递 增 , 又\n知 二 月 份 甲 、 乙 两 型 拖 拉 机 产 量 之 比 是 3 : 2 , 三 月 份 甲 、 乙 两 型 产 量 之 和 是 65 台 , 求\n乙 型 拖 拉 机 每 月 的 增 长 率 及 甲 型 拖 拉 机 元 月 份 的 产 量 。\n解 答 :\n1 、 解 :, (1) sin(-990°) = —sin990° = - sin(720 +279°) = —sin270°=1,\n(2) Ji-12a+9a* = 2-54)\" =[2-3a\n一 112 一\n当 aa Ji-12a+9a% =2-3a;\n3\n达 a=2, Ji-isa+oa’ =0;\n3\n当 a2, 4 一 12 十 92 = —(2-3a)=32-2,\nAp\nC 命 一\n®@ Bic |r) ,\nM 5 伟 a Te -\nC Tip)\n1 性\nt\n@ 由 换 底 公 式 知 : £05) ngym g 李 Js (lg10~1g2)\nlgy10 Lio\n2\n=2(1-0,3010)\n=1.398。\n心 《C5) =1.398\n《5) 当 1-2x>0 且 3x 一 1 专 0 时 , 给 出 的 函 数 才 有 定 义 。\n2\n: Loa 工 加 达 3\n氘 y= 57 一 八 一 的 定 五 及 心 人 K 命 氖 。\nT= yr 的 定 义 域 为 x 一 及 一 <<x <3\n(6) (sind —cos) =sint Zeon’ —2ain cos\n=1 - sin0 =1 一 0.6 二 0.4。\n2 、 ( 证 : “MNV BCJ AD, 素\nAM _ DN 余\n心 有 五 - 飞 万 , 由 合 比 定 理 有 :\nMB NC 不 刀\nAM+MB _=_DN+NC_, 即 专 B _DC 李\nMB NT Tor CAMB ANG\n~* ABEM~ABDA, ACNE~ACDA, 3 c\no ADE ABY 7 AD CIDE 、 真 心 扬 mt\n“ ME MB, EN NC MB NC’\nAD _ AD\nJEL 心 ME =EN,\nET\n一 113 一\n(2) 解 : 园 台 的 上 底 半 径 R = 县 cm <6cmy\n下 底 半 苔 R, = 制 cm = 12cm,\n2\n高 8 = 8cmy\n肆 线 长 L=v FTKRz RJ = v 卯 + 36 = 10,\n才 是 国 各 的 体 积 = 一 KHCRi + R3+ RR 5\nE\n= 87 (36+ 144 +72)\n3 b\n~2110(cm®)\n国 台 前 全 面 积 =x(Ri + Ri + LR, +R,))\n= (36 + 144 + 180) f\n~1i3(cm*)\n(8x +y=5\n3 、 解 (1》 . 解 方 程 组 i 可 得 A 点 鸿 坂 标 为 (L,27 ,\n2x-3y+4=0\n: 过 A 点 且 与 y 轴 垂 直 的 直 线 方 程 为 了 =2。\n〉 (2) 直 线 2K + + 1=0 的 斜 率 为 一 2\n> 过 A 点 与 上 直 线 平 行 的 直 线 的 斜 率 也 为 - 2, 改 其 方 程 为\ny-2=-2(x-1) ,\n即 : 2x+y-4=0,\n(3) MAKE 2x+y+1=0 垂 直 的 直 线 的 斜 率 与 已 知 直 线 的 斜 率 互 为 负\n倒 数 , 故 所 求 的 直 线 方 程 为\n2 口 - 加 5\n邱 “x 一 27+3 =0。\n4 、 解 : 设 甲 型 拖 拉 机 元 月 份 产 量 为 x, 乙 型 拖 拉 机 每 月 增 长 率 为 y 。\n根 据 已 给 条 件 列 方 程 于 下 :\n_X+108 3 Foi co TANCE\nat 2 La\nT6CL+9) + (X +20) =65 ee (2)\n由 C1 》 = 怡 l6(l en -10=24(1+ 刃 一 10, 代 入 @ 得\n一 14 一 -\n16(1 +y)* +24(1 +3) —10+20=65\n邱 18(1+772+ 24(1+97) ~ 55 =0\n分 解 因 式 C4CL+J7 + 11JC4C1 + 一 5 =0\n41 +y)+11=0, vein 1A 不 合 题 意 , 含 去 s\n41 +y)-5=0, y=5-1-0.25-25%.\nx =24(1+25%) —10=20,\n故 甲 型 拖 拉 机 元 月 份 产 20 台 , 乙 型 拖 祖 讥 每 月 增 长 率 为 25% 。\nb",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -79,34 +112,27 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977内蒙古文.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 4,
+        "questionNumber": 6,
         "extraction": "ocr",
         "confidence": 83,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1977/1977内蒙古文.pdf#q04",
-      "content": "〈20 分 ) 红 旗 担 拉 机 厂 今 年 元 月 份 生 产 出 一 批 甲 乙 两 种 型 号 的 拖 拉 机 , 其 中 生\n产 乙 型 16 司 。 从 二 月 份 起 , 甲 型 每 月 增 产 10 台 , 而 乙 型 按 每 月 相 同 增 长 率 逐 月 递 增 , 又\n知 二 月 份 甲 、 乙 两 型 拖 拉 机 产 量 之 比 是 3 : 2 , 三 月 份 甲 、 乙 两 型 产 量 之 和 是 65 台 , 求\n乙 型 拖 拉 机 每 月 的 增 长 率 及 甲 型 拖 拉 机 元 月 份 的 产 量 。\n解 答 :\n1 、 解 :, (1) sin(-990°) = —sin990° = - sin(720 +279°) = —sin270°=1,\n(2) Ji-12a+9a* = 2-54)\" =[2-3a\n一 112 一\n当 aa Ji-12a+9a% =2-3a;\n3\n达 a=2, Ji-isa+oa’ =0;\n3\n当 a2, 4 一 12 十 92 = —(2-3a)=32-2,\nAp\nC 命 一\n®@ Bic |r) ,\nM 5 伟 a Te -\nC Tip)\n1 性\nt\n@ 由 换 底 公 式 知 : £05) ngym g 李 Js (lg10~1g2)\nlgy10 Lio\n2\n=2(1-0,3010)\n=1.398。\n心 《C5) =1.398\n《5) 当 1-2x>0 且 3x 一 1 专 0 时 , 给 出 的 函 数 才 有 定 义 。\n2\n: Loa 工 加 达 3\n氘 y= 57 一 八 一 的 定 五 及 心 人 K 命 氖 。\nT= yr 的 定 义 域 为 x 一 及 一 <<x <3\n(6) (sind —cos) =sint Zeon’ —2ain cos\n=1 - sin0 =1 一 0.6 二 0.4。\n2 、 ( 证 : “MNV BCJ AD, 素\nAM _ DN 余\n心 有 五 - 飞 万 , 由 合 比 定 理 有 :\nMB NC 不 刀\nAM+MB _=_DN+NC_, 即 专 B _DC 李\nMB NT Tor CAMB ANG\n~* ABEM~ABDA, ACNE~ACDA, 3 c\no ADE ABY 7 AD CIDE 、 真 心 扬 mt\n“ ME MB, EN NC MB NC’\nAD _ AD\nJEL 心 ME =EN,\nET\n一 113 一\n(2) 解 : 园 台 的 上 底 半 径 R = 县 cm <6cmy\n下 底 半 苔 R, = 制 cm = 12cm,\n2\n高 8 = 8cmy\n肆 线 长 L=v FTKRz RJ = v 卯 + 36 = 10,\n才 是 国 各 的 体 积 = 一 KHCRi + R3+ RR 5\nE\n= 87 (36+ 144 +72)\n3 b\n~2110(cm®)\n国 台 前 全 面 积 =x(Ri + Ri + LR, +R,))\n= (36 + 144 + 180) f\n~1i3(cm*)\n(8x +y=5\n3 、 解 (1》 . 解 方 程 组 i 可 得 A 点 鸿 坂 标 为 (L,27 ,\n2x-3y+4=0\n: 过 A 点 且 与 y 轴 垂 直 的 直 线 方 程 为 了 =2。\n〉 (2) 直 线 2K + + 1=0 的 斜 率 为 一 2\n> 过 A 点 与 上 直 线 平 行 的 直 线 的 斜 率 也 为 - 2, 改 其 方 程 为\ny-2=-2(x-1) ,\n即 : 2x+y-4=0,\n(3) MAKE 2x+y+1=0 垂 直 的 直 线 的 斜 率 与 已 知 直 线 的 斜 率 互 为 负\n倒 数 , 故 所 求 的 直 线 方 程 为\n2 口 - 加 5\n邱 “x 一 27+3 =0。\n4 、 解 : 设 甲 型 拖 拉 机 元 月 份 产 量 为 x, 乙 型 拖 拉 机 每 月 增 长 率 为 y 。\n根 据 已 给 条 件 列 方 程 于 下 :\n_X+108 3 Foi co TANCE\nat 2 La\nT6CL+9) + (X +20) =65 ee (2)\n由 C1 》 = 怡 l6(l en -10=24(1+ 刃 一 10, 代 入 @ 得\n一 14 一 -\n16(1 +y)* +24(1 +3) —10+20=65\n邱 18(1+772+ 24(1+97) ~ 55 =0\n分 解 因 式 C4CL+J7 + 11JC4C1 + 一 5 =0\n41 +y)+11=0, vein 1A 不 合 题 意 , 含 去 s\n41 +y)-5=0, y=5-1-0.25-25%.\nx =24(1+25%) —10=20,\n故 甲 型 拖 拉 机 元 月 份 产 20 台 , 乙 型 拖 祖 讥 每 月 增 长 率 为 25% 。\nb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1977,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1977/1977内蒙古文.pdf",
-        "page": 1,
-        "questionNumber": 4,
-        "extraction": "ocr",
-        "confidence": 83,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 4,
+    "scanRegions": 2,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

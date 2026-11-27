@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2005/2005广东.pdf",
   "name": "2005广东",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q01",
       "content": "若集合M = {x | |x| ⩽2}, N = {x | x2 −3x = 0}, 则M ∩N =\n(\n)\n(A) {3}\n(B) {0}\n(C) {0, 2}\n(D) {0, 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q02",
       "content": "若(a −2i)i = b −i, 其中a、b ∈R, i 是虚数单位, 则a2 + b2 =\n(\n)\n(A) 0\n(B) 2\n(C) 5\n2\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q03",
       "content": "lim\nx→−3\nx + 3\nx2 −9 =\n(\n)\n(A) −1\n6\n(B) 0\n(C) 1\n6\n(D) 1\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q04",
       "content": "已知高为3 的直棱柱ABC −A′B′C′ 的底面是边长为1 的正三角形(如图\n所示), 则三棱锥B′ −ABC 的体积为\n(\n)\nA\nB\nC\nA′\nC′\nB′\n(A) 1\n4\n(B) 1\n2\n(C)\n√\n3\n6\n(D)\n√\n3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q05",
       "content": "若焦点在x 轴上的椭圆x2\n2 + y2\nm = 1 的离心率为1\n2, 则m =\n(\n)\n(A)\n√\n3\n(B) 3\n2\n(C) 8\n3\n(D) 2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q06",
       "content": "函数f(x) = x3 −3x2 + 1 是减函数的区间为\n(\n)\n(A) (2, +∞)\n(B) (−∞, 2)\n(C) (−∞, 0)\n(D) (0, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q07",
       "content": "给出下列关于互不相同的直线m、l、n 和平面α、β 的四个命题:\n①若m ⊂α, l ∩α = A, A /∈m, 则l 与m 不共面;\n②若m、l 是异面直线, l\nα, m\nα, 且n ⊥l, n ⊥m, 则n ⊥α;\n③若l\nα, m\nβ, α\nβ, 则l\nm;\n④若l ⊂α, m ⊂α, l ∩m = A, l\nβ, m\nβ, 则α\nβ.\n其中为假命题的是\n(\n)\n(A) ①\n(B) ②\n(C) ③\n(D) ④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q08",
       "content": "先后抛掷两枚均匀的正方体骰子(它们的六个面分别标有点数1、2、3、4、\n5、6), 骰子朝上的面的点数分别为X、Y , 则log2XY = 1 的概率为\n(\n)\n(A) 1\n6\n(B) 5\n36\n(C) 1\n12\n(D) 1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q09",
       "content": "在同一平面直角坐标系中, 函数y = f(x) 和y = g(x) 的图象关于直线\ny = x 对称. 现将y = g(x) 的图象沿x 轴向左平移2 个单位, 再沿y 轴向\n上平移1 个单位, 所得的图象是由两条线段组成的折线(如图所示), 则函\n数f(x) 的表达式为\n(\n)\nx\n1\n2\n−1\n−2\n1\n2\n3\ny\nO\n(A) f(x) =\n\n\n\n2x + 2,\n−1 ⩽x ⩽0,\nx\n2 + 2,\n0 < x ⩽2.\n(B) f(x) =\n\n\n\n2x −2,\n−1 ⩽x ⩽0,\nx\n2 −2,\n0 < x ⩽2.\n(C) f(x) =\n\n\n\n2x −2,\n1 ⩽x ⩽2,\nx\n2 + 1,\n2 < x ⩽4.\n(D) f(x) =\n\n\n\n2x −6,\n1 ⩽x ⩽2,\nx\n2 −3,\n2 < x ⩽4.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -217,22 +284,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q10",
       "content": "已知数列{xn} 满足x2 = x1\n2 , xn = 1\n2(xn−1 + xn−2), n = 3, 4, · · · . 若\nlim\nn→∞xn = 2, 则x1 =\n(\n)\n(A) 3\n2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -240,22 +317,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q11",
       "content": "函数f(x) =\n1\n√1 −ex 的定义域是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -263,22 +350,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q12",
       "content": "已知向量#»a = (2, 3), #»b = (x, 6), 且#»a\n#»b , 则x =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -286,22 +379,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q13",
       "content": "已知(x cos θ + 1)5 的展开式中x2 的系数与\n(\nx + 5\n4\n)4\n的展开式中x3 的\n系数相等, 则cos θ=\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q14",
       "content": "设平面内有n 条直线(n ⩾3), 其中有且仅有两条直线互相平行, 任\n意三条直线不过同一点.\n若用f(n) 表示这n 条直线交点的个数, 则\nf(4) =\n; 当n > 4 时, f(n) =\n. (用n 表示)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q15",
       "content": "化简f(x) = cos\n(6k + 1\n3\nπ + 2x\n)\n+ cos\n(6k −1\n3\nπ −2x\n)\n+ 2\n√\n3 sin\n(π\n3 +\n2x\n)\n(x ∈R , k ∈Z), 并求函数f(x) 的值域和最小正周期.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -355,22 +466,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q16",
-      "content": "如图所示, 在四面体P −ABC 中, 已知PA = BC = 6, PC = AB = 10,\nAC = 8, PB = 2\n√",
+      "content": "如图所示, 在四面体P −ABC 中, 已知PA = BC = 6, PC = AB = 10,\nAC = 8, PB = 2\n√\n34. F 是线段PB 上一点, CF = 15\n17\n√\n34, 点E 在线段\nAB 上, 且EF ⊥PB.\n(1) 证明: PB ⊥平面CEF;\n(2) 求二面角B −CE −F 的大小.\nC\nB\nA\nE\nP\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -378,22 +495,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005广东.pdf#q17",
-      "content": "F 是线段PB 上一点, CF = 15\n17\n√\n34, 点E 在线段\nAB 上, 且EF ⊥PB.\n(1) 证明: PB ⊥平面CEF;\n(2) 求二面角B −CE −F 的大小.\nC\nB\nA\nE\nP\nF\n17. 在平面直角坐标系xOy 中, 抛物线y = x2 上异于坐标原点O 的两不同动\n点A、B 满足AO ⊥BO (如图所示).\n(1) 求△AOB 的重心G (即三角形三条中线的交点) 的轨迹方程;\n(2) △AOB 的面积是否存在最小值? 若存在, 请求出最小值; 若不存在, 请\n说明理由.\nx\nA\nB\ny\nO\n228\n18. 箱中装有大小相同的黄、白两种颜色的乒乓球, 黄、白乒乓球的数量比为\ns : t. 现从箱中每次任意取出一个球, 若取出的是黄球则结束, 若取出的是\n白球, 则将其放回箱中, 并继续从箱中任意取出一个球, 但取球的次数最多\n不超过n 次, 以ξ 表示取球结束时已取到白球的次数.\n(1) 求ξ 的分布列;\n(2) 求ξ 的数学期望.\n19. 设函数f(x) 在(−∞, +∞) 上满足f(2−x) = f(2+x), f(7−x) = f(7+x),\n且在闭区间[0, 7] 上, 只有f(1) = f(3) = 0.\n(1) 试判断函数y = f(x) 的奇偶性;\n(2) 试求方程f(x) = 0 在闭区间[−2005, 2005] 上的根的个数, 并证明你的\n结论.\n20. 在平面直角坐标系中, 已知矩形ABCD 的长为2, 宽为1, AB、AD 边分\n别在x 轴、y 轴的正半轴上, A 点与坐标原点重合(如图所示). 将矩形折\n叠, 使A 点落在线段DC 上.\n(1) 若折痕所在直线的斜率为k, 试写出折痕所在直线的方程;\n(2) 求折痕的长的最大值.\nx\nC\nB\ny\nD\nA\n229",
+      "content": "在平面直角坐标系xOy 中, 抛物线y = x2 上异于坐标原点O 的两不同动\n点A、B 满足AO ⊥BO (如图所示).\n(1) 求△AOB 的重心G (即三角形三条中线的交点) 的轨迹方程;\n(2) △AOB 的面积是否存在最小值? 若存在, 请求出最小值; 若不存在, 请\n说明理由.\nx\nA\nB\ny\nO\n228",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -401,11 +528,121 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005广东.pdf",
         "page": 1,
-        "questionNumber": 34,
+        "endPage": 1,
+        "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q017-p001-f01.jpg"
+    },
+    {
+      "questionId": "math:普通高考/2005/2005广东.pdf#q18",
+      "content": "箱中装有大小相同的黄、白两种颜色的乒乓球, 黄、白乒乓球的数量比为\ns : t. 现从箱中每次任意取出一个球, 若取出的是黄球则结束, 若取出的是\n白球, 则将其放回箱中, 并继续从箱中任意取出一个球, 但取球的次数最多\n不超过n 次, 以ξ 表示取球结束时已取到白球的次数.\n(1) 求ξ 的分布列;\n(2) 求ξ 的数学期望.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2005,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2005/2005广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
+    },
+    {
+      "questionId": "math:普通高考/2005/2005广东.pdf#q19",
+      "content": "设函数f(x) 在(−∞, +∞) 上满足f(2−x) = f(2+x), f(7−x) = f(7+x),\n且在闭区间[0, 7] 上, 只有f(1) = f(3) = 0.\n(1) 试判断函数y = f(x) 的奇偶性;\n(2) 试求方程f(x) = 0 在闭区间[−2005, 2005] 上的根的个数, 并证明你的\n结论.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2005,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2005/2005广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2005/2005广东.pdf#q20",
+      "content": "在平面直角坐标系中, 已知矩形ABCD 的长为2, 宽为1, AB、AD 边分\n别在x 轴、y 轴的正半轴上, A 点与坐标原点重合(如图所示). 将矩形折\n叠, 使A 点落在线段DC 上.\n(1) 若折痕所在直线的斜率为k, 试写出折痕所在直线的方程;\n(2) 求折痕的长的最大值.\nx\nC\nB\ny\nD\nA\n229",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2005,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2005/2005广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b9fc0d46a52e7440-q020-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 7,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

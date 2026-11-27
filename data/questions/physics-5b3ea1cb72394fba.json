@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011四川理综.pdf",
   "name": "2011四川理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 12,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q01",
       "content": "本部分共2 大题，21 小题。每小题6 分，共126 分。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q02",
-      "content": "气体能够充满密闭容器，说明气体分子除相互碰撞的短暂时间外（    ）\n（A）气体分子可以做布朗运动\n（B）气体分子的动能都一样大\n（C）相互作用力十分微弱，气体分子可以自由运动\n（D）相互作用力十分微弱，气体分子间的距离都一样大\n解析：布朗运动是微小颗粒的无规则运动，而不是分子的运动，A 错误；同一温度下，每个气\n体分子速率不一定相同，其气体分子动能不一定一样大，B 错误；气体分子之间的距离远大于\n分子力的作用范围，分子力可以认为十分微弱，分子可以自由移动，但分子与分子之间的距离\n还是不一样大，C 正确，D 错误。",
+      "content": "气体能够充满密闭容器，说明气体分子除相互碰撞的短暂时间外（    ）\n（A）气体分子可以做布朗运动\n（B）气体分子的动能都一样大\n（C）相互作用力十分微弱，气体分子可以自由运动\n（D）相互作用力十分微弱，气体分子间的距离都一样大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "布朗运动是微小颗粒的无规则运动，而不是分子的运动，A 错误；同一温度下，每个气\n体分子速率不一定相同，其气体分子动能不一定一样大，B 错误；气体分子之间的距离远大于\n分子力的作用范围，分子力可以认为十分微弱，分子可以自由移动，但分子与分子之间的距离\n还是不一样大，C 正确，D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q03",
-      "content": "下列说法正确的是（    ）\n（A）甲乙在同一明亮空间，甲从平面镜中看见乙的眼睛时，乙一定能从镜中看见甲的眼睛\n（B）我们能从某位置通过固定的任意透明介质看见另一侧的所有景物\n（C）可见光的传播速度总是大于电磁波的传播速度\n（D）在介质中光总是沿直线传播\n解析：由光路可逆知道A 正确；由于存在光的全反射，所以不一定从介质看到另一侧的所有景\n物，B 错误；可见光也是电磁波，他它们的速度可以相等，C 错误；只有在同一均匀介质中光\n才能沿直线传播，D 错误。",
+      "content": "下列说法正确的是（    ）\n（A）甲乙在同一明亮空间，甲从平面镜中看见乙的眼睛时，乙一定能从镜中看见甲的眼睛\n（B）我们能从某位置通过固定的任意透明介质看见另一侧的所有景物\n（C）可见光的传播速度总是大于电磁波的传播速度\n（D）在介质中光总是沿直线传播",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由光路可逆知道A 正确；由于存在光的全反射，所以不一定从介质看到另一侧的所有景\n物，B 错误；可见光也是电磁波，他它们的速度可以相等，C 错误；只有在同一均匀介质中光\n才能沿直线传播，D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -79,22 +100,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q04",
-      "content": "如图为一列沿x 轴方向传播的简谐横波在t＝0 时的波形\n图，当Q 点在t＝0 时的振动状态传到P 点时，则（   ）\n（A）1 cm＜x＜3 cm 范围内的质点正在向y 轴的负方向运动\n（B）Q 处的质点此时的加速度沿y 轴的正方向\n（C）Q 处的质点此时正在波峰位置\n（D）Q 处的质点此时运动到P 处\n解析：由波动图像可知，质点Q 在t＝0 时刻平衡位置向上振动，所以当Q 的状态传到P 时，\n刚好经历3/4 周期，Q 处于波谷位置，故B 正确，C、D 错误；此刻1 cm＜x＜3 cm 范围内的质\n点均在x 轴上面，其中1 cm＜x＜2 cm 范围内质点向上运动，2 cm＜x＜3 cm 范围内质点向下\n运动，A 错误。\ny/cm\nx/cm\nO\nP\nQ\n1\n3\n5\n2\n-2\n2 / 6",
+      "content": "如图为一列沿x 轴方向传播的简谐横波在t＝0 时的波形\n图，当Q 点在t＝0 时的振动状态传到P 点时，则（   ）\n（A）1 cm＜x＜3 cm 范围内的质点正在向y 轴的负方向运动\n（B）Q 处的质点此时的加速度沿y 轴的正方向\n（C）Q 处的质点此时正在波峰位置\n（D）Q 处的质点此时运动到P 处",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由波动图像可知，质点Q 在t＝0 时刻平衡位置向上振动，所以当Q 的状态传到P 时，\n刚好经历3/4 周期，Q 处于波谷位置，故B 正确，C、D 错误；此刻1 cm＜x＜3 cm 范围内的质\n点均在x 轴上面，其中1 cm＜x＜2 cm 范围内质点向上运动，2 cm＜x＜3 cm 范围内质点向下\n运动，A 错误。\ny/cm\nx/cm\nO\nP\nQ\n1\n3\n5\n2\n-2\n2 / 6",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -102,22 +127,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q05",
-      "content": "据报道，天文学家近日发现了一颗距地球40 光年的“超级地球”，名为“55 Cancrie”，该\n行星绕母星（中心天体）运行的周期约为地球绕太阳运行周期的1\n480，母星的体积约为太阳的60\n倍。假设母星与太阳密度相同，“55 Cancrie”与地球均做匀速圆周运动，则“55 Cancrie”与地\n球的（    ）\n（A）轨道半径之比约为\n3 60/480\n（B）轨道半径之比约为\n3 60/4802\n（C）向心加速度之比约为\n3 604802\n（D）向心加速度之比约为\n3 60480\n解析：母星与太阳密度相等，而体积约为60 倍，说明母星的质量是太阳的60 倍。由万有引力\n提供向心力可得\n2\n2\n2\n(\n)\nMm\nG\nm\nr\nr\nT\n\n=\n，所以\n3\n2\n2\n3\n1\n(\n)\nT\nM\nr\nr\nM\nT\n\n=\n母\n太\n母\n太\n，代入数据得轨道半径之比约\n为\n3 60/4802，B 正确；由加速度\n2\n(\n)\na\nr\nT\n\n=\n可得，加速度之比为\n3 604804，C、D 错误。",
+      "content": "据报道，天文学家近日发现了一颗距地球40 光年的“超级地球”，名为“55 Cancrie”，该\n行星绕母星（中心天体）运行的周期约为地球绕太阳运行周期的1\n480，母星的体积约为太阳的60\n倍。假设母星与太阳密度相同，“55 Cancrie”与地球均做匀速圆周运动，则“55 Cancrie”与地\n球的（    ）\n（A）轨道半径之比约为\n3 60/480\n（B）轨道半径之比约为\n3 60/4802\n（C）向心加速度之比约为\n3 604802\n（D）向心加速度之比约为\n3 60480",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "母星与太阳密度相等，而体积约为60 倍，说明母星的质量是太阳的60 倍。由万有引力\n提供向心力可得\n2\n2\n2\n(\n)\nMm\nG\nm\nr\nr\nT\n\n=\n，所以\n3\n2\n2\n3\n1\n(\n)\nT\nM\nr\nr\nM\nT\n\n=\n母\n太\n母\n太\n，代入数据得轨道半径之比约\n为\n3 60/4802，B 正确；由加速度\n2\n(\n)\na\nr\nT\n\n=\n可得，加速度之比为\n3 604804，C、D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -125,22 +158,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q06",
-      "content": "氢原子从能级m 跃迁到能级n 时辐射红光的频率为ν1，从能级n 跃迁到能级k 时吸收紫光\n的频率为ν2，已知普朗克常量为h，若氢原子从能级k 跃迁到能级m，则（    ）\n（A）吸收光子的能量为hν1＋hν2\n（B）辐射光子的能量为hν1＋hν2\n（C）吸收光子的能量为hν1－hν2\n（D）辐射光子的能量为hν1－hν2\n答案：D\n解析：由题意可能级k 处于较高激发态，能级m 处于较低激发态，而能级n 处于最低能量状\n态。所以从能级k 跃迁到能级m 时候辐射出光子，能量为hv2 – hv1",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "氢原子从能级m 跃迁到能级n 时辐射红光的频率为ν1，从能级n 跃迁到能级k 时吸收紫光\n的频率为ν2，已知普朗克常量为h，若氢原子从能级k 跃迁到能级m，则（    ）\n（A）吸收光子的能量为hν1＋hν2\n（B）辐射光子的能量为hν1＋hν2\n（C）吸收光子的能量为hν1－hν2\n（D）辐射光子的能量为hν1－hν2",
+      "answer": "D",
+      "analysis": "由题意可能级k 处于较高激发态，能级m 处于较低激发态，而能级n 处于最低能量状\n态。所以从能级k 跃迁到能级m 时候辐射出光子，能量为hv2 – hv1",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -148,22 +185,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q07",
-      "content": "如图是“神舟”系列航天飞船返回舱返回地面的示意图，假定其\n过程可简化为：打开降落伞一段时间后，整个装置匀速下降，为确保\n安全着陆，需点燃返回舱的缓冲火箭，在火箭喷气过程中返回舱做减\n速直线运动，则（   ）\n（A）火箭开始喷气瞬间伞绳对返回舱的拉力变小\n（B）返回舱在喷气过程中减速的主要原因是空气阻力\n（C）返回舱在喷气过程中所受合外力可能做正功\n（D）返回舱在喷气过程中处于失重状态\n解析：减速的主要原因是喷出气体，得到反冲作用力，而非空气阻力，B 错误；由动能定理合\n力做负功，动能减少，减速下降，C 错误；由于减速下降，所以整个舱属于超重状态，D 错误；\n原来处于平衡状态的返回舱，受到气体向上的反作用力后，绳对返回舱的拉力变小，A 正确。",
+      "content": "如图是“神舟”系列航天飞船返回舱返回地面的示意图，假定其\n过程可简化为：打开降落伞一段时间后，整个装置匀速下降，为确保\n安全着陆，需点燃返回舱的缓冲火箭，在火箭喷气过程中返回舱做减\n速直线运动，则（   ）\n（A）火箭开始喷气瞬间伞绳对返回舱的拉力变小\n（B）返回舱在喷气过程中减速的主要原因是空气阻力\n（C）返回舱在喷气过程中所受合外力可能做正功\n（D）返回舱在喷气过程中处于失重状态",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "减速的主要原因是喷出气体，得到反冲作用力，而非空气阻力，B 错误；由动能定理合\n力做负功，动能减少，减速下降，C 错误；由于减速下降，所以整个舱属于超重状态，D 错误；\n原来处于平衡状态的返回舱，受到气体向上的反作用力后，绳对返回舱的拉力变小，A 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -171,22 +212,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q08",
-      "content": "如图所示，在匀强磁场中匀速转动的矩形线圈的周期为T，转轴\nO1O2 垂直于磁场方向，线圈电阻为2Ω。从线圈平面与磁场方向平行\n时开始计时，线圈转过60°时的感应电流为1A。那么（    ）\n（A）线圈消耗的电功率为4W\n（B）线圈中感应电流的有效值为2A\n（C）任意时刻线圈中的感应电动势为e＝4cos2π\nT t\n（D）任意时刻穿过线圈的磁通量为Φ＝T\nπsin2π\nT t\nB\nO1\nO2\n降落伞\n返回舱\n缓冲火箭\n3 / 6\n解析：从图示位置开始计时时，电动势瞬时值满足e＝NBSωcos＝NBScost，由题意知道，\n转过60°时的电动势为2V，所以电动势最大值为4V，C 选项正确；电流最大值为2A，所以有\n效值为2A，B 错误；P＝I2R＝4W，A 选项正确；e＝NBScos，知道2＝BS2\nT cos60＝\nTΦmax，\n所以任意时刻的磁通量Φ＝T\nπsin2π\nT t，A、C 正确。",
+      "content": "如图所示，在匀强磁场中匀速转动的矩形线圈的周期为T，转轴\nO1O2 垂直于磁场方向，线圈电阻为2Ω。从线圈平面与磁场方向平行\n时开始计时，线圈转过60°时的感应电流为1A。那么（    ）\n（A）线圈消耗的电功率为4W\n（B）线圈中感应电流的有效值为2A\n（C）任意时刻线圈中的感应电动势为e＝4cos2π\nT t\n（D）任意时刻穿过线圈的磁通量为Φ＝T\nπsin2π\nT t\nB\nO1\nO2\n降落伞\n返回舱\n缓冲火箭\n3 / 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "从图示位置开始计时时，电动势瞬时值满足e＝NBSωcos＝NBScost，由题意知道，\n转过60°时的电动势为2V，所以电动势最大值为4V，C 选项正确；电流最大值为2A，所以有\n效值为2A，B 错误；P＝I2R＝4W，A 选项正确；e＝NBScos，知道2＝BS2\nT cos60＝\nTΦmax，\n所以任意时刻的磁通量Φ＝T\nπsin2π\nT t，A、C 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -194,22 +243,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q09",
-      "content": "质量为m 的带正电小球由空中A 点无初速度自由下落，在t 秒末加上竖直向上、范围足够\n大的匀强电场，再经过t 秒小球又回到A 点，不计空气阻力且小球从末落地，则（   ）\n（A）整个过程中小球电势能变换了3\n2mg2t2\n（B）整个过程中小球动量增量的大小为2mgt\n（C）从加电场开始到小球运动到最低点时小球动能变化了mg2t2\n（D）从A 点到最低点小球重力势能变化了2\n3mg2t2\n答案：BD\n解析：由平均速度关系可知，设下落t 秒时的速度为v，再次回到A 点时的速度大小为vx，则\n满足\n(\n)\n2\n2\nxv\nv\nv t\nt\n+ −\n=\n，即第二次回到A 点时的速度大小为下落t 秒时的2 倍，上升加速度为\n自由落体加速度的3 倍，电场力为重力的4 倍，由动量定理：4mgt－2mgt＝P，B 正确；电场\n力做功对应电势能变化W＝Fh＝4mg1\n2gt2＝2mg2t2，A 错误；最低点时小球速度为零，所以加\n电场开始到最低点时，动能变化了Ek＝mg1\n2gt2＝1\n2mg2t2，C 错误；减速时加速度为自由下落时\n的3 倍，所以时间为自由下落的三分之一，总位移为h＝1\n2gt2＋1\n23g（1\n3t）2＝2\n3gt2，所以重力势\n能的变化EP＝2\n3mg2t2，D 正确。\n第二部分 （非选择题 共174 分）\n注意事项：\n1.必须使用0.5 毫米黑色墨迹签字笔在答题卡上题目所指示的答题区域内作答。作图题可先用\n铅笔绘出，确认后再用.5 毫米黑色墨迹签字笔描清楚。答在试卷上无效。\n2.本部分共13 题，共174 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "质量为m 的带正电小球由空中A 点无初速度自由下落，在t 秒末加上竖直向上、范围足够\n大的匀强电场，再经过t 秒小球又回到A 点，不计空气阻力且小球从末落地，则（   ）\n（A）整个过程中小球电势能变换了3\n2mg2t2\n（B）整个过程中小球动量增量的大小为2mgt\n（C）从加电场开始到小球运动到最低点时小球动能变化了mg2t2\n（D）从A 点到最低点小球重力势能变化了2\n3mg2t2",
+      "answer": "BD",
+      "analysis": "由平均速度关系可知，设下落t 秒时的速度为v，再次回到A 点时的速度大小为vx，则\n满足\n(\n)\n2\n2\nxv\nv\nv t\nt\n+ −\n=\n，即第二次回到A 点时的速度大小为下落t 秒时的2 倍，上升加速度为\n自由落体加速度的3 倍，电场力为重力的4 倍，由动量定理：4mgt－2mgt＝P，B 正确；电场\n力做功对应电势能变化W＝Fh＝4mg1\n2gt2＝2mg2t2，A 错误；最低点时小球速度为零，所以加\n电场开始到最低点时，动能变化了Ek＝mg1\n2gt2＝1\n2mg2t2，C 错误；减速时加速度为自由下落时\n的3 倍，所以时间为自由下落的三分之一，总位移为h＝1\n2gt2＋1\n23g（1\n3t）2＝2\n3gt2，所以重力势\n能的变化EP＝2\n3mg2t2，D 正确。\n第二部分 （非选择题 共174 分）\n注意事项：\n1.必须使用0.5 毫米黑色墨迹签字笔在答题卡上题目所指示的答题区域内作答。作图题可先用\n铅笔绘出，确认后再用.5 毫米黑色墨迹签字笔描清楚。答在试卷上无效。\n2.本部分共13 题，共174 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -217,22 +274,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q10",
-      "content": "（17 分）\n（1）（7 分）某研究性学习小组进行了如下实验：如\n图所示，在一端封闭的光滑细玻璃管中注满清水，水\n中放一个红蜡做成的小圆柱体R。将玻璃管的开口端\n用胶塞塞紧后竖直倒置且与y 轴重合，在R 从坐标原\n点以速度v0＝3cm/s 匀速上浮的同时，玻璃管沿x 轴\n正方向做初速为零的匀加速直线运动。同学们测出某\n时刻R 的坐标为（4，6），此时R 的速度大小为\n________cm/s，R 在上升过程中运动轨迹的示意图是\n________。（R 视为质点）\nx/cm\ny/cm\nR\nO\nv0\n4 / 6\n解析：运动时间t＝2s，所以水平方向平均速度为v－＝2cm/s，瞬时速度为v＝4cm/s，由速度合\n成知此刻R 的速度大小为5cm/s，由曲线运动条件知道D 正确。\n（2）（10 分）为测量一电源的电动势及内阻\n①在下列三个电压表中选一个改装成量程为9V 的电压表：\n（A）量程为1V、内阻大约为1kΩ 的电压表V1\n（B）量程为2V、内阻大约为2kΩ 的电压表V2\n（C）量程为3V、内阻大约为3kΩ 的电压表V3\n选择电压表________串联________kΩ 的电阻可以改转成量程为9V 的电压表。\n②利用一个电阻箱、一只开关、若开关导线和改装好的电压表（此表用符号V1、V2 或V3 与一\n个电阻串联来表示，且可视为理想电压表），在虚线框内画出测量电源电动势及内阻的试验原理\n示图。\n③根据以上试验原理电路图进行实验读出电压表示数为1.50V 时、电阻箱值为15.0Ω；电压表\n示数为2.00V 时、电阻箱的阻值为40.0Ω，则电源的电动势E＝_____V、内阻r＝_______Ω。\n解析：①由后面第三问可知电压表读数会超过2V，所以选电压表V3 串联一个6kΩ 的电阻即可\n改成量程为9V 的电压表。\n②如图所示\n③由电路图知道电压表读数1.5V 时候，路端电压为3.5V，读数为2V 时，路端电压为6V，由\nE＝U＋Ir 代入数据得到E＝7.5V，r＝10，",
+      "content": "（17 分）\n（1）（7 分）某研究性学习小组进行了如下实验：如\n图所示，在一端封闭的光滑细玻璃管中注满清水，水\n中放一个红蜡做成的小圆柱体R。将玻璃管的开口端\n用胶塞塞紧后竖直倒置且与y 轴重合，在R 从坐标原\n点以速度v0＝3cm/s 匀速上浮的同时，玻璃管沿x 轴\n正方向做初速为零的匀加速直线运动。同学们测出某\n时刻R 的坐标为（4，6），此时R 的速度大小为\n________cm/s，R 在上升过程中运动轨迹的示意图是\n________。（R 视为质点）\nx/cm\ny/cm\nR\nO\nv0\n4 / 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "运动时间t＝2s，所以水平方向平均速度为v－＝2cm/s，瞬时速度为v＝4cm/s，由速度合\n成知此刻R 的速度大小为5cm/s，由曲线运动条件知道D 正确。\n（2）（10 分）为测量一电源的电动势及内阻\n①在下列三个电压表中选一个改装成量程为9V 的电压表：\n（A）量程为1V、内阻大约为1kΩ 的电压表V1\n（B）量程为2V、内阻大约为2kΩ 的电压表V2\n（C）量程为3V、内阻大约为3kΩ 的电压表V3\n选择电压表________串联________kΩ 的电阻可以改转成量程为9V 的电压表。\n②利用一个电阻箱、一只开关、若开关导线和改装好的电压表（此表用符号V1、V2 或V3 与一\n个电阻串联来表示，且可视为理想电压表），在虚线框内画出测量电源电动势及内阻的试验原理\n示图。\n③根据以上试验原理电路图进行实验读出电压表示数为1.50V 时、电阻箱值为15.0Ω；电压表\n示数为2.00V 时、电阻箱的阻值为40.0Ω，则电源的电动势E＝_____V、内阻r＝_______Ω。\n①由后面第三问可知电压表读数会超过2V，所以选电压表V3 串联一个6kΩ 的电阻即可\n改成量程为9V 的电压表。\n②如图所示\n③由电路图知道电压表读数1.5V 时候，路端电压为3.5V，读数为2V 时，路端电压为6V，由\nE＝U＋Ir 代入数据得到E＝7.5V，r＝10，",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -240,22 +301,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p004-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q11",
-      "content": "（16 分）\n随着机动车数量的增加，交通安全问题日益凸显。分析交通违法事例，将警示我们遵守交通法\n规，珍惜生命。一货车严重超载后的总质量为49t，以54km/h 的速率匀速行驶。发现红灯时司\n机刹车，货车即做匀减速直线运动，加速度的大小为2.5m/s2（不超载时则为5m/s2）。\n（1）若前方无阻挡，问从刹车到停下来此货车在超载及不超载时分别前进多远？\ny\nx\nO\ny\nx\nO\ny\nx\nO\ny\nx\nO\n（A）             （B）            （C）            （D）\nV3\n5 / 6\n（2）若超载货车刹车时正前方25m 处停着质量为1t 的轿车，两车将发生碰撞，设相互作用0.1s\n后获得相同速度，问货车对轿车的平均冲力多大？\n解析：\n（1）设货车刹车时速度大小为v0、加速度大小为a、末速度为vt、刹车距离为s，s＝v02－vt2\n2a\n，\n代入数据，得超载时s1＝45m，若不超载s2＝22.5m，\n     （2）设货车刹车后经s/＝25m 与轿车碰撞时的初速度大小为v1，v1＝v02－2as/，设碰撞\n后两车共同速度为v2、货车质量为M、轿车质量为m，由动量守恒定律Mv1＝（M＋m）v2，设\n货车对轿车的作用时间为Δt、平均冲力大小为F－，由动量定理F－Δt＝mv2，代入数据得F－＝\n9.8104N，",
+      "content": "（16 分）\n随着机动车数量的增加，交通安全问题日益凸显。分析交通违法事例，将警示我们遵守交通法\n规，珍惜生命。一货车严重超载后的总质量为49t，以54km/h 的速率匀速行驶。发现红灯时司\n机刹车，货车即做匀减速直线运动，加速度的大小为2.5m/s2（不超载时则为5m/s2）。\n（1）若前方无阻挡，问从刹车到停下来此货车在超载及不超载时分别前进多远？\ny\nx\nO\ny\nx\nO\ny\nx\nO\ny\nx\nO\n（A）             （B）            （C）            （D）\nV3\n5 / 6\n（2）若超载货车刹车时正前方25m 处停着质量为1t 的轿车，两车将发生碰撞，设相互作用0.1s\n后获得相同速度，问货车对轿车的平均冲力多大？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设货车刹车时速度大小为v0、加速度大小为a、末速度为vt、刹车距离为s，s＝v02－vt2\n2a\n，\n代入数据，得超载时s1＝45m，若不超载s2＝22.5m，\n     （2）设货车刹车后经s/＝25m 与轿车碰撞时的初速度大小为v1，v1＝v02－2as/，设碰撞\n后两车共同速度为v2、货车质量为M、轿车质量为m，由动量守恒定律Mv1＝（M＋m）v2，设\n货车对轿车的作用时间为Δt、平均冲力大小为F－，由动量定理F－Δt＝mv2，代入数据得F－＝\n9.8104N，",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -263,22 +337,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q12",
-      "content": "（19 分）\n如图所示，间距l＝0.3m 的平行金属导轨a1b1c1 和\na2b2c2分别固定在两个竖直面内，在水平面a1b1b2a2\n区域内和倾角θ＝37的斜面c1b1b2c2 区域内分别\n有磁感应强度B1＝0.4T、方向竖直向上和B2＝1T、\n方向垂直于斜面向上的匀强磁场。电阻R＝0.3Ω、\n质量m1＝0.1kg、长为l 的相同导体杆K、S、Q 分\n别放置在导轨上，S 杆的两端固定在b1、b2 点，K、\nQ 杆可沿导轨无摩擦滑动且始终接触良好。一端\n系于K 杆中点的轻绳平行于导轨绕过轻质滑轮自\n然下垂，绳上穿有质量m2＝0.05kg 的小环。已知小环以a＝6m/s2 的加速度沿绳下滑，K 杆保\n持静止，Q 杆在垂直于杆且沿斜面向下的拉力F 作用下匀速运动。不计导轨电阻和滑轮摩擦，\n绳不可伸长。取g＝10m/s2，sin37＝0.6，cos37＝0.8。求：\n（1）小环所受摩擦力的大小；\n（2）Q 杆所受拉力的瞬时功率。\n解析：（1）设小环受到的摩擦力大小为Ff，由牛顿第二定律，有m2g－Ff＝m2a，代入数据，得\nFf＝0.2N。\n（2）设通过K 杆的电流为I1，K 杆受力平衡，有Ff＝B1I1l，设回路总电流为I，总电阻为R 总，\n有\nI＝2I1，R 总＝3\n2R，\n设Q 杆下滑速度大小为v，产生的感应电动势为E，有\nI＝E\nR总，E＝B2lv，F＋m1gsin＝B2Il，拉力的瞬时功率为P＝Fv，联立以上方程得到P＝2W，",
+      "content": "（19 分）\n如图所示，间距l＝0.3m 的平行金属导轨a1b1c1 和\na2b2c2分别固定在两个竖直面内，在水平面a1b1b2a2\n区域内和倾角θ＝37的斜面c1b1b2c2 区域内分别\n有磁感应强度B1＝0.4T、方向竖直向上和B2＝1T、\n方向垂直于斜面向上的匀强磁场。电阻R＝0.3Ω、\n质量m1＝0.1kg、长为l 的相同导体杆K、S、Q 分\n别放置在导轨上，S 杆的两端固定在b1、b2 点，K、\nQ 杆可沿导轨无摩擦滑动且始终接触良好。一端\n系于K 杆中点的轻绳平行于导轨绕过轻质滑轮自\n然下垂，绳上穿有质量m2＝0.05kg 的小环。已知小环以a＝6m/s2 的加速度沿绳下滑，K 杆保\n持静止，Q 杆在垂直于杆且沿斜面向下的拉力F 作用下匀速运动。不计导轨电阻和滑轮摩擦，\n绳不可伸长。取g＝10m/s2，sin37＝0.6，cos37＝0.8。求：\n（1）小环所受摩擦力的大小；\n（2）Q 杆所受拉力的瞬时功率。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设小环受到的摩擦力大小为Ff，由牛顿第二定律，有m2g－Ff＝m2a，代入数据，得\nFf＝0.2N。\n（2）设通过K 杆的电流为I1，K 杆受力平衡，有Ff＝B1I1l，设回路总电流为I，总电阻为R 总，\n有\nI＝2I1，R 总＝3\n2R，\n设Q 杆下滑速度大小为v，产生的感应电动势为E，有\nI＝E\nR总，E＝B2lv，F＋m1gsin＝B2Il，拉力的瞬时功率为P＝Fv，联立以上方程得到P＝2W，",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -286,22 +364,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q012-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011四川理综.pdf#q13",
-      "content": "（20 分）\n如图所示：正方形绝缘光滑水平台面WXYZ 边长l＝1.8m，\n距地面h＝0.8m。平行板电容器的极板CD 间距d＝0.1m\n且垂直放置于台面，C 板位于边界WX 上，D 板与边界\nWZ 相交处有一小孔。电容器外的台面区域内有磁感应强\n度B＝1T、方向竖直向上的匀强磁场。电荷量q＝5×10-\n13C 的微粒静止于W 处，在CD 间加上恒定电压U＝2.5V，\n板间微粒经电场加速后由D 板所开小孔进入磁场（微粒\n始终不与极板接触），然后由XY 边界离开台面。在微粒\na1\nb1\nc1\na2\nb2\nc2\nK\nS\nQ\nF\nB1\nB2\nθ\nC\nD\nW\nZ\nY\nX\nl\nh\nB\nA\nd\n6 / 6\n离开台面瞬时，静止于X 正下方水平地面上A 点的滑块获得一水平速度，在微粒落地时恰好\n与之相遇。假定微粒在真空中运动、极板间电场视为匀强电场，滑块视为质点，滑块与地面间\n的动摩擦因数μ＝0.2，取g＝10m/s2。\n（1）求微粒在极板间所受电场力的大小并说明两板的极性；\n（2）求由XY 边界离开台面的微粒的质量范围；\n（3）若微粒质量m0＝1×10-13kg，求滑块开始运动时所获得的速度。\n解析：（1）微粒在极板间所受电场力大小为F＝qU\nd ，代入数\n据F＝1.25×10-11N，由微粒在磁场中的运动可判断微粒带正\n电荷，微粒由极板间电场加速，故C 板为正极，D 板为负\n极。\n（2）若粒子的质量为m，刚进入磁场时的速度大小为v，由\n动能定理qU＝1\n2mv2，微粒在磁场中做匀速圆周运动，洛伦\n磁力充当向心力，若圆周运动半径为R，有qvB＝mv2\nR，微粒\n要从XY 边界离开台面，则圆周运动的边缘轨迹如图所示，\n半径的极小值与极大值为R1＝l\n2，R2＝l－d，代入数据，有\n8.1×10-14kg＜m≤2.89×10-13kg，\n（3）如图，微粒在台面以速度为v 做以O 点位圆心，R 为\n半径的圆周运动；从台面边缘P 点沿与XY 边界成θ 角飞出\n做平抛运动，落地点Q 点，水平位移s，下落时间t。设滑\n块质量为M，滑块获得的速度v0 后在t 内与平台前侧面成φ\n角度方向，以加速度a 做匀减速直线运动到Q，经过位移为\nk，。由几何关系，可得cos＝l－R\nR ，根据平抛运动，t＝\n2h\ng ，\ns＝vt，对于滑块，由牛顿定律及运动学方程，有μMg＝Ma，\nk＝v0t－1\n2at2，再有余弦定理，k2＝s2＋（d＋Rsinθ）2－2s（d\n＋Rsinθ）cosθ，及正弦定理，  sin\ns ＝sinθ\nk ，联立，代入数\n据，解得：v0＝4.15m/s，φ＝arcsin0.8（或φ＝53），\nW\nZ\nB\nX\nY\nd\nO1\nO2\nR1\nR2\nD\nQ\ns\nA\nX\nY\nZ\nW\nd\nB\nh\nθ\nφ\nθ R\nP\nk\nθ\nO\nO1\nO2\nr1\nr2\nD\nS",
+      "content": "（20 分）\n如图所示：正方形绝缘光滑水平台面WXYZ 边长l＝1.8m，\n距地面h＝0.8m。平行板电容器的极板CD 间距d＝0.1m\n且垂直放置于台面，C 板位于边界WX 上，D 板与边界\nWZ 相交处有一小孔。电容器外的台面区域内有磁感应强\n度B＝1T、方向竖直向上的匀强磁场。电荷量q＝5×10-\n13C 的微粒静止于W 处，在CD 间加上恒定电压U＝2.5V，\n板间微粒经电场加速后由D 板所开小孔进入磁场（微粒\n始终不与极板接触），然后由XY 边界离开台面。在微粒\na1\nb1\nc1\na2\nb2\nc2\nK\nS\nQ\nF\nB1\nB2\nθ\nC\nD\nW\nZ\nY\nX\nl\nh\nB\nA\nd\n6 / 6\n离开台面瞬时，静止于X 正下方水平地面上A 点的滑块获得一水平速度，在微粒落地时恰好\n与之相遇。假定微粒在真空中运动、极板间电场视为匀强电场，滑块视为质点，滑块与地面间\n的动摩擦因数μ＝0.2，取g＝10m/s2。\n（1）求微粒在极板间所受电场力的大小并说明两板的极性；\n（2）求由XY 边界离开台面的微粒的质量范围；\n（3）若微粒质量m0＝1×10-13kg，求滑块开始运动时所获得的速度。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）微粒在极板间所受电场力大小为F＝qU\nd ，代入数\n据F＝1.25×10-11N，由微粒在磁场中的运动可判断微粒带正\n电荷，微粒由极板间电场加速，故C 板为正极，D 板为负\n极。\n（2）若粒子的质量为m，刚进入磁场时的速度大小为v，由\n动能定理qU＝1\n2mv2，微粒在磁场中做匀速圆周运动，洛伦\n磁力充当向心力，若圆周运动半径为R，有qvB＝mv2\nR，微粒\n要从XY 边界离开台面，则圆周运动的边缘轨迹如图所示，\n半径的极小值与极大值为R1＝l\n2，R2＝l－d，代入数据，有\n8.1×10-14kg＜m≤2.89×10-13kg，\n（3）如图，微粒在台面以速度为v 做以O 点位圆心，R 为\n半径的圆周运动；从台面边缘P 点沿与XY 边界成θ 角飞出\n做平抛运动，落地点Q 点，水平位移s，下落时间t。设滑\n块质量为M，滑块获得的速度v0 后在t 内与平台前侧面成φ\n角度方向，以加速度a 做匀减速直线运动到Q，经过位移为\nk，。由几何关系，可得cos＝l－R\nR ，根据平抛运动，t＝\n2h\ng ，\ns＝vt，对于滑块，由牛顿定律及运动学方程，有μMg＝Ma，\nk＝v0t－1\n2at2，再有余弦定理，k2＝s2＋（d＋Rsinθ）2－2s（d\n＋Rsinθ）cosθ，及正弦定理，  sin\ns ＝sinθ\nk ，联立，代入数\n据，解得：v0＝4.15m/s，φ＝arcsin0.8（或φ＝53），\nW\nZ\nB\nX\nY\nd\nO1\nO2\nR1\nR2\nD\nQ\ns\nA\nX\nY\nZ\nW\nd\nB\nh\nθ\nφ\nθ R\nP\nk\nθ\nO\nO1\nO2\nr1\nr2\nD\nS",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -309,11 +395,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011四川理综.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q013-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q013-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q013-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5b3ea1cb72394fba-q013-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 13,
+    "answerGraphics": 0,
+    "assigned": 13,
+    "rendered": 13,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014福建理综.pdf",
   "name": "2014福建理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 10,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014福建理综.pdf#q01",
       "content": "如图，一束光由空气射向半圆柱体玻璃砖，O 点为该玻璃砖截面的圆心，下图能正确描述其光路图的\n是（      ）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "当光由光疏介质射入光密介质，在界面同时发生反射和折射，且入射角大于折射角，B、D 项错\n误，当光由光密介质射入光疏介质时，如果入射角大于临界角就会发生全反射，如 A 选项所示，A 项正\n确；如果入射角小于临界角，同时发生反射和折射，且入射角小于折射角，C 项错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,11 +44,319 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q001-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q001-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q001-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q02",
+      "content": "若有一颗“宜居”行星，其质量为地球的p 倍，半径为地球的q 倍，则该行星卫星的环绕速度是地球\n卫星环绕速度的（    ）\n（A）pq 倍\n（B）\nq\np 倍\n（C）\np\nq 倍\n（D）pq3 倍",
+      "answer": "暂无结构化答案",
+      "analysis": "第一宇宙速度又叫环绕速度，即绕星球表面飞行的卫星的速度根据万有引力提供向心力\n2\n2\nGMm\nmv\nR\nR\n=\n，解得\nGM\nv\nR\n=\n，所以\nMR\nv\np\nv\nM\nR\nq\n地\n地\n地\n=\n=\n，C 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q03",
+      "content": "如右图，滑块以初速度v0 沿表面粗糙且足够长的固定斜面，从顶端下滑，直\n至速度为零。对于该运动过程，若用 h、s、v、a 分别表示滑块的下降高度、位移、\n速度和加速度的大小，t 表示时间，则下列图像最能正确描述这一运动规律的是\n（     ）",
+      "answer": "暂无结构化答案",
+      "analysis": "滑块沿斜面做匀减速直线运动，速度随时间均匀减小，加速度恒定，C、D 项错误；位移时间图像\n中斜率代表速度，A 项中斜率表示竖直方向的分速度在增加，A 项错误，B 项斜率表示合速度在减小，B\n项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q04",
+      "content": "图为模拟远距离输电实验电路图，两理想变压器的匝数 n1 = n4＜n2 = n3，四根模拟输电线的电阻 R1、\nR2、R3、R4 的阻值均为 R，A1、A2 为相同的理想交流电流表，L1、L2 为相同的小灯泡，灯丝电阻 RL >\nA\nB\nC\nD\nO\nh\nt\nA\nO\ns\nt\nB\nO\nv\nt\nC\nv0\nO\na\nt\nD\nv0\n2 / 7\n2R，忽略灯丝电阻随温度的变化，当 A、B 端接入低压交流电源时\n（    ）\n（A）A1、A2 两表的示数相同\n（B）L1、L2 两灯泡的亮度相同\n（C）R1 消耗的功率大于 R3 消耗的功率\n（D）R2 两端的电压小于 R4 两端的电压",
+      "answer": "暂无结构化答案",
+      "analysis": "由于n1<n2，所以左边的理想变压器为升压变压器，低压交流电源经过理想升压变压器后，由于功\n率不变，所以电流变小，则A1 表的示数小于A2 表的示数， 选项A 错误；由U1\nU2 = n1\nn2，U3 = U2－IA1·2R 及\nU3\nU4 = n3\nn4可知，L1 两端的电压UL1 = U4 = U1－n4\nn3·IA1·2R，又L2 两端的电压UL2 = U1－IA2·2R，因 n4\nn3IA1<IA2，\n故UL1>UL2，由P = U2\nR 可知，L1 的功率大于L2 的功率，所以L1 的亮度大于L2， 选项B 错误；由于A1 表\n的示数小于A2 表的示数，由P = I2R 可知，R1 消耗的功率小于R3 消耗的功率， 选项C 错误；由于A1 表\n的示数小于A2 表的示数，由U = IR 可知，R2 两端的电压小于R4 两端的电压，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q05",
+      "content": "在均匀介质中，一列沿x 轴正向传播的横波，其波源 O 在第一个周期内的振动\n图像如右图所示，则该波在第一个周期末的波形图是（    ）",
+      "answer": "暂无结构化答案",
+      "analysis": "根据振动图像可知波源起振方向向下，则每一个点起振时方向均向下，当经历一个周期时，波源\n仍处于平衡位置且向下振动。由波动图象可知，沿着波的传播方向看：“上坡下，下坡上”所以第一个周期\n末时波源处于上坡，波源完全重复上一个周期的运动，D 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q06",
+      "content": "如图，两根相同的轻质弹簧，沿足够长的光滑斜面放置，下端固定在斜面底部挡\n板上，斜面固定不动。质量不同、形状相同的两物块分别置于两弹簧上端。现用外力\n作用在物块上，使两弹簧具有相同的压缩量，若撤去外力后，两物块由静止沿斜面向\n上弹出并离开弹簧，则从撤去外力到物块速度第一次减为零的过程，两物块（     ）\n（A）最大速度相同\n（B）最大加速度相同\n（C）上升的最大高度不同\n（D）重力势能的变化量不同",
+      "answer": "暂无结构化答案",
+      "analysis": "撤去外力后，两物块受到重力、弹力和支持力作用，在斜面上做往复运动，当弹簧弹力等于重力\n沿斜面向下的分力时，速度最大，根据牛顿第二定律和动能定理，有：\nsin\nmg\nk x\n= ，\n2\nmax\n1\n= 2\nW\nmv\n合\n，\n质量较小的物块平衡位置较高，合力做功较大，物块的最大速度较大，A 项错误；初位置时物块具有的加\n速度最大，由于弹簧的压缩量一定，所以最大弹力相同，根据牛顿第二定律有：\nsin\nk x\nmg\nma\n\n\n=\n－\n得\n=\nsin\nk x\na\ng\nm\n\n－\n，由于质量不同，所以最大加速度也不同，B 项错误；由于弹簧相同，两个物块的质量\n不同，所以速度最大时的位置不同，C 项正确；速度为零时，物块的动能也为零，减少的弹性势能全部转\n化为物块的重力势能，D 项错误。\nO\ny\nt\nA\nO\ny\nt\nB\nO\ny\nt\nC\nO\ny\nt\nD\nO\ny\nt\n3 / 7\n第Ⅱ卷（非选择题 共192 分）\n必考部分\n第Ⅱ卷必考部分共10 题，共157 分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q07",
+      "content": "（18 分）\n（1）（6 分）某同学测定一金属杆的长度和直径，示数如图甲、乙所示，则该金属杆的长度和直径分别为\n________cm 和________mm。",
+      "answer": "暂无结构化答案",
+      "analysis": "刻度尺的最小刻度为1mm，所以读数时需要估读，根据图甲可知，金属杆的长度为：60.10mm；\n游标卡尺是不需要估读的，此卡尺为分度值是0.02mm，所以金属杆的直径为4mm＋10×0.02mm = 4.20mm．\n（2）\n（12 分）某研究性学习小组利用伏安法测定某一电池组的电动势和内阻，实验原理如图甲所示，其中，\n虚线框内为用灵敏电流计 G 改装的电流表 A，V 为标准电压表，E 为待测电池组，S 为开关，R 为滑动\n变阻器，R0 是标称值为 4.0 Ω 的定值电阻。\n①已知灵敏电流计 G 的满偏电流 Ig = 100 μA、内阻 rg = 2.0 kΩ，若要改装后的电流表满偏电流为 200\nmA，应并联一只________Ω（保留一位小数）的定值电阻 R1；\n②根据图甲，用笔画线代替导线将图乙连接成完整电路；\n③某次试验的数据如下表所示：\n测量次数\n1\n2\n3\n4\n5\n6\n7\n8\n电压表V 读数U/V\n5.26\n5.16\n5.04\n4.94\n4.83\n4.71\n4.59\n4.46\n改装表A 读数I/mA\n20\n40\n60\n80\n100\n120\n140\n160\n该小组借鉴“研究匀变速直线运动”试验中计算加速度的方法（逐差法），计算出电池组的内阻r = ___Ω\n（保留两位小数）；为减小偶然误差，逐差法在数据处理方面体现出的主要优点是\n__________________________________________________________。\n④该小组在前面实验的基础上，为探究图甲电路中各元器件的实际阻值对测量结果的影响，用一已知电动\n势和内阻的标准电池组通过上述方法多次测量后发现：电动势的测量值与已知值几乎相同，但内阻的测量\n值总是偏大。若测量过程无误，则内阻测量值总是偏大的原因是________。（填选项前的字母）\n（A）电压表内阻的影响\n（B）滑动变阻器的最大阻值偏小\n（C）R1 的识记阻值比计算值偏小\n（D）R0 的识记阻值比标称值偏大\n4 / 7\n（1）改装电流表扩大量程\ng\ng\nI r\nI\nI\nR\n=\n+\ng\ng\nI r\nR\nI\nI\n－\n=\n = 1.0Ω\n（2）对照电路图，逐个回路连接即可，如图所示\n（3）\n5\n1\n6\n2\n7\n3\n8\n4\n5\n1\n6\n2\n7\n3\n8\n4\n4\nU\nU\nU\nU\nU\nU\nU\nU\nI\nI\nI\nI\nI\nI\nI\nI\nr\n－\n－\n－\n－\n-\n-\n-\n-\n+\n+\n+\n=\n = 1.66 Ω\n这样做的优点可以利用每一组数据\n（4）电压表的读数等于路端电压，所以电压表内阻对测量结果没有影响，选项A 错误；滑动变阻器用来\n改变路端电压，对测量结果没有影响，选项B 错误；若R1 的实际阻值偏小，则电流表的实际量程偏大，电\n流表的读数比实际值偏小，电池组的内阻测量值偏大，选项C 正确；R0 的实际阻值偏大时，电池组的实际\n内阻比测量值偏小，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q007-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q007-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q007-p004-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q08",
+      "content": "（15 分）\n如图，真空中 xOy 平面直角坐标系上的 ABC 三点构成等边三角形，边长 L\n= 2.0 m。若将电荷量均为 q = + 2.0×10−6 C 的两点电荷分别固定在 A、B 点，\n已知静电力常量 k = 9.0×109 N·m2/C2。求：\n（1）两点电荷间的库仑力大小；\n（2）C 点的电场强度的大小和方向。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据库仑定律 A、B 两点电荷间的库仑力的大小为\n2\n2\nq\nF\nk\nL\n=\n代入数据得 F = 9.0×10−3 N\n（2）A、B 两点电荷在 C 点产生的场强大小相等，均为\n1\n2\nq\nE\nk\nL\n=\nA、B 两点电荷形成的电场在 Ｃ 点的合场强大小为\n0\n1\n2E cos30\nE\n=\n合\n代入数据得 E 合 = 7.8×103 N/C       方向沿y 轴正方向",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q09",
+      "content": "（19 分）\n5 / 7\n图为某游乐场内水上滑梯轨道示意图，整个轨道在同一竖直\n平面内，表面粗糙的 AB 段与四分之一光滑圆弧轨道 BC\n在 B 点水平相切。点 A 距水面的高度为 H，圆弧轨道 BC\n的半径为 R，圆心 O 恰在水面。一质量为 m 的游客（视为\n质点）可从轨道 AB 的任意位置滑下，不计空气阻力。\n（1）若游客从 A 点由静止开始滑下，到 B 点时沿切线方\n向滑离轨道落在水面 D 点，OD = 2R，求游客滑到 B 点时\n的速度 vB 大小及运动过程轨道摩擦力对其所做的功 Wf；\n（2）若游客从 AB 段某处滑下，恰好停在 B 点，有因为受到微小扰动，继续沿圆弧轨道滑到 P 点后滑\n离轨道，求 P 点离水面的高度 h。（提示：在圆周运动过程中任一点，质点所受的向心力与其速率的关系\n为 F 向 = mv2\nR ）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）游客从B 点做平抛运动，有\n2\nB\nR\nv t\n=\n2\n1\n2\nR\ngt\n=\n联立解得\n2\nB\nv\ngR\n=\n从Ａ到B，根据动能定理，有\n2\n1\n(\n)\n2\nf\nB\nmg H\nR\nW\nmv\n-\n+\n=\n可得\n(\n2\n)\nf\nW\nmgH\nmgR\n= -\n-\n（２）设OP 与OB 间夹角为，游客在P 点时的速度为\nP\nv ，受到的支持力为N，从B 到P 由机械能守\n恒定律，有\n2\n1\n(\ncos )\n0\n2\nP\nmg R\nR\nmv\n\n-\n=\n-\n过P 点根据向心力公式，有\n2\ncos\nP\nmv\nmg\nN\nR\n-\n=\nN  = 0\ncos\nh\nR\n=\n解得\n2\n3\nR\nh =",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014福建理综.pdf#q10",
+      "content": "（20 分）\n6 / 7\n如图，某一新型发电装置的发电管是横截面为矩形的水平\n管道，管道的长为 L、宽度为 d、高为 h，上下两面是绝\n缘板，前后两侧面 M、N 是电阻可忽略的导体板，两导体\n板与开关 S 和定值电阻 R 相连。整个管道置于磁感应强\n度大小为 B，方向沿 z 轴正方向的匀强磁场中。管道内始\n终充满电阻率为 ρ 的导电液体（有大量的正、负离子），且\n开关闭合前后，液体在管道进、出口两端压强差的作用下，\n均以恒定速率 v0 沿 x 轴正向流动，液体所受的摩擦阻力\n不变。\n（1）求开关闭合前，M、N 两板间的电势差大小 U0；\n（2）求开关闭合前后，管道两端压强差的变化 Δp；\n（3）调整矩形管道的宽和高，但保持其它量和矩形管道的横截面 S = dh 不变，求电阻 R 可获得的最大\n功率 Pm 及相应的宽高比 d/h 的值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设带电粒子所带的电量为 q，当其所受的洛伦兹力与电场力平衡时，U0 保持恒定，有\n0\n0\nU\nqv B\nq d\n=\n得\n0\n0\nU\nBdv\n=\n（2）设开关闭合前后，管道两端压强差分别为 p1、p2，液体所受摩擦阻力均为 f，开关闭合后管道内液体\n受到安培力为 F 安，有\n1p hd\nf\n=\n2\np hd\nf\nF安\n=\n+\nB\nF\nId\n=\n安\n根据欧姆定律，有\n0\nU\nI\nR\nr\n=\n+\n两板间液体的电阻\nd\nr\nLh\n\n=\n联立解得：\n2\n0\nLdv B\np\nLhR\nd\n\n\n=\n+\n（3）电阻 R 获得的功率为\n2\nP\nI R\n=\n2\n0\nLv B\nP\nR\nLR\nd\nh\n\n骣\n÷\nç\n÷\nç\n÷\nç\n÷\nç\n=\n÷\nç\n÷\nç\n÷\n琪\n+\n÷\nç桫\n当d\nLR\nh\n\n=\n时\n电阻R 获得最大功率\n2\n2\n0\n4\nm\nLSv B\nP\n\n=\n7 / 7\n选考部分\n第Ⅱ卷选考部分共5 题，共35 分。其中第29、30 题为物理题\n29．【物理-选修3-3】（本题共有两小题，每小题6 分，共12 分。每小题只有一个选项符合题意）\n（1）如图，横坐标 v 表示分子速率，纵坐标 f（v）表示各等间隔速率区\n间的分子数占总分子数的百分比。图中曲线能正确表示某一温度下气体分\n子麦克斯韦速率分布规律的是________。（填选项前的字母）\n（A）曲线①\n（B）曲线②\n（C）曲线③\n（D）曲线④\n气体分子速率分布是有规律的，速率较大或较小的分子占少数，\n接近平均速率的分子占多数，分子速率不可能为 0，也不可能为无穷大，因此只有曲线④符合要求。D 项\n正确。\n（2）图为一定质量理想气体的压强 p 与体积 V 关系图像，它由状态 A 经等容过程\n到状态 B，再经等压过程到状态 C。设 A、B、C 状态对应的温度分别为 TA、TB、\nTC，则下列关系式中正确的是________。（填选项前的字母）\n（A）TA < TB，TB < TC\n（B）TA > TB，TB = TC\n（C）TA > TB，TB < TC\n（D）TA = TB，TB > TC\n一定质量的理想气体，由状态A 经等容过程到状态B 有pA\nTA = pB\nTB，由于pA>pB，\n所以TA>TB；由状态B 经等压过程到状态C 有VB\nTB = VC\nTC， 由于VB<VC，所以 TB<TC.故 C 项正确．\n30．【物理-选修3-5】（本题共有2 小题，每小题6 分，共12 分。每小题只有一个选项符合题意）\n（1）如图，放射性元素镭衰变过程中释放出 α、β、γ 三种射线，分别进入\n匀强电场和匀强磁场中，下列说法正确的是_______。（填选项前的字母）\n（A）①表示 γ 射线，③表示 α 射线\n（B）②表示 β 射线，③表示 α 射线\n（C）④表示 α 射线，⑤表示 γ 射线\n（D）⑤表示 β 射线，⑥表示 α 射线\nα 射线带正电，β 射线带负电，γ 射线不带电．在匀强电场中，α 射线与 β 射线分别在电场力的\n作用下发生偏转，α 射线偏向负极板，β 射线偏向正极板，γ 射线不受电场力，不发生偏转；在磁场中，\n由左手定则可以判断 α 射线向左偏，β 射线向右偏，γ 射线不受洛伦兹力，不发生偏转。故 C 项正确。\n（2）一枚火箭搭载着卫星以速率 v0 进入太空预定位置，由控制系统使箭\n体与卫星分离。已知前部分的卫星质量为 m1，后部分的箭体质量为 m2，\n分离后箭体以速率 v2 沿火箭原方向飞行，若忽略空气阻力及分离前后系\n统质量的变化，则分离后卫星的速率 v1 为________。（填选项前的字母）\n（A）v0 − v2\n（B）v0 + v2\n（C）v0 − m2\nm1 v2\n（D）v0 + m2\nm1 （v0 − v2）\n忽略空气阻力和分离前后系统质量的变化，卫星和箭体整体分离前后动量守恒，根据动量守恒定\n律则有\n1\n2\n0\n2 2\n1 1\n(\n)\nm\nm v\nm v\nm v\n+\n=\n+\n，解得 v1 = v0 + m2\nm1 （v0 − v2）；D 项正确。\nC\nB\nV\np\nO\nA",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014福建理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q010-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q010-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q010-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c1417e5b84c1333b-q010-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 26,
+    "answerGraphics": 0,
+    "assigned": 26,
+    "rendered": 26,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2008/2008四川延考理.pdf",
   "name": "2008四川延考理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 22,
+    "sourceAnswers": 3,
+    "sourceAnalysis": 19,
+    "reviewCount": 3,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q01",
       "content": "集合\n{ 1,0,1}\nA = −\n，A 的子集中，含有元素0 的子集共有\n（A）2 个            （B）4 个         （C）6 个        （D）8 个",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B\n解：A 的子集共\n3\n2\n8\n=\n个，含有元素0 的和不含元素0 的子集各占一半，有4 个．选B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q02",
       "content": "已知复数\n(3\n)(3\n)\n2\ni\ni\nz\ni\n+\n−\n=\n−\n，则|\n|z =\n（A）\n5\n5\n            （B）2 5\n5\n       （C）5        （D）2 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "D\n解：\n(3\n)(3\n)\n10(2\n)\n2(2\n)\n4\n2\n2\n(2\n)(2\n)\ni\ni\ni\nz\ni\ni\ni\ni\ni\n+\n−\n+\n=\n=\n=\n+\n=\n+\n−\n−\n+\n2\n2\n|\n|\n4\n2\n2 5\nz\n⇒\n=\n+\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q03",
       "content": "4\n1\n(1\n)(1\n)\nx\nx\n+\n+\n的展开式中含\n2x 的项的系数为\n（A）4               （B）6           （C）10          （D）12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "C\n解：\n4\n1\n2\n2\n3\n3\n4\n4\n4\n1\n1\n(1\n)(1\n)\n(1\n)(1\n)\nx\nC x\nC x\nC x\nx\nx\n+\n+\n=\n+\n+\n+\n+\n+\n展开式中含\n2x 项的系数为\n2\n3\n4\n4\n10\nC\nC\n+\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -79,22 +100,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q04",
       "content": "已知\n*\nn\nN\n∈\n，则不等式2\n2\n0.01\n1\nn\nn\n−\n<\n+\n的解集为\n（A）{ |\nn n ≥199，\n*}\nn\nN\n∈\n                （B）{ |\nn n ≥200，\n*}\nn\nN\n∈\n（C）{ |\nn n ≥201，\n*}\nn\nN\n∈\n                （D）{ |\nn n ≥202，\n*}\nn\nN\n∈",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B\n解：\n2\n2\n2\n2\n0.01\n1\n1\n200\nn\nn\nn\n−\n=\n<\n=\n+\n+\n*\n200,\nn\nn\nN\n⇒\n≥\n∈",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -102,22 +127,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q05",
       "content": "已知\n1\ntan\n2\nα =\n，则\n2\n(sin\ncos\n)\ncos2\nα\nα\nα\n+\n=\n（A）2   （B）2\n− （C）3  （D）3\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "C\n解：\n2\n1\n1\n(sin\ncos\n)\nsin\ncos\n1\ntan\n2\n3\n1\ncos2\ncos\nsin\n1\ntan\n1\n2\nα\nα\nα\nα\nα\nα\nα\nα\nα\n+\n+\n+\n+\n=\n=\n=\n=\n−\n−\n−\n，选C",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -125,22 +156,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q06",
       "content": "一个正三棱锥的底面边长等于一个球的半径，该正三棱锥的高等于这个球的直径，则球的体积与正三棱锥体\n积的比值为\n（A）8 3\n3\nπ    （B）\n3\n6\nπ    （C）\n3\n2\nπ  （D）8 3π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "A\n解： 设球的半径为r\n3\n1\n4\n3\nV\nr\nπ\n⇒\n=\n；正三棱锥的底面面积\n2\n3\n4\nS\nr\n=\n，\n2\nh\nr\n=\n，\n2\n3\n2\n1\n3\n3\n2\n3\n4\n6\nV\nr\nr\nr\n⇒\n=\n×\n×\n=\n。所以\n1\n2\n8 3\n3\nV\nV\nπ\n=\n，选A",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -148,22 +183,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q07",
       "content": "若点\n(2,0)\nP\n到双曲线\n2\n2\n2\n2\n1\nx\ny\na\nb\n−\n= 的一条淅近线的距离为\n2 ，则双\n曲线的离心率为\n（A）\n2     （B）3        （C）2 2    （D）2 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "A\n解：设过一象限的渐近线倾斜角为α\n2\nsin\n45\n1\n2\nk\nα\nα\n⇒\n=\n⇒\n=\n⇒\n=\n\n所以\nb\ny\nx\nx\na\n= ±\n= ±\na\nb\n⇒\n=\n，因此\n2 ,\n2\nc\nc\na e\na\n=\n=\n=\n，选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -171,22 +210,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q08",
       "content": "在一次读书活动中，一同学从4 本不同的科技书和2 本不同的文艺\n书中任选3 本，则\n所选的书中既有科技书又有文艺书的概率为\n（A）1\n5\n      （B）1\n2\n      （C）2\n3\n    （D）4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "D\n解：因文艺书只有2 本，所以选3 本必有科技书。问题等价于选3 本书有文艺书的概率：\n3\n4\n3\n6\n4\n4\n( )\n1\n( )\n1\n1\n20\n5\nC\nP A\nP A\nC\n= −\n= −\n= −\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -194,22 +237,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q09",
       "content": "过点(1,1) 的直线与圆\n2\n2\n(\n2)\n(\n3)\n9\nx\ny\n−\n+\n−\n=\n相交于\n,\nA B 两点，则|\n|\nAB 的最小值为\n（A）2 3      （B）4     （C）2 5    （D）5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B\n解： 弦心距最大为\n2\n2\n(2 1)\n(3 1)\n5\n−\n+\n−\n=\n，|\n|\nAB 的最小值为2 9\n5\n4\n−\n=",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -217,22 +264,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q009-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q10",
       "content": "已知两个单位向量a\n\n与b\n\n的夹角为135°，则|\n| 1\na\nb\nλ\n+\n>\n\n\n的充要条件是\n（A）\n(0,\n2)\nλ ∈\n                     （B）\n(\n2,0)\nλ ∈−\n（C）\n(\n,0)\n( 2,\n)\nλ ∈−∞\n+∞\n\n           （D）\n(\n,\n2)\n( 2,\n)\nλ ∈−∞−\n+∞\n",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "C\n解：\n2\n2\n2\n2\n2\n|\n| 1\n2\n1\n2\n1 1 cos135\n2\n1\n1\na\nb\na\na b\nb\nλ\nλ\nλ\nλ\nλ\nλ\nλ\n+\n> ⇔\n+\n+\n= +\n+\n× × ×\n=\n−\n+ >\n\n\n\n\n\n\n\n2\n2\n0\n0\n2\nλ\nλ\nλ\nλ\n⇔\n−\n>\n⇔\n<\n>\n或\n，选C",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -240,22 +297,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q11",
       "content": "设函数\n( )\ny\nf x\n=\n(\n)\nx\nR\n∈\n的图象关于直线\n0\nx =\n及直线\n1\nx =\n对称，且\n[0,1]\nx∈\n时，\n2\n( )\nf x\nx\n=\n，则\n3\n(\n)\n2\nf −\n=\n（A）1\n2\n    （B）1\n4\n     （C）3\n4\n   （D）9\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "B\n解：\n2\n3\n3\n1\n1\n1\n1\n1\n(\n)\n( )\n(1\n)\n(1\n)\n( )\n( )\n2\n2\n2\n2\n2\n2\n4\nf\nf\nf\nf\nf\n−\n=\n=\n+\n=\n−\n=\n=\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -263,22 +324,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q12",
       "content": "一个正方体的展开图如图所示，\n,\n,\nB C D 为原正方体的顶点，\nA 为原正方\n体一条棱的中点。在原来的正方体中，CD 与AB 所成角的余弦值\n为\n（A）\n5\n10\n    （B）10\n5\n   （C）\n5\n5\n  （D）10\n10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "D\n解：还原正方体如右图所示设\n1\nAD =\n,则\n5\nAB =\n,\n1,\nAF =\n2 2\nBE\nEF\n=\n=\n,\n3\nAE =\n, CD 与AB 所成角等于BE 与AB 所成角,\n所以余弦值为\n5\n8\n9\n10\ncos\n10\n2\n5\n2 2\nABE\n+ −\n∠\n=\n=\n×\n×\n,选 D",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -286,22 +351,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q012-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q012-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q13",
       "content": "函数\n1\n1\nx\ny\ne +\n=\n− (\n)\nx\nR\n∈\n的反函数为        。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：\n1\n1\n1\n1\n1\nln(\n1)\nx\nx\ny\ne\ne\ny\nx\ny\n+\n+\n=\n−⇒\n=\n+ ⇒\n+ =\n+\n，所以反函数\nln(\n1) 1(\n1)\ny\nx\nx\n=\n+\n−\n> −\n，",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -309,22 +382,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q14",
       "content": "设等差数列{\n}\nna\n的前n 项和为\nn\nS ，且\n5\n5\nS\na\n=\n。若\n4\n0\na ≠\n，则\n7\n4\na\na =     。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：\n5\n5\n1\n2\n3\n4\n1\n4\n2\n3\n0\n0\nS\na\na\na\na\na\na\na\na\na\n=\n⇒\n+\n+\n+\n=\n⇒\n+\n=\n+\n=\n，取特殊值\n令\n2\n3\n1,\n1,\na\na\n=\n= −\n4\n3\na\n⇒\n= −\n7\n4\n1\n2\n9\na\na\na\n=\n−\n= −，所以\n7\n4\n3\na\na =",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -332,22 +409,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q15",
       "content": "已知函数\n( )\nsin(\n)\n6\nf x\nx\nπ\nω\n=\n−\n (\n0)\nω >\n在\n4\n(0,\n)\n3\nπ\n单调增加，在4\n(\n,2 )\n3\nπ\nπ 单调减少，则ω =      。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：由题意\n4\n4\n(\n)\nsin(\n)\n1\n3\n3\n6\nf\nπ\nπ\nπω\n=\n−\n=\n4\n3\n1\n2\n,\n3\n6\n2\n2\n2\nk\nk\nk\nZ\nπ\nπ\nπω\nπ\nω\n⇒\n−\n=\n+\n⇒\n=\n+\n∈\n又\n0\nω >\n，令\n0\nk =\n得\n1\n2\nω =\n。（如\n0\nk >\n，则\n2\nω ≥\n，T\nπ\n≤\n与已知矛盾）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -355,22 +436,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q16",
       "content": "已知\n90\nAOB\n∠\n=\n° ，C 为空间中一点，且\n60\nAOC\nBOC\n∠\n= ∠\n=\n° ，则直线OC 与平面AOB 所成角的正弦\n值为         。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：由对称性点C 在平面AOB 内的射影D 必在\nAOB\n∠\n的平分线上作\nDE\nOA\n⊥\n于\nE ，连结CE 则由三垂线定理CE\nOE\n⊥\n，\n设\n1\nDE =\n1,\n2\nOE\nOD\n⇒\n=\n=\n，又\n60 ,\n2\nCOE\nCE\nOE\nOE\n∠\n=\n⊥\n⇒\n=\n\n,\n所\n以\n2\nsin\n2\nCOD\n∠\n=\n2\n2\n2\nCD\nOC\nOD\n=\n−\n=\n，因此直线OC 与平面AOB 所成角的正弦值",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -378,22 +463,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q17",
       "content": "（本小题满分12 分）在△ABC 中，内角\n, ,\nA B C 对边的边长分别是, ,\na b c ，已知\n2\n2\n2\n2\na\nc\nb\n+\n=\n。\n（Ⅰ）若\n4\nB\nπ\n=\n，且A 为钝角，求内角A 与C 的大小；\n（Ⅱ）若\n2\nb =\n，求△ABC 面积的最大值。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（Ⅰ）由题设及正弦定理，有\n2\n2\n2\nsin\nsin\nsin\n1\nA\nC\nB\n+\n=\n= 。\n故\n2\n2\nsin\ncos\nC\nA\n=\n。因A 为钝角，所以sin\ncos\nC\nA\n= −\n。\n由\ncos\ncos(\n)\n4\nA\nC\nπ\nπ\n=\n−\n−\n，可得\nsin\nsin(\n)\n4\nC\nC\nπ\n=\n−\n，得\n8\nC\nπ\n=\n，\n5\n8\nA\nπ\n=\n。\n（Ⅱ）由余弦定理及条件\n2\n2\n2\n1 (\n)\n2\nb\na\nc\n=\n+\n，有\n2\n2\ncos\n4\na\nc\nB\nac\n+\n=\n，故cos B ≥\n1\n2 。\n由于△ABC 面积\n1\nsin\n2 ac\nB\n=\n，\n又ac ≤\n2\n2\n1 (\n)\n4\n2 a\nc\n+\n=\n，sin B ≤\n3\n2 ，\n当a\nc\n=\n时，两个不等式中等号同时成立，\n所以△ABC 面积的最大值为\n1\n3\n4\n3\n2\n2\n× ×\n=\n。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -401,22 +490,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q18",
       "content": "（本小题满分12 分）一条生产线上生产的产品按质量情况分为三类：A 类、B 类、C 类。检验员定时从该\n生产线上任取2 件产品进行一次抽检，若发现其中含有C 类产品或2 件都是B 类产品，就需要调整设备，否则不需\n要调整。已知该生产线上生产的每件产品为A 类品，B 类品和C 类品的概率分别为0.9 ，0.05和0.05，且各件产\n品的质量情况互不影响。\n（Ⅰ）求在一次抽检后，设备不需要调整的概率；\n（Ⅱ）若检验员一天抽检3 次，以ξ 表示一天中需要调整设备的次数，求ξ 的分布列和数学期望。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（Ⅰ）设\niA 表示事件“在一次抽检中抽到的第i 件产品为A 类品”，\n1,2.\ni =\niB 表示事件“在一次抽检中抽到的第i 件产品为B 类品”，\n1,2.\ni =\nC 表示事件“一次抽检后，设备不需要调整”。\n则\n1\n2\n1\n2\n1\n2\nC\nA A\nA B\nB\nA\n=\n⋅\n+\n⋅\n+\n⋅\n。\n由已知\n(\n)\n0.9\ni\nP A =\n，\n(\n)\n0.05\ni\nP B\n=\n1,2.\ni =\n所以，所求的概率为\n1\n2\n1\n2\n1\n2\n( )\n(\n)\n(\n)\n(\n)\nP C\nP A A\nP A B\nP B\nA\n=\n⋅\n+\n⋅\n+\n⋅\n2\n0.9\n2 0.9 0.05\n0.9\n=\n+ ×\n×\n=\n。\n（Ⅱ）由（Ⅰ）知一次抽检后，设备需要调整的概率为\n( )\n1 0.9\n0.1\np\nP C\n=\n= −\n=\n，依题意知\n~\n(3,0.1)\nB\nξ\n，ξ 的分布列为\nξ\n0\n1\n2\n3\np\n0．729\n0．243\n0．027\n0．001\n3 0.1\n0.3\nE\nnp\nξ =\n= ×\n=\n。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -424,22 +517,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q018-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q19",
       "content": "（本小题满分12 分）\n如图，一张平行四边形的硬纸片\n0\nABC D 中，\n1\nAD\nBD\n=\n= ，\n2\nAB =\n。沿它的对角线BD 把\n△\n0\nBDC 折起，使点\n0\nC 到达平面\n0\nABC D 外点C 的位置。\n（Ⅰ）证明：平面\n0\nABC D ⊥平面\n0\nCBC ；\n（Ⅱ）如果△ABC 为等腰三角形，求二面角A\nBD\nC\n−\n−\n的大小。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（Ⅰ）证明：因为\n0\n1\nAD\nBC\nBD\n=\n=\n=\n，\n0\n2\nAB\nC D\n=\n=\n，\n所以\n0\n90\nDBC\n∠\n=\n° ，\n90\nADB\n∠\n=\n° 。\n因为折叠过程中，\n0\n90\nDBC\nDBC\n∠\n= ∠\n=\n° ，\n所以DB\nBC\n⊥\n，又\n0\nDB\nBC\n⊥\n，故DB ⊥平面\n0\nCBC 。\n又DB ⊂平面\n0\nABC D ，所以平面\n0\nABC D ⊥平面\n0\nCBC 。\n（Ⅱ）解法一：如图，延长\n0\nC B 到E ，使\n0\nBE\nC B\n=\n，连结AE ，CE 。\n因为AD\nBE ，\n1\nBE = ，\n1\nDB = ，\n90\nDBE\n∠\n=\n° ，所以AEBD 为正方形，\n1\nAE =\n。\n由于AE ，DB 都与平面\n0\nCBC 垂直，所以AE\nCE\n⊥\n，可知\n1\nAC >\n。\n因此只有\n2\nAC\nAB\n=\n=\n时，△ABC 为等腰三角形。\n在Rt △AEC 中，\n2\n2\n1\nCE\nAC\nAE\n=\n−\n= ，又\n1\nBC = ，\n所以△CEB 为等边三角形，\n60\nCBE\n∠\n=\n° 。\n由（Ⅰ）可知，，所以\nCBE\n∠\n为二面角A\nBD\nC\n−\n−\n的平面角，即二面角A\nBD\nC\n−\n−\n的大小为60°。\n解法二：以D 为坐标原点，射线DA ，DB 分别为x 轴正半轴和y 轴正半轴，建立如图的空间直角坐标系D\nxyz\n−\n，\n则\n(1,0,0)\nA\n，\n(0,1,0)\nB\n，\n(0,0,0)\nD\n。\n由（Ⅰ）可设点C 的坐标为( ,1, )\nx\nz ，其中\n0\nz >\n，则有\n2\n2\n1\nx\nz\n+\n= 。      ①\n因为△ABC 为等腰三角形，所以\n1\nAC =\n或\n2\nAC =\n。\n若\n1\nAC =\n，则有\n2\n2\n(\n1)\n1\n1\nx\nz\n−\n+ +\n= 。\n则此得\n1\nx =\n，\n0\nz =\n，不合题意。\n若\n2\nAC =\n，则有\n2\n2\n(\n1)\n1\n2\nx\nz\n−\n+ +\n=\n。          ②\n联立①和②得\n1\n2\nx =\n，\n3\n2\nz =\n。故点C 的坐标为\n1\n3\n( ,1,\n)\n2\n2\n。\n由于DA\nBD\n⊥\n，BC\nBD\n⊥\n，所以DA\n\n与BC\n\n夹角的大小等于二面角A\nBD\nC\n−\n−\n的大小。\n又\n(1,0,0)\nDA =\n\n，\n1\n3\n( ,0,\n)\n2\n2\nBC =\n\n，\n1\ncos\n,\n.\n2\n|\n||\n|\nDA BC\nDA BC\nDA BC\n⋅\n<\n>=\n=\n\n\n\n\n所以\n,\n60\nDA BC\n<\n>=\n°\n\n  即二面角A\nBD\nC\n−\n−\n的大小为60°。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -447,22 +548,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q019-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d19024a1075f1b06-q019-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q20",
       "content": "（本小题满分12 分）在数列{\n}\nna\n中，\n1\n1\na = ，\n2\n1\n1\n2\n(1\n)\nna\na\nn\n+ =\n+\n（Ⅰ）求{\n}\nna\n的通项公式；\n（Ⅱ）令\n1\n1\n2\nn\nn\nn\nb\na\na\n+\n=\n−\n，求数列{ }\nnb\n的前n 项和\nn\nS 。\n（Ⅲ）求数列{\n}\nna\n的前n 项和\nnT 。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（Ⅰ）由条件得\n1\n2\n2\n1\n(\n1)\n2\nn\nn\na\na\nn\nn\n+\n=\n⋅\n+\n，又\n1\nn =\n时，\n2\n1\nna\nn =\n，\n故数列\n2\n{\n}\nna\nn\n构成首项为1，公式为\n1\n2 的等比数列．从而\n2\n1\n1\n2\nn\nn\na\nn\n−\n=\n，即\n2\n1\n2\nn\nn\nn\na\n−\n=\n．\n（Ⅱ）由\n2\n2\n(\n1)\n2\n1\n2\n2\n2\nn\nn\nn\nn\nn\nn\nn\nb\n+\n+\n=\n−\n=\n得\n2\n3\n5\n2\n1\n2\n2\n2\nn\nn\nn\nS\n+\n=\n+\n+\n+\n\n，\n2\n3\n1\n1\n3\n5\n2\n1\n2\n1\n2\n2\n2\n2\n2\nn\nn\nn\nn\nn\nS\n+\n−\n+\n⇒\n=\n+\n+\n+\n+\n\n，\n两式相减得 ：\n2\n3\n1\n1\n3\n1\n1\n1\n2\n1\n2(\n)\n2\n2\n2\n2\n2\n2\nn\nn\nn\nn\nS\n+\n+\n=\n+\n+\n+\n+\n−\n\n， 所以\n2\n5\n5\n2\nn\nn\nn\nS\n+\n=\n−\n．\n（Ⅲ）由\n2\n3\n1\n1\n2\n1\n(\n)\n(\n)\n2\nn\nn\nn\nS\na\na\na\na\na\na\n+\n=\n+\n+\n+\n−\n+\n+\n+\n\n\n得\n1\n1\n1\n2\nn\nn\nn\nn\nT\na\na\nT\nS\n+\n−\n+\n−\n=\n   所以\n1\n1\n2\n2\n2\nn\nn\nn\nT\nS\na\na +\n=\n+\n−\n2\n1\n4\n6\n12\n2n\nn\nn\n−\n+\n+\n=\n−\n．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -470,22 +579,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q21",
       "content": "（本小题满分12 分）\n已知椭圆\n1\nC 的中心和抛物线\n2\nC 的顶点都在坐标原点O ，\n1\nC 和\n2\nC 有公共焦点F ，点F 在x 轴正半轴上，且\n1\nC 的\n长轴长、短轴长及点F 到\n1\nC 右准线的距离成等比数列。\n（Ⅰ）当\n2\nC 的准线与\n1\nC 右准线间的距离为15时，求\n1\nC 及\n2\nC 的方程；\n（Ⅱ）设过点F 且斜率为1的直线l 交\n1\nC 于P ，Q 两点，交\n2\nC 于M ，N 两点。当\n36\n|\n|\n7\nPQ =\n时，求|\n|\nMN 的值。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（\n解：（Ⅰ）设\n1\nC ：\n2\n2\n2\n2\n1\nx\ny\na\nb\n+\n=\n(\n0)\na\nb\n>\n>\n，其半焦距为c (\n0)\nc >\n．则\n2\nC ：\n2\n4\ny\ncx\n=\n．\n   由条件知\n2\n2\n(2 )\n2 (\n)\na\nb\na\nc\nc\n=\n−\n，得\n2\na\nc\n=\n．\n1\nC 的右准线方程为\n2\na\nx\nc\n=\n，即\n4\nx\nc\n=\n．\n2\nC 的准线方程为x\nc\n= −．\n   由条件知5\n15\nc =\n， 所以\n3\nc =\n，故\n6\na =\n，\n3 3\nb =\n．\n   从而\n1\nC ：\n2\n2\n1\n36\n27\nx\ny\n+\n=\n，\n2\nC ：\n2\n12\ny\nx\n=\n．\n（Ⅱ）由题设知l ：y\nx\nc\n=\n−\n，设\n1\n1\n( ,\n)\nM x y\n，\n2\n2\n(\n,\n)\nN x\ny\n，\n3\n3\n(\n,\n)\nP x\ny\n，\n4\n4\n(\n,\n)\nQ x\ny\n．\n   由（Ⅰ）知\n2\n2\n1\n2\n2\n:\n1\n4\n3\nx\ny\nC\nc\nc\n+\n=\n，即\n2\n2\n2\n3\n4\n12\nx\ny\nc\n+\n=\n由\n2\n2\n2\n3\n4\n12\nx\ny\nc\ny\nx\nc\n\n+\n=\n\n=\n−\n\n， 知\n3\n4\n,\nx x 满足\n2\n2\n7\n8\n8\n0\nx\ncx\nc\n−\n−\n=\n，\n从而\n2\n2\n3\n4\n3\n4\n3\n4\n24\n(\n)\n(\n)\n2\n7\nPQ\nx\nx\ny\ny\nx\nx\nc\n=\n−\n+\n−\n=\n−\n=\n由条件\n36\n7\nPQ =\n,得\n3\n2\nc =\n，  故\n2\nC ：\n2\n6\ny\nx\n=\n．\n由\n2\n6\n3\n2\ny\nx\ny\nx\n\n=\n\n=\n−\n\n  得\n2\n9\n9\n0\n4\nx\nx\n−\n+\n=\n，所以\n1\n2\n9\nx\nx\n+\n=\n于是\n1\n2 2\n12\nMN\nMF\nFN\nx\nx\nc\n=\n+\n=\n+\n+\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -493,22 +606,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2008/2008四川延考理.pdf#q22",
       "content": "（本小题满分14 分）\n设函数\n2\n2\n1\n( )\n2\nx\nf x\nx\n+\n=\n+\n。\n（Ⅰ）求\n( )\nf x 的单调区间和极值；\n（Ⅱ）若对一切x\nR\n∈\n，3\n( )\n3\naf x\nb\n−≤\n+\n≤\n，求a\nb\n−\n的最大值。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（Ⅰ）\n'\n2\n2\n2\n2\n1\n2(\n2)(\n1)\n( )\n2\n(\n2)\nx\nx\nx\nf\nx\nx\nx\n+\n−\n+\n−\n=\n=\n+\n+\n，\n当\n( 2,1)\nx∈−\n时，\n'( )\n0\nf\nx >\n；当\n(\n, 2)\n(1,\n)\nx∈−∞−\n+∞\n\n时，\n'( )\n0\nf\nx >\n；\n故\n( )\nf x 在( 2,1)\n−\n单调增加，在(\n, 2)\n(1,\n)\n−∞−\n+∞\n\n单调减少。\n( )\nf x 的极小值\n1\n( 2)\n2\nf −\n= −\n，极大值\n(1)\n1\nf\n=\n（Ⅱ）由\n2\n2\n2\n2\n1\n(\n2) (\n1)\n( ( )\n)( (1) 1)\n2\n2(\n2)\nx\nx\nf x\nf\nx\n−\n+\n−\n+\n−\n=\n+\n知\n1\n( ( )\n)( (1) 1)\n0\n2\nf x\nf\n+\n−\n≤\n  即\n1\n( )\n1\n2\nf x\n−\n≤\n≤\n由此及（Ⅰ）知\n( )\nf x 的最小值为\n1\n2\n−\n，最大值为1\n因此对一切x\nR\n∈\n，3\n( )\n3\naf x\nb\n−≤\n+\n≤\n的充要条件是，\n1\n3\n3\n2\n3\n3\na\nb\na\nb\n−≤−\n+\n≤\n\n−≤\n+\n≤\n\n   即a ，b 满足约束条件\n3\n3\n1\n3\n2\n1\n3\n2\na\nb\na\nb\na\nb\na\nb\n+\n≥−\n\n+\n≤\n\n−\n+\n≥−\n\n\n−\n+\n≤\n\n，由线性规划得，a\nb\n−\n的最大值为5．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -516,11 +633,24 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008四川延考理.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 6,
+    "assigned": 2,
+    "rendered": 4,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 1,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

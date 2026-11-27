@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2017/2017天津理.pdf",
   "name": "2017天津理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q01",
       "content": "设集合A = {1, 2, 4, 6}, B = {2, 4}, C = {x ∈R | −1 ⩽x ⩽5}, 则\n(A ∪B) ∩C =\n(\n)\n(A) {2}\n(B) {1, 2, 4}\n(C) {1, 2, 4, 5}\n(D) {x ∈R | −1 ⩽x ⩽5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q02",
       "content": "设变量x, y 满足约束条件\n\n\n\n\n\n\n\n\n\n\n\n\n\n2x + y ⩾0,\nx + 2y −2 ⩾0,\nx ⩽0,\ny ⩽3,\n则目标函数z = x + y 的最\n大值为\n(\n)\n(A) 2\n3\n(B) 1\n(C) 3\n2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q03",
       "content": "阅读程序框图, 运行相应的程序, 若输入N 的值为24, 则输出N 的值\n为\n(\n)\n开始\n输入N\nN 能被3 整除?\nN = N\n3\nN = N −1\nN ⩽3?\n输出N\n结束\n是\n是\n否\n否\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q04",
       "content": "设θ ∈R, 则“\n���θ −π\n12\n���< π\n12”是“sin θ < 1\n2”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q05",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的左焦点为F, 离心率为\n√\n2. 若\n经过F 和P (0, 4) 两点的直线平行于双曲线的一条渐近线, 则双曲线的方\n程为\n(\n)\n(A) x2\n4 −y2\n4 = 1 (B) x2\n8 −y2\n8 = 1\n(C) x2\n4 −y2\n8 = 1\n(D) x2\n8 −y2\n4 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q06",
       "content": "已知奇函数f (x) 在R 上是增函数, g (x) = xf (x). 若a = g (−log2 5.1),\nb = g (20.8), c = g (3), 则a, b, c 的大小关系为\n(\n)\n(A) a < b < c\n(B) c < b < a\n(C) b < a < c\n(D) b < c < a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q07",
       "content": "设函数f (x) = 2 sin (ωx + φ), x ∈R, 其中ω > 0, |φ| < π.\n若\nf\n(5π\n8\n)\n= 2, f\n(11π\n8\n)\n= 0, 且f (x) 的最小正周期大于2π, 则\n(\n)\n(A) ω = 2\n3, φ = π\n12\n(B) ω = 2\n3, φ = −11π\n12\n(C) ω = 1\n3, φ = −11π\n24\n(D) ω = 1\n3, φ = 7π\n24",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q08",
       "content": "已知函数f (x) =\n\n\n\nx2 −x + 3,\nx ⩽1,\nx + 2\nx,\nx > 1,\n设a ∈R, 若关于x 的不等式\nf (x) ⩾\n���x\n2 + a\n���在R 上恒成立, 则a 的取值范围是\n(\n)\n(A)\n[\n−47\n16, 2\n]\n(B)\n[\n−47\n16, 39\n16\n]\n(C)\n[\n−2\n√\n3, 2\n]\n(D)\n[\n−2\n√\n3, 39\n16\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q09",
       "content": "已知a ∈R, i 为虚数单位, 若a −i\n2 + i 为实数, 则a 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q10",
       "content": "已知一个正方体的所有顶点在一个球面上, 若这个正方体的表面积为18,\n则这个球的体积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q11",
       "content": "在极坐标系中, 直线4ρ cos\n(\nθ −π\n6\n)\n+ 1 = 0 与圆ρ = 2 sin θ 的公共点的个\n数为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q12",
       "content": "若a, b ∈R, ab > 0, 则a4 + 4b4 + 1\nab\n的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q13",
       "content": "在△ABC 中, ∠A = 60◦, AB = 3, AC = 2.\n若#    »\nBD = 2#    »\nDC,\n#   »\nAE = λ#   »\nAC −#   »\nAB (λ ∈R), 且#    »\nAD · #   »\nAE = −4, 则λ 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q14",
       "content": "用数字1, 2, 3, 4, 5, 6, 7, 8, 9 组成没有重复数字, 且至多有一个数字是偶\n数的四位数, 这样的四位数一共有\n个. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -332,22 +421,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0fb6ae85e4bf0eb2-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0fb6ae85e4bf0eb2-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q15",
       "content": "在△ABC 中, 内角A, B, C 所对的边分别为a, b, c. 已知a > b, a = 5,\nc = 6, sin B = 3\n5.\n(1) 求b 和sin A 的值;\n(2) 求sin\n(\n2A + π\n4\n)\n的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -355,22 +454,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q16",
       "content": "从甲地到乙地要经过3 个〸字路口, 设各路口信号灯工作相互独立, 且在\n各路口遇到红灯的概率分别为1\n2, 1\n3, 1\n4.\n(1) 设X 表示一辆车从甲地到乙地遇到红灯的个数, 求随机变量X 的分\n布列和数学期望;\n(2) 若有2 辆车独立地从甲地到乙地, 求这2 辆车共遇到1 个红灯的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -378,22 +483,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q17",
       "content": "如图, 在三棱锥P −ABC 中, PA ⊥底面ABC, ∠BAC = 90◦. 点D, E,\nN 分别为棱PA, PC, BC 的中点, M 是线段AD 的中点, PA = AC = 4,\nAB = 2.\n(1) 求证: MN\n平面BDE;\n(2) 求二面角C −EM −N 的正弦值;\n(3) 已知点H 在棱PA 上, 且直线NH 与直线BE 所成角的余弦值为\n√\n7\n21 , 求线段AH 的长.\nA\nP\nN\nE\nB\nC\nD\nM\n1055",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -401,22 +512,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0fb6ae85e4bf0eb2-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0fb6ae85e4bf0eb2-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q18",
       "content": "已知{an} 为等差数列, 前n 项和为Sn (n ∈N∗), {bn} 是首项为2 的等\n比数列, 且公比大于0, b2 + b3 = 12, b3 = a4 −2a1, S11 = 11b4.\n(1) 求{an} 和{bn} 的通项公式;\n(2) 求数列{a2nb2n−1} 的前n 项和(n ∈N∗).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -424,22 +545,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q19",
       "content": "设椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的左焦点为F, 右顶点为A, 离心率为1\n2.\n已知A 是抛物线y2 = 2px (p > 0) 的焦点, F 到抛物线的准线l 的距离为\n1\n2.\n(1) 求椭圆的方程和抛物线的方程;\n(2) 设l 上两点P, Q 关于x 轴对称, 直线AP 与椭圆相交于点B (B 异于\nA), 直线BQ 与x 轴相交于点D. 若△APD 的面积为\n√\n6\n2 , 求直线AP\n的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -447,22 +574,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2017/2017天津理.pdf#q20",
       "content": "设a ∈Z, 已知定义在R 上的函数f (x) = 2x4 + 3x3 −3x2 −6x + a 在区\n间(1, 2) 内有一个零点x0, g (x) 为f (x) 的导函数.\n(1) 求g (x) 的单调区间;\n(2) 设m ∈[1, x0) ∪(x0, 2], 函数h (x) = g (x) (m −x0) −f (m), 求证:\nh (m) h (x0) < 0;\n(3) 求证: 存在大于0 的常数A, 使得对于任意的正整数p, q, 且p\nq ∈\n[1, x0) ∪(x0, 2], 满足\n����\np\nq −x0\n����⩾\n1\nAq4 .\n1056",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "数学",
@@ -470,11 +603,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2017/2017天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

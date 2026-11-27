@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012天津理综.pdf",
   "name": "2012天津理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012天津理综.pdf#q01",
       "content": "下列说法正确的是（    ）\n（A）采用物理或化学方法可以有效地改变放射性元素的半衰期\n（B）由波尔理论知道氢原子从激发态跃迁到基态时会放出光子\n（C）从高空对地面进行遥感摄影是利用紫外线良好的穿透能力\n（D）原子核所含核子单独存在时的总质量小于该原子核的质量",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "半衰期是原子的物理属性，不能采用物理或化学方法改变；高空遥感是用红外线的；由于核子结\n合为原子核时能量增加必然存在质量亏损；氢原子从高能量的激发态跃迁到低能量的基态时放出能量，所\n以放出光子。答案B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,362 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q02",
+      "content": "如图所示，金属棒MN 两端由等长的轻质细线水平悬挂，处于竖直向上的\n匀强磁场中，棒中通以由M 向N 的电流，平衡时两悬线与竖直方向夹角均为\nθ，如果仅改变下列某一个条件，θ 角的相应变化情况是（    ）\n（A）棒中的电流变大，θ 角变大\n（B）两悬线等长变短，θ 角变小\n（C）金属棒质量变大，θ 角变大\n（D）磁感应强度变大，θ 角变小",
+      "answer": "暂无结构化答案",
+      "analysis": "水平的直线电流在竖直磁场中受到水平的安培力而偏转，与竖直方向形成夹角，此时它受拉力、\n重力和安培力而达到平衡，根据平衡条件有tan\nF\nBIL\nmg\nmg\n=\n=\n安\n，所以棒子中的电流增大θ 角度变大；两悬\n线变短，不影响平衡状态，θ 角度不变；金属质量变大θ 角度变小；磁感应强度变大θ 角度变大。答案A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q03",
+      "content": "一人造地球卫星绕地球做匀速圆周运动，假如该卫星变轨后做匀速圆周运动，动能减小为原来的1/4，\n不考虑卫星质量的变化，则变轨前后卫星的（    ）\n（A）向心加速度大小之比为4∶1\n（B）角速度大小之比为2∶1\n（C）周期之比为1∶8\n（D）轨道半径之比为1∶2",
+      "answer": "暂无结构化答案",
+      "analysis": "根据向心加速度表达式\n2\nmv\na\nR\n=\n知在动能减小时势能增大，地球卫星的轨道半径增大，则向心加\n速度之比大于4；根据万有引力和牛顿第二定律有\n2\n2\nv\nMm\nm\nG\nR\nR\n=\n化简为\n2\nRv\nGM\n=\n，知在动能减小速度\n减小则轨道半径增大到原来的4 倍；同理有\n2\n2\n2\n(\n)\nMm\nm\nR\nG\nT\nR\n\n=\n化简为\n3\n2\n2\n4\nR\nGM\nT\n\n=\n，则周期的平方增大到\n8 倍；根据角速度关系式\n2\nT\n\n=\n，角速度减小为1\n8\n。答案C。\nM\nN\nθ\nθ\nB\n第2页（共7页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q04",
+      "content": "通过一理想变压器，经同一线路输送相同电功率P，原线圈的电压U 保持不变，输电线路的总电阻为\nR。当副线圈与原线圈的匝数比为k 时，线路损耗的电功率为P1，若将副线圈与原线圈的匝数比提高到nk，\n线路损耗胡电功率为P2，则P1 和P2\nP1 分别为（    ）\n（A）PR\nkU ，1\nn\n（B）（P\nkU ）2R，1\nn\n（C）PR\nkU ，1\nn2\n（D）（P\nkU ）2R，1\nn2",
+      "answer": "暂无结构化答案",
+      "analysis": "根据理想变压器的变压比有\n1\nU\nk\nU\n=\n，\n2\nU\nnk\nU\n=\n线路的输送功率不变有\n1 1\n2 2\nP\nU I\nU I\n=\n=\n根据焦耳定律有\n2\n2\n2\n1\n1\n1\n(\n)\n(\n)\nP\nP\nP\nI R\nR\nR\nU\nkU\n=\n=\n=\n，\n2\n2\n2\nP\nI R\n=\n，\n2\n2\n2\n2\n1\n2\n2\n2\n1\n1\n2\n1\nP\nI\nU\nP\nI\nU\nn\n=\n=\n=\n。答案D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q05",
+      "content": "两个固定的等量异号点电荷所产生电场的等势面如图中虚线所示，一带负电的\n粒子以某一速度从图中A 点沿图示方向进入电场在纸面内飞行，最后离开电场，\n粒子只受静电力作用，则粒子在电场中（    ）\n（A）做直线运动，电势能先变小后变大\n（B）做直线运动，电势能先变大后变小\n（C）做曲线运动，电势能先变小后变大\n（D）做曲线运动，电势能先变大后变小",
+      "answer": "暂无结构化答案",
+      "analysis": "两个固定的的等量异号点电荷产生电场的等势面与电场线垂直，且沿电场线电势减小，所以等量\n异号点电荷和它们间直线电场线如图所示。当带负电的粒子进入电场受到与其速度垂直的电场力而偏转做\n曲线运动。电子在斜向左的电场力作用下向左偏转，电场力做正功粒子的动能增加，电势能减小。答案C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q06",
+      "content": "半圆形玻璃砖横截面如图，AB 为直径，O 点为圆心。在该截面内有a 、b 两束单\n色可见光从空气垂直于AB 摄入玻璃砖，两入射点到O 的距离相等。两束光在半圆边\n界上反射和折射的情况如图所示：则a、b 两束光，（    ）\n（A）在同种均匀介质中传播，a 光的传播速度较大\n（B）以相同的入射角从空气斜射入水中，b 光的折射角大\n（C）若a 光照射某金属表面能发生光电效应，b 光也一定能\n（D）分别通过同一双缝干涉装置，a 光的相邻亮条纹间距大",
+      "answer": "暂无结构化答案",
+      "analysis": "当光由光密介质—玻璃进入光疏介质—空气时发生折射或全反射，b 发生全反射说明b 的入射角\n大于或等于临界角，a 发生折射说明a 的入射角小于临界角，比较可知在玻璃中a 的临界角大于b 的临界\n角；根据临界角定义有\n1\nsinC\nn\n=\n玻璃对a 的折射率小；根据\nc\nn\nv\n=\n在玻璃中a 光的速度大，A 正确；通过\n色散现象分析比较a 的折射率小，a 光的频率小波长大；双缝干涉相邻亮条纹间距大小与波长成正比，a 光\n的相邻亮条纹间距大，D 正确；发生光电效应的条件是入射光的频率大于金属的极限频率，频率小的a 光\n+10V\n+5V\n-5V\n-10V\nv\nA\n0V\nA\nB\na\nb\nO\n第3页（共7页）\n能发生光电效应，则频率大的b 光一定能，C 正确；根据折射定律\nsin\nsin\ni\nn\nr\n=\n，在入射角i 相同时b 的折射\n率大则折射角r 小，B 错误。答案ACD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q07",
+      "content": "沿x 轴正向传播的一列简谐横波在t=0 时刻的波形如图所示，M 为介质中的一个质点，该波的传播速\n度为40m/s，则t= 1\n40 s 时（     ）\n（A）质点M 对平衡位置的位移一定为负值\n（B）质点M 的速度方向与对平衡位置的位移方向相同\n（C）质点M 的加速度方向与速度方向一定相同\n（D）质点M 的加速度方向与对平衡位置的位移方向相反",
+      "answer": "暂无结构化答案",
+      "analysis": "由波的图像知波长是1m，所以波源的振动周期是\n4\n1\n40\n10\nT\nv\n\n=\n=\n=\ns，则\n4\nT\nt =\n；波是沿x 轴正\n方向传播，可判断质点M 在0 时刻沿y 轴正方向振动，t 时刻在x 轴上方向下运动位移为正，速度为负，\n加速度为负，A B 错误，C D 正确。答案C D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q08",
+      "content": "如图甲所示，静止在水平地面的物块A，受到水平向右的拉力F 的作用，F 与时间t 的关系如图乙所\n示，设物块与地面的静摩擦力最大值fm 与滑动摩擦力大小相等，则（     ）\n（A）0－t1 时间内F 的功率逐渐增大\n（B）t2 时刻物块A 的加速度最大\n（C）t2 时刻后物块A 做反向运动\n（D）t3 时刻物块A 的动能最大",
+      "answer": "暂无结构化答案",
+      "analysis": "由F 与t 的关系图像0～t1 拉力小于最大静摩擦力物块静止F 的功率为0，A 错误；在t1～t2 阶段\n拉力大于最大静摩擦力物块做加速度增大的加速运动，在t2～t3 阶段拉力大于最大静摩擦力物块做加速度\n减小的加速运动，在t2 时刻加速度最大，B 正确，C 错误；在t1～t3 物块一直做加速运动，在t3～t4 拉力小\n于最大静摩擦力物块开始减速，在时刻速度最大，动能最大，D 正确。答案BD。\n第II 卷\n注意事项：\n     1. 用黑色墨水的钢笔或签字笔将答案写在答题卡上。\n     2. 本卷共4 题，共72 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q09",
+      "content": "（18 分）\n（1）质量为0.2kg 的小球竖直向下以6m/s 的速度落至水平地面，再以4m/s 的速度反向弹回，取竖直向上\n为正方向，则小球与地面碰撞前后的动量变化为________kg·m/s。若小球与地面的作用时间为0.2s，则小\n球受到地面的平均作用力大小为_______N（g=10m/s2）。",
+      "answer": "暂无结构化答案",
+      "analysis": "取竖直向上为正方向则初动量为负末动量为正，动量变化为\n4 0.2\n( 6 0.2)\n2\np\np\np\n\n=\n−\n= \n−−\n=\nkgm/s，\n2\n0.2 10\n12\n0.2\np\nF\nmg\nt\n\n=\n+\n=\n+\n\n=\nN\nA\nF\n甲\nt\nF\nt1\nO\nt2\nt3 t4\nfm\n2fm\n乙\nx/m\ny/cm\n1\n2\n3\nO\n4\n-2\n2\nM\n第4页（共7页）\n（2）某同学用实验的方法探究影响单摆周期的因素。\n①他组装单摆时，在摆线上端的悬点处，用一块开有狭缝的橡皮夹牢摆线，再\n用铁架台的铁夹将橡皮夹紧，如图所示。这样做的目的是_______（填字母代\n号）。\n（A）保证摆动过程中摆长不变\n（B）可使周期测量得更加准确\n（C）需要改变摆长时便于调节\n（D）保证摆球在同一竖直平面内摆动\n②他组装好单摆后在摆球自然悬垂的情况下，用毫米刻度尺从悬点量到摆球的最低端的长度 L= 0.9990 m，\n再用游标卡尺测量摆球直径，结果如图所示，则摆球的直径为_____mm，单摆\n摆长为______m。\n③下列摆动图像真实地描述了对摆长约为 1 m 的单摆进行周期测量的四种\n操作过程，图中横坐标原点表示计时开始，A、B、C 均为 30 次全振动图象，\n已知 sin5° = 0.087，sin15° = 0.26，这四种操作过程合乎实验要求且误差最小的是_______（填字母代号）\n（1）用一块开有狭缝的橡皮夹牢摆线增加了线与悬挂处的摩擦保证摆长不变；改变摆长时用力拉\n不会将摆线拉断，方便调节摆长；AC 正确。\n（2）用10 分度游标卡尺主尺读数为12mm，游标尺读数为0，则摆球的直径为12mm+0×0.1mm=12.0mm。\n单摆摆长为\n0.012\n0.9990\n0.9930\n2\n2\nD\nl\nL\n=\n−\n=\n−\n=\nmm\n（3）单摆的振动在摆角小于5 度才能看作简谐振动，在测量周期时计时起点应该选择在平衡位置（速度\n大误差小）。根据摆角估算振幅\n1\nsin5\n0.993 0.087\n0.086\nA\nl\n=\n=\n\n=\nm=8.6cm ，A B 振幅合理。\n1\nsin15\n0.993 0.26\n0.25\nA\nl\n=\n=\n\n=\nm=25cm，C D 振幅不合理错误。A 中振动图像的计时起点在平衡位置\n是合理的，B 中振动图像的计时起点在正的最大位置是不合理的。答案A。\n（3）某同学在进行扩大电流表量程的实验时，需要知道电流表的满偏电流\n和内阻。他设计了一个用标准电流表G1 来校对待测电流表G2 的满偏电流\n和测定G2 内阻的电路，如图所示。已知G1 的量程略大于G2 的量程，图中\nR1 为滑动变阻器。R2 为电阻箱。该同学顺利完成了这个实验。\n①实验过程包含以下步骤，其合理的顺序依次为__________________（填\n步骤的字母代号）\n（A）合上开关S2\n（B）分别将R1 和R2 的阻值调至最大\n（C）记下R2 的最终读数\n（D）反复调节R1 和R2 的阻值，使G1 的示数仍为I1，使G2 的指针偏转到满刻度的一半，此时R2 的最终\n读数为r\n（E）合上开关S1\n（F）调节R1 使G2 的指针偏转到满刻度，此时G1 的示数为I1，记下此时G1 的示数\nt/s\nO\n30\n-30\ntD\nD\nx/cm\nt/s\nO\n30\n-30\ntC\nC\nx/cm\nt/s\nO\n8\n-8\ntB\nB\nx/cm\nt/s\nO\n8\n-8\ntA\nA\nx/cm\nE r\nS2\nS1\nG1\nR2\nR1\nG2\n0\n10\n0\n1\n2 主尺 cm\n第5页（共7页）\n②仅从实验设计原理上看，用上述方法得到的G2 内阻的测量值与真实值相比_______（填“偏大”、“偏小”\n或“相等”）\n③若要将G2 的量程扩大为I，并结合前述实验过程中测量得结果，写出须在G2 上并联的分流电阻RS 的表\n达式，RS=_______。\n（1）在组装实验时正确操作是将所有开关断开，将滑动变阻器和电阻箱的电阻调到最大，然后闭\n合电源控制开关S1，就可以校对待测表G2，由于标准表和待测表串联流过的电流相等，这时就可以调节R1\n由小到大改变电流对待测表的刻度逐个校对，直到待测表满偏。校对完成后闭合开关S2 构成半偏法测量表\n头G2 内阻的电路，在没有G1 的情况下只调节R2 使待测表半偏，则表头内阻等于R2 此时的读数，这种做\n法会造成G1 的示数增大（原理上是不变），误差大。由于有G1 可以方便观察干路电流的变化，所以操作为\n闭合开关S2 反复调节R1 和R2 使标准表达到待测表满偏时的电流值，同时使待测表半偏，则表头内阻等于\nR2 此时的读数。正确顺序为B、E、F、A、D、C。\n（2）由于G1 测量了干路电流，G2 测量了支路电流，另一直流电流是两表示数之差，然后根据并联电路电\n流电阻成反比准确计算。答案：相等。\n（3）扩大电流表的量程需要并联一个电阻，根据并联关系有\n1\n1\n(\n)\nS\nrI\nI\nI R\n=\n−\n，则\n1\n1\nS\nI\nR\nr\nI\nI\n=\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 3,
+        "endPage": 5,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q009-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q10",
+      "content": "（16 分）如图所示，水平地面上固定有高为h 的平台，台面上有固定的光滑\n坡道，坡道顶端距台面高也为h，坡道底端与台面相切。小球A 从坡道顶端由静\n止开始滑下，到达水平光滑的台面后与静止在台面上的小球B 发生碰撞，并粘连\n在一起，共同沿台面滑行并从台面边缘飞出，落地点与飞出点的水平距离恰好为\n台高的一半。两球均可视为质点，忽略空气阻力，重力加速度为g。求：\n（1）小球A 刚滑至水平台面的速度vA\n（2）A、B 两球的质量之比mA∶mB",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）小球A 在坡道上只有重力做功机械能守恒，有\n2\n1\n2\nA\nA\nA\nm v\nm gh\n=\n   ①\n      解得\n2\nA\nv\ngh\n=\n                                         ②\n（2）小球A、B 在光滑台面上发生碰撞粘在一起速度为v，根据系统动量守恒得\n(\n)\nA\nA\nA\nB\nm v\nm\nm\nv\n=\n+\n                                       ③\n离开平台后做平抛运动，在竖直方向有\n2\n1\n2 gt\nh\n=\n                     ④\n                      在水平方向有  1\n2 h\nvt\n=\n                      ⑤\n联立②③④⑤化简得\n13\nA\nB\nm\nm =\n∶\n∶",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q11",
+      "content": "（18 分）如图所示，一对光滑的平行金属导轨固定在同一水平面内，导轨间\n距L=0.5m,左端接有阻值R=0.3Ω 的电阻，一质量m=0.1kg，电阻r=0.1Ω 的金属\n棒MN 放置在导轨上，整个装置置于竖直向上的匀强磁场中，磁场的磁感应强度\nB=0.4T。棒在水平向右的外力作用下，由静止开始a=2m/s2 的加速度做匀加速运\n动，当棒的位移x=9m 时撤去外力，棒继续运动一段距离后停下来，已知撤去外\n力前后回路中产生的焦耳热之比Q1∶Q2=2∶1。导轨足够长且电阻不计，棒在运动过程中始终与导轨垂直\n且两端与导轨保持良好接触。求：\n（1）棒在匀加速运动过程中，通过电阻R 的电荷量q；\n（2）撤去外力后回路中产生的焦耳热Q2；\nB\nA\nh\nh\nM\nR\nB\nr\nN\na\n第6页（共7页）\n（3）外力做的功WF。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）棒匀加速运动所用时间为t，有\n2\n1\n2 at\nx\n=\n2\n2 9\n3\n2\nx\nt\na\n\n=\n=\n=\ns\n        根据法拉第电磁感应定律和闭合电路的欧姆定律求电路中产生的平均电流为\n0.4 0.5 9\n1.5\n(\n)\n(\n)\n3 (0.3\n0.1)\nE\nBlx\nI\nR\nr\nt r\nR\nt r\nR\n\n\n\n=\n=\n=\n=\n=\n+\n+\n+\n\n+\nA\n        根据电流定义式有\n1.5 3\n4.5\nq\nIt\n=\n=\n=\nC\n（2）撤去外力前棒做匀加速运动根据速度公式末速为\n2 3\n6\nv\nat\n=\n= =\nm/s\n撤去外力后棒在安培力作用下做减速运动，安培力做负功先将棒的动能转化为电能，再通过电流做功将电\n能转化为内能，所以焦耳热等于棒的动能减少。有\n2\n2\n2\n1\n1\n0.1 6\n1.8\n2\n2\nk\nQ\nE\nmv\n= \n=\n=\n\n\n=\nJ\n（3）根据题意在撤去外力前的焦耳热为\n1\n2\n2\n3.6\nQ\nQ\n=\n=\nJ\n        撤去外力前拉力做正功、安培力做负功（其大小等于焦耳热Q1）、重力不做功共同使棒的动能增\n大，根据动能定理有\n1\nk\nF\nE\nW\nQ\n\n=\n−\n        则\n1\n3.6 1.8\n5.4\nk\nF\nk\nE\nW\nQ\nE\n\n=\n=\n+ \n=\n+\n=\nJ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012天津理综.pdf#q12",
+      "content": "（20 分）对铀235 的进一步研究在核能的开发和利用中具有重要意义。如图所示，质量为m、电荷量\n为q 的铀235 离子，从容器A 下方的小孔S1 不断飘入加速电场，其初速度可视为零，然后经过小孔S2 垂\n直与磁场方向进入磁感应强度为B 的均强磁场中，做半径为R 的匀速圆周运\n动，离子行进半个圆周后离开磁场并被收集，离开磁场时离子束的等效电流I。\n不考虑离子重力及离子间的相互作用。\n（1）求加速电场的电压U；\n（2）求出在离子被收集的过程中任意间t 内收集到离子的质量M；\n（3）实际上加速电压的大小会在U±ΔU 范围内微小变化。若容器A 中有电\n荷量相同的铀235 和铀238 两种离子，如前述情况它们经电场加速后进入磁\n场中发生分离，为使这两种离子在磁场中运动的轨迹不发生交叠，ΔU\nU 应小于多少？（结果用百分数表示，\n保留两位有效数字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）铀粒子在电场中加速到速度v，根据动能定理有\n2\n1\n2 mv\nqU\n=\n                                 ①\n         进入磁场后在洛伦兹力作用下做圆周运动，根据牛顿第二定律有\nS2\nS1\nU\nB\nA\n第7页（共7页）\n2\nmv\nqvB\nR\n=\n                                 ②\n         由以上两式化简得\n2\n2\n2\nqB R\nU\nm\n=\n                                 ③\n     （2）在时间t 内收集到的粒子个数为N，粒子总电荷量为Q，则\nQ\nIt\n=\n                                       ④\nQ\nN\nq\n=\n                                      ⑤\nM\nNm\n=\n                                    ⑥\n由④④⑤⑥式解得\nmIt\nM\nq\n=\n                                   ⑦\n（3）两种粒子在磁场中运动的轨迹不发生交叠，即不要重合，由可得半径为\n1\n2mU\nR\nB\nq\n=\n                               ⑧\n由此可知质量小的铀235 在电压最大时的半径存在最大值\nmax\n1\n2 (\n)\nm U\nU\nR\nB\nq\n+ \n=\n质量大的铀238 质量m在电压最小时的半径存在最小值\nmin\n1\n2 (\n)\nm U\nU\nR\nB\nq\n−\n=\n所以两种粒子在磁场中运动的轨迹不发生交叠的条件为\n1\n2 (\n)\nm U\nU\nB\nq\n+ \n＜1\n2 (\n)\nm U\nU\nB\nq\n−\n          ⑨\n化简得\nU\nU\n\n＜\n238\n235\n3\n0.63\n238\n235\n473\nm\nm\nu\nu\nm\nm\nu\nu\n−\n−\n=\n=\n=\n+\n+\n﹪   ⑩",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012天津理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p007-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p007-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-474df8b8fb5fc9df-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 15,
+    "answerGraphics": 0,
+    "assigned": 15,
+    "rendered": 15,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

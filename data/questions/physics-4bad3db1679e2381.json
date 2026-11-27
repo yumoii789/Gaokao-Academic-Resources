@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
   "name": "2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 16,
+    "answerBlocks": 0,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 16,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q01",
-      "content": "氘核可通过一系列聚变反应释放能量，总的反应效果可用 621H→242He + x10n + y11p +",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "氘核可通过一系列聚变反应释放能量，总的反应效果可用 621H→242He + x10n + y11p +\n43.15 MeV 表示，式中 x、y 的值分别为（    ）\nA．x = 1，y = 2\nB．x = 1，y = 3\nC．x = 2，y = 2\nD．x = 3，y = 2",
+      "answer": "C",
+      "analysis": "根据反应前后质量数和电荷数守恒可得\n6×2 = 2×4 + x + y，6 = 2×2 + y\n解得 x = 2，y = 2。\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q02",
-      "content": "15 MeV 表示，式中 x、y 的值分别为（    ）\nA．x = 1，y = 2\nB．x = 1，y = 3\nC．x = 2，y = 2\nD．x = 3，y = 2\n【详解】根据反应前后质量数和电荷数守恒可得\n6×2 = 2×4 + x + y，6 = 2×2 + y\n解得 x = 2，y = 2。\n故选 C。\n2．如图，一轻绳跨过光滑定滑轮，绳的一端系物块 P，P 置于\n水平桌面上，与桌面间存在摩擦；绳的另一端悬挂一轻盘（质\n量可忽略），盘中放置砝码。改变盘中砝码总质量 m，并测量\nP 的加速度大小 a，得到 a – m 图像。重力加速度大小为 g。\n在下列 a – m 图像中，可能正确的是（    ）\n【详解】设 P 的质量为 M，P 与桌面的动摩擦力为 f；以 P 为对象，根据牛顿第二定律可\n得\nT\nf\nMa\n−\n=\n以盘和砝码为对象，根据牛顿第二定律可得\nmg\nT\nma\n−\n=\n联立可得\na\nm\nO\nA\ng\na\nm\nO\nB\ng\na\nm\nO\nC\ng\na\nm\nO\nD\ng\n2 / 12\nf\ng\nmg\nf\nm\na\nm\nM\nm\nM\nm\n−\n−\n=\n=\n\n+\n+\n可知当砝码的重力大于 f 时，才有一定的加速度，当 m 趋于无穷大时，加速度趋近等于 g。\n故选 D。\n3．2024 年 5 月，嫦娥六号探测器发射成功，开启了人类首次从月球背面采样返回之旅。\n将采得的样品带回地球，飞行器需经过月面起飞、环月飞行、月地转移等过程。月球表面自\n由落体加速度约为地球表面自由落体加速度的 1\n6 。下列说法正确的是（    ）\nA．在环月飞行时，样品所受合力为零\nB．若将样品放置在月球正面，它对月球表面压力等于零\nC．样品在不同过程中受到的引力不同，所以质量也不同\nD．样品放置在月球背面时对月球的压力，比放置在地球表面时对地球的压力小\n【详解】A．在环月飞行时，样品所受合力提供所需的向心力，不为零，故 A 错误；\nBD．若将样品放置在月球正面，它对月球表面压力大小等于它在月球表面的重力大小；由\n于月球表面自由落体加速度约为地球表面自由落体加速度的 1\n6 ，则样品在地球表面的重力\n大于在月球表面的重力，所以样品放置在月球背面时对月球的压力，比放置在地球表面时对\n地球的压力小，故 B 错误，D 正确；\nC．样品在不同过程中受到的引力不同，但样品的质量相同，故 C 错误。\n故选 D。\n4．如图，一光滑大圆环固定在竖直平面内，质量为 m 的小环套在大\n圆环上，小环从静止开始由大圆环顶端经 Q 点自由下滑至其底部，\nQ 为竖直线与大圆环的切点。则小环下滑过程中对大圆环的作用力大\n小（    ）\nA．在 Q 点最大\nB．在 Q 点最小\nC．先减小后增大\nD．先增大后减小\n【详解】方法一（分析法）：设大圆环半径为 R，小环在大圆环上某处\n（P 点）与圆环的作用力恰好为零，如图所示\n设图中夹角为 θ，从大圆环顶端到 P 点过程，根据机械能守恒定律\n2\n1\n(1 cos )\n2\nmgR\nmv\n\n−\n=\n在 P 点，根据牛顿第二定律\n2\ncos\nv\nmg\nm R\n=\n联立解得\n2\ncos\n3\n=\n从大圆环顶端到 P 点过程，小环速度较小，小环重力沿着大圆环圆心方向的分力大于小环\n所需的向心力，所以大圆环对小环的弹力背离圆心，不断减小，从 P 点到最低点过程，小\n3 / 12\n环速度变大，小环重力和大圆环对小环的弹力合力提供向心力，所以大圆环对小环的弹力逐\n渐变大，根据牛顿第三定律可知小环下滑过程中对大圆环的作用力大小先减小后增大。\n方法二（数学法）：设大圆环半径为 R，小环在大圆环上某处时，设该处与圆心的连线与竖\n直向上的夹角为 (0\n)\n\n\n\n\n，根据机械能守恒定律\n2\n1\n(1 cos )\n2\nmgR\nmv\n\n−\n=\n(0\n)\n\n\n\n\n在该处根据牛顿第二定律\n2\ncos\nv\nF\nmg\nm R\n\n+\n=\n(0\n)\n\n\n\n\n联立可得\n2\n3\ncos\nF\nmg\nmg\n\n=\n−\n则大圆环对小环作用力的大小\n2\n3\ncos\nF\nmg\nmg\n\n=\n−\n根据数学知识可知 |F| 的大小在\n2\ncos\n3\n=\n时最小，结合牛顿第三定律可知小环下滑过程中\n对大圆环的作用力大小先减小后增大。\n故选 C。\n5．在电荷量为 Q 的点电荷产生的电场中，将无限\n远处的电势规定为零时，距离该点电荷r 处的电势为\nk Q\nr ，其中 k 为静电力常量，多个点电荷产生的电\n场中某点的电势，等于每个点电荷单独存在的该点的\n电势的代数和。电荷量分别为 Q1 和 Q2 的两个点电\n荷产生的电场的等势线如图中曲线所示（图中数字的\n单位是伏特），则（    ）\nA．Q1 < 0，Q1\nQ2 = − 2\nB．Q1 > 0，Q1\nQ2 = − 2\nC．Q1 < 0，Q1\nQ2 = − 3\nD．Q1 > 0，Q1\nQ2 = − 3\n【详解】根据两点电荷周围的电势分布可知 Q1 带正电，Q2 带负电；由图中电势为 0 的等\n势线可知\n1\n2\n1\n2\n0\nQ\nQ\nk\nk\nr\nr\n+\n=\n由图中距离关系可知\n1\n2\n6\n3\nr\nr =\n4 / 12\n联立解得\n1\n2\n2\nQ\nQ\n= −\n故选 B。\n6．如图，理想变压器的副线圈接入电路的匝数可通过滑动触\n头 T 调节，副线圈回路接有滑动变阻器 R、定值电阻 R0 和\nR1、开关S。S 处于闭合状态，在原线圈电压 U0 不变的情况\n下，为提高 R1 的热功率，可以（    ）\nA．保持 T 不动，滑动变阻器 R 的滑片向 f 端滑动\nB．将 T 向 b 端移动，滑动变阻器 R 的滑片位置不变\nC．将 T 向 a 端移动，滑动变阻器 R 的滑片向 f 端滑动\nD．将 T 向 b 端移动，滑动变阻器 R 的滑片向 e 端滑动\n【详解】A．保持 T 不动，根据理想变压器的性质可知副线圈中电压不变，当滑动变阻器\nR 的滑片向 f 端滑动时，R 与 R1 串联后的总电阻减小，电流增大，根据 P = I2R1 可知此\n时热功率增大，故 A 正确；\nB．将 T 向 b 端移动，副线圈匝数变小，故副线圈两端电压变小，滑动变阻器 R 的滑片\n位置不变时，通过 R1 的电流减小，故热功率减小，故 B 错误；\nC．将 T 向 a 端移动，副线圈匝数增加，故副线圈两端电压变大，滑动变阻器 R 的滑片向\nf 端滑动，R 与 R1 串联后的总电阻减小，电流增大，此时热功率增大，故 C 正确；\nD．将 T 向 b 端移动，副线圈匝数减少，故副线圈两端电压变小，滑动变阻器 R 的滑片\n向 e 端滑动，R 与 R1 串联后的总电阻增大，电流减小，此时热功率减小，故 D 错误。\n故选 AC。\n7．蹦床运动中，体重为 60 kg 的运动员在 t = 0 时刚好落到蹦床上，对蹦床作用力大小 F\n与时间 t 的关系如图所示。假设运动过程中运动员身体始终保持竖直，在其不与蹦床接触\n时蹦床水平。忽略空气阻力，重力加速度大小取 10 m/s2。下列说法正确的是（    ）\nA．t = 0.15 s 时，运动员的重力势能最大\nB．t = 0.30 s 时，运动员的速度大小为 10 m/s\nC．t = 1.00 s 时，运动员恰好运动到最大高度处\nD．运动员每次与蹦床接触到离开过程中对蹦床的平均作用力大小为 4600 N\n【详解】A．根据牛顿第三定律结合题图可知 t = 0.15 s 时，蹦床对运动员的弹力最大，蹦\n床的形变量最大，此时运动员处于最低点，运动员的重力势能最小，故A 错误；\nBC．根据题图可知运动员从 t = 0.30 s 离开蹦床到 t = 2.3 s 再次落到蹦床上经历的时间为\n2 s，根据竖直上抛运动的对称性可知，运动员上升时间为 1 s，则在 t = 1.3 s 时，运动员恰\n好运动到最大高度处，t = 0.30 s 时运动员的速度大小\nv = 10×1 m/s = 10 m/s\n故 B 正确，C 错误；\n5 / 12\nD．同理可知运动员落到蹦床时的速度大小为 10 m/s，以竖直向上为正方向，根据动量定理\nFΔt – mgΔt = mv – (− mv)\n其中 Δt = 0.3 s\n代入数据可得 F = 4600 N\n根据牛顿第三定律可知运动员每次与蹦床接触到离开过程中对蹦床的平均作用力大小为\n4600 N，故 D 正确。\n故选 BD。\n8．如图，一绝缘细绳跨过两个在同一竖直面（纸面）内的光滑定滑轮，\n绳的一端连接一矩形金属线框，另一端连接一物块。线框与左侧滑轮之\n间的虚线区域内有方向垂直纸面的匀强磁场，磁场上下边界水平，在 t\n= 0 时刻线框的上边框以不同的初速度从磁场下方进入磁场。运动过程\n中，线框始终在纸面内且上下边框保持水平。以向上为速度的正方向，\n下列线框的速度 v 随时间 t 变化的图像中可能正确的是（    ）\n【详解】设线圈的上边进入磁场时的速度为v，设线圈的质量M，物块的质量m，图中线圈\n进入磁场时线圈的加速度向下，则对线圈由牛顿第二定律可知\nMg\nF\nT\nMa\n+\n−\n=\n安\n对滑块 T\nmg\nma\n−\n=\n其中\n2\n2\nB L v\nF\nR\n=\n安\n即\n2\n2\n(\n)\n(\n)\nB L v\nM\nm g\nM\nm a\nR\n+\n−\n=\n+\n线圈向上做减速运动，随速度的减小，向下的加速度减小；当加速度为零时，即线圈匀速运\n动的速度为\n0\n2\n2\n(\n)\nM\nm gR\nv\nB L\n−\n=\n。\nA．若线圈进入磁场时的速度较小，则线圈进入磁场时做加速度减小的减速运动，线圈的速\n度和加速度都趋近于零，则图像 A 可能正确；\nB．因 t = 0 时刻线圈就进入磁场，则进入磁场时线圈向上不可能做匀减速运动，则图像 B\n不可能；\nCD．若线圈的质量等于物块的质量，且当线圈进入磁场时，且速度大于 v0，线圈进入磁场\n做加速度减小的减速运动，完全进入磁场后线圈做匀速运动；当线圈出离磁场时，受向下的\n安培力又做加速度减小的减速运动，最终出离磁场时做匀速运动，则图像 C 有可能，D 不\n可能。\nv\nt\nO\nA\nv\nt\nO\nB\nv\nt\nO\nC\nv\nt\nO\nD\n6 / 12\n故选 AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，一轻绳跨过光滑定滑轮，绳的一端系物块 P，P 置于\n水平桌面上，与桌面间存在摩擦；绳的另一端悬挂一轻盘（质\n量可忽略），盘中放置砝码。改变盘中砝码总质量 m，并测量\nP 的加速度大小 a，得到 a – m 图像。重力加速度大小为 g。\n在下列 a – m 图像中，可能正确的是（    ）",
+      "answer": "D",
+      "analysis": "设 P 的质量为 M，P 与桌面的动摩擦力为 f；以 P 为对象，根据牛顿第二定律可\n得\nT\nf\nMa\n−\n=\n以盘和砝码为对象，根据牛顿第二定律可得\nmg\nT\nma\n−\n=\n联立可得\na\nm\nO\nA\ng\na\nm\nO\nB\ng\na\nm\nO\nC\ng\na\nm\nO\nD\ng\n2 / 12\nf\ng\nmg\nf\nm\na\nm\nM\nm\nM\nm\n−\n−\n=\n=\n\n+\n+\n可知当砝码的重力大于 f 时，才有一定的加速度，当 m 趋于无穷大时，加速度趋近等于 g。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -56,22 +71,220 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
         "page": 1,
-        "questionNumber": 43,
+        "endPage": 2,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q03",
-      "content": "（5 分）学生小组为了探究超重和失重现象，将弹簧测力计挂在电\n梯内，测力计下端挂一物体。已知当地重力加速度大小为 9.8 m/s2。\n（1）电梯静止时测力计示数如图所示，读数为_____N（结果保留 1\n位小数）；\n（2）电梯上行时，一段时间内测力计的示数为 4.5 N，则此段时间内\n物体处于_____（填“超重”或“失重”）状态，电梯加速度大小为\n_____m/s2（结果保留 1 位小数）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2024 年 5 月，嫦娥六号探测器发射成功，开启了人类首次从月球背面采样返回之旅。\n将采得的样品带回地球，飞行器需经过月面起飞、环月飞行、月地转移等过程。月球表面自\n由落体加速度约为地球表面自由落体加速度的 1\n6 。下列说法正确的是（    ）\nA．在环月飞行时，样品所受合力为零\nB．若将样品放置在月球正面，它对月球表面压力等于零\nC．样品在不同过程中受到的引力不同，所以质量也不同\nD．样品放置在月球背面时对月球的压力，比放置在地球表面时对地球的压力小",
+      "answer": "D",
+      "analysis": "A．在环月飞行时，样品所受合力提供所需的向心力，不为零，故 A 错误；\nBD．若将样品放置在月球正面，它对月球表面压力大小等于它在月球表面的重力大小；由\n于月球表面自由落体加速度约为地球表面自由落体加速度的 1\n6 ，则样品在地球表面的重力\n大于在月球表面的重力，所以样品放置在月球背面时对月球的压力，比放置在地球表面时对\n地球的压力小，故 B 错误，D 正确；\nC．样品在不同过程中受到的引力不同，但样品的质量相同，故 C 错误。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q04",
+      "content": "如图，一光滑大圆环固定在竖直平面内，质量为 m 的小环套在大\n圆环上，小环从静止开始由大圆环顶端经 Q 点自由下滑至其底部，\nQ 为竖直线与大圆环的切点。则小环下滑过程中对大圆环的作用力大\n小（    ）\nA．在 Q 点最大\nB．在 Q 点最小\nC．先减小后增大\nD．先增大后减小",
+      "answer": "C",
+      "analysis": "方法一（分析法）：设大圆环半径为 R，小环在大圆环上某处\n（P 点）与圆环的作用力恰好为零，如图所示\n设图中夹角为 θ，从大圆环顶端到 P 点过程，根据机械能守恒定律\n2\n1\n(1 cos )\n2\nmgR\nmv\n\n−\n=\n在 P 点，根据牛顿第二定律\n2\ncos\nv\nmg\nm R\n=\n联立解得\n2\ncos\n3\n=\n从大圆环顶端到 P 点过程，小环速度较小，小环重力沿着大圆环圆心方向的分力大于小环\n所需的向心力，所以大圆环对小环的弹力背离圆心，不断减小，从 P 点到最低点过程，小\n3 / 12\n环速度变大，小环重力和大圆环对小环的弹力合力提供向心力，所以大圆环对小环的弹力逐\n渐变大，根据牛顿第三定律可知小环下滑过程中对大圆环的作用力大小先减小后增大。\n方法二（数学法）：设大圆环半径为 R，小环在大圆环上某处时，设该处与圆心的连线与竖\n直向上的夹角为 (0\n)\n\n\n\n\n，根据机械能守恒定律\n2\n1\n(1 cos )\n2\nmgR\nmv\n\n−\n=\n(0\n)\n\n\n\n\n在该处根据牛顿第二定律\n2\ncos\nv\nF\nmg\nm R\n\n+\n=\n(0\n)\n\n\n\n\n联立可得\n2\n3\ncos\nF\nmg\nmg\n\n=\n−\n则大圆环对小环作用力的大小\n2\n3\ncos\nF\nmg\nmg\n\n=\n−\n根据数学知识可知 |F| 的大小在\n2\ncos\n3\n=\n时最小，结合牛顿第三定律可知小环下滑过程中\n对大圆环的作用力大小先减小后增大。\n故选 C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q004-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q05",
+      "content": "在电荷量为 Q 的点电荷产生的电场中，将无限\n远处的电势规定为零时，距离该点电荷r 处的电势为\nk Q\nr ，其中 k 为静电力常量，多个点电荷产生的电\n场中某点的电势，等于每个点电荷单独存在的该点的\n电势的代数和。电荷量分别为 Q1 和 Q2 的两个点电\n荷产生的电场的等势线如图中曲线所示（图中数字的\n单位是伏特），则（    ）\nA．Q1 < 0，Q1\nQ2 = − 2\nB．Q1 > 0，Q1\nQ2 = − 2\nC．Q1 < 0，Q1\nQ2 = − 3\nD．Q1 > 0，Q1\nQ2 = − 3",
+      "answer": "B",
+      "analysis": "根据两点电荷周围的电势分布可知 Q1 带正电，Q2 带负电；由图中电势为 0 的等\n势线可知\n1\n2\n1\n2\n0\nQ\nQ\nk\nk\nr\nr\n+\n=\n由图中距离关系可知\n1\n2\n6\n3\nr\nr =\n4 / 12\n联立解得\n1\n2\n2\nQ\nQ\n= −\n故选 B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q005-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q005-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q06",
+      "content": "如图，理想变压器的副线圈接入电路的匝数可通过滑动触\n头 T 调节，副线圈回路接有滑动变阻器 R、定值电阻 R0 和\nR1、开关S。S 处于闭合状态，在原线圈电压 U0 不变的情况\n下，为提高 R1 的热功率，可以（    ）\nA．保持 T 不动，滑动变阻器 R 的滑片向 f 端滑动\nB．将 T 向 b 端移动，滑动变阻器 R 的滑片位置不变\nC．将 T 向 a 端移动，滑动变阻器 R 的滑片向 f 端滑动\nD．将 T 向 b 端移动，滑动变阻器 R 的滑片向 e 端滑动",
+      "answer": "AC",
+      "analysis": "A．保持 T 不动，根据理想变压器的性质可知副线圈中电压不变，当滑动变阻器\nR 的滑片向 f 端滑动时，R 与 R1 串联后的总电阻减小，电流增大，根据 P = I2R1 可知此\n时热功率增大，故 A 正确；\nB．将 T 向 b 端移动，副线圈匝数变小，故副线圈两端电压变小，滑动变阻器 R 的滑片\n位置不变时，通过 R1 的电流减小，故热功率减小，故 B 错误；\nC．将 T 向 a 端移动，副线圈匝数增加，故副线圈两端电压变大，滑动变阻器 R 的滑片向\nf 端滑动，R 与 R1 串联后的总电阻减小，电流增大，此时热功率增大，故 C 正确；\nD．将 T 向 b 端移动，副线圈匝数减少，故副线圈两端电压变小，滑动变阻器 R 的滑片\n向 e 端滑动，R 与 R1 串联后的总电阻增大，电流减小，此时热功率减小，故 D 错误。\n故选 AC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q006-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q006-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q07",
+      "content": "蹦床运动中，体重为 60 kg 的运动员在 t = 0 时刚好落到蹦床上，对蹦床作用力大小 F\n与时间 t 的关系如图所示。假设运动过程中运动员身体始终保持竖直，在其不与蹦床接触\n时蹦床水平。忽略空气阻力，重力加速度大小取 10 m/s2。下列说法正确的是（    ）\nA．t = 0.15 s 时，运动员的重力势能最大\nB．t = 0.30 s 时，运动员的速度大小为 10 m/s\nC．t = 1.00 s 时，运动员恰好运动到最大高度处\nD．运动员每次与蹦床接触到离开过程中对蹦床的平均作用力大小为 4600 N",
+      "answer": "BD",
+      "analysis": "A．根据牛顿第三定律结合题图可知 t = 0.15 s 时，蹦床对运动员的弹力最大，蹦\n床的形变量最大，此时运动员处于最低点，运动员的重力势能最小，故A 错误；\nBC．根据题图可知运动员从 t = 0.30 s 离开蹦床到 t = 2.3 s 再次落到蹦床上经历的时间为\n2 s，根据竖直上抛运动的对称性可知，运动员上升时间为 1 s，则在 t = 1.3 s 时，运动员恰\n好运动到最大高度处，t = 0.30 s 时运动员的速度大小\nv = 10×1 m/s = 10 m/s\n故 B 正确，C 错误；\n5 / 12\nD．同理可知运动员落到蹦床时的速度大小为 10 m/s，以竖直向上为正方向，根据动量定理\nFΔt – mgΔt = mv – (− mv)\n其中 Δt = 0.3 s\n代入数据可得 F = 4600 N\n根据牛顿第三定律可知运动员每次与蹦床接触到离开过程中对蹦床的平均作用力大小为\n4600 N，故 D 正确。\n故选 BD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q007-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q007-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q08",
+      "content": "如图，一绝缘细绳跨过两个在同一竖直面（纸面）内的光滑定滑轮，\n绳的一端连接一矩形金属线框，另一端连接一物块。线框与左侧滑轮之\n间的虚线区域内有方向垂直纸面的匀强磁场，磁场上下边界水平，在 t\n= 0 时刻线框的上边框以不同的初速度从磁场下方进入磁场。运动过程\n中，线框始终在纸面内且上下边框保持水平。以向上为速度的正方向，\n下列线框的速度 v 随时间 t 变化的图像中可能正确的是（    ）",
+      "answer": "AC",
+      "analysis": "设线圈的上边进入磁场时的速度为v，设线圈的质量M，物块的质量m，图中线圈\n进入磁场时线圈的加速度向下，则对线圈由牛顿第二定律可知\nMg\nF\nT\nMa\n+\n−\n=\n安\n对滑块 T\nmg\nma\n−\n=\n其中\n2\n2\nB L v\nF\nR\n=\n安\n即\n2\n2\n(\n)\n(\n)\nB L v\nM\nm g\nM\nm a\nR\n+\n−\n=\n+\n线圈向上做减速运动，随速度的减小，向下的加速度减小；当加速度为零时，即线圈匀速运\n动的速度为\n0\n2\n2\n(\n)\nM\nm gR\nv\nB L\n−\n=\n。\nA．若线圈进入磁场时的速度较小，则线圈进入磁场时做加速度减小的减速运动，线圈的速\n度和加速度都趋近于零，则图像 A 可能正确；\nB．因 t = 0 时刻线圈就进入磁场，则进入磁场时线圈向上不可能做匀减速运动，则图像 B\n不可能；\nCD．若线圈的质量等于物块的质量，且当线圈进入磁场时，且速度大于 v0，线圈进入磁场\n做加速度减小的减速运动，完全进入磁场后线圈做匀速运动；当线圈出离磁场时，受向下的\n安培力又做加速度减小的减速运动，最终出离磁场时做匀速运动，则图像 C 有可能，D 不\n可能。\nv\nt\nO\nA\nv\nt\nO\nB\nv\nt\nO\nC\nv\nt\nO\nD\n6 / 12\n故选 AC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q008-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q008-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q008-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q008-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q008-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q09",
+      "content": "（5 分）学生小组为了探究超重和失重现象，将弹簧测力计挂在电\n梯内，测力计下端挂一物体。已知当地重力加速度大小为 9.8 m/s2。\n（1）电梯静止时测力计示数如图所示，读数为_____N（结果保留 1\n位小数）；\n（2）电梯上行时，一段时间内测力计的示数为 4.5 N，则此段时间内\n物体处于_____（填“超重”或“失重”）状态，电梯加速度大小为\n_____m/s2（结果保留 1 位小数）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由图可知弹簧测力计的分度值为 0.5 N，则读数为 5.0 N。\n（2）电梯上行时，一段时间内测力计的示数为 4.5 N，小于物体的重\n力可知此段时间内物体处于失重状态；\n根据\n5.0N\nG\nmg\n=\n=\n根据牛顿第二定律 mg\nT\nma\n−\n=\n代入数据联立解得电梯加速度大小\n2\n1.0m/s\na ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -79,11 +292,244 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q009-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q009-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q10",
+      "content": "（10 分）电阻型氧气传感器的阻值会随所处环境中\n的氧气含量发生变化。在保持流过传感器的电流（即工\n作电流）恒定的条件下，通过测量不同氧气含量下传感\n器两端的电压，建立电压与氧气含量之间的对应关系，\n这一过程称为定标。一同学用图（a）所示电路对他制作\n的一个氧气传感器定标。实验器材有：装在气室内的氧\n气传感器（工作电流 1 mA）、毫安表（内阻可忽略）、电\n压表、电源、滑动变阻器、开关、导线若干、5 个气瓶（氧\n气含量分别为 1%、5%、10%、15%、20%）。\n（1）将图（a）中的实验器材间的连线补充完整_____，\n使其能对传感器定标；\n（2）连接好实验器材，把氧气含量为 1% 的气瓶接到气\n体入口；\n（3）把滑动变阻器的滑片滑到_____端（填“a”或“b”），闭合开关；\n（4）缓慢调整滑动变阻器的滑片位置，使毫安表的示数为 1 mA，记录电压表的示数 U；\n（5）断开开关，更换气瓶，重复步骤（3）和（4）；\n（6）获得的氧气含量分别为 1%、5%、10% 和 15% 的数据已标在图（b）中；氧气含量为\n20% 时电压表的示数如图（c），该示数为______V（结果保留2 位小数）。\n（7）现测量一瓶待测氧气含量的气体，将气瓶接到气体入口，调整滑动变阻器滑片位置使\n毫安表的示数为 1 mA，此时电压表的示数为 1.50 V，则此瓶气体的氧气含量为_____%（结\n果保留整数）。\n7 / 12",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）为了保持流过传感器的电流恒定，电阻型氧气传感器两端的电压调节范围较大，\n所以滑动变阻器采用分压式接法，由于毫安表内阻可忽略，所以电流表采用内接法，实物连\n接图如图所示\n（3）为了保护电路，闭合开关前，需要电阻型氧气传感器两端的电压为零，故滑动变阻器\n的滑片滑到 a 端口；\n（6）由图可知，电压表的分度值为 0.1 V，需要估读到分度值下一位，其读数为 1.40 V；\n当瓶气体的氧气含量为 20 % 时，电压为 1.40 V，在图（b）中描出该点，用平滑的曲线将\n各点连接起来，如图所示\n可知电压表的示数为 1.50 V 时，此瓶气体的氧气含量为 17%。\n8 / 12",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 6,
+        "endPage": 8,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q010-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q010-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q010-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q11",
+      "content": "（12 分）为抢救病人，一辆救护车紧急出发，鸣着笛沿水平直路从 t = 0 时由静止开始\n做匀加速运动，加速度大小 a = 2 m/s2，在 t1 = 10 s 时停止加速开始做匀速运动，之后某时\n刻救护车停止鸣笛，t2 = 41 s 时在救护车出发处的人听到救护车发出的最后的鸣笛声。已知\n声速 v0 = 340 m/s，求：\n（1）救护车匀速运动时的速度大小；\n（2）在停止鸣笛时救护车距出发处的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据匀变速运动速度公式\n1\nv\nat\n=\n可得救护车匀速运动时的速度大小\nv = 2×10 m/s = 20 m/s\n（2）救护车加速运动过程中的位移\n2\n1\n1\n1\n100m\n2\nx\nat\n=\n=\n设在 t3 时刻停止鸣笛，根据题意可得\n3\n1\n3\n2\n0\n(\n)20 100\nt\nt\nt\nt\nv\n−\n+\n+\n=\n停止鸣笛时救护车距出发处的距离\n1\n3\n1\n(\n)\nx\nx\nt\nt\nv\n=\n+\n−\n\n代入数据联立解得\n680m\nx =",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 8,
+        "endPage": 8,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q12",
+      "content": "（20 分）如图，金属导轨平行且水平放置，导轨间距为\nL，导轨光滑无摩擦。定值电阻大小为 R，其余电阻忽略不计，\n电容大小为 C。在运动过程中，金属棒始终与导轨保持垂直。\n整个装置处于竖直方向且磁感应强度为 B 的匀强磁场中。\n（1）开关 S 闭合时，对金属棒施加以水平向右的恒力，金属棒能达到的最大速度为 v0。\n当外力功率为定值电阻功率的两倍时，求金属棒速度 v 的大小。\n（2）当金属棒速度为 v 时，断开开关 S，改变水平外力并使金属棒匀速运动。当外力功率\n为定值电阻功率的两倍时，求电容器两端的电压以及从开关断开到此刻外力所做的功。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）开关 S 闭合后，当外力与安培力相等时，金属棒的速度最大，则\nF\nF\nBIL\n=\n=\n安\n由闭合电路欧姆定律\nE\nI\nR\n=\n金属棒切割磁感线产生的感应电动势为\n0\nE\nBLv\n=\n联立可得，恒定的外力为\n2\n2\n0\nB L v\nF\nR\n=\n在加速阶段，外力的功率为\n2\n2\n0\nF\nB L v\nP\nFv\nv\nR\n=\n=\n9 / 12\n定值电阻的功率为\n2\n2\n2\n2\nR\nB L v\nP\nI R\nR\n=\n=\n若\nF\nR\n2\nP\nP\n=\n 时，即\n2\n2\n2\n2\n2\n0\n2\nB L v\nB L v\nv\nR\nR\n=\n化简可得金属棒速度 v 的大小为 v = v0\n2\n（2）断开开关S，电容器充电，则电容器与定值电阻串联，则有\nq\nE\nBLv\nIR\nC\n=\n=\n+\n当金属棒匀速运动时，电容器不断充电，电荷量 q 不断增大，电路中电流不断减小，则金\n属棒所受安培力F\nBIL\n=\n安\n不断减小，而拉力的功率\nF\n'\nP\nF v\nBILv\n=\n=\n定值电阻功率\n2\nR\nP\nI R\n=\n当\nF\nR\n2\nP\nP\n=\n时有\n2\n2\nBILv\nI R\n=\n可得\n2\nBLv\nIR =\n根据\nq\nE\nBLv\nIR\nC\n=\n=\n+\n可得此时电容器两端电压为 U = 1\n4 BLv0\n0\n1\n2\n4\nC\nq\nBLv\nU\nBLv\nC\n=\n=\n=\n从开关断开到此刻外力所做的功为\n(\n)\nW\nBIL v\nt\nBLv I\nt\nBLvq\n= \n\n=\n=\n其中\n2\nCBLv\nq =\n联立可得 W = 1\n8 CB2L2v02\n（二）选考题：共45 分。请考生从给出的2 道物理题、2 道化学题、2 道生物题中每科任选\n一题作答，并用2B 铅笔在答题卡上把所选题目题号后的方框涂黑。注意所做题目的题号必\n须与所涂题目的题号一致，并且在解答过程中写清每问的小题号，在答题卡指定位置答题。\n如果多做则每学科按所做的第一题计分。\n[物理——选修3-3]（15 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q012-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q13",
+      "content": "（5 分）如图，四个相同的绝热试管分别倒立在盛水的烧杯 a、b、c、d 中，平衡后烧\n杯 a、b、c 中的试管内外水面的高度差相同，烧杯d 中试管内水面高于试管外水面。已知\n四个烧杯中水的温度分别为 ta、tb、tc、td，且 ta < tb < tc = td。水的密度随温度的变化忽略不\n10 / 12\n计。下列说法正确的是（    ）\nA．a 中水的饱和气压最小\nB．a、b 中水的饱和气压相等\nC．c、d 中水的饱和气压相等\nD．a、b 中试管内气体的压强相等\nE．d 中试管内气体的压强比 c 中的大",
+      "answer": "ACD",
+      "analysis": "A．同一物质的饱和气压与温度有关，温度越大，饱和气压越大，a 中水的温度最\n低，则 a 中水的饱和气压最小，故 A 正确；\nB．同理，a 中水的温度小于 b 中水的温度，则 a 中水的饱和气压小于 b 中水的饱和气压，\n故B 错误；\nC．c 中水的温度等于 d 中水的温度，则 c、d 中水的饱和气压相等，故 C 正确；\nD．设大气压强为 p0，试管内外水面的高度差为 Δh，则 a、b 中试管内气体的压强均为\n0\np\np\ng h\n\n=\n+\n\n水\n故 D 正确；\nE．d 中试管内气体的压强为\n0\ndp\np\ng h\n\n=\n−\n\n水\nC 中试管内气体的压强为\n0\ncp\np\ng h\n\n=\n+\n\n水\n可知\nd\nc\np\np\n\n故 E 错误。\n故选 ACD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q013-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q013-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q14",
+      "content": "（10 分）如图，一竖直放置的汽缸内密封有一定量的气体，一不计厚\n度的轻质活塞可在汽缸内无摩擦滑动，移动范围被限制在卡销 a、b 之间，\nb 与汽缸底部的距离 bc = 10ab，活塞的面积为 1.0×10−2 m2。初始时，活\n塞在卡销 a 处，汽缸内气体的压强、温度与活塞外大气的压强、温度相\n同，分别为 1.0×105 Pa 和 300 K。在活塞上施加竖直向下的外力，逐渐\n增大外力使活塞缓慢到达卡销  b 处（过程中气体温度视为不变），外力\n增加到 200 N 并保持不变。\n（1）求外力增加到 200 N 时，卡销 b 对活塞支持力的大小；\n（2）再将汽缸内气体加热使气体温度缓慢升高，求当活塞刚好能离开卡销 b 时气体的温度。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）活塞从位置 a 到 b 过程中，气体做等温变化，初态\n5\n1\n1.0 10 Pa\np =\n\n、\n1\n11 b\nV\nS\na\n=\n\n末态\n2\n?\np =\n、\n2\n10 b\nV\nS\na\n=\n\n11 / 12\n根据\n1\n1\n2\n2\np V\np V\n=\n解得\n5\n2\n1.1 10 Pa\np =\n\n此时对活塞根据平衡条件\n1\n2\nF\np S\np S\nN\n+\n=\n+\n解得卡销 b 对活塞支持力的大小\nN = 100 N\n（2）将汽缸内气体加热使气体温度缓慢升高，当活塞刚好能离开卡销b 时，气体做等容变\n化，初态\n5\n2\n1.1 10 Pa\np =\n\n，\n2\n300K\nT =\n末态，对活塞根据平衡条件\n3\n1\np S\nF\np S\n=\n+\n解得\n5\n3\n1.2 10 Pa\np =\n\n设此时温度为\n3T ，根据\n3\n2\n2\n3\np\np\nT\nT\n=\n解得\n3\n327K\nT \n[物理——选修3-4]（15 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q014-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q014-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q15",
+      "content": "（5 分）一列简谐横波沿x 轴传播，周期为 2 s，\nt = 0 时刻的波形曲线如图所示，此时介质中质点 b\n向 y 轴负方向运动，下列说法正确的是（    ）\nA．该波的波速为 1.0 m/s\nB．该波沿 x 轴正方向传播\nC．t = 0.25 s 时质点 a 和质点 c 的运动方向相反\nD．t = 0.5 s 时介质中质点 a 向 y 轴负方向运动\nE．t = 1.5 s 时介质中质点 b 的速率达到最大值",
+      "answer": "ACD",
+      "analysis": "A．由图可知波长为\n2m\n=\n则该波的波速为\n2 m / s\n1.0m / s\n2\nv\nT\n=\n=\n=\n\n故 A 正确；\nB．此时介质中质点 b 向 y 轴负方向运动，根据波形平移法可知，该波沿 x 轴负方向传播，\n故 B 错误；\nC．由于质点 a 和质点 c 之间的距离为半个波长，则质点 a 和质点 c 的振动完全相反，\n所以 t = 0.25 s 时质点 a 和质点 c 的运动方向相反，故C 正确；\nD．t = 0 时刻质点 a 处于波峰位置，则 t = 0.5 s 时，质点 a 刚好经过平衡位置向 y 轴负\n方向运动，故 D 正确；\n12 / 12\nE．t = 0 时刻质点 b 处于平衡位置向 y 轴负方向运动，则 t = 1.5 s 时，质点 b 刚好处于\n波峰位置，此时质点 b 的速率为 0，故 E 错误。\n故选 ACD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q015-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q015-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf#q16",
+      "content": "（10 分）一玻璃柱的折射率 n =\n3 ，其横截面为四分之一圆，\n圆的半径为 R，如图所示。截面所在平面内，一束与 AB 边平行的光\n线从圆弧入射。入射光线与 AB 边的距离由小变大，距离为 h 时，光\n线进入柱体后射到 BC 边恰好发生全反射。求此时 h 与 R 的比值。",
+      "answer": "暂无结构化答案",
+      "analysis": "如图，画出光路图。可知\nsin\n3\nsin\nn\n\n=\n=\n设临界角为 C，得\n1\n3\nsin\n3\nC\nn\n=\n=\n，\n6\ncos\n3\nC =\n根据\nC\n\n\n=\n+\n可得\n(\n)\nsin\n3\nsin\nC\n\n\n+\n=\n解得\n1\ntan\n3\n2\n=\n−\n故可得\n1\nsin\n12\n6 2\n=\n−\n故可知\nsin\n3sin\nh\nR\n\n\n=\n=\n=\n1\n4 − 2 2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024全国理综(内蒙古,四川,西藏,陕西,青海,宁夏).pdf",
+        "page": 12,
+        "endPage": 12,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q016-p012-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q016-p012-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4bad3db1679e2381-q016-p012-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 25,
+    "answerGraphics": 0,
+    "assigned": 25,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

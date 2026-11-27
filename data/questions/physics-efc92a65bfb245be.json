@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
   "name": "2006重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 3,
+    "reviewCount": 9,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q01",
       "content": "如右图，在同一竖直面内，小球 a、b 从高度不同的两点，\n分别以初速度 va 和 vb 沿水平方向抛出，经过时间 ta 和 tb 后\n落到与两抛出点水平距离相等的 P 点。若不计空气阻力，下列关\n系式正确的是（   ）\n（A）ta > tb，va < vb\n（B）ta > tb，va > vb\n（C）ta < tb，va < vb\n（D）ta < tb，va > vb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q02",
       "content": "宇航员在月球上做自由落体实验，将某物体由距月球表面高h 处释放，经时间t 后落\n到月球表面（设月球半径为R）。据上述信息推断，飞船在月球表面附近绕月球做匀速圆周\n运动所必须具有的速率为（       ）\n（A）A2 Rh\nEt\nE\nA\n（B）A 2Rh\nEt\nE\nA\n（C）A Rh\nEt\nE\nA\n（D）A Rh\nE2t\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q03",
       "content": "如右题图，某同学将空的薄金属筒开口向下压入水中。设水温\n均匀且恒定，筒内空气无泄漏，不计气体分子间相互作用，则被淹\n没的金属筒在缓慢下降过程中，筒内空气体积减小（     ）\n（A）从外界吸热\n（B）内能增大\n（C）向外界放热\n（D）内能减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q04",
       "content": "14C 是一种半衰期为5730 年的放射性同位素，若考古工作者探测到某古木中14C 的含\n量为原来的1/4，则该古树死亡时间距今大约（      ）\n（A）22920 年\n（B）11460 年\n（C）5730 年\n（D）2865 年",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q05",
       "content": "右图为一列沿x轴正方向传播的简谐横波\n在t = 0 时的波形。当R 点在t = 0 时的振动状\n态传到S 点时，PR 范围内（含P、R）有一些\n质点正在向y 轴负方向运动，这些质点的x 坐\n标取值范围是（     ）\n（A）2cm≤x≤4cm\n（B）2cm < x < 4cm\n（C）2cm≤x < 3cm\n（D）2cm < x≤3cm\na\nb\nva\nvb\nP\n多项选择题（本题包括3 小题。每小题给出的四个选项中，至少有两个选项是正确的，每\n题6 分，不全3 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -125,22 +168,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q06",
       "content": "如右图，带正电的点电荷固定于Q 点，电子在库仑力作用下，做以Q 为焦点的椭圆运\n动。M、P、N 为椭圆上的三点，P 点是轨道上离Q 最近的点。电子在从M 经P 到达N 点\n的过程中（    ）\n（A）速率先增大后减小\n（B）速率先减小后增大\n（C）电势能先减小后增大\n（D）电势能先增大后减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -148,22 +201,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q07",
       "content": "△OMN 为玻璃等腰三棱镜的横截面。a、b 两束可见\n单色光从空气垂直射入棱镜底面MN，在棱镜侧面OM、\nON 上反射和折射的情况如图所示。由此可知（      ）\n（A）棱镜内a 光的传播速度比b 光的小\n（B）棱镜内a 光的传播速度比b 光的大\n（C）a 光的频率比b 光的高\n（D）a 光的波长比b 光的长",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -171,22 +234,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q08",
       "content": "两根相距为L 的足够长的金属直角导轨如右图所示放\n置，它们各有一边在同一水平面内，另一边垂直于水平面。\n质量均为m 的金属细杆ab、cd 与导轨垂直接触形成闭合回\n路，杆与导轨之间的动摩擦因数均为μ，导轨电阻不计，回\n路总电阻为2R。整个装置处于磁感应强度大小为B，方向竖\n直向上的匀强磁场中。当ab 杆在平行于水平导轨的拉力F\n作用下以速度v1 沿导轨匀速运动时，cd 杆也正好以速度v2\n向下匀速运动。重力加速度为g。以下说法正确的是（    ）\n（A）ab 杆所受拉力F 的大小为μmg + AB2L2v1\n2R\nE\n（B）cd 杆所受摩擦力为零\n（C）回路中的电流强度为\nABL（v1 + v2）\n2R\nE\n（D）μ 与v1 大小的关系为μ = A 2Rmg\nB2L2v1\nE\n第Ⅱ卷",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -194,22 +267,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q09",
       "content": "（17 分）\n（1）用已调零且选择旋钮指向欧姆挡“×10”位置的多用电表测某电阻阻值，根据右图所\n示的表盘，被测电阻阻值为_________Ω。若将该表选择旋钮置于1 mA 挡测电流，表盘仍\n如右图所示，则被测电流为_______mA。\nB\nL\nL\na\nb\nc\nd\nF\nP\nM\nQ\nN\na\nM\nO\nN\nb\n（2）某同学用如图（a）所示装置测量重力加速度g，所用交流电频率为50 Hz。在所选纸\n带上取某点为0 号计数点，然后每3 个点取一个计数点。所有测量数据及其标记符号如图\n（b）所示。\n该同学用两种方法处理数据（T 为相邻两计数点的时间间隔）：\n方法A：由g1 = As2 − s1\nT2\nE\nA，g2 = As3 − s2\nT2\nE\nA，……，g5 = As6 − s5\nT2\nE\nA，取平均值g = 8.667 m/s2；\n方法B：由g1 = As4 − s1\n3T2\nE\nA，g2 = As5 − s2\n3T2\nE\nA，g3 = As6 − s3\n3T2\nE\nA，取平均值g = 8.673 m/s2。\n从数据处理方法看，在s1、s2、s3、s4、s5、s6 中，对实验结果起作用的，方法A 中有________；\n方法B 中有_____。因此，选择方法_____（A 或B）更合理，这样可以减少实验的________\n（系统或偶然）误差。本实验误差的主要来源有_____________________（试举出两条）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）220 Ω，0.40 mA\n（2）s1，s6 或37.5，193.5；s1，s2，s3，s4，s5，s6 或37.5，69.0，100.5，131.5，163.0，193.5；\nB；偶然；阻力（空气阻力，振针的阻力，限位孔的阻力，复写纸的阻力等），交流电频率\n波动，长度测量，数据处理方法等。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -217,22 +300,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q10",
       "content": "（16 分）三只灯泡L1、L2 和L3 的额定电压分别为1.5 V、1.5 V 和2.5 V，它们的额定\n电流都为0.3 A。若将它们连接成右图1、图2 所示电路，且灯泡都正常发光。\n（1）试求图1 电路的总电流和电阻R2 消耗的电功率；\n（2）分别计算两电路电源提供的电功率，并说明哪个电路更节能。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）电路的总电流I 总 = 0.9 A；电阻R2 消耗功率PR2 = 0.045 W\n（2）图1 电源提供的电功率P 总 = 2.7 W；图2 电源提供的电功率P′总 = 1.8 W\n由于灯泡都正常发光，两电路有用功率相等，而P′总 < P 总，所以图2 电路比图1 电路节\n能。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -240,22 +334,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q11",
       "content": "（19 分）有人设想用右图所示的装置来选择\n密度相同、大小不同的球状纳米粒子。粒子在电\n离室中电离后带正电，电量与其表面积成正比。\n电离后，粒子缓慢通过小孔O1 进入极板间电压\n为U 的水平加速电场区域Ⅰ，再通过小孔O2 射\n入相互正交的恒定匀强电场、磁场区域Ⅱ，其中\n磁场的磁感应强度大小为B，方向如图。收集室\n的小孔O3 与O1、O2 在同一条水平线上。半径为\nr0 的粒子，其质量为m0、电量为q0，刚好能沿O1O3 直线射入收集室。不计纳米粒子重力。\n（V 球 = A4\n3\nE\nAπr3，S 球 = 4πr2）\n（1）试求图中区域Ⅱ的电场强度；\n（2）试求半径为r 的粒子通过O2 时的速率；\n（3）讨论半径r≠r0 的粒子刚进入区域Ⅱ时向哪个极板偏转。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）E = BA\n2q0U\nm0 E\nA，方向竖直向上\n（2）v = A\nr0\nr\nE\nAv0\n（3）r > r0 时，v < v0，F 合 > 0，粒子会向上极板偏转；\nr < r0 时，v > v0，F 合 < 0，粒子会向下极板偏转。",
+      "analysis": "(1)设半径为𝑟𝑟0的粒子加速后的速度为𝑣𝑣0，由动能定理得\n1\n2 𝑚𝑚0𝑣𝑣0\n2 = 𝑞𝑞0𝑈𝑈，解得\nv0 = A\n2q0U\nm0\nE\n设区域Ⅱ内电场强度为𝐸𝐸,粒子在该区域做直线运动，由动能定理得\n𝑞𝑞0𝑣𝑣0𝐵𝐵= 𝑞𝑞0𝐸𝐸，解得\nE = v0B = BA\n2q0U\nm0\nE\n电场强度方向竖直向上.\n(2)设半径为𝑟𝑟的粒子的质量为𝑚𝑚、带电量为𝑞𝑞、被加速后的速度为𝑣𝑣,由题意知\n𝑚𝑚= �\n𝑟𝑟\n𝑟𝑟0�\n3\n𝑚𝑚0,𝑞𝑞= �\n𝑟𝑟\n𝑟𝑟0�\n2\n𝑞𝑞0,\n由动能定理得\n1\n2 𝑚𝑚𝑣𝑣2 = 𝑞𝑞𝑞𝑞，解得\nv = A\n2q0Ur0\nm0r\nE\nA= A\nr0\nr\nE\nAv0\n(3)半径为𝑟𝑟的粒子,在刚进入区域Ⅱ时，受到的合力为\n𝐹𝐹合= 𝑞𝑞𝑞𝑞−𝑞𝑞𝑞𝑞𝑞𝑞= 𝑞𝑞𝑞𝑞(𝑣𝑣0 −𝑣𝑣)，\n由 v = A\nr0\nr\nE\nAv0 可知，\n当 r > r0 时，v < v0，F 合 > 0，粒子会向上极板偏转；\n当 r < r0 时，v > v0，F 合 < 0，粒子会向下极板偏转。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -263,22 +365,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q011-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006重庆理综.pdf#q12",
       "content": "（20 分）如右图，半径为R 的光滑圆形轨道固定在竖直面内。\n小球A、B 质量分别为m、βm（β 为待定系数）。A 球从左边与圆\n心等高处由静止开始沿轨道下滑，与静止于轨道最低点的B 球相\n撞，碰撞后A、B 球能达到的最大高度均为\nA1\n4\nE R，碰撞中无机械\n能损失。重力加速度为g。试求：\n（1）待定系数β；\n（2）第一次碰撞刚结束时小球A、B 各自的速度和B 球对轨道的压力；\n（3）小球A、B 在轨道最低处第二次碰撞刚结束时各自的速度，并讨论小球A、B 在轨道\n最低处第n 次碰撞刚结束时各自的速度。\nA\nB\nR",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）β = 3\n（2）vA = − A\ngR\n2\nE\nA，方向向左；vB = A\ngR\n2\nE\nA，方向向右；N 压 = − 4.5mg，方向竖直下\n（3）vA = − A 2gRE\nA；vB = 0。由此可得：\n当n 为奇数时，小球A、B 在第n 次碰撞刚结束时的速度分别与其第一次碰撞刚结束时同；\n当n 为偶数时，小球A、B 在第n 次碰撞刚结束时的速度分别与其第二次碰撞刚结束时相\n同。\n25. (1)3；(2)见解析；(3)见解析.",
+      "analysis": "(1)由题意知，碰撞的过程中无机械能损失，由能量守恒得\n𝑚𝑚𝑚𝑚𝑚𝑚=\n𝑚𝑚𝑚𝑚𝑚𝑚\n4\n+\n𝛽𝛽𝛽𝛽𝛽𝛽𝛽𝛽\n4\n，解得 β = 3\n(2)设𝐴𝐴、𝐵𝐵碰撞后的速度分别为𝑣𝑣1、𝑣𝑣2，由机械能守恒得\n1\n2 𝑚𝑚𝑣𝑣1\n2 =\n𝑚𝑚𝑚𝑚𝑚𝑚\n4 ，\n1\n2 𝛽𝛽𝛽𝛽𝑣𝑣2\n2 =\n𝛽𝛽𝛽𝛽𝛽𝛽𝛽𝛽\n4\n，\n设向右为正、向左为负，解得\nvA = − A\ngR\n2\nE\nA，即方向向左，\nvB = A\ngR\n2\nE\nA，即方向向右，\n设轨道对𝐵𝐵球的支持力为𝑁𝑁,𝐵𝐵球对轨道的压力为𝑁𝑁′，方向竖直向上为正、向下为负，则\n𝑁𝑁−𝛽𝛽𝛽𝛽𝛽𝛽= 𝛽𝛽𝛽𝛽\n𝑣𝑣22\n𝑅𝑅，\n解得𝑁𝑁′ = −𝑁𝑁= −4.5𝑚𝑚𝑚𝑚，方向竖直向下.\n(3)设𝐴𝐴、𝐵𝐵小球第二次碰撞刚结束时的速度分别为𝑉𝑉1、𝑉𝑉2，由动量和能量守恒得\n𝑚𝑚𝑣𝑣1 −𝛽𝛽𝛽𝛽𝑣𝑣2 = 𝑚𝑚𝑉𝑉1 + 𝛽𝛽𝛽𝛽𝑉𝑉2，\n𝑚𝑚𝑚𝑚𝑚𝑚=\n1\n2 𝑚𝑚𝑉𝑉1\n2 +\n1\n2 𝛽𝛽𝛽𝛽𝑉𝑉2\n2，\n解得\nvA = − A 2gRE\nA；vB = 0。\n(另一组解𝑉𝑉1 = 2�2𝑔𝑔𝑔𝑔，𝑉𝑉2 = −�2𝑔𝑔𝑔𝑔，不合题意，舍去)\n由此可得：\n当n 为奇数时，小球A、B 在第n 次碰撞刚结束时的速度分别与其第一次碰撞刚结束时同；\n当n 为偶数时，小球A、B 在第n 次碰撞刚结束时的速度分别与其第二次碰撞刚结束时相\n同。\n解析\n14. A\n由图可知，𝑏𝑏球落地的竖直高度小于𝑎𝑎球的竖直高度，又\n1\n2 𝑔𝑔𝑡𝑡2 = ℎ,所以𝑡𝑡𝑎𝑎>\n𝑡𝑡𝑏𝑏；两球落地的水平距离相等，由𝑠𝑠= 𝑣𝑣𝑣𝑣可知，𝑠𝑠相等，𝑡𝑡𝑎𝑎> 𝑡𝑡𝑏𝑏，则𝑣𝑣𝑎𝑎< 𝑣𝑣𝑏𝑏，故A 正确.\n15. B\n由𝐺𝐺\n𝐺𝐺𝐺𝐺𝐺𝐺\n𝑅𝑅2 = 𝑚𝑚\n𝑣𝑣2\n𝑅𝑅得𝑣𝑣= �\n𝐺𝐺𝐺𝐺\n𝑅𝑅，由𝐺𝐺\n𝐺𝐺𝐺𝐺𝐺𝐺\n𝑅𝑅2 = 𝑚𝑚𝑚𝑚得𝐺𝐺𝐺𝐺= 𝑅𝑅2𝑔𝑔，所以飞船绕\n月球表面做匀速圆周运动的速率为𝑣𝑣= �𝑅𝑅𝑅𝑅，又在月球表面作自由落体实验时，从ℎ高释\n放，经𝑡𝑡秒落地，由\n1\n2𝑔𝑔𝑡𝑡2 = ℎ得，𝑔𝑔=\n2ℎ\n𝑡𝑡2，所以𝑣𝑣=\n√2𝑅𝑅ℎ\n𝑡𝑡\n，故B 正确.\n16. C\n金属筒在下降过程中，水对筒的压强增大，因此气体的压强增大，气\n体体积减小，外界对气体做功，又水温恒定，气体内能不变，而外界对气体做了功，则气\n体应向外界放热，故C 正确.\n17. B\n若某古树中14C的含量为原来的\n1\n4，则该古树经历了2 个半衰期，又14C\n的半衰期为5730年，所以该古树死亡时间距今约为11460年，故B 正确.\n18. C\n当𝑅𝑅点在𝑡𝑡= 0时的振动状态传到𝑆𝑆点时，波沿𝑥𝑥轴正方向传播的距离为\n3\n4个波长.将波形图向右平移\n3\n4个波长后，可以得到，在𝑃𝑃、𝑅𝑅范围内，正在向𝑦𝑦轴负向运动的\n质点的𝑥𝑥坐标取值范围是2cm ≤𝑥𝑥< 3cm，故C 正确.\n19. AC\n𝑄𝑄带正电，电子带负电，电子从𝑀𝑀经𝑃𝑃到达𝑁𝑁点的过程中，电场力先做\n正功，后做负功，所以电子的动能先增大后减小，速率先增大后减小，又电场力做功等于\n电势能增量的负值，所以电势能先减小后增大，故AC 正确.\n20. BD\n由图可知，𝑎𝑎、𝑏𝑏两单色光以相同的入射角分别射向𝑂𝑂𝑂𝑂、𝑂𝑂𝑂𝑂两界面，\n𝑏𝑏光发生全反射，而𝑎𝑎光发生折射，所以𝑎𝑎光的折射率小于𝑏𝑏光的折射率，因此𝑎𝑎光的波长比\n𝑏𝑏光的波长长，又𝑣𝑣=\n𝑐𝑐\n𝑛𝑛，则在棱镜内𝑎𝑎光的传播速度比𝑏𝑏光的大，故BD 正确.\n21. AD\n由法拉第电磁感应定律可得，𝑎𝑎𝑎𝑎杆在切割磁感线时产生的感应电动\n势为𝐵𝐵𝐵𝐵𝑣𝑣1，𝑐𝑐𝑐𝑐杆运动方向与磁场平行，无感应电动势，所以闭合回路中的感应电流𝐼𝐼=\n𝐸𝐸\n2𝑅𝑅=\n𝐵𝐵𝐵𝐵𝑣𝑣1\n2𝑅𝑅.对𝑎𝑎𝑎𝑎杆，由平衡可知，𝐹𝐹= 𝑓𝑓+ 𝐵𝐵𝐵𝐵𝐵𝐵,所以𝐹𝐹= 𝜇𝜇𝜇𝜇𝜇𝜇+\n𝐵𝐵2𝐿𝐿2𝑣𝑣1\n2𝑅𝑅；同理对𝑐𝑐𝑐𝑐杆，由平衡可知，\n𝑓𝑓′ = 𝑚𝑚𝑚𝑚,又𝑓𝑓′ = 𝜇𝜇𝜇𝜇𝜇𝜇𝜇𝜇,所以𝜇𝜇=\n2𝑅𝑅𝑅𝑅𝑅𝑅\n𝐵𝐵2𝐿𝐿2𝑣𝑣1，故AD 正确.\n22. (1)220 ；0.40 ；(2)𝑠𝑠1 , 𝑠𝑠6( 或37.5 , 193.5) ；𝑠𝑠1 , 𝑠𝑠2 , 𝑠𝑠3 , 𝑠𝑠4 , 𝑠𝑠5 , 𝑠𝑠6( 或\n37.5,69.0,100.5,131.5,163.0,193.5)；B；偶然；阻力(例如空气阻力，振针的阻力，限位孔\n的阻力，复写纸的阻力等），交流电频率波动，长度测量，数据处理方法等.\n23. (1)0.045W；(2)图2 电路比图1 电路节能.\n(1)由题意，在图1 电路中，电路的总电流为\n𝐼𝐼总= 𝐼𝐼L1 + 𝐼𝐼L2 + 𝐼𝐼L3 = 0.9A，\n路端电压为\n𝑈𝑈路端= 𝐸𝐸−𝐼𝐼总𝑟𝑟= 2.55V,\n则𝑅𝑅2两端的电压与电流分别为\n𝑈𝑈𝑅𝑅2 = 𝑈𝑈路端−𝑈𝑈L3 = 0.05V，\n𝐼𝐼𝑅𝑅2 = 𝐼𝐼总= 0.9A，\n故电阻𝑅𝑅2 的消耗功率为\n𝑃𝑃𝑅𝑅2 = 𝐼𝐼𝑅𝑅2𝑈𝑈𝑅𝑅2 = 0.045W.\n(2)图1 电源提供的电功率为\n𝑃𝑃总= 𝐼𝐼总𝐸𝐸= 0.9 × 3W = 2.7W，\n图2 电源提供的电功率为\n𝑃𝑃总\n′ = 𝐼𝐼总\n′ 𝐸𝐸′ = 0.3 × 6W = 1.8W，\n由于灯泡都正常发光，两电路有用功率相等，而\n𝑃𝑃总\n′ < 𝑃𝑃总，\n所以，图2 电路比图1 电路节能.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -286,11 +396,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006重庆理综.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q012-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-efc92a65bfb245be-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 14,
+    "answerGraphics": 3,
+    "assigned": 11,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

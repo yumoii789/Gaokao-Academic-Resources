@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
   "name": "2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 11,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 11,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q01",
       "content": "现有 1200 个氢原子被激发到量子数为 4 的能级上，若这些受激氢原子最后都回到基\n态，则在此过程中发出的光子总数是多少？假定处在量子数为 n 的激发态的氢原子跃迁到\n各较低能级的原子数都是处在该激发态能级上的原子总数的\nA\n1\nn − 1\nE\nA。（      ）\n（A）2200\n（B）2000\n（C）1200\n（D）2400",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q02",
       "content": "下面是四种与光有关的事实（     ）\n①用光导纤维传播信号\n②用透明的标准样板和单色光检查平面的平整度\n③一束白光通过三棱镜形成彩色光带\n④水面上的油膜呈现彩色\n其中，与光的干涉有关的是（      ）\n（A）①④\n（B）②④\n（C）①③\n（D）②③",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "光导纤维利用光的全反射传播信号，白光通过三棱镜是光的折射引起的\n色散现象，检查光学平面的平整度和水面上的彩色油膜都是光的干涉现象，故B 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q03",
       "content": "一定量的气体吸收热量，体积膨胀并对外做功，则此过程的末态与初态相比（     ）\n（A）气体内能一定增加\n（B）气体内能一定减小\n（C）气体内能一定不变\n（D）气体内能是增是减不能确定",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由热力学第一定律Δ𝑈𝑈= 𝑊𝑊+ 𝑄𝑄知，气体吸热，𝑄𝑄为正值；对外做功，𝑊𝑊\n为负值，但不知𝑄𝑄和𝑊𝑊的数值大小，故内能的增减不能确定，故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -79,22 +100,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q04",
       "content": "如图，一简谐横波在x 轴上传播，轴上 a、b 两点相距 12\nm。t = 0 时 a 点为波峰，b 点为波谷；t = 0.5 s 时，a 点为波谷，\nb 点为波峰。则下列判断正确的是（     ）\n（A）波一定沿x 轴正方向传播\n（B）波长可能是 8 m\n（C）周期可能是 0.5 s\n（D）波速一定是 24 m/s",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "因不知质点振动方向，无法确定波的传播方向，故A 错误；由题意，\n12 = �𝑛𝑛+\n1\n2�𝜆𝜆(𝑛𝑛= 0,1,2,…)，0.5 = �𝑘𝑘+\n1\n2�𝑇𝑇(𝑘𝑘= 0，1,2，… )，得𝜆𝜆=\n24\n2𝑛𝑛+1 m(𝑛𝑛= 0,1,2,…)，\n𝑘𝑘=\n24\n2𝑛𝑛+1 s(𝑘𝑘= 0,1,2,…).当𝑛𝑛= 1时,𝜆𝜆= 8m，故B 正确，周期𝑇𝑇≠0.5s,故C 错误；由𝑣𝑣=\n𝜆𝜆\n𝑇𝑇=\n24(2𝑘𝑘+1)\n2𝑛𝑛+1\nm/s知，只有当𝑛𝑛≠𝑘𝑘时，𝑣𝑣≠24m/s，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -102,22 +127,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q05",
       "content": "如图所示，四个完全相同的弹簧都处于水平位置，它们的右端受到大小皆为F 的拉力作\n用，而左端的情况各不相同：①中弹簧的左端固定在墙上，②中弹簧的左端受大小也为F 的\n拉力作用，③中弹簧的左端拴一小物块，物块在光滑的桌面上滑动，④中弹簧的左端拴一小\n物块，物块在有摩擦的桌面上滑动。若认为弹簧的质量都为零，以l1、l2、l3、l4 依次表示四\n个弹簧的伸长量，则有（    ）\n①\n③\n④\nF\nF\n②\nF\nF\nF\na\nb\nx\nO\n（A）l2＞l1\n（B）l4＞l3\n（C）l1＞l3\n（D）l2 = l4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由于弹簧质量为零，四种情况下，弹簧受力均为𝐹𝐹,故伸长量相同，𝑙𝑙1 =\n𝑙𝑙2 = 𝑙𝑙3 = 𝑙𝑙4,故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -125,22 +158,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q06",
       "content": "一直升飞机停在南半球的地磁极上空。该处地磁场的方\n向竖直向上，磁感应强度为 B。直升飞机螺旋桨叶片的长度\n为 l，螺旋桨转动的频率为 f，顺着地磁场的方向看螺旋桨，\n螺旋桨按顺时针方向转动。螺旋桨叶片的近轴端为 a，远轴端\n为 b，如图所示。忽略 a 到转轴中心线的距离，用 E 表示每\n个叶片中的感应电动势，则（     ）\n（A）E = πfl2B，且 a 点电势低于 b 点电势 （B）E = 2πfl2B，且 a 点电势低于 b 点电势\n（C）E = πfl2B，且 a 点电势高于 b 点电势 （D）E = 2πfl2B，且 a 点电势高于 b 点电势",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "电风扇叶片切割产生的感应电动势𝐸𝐸= 𝐵𝐵𝐵𝐵𝑣𝑣= 𝐵𝐵𝐵𝐵⋅\n𝜔𝜔𝜔𝜔\n2 ，又𝜔𝜔= 2π𝑓𝑓，解得\n𝐸𝐸= π𝑓𝑓𝑙𝑙2𝐵𝐵,由右手定则可判断𝑏𝑏点电势比𝑎𝑎点高，故A 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -148,22 +189,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q07",
       "content": "如图一绝缘细杆的两端各固定着一个小球，两小球带有等量\n异号的电荷，处于匀强电场中，电场方向如图中箭头所示。开始\n时，细杆与电场方向垂直，即在图中 Ⅰ 所示的位置；接着使细\n杆绕其中心转过 90°，到达图中 Ⅱ 所示的位置；最后使细杆移\n到图中 Ⅲ 所示的位置。以 W1 表示细杆由位置 Ⅰ 到位置 Ⅱ\n过程中电场力对两小球所做的功，W2 表示细杆由位置 Ⅱ 到位\n置 Ⅲ 过程中电场力对两小球所做的功，则有（     ）\n（A）W1 = 0，W2 ≠ 0\n（B）W1 = 0，W2 ≠ 0\n（C）W1 ≠ 0，W2 = 0\n（D）W1≠ 0，W2 ≠ 0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "以两球整体为研究对象，杆由Ⅰ位置到Ⅱ位置，电场力对正、负带电小\n球都做正功，所以𝑊𝑊1 ≠0；杆由Ⅱ位置到Ⅲ位置，电场力对带正电小球做正功，对带负电小\n球做负功，且两功大小相等，所以𝑊𝑊2 = 0,故C 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -171,22 +220,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q08",
       "content": "放在水平地面上的一物块，受到方向\n不变的水平推力 F 的作用，F 的大小与\n时间 t 的关系和物块速度 v 与时间 t 的\n关系如图所示。取重力加速度 g = 10 m/s2。\n由此两图线可以求得物块的质量 m 和物\n块与地面之间的动摩擦因数 μ 分别为\n（     ）\n（A）m = 0.5 kg，μ = 0.4\n（B）m = 1.5 kg，μ = A 2\n15\nE\n（C）m = 0.5 kg，μ = 0.2\n（D）m = 1 kg，μ = 0.2\n第Ⅱ卷\n（非选择题  共10 题  共174 分）\n注意事项：\n    1. 用钢笔或圆珠笔直接答在试题卷中（除题目有特殊规定外）。\n    2. 答卷前将密封线内的项目填写清楚。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "由图象可知0~2s物体静止;2~4s，物体在外力𝐹𝐹= 3N的作用下做匀加速\n运动，加速度为𝑎𝑎=\nΔ𝑣𝑣\nΔ𝑡𝑡= 2m/s2,由牛顿第二定律得𝐹𝐹−𝜇𝜇𝜇𝜇𝜇𝜇= 𝑚𝑚𝑚𝑚，即3 −10𝜇𝜇𝜇𝜇= 2𝑚𝑚；4~6s，\n物体做匀速直线运动，故𝐹𝐹′ = 𝜇𝜇𝜇𝜇𝜇𝜇= 2N，即2 = 10𝜇𝜇𝜇𝜇,联立解得𝑚𝑚= 0.5kg,𝜇𝜇= 0.4,故A 正\n确.\n(1)在实验中测定的电阻𝑅𝑅𝑥𝑥的阻值(900 ∼1000Ω)接近电压表V1和V2的内阻,属于测\n定大电阻,所以采用串联分压法,此外滑动变阻器𝑅𝑅的最大阻值很小,必须采用分压接法,故实\n验电路原理图如下方的图(a)或图(b).\n图(a)中的电压表V1和𝑅𝑅𝑥𝑥并联电阻约为420Ω，两图都满足题中要求“电压表的读数不小于其\n量程的\n1\n3”.\n或\n(2)先连滑动变阻器的分压接法,然后再连接串联分压电路,如图甲或乙.\n或\n(3)在图(a)中\n𝑈𝑈1\n𝑟𝑟1 +\n𝑈𝑈1\n𝑅𝑅𝑥𝑥=\n𝑈𝑈2\n𝑟𝑟2 ,在图(b)中𝑈𝑈2 = 𝑈𝑈1 + 𝑅𝑅𝑥𝑥×\n𝑈𝑈1\n𝑟𝑟1 ,化简得𝑅𝑅𝑥𝑥=\n𝑟𝑟1𝑟𝑟2𝑈𝑈1\n𝑟𝑟1𝑈𝑈2−𝑟𝑟2𝑈𝑈1或𝑅𝑅𝑥𝑥=\n(𝑈𝑈2−𝑈𝑈1)𝑟𝑟1\n𝑈𝑈1\n.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -194,22 +251,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q008-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q008-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q09",
       "content": "（18 分）用以下器材测量一待测电阻 Rx 的阻值（900\n~ 1000 Ω）：\n电源 E，具有一定内阻，电动势约为 9.0 V；\n电压表 V1，量程为 1.5 V，内阻 r1 = 750 Ω；\n电压表 V2，量程为 5 V，内阻 r2 = 2500 Ω；\n滑线变阻器 R，最大阻值约为 100 Ω；\n单刀单掷开关 K，导线若干。\nⅠ\nⅡ\nⅢ\n+q\n+ q\n+ q\n− q\n− q\n− q\nE\na\nb\nB\nF/N\nt/s\n1\n2\n3\n6\nO\n2\n4\nt/s\nv/m·s−1\n2\nO\n4\n6\n2\n4\n（1）测量中要求电压表的读数不小于其量程的\nA1\n3\nE\nA，试画出测量电阻 Rx 的一种实验电路原\n理图（原理图中的元件要用题图中相应的英文字母标注）。\n（2）根据你所画的电路原理图在题给的实物图上画出连线。\n（3）若电压表 V1 的读数用 U1 表示，电压表 V2 的读数用 U2 表示，则由已知量和测得\n量表示 Rx 的公式为 Rx = ________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（18 分）（1）如图所示\n或\n（2）如图所示\n或\n（3）Rx = A\nU1r1r2\nU2r1－U1r2\nE\nA或Rx = AU2－U1\nU1\nE\nAr1",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -217,11 +283,121 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p003-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q009-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q10",
+      "content": "（16 分）一水平放置的水管，距地面高 h = 1.8 m，管内截面积 S = 2.0 cm2。有水从管\n口以不变的速度 v = 2.0 m/s 源源不断地沿水平方向射出，设水流稳定后在空中有多少立方\n米的水。",
+      "answer": "2.4 × 10−4m3.",
+      "analysis": "以t 表示水由喷口处到落地所用的时间，有\nh = A1\n2\nE\nAgt2                         ①\n单位时间内喷出的水量为\nQ = Sv                  ②\n空中水的总量应为\nV = Qt                   ③\n由以上各式得\nV = Sv\ng\nh\n2\n         ④\n代入数值得\nV = 2.4×10\n－4m3               ⑤",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2004,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q11",
+      "content": "（18 分）\n如图所示，在y＞0 的空间中存在匀强电场，场强沿y 轴\n负方向；在y＜0 的空间中，存在匀强磁场，磁场方向垂\n直xy 平面（纸面）向外。一电量为q、质量为m 的带正\n电的运动粒子，经过y 轴上y = h 处的点P1 时速率为v0，\n方向沿x 轴正方向；然后，经过x 轴上y = 2h 处的P2 点\n进入磁场，并经过y 轴上y = − 2h 处的P3 点。不计重力。\n求：\n（1）电场强度的大小。\n（2）粒子到达P2 时速度的大小和方向。\n（3）磁感应强度的大小。",
+      "answer": "(1)\n𝑚𝑚𝑣𝑣02\n2𝑞𝑞ℎ；(2)√2𝑣𝑣0，速度和𝑥𝑥轴的夹角为45°；(3)\n𝑚𝑚𝑣𝑣0\n𝑞𝑞ℎ.",
+      "analysis": "（1）粒子在电场、磁场中运动的轨迹如图所示。\n设粒子从P1 到P2 的时间为t，电场度的大小为E，粒子在电场中的加速度为a，由牛顿第二\n定律及运动学公式有\nqE = ma               ①\nv0t = 2h              ②\nA1\n2\nE\nAat2 = h              ③\n由①、②、③式解得\nE = Amv02\n2qh\nE\nA            ④\n（2）粒子到达P2 时速度沿x 方向的分量仍为v0，以v1 表示速度沿y 方向分量的大小，v 表\n示速度的大小，θ 表示速度和x 轴的夹角，则有\nv12 = 2ah\nv =\n2\n0\n2\n1\nv\nv +\ntgθ = v1/v0\n由上三式得\nv1 = v0\nv = A 2E\nAv0            ⑨\nθ = 45°              ⑩\n（3）设磁场的磁感应强度为B，在洛仑兹力作用下粒子做匀速圆周运动，由牛顿第二定律\nqυB = m r\n2\nυ\nr 是圆周的半径。此圆周与x 轴和y 轴的交点分别为P2、P3。因为OP2 = OP3，θ = 45°，\n由几何关系可知，连线P2P3 为圆轨道的直径，由此可求得\nr =\nh\n2\nB = Amv0\nqh\nE",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2004,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf#q12",
+      "content": "（20 分）\n柴油打桩机的重锤由气缸、活塞等若干部件组成，气缸与活塞\n间有柴油与空气的混合物。在重锤与桩碰撞的过程中，通过压\n缩使混合物燃烧，产生高温高压气体，从而使桩向下运动，锤\n向上运动。现把柴油打桩机和打桩过程简化如下：\n柴油打桩机重锤的质量为m，锤在桩帽以上高度为h 处（如图\n1）从静止开始沿竖直轨道自由落下，打在质量为M（包括桩帽）\n的钢筋混凝土桩子上。同时，柴油燃烧，产生猛烈的推力，锤\n和桩分离，这一过程的时间极短。随后，桩在泥土中向下移动\n一距离l。已知锤反跳后到达最高点时，锤与已停下的桩帽之间\n的距离也为 h（如图 2）。已知m = 1.0×103kg，M = 2.0×103kg，\nh = 2.0m，l = 0.20m，重力加速度g = 10m/s2，混合物的质量不计。设桩向下移动的过程泥土\n对桩的作用力F 是恒力，求此力的大小。",
+      "answer": "2.1 × 105N.",
+      "analysis": "锤自由下落，碰桩前速度v1 向下，\nv1 =\ngh\n2\n碰后，已知锤上升高度为（h－l），故刚碰后向上的速度为\nv2 =\n)\n(\n2\nl\nh\ng\n−\n设碰后桩的速度为V，方向向下，由动量守恒，\nmv1 = MV－mv2\n桩下降的过程中，根据功能关系，\nMV2/2＋Mgl = Fl\n由以上4 式得\nF = ［Mg＋m2g（2h－l＋2\n)\n(\nl\nh\nh\n−\n）］/Ml\n代入数值，得\nF = 2.1×105N\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2004,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2004/2004全国2理综(吉林,黑龙江,湖北,湖南,重庆,四川,贵州,云南).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-089ec80255615312-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 15,
+    "answerGraphics": 5,
+    "assigned": 10,
+    "rendered": 13,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

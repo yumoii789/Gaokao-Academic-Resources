@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015陕西文.pdf",
   "name": "2015陕西文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q01",
       "content": "设集合M = {x | x2 = x}, N = {x | lg x ⩽0}, 则M ∪N =\n(\n)\n(A) [0, 1]\n(B) (0, 1]\n(C) [0, 1)\n(D) (−∞, 1]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q02",
       "content": "某中学初中部共有110 名教师, 高中部共有150 名教师, 其性别比例如图\n所示, 则该校女教师的人数为\n(\n)\n男\n(初中部)\n女\n70%\n男\n(高中部)\n女\n60%\n(A) 93\n(B) 123\n(C) 137\n(D) 167",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +77,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q002-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q03",
       "content": "已知抛物线y2 = 2px (p > 0) 的准线经过点(−1, 1), 则该抛物线焦点坐标\n为\n(\n)\n(A) (−1, 0)\n(B) (1, 0)\n(C) (0, −1)\n(D) (0, 1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +112,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q04",
       "content": "设f (x) =\n{\n1 −√x,\nx ⩾0,\n2x,\nx < 0,\n则f (f (−2)) =\n(\n)\n(A) −1\n(B) 1\n4\n(C) 1\n2\n(D) 3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +141,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q05",
       "content": "一个几何体的三视图如图所示, 则该几何体的表面积为\n(\n)\n1\n2\n2\n正视图\n俯视图\n左视图\n(A) 3π\n(B) 4π\n(C) 2π + 4\n(D) 3π + 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +170,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q005-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q06",
       "content": "“sin α = cos α”是“cos 2α = 0”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +204,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q07",
       "content": "根据框图, 当输入x 为6 时, 输出的y =\n(\n)\n开始\n输入x\nx = x −3\nx ⩾0\ny = x2 + 1\n输出y\n结束\n否\n是\n(A) 1\n(B) 2\n(C) 5\n(D) 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +233,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q08",
       "content": "对任意向量a, b, 下列关系式中不恒成立的是\n(\n)\n(A) |a · b| ⩽|a| |b|\n(B) |a −b| ⩽||a| −|b||\n(C) (a + b)2 = |a + b|2\n(D) (a + b) · (a −b) = a2 −b2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +262,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q09",
       "content": "设f (x) = x −sin x, 则f (x)\n(\n)\n(A) 既是奇函数又是减函数\n(B) 既是奇函数又是增函数\n(C) 是有零点的减函数\n(D) 是没有零点的奇函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +291,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q10",
       "content": "设f (x) = ln x, 0 < a < b, 若p = f\n(√\nab\n)\n, q = f\n(a + b\n2\n)\n,\nr = 1\n2 (f (a) + f (b)), 则下列关系式中正确的是\n(\n)\n(A) q = r < p\n(B) q = r > p\n(C) p = r < q\n(D) p = r > q",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +320,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q11",
       "content": "某企业生产甲、乙两种产品均需用A, B 两种原料, 已知生产1 吨每种产\n品所需原料及每天原料的可用限额如表所示. 如果生产1 吨甲、乙产品可\n获利润分别为3 万元、4 万元, 则该企业每天可获得最大利润为\n(\n)\n甲\n乙\n原料限额\nA (吨)\n3\n2\n12\nB (吨)\n1\n2\n8\n(A) 12 万元\n(B) 16 万元\n(C) 17 万元\n(D) 18 万元",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +349,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q12",
       "content": "设复数z = (x −1) + yi (x, y ∈R), 若|z| ⩽1, 则y ⩾x 的概率为\n(\n)\n(A) 3\n4 + 1\n2π\n(B) 1\n2 + 1\nπ\n(C) 1\n4 −1\n2π\n(D) 1\n2 −1\nπ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +378,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q13",
       "content": "中位数为1010 的一组数构成等差数列, 其末项为2015, 则该数列的首项\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +411,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q14",
       "content": "如图, 某港口一天6 时到18 时的水深变化曲线近似满足函数y =\n3 sin\n(π\n6 x + φ\n)\n+ k.\n据此函数可知, 这段时间水深(单位: m) 的最大值\n为\n.\n时间/t\nx\n6\n18\ny 水深/m\n2\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +440,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q15",
       "content": "函数y = xex 在其极值点处的切线方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +473,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q16",
       "content": "观察下列等式:\n1 −1\n2 = 1\n2,\n1 −1\n2 + 1\n3 −1\n4 = 1\n3 + 1\n4,\n1 −1\n2 + 1\n3 −1\n4 + 1\n5 −1\n6 = 1\n4 + 1\n5 + 1\n6,\n· · · · · · ,\n据此规律, 第n 个等式可为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +506,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q17",
       "content": "△ABC 的内角A, B, C 所对的边分别为a, b, c. 向量m =\n(\na,\n√\n3b\n)\n与\nn = (cos A, sin B) 平行.\n(1) 求A;\n(2) 若a =\n√\n7, b = 2, 求△ABC 的面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +535,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q18",
       "content": "如图1, 在直角梯形ABCD 中, AD\nBC, ∠BAD = π\n2 , AB = BC =\n1\n2AD = a, E 是AD 的中点, O 是AC 与BE 的交点. 将△ABE 沿BE\n折起到图2 中△A1BE 的位置, 得到四棱锥A1 −BCDE.\n(1) 证明: CD ⊥平面A1OC;\n(2) 若平面A1BE ⊥平面BCDE, 四棱锥A1 −BCDE 的体积为36\n√\n2,\n求a 的值.\nB\n图1\nC\nA\nD\nE\nO\n图2\nE\nO\nA1(A)\nB\nC\nD\n975",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +564,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q19",
       "content": "随机抽取一个年份, 对西安市该年4 月份的天气情况进行统计, 结果如下:\n日期\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n天气\n晴\n雨\n阴\n阴\n阴\n雨\n阴\n晴\n晴\n晴\n日期\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n天气\n阴\n晴\n晴\n晴\n晴\n晴\n阴\n雨\n阴\n阴\n日期\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n天气\n晴\n阴\n晴\n晴\n晴\n阴\n晴\n晴\n晴\n雨\n(1) 在4 月份任取一天, 估计西安市在该天不下雨的概率;\n(2) 西安市某学校拟从4 月份的一个晴天开始举行连续2 天的运动会, 估\n计运动会期间不下雨的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +598,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q20",
       "content": "如图, 椭圆E: x2\na2 + y2\nb2 = 1 (a > b > 0) 经过点A (0, −1), 且离心率为\n√\n2\n2 .\n(1) 求椭圆E 的方程;\n(2) 经过点(1, 1), 且斜率为k 的直线与椭圆E 交于不同的两点P, Q (均\n异于点A), 证明: 直线AP 与AQ 的斜率之和为2.\nx\ny\nO\nP\nA\nQ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,22 +627,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q21",
       "content": "设fn (x) = x + x2 + · · · + xn −1, x ⩾0, n ∈N, n ⩾2.\n(1) 求f ′\nn (2);\n(2) 证明:\nfn (x) 在\n(\n0, 2\n3\n)\n内有且仅有一个零点(记为an),\n且\n0 < an −1\n2 < 1\n3\n(2\n3\n)n\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -493,22 +660,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q22",
       "content": "如图, AB 切⊙O 于点B, 直线AO 交⊙O 于D, E 两点, BC ⊥DE, 垂\n足为C.\n(1) 证明: ∠CBD = ∠DBA;\n(2) 若AD = 3DC, BC =\n√\n2, 求⊙O 的直径.\nC\nO\nD\nA\nE\nB\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -516,22 +689,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q23",
       "content": "在直角坐标系xOy 中, 直线l 的参数方程为\n\n\n\n\n\nx = 3 + 1\n2t,\ny =\n√\n3\n2 t,\n(t 为参数),\n以原点为极点, x 轴正半轴为极轴建立极坐标系, ⊙C 的极坐标方程为\nρ = 2\n√\n3 sin θ.\n(1) 写出⊙C 的直角坐标方程;\n(2) P 为直线l 上一动点, 当P 到圆心C 的距离最小时, 求P 的直角坐\n标.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -539,22 +722,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015陕西文.pdf#q24",
       "content": "已知关于x 的不等式|x + a| < b 的解集为{x | 2 < x < 4}.\n(1) 求实数a, b 的值;\n(2) 求√at + 12 +\n√\nbt 的最大值.\n976",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -562,11 +751,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q024-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-305c7258739fe9ad-q024-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 12,
+    "answerGraphics": 0,
+    "assigned": 12,
+    "rendered": 14,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

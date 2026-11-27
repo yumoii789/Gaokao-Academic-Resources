@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
   "name": "2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q01",
       "content": "设z = 1 −i\n1 + i + 2i, 则|z| =\n(\n)\n(A) 0\n(B) 1\n2\n(C) 1\n(D)\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q001-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q02",
       "content": "已知集合A = {x | x2 −x −2 > 0}, 则∁RA =\n(A) {x | −1 < x < 2}\n(B) {x | −1 ⩽x ⩽2}\n(C) {x | x < −1} ∪{x | x > 2}\n(D) {x | x ⩽−1} ∪{x | x ⩾2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +78,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q03",
       "content": "某地区经过一年的新农村建设, 农村的经济收入增加了一倍. 实现翻番. 为\n更好地了解该地区农村的经济收入变化情况, 统计了该地区新农村建设前\n后农村的经济收入构成比例, 得到如下饼图:\n4%\n6%\n60%\n30%\n第三产业收入\n其他收入\n种植收入\n养殖收入\n建设前经济收入构成比例\n5%\n28%\n37%\n30%\n第三产业收入\n其他收入\n种植收入\n养殖收入\n建设后经济收入构成比例\n则下面结论中不正确的是\n(\n)\n(A) 新农村建设后, 种植收入减少\n(B) 新农村建设后, 其他收入增加了一倍以上\n(C) 新农村建设后, 养殖收入增加了一倍\n(D) 新农村建设后, 养殖收入与第三产业收入的总和超过了经济收入的一\n半",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +107,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q04",
       "content": "设Sn 为等差数列{an} 的前n 项和, 若3S3 = S2+S4, a1 = 2, 则a5 =(\n)\n(A) −12\n(B) −10\n(C) 10\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +136,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q05",
       "content": "设函数f (x) = x3 + (a −1) x2 + ax. 若f (x) 为奇函数, 则曲线y = f (x)\n在点(0, 0) 处的切线方程为\n(\n)\n(A) y = −2x\n(B) y = −x\n(C) y = 2x\n(D) y = x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +165,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q06",
       "content": "在△ABC 中, AD 为BC 边上的中线, E 为AD 的中点, 则#    »\nEB =\n(\n)\n(A) 3\n4\n#   »\nAB −1\n4\n#   »\nAC\n(B) 1\n4\n#   »\nAB −3\n4\n#   »\nAC\n(C) 3\n4\n#   »\nAB + 1\n4\n#   »\nAC\n(D) 1\n4\n#   »\nAB + 3\n4\n#   »\nAC",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +194,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q07",
       "content": "某圆柱的高为2, 底面周长为16, 其三视图如图. 圆柱表面上的点M 在正\n视图上的对应点为A, 圆柱表面上的点N 在左视图上的对应点为B, 则在\n此圆柱侧面上, 从M 到N 的路径中, 最短路径的长度为\n(\n)\nB\nA\n(A) 2\n√\n17\n(B) 2\n√\n5\n(C) 3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +223,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q08",
       "content": "设抛物线C: y2 = 4x 的焦点为F, 过点(−2, 0) 且斜率为2\n3 的直线与C\n交于M, N 两点, 则#     »\nFM · #    »\nFN =\n(\n)\n(A) 5\n(B) 6\n(C) 7\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +256,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q09",
       "content": "已知函数f (x) =\n{\nex,\nx ⩽0,\nln x,\nx > 0,\n, g (x) = f (x) + x + a. 若g (x) 存在2\n个零点, 则a 的取值范围是\n(\n)\n(A) [−1, 0)\n(B) [0, +∞)\n(C) [−1, +∞)\n(D) [1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +285,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q10",
       "content": "如图来自古希腊数学家希波克拉底所研究的几何图形. 此图由三个半圆构\n成, 三个半圆的直径分别为直角三角形ABC 的斜边BC, 直角边AB, AC.\n△ABC 的三边所围成的区域记为I, 黑色部分记为II, 其余部分记为III.\n在整个图形中随机取一点, 此点取自I, II, III 的概率分别记为p1, p2, p3,\n则\n(\n)\nB\nA\nC\n(A) p1 = p2\n(B) p1 = p3\n(C) p2 = p3\n(D) p1 = p2 + p3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +314,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q11",
       "content": "已知双曲线C: x2\n3 −y2 = 1, O 为坐标原点, F 为C 的右焦点, 过F 的直\n线与C 的两条渐近线的交点分别为M, N. 若△OMN 为直角三角形, 则\n|MN| =\n(\n)\n(A) 3\n2\n(B) 3\n(C) 2\n√\n3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +348,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q12",
       "content": "已知正方体的棱长为1, 每条棱所在直线与平面α 所成的角相等, 则α 截\n此正方体所得截面面积的最大值为\n(\n)\n(A) 3\n√\n3\n4\n(B) 2\n√\n3\n3\n(C) 3\n√\n2\n4\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +377,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q13",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\nx −2y −2 ⩽0,\nx −y + 1 ⩾0,\ny ⩽0,\n则z = 3x+2y 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +406,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q14",
       "content": "记Sn 为数列{an} 的前n 项和, 若Sn = 2an + 1, 则S6 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +435,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q15",
       "content": "从2 位女生, 4 位男生中选3 人参加科技比赛, 且至少有1 位女生入选, 则\n不同的选法共有\n种. (用数字填写答案)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +464,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q16",
       "content": "已知函数f (x) = 2 sin x + sin 2x, 则f (x) 的最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +497,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q17",
       "content": "在平面四边形ABCD 中, ∠ADC = 90◦, ∠A = 45◦, AB = 2, BD = 5.\n(1) 求cos ∠ADB;\n(2) 若DC = 2\n√\n2, 求BC.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +526,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q18",
       "content": "如图, 四边形ABCD 为正方形, E, F 分别为AD, BC 的中点, 以DF 为\n折痕, 把△DFC 折起, 使点C 到达点P 的位置, 且PF ⊥BF.\n(1) 证明: 平面PEF ⊥平面ABFD;\n(2) 求DP 与平面ABFD 所成角的正弦值.\nA\nP\nE\nF\nB\nC\nD\n1067",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +555,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2df6e8e05ecde53a-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q19",
       "content": "设椭圆C: x2\n2 + y2 = 1 的右焦点为F, 过F 的直线l 与C 交于A, B 两\n点, 点M 的坐标为(2, 0).\n(1) 当l 与x 轴垂直时, 求直线AM 的方程;\n(2) 设O 为坐标原点, 证明: ∠OMA = ∠OMB.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +589,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q20",
       "content": "某工厂的某种产品成箱包装, 每箱200 件, 每一箱产品在交付用户之前要\n对产品作检验, 如检验出不合格品, 则更换为合格品. 检验时, 先从这箱产\n品中任取20 件作检验, 再根据检验结果决定是否对余下的所有产品作检\n验, 设每件产品为不合格品的概率都为p (0 < p < 1), 且各件产品是否为\n不合格品相互独立.\n(1) 记20 件产品中恰有2 件不合格品的概率为f (p), 求f (p) 的最大值点\np0;\n(2) 现对一箱产品检验了20 件, 结果恰有2 件不合格品, 以(1) 中确定的\np0 作为p 的值. 已知每件产品的检验费用为2 元, 若有不合格品进入用户\n手中, 则工厂要对每件不合格品支付25 元的赔偿费用.\n①若不对该箱余下的产品作检验, 这一箱产品的检验费用与赔偿费用\n的和记为X, 求EX;\n②以检验费用与赔偿费用和的期望值为决策依据, 是否该对这箱余下\n的所有产品作检验?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,22 +618,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q21",
       "content": "已知函数f (x) = 1\nx −x + a ln x.\n(1) 讨论f (x) 的单调性;\n(2) 若f (x) 存在两个极值点x1, x2, 证明: f (x1) −f (x2)\nx1 −x2\n< a −2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -493,22 +647,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q22",
       "content": "在直角坐标系xOy 中, 曲线C1 的方程为y = k |x| + 2.\n以坐标原\n点为极点, x 轴正半轴为极轴建立极坐标系, 曲线C2 的极坐标方程为\nρ2 + 2ρ cos θ −3 = 0.\n(1) 求C2 的直角坐标方程;\n(2) 若C1 与C2 有且仅有三个公共点, 求C1 的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -516,22 +676,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf#q23",
       "content": "已知f (x) = |x + 1| −|ax −1|.\n(1) 当a = 1 时, 求不等式f (x) > 1 的解集;\n(2) 若x ∈(0, 1) 时不等式f (x) > x 成立, 求a 的取值范围.\n1068",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -539,11 +705,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国1理(河南,河北,山西,江西,湖北,湖南,广东,安徽,福建,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

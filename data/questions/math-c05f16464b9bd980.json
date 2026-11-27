@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2026/2026北京.pdf",
   "name": "2026北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 4,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q01",
       "content": "已知集合M = {x | −1 < x < 3}，N = {x | x ⩾2}，则M ∪N =（\n）\n(A) {x | x > −1}\n(B) {x | x < 3}\n(C) {x | x ⩾2}\n(D) {x | 2 ⩽x < 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q02",
       "content": "已知复数z1 = 3 −2i，z2 = −5 + 4i，则|z1 + z2| =（\n）\n(A)\n√\n2\n(B) 2\n(C) 2\n√\n2\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q03",
       "content": "已知双曲线x2\na2 −y2\n4 = 1 (a > 0) 的渐近线方程为y = ±2\n3x，则a =（\n）\n(A)\n√\n3\n(B) 3\n(C) 6\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q04",
       "content": "在(a −√x)7 的展开式中，若x2 的系数为280，则实数a =（\n）\n(A) 2\n(B) −2\n(C) 1\n(D) −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q05",
       "content": "下列函数中，是奇函数且在其定义域上单调递增的为（\n）\n(A) y =\n1\nx2 + 1\n(B) y = 2−x −2x\n(C) y = sin x\n(D) y = ln 5 + x\n5 −x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q06",
       "content": "已知向量a, b 满足a = (−3, 0)，|a −b| = 1，则（\n）\n(A) |b| 的最小值为1\n(B) |b| 的最小值为3\n(C) |b| 的最大值为3\n(D) |b| 的最大值为4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q07",
       "content": "已知{an}, {bn} 均为无穷数列，则“存在常数M，使得an ⩽M ⩽bn (n = 1, 2, · · · )”是“an ⩽bn (n =\n1, 2, · · · )”的（\n）\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q08",
       "content": "设函数f(x) = sin(x + φ) (0 < φ < 2π)。若将y = f(x) 的图象沿x 轴的正方向平移3φ 个单位长度，所得\n图象与y = f(x) 的图象关于x 轴对称，则满足条件的φ 的个数为（\n）\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q09",
       "content": "为纪念红军长征胜利90 周年，某校组织高一和高二两个年级的学生去甲、乙两个红色教育基地进行研学，\n每位学生选择其中一个基地参加。已知该校高一学生人数多于高二学生人数。若选择甲基地的学生人数多于\n选择乙基地的学生人数，则（\n）\n(A) 选择甲基地的高一学生人数多于选择乙基地的高一学生人数\n(B) 选择甲基地的高一学生人数多于选择乙基地的高二学生人数\n(C) 选择甲基地的高二学生人数不多于选择乙基地的高一学生人数\n(D) 选择甲基地的高二学生人数不多于选择乙基地的高二学生人数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q10",
       "content": "曲柄摇杆机构可以实现旋转运动与摆动运动的相互转化，被广泛应用于多个领域。已知从某曲柄摇杆机构\n中可抽象出如图所示的平面图形ABCD，其中A, B 为定点，C, D 为动点，AB = 4，BC = 5\n2，CD = 3，\nAD = 1，则cos ∠ABC 的取值范围是（\n）\nA\nB\nD\nC\n(A)\n[ 5\n16, 53\n80\n]\n(B)\n[ 5\n16, 73\n80\n]\n(C)\n[ 5\n12, 53\n80\n]\n(D)\n[ 5\n12, 73\n80\n]\n第二部分（非选择题\n共110 分）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -240,22 +305,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q010-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q11",
       "content": "若直线ax + y = 0 与圆(x −2)2 + (y −2)2 = 4 相切，则a =\n．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q12",
       "content": "已知公差为d 的等差数列{an} 的前n 项和为Sn．若S6 = 6a6 + 30，则d =\n，使得Sn ⩽S5 对所\n有n 都成立的一个a1 的取值为\n．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q13",
       "content": "我国在机器人技术领域取得了一系列重要成就．在处理机器人语音信号时，常用公式F(f) = k lg\n(\n1 + f\n700\n)\n（其中常数k > 0）将声音频率f (单位: Hz) 转换为F(f)．若F(f) 的取值范围是[k lg 2, 3k lg 2]，则f 的取\n值范围是\n．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q14",
       "content": "如图，在三棱锥A −BCD 中，AB = AC = AD = 2\n√\n2，BC = BD = 2，CD = 2\n√\n3．该三棱锥的底面积\n为\n，体积为\n．\nA\nC\nB\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -332,22 +425,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q014-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q014-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q15",
       "content": "已知c 是非负常数，函数f(x) = |x2 −cos x −c2|．给出下列四个结论：\nx f(x) 在区间[−1, 1] 上有最小值和最大值；\ny 当c = 1 时，f(x) 在区间[1, 2] 上有最大值；\nz 当c = 0 时，方程f(x) = 1 的解集有3 个元素；\n{ 当c > 0 时，方程f(x) = c 的解集有4 个元素．\n其中正确结论的序号是\n．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q16",
       "content": "（本小题13 分）\n设函数f(x) = 2 sin ωx cos φ + 2 cos ωx sin φ (ω > 0, |φ| < π\n2 )．已知f(x) 的最小正周期为π，且f\n(π\n4\n)\n= 1，\nf(0) > 0．\n( I ) 求ω, φ 的值；\n( II ) 求f(x) 的单调递减区间．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -378,22 +487,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q17",
       "content": "（本小题13 分）\n为了了解某校高三年级学生的数学学习情况，随机抽查了200 名高三年级学生某次考试的数学成绩，整理\n成下表：\n成绩\n[81, 94)\n[94, 107)\n[107, 120)\n[120, 135)\n[135, 150]\n人数\n40\n60\n60\n32\n8\n假设学生的数学成绩相互独立．用频率估计概率．\n( I ) 估计该校高三年级学生这次考试的数学成绩低于120 的概率；\n( II ) 从该校高三年级学生中随机抽取4 人，估计在这次考试中，2 人的数学成绩不低于120 且2 人的数学\n成绩低于94 的概率；\n(III) 为分析该校高三年级学生的数学学习情况，可采用三种方法：将样本中每名学生数学成绩所在区间的左\n端点值、中点值和右端点值视为该生的数学成绩．分别将这三种方法得到的三组数学成绩的方差记为\ns2\n左、s2\n中和s2\n右，判断s2\n左、s2\n中和s2\n右的大小关系．（结论不要求证明）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -401,22 +516,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q18",
       "content": "（本小题14 分）\n如图，在直三棱柱ABC −A1B1C1 中，D, E 分别为AC, A1B1 的中点，AB = AC = 2，∠BAC = 90◦，\nBB1 =\n√\n2．\n( I ) 求证：DE // 平面BCC1B1；\n( II ) 设点P 在△A1B1C1 的内部，PE // B1C1．再从条件x、条件y、条件z这三个条件中选择一个作为已\n知，使点P 的位置唯一确定，求平面PAD 与平面PDE 夹角的余弦值．\n条件x：PA = PD；\n条件y：PA ⊥BC；\n条件z：BB1 // 平面PDE．\n注：如果选择的条件不符合要求，第(II) 问得0 分；如果选择多个符合要求的条件分别解答，按第一个解答计分．\nE\nD\nP\nB\nC\nA\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -424,22 +545,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c05f16464b9bd980-q018-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q19",
       "content": "（本小题15 分）\n已知椭圆E : x2\na2 + y2\nb2 = 1 (a > b > 0) 的一个顶点为(2, 0)，离心率为1\n2．过点A(1, 1) 且斜率为k (k̸ = ±1)\n的直线与椭圆E 交于不同的两点B, C．点B 关于直线y = x 的对称点为D，直线CD 与直线y = x 交于\n点Q．设△ABQ 与△ACQ 的面积分别为S△ABQ 与S△ACQ．\n( I ) 求椭圆E 的方程；\n( II ) 若|S△ABQ −S△ACQ| = 5\n8，求k 的值．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -447,22 +578,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q20",
       "content": "（本小题15 分）\n设函数f(x) = x2 + mx −4enx−1（n 是整数）．已知曲线y = f(x) 在点(−1, f(−1)) 处的切线方程为\n4x + e2y + e2 + 8 = 0．\n( I ) 求m, n 的值；\n( II ) 求f(x) 的极值点个数；\n(III) 求直线l : y = kx −1 (k > 0) 与曲线y = f(x) 的交点个数．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -470,22 +607,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2026/2026北京.pdf#q21",
       "content": "（本小题15 分）\n设A 是如下形式的m 行n 列的数表：\na11\na12\n· · ·\na1n\na21\na22\n· · ·\na2n\n...\n...\n...\n...\nam1\nam2\n· · ·\namn\n其中位于第i 行第j 列的数记为aij，且aij ∈{−1, 1} (i = 1, 2, · · · , m; j = 1, 2, · · · , n)．\n若对任意的k, l ∈{1, 2, · · · , m} 和p, q ∈{1, 2, · · · , n}，当l > k, q > p 且(l −k) −(q −p) ∈{−2, 2} 时，均\n有akp + akq + alp + alq = 0，则称数表A 具有性质P．\n( I ) 分别判断数表A1 和A2 是否具有性质P：（只需写出结论）\nA1 =\n1\n1\n-1\n1\n-1\n1\n-1\n1\nA2 =\n1\n-1\n1\n-1\n1\n1\n-1\n-1\n-1\n1\n1\n1\n( II ) 当m = 4, n = 5 时，若数表A 具有性质P，求A 中1 的个数的最大值；\n(III) 当m = n = 6 时，若数表A 具有性质P，且a11 = 1，证明：\naij = ai1a1j\n(i = 1, 2, · · · , 6; j = 1, 2, · · · , 6)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2026,
       "subject": "数学",
@@ -493,11 +636,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2026/2026北京.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 3,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

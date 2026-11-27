@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
   "name": "2008重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 6,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q01",
       "content": "放射性同位素钍232 经α、β 衰变会生成氡，其衰变方程为23290Th→22086Rn＋xα＋yβ，\n其中（\n）\n（A）x = 1，y = 3\n（B）x = 2，y = 3\n（C）x = 3，y = 1\n（D）x = 3，y = 2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "本题考查放射性元素衰变的有关知识，本题为较容易的题目。由衰变方程：23290Th\n→22086Rn＋x42He＋y0-1e，由质量数守恒和电荷数守恒得：232=220+4x，90=86+2x-y，可解得：\nx=3、y=2。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -33,11 +44,366 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q02",
+      "content": "某同学设计了一个转向灯电路，其中L 为指示灯，L1、L2 分\n别为左、右转向灯，S 为单刀双掷开关，E 为电源，当S 置于位\n置1 时，以下判断正确的是（    ）\n（A）L 的功率小于额定功率\n（B）L1 亮，其功率等于额定功率\n（C）L2 亮，其功率等于额定功率\n（D）含L 支路总功率较另一支路大",
+      "answer": "A",
+      "analysis": "本题考查电路分析的有关知识，本题为中等难度题\n目。由电路结构可知，当S 置于1 位置时，L 与L2 串联后再与\nL1 并联，由灯泡的额定电压和额定功率可知，L1 和L2 的电阻相等。L 与L2 串联后的总电\n阻大于L1 的电阻，由于电源电动势为6 伏，本身有电阻，所以L1 两端电压和L 与L2 的总\n电压相等，且都小于6 伏，所以三只灯都没有正常发光，三只灯的实际功率都小于额定功\n率。含L 的支路的总电阻大于L1 支路的电阻，由于两条支路的电压相等，所以。含L 的\n支路的总功率小于另一支路的功率。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q03",
+      "content": "地面附近有一正在上升的空气团，它与外界的热交换忽略不计，已知大气压强随高度增\n加而降低，则该气团在此上升过程中（不计气团内分子间的势能）（\n）\n（A）体积减小，温度降低\n（B）体积减小，温度不变\n（C）体积增大，温度降低\n（D）体积增大，温度不变",
+      "answer": "C",
+      "analysis": "本题考查气体的有关知识，本题为中等难度题目。随着空气团的上升，大气压强\n也随着减小，那么空气团的体积会增大，空气团对外做功，其内能会减小，因为不计分子\n势能，所以内能由其温度决定，则其温度会降低。所以空气团的体积增大、温度降低、压\n强减小。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q04",
+      "content": "下列与能量有关的说法中正确的是（\n）\n（A）卫星绕地球圆周运动的半径越大，动能越大\n（B）从同种金属逸出的光电子的最大初动能随照射光的波长增大而减小\n（C）做平抛运动的物体在任意相等时间内动能的增量相同\n（D）在静电场中，电场线越密的地方正电荷的电势能越大",
+      "answer": "B",
+      "analysis": "本题考查能量有关的问题，本题为较难的题目。卫星绕地球做圆周运动中，\nE（6V 1Ω）\nL1（6V 16W）\nL2（6V 16W）\nL（6V 1.2W）\nS 1\n2\nr\nGM\nv =\n半径越大，其速度越小，其动能也就越小；根据光电效应方程有：\nW\nE\nc\nh\nk −\n=\nλ\n,对于同一种金属而言，W 是一定的，所以入射光的波长减小，其最大初动\n能增大；做平抛运动的物体，其动能的变化量为：\n2\n2\ny1\n2\ny1\n2\ny1\n2\ny1\n2\ny2\nk\nt\nmg\n2\n1\ngt\nmv\n}\nv\n-\ngt)\nm{(v\n2\n1\n)\nv\n-\nm(v\n2\n1\n+\n=\n+\n=\n=\n∆E\n,所以任意相等时间内\n动能的增量不相等;在静电场中，电场线越密的在地方，其电场强度越大，但其电势可为\n正，也可为负，所以正电荷在电场线越密的在地方，其电势能并不一定越大。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q05",
+      "content": "如图，粗糙水平桌面上有一质量为m 的铜质矩形线圈，当一竖\n直放置的条形磁铁从线圈中线AB 正上方等高快速经过时，若线圈\n始终不动，则关于线圈受到的支持力FN 及在水平方向运动趋势的正\n确判断是（     ）\n（A）FN 先小于mg 后大于mg，运动趋势向左\n（B）FN 先大于mg 后小于mg，运动趋势向左\n（C）FN 先小于mg 后大于mg，运动趋势向右\n（D）FN 先大于mg 后小于mg，运动趋势向右",
+      "answer": "D",
+      "analysis": "本题考查电磁感应有关的知识，本题为中等难度题目。条形磁铁从线圈正上方等\n高快速经过时，通过线圈的磁通量先增加后又减小。当通过线圈磁通量增加时，为阻碍其\n增加，在竖直方向上线圈有向下运动的趋势，所以线圈受到的支持力大于其重力，在水平\n方向上有向右运动的趋势，当通过线圈的磁通量减小时，为阻碍其减小，在竖直方向上线\n圈有向上运动的趋势，所以线圈受到的支持力小于其重力，在水平方向上有向右运动的趋\n势。综上所述，线圈所受到的支持力先大于重力后小于重力，运动趋势总是向右。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q06",
+      "content": "图为一个四分之一圆柱体棱镜的截面图，图中E、F、G、H 将半\n径OM 分成五等份，虚线EE1、FF1、GG1、HH1 平行于半径ON，ON\n边可吸收到达其上的所有光线。已知该棱镜的折射率n =\nA5\n3\nE\nA，若平行\n光束垂直入射并覆盖OM，则光线（\n）\n（A）不能从圆弧NF1 射出\n（B）不能从圆弧NG1 射出\n（C）不能从圆弧G1H1 射出\n（D）不能从圆弧H1M 射出",
+      "answer": "B",
+      "analysis": "本题考查光的折射有关的知识，本题为中等难度题目。由该棱镜的折射率为n =\nA5\n3\nE\nA可知其临界角C 满足：\n5\n3\nn\n1\nsinC\n=\n=\n,可求出GG1 右边的入射光线没有发生全反射，其\n左边的光线全部发生全反射。所以光线只能从圆弧NG1 射出。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q07",
+      "content": "某地区地震波中的横波和纵波传播速率分别约为 4 km/s 和 9\nkm/s，一种简易地震仪由一竖直弹簧振子 P 和一水平弹簧振子 H 组\n成，如图。在一次地震中震源在地震仪下方，观察到两振子相差 5 s 开\n始振动，则（    ）\n（A）P 先开始振动，震源距地震仪约 36 km\nB\nA\nS\nN\nO E F G H M\nN E1 F1 G1\nH1\n震源\nH\nP\n（B）P 先开始振动，震源距地震仪约 25 km\n（C）H 先开始振动，震源距地震仪约 36 km\n（D）H 先开始振动，震源距地震仪约 25 km",
+      "answer": "A",
+      "analysis": "本题考查地震波有关的知识，本题为中等难度题目。由于纵波的传播速度快些，\n所以纵波先到达地震仪处，所以P 先开始振动。设地震仪距震源为x，则有\nAx\n4\nE\nA－Ax\n9\nE\nA = 5 解\n得：x=36km。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q08",
+      "content": "图1 为某同学\n设计的电容式速\n度传感器原理图，\n其中上板为固定\n极板，下板为待测\n物体。在两极板间\n电压恒定的条件下，极板上所带电量Q 将随待测物体的上下运动而变化，若Q 随时间t 的\n变化关系为 Q =\nA b\nt＋a\nE\nA（a、b 为大于零的常数），其图像如图2 所示，那么图3、图4 中反\n映极板间场强大小E 和物体速率v 随时间t 变化关系可能是（     ）\n（A）①和③\n（B）①和④\n（C）②和③\n（D）②和④",
+      "answer": "C",
+      "analysis": "本题考查速度传感器的有关知识，本题为较难题目。由题意可知：\nπ\nε\nπ\nε\n4k\ns\nQ\nd\nd\n4k\ns\nQ\nCd\nQ\nd\n=\n=\n=\n= U\nE\n 所以E 的变化规律与Q 的变化规律相似，所以E 的图象\n为②，由\na\nt\nb\nU\nd\nk\ns\nCU\nQ\n+\n=\n=\n=\nπ\nε\n4\nk, 所以d=t+a=vt+a,所以是匀速移动，所以速度图象\n为③，综上所述C 正确。\n固定极板\n待测物体\n图1\nU\nQ\nt\n0\n图2\nE\nt\n0\n图3\nv\nt\n0\n图4\n①\n②\n③\n④\n                        Q                   E                    v\n固定极板                                             ①                           ③\n                    U\n待测物体                                           ②                         ④\n                         O               t   O                t   O               t\n        图1                   图2                  图3                  图4\n第二部分（非选择题）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q008-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q008-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q008-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q09",
+      "content": "（17 分）\n（1）某实验小组拟用图1 所示装置研究滑块的运动，实验器材有滑块、钩码、纸带、米尺、\n带滑轮的木板，以及由漏斗和细线组成的单摆等。实验中，滑块在钩码作用下拖动纸带做匀\n加速直线运动，同时单摆垂直于纸带运动方向摆动，漏斗漏出的有色液体在纸带上留下的痕\n迹记录了导漏斗在不同时刻的位置。\n①在图2 中，从________纸带可看出滑块的速度和加速度方向一致；\n②用该方法测量滑块加速度的误差主要来源有_________、____________（写出2 个即可）。",
+      "answer": "①B；②摆长测量、漏斗重心变化、液体痕迹偏粗、阻力变化……",
+      "analysis": "（1）本题考查匀加速运动和单摆的运动，本题中等难度题目。要使速度和加速度方\n向相同，则只有B，因为B 中相等时间内纸带运动的距离越来越大。用该方法测量加速度的\n误差主要来源有：摆长的测量。漏斗重心的变化，液体痕迹偏粗、阻力变化等。\n（2）某研究性小组设计了如图1 所示的\n电路，用来研究稀盐水溶液的电阻率和浓\n度的关系。图中E 为直流电源，K 为开关，\nK1 为单刀双掷开关，V 为电压表，A 为多\n量程电流表，R 为滑动变阻器，Rx 为待测\n稀盐水溶液液柱。\n①实验时，闭合K 之前应将R 的滑片置\n于________（填“C”或“D”）端，当用\n电流表外接法测量Rx 的阻值时，K1 应置\n于位置_______（填“1”或“2”）。\n②在一定条件下，用电流表内、外接法得到Rx 的电阻率随浓度变化的两条曲线如图2 所示\n（不计由于通电导致的化学变化）。实验中Rx 的通电面积为20cm2，长为20 cm，用内接法\n测得Rx 为3500Ω，其电阻率为______Ω·m，由图中对应曲线_________（填“1”或“2”）可\n得此时溶液浓度约为______%（结果保留两位有效数字）。\n纸带\n滑块\n钩码\n漏斗\n图1\n纸带运动方向\nA 纸带\nB 纸带\nC 纸带\n图2\n Rx             V          电阻率（Ω•m）\n                       100\n             1\n    A                   80\n         K1  2\n                        60\n      C   P   D\n        R               40\n    E        K\n                        20\n                         0   0.05  0.10 0.15  0.20 0.25 0.30 浓度\n         图1                         图2\n（2）本题考查电阻率测量这个实验。闭合K 之前，应将R 的滑片位置置于D 端，这样可\n保证电表的安全。用电流表外接法测电阻时，K 应置于1 位置。\n根据电阻定律得：\ns\nl\nR\nρ\n=\n 得：\nm\nl\nRs\n⋅\nΩ\n=\n=\n35\nρ\n，内接法使得测量值偏大，对应的电\n阻率也偏大，所以对应的曲线为1。由测量得电阻率和图象可得溶液浓度约为0.011～0.014\n之间。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q009-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q10",
+      "content": "（16 分）滑板运动是一种非常刺激的水上运动。研\n究表明，在进行滑板运动时，水对滑板的作用力FN 垂\n直于板面，大小为kv2，其中v 为滑板的速率（水可视\n为静止）。某次运动中，在水平牵引力作用下，当滑板\n与水面的夹角为θ = 37°时（如图），滑板做匀速直线运动，相应的k = 54kg/m，人和滑板的\n总质量为108kg，试求：（重力加速度g 取10m/s2，sin37° = 0.6，空气阻力不计）\n（1）水平牵引力的大小；\n（2）滑板的速率；\n（3）水平牵引力的功率。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）以滑板和运动员为研究对象，其受力如图所示\n由共点力平衡条件可得\ncos\nN\nF\nmg\nθ =\n①\nsin\nN\nF\nF\nθ =\n②\n由①、②联立，得\nF =810N\n(2)\n/ cos\nN\nF\nmg\n=\nθ\n2\nN\nF\nkv\n=\nRx\nR\nE\nC\nD\nP\nA\nV\nK\n1 K1\n2\n图1\n浓度（％）\n图2\n电阻率（Ω·m）\n水平牵引力\n水面\n滑板\nθ\nmg\nF\nFN\nθ\n得\n5\ncos\nmg\nv\nk\n=\n=\nθ\nm/s\n(3)水平牵引力的功率\nP=Fv=4050 W",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q010-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q11",
+      "content": "（9 分）图中有一竖直固定在地面的透气圆筒，筒内有一劲度系数为\nk 的轻弹簧，其下端固定，上端连接一质量为m 的薄滑块，圆筒内壁涂\n有一种新型智能材料－ER 流体，它对滑块的阻力可调，起初滑块静止，\nER 流体对其阻力为零，弹簧的长度为L，现有一质量为m 的物体从距\n地面2L 处自由落下，与滑块碰撞后粘在一起向下运动，为保证滑块做\n匀减速运动，且下移距离为\nA2mg\nk\nE\nA时速度减为零，ER 流体对滑块的阻力\n需随滑块下移而变，试求（忽略空气阻力）：\n（1）下落物体与滑块碰撞过程中，系统损失的机械能；\n（2）滑块向下运动过程中加速度大小；\n（3）滑块下移距离d 时ER 流体对滑块阻力的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设物体下落末速度为v0，由机械能守恒定律\n2\n0\n1\n2\nmgL\nmv\n=\n得\n0\n2\nv\ngL\n=\n设碰后共同速度为v1，由动量守恒定律\n2mv1=mv0\n得\n1\n1\n2\n2\nv\ngL\n=\n碰撞过程中系统损失的机械能力\n2\n2\n0\n1\n1\n1\n1\n2\n2\n2\n2\nE\nmv\nmv\nmgL\n∆\n=\n−\n=\n(2)设加速度大小为a,有\n2\n1\n2as\nv\n=\n得\n8\nkL\na\nm\n=\n（3）设弹簧弹力为FN，ER 流体对滑块的阻力为FER\n受力分析如图所示\n2\n2\nS\nER\nF\nF\nmg\nma\n+\n−\n=\nFS=kx\nx=d+mg/k\n联立解得\n4\nER\nkL\nF\nmg\nkd\n=\n+\n−\nm\nm\n2L\nL",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q011-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q011-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q011-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008重庆理综.pdf#q12",
+      "content": "（20 分）图为一种质谱仪工作原理示\n意图，在以O 为圆心、OH 为对称轴、夹\n角为2α 的扇形区域内分布着方向垂直于\n纸面的匀强磁场。对称于OH 轴的C、D\n分别是离子发射点和收集点，CM 垂直交\n磁场左边界于M，且OM = d。现有一正\n离子束以小发散角（纸面内）从C 射出，\n这些离子在CM 方向的分速度均为v0。若\n该离子束中比荷为q/m 的离子都能汇聚到\nD。试求：\n（1）磁感应强度的大小和方向（提示：可考虑沿CM 方向运动的离子为研究对象）；\n（2）离子沿与CM 成θ 角的直线CN 进入磁场，其轨道半径与在磁场中运动的时间；\n（3）线段CM 的长度。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）\n设沿CM 方向运动的离子在磁场中做圆周运动的轨道半径为R\n由\n1\n2\nR′ =\n2\n0\n0\nmv\nqv B\nR\n=\nR=d\n得B =\n0\nmv\nqd\n磁场方向垂直纸面向外\n（2）\n设沿CN 运动的离子速度大小为v，在磁场\n中的轨道半径为R′，运动时间为t\n由\nvcosθ=v0\n得v =\n0\ncos\nv\nθ\nR′= mv\nqB\n= cos\nd\nθ\n方法一：设弧长为s\nt= s\nv\ns=2(θ+α)×R′\nt=A2（α＋θ）d\nv0\nE\n方法二：\n离子在磁场中做匀速圆周运动的周期T = 2 m\nqB\nπ\n                H\n       N\n          M\n     θ\n            d\nC                  O                D\nD\nO\nd\nC\nθ\nN\nM\nα\nH\nt=Ｔ×\nπ\nα\nθ +\n=A2（α＋θ）d\nv0\nE\n(3)\n方法一：\nCM=MNcotθ\n)\nsin(\nβ\nα +\n+ d\nMN\n=\nα\nsin\nR′\nＲ′=\nθ\ncos\nd\n以上3 式联立求解得\nCM=dcotα\n方法二：设圆心为A，过A 做AB 垂直NO，\n可以证明NM = BO\n∵NM=CMtanθ\n又∵BO=ABcotα\n=R′sinθcotα\n=\nα\nθ\nθ\ncot\nsin\ncos\nd\n∴CM=dcotα",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008重庆理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q012-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q012-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q012-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d4de6631ae9e7dbe-q012-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 0,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
   "name": "2015全国1文(河南,河北,山西,江西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q01",
       "content": "已知集合A = {x | x = 3n + 2, n ∈N}, B = {6, 8, 10, 12, 14}, 则集合\nA ∩B 中的元素个数为\n(\n)\n(A) 5\n(B) 4\n(C) 3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q02",
       "content": "已知点A (0, 1), B (3, 2), 向量#   »\nAC = (−4, −3), 则向量#    »\nBC =\n(\n)\n(A) (−7, −4)\n(B) (7, 4)\n(C) (−1, 4)\n(D) (1, 4)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q03",
       "content": "已知复数z 满足(z −1) i = 1 + i, 则z =\n(\n)\n(A) −2 −i\n(B) −2 + i\n(C) 2 −i\n(D) 2 + i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q04",
       "content": "如果3 个正整数可作为一个直角三角形三条边的边长, 则称这3 个数为一\n组勾股数, 从1, 2, 3, 4, 5 中任取3 个不同的数, 则这3 个数构成一组勾股\n数的概率为\n(\n)\n(A) 3\n10\n(B) 1\n5\n(C) 1\n10\n(D) 1\n20",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q05",
       "content": "已知椭圆E 的中心为坐标原点, 离心率为1\n2, E 的右焦点与抛物线C:\ny2 = 8x 的焦点重合, A, B 是C 的准线与E 的两个交点, 则|AB| = (\n)\n(A) 3\n(B) 6\n(C) 9\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q06",
       "content": "《九章算术》是我国古代内容极为丰富的数学名著, 书中有如下问题: “今有\n委米依垣内角, 下周八尺, 高五尺. 问: 积及为米几何? ”其意思为: “在屋\n内墙角处堆放米(如图, 米堆为一个圆锥的四分之一), 米堆底部的弧长为8\n尺, 米堆的高为5 尺, 问米堆的体积和堆放的米各为多少? ”已知1 斛米的\n体积约为1.62 立方尺, 圆周率约为3, 估算出堆放的米约有\n(\n)\n(A) 14 斛\n(B) 22 斛\n(C) 36 斛\n(D) 66 斛",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +197,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q07",
       "content": "已知{an} 是公差为1 的等差数列, Sn 为{an} 的前n 项和, 若S8 = 4S4,\n则a10 =\n(\n)\n(A) 17\n2\n(B) 19\n2\n(C) 10\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q08",
       "content": "函数f (x) = cos (ωx + φ) 的部分图象如图所示, 则f (x) 的单调递减区间\n为\n(\n)\nx\n1\n4\n5\n4\ny\n1\nO\n(A)\n(\nkπ −1\n4, kπ + 3\n4\n)\n, k ∈Z\n(B)\n(\n2kπ −1\n4, 2kπ + 3\n4\n)\n, k ∈Z\n(C)\n(\nk −1\n4, k + 3\n4\n)\n, k ∈Z\n(D)\n(\n2k −1\n4, 2k + 3\n4\n)\n, k ∈Z",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +259,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q09",
       "content": "执行如图的程序框图, 如果输入的t = 0.01, 则输出的n =\n(\n)\n开始\n输入t\nS = 1, n = 0, m = 1\n2\nS = S −m\nm = m\n2 , n = n + 1\nS > t\n输出n\n结束\n否\n是\n(A) 5\n(B) 6\n(C) 7\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +292,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q10",
       "content": "已知函数f (x)\n=\n{\n2x−1 −2,\nx ⩽1,\n−log2 (x + 1) ,\nx > 1,\n且f (a)\n=\n−3,\n则\nf (6 −a) =\n(\n)\n(A) −7\n4\n(B) −5\n4\n(C) −3\n4\n(D) −1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +325,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q11",
       "content": "圆柱被一个平面截去一部分后与半球(半径为r) 组成一个几何体, 该几何\n体三视图中的正视图和俯视图如图所示. 若该几何体的表面积为16 + 20π,\n则r =\n(\n)\n正视图\n2r\nr\n俯视图\nr\n2r\n(A) 1\n(B) 2\n(C) 4\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +354,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q12",
       "content": "设函数y = f (x) 的图象与y = 2x+a 的图象关于直线y = −x 对称, 且\nf (−2) + f (−4) = 1, 则a =\n(\n)\n(A) −1\n(B) 1\n(C) 2\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +387,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q13",
       "content": "数列{an} 中a1 = 2, an+1 = 2an, Sn 为{an} 的前n 项和, 若Sn = 126,\n则n =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +416,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q14",
       "content": "已知函数f (x) = ax3 + x + 1 的图象在点(1, f (1)) 处的切线过点(2, 7),\n则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +445,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q15",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\nx + y −2 ⩽0,\nx −2y + 1 ⩽0,\n2x −y + 2 ⩾0,\n则z = 3x + y 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +474,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q16",
       "content": "已知F 是双曲线C: x2−y2\n8 = 1 的右焦点, P 是C 左支上一点, A\n(\n0, 6\n√\n6\n)\n,\n当△APF 周长最小时, 该三角形的面积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +503,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q17",
       "content": "已知a, b, c 分别是△ABC 内角A, B, C 的对边, sin2 B = 2 sin A sin C.\n(1) 若a = b, 求cos B;\n(2) 若B = 90◦, 且a =\n√\n2, 求△ABC 的面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +532,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q18",
       "content": "如图, 四边形ABCD 为菱形, G 为AC 与BD 的交点, BE ⊥平面ABCD.\n(1) 证明: 平面AEC ⊥平面BED;\n(2) 若∠ABC = 120◦, AE ⊥EC, 三棱锥E −ACD 的体积为\n√\n6\n3 , 求该\n三棱锥的侧面积.\nB\nC\nD\nE\nG\nA\n963",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +561,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q19",
-      "content": "某公司为确定下一年度投入某产品的宣传费, 需了解年宣传费x (单位: 千\n元) 对年销售量y (单位: t) 和年利润z (单位: 千元) 的影响. 对近8 年的\n年宣传费xi 和年销售量yi (i = 1, 2, · · · , 8) 数据作了初步处理, 得到下\n面的散点图及一些统计量的值.\n年宣传费/千元\n年销售量/t\n34\n480\n500\n520\n540\n560\n580\n600\n620\n36 38 40 42 44 46 48 50 52 54 56\nx\ny\nw\n8∑\ni=1\n(xi −x)2\n8∑\ni=1\n(wi −w)2",
+      "content": "某公司为确定下一年度投入某产品的宣传费, 需了解年宣传费x (单位: 千\n元) 对年销售量y (单位: t) 和年利润z (单位: 千元) 的影响. 对近8 年的\n年宣传费xi 和年销售量yi (i = 1, 2, · · · , 8) 数据作了初步处理, 得到下\n面的散点图及一些统计量的值.\n年宣传费/千元\n年销售量/t\n34\n480\n500\n520\n540\n560\n580\n600\n620\n36 38 40 42 44 46 48 50 52 54 56\nx\ny\nw\n8∑\ni=1\n(xi −x)2\n8∑\ni=1\n(wi −w)2\n46.6\n563\n6.8\n289.8\n1.6\n8∑\ni=1\n(xi −x) (yi −y)\n8∑\ni=1\n(wi −w) (yi −y)\n1.469\n108.8\n表中wi = √xi, w = 1\n8\n8∑\ni=1\nwi.\n(1) 根据散点图判断, y = a + bx 与y = c + d√x 哪一个适宜作为年销售量\ny 关于年宣传费x 的回归方程类型? (给出判断即可, 不必说明理由)\n(2) 根据(1) 的判断结果及表中数据, 建立y 关于x 的回归方程;\n(3) 已知这种产品的年利润z 与x, y 的关系为z = 0.2y −x. 根据(2) 的\n结果回答下列问题:\n①年宣传费x = 49 时, 年销售量及年利润的预报值是多少?\n②年宣传费x 为何值时, 年利润的预报值最大?\n附: 对于一组数据(u1, v1), (u2, v2), · · · , (un, vn), 其回归直线v = α+βu 的\n斜率和截距的最小二乘估计分别为ˆβ =\nn∑\ni=1\n(ui −¯u) (vi −¯v)\nn∑\ni=1\n(ui −¯u)2\n, ˆα = ¯v −ˆβ¯u.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q20",
-      "content": "6\n563\n6.8\n289.8\n1.6\n8∑\ni=1\n(xi −x) (yi −y)\n8∑\ni=1\n(wi −w) (yi −y)\n1.469\n108.8\n表中wi = √xi, w = 1\n8\n8∑\ni=1\nwi.\n(1) 根据散点图判断, y = a + bx 与y = c + d√x 哪一个适宜作为年销售量\ny 关于年宣传费x 的回归方程类型? (给出判断即可, 不必说明理由)\n(2) 根据(1) 的判断结果及表中数据, 建立y 关于x 的回归方程;\n(3) 已知这种产品的年利润z 与x, y 的关系为z = 0.2y −x. 根据(2) 的\n结果回答下列问题:\n①年宣传费x = 49 时, 年销售量及年利润的预报值是多少?\n②年宣传费x 为何值时, 年利润的预报值最大?\n附: 对于一组数据(u1, v1), (u2, v2), · · · , (un, vn), 其回归直线v = α+βu 的\n斜率和截距的最小二乘估计分别为ˆβ =\nn∑\ni=1\n(ui −¯u) (vi −¯v)\nn∑\ni=1\n(ui −¯u)2\n, ˆα = ¯v −ˆβ¯u.\n20. 已知过点A (0, 1) 且斜率为k 的直线l 与圆C: (x −2)2 + (y −3)2 = 1 交\n于M, N 两点.\n(1) 求k 的取值范围;\n(2) 若#     »\nOM · #    »\nON = 12, 其中O 为坐标原点, 求|MN|.\n21. 设函数f (x) = e2x −a ln x.\n(1) 讨论f (x) 的导函数f ′ (x) 的零点的个数;\n(2) 证明: 当a > 0 时, f (x) ⩾2a + a ln 2\na.\n22. 如图, AB 是⊙O 的直径, AC 是⊙O 的切线, BC 交⊙O 于点E.\n(1) 若D 为AC 的中点, 证明: DE 是⊙O 的切线;\n(2) 若OA =\n√\n3CE, 求∠ACB 的大小.\nB\nC\nD\nE\nO\nA\n•\n23. 在直角坐标系xOy 中, 直线C1: x = −2, 圆C2: (x −1)2 + (y −2)2 = 1,\n以坐标原点为极点, x 轴的正半轴为极轴建立极坐标系.\n(1) 求C1, C2 的极坐标方程;\n(2) 若直线C3 的极坐标方程为θ = π\n4 (ρ ∈R), 设C2 与C3 的交点为M,\nN, 求△C2MN 的面积.\n24. 已知函数f (x) = |x + 1| −2|x −a|, a > 0.\n(1) 当a = 1 时, 求不等式f (x) > 1 的解集;\n(2) 若f (x) 的图象与x 轴围成的三角形面积大于6, 求a 的取值范围.\n964",
+      "content": "已知过点A (0, 1) 且斜率为k 的直线l 与圆C: (x −2)2 + (y −3)2 = 1 交\n于M, N 两点.\n(1) 求k 的取值范围;\n(2) 若#     »\nOM · #    »\nON = 12, 其中O 为坐标原点, 求|MN|.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,11 +624,146 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
         "page": 2,
-        "questionNumber": 46,
+        "endPage": 2,
+        "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q21",
+      "content": "设函数f (x) = e2x −a ln x.\n(1) 讨论f (x) 的导函数f ′ (x) 的零点的个数;\n(2) 证明: 当a > 0 时, f (x) ⩾2a + a ln 2\na.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q22",
+      "content": "如图, AB 是⊙O 的直径, AC 是⊙O 的切线, BC 交⊙O 于点E.\n(1) 若D 为AC 的中点, 证明: DE 是⊙O 的切线;\n(2) 若OA =\n√\n3CE, 求∠ACB 的大小.\nB\nC\nD\nE\nO\nA\n•",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0478e24d32804cc7-q022-p002-f01.jpg"
+    },
+    {
+      "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q23",
+      "content": "在直角坐标系xOy 中, 直线C1: x = −2, 圆C2: (x −1)2 + (y −2)2 = 1,\n以坐标原点为极点, x 轴的正半轴为极轴建立极坐标系.\n(1) 求C1, C2 的极坐标方程;\n(2) 若直线C3 的极坐标方程为θ = π\n4 (ρ ∈R), 设C2 与C3 的交点为M,\nN, 求△C2MN 的面积.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf#q24",
+      "content": "已知函数f (x) = |x + 1| −2|x −a|, a > 0.\n(1) 当a = 1 时, 求不等式f (x) > 1 的解集;\n(2) 若f (x) 的图象与x 轴围成的三角形面积大于6, 求a 的取值范围.\n964",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015全国1文(河南,河北,山西,江西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

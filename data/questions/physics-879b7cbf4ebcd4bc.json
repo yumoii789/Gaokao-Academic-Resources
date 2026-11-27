@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015上海.pdf",
   "name": "2015上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 13,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 33,
+    "answerBlocks": 32,
+    "sourceAnswers": 29,
+    "sourceAnalysis": 4,
+    "reviewCount": 29,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q01",
       "content": "X 射线（    ）\n（A）不是电磁波\n（B）具有反射和折射的特性\n（C）只能在介质中传播\n（D）不能发生干涉和衍射",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q02",
       "content": "如图，P 为桥墩，A 为靠近桥墩浮在水面的叶片，波源S 连续振动，\n形成水波，此时叶片A 静止不动。为使水波能带动叶片振动，可用的方\n法是（    ）\n（A）提高波源频率\n（B）降低波源频率\n（C）增加波源距桥墩的距离\n（D）减小波源距桥墩的距离",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q03",
       "content": "如图，鸟沿虚线斜向上加速飞行，空气对其作用力可能是（    ）\n（A）F1\n（B）F2\n（C）F3\n（D）F4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q04",
       "content": "一定质量的理想气体在升温过程中（    ）\n（A）分子平均势能减小\n（B）每个分子速率都增大\n（C）分子平均动能增大\n（D）分子间作用力先增大后减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q05",
       "content": "铀核可以发生衰变和裂变，铀核的（    ）\n（A）衰变和裂变都能自发发生\n（B）衰变和裂变都不能自发发生\n（C）衰变能自发发生而裂变不能自发发生\n（D）衰变不能自发发生而裂变能自发发生",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q06",
       "content": "23290Th 经过一系列α 衰变和β 衰变后变成20882Pb，则20882Pb 比23290Th 少（    ）\n（A）16 个中子，8 个质子\n（B）8 个中子，16 个质子\n（C）24 个中子，8 个质子\n（D）8 个中子，24 个质子",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q07",
       "content": "在α 粒子散射实验中，电子对α 粒子运动的影响可以忽略。这是因为与α 粒子相比，电\n子的（    ）\n（A）电量太小\n（B）速度太小\n（C）体积太小\n（D）质量太小\nF1\nF2\nF3\nF4\nA\nP\nS",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q08",
       "content": "两个正、负点电荷周围电场线分布如图所示。P、Q 为电场\n中两点，则（    ）\n（A）正电荷由 P 静止释放能运动到 Q\n（B）正电荷在 P 的加速度小于在 Q 的加速度\n（C）负电荷在 P 的电势能高于在 Q 的电势能\n（D）负电荷从 P 移动到 Q，其间必有一点电势能为零",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -194,22 +255,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q09",
       "content": "如图，长为h 的水银柱将上端封闭的玻璃管内气体分隔成两部分，A 处管内\n外水银面相平。将玻璃管缓慢向上提升H 高度（管下端未离开水银面），上下两\n部分气体的压强变化分别为Δp1 和Δp2，体积变化分别为ΔV1 和ΔV2。已知水银\n密度为ρ，玻璃管截面积为S，则（    ）\n（A）Δp2 一定等于Δp1\n（B）ΔV2 一定等于ΔV1\n（C）Δp2 与Δp1 之差为ρgh\n（D）ΔV2 与ΔV1 之和为HS",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -217,22 +288,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q10",
       "content": "用很弱的光做单缝衍射实验，改变曝光\n时间，在胶片上出现的图像如图所示，该实\n验表明（    ）\n（A）光的本质是波\n（B）光的本质是粒子\n（C）光的能量在胶片上分布不均匀\n（D）光到达胶片上不同位置的概率相同",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -240,22 +321,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q010-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q11",
       "content": "某光源发出的光由不同波长的光组成，不同\n波长的光的强度如图所示。表中给出了一些材料\n的极限波长，用该光源发出的光照射表中材料\n（    ）\n（A）仅钠能产生光电子\n（B）仅钠、铜能产生光电子\n（C）仅铜、铂能产生光电子\n（D）都能产生光电子",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -263,22 +354,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q011-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q011-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q12",
       "content": "重离子肿瘤治疗装置中的回旋加速器可发射＋5 价重离子束，其电流强度为1.2×10−5A，\n则在1s 内发射的重离子个数为（e = 1.6×10−19C）（    ）\n（A）3.0×1012\n（B）1.5×1013\n（C）7.5×1013\n（D）3.75×1014",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -286,22 +387,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q13",
       "content": "监控系统控制电路如图所示，电键S 闭合时，系统白\n天和晚上都工作；电键S 断开时，系统仅晚上工作。在电\n路中虚框处分别接入光敏电阻（受光照时阻值减小）和定\n值电阻，则电路中（    ）\n（A）C 是“与门”，A 是光敏电阻\n（B）C 是“与门”，B 是光敏电阻\n（C）C 是“或门”，A 是光敏电阻\n（D）C 是“或门”，B 是光敏电阻\n材料\n钠\n铜\n铂\n极限波长(nm) 541 268 196\n时间较长\n时间较短\n时间稍长\nA\nh\n5 V\nS\nC\n监控系统\n0 V\nA\nB\nR\nP\nQ\nλ(nm)\n光强\n0\n100\n200\n300\n400",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -309,22 +416,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q013-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q013-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q14",
       "content": "如图，一质量为m 的正方体物块置于风洞内的水平面上，一面与\n风速垂直，当风速为v0 时刚好能推动该物块。已知风对物块的推力F\n∝Sv2，其中v 为风速、S 为物块迎风面积。当风速变为2v0 时，刚好\n能推动用同一材料做成的另一正方体物块，则该物块的质量为（    ）\n（A）4m\n（B）8m\n（C）32m\n（D）64m",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -332,22 +449,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q014-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q014-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q15",
       "content": "一简谐横波沿水平绳向右传播，波速为v，周期为T，振幅为A。绳上两质点M、N 的\n平衡位置相距3/4 波长，N 位于M 右方。设向上为正，在t = 0 时M 位移为 + A/2，且向上\n运动；经时间t（t＜T），M 位移仍为 + A/2，但向下运动，则（    ）\n（A）在t 时刻，N 恰好在波谷位置\n（B）在t 时刻，N 位移为负，速度向上\n（C）在t 时刻，N 位移为负，速度向下\n（D）在2t 时刻，N 位移为 − A/2，速度向下",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -355,22 +482,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q16",
       "content": "如图，战机在斜坡上方进行投弹演练。战机水平匀速飞行，\n每隔相等时间释放一颗炸弹，第一颗落在a 点，第二颗落在b 点。\n斜坡上c、d 两点与a、b 共线，且ab = bc = cd，不计空气阻力。\n第三颗炸弹将落在（    ）\n（A）bc 之间\n（B）c 点\n（C）cd 之间\n（D）d 点",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -378,22 +511,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q016-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q016-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q17",
       "content": "质点运动的位移 x 与时间 t 的关系如图所示，其中做机械振动的是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "ABC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -401,22 +544,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q017-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q017-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q017-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q017-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q017-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q18",
       "content": "如图，质量为m 的小球用轻绳悬挂在O 点，在水平恒力F = mgtanθ 作\n用下，小球从静止开始由A 经B 向C 运动。则小球（    ）\n（A）先加速后减速\n（B）在B 点加速度为零\n（C）在C 点速度为零\n（D）在C 点加速度为gtanθ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "ACD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -424,22 +580,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q018-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q19",
       "content": "一颗子弹以水平速度 v0 穿透一块在光滑水平面上迎面滑来的木块后，二者运动方向均\n不变。设子弹与木块间相互作用力恒定，木块最后速度为 v，则（    ）\n（A）v0 越大，v 越大\n（B）v0 越小，v 越大\n（C）子弹质量越大，v 越大\n（D）木块质量越小，v 越大\nO\nt\nx\nB\nO\nt\nx\nD\nO\nt\nx\nC\nO\nt\nx\nA\nm\nv\nO\nA\nB\nC\nF\nθ θ\na\nb\nc\nd",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -447,22 +613,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q20",
       "content": "如图，光滑平行金属导轨固定在水平面上，左端由导线相连，\n导体棒垂直静置于导轨上构成回路。在外力F 作用下，回路上方的\n条形磁铁竖直向上做匀速运动。在匀速运动过程中外力F 做功WF，\n磁场力对导体棒做功W1，磁铁克服磁场力做功W2，重力对磁铁做\n功WG，回路中产生的焦耳热为Q，导体棒获得的动能为Ek。则\n（    ）\n（A）W1 = 0\n（B）W2 − W1 = Q\n（C）W1 = Ek\n（D）WF + WG = Q + Ek",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BCD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -470,22 +642,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q020-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q020-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q21",
       "content": "静电场是________周围空间存在的一种物质；通常用________来描述电场的能的性质。\n22A、22B 选做一题\n22A．两小孩在冰面上乘坐“碰碰车”相向运动。A 车总质量为50 kg，以2 m/s 的速度向右\n运动；B 车总质量为70 kg，以3 m/s 的速度向左运动。碰撞后，A 以1.5 m/s 的速度向左运\n动，则B 的速度大小为________m/s，方向向________（选填“左”或“右”）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "静止电荷，电势\n22A．0.5，左\n22B．m2∶m1，m2∶m1",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -493,22 +675,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q22",
       "content": "B．两靠得较近的天体组成的系统称为双星，它们以两者连线上某点为圆心做匀速圆周\n运动，因而不至于由于引力作用而吸引在一起。设两天体的质量分别为m1 和m2，则它们的\n轨道半径之比Rm1∶Rm2 = ________；速度之比vm1∶vm2 = ________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -516,22 +704,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q23",
       "content": "如图，汽车在平直路面上匀速运动，用跨过光滑定滑轮的\n轻绳牵引轮船，汽车与滑轮间的绳保持水平。当牵引轮船的绳\n与水平方向成θ 角时，轮船速度为v，绳的拉力对船做功的功\n率为P，此时绳对船的拉力为________。若汽车还受到恒定阻\n力f，则汽车发动机的输出功率为________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "P\nvcosθ ，fvcosθ + P",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -539,22 +733,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q023-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q023-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q24",
       "content": "如图，一无限长通电直导线固定在光滑水平面上，金属环质量为0.02\nkg，在该平面上以v0 = 2 m/s、与导线成60°角的初速度运动，其最终的运动\n状态是________，环中最多能产生________J 的电能。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "匀速直线运动，0.03",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -562,22 +766,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q024-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q024-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q25",
       "content": "如图，两根通电长直导线a、b 平行放置，a、b 中的电流强度分别为\nI 和2I，此时a 受到的磁场力为F，若以该磁场力的方向为正，则b 受到\n的磁场力为________。当在a、b 的正中间再放置一根与a、b 平行共面的\n通电长直导线c 后，a 受到的磁场力大小变为2F，则此时b 受到的磁场\n力为________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "− F，− 3F 或 5F",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -585,22 +799,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q025-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q025-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q26",
       "content": "（3 分）在“用DIS 研究通电螺线管的磁感应强度”实验中\n（1）在对螺线管通电________（选填“前”或“后”）必须对磁传感器进行调零。\n（2）（单选题）实验时，将磁传感器探管前端插至通电螺线管轴线中点时，磁传感器读数为\nI\na\nc\nb\n2I\nI\nv0\nS\nN\nF\nv\nθ\n5 mT。减小通电螺线管的电流后，将探管从螺线管的另一端插入，当探管前端再次到达螺线\n管轴线中点时，磁传感器的读数可能为（    ）\n（A）5 mT\n（B）− 5 mT\n（C）3 mT\n（D）− 3 mT",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）前 （2）D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -608,22 +832,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 26,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q27",
       "content": "（4 分）如图是一个多用表欧姆档内部电路示意图。电流表满偏电流0.5\nmA、内阻10 Ω；电池电动势1.5 V、内阻1 Ω；变阻器R0 阻值0 ~ 5000 Ω。\n（1）该欧姆表的刻度值是按电池电动势为1.5 V 刻度的，当电池的电动势\n下降到1.45 V、内阻增大到4 Ω 时仍可调零。调零后R0 阻值将变________\n（选填“大”或“小”）；若测得某电阻阻值为300 Ω，则这个电阻的真实值\n是________Ω。\n（2）若该欧姆表换了一个电动势为1.5 V，内阻为10 Ω 的电池，调零后测量某电阻的阻值，\n其测量结果________（选填“偏大”、“偏小”或“准确”）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）小，290\n（2）准确",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -631,22 +861,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 27,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q027-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q027-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q28",
       "content": "（8 分）改进后的“研究有固定转动轴物体平衡条件”的实\n验装置如图所示，力传感器、定滑轮固定在横杆上，替代原装置\n中的弹簧秤。已知力矩盘上各同心圆的间距均为5 cm。\n（1）（多选题）做这样改进的优点是（    ）\n（A）力传感器既可测拉力又可测压力\n（B）力传感器测力时不受主观判断影响，精度较高\n（C）能消除转轴摩擦引起的实验误差\n（D）保证力传感器所受拉力方向不变\n（2）某同学用该装置做实验，检验时发现盘停止转动时G 点始\n终在最低处，他仍用该盘做实验。在对力传感器进行调零后，用\n力传感器将力矩盘的G 点拉到图示位置，此时力传感器读数为3 N。再对力传感器进行调\n零，然后悬挂钩码进行实验。此方法________（选填“能”、“不能”）消除力矩盘偏心引起\n的实验误差。已知每个钩码所受重力为1 N，力矩盘按图示方式悬挂钩码后，力矩盘所受顺\n时针方向的合力矩为________N·m，力传感器的读数为________N。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）BD，（2）能，0.7，− 0.5",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -654,22 +894,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 28,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q028-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q028-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q028-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q29",
       "content": "（9 分）简易温度计构造如图所示。两内径均匀的竖直玻璃管下端与软\n管连接，在管中灌入液体后，将左管上端通过橡皮塞插入玻璃泡。在标准大\n气压下，调节右管的高度，使左右两管的液面相平，在左管液面位置标上相\n应的温度刻度。多次改变温度，重复上述操作。\n（1）（单选题）此温度计的特点是（    ）\n（A）刻度均匀，刻度值上小下大\n（B）刻度均匀，刻度值上大下小\n（C）刻度不均匀，刻度值上小下大\n（D）刻度不均匀，刻度值上大下小\n（2）（多选题）影响这个温度计灵敏度的因素有（    ）\n（A）液体密度\n（B）玻璃泡大小\n（C）左管内径粗细\n（D）右管内径粗细\n（3）若管中液体是水银，当大气压变为 75 cmHg 时，用该温度计测得的温度值________\n（选填“偏大”或“偏小”）。为测得准确的温度，在测量时需________。\nG\nR0\nA\nB\nM\nN\nD\nG\nC",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）A\n（2）BC\n（3）偏大，调整两管液面高度差，使右管液面比左管液面高出\n1 cm，然后读数",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -677,22 +928,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 29,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q029-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q029-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q029-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q30",
       "content": "（10 分）如图，气缸左右两侧气体由绝热活塞隔开，活塞与气缸光滑\n接触。初始时两侧气体均处于平衡态，体积之比 V1∶V2 = 1∶2，温度之比\nT1∶T2 = 2∶5。先保持右侧气体温度不变，升高左侧气体温度，使两侧气\n体体积相同；然后使活塞导热，两侧气体最后达到平衡。求：\n（1）两侧气体体积相同时，左侧气体的温度与初始温度之比；\n（2）最后两侧气体的体积之比。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）设初始时压强为 p。\n左侧气体满足\npV1\nT1 = pʹV\nkT1\n右侧气体满足\npV2 = pʹV\n解得\nk = V2\nV1 = 2\n（2）活塞导热达到平衡\n左侧气体满足\npʹV\nkT1 = pʺV1ʹ\nT1ʹ\n右侧气体满足\npʹV\nT2 = pʺV2ʹ\nT2ʹ\n平衡时\nT1ʹ = T2ʹ\n解得\nV1ʹ\nV2ʹ = T2\nkT1 = 5\n4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -700,22 +962,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 30,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q030-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q030-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q31",
       "content": "（12 分）质量为 m 的小球在竖直向上的恒定拉力作用下，由静止开始从水平地面向上\n运动，经一段时间，拉力做功为 W，此后撤去拉力，球又经相同时间回到地面。以地面为零\n势能面，不计空气阻力。求：\n（1）球回到地面时的动能 Ekt；\n（2）撤去拉力前球的加速度大小 a 及拉力的大小 F；\n（3）球动能为 W/5 时的重力势能 Ep。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）撤去拉力时球的机械能为 W，由机械能守恒，回到地面时的动能\nEkt = W\n（2）设拉力作用时间为t，在此过程中球上升 h，末速度为 v，则\nh = 1\n2 at2\nv = at\n由题意有\n− h = vt − 1\n2 gt2\n解得\na = 1\n3 g\n根据牛顿定律\nF − mg = ma\n解得\nF = 4\n3 mg\n（3）动能为 W/5 时球的位置可能在 h 的下方或上方。\n设球的位置在 h 下方离地 hʹ 处\n（F − mg）hʹ = 1\n5 W\n而\n（F − mg）h = 1\n4 W\n解得\nhʹ = 4\n5 h\n重力势能\nEp = mghʹ = 3\n5 W\n设球的位置在h 上方离地hʺ处\n由机械能守恒\n1\n5 W + mghʺ = W\n因此\nEp = mghʺ = 4\n5 W",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -723,22 +993,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 31,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q32",
       "content": "（14 分）如图（a），两相距 L = 0.5\nm 的平行金属导轨固定于水平面上，导\n轨左端与阻值 R = 2 Ω 的电阻连接，导\n轨间虚线右侧存在垂直导轨平面的匀强\n磁场。质量 m = 0.2 kg 的金属杆垂直置\n于导轨上，与导轨接触良好，导轨与金属\n杆的电阻可忽略。杆在水平向右的恒定\n拉力作用下由静止开始运动，并始终与导轨垂直，其 v–t 图像如图（b）所示。在15s 时\n撤去拉力，同时使磁场随时间变化，从而保持杆中电流为 0。求：\n（1）金属杆所受拉力的大小 F；\n（2）0 ~ 15 s 内匀强磁场的磁感应强度大小 B0；\n（3）15 ~ 20 s 内磁感应强度随时间的变化规律。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）由 v–t 关系图可知在 0 ~ 10 s 时间段杆尚未进入磁场，因此\nF − μmg = ma1\n由图可得\na1 = 0.4 m/s2\n同理可知在 15 ~ 20 s 时间段杆仅在摩擦力作用下运动。\nμmg = ma2\n由图可得\na2 = 0.8 m/s2\n解得\nF = 0.24 N\n（2）在10 – 15 s 时间段杆在磁场中做匀速运动，因此有\nF = μmg + B02L2v\nR\n以 F = 0.24N，μmg = 0.16 N 代入\n解得\nB0 = 0.4 T\n（3）由题意可知在 15 ~ 20 s 时间段通过回路的磁通量不变，设杆在 10 ~ 15 s 内运动距离\n为 d，15 s 后运动距离为 x\nBtL（d + x） = BLd\n其中 d = 20 m\nx = 4（t − 15）− 0.4（t − 15）2\n由此可得\nBt = B0d\nd + x  =\n20\n50 −（t − 15）（t − 25） T",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -746,22 +1020,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 32,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q032-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q032-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q032-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015上海.pdf#q33",
       "content": "（14 分）如图，在场强大小为 E、水平向右的匀强电场中，一\n轻杆可绕固定转轴 O 竖直平面内自由转动。杆的两端分别固定两\n电荷量均为 q 的小球 A、B，A 带正电，B 带负电；A、B 两球到\n转轴 O 的距离分别为 2l、l，所受重力大小均为电场力大小的\n3\n倍。开始时杆与电场间夹角为 θ（90° ≤ θ ≤ 180°）。将杆从初始\n位置由静止释放，以 O 点为重力势能和电势能零点。求：\n（1）初始状态的电势能 We；\n（2）杆在平衡位置时与电场间的夹角 α；\n（3）杆在电势能为零处的角速度 ω。\n+ q\n− q\nA\nB\nE\nθ\nO\nV1\nV2\nt/s\nv/m·s−1\nR\nL\n图（a）\n图（b）\n0\n4\n10 15 20",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）初态时\nWe = qφA + （− q）φB = q（φA – φB）= qUAB = − 3Eqlcosθ\n（2）平衡位置如图。设小球质量为 m，合力矩为\n3Eqlsinα − mglcosα = 0\n由此得\ntanα = mg\n3qE =\n3\n3\nα = 30°\n（3）由分析知，杆在电势能为零处时杆与电场方向垂直，可能 A 球在上、B 球在下，也可\n能 B 球在上、A 球在下。\n设杆与电场间夹角为 θ0 时，A 球恰能到达 O 正上方，在此位置杆的角速度为 0。\n初态：We = − 3Eqlcosθ0，Ep = − mglsinθ0\n末态：Weʹ = 0，Epʹ = mgl\n根据能量守恒有：− 3Eqlcosθ0 – mglsinθ0 = mgl\n可得 θ0 = 150°。\n当 θ < 150° 时，A 球无法到达最高点。当 A 位于 O 正下方处电势能为零。\n初态： We = − 3Eqlcosθ，Ep = − mglsinθ，Ek = 0\n末态： Weʹ = 0，Epʹ = − mgl，Ekʹ = 1\n2 m(ωl)2 + 1\n2 m(ω·2l)2 = 5\n2 ml2ω2\n根据能量守恒有：\n− 3Eqlcosθ − mglsinθ = 5\n2 ml2ω2 − mgl\nω =\n2mg（1 − sinθ）− 6qEcosθ\n5ml\n=\n2 3（1 − sinθ）− 6cosθ\n5 3l\n g\n=\n2g\n5l（1 − sinθ − 3cosθ）\n当 θ ≥ 150°时，电势能为零的位置有两处，即 A 位于 O 正下方或正上方处。\n在 A 位于 O 正下方时\nω =\n2 3（1－sinθ）－6cosθ\n5 3l\n g =\n2g\n5l（1 − sinθ − 3cosθ）\n在 A 位于 O 正上方时，有\n− 3Eqlcosθ − mglsinθ = 5\n2 ml2ω2 + mgl\nω =\n− 2mg（1 + sinθ）− 6qEcosθ\n5ml\n=\n− 2 3（1 + sinθ）− 6cosθ\n5 3l\n g\n=\n2g\n5l（− 1 − sinθ − 3cosθ）\n+ q\n− q\nE\nqE\nα\nO\nmg\nmg\nqE\n解析\n1.\nB",
+      "analysis": "X射线是电磁波，具有波的性质，可以发生反射、折射、干涉和衍射，可\n以在真空中传播，故B 正确ACD 错误.\n2.\nB\n𝐴静止不动的原因是衍射现象不明显，要想衍射现象变得明显，需要增\n大波长，由𝑣= 𝜆𝑓可得，介质不变，波速不变，要想增大波长，只能降低频率，故B 正确.\n3.\nB\n空气对鸟的作用力，一方面抵消重力，另一方面让鸟沿虚线加速飞行，\n所以空气对鸟的作用力与鸟的重力的合力沿虚线斜向上，空气对鸟的作用力可能是𝐹2，故B\n正确.\n4.\nC\n理想气体不考虑分子势能，不考虑分子间的作用力，故AD 错误；温度\n升高，分子的平均动能增大，分子的平均速率增大，但不是每个分子的速率都增大，故B 错\n误C 正确.\n5.\nC\n铀核的衰变是可以自发产生，但裂变需要一定的条件，故C 正确.\n6.\nA\n由反应前后质量数和电荷数守恒，则⬚82\n208Pb比⬚90\n232Th少的质子数为\n90 −82 = 8，少的中子数为(232 −90) −(208 −82) = 16，故A 正确.\n7.\nD\n电子的质量比𝛼粒子小得多，约为𝛼粒子质量的\n1\n7400，所以对𝛼粒子运动\n的影响可以忽略，故D 正确.\n8.\nD\n电荷在匀强电场中静止释放才会沿着电场线运动，正电荷由𝑃点释放，\n将沿𝑃点的切线方向运动，不能到达𝑄点，故A 错误；𝑃点的电场线比𝑄点密，故𝑃点的场强\n较大，正电荷在𝑃点的加速度大于在𝑄点的加速度，故B 错误；负电荷在电势高的位置电势\n能小，𝑃点电势高于𝑄点电势，所以负电荷在𝑃点的电势能小于在𝑄点的电势能，故C 错误；\n𝑃点电势大于零，𝑄点电势小于零，𝑃、𝑄之间一定有一点电势为零，负电荷在该点的电势能\n也为零，故D 正确.\n9.\nA\n上下两部分气体的体积关系不确定，两部分气体均发生等温变化，则Δ𝑉1\n和Δ𝑉2不一定相等，提升玻璃管，再次平衡后，玻璃管中的水银面高于水银槽中的水银面，\n但高度之差小于𝐻，故Δ𝑉1和Δ𝑉2之和小于𝐻𝑆，故BD 错误；提升之前：𝑝2 −𝑝1 = 𝜌𝑔ℎ，提升\n之后𝑝2′ −𝑝1′ = 𝜌𝑔ℎ，联立可得Δ𝑝1 = Δ𝑝2，故A 正确C 错误.\n10. C\n光的本质是具有波粒二象性，少量光子具有粒子性，大量光子具有波动\n性，故AB 错误；由图像可以看岀，光的能量在胶片上分布不均匀，光到达胶片上不同位置\n的概率不同，故C 正确D 错误.\n11. D\n波长越长，频率越小，故波长比材料极限波长小的光照射该材料时可以\n发生光电效应，结合图象和表格，用该光源照射表中材料都能产生光电子，故D 正确.\n12. B\n1s内发射的重离子个数为𝑛=\n𝐼𝑡\n5𝑒=\n1.2×10−5×1\n5×1.6×10−19 = 1.5 × 1013，故B 正确.\n13. D\n要想使监控系统白天和晚上都工作，C 是“或门”，S断开时，系统仅晚上\n工作，说明B 是光敏电阻，故选项D 正确.\n14. D\n设正方体物块边长为𝐿，该材料的密度为𝜌，与地面的动摩擦因数为𝜇，\n由共点力平衡有𝜇𝜌𝐿3𝑔= 𝑘𝐿2𝑣2，即𝑘𝑣2 = 𝜇𝜌𝐿𝑔，速度变为原来的2倍，则边长应变为原来\n的4 倍，由𝑚= 𝜌𝐿3可知质量应为原来的64倍，故D 正确.\n15. C\n由题可得𝑡′ = 0时，𝑡′ = 𝑡时绳上的大致波形如图，𝑡′ = 0时波形如实线\n所示，𝑡′ = 𝑡时刻的波形如虚线所示，可知在𝑡时刻，𝑁的位移为负，速度向下，故AB 错误\nC 正确；在2𝑡时刻，𝑁的速度方向向上，故D 错误.\n16. A\n所有炸弹在水平方向做匀速直线运动，速度大小是相同的，相同时间间\n隔第三颗炸弹落在斜面上时，竖直方向下落的距离大，故第三颗炸弹将落在𝑏、𝑐之间，故A\n正确.\n17. ABC\n在平衡位置附近的往复运动是机械振动，故ABC 正确.\n18. ACD\n对小球受力分析，在垂直于绳的方向有𝑚𝑔tan𝜃cos𝛼−𝑚𝑔sin𝛼= 𝑚𝑎，\n𝛼为绳与竖直方向的夹角，可得由𝐴到𝐵：𝑎> 0,由𝐵到𝐶：𝑎< 0，所以小球由𝐴到𝐵做加速运\n动,𝐵到𝐶做减速运动，故A 正确；在𝐵点垂直绳方向的合力为零，但沿绳方向的合力不为零，\n小球具有向心加速度，故B 错误；𝐶点是与𝐴点对称的位置，速度为零，故C 正确；在𝐶点\n的加速度大小为|\n𝑚𝑔tan𝜃cos2𝜃−𝑚𝑔sin2𝜃\n𝑚\n| = 𝑔tan𝜃，故D 正确.\n19. AC\n子弹穿过木块的过程中，两者间的相互作用力使木块和子弹都做减速\n运动，𝑣0越大，子弹穿过的时间越短.木块减速时间越短，由𝑣= 𝑣块−𝑎𝑡知𝑣越大，故A 正\n确，B 错误；子弹质量越大，子弹的加速度越小，在木块中减速运动时间越短，同理知𝑣越\n大，故C 正确；木块质量越小，加速度越大，同理知𝑣越小，故D 错误.\n20. BCD\n由题知，磁场力对导体棒做的功等于导体棒获得的动能，即𝑊1 = 𝐸k，\n故C 正确A 错误；又𝑊2 = 𝑄+ 𝐸k,故𝑊2 −𝑊1 = 𝑄，故B 正确；由功能关系，对磁铁𝑊𝐹−\n𝑊2 + 𝑊𝐺= 0，联立可得，故D 正确.\n21. 静止电荷;电势.\n静电场是一种客观物质，是静止电荷周围存在的一种特殊物质，通常用电势来\n描述电场的能的性质.\n22A .0.5;左.\n规定向右为正方向，由动量守恒定律𝑚𝐴𝑣𝐴+ 𝑚𝐵𝑣𝐵= 𝑚𝐴𝑣𝐴\n′ + 𝑚𝐵𝑣𝐵\n′ ，解得𝑣𝐵\n′ =\n−0.5m/s，所以𝐵的速度大小为0.5m/s，方向向左.\n22B..𝑚2 ∶𝑚1;𝑚2 ∶𝑚1.\n双星的角速度相等，由\n𝐺𝑚1𝑚2\n𝑟2\n= 𝑚1𝜔2𝑅𝑚1 = 𝑚2𝜔2𝑅𝑚2知，轨道半径与质量成\n反比，所以𝑅𝑚1 ∶𝑅𝑚2 = 𝑚2 ∶𝑚1，由𝑣= 𝜔𝑅知，线速度与半径成正比，所以𝑣𝑚1 ∶𝑣𝑚2 = 𝑚2 ∶\n𝑚1.\n23.\n𝑃\n𝑣cos𝜃;𝑃+ 𝑓𝑣cos𝜃.\n船速为𝑣，车的速度等于绳子的速度，大小为𝑣cos𝜃，绳子对船的拉力为𝐹=\n𝑃\n𝑣cos𝜃，汽车发电机的输出功率为(𝐹+ 𝑓)𝑣cos𝜃= (\n𝑃\n𝑣cos𝜃+ 𝑓) 𝑣cos𝜃= 𝑃+ 𝑓𝑣cos𝜃.\n24. 匀速直线运动;0.03.\n由无限长通电直导线周围的磁场分布可知，圆环在垂直导线的方向上受安培力，\n做减速运动，在沿导线方向受力平衡，做匀速直线运动，最终圆环沿导线方向做匀速直线运\n动，最多能产生的电能为𝑊= Δ𝐸k =\n1\n2 𝑚(𝑣0sin60°)2J = 0.03J.\n25. −𝐹;−3𝐹或5𝐹.\n𝑎、𝑏之间的磁场力为作用力和反作用力，故𝑏受到的磁场力大小也为𝐹，方向\n与𝐹方向相反，所以是−𝐹；若放𝑐后𝑎受到的磁场力为2𝐹，由题意，𝑐对𝑎的磁场力为𝐹，那么，\n𝑐对𝑎的作用力为−2𝐹，𝑏受到的磁场力为−3𝐹.若放𝑐后𝑎受到的磁场力为−2𝐹，由题意，𝑐对𝑎\n的磁场力为−3𝐹，那么，𝑐对𝑏的磁场力为6𝐹，𝑏受到的磁场力为5𝐹.\n26. (1)前;(2)D.\n(1)在通电前要对传感器进行调零；(2)减小电流，磁感应强度会变小，方向不\n变，由于探管从另一端插入，故D 正确.\n27. 小;290;准确.\n(1)由欧姆表的调零原理知\n𝐸\n0.5mA = 𝑅0 + 10Ω + 𝑟，可知𝐸= 1.5V、𝑟= 1Ω时\n𝑅0 = 2989Ω，𝐸= 1.45V、𝑟= 4Ω时，𝑅0 = 2886Ω，调零后𝑅0阻值将变小；设测得𝑅𝑥= 300Ω\n时对应的电流表偏转为𝐼𝑥，则1.5V = 𝐼𝑥(3000Ω + 300Ω)，1.45V = 𝐼𝑥(2900Ω + 𝑅真)，可得𝑅𝑥\n的真实值为𝑅真= 290Ω.\n(2)由(1)的计算可知欧姆表内的电池电动势变化影响测量的准确性，电池内阻变化不影\n响测量的准确性，所以测量结果准确.\n28. (1)BD;(2)能;0.7;−0.5.\n(1)力传感器只能测量拉力，故A 错误；力传感器不用实验者目测读数，不受\n主观判断影响，精度较高，故B 正确；该装置无法消除转轴摩擦引起的实验误差，故C 错\n误；力传感器、定滑轮固定在横杆上，保证力传感器所受拉力方向不变，故D 正确.\n(2)能消除力矩盘偏心带来的误差；顺时针合力矩为2 × 0.05N · m + 2 × 0.15N · m +\n3 × 0.1N · m = 0.7N · m；此时绳上拉力为\n0.7−3×0.15\n0.1\nN = 2.5N，故传感器读数为2.5N −3N =\n−0.5N.\n29．\n（1）实验中调节左右两管液面相平，则玻璃泡内压强不变，始终等于大气压强，\n由气体状态方程可知，左管内密闭气体的体积与温度成正比，温度越高，体积越大，左管液\n面越低，所以刻度值为上小下大，故 A 正确。\n（2）温度改变时，左管高度改变得越大，灵敏度越高，即灵敏度可以表示为 Δh\nΔT 。由等压\n变化规律可知 ΔV\nΔT = Δh\nΔT S = V\nT ，得 Δh\nΔT = V\nST ，式中 S 为左管的横截面积。所以左管内\n径越细，玻璃泡体积 V 越大灵敏度越高。右管与大气连通，其粗细对灵敏度没有影响，故\nBC 正确。\n（3）大气压强变小，左管液面会降低，测量的温度偏大；为了测量准确，可使右管比左管\n液面恰好高 1 cm 时读数，保证左管内密闭气体的压强等于标准大气压。\n紧扣科技前沿\n考查应用能力\n2015 年上海高考物理试卷的结构与去年相同，全卷试题数为33 题，阅读量与去年基本\n相同，计算量则略有减少，在难度上有较好的梯度分布。\n试卷注重对高中物理学科的核心内容、基本思想方法、基本思维方式和基本技能的考查，\n重视对学生运用基础知识、基本方法和基本技能进行分析、解决问题能力的考查。试卷对知\n识点的覆盖分布合理，其中牛顿运动定律、闭合电路欧姆定律、法拉第电磁感应定律、楞次\n定律、气体实验定律、功和能等高中物理教学核心内容在试卷中占有相应的比例。\n试卷强调联系社会、德育渗透，紧扣科技发展的最新前沿，如我国首家、全球第三家质\n子重离子医院在沪正式投入运营。这一尖端科技在医学领域中的应用也在试卷中有所体现。\n在考查学生基础知识、基本概念的同时，激发学生关注科技前沿的兴趣，提升学生学习物理\n知识的动力。试卷力图充分体现“物理源于生活”的教学理念，在努力传递“课堂教学必须\n注重对物理本身的理解”这一信息的同时，体现物理知识的学有所用。\n整卷强调在教与学的过程中必须重视学科基础知识和基本技能的学习和运用，对教学基\n本要求中规定的不同认知层次的考查比例恰当，对学生能力的考查均与考试的性质、学生的\n实际情况相符。一些试题在设问、考查角度等方面均注意了逐步深入和提高，从而使试题能\n区分不同层次的学生。同时，试题依据教材内容、紧扣课程标准，其目的是希望在教学过程\n中能对教材予以充分的关注，而非以练代学。\n今年上海物理高考试卷在考查学生高中物理基础知识和基本技能的基础上，重点考查了\n学生的物理思维能力、物理实验能力、综合分析和应用能力。试卷力图体现二期课改的教学\n思想、教学理念和教学方法，注重知识与技能、过程与方法、情感态度价值观的三维教学目\n标在试题中的渗透。在加强对基础知识考查的同时，注重考查学生分析解决问题的能力。如\n第14、20、25 题考查了根据物理原理进行分析、判断、推理的能力；第2、8、11、17 题考\n查了根据图像进行分析、判断、推理的能力；第25、31、33 题考查了对物理过程中的多种\n可能进行讨论和分析，并正确判断结果的能力。\n在物理实验能力以及基本技能的考查方面，试卷以教材中的学生实验和演示实验为基础，\n设计了与课堂演示实验、学生实验相关的试题，并在基本实验的基础上有所拓展。实验题的\n设计旨在考查学生观察现象、实际操作、分析实验中遇到的问题、改进实验操作、定性分析\n简单实验误差等基本实验技能。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -769,11 +1052,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 33,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q033-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-879b7cbf4ebcd4bc-q033-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 27,
+    "answerGraphics": 2,
+    "assigned": 25,
+    "rendered": 27,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

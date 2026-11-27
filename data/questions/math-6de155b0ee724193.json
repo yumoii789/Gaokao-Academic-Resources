@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1958/1958四川.pdf",
   "name": "1958四川",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 8,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 8,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q01",
       "content": "化简2−1\n2 + cos 225∘+ lg 5 −lg sin 30∘+ 8\n2\n3 。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q02",
       "content": "解不等式𝑥+ 1\n𝑥−1 > 1。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -56,22 +73,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q03",
       "content": "证明tan (𝑥+ 𝜋\n4 ) + tan (𝑥−𝜋\n4 ) = 2 tan 2𝑥。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -79,22 +103,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q04",
       "content": "若tan 𝛼和tan 𝛽是方程𝑥2 + 𝑝𝑥+ 𝑞= 0 的根，用𝑝, 𝑞来表示tan 2(𝛼+ 𝛽)。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -102,22 +132,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q05",
       "content": "等腰梯形的上底、腰、下底成等差数列，且底角为60∘，梯形的面积为2√2，求梯形的各边。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -125,22 +161,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q06",
       "content": "解方程9𝑥−10 ⋅3𝑥+1 + 81 = 0。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -148,22 +190,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q07",
       "content": "同底同侧的两个三角形𝐴𝐵𝐶和𝐴𝐵𝐷，𝐴𝐶、𝐵𝐶、𝐵𝐷、𝐴𝐷的中点分别为𝑀、𝑁、𝑃、𝑄，求证：\n(I) 𝑀𝑁𝑃𝑄为一平行四边形；\n(II) 平行四边形𝑀𝑁𝑃𝑄的面积等于两三角形面积差的一半。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -171,22 +219,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958四川.pdf#q08",
       "content": "某圆锥形的人造卫星中，有一个内切球形仓，已知此球的体积为圆锥体积的一半，求圆锥母线与底面的\n夹角。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -194,11 +248,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958四川.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

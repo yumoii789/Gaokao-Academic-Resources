@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
   "name": "2011重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 5,
+    "sourceAnswers": 7,
+    "sourceAnalysis": 9,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q01",
       "content": "某人估测一竖直枯井深度，从井口静止释放一石头并开始计时，经 2 s 听到石头落地声，由此可知井\n深约为（不计声音传播时间，重力加速度 g 取10 m/s2）（     ）\n（A）10m\n（B）20m\n（C）30 m\n（D）40 m",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "石头做自由落体运动，根据位移公式h＝1\n2gt2＝0.5×10×4m＝20m。答案B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,11 +44,305 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q02",
+      "content": "某汽车后备箱内安装有撑起箱盖的装置，它主要由汽缸和活塞组成。开箱时，\n密闭于汽缸内的压缩气体膨胀，将箱盖顶起，如图所示。在此过程中，若缸内气\n体与外界无热交换，忽略气体分子间相互作用，则缸内气体（    ）\n（A）对外做正功，分子的平均动能减小\n（B）对外做正功，内能增大\n（C）对外做负功，分子的平均动能增大\n（D）对外做负功，内能减小",
+      "answer": "A",
+      "analysis": "密闭于气缸内的压缩气体膨胀对外做正功W＜0，缸内气体与外界无热交换说明Q＝0，忽略气体\n分子间相互作用，说明内能是所有分子动能的总和。根据热力学第一定律△U＝W+Q，可知内能减小，分\n子平均动能减小，温度降低。所以只有A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q03",
+      "content": "核电站核泄漏的污染物中含有碘131 和铯137。碘131 的半衰期约为8 天，会释放β 射线；铯137 是\n铯133 的同位素，半衰期约为30 年，发生衰变期时会辐射γ 射线。下列说法正确的是（    ）\n（A）碘131 释放的β 射线由氦核组成\n（B）铯137 衰变时辐射出的γ 光子能量小于可见光光子能量\n（C）与铯137 相比，碘131 衰变更慢\n（D）铯133 和铯137 含有相同的质子数",
+      "answer": "D",
+      "analysis": "β 射线是高速电子流，α 射线才是由氦核组成，A 错误；γ 光子在所有电磁波中频率最高，能量最\n大，B 错误；半衰期越小衰变越快，应该是碘131 衰变更快，C 错误；与铯133 和铯137 是同位素，质子\n数相同中子数不同，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q04",
+      "content": "介质中坐标原点O 处的波源在t＝0 时刻开始振动，产生的简谐\n波沿x 轴正向传播，t0 时刻传到L 处，波形如图所示。下列能描述x0\n处质点振动的图象是（    ）\ny\nt\nO\nt0\ny\nt\nO\nt0\ny\nt\nO\nt0\ny\nt\nO\nt0\nB．\nA．\nD．\nC．\ny\nx\nO\nx0\nL\n箱盖\n气体\n汽缸\n活塞\n2 / 7",
+      "answer": "暂无结构化答案",
+      "analysis": "从波形图可以看出，t0 时刻传到L＝3λ 处，说明t0＝3T。简谐波沿x 轴正向传播，则在t0 时刻x＝\n质点的运动方向和波源在t＝0 时刻的运动方向相同是沿y 轴的负方向的，即每一个质点的起振方向都是沿\ny 轴的负方向的，则C D 可能正确。由于λ＜x0＜5λ/4，说明在T＜t＜5 T /4 的时间内x0 处质点没有振动，\n所以在t0 时刻x0 处质点的振动时间是3T -5 T /4＜t0-t＜3 T -T，即7 T /4＜t0-t＜2T，即振动图像中t0 时刻前\n有少于2 个多于7/4 个的完整图形，所以C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q004-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q004-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q05",
+      "content": "在一次讨论中，老师问道：“假如水中相同深度处有a、b、c 三种不同颜色的单色点光源，有人在水面上方\n同等条件下观测发现，b 在水下的像最深，c 照亮水面的面积比a 的大。关于这三种光在水中的性质，同学们能\n做出什么判断？”有同学回答如下：①c 光的频率最大；②a 光的传播速度最小；③b 光的折射率最大；④a 光的\n波长比b 光的短。根据老师的假定，以上回答正确的是（    ）\n（A）①②\n（B）①③\n（C）②④\n（D）③④",
+      "answer": "C",
+      "analysis": "根据视深公式hʹ＝h/n 说明频率最小的光，水对它的折射率最小，在水下的像最深，所以b 的折\n射率最小，频率最小，波长最大，传播速度最大，③错误，④正确；照亮水面的圆面积的半径R 与临界角\nC 满足tanC＝R/h，又sinC＝1/n，c 照亮水面的面积比a 的大，则c 的临界角大，水对c 的折射率小，所以\na 的折射率最大，a 的频率最大，a 的传播速度最小，①错误，②正确。所以正确的说法是②和④，选择C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q06",
+      "content": "如图所示，电量为＋q 和－q 的点电荷分别位于正方体的顶点，正方体范围内\n电场强度为零的点有（   ）\n（A）体中心、各面中心和各边中点\n（B）体中心和各边中点\n（C）各面中心和各边中点\n（D）体中心和各面中心",
+      "answer": "D",
+      "analysis": "两个等量同种电荷在其连线的中点处的合场强为零。两个等量同种正电荷在其连线的中垂线上的\n合场强沿中垂线指向远离正电荷的方向。两个等量同种负电荷在其连线的中垂线上的合场强沿中垂线指向\n负电荷的方向。在正方体的上面中心，上面的四个电荷分成两组产生的场强都是零，下面的四个电荷分成\n两组产生的场强等大反向，所以正方体的上面中心处的合场强为零，同理所有各面中心处的合场强都为零。\n在体中心，可以将八个电荷分成四组，产生的合场强为零。而在各边中心，场强无法抵消，合场强不为零。\n正确答案是D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q07",
+      "content": "在测量电珠伏安特性实验中，同学们连接的电路中有四个错误电路，如图所示。电源内阻不计，导线\n连接良好。若将滑动变阻器的触头置于左端，闭合S，在向右端滑动触头过程中，会分别出现如下四种现\n象：（A）电珠L 不亮；电流表示数几乎为零；（B）电珠L 亮度增加；电流表示数增大；（C）电珠L 开始\n不亮；后来忽然发光；电流表从示数不为零到线圈烧断；（D）电珠L 不亮；电流表从示数增大到线圈烧断。\n与上述abcd 四种现象对应的电路序号为（    ）\n（A）③①②④\n（B）③④②①\n（C）③①④②\n（D）②①④③",
+      "answer": "A",
+      "analysis": "在①中伏特表和安培表的连接是错误的，将滑动变阻器的触头置于左端，闭合S 后电珠L 不亮，\n在向右端滑动触头过程中，电珠L 逐渐变亮，由于总电阻减小，干路电流增大，电流表示数增大，是b；\n在②中安培表连接错误，应该连接在干路上，开始时滑动变阻器的电阻最大，通过电珠的电流太小，电珠\nL 不亮，在向右端滑动触头过程中，电珠后来忽然发光，由于大部分电流流过电流表造成电流表从示数不\nV\nA\nL\nS\n①\nL\nV\nA\nS\n②\nA\nV\n③\nS\nL\nA\nV\n④\nS\nL\n+q\n+q\n+q\n+q\n-q\n-q\n-q\n-q\n3 / 7\n为零到线圈烧断，是c；在③中伏特表和安培表应该互换位置，由于伏特表串联造成电珠L 不亮，电流表\n示数几乎为零，是a；在④中安培表使电珠短路，电珠L 始终不亮，电流表从示数增大到线圈烧断，是d。\n即①②③④分别对应bcad。正确的是A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q007-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q007-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q08",
+      "content": "某行星和地球绕太阳公转的轨道均可视为圆。每过N 年，该行星会运行到\n日地连线的延长线上，如图所示。该行星与地球的公转半径比为（    ）\n（A）\n2\n3\n1\n(\n)\nN\nN\n+\n（B）\n2\n3\n(\n)\n1\nN\nN −\n（C）\n3\n2\n1\n(\n)\nN\nN\n+\n（D）\n3\n2\n(\n)\n1\nN\nN −",
+      "answer": "B",
+      "analysis": "由图可知行星的轨道半径大周期长。每过N 年，该行星会运行到日地连线的延长线上，说明从最\n初在日地连线的延长线上开始，每一年地球都在行星的前面比行星多转圆周的N 分之一，N 年后地球转了\nN 圈，比行星多转1 圈，即行星转了N－1 圈从而再次在日地连线的延长线上。所以行星的周期是\nN\nN－1\n年，根据开普勒第三定律有\n3\n2\n3\n2\nr\nT\nr\nT\n=\n地\n地\n行\n行\n则答案是B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q09",
+      "content": "（19 分）\n（1）某电动机的三组线圈①、②、③阻值相同，均为几欧姆，接法\n可能是图1 中甲、乙两种之一，A、B 和C 是外接头。现有一组线\n圈断路，维修人员通过多用电表测量外接头之间的电阻来判断故\n障，若测量A 和B 之间、B 和C 之间、A 和C 之间的电阻时，多\n用电表指针偏转分别如图2（a）、（b）、（c）所示，则测量中使用的\n欧姆档的倍率是_____（填×1、×10、×100 或×1k），三组线圈的\n接法是_____（填甲或乙），断路线圈是______（填①、②或③）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由于所测电阻均为几欧姆，串联后还是几欧姆，所以欧姆档的倍率选择×1；所测值分别是\n4Ω、4Ω 和8Ω，说明接法是乙，断路的是③。因为采用甲接法时测量值应该有两个是无穷大，一个是8Ω。\n（2）某同学设计了如图1 所示的装置，利用米尺、秒表、轻\n绳、轻滑轮、轨道、滑块、托盘和砝码等器材来测定滑块和轨\n道间的动摩擦因数μ。滑块和托盘上分别放有若干砝码，滑块\n质量为M，滑块上砝码总质量为mʹ，托盘和盘中砝码的总质\n量为m。实验中，滑块在水平轨道上从A 到B 做初速为零的\n匀加速直线运动，重力加速度g 取10m/s2。\n①为测量滑块的加速度a，须测出它在A、B 间运动的________\n与_________，计算a 的运动学公式是_______；\n②根据牛顿运动定律得到a 与m 的关系为：a＝\n（1＋μ）g\nM＋（m＋mʹ） m－μg，他想通过多次改变m，测出相应的\nΩ\n（a）\nΩ\n（b）\nΩ\n（c）\n图2\n太阳\n地球\n行星\nM\nA\nB\nm\nm′\n图1\n①\n②\n③\nA\nB\nC\n甲\n①\n②\n③\nA\nB\nC\n乙\n图1\n4 / 7\na 值，并利用上式来计算μ。若要求a 是m 的一次函数，必须使上式中的_____保持不变，实验中应将从托\n盘中取出的砝码置于______；\n③实验得到a 与m 的关系如图2 所示，由此可知μ＝_________（取两位有效数字）\n①滑块在水平轨道上从A 到B 做初速为零的匀加速直线运动，根据\n2\n1\n2\ns\nat\n=\n得a＝2s\nt2 ，所以需\n要测量的是位移和时间。\n②根据整体法有\n(\n)\n(\n)\n(1\n)\nmg\nM\nm g\nmg\nM\nm\nm g\nmg\ng\na\nm\ng\nM\nm\nm\nM\nm\nm\nM\nm\nm\n\n\n\n\n\n\n\n−\n+\n−\n+\n+\n+\n+\n=\n=\n=\n−\n\n\n\n+\n+\n+\n+\n+\n+\n，若要求a 是m 的一次函\n数必须使\n(1\n)g\nM\nm\nm\n\n+\n\n+\n+\n不变，即使m＋m′不变，在增大m 时等量减小m′，所以实验中应将从托盘中取出的\n砝码置于滑块上。\n③将\n(1\n)g\nM\nm\nm\n\n+\n\n+\n+\n取为k，有\n1\n2\n1\n2\na\ng\na\ng\nk\nm\nm\n\n\n+\n+\n=\n=\n，在图像上取两点将坐标代入解得\n0.23\n=\n（在0.21 到0.25 之间是正确的）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p004-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011重庆理综.pdf#q10",
+      "content": "（16 分）有人设计了一种可测速的跑步机，测速原理\n如图所示，该机底面固定有间距为L、长度为d 的平行金\n属电极。电极间充满磁感应强度为B、方向垂直纸面向里\n的匀强磁场，且接有电压表和电阻R。绝缘橡胶带上镀有\n间距为d 的平行细金属条，磁场中始终仅有一根金属条，\n且与电极接触良好，不计金属电阻，若橡胶带匀速运动时，\n电压表读数为U，求：\n（1）橡胶带匀速运动的速率；\n（2）电阻R 消耗的电功率；\n（3）一根金属条每次经过磁场区域克服安培力做的功。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011重庆理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-8869c29aca4ddf3e-q010-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 20,
+    "answerGraphics": 4,
+    "assigned": 16,
+    "rendered": 16,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

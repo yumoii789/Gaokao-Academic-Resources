@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
   "name": "2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q01",
       "content": "复数z = 1 + i, z 为z 的共轭复数, 则zz −z −1 =\n(\n)\n(A) −2i\n(B) −i\n(C) i\n(D) 2i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q02",
       "content": "函数y = 2√x (x ⩾0) 的反函数为\n(\n)\n(A) y = x2\n4 (x ∈R)\n(B) y = x2\n4 (x ⩾0)\n(C) y = 4x2 (x ∈R)\n(D) y = 4x2 (x ⩾0)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q03",
       "content": "下面四个条件中, 使a > b 成立的充分而不必要的条件是\n(\n)\n(A) a > b + 1\n(B) a > b −1\n(C) a2 > b2\n(D) a3 > b3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q04",
       "content": "设Sn 为等差数列{an} 的前n 项和, 若a1 = 1, 公差d = 2, Sk+2−Sk = 24,\n则k =\n(\n)\n(A) 8\n(B) 7\n(C) 6\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q05",
       "content": "设函数f (x) = cos ωx (ω > 0), 将y = f (x) 的图象向右平移π\n3 个单位长\n度后, 所得的图象与原图象重合, 则ω 的最小值等于\n(\n)\n(A) 1\n3\n(B) 3\n(C) 6\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q06",
       "content": "已知直二面角α −l −β, 点A ∈α, AC ⊥l, C 为垂足, B ∈β, BD ⊥l, D\n为垂足. 若AB = 2, AC = BD = 1, 则D 到平面ABC 的距离等于(\n)\n(A)\n√\n2\n3\n(B)\n√\n3\n3\n(C)\n√\n6\n3\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q07",
       "content": "某同学有同样的画册2 本, 同样的集邮册3 本, 从中取出4 本赠送给4 位\n朋友, 每位朋友1 本, 则不同的赠送方法共有\n(\n)\n(A) 4 种\n(B) 10 种\n(C) 18 种\n(D) 20 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q08",
       "content": "曲线y = e−2x + 1 在点(0, 2) 处的切线与直线y = 0 和y = x 围成的三角\n形的面积为\n(\n)\n(A) 1\n3\n(B) 1\n2\n(C) 2\n3\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q09",
       "content": "设f (x) 是周期为2 的奇函数, 当0 ⩽x ⩽1 时, f (x) = 2x (1 −x), 则\nf\n(\n−5\n2\n)\n=\n(\n)\n(A) −1\n2\n(B) −1\n4\n(C) 1\n4\n(D) 1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q10",
       "content": "已知抛物线C: y2 = 4x 的焦点为F, 直线y = 2x −4 与C 交于A, B 两\n点, 则cos ∠AFB =\n(\n)\n(A) 4\n5\n(B) 3\n5\n(C) −3\n5\n(D) −4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q11",
       "content": "已知平面α 截一球面得圆M, 过圆心M 且与α 成60◦二面角的平面β\n截该球面得圆N. 若该球面的半径为4, 圆M 的面积为4π, 则圆N 的面\n积为\n(\n)\n(A) 7π\n(B) 9π\n(C) 11π\n(D) 13π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q12",
       "content": "设向量a, b, c 满足|a| = |b| = 1, a · b = −1\n2, ⟨a −c, b −c⟩= 60◦, 则|c|\n的最大值等于\n(\n)\n(A) 2\n(B)\n√\n3\n(C)\n√\n2\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q13",
       "content": "(1 −√x)\n20 的二项展开式中, x 的系数与x9 的系数之差为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q14",
       "content": "已知α ∈\n(π\n2 , π\n)\n, sin α =\n√\n5\n5 , 则tan 2α =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q15",
       "content": "已知F1、F2 分别为双曲线C: x2\n9 −y2\n27 = 1 的左、右焦点, 点A ∈C, 点\nM 的坐标为(2, 0), AM 为∠F1AF2 的平分线. 则|AF2| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q16",
       "content": "己知点E, F 分别在正方体ABCD −A1B1C1D1 的棱BB1, CC1 上, 且\nB1E = 2EB, CF = 2FC1, 则面AEF 与面ABC 所成的二面角的正切值\n等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q17",
       "content": "△ABC 的内角A, B, C 的对边分别为a, b, c.\n已知A −C = 90◦,\na + c =\n√\n2b, 求C.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q18",
       "content": "根据以往统计资料, 某地车主购买甲种保险的概率为0.5, 购买乙种保险但\n不购买甲种保险的概率为0.3. 设各车主购买保险相互独立.\n(1) 求该地1 位车主至少购买甲、乙两种保险中的1 种的概率;\n(2) X 表示该地的100 位车主中, 甲、乙两种保险都不购买的车主数. 求\nX 的期望.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q19",
       "content": "如图, 四棱锥S −ABCD 中, AB\nCD, BC ⊥CD, 侧面SAB 为等边三\n角形. AB = BC = 2, CD = SD = 1.\n(1) 证明: SD⊥平面SAB;\n(2) 求AB 与平面SBC 所成角的正弦值.\nA\nC\nB\nD\nS\n655",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -447,22 +566,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-87274304696e3971-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-87274304696e3971-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q20",
       "content": "设数列{an} 满足a1 = 0 且\n1\n1 −an+1\n−\n1\n1 −an\n= 1.\n(1) 求{an} 的通项公式;\n(2) 设bn = 1 −√an+1\n√n\n, 记Sn =\nn∑\nk=1\nbk, 证明: Sn < 1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -470,22 +599,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q21",
       "content": "已知O 为坐标原点, F 为椭圆C: x2 + y2\n2\n= 1 在y 轴正半轴上的焦\n点, 过F 且斜率为−\n√\n2 的直线l 与C 交于A, B 两点, 点P 满足\n#   »\nOA + #    »\nOB + #    »\nOP = 0.\n(1) 证明: 点P 在C 上;\n(2) 设点P 关于点O 的对称点为Q, 证明: A, P, B, Q 四点在同一圆上.\nx\ny\nO\nA\nB\nF\nl",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -493,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf#q22",
       "content": "(1) 设函数f (x) = ln (1 + x) −\n2x\nx + 2, 证明: 当x > 0 时, f (x) > 0;\n(2) 从编号1 到100 的100 张卡片中每次随机抽取一张, 然后放回, 用这\n种方式连续抽取20 次, 设抽得的20 个号码互不相同的概率为p. 证明:\np <\n( 9\n10\n)19\n< 1\ne2 .\n656",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -516,11 +657,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011大纲理(贵州,云南,甘肃,内蒙古,青海,西藏,河北,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-87274304696e3971-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-87274304696e3971-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

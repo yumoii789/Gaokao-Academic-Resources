@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009广东.pdf",
   "name": "2009广东",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 3,
+    "sourceAnalysis": 20,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009广东.pdf#q01",
-      "content": "作答选做题时，请先用2B 铅笔填涂选做题的题组号对应的信息点，再作答。漏涂、\n错涂、多涂的，答案无效。",
+      "content": "物理学的发展丰富了人类对物质世界的认识，推动了科学技术的创新和革命，促进了物\n质生产的繁荣与人类文明的进步。下列表述正确的是（     ）\n（A）牛顿发现了万有引力定律\n（B）光电效应证实了的光的波动性\n（C）洛伦兹发现了电磁感应定律\n（D）相对论的创立表明了经典力学已不再适用",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "电磁感应定律是法拉第发现的，B 错误；光电效应证实了光的粒子性，C 错误；小\n队论和经典力学研究的领域不同，不能说相对论的创立表明经典力学已不再适用，D 错误。\n正确答案选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009广东.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009广东.pdf#q02",
-      "content": "考生必须保持答题卡的整洁。考试结束后，将试卷和答题卡一并交回。",
+      "content": "科学家发现在月球上含有丰富的32He（氦3），它是一种高效、清洁、安全的核聚变燃料，\n其参与的一种核聚变反应的方程式为32He＋32He→211H＋42He。关于32He 聚变下列表述正确\n的是（     ）\n（A）聚变反应不会释放能量\n（B）聚变反应产生了新的原子核\n（C）聚变反应没有质量亏损\n（D）目前核电站都采用32He 聚变反应发电",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "聚变反应时将质量较小的轻核聚变成质量较大的核，聚变过程会有质量亏损，要放\n出大量的能量。但目前核电站都采用采用铀核的裂变反应。因此B 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009广东.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009广东.pdf#q03",
-      "content": "物理学的发展丰富了人类对物质世界的认识，推动了科学技术的创新和革命，促进了物\n质生产的繁荣与人类文明的进步。下列表述正确的是（     ）\n（A）牛顿发现了万有引力定律\n（B）光电效应证实了的光的波动性\n（C）洛伦兹发现了电磁感应定律\n（D）相对论的创立表明了经典力学已不再适用",
+      "content": "某物体运动的速度图象如图所示，根据图象可知\n（     ）\n（A）0～2s 内的加速度为1m/s2\n（B）0～5s 内的位移为10m\n（C）第1s 末与第3s 末的速度方向相同\n（D）第1s 末与第5s 末加速度方向相同\nv/m�s-1\nO\nt/s\n2\n4\n1\n3\n5\n2\n2 / 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "v-t 图像反映的是速度v 随时t 的变化规律，其斜率表示的是加速度，A 正确；图\n中图像与坐标轴所围成的梯形面积表示的是0-5s 内的位移为7m，B 错误。在前5s 内物体\n的速度都大于零，即运动方向相同，C 正确；0-2s 加速度为正，4-5s 加速度为负，方向不同。\nD 错误。正确选项：AC",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -79,11 +98,563 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009广东.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 2,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q04",
+      "content": "硅光电池是利用光电效应原理制成的器件。下列表述正确的是（     ）\n（A）硅光电池是把光能转变为电能的一种装置\n（B）硅光电池中吸收了光子能量的电子都能逸出\n（C）逸出的光电子的最大初动能与入射光的频率无关\n（D）任意频率的光照射到硅光电池上都能产生光电效应",
+      "answer": "暂无结构化答案",
+      "analysis": "硅光电池是把光能转变为电能的一种装置，A 正确；是利用光电效应原理制成的器\n件，依据光电效应方程\n0\nk\nE\nh\nW\nh\nh\nν\nν\nν\n=\n−\n=\n−\n可见只有当入射光子的频率大于极限频率时\n才可能发生光电效应，B 错误，C 错误，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q05",
+      "content": "发射人造卫星是将卫星以一定的速度送入预定轨道。发射场一般\n选择在尽可能靠近赤道的地方。如图所示，这样选址的优点是，在赤\n道附近（     ）\n（A）地球的引力较大\n（B）地球自转线速度较大\n（C）重力加速度较大\n（D）地球自转角速度较大",
+      "answer": "暂无结构化答案",
+      "analysis": "由于发射卫星需要将卫星以一定的速度送入运动轨道，在靠进赤道处的地面上的物\n体的线速度最大，发射时较节能，因此B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q06",
+      "content": "如图所示，在一个粗糙水平面上，彼此靠近地放置两个带同种电\n荷的小物块。由静止释放后，两个物块向相反方向运动，并最终停止。\n在物块的运动过程中，下列表述正确的是（    ）\n（A）两个物块的电势能逐渐减少\n（B）物块受到的库仑力不做功\n（C）两个物块的机械能守恒\n（D）物块受到的摩擦力始终小于其受到的库仑力",
+      "answer": "暂无结构化答案",
+      "analysis": "由于两电荷电性相同，则二者之间的作用力为斥力，因此在远离过程中，电场力做\n正功，则电势能逐渐减少，A 正确；B 错误；由于运动过程中，有重力以外的力电场力和摩\n擦力做功，故机械能不守恒，C 错误；在远离过程中开始电场力大于摩擦力，后来电场力小\n于摩擦力。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q07",
+      "content": "某缓冲装置可抽象成如图所示的简单模型。图中k1、k2 为原长相等、\n劲度系数不同的轻质弹簧。下列表述正确的是（    ）\n（A）缓冲效果与弹簧的劲度系数无关\n（B）垫片向右移动时，两弹簧产生的弹力大小相等\n（C）垫片向右移动时，两弹簧的长度保持相等\n（D）垫片向右移动时，两弹簧的弹性势能发生改变",
+      "answer": "暂无结构化答案",
+      "analysis": "不同弹簧的缓冲效果与弹簧的劲度系数有关，A 错误；在垫片向右运动的过程中，\n赤道\n+q1\n+q2\n垫片\nk1 k2\n3 / 12\n由于两个弹簧相连，则它们之间的作用力等大，B 正确；由于两弹簧的劲度系数不同，由胡\n克定律F\nk x\n= ∆可知，两弹簧的型变量不同，则两弹簧的长度不相等，C 错误；在垫片向右\n运动的过程中，由于弹簧的弹力做功，则弹性势能将发生变化，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q08",
+      "content": "某人在地面上用弹簧秤称得其体重为490N，他将弹簧秤\n移至电梯内称其体重，t0 至t1 时间段内，弹簧秤的示数如图\n所示，电梯运行的v-t 图可能是（取电梯向上运动的方向为\n正）（    ）\n（A）           （B）            （C）            （D）",
+      "answer": "A",
+      "analysis": "由图可知，在t0-t1 时间内，弹簧秤的示数小于实际重量，则处于失重状态，此时具\n有向下的加速度，在t1-t2 阶段弹簧秤示数等于实际重量，则既不超重也不失重，在t2-t3 阶\n段，弹簧秤示数大于实际重量，则处于超重状态，具有向上的加速度，若电梯向下运动，则\nt0-t1 时间内向下加速，t1-t2 阶段匀速运动，t2-t3 阶段减速下降，A 正确；BD 不能实现人进入\n电梯由静止开始运动，C 项t0-t1 内超重，不符合题意。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q008-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q09",
+      "content": "如图所示为远距离高压输电的示意图。关于远距离输\n电，下列表述正确的是（    ）\n（A）增加输电导线的横截面积有利于减少输电过程中的\n电能损失\n（B）高压输电是通过减小输电电流来减小电路的发热损\n耗\n（C）在输送电压一定时，输送的电功率越大，输电过程中的电能损失越小\n（D）高压输电必须综合考虑各种因素，不一定是电压越高越好",
+      "answer": "暂无结构化答案",
+      "analysis": "依据输电原理，电路中的功率损耗 ΔP = I2R 线，而 R 线 = ρ AL\nS\nE\nA，增大输电线的横截\n面积，减小输电线的电阻，则能够减小输电线上的功率损耗，A 正确；\n由 P = UI 来看在输送功率一定的情况下，输送电压 U 越大，则输电电流越小，则功率损\n耗越小，B 正确；\n若输电电压一定，输送功率越大，则电流 I 越大，电路中损耗的电功率越大，C 错误；\n输电电压并不是电压越高越好，因为电压越高，对于安全和技术的要求越高，因此并不是输\n电电压越高越好，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q10",
+      "content": "如图所示，电动势为E、内阻不计的电源与三个灯泡和\n三个电阻相接。只合上开关S1，三个灯泡都能正常工作。如\n果再合上S2，则下列表述正确的是（     ）\n（A）电源输出功率减小\n（B）L1 上消耗的功率增大\n（C）通过R1 上的电流增大\nv\nt\nt0\nt1\nt2\nt3\nt\nt1\nt2\nv\nt0\nt3\nt1\nt2\nv\nt\nt0\nt3\nt2\nt3\nt1\nv\nt\nt0\nt3\nG/N\nt/s\nt0\nt1\nt2\n540\n490\n440\nS1\nS2\nE\nR1\nR2\nR3\nL1\nL2\nL3\n发\n电\n站\n升\n压\n变\n压\n器\n远距离高压\n输电线路\n工\n厂\n一般\n用户\n低压\n变电\n所\n高压\n变电\n所\n4 / 12\n（D）通过R3 上的电流增大",
+      "answer": "暂无结构化答案",
+      "analysis": "在合上S2 之前，三灯泡都能正常工作，合上S2 之后，电路中的总电阻R 总减小，\n则I 总增大，即流过R1 的电流增大，由于不及内阻，电源的输出功率P 出 = EI，可见电源的\n输出功率增大，A 错误；R1 两端的电压增大，则并联部分的电压减小，I4 减小，I2 减小，I1\n减小，可见C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q11",
+      "content": "如图所示，表面粗糙的斜面固定于地面上，并处于方向垂直\n纸面向外、强度为B 的匀强磁场中。质量为m、带电量为＋Q 的\n小滑块从斜面顶端由静止下滑。在滑块下滑的过程中，下列判断\n正确的是（     ）\n（A）滑块受到的摩擦力不变\n（B）滑块到达地面时的动能与B 的大小无关\n（C）滑块受到的洛伦兹力方向垂直斜面向下\n（D）B 很大时，滑块可能静止于斜面上",
+      "answer": "暂无结构化答案",
+      "analysis": "取物块为研究对象，小滑块沿斜面下滑由于受到洛伦兹\n力作用，如图所示，C 正确；N = mgcosθ+qvB，由于v 不断增\n大，则N 不断增大，滑动摩擦力f = μN，摩擦力增大，A 错误；\n滑块的摩擦力与B 有关，摩擦力做功与B 有关，依据动能定理，\n在滑块下滑到地面的过程中，满足\n2\n1\n0\n2 mv\nmgh\nfs\n−\n=\n−\n，所以\n滑块到地面时的动能与B 有关，B 错误；当B 很大，则摩擦力\n有可能很大，所以滑块可能静止在斜面上，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q011-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q12",
+      "content": "如图所示是质谱仪的工作原理示意图。带电粒子被加速电\n场加速后，进入速度选择器。速度选择器内相互正交的匀强磁场\n和匀强电场的强度分别为B 和E。平板S 上有可让粒子通过的\n狭缝P 和记录粒子位置的胶片A1A2。平板S 下方有强度为B0 的\n匀强磁场。下列表述正确的是（    ）\n（A）质谱仪是分析同位素的重要工具\n（B）速度选择器中的磁场方向垂直纸面向外\n（C）能通过狭缝P 的带电粒子的速率等于E/B\n（D）粒子打在胶片上的位置越靠近狭缝P，粒子的荷质比越小",
+      "answer": "暂无结构化答案",
+      "analysis": "由加速电场可见粒子所受电场力向下，即粒子带正电，在速度选择器中，电场力水\n平向右，洛伦兹力水平向左，如图所示，因此速度选择器中磁场方向垂直纸面向外B 正确；\n经过速度选择器时满足qE\nqvB\n=\n，可知能通过的狭缝P 的带电粒子的速率等于E/B，带电\n粒子进入磁场做匀速圆周运动则有\nmv\nR\nqB\n=\n，可见当v 相同时，\nm\nR\nq\n∝\n，所以可以用来区\n分同位素，且R 越大，比荷就越大，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q012-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q012-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q13",
+      "content": "（10 分）\n（1）远古时代，取火是一件困难的事，火一般产生于雷击或磷的自燃。随着人类文明的进\n步，出现了“钻木取火”等方法。“钻木取火”是通过____________方式改变物体的内能，\n把___________转变成内能。\n（2）某同学做了一个小实验：先把空的烧瓶放入冰箱冷冻，一小时后\n取出烧瓶，并迅速把一个气球紧密地套在瓶颈上，然后将烧瓶放进盛\n满热水的烧杯里，气球逐渐膨胀起来，如图所示。这是因为烧瓶里的\n气体吸收了水的___________，温度_________，体积___________。",
+      "answer": "暂无结构化答案",
+      "analysis": "当用气球封住烧瓶，在瓶内就封闭了一定质量的气体，当将\n瓶子放到热水中，瓶内气体将吸收水的热量，增加气体的内能，温度升高，由理气方程\nPV\nC\nT\n=\n可知，气体体积增大。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q013-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q013-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q14",
+      "content": "（10 分）\n（1）在阳光照射下，充满雾气的瀑布上方常常会出现美丽的彩虹。彩虹是太阳光射入球形\n水珠经折射、内反射，再折射后形成的。光的折射发生在两种不同介质的________上，不同\n的单色光在同种均匀介质中_________不同。\n（2）如图所示为声波干涉演示仪的原理图。两个U 形管A 和B 套\n在一起，A 管两侧各有一小孔。声波从左侧小孔传入管内，被分成\n两列频率_________的波。当声波分别通过A、B 传播到右侧小孔\n时，若两列波传播的路程相差半个波长，则此处声波的振幅______；\n若传播的路程相差一个波长，则此处声波的振幅____________。",
+      "answer": "暂无结构化答案",
+      "analysis": "声波从左侧小孔传入管内向上向下分别形成两列频率相同\n的波，若两列波传播的路程相差半个波长，则振动相消，所以此处\n振幅为零，若传播的路程相差一个波长，振动加强，则此处声波的\n振幅为原振幅的二倍。\n（二）必做题\n15－20 题为必做题，要求考生全部作答。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q014-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q014-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q15",
+      "content": "（10 分）某实验小组利用拉力传感器和速度\n传感器探究“动能定理”。如图所示，他们将拉力\n传感器固定在小车上，用不可伸长的细线将其通\n过一个定滑轮与钩码相连，用拉力传感器记录通\n过A、B 时的速度大小。小车中可以放置砝码。\n（1）实验主要步骤如下：\n①测量__________和拉力传感器的总质量M1；把\n细线的一端固定在拉力传感器上，另一端通过定滑轮与钩码相连；正确连接所需电路；\n②将小车停在C 点，________，小车在细线拉动下运动，记录细线拉力及小车通过A、B 时\n的速度。\n③在小车中增加砝码，或___________，重复②的操作。\n烧瓶\n烧杯\nA\nB\n声\n源\n声\n音\n探\n测\n器\nC\nB\nA\n拉力传感器\n速度传感器\nL\n6 / 12\n（2）表1 是他们测得的一组数据，其中M 是M1 与小车中砝码质量之和，|v22－v12|是两个速\n度传感器记录速度的平方差，可以据此计算出动能变化量ΔE，F 是拉力传感器受到的拉力，\nW 是F 在A、B 间所作的功。表格中的ΔE3 = _________，W3 = ________。（结果保留三位\n有效数字）\n（3）根据表1，请在图中的方格纸上作出ΔE-W 图线。\n次数\nM/kg\n|v22－v12|（m/s）2\nΔE/J\nF/N\nW/J\n1\n0.500\n0.760\n0.190\n0.400\n0.200\n2\n0.500\n1.65\n0.413\n0.840\n0.420\n3\n0.500\n2.40\nΔE3\n1.220\nW3\n4\n1.000\n2.40\n1.20\n2.420\n1.21\n5\n1.000\n2.84\n1.42\n2.860\n1.43",
+      "answer": "（1）小车；接通电源后释放小车；减少钩码的个数\n（2）0.619；0.610\n（3）如图",
+      "analysis": "（1）略；（2）由各组数据可见规律\n2\n2\n2\n1\n1\n2\nE\nm v\nv\n∆\n=\n−\n，可得△E3 = 0.600；观察F-\nW 数据规律可得数值上W = F/2 = 0.610；\n（3）在方格纸上作出ΔE-W 图线如图所示",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q015-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q015-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q015-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q015-p006-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q015-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q16",
+      "content": "（14 分）某实验小组利用实验室提供的器材探究一种金属丝的电阻率。所用的器材包\n括：输出为3V 的直流稳压电源、电流表、待测金属丝、螺旋测微器（千分尺）、米尺、电阻\n箱、开关和导线等。\n（1）他们截取了一段金属丝，拉直后固定在绝缘的米尺上，并在金属丝上夹上一个小金属\n夹，金属夹可在金属丝上移动。请根据现有器材，设计实验电路，并连接电路实物图1。\nW\n7 / 12\n（2）实验的主要步骤如下：\n①正确连接电路，设定电阻箱的阻值，开启电源，合上开关；\n②读出电流表的示数，记录金属夹的位置；\n③断开开关，______________，合上开关，重复②的操作。\n（3）该小组测得电流与金属丝接入长度关系的数据，并据此绘出如图2 所示的关系图线，\n其斜率为_____________A-1m-1（保留三位有效数字）；图线纵轴截距与电源电动势的乘积代\n表了___________________的电阻之和。\n（4）他们使用螺旋测微器测量金属丝的直径，示数如图3 所示。金属丝\n的直径是_______。图中图线的斜率、电源电动势和金属丝横截面积的乘\n积代表的物理量是____________，其数值和单位为_______________（保\n留三位有效数字）。",
+      "answer": "（1）\n（2）测出接入电路的金属丝的长度\n（3）10.7；电源内电阻与电阻箱\nmA\n金属丝\n金属夹\n+\n稳压电源\n0.0\nL/m\nI\n1 /A-1\n12\n11\n10\n9\n8\n7\n6\n5\n4\n0.1 0.2 0.3 0.4 0.5 0.6 0.7\nmA\n金属丝\n金属夹\n+\n稳压\n电源\n0\n20\n25\n15\n8 / 12\n（4）0.200mm；金属丝的电阻率；1.54×10-7Ω·m",
+      "analysis": "依据实验器材和实验目的测量金属丝的电阻率，电路图如图所示；电路实物图如图\n所示，依据闭合电路欧姆定律得\n0\nx\nE\nI r\nR\nR\n=\n+\n+\n（\n），参照题目给出的图像可得\n0\n1\nr\nR\nL\nI\nE\nES\nρ\n+\n=\n+\n⋅\n，可见直线的斜率k\nES\nρ\n=\n，可知斜率、电源电动势和金属丝横截面积\n的乘积代表的物理量是金属的电阻率ρ ，其数值和单位为1.54×10-7Ω·m；依据直线可得其\n斜率为1.63A-1·m-1，截距为\n0\nr\nR\nE\n+\n，则图线纵轴截距与电源电动势的乘积为（\n0\nr\nR\n+\n）；金\n属丝的直径是0.200mm。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 6,
+        "endPage": 8,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q016-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q016-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q016-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q016-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q016-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q17",
+      "content": "（20 分）\n（1）为了清理堵塞河道的冰凌，空军实施投弹爆破。飞机在河道上空高H 处以速度v0 水平\n匀速飞行，投掷下炸弹并击中目标。求炸弹刚脱离飞机到击中目标所飞行的水平距离及击中\n目标时的速度大小。（不计空气阻力）\n（2）如图所示，一个竖直放置的圆锥筒可绕其中心轴OOʹ转\n动，筒内壁粗糙，筒口半径和筒高分别为R 和H，筒内壁A\n点的高度为筒高的一半。内壁上有一质量为m 的小物块。求\n①当筒不转动时，物块静止在筒壁A 点受到的摩擦力和支持\n力的大小；\n②当物块在A 点随筒做匀速转动，且其所受到的摩擦力为零\n时，筒转动的角速度。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设飞行的水平距离为s，在竖直方向上\n2\n1\n2\nH\ngt\n=\n得飞行时间为\n2H\nt\ng\n=\n则飞行的水平距离为\n0\n0\n2H\ns\nv t\nv\ng\n=\n=\n设击中目标时的速度为v ，飞行过程中，由机械能守恒得\n2\n2\n0\n1\n1\n2\n2\nmgH\nmv\nmv\n+\n=\n得击中目标时的速度为\n2\n0\n2\nv\ngH\nv\n=\n+\n（2）物块受力如图所示\n①由平衡条件得\ncos\n0\nN\nmg\nθ\n−\n=\nsin\n0\nf\nmg\nθ\n−\n=\n其中\n2\n2\nsin\nH\nR\nH\nθ =\n+\nO\nOʹ\nR\nH\nH/2\nA\n9 / 12\n得摩擦力为\n2\n2\nsin\nmgH\nf\nmg\nR\nH\nθ\n=\n=\n+\n支持力为\n2\n2\ncos\nmgR\nN\nmg\nR\nH\nθ\n=\n=\n+\n②这时物块的受力如图所示\n由牛顿第二定律得\n2\ntan\n2\nR\nmg\nma\nm\nθ\nω\n=\n=\n得筒转动的角速度为\n2\n2 tan\ngH\ng\nR\nR\nθ\nω =\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q017-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q017-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q017-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q017-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q18",
+      "content": "（15 分）如图（a）所示，一个电阻值为R，匝数为n 的圆形金属线圈与阻值为2R 的电\n阻R1 连接成闭合回路。线圈的半径为r1。在线圈中半径为r2 的圆形区域内存在垂直于线圈\n平面向里的匀强磁场，磁感应强度B 随时间t 变化的关系图线如图（b）所示。图线与横、\n纵轴的截距分别为t0 和B0。导线的电阻不计。求0 至t1 时间内\n（1）通过电阻R1 上的电流大小和方向；\n（2）通过电阻R1 上的电量q 及电阻R1 上产生的热量。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由法拉第电磁感应定律得感应电动势为\n2\n2\n0 2\n2\n0\nn B r\nB\nE\nn\nn r\nt\nt\nt\nπ\nπ\n∆Φ\n∆\n=\n=\n=\n∆\n∆\n由闭合电路的欧姆定律，得通过\n1R 的电流大小为\n2\n0 2\n0\n3\n3\nn B r\nE\nI\nR\nRt\nπ\n=\n=\n由楞次定律知该电流由b 向a 通过\n1R\n（2）由\nq\nI\nt\n=\n得在0 至1t 时间内通过\n1R 的电量为\n2\n0 2 1\n1\n0\n3\nn B r t\nq\nIt\nRt\nπ\n=\n=\n由焦耳定律得在0 至1t 时间内\n1R 产生的热量为\nB\nO\nB0\nt\nt1\nt0\nb\na\nR1\nO\nr1\nr2\nB\n（a）\n（b）\n10 / 12\n2\n2\n2\n4\n2\n0 2 1\n1 1\n2\n0\n2\n9\nn\nB r t\nQ\nI R t\nRt\nπ\n=\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q018-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q018-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q018-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q018-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q19",
+      "content": "（16 分）如图19 所示，水平地面上静止放置\n着物块B 和C，相距l = 1.0m。物块A 以速度v0\n= 10m/s 沿水平方向与B 正碰。碰撞后A 和B 牢\n固地粘在一起向右运动，并再与C 发生正碰，碰\n后瞬间C 的速度v = 2.0m/s。已知A 和B 的质量均为m，C 的质量为A 质量的k 倍，物块\n与地面的动摩擦因数μ = 0.45。（设碰撞时间很短，g 取10m/s2）\n（1）计算与C 碰撞前瞬间AB 的速度；\n（2）根据AB 与C 的碰撞过程分析k 的取值范围，并讨论与C 碰撞后AB 的可能运动方向。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设A、B 碰后速度为\n1v ，由于碰撞时间很短，A、B 相碰的过程动量守恒，得\n0\n1\n2\nmv\nmv\n=\n       ①\n在A、B 向C 运动，设与C 碰撞前速度为\n2v ，在此过程中由动能定理，有\n2\n2\n2\n1\n1\n1\n2\n2\n2\n2\n2\nmgl\nmv\nmv\nµ\n−\n=\n−\n    ②\n得A、B 与C 碰撞前的速度为\n2\n2\n1\n2\n4\n/\nv\nv\ngl\nm s\nµ\n=\n−\n=\n（2）设A、B 与C 碰后速度为v3，A、B 与C 碰撞的过程动量守恒\n2\n3\n2\n2\nmv\nmv\nkmv\n=\n+\n    ③\n2\n3\n2\n(4\n)\n/\n2\nv\nkv\nv\nk m s\n−\n=\n=\n−\n    ④\n碰后A、B 的速度\n3v 必须满足\n3v\nv\n≤\n    ⑤\n2\n2\n2\n2\n3\n1\n1\n1\n2\n2\n2\n2\n2\nmv\nmv\nkmv\n≤\n+\n    ⑥\n由④⑤⑥式得2\n6\nk\n≤\n≤\n由④式知：当2≤k＜4 时，v3＞0，即与C 碰撞后，AB 向右运动\n当k = 4 时，v3 = 0，即与C 碰撞后，AB 停止\n当4＜k≤7.74 时，v3＜0，即与C 碰撞后，AB 向左运动",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 10,
+        "endPage": 10,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q019-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q019-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009广东.pdf#q20",
+      "content": "（17 分）如图所示，绝缘长方体B 置于水平面上，两\n端固定一对平行带电极板，极板间形成匀强电场E。长方体\nB 的上表面光滑，下表面与水平面的动摩擦因数μ = 0.05（设\n最大静摩擦力与滑动摩擦力相同）。B 与极板的总质量mB =\n1.0kg。带正电的小滑块A 质量mA = 0.60kg，其受到的电场\n力大小F = 1.2N。假设A 所带的电量不影响极板间的电场\n分布。t = 0 时刻，小滑块A 从B 表面上的a 点以相对地面\nl=1.0m\nA\nB\nC\nA\nB\na\nb\nE\nL\nvB\nvA +q\n+\n11 / 12\n的速度vA = 1.5m/s 向左运动，同时，B（连同极板）以相对地面的速度vB = 0.40m/s 向右运\n动。问（g 取10m/s2）\n（1）A 和B 刚开始运动时的加速度大小分别为多少？\n（2）若A 最远能到达b 点，a、b 的距离L 应为多少？从t = 0 时刻至A 运动到b 点时，摩\n擦力对B 做的功为多少？",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）A、B 刚开始运动时，由牛顿第二定律，得\n对于A，只受电场力，有\nA\nA\nF\nm a\n=\n得A 的加速度大小为\n2\n2\n/\nA\nA\nF\na\nm s\nm\n=\n=\n，方向水平向右\n对于B 及极板，由牛顿第三定律知所受电场力为\n1.2\nF\nF\nN\n′ =\n=\n由牛顿第二定律得\nB\nB\nF\nf\nm a\n′+\n=\n而\n(\n)\nA\nB\nf\nN\nm\nm\ng\nµ\nµ\n=\n=\n+\n得B 的加速度大小为\n2\n(\n)\n2\n/\nA\nB\nB\nB\nF\nm\nm\ng\na\nm s\nm\nµ\n+\n+\n=\n=\n 方向水平向左\n（2）A、B 开始时都做加速度为\n2\n2\n/\nm s 的匀减速直线运动，而\nA\nB\nv\nv\n>\n，故B 先减速到0，\n设从\n0\nt =\n到B 速度减为0 的时间为1t ，则\n1\nB\nB\nv\na t\n=\n得\n1\n0.2\nB\nB\nv\nt\ns\na\n=\n=\n在1t 时间内，A 的向左运动的位移为\n2\n1\n1\n1\n0.28\n2\nA\nA\nA\ns\nv t\na t\nm\n=\n−\n=\nB 向右运动的位移为\n2\n1\n1\n1\n0.04\n2\nB\nB\nB\ns\nv t\na t\nm\n=\n−\n=\n1t 时，A 的速度为\n1\n1.2\n/\nA\nA\nA\nv\nv\na t\nm s\n′ =\n−\n=\n此后A 继续向左做加速度为\n2\n2\n/\nm s 的匀减速直线运动，而B 受到向左的电场力F\nf\n>\n，故\nB 向左做匀加速运动，设经时间\n2t ，A、B 速度达到相同的v ，则\n12 / 12\nB\nB\nF\nf\nm a ′\n′−\n=\n  得\n2\n(\n)\n0.4\n/\nA\nB\nB\nB\nF\nm\nm\ng\na\nm s\nm\nµ\n′−\n+\n′ =\n=\n2\n2\nA\nA\nB\nv\na t\na t\n′\n′\n−\n=\n得2\n0.5\nt\ns\n=\n在时间2t 内，A 向左的位移为\n2\n2\n2\n1\n0.35\n2\nA\nA\nA\ns\nv t\na t\nm\n′\n′\n=\n−\n=\nB 向左的位移为\n2\n2\n1\n0.05\n2\nB\nB\ns\na t\nm\n′\n′\n=\n=\n则a、b 间距离为\n0.62\nA\nB\nA\nB\nL\ns\ns\ns\ns\nm\n′\n′\n=\n+\n+\n−\n=\n在此过程中摩擦力对B 做的功为\n(\n) (\n)\n0.072\nA\nB\nB\nB\nW\nm\nm\ng s\ns\nJ\nµ\n′\n= −\n+\n+\n= −",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009广东.pdf",
+        "page": 10,
+        "endPage": 12,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q020-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-01599c65a1114db1-q020-p010-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 28,
+    "answerGraphics": 0,
+    "assigned": 28,
+    "rendered": 29,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
   "name": "2018全国3文(云南,广西,贵州,西藏,四川)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q01",
       "content": "已知集合A = {x | x −1 ⩾0}, B = {0, 1, 2}, 则A ∩B =\n(\n)\n(A) {0}\n(B) {1}\n(C) {1, 2}\n(D) {0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q02",
       "content": "(1 + i) (2 −i) =\n(\n)\n(A) −3 −i\n(B) −3 + i\n(C) 3 −i\n(D) 3 + i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q03",
       "content": "中国古建筑借助榫卯将木构件连接起来, 构件的凸出部分叫榫头, 凹进部\n分叫卯眼, 图中木构件右边的小长方体是榫头. 若如图摆放的木构件与某\n一带卯眼的木构件咬合成长方体, 则咬合时带卯眼的木构件的俯视图可以\n是\n(\n)\n俯\n视\n方\n向\n(A)\n(B)\n(C)\n(D)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q04",
       "content": "若sin α = 1\n3, 则cos 2α =\n(\n)\n(A) 8\n9\n(B) 7\n9\n(C) −7\n9\n(D) −8\n9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q05",
       "content": "若某群体中的成员只用现金支付的概率为0.45, 既用现金支付也用非现金\n支付的概率为0.15, 则不用现金支付的概率为\n(\n)\n(A) 0.3\n(B) 0.4\n(C) 0.6\n(D) 0.7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q06",
       "content": "函数f (x) =\ntan x\n1 + tan2 x 的最小正周期为\n(\n)\n(A) π\n4\n(B) π\n2\n(C) π\n(D) 2π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q07",
       "content": "下列函数中, 其图象与函数y = ln x 的图象关于直线x = 1 对称的是(\n)\n(A) y = ln (1 −x)\n(B) y = ln (2 −x)\n(C) y = ln (1 + x)\n(D) y = ln (2 + x)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q08",
       "content": "直线x + y + 2 = 0 分别与x 轴, y 轴交于A, B 两点, 点P 在圆\n(x −2)2 + y2 = 2 上, 则△ABP 面积的取值范围是\n(\n)\n(A) [2, 6]\n(B) [4, 8]\n(C)\n[√\n2, 3\n√\n2\n]\n(D)\n[\n2\n√\n2, 3\n√\n2\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q09",
       "content": "函数y = −x4 + x2 + 2 的图象大致为\n(\n)\n(A)\nx\n1\n1\ny\nO\n(B)\nx\n1\n1\ny\nO\n(C)\nx\n1\n1\ny\nO\n(D)\nx\n1\n1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +280,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q10",
       "content": "已知双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的离心率为\n√\n2, 则点(4, 0) 到\nC 的渐近线的距离为\n(\n)\n(A)\n√\n2\n(B) 2\n(C) 3\n√\n2\n2\n(D) 2\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +313,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q11",
       "content": "△ABC 的内角A, B, C 的对边分别为a, b, c, 若△ABC 的面积为\na2 + b2 −c2\n4\n, 则C =\n(\n)\n(A) π\n2\n(B) π\n3\n(C) π\n4\n(D) π\n6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +346,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q12",
       "content": "设A, B, C, D 是同一个半径为4 的球的球面上四点, △ABC 为等边三角\n形且其面积为9\n√\n3, 则三棱锥D −ABC 体积的最大值为\n(\n)\n(A) 12\n√\n3\n(B) 18\n√\n3\n(C) 24\n√\n3\n(D) 54\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +380,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q13",
       "content": "已知向量a = (1, 2), b = (2, −2), c = (1, λ).\n若c\n(2a + b), 则\nλ =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +409,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q14",
       "content": "某公司有大量客户, 且不同龄段客户对其服务的评价有较大差异. 为了解\n客户的评价, 该公司准备进行抽样调查, 可供选择的抽样方法有简单随机\n抽样、分层抽样和系统抽样, 则最合适的抽样方法是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +438,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q15",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\n2x + y + 3 ⩾0,\nx −2y + 4 ⩾0,\nx −2 ⩽0,\n则z = x + 1\n3y 的最大值\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +467,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q16",
       "content": "已知函数f (x) = ln\n(√\n1 + x2 −x\n)\n+ 1, f (a) = 4, 则f (−a) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +496,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q17",
       "content": "等比数列{an} 中, a1 = 1, a5 = 4a3.\n(1) 求{an} 的通项公式;\n(2) 记Sn 为{an} 的前n 项和. 若Sm = 63, 求m.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +525,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q18",
       "content": "某工厂为提高生产效率, 开展技术创新活动, 提出了完成某项生产任务的\n两种新的生产方式. 为比较两种生产方式的效率, 选取40 名工人, 将他们\n随机分成两组, 每组20 人, 第一组工人用第一种生产方式, 第二组工人用\n第二种生产方式. 根据工人完成生产任务的工作时间(单位: min) 绘制了\n如图茎叶图:\n第一种生产方式\n第二种生产方式\n8\n6\n5\n5\n6\n8\n9\n9\n7\n6\n2\n7\n0\n1\n2\n2\n3\n4\n5\n6\n6\n8\n9\n8\n7\n7\n6\n5\n4\n3\n3\n2\n8\n1\n4\n4\n5\n2\n1\n1\n0\n0\n9\n0\n(1) 根据茎叶图判断哪种生产方式的效率更高? 并说明理由;\n(2) 求40 名工人完成生产任务所需时间的中位数m, 并将完成生产任务所\n需时间超过m 和不超过m 的工人数填入下面的列联表:\n超过m\n不超过m\n第一种生产方式\n第二种生产方式\n(3) 根据(2) 中的列联表, 能否有99% 的把握认为两种生产方式的效率有\n差异?\n附: K2 =\nn (ad −bc)2\n(a + b) (c + d) (a + c) (b + d),\nP (K2 ⩾k)\n0.050\n0.010\n0.001\nk\n3.841\n6.635\n10.828 .\n1077",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +558,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q19",
       "content": "如图, 矩形ABCD 所在平面与半圆弧¯\nCD 所在平面垂直, M 是¯\nCD 上异\n于C, D 的点.\n(1) 证明: 平面AMD ⊥平面BMC;\n(2) 在线段AM 上是否存在点P, 使得MC\n平面PBD? 说明理由.\nM\nA\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +591,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q20",
       "content": "已知斜率为k 的直线l 与椭圆C: x2\n4 + y2\n3 = 1 交于A, B 两点. 线段AB\n的中点为M (1, m) (m > 0).\n(1) 证明: k < −1\n2;\n(2) 设F 为C 的右焦点, P 为C 上一点, 且#    »\nFP + #   »\nFA + #    »\nFB = #»0 . 证明:\n2\n���#    »\nFP\n���=\n���#   »\nFA\n���+\n���#    »\nFB\n���.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,22 +624,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q21",
       "content": "已知函数f (x) = ax2 + x −1\nex\n.\n(1) 求曲线y = f (x) 在点(0, −1) 处的切线方程;\n(2) 证明: 当a ⩾1 时, f (x) + e ⩾0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -493,22 +653,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q22",
       "content": "在平面直角坐标系xOy 中, ⊙O 的参数方程为\n{\nx = cos θ,\ny = sin θ,\n(θ 为参数), 过\n点\n(\n0, −\n√\n2\n)\n且倾斜角为α 的直线l 与⊙O 交于A, B 两点.\n(1) 求α 的取值范围;\n(2) 求AB 中点P 的轨迹的参数方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -516,22 +682,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf#q23",
       "content": "设函数f (x) = |2x + 1| + |x −1|.\n(1) 画出y = f (x) 的图象;\n(2) 当x ∈[0, +∞) 时, f (x) ⩽ax + b, 求a + b 的最小值.\nx\nO\n1\ny\n1\n1078",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -539,11 +711,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国3文(云南,广西,贵州,西藏,四川).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q023-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-88d3a7a252e09c65-q023-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2021/2021上海.pdf",
   "name": "2021上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 20,
+    "sourceAnswers": 19,
+    "sourceAnalysis": 2,
+    "reviewCount": 19,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q01",
-      "content": "试卷满分100 分，考试时间60 分钟。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "试卷满分100 分，考试时间60 分钟。\n2．本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。\n3．答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q02",
-      "content": "本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。",
+      "content": "β 粒子（    ）\n（A）是原子的外层电子\n（B）来自中子的转化\n（C）是原子核内的核子\n（D）来自质子的转化",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -56,22 +73,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q002-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q03",
-      "content": "答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。\n一、选择题（共40 分。第1-8 小题，每小题3 分；第9-12 小题，每小题4 分。每小题只有\n一个正确答案）\n1．β 粒子（    ）\n（A）是原子的外层电子\n（B）来自中子的转化\n（C）是原子核内的核子\n（D）来自质子的转化\n2．在卢瑟福 α 粒子散射实验中，α 粒子发生大角度偏转（    ）\n（A）主要是由于受到电子的碰撞\n（B）是由于受到原子核的库仑引力\n（C）表明原子核由质子和中子组成\n（D）反映了原子内存在带正电的核\n3．位于弹性绳中点 O 的波源振动频率随时间逐渐增大，经一段时间后弹性绳的形状可能\n为（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在卢瑟福 α 粒子散射实验中，α 粒子发生大角度偏转（    ）\n（A）主要是由于受到电子的碰撞\n（B）是由于受到原子核的库仑引力\n（C）表明原子核由质子和中子组成\n（D）反映了原子内存在带正电的核",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -79,22 +109,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q04",
-      "content": "我国“天问一号”火星探测器计划依靠发动机推力悬停于火星表面附近，以寻找合适的\n着陆点。当探测器在空中水平匀速移动时，发动机的喷气方向（不计火星大气阻力）（    ）\n（A）竖直向上\n（B）斜向上\n（C）竖直向下\n（D）斜向下",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "位于弹性绳中点 O 的波源振动频率随时间逐渐增大，经一段时间后弹性绳的形状可能\n为（    ）",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -102,22 +138,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q05",
-      "content": "某理想气体在 T1、T2 两个不同温度下的分子速率分布曲线如图\n所示。图中 f(v) 表示单位速率区间内的分子数占总分子数的百分比\n随分子速率 v 的变化关系，两曲线与横轴所围面积分别为 S1、S2，\n则（    ）\n（A）T1 > T2\n（B）T1 < T2\n（C）S1 > S2\n（D）S1 < S2\nA\nB\nD\nC\nO\nO\nO\nO\nf(v)\nv\nO\nT1\nT2\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "我国“天问一号”火星探测器计划依靠发动机推力悬停于火星表面附近，以寻找合适的\n着陆点。当探测器在空中水平匀速移动时，发动机的喷气方向（不计火星大气阻力）（    ）\n（A）竖直向上\n（B）斜向上\n（C）竖直向下\n（D）斜向下",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -125,45 +167,61 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q06",
-      "content": "如图，一作直线运动的质点在0 < t < 4 s 时间内的 v–t 图线为半圆，质点在该段时间内\n的平均速度为（    ）\n（A）π m/s\n（B）π\n2 m/s\n（C）1 m/s\n（D）π\n4 m/s",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某理想气体在 T1、T2 两个不同温度下的分子速率分布曲线如图\n所示。图中 f(v) 表示单位速率区间内的分子数占总分子数的百分比\n随分子速率 v 的变化关系，两曲线与横轴所围面积分别为 S1、S2，\n则（    ）\n（A）T1 > T2\n（B）T1 < T2\n（C）S1 > S2\n（D）S1 < S2\nA\nB\nD\nC\nO\nO\nO\nO\nf(v)\nv\nO\nT1\nT2\n2",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
-        "page": 2,
-        "questionNumber": 6,
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q006-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q07",
-      "content": "带正电的粒子在沿电场线方向运动的过程中，必定减小的物理量是（    ）\n（A）粒子所受的电场力\n（B）粒子的速度\n（C）粒子具有的电势能\n（D）粒子的加速度",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，一作直线运动的质点在0 < t < 4 s 时间内的 v–t 图线为半圆，质点在该段时间内\n的平均速度为（    ）\n（A）π m/s\n（B）π\n2 m/s\n（C）1 m/s\n（D）π\n4 m/s",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -171,22 +229,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 7,
+        "endPage": 2,
+        "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q08",
-      "content": "玻璃管开口向下竖直放置，管内用水银封闭一定质量的理想气体。在玻璃管绕顶\n端缓慢转到虚线所示位置的过程中，管内封闭气体状态变化可能是下图中的（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "带正电的粒子在沿电场线方向运动的过程中，必定减小的物理量是（    ）\n（A）粒子所受的电场力\n（B）粒子的速度\n（C）粒子具有的电势能\n（D）粒子的加速度",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -194,22 +262,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 8,
+        "endPage": 2,
+        "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q09",
-      "content": "小球做直线运动的频闪照片如图所示，由此可以断定小球的\n（    ）\n（A）加速度向右\n（B）速度向右\n（C）加速度向左\n（D）速度向左",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "玻璃管开口向下竖直放置，管内用水银封闭一定质量的理想气体。在玻璃管绕顶\n端缓慢转到虚线所示位置的过程中，管内封闭气体状态变化可能是下图中的（    ）",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -217,22 +291,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 9,
+        "endPage": 2,
+        "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q009-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q009-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q009-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q10",
-      "content": "长直导线中通以与时间成正比的电流，该电流会在其周围产生（    ）\n（A）不随时间变化的匀强磁场\n（B）随时间变化的匀强磁场\n（C）不随时间变化的非匀强磁场\n（D）随时间变化的非匀强磁场",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "小球做直线运动的频闪照片如图所示，由此可以断定小球的\n（    ）\n（A）加速度向右\n（B）速度向右\n（C）加速度向左\n（D）速度向左",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -240,22 +327,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 10,
+        "endPage": 2,
+        "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q010-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q11",
-      "content": "半径为 R，内壁光滑的圆轨道固定在竖直平面内，小球以\n2gR （g 为重力加速度）\n的速度经过圆轨道最低点后到达轨道上与圆心等高处时的速度为 v，加速度为 a，则（    ）\n（A）v = 0，a = 0\n（B）v≠0，a = 0\n（C）v = 0，a≠0\n（D）v≠0，a≠0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "长直导线中通以与时间成正比的电流，该电流会在其周围产生（    ）\n（A）不随时间变化的匀强磁场\n（B）随时间变化的匀强磁场\n（C）不随时间变化的非匀强磁场\n（D）随时间变化的非匀强磁场",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -263,22 +360,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 11,
+        "endPage": 2,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q12",
-      "content": "如图，在点电荷 Q 附近不同位置放置检验电荷 a、b，描述 a、b 所\n带电量 q 与所受电场力大小 F 的两组数据可能是下图中的（    ）\n二、填空题（共20 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "半径为 R，内壁光滑的圆轨道固定在竖直平面内，小球以\n2gR （g 为重力加速度）\n的速度经过圆轨道最低点后到达轨道上与圆心等高处时的速度为 v，加速度为 a，则（    ）\n（A）v = 0，a = 0\n（B）v≠0，a = 0\n（C）v = 0，a≠0\n（D）v≠0，a≠0",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -286,22 +389,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 12,
+        "endPage": 2,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q13",
-      "content": "氚核（31H）的中子数为_____，半衰期为12 年，一定量的氚核经过_____年减少到原来\n的1/4。\nO\nO\nO\nO\nV\nT\nT\nT\nV\nV\np\np\nA\nB\nC\nD\nO\nO\nO\nO\nq\nq\nq\nq\nF\nF\nF\nF\nA\nB\nC\nD\na\nb\na\nb\nb\nb\na\na\nv/m·s−1\nt/s\n0\n1\n2\n1\n2\n3\n4\nQ\na\nb\n3",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，在点电荷 Q 附近不同位置放置检验电荷 a、b，描述 a、b 所\n带电量 q 与所受电场力大小 F 的两组数据可能是下图中的（    ）",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -309,45 +418,64 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 2,
-        "questionNumber": 13,
+        "endPage": 2,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q013-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q013-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q013-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q013-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q013-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q14",
-      "content": "密闭钢瓶内温度降低，瓶内气体分子的________减小，对瓶壁单位面积的平均作用力\n________（选填：“增加”、“不变”或“减小”）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "氚核（31H）的中子数为_____，半衰期为12 年，一定量的氚核经过_____年减少到原来\n的1/4。\nO\nO\nO\nO\nV\nT\nT\nT\nV\nV\np\np\nA\nB\nC\nD\nO\nO\nO\nO\nq\nq\nq\nq\nF\nF\nF\nF\nA\nB\nC\nD\na\nb\na\nb\nb\nb\na\na\nv/m·s−1\nt/s\n0\n1\n2\n1\n2\n3\n4\nQ\na\nb\n3",
+      "answer": "2，24",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
-        "page": 3,
-        "questionNumber": 14,
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q15",
-      "content": "上海科学家研发出的激光器能在 2×10−14 s 内输出能量为 400 J 的超强超短激光，这段\n时间内激光器的平均功率高达________W；该激光的中心波长为 8×10−7 m，对应的频率为\n_______Hz。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "密闭钢瓶内温度降低，瓶内气体分子的________减小，对瓶壁单位面积的平均作用力\n________（选填：“增加”、“不变”或“减小”）。",
+      "answer": "平均动能，减小",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -355,22 +483,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 3,
-        "questionNumber": 15,
+        "endPage": 3,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q16",
-      "content": "飞行器在太空航行时，发动机的喷气速率 v 在一定的近似条件下仅由下列四个量决定：\n高温气体的温度 T（单位：K）、摩尔质量 M（单位：kg·mol−1），定压摩尔热容 C（单位：\nJ·K−1·mol−1）、无单位的比例系数 α。若使用国际单位制中的基本单位，C 的单位又可表示为\n__________；用 T、M、C 和 α 表示的 v = 𝛼\n\nCT\nM\nλ ，式中 λ = ______。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "上海科学家研发出的激光器能在 2×10−14 s 内输出能量为 400 J 的超强超短激光，这段\n时间内激光器的平均功率高达________W；该激光的中心波长为 8×10−7 m，对应的频率为\n_______Hz。",
+      "answer": "2×1016，3.75×1014",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -378,22 +512,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 3,
-        "questionNumber": 16,
+        "endPage": 3,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q17",
-      "content": "如图为某测量引力常量 G 的实验原理示意图，质量为 M 的均匀球 A\n固定，可视为质点的小球 B 由轻质细线悬挂于 O 点。平衡时两球心等高、\n间距为 r，BO 间水平距离为 d（远小于细线长度）。迅速移去 A 球后，B 球\n的摆动_________（选填：“可以”或“不可以”）视为简谐运动。测量 M、r、\nd 和 B 球的摆动周期 T 后可得G = ______。（θ 很小时，sinθ ≈ tanθ）\n三、综合题（共40 分）\n注意：第19、20 题在列式计算、逻辑推理以及回答问题过程中，要求给出必要的图示、文\n字说明、公式、演算等。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "飞行器在太空航行时，发动机的喷气速率 v 在一定的近似条件下仅由下列四个量决定：\n高温气体的温度 T（单位：K）、摩尔质量 M（单位：kg·mol−1），定压摩尔热容 C（单位：\nJ·K−1·mol−1）、无单位的比例系数 α。若使用国际单位制中的基本单位，C 的单位又可表示为\n__________；用 T、M、C 和 α 表示的 v = 𝛼\n\nCT\nM\nλ ，式中 λ = ______。",
+      "answer": "kg·m2·s−2·K−1·mol−1，0.5",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -401,22 +541,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 3,
-        "questionNumber": 17,
+        "endPage": 3,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q18",
-      "content": "（10 分）“用 DIS 描绘电场的等势线”的实验示意图如图所示。\n图中 A、B 是连接电源的两个电极，基准点 c 位于 A、B 连线的中点，\nf、d 连线和 A、B 连线垂直。\n（1）实验时使用的是_______传感器。\n（2）若传感器的红、黑色探针分别接触图中的 d、f 两点时，传感器示\n数小于零；保持红色探针位置不变，将黑色探针从 f 点换到 e 点，传感器示数_____（选\n填：“大于”或“小于”）零。\n（3）在图上画出过 f 点的等势线。\n（4）（单选题）实验中得到的曲线实际上是\n（A）一对等量同种电荷的静电场的等势线\n（B）一对等量异种电荷的静电场的等势线\n（C）稳恒电流场中的等势线\n（D）变化电流场中的等势线",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图为某测量引力常量 G 的实验原理示意图，质量为 M 的均匀球 A\n固定，可视为质点的小球 B 由轻质细线悬挂于 O 点。平衡时两球心等高、\n间距为 r，BO 间水平距离为 d（远小于细线长度）。迅速移去 A 球后，B 球\n的摆动_________（选填：“可以”或“不可以”）视为简谐运动。测量 M、r、\nd 和 B 球的摆动周期 T 后可得G = ______。（θ 很小时，sinθ ≈ tanθ）\n三、综合题（共40 分）\n注意：第19、20 题在列式计算、逻辑推理以及回答问题过程中，要求给出必要的图示、文\n字说明、公式、演算等。",
+      "answer": "可以，4π2r2d\nMT2\n三、综合题（共40 分）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -424,22 +570,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 3,
-        "questionNumber": 18,
+        "endPage": 3,
+        "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q018-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q19",
-      "content": "（15 分）如图，倾角为 θ 的足够长斜面 ABC 上，AB 段光滑，\n长为 l，BC 段粗糙。一质量为 m 的物体（视为质点）在平行于斜面\n的拉力作用下自 A 由静止开始做匀加速直线运动，经时间 t0 到达\nB。（重力加速度为 g，BC 段与物体间的动摩擦因数为定值）\n（1）求拉力的大小 F；\n（2）物体到 B 点时拉力的功率 PB 为多大？\n（3）从到达 B 点开始，拉力的功率保持为 PB，物体做减速运动。定性画出物体由 A 运\n动到 C 过程的 v–t 图像。（仅要求作出图像）\nA\nB\nO\nd\nr\nA\nB\nC\nF\nθ\na b c d e\n电源\nA\nf B\n4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（10 分）“用 DIS 描绘电场的等势线”的实验示意图如图所示。\n图中 A、B 是连接电源的两个电极，基准点 c 位于 A、B 连线的中点，\nf、d 连线和 A、B 连线垂直。\n（1）实验时使用的是_______传感器。\n（2）若传感器的红、黑色探针分别接触图中的 d、f 两点时，传感器示\n数小于零；保持红色探针位置不变，将黑色探针从 f 点换到 e 点，传感器示数_____（选\n填：“大于”或“小于”）零。\n（3）在图上画出过 f 点的等势线。\n（4）（单选题）实验中得到的曲线实际上是\n（A）一对等量同种电荷的静电场的等势线\n（B）一对等量异种电荷的静电场的等势线\n（C）稳恒电流场中的等势线\n（D）变化电流场中的等势线",
+      "answer": "（10 分）（1）电压\n（2）大于\n（3）\n（4）C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -447,22 +603,63 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 3,
-        "questionNumber": 19,
+        "endPage": 3,
+        "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q019-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q019-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021上海.pdf#q20",
-      "content": "（15 分）两竖直固定的光滑金属导\n轨间距 L = 0.75 m，磁感应强度 B = 0.8\nT 的匀强磁场与两导轨所在平面垂直，\n一金属棒与导轨垂直放置。导轨上方接\n有如图（a）所示电路，其中 R 为一电\n阻性元件，定值电阻阻值 R0 = 10 Ω。断\n开电键 S，金属棒从静止开始下滑直到\n匀速运动，此期间由电压、电流传感器\n得到 R 的 U–I 图线如图（b）所示。\n（导\n轨足够长，导轨和金属棒的电阻均忽略\n不计，金属棒下滑过程中始终与导轨接\n触良好，重力加速度 g 取 10 m/s2）\n（1）求金属棒达到匀速运动时的速度 v；\n（2）求金属棒的质量 m；\n（3）在金属棒匀速运动时合上 S，求经过足够长时间后金属棒的动能 Ek。\nU/V\nI/A\n（b）\n0\n0.2 0.4 0.6\n2\n4\n6\nR\nR0\nS\n电流传感器\n电压传感器\nB\n（a）\n5",
+      "content": "（15 分）如图，倾角为 θ 的足够长斜面 ABC 上，AB 段光滑，\n长为 l，BC 段粗糙。一质量为 m 的物体（视为质点）在平行于斜面\n的拉力作用下自 A 由静止开始做匀加速直线运动，经时间 t0 到达\nB。（重力加速度为 g，BC 段与物体间的动摩擦因数为定值）\n（1）求拉力的大小 F；\n（2）物体到 B 点时拉力的功率 PB 为多大？\n（3）从到达 B 点开始，拉力的功率保持为 PB，物体做减速运动。定性画出物体由 A 运\n动到 C 过程的 v–t 图像。（仅要求作出图像）\nA\nB\nO\nd\nr\nA\nB\nC\nF\nθ\na b c d e\n电源\nA\nf B\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（15 分）\n（1）受力分析如图所示，由牛顿第二定律可得：\nF − mgsinθ = ma\na = F\nm − gsinθ\n由匀变速直线运动公式可得：\nl = 1\n2 at02 = 1\n2 (F\nm − gsinθ) t02\n解得：F = mgsinθ + 2ml\nt02\n（2）由匀变速直线运动公式可得：l = vB\n2 t0，解得：vB = 2l\nt0\n拉力功率：PB = FvB = 2mglsinθ\nt0\n + 4ml2\nt03\n（3）如图所示\n【分析过程】AB 过程中，物体做初速为零的匀加速直线运动，图线为过原点的倾斜直线。\nBC 过程中，由F = P\nv 可知，在P 不变的情况下，v 减小，导致F 增大；\na b c d e\n电源\nA\nf B\nO\nt\nv\nG\nF\nN\n6\n由牛顿第二定律：mgsinθ + f − F = ma，F 增大，合外力减小，加速度减小，物体做加速度不\n断减小的减速运动，图线为斜率减小的曲线。\n理论上需要无穷长的时间才到达到匀速，图线末端最好画渐近线，画成平行直线应该不会扣\n分吧。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021上海.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q020-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q020-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021上海.pdf#q21",
+      "content": "（15 分）两竖直固定的光滑金属导\n轨间距 L = 0.75 m，磁感应强度 B = 0.8\nT 的匀强磁场与两导轨所在平面垂直，\n一金属棒与导轨垂直放置。导轨上方接\n有如图（a）所示电路，其中 R 为一电\n阻性元件，定值电阻阻值 R0 = 10 Ω。断\n开电键 S，金属棒从静止开始下滑直到\n匀速运动，此期间由电压、电流传感器\n得到 R 的 U–I 图线如图（b）所示。\n（导\n轨足够长，导轨和金属棒的电阻均忽略\n不计，金属棒下滑过程中始终与导轨接\n触良好，重力加速度 g 取 10 m/s2）\n（1）求金属棒达到匀速运动时的速度 v；\n（2）求金属棒的质量 m；\n（3）在金属棒匀速运动时合上 S，求经过足够长时间后金属棒的动能 Ek。\nU/V\nI/A\n（b）\n0\n0.2 0.4 0.6\n2\n4\n6\nR\nR0\nS\n电流传感器\n电压传感器\nB\n（a）\n5",
+      "answer": "（1）由图（b）可知，当金属棒达到匀速时，R 两端的电压稳定在6 V，且导轨和金属棒\n的电阻忽略不计。则有：\nE = U = BLv\nv = U\nBL =\n6\n0.8×0.75 m/s = 10 m/s\n（2）金属棒匀速运动时处于受力平衡状态，由图（b）可知此时通过金属棒的电流I = 0.5 A。\n可得：\nmg = BIL\nm = BIL\ng = 0.8×0.5×0.75\n10\n kg = 0.03 kg\n（3）（合上S 后，金属棒做加速度不断减小的减速运动）经过足够长的时间后，棒仍做匀速\n直线运动，此时仍处于受力平衡状态，因此通过棒的电流不变，仍为I = 0.5 A。\n设此时电阻R 两端的电压为UR，通过电阻R 的电流为IR，通过R0 的电流为I0，应满足：\nIR = I－I0\nIR = 0.5 − UR\nR0\nUR = 5 − 10IR\n在图（b）中画出这个方程对应的图线，与R 的伏安特性曲线的交\n点的意义就是此时的工作点，解得 UR = 2 V，IR = 0.2 A。\n（不画图，通过在图像上找到满足方程 UR = 5 − 10IR 的点，即\n(0.3,2)，不知会不会扣分？）\n设此时匀速运动的速度大小为 vʹ，则有：\nUR = BLvʹ\nvʹ = UR\nBL =\n2\n0.8×0.75 m/s = 10\n3 m/s\nEk = 1\n2 mvʹ2 = 0.5×0.03×\n\n10\n3\n2 J = 1\n6 J\n解析\n1．",
+      "analysis": "β 粒子是电子，β 衰变的本质是原子核中的1 个中子转变为1 个质子和1 个电\n子，对应的核反应方程为：10n→11H＋0−1e。正确选项为B。\n2．\n电子的质量很小，与α 粒子碰撞后几乎不会影响它的轨迹，选项A 错误；\nα 粒子是氦原子核，带正电，与同样带正电的原子核间存在相互排斥的库仑力，正是这个力\n使α 粒子发生的大角度偏转。选项D 正确，B、C 错误。\n3．\nO 为波源，它在绳上会产生两列分别向左、右传递的波，选项B、D 错误；\n波速由介质决定，在同一根弹性绳上这两列波波速相同，由λ = v\nf 可知，随着频率的增大，\nU/V\nI/A\n0\n0.2 0.4 0.6\n2\n4\n6\n7\n波长会随之变小。正确选项为A。\n4．\n探测器在水平方向上匀速移动，处于受力平衡状态，探测器推力的方向应竖直向\n上，则喷气方向为竖直向下。正确选项为C。\n5．\n温度越高，分子无规则运动越剧烈，或者说更加杂乱无章，具有最大比例的速率\n区间会向高温段偏移，所以T1＜T2；\n此图像的面积的物理意义为所有速率分子所占概率之和，为100%或者说成1，S1 = S2（这个\n让高中生分析有点难啊，幸亏前两个选项简单）。\n正确选项为B。\n6．\nv–t 图线与t 轴所围“面积”的物理意义即该段时间内物体运动的位移，s = 1\n2 S\n圆 = πr2\n2 = 2π，平均速度为 𝑣̅ = s\nt = π\n2 m/s。正确选项为B。\n7．\n正电荷受到的电场力方向与电场方向相同，因此电场力做正功，电势能减小。正\n确选项为C。\n8．\n玻璃管绕顶端缓慢转动，可以看成等温变化。转动过程中水银柱的竖直高度减小，\n产生的压强也减小，气体压强 p = p0 − ρgh 随之增大，由玻意耳定律可知，气体体积减小。\n正确选项为D。\n9．\n若小球向右运动，由频闪照片可知单位时间内通过的位移越来越大，小球做加速\n运动，加速度方向向右；若小球向左运动，单位时间内通过的位移越来越小，小球做减速运\n动，加速度方向仍向右。正确选项为A。\n10．\n直线电流产生的磁感线为以直导线为圆心的一组不等距同心圆环，是非匀强磁\n场，该磁场的磁感应强度随直导线中电流的增大而增大。正确选项为D。\n【2011 学年卢湾一模】某长直导线中分别通以如图所示的电流，则下列说法中正确的是\n（      ）\n（A）图①所示电流周围产生匀强磁场\n（B）图②所示电流周围的磁场是稳定的\n（C）图③所示电流周围各点的磁场方向在0～t1 时间内与t1～t2 时间内的方向是相反的\n（D）图④所示电流周围的磁场先变强再变弱，磁场中各点的磁感强度方向不变\n11．\n由机械能守恒定律：1\n2 m( 2gR )2 = mgR + 1\n2 mv2，解得v = 0；由于v = 0，所\nt\nI\nO\nt\nI\nO\nt\nI\nO\nt\nI\nO\n①\n②\n③\n④\n8\n以F 向 = 0，即此时内壁对小球没有弹力作用，小球只受重力，a = g≠0。正确选项为C。\n12．\n由E = F\nq = kQ\nr2 可知，F-q 图中的点的斜率表示该点所在位置\n处的电场强度，且距离场源电荷Q 越远，斜率越小。正确选项为B。\n【2004 学年虹口一模】如图所示，表示一个电场中a、b、c、\nd 四点分别引入检验电荷时，测得检验电荷所受的电场力跟电\n量间的函数关系图象，那么下列说法中正确的是（    ）\n（A）该电场是匀强电场\n（B）a、b、c、d 四点场强的大小关系是Ed＞Ea＞Eb＞Ec\n（C）这四点场强的大小关系是Ea＞Eb＞Ec＞Ed\n（D）无法判断a、b、c、d 四点场强的大小关系\n13．\n（1）中子数为核子数减去质子数，即 3 − 1 = 2 个；\n（2）根据半衰期的定义，氚核减少到原来的1/4 用时2 个半衰期，即24 年。\n14．\n（1）温度是分子平均动能的标志，温度减低，平均动能减小。（查了一下教科书：\n“我们把这个平均值叫做分子热运动的平均动能，简称分子动能。”，学生漏写平均2 字会扣\n分吗？）\n（2）由查理定律可知，在体积不变的情况下，一定质量气体的压强随温度的降低而减小，\n即对瓶壁单位面积的平均作用力减小。\n15．\n（1）P = W\nt =\n400\n2×10-14 W = 2×1016 W；\n（2）f = c\nλ  = 3×108\n8×10-7 Hz = 3.75×1014 Hz\n16．\n（1）由W = Fs 和F = ma 可知，单位焦耳（J）可以表示为N·s，并进一步表示\n为kg·m2·s−2，因此C 的单位J·K−1·mol-1 可以表示为kg·m2·s−2·K−1·mol−1；\n（2）𝛼\n\nCT\nM 的单位可以表示为[kg·m2·s-2·K−1·mol−1][K][kg−1·mol] = [m2·s−2]，而速度v 的单位\n可以表示为[m·s−1]，比较两者可知λ = 0.5。\n17．\n（1）由于BO 间水平距离为d 远小于细线长度，因此摆角θ 也很小，可以看成\n小于5°，B 球的摆动可以视为简谐运动。\n（2）开始时B 球在三个力的作用下平衡，有：GMm\nr2  = mgtanθ，可求得G = gr2tanθ\nM\n ≈\ngr2sinθ\nM\n = gr2d\nMl ；\n移去A 球后，B 球做简谐振动，周期T = 2π\nl\ng ，可求得：g = 4π2l\nT2 ，代入上式可得：G =\nO\nq\nF\na\nb\nEa\nEb\nO\nF\na\nb\nc\nd\nq\n9\n4π2r2d\nMT2 。\n18．\n（1）本实验测量的是两点间的电势差，即电压，因此使用的是电压传感器；\n（2）“传感器的红、黑色探针分别接触图中的d、f 两点时，传感器示数小于零”，说明红色\n探针所在位置d 的电势较低，可以推断A 电极与电源正极相连，进一步可知φd＞φe，将黑\n色探针换到e 点，测量的是低电势，所以示数大于零；\n（3）如图所示：\n（4）这个实验通过电源接上接线柱，在导电物质上产生的稳恒电流场模拟一对等量异种点\n电荷产生的静电场。正确选项为C。\na b c d e\n电源\nA\nf B\n10\n2021 上海学业水平等级性考试物理试卷专家点评\n上海市教育考试院邀请相关学科专家从试卷结构、考查内容、学科核心素养等多个角度\n对试卷进行了分析解读。大家一致认为，今年物理学科等级考试卷突出了核心素养的考查，\n物理观念与科学思维并重，对学科教学起到了积极的引导作用。\n一、全卷结构稳定，容量和梯度合理\n试卷注重物理学科基础知识和主干内容的考查。全卷共20 题，分为选择题、填空题、\n综合题三类，题型和题量与往年保持一致。其中，力学约占42%，电磁学约占36%，热学约\n占10%，光学和原子物理约占12%。实验内容分布在全卷中，各知识版块占比合理。试题难\n度分布与学业水平要求基本吻合，梯度合理。\n二、注重科学思维，建模和推理并重\n多道试题关注科学思维方法，较为突出地考查了模型建构和科学推理的能力。例如测量\n引力常量的实验原理试题，要求考生通过建构共点力平衡模型和单摆运动模型，用已有的知\n识和规律，找到测量引力常量的新方法；又如物体在斜面上做变速运动的物理情境，要求考\n生运用功率、牛顿第二定律等概念和规律进行推理，对物体的运动性质做定性描述。\n三、重视表达方式转化，凸显物理观念考查\n用图像表述物理现象、概念和规律是物理学科的一大特色，有较多的试题都借助图像来\n创建情境，设置问题。例如通过理解v-t 图像面积的物理意义求解平均速度，又如用F-q 图\n像描述点电荷的电场强度等。\n有不少试题注重考查考生在“文字表述、数学公式、函数图像”三种表达方式之间的转\n化，指向物理概念、规律的深刻理解和灵活应用，凸显对物理观念既要知其然更要知其所以\n然的考核。例如电磁感应综合题，就需要考生在三种表达方式之间流畅转化，有效考查了运\n动与相互作用观念、能量观念。\n四、关注国家科技发展，激发民族自豪感\n试题关注国家科技成就和科学前沿的进展，将我国重大的科学技术成就作为问题情境，\n在问题解决中体现了STSE。例如“天问一号”火星探测器的运行状态与所受作用力的关系\n问题，将学科主干知识与我国的太空探索相结合。又如太空飞行器的喷气速率问题，涉及国\n际单位制的变换，而国际单位制是物理量的基础要素，有利于考生感受最新的科技前沿与学\n科基础之间的关系。再如上海科学家研发出高性能激光器的试题情境，能让考生感受到物理\n前沿就在家门口，激发对祖国的自豪感与责任感。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -470,11 +667,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p005-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p005-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b2f0a2daa53022c9-q021-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 29,
+    "answerGraphics": 8,
+    "assigned": 21,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

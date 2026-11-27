@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2012/2012湖南文.pdf",
   "name": "2012湖南文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q01",
       "content": "设集合M = {−1, 0, 1}, N = {x | x2 = x}, 则M ∩N =\n(\n)\n(A) {−1, 0, 1}\n(B) {0, 1}\n(C) {1}\n(D) {0}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q02",
       "content": "复数z = i (i + 1) (i 为虚数单位) 的共轭复数是\n(\n)\n(A) −1 −i\n(B) −1 + i\n(C) 1 −i\n(D) 1 + i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q03",
       "content": "命题“若α = π\n4 , 则tan α = 1”的逆否命题是\n(\n)\n(A) 若α̸ = π\n4 , 则tan α̸ = 1\n(B) 若α = π\n4 , 则tan α̸ = 1\n(C) 若tan α̸ = 1, 则α̸ = π\n4\n(D) 若tan α̸ = 1, 则α = π\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q04",
       "content": "某几何体的正视图和侧视图均如下图所示, 则该几何体的俯视图不可能\n是\n(\n)\n(A)\n(B)\n(C)\n(D)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q05",
       "content": "设某大学的女生体重y (单位: kg) 与身高x (单位: cm) 具有线性相关关\n系, 根据一组样本数据(xi, yi) (i = 1, 2, · · · , n), 用最小二乘法建立的回\n归方程为ˆy = 0.85x −85.71, 则下列结论中不正确的是\n(\n)\n(A) y 与x 具有正的线性相关关系\n(B) 回归直线过样本点的中心(x, y)\n(C) 若该大学某女生身高增加1 cm, 则其体重约增加0.85 kg\n(D) 若该大学某女生身高为170 cm, 则可断定其体重必为58.79 kg",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q06",
       "content": "已知双曲线C: x2\na2 −y2\nb2 = 1 的焦距为10, 点P (2, 1) 在C 的渐近线上, 则\nC 的方程为\n(\n)\n(A) x2\n20 −y2\n5 = 1 (B) x2\n5 −y2\n20 = 1 (C) x2\n80 −y2\n20 = 1 (D) x2\n20 −y2\n80 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q07",
       "content": "设a > b > 1, c < 0, 给出下列三个结论:\n①c\na > c\nb; ②ac < bc; ③logb (a −c) > loga (b −c).\n其中所有正确结论的序号是\n(\n)\n(A) ①\n(B) ①②\n(C) ②③\n(D) ①②③",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q08",
       "content": "在△ABC 中, AC =\n√\n7, BC = 2, B = 60◦, 则BC 边上的高等于\n(\n)\n(A)\n√\n3\n2\n(B) 3\n√\n3\n2\n(C)\n√\n3 +\n√\n6\n2\n(D)\n√\n3 +\n√\n39\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q09",
       "content": "设定义在R 上的函数f (x) 是最小正周期为2π 的偶函数, f ′ (x) 是f (x)\n的导函数. 当x ∈[0, π] 时, 0 < f (x) < 1; 当x ∈(0, π) 且x̸ = π\n2 时,\n(\nx −π\n2\n)\nf ′ (x) > 0, 则函数y = f (x) −sin x 在[−2π, 2π] 上的零点个数\n为\n(\n)\n(A) 2\n(B) 4\n(C) 5\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q10",
       "content": "在极坐标系中, 曲线C1: ρ\n(√\n2 cos θ + sin θ\n)\n= 1 与曲线C2: ρ = a (a > 0)\n的一个交点在极轴上, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q11",
       "content": "某制药企业为了对某种药用液体进行生物测定, 需要优选培养温度, 试验\n范围定为29◦C ∼63◦C, 精确度要求±1◦C. 用分数法进行优选时, 能保证\n找到最佳培养温度需要的最少试验次数为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q12",
       "content": "不等式x2 −5x + 6 ⩽0 的解集为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -286,22 +375,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q13",
       "content": "如图是某学校一名篮球运动员在五场比赛中所得分数的茎叶图, 则该运动\n员在这五场比赛中得分的方差为\n.\n0\n8\n9\n1\n0\n3\n5\n(注: 方差s2 = 1\nn\n[\n(x1 −x)2 + (x2 −x)2 + · · · + (xn −x)2]\n, 其中x 为x1,\nx2, · · · , xn 的平均数)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -309,22 +404,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q14",
       "content": "如果执行如图所示的程序框图, 输入x = 4.5, 则输出的数i =\n.\n开始\n输入x\ni = 1\nx = x −1\ni = i + 1\nx < 1?\n输出i\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -332,22 +437,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q014-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q014-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q014-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q15",
       "content": "如图, 在平行四边形ABCD 中, AP ⊥BD, 垂足为P, 且AP = 3, 则\n#   »\nAP · #   »\nAC =\n.\nA\nP\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -355,22 +472,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q16",
       "content": "对于n ∈N∗, 将n 表示为n = ak ×2k +ak−1×2k−1+· · ·+a1×21+a0×20,\n当i = k 时, ai = 1, 当0 ⩽i ⩽k −1 时, ai 为0 或1. 定义bn 如下: 在n\n的上述表示中, 当a0, a1, a2, · · · , ak 中等于1 的个数为奇数时, bn = 1; 否\n则bn = 0.\n(1) b2 + b4 + b6 + b8 =\n;\n(2) 记cm 为数列{bn} 中第m 个为0 的项与第m + 1 个为0 的项之间的\n项数, 则cm 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -378,22 +505,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q17",
       "content": "某超市为了解顾客的购物量及结算时间等信息, 安排一名员工随机收集了\n在该超市购物的100 位顾客的相关数据, 如下表所示.\n一次购物量\n1 至4 件\n5 至8 件\n9 至12 件\n13 至16 件\n17 件及以上\n顾客数(人)\nx\n30\n25\ny\n10\n结算时间(分钟/人)\n1\n1.5\n2\n2.5\n3\n已知这100 位顾客中一次购物量超过8 件的顾客占55%.\n(1) 确定x, y 的值, 并估计顾客一次购物的结算时间的平均值;\n(2) 求一位顾客一次购物的结算时间不超过2 分钟的概率. (将频率视为概\n率)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -401,22 +534,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q18",
       "content": "已知函数f (x) = A sin (ωx + φ)\n(\nx ∈R, ω > 0, 0 < φ < π\n2\n)\n的部分图象\n如图所示.\n(1) 求函数f (x) 的解析式;\n(2) 求函数g (x) = f\n(\nx −π\n12\n)\n−f\n(\nx + π\n12\n)\n的单调递增区间.\nx\ny\nO\n1\n5π\n12\n11π\n12\n743",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -424,22 +563,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q19",
       "content": "如图, 在四棱锥P −ABCD 中, PA ⊥平面ABCD, 底面ABCD 是等腰\n梯形, AD\nBC, AC ⊥BD.\n(1) 证明: BD ⊥PC;\n(2) 若AD = 4, BC = 2, 直线PD 与平面PAC 所成的角为30◦, 求四棱\n锥P −ABCD 的体积.\nA\nP\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -447,22 +596,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-0835b8c1f672ab00-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q20",
       "content": "某公司一下属企业从事某种高科技产品的生产. 该企业第一年年初有资金\n2000 万元, 将其投入生产, 到当年年底资金增长了50%, 预计以后每年资\n金年增长率与第一年的相同. 公司要求企业从第一年开始, 每年年底上缴\n资金d 万元, 并将剩余资金全部投入下一年生产. 设第n 年年底企业上缴\n资金后的剩余资金为an 万元.\n(1) 用d 表示a1, a2, 并写出an+1 与an 的关系式;\n(2) 若公司希望经过m (m ⩾3) 年使企业的剩余资金为4000 万元, 试确定\n企业每年上缴资金d 的值(用m 表示).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -470,22 +629,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q21",
       "content": "在直角坐标系xOy 中, 已知中心在原点, 离心率为1\n2 的椭圆E 的一个焦\n点为圆C: x2 + y2 −4x + 2 = 0 的圆心.\n(1) 求椭圆E 的方程;\n(2) 设P 是椭圆E 上一点, 过P 作两条斜率之积为1\n2 的直线l1, l2, 当直\n线l1, l2 都与圆C 相切时, 求P 的坐标.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -493,22 +658,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖南文.pdf#q22",
       "content": "已知函数f (x) = ex −ax, 其中a > 0.\n(1) 若对一切x ∈R, f (x) ⩾1 恒成立, 求a 的取值集合;\n(2) 在函数f (x) 的图象上取定两点A (x1, f (x1)), B (x2, f (x2)) (x1 < x2),\n记直线AB 的斜率为k, 证明: 存在x0 ∈(x1, x2), 使f ′ (x0) = k 成立.\n744",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -516,11 +687,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

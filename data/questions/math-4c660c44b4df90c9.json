@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
   "name": "2004全国2理(吉林,黑龙江,四川,云南,贵州)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q01",
       "content": "已知集合M = {x | x2 < 4}, N = {x | x2 −2x −3 < 0}, 则集合M ∩\nN =\n(\n)\n(A) {x | x < −2}\n(B) {x | x > 3}\n(C) {x | −1 < x < 2}\n(D) {x | 2 < x < 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q02",
       "content": "lim\nx→1\nx2 + x −2\nx2 + 4x −5 =\n(\n)\n(A) 1\n2\n(B) 1\n(C) 2\n5\n(D) 1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q03",
       "content": "设复数ω = −1\n2 +\n√\n3\n2 i, 则1 + ω =\n(\n)\n(A) −ω\n(B) ω2\n(C) −1\nω\n(D) 1\nω2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q04",
       "content": "已知圆C 与圆(x −1)2 + y2 = 1 关于直线y = −x 对称, 则圆C 的方程\n为\n(\n)\n(A) (x + 1)2 + y2 = 1\n(B) x2 + y2 = 1\n(C) x2 + (y + 1)2 = 1\n(D) x2 + (y −1)2 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q05",
       "content": "已知函数y = tan(2x + φ) 的图象过点\n( π\n12, 0\n)\n, 则φ 可以是\n(\n)\n(A) −π\n6\n(B) π\n6\n(C) −π\n12\n(D) π\n12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q06",
       "content": "函数y = −ex 的图象\n(\n)\n(A) 与y = ex 的图象关于y 轴对称\n(B) 与y = ex 的图象关于坐标原点对称\n(C) 与y = e−x 的图象关于y 轴对称\n(D) 与y = e−x 的图象关于坐标原点对称",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q07",
       "content": "已知球O 的半径为1, A、B、C 三点都在球面上, 且每两点间的球面距离\n为π\n2 , 则球心O 到平面ABC 的距离为\n(\n)\n(A) 1\n3\n(B)\n√\n3\n3\n(C) 2\n3\n(D)\n√\n6\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q08",
       "content": "在坐标平面内, 与点A(1, 2) 距离为1, 且与点B(3, 1) 距离为2 的直线共\n有\n(\n)\n(A) 1 条\n(B) 2 条\n(C) 3 条\n(D) 4 条",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q09",
       "content": "已知平面上直线L 的方向向量e =\n(\n−4\n5, 3\n5\n)\n, 点O(0, 0) 和A(1, −2) 在\nL 上的射影分别是O1 和A1, 则#        »\nO1A1 = λe, 其中λ =\n(\n)\n(A) 11\n5\n(B) −11\n5\n(C) 2\n(D) −2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q10",
       "content": "函数y = x cos x −sin x 在下面哪个区间内是增函数\n(\n)\n(A)\n(π\n2 , 3π\n2\n)\n(B) (π, 2π)\n(C)\n(3π\n2 , 5π\n2\n)\n(D) (2π, 3π)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q11",
       "content": "函数y = sin4 x + cos2 x 的最小正周期为\n(\n)\n(A) π\n4\n(B) π\n2\n(C) π\n(D) 2π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q12",
       "content": "在由数字1, 2, 3, 4, 5 组成的所有没有重复数字的5 位数中, 大于23145\n且小于43521 的数共有\n(\n)\n(A) 56 个\n(B) 57 个\n(C) 58 个\n(D) 60 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q13",
       "content": "从装有3 个红球, 2 个白球的袋中随机取出2 个球, 设其中有ξ 个红球, 则\n随机变量ξ 的概率分布为:\nξ\n0\n1\n2\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q14",
       "content": "设x, y 满足约束条件\n\n\n\n\n\n\n\nx ⩾0,\nx ⩾y,\n2x −y ⩽1,\n则z = 3x + 2y 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q15",
       "content": "设中心在原点的椭圆与双曲线2x2 −2y2 = 1 有公共的焦点, 且它们的离心\n率互为倒数, 则该椭圆的方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q16",
       "content": "下面是关于四棱柱的四个命题:\n①若有两个侧面垂直于底面, 则该四棱柱为直四棱柱;\n②若两个过相对侧棱的截面都垂直于底面, 则该四棱柱为直四棱柱;\n③若四个侧面两两全等, 则该四棱柱为直四棱柱;\n④若四棱柱的四条对角线两两相等, 则该四棱柱为直四棱柱.\n其中, 真命题的编号是\n. (写出所有真命题的编号)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q17",
       "content": "已知锐角三角形ABC 中, sin(A + B) = 3\n5, sin(A −B) = 1\n5.\n(1) 求证: tan A = 2 tan B;\n(2) 设AB = 3, 求AB 边上的高.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q18",
       "content": "已知8 支球队中有3 支弱队, 以抽签方式将这8 支球队分为A、B 两组,\n每组4 支. 求:\n(1) A、B 两组中有一组恰有两支弱队的概率;\n(2) A 组中至少有两支弱队的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q19",
       "content": "数列{an} 的前n 项和记为Sn, 已知a1 = 1, an+1 = n + 2\nn\nSn (n =\n1, 2, 3, · · · ). 证明:\n(1) 数列\n{Sn\nn\n}\n是等比数列;\n(2) Sn+1 = 4an.\n186",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q20",
       "content": "如图, 直三棱柱ABC −A1B1C1 中, ∠ACB = 90◦, AC = 1, CB =\n√\n2, 侧\n棱AA1 = 1, 侧面AA1B1B 的两条对角线交点为D, B1C1 的中点为M.\n(1) 求证: CD ⊥平面BDM;\n(2) 求面B1BD 与面CBD 所成二面角的大小.\nA\nB\nC\nD\nM\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +595,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4c660c44b4df90c9-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4c660c44b4df90c9-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q21",
       "content": "给定抛物线C: y2 = 4x, F 是C 的焦点, 过点F 的直线l 与C 相交于A、\nB 两点.\n(1) 设l 的斜率为1, 求#   »\nOA 与#    »\nOB 夹角的大小;\n(2) 设#    »\nFB = λ#   »\nAF, 若λ ∈[4, 9], 求l 在y 轴上截距的变化范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf#q22",
       "content": "已知函数f(x) = ln(1 + x) −x, g(x) = x ln x.\n(1) 求函数f(x) 的最大值;\n(2) 设0 < a < b, 证明: 0 < g(a) + g(b) −2g\n(a + b\n2\n)\n< (b −a) ln 2.\n187",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +657,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国2理(吉林,黑龙江,四川,云南,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

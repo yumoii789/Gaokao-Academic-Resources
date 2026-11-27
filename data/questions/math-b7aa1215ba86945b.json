@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1959/1959.pdf",
   "name": "1959",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 5,
+    "answerBlocks": 6,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 3,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1959/1959.pdf#q01",
-      "content": "(1)已知lg2=0.3010,lg7=0.8451,求lg35.\n(注)lg 是以10 为底的对数的符号.\n( )\n(\n)\n2\n1\n1\n3\n化简\n．\n−\n+\ni\ni",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "(1)已知lg2=0.3010,lg7=0.8451,求lg35.\n(注)lg 是以10 为底的对数的符号.\n( )\n(\n)\n2\n1\n1\n3\n化简\n．\n−\n+\ni\ni\n(3)解不等式:2x2+5x<3.\n(4 求cos165°的值.\n(5)一直圆台上底的面积为25π平方厘米,下底的直径为20 厘米,\n母线长为10 厘米.求这直圆台的侧面积.\n(6)有三条不在同一平面内的平行线a、b 和c.在线a 上取一固定\n线段AB,在线c、b 上各任取一点C 和D.求证:不论C 和D 取在c、b 的什么\n位置上,四面体ABCD 的体积总是不变的.",
+      "answer": "．\n(1)lg35 = lg10\n7\n2\n= lg10 + lg7 - lg2\n= 1+ 0.8451- 0.3010\n= 1.5441\n×",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1959,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1959/1959.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1959/1959.pdf#q02",
-      "content": "解不等式:2x2+5x<3.\n(4 求cos165°的值.",
+      "content": "三个数成等差数列,前两个数的和的三倍等于第三个数的二倍;如\n果第二个数减去2(仍当作第二项),三个数就成等比数列.求原来的三个数.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1- i)\n(1- i)\n3\n3\n解法一：\n．\n解法二：\n1\n1\n2\n1\n4\n6\n4\n2\n1\n4\n6\n4\n1\n2\n2\n1\n1\n3\n3\n1\n1\n3\n3\n1\n2\n2\n1\n2\n4\n2\n3\n4\n2\n3\n+\n=\n−\n=\n−\n+\n−\n+\n=\n−\n−\n+\n+\n= −\n+\n=\n−\n+\n−\n+\n=\n−\n−\n+\n+\n= −−\n+\n= −\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\n(\n)",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1959,
       "subject": "数学",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1959/1959.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1959/1959.pdf#q03",
-      "content": "一直圆台上底的面积为25π平方厘米,下底的直径为20 厘米,\n母线长为10 厘米.求这直圆台的侧面积.",
+      "content": "设有△\n，已知∠\n°，\n边长为\n面积为\n．求\n及\n两边之长．\nABC\nB = 60\nAC\n4,\nAB\nBC\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\n2x2+5x<3,\n移项,得\n2x2+5x-3<0,\n(2x-1)(x+3)<0.\n因为两个数的积是负数,必须并且只须这两个数中一个是正数,一个\n是负数,所以从这个不等式可以得出下面两个不等式组:\n2x\n1\n0\n2x\n1\n0\n−\n>\n+\n<\n\n\n\n−\n<\n+\n>\n\n\n\n，\n；\n，\n．\nx\nx\n3\n0\n3\n0\n第一个不等式组没有解第二个不等式组的解是\n所以原不等式的解是\n．\n,\n,\n−\n<\n<\n−\n<\n<\n3\n1\n2\n3\n1\n2\nx\nx\n解法二:\n2x2+5x<3,\n移项,得\n2x2+5x-3<0,\n不等式两边都乘以-1,得\n-2x2-5x+3>0\n△=(-5)2-4·(-2)·3>0,\n二次三项式\n的根是\n和\n．\n当\n的时候，\n和\n异号．\n−\n−\n−\n−\n−\n−\n−\n2x\n5x + 3\n3\n3 < x < 1\n2\n2x\n5x + 3\n2\n2\n2\n1\n2\n因此，原不等式的解是\n．\n−\n<\n<\n3\n1\n2\nx",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1959,
       "subject": "数学",
@@ -79,22 +100,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1959/1959.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1959/1959.pdf#q04",
-      "content": "有三条不在同一平面内的平行线a、b 和c.在线a 上取一固定\n线段AB,在线c、b 上各任取一点C 和D.求证:不论C 和D 取在c、b 的什么\n位置上,四面体ABCD 的体积总是不变的.\n二、三个数成等差数列,前两个数的和的三倍等于第三个数的二倍;如\n果第二个数减去2(仍当作第二项),三个数就成等比数列.求原来的三个数.\n三、设有△\n，已知∠\n°，\n边长为\n面积为\n．求\n及\n两边之长．\nABC\nB = 60\nAC\n4,\nAB\nBC\n3\n四、A、B、C 是直线L 上三点,P 是这直线外一点.已知AB=BC=a,\n∠APB=90°,∠BPC=45°.试求:(1)∠PBA 的正弦、余弦、正切;(2)线段PB\n的长;(3)P 点到直线L 的距离.\n五、延长圆O 的两弦AB、CD 交于圆外一点E,过E 点作DA 的平行线交\nCB 的延长线于点F,自F 点作圆O 的切线FG.求证FG=FE.",
+      "content": "A、B、C 是直线L 上三点,P 是这直线外一点.已知AB=BC=a,\n∠APB=90°,∠BPC=45°.试求:(1)∠PBA 的正弦、余弦、正切;(2)线段PB\n的长;(3)P 点到直线L 的距离.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "cos165\n= cos(180\n15\n)\n=\ncos15\n=\ncos(45\n30\n)\n=\n(cos45 cos30 +sin45 sin30 )\n=\n=\n2 2\n解法一：\n°\n－\n°\n－\n°\n－\n°－\n°\n－\n－\n·\n·\n－\n．\n°\n°\n°\n°\n°\n+\n+\n= −\n+\n(\n)\n1\n2\n3\n2\n1\n2\n1\n2\n3\n1\n6\n2\n4\n解法二：\n°－\n°\n－\n°\n－\n－\n－\n－\n．\ncos165 = cos(180\n15\n)\n=\ncos15\n=\n=\n=\n°\n°\n+\n°\n+\n=\n+\ncos\ncos\n30\n2\n1\n30\n2\n1\n3\n2\n2\n6\n2\n4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1959,
       "subject": "数学",
@@ -102,11 +127,52 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1959/1959.pdf",
         "page": 1,
-        "questionNumber": 6,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "math:普通高考/1959/1959.pdf#q05",
+      "content": "延长圆O 的两弦AB、CD 交于圆外一点E,过E 点作DA 的平行线交\nCB 的延长线于点F,自F 点作圆O 的切线FG.求证FG=FE.",
+      "answer": "圆台侧面积S=πL(R+r),其中L 为母线,r、R 分别为上,下底的半径.\n上底面积=πr2=25π\n∴r=5(厘米)\n下底半径R=20/2(厘米)=10(厘米)\n母线l=10(厘米)\n∴\n这圆台侧面积\nS=πL(R+r)\n=π·10·(10+5)\n=150π(厘米2)",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1959,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1959/1959.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 4,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 2,
+    "missingFigureRefs": 0
+  }
 }

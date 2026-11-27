@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2017/2017上海.pdf",
   "name": "2017上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 11,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 20,
+    "sourceAnswers": 18,
+    "sourceAnalysis": 4,
+    "reviewCount": 17,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q01",
-      "content": "试卷满分100 分，考试时间60 分钟。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "试卷满分100 分，考试时间60 分钟。\n2．本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。\n3．答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q02",
-      "content": "本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。",
+      "content": "由放射性元素放出的氦核流被称为（    ）\n（A）阴极射线\n（B）α 射线\n（C）β 射线\n（D）γ 射线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q03",
-      "content": "答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "光子的能量与其（    ）\n（A）频率成正比\n（B）波长成正比\n（C）速度成正比\n（D）速度平方成正比",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q04",
-      "content": "由放射性元素放出的氦核流被称为（    ）\n（A）阴极射线\n（B）α 射线\n（C）β 射线\n（D）γ 射线",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在同位素氢、氘，氚的核内具有相同的（    ）\n（A）核子数\n（B）电子数\n（C）中子数\n（D）质子数",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -102,68 +131,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q05",
-      "content": "光子的能量与其（    ）\n（A）频率成正比\n（B）波长成正比\n（C）速度成正比\n（D）速度平方成正比",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 1,
-        "questionNumber": 2,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q06",
-      "content": "在同位素氢、氘，氚的核内具有相同的（    ）\n（A）核子数\n（B）电子数\n（C）中子数\n（D）质子数",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 1,
-        "questionNumber": 3,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q07",
       "content": "用单色光照射位于竖直平面内的肥皂液薄膜，所观察到的干涉条纹为（    ）\nA\nB\nC\nD",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -171,22 +160,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q005-p001-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q08",
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q06",
       "content": "如图，在匀强电场中，悬线一端固定于地面，另一端拉住一个带电小球，\n使之处于静止状态。忽略空气阻力，当悬线断裂后，小球将做（    ）\n（A）曲线运动\n（B）匀速直线运动\n（C）匀加速直线运动\n（D）变加速直线运动",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -194,22 +197,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q07",
+      "content": "一碗水置于火车车厢内的水平桌面上。当火车向右做匀减速运动时，水面形状接近于图\n（    ）",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q08",
+      "content": "从大型加速器射出的电子束总能量约为 1GeV = 1.6×10−10 J），此能量最接近（    ）\n（A）一只爬行的蜗牛的动能\n（B）一个奔跑的孩子的动能\n（C）一辆行驶的轿车的动能\n（D）一架飞行的客机的动能",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q09",
-      "content": "一碗水置于火车车厢内的水平桌面上。当火车向右做匀减速运动时，水面形状接近于图\n（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一个密闭容器由固定导热板分隔为体积相同的两部分，分别装有质量不等的同种气体。\n当两部分气体稳定后，它们的（    ）\n（A）密度相同\n（B）分子数相同\n（C）分子平均速率相同\n（D）分子间平均距离相同",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -217,22 +292,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 2,
-        "questionNumber": 6,
+        "endPage": 2,
+        "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q10",
-      "content": "从大型加速器射出的电子束总能量约为 1GeV = 1.6×10−10 J），此能量最接近（    ）\n（A）一只爬行的蜗牛的动能\n（B）一个奔跑的孩子的动能\n（C）一辆行驶的轿车的动能\n（D）一架飞行的客机的动能",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "将四个定值电阻 a、b、c、d 分别接入电路，测得相应的电流、电压\n值如图所示。其中阻值最接近的两个电阻是（    ）\n（A）a 和 b\n（B）b 和 d\n（C）a 和 c\n（D）c 和 d",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -240,22 +321,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 2,
-        "questionNumber": 7,
+        "endPage": 2,
+        "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q010-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q11",
-      "content": "一个密闭容器由固定导热板分隔为体积相同的两部分，分别装有质量不等的同种气体。\n当两部分气体稳定后，它们的（    ）\n（A）密度相同\n（B）分子数相同\n（C）分子平均速率相同\n（D）分子间平均距离相同",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "做简谐运动的单摆，其摆长不变，若摆球的质量增加为原来的 9\n4 倍，摆球经过平衡位\n置的速度减为原来的 2\n3 ，则单摆振动的（    ）\n（A）周期不变，振幅不变\n（B）周期不变，振幅变小\n（C）周期改变，振幅不变\n（D）周期改变，振幅变大",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -263,68 +354,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 2,
-        "questionNumber": 8,
+        "endPage": 2,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q12",
-      "content": "将四个定值电阻 a、b、c、d 分别接入电路，测得相应的电流、电压\n值如图所示。其中阻值最接近的两个电阻是（    ）\n（A）a 和 b\n（B）b 和 d\n（C）a 和 c\n（D）c 和 d",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 2,
-        "questionNumber": 9,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q13",
-      "content": "做简谐运动的单摆，其摆长不变，若摆球的质量增加为原来的 9\n4 倍，摆球经过平衡位\n置的速度减为原来的 2\n3 ，则单摆振动的（    ）\n（A）周期不变，振幅不变\n（B）周期不变，振幅变小\n（C）周期改变，振幅不变\n（D）周期改变，振幅变大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 2,
-        "questionNumber": 10,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q14",
       "content": "如图，一导体棒 ab 静止在 U 型铁芯的两臂之\n间。电键闭合后导体棒受到的安培力方向（    ）\n（A）向上\n（B）向下\n（C）向左\n（D）向右\nA\nv\nv\nv\nv\nB\nC\nD\na\nb\nd\nc\nI\nO\nU\nb\na",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -332,22 +383,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q012-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q012-p002-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q15",
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q13",
       "content": "如图，竖直放置的 U 形管内装有水银，左端开口，右端封闭一定量的气体，\n底部有一阀门。开始时阀门关闭，左管的水银面较高。现打开阀门，流出一些水\n银后关闭阀门。当重新平衡时（    ）\n（A）左管的水银面与右管等高\n（B）左管的水银面比右管的高\n（C）左管的水银面比右管的低\n（D）水银面高度关系无法判断",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -355,22 +416,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q013-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q013-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q14",
+      "content": "静电场中某电场线如图所示。把点电荷从电场中的 A 点移\n到 B 点，其电势能增加 1.2×10−7 J，则该点电荷带_____电（选\n填：“正”或“负”）；在此过程中电场力做功为_______J。",
+      "answer": "负 −1.2×10−7",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017上海.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q014-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q014-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q15",
+      "content": "机械波产生和传播的条件是：①存在一个做振动的波源，②在波源周围存在_________；\n机械波传播的是_____________和__________________。",
+      "answer": "介质\n运动形式\n能量（或信息）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017上海.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q16",
-      "content": "静电场中某电场线如图所示。把点电荷从电场中的 A 点移\n到 B 点，其电势能增加 1.2×10−7 J，则该点电荷带_____电（选\n填：“正”或“负”）；在此过程中电场力做功为_______J。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "物体以25 m/s 的初速度做竖直上抛运动，经过______s 到达最高点，它在第三秒内的位\n移为_______m。（g 取 10 m/s2）",
+      "answer": "2.5 0",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -378,22 +511,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 3,
-        "questionNumber": 13,
+        "endPage": 3,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q17",
-      "content": "机械波产生和传播的条件是：①存在一个做振动的波源，②在波源周围存在_________；\n机械波传播的是_____________和__________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，气缸固定于水平面，用截面积为 20 cm2 的活塞封闭一定量的气\n体，活塞与缸壁间摩擦不计。当大气压强为 1.0×105 Pa、气体温度为 87℃ 时，\n活塞在大小为 40 N、方向向左的力 F 作用下保持静止，气体压强为_____Pa。\n若保持活塞不动，将气体温度降至 27℃，则 F 变为______N。",
+      "answer": "1.2×105 0",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -401,22 +540,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 3,
-        "questionNumber": 14,
+        "endPage": 3,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q017-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q017-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q18",
-      "content": "物体以25 m/s 的初速度做竖直上抛运动，经过______s 到达最高点，它在第三秒内的位\n移为_______m。（g 取 10 m/s2）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，光滑固定斜面的倾角为30°，A、B 两物体的质量之比\n为 4∶1。B 用不可伸长的轻绳分别与 A 和地面相连，开始时\nA、B 离地高度相同。在 C 处剪断轻绳，当 B 落地前瞬间，A、\nB 的速度大小之比为_______，机械能之比为_________（以地面\n为零势能面）。\n三、综合题（共40 分）\n注意：第19、20 题在列式计算、逻辑推理以及回答问题过程中，要求给出必要的图示、文\n字说明、公式、演算等。",
+      "answer": "1∶2\n4∶1\n16．",
+      "analysis": "（1）对活塞进行受力分析，有：p1S = F＋p0S，解得p1 = p0＋F\nS  = 1.0×105＋\n40\n20×10-4  = 1.2×105 Pa；\n（2）活塞不动，气体体积不变，由查理定律：p1\nT1  = p2\nT2 ，1.2×105\n360\n  = p2\n300，解得p2 = 1.0×105\nPa。\n对活塞进行受力分析，有：p2S = Fʹ＋p0S，解得Fʹ = 0。\n三、综合题（共40 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -424,22 +573,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 3,
-        "questionNumber": 15,
+        "endPage": 3,
+        "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q018-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q19",
-      "content": "如图，气缸固定于水平面，用截面积为 20 cm2 的活塞封闭一定量的气\n体，活塞与缸壁间摩擦不计。当大气压强为 1.0×105 Pa、气体温度为 87℃ 时，\n活塞在大小为 40 N、方向向左的力 F 作用下保持静止，气体压强为_____Pa。\n若保持活塞不动，将气体温度降至 27℃，则 F 变为______N。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "“用 DIS 测定电源的电动势和内阻”的实验电路如图（a）\n所示，其中定值电阻阻值 R1 = 1 Ω。\n（1）图（a）中 A 为____传感器，定值电阻 R1 在实验中起\n_____的作用；\n（2）实验测得的路端电压 U 相应电流I 的拟合曲线如图（b）\n所示，由此得到电源电动势 E = _______V，内阻 r = ______Ω；\nA\nB\nR1\nS\nR\n（a）\nE,r\nA\nB\n30°\nC\nA\nB\nF\n（3）实验测得的数据如表所示，则实验中选用的滑动变阻器最合理的\n阻值范围为（    ）\nA．0 ~ 5 Ω\nB．0 ~ 20 Ω\nC．0 ~ 50 Ω\nD．0 ~ 200 Ω",
+      "answer": "（本题共10 分）\n（1）（各1 分）电流 保护电路\n（2）（各2 分）1.50 0.28\n（3）（4 分）B",
+      "analysis": "由表格第 1 行数据可知，此实验外电阻最大调节到了 1.48\n0.106 ≈ 14 Ω，因此应选用\n0 ~ 20 Ω 的滑动变阻器，而滑动变阻器阻值太大会使实验调节不便，所以 C、D 选项错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -447,68 +604,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 3,
-        "questionNumber": 16,
+        "endPage": 4,
+        "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q019-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q019-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q019-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2017/2017上海.pdf#q20",
-      "content": "如图，光滑固定斜面的倾角为30°，A、B 两物体的质量之比\n为 4∶1。B 用不可伸长的轻绳分别与 A 和地面相连，开始时\nA、B 离地高度相同。在 C 处剪断轻绳，当 B 落地前瞬间，A、\nB 的速度大小之比为_______，机械能之比为_________（以地面\n为零势能面）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 3,
-        "questionNumber": 17,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q21",
-      "content": "“用 DIS 测定电源的电动势和内阻”的实验电路如图（a）\n所示，其中定值电阻阻值 R1 = 1 Ω。\n（1）图（a）中 A 为____传感器，定值电阻 R1 在实验中起\n_____的作用；\n（2）实验测得的路端电压 U 相应电流I 的拟合曲线如图（b）\n所示，由此得到电源电动势 E = _______V，内阻 r = ______Ω；\nA\nB\nR1\nS\nR\n（a）\nE,r\nA\nB\n30°\nC\nA\nB\nF\n（3）实验测得的数据如表所示，则实验中选用的滑动变阻器最合理的\n阻值范围为（    ）\nA．0 ~ 5 Ω\nB．0 ~ 20 Ω\nC．0 ~ 50 Ω\nD．0 ~ 200 Ω",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 3,
-        "questionNumber": 18,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q22",
       "content": "（14 分）如图，与水平面夹角 θ = 37° 的斜面\n和半径 R = 0.4 m 的光滑圆轨道相切于 B 点，且固\n定于竖直平面内。滑块从斜面上的 A 点由静止释\n放，经 B 点后沿圆轨道运动，通过最高点 C 时轨\n道对滑块的弹力为零。已知滑块与斜面间动摩擦因\n数μ = 0.25。（g 取 10 m/s2，sin37° = 0.6，cos37° =\n0.8）求：\n（1）滑块在 C 点的速度大小 vC；\n（2）滑块在 B 点的速度大小 vB；\n（3）A、B 两点间的高度差 h。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（本题共14 分）\n解：\n（1）（3 分）由题意，在C 处滑块仅在重力作用下做圆周运动。设滑块质量为m，由牛顿\n第二定律\nmg = mvC2\nR\n得\nvC =\ngR  = 2m/s\n（2）（4 分）由几何关系，B、C 间高度差H 为\nH = R（1 + cos37°） = 0.72 m\n滑块由B 到C 的运动过程中仅重力做功，机械能守恒\n以B 为势能零点\n1\n2 mvB2 = mgH + 1\n2 mvC2\nvB =\n2gH＋vC2\n代入已知数据得\nvB = 4.29 m/s\n（3）（7 分）滑块由A 到B 过程中受力如图\n由牛顿定律\nmgsin37° − f = ma\nN = mgcos37°\nf = μN\n解得\na = g（sin37° − μcos37°）\n代入已知数据得\na = 4 m/s2\n设A、B 间距为L，由匀加速运动公式\nvB2 = 2aL\n及几何关系\nh = Lsin37°\n得\nh = vB2\n2a sin37° = 1.38 m\n19 题评分\n评分等级\n描述\nA（14 分）\n从基本原理出发，说明清晰，推理合乎逻辑，演算准确。\nB（10-13 分）\n有些未从基本原理出发，或说明推理不够理想，或部分演算有误。……。\nC（5-9 分）\n约一半左右没有做出。或尽管做出大部分但解题思路混乱，……\nD（1-4 分）\n做出一小部分，或只写出零星的一些公式与答案，……\nE（0 分）\n没有一点合理，或没做。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -516,22 +636,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q020-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q020-p004-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q23",
-      "content": "（16 分）如图，光滑平行金属导轨间距为 L，与水\n平面夹角为 θ，两导轨上端用阻值为 R 的电阻相连，该\n装置处于磁感应强度为B 的匀强磁场中，磁场方向垂直\n于导轨平面。质量为 m 的金属杆 ab 以沿导轨平面向\n上的初速度 v0 从导轨底端开始运动，然后又返回到出\n发位置。在运动过程中，ab 与导轨垂直且接触良好，不\n计 ab 和导轨的电阻及空气阻力。\n（1）求 ab 开始运动时的加速度 a；\n（2）分析并说明 ab 在整个运动过程中速度、加速度的变化情况；\n（3）分析并比较 ab 上滑时间和下滑时间的长短。\nU/V\nI/A\n1.48\n0.106\n1.44\n0.202\n1.39\n0.411\n1.34\n0.561\n1.23\n0.948\n0\nU/V\nI/A\n1.50\n1.40\n1.30\n1.20\n0.25\n0.50\n0.75\n1.00\n（b）\nA\nC\nB\nR\nh\n37°\nB\nL\nR\nv0\nθ\na\nb\n2017 年上海市普通高中学业水平等级性考试\n物理 试卷\n答案要点及评分标准",
+      "questionId": "physics:普通高考/2017/2017上海.pdf#q21",
+      "content": "（16 分）如图，光滑平行金属导轨间距为 L，与水\n平面夹角为 θ，两导轨上端用阻值为 R 的电阻相连，该\n装置处于磁感应强度为B 的匀强磁场中，磁场方向垂直\n于导轨平面。质量为 m 的金属杆 ab 以沿导轨平面向\n上的初速度 v0 从导轨底端开始运动，然后又返回到出\n发位置。在运动过程中，ab 与导轨垂直且接触良好，不\n计 ab 和导轨的电阻及空气阻力。\n（1）求 ab 开始运动时的加速度 a；\n（2）分析并说明 ab 在整个运动过程中速度、加速度的变化情况；\n（3）分析并比较 ab 上滑时间和下滑时间的长短。\nU/V\nI/A\n1.48\n0.106\n1.44\n0.202\n1.39\n0.411\n1.34\n0.561\n1.23\n0.948\n0\nU/V\nI/A\n1.50\n1.40\n1.30\n1.20\n0.25\n0.50\n0.75\n1.00\n（b）\nA\nC\nB\nR\nh\n37°\nB\nL\nR\nv0\nθ\na\nb\n2017 年上海市普通高中学业水平等级性考试\n物理 试卷",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（本题共16 分）\n解：\n（1）（5 分）ab 开始运动时产生的感应电动势\nE = BLv0\n回路中的感应电流\nI = E\nR\n杆所受安培力\nFA = BIL = B2L2v0\nR\n杆受力如图，由牛顿定律\nmgsinθ + FA = ma\n得\na = gsinθ + B2L2v0\nmR\n（2）（7 分）分析如下：\n杆上滑时：合力F = mgsinθ + FA，与运动方向相反，杆减速；随着速度减小，FA 减小，\n合力减小，加速度减小；因此杆做加速度减小的减速运动，到达一定高度后速度为零。\n在最高点：杆的速度为零，加速度为gsinθ，方向沿斜面向下。\n杆下滑时：合力 F = mgsinθ − FA，与运动方向相同，杆加速；随着速度增加，FA 增大，\n合力减小，加速度减小；因此杆做初速为零、加速度减小的加速运动。\n（3）（4 分）分析如下：\n上滑和下滑过程经过的位移大小相等。而上滑时杆加速度大于 gsinθ，下滑时杆加速度\n小于 gsinθ，因此上升时的平均加速度大于下降时的平均加速度，由运动学规律可知，上滑\n所需时间小于下滑所需时间。\n20 题评分\n评分等级\n描述\nN\nmg\nFA\nθ\nN\nmg\nf\n37°\nA（16 分）\n从基本原理出发，说明清晰，推理合乎逻辑，演算准确。\nB（11-15 分）\n有些未从基本原理出发，或说明推理不够理想，或部分演算有误。……。\nC（6-10 分）\n约一半左右没有做出。或尽管做出大部分但解题思路混乱，……\nD（1-5 分）\n做出一小部分，或只写出零星的一些公式与答案，……\nE（0 分）\n没有一点合理，或没做。\n覆盖面广 计算量较小 考查基础知识和学科能力\n——2017 年上海市普通高中学业水平等级性考试物理卷评析\n今年物理等级性考试命题严格按照教学基本要求所规定的教学内容和教学目标，根据基\n本要求所规定的不同知识点的学习水平组织试题，重点考查学生对基本知识、方法的掌握和\n理解，并对学生的思维、表达的逻辑性提出了一定要求。\n物理卷共设20 题，由单选题、填空题和综合题组成，客观题和主观题的比例分别占40%\n和60%。从试卷内容来看，“力学”部分约占45%、“电磁学”部分约占32%、“热学”部\n分约占11%、“光学、原子物理学”部分约占12%，知识覆盖《上海市高中物理学科教学基\n本要求》中所列的除“宇宙”部分外的全部知识主题。整卷计算量较小，但需要一定的文字\n表达能力。\n从试题设计来看，力图体现与科学技术、社会、生活等主题的结合，凸现教材体现的教\n学思想、教学理念和教学方法，注意知识与技能、过程与方法、情感态度价值观的三维教学\n目标在试题中的渗透；强调联系实际、结合生活，一些题目涉及的概念、图像与学生在生活\n实际中所接触到的常用物体、情景相近或有关，在考查学生分析、解决问题能力的同时，引\n导学生关注生活实际。\n从考查角度来看，物理卷呈现以下特点：\n第一，注重对高中物理基本概念的考查，突出物理学习应重视对基本概念、基本规律的\n掌握和理解的要求，引导学生关注课本上的基本内容。\n第二，加强了对学科思维能力的考查，如根据物理原理进行分析、判断、推理的能力，\n根据图象进行分析、判断、推理的能力，对物理过程中的多种可能进行严密、全面的讨论和\n分析，并正确判断结果的能力。\n第三，加强了对物理过程的分析和表达能力的考查。部分试题注重对物理过程的分析和\n表达能力的考查，强调物理学习应更多地关注分析物理过程、物理原理，而不是机械地记忆\n某些结论，体现高考改革的正面导向。\n第四，加强了物理实验能力以及基本技能的考查。实验题的设计旨在考查学生观察现象、\n实际操作、利用图线获得实验结果等基本实验技能。引导学生在平时的学习中关注实验器材、\n注重实际操作和亲身参与，理解实验的意义。体现了对理论与实验结合的能力与问题解决能\n力的考查。\n等级考意义\n⚫\n引导课堂教学回归学科教育内涵，强调学科基本概念、基本技能的落实，关注学生\n批判性思维和逻辑思维能力以及获取信息能力的培养，摒弃“死记硬背”和“题海\n战术”。\n⚫\n不仅要关注基础知识，更要关注知识之间的联系，要建立知识框架与知识体系，不\n要孤立地去背、记，要在理解与运用的基础上加以学习。\n⚫\n引导学生关注生活中的学科现象，运用学科知识去分析其背后的学科原理与规律，\n活学活用。\n⚫\n立足学科核心素养的培养，提高学生学科能力。\n命题理念\n⚫\n重视基础知识，着重考查对现象、概念、规律等的认识理解。\n⚫\n关注学生运动数学、语言、图像等工具，有逻辑地推理、演算、陈述。\n⚫\n注重考查学生逻辑思维能力，科学的思考方法以及实验能力与综合运用能力。\n⚫\n从价值导向看，要立足学科核心素养的培养，提升学生学科能力和思维品质。\n⚫\n引导教学回归课标、教材，回到物理学习的本源，为学生将来发展打下扎实的基础。\n测量目标\n能力目标\n试题分值\n基础知识与基本技能\n30\n物理思维能力\n35\n物理实验能力\n21\n知识应用能力\n14\n知识内容\n内容领域\n试题分值\n文件精神\n力学\n45\n45\n电磁学\n32\n32\n热学\n11\n10\n原子物理、光学、宇宙\n12\n13\n与学习水平一致性\n一致性\n分值\n低于\n18\n一致\n82\n描述统计\n全卷\n客观题\n主观题\n人数\n19494\n19494\n19494\n题满分\n100\n40\n60\n均分\n75.93\n31.84\n44.09\n通过率\n0.759\n0.796\n0.735\n标准差\n16.39\n6.09\n11.79\n全距\n93\n37\n60\n最低分\n7\n3\n0\n最高分\n100\n40\n60\n人数 = f(得分)\n43 分，4.98%；96 分，94.92%\n各类学校描述统计\n统计人数\n均分\n标准差\n最低分\n最高分\n全距\n市示范性\n10757\n83.146\n11.3434\n23.5\n100\n76.5\n区示范性\n5833\n69.445\n15.5525\n10.0\n100\n90.0\n一般高中\n1167\n58.474\n18.3003\n7.0\n97\n90.0\n民办高中\n492\n57.075\n18.7140\n8.0\n98.5\n90.5\n大题难度、区分度\n题满分\n平均分\n通过率\n标准差\n区分度\n单选题\n40\n31.84\n0.796\n6.095\n0.839\n填空题\n20\n15.47\n0.774\n3.727\n0.823\n综合题\n40\n28.62\n0.716\n8.865\n0.929\n总结结论\n⚫\n试卷具有较高的可信度。\n⚫\n试卷结构符合预设要求。\n⚫\n试题测量目标分布符合预设要求。\n⚫\n试题内容领域分布符合预设要求。\n⚫\n非常简单的试题题量适度，没有非常难的试题。\n专家评论\n⚫\n在考试的内容上，与课程标准要求保持一致。符合《2014 年课程标准调整意见》和\n教学基本要求。\n⚫\n试题整体难度适中，介于原高考和合格考之间。\n⚫\n试题特别注重基本概念、基本知识、基本规律得应用，特别强调学生的物理逻辑在\n解决问题中的表述。如1、2、3、4、9 等题，其中第9 题利用U-I 图像考查学生对\n电阻概念的理解，形式较为新颖，但知识要求很基本。这样的考查方式很难用题海\n战术解决，对培养学生的创新能力和实践能力很有好处，也对物理教学起到了良好\n的导向作用。\n⚫\n试题既注重考查学生对物理思维能力，又注重考查学生对物理知识在实际问题的运\n用能力。如12、17、19、20 等题，其中第20 题利用导轨创设情境设置多个物理过\n程，考查学生的理解能力、分析能力和表达能力，有效地考查了学生的逻辑思维能\n力。如6、7 等题，体现了“生活处处是物理”的理念，其中第7 题让学生将电子\n的能量跟蜗牛、人、汽车、飞机、奔跑的孩子的动能相比较，考查了学生的生活常\n识和能量观念。\n⚫\n考试强调了学生对物理过程的分析、规律得选择、合理的逻辑表达，这对老师在教\n学中更重视物理原理等有很好的导向作用，对学生的学习也有很好的指导作用。\n2017 命题基本思路（命题组长上海交大高景教授）\n基本想法\n1、按照课程标准组织试题\n考试要和教学要求相符合：本张试卷符合80%，低于20%\n一个观点：教学内容的削减、教学难度的调整并不意味着降低教学要求。\n2、重点考查基本内容及对其内涵、外延的理解\n（1）更加关注对于基本概念的理解和掌握。\n第2 题：光子的能量与哪个量成正比？频率、波长、速度、速度平方，难度0.843，低\n于预估。\n第4 题：肥皂膜干涉图像，难度0.826，选条纹竖直方向排列的占11.4%。\n（2）更加关注应用概念、规律的能力。\n第9 题：四个电阻U-I 图像，阻值最接近的两个。难度0.933，超过预估。\n第17 题，预估难度0.75，实测0.514。\n第6 题：置于火车中的一碗水，当火车匀减速时的水面形状。难度0.83，符合预估。\n第7 题：电子束能量的估测。难度0.947，高于预估。\n第18 题：测电源电动势和内阻。难度0.88，高于预估。\n3、关注对物理图像、物理过程的构建、分析能力\n第19 题：斜面有摩擦，在最高点C 弹力为零。\n19\n19_1\n19_2\n19_3\n预估难度\n0.65\n0.80\n0.70\n0.55\n实测难度\n0.71\n0.69\n0.63\n0.76\n4、强调能够用科学的语言逻辑清晰地描述问题\n第20 题：预估难度0.55，实测约0.62。\n希望对高考改革形势下的物理教学有一定的引导\n⚫\n重视基础，回归教材。\n⚫\n注重认知过程，关注问题的物理本质，知道规律的形成过程。\n⚫\n学会用科学的语言，规范地描述物理过程，合乎逻辑地推理并形成正确的结论。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -539,425 +667,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q24",
-      "content": "B",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q021-p004-f01.jpg"
       ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 1,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q25",
-      "content": "A",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 2,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q26",
-      "content": "D",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 3,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q27",
-      "content": "B",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 4,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q28",
-      "content": "C",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 5,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q29",
-      "content": "A",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 6,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q30",
-      "content": "A",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 7,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q31",
-      "content": "C",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 8,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q32",
-      "content": "A",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 9,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q33",
-      "content": "B",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 10,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q34",
-      "content": "D",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 11,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q35",
-      "content": "D",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 12,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q36",
-      "content": "负 −1.2×10−7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 13,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q37",
-      "content": "介质\n运动形式\n能量（或信息）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 14,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q38",
-      "content": "2.5 0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 15,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q39",
-      "content": "1.2×105 0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 16,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q40",
-      "content": "1∶2\n4∶1\n16．【解析】（1）对活塞进行受力分析，有：p1S = F＋p0S，解得p1 = p0＋F\nS  = 1.0×105＋\n40\n20×10-4  = 1.2×105 Pa；\n（2）活塞不动，气体体积不变，由查理定律：p1\nT1  = p2\nT2 ，1.2×105\n360\n  = p2\n300，解得p2 = 1.0×105\nPa。\n对活塞进行受力分析，有：p2S = Fʹ＋p0S，解得Fʹ = 0。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 17,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2017/2017上海.pdf#q41",
-      "content": "（本题共10 分）\n（1）（各1 分）电流 保护电路\n（2）（各2 分）1.50 0.28\n（3）（4 分）B",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2017,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2017/2017上海.pdf",
-        "page": 5,
-        "questionNumber": 18,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5bbfb4ced5389cce-q021-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 2,
+    "assigned": 17,
+    "rendered": 17,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

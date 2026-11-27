@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
   "name": "2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q01",
       "content": "1 + 2i\n1 −2i =\n(\n)\n(A) −4\n5 −3\n5i\n(B) −4\n5 + 3\n5i\n(C) −3\n5 −4\n5i\n(D) −3\n5 + 4\n5i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q02",
       "content": "已知集合A = {(x, y) | x2 + y2 ⩽3, x ∈Z, y ∈Z}, 则A 中元素的个数\n为\n(\n)\n(A) 9\n(B) 8\n(C) 5\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q03",
       "content": "函数f (x) = ex −e−x\nx2\n的图象大致为\n(\n)\n(A)\nx\n1\n1\ny\nO\n(B)\nx\n1\n1\ny\nO\n(C)\nx\n1\n1\ny\nO\n(D)\nx\n1\n1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q04",
       "content": "已知向量a, b 满足|a| = 1, a · b = −1, 则a · (2a −b) =\n(\n)\n(A) 4\n(B) 3\n(C) 2\n(D) 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q05",
       "content": "双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的离心率为\n√\n3, 则其渐近线方程为(\n)\n(A) y = ±\n√\n2x\n(B) y = ±\n√\n3x\n(C) y = ±\n√\n2\n2 x\n(D) y = ±\n√\n3\n2 x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q06",
       "content": "在△ABC 中, cos C\n2 =\n√\n5\n5 , BC = 1, AC = 5, 则AB =\n(\n)\n(A) 4\n√\n2\n(B)\n√\n30\n(C)\n√\n29\n(D) 2\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q07",
       "content": "为计算S = 1 −1\n2 + 1\n3 −1\n4 + · · · + 1\n99 −\n1\n100, 设计了如图的程序框图, 则\n在空白框中应填入\n(\n)\n开始\nN = 0, T = 0\ni = 1\ni < 100\nN = N + 1\ni\nS = N −T\n输出S\nT = T +\n1\ni + 1\n结束\n是\n否\n(A) i = i + 1\n(B) i = i + 2\n(C) i = i + 3\n(D) i = i + 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +218,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q08",
       "content": "我国数学家陈景润在哥德巴赫猜想的研究中取得了世界领先的成果. 哥德\n巴赫猜想是“每个大于2 的偶数可以表示为两个素数的和”, 如30 = 7 + 23.\n在不超过30 的素数中, 随机选取两个不同的数, 其和等于30 的概率是(\n)\n(A) 1\n12\n(B) 1\n14\n(C) 1\n15\n(D) 1\n18",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +251,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q008-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q008-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q09",
       "content": "在长方体ABCD −A1B1C1D1 中, AB = BC = 1, AA1 =\n√\n3, 则异面直\n线AD1 与DB1 所成角的余弦值为\n(\n)\n(A) 1\n5\n(B)\n√\n5\n6\n(C)\n√\n5\n5\n(D)\n√\n2\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +285,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q10",
       "content": "若f (x) = cos x −sin x 在[−a, a] 是减函数, 则a 的最大值是\n(\n)\n(A) π\n4\n(B) π\n2\n(C) 3π\n4\n(D) π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +318,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q11",
       "content": "已知f (x) 是定义域为(−∞, +∞) 的奇函数, 满足f (1 −x) = f (1 + x).\n若f (1) = 2, 则f (1) + f (2) + f (3) + · · · + f (50) =\n(\n)\n(A) −50\n(B) 0\n(C) 2\n(D) 50",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +351,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q12",
       "content": "已知F1, F2 是椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的左, 右焦点, A 是C\n的左顶点, 点P 在过A 且斜率为\n√\n3\n6\n的直线上, △PF1F2 为等腰三角形,\n∠F1F2P = 120◦, 则C 的离心率为\n(\n)\n(A) 2\n3\n(B) 1\n2\n(C) 1\n3\n(D) 1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +385,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q13",
       "content": "曲线y = 2 ln (x + 1) 在点(0, 0) 处的切线方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +414,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q14",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + 2y −5 ⩾0,\nx −2y + 3 ⩾0,\nx −5 ⩽0,\n则z = x + y 的最大值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +443,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q15",
       "content": "已知sin α + cos β = 1, cos α + sin β = 0, 则sin (α + β) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +472,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q16",
       "content": "已知圆锥的顶点为S, 母线SA, SB 所成角的余弦值为7\n8, SA 与圆锥底面\n所成角为45◦, 若△SAB 的面积为5\n√\n15, 则该圆锥的侧面积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +501,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q17",
       "content": "记Sn 为等差数列{an} 的前n 项和, 已知a1 = −7, S3 = −15.\n(1) 求{an} 的通项公式;\n(2) 求Sn, 并求Sn 的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +530,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q18",
       "content": "如图是某地区2000 年至2016 年环境基础设施投资额y (单位: 亿元) 的折\n线图. 为了预测该地区2018 年的环境基础设施投资额, 建立了y 与时间变\n量t 的两个线性回归模型. 根据2000 年至2016 年的数据(时间变量t 的值\n依次为1, 2, · · · , 17) 建立模型①: ˆy = −30.4 + 13.5t; 根据2010 年至2016\n年的数据(时间变量t 的值依次为1, 2, · · · , 7) 建立模型②: ˆy = 99+17.5t.\n(1) 分别利用这两个模型, 求该地区2018 年的环境基础设施投资额的预测\n值;\n(2) 你认为用哪个模型得到的预测值更可靠? 并说明理由.\n11 19 25 35 37 42 42 47 53 56\n122129\n148\n171\n184\n209220\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n年份\n投资额\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n220\n240\n0\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n1071",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +559,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q19",
       "content": "设抛物线C: y2 = 4x 的焦点为F, 过F 且斜率为k (k > 0) 的直线l 与\nC 交于A, B 两点, |AB| = 8.\n(1) 求l 的方程;\n(2) 求过点A, B 且与C 的准线相切的圆的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +593,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q20",
       "content": "如图, 在三棱锥P −ABC 中, AB = BC = 2\n√\n2, PA = PB = PC =\nAC = 4, O 为AC 的中点.\n(1) 证明: PO ⊥平面ABC;\n(2) 若点M 在棱BC 上, 且二面角M −PA −C 为30◦, 求PC 与平面\nPAM 所成角的正弦值.\nA\nP\nM\nB\nC\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,22 +622,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1eda14ed820ca320-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q21",
       "content": "已知函数f (x) = ex −ax2.\n(1) 若a = 1, 证明: 当x ⩾0 时, f (x) ⩾1;\n(2) 若f (x) 在(0, +∞) 只有一个零点, 求a.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -493,22 +655,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q22",
       "content": "在直角坐标系xOy 中, 曲线C 的参数方程为\n{\nx = 2 cos θ,\ny = 4 sin θ,\n(θ 为参数), 直\n线l 的参数方程为\n{\nx = 1 + t cos α,\ny = 2 + t, sin α\n(t 为参数).\n(1) 求C 和l 的直角坐标方程;\n(2) 若曲线C 截直线l 所得线段的中点坐标为(1, 2), 求l 的斜率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -516,22 +684,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf#q23",
       "content": "设函数f (x) = 5 −|x + a| −|x −2|.\n(1) 当a = 1 时, 求不等式f (x) ⩾0 的解集;\n(2) 若f (x) ⩽1, 求a 的取值范围.\n1072",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -539,11 +713,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁,海南.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

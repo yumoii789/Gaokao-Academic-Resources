@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2010/2010浙江理.pdf",
   "name": "2010浙江理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q01",
       "content": "设P = {x | x < 4}, Q = {x | x2 < 4}, 则\n(\n)\n(A) P ⊆Q\n(B) Q ⊆P\n(C) P ⊆∁RQ\n(D) Q ⊆∁RP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q02",
       "content": "某程序框图如图所示, 若输出的S = 57, 则判断框内为\n(\n)\n开始\nS = 1, k = 1\nk = k + 1\nS = 2S + k\n输出S\n结束\n是\n否\n(A) k > 4?\n(B) k > 5?\n(C) k > 6?\n(D) k > 7?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q03",
       "content": "设Sn 为等比数列{an} 的前n 项和, 8a2 + a5 = 0, 则S5\nS2\n=\n(\n)\n(A) 11\n(B) 5\n(C) −8\n(D) −11",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q04",
       "content": "设0 < x < π\n2 , 则“xsin2x < 1”是“x sin x < 1”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q05",
       "content": "对任意复数z = x+yi (x, y ∈R), i 为虚数单位, 则下列结论正确的是(\n)\n(A) |z −z| = 2y\n(B) z2 = x2 + y2\n(C) |z −z| ⩾2x\n(D) |z| ⩽|x| + |y|",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q06",
       "content": "设l, m 是两条不同的直线, α 是一个平面, 则下列命题正确的是\n(\n)\n(A) 若l ⊥m, m ⊂α, 则l ⊥α\n(B) 若l ⊥α, l\nm, 则m ⊥α\n(C) 若l\nα, m ⊂α, 则l\nm\n(D) 若l\nα, m\nα, 则l\nm",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q07",
       "content": "若实数x, y 满足不等式组\n\n\n\n\n\n\n\nx + 3y −3 ⩾0,\n2x −y −3 ⩽0,\nx −my + 1 ⩾0,\n且x + y 的最大值为9, 则\n实数m =\n(\n)\n(A) −2\n(B) −1\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q08",
       "content": "设F1、F2 分别为双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的左、右焦点. 若在\n双曲线右支上存在点P, 满足|PF2| = |F1F2|, 且F2 到直线PF1 的距离\n等于双曲线的实轴长, 则该双曲线的渐近线方程为\n(\n)\n(A) 3x ± 4y = 0\n(B) 3x ± 5y = 0\n(C) 4x ± 3y = 0\n(D) 5x ± 4y = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q09",
       "content": "设函数f (x) = 4 sin (2x + 1) −x, 则在下列区间中函数f (x) 不存在零点\n的是\n(\n)\n(A) [−4, −2]\n(B) [−2, 0]\n(C) [0, 2]\n(D) [2, 4]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q10",
       "content": "设函数的集合P =\n{\nf (x) = log2 (x + a) + b | a = −1\n2, 0, 1\n2, 1; b = −1, 0, 1\n}\n,\n平面上点的集合Q =\n{\n(x, y) | x = −1\n2, 0, 1\n2, 1; y = −1, 0, 1\n}\n, 则在同一直\n角坐标系中, P 中函数f (x) 的图象恰好经过Q 中两个点的函数的个数\n是\n(\n)\n(A) 4\n(B) 6\n(C) 8\n(D) 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q11",
       "content": "函数f (x) = sin\n(\n2x −π\n4\n)\n−2\n√\n2sin2x 的最小正周期是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q12",
       "content": "若某几何体的三视图\n(单位:\ncm)\n如图所示,\n则此几何体的体积\n是\ncm3.\n俯视图\n正视图\n侧视图\n2\n2\n3\n4\n2\n2\n4\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -286,22 +371,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q13",
       "content": "设抛物线y2 = 2px (p > 0) 的焦点为F, 点A (0, 2). 若线段FA 的中点B\n在抛物线上, 则B 到该抛物线准线的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q14",
       "content": "设n ⩾2, n ∈N,\n(\n2x + 1\n2\n)n\n−\n(\n3x + 1\n3\n)n\n= a0 +a1x+a2x2 +· · ·+anxn,\n将|ak| (0 ⩽k ⩽n) 的最小值记为Tn, 则T2 = 0, T3 = 1\n23 −1\n33 , T4 = 0,\nT5 = 1\n25 −1\n35 , · · · , Tn, · · · , 其中Tn =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q15",
       "content": "设a1, d 为实数, 首项为a1, 公差为d 的等差数列{an} 的前n 项和为Sn,\n满足S5S6 + 15 = 0, 则d 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q16",
       "content": "已知平面向量α, β (α̸ = 0, α̸ = β) 满足|β| = 1, 且α 与β −α 的夹角\n为120◦, 则|α| 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -378,22 +491,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q17",
       "content": "有4 位同学在同一天的上、下午参加“身高与体重”、“立定跳远”、“肺活\n量”、“握力”、“台阶”五个项目的测试, 每位同学上、下午各测试一个项目, 且\n不重复, 若上午不测“握力”项目, 下午不测“台阶”, 其余项目上、下午都各测\n试一人, 则不同的安排方式共有种\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -401,22 +520,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q18",
       "content": "在△ABC 中, 角A、B、C 所对的边分别为a、b、c, 已知cos 2C = −1\n4.\n(1) 求sin C 的值;\n(2) 当a = 2, 2 sin A = sin C 时, 求b 及c 的长.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -424,22 +549,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q19",
       "content": "如图, 一个小球从M 处投入, 通过管道自上而下落到A 或B 或C. 已知\n小球从每个叉口落入左右两个管道的可能性是相等的. 某商家按上述投球\n方式进行促销活动, 若投入的小球落到A、B、C, 则分别设为1、2、3 等\n奖.\n(1) 已知获得1, 2, 3 等奖的折扣率分别为50%、70%、90%. 记随机变量ξ\n为获得k (k = 1, 2, 3) 等奖的折扣率, 求随机变量ξ 的分布列及期望Eξ;\n(2) 若有3 人次(投入1 球为1 人次) 参加促销活动, 记随机变量η 为获得\n1 等奖或2 等奖的人次, 求P (η = 2).\nM\nA\nB\nC\n•\n639",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -447,22 +578,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q20",
       "content": "如图, 在矩形ABCD 中, 点E, F 分别在线段AB、AD 上, AE = EB =\nAF = 2\n3FD = 4. 沿直线EF 将△AEF 翻折成△A′EF, 使平面A′EF ⊥\n平面BEF.\n(1) 求二面角A′ −FD −C 的余弦值;\n(2) 点M, N 分别在线段FD、BC 上, 若沿直线MN 将四边形MNCD\n向上翻折, 使C 与A′ 重合, 求线段FM 的长.\nD\nM\nF\nA\nB\nN\nC\nE\nA′",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -470,22 +611,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q21",
       "content": "已知m > 1, 直线l: x −my −m2\n2\n= 0, 椭圆C: x2\nm2 + y2 = 1, F1, F2 分\n别为椭圆C 的左、右焦点.\n(1) 当直线l 过右焦点F2 时, 求直线l 的方程;\n(2) 设直线l 与椭圆C 交于A, B 两点, △AF1F2, △BF1F2 的重心分别为\nG, H. 若原点O 在以线段GH 为直径的圆内, 求实数m 的取值范围.\nx\ny\nO\nA\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -493,22 +644,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010浙江理.pdf#q22",
       "content": "已知a 是给定的实常数, 设函数f (x) = (x −a)2 (x + b) ex, b ∈R, x = a\n是f (x) 的一个极大值点.\n(1) 求b 的取值范围;\n(2) 设x1, x2, x3 是f (x) 的3 个极值点, 问是否存在实数b, 可找\n到x4 ∈R, 使得x1, x2, x3, x4 的某种排列xi1, xi2, xi3, xi4 (其中\n{i1, i2, i3, i4} = {1, 2, 3, 4}) 依次成等差数列?\n若存在, 求所有的b\n及相应的x4; 若不存在, 说明理由.\n640",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -516,11 +673,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-d9ae4572e0b34bb6-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

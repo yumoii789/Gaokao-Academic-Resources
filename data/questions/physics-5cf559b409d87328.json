@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/1960/1960.pdf",
   "name": "1960",
   "track": "standard",
@@ -15,52 +16,323 @@
   "textPages": 0,
   "ocrPages": 5,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 10,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/1960/1960.pdf#q01",
-      "content": "可 变 电 容 器 和 线 圈 组 成 的 线 路 起 测 谐 作 用 -",
+      "content": "12.5 吨 重 的 电 车 , 在 水 平 道 路 上 由 静 止 开 始 运 动 , 经 过 30 秒 钟 速 度 达 到 6 米 / 秒 , 把 电 车 的\n运 动 当 作 匀 加 途 运 动 , 设 阻 力 等 于 车 重 的 0. 02, 求 电 车 的 牵 引 力 -\n答 案 : C12 分 )",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1960,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1960/1960.pdf",
-        "page": 4,
+        "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
-        "confidence": 92,
-        "needsReview": true
+        "confidence": 89,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1960/1960.pdf#q02",
-      "content": "矿 石 起 检 波 作 用\n评 分 标 准 : 全 题 8 分 : 线 路 图 4 分 . 回 答 4 分 .\n线 路 图 中 , 未 正 确 画 出 谐 振 线 路 或 未 申 出 矿 石 的 , 不 给 分 ; 未 画 出 天 地 线 的 , 扣 2\n分 : 未 画 出 听 筒 的 , 扣 2 分 : 电 容 器 中 未 申 出 可 变 符 号 亦 未 注 朋 其 电 容 是 可 变 的 .\n30\n扣 1 分 .\n线 路 图 与 “ 答 案 “ 不 一 样 , 只 要 能 谐 振 、 检 波 和 收 听 的 , 同 样 给 分 .\n回 答 中 未 说 明 谐 振 线 路 的 作 用 或 矿 石 的 作 用 , 各 扣 2 分 .\n线 路 图 和 回 答 中 超 出 “ 答 案 “ 的 部 分 , 无 论 正 确 与 否 , 均 不 影 响 评 分 -\n九 、 凡 是 能 近 似 地 测 出 < 和 的 实 验 , 都 算 正 确 答 案 - *\n评 分 标 准 : 全 题 12 分 ; 线 路 图 和 标 明 器 材 名 称 4 分 , 实 验 步 骤 5 分 , 最 后 计 算 式 3 分 .\n在 线 路 图 中 , 未 画 电 键 、 未 标 明 导 线 的 , 均 不 扣 分 ; 但 从 线 路 图 中 看 出 电 路 的 接 法\n会 损 坏 仪 器 的 , 例 如 安 培 计 短 路 等 , 全 题 不 给 分 .\n未 绘 线 路 图 , 未 写 实 验 步 骤 , 只 写 出 计 算 公 式 的 , 即 使 运 算 正 确 , 也 全 题 不 给 分 .\n绘 出 线 路 图 , 未 写 实 验 步 骤 , 写 出 计 算 公 式 的 , 即 使 运 算 正 确 , 也 只 评 线 路 图 部\n分 的 分 数\n实 验 步 骤 的 叙 述 完 整 , 基 本 正 确 , 给 5 分 ; 其 中 如 包 含 不 必 要 的 步 骤 和 测 量 不 必 要\n的 数 据 , 均 不 扣 分 ; 步 骤 不 完 整 ( 例 如 没 有 测 出 全 部 必 要 数 据 ) 的 , 扣 3 分 .\n计 算 部 分 如 已 正 确 写 出 原 始 方 程 并 指 出 求 < 和 r 的 途 径 , 虽 未 算 出 最 后 表 达 式 ,\n亦 不 扣 分 -\n如 果 只 答 出 用 伏 特 计 直 接 测 出 <, 给 3 分 .\n十 、(1) 约 1. 2 欧 姆 ;\n(2)190 伏 特 ;\n(3)19 十 瓦 ;\n(4) 约 4. 5 眺 重 .\n评 分 标 准 : 全 题 15 分 ;(1)4 分 ,(2)4 分 ,(3)3 分 ,(4)4 分 .\n每 小 题 中 的 单 位 错 误 , 各 扣 1 分 ; 单 纯 运 算 错 误 , 各 扣 1 分 ; 但 因 前 面 算 错 而 影 响\n后 面 计 算 结 果 时 , 不 重 复 扣 分 .\n31",
+      "content": "设 人 造 地 球 卫 星 离 地 心 的 距 离 为 以 地 心 为 圆 心 作 匀 速 圆 周 运 动 , 已 知 地 球 的 质 量 M 和 万\n有 引 力 恒 量 广 求 证 人 造 地 球 卫 星 的 线 速 度 b=A/ -\n答 案 : (6 分 )",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1960,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1960/1960.pdf",
-        "page": 4,
+        "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "ocr",
-        "confidence": 92,
-        "needsReview": true
+        "confidence": 89,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q03",
+      "content": "用 焦 距 是 5 厘 米 的 放 大 镜 观 察 物 体 . 为 了 使 所 成 的 虚 像 距 放 大 镜 25 厘 米 , 物 体 应 放 在 什 么\n地 方 ? 画 出 成 像 的 光 路 图 -\n答 案 : 04M",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "ocr",
+        "confidence": 89,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q04",
+      "content": "在 下 列 四 题 中 任 意 选 作 三 题 :( 如 四 题 都 作 , 必 须 划 去 一 题 ; 否 则 , 按 (1)、(2)、(3) 题 给 分 . )\nCD) 单 色 光 从 空 气 进 人 水 中 , 它 的 波 长 \\ 频 率 和 传 播 速 度 , 什 么 改 变 ? 什 么 保 持 不 变 ?\n答 案 : i\n(2) 把 红 外 线 . 伦 琴 射 线 . 无 线 电 波 \\ 紫 外 线 和 可 见 光 线 , 掉 照 频 率 由 大 到 小 的 次 序 排 列 出 来 .\n答 案 :\n(3) 下 图 是 用 来 开 动 或 停 止 电 动 机 的 光 控 替 续 器 的 示 意 图 。 试 简 要 说 明 其 工 作 原 理 .\n8 5 | 接\nN Ho t 尘\n[\nJr Q 2 do 一 o 一 i\n答 案 : i\n( 已 知 氢 原 子 的 核 外 电 子 在 第 二 条 轨 道 上 运 动 时 的 能 量 是 :, 在 第 三 条 轨 道 上 运 动 时 的\n能 量 是 &, 普 朗 克 恒 量 是 . 试 求 氧 的 核 外 电 子 从 第 三 条 轨 道 既 人 第 二 条 轨 道 时 所 发 出\n的 光 的 频 率 .\n答 案 : 国 〈9 分 )",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 4,
+        "extraction": "ocr",
+        "confidence": 89,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q05",
+      "content": "试 简 要 回 答 下 列 问 题 :\n(1) 原 子 堆 中 为 什 么 要 用 石 墨 和 镇 棒 ?\n等 栗\n27\n(2) 什 么 叫 做 热 核 反 应 ?\n箭 案 8 介 》",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "ocr",
+        "confidence": 89,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q06",
+      "content": "用 效 率 为 80 么 的 锅 炉 来 生 产 过 热 蒸 汽 . 送 人 锅 炉 的 水 的 温 度 是 100 C , 所 产 生 的 过 热 蒸 汽 的\n温 度 是 290C- 水 的 比 热 取 1 卡 / 克 . 度 , 在 这 个 锅 炉 中 水 的 沸 点 是 190 C , 汽 化 热 是 480\n卡 / 克 , 过 热 燃 汽 的 比 热 取 0.5 卡 / 克 , 度 , 问 每 生 产 560 千 克 过 热 蒸 汽 要 消 耗 多 少 煤 , 〔 煤\n的 燃 烧 值 是 7000 千 卡 / 千 克 )\n答 案 : (10 分 )",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "ocr",
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q07",
+      "content": "在 下 列 二 题 中 任 意 选 作 一 题 : ( 如 二 题 都 作 ) 必 须 划 去 一 题 ; 否 则 , 按 (1) 题 给 分 .\n() 有 一 个 气 焊 用 的 氧 气 简 , 容 积 为 100 升 、 在 温 度 为 15C 时 , 简 上 压 强 计 所 指 出 的 压 强 是\n96 大 气 压 , 求 简 里 氧 气 的 质 量 , ( 在 标 准 状 况 时 每 升 氧 气 的 质 量 是 1. 43 克 )-\n(2) 长 江 大 桥 的 钢 梁 一 端 固 定 , 另 一 端 是 自 由 的 。 这 是 为 什 么 ?\n如 果 在 一 10C 时 把 两 端 都 固 定 起 来 , 当 温 度 升 高 到 40.C 时 , 钢 梁 所 承 担 的 胁 强 是 多 少 ?\n( 钥 的 线 胀 系 数 为 12X10-1/ 度 , 弹 性 模 量 为 2. 0X10* 千 克 重 /[ 毫 米 ])-\n答 案 : (10 分 )",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "ocr",
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q08",
+      "content": "绘 出 矿 石 收 音 机 的 线 路 图 , 并 指 出 各 主 要 部 分 的 作 用 .\n答 案 : C8 分 )",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 8,
+        "extraction": "ocr",
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q09",
+      "content": "如 何 测 定 干 电 池 的 电 动 势 和 内 电 阻 ? 在 回 答 中 应 绘 出 线 路 图 , 标 明 图 中 各 部 分 器 材 的 名 称 ,\n简 要 说 明 实 验 步 骤 , 并 写 出 最 后 计 算 式 -\n答 案 : E C12 分 )",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 9,
+        "extraction": "ocr",
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1960/1960.pdf#q10",
+      "content": "一 个 直 流 电 动 机 的 输 人 电 压 是 220 伏 特 , 电 枢 的 电 阻 是 0. 3 欧 姆 正 常 运 转 时 , 通 过 电 枢 的\n电 流 强 度 是 100 安 培 , 问 :\n(1) 如 果 起 动 时 通 过 电 枢 的 电 流 强 度 不 能 超 过 150 安 培 , 应 使 用 多 大 的 起 动 电 阻 ?\n(2) 正 常 运 转 时 电 动 机 的 反 电 动 势 是 多 少 ?\n(3) 正 常 运 转 时 电 动 机 的 输 出 功 率 是 多 少 ?\n(4) 用 这 台 电 动 机 来 带 动 效 率 为 70% 的 起 重 机 , 以 0. 3 米 / 秒 的 速 度 匀 速 地 提 起 货 物 , 能 提 起\n的 重 量 是 多 少 ?\n答 案 : (1) , (2) ,\n3) , 4) . (154)\n1960 年 答 案\n一 、 约 5000 牛 顿 -\n评 分 标 准 : 全 题 12 分 ; 加 速 度 4 分 , 牵 引 力 8 分 、\n计 算 加 速 度 中 单 位 错 误 , 扣 1 分 .\n28 \\\n计 算 牵 引 力 中 单 位 错 误 扣 3 分 ; 单 纯 运 算 错 误 扣 1 分 ; 只 写 出 方 程 万 一 / 一 ma,\n未 继 续 运 算 下 去 的 , 给 3 分 .\n二 、 评 分 标 准 : 全 题 6 分 .\n三 、 约 4.2 厘 米 .\nrd\na\n- 工 |\n1\nop\n评 分 标 准 : 全 题 10 分 ; 计 算 5 分 , 作 图 5 分 .\n计 算 中 像 距 符 号 错 误 , 不 给 分 ; 单 位 错 误 , 扣 1 分 ; 单 纯 运 算 错 误 , 扣 1 分 .\n作 图 中 虚 线 部 分 画 成 实 线 , 不 扣 分 ; 光 路 中 完 全 未 画 箭 头 , 扣 1 分 .\n四 、(1) 频 率 不 变 , 波 长 和 传 播 速 度 改 变 -\n〈2) 伦 琴 射 线 、 紫 外 线 . 可 见 光 线 . 红 外 线 . 无 线 电 波\n(3a. 当 光 照 射 光 电 管 时 , 产 生 电 流 , 这 个 电 流 经 过 放 大 器 放 大 后 使 电 磁 铁 M 磁 化 ,M 吸 引\n衔 铁 N, 从 而 断 开 电 动 机 电 路 -\nb. 当 光 停 止 照 射 时 , 电 碟 铁 失 去 磁 性 , 弹 簧 使 电 动 机 的 电 路 接 通\npu 心\n评 分 标 准 : 全 题 9 分 , 每 小 题 3 分 .",
+      "answer": "暂无结构化答案",
+      "analysis": "(1) 频 率 \\ 波 长 和 传 播 速 度 中 答 错 一 个 , 全 不 给 分 .\n1 〈2) 任 何 一 个 的 次 序 排 错 , 全 不 给 分 ; 如 果 掉 频 率 从 小 到 大 的 顺 序 排 列 而 未 加 说 明\n的 , 抹 2 分 .\n〈3) 只 答 出 “ 答 案 “ 中 的 a 部 分 , 给 全 分 ; 在 产 生 电 流 . 经 过 放 大 、 电 磁 铁 的 磁 化 三 者\n中 , 每 少 答 一 个 , 就 扣 1 分 ; 超 出 “ 答 案 “ 的 回 答 , 无 论 正 确 与 否 , 均 不 影 响 评 分 .\n〈4 回 答 与 「 答 案 “ 不 符 的 , 不 给 分 .\n五 、(1) 石 墨 用 来 作 中 子 的 减 速 剂 . -\n镇 棒 用 来 吸 收 中 子 , 以 控 制 反 应 快 慢\n(2) 在 温 度 足 够 高 时 , 轻 原 子 核 具 有 足 够 的 动 能 来 克 服 原 子 核 间 电 的 斥 力 , 于 是 发 生 聚 变 - 这\n种 反 应 叫 做 热 核 反 应 .\n评 分 标 准 : 全 题 8 分 , 每 一 小 题 4 分 .\n(1) 石 墨 \\ 镇 棒 各 2 分 .\n只 答 石 墨 作 减 速 剂 , 未 说 明 是 作 中 子 的 减 速 剂 , 扣 1 分 .\n只 答 铸 棒 吸 收 中 子 , 未 答 用 来 控 制 反 应 快 慢 , 扣 1 分 ; 只 答 镯 棒 用 来 控 制 反 应\n29\n快 慢 , 未 答 服 收 中 子 , 扣 1 分 .\n〈2) 未 答 温 度 足 够 高 的 , 扣 2 分 : 未 答 轻 原 子 核 发 生 聚 变 或 只 答 原 子 核 发 生 聚 变\n的 , 扣 2 分 .\n超 出 “ 答 案 “ 的 回 答 , 无 论 正 确 与 否 , 均 不 影 响 评 分 .\n六 、 62 十 克 -\n评 分 标 准 : 全 题 10 分 .\n漪 算 水 吸 收 的 热 , 汽 化 热 , 蒸 汽 吸 收 的 热 三 者 中 的 任 何 一 项 , 扣 5 分 ; 效 率 乘 除 用\n错 , 扣 3 分 ; 这 两 者 都 错 , 全 题 不 给 分 .\n单 位 错 误 , 扣 1 分 ; 单 纯 运 算 错 误 , 扣 1 分 .\n七 、(1) 约 13 千 克 .\n评 分 标 准 : 全 题 10 分 .\n只 算 出 氧 气 在 标 准 状 况 下 的 体 积 或 题 设 状 况 下 的 密 度 , 给 6 分 .\n未 用 绝 对 温 度 来 计 算 而 造 成 错 误 , 扣 2 分 .\n单 纯 运 算 错 误 , 扣 1 分 ; 单 位 错 误 , 扣 1 分 .\n(2)a. 为 了 避 免 由 于 钢 梁 的 热 胀 冷 缩 而 产 生 有 害 的 胁 强 -\nb. 12 十 克 重 /[ 毫 米 :.\n评 分 标 准 : 全 题 10 分 ;a- 2 分 ,b. 8 分 .\n在 a 的 回 答 中 , 把 * 有 害 的 胁 强 “ 答 成 “ 破 坏 性 的 胁 强 “, 把 “ 胁 强 “ 答 成 “ 应 力 “.“ 压\n强 “ 等 , 只 要 意 思 正 确 , 均 不 扣 分 ; 超 出 “ 答 案 “ 的 回 答 , 无 论 正 确 与 否 , 均 不 影 响 评 分\n在 b 的 回 答 中 , 如 只 能 利 用 热 膨 胀 计 算 出 学 , 给 3 分 ; 如 写 出 学 一 志 名 , 给 分 i\n温 度 变 化 弄 错 , 扣 2 分 ; 单 纯 运 算 错 误 , 扣 1 分 ; 单 位 错 误 , 扣 1 分 .\n八 、\nTa\n1. 可 变 电 容 器 和 线 圈 组 成 的 线 路 起 测 谐 作 用 -\n2. 矿 石 起 检 波 作 用\n评 分 标 准 : 全 题 8 分 : 线 路 图 4 分 . 回 答 4 分 .\n线 路 图 中 , 未 正 确 画 出 谐 振 线 路 或 未 申 出 矿 石 的 , 不 给 分 ; 未 画 出 天 地 线 的 , 扣 2\n分 : 未 画 出 听 筒 的 , 扣 2 分 : 电 容 器 中 未 申 出 可 变 符 号 亦 未 注 朋 其 电 容 是 可 变 的 .\n30\n扣 1 分 .\n线 路 图 与 “ 答 案 “ 不 一 样 , 只 要 能 谐 振 、 检 波 和 收 听 的 , 同 样 给 分 .\n回 答 中 未 说 明 谐 振 线 路 的 作 用 或 矿 石 的 作 用 , 各 扣 2 分 .\n线 路 图 和 回 答 中 超 出 “ 答 案 “ 的 部 分 , 无 论 正 确 与 否 , 均 不 影 响 评 分 -\n九 、 凡 是 能 近 似 地 测 出 < 和 的 实 验 , 都 算 正 确 答 案 - *\n评 分 标 准 : 全 题 12 分 ; 线 路 图 和 标 明 器 材 名 称 4 分 , 实 验 步 骤 5 分 , 最 后 计 算 式 3 分 .\n在 线 路 图 中 , 未 画 电 键 、 未 标 明 导 线 的 , 均 不 扣 分 ; 但 从 线 路 图 中 看 出 电 路 的 接 法\n会 损 坏 仪 器 的 , 例 如 安 培 计 短 路 等 , 全 题 不 给 分 .\n未 绘 线 路 图 , 未 写 实 验 步 骤 , 只 写 出 计 算 公 式 的 , 即 使 运 算 正 确 , 也 全 题 不 给 分 .\n绘 出 线 路 图 , 未 写 实 验 步 骤 , 写 出 计 算 公 式 的 , 即 使 运 算 正 确 , 也 只 评 线 路 图 部\n分 的 分 数\n实 验 步 骤 的 叙 述 完 整 , 基 本 正 确 , 给 5 分 ; 其 中 如 包 含 不 必 要 的 步 骤 和 测 量 不 必 要\n的 数 据 , 均 不 扣 分 ; 步 骤 不 完 整 ( 例 如 没 有 测 出 全 部 必 要 数 据 ) 的 , 扣 3 分 .\n计 算 部 分 如 已 正 确 写 出 原 始 方 程 并 指 出 求 < 和 r 的 途 径 , 虽 未 算 出 最 后 表 达 式 ,\n亦 不 扣 分 -\n如 果 只 答 出 用 伏 特 计 直 接 测 出 <, 给 3 分 .\n十 、(1) 约 1. 2 欧 姆 ;\n(2)190 伏 特 ;\n(3)19 十 瓦 ;\n(4) 约 4. 5 眺 重 .\n评 分 标 准 : 全 题 15 分 ;(1)4 分 ,(2)4 分 ,(3)3 分 ,(4)4 分 .\n每 小 题 中 的 单 位 错 误 , 各 扣 1 分 ; 单 纯 运 算 错 误 , 各 扣 1 分 ; 但 因 前 面 算 错 而 影 响\n后 面 计 算 结 果 时 , 不 重 复 扣 分 .\n31",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "原卷解析"
+      ],
+      "year": 1960,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1960/1960.pdf",
+        "page": 2,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "ocr",
+        "confidence": 91,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 5,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

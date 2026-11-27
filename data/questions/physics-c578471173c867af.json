@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
   "name": "2010重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q01",
       "content": "一列简谐波在两时刻的波形如图中实线和虚线所示，由图可确定这\n列波的（     ）\n（A）周期\n（B）波速\n（C）波长\n（D）频率",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由图象可确定波的波长。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,11 +44,368 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q02",
+      "content": "给旱区送水的消防车停于水平地面，在缓慢放水过程中，若车胎不\n漏气，胎内气体温度不变，不计分子间势能，则胎内气体（    ）\n（A）从外界吸热\n（B）对外界做负功\n（C）分子平均动能减小\n（D）内能增加",
+      "answer": "暂无结构化答案",
+      "analysis": "温度是分子平均动能的标志，气体温度不变，分子平均动能不变，C 选项错误。不计分子势能，\n内能只由温度决定。气体温度不变，气体内能不变，D 选项错误。缓慢放水，胎内气膨胀对外做功，B 选\n项错误。由热力学第一定律知，从外界吸热，A 选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q03",
+      "content": "月球与地球质量之比约为1∶80，有研究者认为月球和地球可视为一个由两质点构成的双星系统，它\n们都围绕月地连线上某点O 做匀速圆周运动。据此观点，可知月球与地球绕O 点运动的线速度大小之比\n约为（    ）\n（A） 1∶6400\n（B）1∶80\n（C）80∶1\n（D）6400∶1",
+      "answer": "暂无结构化答案",
+      "analysis": "月球和地球构成的双星系统绕某点O 做匀速圆周运动，彼此间的万有引力提供向心力。由\n2\nGMm\nmv\nl\n\n=\n得\nM\n80\n1\nv\nv\nm\n=\n=\n月\n地\n月\n地\n，正确答案是C",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q04",
+      "content": "输入电压为220V，输出电压为36V 的变压器副线圆烧坏，为获知此变压器原、副线圈匝数，某同学\n拆下烧坏的副线圈，用绝缘导线在铁芯上新绕了5 匝线圈，如图所示，然后将原线圈接到220V 交流电源\n上，测得新绕线圈的端电压为1V，按理想变压器分析，该变压器烧坏前的原、副线圈匝数分别为（     ）\n0.04\ny/m\nx/m\nO\n1 2\n3 4 5 6\n0.02\n-0.02\n-0.04\n2 / 8\n（A）1100，360\n（B）1100、180\n（C）2200、180\n（D）220、360",
+      "answer": "暂无结构化答案",
+      "analysis": "根据理想变压器\n1\n1\n2\n2\nu\nn\nu\nn\n=\n，可求出变压器烧坏前的原、副线圈匝数。\n正确的答案是B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q05",
+      "content": "某电容式话筒的原理示意图如图所示，E 为电源，R 为电阻，薄片P 和\nQ 为两金属极板，对着话筒说话时，P 振动而Q 可视为不动，在P、Q 间距\n离增大过程中，（    ）\n（A）P、Q 构成的电容器的电容增大\n（B）P 上电荷量保持不变\n（C）M 点的电势比N 点的低\n（D）M 点的电势比N 点的高",
+      "answer": "暂无结构化答案",
+      "analysis": "电容器P、Q 间距增大，根据\n4\ns\nC\nkd\n\n\n=\n，C 减小，A 选项错误。电容器极板电压保持不变，根据\nQ\nC\nu\n=\n，P 上电荷量减少，电容器放电，方向为M 到N，B、C 选项错误，D 选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q06",
+      "content": "氢原子部分能级的示意图如图所示，不同色光的光子能量如下所示：\n色光光子\n能量范围\n（eV）\n红\n橙\n黄\n绿\n蓝-靛\n紫\n1.61～2.00\n2.00～2.07\n2.07～2.14\n2.14～2.53\n2.53～2.76\n2.76～3.10\n处于某激发态的氢原子，发射的光的谱线在可见光范围内仅有2 条，其颜色分别为（     ）\n（A）红、蓝、靛\n（B）黄、绿\n（C）红、紫\n（D）蓝-靛、紫",
+      "answer": "暂无结构化答案",
+      "analysis": "根据\nm\nn\nh\nE\nE\n=\n−\n，可知A 选项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q006-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q07",
+      "content": "如图所示，空气中在一折射率为\n2 的玻璃柱体，其横截面是圆心角为90°、半\n径为R 的扇形OAB，一束平行光平行于横截面，以45°入射角照射到OA 上，OB 不\n透光，若只考虑首次入射到圆弧AB 上的光，则AB 上有光透出部分的弧长为（     ）\n（A）1\n6πR\n（B）1\n4πR\n（C）1\n3πR\n（D）5\n12πR\nP Q\nM\nN\nE\nR\n绝缘固定支架\nn            E/eV\n4            -0.85\n3            -1.51\n2            -3.40\n1            -13.6\n∞            0\nA\nB\nO\n45°\n3 / 8",
+      "answer": "暂无结构化答案",
+      "analysis": "光路图如图所示，由折射定律可求得设在C 点恰好发生全反射，由\n1\nsinC\nn\n=\n可求得C = 450，∠AOC =\n0\n0\n0\n0\n180\n120\n45\n15\n−\n−\n=\n。弧AB 上有光\n透出的部分弧长CD 为\n0\n0\n0\n0\n90\n30\n15\n1\n2\n360\n4\nR\nR\n\n\n−\n−\n\n=\n，正确的答案是B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q08",
+      "content": "如图所示，矩形 MNPQ 区域内有方向垂直于纸面的匀强磁场，有 5 个带\n电粒子从图中箭头所示位置垂直于磁场边界进入磁块，在纸面内做匀速圆周运\n动，运动轨迹为相应的圆弧，这些粒子的质量，电荷量以及速度大小如下表所示：\n粒子编号\n质量\n电荷量（q > 0）\n速度大小\n1\nm\n2q\nv\n2\n2m\n2q\n2v\n3\n3m\n− 3q\n3v\n4\n2m\n2q\n3v\n5\n2m\n− q\nv\n由以上信息可知，从图中 a、b、c 处进入的粒子对应表中的编号分别为（    ）\n（A）3、5、4\n（B）4、2、5\n（C）5、3、2\n（D）2、4、5",
+      "answer": "暂无结构化答案",
+      "analysis": "根据\n2v\nqvB\nm r\n=\n得轨迹半径\nmv\nr\nBq\n=\n，结合表格中数据可求得1－5 各组粒子的半径之比依次为\n0.5︰2︰3︰3︰2，说明第一组正粒子的半径最小，该粒子从MQ 边界进入磁场逆时针运动。由图a、b 粒\n子进入磁场也是逆时针运动，则都为正电荷，而且a、b 粒子的半径比为2︰3，则a 一定是第2 组粒子，\nb 是第4 组粒子。c 顺时针运动，都为负电荷，半径与a 相等是第5 组粒子。正确答案D\n第二部分（非选择题共174 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q09",
+      "content": "（19 分）\n（1）某同学用打点计时器测量做匀加速直线运动的物体的加速度，电源频率f＝50Hz 在线带上打出的点\n中，选出零点，每隔4 个点取1 个计数点，因保存不当，纸带被污染，如图所示，A、B、C、D 是依次排\n列的4 个计数点，仅能读出其中3 个计数点到零点的距离：sA＝16.6mm，sB＝126.5mm，sD＝624.5mm。\n若无法再做实验，可由以上信息推知：\n①相邻两计数点的时间间隔为__________s；\n②打C 点时物体的速度大小为____________m/s（取2 位有效数字）；\n③物体的加速度大小为__________（用sA、sB、sC、sD 和f 表示）。",
+      "answer": "①0.1\n②2.5\nsA=16.6mm sB=126.5mm\nsD=624.5mm\nA\nB\nC\nD\na\nb\nc\nP\nQ\nM\nN\n4 / 8\n③（sD－3sB＋sA）f2\n75",
+      "analysis": "①T = 0.02×5 = 0.1s\n②\n3\n(624.5 126.5) 10\n/\n2.5\n/\n2\n2 0.1\nD\nB\nc\nS\nS\nv\nm s\nm s\nT\n−\n−\n−\n\n=\n=\n=\n\n③匀加速运动的位移特征是相邻的相等时间间隔内的位移以aT2 均匀增大，有\n2\nBC\nAB\naT\n=\n+\n，\n2\n2\n2\nCD\nBC\naT\nAB\naT\n=\n+\n=\n+\n，\n2\n2\n3\nBD\nAB\naT\n=\n+\n，所以\n2\n2\n(\n)\n2 (\n)\n(\n3\n2\n)\n3\n75\nD\nB\nB\nA\nD\nB\nA\ns\ns\ns\ns\ns\ns\ns\nf\na\nT\n−\n−\n−\n−\n+\n=\n=\n（2）在探究小灯泡的伏安特性实验中，所用器材有：灯泡L，量程恰当的电流表A 和电压表V，直流电\n源，滑动变阻器R，电键S 等，要求灯泡两端电压从0V 开始变化。\n①实验中滑动变阻器应采用____________接法（填“分压”或“限流”）\n②某同学已连接如图所示的电路，在连接最后一根导线的C 端到直接电源正极之前，请指出其中仅有的2\n个不当之处，并说明如何改正：\nA．______________________________________；\nB．______________________________________。\n③电路连接正确后，分别测得两只灯泡L1 和L2 的伏安特性曲线如图中Ⅰ和Ⅱ所示。然后将灯泡L1、L2 与\n电池组（电动势和内阻均恒定）连成图所示电路。多次测量后得到通过L1 和L2 的电流平均值分别为0.30A\n和0.60A。\nA\nV\nA\nV\nR\nS\nL\nE\nP\na\nb\nA\nL1\nL2\nS1\nS2\nU/V\nI/A\nO\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\n4.5\n5.0\n0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0\nⅠ\nⅡ\n5 / 8\nA．在图中画出电池组路端电压U 和电流I 的关系曲线。\nB．由该曲线可知电池组的电动势为_________V，内阻为_________Ω。（取2 位有效数字）\n①要求电压从0 到额定电压变化，所以滑动变阻器必须采用分压接法。\n②A 电键S 不应闭合，应处于断开状态；B 滑动变阻器滑动触头P 位置不当，应将其置于b 端。\n③描绘电源的伏安特性曲线要求外电阻变化测定对应的多组路端电压和电流，本实验中用两个小灯泡来改\n变外电阻获得两组电流值，然后在小灯泡的伏安特性曲线上查出对应的电压，用两个坐标点描绘图像。为\n描绘准确可以先进行理论计算，首先查出两坐标为（0.30A，3.8V）和（0.60A，3.0V），则内阻为\n3.8\n3.0\n2.7\n0.6\n0.3\nr\n−\n=\n=\n−\nΩ，电动势为\n3.8\n2.7\n0.3\n0\nE\nr\n−\n=\n=\n−\n，\n4.6\nE =\n V，然后作出准确图像如图。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 3,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p005-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q10",
+      "content": "（16 分）法拉第曾提出一种利用河流发电的设想，并进行了实验研\n究。实验装置的示意图可用右图表示，两块面积均为S 的矩形金属板，\n平行、正对、竖直地全部浸在河水中，间距为d。水流速度处处相同，\n大小为v，方向水平。金属板与水流方向平行。地磁场磁感应强度的竖\n直分量为B，水的电阻为ρ，水面上方有一阻值为R 的电阻通过绝缘导\n线和电键K 连接到两金属板上。忽略边缘效应，求：\n（1）该发电装置的电动势；\n（2）通过电阻R 的电流强度；\n（3）电阻R 消耗的电功率。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由法拉第电磁感应定律，有E＝Bdv，\n（2）两板间河水的电阻r＝ρd\nS\n由闭合电路欧姆定律，有\nI＝E\nr＋R＝BdvS\nρd＋RS，\n（3）由电功率公式，P＝I2R\n得P＝B2d2v2S2R\n（ρd＋RS）2，\n（1）由法拉第电磁感应定律，有E＝Bdv\n（2）两板间河水的电阻r =\nd\nS\n\nU/V\nI/A\nO\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n3.5\n4.0\n4.5\n5.0\n0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0\nⅠ\nⅡ\nd\nK\nR\nS\nB\nv\n金属板\n6 / 8\n由闭合电路欧姆定律，有\nI =\nE\nBdvS\nr\nR\nd\nSR\n\n=\n+\n+\n（3）由电功率公式，P = I2R\n得P =\n2\nBdvS\nR\nd\nSR\n\n\n\n\n\n+\n\n",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q11",
+      "content": "（18 分）小明站在水平地面上，手握不可伸长的轻绳一端，绳的另一\n端系有质量为m 的小球，甩动手腕，使球在竖直平面内做圆周运动。当球\n某次运动到最低点时，绳突然断掉，球飞行水平距离d 后落地。如图所示。\n已知握绳的手离地面高度为d，手与球之间的绳长为3\n4d，重力加速度为g。\n忽略手的运动半径和空气阻力。\n（1）求绳断时球的速度大小v1 和球落地时的速度大小v2。\n（2）向绳能承受的最大拉力多大？\n（3）改变绳长，使球重复上述运动，若绳仍在球运动到最低点时断掉，要使球抛出的水平距离最大，绳长\n应是多少？最大水平距离为多少？",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设绳断后球飞行时间为t，由平抛运动规律，有d＝v1t，1\n4d＝1\n2gt2，得v1＝2gd ，\n由机械能守恒定律，有1\n2mv22＝1\n2mv12＋1\n4mgd，得v2＝5gd/2 ，\n（2）设绳能承受的最大拉力为T，这也是球受到绳的最大拉力大小，球做圆周运动的半径R＝3\n4d，由向心\n力公式，有T－mg＝mv12\nR ，得T＝11\n3 mg，\n（3）设绳长为l，绳断时球的速度为v3，绳承受的最大拉力不变，有T－mg＝mv32\nl ，得v3＝8gl/3 ，绳\n断后球做平抛运动，时间为t1，水平位移为x，x＝v3t1，d－l＝1\n2gt12，得x＝4\nl（d－l）\n3\n ，当l＝1\n2d 时，\nx 有极大值，xmax＝2 3\n3 d，\n（1）设绳断后球飞行时间为t，由平抛运动规律，有\n竖直方向1\n4\nd = 1\n2\ngt2，水平方向d = v1t\n得  v1 =\n2gd\n由机械能守恒定律，有\n2\n2\n1\n2 mv ＝\n2\n1\n1\n2 mv +mg\n3\n4\nd\nd\n\n\n−\n\n\n\n\nd\nd\n7 / 8\n得 v2 =\n5\n2 gd\n（2）设绳子承受的最大拉力为T，这也是球受到绳的最大拉力，\n球做圆周运动的半径\n3\n4\nR\nd\n=\n由向心力公式\n2\n1v\nT\nmg\nm R\n−\n=\n11\n3\nT\nmg\n=\n（3）设绳长为l,绳断时球的速度大小为v３，绳承受的最大拉力不变，\n有\n2\n3v\nT\nmg\nm l\n−\n=\n得v3 =\n8\n3 gl\n绳断后球做平抛运动，竖直位移为d－l,水平位移为x，时间为t1，\n有d－l =\n2\n1\n1\n2 gt\nx = v3t1\n得x＝4\n(\n)\n3\nl d\nl\n−\n当l＝2\nd 时，x 有极大值  xmax＝2 3\n3\nd",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q011-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q011-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010重庆理综.pdf#q12",
+      "content": "（19 分）某兴趣小组用如图所示的装置进行实验研究。他们在水\n平桌面上固定一内径为d 的圆柱形玻璃杯，杯口上放置一直径为2\n3d，质\n量为m 的匀质薄原板，板上放一质量为2m 的小物体。板中心、物块均\n在杯的轴线上，物块与板间动摩擦因数为μ，不计板与杯口之间的摩擦\n力，重力加速度为g，不考虑板翻转。\n（1）对板施加指向圆心的水平外力F，设物块与板间最大静摩擦力为\nfmax，若物块能在板上滑动，求F 应满足的条件。\n（2）如果对板施加的指向圆心的水平外力是作用时间极短的较大冲击\n力，冲量为I，\n①I 应满足什么条件才能使物块从板上掉下？\n②物块从开始运动到掉下时的位移是s 为多少？\n③根据s 与I 的关系式说明要使s 更小，冲量应如何改变。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设圆板与物块相对静止时，它们之间的静摩擦力为Ff，共同加速度为a，由牛顿定律，有：对物块Ff\n＝2ma，对圆板F＝Ff＝ma，两物体相对静止，有Ff＜Ffmax，得F＜3\n2Ffmax，相对滑动条件F＞3\n2Ffmax，\n（2）设冲击刚结束时圆板获得的速度大小为v0，物块掉下时，圆板和物块速度大小分别为v1 和v2，由动\n量定理，有I＝mv0，由动能定理，对圆板－2mg（s＋3\n4d）＝1\n2mv12－1\n2mv02，c 对物块2μmgs＝mv22，由动\n3\n2 d\nd\nF\n8 / 8\n量守恒定律，有mv0＝mv1＋2mv2，要使物块落下，必须v1＞v2，解得：I＞3\n2m 2μgd ，s＝\n1\n18μgm2（l－\nl2－9μm2gd/2 ）2，根据上式结果知：l 越大，s 越小。\n（1）设圆板与物块相对静止时，它们之间的静摩擦力为f，共同加速度为a\n由牛顿运动定律，有    对物块  f＝2m（A）    对圆板\nF－f＝ma\n两物相对静止，有  f≤fmax  得 F≤3\n2\nfmax\n相对滑动条件\nmax\n3\n2\nF\nf\n\n（2）设冲击刚结束时圆板获得的速度大小为v0，物块掉下时，圆板和物块速度大小分别为v1 和v2。\n由动量定理，有\n0\nI\nmv\n=\n由动能定理，由\n     对圆板\n2\n2\n1\n2\n3\n1\n1\n2\n(\n)\n4\n2\n2\nmg s\nd\nmv\nmv\n\n−\n+\n=\n−\n     对物块\n2\n2\n1\n2\n(2 )\n0\n2\nmgs\nm v\n\n=\n−\n有动量守恒定律，有\n0\n1\n2\n2\nmv\nmv\nmv\n=\n+\n要使物块落下，必须：\n1\n2\nv\nv\n\n由以上各式得：\n3\n2\n2\nI\nm\ngd\n\n\ns＝\n2\n2\n2\n9\n1\n2\n2\n3\nI\nI\nm gd\ng\nm\n\n\n\n\n−\n−\n\n\n\n\n\n\n\n\n\n\n分子有理化得s＝\n2\n2\n2\n3\n1\n2\n2\n9\n2\nmd\ng\nI\nI\nm gd\n\n\n\n\n\n\n\n\n\n\n+\n−\n\n\n\n\n根据上式结果知：I 越大，s 越小．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010重庆理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q012-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q012-p008-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c578471173c867af-q012-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

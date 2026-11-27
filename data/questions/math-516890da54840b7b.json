@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
   "name": "1958华东(上海,福建)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 7,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 7,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q01",
       "content": "设方程𝑥2 −(𝑚−2)𝑥−(𝑚−6) = 0 有二个不相等实根，决定𝑚范围。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q02",
       "content": "解方程组：\n⎧{{\n⎨{{⎩\n1\n2 lg 𝑥+ 1\n2 lg 𝑦−lg(4 −√𝑥) = 0\n(25√𝑥)√𝑦−125 × 5√𝑦= 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q03",
       "content": "一九五七年我国钢产量约500 万吨，同年英国钢产量2000 万吨，根据英国每年平均增长率为4.24%，\n如果我国准备四年在钢的产量方面赶上英国，问每年平均增产的百分率是多少（精确到0.01）？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q04",
       "content": "设有函数𝑦= 𝑎𝑥2 + 𝑏𝑥+ 𝑐，当𝑥= 1 时，𝑦= −1；当𝑥= 2 时，𝑦= 1；又当𝑥= −2 时，𝑦= 17。\nA) 决定这函数式；\nB) 这函数有无极大值或极小值？如果有，其值是什么？\nC) 当𝑥是什么值时，这函数值为0？\nD) 作出函数图像。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q05",
       "content": "河的对岸有𝐴, 𝐵两点，要在这边测量𝐴, 𝐵间的距离，应该怎样测量？试拟出一种方法来进行说明，并\n写出表达距离的式子（即把能测得的角和能量得的距离的数值表示𝐴, 𝐵间的距离）。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q06",
       "content": "两平行线𝐿1 与𝐿2 分别和已知圆相切于𝐴与𝐵点，作已知圆的任一切线𝐿3，与𝐿1, 𝐿2 分别相交于𝐶\n与𝐷点，证明乘积𝐴𝐶⋅𝐵𝐷是常量。\n𝐿1\n𝐿2\n𝐿3\n𝑂\n𝐴\n𝐵\n𝐶\n𝐷",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -148,22 +189,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-516890da54840b7b-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-516890da54840b7b-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1958/1958华东(上海,福建).pdf#q07",
       "content": "设平面𝑆上有一直角三角形𝐴𝐵𝐶，已知一个直角边长为18 分米，在平面𝑆外取一点𝑃，使它与𝐴, 𝐵, 𝐶\n三点等距离，且设从𝑃点到平面𝑆的距离为40 分米，求𝑃点到另一直角边的距离。\n𝑆\n𝐴\n𝐵\n𝐶\n𝑃\n18\n40",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -171,11 +222,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958华东(上海,福建).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-516890da54840b7b-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-516890da54840b7b-q007-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
   "name": "2022浙江1月",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 15,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 17,
+    "sourceAnalysis": 22,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q01",
       "content": "可能用到的相关公式或参数：重力加速度 g 均取 10 m/s\n2。\n选择题部分",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q02",
-      "content": "单位为 J/m 的物理量是（    ）\nA．力\nB．功\nC．动能\nD．电场强度\n【详解】根据功的定义式 W = Fs 可知\nJ\nN m\n=\n\n则有\nJ\nN m\n=\n=N\nm\nm\n\n因N 是力的单位，故单位为J/m 的物理量是力。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "单位为 J/m 的物理量是（    ）\nA．力\nB．功\nC．动能\nD．电场强度",
+      "answer": "A",
+      "analysis": "根据功的定义式 W = Fs 可知\nJ\nN m\n=\n\n则有\nJ\nN m\n=\n=N\nm\nm\n\n因N 是力的单位，故单位为J/m 的物理量是力。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -56,22 +77,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q03",
-      "content": "下列说法正确的是（    ）\nA．研究甲图中排球运动员扣球动作时，排球可以看成质点\nB．研究乙图中乒乓球运动员的发球技术时，乒乓球不能看成质点\nC．研究丙图中羽毛球运动员回击羽毛球动作时，羽毛球大小可以忽略\nD．研究丁图中体操运动员的平衡木动作时，运动员身体各部分的速度可视为相同\n【详解】A．研究甲图中排球运动员扣球动作时，排球的形状和大小不能忽略，故不可以看成质点，故A\n错误；\nB．研究乙图中乒乓球运动员的发球技术时，要考虑乒乓球的大小和形状，则乒乓球不能看成质点，故B\n正确；\nC．研究丙图中羽毛球运动员回击羽毛球动作时，羽毛球大小不可以忽略，故C 错误；\nD．研究丁图中体操运动员的平衡木动作时，运动员身体各部分有转动和平动，各部分的速度不可以视为\n相同，故D 错误；\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "下列说法正确的是（    ）\nA．研究甲图中排球运动员扣球动作时，排球可以看成质点\nB．研究乙图中乒乓球运动员的发球技术时，乒乓球不能看成质点\nC．研究丙图中羽毛球运动员回击羽毛球动作时，羽毛球大小可以忽略\nD．研究丁图中体操运动员的平衡木动作时，运动员身体各部分的速度可视为相同",
+      "answer": "B",
+      "analysis": "A．研究甲图中排球运动员扣球动作时，排球的形状和大小不能忽略，故不可以看成质点，故A\n错误；\nB．研究乙图中乒乓球运动员的发球技术时，要考虑乒乓球的大小和形状，则乒乓球不能看成质点，故B\n正确；\nC．研究丙图中羽毛球运动员回击羽毛球动作时，羽毛球大小不可以忽略，故C 错误；\nD．研究丁图中体操运动员的平衡木动作时，运动员身体各部分有转动和平动，各部分的速度不可以视为\n相同，故D 错误；\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -79,22 +104,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q04",
-      "content": "利用如图所示装置探究匀强磁场中影响通电导线受力的因素，导线垂直匀强\n磁场方向放置。先保持导线通电部分的长度 L 不变，改变电流 I 的大小，然后\n保持电流 I 不变，改变导线通电部分的长度 L，得到导线受到的力 F 分别与 I\n和 L 的关系图像，则正确的是（    ）\n【详解】根据F = BIL 可知：先保持导线通电部分的长度L 不变，改变电流I 的大小，则F-I 图像是过原点\n的直线，图像B 正确，图像A 错误；若保持电流I 不变，改变导线通电部分的长度L，则F-L 是过原点的\n直线，则CD 均错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "利用如图所示装置探究匀强磁场中影响通电导线受力的因素，导线垂直匀强\n磁场方向放置。先保持导线通电部分的长度 L 不变，改变电流 I 的大小，然后\n保持电流 I 不变，改变导线通电部分的长度 L，得到导线受到的力 F 分别与 I\n和 L 的关系图像，则正确的是（    ）",
+      "answer": "B",
+      "analysis": "根据F = BIL 可知：先保持导线通电部分的长度L 不变，改变电流I 的大小，则F-I 图像是过原点\n的直线，图像B 正确，图像A 错误；若保持电流I 不变，改变导线通电部分的长度L，则F-L 是过原点的\n直线，则CD 均错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -102,22 +135,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q05",
-      "content": "如图所示，公园里有一仿制我国古代欹器的U 形水桶，桶可绕水平轴转动，水管\n口持续有水流出，过一段时间桶会翻转一次，决定桶能否翻转的主要因素是（    ）\nA．水桶自身重力的大小\nB．水管每秒出水量的大小\nC．水流对桶撞击力的大小\nD．水桶与水整体的重心高低\n【详解】水管口持续有水流出而过一段时间桶会翻转一次，说明主要原因是装的水到一定量之后，导致水\n桶与水整体的重心往上移动，竖直向下的重力作用线偏离中心转轴，导致水桶不能稳定平衡，发生翻转，\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，公园里有一仿制我国古代欹器的U 形水桶，桶可绕水平轴转动，水管\n口持续有水流出，过一段时间桶会翻转一次，决定桶能否翻转的主要因素是（    ）\nA．水桶自身重力的大小\nB．水管每秒出水量的大小\nC．水流对桶撞击力的大小\nD．水桶与水整体的重心高低",
+      "answer": "D",
+      "analysis": "水管口持续有水流出而过一段时间桶会翻转一次，说明主要原因是装的水到一定量之后，导致水\n桶与水整体的重心往上移动，竖直向下的重力作用线偏离中心转轴，导致水桶不能稳定平衡，发生翻转，\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -125,22 +170,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q06",
-      "content": "如图所示，学校门口水平地面上有一质量为 m 的石墩，石墩与水平地面\n间的动摩擦因数为 μ，工作人员用轻绳按图示方式匀速移动石墩时，两平行\n轻绳与水平面间的夹角均为 θ，则下列说法正确的是（    ）\nA．轻绳的合拉力大小为μmg\ncosθ\nB．轻绳的合拉力大小为\nμmg\ncosθ + μsinθ\nC．减小夹角 θ，轻绳的合拉力一定减小\nD．轻绳的合拉力最小时，地面对石墩的摩擦力也最小\n【详解】AB．对石墩受力分析，由平衡条件可知\ncos\nT\nf\n=\nf\nN\n\n=\ncos\nT\nN\nmg\n+\n=\n联立解得\ncos\nsin\n\n\n\n\n=\n+\nmg\nT\nL\nO\nC\nF\nF\nF\nF\nI\nO\nB\nI\nO\nA\nL\nO\nD\n故A 错误，B 正确；\nC．拉力的大小为\n2\ncos\nsin\n1\nsin(\n)\nmg\nmg\nT\n\n\n\n\n\n\n\n\n=\n=\n+\n+\n+\n其中tan\n\n=\n，可知当\n90\n\n\n+\n=\n时，拉力有最小值，即减小夹角 θ，轻绳的合拉力不一定减小，故C 错\n误；\nD．摩擦力大小为\ncos\ncos\ncos\nsin\n1\ntan\nmg\nmg\nf\nT\n\n\n\n\n\n\n\n\n\n=\n=\n=\n+\n+\n可知增大夹角 θ，摩擦力一直减小，当 θ 趋近于90°时，摩擦力最小，故轻绳的合拉力最小时，地面对石\n墩的摩擦力不是最小，故D 错误；\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，学校门口水平地面上有一质量为 m 的石墩，石墩与水平地面\n间的动摩擦因数为 μ，工作人员用轻绳按图示方式匀速移动石墩时，两平行\n轻绳与水平面间的夹角均为 θ，则下列说法正确的是（    ）\nA．轻绳的合拉力大小为μmg\ncosθ\nB．轻绳的合拉力大小为\nμmg\ncosθ + μsinθ\nC．减小夹角 θ，轻绳的合拉力一定减小\nD．轻绳的合拉力最小时，地面对石墩的摩擦力也最小",
+      "answer": "B",
+      "analysis": "AB．对石墩受力分析，由平衡条件可知\ncos\nT\nf\n=\nf\nN\n\n=\ncos\nT\nN\nmg\n+\n=\n联立解得\ncos\nsin\n\n\n\n\n=\n+\nmg\nT\nL\nO\nC\nF\nF\nF\nF\nI\nO\nB\nI\nO\nA\nL\nO\nD\n故A 错误，B 正确；\nC．拉力的大小为\n2\ncos\nsin\n1\nsin(\n)\nmg\nmg\nT\n\n\n\n\n\n\n\n\n=\n=\n+\n+\n+\n其中tan\n\n=\n，可知当\n90\n\n\n+\n=\n时，拉力有最小值，即减小夹角 θ，轻绳的合拉力不一定减小，故C 错\n误；\nD．摩擦力大小为\ncos\ncos\ncos\nsin\n1\ntan\nmg\nmg\nf\nT\n\n\n\n\n\n\n\n\n\n=\n=\n=\n+\n+\n可知增大夹角 θ，摩擦力一直减小，当 θ 趋近于90°时，摩擦力最小，故轻绳的合拉力最小时，地面对石\n墩的摩擦力不是最小，故D 错误；\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -148,22 +201,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q07",
-      "content": "图甲中的装置水平放置，将小球从平衡位置O 拉到A 后释放，\n小球在O 点附近来回振动；图乙中被细绳拴着的小球由静止释放\n后可绕固定点来回摆动。若将上述装置安装在太空中的我国空间\n站内进行同样操作，下列说法正确的是（    ）\nA．甲图中的小球将保持静止\nB．甲图中的小球仍将来回振动\nC．乙图中的小球仍将来回摆动\nD．乙图中的小球将做匀速圆周运动\n【详解】AB．空间站中的物体处于完全失重状态，甲图中的小球所受的弹力不受失重的影响，则小球仍将\n来回振动，选项A 错误，B 正确；\nCD．图乙中的小球在地面上由静止释放时，所受的回复力是重力的分量，而在空间站中处于完全失重时，\n回复力为零，则小球由静止释放时，小球仍静止；若给小球一定的初速度，则做匀速圆周运动，选项CD\n错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "图甲中的装置水平放置，将小球从平衡位置O 拉到A 后释放，\n小球在O 点附近来回振动；图乙中被细绳拴着的小球由静止释放\n后可绕固定点来回摆动。若将上述装置安装在太空中的我国空间\n站内进行同样操作，下列说法正确的是（    ）\nA．甲图中的小球将保持静止\nB．甲图中的小球仍将来回振动\nC．乙图中的小球仍将来回摆动\nD．乙图中的小球将做匀速圆周运动",
+      "answer": "B",
+      "analysis": "AB．空间站中的物体处于完全失重状态，甲图中的小球所受的弹力不受失重的影响，则小球仍将\n来回振动，选项A 错误，B 正确；\nCD．图乙中的小球在地面上由静止释放时，所受的回复力是重力的分量，而在空间站中处于完全失重时，\n回复力为零，则小球由静止释放时，小球仍静止；若给小球一定的初速度，则做匀速圆周运动，选项CD\n错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -171,22 +232,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q08",
-      "content": "如图所示，水平放置的电子秤上有一磁性玩具，玩具由哑铃状物\n件P 和左端有玻璃挡板的凹形底座 Q 构成，其重量分别为 GP 和\nGQ。用手使 P 的左端与玻璃挡板靠近时，感受到 P 对手有靠向玻璃\n挡板的力，P 与挡板接触后放开手，P 处于“磁悬浮”状态（即 P 和\nQ 的其余部分均不接触），P 与 Q 间的磁力大小为 F。下列说法正确\n的是（    ）\nA．Q 对 P 的磁力大小等于 GP\nB．P 对 Q 的磁力方向竖直向下\nC．Q 对电子秤的压力大小等于 GQ＋F\nD．电子秤对 Q 的支持力大小等于 GP＋GQ\n【详解】AB．由题意可知，因手使 P 的左端与玻璃挡板靠近时，感受到 P 对手有靠向玻璃挡板的力，即\nQ 对 P 有水平向左的磁力；P 与挡板接触后放开手，P 处于“磁悬浮”状态，则说明 Q 对 P 有竖直向上\n的磁力，则 Q 对 P 的磁力方向斜向左上方向，其磁力 F 大小大于 GP，选项 AB 错误；\nCD．对 PQ 的整体受力分析，竖直方向电子秤对 Q 的支持力大小等于 GP＋GQ，即 Q 对电子秤的压力大\n小等于 GP＋GQ，选项 C 错误，D 正确。\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，水平放置的电子秤上有一磁性玩具，玩具由哑铃状物\n件P 和左端有玻璃挡板的凹形底座 Q 构成，其重量分别为 GP 和\nGQ。用手使 P 的左端与玻璃挡板靠近时，感受到 P 对手有靠向玻璃\n挡板的力，P 与挡板接触后放开手，P 处于“磁悬浮”状态（即 P 和\nQ 的其余部分均不接触），P 与 Q 间的磁力大小为 F。下列说法正确\n的是（    ）\nA．Q 对 P 的磁力大小等于 GP\nB．P 对 Q 的磁力方向竖直向下\nC．Q 对电子秤的压力大小等于 GQ＋F\nD．电子秤对 Q 的支持力大小等于 GP＋GQ",
+      "answer": "D",
+      "analysis": "AB．由题意可知，因手使 P 的左端与玻璃挡板靠近时，感受到 P 对手有靠向玻璃挡板的力，即\nQ 对 P 有水平向左的磁力；P 与挡板接触后放开手，P 处于“磁悬浮”状态，则说明 Q 对 P 有竖直向上\n的磁力，则 Q 对 P 的磁力方向斜向左上方向，其磁力 F 大小大于 GP，选项 AB 错误；\nCD．对 PQ 的整体受力分析，竖直方向电子秤对 Q 的支持力大小等于 GP＋GQ，即 Q 对电子秤的压力大\n小等于 GP＋GQ，选项 C 错误，D 正确。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -194,22 +263,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q008-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q09",
-      "content": "“天问一号”从地球发射后，在如图甲所\n示的 P 点沿地火转移轨道到 Q 点，再依次进\n入如图乙所示的调相轨道和停泊轨道，则天问\n一号（    ）\nA．发射速度介于 7.9 km/s 与 11.2 km/s 之间\nB．从 P 点转移到 Q 点的时间小于 6 个月\nC．在环绕火星的停泊轨道运行的周期比在调\n相轨道上小\nD．在地火转移轨道运动时的速度均大于地球绕太阳的速度\n【详解】A．因发射的卫星要能变轨到绕太阳转动，则发射速度要大于第二宇宙速度，即发射速度介于 11.2\nkm/s 与 16.7 km/s 之间，故 A 错误；\nB．因 P 点转移到 Q 点的转移轨道的半长轴大于地球公转轨道半径，则其周期大于地球公转周期（1 年共\n12 个月），则从 P 点转移到 Q 点的时间为轨道周期的一半时间应大于 6 个月，故 B 错误；\nC．因在环绕火星的停泊轨道的半长轴小于调相轨道的半长轴，则由开普勒第三定律可知在环绕火星的停\n泊轨道运行的周期比在调相轨道上小，故 C 正确；\nD．卫星从 P 点变轨时，要加速增大速度，此后做离心运动速度减小，则在地火转移轨道运动时的速度 P\n点速度大于地球绕太阳的速度，故 D 错误；\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "“天问一号”从地球发射后，在如图甲所\n示的 P 点沿地火转移轨道到 Q 点，再依次进\n入如图乙所示的调相轨道和停泊轨道，则天问\n一号（    ）\nA．发射速度介于 7.9 km/s 与 11.2 km/s 之间\nB．从 P 点转移到 Q 点的时间小于 6 个月\nC．在环绕火星的停泊轨道运行的周期比在调\n相轨道上小\nD．在地火转移轨道运动时的速度均大于地球绕太阳的速度",
+      "answer": "C",
+      "analysis": "A．因发射的卫星要能变轨到绕太阳转动，则发射速度要大于第二宇宙速度，即发射速度介于 11.2\nkm/s 与 16.7 km/s 之间，故 A 错误；\nB．因 P 点转移到 Q 点的转移轨道的半长轴大于地球公转轨道半径，则其周期大于地球公转周期（1 年共\n12 个月），则从 P 点转移到 Q 点的时间为轨道周期的一半时间应大于 6 个月，故 B 错误；\nC．因在环绕火星的停泊轨道的半长轴小于调相轨道的半长轴，则由开普勒第三定律可知在环绕火星的停\n泊轨道运行的周期比在调相轨道上小，故 C 正确；\nD．卫星从 P 点变轨时，要加速增大速度，此后做离心运动速度减小，则在地火转移轨道运动时的速度 P\n点速度大于地球绕太阳的速度，故 D 错误；\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -217,22 +294,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q009-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q10",
-      "content": "如图所示，甲图是一种手摇发电机及用细短铁丝显示的磁场分布情况，摇动手柄可使对称固定在转轴\n上的矩形线圈转动；乙图是另一种手摇发电机及磁场分布情况，皮带轮带动固定在转轴两侧的两个线圈转\n动。下列说法正确的是（    ）\nA．甲图中线圈转动区域磁场可视为匀强磁场\nB．乙图中线圈转动区域磁场可视为匀强磁场\nC．甲图中线圈转动时产生的电流是正弦交流电\nD．乙图线圈匀速转动时产生的电流是正弦交流电\n【详解】A．甲图中细短铁丝显示的磁场分布均匀，则线圈转动区域磁场可视为匀强磁场，故 A 正确；\nB．乙图中细短铁丝显示的磁场分布不均匀，则线圈转动区域磁场不能看成匀强磁场，故 B 错误；\nC．根据发电机原理可知甲图中线圈在匀强磁场中绕垂直磁场的转轴匀速转动时才能产生正弦交流电，故\nC 错误；\nD．乙图中是非匀强磁场，则线圈匀速转动时不能产生正弦交流电，故 D 错误；\n故选 A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，甲图是一种手摇发电机及用细短铁丝显示的磁场分布情况，摇动手柄可使对称固定在转轴\n上的矩形线圈转动；乙图是另一种手摇发电机及磁场分布情况，皮带轮带动固定在转轴两侧的两个线圈转\n动。下列说法正确的是（    ）\nA．甲图中线圈转动区域磁场可视为匀强磁场\nB．乙图中线圈转动区域磁场可视为匀强磁场\nC．甲图中线圈转动时产生的电流是正弦交流电\nD．乙图线圈匀速转动时产生的电流是正弦交流电",
+      "answer": "A",
+      "analysis": "A．甲图中细短铁丝显示的磁场分布均匀，则线圈转动区域磁场可视为匀强磁场，故 A 正确；\nB．乙图中细短铁丝显示的磁场分布不均匀，则线圈转动区域磁场不能看成匀强磁场，故 B 错误；\nC．根据发电机原理可知甲图中线圈在匀强磁场中绕垂直磁场的转轴匀速转动时才能产生正弦交流电，故\nC 错误；\nD．乙图中是非匀强磁场，则线圈匀速转动时不能产生正弦交流电，故 D 错误；\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -240,22 +325,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q010-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q11",
-      "content": "某种气体—电子放大器的局部结构是由两块夹有绝缘介质的平行金属薄膜构成，其上存在等间距小孔，\n其中相邻两孔截面上的电场线和等势线的分布如图所示。下列说法正确的是（    ）\nA．a 点所在的线是等势线\nB．b 点的电场强度比c 点大\nC．b、c 两点间的电势差的值比 a、c 两点间的大\nD．将电荷沿图中的线从 d → e → f → g 移动时电场力做功为\n零\n【详解】A．因上下为两块夹有绝缘介质的平行金属薄膜，则\na 点所在的线是电场线，选项 A 错误；\nB．因 c 处的电场线较 b 点密集，则 c 点的电场强度比 b 点\n大，选项 B 错误；\nC．因 bc 两处所处的线为等势线，可知b、c 两点间的电势差\n的值比 a、c 两点间的大，选项 C 正确；\nD．因 dg 两点在同一电场线上，电势不相等，则将电荷沿图\n中的线从 d → e → f → g 移动时电场力做功不为零，选项 D\n错误。\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某种气体—电子放大器的局部结构是由两块夹有绝缘介质的平行金属薄膜构成，其上存在等间距小孔，\n其中相邻两孔截面上的电场线和等势线的分布如图所示。下列说法正确的是（    ）\nA．a 点所在的线是等势线\nB．b 点的电场强度比c 点大\nC．b、c 两点间的电势差的值比 a、c 两点间的大\nD．将电荷沿图中的线从 d → e → f → g 移动时电场力做功为\n零",
+      "answer": "C",
+      "analysis": "A．因上下为两块夹有绝缘介质的平行金属薄膜，则\na 点所在的线是电场线，选项 A 错误；\nB．因 c 处的电场线较 b 点密集，则 c 点的电场强度比 b 点\n大，选项 B 错误；\nC．因 bc 两处所处的线为等势线，可知b、c 两点间的电势差\n的值比 a、c 两点间的大，选项 C 正确；\nD．因 dg 两点在同一电场线上，电势不相等，则将电荷沿图\n中的线从 d → e → f → g 移动时电场力做功不为零，选项 D\n错误。\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -263,22 +356,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q011-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q12",
-      "content": "如图所示，用激光笔照射半圆形玻璃砖圆心 O 点，发现有 a、b、c、\nd 四条细光束，其中 d 是光经折射和反射形成的。当入射光束 a 绕 O 点\n逆时针方向转过小角度 Δθ 时，b、c、d 也会随之转动，则（    ）\nA．光束b 顺时针旋转角度小于 Δθ\nB．光束c 逆时针旋转角度小于 Δθ\nC．光束d 顺时针旋转角度大于 Δθ\nD．光速b、c 之间的夹角减小了 2Δθ\n【详解】A．设入射光线a 的入射角为α，则反射角为α，光束c 的折射角\n为β，光束d 的反射角也为β，入射光束a 绕O 点逆时针方向转过小角度\nΔθ 时，入射角变为\n\n\n\n= +\n由反射定律可知反射角等于入射角，则光束b 顺时针旋转角度等于Δθ，故A 错误；\nB．由折射定律有\nsin\n1\nsin\nn\n\n\n=\n\n，\nsin(\n)\n1\nsin(\n)\nn\n\n\n\n\n+ \n=\n\n\n+ \n可得  Δθʹ＜Δθ\n即光束c 逆时针旋转角度小于Δθ，故B 正确；\nC．光束d 的反射角变化与光束c 的折射角变化相等，则光束d 顺时针旋转角度小于Δθ，故C 错误；\nD．光束b 顺时针旋转角度等于Δθ，光束c 逆时针旋转角度小于Δθ，则光速b、c 之间的夹角减小的角度\n小于2Δθ，故D 错误；\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，用激光笔照射半圆形玻璃砖圆心 O 点，发现有 a、b、c、\nd 四条细光束，其中 d 是光经折射和反射形成的。当入射光束 a 绕 O 点\n逆时针方向转过小角度 Δθ 时，b、c、d 也会随之转动，则（    ）\nA．光束b 顺时针旋转角度小于 Δθ\nB．光束c 逆时针旋转角度小于 Δθ\nC．光束d 顺时针旋转角度大于 Δθ\nD．光速b、c 之间的夹角减小了 2Δθ",
+      "answer": "B",
+      "analysis": "A．设入射光线a 的入射角为α，则反射角为α，光束c 的折射角\n为β，光束d 的反射角也为β，入射光束a 绕O 点逆时针方向转过小角度\nΔθ 时，入射角变为\n\n\n\n= +\n由反射定律可知反射角等于入射角，则光束b 顺时针旋转角度等于Δθ，故A 错误；\nB．由折射定律有\nsin\n1\nsin\nn\n\n\n=\n\n，\nsin(\n)\n1\nsin(\n)\nn\n\n\n\n\n+ \n=\n\n\n+ \n可得  Δθʹ＜Δθ\n即光束c 逆时针旋转角度小于Δθ，故B 正确；\nC．光束d 的反射角变化与光束c 的折射角变化相等，则光束d 顺时针旋转角度小于Δθ，故C 错误；\nD．光束b 顺时针旋转角度等于Δθ，光束c 逆时针旋转角度小于Δθ，则光速b、c 之间的夹角减小的角度\n小于2Δθ，故D 错误；\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -286,22 +387,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q012-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q13",
-      "content": "某节水喷灌系统如图所示，水以 v0 = 15 m/s 的速度水平喷出，每秒喷\n出水的质量为 2.0 kg。喷出的水是从井下抽取的，喷口离水面的高度保持\nH = 3.75 m 不变。水泵由电动机带动，电动机正常工作时，输入电压为 220\nV，输入电流为 2.0 A。不计电动机的摩擦损耗，电动机的输出功率等于水\n泵所需要的输入功率。已知水泵的抽水效率（水泵的输出功率与输入功率\n之比）为 75%，忽略水在管道中运动的机械能损失，则（    ）\nA．每秒水泵对水做功为 75 J\nB．每秒水泵对水做功为 225 J\nC．水泵输入功率为 440 W\nD．电动机线圈的电阻为 10 Ω\n【详解】AB．每秒喷出水的质量为 m0 = 2.0 kg，抽水增加了水的重力势能和动能，则每秒水泵对水做功为\n2\n0\n0\n0\n1\n300J\n2\nW\nm gH\nm v\n=\n+\n=\n故AB 错误；\nC．水泵的输出能量转化为水的机械能，则\n=\n300W\nW\nP\nt =\n出\n而水泵的抽水效率（水泵的输出功率与输入功率之比）为75%，则\n=\n400W\n75%\nP\nP\n=\n出\n入\n故C 错误；\nD．电动机的输出功率等于水泵所需要的输入功率，则电动机的机械功率为\n=400W\nP\nP\n=\n入\n机\n而电动机的电功率为\n=\n=440W\nP\nUI\n电\n由能量守恒可知\n2\nP\nI R\nP\n=\n+\n电\n机\n联立解得  R = 10 Ω。故D 正确；\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某节水喷灌系统如图所示，水以 v0 = 15 m/s 的速度水平喷出，每秒喷\n出水的质量为 2.0 kg。喷出的水是从井下抽取的，喷口离水面的高度保持\nH = 3.75 m 不变。水泵由电动机带动，电动机正常工作时，输入电压为 220\nV，输入电流为 2.0 A。不计电动机的摩擦损耗，电动机的输出功率等于水\n泵所需要的输入功率。已知水泵的抽水效率（水泵的输出功率与输入功率\n之比）为 75%，忽略水在管道中运动的机械能损失，则（    ）\nA．每秒水泵对水做功为 75 J\nB．每秒水泵对水做功为 225 J\nC．水泵输入功率为 440 W\nD．电动机线圈的电阻为 10 Ω",
+      "answer": "D",
+      "analysis": "AB．每秒喷出水的质量为 m0 = 2.0 kg，抽水增加了水的重力势能和动能，则每秒水泵对水做功为\n2\n0\n0\n0\n1\n300J\n2\nW\nm gH\nm v\n=\n+\n=\n故AB 错误；\nC．水泵的输出能量转化为水的机械能，则\n=\n300W\nW\nP\nt =\n出\n而水泵的抽水效率（水泵的输出功率与输入功率之比）为75%，则\n=\n400W\n75%\nP\nP\n=\n出\n入\n故C 错误；\nD．电动机的输出功率等于水泵所需要的输入功率，则电动机的机械功率为\n=400W\nP\nP\n=\n入\n机\n而电动机的电功率为\n=\n=440W\nP\nUI\n电\n由能量守恒可知\n2\nP\nI R\nP\n=\n+\n电\n机\n联立解得  R = 10 Ω。故D 正确；\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -309,22 +418,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q013-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q013-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q14",
-      "content": "如图所示，将一通电螺线管竖直放置，螺线管内部形成方向竖直向上、磁感应\n强度大小 B = kt 的匀强磁场，在内部用绝缘轻绳悬挂一与螺线管共轴的金属薄圆\n管，其电阻率为 ρ、高度为 h、半径为 r、厚度为 d（d ≪ r），则（    ）\nA．从上向下看，圆管中的感应电流为逆时针方向\nB．圆管的感应电动势大小为 kπr2\nh\nC．圆管的热功率大小为 πdhk2r3\n2ρ\nD．轻绳对圆管的拉力随时间减小\n【详解】A．穿过圆管的磁通量向上逐渐增加，则根据楞次定律可知，从上向下看，圆管中的感应电流为\n顺时针方向，选项A 错误；\nB．圆管的感应电动势大小为\n2\n2\nB\nE\nr\nk r\nt \n\n\n=\n=\n\n选项B 错误；\nC．圆管的电阻\n2 r\nR\ndh\n\n\n=\n圆管的热功率大小为\n2\n2\n3\n2\nE\ndhk r\nP\nR\n\n\n=\n=\n选项C 正确；\nD．根据左手定则可知，圆管中各段所受的受安培力方向指向圆管的轴线，则轻绳对圆管的拉力的合力始\n终等于圆管的重力，不随时间变化，选项D 错误。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，将一通电螺线管竖直放置，螺线管内部形成方向竖直向上、磁感应\n强度大小 B = kt 的匀强磁场，在内部用绝缘轻绳悬挂一与螺线管共轴的金属薄圆\n管，其电阻率为 ρ、高度为 h、半径为 r、厚度为 d（d ≪ r），则（    ）\nA．从上向下看，圆管中的感应电流为逆时针方向\nB．圆管的感应电动势大小为 kπr2\nh\nC．圆管的热功率大小为 πdhk2r3\n2ρ\nD．轻绳对圆管的拉力随时间减小",
+      "answer": "C",
+      "analysis": "A．穿过圆管的磁通量向上逐渐增加，则根据楞次定律可知，从上向下看，圆管中的感应电流为\n顺时针方向，选项A 错误；\nB．圆管的感应电动势大小为\n2\n2\nB\nE\nr\nk r\nt \n\n\n=\n=\n\n选项B 错误；\nC．圆管的电阻\n2 r\nR\ndh\n\n\n=\n圆管的热功率大小为\n2\n2\n3\n2\nE\ndhk r\nP\nR\n\n\n=\n=\n选项C 正确；\nD．根据左手定则可知，圆管中各段所受的受安培力方向指向圆管的轴线，则轻绳对圆管的拉力的合力始\n终等于圆管的重力，不随时间变化，选项D 错误。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -332,22 +449,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q014-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q014-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q15",
-      "content": "2021 年12 月15 日秦山核电站迎来了安全发电 30 周年，核电站累计发电约 6.9×1011 kW·h，相当于\n减排二氧化碳六亿多吨。为了提高能源利用率，核电站还将利用冷却水给周围居民供热。下列说法正确的\n是（    ）\nA．秦山核电站利用的是核聚变释放的能量\nB．秦山核电站发电使原子核亏损的质量约为 27.6 kg\nC．核电站反应堆中需要用镉棒控制链式反应的速度\nD．反应堆中存在23592U + 10n → Ba + Kr + 310n 的核反应\n【详解】A．秦山核电站利用的是重核裂变变释放的能量，故A 错误；\nB．秦山核电站发电使原子核亏损的质量约为\n11\n2\n8\n2\n6.9 10\n1000 3600 kg",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2021 年12 月15 日秦山核电站迎来了安全发电 30 周年，核电站累计发电约 6.9×1011 kW·h，相当于\n减排二氧化碳六亿多吨。为了提高能源利用率，核电站还将利用冷却水给周围居民供热。下列说法正确的\n是（    ）\nA．秦山核电站利用的是核聚变释放的能量\nB．秦山核电站发电使原子核亏损的质量约为 27.6 kg\nC．核电站反应堆中需要用镉棒控制链式反应的速度\nD．反应堆中存在23592U + 10n → Ba + Kr + 310n 的核反应",
+      "answer": "BCD",
+      "analysis": "A．秦山核电站利用的是重核裂变变释放的能量，故A 错误；\nB．秦山核电站发电使原子核亏损的质量约为\n11\n2\n8\n2\n6.9 10\n1000 3600 kg\n27.6kg\n(3 10 )\nE\nm\nc\n\n\n\n\n\n=\n=\n\n\n故B 正确；\nC．核电站反应堆中需要用镉棒能吸收中子的特性，通过中子的数量控制链式反应的速度，故C 正确；\nD．反应堆利用铀235 的裂变，生成多个中核和中子，且产物有随机的两分裂、三分裂，即存在\n235\n1\n1\n92\n0\n0\nU\nn\nBa\nKr 3 n\n+\n→\n+\n+\n的核反应，故D 正确；\n故选BCD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -355,22 +480,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q015-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q015-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q16",
-      "content": "6kg\n(3 10 )\nE\nm\nc\n\n\n\n\n\n=\n=\n\n\n故B 正确；\nC．核电站反应堆中需要用镉棒能吸收中子的特性，通过中子的数量控制链式反应的速度，故C 正确；\nD．反应堆利用铀235 的裂变，生成多个中核和中子，且产物有随机的两分裂、三分裂，即存在\n235\n1\n1\n92\n0\n0\nU\nn\nBa\nKr 3 n\n+\n→\n+\n+\n的核反应，故D 正确；\n故选BCD。\n15．两列振幅相等、波长均为 λ、周期均为 T 的简谐横波沿同一绳子相\n向传播，若两列波均由一次全振动产生，t = 0 时刻的波形如图 1 所示，\n此时两列波相距 λ，则（    ）\nA．t = T\n4 时，波形如图2 甲所示\nB．t = T\n2 时，波形如图2 乙所示\nC．t = 3T\n4 时，波形如图2 丙所示\nD．t = T 时，波形如图2 丁所示\n【详解】A．根据波长和波速的关系式为\nv\nT\n\n=\n则\n4\nT\nt =\n时，两列波各种向前传播的距离为\n4\nx\nvt\n\n=\n=\n故两列波的波前还未相遇，故A 错误；\nB．\n2\nT\nt =\n时，两列波各种向前传播的距离为\n2\nx\nvt\n\n=\n=\n故两列波的波前刚好相遇，故B 正确；\nC．\n3\n4\nT\nt =\n时，两列波各种向前传播的距离为\n3\n4\nx\nvt\n\n=\n=\n根据波的叠加原理可知，在两列波之间\n3\n~\n4\n4\n\n\n的区域为两列波的波形波谷相遇，振动加强，2\n\n处的波谷\n质点的位移为2A，故C 错误；\nD．t\nT\n=\n时，两列波各种向前传播的距离为\nx\nvt\n\n=\n=\n两列波的波峰与波谷叠加，位移为零，故D 正确；\n故选BD。\n16．电子双缝干涉实验是近代证实物质波存在的实验。如图所示，\n电子枪持续发射的电子动量为 1.2 × 10−23 kg·m/s，然后让它们通过\n双缝打到屏上。已知电子质量取 9.1 × 10−31 kg，普朗克常量取 6.6\n× 10−34 J·s，下列说法正确的是（    ）\nA．发射电子的动能约为 8.0×10−15 J\nB．发射电子的物质波波长约为 5.5×10-11 m\nC．只有成对电子分别同时通过双缝才能发生干涉\nD．如果电子是一个一个发射的，仍能得到干涉图样\n【详解】A．根据动量的大小与动能的关系可知发射电子的动能约为\n2\n23 2\n17\nk\n31\n(1.2 10\n) J\n8.0 10\nJ\n2\n2 9.1 10\nP\nE\nm\n−\n−\n−\n\n=\n=\n\n\n\n\n故A 错误；\nB．发射电子的物质波波长约为\n34\n11\n23\n6.6 10\nm\n5.5 10\nm\n1.2 10\nh\nP\n\n−\n−\n−\n\n=\n=\n\n\n\n故B 正确；\nCD．物质波也具有波粒二象性，故电子的波动性是每个电子本身的性质，则每个电子依次通过双缝都能发\n生干涉现象，只是需要大量电子显示出干涉图样，故C 错误，D 正确；\n故选BD。\n非选择题部分",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "两列振幅相等、波长均为 λ、周期均为 T 的简谐横波沿同一绳子相\n向传播，若两列波均由一次全振动产生，t = 0 时刻的波形如图 1 所示，\n此时两列波相距 λ，则（    ）\nA．t = T\n4 时，波形如图2 甲所示\nB．t = T\n2 时，波形如图2 乙所示\nC．t = 3T\n4 时，波形如图2 丙所示\nD．t = T 时，波形如图2 丁所示",
+      "answer": "BD",
+      "analysis": "A．根据波长和波速的关系式为\nv\nT\n\n=\n则\n4\nT\nt =\n时，两列波各种向前传播的距离为\n4\nx\nvt\n\n=\n=\n故两列波的波前还未相遇，故A 错误；\nB．\n2\nT\nt =\n时，两列波各种向前传播的距离为\n2\nx\nvt\n\n=\n=\n故两列波的波前刚好相遇，故B 正确；\nC．\n3\n4\nT\nt =\n时，两列波各种向前传播的距离为\n3\n4\nx\nvt\n\n=\n=\n根据波的叠加原理可知，在两列波之间\n3\n~\n4\n4\n\n\n的区域为两列波的波形波谷相遇，振动加强，2\n\n处的波谷\n质点的位移为2A，故C 错误；\nD．t\nT\n=\n时，两列波各种向前传播的距离为\nx\nvt\n\n=\n=\n两列波的波峰与波谷叠加，位移为零，故D 正确；\n故选BD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -378,22 +511,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 7,
-        "questionNumber": 27,
+        "endPage": 8,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q016-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q016-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q17",
-      "content": "（7 分）\n（1）在“研究平抛运动”实验中，以小钢球离开轨道末端时球心\n位置为坐标原点 O，建立水平与竖直坐标轴。让小球从斜槽上离\n水平桌面高为 h 处静止释放，使其水平抛出，通过多次描点可绘\n出小球做平抛运动时球心的轨迹，如图1 所示。在轨迹上取一点\nA，读取其坐标（x0，y0）。\n①下列说法正确的是_______。\nA．实验所用斜槽应尽量光滑\nB．画轨迹时应把所有描出的点用平滑的曲线连接起来\nC．求平抛运动初速度时应读取轨迹上离原点较远的点的数据\n②根据题目所给信息，小球做平抛运动的初速度大小 v0 =_______。\nA．2gh\nB．2gy0\nC．x0\ng\n2h\nD．x0\ng\n2y0\n③在本实验中要求小球多次从斜槽上同一位置由静止释放的理由是______________________________。\n【详解】①A．只要保证小球每次从同一位置静止释放，到达斜槽末端的速度大小都相同，与实验所用斜\n槽是否光滑无关，故A 错误；\nB．画轨迹时应应舍去误差较大的点，把误差小的点用平滑的曲线连接起来，故B 错误；\nC．求平抛运动初速度时应读取轨迹上离远点较远的点的数据，便于减小读数产生的偶然误差，故C 正确；\n故选C。\n②坐标原点 O 为抛出点，由平抛规律有\nx0 = v0t\ny0 = 1\n2 gt2\n联立解得平抛的初速度为\nv0 = x0\ng\n2y0\n故选D。\n③小球多次从斜槽上同一位置由静止释放是为了保证到达斜槽末端的速度大小都相同，从而能确保多次运\n动的轨迹相同。\n（2）“探究碰撞中的不变量”的实验装置如图所示，阻力很小的滑轨上有两辆小车 A、B，给小车 A 一\n定速度去碰撞静止的小车 B，小车 A、B 碰撞前后的速度大小可由速度传感器测得。\n①实验应进行的操作有_______。\nA．测量滑轨的长度\nB．测量小车的长度和高度\nC．碰撞前将滑轨调成水平\n②下表是某次实验时测得的数据：\nA 的质量/kg\nB 的质量/kg\n碰撞前 A 的速\n度大小/（m·s−1）\n碰撞后 A 的速\n度大小/（m·s−1）\n碰撞后 B 的速\n度大小/（m·s−1）\n0.200\n0.300\n1.010\n0.200\n0.800\n由表中数据可知，碰撞后小车 A、B 所构成系统的总动量大小是_______kg·m/s。\n（结果保留3 位有效数字）\n【详解】①碰撞前将滑轨调成水平，保证碰撞前后 A、B 做匀速直线运动即可，没有必要测量滑轨的长度\nA\nB\n和小车的长度、高度。\n故选C。\n②由表中数据可知小车 A 的质量小于 B 的质量，则碰后小车 A 反向运动，设碰前小车A 的运动方向为\n正方向，则可知碰后系统的总动量大小为\np′ = mBvB – mAvA′\n解得\np′ = 0.200 kg·m/s",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "电子双缝干涉实验是近代证实物质波存在的实验。如图所示，\n电子枪持续发射的电子动量为 1.2 × 10−23 kg·m/s，然后让它们通过\n双缝打到屏上。已知电子质量取 9.1 × 10−31 kg，普朗克常量取 6.6\n× 10−34 J·s，下列说法正确的是（    ）\nA．发射电子的动能约为 8.0×10−15 J\nB．发射电子的物质波波长约为 5.5×10-11 m\nC．只有成对电子分别同时通过双缝才能发生干涉\nD．如果电子是一个一个发射的，仍能得到干涉图样",
+      "answer": "BD",
+      "analysis": "A．根据动量的大小与动能的关系可知发射电子的动能约为\n2\n23 2\n17\nk\n31\n(1.2 10\n) J\n8.0 10\nJ\n2\n2 9.1 10\nP\nE\nm\n−\n−\n−\n\n=\n=\n\n\n\n\n故A 错误；\nB．发射电子的物质波波长约为\n34\n11\n23\n6.6 10\nm\n5.5 10\nm\n1.2 10\nh\nP\n\n−\n−\n−\n\n=\n=\n\n\n\n故B 正确；\nCD．物质波也具有波粒二象性，故电子的波动性是每个电子本身的性质，则每个电子依次通过双缝都能发\n生干涉现象，只是需要大量电子显示出干涉图样，故C 错误，D 正确；\n故选BD。\n非选择题部分",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -401,22 +542,62 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 8,
-        "questionNumber": 17,
+        "endPage": 8,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q017-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q017-p008-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q18",
-      "content": "（7 分）小明同学根据图 1 的电路连接器材来“探究导体电阻与其影响因素的定量关系”。实验时多\n次改变合金丝甲接入电路的长度 l、调节滑动变阻器的阻值，使电流表的读数 I 达到某一相同值时记录电\n压表的示数U，从而得到多个 U\nI 的值，作出 U\nI - l 图像，如图 2 中图线 a 所示。\n（1）在实验中使用的是_______（选填“0~20 Ω”或“0~200 Ω”）的滑动变阻器。\n（2）在某次测量时，电压表的指针位置如图 3 所示，则读数 U =_______V。\n（3）已知合金丝甲的横截面积为7.0×10-8m2，则合金丝甲的电阻率为_______Ω·m（结果保留2 位有效数\n字）。\n（4）图 2 中图线 b 是另一根长度相同、材料相同的合金丝乙与合金丝甲并联后采用同样的方法获得的\nU\nI - l 图像，由图可知合金丝甲的横截面积_______（选填“大于”、“等于”或“小于”）合金丝乙的横\n截面积。\n【详解】（1）由实验原理可知\nx\nU\nR\nI\n=\n而由 U\nI - l 图像可知待测电阻最大约为 8 Ω，为了使电压表有明显的读数变化，则滑动变阻器的阻值不能\n太大，故选 0~20 Ω 比较合适；\n（2）量程为 3 V 的电压表，精度为 0.1 V，估读到 0.01 V，则电压为 1.32 V（1.31~1.34）；\n（3）根据电阻定律有\nx\nU\nR\nl\nI\nS\n\n=\n=\n\n则 U\nI - l 图像的斜率为\nk\nS\n\n=\n可得合金丝甲的电阻率为\n8\n6\n7.4\n4.0\n7.0 10 (\nm)\n0.99 10 (\nm)\n0.44\n0.20\nkS\n\n−\n−\n−\n=\n=\n\n\n\n\n\n\n−\n（0.96×10-6~1×10-6）\n（4）另一根长度相同、材料相同的合金丝乙与合金丝甲并联后，电阻率不变，而横截面积变为\nS\nS\nS\n=\n+\n乙\n由图2 中图线b 可得\n6\n8\n2\n0.99 10\n=",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（7 分）\n（1）在“研究平抛运动”实验中，以小钢球离开轨道末端时球心\n位置为坐标原点 O，建立水平与竖直坐标轴。让小球从斜槽上离\n水平桌面高为 h 处静止释放，使其水平抛出，通过多次描点可绘\n出小球做平抛运动时球心的轨迹，如图1 所示。在轨迹上取一点\nA，读取其坐标（x0，y0）。\n①下列说法正确的是_______。\nA．实验所用斜槽应尽量光滑\nB．画轨迹时应把所有描出的点用平滑的曲线连接起来\nC．求平抛运动初速度时应读取轨迹上离原点较远的点的数据\n②根据题目所给信息，小球做平抛运动的初速度大小 v0 =_______。\nA．2gh\nB．2gy0\nC．x0\ng\n2h\nD．x0\ng\n2y0\n③在本实验中要求小球多次从斜槽上同一位置由静止释放的理由是______________________________。",
+      "answer": "C",
+      "analysis": "①A．只要保证小球每次从同一位置静止释放，到达斜槽末端的速度大小都相同，与实验所用斜\n槽是否光滑无关，故A 错误；\nB．画轨迹时应应舍去误差较大的点，把误差小的点用平滑的曲线连接起来，故B 错误；\nC．求平抛运动初速度时应读取轨迹上离远点较远的点的数据，便于减小读数产生的偶然误差，故C 正确；\n故选C。\n②坐标原点 O 为抛出点，由平抛规律有\nx0 = v0t\ny0 = 1\n2 gt2\n联立解得平抛的初速度为\nv0 = x0\ng\n2y0\n故选D。\n③小球多次从斜槽上同一位置由静止释放是为了保证到达斜槽末端的速度大小都相同，从而能确保多次运\n动的轨迹相同。\n（2）“探究碰撞中的不变量”的实验装置如图所示，阻力很小的滑轨上有两辆小车 A、B，给小车 A 一\n定速度去碰撞静止的小车 B，小车 A、B 碰撞前后的速度大小可由速度传感器测得。\n①实验应进行的操作有_______。\nA．测量滑轨的长度\nB．测量小车的长度和高度\nC．碰撞前将滑轨调成水平\n②下表是某次实验时测得的数据：\nA 的质量/kg\nB 的质量/kg\n碰撞前 A 的速\n度大小/（m·s−1）\n碰撞后 A 的速\n度大小/（m·s−1）\n碰撞后 B 的速\n度大小/（m·s−1）\n0.200\n0.300\n1.010\n0.200\n0.800\n由表中数据可知，碰撞后小车 A、B 所构成系统的总动量大小是_______kg·m/s。\n（结果保留3 位有效数字）\n①碰撞前将滑轨调成水平，保证碰撞前后 A、B 做匀速直线运动即可，没有必要测量滑轨的长度\nA\nB\n和小车的长度、高度。\n故选C。\n②由表中数据可知小车 A 的质量小于 B 的质量，则碰后小车 A 反向运动，设碰前小车A 的运动方向为\n正方向，则可知碰后系统的总动量大小为\np′ = mBvB – mAvA′\n解得\np′ = 0.200 kg·m/s",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
+        "page": 8,
+        "endPage": 10,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q018-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q018-p009-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q018-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q19",
+      "content": "（7 分）小明同学根据图 1 的电路连接器材来“探究导体电阻与其影响因素的定量关系”。实验时多\n次改变合金丝甲接入电路的长度 l、调节滑动变阻器的阻值，使电流表的读数 I 达到某一相同值时记录电\n压表的示数U，从而得到多个 U\nI 的值，作出 U\nI - l 图像，如图 2 中图线 a 所示。\n（1）在实验中使用的是_______（选填“0~20 Ω”或“0~200 Ω”）的滑动变阻器。\n（2）在某次测量时，电压表的指针位置如图 3 所示，则读数 U =_______V。\n（3）已知合金丝甲的横截面积为7.0×10-8m2，则合金丝甲的电阻率为_______Ω·m（结果保留2 位有效数\n字）。\n（4）图 2 中图线 b 是另一根长度相同、材料相同的合金丝乙与合金丝甲并联后采用同样的方法获得的\nU\nI - l 图像，由图可知合金丝甲的横截面积_______（选填“大于”、“等于”或“小于”）合金丝乙的横\n截面积。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由实验原理可知\nx\nU\nR\nI\n=\n而由 U\nI - l 图像可知待测电阻最大约为 8 Ω，为了使电压表有明显的读数变化，则滑动变阻器的阻值不能\n太大，故选 0~20 Ω 比较合适；\n（2）量程为 3 V 的电压表，精度为 0.1 V，估读到 0.01 V，则电压为 1.32 V（1.31~1.34）；\n（3）根据电阻定律有\nx\nU\nR\nl\nI\nS\n\n=\n=\n\n则 U\nI - l 图像的斜率为\nk\nS\n\n=\n可得合金丝甲的电阻率为\n8\n6\n7.4\n4.0\n7.0 10 (\nm)\n0.99 10 (\nm)\n0.44\n0.20\nkS\n\n−\n−\n−\n=\n=\n\n\n\n\n\n\n−\n（0.96×10-6~1×10-6）\n（4）另一根长度相同、材料相同的合金丝乙与合金丝甲并联后，电阻率不变，而横截面积变为\nS\nS\nS\n=\n+\n乙\n由图2 中图线b 可得\n6\n8\n2\n0.99 10\n=\n29.7 10 m\n2.2 1.4\n0.44\n0.20\nb\nS\nk\n\n−\n−\n\n\n=\n\n\n−\n−\n解得\n-8\n2\n22.7 10 m\nS\nS\nS\nS\n\n=\n−\n\n\n\n乙\n故合金丝甲的横截面积小于合金丝乙的横截面积。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -424,22 +605,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 10,
+        "endPage": 11,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q019-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q019-p010-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q19",
-      "content": "7 10 m\n2.2 1.4\n0.44\n0.20\nb\nS\nk\n\n−\n−\n\n\n=\n\n\n−\n−\n解得\n-8\n2\n22.7 10 m\nS\nS\nS\nS\n\n=\n−\n\n\n\n乙\n故合金丝甲的横截面积小于合金丝乙的横截面积。\n19．（9 分）第24 届冬奥会将在我国举办。钢架雪车比赛的一段赛道如图1 所示，长 12 m 水平直道 AB\n与长 20 m 的倾斜直道 BC 在 B 点平滑连接，斜道与水平面的夹角为 15°。运动员从 A 点由静止出发，\n推着雪车匀加速到 B 点时速度大小为 8 m/s，紧接着快速俯卧到车上沿 BC 匀加速下滑（图2 所示），到\nC 点共用时 5.0 s。若雪车（包括运动员）可视为质点，始终在冰面上运动，其总质量为 110 kg，sin15° =\n0.26，求雪车（包括运动员）\n（1）在直道 AB 上的加速度大小；\n（2）过 C 点的速度大小；\n（3）在斜道 BC 上运动时受到的阻力大小。\n【详解】（1）AB 段\n2\n1\n1 1\n2\nv\na x\n=\n解得\n2\n1\n8 m/s\n3\na =\n（2）AB 段\n1\n1 1\nv\na t\n=\n解得\n1\n3\nt\ns\n=\nBC 段\n2\n2\n1 2\n2 2\n1\n2\nx\nv t\na t\n=\n+\n2\n2\ns\n2m/\na =\n过 C 点的速度大小\n1\n2 2\n12m/s\nv\nv\na t\n=\n+\n=\n（3）在 BC 段由牛顿第二定律\nf\n2\nsin\nmg\nF\nma\n−\n=\n解得\nf\n66N\nF =\n20．（12 分）如图所示，处于竖直平面内的一探究装置，由倾角 α = 37° 的光滑直轨道 AB、圆心为 O1\n的半圆形光滑轨道 BCD、圆心为 O2 的半圆形光滑细圆管轨道 DEF、倾角也为 37° 的粗糙直轨道 FG 组\n成，B、D 和 F 为轨道间的相切点，弹性板垂直轨道固定在 G 点（与 B 点等高），B、O1、D、O2 和 F\n点处于同一直线上。已知可视为质点的滑块质量 m = 0.1 kg，轨道 BCD 和 DEF 的半径 R = 0.15 m，轨道\nAB 长度 lAB = 3 m，滑块与轨道 FG 间的动摩擦因数 μ = 7\n8 ，滑块与弹性板作用后，以等大速度弹回，\nsin37° = 0.6，cos37° = 0.8。滑块开始时均从轨道 AB 上某点静止释放，\n（1）若释放点距 B 点的长度 l = 0.7 m，求滑块到最低点 C 时轨道对其支持力 FN 的大小；\n（2）设释放点距 B 点的长度为 lx，滑块第一次经 F 点时的速度 v 与 lx 之间的关系式；\n（3）若滑块最终静止在轨道 FG 的中点，求释放点距 B 点长度 lx 的值。\n【详解】（1）到 C 点过程\nmglsin37° + mgR(1 – cos37°) = 1\n2 mvC2\nC 点时\nFN – mg = mvC2\nR\nFN = 7 N\n（2）mglxsin37° − 4mgRcos37° = 1\n2 mv2\nv =\n12lx − 9.6\n能过最高点时，则能到F 点，则恰到最高点时mglxsin37° − mg(3Rcos37° + R) = 0\nlx ≥ 0.85 m\n（3）设摩擦力做功为第一次到达中点时的n 倍\nsin37\nsin37\ncos37 =0\n2\n2\nFG\nFG\nx\nl\nl\nmgl\nmg\nn mg\n\n−\n−\n解得\n7\n6\n15\nx\nn\nl\n+\n=\n当 n = 1 时，lx1 = 13\n15 m；当 n = 3 时，lx2 = 9\n5 m；当 n = 5 时，lx3 = 41\n15 m\n21．（10 分）如图所示，水平固定一半径 r = 0.2 m 的金属圆环，长均为 r，电阻均为 R0 的两金属棒沿\n直径放置，其中一端与圆环接触良好，另一端固定在过圆心的导电竖直转轴 OO′ 上，并随轴以角速度 ω\n= 600 rad/s 匀速转动，圆环内左半圆均存在磁感应强度大小为 B1 的匀强磁场。圆环边缘、与转轴良好接\n触的电刷分别与间距 l1 的水平放置的平行金属轨道相连，轨道间接有电容 C = 0.09 F 的电容器，通过单\n刀双掷开关 S 可分别与接线柱 1、2 相连。电容器左侧宽度也为 l1、长度为 l2、磁感应强度大小为 B2 的\n匀强磁场区域。在磁场区域内靠近左侧边缘处垂直轨道放置金属棒ab，磁场区域外有间距也为 l1 的绝缘\n轨道与金属轨道平滑连接，在绝缘轨道的水平段上放置“［”形金属框 fcde。棒 ab 长度和“［”形框的\n宽度也均为 l1、质量均为 m = 0.01 kg，de 与 cf 长度均为l3 = 0.08 m，已知 l1 = 0.25 m，l2 = 0.068 m，B1\n= B2 = 1 T、方向均为竖直向上；棒 ab 和“［”形框的 cd 边的电阻均为 R = 0.1 Ω，除已给电阻外其他电\n阻不计，轨道均光滑，棒 ab 与轨道接触良好且运动过程中始终与轨道垂直。开始时开关 S 和接线柱1 接\n通，待电容器充电完毕后，将 S 从1 拨到2，电容器放电，棒 ab 被弹出磁场后与“［”形框粘在一起形\n成闭合框 abcd，此时将 S 与2 断开，已知框 abcd 在倾斜轨道上重心上升 0.2 m 后返回进入磁场。\n（1）求电容器充电完毕后所带的电荷量 Q，哪个极板（M 或N；）带正电？\n（2）求电容器释放的电荷量 ΔQ；\n（3）求框 abcd 进入磁场后，ab 边与磁场区域左边界的最大距离x。\n【详解】（1）开关S 和接线柱1 接通，电容器充电充电过程，对绕转轴OO′转动的棒由右手定则可知其动\n生电源的电流沿径向向外，即边缘为电源正极，圆心为负极，则M 板充正电；\n根据法拉第电磁感应定律可知\n𝐸= 1\n2 𝐵1𝜔𝑟2\n则电容器的电量为\n𝑄= 𝐶𝑈= 𝐶𝐸\n2 = 0.54𝐶\n（2）电容器放电过程有\n𝐵2𝑙1𝛥𝑄= 𝑚𝑣1\n棒 ab 被弹出磁场后与“［”形框粘在一起的过程有\n1\n2\n(\n)\nmv\nm\nm v\n=\n+\n棒的上滑过程有\n2\n2\n1 2\n2\n2 mv\nmgh\n=\n联立解得\n2 1\n2\n2\n0.16\nm\nQ\ngh\nC\nB l\n\n=\n=\n（3）设导体框在磁场中减速滑行的总路程为 Δx，由动量定理\n2 2\n2 1\n2\n2\n2\nB l\nx\nmv\nR\n=\n可得\n0.128\n0.08\nx\nm\nm\n=\n\n匀速运动距离为\n3\n2\n0.012m\nl\nl\n−\n=\n则\n3\n2\n0.14m\nx\nx\nl\nl\n= +\n−\n=\n22．（10 分）如图为研究光电效应的装置示意图，该装置可用于分析光子的信息。在 xOy 平面（纸面）\n内，垂直纸面的金属薄板 M、N 与 y 轴平行放置，板 N 中间有一小孔 O。有一由 x 轴、y 轴和以 O 为\n圆心、圆心角为 90° 的半径不同的两条圆弧所围的区域 Ⅰ，整个区域 Ⅰ 内存在大小可调、方向垂直纸\n面向里的匀强电场和磁感应强度大小恒为 B1、磁感线与圆弧平行且逆时针方向的磁场。区域 Ⅰ 右侧还有\n一左边界与 y 轴平行且相距为 l、下边界与 x 轴重合的匀强磁场区域 Ⅱ，其宽度为 a，长度足够长，其\n中的磁场方向垂直纸面向里，磁感应强度大小可调。光电子从板 M 逸出后经极板间电压 U 加速（板间电\n场视为匀强电场），调节区域 Ⅰ 的电场强度和区域 Ⅱ 的磁感应强度，使电子恰好打在坐标为（a + 2l，\n0）的点上，被置于该处的探测器接收。已知电子质量为 m、电荷量为 e，板 M 的逸出功为 W0，普朗克\n常量为 h。忽略电子的重力及电子间的作用力。当频率为 ν 的光照射板 M 时有光电子逸出，\n（1）求逸出光电子的最大初动能 Ekm，并求光电子从 O 点射入区域Ⅰ时的速度 v0 的大小范围；\n（2）若区域 Ⅰ 的电场强度大小 E = B1\n3eU\nm ，区域 Ⅱ 的磁感应强度大小 B2 =\nemU\nea\n ，求被探测到\n的电子刚从板 M 逸出时速度 vM 的大小及与 x 轴的夹角 β；\n（3）为了使从 O 点以各种大小和方向的速度射向区域 Ⅰ 的电子都能被探测到，需要调节区域 Ⅰ 的电\n场强度 E 和区域 Ⅱ 的磁感应强度 B2，求 E 的最大值和 B2 的最大值。\n【详解】（1）光电效应方程，逸出光电子的最大初动能\nEkm = hν – W0\n1\n2 mv02 = Ek + eU；(0 ≤ Ek ≤ W0)\n2eU\nm  ≤ v0 ≤\n2(hν + eU − W0)\n m\n（2）速度选择器\nev0B1 = eE\nv0 = E\nB1  =\n3eU\nm\n1\n2 mv02 − 1\n2 mvM2 = eU\nvM =\neU\nm\n如图所示，几何关系\nmv0\neB2 sinα = α\n2\nvMsinβ = v0sinα\nβ = 30°\n（3）由上述表达式可得\nEmax = B1\n2(hν + eU − W0)\n m\n由mv0\neB2 sinα = α\n2\nv0sinα ≤ B1\n2(hν − W0)\n m\n可得\nB2 = 2B1 2m(hν − W0)\nea",
+      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q20",
+      "content": "（9 分）第24 届冬奥会将在我国举办。钢架雪车比赛的一段赛道如图1 所示，长 12 m 水平直道 AB\n与长 20 m 的倾斜直道 BC 在 B 点平滑连接，斜道与水平面的夹角为 15°。运动员从 A 点由静止出发，\n推着雪车匀加速到 B 点时速度大小为 8 m/s，紧接着快速俯卧到车上沿 BC 匀加速下滑（图2 所示），到\nC 点共用时 5.0 s。若雪车（包括运动员）可视为质点，始终在冰面上运动，其总质量为 110 kg，sin15° =\n0.26，求雪车（包括运动员）\n（1）在直道 AB 上的加速度大小；\n（2）过 C 点的速度大小；\n（3）在斜道 BC 上运动时受到的阻力大小。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）AB 段\n2\n1\n1 1\n2\nv\na x\n=\n解得\n2\n1\n8 m/s\n3\na =\n（2）AB 段\n1\n1 1\nv\na t\n=\n解得\n1\n3\nt\ns\n=\nBC 段\n2\n2\n1 2\n2 2\n1\n2\nx\nv t\na t\n=\n+\n2\n2\ns\n2m/\na =\n过 C 点的速度大小\n1\n2 2\n12m/s\nv\nv\na t\n=\n+\n=\n（3）在 BC 段由牛顿第二定律\nf\n2\nsin\nmg\nF\nma\n−\n=\n解得\nf\n66N\nF =",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -447,11 +636,126 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
         "page": 11,
-        "questionNumber": 29,
+        "endPage": 12,
+        "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q020-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q020-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q21",
+      "content": "（12 分）如图所示，处于竖直平面内的一探究装置，由倾角 α = 37° 的光滑直轨道 AB、圆心为 O1\n的半圆形光滑轨道 BCD、圆心为 O2 的半圆形光滑细圆管轨道 DEF、倾角也为 37° 的粗糙直轨道 FG 组\n成，B、D 和 F 为轨道间的相切点，弹性板垂直轨道固定在 G 点（与 B 点等高），B、O1、D、O2 和 F\n点处于同一直线上。已知可视为质点的滑块质量 m = 0.1 kg，轨道 BCD 和 DEF 的半径 R = 0.15 m，轨道\nAB 长度 lAB = 3 m，滑块与轨道 FG 间的动摩擦因数 μ = 7\n8 ，滑块与弹性板作用后，以等大速度弹回，\nsin37° = 0.6，cos37° = 0.8。滑块开始时均从轨道 AB 上某点静止释放，\n（1）若释放点距 B 点的长度 l = 0.7 m，求滑块到最低点 C 时轨道对其支持力 FN 的大小；\n（2）设释放点距 B 点的长度为 lx，滑块第一次经 F 点时的速度 v 与 lx 之间的关系式；\n（3）若滑块最终静止在轨道 FG 的中点，求释放点距 B 点长度 lx 的值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）到 C 点过程\nmglsin37° + mgR(1 – cos37°) = 1\n2 mvC2\nC 点时\nFN – mg = mvC2\nR\nFN = 7 N\n（2）mglxsin37° − 4mgRcos37° = 1\n2 mv2\nv =\n12lx − 9.6\n能过最高点时，则能到F 点，则恰到最高点时mglxsin37° − mg(3Rcos37° + R) = 0\nlx ≥ 0.85 m\n（3）设摩擦力做功为第一次到达中点时的n 倍\nsin37\nsin37\ncos37 =0\n2\n2\nFG\nFG\nx\nl\nl\nmgl\nmg\nn mg\n\n−\n−\n解得\n7\n6\n15\nx\nn\nl\n+\n=\n当 n = 1 时，lx1 = 13\n15 m；当 n = 3 时，lx2 = 9\n5 m；当 n = 5 时，lx3 = 41\n15 m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
+        "page": 12,
+        "endPage": 13,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q021-p012-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q021-p013-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q021-p012-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q22",
+      "content": "（10 分）如图所示，水平固定一半径 r = 0.2 m 的金属圆环，长均为 r，电阻均为 R0 的两金属棒沿\n直径放置，其中一端与圆环接触良好，另一端固定在过圆心的导电竖直转轴 OO′ 上，并随轴以角速度 ω\n= 600 rad/s 匀速转动，圆环内左半圆均存在磁感应强度大小为 B1 的匀强磁场。圆环边缘、与转轴良好接\n触的电刷分别与间距 l1 的水平放置的平行金属轨道相连，轨道间接有电容 C = 0.09 F 的电容器，通过单\n刀双掷开关 S 可分别与接线柱 1、2 相连。电容器左侧宽度也为 l1、长度为 l2、磁感应强度大小为 B2 的\n匀强磁场区域。在磁场区域内靠近左侧边缘处垂直轨道放置金属棒ab，磁场区域外有间距也为 l1 的绝缘\n轨道与金属轨道平滑连接，在绝缘轨道的水平段上放置“［”形金属框 fcde。棒 ab 长度和“［”形框的\n宽度也均为 l1、质量均为 m = 0.01 kg，de 与 cf 长度均为l3 = 0.08 m，已知 l1 = 0.25 m，l2 = 0.068 m，B1\n= B2 = 1 T、方向均为竖直向上；棒 ab 和“［”形框的 cd 边的电阻均为 R = 0.1 Ω，除已给电阻外其他电\n阻不计，轨道均光滑，棒 ab 与轨道接触良好且运动过程中始终与轨道垂直。开始时开关 S 和接线柱1 接\n通，待电容器充电完毕后，将 S 从1 拨到2，电容器放电，棒 ab 被弹出磁场后与“［”形框粘在一起形\n成闭合框 abcd，此时将 S 与2 断开，已知框 abcd 在倾斜轨道上重心上升 0.2 m 后返回进入磁场。\n（1）求电容器充电完毕后所带的电荷量 Q，哪个极板（M 或N；）带正电？\n（2）求电容器释放的电荷量 ΔQ；\n（3）求框 abcd 进入磁场后，ab 边与磁场区域左边界的最大距离x。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）开关S 和接线柱1 接通，电容器充电充电过程，对绕转轴OO′转动的棒由右手定则可知其动\n生电源的电流沿径向向外，即边缘为电源正极，圆心为负极，则M 板充正电；\n根据法拉第电磁感应定律可知\n𝐸= 1\n2 𝐵1𝜔𝑟2\n则电容器的电量为\n𝑄= 𝐶𝑈= 𝐶𝐸\n2 = 0.54𝐶\n（2）电容器放电过程有\n𝐵2𝑙1𝛥𝑄= 𝑚𝑣1\n棒 ab 被弹出磁场后与“［”形框粘在一起的过程有\n1\n2\n(\n)\nmv\nm\nm v\n=\n+\n棒的上滑过程有\n2\n2\n1 2\n2\n2 mv\nmgh\n=\n联立解得\n2 1\n2\n2\n0.16\nm\nQ\ngh\nC\nB l\n\n=\n=\n（3）设导体框在磁场中减速滑行的总路程为 Δx，由动量定理\n2 2\n2 1\n2\n2\n2\nB l\nx\nmv\nR\n=\n可得\n0.128\n0.08\nx\nm\nm\n=\n\n匀速运动距离为\n3\n2\n0.012m\nl\nl\n−\n=\n则\n3\n2\n0.14m\nx\nx\nl\nl\n= +\n−\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
+        "page": 13,
+        "endPage": 14,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q022-p013-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q022-p013-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2022/2022浙江1月.pdf#q23",
+      "content": "（10 分）如图为研究光电效应的装置示意图，该装置可用于分析光子的信息。在 xOy 平面（纸面）\n内，垂直纸面的金属薄板 M、N 与 y 轴平行放置，板 N 中间有一小孔 O。有一由 x 轴、y 轴和以 O 为\n圆心、圆心角为 90° 的半径不同的两条圆弧所围的区域 Ⅰ，整个区域 Ⅰ 内存在大小可调、方向垂直纸\n面向里的匀强电场和磁感应强度大小恒为 B1、磁感线与圆弧平行且逆时针方向的磁场。区域 Ⅰ 右侧还有\n一左边界与 y 轴平行且相距为 l、下边界与 x 轴重合的匀强磁场区域 Ⅱ，其宽度为 a，长度足够长，其\n中的磁场方向垂直纸面向里，磁感应强度大小可调。光电子从板 M 逸出后经极板间电压 U 加速（板间电\n场视为匀强电场），调节区域 Ⅰ 的电场强度和区域 Ⅱ 的磁感应强度，使电子恰好打在坐标为（a + 2l，\n0）的点上，被置于该处的探测器接收。已知电子质量为 m、电荷量为 e，板 M 的逸出功为 W0，普朗克\n常量为 h。忽略电子的重力及电子间的作用力。当频率为 ν 的光照射板 M 时有光电子逸出，\n（1）求逸出光电子的最大初动能 Ekm，并求光电子从 O 点射入区域Ⅰ时的速度 v0 的大小范围；\n（2）若区域 Ⅰ 的电场强度大小 E = B1\n3eU\nm ，区域 Ⅱ 的磁感应强度大小 B2 =\nemU\nea\n ，求被探测到\n的电子刚从板 M 逸出时速度 vM 的大小及与 x 轴的夹角 β；\n（3）为了使从 O 点以各种大小和方向的速度射向区域 Ⅰ 的电子都能被探测到，需要调节区域 Ⅰ 的电\n场强度 E 和区域 Ⅱ 的磁感应强度 B2，求 E 的最大值和 B2 的最大值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）光电效应方程，逸出光电子的最大初动能\nEkm = hν – W0\n1\n2 mv02 = Ek + eU；(0 ≤ Ek ≤ W0)\n2eU\nm  ≤ v0 ≤\n2(hν + eU − W0)\n m\n（2）速度选择器\nev0B1 = eE\nv0 = E\nB1  =\n3eU\nm\n1\n2 mv02 − 1\n2 mvM2 = eU\nvM =\neU\nm\n如图所示，几何关系\nmv0\neB2 sinα = α\n2\nvMsinβ = v0sinα\nβ = 30°\n（3）由上述表达式可得\nEmax = B1\n2(hν + eU − W0)\n m\n由mv0\neB2 sinα = α\n2\nv0sinα ≤ B1\n2(hν − W0)\n m\n可得\nB2 = 2B1 2m(hν − W0)\nea",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2022,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2022/2022浙江1月.pdf",
+        "page": 14,
+        "endPage": 15,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p014-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p015-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p015-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p015-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p015-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5fac5b870810c282-q023-p014-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 31,
+    "answerGraphics": 0,
+    "assigned": 31,
+    "rendered": 32,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

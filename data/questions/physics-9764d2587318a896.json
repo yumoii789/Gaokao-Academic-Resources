@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2008/2008山东理综.pdf",
   "name": "2008山东理综",
   "track": "standard",
@@ -15,40 +16,241 @@
   "textPages": 13,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 13,
+    "sourceAnswers": 8,
+    "sourceAnalysis": 9,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2008/2008山东理综.pdf#q01",
-      "content": "50\n1.79",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "用轻弹簧竖直悬挂的质量为m 物体，静止时弹簧伸长量为L0。现用该弹簧沿斜面方向\n拉住质量为2m 的物体，系统静止时弹簧伸长量也为L0 斜面倾角为30°，如图所示。则物体\n所受摩擦力（     ）\n（A）等于零\n（B）大小为\nA1\n2\nE\nAmg，方向沿斜面向下\n（C）大小为\nAAEA 3\nE2\nE\nAmg，方向沿斜面向上\n（D）大小为mg，方向沿斜面向上",
+      "answer": "A",
+      "analysis": "竖直挂时mg = kΔx，当质量为2m 放到斜面上时，2mgsin30° = f＋kΔx，因两次时长\n度一样，所以Δx 也一样。解这两个方程可得，物体受到的摩擦力为零，A 正确。\n【高考考点】斜面上物体受力分析\n【易错提醒】不注意前题条件mg\nk x\n= ∆，有可能得出B 选项\n【备考提示】 受力分析是高考的必考内容，也是学好物理的首要条件，所以对于受力分析\n基本技能的掌握，要求学生全面掌握。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008山东理综.pdf",
-        "page": 4,
-        "questionNumber": 1,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2008/2008山东理综.pdf#q02",
-      "content": "71\nI（mA）\n0.00\n0.30\n0.60\n1.00\n1.20\n1.80\n根据上表可求出磁敏电阻的测量值RB = ________Ω，结合图\n1 可知待测磁场的磁感应强度B = _______T。\n（3）试结合图1 简要回答，磁感应强度B 在0～0.2T 和0.4～\n1.0T 范围内磁敏电阻阻值的变化规律有何不同？\n（4）某同学查阅相关资料时看到了图3 所示的磁敏电阻在\n一定温度下的电阻－磁感应强度特性曲线（关于纵轴对称），\n由图线可以得到什么结论？\n【答案】\n（1）如右图所示\n×××\n磁敏电阻\n×××\n图2\n（2）1500，0.90\n（3）在0～0.2T 范围内，磁敏电阻的阻值随磁感应强度非线性变化（或不均匀变化）;在0.\n4～1.0T 范围内，磁敏电阻的阻值随磁感应强度线性变化（或均匀变化）\n（4）磁场反向，磁敏电阻的阻值不变。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "质量为1500 kg 的汽车在平直的公路上运动，v-t 图象\n如图所示。由此可求（   ）\n（A）前25s 内汽车的平均速度\n（B）前10 s 内汽车的加速度\n（C）前10 s 内汽车所受的阻力\n（D）15～25 s 内合外力对汽车所做的功",
+      "answer": "AB",
+      "analysis": "通过v-t 图像的面积就是物体的位移，所以能求出面积，还知道时间，所以能求出\n平均速度，A 对。v-t 图像的斜率就是物体的加速度，所以能得到10 秒内的加速度，B 对。\n不知道汽车的牵引力，所以得不出受到的阻力，C 错。15s 到25s 汽车的初速度和末速度均\n已知，由动能定理，可以得出合外力做的功，D 对。\n【高考考点】物体运动图像的理解\n【易错提醒】有的学生有可能把v\nt\n−看成s\nt\n−，也有可能不能用到动能定理来解题。\n【备考提示】 在物理教学中，图像更能简单、明了的表达出物理的思想，所以学生能从图\n像中获取一定的物理信息，是教学的重中之中。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q03",
+      "content": "据报道，我国数据中继卫星“天链一号01 星”于2008 年4 月25 日在西昌卫星发射中\n心发射升空，经过4 次变轨控制后，于5 月1 日成功定点在东经77°赤道上空的同步轨道。\n0\n5\n10 15 20 25\n10\n20\n30\nv/m·s-1\nt/s\n2m\n30°\n关于成功定点后的“天链一号01 星”，下列说法正确的是（    ）\n（A）运行速度大于7.9km/s\n（B）离地面高度一定，相对地面静止\n（C）绕地球运行的角速度比月球绕地球运行的角速度大\n（D）向心加速度与静止在赤道上物体的向心加速度大小相等",
+      "answer": "BC",
+      "analysis": "由题目可以得出“天链一号卫星”是地球同步卫星，运行速度要小于7.9m/s，而它\n的位置在赤道上空，高度一定，A 错B 对。由ω = A2π\nT\nE\nA 可知，C 对。由a = AGM\nR2\nE\nA可知，D\n错。\n【高考考点】万有引力定律在航天中的应用。\n【易错提醒】D 选项，不能应用a = AGM\nR2\nE\nA，凭借直观感觉选上此选项。\n【备考提示】 这几年航天事业在我国的高速发展，这块知识对考生的考查尤为重要，不管\n是全国那个省份，这是必考内容，所以，关注航天动向，有利于我们的备考。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q04",
+      "content": "直升机悬停在空中向地面投放装有救灾物资的箱子，如图所示。设\n投放初速度为零，箱子所受的空气阻力与箱子下落速度的平方成正比，\n且运动过程中箱子始终保持图示姿态．在箱子下落过程中，下列说法正\n确的是（     ）\n（A）箱内物体对箱子底部始终没有压力\n（B）箱子刚从飞机上投下时，箱内物体受到的支持力最大\n（C）箱子接近地面时，箱内物体受到的支持力比刚投下时大\n（D）若下落距离足够长，箱内物体有可能不受底部支持力而“飘起来”",
+      "answer": "C",
+      "analysis": "因为受到阻力，不是完全失重状态，所以对支持面有压力，A 错。由于箱子阻力和\n下落的速度成二次方关系，最终将匀速运动，受到的压力等于重力，最终匀速运动，BD 错，\nC 对。\n【高考考点】超重和失重\n【易错提醒】审题不清，有的学生看成完全失重状态。\n【备考提示】超重和失重，是力和运动的连接点，在日常生活中应用到处可见，也是每年的\n高考重点，这也是我们备考的重点内容。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q05",
+      "content": "图 1、图 2 分别表示两种电压的波形，其中图 1 所示电压按正弦规律变化。下列说法\n正确的是（     ）\n（A）图 1 表示交流电，图 2 表示直流电\n（B）两种电压的有效值相等\n0\n1\n2\n3\n4\n311\n−311\nu/V\nt/(10−2 s)\n图 1\n0\n1\n2\n3\n4\n311\n−311\nu/V\nt/(10−2 s)\n图 2\nv\n（C）图 1 所示电压的瞬时值表达式为u = 311sin100πt V\n（D）图 1 所示电压经匝数比为 10∶1 的变压器变压后，频率变为原来的\nA 1\n10\nE",
+      "answer": "C",
+      "analysis": "交流电的概念，大小和方向都随时间变化，在t 轴的上方为正，下方为负，A\n错。有效值E = A Em\n2\nE\nA只对正弦交流电使用，最大值一样，所以B 错。由图可知，C 对。变\n压之后频率不变，D 错。\n【高考考点】交流电的概念和衡量交流电的常用物理量。\n【易错提醒】不明白交流电的有效值的算法，易选B。\n【备考提示】 交流电现在在山东课标里属于了解的内容，但要牵扯到电磁感应，虽然要求\n不高，便在生活中很常见，每个人的生活常识中应该必备的内容，所以高考一般要涉及，\n希望老师和同学们一定要注意。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q06",
+      "content": "如图所示，在y 轴上关于O 点对称的A、B 两点有等量同种点电\n荷＋Q，在x 轴上C 点有点电荷－Q，且CO = OD，∠ADO = 60°。下\n列判断正确的是（    ）\n（A）O 点电场强度为零\n（B）D 点电场强度为零\n（C）若将点电荷＋q 从O 移向C，电势能增大\n（D）若将点电荷－q 从O 移向C，电势能增大",
+      "answer": "BD",
+      "analysis": "电场是矢量，叠加遵循平行四边行定则，由\n2\nkQ\nE\nr\n=\n和几何关系可以得出，A 错B\n对。在O\nC\n→\n之间，合场强的方向向左，把负电荷从Ｏ移动到C，电场力做负功，电势能\n增加，C 错D 对。\n【高考考点】电场强度的叠加\n【易错提醒】混淆正电荷和负电荷在电场中的受力情况和电场力做功情况。\n【备考提示】电场是每年高考的必考内容，考纲要求也很高。本题涉及到了矢量运算，在教\n学中强化矢量的运算也很重要。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q07",
+      "content": "两根足够长的光滑导轨竖直放置，间距为L，底端接阻值为R\n的电阻。将质量为m 的金属棒悬挂在一个固定的轻弹簧下端，金\n属棒和导轨接触良好，导轨所在平面与磁感应强度为B 的匀强磁\n场垂直，如图所示。除电阻R 外其余电阻不计。现将金属棒从弹\n簧原长位置由静止释放，则（     ）\n（A）释放瞬间金属棒的加速度等于重力加速度g\n（B）金属棒向下运动时，流过电阻R 的电流方向为a→b\n（C）金属棒的速度为v 时，所受的安培力大小为F = AB2L2v\nR\nE\n（D）电阻R 上产生的总热量等于金属棒重力势能的减少",
+      "answer": "C\n+Q\n+Q\n－Q\nA\ny\nC\nO\nD x\nB\n60°\n×\n×\n×\n×\nB\n×\n×\n×\n×\n×\n×\n×\n×\nL\nR\na\nb\nm",
+      "analysis": "在释放的瞬间，速度为零，不受安培力的作用，只受到重力，A 对。由右手定则可\n得，电流的方向从b 到a，B 错。当速度为v 时，产生的电动势为E\nBlv\n=\n，受到的安培力\n为F\nBIL\n=\n，计算可得\n2\n2\nB L v\nF\nR\n=\n,C 对。在运动的过程中，是弹簧的弹性势能、重力势能\n和内能的转化，D 错。\n【高考考点】电磁感应\n【易错提醒】不能理解瞬间释放的含义，考虑受到安培力。\n【备考提示】 电磁感应是电场和磁场知识的有机结合，所以难度相对也会大一些，现在高\n考要求不是很高，一般不出大型计算题，但在选择题中，以最后一个题出现。\n【必做部分】",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q08",
+      "content": "（12 分）2007 年诺贝尔物理学奖授予了两位发现“巨\n磁电阻”效应的物理学家。材料的电阻随磁场的增加而增\n大的现象称为磁阻效应，利用这种效应可以测量磁感应强\n度。\n若图1 为某磁敏电阻在室温下的电阻-磁感应强度特性曲\n线，其中RB、R0 分别表示有、无磁敏电阻的阻值．为了测\n量磁感应强度B，需先测量磁敏电阻处于磁场中的电阻值\nRB．请按要求完成下列实验。\n（1）设计一个可以测量磁场中该磁敏电阻阻值的电路，在图2 的虚线框内画出实验电路原\n理图（磁敏电阻及所处磁场已给出，待测磁场磁感应强度大小约为0.6～1.0T，不考虑磁场\n对电路其它部分的影响）．要求误差较小。\n提供的器材如下：\nA．磁敏电阻，无磁场时阻值R0 = 150 Ω\nB．滑动变阻器R，全电阻约20 Ω\nC．电流表，量程2.5 mA，内阻约30 Ω\nD．电压表，量程3 V，内阻约3 kΩ\nE．直流电源E，电动势3 V，内阻不计\nF．开关S，导线若干\n（2）正确接线后，将磁敏电阻置入待测磁场中，测量数据如下表：\n1\n2\n3\n4\n5\n6\nU（V）\n0.00\n0.45\n0.91\n1.50\n1.79\n2.71\nI（mA）\n0.00\n0.30\n0.60\n1.00\n1.20\n1.80\n根据上表可求出磁敏电阻的测量值RB = ________Ω，结合图\n1 可知待测磁场的磁感应强度B = _______T。\n（3）试结合图1 简要回答，磁感应强度B 在0～0.2T 和0.4～\n1.0T 范围内磁敏电阻阻值的变化规律有何不同？\n（4）某同学查阅相关资料时看到了图3 所示的磁敏电阻在\n一定温度下的电阻－磁感应强度特性曲线（关于纵轴对称），\n由图线可以得到什么结论？",
+      "answer": "（1）如右图所示\n×××\n磁敏电阻\n×××\n图2\n（2）1500，0.90\n（3）在0～0.2T 范围内，磁敏电阻的阻值随磁感应强度非线性变化（或不均匀变化）;在0.\n4～1.0T 范围内，磁敏电阻的阻值随磁感应强度线性变化（或均匀变化）\n（4）磁场反向，磁敏电阻的阻值不变。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -56,22 +258,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008山东理综.pdf",
         "page": 4,
-        "questionNumber": 2,
+        "endPage": 5,
+        "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q008-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q008-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q008-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q008-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q008-p004-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q03",
-      "content": "（15 分）某兴趣小组设计了如图所示\n的玩具轨道，其中“2008”四个等高数字\n用内壁光滑的薄壁细圆管弯成，固定在竖\n直平面内（所有数字均由圆或半圆组成，\n圆半径比细管的内径大得多），底端与水平\n地面相切。弹射装置将一个小物体（可视\n为质点）以va = 5 m/s 的水平初速度由a 点弹出，从b 点进入轨道，依次经过“8002”后从\np 点水平抛出。小物体与地面ab 段间的动摩擦因数μ = 0.3，不计其它机械能损失．已知ab\n段长L = 1.5 m，数字“0”的半径R = 0.2 m，小物体质量m = 0.01kg，g = 10 m/s2。求：\n（1）小物体从p 点抛出后的水平射程。\n（2）小物体经过数字“0”的最高点时管道对小物体作用力的大小和方向。\n【解析】（1）设小物体运动到p 点时的速度大小为v，对小物体由a 运动到p 过程应用动能\n定理得\n2\n2\n1\n1\n2\n2\n2\na\nmgL\nRmg\nmv\nmv\n−µ\n−\n=\n−\n①\n2\n1\n2\n2\nR\ngt\n=\n②\ns=vt\n③\n联立①②③式，代入数据解得\ns=0.8m\n④\n（2）设在数字“0”的最高点时管道对小物体的作用力大小为F，取竖直向下为正方向\n2\nmv\nF\nmg\nR\n+\n=\n⑤\n联立①⑤式，代入数据解得\n× × ×\n× × ×\n磁敏电阻\nV\nA\nR\nE\nS\nb\na\np\nva\nF = 0.3N\n⑥\n方向竖直向下",
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q09",
+      "content": "（15 分）某兴趣小组设计了如图所示\n的玩具轨道，其中“2008”四个等高数字\n用内壁光滑的薄壁细圆管弯成，固定在竖\n直平面内（所有数字均由圆或半圆组成，\n圆半径比细管的内径大得多），底端与水平\n地面相切。弹射装置将一个小物体（可视\n为质点）以va = 5 m/s 的水平初速度由a 点弹出，从b 点进入轨道，依次经过“8002”后从\np 点水平抛出。小物体与地面ab 段间的动摩擦因数μ = 0.3，不计其它机械能损失．已知ab\n段长L = 1.5 m，数字“0”的半径R = 0.2 m，小物体质量m = 0.01kg，g = 10 m/s2。求：\n（1）小物体从p 点抛出后的水平射程。\n（2）小物体经过数字“0”的最高点时管道对小物体作用力的大小和方向。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设小物体运动到p 点时的速度大小为v，对小物体由a 运动到p 过程应用动能\n定理得\n2\n2\n1\n1\n2\n2\n2\na\nmgL\nRmg\nmv\nmv\n−µ\n−\n=\n−\n①\n2\n1\n2\n2\nR\ngt\n=\n②\ns=vt\n③\n联立①②③式，代入数据解得\ns=0.8m\n④\n（2）设在数字“0”的最高点时管道对小物体的作用力大小为F，取竖直向下为正方向\n2\nmv\nF\nmg\nR\n+\n=\n⑤\n联立①⑤式，代入数据解得\n× × ×\n× × ×\n磁敏电阻\nV\nA\nR\nE\nS\nb\na\np\nva\nF = 0.3N\n⑥\n方向竖直向下",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -79,22 +294,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008山东理综.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q009-p005-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q04",
-      "content": "（18 分）两块足够大的平行金属极板水平放置，极板间加有空间分布均匀、大小随时间\n周期性变化的电场和磁场，变化规律分别如图1、图2 所示（规定垂直纸面向里为磁感应强\n度的正方向）。在t = 0 时刻由负极板释放一个初速度为零的带负电的粒子（不计重力）。若\n电场强度E0、磁感应强度B0、粒子的比荷\nAq\nm\nE\nA均已知，且t0 = A2πm\nqB0\nE\nA，两板间距h = A10π2mE0\nqB02\nE\nA。\n（1）求粒子在0～t0 时间内的位移大小与极板间距h 的比值；\n（2）求粒子在板板间做圆周运动的最大半径（用h 表示）；\n（3）若板间电场强度E 随时间的变化仍如图1 所示，磁场的变化改为如图3 所示，试画出\n粒子在板间运动的轨迹图（不必写计算过程）。\n解法一：（1）设粒子在0～t0 时间内运动的位移大小为s1\n2\n1\n0\n1\n2\ns\nat\n=\n①\n0\nqE\na\nm\n=\n②\n又已知\n2\n0\n0\n2\n0\n0\n10\n2\n,\nmE\nm\nt\nh\nqB\nqB\nπ\nπ\n=\n=\n联立①②式解得\n1\n1\n5\ns\nh =\n③\n（2）粒子在t0~2t0 时间内只受洛伦兹力作用，且速度与磁场方向垂直，所以粒子做\n匀速圆周运动。设运动速度大小为v1，轨道半径为R1，周期为T，则\nt\n2t0\nt0\n3t0 4t0 5t0\nE0\nE\n0\n图1\n2t0\nt0\n3t0 4t0 5t0\nt\nB0\nB\n0\n图2\n6t0\n2t0\nt0\n3t0 4t0 5t0\nt\nB0\nB\n0\n图3\n6t0\n－B0\n＋\n－\n1\n0\nv\nat\n=\n④\n2\n1\n1\n0\n1\nmv\nqv B\nR\n=\n⑤\n联立④⑤式得\n1\n5\nh\nR = π\n⑥\n又\n0\n2 m\nT\nqB\nπ\n=\n⑦\n即粒子在t0~2t0 时间内恰好完成一个周期的圆周运动。在2t0~3t0 时间内，粒\n子做初速度为v1 的匀加速直线运动，设位移大小为s2\n2\n2\n1 0\n0\n1\n2\ns\nv t\nat\n=\n+\n⑧\n解得\n2\n3\n5\ns\nh\n=\n⑨\n由于s1+s2＜h,所以粒子在3t0~4t0 时间内继续做匀速圆周运动，设速度大小为v2，半径为\nR2\n2\n1\n0\nv\nv\nat\n=\n+\n⑩\n2\n2\n2\n0\n2\nmv\nqv B\nR\n=\nA ○\n11 E\n解得\n2\n2\n5\nh\nR = π\nA ○\n12 E\n由于s1+s2+R2＜h,粒子恰好又完成一个周期的圆周运动。在4t0~5t0 时间内，粒子运动到\n正极板（如图1 所示）。因此粒子运动的最大半径\n2\n2\n5\nh\nR = π\n。\n（3）粒子在板间运动的轨迹如图2 所示。\n解法二：由题意可知，电磁场的周期为2t0，前半周期粒子受电场作用做匀加速直线运动，\n加速度大小为\n0\nqE\na\nm\n=\n        方向向上\n        后半周期粒子受磁场作用做匀速圆周运动，周期为T\n0\n0\n2 m\nT\nt\nqB\nπ\n=\n=\n        粒子恰好完成一次匀速圆周运动。至第n 个周期末，粒子位移大小为sn\n2\n0\n1 (\n)\n2\nns\na nt\n=\n        又已知\n2\n0\n2\n0\n10\nmE\nh\nqB\nπ\n=\n        由以上各式得\n2\n5\nn\nn\ns\nh\n=\n        粒子速度大小为\n0\nnv\nant\n=\n       粒子做圆周运动的半径为\n0\nn\nn\nmv\nR\nqB\n=\n       解得\n5\nn\nn\nR\nh\n= π\n       显然\n2\n2\n3\ns\nR\nh\ns\n+\n<\n<\n      （1）粒子在0～t0 时间内的位移大小与极板间距h 的比值\n1\n1\n5\ns\nh =\n      （2）粒子在极板间做圆周运动的最大半径\n2\n2\n5\nR\nh\n= π\n      （3）粒子在板间运动的轨迹图见解法一中的图2。\n【选做部分】",
+      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q10",
+      "content": "（18 分）两块足够大的平行金属极板水平放置，极板间加有空间分布均匀、大小随时间\n周期性变化的电场和磁场，变化规律分别如图1、图2 所示（规定垂直纸面向里为磁感应强\n度的正方向）。在t = 0 时刻由负极板释放一个初速度为零的带负电的粒子（不计重力）。若\n电场强度E0、磁感应强度B0、粒子的比荷\nAq\nm\nE\nA均已知，且t0 = A2πm\nqB0\nE\nA，两板间距h = A10π2mE0\nqB02\nE\nA。\n（1）求粒子在0～t0 时间内的位移大小与极板间距h 的比值；\n（2）求粒子在板板间做圆周运动的最大半径（用h 表示）；\n（3）若板间电场强度E 随时间的变化仍如图1 所示，磁场的变化改为如图3 所示，试画出\n粒子在板间运动的轨迹图（不必写计算过程）。\n解法一：（1）设粒子在0～t0 时间内运动的位移大小为s1\n2\n1\n0\n1\n2\ns\nat\n=\n①\n0\nqE\na\nm\n=\n②\n又已知\n2\n0\n0\n2\n0\n0\n10\n2\n,\nmE\nm\nt\nh\nqB\nqB\nπ\nπ\n=\n=\n联立①②式解得\n1\n1\n5\ns\nh =\n③\n（2）粒子在t0~2t0 时间内只受洛伦兹力作用，且速度与磁场方向垂直，所以粒子做\n匀速圆周运动。设运动速度大小为v1，轨道半径为R1，周期为T，则\nt\n2t0\nt0\n3t0 4t0 5t0\nE0\nE\n0\n图1\n2t0\nt0\n3t0 4t0 5t0\nt\nB0\nB\n0\n图2\n6t0\n2t0\nt0\n3t0 4t0 5t0\nt\nB0\nB\n0\n图3\n6t0\n－B0\n＋\n－\n1\n0\nv\nat\n=\n④\n2\n1\n1\n0\n1\nmv\nqv B\nR\n=\n⑤\n联立④⑤式得\n1\n5\nh\nR = π\n⑥\n又\n0\n2 m\nT\nqB\nπ\n=\n⑦\n即粒子在t0~2t0 时间内恰好完成一个周期的圆周运动。在2t0~3t0 时间内，粒\n子做初速度为v1 的匀加速直线运动，设位移大小为s2\n2\n2\n1 0\n0\n1\n2\ns\nv t\nat\n=\n+\n⑧\n解得\n2\n3\n5\ns\nh\n=\n⑨\n由于s1+s2＜h,所以粒子在3t0~4t0 时间内继续做匀速圆周运动，设速度大小为v2，半径为\nR2\n2\n1\n0\nv\nv\nat\n=\n+\n⑩\n2\n2\n2\n0\n2\nmv\nqv B\nR\n=\nA ○\n11 E\n解得\n2\n2\n5\nh\nR = π\nA ○\n12 E\n由于s1+s2+R2＜h,粒子恰好又完成一个周期的圆周运动。在4t0~5t0 时间内，粒子运动到\n正极板（如图1 所示）。因此粒子运动的最大半径\n2\n2\n5\nh\nR = π\n。\n（3）粒子在板间运动的轨迹如图2 所示。\n解法二：由题意可知，电磁场的周期为2t0，前半周期粒子受电场作用做匀加速直线运动，\n加速度大小为\n0\nqE\na\nm\n=\n        方向向上\n        后半周期粒子受磁场作用做匀速圆周运动，周期为T\n0\n0\n2 m\nT\nt\nqB\nπ\n=\n=\n        粒子恰好完成一次匀速圆周运动。至第n 个周期末，粒子位移大小为sn\n2\n0\n1 (\n)\n2\nns\na nt\n=\n        又已知\n2\n0\n2\n0\n10\nmE\nh\nqB\nπ\n=\n        由以上各式得\n2\n5\nn\nn\ns\nh\n=\n        粒子速度大小为\n0\nnv\nant\n=\n       粒子做圆周运动的半径为\n0\nn\nn\nmv\nR\nqB\n=\n       解得\n5\nn\nn\nR\nh\n= π\n       显然\n2\n2\n3\ns\nR\nh\ns\n+\n<\n<",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）粒子在0～t0 时间内的位移大小与极板间距h 的比值\n1\n1\n5\ns\nh =\n      （2）粒子在极板间做圆周运动的最大半径\n2\n2\n5\nR\nh\n= π\n      （3）粒子在板间运动的轨迹图见解法一中的图2。\n【选做部分】\n36．（8 分）【物理－物理3－3】\n喷雾器内有10L 水，上部封闭有1 atm 的空气2L。\n关闭喷雾阀门，用打气筒向喷雾器内再充入1atm 的\n空气3L（设外界环境温度一定，空气可看作理想气\n体）。\n（1）当水面上方气体温度与外界温度相等时，求气\n体压强，并从微观上解释气体压强变化的原因。\n（2）打开喷雾阀门，喷雾过程中封闭气体可以看成\n等温膨胀，此过程气体是吸热还是放热？简要说明\n理由。\n（1）设气体初态压强为p1,体积为V1；末态压强为p2,体积为V2，由玻意耳定律\np1V1= p1V1                               ①\n        代入数据得    p2=2.5 atm                     ②\n        微观解释：温度不变，分子平均动能不变，单位体积内分子数增加，所以压强增加。\n        （2）吸热。气体对外做功而内能不变，根据热力学第一定律可知气体吸热。\n37．（8 分）【物理－物理3－4】\n麦克斯韦在1865 年发表的《电磁场的动力学理论》一文中揭示了电、磁现象与光的内在联\n系及统一性，即光是电磁波。\n（1）一单色光波在折射率为1.5 的介质中传播，某时刻电场横波图象如图1 所示，求该光\n波的频率。\n（2）图2 表示两面平行玻璃砖的截面图，一束平行于CD 边的单色光入射到AC 界面上，\na、b 是其中的两条平行光线。光线a 在玻璃砖中的光路已给出。画出光线B 从玻璃砖中管\n次出射的光路图，并标出出射光线与界面法线夹角的度数。\n解：（1）设光在介质中的传播速度为v，波长为λ,频率为f，则\n         f= v\nλ\n                     ①\nc\nv\nn\n=\n                     ②\n联立①②式得\nc\nf\nnλ\n=\n         ③\n从波形图上读出波长\n7\n4 10\nλ\n−\n=\n×\nm，代入数据解得\nf=5×1014Hz\n（2）光路如图所示\n38．（8 分）【物理－物理3－5】\n（1）在氢原子光谱中，电子从较高能级跃迁到n = 2 能级发出的谱线属于巴耳末线系。若一\n群氢原子自发跃过时发出的谱线中只有2 条属于巴耳末线系，则这群氢原子自发跃迁时最\n多可发生_____条不同频率的谱线。\n（2）一个物体静置于光滑水平面上，外面扣一质量为M 的盒子，如图1 所示．现给盒子—\n初速度v0，此后，盒子运动的v-t 图象呈周期性变化，如图2 所示。请据此求盒内物体的质\n量。\n0\n1 2 3\n4\n5 6 7\n8\nE\nx/(10-7 m)\n图1\nA\nB\nC\nD\na\nb\n45°\n45°\n45°\n30°\n图2\n解：（1）6\n（2）设物体的质量为m,t0 时刻受盒子碰撞获得速度v，根据动量守恒定律\n0\nMv\nmv\n=\n                  ①\n3t0 时刻物体与盒子右壁碰撞使盒子速度又变为v0，说明碰撞是弹性碰撞\n2\n2\n0\n1\n1\n2\n2\nMv\nmv\n=\n                ②\n联立①②解得    m=M                       ③\n(也可通过图象分析得出v0=v,结合动量守恒，得出正确结果)\nv0\n3t0\nt0\n7t0 9t0\n5t0\nv0\nv\n0\n图2\nt\n图1",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -102,81 +325,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008山东理综.pdf",
         "page": 6,
+        "endPage": 10,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q05",
-      "content": "（8 分）【物理－物理3－3】\n喷雾器内有10L 水，上部封闭有1 atm 的空气2L。\n关闭喷雾阀门，用打气筒向喷雾器内再充入1atm 的\n空气3L（设外界环境温度一定，空气可看作理想气\n体）。\n（1）当水面上方气体温度与外界温度相等时，求气\n体压强，并从微观上解释气体压强变化的原因。\n（2）打开喷雾阀门，喷雾过程中封闭气体可以看成\n等温膨胀，此过程气体是吸热还是放热？简要说明\n理由。\n【解析】（1）设气体初态压强为p1,体积为V1；末态压强为p2,体积为V2，由玻意耳定律\np1V1= p1V1                               ①\n        代入数据得    p2=2.5 atm                     ②\n        微观解释：温度不变，分子平均动能不变，单位体积内分子数增加，所以压强增加。\n        （2）吸热。气体对外做功而内能不变，根据热力学第一定律可知气体吸热。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p009-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p009-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p009-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p010-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p010-f08.jpg"
       ],
-      "year": 2008,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
-        "page": 8,
-        "questionNumber": 36,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q06",
-      "content": "（8 分）【物理－物理3－4】\n麦克斯韦在1865 年发表的《电磁场的动力学理论》一文中揭示了电、磁现象与光的内在联\n系及统一性，即光是电磁波。\n（1）一单色光波在折射率为1.5 的介质中传播，某时刻电场横波图象如图1 所示，求该光\n波的频率。\n（2）图2 表示两面平行玻璃砖的截面图，一束平行于CD 边的单色光入射到AC 界面上，\na、b 是其中的两条平行光线。光线a 在玻璃砖中的光路已给出。画出光线B 从玻璃砖中管\n次出射的光路图，并标出出射光线与界面法线夹角的度数。\n解：（1）设光在介质中的传播速度为v，波长为λ,频率为f，则\n         f= v\nλ\n                     ①\nc\nv\nn\n=\n                     ②\n联立①②式得\nc\nf\nnλ\n=\n         ③\n从波形图上读出波长\n7\n4 10\nλ\n−\n=\n×\nm，代入数据解得\nf=5×1014Hz\n（2）光路如图所示",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2008,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
-        "page": 8,
-        "questionNumber": 37,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2008/2008山东理综.pdf#q07",
-      "content": "（8 分）【物理－物理3－5】\n（1）在氢原子光谱中，电子从较高能级跃迁到n = 2 能级发出的谱线属于巴耳末线系。若一\n群氢原子自发跃过时发出的谱线中只有2 条属于巴耳末线系，则这群氢原子自发跃迁时最\n多可发生_____条不同频率的谱线。\n（2）一个物体静置于光滑水平面上，外面扣一质量为M 的盒子，如图1 所示．现给盒子—\n初速度v0，此后，盒子运动的v-t 图象呈周期性变化，如图2 所示。请据此求盒内物体的质\n量。\n0\n1 2 3\n4\n5 6 7\n8\nE\nx/(10-7 m)\n图1\nA\nB\nC\nD\na\nb\n45°\n45°\n45°\n30°\n图2\n解：（1）6\n（2）设物体的质量为m,t0 时刻受盒子碰撞获得速度v，根据动量守恒定律\n0\nMv\nmv\n=\n                  ①\n3t0 时刻物体与盒子右壁碰撞使盒子速度又变为v0，说明碰撞是弹性碰撞\n2\n2\n0\n1\n1\n2\n2\nMv\nmv\n=\n                ②\n联立①②解得    m=M                       ③\n(也可通过图象分析得出v0=v,结合动量守恒，得出正确结果)\nv0\n3t0\nt0\n7t0 9t0\n5t0\nv0\nv\n0\n图2\nt\n图1\n2008 山东理综 参考答案\n16．A\n17．ABD\n18．BC\n19．C\n20．C\n21．BD\n22．AC\n23．（1）如右图所示\n（2）1500；0.90\n（3）在0～0.2T 范围内，磁敏电阻的阻值随磁感应强度非线性变化（或不均匀变化）；在0.\n4～1.0T 范围内，磁敏电阻的阻值随磁感应强度线性变化（或均匀变化）\n（4）磁场反向，磁敏电阻的阻值不变。\n24．解：（1）设小物体运动到p 点时的速度大小为v，对小物体由a 到p 过程应用动能定理\n得：\n－μmgL－2mgR = A1\n2\nE\nAmv2－A1\n2\nE\nAmva2\n2R = A1\n2\nE\nAgt2\ns = vt\n解得：s = 0.8 m\n（2）设在数字“0”的最高点时管道对小物体的作用力大小为F，有：\nF＋mg = mAv2\nR\nE\nA\n解得：F = 0.3N，方向竖直向下\n25．解法一：（1）设粒子在0～t0 时间内运动的位移大小为s1\ns1 = A1\n2\nE\nAat02\na = AqE0\nm\nE\n又已知t0 = A2πm\nqB0\nE\nA，h = A10π2mE0\nqB02\nE\n解得：As1\nh\nE\nA = A1\n5\nE\n（2）粒子在t0～2t0 间内只受洛伦兹力作用，且速度与磁场方向垂直，所以粒子做匀速圆周\n运动．设运动速度大小为v1，轨道半径为R1，周期为T，则\n× × ×\n× × ×\n磁敏电阻\nV\nA\nR\nE\nS\nv1 = at0\nqv1B0 = m Av12\nR1\nE\n解得：R1 = A h\n5π\nE\n又 T = A2πm\nqB0\nE\n即粒子在t0～2t0 时间内恰好完成一个周期的圆周运动。在2t0～3t0 时间内，粒子做初速度为\nv1 的匀加速直线运动，设位移大小为s2\ns2 = v1t0＋A1\n2\nE\nAat02\n解得：s2 = A3\n5\nE\nAh\n由于s1＋s2＜h，所以粒子在3t0～4t0 时间内继续做匀速圆周运动，设速度大小为v2，半径为\nR2\nv2 = v1＋at0\nqv2B0 = m Av22\nR2\nE\n解得：R2 = A2h\n5π\nE\n由于s1＋s2＋R2＜h，粒子恰好又完成一个周期的圆周运动．在4t0～5t0 时间内，粒子运动到\n正极板（如图1 所示）。因此粒子运动的最大半径R2 = A2h\n5π\nE\n（3）粒子在板间运动的轨迹如图2 所示\n解法二：由题意可知，电磁场的周期为2t0，前半周期粒子受电场作用做匀加速直线运动，\n加速度大小为\na = AqE0\nm\nE\nA，方向向上\n后半周期粒子受磁场作用做匀速圆周运动，周期为T\nT = A2πm\nqB0\nE\nA = t0\n粒子恰好完成一次匀速圆周运动．至第n 个周期末，粒子位移大小为sn\nsn = A1\n2\nE\nAa（nt0）2\n又已知h = A10π2mE0\nqB02\nE\n由以上各式得：sn = An2\n5\nE\nAh\n粒子速度大小为：vn = ant0\n粒子做圆周运动的半径为：Rn = Amvn\nqB0\nE\n解得：Rn = Anh\n5π\nE\n显然：s2＋R2＜h＜s3\n（1）粒子在0～t0 时间内的位移大小与极板间距h 的比值\nAs1\nh\nE\nA = A1\n5\nE\n（2）粒子在极板间做圆周运动的最大半径R2 = A2h\n5π\nE\n（3）粒子在板间运动的轨迹图见解法一中的图2\n36．解：（1）设气体初态压强为p1，体积为V1；末态压强为p2，体积为V2，由玻意耳定律\np1V1 = p1V1\n代入数据得：p2 = 2.5 atm\n微观察解释：温度不变，分子平均动能不变，单位体积内分子数增加，所以压强增加。\n（2）吸热。气体对外做功而内能不变，根据热力学第一定律可知气体吸热。\n37．解：（1）设光在介质中的传播速度为v，波长为λ，频率为f，则\nf = Av\nλ\nE\nA\nv = Ac\nn\nE\nA\n解得：f = A c\nnλ\nE\n从波形图上读出波长λ = 4×10-7m，代入数据解得\nf = 5×1014 Hz\n（2）光路如图所示\n38、解：（1）6\n（2）设物体的质量为m，t0 时刻受盒子碰撞获得速度v，根据动量守恒定律\nMv0 = mv\n3t0 时刻物体与盒子右壁碰撞使盒子速度又变为v0，说明碰撞是弹性碰撞\nMve - 五 mv?\n解 得 : m = M\n( 也 可 通 过 图 象 分 析 得 出 =w, 结 合 动 量 守 恒 , 得 出 正 确 结 果 )",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取",
-        "OCR待校对"
-      ],
-      "year": 2008,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2008/2008山东理综.pdf",
-        "page": 9,
-        "questionNumber": 38,
-        "extraction": "ocr",
-        "confidence": null,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-9764d2587318a896-q010-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 3,
+    "assigned": 20,
+    "rendered": 20,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

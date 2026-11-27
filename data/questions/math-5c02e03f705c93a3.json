@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2016/2016浙江文.pdf",
   "name": "2016浙江文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q01",
       "content": "已知全集U = {1, 2, 3, 4, 5, 6}, 集合P = {1, 3, 5}, Q = {1, 2, 4}, 则\n(\n∁UP\n)\n∪Q =\n(\n)\n(A) {1}\n(B) {3, 5}\n(C) {1, 2, 4, 6}\n(D) {1, 2, 3, 4, 5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q02",
       "content": "已知互相垂直的平面α, β 交于直线l, 若直线m, n 满足m\nα, n ⊥β,\n则\n(\n)\n(A) m\nl\n(B) m\nn\n(C) n ⊥l\n(D) m ⊥n",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q03",
       "content": "函数y = sin x2 的图象是\n(\n)\n(A)\nx\nπ\n2\n−π\n2\ny\n1\nO\n(B)\nx\nπ\n2\n−π\n2\ny\n1\nO\n(C)\nx\nπ\n2\n−π\n2\ny\n1\nO\n(D)\nx\nπ\n2\n−π\n2\ny\n1\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q04",
       "content": "若平面区域\n\n\n\n\n\n\n\nx + y −3 ⩾0,\n2x −y −3 ⩽0,\nx −2y + 3 ⩾0\n夹在两条斜率为1 的平行直线之间, 则这两\n条平行直线间的距离的最小值是\n(\n)\n(A) 3\n√\n5\n5\n(B)\n√\n2\n(C) 3\n√\n2\n2\n(D)\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q05",
       "content": "已知a, b > 0, 且a̸ = 1, b̸ = 1, 若loga b > 1, 则\n(\n)\n(A) (a −1) (b −1) < 0\n(B) (a −1) (a −b) > 0\n(C) (b −1) (b −a) < 0\n(D) (b −1) (b −a) > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q06",
       "content": "已知函数f (x) = x2 + bx, 则“b < 0”是“f (f (x)) 的最小值与f (x) 的最小\n值相等”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q07",
       "content": "已知函数f (x) 满足: f (x) ⩾|x| 且f (x) ⩾2x, x ∈R.\n(\n)\n(A) 若f (a) ⩽|b|, 则a ⩽b\n(B) 若f (a) ⩽2b, 则a ⩽b\n(C) 若f (a) ⩾|b|, 则a ⩾b\n(D) 若f (a) ⩾2b, 则a ⩾b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q08",
       "content": "如图,\n点列{An},\n{Bn} 分别在某锐角的两边上,\n且|AnAn+1|\n=\n|An+1An+2|, An̸ = An+2, n ∈N∗, |BnBn+1| = |Bn+1Bn+2|, Bn̸ = Bn+2,\nn ∈N∗(P̸ = Q 表示点P 与Q 不重合).\n若dn = |AnBn|, Sn 为\n△AnBnBn+1 的面积, 则\n(\n)\nA1\nA2\nA3\nAn\nAn+1\n· · ·\nB1 B2 B3\nBnBn+1\n· · ·\n· · ·\n· · ·\nS1 S2\nSn\n(A) {Sn} 是等差数列\n(B) {S2\nn} 是等差数列\n(C) {dn} 是等差数列\n(D) {d2\nn} 是等差数列",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -194,22 +251,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q09",
       "content": "某几何体的三视图如图所示(单位: cm), 则该几何体的表面积是\ncm2, 体积是\ncm3.\n2\n2\n2\n2\n2\n2\n正视图\n俯视图\n侧视图",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -217,22 +284,37 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q10",
       "content": "已知a ∈R, 方程a2x2 + (a + 2) y2 + 4x + 8y + 5a = 0 表示圆, 则圆心坐\n标是\n, 半径是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -240,22 +322,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q11",
       "content": "已知2 cos2 x + sin 2x = A sin (ωx + φ) + B (A > 0), 则A =\n,\nB =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -263,22 +351,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q12",
       "content": "设函数f (x) = x3+3x2+1, 已知a̸ = 0, 且f (x)−f (a) = (x −b) (x −a)2,\nx ∈R, 则实数a =\n, b =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -286,22 +380,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q13",
       "content": "设双曲线x2 −y2\n3 = 1 的左, 右焦点分别为F1, F2, 若点P 在双曲线上, 且\n△F1PF2 为锐角三角形, 则|PF1| + |PF2| 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -309,22 +409,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q14",
       "content": "如图, 已知平面四边形ABCD, AB = BC = 3, CD = 1, AD =\n√\n5,\n∠ADC = 90◦. 沿直线AC 将△ACD 翻折成△ACD′, 直线AC 与BD′\n所成角的余弦的最大值是\n.\nC\nB\nA\nD\nD′",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -332,22 +438,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q15",
       "content": "已知平面向量a, b, |a| = 1, |b| = 2, a · b = 1. 若e 为平面单位向量, 则\n|a · e| + |b · e| 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -355,22 +471,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q16",
       "content": "在△ABC 中, 内角A, B, C 所对的边分别为a, b, c. 已知b+c = 2a cos B.\n(1) 证明: A = 2B;\n(2) 若cos B = 2\n3, 求cos C 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -378,22 +500,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q17",
       "content": "设数列{an} 的前n 项和为Sn. 已知S2 = 4, an+1 = 2Sn + 1, n ∈N∗.\n(1) 求通项公式an;\n(2) 求数列{|an −n −2|} 的前n 项和.\n1029",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -401,22 +533,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q18",
       "content": "如图, 在三棱台ABC−DEF 中, 平面BCFE ⊥平面ABC, ∠ACB = 90◦,\nBE = EF = FC = 1, BC = 2, AC = 3.\n(1) 求证: BF ⊥平面ACFD;\n(2) 求直线BD 与平面ACFD 所成角的余弦值.\nA\nB\nF\nC\nD\nE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -424,22 +566,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q19",
       "content": "如图, 设抛物线y2 = 2px (p > 0) 的焦点为F, 抛物线上的点A 到y 轴的\n距离等于|AF| −1.\n(1) 求p 的值;\n(2) 若直线AF 交抛物线于另一点B, 过B 与x 轴平行的直线和过F 与\nAB 垂直的直线交于点N, AN 与x 轴交于点M. 求M 的横坐标的取值\n范围.\nx\ny\nO\nA\nB\nF\nM\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -447,22 +599,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016浙江文.pdf#q20",
       "content": "设函数f (x) = x3 +\n1\n1 + x, x ∈[0, 1]. 证明:\n(1) f (x) ⩾1 −x + x2;\n(2) 3\n4 < f (x) ⩽3\n2.\n1030",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -470,11 +632,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016浙江文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5c02e03f705c93a3-q020-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 14,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

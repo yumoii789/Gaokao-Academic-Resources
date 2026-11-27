@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2020/2020北京.pdf",
   "name": "2020北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q01",
       "content": "已知集合A = {−1, 0, 1, 2}, B = {x | 0 < x < 3}, 则A ∩B =\n(\n)\n(A) {−1, 0, 1}\n(B) {0, 1}\n(C) {−1, 1, 2}\n(D) {1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q02",
       "content": "在复平面内, 复数z 对应的点的坐标是(1, 2), 则i · z =\n(\n)\n(A) 1 + 2i\n(B) −2 + i\n(C) 1 −2i\n(D) −2 −i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q03",
       "content": "在(√x −2)\n5 的展开式中, x2 的系数为\n(\n)\n(A) −5\n(B) 5\n(C) −10\n(D) 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q04",
       "content": "某三棱柱的底面为正三角形, 其三视图如图所示, 该三棱柱的表面积为(\n)\n俯视图\n正(主) 视图\n侧(左) 视图\n2\n1\n1\n(A) 6 +\n√\n3\n(B) 6 + 2\n√\n3\n(C) 12 +\n√\n3\n(D) 12 + 2\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q05",
       "content": "已知半径为1 的圆经过点(3, 4), 则其圆心到原点的距离的最小值为\n(\n)\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q06",
       "content": "已知函数f (x) = 2x −x −1, 则不等式f (x) > 0 的解集是\n(\n)\n(A) (−1, 1)\n(B) (−∞, −1) ∪(1, +∞)\n(C) (0, 1)\n(D) (−∞, 0) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q07",
       "content": "设抛物线的顶点为O, 焦点为F, 准线为l. P 是抛物线上异于O 的一点,\n过P 作PQ ⊥l 于Q, 则线段FQ 的垂直平分线\n(\n)\n(A) 经过点O\n(B) 经过点P\n(C) 平行于直线OP\n(D) 垂直于直线OP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q08",
       "content": "在等差数列{an} 中, a1\n= −9, a3\n= −1.\n记Tn\n= a1a2 · · · an\n(n = 1, 2, · · · ), 则数列{Tn}\n(\n)\n(A) 有最大项, 有最小项\n(B) 有最大项, 无最小项\n(C) 无最大项, 有最小项\n(D) 无最大项, 无最小项",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q09",
       "content": "已知α, β ∈R, 则“存在k ∈Z 使得α = kπ + (−1)k β”是“sin α = sin β”\n的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q10",
       "content": "2020 年3 月14 日是全球首个国际圆周率日(π Day). 历史上, 求圆周率π\n的方法有多种, 与中国传统数学中的“割圆术”相似. 数学家阿尔· 卡西的方\n法是: 当正整数n 充分大时, 计算单位圆的内接正6n 边形的周长和外切\n正6n 边形(各边均与圆相切的正6n 边形) 的周长, 将它们的算术平均数\n作为2π 的近似值. 按照阿尔· 卡西的方法, π 的近似值的表达式是\n(\n)\n(A) 3n\n(\nsin 30◦\nn + tan 30◦\nn\n)\n(B) 6n\n(\nsin 30◦\nn + tan 30◦\nn\n)\n(C) 3n\n(\nsin 60◦\nn + tan 60◦\nn\n)\n(D) 6n\n(\nsin 60◦\nn + tan 60◦\nn\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q11",
       "content": "函数f (x) =\n1\nx + 1 + ln x 的定义域是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q12",
       "content": "已知双曲线C: x2\n6 −y2\n3 = 1, 则C 的右焦点的坐标为\n; C 的焦点到\n其渐近线的距离是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q13",
       "content": "已知正方形ABCD 的边长为2, 点P 满足#   »\nAP = 1\n2\n(#   »\nAB + #   »\nAC\n)\n, 则\n���#    »\nPD\n���=\n; #    »\nPB · #    »\nPD =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -309,22 +396,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q14",
       "content": "若函数f (x) = sin (x + φ) + cos x 的最大值为2, 则常数φ 的一个取值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -332,22 +429,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q15",
       "content": "为满足人民对美好生活的向往, 环保部门要求相关企业加强污水治理, 排\n放未达标的企业要限期整改. 设企业的污水排放量W 与时间t 的关系为\nW = f (t), 用−f (b) −f (a)\nb −a\n的大小评价在[a, b] 这段时间内企业污水治\n理能力的强弱, 已知整改期内, 甲、乙两企业的污水排放量与时间的关系如\n图所示.\nt\nW\nO\n污水达标排放量\n甲企业\n乙企业\n甲企业\n乙企业\nt1\nt2\nt3\n给出下列四个结论:\n①在[t1, t2] 这段时间内, 甲企业的污水治理能力比乙企业强;\n②在t2 时刻, 甲企业的污水治理能力比乙企业强;\n③在t3 时刻, 甲、乙两企业的污水排放都已达标;\n④甲企业在[0, t1], [t1, t2], [t2, t3] 这三段时间中, 在[0, t1] 的污水治理能力\n最强.\n其中所有正确结论的序号是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q16",
       "content": "如图, 在正方体ABCD −A1B1C1D1 中, E 为BB1 的中点.\n(1) 求证: BC1\n平面AD1E;\n(2) 求直线AA1 与平面AD1E 所成角的正弦值.\nD\nC\nE\nB\nA\nD1\nC1\nB1\nA1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -378,22 +487,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q17",
       "content": "在△ABC 中, a + b = 11, 再从条件①、条件②这两个条件中选择一个作\n为己知, 求:\n(1) a 的值;\n(2) sin C 和△ABC 的面积.\n条件①: c = 7, cos A = −1\n7;\n条件②: cos A = 1\n8, cos B = 9\n16.\n1113",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -401,22 +520,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-64810da555f11a40-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q18",
       "content": "某校为举办甲、乙两项不同活动, 分别设计了相应的活动方案: 方案一、方\n案二. 为了解该校学生对活动方案是否支持, 对学生进行简单随机抽样, 获\n得数据如下表:\n男生\n女生\n支持\n不支持\n支持\n不支持\n方案一\n200 人\n400 人\n300 人\n100 人\n方案二\n350 人\n250 人\n150 人\n250 人\n假设所有学生对活动方案是否支持相互独立.\n(1) 分别估计该校男生支持方案一的概率、该校女生支持方案一的概率;\n(2) 从该校全体男生中随机抽取2 人, 全体女生中随机抽取1 人, 估计这3\n人中恰有2 人支持方案一的概率;\n(3) 将该校学生支持方案的概率估计值记为p0, 假设该校年级有500 名男\n生和300 名女生, 除一年级外其他年级学生支持方案二的概率估计值记为\np1, 试比较p0 与p1 的大小. (结论不要求证明)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -424,22 +553,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q19",
       "content": "已知函数f (x) = 12 −x2.\n(1) 求曲线y = f (x) 的斜率等于−2 的切线方程;\n(2) 设曲线y = f (x) 在点(t, f (t)) 处的切线与坐标轴围成的三角形的面\n积为S (t), 求S (t) 的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -447,22 +582,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q20",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 过点A (−2, −1), 且a = 2b.\n(1) 求椭圆C 的方程;\n(2) 过点B (−4, 0) 的直线l 交椭圆C 于点M, N, 直线MA, NA 分别交\n直线x = −4 于点P, Q. 求|PB|\n|BQ| 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -470,22 +611,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020北京.pdf#q21",
       "content": "已知{an} 是无穷数列. 给出两个性质:\n①对于{an} 中任意两项ai, aj (i > j), 在{an} 中都存在一项am, 使\na2\ni\naj\n= am;\n②对于{an} 中任意项an (n ⩾3), 在{an} 中都存在两项ak, al (k > l),\n使得an = a2\nk\nal\n.\n(1) 若an = n (n = 1, 2, · · · ), 判断数列{an} 是否满足性质①, 说明理由;\n(2) 若an = 2n−1 (n = 1, 2, · · · ), 判断数列{an} 是否同时满足性质①和\n性质②, 说明理由;\n(3) 若{an} 是递增数列, 且同时满足性质①和性质②, 证明: {an} 为等比\n数列.\n1114",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -493,11 +640,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020北京.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 3,
+    "rendered": 4,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
   "name": "2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 10,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 10,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q01",
       "content": "氢原子能级示意图如图所示。光子能量在1.63 eV ~ 3.10 eV 的光为可见光。要\n使处于基态（n = 1）的氢原子被激发后可辐射出可见光光子，最少应给氢原子提供\n的能量为（    ）\n（A）12.09 eV\n（B）10.20 eV\n（C）1.89 eV （D）1.51 eV",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q02",
       "content": "如图，空间存在一方向水平向右的匀强电场，两个带电小球P 和Q 用相同的绝缘\n细绳悬挂在水平天花板下，两细绳都恰好与天花板垂直，则（    ）\n（A）P 和Q 都带正电荷\n（B）P 和Q 都带负电荷\n（C）P 带正电荷，Q 带负电荷\n（D）P 带负电荷，Q 带正电荷",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "两绝缘细绳保持竖直状态，对两小球整体分析，整体受电场力的合力为零，电荷量为零，故\n两小球带等量异种电荷，隔离𝑃进行研究，𝑃受库仑引力作用，则𝑃受到的电场力由𝑄指向𝑃，可知𝑃带负电荷，\n则𝑄带正电荷，故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -56,22 +77,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q03",
       "content": "最近，我国为“长征九号”研制的大推力新型火箭发动机联试成功，这标志着我国重型运载火箭的研发\n取得突破性进展。若某次实验中该发动机向后喷射的气体速度约为3 km/s，产生的推力约为4.8×106 N，则\n它在1 s 时间内喷射的气体质量约为（    ）\n（A）1.6×102 kg\n（B）1.6×103 kg\n（C）1.6×105 kg\n（D）1.6×106 kg",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "设发动机单位时间内喷射气体的质量为Δ𝑚，对喷出的气体进行研究有𝐹Δ𝑡= Δ𝑚𝑣，代入数据\n解得Δ𝑚= 1.6 × 103kg，故B 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -79,22 +108,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q04",
       "content": "如图，等边三角形线框LMN 由三根相同的导体棒连接而成，固定于匀强磁场中，\n线框平面与磁感应强度方向垂直，线框顶点M、N 与直流电源两端相接，已如导体\n棒MN 受到的安培力大小为F，则线框LMN 受到的安培力的大小为（    ）\n（A）2F\n（B）1.5F\n（C）0.5F\n（D）0\nP\nQ\n1\n−13.6\n−1.51\n−0.85\n0\n−3.40\n2\n3\n4\nn\nE /eV\n∞\nL\nM\nN",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "设导体棒𝑀𝑁长度为𝑙,𝑀𝑁棒中电流为𝐼，则其受到的安培力大小𝐹= 𝐵𝐼𝑙.𝑀𝐿𝑁的电阻是𝑀𝑁棒\n电阻的两倍，二者并联，两端电压相同，则流过𝑀𝐿𝑁的电流为0.5𝐼，𝑀𝐿𝑁受到的安培力的合力为𝐹2 = 0.5𝐵𝐼𝑙=\n0.5𝐹，𝑀𝑁棒和𝑀𝐿𝑁受到的安培力方向相同，故线框𝐿𝑀𝑁受到的安培力大小为1.5𝐹，故B 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -102,22 +135,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q05",
       "content": "如图，篮球架下的运动员原地垂直起跳扣篮，离地后重心上升的最大高度为H。\n上升第一个H\n4 所用的时间为t1，第四个H\n4 所用的时间为t2。不计空气阻力，则t2\nt1 满\n足（    ）\n（A）1<t2\nt1 <2\n（B）2<t2\nt1 <3\n（C）3<t2\nt1 <4\n（D）4<t2\nt1 <5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "运动员的竖直上抛运动逆向等效为自由落体运动，即𝐻=\n1\n2 𝑔𝑡2，全过程所用时间𝑡= √\n2𝐻\n𝑔，\n下落第一个\n𝐻\n4所用的时间为𝑡1\n′，满足\n𝐻\n4 =\n1\n2 𝑔𝑡1\n′2，解得𝑡1\n′ = √\n𝐻\n2𝑔，最后一个\n𝐻\n4之前所用的时间为𝑡2\n′，满足\n3𝐻\n4 =\n1\n2 𝑔𝑡2\n′ 2，解得𝑡2\n′ = √\n3𝐻\n2𝑔，由此可知，\n𝑡2\n𝑡1 =\n𝑡1′\n𝑡−𝑡2\n′ =\n√𝐻\n2𝑔\n√2𝐻\n𝑔−√3𝐻\n2𝑔\n.故C 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -125,22 +166,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q06",
       "content": "如图，一粗糙斜面固定在地面上，斜面顶端装有一光滑定滑轮。一细绳跨过滑轮，其一端悬挂物块N。\n另一端与斜面上的物块M 相连，系统处于静止状态。现用水平向左的拉力缓慢拉动N，直至悬挂N 的细绳\n与竖直方向成45°。已知M 始终保持静止，则在此过程中（    ）\n（A）水平拉力的大小可能保持不变\n（B）M 所受细绳的拉力大小一定一直增加\n（C）M 所受斜面的摩擦力大小一定一直增加\n（D）M 所受斜面的摩擦力大小可能先减小后增加",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "当物块𝑁受到水平拉力𝐹后，其受到重力、水平拉力𝐹、细绳的拉力𝑇，在物块𝑁缓慢被拉动\n时，处于动态平衡状态，设细绳与竖直方向夹角为𝛼，物块𝑁的质量为𝑚1，有𝐹= 𝑇sin𝛼，𝑚1𝑔= 𝑇cos𝛼，解\n得𝑇=\n𝑚1𝑔\ncos𝛼，𝐹= 𝑚1𝑔tan𝛼，在𝛼从0°增大到45°过程中，水平拉力𝐹增大，细绳拉力𝑇增大，故A 错误B 正\n确；设物块𝑀的质量为𝑚2，斜面倾角为𝜃，未施加水平拉力前，若𝑚2𝑔sin𝜃> 𝑚1𝑔，则物块𝑀受到的静摩擦\n力沿斜面向上，有𝑇+ 𝑓= 𝑚2𝑔sin𝜃，当𝑇增大时，静摩擦力𝑓先沿斜面减小到零，然后沿斜面向下增大，若\n𝑚2𝑔sin𝜃< 𝑚1𝑔，物块𝑀受到的静摩擦力𝑓沿斜面向下，有𝑇= 𝑓+ 𝑚2𝑔sin𝜃，当𝑇增大时，𝑓沿斜面向下增大，\n故C 错误D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -148,22 +197,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q07",
       "content": "空间存在一方向与直面垂直、大小随时间变化的匀强磁场，\n其边界如图（a）中虚线MN 所示，一硬质细导线的电阻率为ρ、\n横截面积为S，将该导线做成半径为r 的圆环固定在纸面内，圆\n心O 在MN 上。t = 0 时磁感应强度的方向如图（a）所示，磁感\n应强度B 随时间t 的变化关系如图（b）所示，则在t = 0 到t = t1\n的时间间隔内（    ）\n（A）圆环所受安培力的方向始终不变\n（B）圆环中的感应电流始终沿顺时针方向\n（C）圆环中的感应电流大小为 B0rS\n4t0ρ\n（D）圆环中的感应电动势大小为 B0πr2\n4t0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "由楞次定律可知圆环中感应电流方向始终沿顺时针方向，故B 正确；圆环中的磁场方向发\n生变化，而感应电流方向不变，根据左手定则可知圆环受到的安培力方向发生变化，故A 错误；由法拉第\n电磁感应定律得𝐸=\nΔ𝛷\nΔ𝑡=\nΔ𝐵\nΔ𝑡×\nπ𝑟2\n2 =\n𝐵0π𝑟2\n2𝑡0 ，故D 错误；圆环的总电阻为𝑅= 𝜌\n2π𝑟\n𝑆，则圆环中的感应电流 I\n= E\nR = B0rS\n4t0ρ ，故C 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -171,22 +228,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q08",
       "content": "在星球M 上将一轻弹簧竖直固定在水平桌面上，把物体P 轻放在弹簧上端，\nP 由静止向下运动，物体的加速度a 与弹簧的压缩量x 间的关系如图中实线所示。\n在另一星球N 上用完全相同的弹簧，改用物体Q 完成同样的过程，其a–x 关系\n如图中虚线所示，假设两星球均为质量均匀分布的球体。已知星球M 的半径是\n星球N 的3 倍，则（    ）\n（A）M 与N 的密度相等\n（B）Q 的质量是P 的3 倍\n（C）Q 下落过程中的最大动能是P 的4 倍\n（D）Q 下落过程中弹簧的最大压缩量是P 的4 倍",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "物体刚放到轻弹簧上时的加速度为星球表面的重力加速度，则𝑀星球表面的重力加速度\n𝑔1 = 3𝑎0，𝑁星球表面的重力加速度𝑔2 = 𝑎0，在星球表面有𝐺\n𝑀𝑚\n𝑅2 = 𝑚𝑔,星球的质量为𝑀= 𝜌×\n4\n3 π𝑅3，得𝜌=\n3𝑔\n4π𝐺𝑅，设𝑀星球的密度为𝜌1,𝑁星球的密𝜌2，则有\n𝜌1\n𝜌2 =\n𝑔1\n𝑔2 ×\n𝑅2\n𝑅1 = 1，故A 正确；设𝑃物体的质量为𝑚1，𝑄物体\n的质量为𝑚2，弹簧的劲度系数为𝑘，物体在弹簧上下落至加速度为零时，对𝑃物体有𝑘𝑥0= 𝑚1𝑔1，对𝑄物体\n有2𝑘𝑥0 = 𝑚2𝑔2，则\n𝑚1\n𝑚2 =\n1\n6，故B 错误；将𝑎−𝑥图像的纵坐标分别乘两物体的质量，则纵坐标转换为𝑚𝑎，\n即物体受到的合力，图像转换为𝐹合−𝑥图像，图像与𝑥轴所围面积大小表示合力做的功的大小由动能定理得\n𝑊合= Δ𝐸k，当加速度为零时，物体速度最大，动能最大，有𝐸km1 =\n1\n2 × 3𝑚1𝑎0 × 𝑥0，𝐸km2 =\n1\n2 × 𝑚2𝑎0 × 2𝑥0,\n则\n𝐸km1\n𝐸km2 =\n3𝑚1\n2𝑚2 =\n1\n4，故C 正确；将两图线继续延伸，当物体速度为零时合力做功为零，即𝑎−𝑥图像与𝑥轴所\n围面积代数和为零，故物块𝑃下降的最大距离为2𝑥0，物块𝑄下降的最大距离为4𝑥0,两物体下降的最大距离之\n比为1 ∶2，弹簧的最大压缩量之比为1 ∶2，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -194,22 +259,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q09",
       "content": "（5 分）某小组利用打点计时器对物块沿倾斜的长木板加速下滑时的运动进行研究。物块拖动纸带下滑，\nM\nN\nM\nB\nB0\nO\nt0\nt1\nt\nN\nO\n图（a）\n图（b）\na\nx0\nx\n2x0\na0\n3a0\nP\nQ\n0\n打出的纸带一部分如图所示。已知打点计时器所用交流电的频率为50 Hz，纸带上标出的每两个相邻点之间\n还有4 个打出的点未画出。在ABCDE 五个点中，打点计时器最先打出的是______点，在打出C 点时物块的\n速度大小为______m/s（保留3 位有效数字）；物块下滑的加速度大小为_____m/s2（保留2 位有效数字）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "𝐴；0.233；0.75.",
+      "analysis": "物块沿长木板加速下滑，相等时间内的位移逐渐增大，故打点计时器最先打的是𝐴点.打𝐶点时物块\n的速度𝑣𝐶=\n𝑥𝐵𝐷\n2𝑇= 0.233m/s.设物块运动的加速度大小为𝑎，则有𝑥𝐶𝐸−𝑥𝐴𝐶= 𝑎(2𝑇)2,解得𝑎= 0.75m/s2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -217,22 +290,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q10",
       "content": "（10 分）某同学要将一量程为250 μA 的微安表改装为量程为20 mA 的电流表。该同学测得微安表内阻\n为1 200 Ω，经计算后将一阻值为R 的电阻与微安表连接，进行改装。然后利用一标准毫安表，根据图（a）\n所示电路对改装后的电表进行检测（虚线框内是改装后的电表）。\n（1）根据图（a）和题给条件，将（b）中的实物连接。\n（2）当标准毫安表的示数为16.0 mA 时，微安表的指针位置如图（c）所示，由此可以推测出改装的电表量\n程不是预期值，而是_______。（填正确答案标号）\nA．18 mA\nB．21 mA\nC．25 mA\nD．28 mA\n（3）产生上述问题的原因可能是________。（填正确答案标号）\nA．微安表内阻测量错误，实际内阻大于 1 200 Ω\nB．微安表内阻测量错误，实际内阻小于 1 200 Ω\nC．R 值计算错误，接入的电阻偏小\nD．R 值计算错误，接入的电阻偏大\n（4）要达到预期目的，无论测得的内阻值是都正确，都不必重新测量，只需要将阻值为R 的电阻换为一个\n阻值为kR 的电阻即可，其中 k = _______。\nμA\n0\n50\n100\n150\n200\n250\n图（c）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)见解析；(2)C；(3)AC；(4)\n99",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -240,22 +321,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q010-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q11",
       "content": "（12 分）如图，在直角三角形OPN 区域内存在匀强磁场，\n磁感应强度大小为B、方向垂直于纸面向外。一带正电的粒子从\n静止开始经电压U 加速后，沿平行于x 辅的方向射入磁场；一段\n时间后，该粒子在OP 边上某点以垂直于x 轴的方向射出。已知\nO 点为坐标原点，N 点在y 轴上，OP 与x 轴的夹角为30°，粒子\n进入磁场的入射点与离开磁场的出射点之间的距离为d，不计重\n力。求：\n（1）带电粒子的比荷；\n（2）带电粒子从射入磁场到运动至x 轴的时间。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设带电粒子的质量为𝑚,电荷量为𝑞，加速后的速度大小为𝑣.由动能定理得\n𝑞𝑈=\n1\n2 𝑚𝑣2①，\n设粒子在磁场中做匀速圆周运动的半径为𝑟，轨迹如图所示，由洛伦兹力公式和牛顿第二定律得\n𝑞𝑣𝐵= 𝑚\n𝑣2\n𝑟②，\n由几何关系得𝑑= √2𝑟③，\n联立①②③式得\n𝑞\n𝑚 = 4U\nd2B2 .④\n(2)由几何关系知，带电粒子射入磁场后运动到𝑥轴经过的路程为\n𝑠=\nπ𝑟\n2 + 𝑟tan30°，\n带电粒子从射入磁场到运动到𝑥轴的时间为\n𝑡=\n𝑠\n𝑣，\n联立②④⑤⑥得\nt = (π\n2 +\n3\n3 )d2B\n4U",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -263,11 +355,62 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q011-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q12",
+      "content": "（20 分）竖直面内一倾斜轨道与一足够长的水平轨道通过一小段光滑圆弧平滑连接，小物块B 静止于\n水平轨道的最左端，如图（a）所示。t = 0 时刻，小物块A 在倾斜轨道上从静止开始下滑，一段时间后与B\n发生弹性碰撞（碰撞时间极短）；当A 返回到倾斜轨道上的P 点（图中未标出）时，速度减为0，此时对其\n施加一外力，使其在倾斜轨道上保持静止。物块A 运动的 v–t  图像如图（b）所示，图中的v1 和t1 均为未\n知量。已知A 的质量为m，初始时A 与B 的高度差为H，重力加速度大小为g，不计空气阻力。\n（1）求物块B 的质量；\n（2）在图（b）所描述的整个运动过程中，求物块A 克服摩擦力所做的功；\n（3）已知两物块与轨道间的动摩擦因数均相等，在物块B 停止运动后，改变物块与轨道间的动摩擦因数，\n然后将A 从P 点释放，一段时间后A 刚好能与B 再次碰上。求改变前后动摩擦因数的比值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据图(b)，𝑣1为物块𝐴在碰撞前瞬间的速度大小，\n𝑣1\n2 为其碰撞后瞬间的速度大小.设物块𝐵的质\n量为𝑚'，碰撞后的速度大小为𝑣′，由动量守恒和机械能守恒得\n𝑚𝑣1 = 𝑚(−\n𝑣1\n2 ) + 𝑚′𝑣′①，\n1\n2 𝑚𝑣1\n2 =\n1\n2 𝑚(−\n𝑣1\n2 )\n2\n+\n1\n2 𝑚′𝑣′2②，\n联立①②式得\n𝑚′ = 3𝑚③.\n(2)在图(b)所描述的运动中，设物块𝐴与轨道间的滑动摩擦力大小为𝑓，下滑过程中所走过的路程为𝑠1，\n返回过程中所走过的路程为𝑠2，𝑃点的高度为ℎ，整个过程中克服摩擦力所做的功为𝑊，由动能定理得\n𝑚𝑔𝐻−𝑓𝑠1 =\n1\n2 𝑚𝑣1\n2 −0④,\n−(𝑓𝑠2 + 𝑚𝑔ℎ) = 0 −\n1\n2 𝑚(−\n𝑣1\n2 )\n2\n⑤,\n由图(b)所给的𝑣−𝑡图线可知\n𝑠1 =\n1\n2 𝑣1𝑡1⑥,\n𝑠2 =\n1\n2 ×\n𝑣1\n2 × (1.4𝑡1 −𝑡1)⑦,\n由几何关系可知\n𝑠2\n𝑠1 =\nℎ\n𝐻⑧,\n物块A 在整个过程中克服摩擦力所做的功为\n𝑊= 𝑓𝑠1 + 𝑓𝑠2⑨,\n联立④⑤⑥⑦⑧⑨式可得\n𝑊=\n2\n15 𝑚𝑔𝐻⑩.\n(3)设倾斜轨道的倾角为𝜃，物块与轨道间的动摩擦因数在改变前为𝜇，则有\n𝑊= 𝜇𝑚𝑔cos𝜃×\n𝐻+ℎ\nsin𝜃⑪,\n设物块𝐵在水平轨道上能够滑行的距离为𝑠′,由动能定理得\n−𝜇𝑚′𝑔𝑠′ = 0 −\n1\n2 𝑚′𝑣′2⑫\n设改变后的动摩擦因数为𝜇′，由动能定理得\n𝑚𝑔ℎ−𝜇′𝑚𝑔cos𝜃⋅\nℎ\nsin𝜃−𝜇′𝑚𝑔𝑠′ = 0⑬，\n联立①②③④⑤⑥⑦⑧⑩⑪⑫⑬式可得\n𝜇\n𝜇′ =\n11\n9 ⑭.\n（二）选考题：共45 分。请考生从2 道物理题、2 道化学题、2 道生物题中每科任选一题作答。如果多做，\n则每科按所做的第一题计分。\n【物理—选修3-3】\n33．（5 分）某容器中的空气被光滑活塞封住，容器和活塞绝热性能良好，空气可视为理想气体。初始时容\n器中空气的温度与外界相同，压强大于外界。现使活塞缓慢移动，直至容器中的空气压强与外界相同。此时，\n容器中空气的温度__________（填“高于”“低于”或“等于”）外界温度，容器中空气的密度__________（填\n“大于”“小于”或“等于”）外界空气的密度。\n（10 分）热等静压设备广泛用于材料加工中。该设备工作时，先在室温下把惰性气体用压缩机压入到一个\n预抽真空的炉腔中，然后炉腔升温，利用高温高气压环境对放入炉腔中的材料加工处理，改部其性能。一台\n热等静压设备的炉腔中某次放入固体材料后剩余的容积为0.13 m3，炉腔抽真空后，在室温下用压缩机将10\n瓶氩气压入到炉腔中。已知每瓶氩气的容积为3.2×10−2 m3，使用前瓶中气体压强为1.5×107 Pa，使用后瓶中\n剩余气体压强为2.0×106 Pa；室温温度为27℃。氩气可视为理想气体。\n（1）求压入氩气后炉腔中气体在室温下的压强；\n（2）将压入氩气后的炉腔加热到1 227 ℃，求此时炉腔中气体的压强。\n【物理一选修3-4】\n34．（5 分）一简谐横波沿x 轴正方向传播，在t = T\n2 时刻，该波的波形图如图（a）所示，P、Q 是介质中\n的两个质点。图（b）表示介质中某质点的振动图像。下列说法正确的是（填正确答案标号。选对1 个得2\n分，选对2 个得4 分，选对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）质点Q 的振动图像与图（b）相同\n（B）在t = 0 时刻，质点P 的速率比质点Q 的大\n（C）在t = 0 时刻，质点P 的加速度的大小比质点Q 的大\n（D）平衡位置在坐标原点的质点的振动图像如图（b）所示\n（E）在t = 0 时刻，质点P 与其平衡位置的距离比质点Q 的大\n（10 分）如图，一般帆船静止在湖面上，帆船的竖直桅杆顶端高出水面3 m。距水面4 m 的湖底P 点发出\n的激光束，从水面出射后恰好照射到桅杆顶端，该出射光束与竖直方向的夹角为53°（取sin53° = 0.8）。已\n知水的折射率为4\n3 。\n（1）求桅杆到P 点的水平距离；\n（2）船向左行驶一段距离后停止，调整由P 点发出的激光\n束方向，当其与竖直方向夹角为45°时，从水面射出后仍然\n照射在桅杆顶端，求船行驶的距离。\n（1）设光束从水面射出的点到桅杆的水平距离为𝑥1，到𝑃点的水平距离为𝑥2；桅杆高度为ℎ1，𝑃点处\n水深为ℎ2；激光束在水中与竖直方向的夹角为𝜃,由几何关系得\n𝑥1\nℎ1 = tan53°①,\n𝑥2\nℎ2 = tan𝜃②,\n由折射定律得\nsin53° = 𝑛sin𝜃③,\n设桅杆到𝑃点的水平距离为𝑥，则\n𝑥= 𝑥1 + 𝑥2④,\n联立①②③④式并代入题给数据得\n𝑥= 7m⑤.\n(ⅱ)设激光束在水中与竖直方向的夹角为时,从水面出射的方向与竖直方向的夹角为𝑖′,由折射定律得\nsin𝑖′ = 𝑛sin45°⑥，\n设船向左行驶的距离为𝑥′,此时光束从水面射出的点到桅杆的水平距离为𝑥1\n′，到𝑃点的水平距离为𝑥2\n′ ，则\n𝑥1\n′ + 𝑥2\n′ = 𝑥′ + 𝑥⑦，\n𝑥1′\nℎ1 = tan𝑖′⑧，\n𝑥2′\nℎ2 = tan45°⑨，\n由⑤⑥⑦⑧⑨式代入题给数据得\n𝑥′ = (6√2 −3)m ≈5.5m⑩.\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2019,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2019/2019全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 4,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q012-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-42f064246f9bd05c-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 15,
+    "answerGraphics": 1,
+    "assigned": 14,
+    "rendered": 15,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

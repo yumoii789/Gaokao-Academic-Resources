@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014北京理综.pdf",
   "name": "2014北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014北京理综.pdf#q01",
       "content": "下列说法中正确的是（     ）\n（A）物体温度降低，其分子热运动的平均动能增大\n（B）物体温度升高，其分子热运动的平均动能增大\n（C）物体温度降低，其内能一定增大\n（D）物体温度不变，其内能一定不变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "温度是分子平均动能的标志，温度降低分子热运动的平均动能减小，反之增大，A 项错误；B 项\n正确；物体的内能包括所有分子的动能和势能之和，温度降低，分子动能减小但是分子势能不能确定，所\n以内能不能确定，CD 项错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,11 +44,357 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q02",
+      "content": "质子、中子和氘核的质量分别为m1、m2 和m3。当一个质子和一个中子结合成氘核时，释放的能量是\n（c 表示真空中的光速）（     ）\n（A）（m1＋m2－m3）c\n（B）（m1－m2－m3）c\n（C）（m1＋m2－m3）c2\n（D）（m1－m2－m3）c2",
+      "answer": "暂无结构化答案",
+      "analysis": "原子核反应经过裂变或聚变时，质量会发生亏损，损失的能量以能量的形式释放，根据质能方程\n可知释放的能量为：ΔE＝（m1＋m2－m3）c2，C 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q03",
+      "content": "如图所示，实线表示某静电场的电场线，虚线表示该电场的等势面。下列判断正\n确的是（     ）\n（A）1、2 两点的场强相等\n（B）1、3 两点的场强相等\n（C）1、2 两点的电势相等\n（D）2、3 两点的电势相等",
+      "answer": "暂无结构化答案",
+      "analysis": "电场线的疏密程度反映了电场强度的大小，所以1 点的场强大于2 点；电场线的切线方向表示场\n强的方向，2 点和3 点的场强方向不同，AB 项错误；沿电场线电势降低，1 点电势高于2 点电势，CD 项\n错误；2 点和3 点电势相等，D 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q04",
+      "content": "带电粒子a、b 在同一匀强磁场中做匀速圆周运动，它们的动量大小相等，a 运动的半径大于b 运动的\n半径。若a、b 的电荷量分别为qa、qb，质量分别为ma、mb，周期分别为Ta、Tb。则一定有（    ）\n（A）qa＜qb\n（B）ma＜mb\n（C）Ta＜Tb\nD）qa\nma＜qb\nmb",
+      "answer": "暂无结构化答案",
+      "analysis": "带电粒子在匀强磁场中做匀速圆周运动，由牛顿第二定律有：qvB＝mv2\nr 得r＝mv\nqB ，因为两个粒\n子的动量相等，且ra＞rb，所以qa＜qb，A 项正确；速度不知道，所以质量关系不确定，B 项错误；又因为\nT＝2πm\nqB ，质量关系不知道，所以周期关系不确定，CD 项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q05",
+      "content": "一简谐机械横波沿x 轴正方向传播，波长为λ，周期为T。t\n＝0 时刻的波形如图1 所示，a、b 是波上的两个质点。图2 是波\n上某一质点的振动图像。下列说法中正确的是（     ）\n（A）t＝0 时质点a 的速度比质点b 的大\n（B）t＝0 时质点a 的加速度比质点b 的小\n（C）图2 可以表示质点a 的振动\n（D）图2 可以表示质点b 的振动",
+      "answer": "暂无结构化答案",
+      "analysis": "由图1 的波形图可知t＝0 时刻，a 在波峰，速度为零，加速度最大；b 在平衡位置，速度最大，\n加速度为零，AB 项错误；根据微平移法可以确定0 时刻b 质点向下振动，所以图2 是质点b 的振动图象，\nC 项错误，D 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q06",
+      "content": "应用物理知识分析生活中的常见现象，可以使物理学习更加有趣和深入。例如平伸手掌托起物体，由\n静止开始竖直向上运动，直至将物体抛出。对此现象分析正确的是（    ）\n（A）手托物体向上运动的过程中，物体始终处于超重状态\n（B）手托物体向上运动的过程中，物体始终处于失重状态\n（C）在物体离开手的瞬间，物体的加速度大于重力加速度\n（D）在物体离开手的瞬间，手的加速度大于重力加速度",
+      "answer": "暂无结构化答案",
+      "analysis": "物体具有向上的加速度为超重，向下的加速度为失重，手托物体抛出的过程，必定有一段加速过\n程，即超重过程，从加速后到手和物体分离的过程中，可以匀速也可以减速，因此可能失重，也可能既不\n超重也不失重，A、B 错误。手与物体分离时的力学条件为：手与物体之间的压力N＝0，分离后手和物体\n一定减速，物体减速的加速度为g，手减速要比物体快才会分离，因此手的加速度大于g，C 错误，D 正\n确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q07",
+      "content": "伽利略创造的把实验、假设和逻辑推理相结合的科学方\n法，有力地促进了人类科学认识的发展。利用如图所示的装\n置做如下实验：小球从左侧斜面上的O 点由静止释放后沿斜\n面向下运动，并沿右侧斜面上升。斜面上先后铺垫三种粗糙\n程度逐渐减低的材料时，小球沿右侧斜面上升到的最高位置\n依次为1、2、3。根据三次实验结果的对比，可以得到的最\n直接的结论是（    ）\n（A）如果斜面光滑，小球将上升到与O 点等高的位置\n（B）如果小球不受力，它将一直保持匀速运动或静止状态\n（C）如果小球受到力的作用，它的运动状态将发生改变\n（D）小球受到的力一定时，质量越大，它的加速度越小",
+      "answer": "暂无结构化答案",
+      "analysis": "由题给出斜面上铺垫三种粗糙程度逐渐降低的材料，小球的位置逐渐升高，不难想象，当斜面绝\n对光滑时，小球在斜面上运动没有能量损失，可以上升到与O 点等高的位置，这是可以得到的直接结论，\nA 正确，B、C、D 尽管也正确，但不是本实验得到的直接结论，故错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q007-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q08",
+      "content": "以往，已知材料的折射率都为正值（n＞0）。现已有针对某些电磁波设计制作的人工材料，其折射率可\n以为负值（n＜0），称为负折射率材料。位于空气中的这类材料，入射角i 与折射角r 依然满足sin i\nsin r＝n，但\n是折射线与入射线位于法线的同一侧（此时折射角取负值）。现空气中有一上下表面平行的负折射率材料，\n一束电磁波从其上表面射入，下表面射出。若该材料对此电磁波的折射率n＝－1，正确反映电磁波穿过该\n材料的传播路径的示意图是（     ）\nO\n1 2 3\n（A）                   （B）                   （C）                    （D）",
+      "answer": "暂无结构化答案",
+      "analysis": "光从空气射入到材料中时，根据题意可知入射光线和折射光线位于法线的同侧，A 项错误；根据\n折射定律可知：sin i\nsin r＝－1，可知折射角等于入射角，C 项错误；根据光路可逆，光从材料射入到空气时，\n同理入射光线和折射光线也位于法线的同侧，D 项错误，入射角也等于折射角，B 项正确。\n第二部分（非选择题 共180 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q008-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q09",
+      "content": "（18 分）\n利用电流表和电压表测定一节干电池的电动势和内电阻。要求尽量减小实验误差。\n（1）应该选择的实验电路是图1 中的_______（选项“甲”或“乙”）。\n（2）现有电流表（0～0.6A）、开关和导线若干，以及以下器材：\nA．电压表（0～15V）\nB．电压表（0～3V）\nC．滑动变阻器（0～50Ω）\nD．滑动变阻器（0～500Ω）\n实验中电压表应选用________；滑动变阻器应选用________．(选填相应器材前的字母)\n（3）某位同学记录的6 组数据如下表所示，其中5 组数据的对应点已经标在图2 的坐标纸上，请标出余\n下一组数据的对应点，并画出U-I 图线.\n序号\n1\n2\n3\n4\n5\n6\n电压U（V）\n1.45\n1.40\n1.30\n1.25\n1.20\n1.10\n电流I（A）\n0.060\n0.120\n0.240\n0.260\n0.360\n0.480\n图2\n（4）根据（3）中所画图线可得出干电池的电动势E＝________V，内电阻r＝________Ω.\n（5）实验中，随着滑动变阻器滑片的移动，电压表的示数U 及干电池的输出功率P 都会发生变化。图3\n的各示意图中正确反映P-U 关系的是________。\n甲                      乙\n图1",
+      "answer": "（1）甲\n（2）BC\n（3）如图\n（4）1.50（1.49～1.51），0.83（0.81～0.85）\n（5）C",
+      "analysis": "（1）根据U＝E－Ir 测量电源电动势和内阻时，需要测出多组对应的路端电压U 和干路电流I ，\n电压表和电流表内阻影响会造成实验误差。电源内阻较小，所以电流表分压影响较大，因此应选择甲电路。\n（3）如图\n（4）根据U-I 图像，电源的电动势等于纵轴的截距，内阻为斜率的绝对值。\n（5）电源输出功率P＝UI＝U\n\n\n\nE－U\nr\n＝－1\nrU2＋E\nrU，P-U 图像为开口向下的二次函数，应选（C）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p004-f08.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q10",
+      "content": "（16 分）\n如图所示，竖直平面内的四分之一圆弧轨道下端与水平桌面\n相切，小滑块A 和B 分别静止在圆弧轨道的最高点和最低\n点。现将A 无初速度释放，A 与B 碰撞后结合为一个整体，\n并沿桌面滑动。已知圆弧轨道光滑，半径R＝0.2m；A 和B\n的质量相等；A 和B 整体与桌面之间的动摩擦因数μ＝0.2。\n取重力加速度g＝10m/s2。求：\n（1）碰撞前瞬间A 的速率v；\n（2）碰撞后瞬间A 和B 整体的速率v′；\n（3）A 和B 整体在桌面上滑动的距离l。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）从圆弧最高点滑到最低点的过程中机械能守恒则有：\n2\n1\n2\nA\nA\nA\nm v\nm gR\n=\n可以得出：\n2\n2\n/\nA\nv\ngR\nm s\n=\n=\n图3\n（A）         （B）           （C）            （D）\nP\nU\nO\nP\nU\nO\nP\nU\nO\nP\nU\nO\nB\nA\nO\nR\n（2）在圆弧底部和滑块B 相撞，动量守恒：\n(\n) '\nA\nB\nA\nA\nm\nm\nv\nm v\n+\n=\n得\n1\n'\n1\n/\n2\nA\nv\nv\nm s\n=\n=\n（3）滑块A 和B 粘在一起在桌面上滑行，摩擦力做负功，由动能定理可得：\n2\n2\n1\n1\n1\n(\n) '\ngh\n2\n2\n2\nA\nB\nA\nA\nA\nf l\nm\nm\nv\nm v\nm\n=\n+\n=\n=\n摩擦力：\n(\n)g= 2\ng\nA\nB\nA\nf\nm\nm\nm\n\n\n=\n+\n于是可以得到：\n1\n2\ng\ngR\n2\nA\nA\nm\nl\nm\n\n=\n则：\n0.25m\n4\nR\nl\n\n=\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q11",
+      "content": "（18 分）\n万有引力定律揭示了天体运行规律与地上物体运动规律具有内在的一致性。\n（1）用弹簧秤称量一个相对于地球静止的小物体的重量，随称量位置的变化可能会有不同的结果。已知地\n球质量为M，自转周期为T，万有引力常量为G。将地球视为半径为R、质量均匀分布的球体，不考虑空\n气的影响。设在地球北极地面称量时，弹簧秤的读数是F0。\na．若在北极上空高出地面h 处称量，弹簧秤读数为F1，求比值F1/F2 的表达式，并就h＝1.0%R 的情形算\n出具体数值（计算结果保留两位有效数字）；\nb．若在赤道地面称量，弹簧秤读数为F2，求比值F2/F0 的表达式。\n（2）设想地球绕太阳公转的圆周轨道半径r、太阳的半径Rs 和地球的半径R 三者均减小为现在的1.0%，\n而太阳和地球的密度均匀且不变。仅考虑太阳和地球之间的相互作用，以现实地球的1 年为标准，计算“设\n想地球”的1 年将变为多长？",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设小物体质量为m。\n（A）在北极地面                      GMm\nR2 ＝F0\n在北极上空高出地面h 处             G\nMm\n（R＋h）2＝F1\nF1\nF0＝\nR2\n（R＋h）2\n当h＝1.0%R 时\nF1\nF0＝1\n1.012≈0.98.\n（B）在赤道地面，小物体随地球自转做匀速圆周运动，受到万有引力和弹簧秤的作用力，有\nGMm\nR2 －F2＝m4π2\nT2 R\n得F2\nF0＝1－4π2R3\nGMT2.\n（2）地球绕太阳做匀速圆周运动，受到太阳的万有引力，设太阳质量为MS，地球质量为M，地球公转周\n期为TE，有\nGMSM\nr2 ＝Mr4π2\nT2E\n得TE＝\n4π2r3\nGMS＝\n3πr3\nGρR3S.\n其中ρ 为太阳的密度。\n由上式可知，地球公转周期TE 仅与太阳的密度、地球公转轨道半径与太阳半径之比有关。因此“设想地球”\n的1 年与现实地球的1 年时间相同。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014北京理综.pdf#q12",
+      "content": "（20 分）\n导体切割磁感线的运动可以从宏观和微观两个角度来认识。如图所示，固定\n于水平面的U 形导线框处于竖直向下的匀强磁场中，金属直导线MN 在与其\n垂直的水平恒力F 作用下，在导线框上以速度v 做匀速运动，速度v 与恒力\nF 方向相同；导线MN 始终与导线框形成闭合电路。已知导线MN 电阻为R，\n其长度L 恰好等于平行轨道间距，磁场的磁感应强度为（B）忽略摩擦阻力和\n导线框的电阻。\n（1）通过公式推导验证：在Δt 时间内，F 对导线MN 所做的功W 等于电路获得的电能W 电，也等于导线\nMN 中产生的热量Q；\n（2）若导线MN 的质量m＝8.0 g、长度L＝0.10 m，感应电流I＝1.0 A，假设一个原子贡献一个自由电子，\n计算导线MN 中电子沿导线长度方向定向移动的平均速率ve（下表中列出一些你可能会用到的数据）；\n阿伏伽德罗常数NA\n6.0×1023 mol\n－1\n元电荷e\n1.6×10\n－19 C\n导线MN 的摩尔质量 μ\n6.0×10\n－2 kg/mol\n（3）经典物理学认为，金属的电阻源于定向运动的自由电子和金属离子（即金属原子失去电子后的剩余部\n分）的碰撞。展开你想象的翅膀，给出一个合理的自由电子的运动模型；在此基础上，求出导线MN 中金\n属离子对一个自由电子沿导线长度方向的平均作用力f－的表达式。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）导线产生的感应电动势E＝BLv\n导线匀速运动，受力平衡\nF＝F 安＝BIL\n在Δt 时间内，外力F 对导线做功\nW＝FvΔt＝F 安vΔt＝BILvΔt\n电路获得的电能\nW 电＝qE＝IEΔt＝BILvΔt\n可见，F 对导线MN 做的功等于电路获得的电能W 电；\n导线MN 中产生的热量\nQ＝I2RΔt＝IΔt·IR＝qE＝W 电\n可见，电路获得的电能W 电等于导线MN 中产生的热量Q。\n（2）导线MN 中具有的原子数为\nN＝m\nμNA\n 因为一个金属原子贡献一个电子，所以导线MN 中的自由电子数也是N\n导线MN 单位体积内的自由电子数\nn＝N\nSL\n其中，S 为导线MN 的横截面积。\n因为电流\nI＝nveSe\n所以\nM\nN\nF\nB\nv\nve＝I\nnSe＝IL\nNe＝ILμ\nmNAe\n解得\nve＝7.8×10\n－6 m/s.\n（3）下列解法的共同假设：所有自由电子（简称电子，下同）以同一方式运动。\n方法一：动量解法\n设电子在第一次碰撞结束至下一次碰撞结束之间的运动都相同，经历的时间为Δt，电子的动量变化为零。\n因为导线MN 的运动，电子受到沿导线方向的洛伦兹力f 洛的作用\nf 洛＝evB\n沿导线方向，电子只受到金属离子的作用力和f 洛作用，所以\nIf－f 洛Δt＝0\n其中If 为金属离子对电子的作用力的冲量，其平均作用力为f，则If＝fΔt\n得\nf＝f 洛＝evB\n方法二：能量解法\nS 设电子从导线的一端到达另一端经历的时间为t，在这段时间内，通过导线一端的电子总数\nN＝It\ne\n电阻上产生的焦耳热是由于克服金属离子对电子的平均作用力f 做功产生的。\n在时间t 内，总的焦耳热\nQ＝NfL\n根据能量守恒定律，有\nQ＝W 电＝EIt＝BLvIt\n所以\nf＝evB\n方法三：力的平衡解法\n因为电流不变，所以假设电子以速度ve 相对导线做匀速直线运动。\n因为导线MN 的运动，电子受到沿导线方向的洛伦兹力f 洛的作用\nf 洛＝evB\n沿导线方向，电子只受到金属离子的平均作用力f 和f 洛作有，二力平衡，即f＝f 洛＝evB.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014北京理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q012-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-a6f2350d38cc0e39-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 16,
+    "answerGraphics": 0,
+    "assigned": 16,
+    "rendered": 16,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2007/2007陕西文.pdf",
   "name": "2007陕西文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q01",
       "content": "已知全集U = {1, 2, 3, 4, 5, 6}, 集合A = {2, 3, 6}, 则集合∁UA 等\n于\n(\n)\n(A) {1, 4}\n(B) {4, 5}\n(C) {1, 4, 5}\n(D) {2, 3, 6}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q02",
       "content": "函数f(x) = lg\n√\n1 −x2 的定义域为\n(\n)\n(A) [0, 1]\n(B) (−1, 1)\n(C) [−1.1]\n(D) (−∞, −1) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q03",
       "content": "抛物线x2 = y 的准线方程是\n(\n)\n(A) 4x + 1 = 0\n(B) 4y + 1 = 0\n(C) 2x + 1 = 0\n(D) 2y + 1 = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q04",
       "content": "已知sin α =\n√\n5\n5 , 则sin4 α −cos4 α 的值为\n(\n)\n(A) −3\n5\n(B) −1\n5\n(C) 1\n5\n(D) 3\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q05",
       "content": "等差数列{an} 的前n 项和为Sn, 若S2 = 2, S4 = 10, 则S6 等于\n(\n)\n(A) 12\n(B) 18\n(C) 24\n(D) 42",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q06",
       "content": "某商场有四类食品, 其中粮食类、植物油类、动物性食品类以及果蔬类分\n别有40 种、10 种、30 种、20 种, 现从中抽取一个容量为20 的样本进行\n食品安全检测. 若采用分层抽样的方法抽取样本, 则抽取的植物油类与果\n蔬类食品种数之和是\n(\n)\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q07",
       "content": "Rt△ABC 的三个顶点在半径为13 的球面上, 直角边的长分别为6 和8,\n则球心到平面ABC 的距离是\n(\n)\n(A) 5\n(B) 6\n(C) 10\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q08",
       "content": "设函数f(x) = 2x + 1 (x ∈R) 的反函数为f −1(x), 则函数y = f −1(x) 的\n图象是\n(\n)\n(A)\nx\n2\n1\ny\n1\nO\n(B)\nx\n2\n1\ny\n1\nO\n(C)\nx\n2\n1\ny\n1\nO\n(D)\nx\n2\n1\ny\n1\n−1\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q09",
       "content": "已知双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0), 以C 的右焦点为圆心且与C\n的渐近线相切的圆的半径是\n(\n)\n(A) a\n(B) b\n(C)\n√\nab\n(D)\n√\na2 + b2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q10",
       "content": "已知P 为平面α 外一点, 直线l ⊂α, 点Q ∈l, 记点P 到平面α 的距离\n为a, 点P 到直线l 的距离为b, 点P、Q 之间的距离为c, 则\n(\n)\n(A) a ⩽b ⩽c\n(B) c ⩽a ⩽b\n(C) a ⩽c ⩽b\n(D) b ⩽c ⩽a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q11",
       "content": "给出如下三个命题:\n①设a, b ∈R, 且ab̸ = 0, 若b\na > 1, 则a\nb < 1;\n②四个非零实数a, b, c, d 依次成等比数列的充要条件是ad = bc;\n③若f(x) = log2 x, 则f(|x|) 是偶函数.\n其中正确命题的序号是\n(\n)\n(A) ①②\n(B) ②③\n(C) ①③\n(D) ①②③",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q12",
       "content": "某生物生长过程中, 在三个连续时段内的增长量都相等, 在各时段内平均\n增长速度分别为v1、v2、v3, 该生物在所讨论的整个时段内的平均增长速\n度为\n(\n)\n(A) v1 + v2 + v3\n3\n(B)\n1\nv1\n+ 1\nv2\n+ 1\nv3\n3\n(C)\n3√v1v2v3\n(D)\n3\n1\nv1\n+ 1\nv2\n+ 1\nv3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q13",
       "content": "(1 + 2x)5 的展开式中x2 项的系数是\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q14",
       "content": "已知实数x, y 满足条件\n\n\n\n\n\n\n\nx −2y + 4 ⩾0,\n3x −y −3 ⩽, 0\nx ⩾0, y ⩾0,\n则z = x + 2y 的最大值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q15",
       "content": "安排3 名支教教师去4 所学校任教, 每校至多2 人, 则不同的分配方案共\n有\n种. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q16",
       "content": "如图, 平面内有三个向量#   »\nOA, #    »\nOB, #    »\nOC, 其中#   »\nOA 与#    »\nOB 的夹角为120◦,\n#   »\nOA 与#    »\nOC 的夹角为30◦, 且\n���#   »\nOA\n���=\n���#    »\nOB\n���= 1,\n���#    »\nOC\n���= 2\n√\n3.\n若\n#    »\nOC = λ#   »\nOA + µ#    »\nOB (λ, µ ∈R), 则λ + µ 的值为\n.\nA\nO\nB\nC",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -378,22 +479,35 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q016-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q016-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q016-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q17",
       "content": "设函数f(x) = a · b, 其中向量a = (m, cos x), b = (1 + sin x, 1), x ∈R, 且\nf\n(π\n2\n)\n= 2.\n(1) 求实数m 的值;\n(2) 求函数f(x) 的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -401,22 +515,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q18",
       "content": "某项选拔共有四轮考核, 每轮设有一个问题, 能正确回答问题者进入下一\n轮考核, 否则即被淘汰. 已知某选手能正确回答第一、二、三、四轮的问题\n的概率分别为4\n5、3\n5、2\n5、1\n5, 且各轮问题能否正确回答互不影响.\n(1) 求该选手进入第四轮才被淘汰的概率;\n(2) 求该选手至多进入第三轮考核的概率.\n403",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -424,22 +544,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q19",
       "content": "如图, 在底面为直角梯形的四棱锥P −ABCD 中, AD\nBC, ∠ABC =\n90◦, PA ⊥平面ABCD, PA = 3, AD = 2, AB = 2\n√\n3, BC = 6.\n(1) 求证: BD ⊥平面PAC;\n(2) 求二面角P −BD −A 的大小.\nA\nP\nE\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -447,22 +577,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-90fd99c009cb4221-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q20",
       "content": "已知实数列{an} 是等比数列, 其中a7 = 1, 且a4, a5 + 1, a6 成等差数列.\n(1) 求数列{an} 的通项公式;\n(2) 数列{an} 的前n 项和记为Sn, 证明: Sn < 128 (n = 1, 2, 3, · · · ).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -470,22 +610,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q21",
       "content": "已知f(x) = ax3 + bx2 + cx 在区间[0, 1] 上是增函数, 在区间(−∞, 0),\n(1, +∞) 上是减函数. 又f ′\n(1\n2\n)\n= 3\n2.\n(1) 求f(x) 的解析式;\n(2) 若在区间[0, m] (m > 0) 上恒有f(x) ⩽x 成立, 求m 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -493,22 +639,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007陕西文.pdf#q22",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为\n√\n6\n3 , 短轴一个端点到\n右焦点的距离为\n√\n3.\n(1) 求椭圆C 的方程;\n(2) 设直线l 与椭圆C 交于A, B 两点, 坐标原点O 到直线l 的距离为\n√\n3\n2 , 求△AOB 面积的最大值.\n404",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -516,11 +668,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007陕西文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

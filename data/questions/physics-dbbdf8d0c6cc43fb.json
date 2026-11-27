@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
   "name": "春季2005北京理综",
   "track": "spring",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 9,
+    "answerBlocks": 9,
+    "sourceAnswers": 7,
+    "sourceAnalysis": 2,
+    "reviewCount": 7,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q01",
       "content": "有关红、蓝两束单色光，下述说法正确的是（    ）\n（A）在空气中的波长λ 红＜λ 蓝\n（B）在水中的光速v 红＜v 蓝\n（C）在同一介质中的折射率n 红＞n 蓝\n（D）蓝光光子的能量大于红光光子的能量",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q02",
       "content": "一电池外电路断开时的路端电压为3V，接上8Ω 的负载电阻后路端电压降为2.4V，则\n可以判定电池的电动势E 和内电阻r 为（    ）\n（A）E＝2.4V，r＝1Ω\n（B）E＝3V，r＝2Ω\n（C）E＝2.4V，r＝2Ω\n（D）E＝3V，r＝1Ω",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q03",
       "content": "一列沿x 轴正方向传播的简谐横波，波速为60m/s，\n在t＝0 时波的图像如图所示，则（   ）\n（A）此波频率为40Hz，此时质元b 的速度为零\n（B）此波频率为40Hz，此时质元b 的速度向着y 轴负\n方向\n（C）此波频率为20Hz，此时质元a 的速度向着y 轴正方向\n（D）此波频率为20Hz，此时质元a 的速度为零",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q04",
       "content": "如图，一个盛水的容器底部有一小孔。静止时用手指堵住小孔不让它漏水，\n假设容器在下述几种运动过程中始终保持平动，且忽略空气阻力，则（    ）\n（A）容器自由下落时，小孔向下漏水\n（B）将容器竖直向上抛出，容器向上运动时，小孔向下漏水；容器向下运动\n时，小孔不向下漏水\n（C）将容器水平抛出，容器在运动中小孔向下漏水\n（D）将容器斜向上抛出，容器在运动中小孔不向下漏水",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q05",
       "content": "一个边长为6cm 的正方形金属线框置于匀强磁\n场中，线框平面与磁场垂直，电阻为0.36Ω。磁感应\n强度B 随时间t 的变化关系如图所示，则线框中感应\n电流的有效值为（    ）\n（A）A 2E\nA×10-5A\n（B）A 6E\nA×10-5A\n（C）A 2\nE2\nE\nA×10-5A\n（D）A3 2\nE2\nE\nA×10-5A\n第Ⅱ卷\n（非选择题 共10 题 共174 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -125,22 +168,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q06",
       "content": "（18 分）\n（1）图1 中螺旋测微器的读数为___________。\n（2）原始的电话机将听筒和话筒串联成一个电路，当自己对着话筒讲话时，会从话筒中听\n到自己的声音，导致听觉疲劳而影响通话。现代的电话将听筒电路与话筒电路分开，改进的\n电路原理示意图如图2 所示，图2 中线圈Ⅰ与线圈Ⅱ匝数相等，R0＝1.2kΩ，R＝3.6kΩ，Rx\n为可变电阻。当Rx调到某一值时，从听筒中就听不到话筒传出的声音了，这时Rx＝______kΩ。\n（3）在测量电阻的实验中，提供的器材有：3V 稳压电源E、滑线变阻器R、电压表V、电\n流表A、待测电阻Rx，以及开关S、导线等。要求：①电流表内接；②调节滑线变阻器可使\n电压表的示数在0V～3V 间变化。\n在实验中，有的同学连成图3、图4 所示的电路，其中a，b，c，…，k 是表示接线柱的字\n母。请将图3、图4 中接线错误（用导线两端接线柱的字母表示）、引起的后果、改正的方\n法（改接、撤消或增添），分别填在图下面相应的表格中。\n接线错误\n引起的后果\n改正的方法\n接线错误\n引起的后果\n改正的方法",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（18 分）\n（1）2.720mm（2）1.8\n（3）图3 对应的表格\n接线错误\n引起的后果\n改正的方法\nce\n电源可能短路，损坏电源\n撤销ce 连线\nfi，hj\n电流表指针反偏，损坏电流表\nfi→fh，hi→ij\n图4 对应的表格\n接线错误\n引起的后果\n改正的方法\n缺db（或dg 或dk）连线\n电压表的示数无法调到0V\n增添db（或dg 或dk）连线\nhj\n电流表短路，指针无示数\n撤销hi 连线",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -148,22 +201,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q006-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q006-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q07",
       "content": "（20 分）两块金属a、b 平行放置，板间\n存在与匀强电场正交的匀强磁场，假设电场、\n磁场只存在于两板间的空间区域。一束电子以\n一定的初速度v0 从两极板中间，沿垂直于电\n场、磁场的方向射入场中，无偏转地通过场区，\n如图所示。\n已知板长l＝10cm，两板间距d＝3.0cm，两板\n间电势差U＝150V，v0＝2.0×107m/s。\n（1）求磁感应强度B 的大小；\n（2）若撤去磁场，求电子穿过电场时偏离入射方向的距离，以及电子通过场区后动能增加\n多少？\n（电子所带电荷量的大小与其质量之比\nAe\nm\nE\nA＝1.76×1011C/kg，电子电荷量的大小e＝1.60×10-\n19C）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（20 分）\n（1）电子进入正交的电磁场不发生偏转，则满足\nBev0＝eAU\nd\nE\nB＝A U\nv0d\nE\nA＝2.5×10-4T\n（2）设电子通过场区偏转的距离为y1\ny1＝A1\n2\nE\nAat2＝A1\n2\nE\nAAeU\nmd\nE\nAA l2\nv02\nE\nA＝1.1×10-2m\nΔEk＝eEy1＝eAU\nd\nE\nAy1＝8.8×10-18J＝55eV",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -171,22 +237,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q08",
       "content": "（18 分）下雪天，卡车在笔直的高速公路上匀速行驶。司机突然发现前方停着一辆故障\n车，他将刹车踩到底，车轮被抱死，但卡车仍向前滑行，并撞上故障车，且推着它共同滑行\n了一段距离l 后停下。事故发生后，经测量，卡车刹车时与故障车距离为L，撞车后共同滑\n行的距离l＝A 8\n25\nE\nAL。假定两车轮胎与雪地之间的动摩擦因数相同。已知卡车质量M 为故障\n车质量m 的4 倍。\n（1）设卡车与故障车相障前的速度为v1，两车相撞后的速度变为v2，求\nAv1\nv2\nE\nA；\n（2）卡车司机至少在距故障车多远处采取同样的紧急刹车措施，事故就能免于发生。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（18 分）\n（1）由碰撞过程动量守恒Mv1＝（M＋m）v2    ①\n则\nAv1\nv2\nE\nA＝A5\n4\nE\n（2）设卡车刹车前速度为v0，轮胎与雪地之间的动摩擦因数为μ两车相撞前卡车动能变化\n           ②\n碰撞后两车共同向前滑动，动能变化\n       ③\n由②式\n由③式\n又因\nMgL\nMv\nMv\nµ\n=\n−\n2\n1\n2\n0\n2\n1\n2\n1\ngl\nm\nM\nv\nm\nM\n)\n(\n0\n)\n(\n2\n1\n2\n2\n+\n=\n−\n+\nµ\ngL\nv\nv\nµ\n2\n2\n1\n2\n0\n=\n−\ngl\nv\nµ\n2\n2\n2 =\ngL\nv\nL\nl\nµ\n3\n,\n25\n8\n2\n0 =\n=\n得\n如果卡车滑到故障车前就停止，由\n  ④\n故 Lʹ＝A3\n2\nE\nAL\n这意味着卡车司机在距故障车至少\nA3\n2\nE\nAL 处紧急刹车，事故就能够免于发生。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -194,22 +270,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:春季高考/2005/春季2005北京理综.pdf#q09",
       "content": "（22 分）近期《科学》中文版的文章介绍了一种新技术——航天飞\n缆，航天飞缆是用柔性缆索将两个物体连接起来在太空飞行的系统。飞\n缆系统在太空飞行中能为自身提供电能和拖曳力，它还能清理“太空垃\n圾”等。从1967 年至1999 年17 次试验中，飞缆系统试验已获得部分成\n功。该系统的工作原理可用物理学的基本定律来解释。\n下图为飞缆系统的简化模型示意图，图中两个物体P，Q 的质量分别为\nmP、mQ，柔性金属缆索长为l，外有绝缘层，系统在近地轨道作圆周运\n动，运动过程中Q 距地面高为h。设缆索总保持指向地心，P 的速度为\nvP。已知地球半径为R，地面的重力加速度为g。\n（1）飞缆系统在地磁场中运动，地磁场在缆索所在处的磁感应强度大小\n为B，方向垂直于纸面向外。设缆索中无电流，问缆索P、Q 哪端电势\n高？此问中可认为缆索各处的速度均近似等于vP，求P、Q 两端的电势\n差；\n（2）设缆索的电阻为R1，如果缆索两端物体P、Q 通过周围的电离层放电形成电流，相应\n的电阻为R2，求缆索所受的安培力多大；\n（3）求缆索对Q 的拉力FQ。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（22 分）\n（1）缆索的电动势  E＝Blvp\nP、Q 两点电势差  UPQ＝Blvp，P 点电势高\n（2）缆索电流\n安培力 FA＝IlB＝A B2l2vP\nR1＋R2\nE\n（3）Q 的速度设为vQ，Q 受地球引力和缆索拉力FQ 作用\n            ①\nP、Q 角速度相等\n         ②\n又\n                           ③\n联立①、②、③解得\nFQ＝mQ[A\ngR2\n（R＋h）2\nE\nA－A （R＋h）vP2\n（R＋h＋l）2\nE\nA]\nL\nMg\nMv\n′\n=\n−\nµ\n0\n2\n1\n2\n0\n2\n1\n2\n1\nR\nR\nBlv\nR\nR\nE\nI\nP\n+\n=\n+\n=\nh\nR\nv\nm\nF\nh\nR\nMm\nG\nQ\nQ\nQ\nQ\n+\n=\n−\n+\n2\n2)\n(\nh\nR\nl\nh\nR\nv\nv\nQ\nP\n+\n+\n+\n=\n2\nR\nGM\ng =",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -217,11 +297,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:春季高考/2005/春季2005北京理综.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dbbdf8d0c6cc43fb-q009-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
   "name": "2014重庆理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q01",
       "content": "碘131 的半衰期约为8 天，若某药物含有质量为m 的碘131，经过32 天后，该药物中碘131 的含量大\n约还有（    ）\n（A）m/4\n（B）m/8\n（C）m /16\n（D）m/32",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据原子核的衰变公式：\n1\n( )\n2\nn\nm\nm\n=\n剩\n，其中\n32\n4\n8\nt\nn\nT\n=\n=\n=\n为半衰期的次数，故\n16\nm\nm\n=\n剩\n。选项\nC 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,11 +44,340 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q02",
+      "content": "某车以相同功率在两种不同的水平路面上行驶，受到的阻力分别为车重的k1 和k2 倍，最大速率分别为\nv1 和v2，则（    ）\n（A）v2 = k1v1\n（B）v2 = k1\nk2 v1\n（C）v2 = k2\nk1 v1\n（D）v2 = k2v1",
+      "answer": "暂无结构化答案",
+      "analysis": "以相同功率在两种不同的水平路面上行驶达最大速度时，有F = Ff = kmg。由P = Fv 可知最大速\n度\nm\nf\nP\nP\nv\nF\nF\n=\n=\n，则\n2\n1\n2\n2\n1\n1\nf\nf\nF\nv\nk\nv\nF\nk\n=\n=\n，故\n1\n2\n1\n2\nk\nv\nv\nk\n=\n，选项B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q03",
+      "content": "如图所示为某示波管内的聚焦电场，实线和虚线分别表示电场线和等势线。\n两电子分别从a、b 两点运动到c 点，设电场力对两电子做的功分别为Wa 和Wb，\na、b 两点的电场强度大小分别为Ea 和Eb，则（    ）\n（A）Wa = Wb，Ea＞Eb\n（B）Wa≠Wb，Ea＞Eb\n（C）Wa = Wb，Ea＜Eb\n（D）Wa≠Wb，Ea＜Eb",
+      "answer": "暂无结构化答案",
+      "analysis": "电子在电场中运动，电场力做功W = qU，a、b 位于同一条等势线上，故Uac = Ubc，所以Wa = Wb；\n而电场线的疏密反应电场强度的大小，a 点比b 点的电场线密些，故Ea＞Eb。选项A 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q04",
+      "content": "一弹丸在飞行到距离地面 5 m 高时仅有水平速度 v = 2 m/s，爆炸成为甲、乙两块水平飞出，甲、乙的\n质量比为 3∶1。不计质量损失，取重力加速度 g = 10 m/s2。则下列图中两块弹片飞行的轨迹可能正确的\n是（    ）",
+      "answer": "B",
+      "analysis": "弹丸水平飞行爆炸时，在水平方向系统动量守恒，设 m 乙 = m，则 m 甲 = 3m，故爆炸前水平方向\n总动量 p = (3m+m)v = 8m。而爆炸后两弹片做平抛运动，由平抛运动规律：\n2\n1\n=\n2\nh\ngt\nx\nv t\nx\nv t\n=\n=\n甲\n甲\n乙\n乙\n，\n，\n。\n选项 A 中：v 甲 = 2.5 m/s，v 乙 = 0.5 m/s(向左)，pʹ = 3m×2.5+m×(− 0.5) = 7m，不满足动量守恒，A 错误；\n选项 B 中：v 甲 = 2.5 m/s，v 乙 = 0.5 m/s，pʹ = 3m×2.5+m×0.5 = 8m，满足动量守恒，B 正确；\n选项 C 中：v 甲 = 2 m/s，v 乙 = 1 m/s，pʹ = 3m×2+m×1 = 7m，不满足动量守恒，C 错误；\n选项 D 中：v 甲 = 2m/s，v 乙 = 1m/s(向左)，pʹ = 3m×2+m×（− 1） = 6m，不满足动量守恒，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q05",
+      "content": "以不同初速度将两个物体同时竖直向上抛出并开始计时，一个物体所受空气阻力可忽略，另一个物体\n所受空气阻力大小与物体速率成正比。下列用虚线和实线描述两物体运动的v-t 图象可能正确的是（   ）",
+      "answer": "暂无结构化答案",
+      "analysis": "竖直上抛运动不受空气阻力，做向上匀减速直线运动至最高点再向下自由落体运动，v-t 图象是倾\n斜向下的直线，四个选项（虚线）均正确表示；有阻力Ff = kv 的上抛运动，上升时：a1 = mg＋kv\nm\n ，随着\nv 减小，加速度减小，对应的v-t 图线的斜率减小，A 错误；下落时：a2 = mg－kv\nm\n ，随着v 增大，加速度\n减小，故在最高点时v = 0，a = g，对应的v-t 图线与轴的交点，其斜率应该等于g，即过交点的切线应该\n与竖直上抛运动的直线（虚线）平行，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q06",
+      "content": "（19 分）\n（1）某照明电路出现故障，其电路如图1 所示，该电路用标称值12V 的蓄电池为电源，导线及其接触完\n好。维修人员使用已调好的多用表直流50V 挡检测故障。他将黑表笔接在c 点，用红表笔分别探测电路的\na、b 点。\n①断开开关，红表笔接a 点时多用表指示如图2 所示，读数为________V，说明_______正常（选填：蓄电\n池、保险丝、开关、小灯）。\n甲\n乙\n5 m\n2.5 m\n0.5 m\nO\n2.5 m\n0.5 m\n5 m\n5 m\nO\nO\nO\n5 m\n2 m\n1 m\n1 m\n2 m\n甲\n乙\n甲\n乙\n甲\n乙\nA\nB\nC\nD\nv\nv\nv\nv\nO\nO\nO\nO\nt\nt\nt\nt\n（A）             （B）               （C）               （D）\n②红表笔接b 点，断开开关时，表针不偏转，闭合开关后，多用表指示仍然和图2 相同，可判断发生故障\n的器件是________。（选填：蓄电池、保险丝、开关、小灯）",
+      "answer": "暂无结构化答案",
+      "analysis": "①多用电表直流50V 的量程读中间均匀部分，共50 格每格1V 应该估读到0.1V，指针在11~ 12\n之间，读数为11.5V。开关断开，相当于电压表并联在蓄电池两端，读出了蓄电池的电压，故蓄电池是正\n常的。\n② 两表笔接b、c 之间，并闭合开关，测试电压相同，说明a、b 之间是通路，b、c 之间是断路，故障器\n件是小灯。\n（2）为了研究人们用绳索跨越山谷过程中绳索拉力的变化规律，同学们\n设计了如图1 所示的实验装置。他们将不可伸长轻绳的两端通过测力计\n（不计质量及长度）固定在相距为D 的两立柱上，固定点分别为P 和Q，\nP 低于Q，绳长为L（L＞PQ）。他们首先在绳上距离P 点10 cm 处（标\n记为C）系上质量为m 的重物（不滑动），由测力计读出PC、QC 的拉\n力大小TP、TQ。随后，改变重物悬挂点C 的位置，每次将P 到C 的距离\n增加10 cm，并读出测力计的示数，最后得到TP、TQ 与绳长PC 的关系\n曲线如图2 所示。由实验可知：\n①曲线 Ⅱ 中拉力最大时，C 与P 点的距离为_________cm，该曲线为________（选填：TP 或TQ）的曲线。\n②在重物从P 移到Q 的整个过程中，受到最大拉力的是_______（选填：P 或Q）点所在的立柱。\n③曲线 Ⅰ、Ⅱ 相交处，可读出绳的拉力为T0 = ________N，它与L、D、m 和重力加速度g 的关系为T0 =\n___________________。\n①由曲线Ⅱ的最高点拉力最大，对应的横坐标PC = 60cm，设PC 和QC 与水平的夹角为α 和β，\n由C 点的平衡可得：TPcosα = TQcosβ，开始C 点靠近P 点，α＞β，则\ncos\n1\ncos\nP\nQ\nT\nT\n\n\n=\n\n，即TP＞TQ，结合两\n曲线左侧部分，Ⅱ曲线靠上则为TP 的曲线。\n②比较两图象的顶点大小可知，Ⅰ曲线的最高点更大，代表Q 有最大拉力。\n③两曲线的交点表示左右的绳拉力大小相等，读出纵坐标为TP = TQ = 4.30N，设CQ 绳与立柱的夹角为θ，\n5\nT/N\n4\n3\n2\n1\n0\n20\n40\n60\n80\n100\n120\n140\nPC/cm\nⅠ\nⅡ\nC\nP\nQ\nD\n延长CQ 线交另立柱上，构成直角三角形，则\n2\n2\ncos\nL\nD\nL\n\n−\n=\n，由力的平衡可知2TQcosθ = mg，则TQ =\nmg\n2cosθ  =\nmgL\n2\nL2－D2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 2,
+        "endPage": 4,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q006-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q006-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q07",
+      "content": "（15 分）如图所示为“嫦娥三号”探测器在月球上着陆最后阶段的示意图。\n首先在发动机作用下，探测器受到推力在距月面高度为h1 处悬停（速度为0，\nh1 远小于月球半径）；接着推力改变，探测器开始竖直下降，到达距月面高度\n为h2 处的速度为v；此后发动机关闭，探测器仅受重力下落到月面。已知探测\n器总质量为m（不包括燃料），地球和月球的半径比为k1，质量比为k2，地球\n表面附近的重力加速度为g。求：\n（1）月球表面附近的重力加速度大小及探测器刚接触月面时的速度大小；\n（2）从开始竖直下降到刚接触月面时，探测器机械能的变化。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设地球质量和半径分别为M 和R，月球的质量、半径和表面附近\n的重力加速度分别为M 、R和g，探测器刚接触月面时的速度大小为v1。\n由\n2\n1\n2\n2\n2\nk\nM m\nMm\nmg\nG\nmg\nG\ng\ng\nR\nR\nk\n\n\n\n=\n=\n=\n\n和\n得\n由\n2\n2\n2\n2\n1\n2\n2\n2\n2\n2\nt\nt\nk gh\nv\nv\ng h\nv\nv\nk\n\n−\n=\n=\n+\n得\n（2）设机械能变化量为△E，动能变化量为△Ek，重力势能变化量为△EP。\n由\nk\nP\nE\nE\nE\n= \n+\n有\n2\n2\n2\n1\n2\n1\n1\n2\n2\n2\n1\n(\n)\n2\nk gh\nk\nE\nm v\nm\ngh\nk\nk\n\n=\n+\n+\n得：\n2\n2\n1\n1\n2\n2\n1\n(\n)\n2\nk\nE\nmv\nmg h\nh\nk\n\n=\n−\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q007-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q007-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q08",
+      "content": "（16 分）某电子天平原理如图所示，E 形磁铁的\n两侧为N 极，中心为S 极，两极间的磁感应强度大\n小均为B，磁极宽度均为L，忽略边缘效应。一正方\n形线圈套于中心磁极，其骨架与秤盘连为一体，线圈\n两端C、D 与外电路连接。当质量为m 的重物放在秤\n盘上时，弹簧被压缩，秤盘和线圈一起向下运动（骨\n架与磁极不接触）随后外电路对线圈供电，秤盘和线\n圈恢复到未放重物时的位置并静止，由此时对应的供\n电电流I 可确定重物的质量。已知线圈匝数为n，线\n圈电阻为R，重力加速度为g。问：\n（1）线圈向下运动过程中，线圈中感应电流是从C\n端还是从D 端流出？\n（2）供电电流I 是从C 端还是从D 端流入？求重物质量与电流的关系。\nh1\nh2\n关闭发动机\n悬停\nv\n（3）若线圈消耗的最大功率为P，该电子天平能称量的最大质量是多少？",
+      "answer": "（1）感应电流从C 端流出\n（2）外加电流从D 点流入，m = 2nBIL\ng\n（3）2nBL\ng\nP\nR",
+      "analysis": "（1）感应电流从C 端流出。\n（2）设线圈受到的安培力为FA，\n外加电流从D 点流入。\n由FA = mg 和FA  = 2nBIL       得：\n2nBL\nm\nI\ng\n=\n（3）设称量最大质量为m0\n由\n2nBL\nm\nI\ng\n=\n和\n2\nP\nI R\n=\n     得：\n0\n2nBL\nP\nm\ng\nR\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q09",
+      "content": "（18 分）如图所示，在无限长的竖直边界NS 和MT 间充满匀强电场，\n同时该区域上、下部分分别充满方向垂直于NSTM 平面向外和向内的匀\n强磁场，磁感应强度大小分别为B 和2B，KL 为上下磁场的水平分界线，\n在NS 和MT 边界上，距KL 高h 处分别有P、Q 两点，NS 和MT 间距为\n1.8h。质量为m、带电量为+q 的粒子从P 点垂直于NS 边界射入该区域，\n在两边界之间做圆周运动，重力加速度为g。\n（1）求该电场强度的大小和方向；\n（2）要使粒子不从NS 边界飞出，求粒子入射速度的最小值；\n（3）若粒子能经过Q 点从MT 边界飞出，求粒子入射速度的所有可能\n值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设电场强度大小为E\n由题意有mg = qE\n得E = mg/q    方向竖直向上\n（2）如答题9 图l 所示，设粒子不从NS 边飞出的入射速度最小值为vmin，对应的\n粒子在上、下区域的运动半径分别为r1 和r 2，圆心的连线与NS 的夹角为φ\n由\nmv\nr\nqB\n=\n有\nmin\n1\nmv\nr\nqB\n=\n，\n2\n1\n1\n2\nr\nr\n=\n由\n1\n2\n2\n(\n)sin\nr\nr\nr\n\n+\n=\n1\n1 cos\nr\nr\nh\n\n+\n=\nmin\n(9\n6 2) qBh\nv\nm\n=\n−\n（3）如答题9 图2 所示，设粒子人射速度为v，粒子在上、下方区域的运动半径分别为r1 和r 2，粒子第\n•   •   •   •\n•   •   •   •\n•   •   •   •\n         \n         \n         \n         \nh\n1.8h\nB\n2B\nP\nK\nN\nM\nL\nT\nS\nQ\n一次通过 KL 时距离K 点为 x，由题意有 3nx  = 1.8h ( n = 1 , 2 , 3 ,……)\n3\n(9\n6 2)\n2\n2\nh\nx\n−\n\n得\n2\n2\n1\n1\n(\n)\nx\nr\nh\nr\n=\n−\n−\n得1\n2\n0.36\n(1\n)\n3.5\n2\nh\nr\nn\nn\n=\n+\n\n，\n即 n = 1 时\n0.68Bqh\nv\nm\n=\nn = 2 时\n0.545Bqh\nv\nm\n=\nn = 3 时\n0.52Bqh\nv\nm\n=\n三、选做题（第10 题和第11 题各12 分，考生从中选做一题。若两题都做，以第10 题得分为准。其中选\n择题仅有一个正确选项，请将正确的标号填入答题卡上对应的位置）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q009-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q009-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q10",
+      "content": "【选修3-3】\n（1）（6 分）重庆出租车常以天然气作为燃料，加气站储气罐中天然气的温度随气温升高的过程中，若储\n气罐内气体体积及质量均不变，则罐内气体（可视为理想气体）（      ）\n（A）压强增大，内能减小\n（B）吸收热量，内能增大\n（C）压强减小，分子平均动能增大\n（D）对外做功，分子平均动能减小",
+      "answer": "暂无结构化答案",
+      "analysis": "对理想气体由pV = nRT 可知体积和质量不变，温度升高时，压强增大，选项C 错误；理想气体的\n内能只有分子动能，而温度是分子平均动能的标志，故温产升高，分子平均动能增大，内能增大，选项A、\nD 错误，体积不变，故W = 0，由热力学第一定律ΔU = Q＋W 可知，吸热内能增大，选选项B 正确。\n（2）（6 分）如图所示为一种减震垫，上面布满了圆柱状薄膜\n气泡，每个气泡内充满体积为 V0，压强为 p0 的气体。当平\n板状物品平放在气泡上时，气泡被压缩。若气泡内气体可视为\n理想气体，其温度保持不变。当体积压缩到 V 时气泡与物品\n接触面的边界为 S。求此时每个气泡内气体对接触面处薄膜的\n压力。\n设压力为F，压缩后气体压强为p\n由等温过程：p0V0 = pV\nF = pS\n解得：F = V0\nV p0S\n接触面\n圆柱形气泡\nS\nV\n物品",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q010-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014重庆理综.pdf#q11",
+      "content": "【选修3-4】\n（1）（6 分）打磨某剖面如图所示的宝石时，必须将OP、OQ 边与轴线的\n夹角θ 切割在θ1＜θ＜θ2 的范围内，才能使从MN 边垂直入射的光线，在\nOP 边和OQ 边都发生全反射（仅考虑如图所示的光线第一次射到OP 边\n并反射到OQ 边后射向MN 边的情况），则下列判断正确的是（    ）\n（A）若θ＞θ2，光线一定在OP 边发生全反射\n（B）若θ＞θ2，光线会从OQ 边射出\n（C）若θ＜θ1，光线会从OQ 边射出\n（D）若θ＜θ1，光线会在OP 边发生全反射",
+      "answer": "暂无结构化答案",
+      "analysis": "由全反射的临界角满足sinC = 1/n，则入射角满足i≥C 发生全反射；作出光路可知光线垂直穿过\nMN 后到达OP 的入射角为90°－θ，则θ 越小，越容易发生全反射。选项D 正确\n（2）（6 分）一竖直悬挂的弹簧振子，下端装有一记录笔，在竖直面\n内放置有一记录纸。当振子上下振动时，以速率v 水平向左拉动记录\n纸，记录笔在纸上留下如图所示的图象。y1、y2、x0、2x0 为纸上印迹\n的位置坐标。由此求振动的周期和振幅。\n设周期为T，振幅为A\n由题意得T = 2x0\nv 和A = y1－y2\n2\nM\nN\nQ\nP\nO\nθ\nθ\ny\ny2\ny1\nO\nx0 2x0\nx\nv",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014重庆理综.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q011-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2016da6e15769c8c-q011-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }
