@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2007/2007江苏.pdf",
   "name": "2007江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q01",
       "content": "下列函数中, 周期为π\n2 的是\n(\n)\n(A) y = sin x\n2\n(B) y = sin 2x\n(C) y = cos x\n4\n(D) y = cos 4x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q02",
       "content": "已知全集U = Z, A = {−1, 0, 1, 2}, B = {x | x2 = x}, 则A∩∁UB 为(\n)\n(A) {−1, 2}\n(B) {−1, 0}\n(C) {0, 1}\n(D) {1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q03",
       "content": "在平面直角坐标系xOy 中, 双曲线的中心在坐标原点, 焦点在y 轴上, 一\n条渐近线方程为x −2y = 0, 则它的离心率为\n(\n)\n(A)\n√\n5\n(B)\n√\n5\n2\n(C)\n√\n3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q04",
       "content": "已知两条直线m, n, 两个平面α, β, 给出下面四个命题:\n①m\nn, m ⊥α ⇒n ⊥α;\n②α\nβ, m ⊂α, n ⊂β ⇒m\nn;\n③m\nn, m\nα ⇒n\nα;\n④α\nβ, m\nn, m ⊥α ⇒n ⊥β.\n其中正确命题的序号是\n(\n)\n(A) ①③\n(B) ②④\n(C) ①④\n(D) ②③",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q05",
       "content": "函数f(x) = sin x −\n√\n3 cos x (x ∈[−π, 0]) 的单调递增区间是\n(\n)\n(A)\n[\n−π, −5π\n6\n]\n(B)\n[\n−5π\n6 , −π\n6\n]\n(C)\n[\n−π\n3 , 0\n]\n(D)\n[\n−π\n6 , 0\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q06",
       "content": "设函数f(x) 定义在实数集上, 它的图象关于直线x = 1 对称, 且当x ⩾1\n时, f(x) = 3x −1, 则有\n(\n)\n(A) f\n(1\n3\n)\n< f\n(3\n2\n)\n< f\n(2\n3\n)\n(B) f\n(2\n3\n)\n< f\n(3\n2\n)\n< f\n(1\n3\n)\n(C) f\n(2\n3\n)\n< f\n(1\n3\n)\n< f\n(3\n2\n)\n(D) f\n(3\n2\n)\n< f\n(2\n3\n)\n< f\n(1\n3\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q07",
       "content": "若对于任意实数x, 有x3 = a0 + a1(x −2) + a2(x −2)2 + a3(x −2)3, 则a2\n的值为\n(\n)\n(A) 3\n(B) 6\n(C) 9\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q08",
       "content": "设f(x) = lg\n(\n2\n1 −x + a\n)\n是奇函数, 则使f(x) < 0 的x 的取值范围\n是\n(\n)\n(A) (−1, 0)\n(B) (0, 1)\n(C) (−∞, 0)\n(D) (−∞, 0) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q09",
       "content": "已知二次函数f(x) = ax2 + bx + c 的导数为f ′(x), f ′(0) > 0, 对于任意实\n数x 都有f(x) ⩾0, 则f(1)\nf ′(0) 的最小值为\n(\n)\n(A) 3\n(B) 5\n2\n(C) 2\n(D) 3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q10",
       "content": "在平面直角坐标系xOy, 已知平面区域A = {(x, y)|x + y ⩽1, 且x ⩾\n0, y ⩾0}, 则平面区域B = {(x + y, x −y) | (x, y) ∈A} 的面积为\n(\n)\n(A) 2\n(B) 1\n(C) 1\n2\n(D) 1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q11",
       "content": "若cos(α + β) = 1\n5, cos(α −β) = 3\n5, 则tan α tan β =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q12",
       "content": "某校开设9 门课程供学生选修, 其中A, B, C 三门由于上课时间相同, 学\n校规定, 每位同学选修4 门, 共有\n种不同的选修方案. (用数值作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q13",
       "content": "已知函数f(x) = x3 −12x + 8 在区间[−3, 3] 上的最大值与最小值分别为\nM, m, 则M −m =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q14",
       "content": "正三棱锥P −ABC 高为2, 侧棱与底面ABC 成45◦, 则点A 到侧面PBC\n的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q15",
       "content": "在平面直角坐标系xOy 中, 已知△ABC 顶点A(−4, 0) 和C(4, 0), 顶点\nB 在椭圆x2\n25 + y2\n9 = 1 上, 则sin A + sin C\nsin B\n=\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q16",
       "content": "某时钟的秒针端点A 到中心点O 的距离为5 cm, 秒针均匀地绕点O 旋\n转, 当时间t = 0 时, 点A 与钟面上标12 的点B 重合, 将A, B 两点的距\n离d (cm) 表示成t(s) 的函数, 则d =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q17",
       "content": "某气象站天气预报的准确率为80%, 计算(结果保留到小数点后面第2 位)\n(1) 5 次预报中恰有2 次准确的概率;\n(2) 5 次预报中至少有2 次准确的概率;\n(3) 5 次预报中恰有2 次准确, 且其中第3 次预报准确的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q18",
       "content": "如图, 已知ABCD −A1B1C1D1 是棱长为3 的正方体, 点E 在AA1 上,\n点F 在CC1 上, 且AE = FC1 = 1.\n(1) 求证: E, B, F, D1 四点共面;\n(2) 若点G 在BC 上, BG = 2\n3, 点M 在BB1 上, GM ⊥BF, 垂足为H,\n求证: EM ⊥面BCC1B1;\n(3) 用θ 表示截面EBFD1 和面BCC1B1 所成锐二面角大小, 求tan θ\nA\nB\nC\nG\nH\nD\nA1\nB1\nF\nE\nM\nC1\nD1\n383",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -424,22 +537,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cfab8a913bac7830-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cfab8a913bac7830-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q19",
       "content": "如图, 在平面直角坐标系xOy 中, 过y 轴正方向上一点C(0, c) 任作一直\n线, 与抛物线y = x2 相交于A, B 两点, 一条垂直于x 轴的直线, 分别与\n线段AB 和直线l: y = −c 交于P, Q.\n(1) 若#   »\nOA · #    »\nOB = 2, 求c 的值;\n(2) 若P 为线段AB 的中点, 求证: QA 为此抛物线的切线;\n(3) 试问(2) 的逆命题是否成立? 说明理由.\nP\nx\nl\ny\nC\nQ\nO\nA\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -447,22 +570,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cfab8a913bac7830-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cfab8a913bac7830-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q20",
       "content": "已知{an} 是等差数列, {bn} 是公比为q 的等比数列, a1 = b1, a2 = b2̸ = a1,\n记Sn 为数列{bn} 的前n 项和.\n(1) 若bk = am (m, k 是大于2 正整数), 求证: Sk−1 = (m −1)a1;\n(2) 若b3 = ai (i 是某一正整数), 求证: q 是整数, 且数列{bn} 中每一项都\n是数列{an} 中的项;\n(3) 是否存在这样的正数q, 使等比数列{bn} 中有三项成等差数列? 若存\n在, 写出一个q 的值, 并加以说明; 若不存在, 请说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -470,22 +603,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007江苏.pdf#q21",
       "content": "已知a, b, c, d 是不全为零的实数, 函数f(x) = bx2 + cx + d, g(x) =\nax3 + bx2 + cx + d. 方程f(x) = 0 有实数根, 且f(x) = 0 的实数根都是\ng(f(x)) = 0 的根; 反之, g(f(x)) = 0 的实数根都是f(x) = 0 的根.\n(1) 求d 的值;\n(2) 若a = 0, 求c 的取值范围;\n(3) 若a = 1, f(1) = 0, 求c 的取值范围.\n384",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -493,11 +632,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

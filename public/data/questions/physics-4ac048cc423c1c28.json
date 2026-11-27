@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016北京理综.pdf",
   "name": "2016北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 6,
+    "reviewCount": 6,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016北京理综.pdf#q01",
       "content": "处于n = 3 能级的大量氢原子，向低能级跃迁时，辐射光的频率有（    ）\n（A）1 种\n（B）2 种\n（C）3 种\n（D）4 种",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2016/2016北京理综.pdf#q02",
       "content": "下列说法正确的是（    ）\n（A）电磁波在真空中以光速c 传播\n（B）在空气中传播的声波是横波\n（C）声波只能在空气中传播\n（D）光需要介质才能传播",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2016/2016北京理综.pdf#q03",
       "content": "如图所示，弹簧振子在M、N 之间做简谐运动。以\n平衡位置O 为原点，建立Ox 轴，向右为x 轴正方向。\n若振子位于N 点时开始计时，则其振动图像为（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "试题分析：由于向右为正方向，振子位于N 点时开始计时，所以0 时刻位移为正，\n在正向最大位移处，将向左运动，即向负方向运动，故A 正确；\n考查了简谐振动的图像",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -79,11 +102,313 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q04",
+      "content": "如图所示，匀强磁场中有两个导体圆环a、\nb，磁场方向与圆环所在平面垂直。磁感应强度\nB 随时间均匀增大。两圆环半径之比为2∶1，\n圆环中产生的感应电动势分别为Ea 和Eb。不考\n虑两圆环间的相互影响。下列说法正确的是\n（    ）\n（A）Ea∶Eb = 4∶1，感应电流均沿逆时针方向\n（B）Ea∶Eb = 4∶1，感应电流均沿顺时针方向\n（C）Ea∶Eb = 2∶1，感应电流均沿逆时针方向\n（D）Ea∶Eb = 2∶1，感应电流均沿顺时针方向\nx\nt\nA\nO\nT\nT\nT\nT\nx\nt\nB\nO\nx\nt\nC\nO\nx\nt\nD\nO\nO\nM\nN\nx",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q05",
+      "content": "中国宋代科学家沈括在《梦溪笔谈》中最早记载了地磁偏角：\n“以磁石磨针锋，则能指南，然常微偏东，不全南也。”进一步\n研究表明，地球周围地磁场的磁感线分布示意如图。结合上述材\n料，下列说法不正确\n．．．的是（    ）\n（A）地理南、北极与地磁场的南、北极不重合\n（B）地球内部也存在磁场，地磁南极在地理北极附近\n（C）地球表面任意位置的地磁场方向都与地面平行\n（D）地磁场对射向地球赤道的带电宇宙射线粒子有力的作用",
+      "answer": "C",
+      "analysis": "根据题意可知，地理南、北极与地磁场存在一个夹角，为磁偏角，故两者不重合，\nA 正确；\n地磁南极在地理的北极附近，地磁北极在地理的南极附近，B 正确；\n由于地磁场的磁场方向沿磁感线切线的方向，故只有赤道处地磁场的磁场方向才与地面平\n行，C 错误；\n在赤道处，磁场方向水平，而射线是带电的粒子，运动方向垂直磁场方向，根据左手定则可\n得射向赤道的粒子受到洛伦兹力的作用，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q06",
+      "content": "如图所示，一颗人造卫星原来在椭圆轨道1 绕地球E 运行，在P 点\n变轨后进入轨道2 做匀速圆周运动。下列说法正确的是（    ）\n（A）不论在轨道1 还是轨道2 运行，卫星在P 点的速度都相同\n（B）不论在轨道1 还是轨道2 运行，卫星在P 点的加速度都相同\n（C）卫星在轨道1 的任何位置都具有相同加速度\n（D）卫星在轨道2 的任何位置都具有相同动量",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q07",
+      "content": "某兴趣小组探究用不同方法测定干电池的电动势和内阻，他们提出的实验方案中有如下\n四种器材组合。为使实验结果尽可能准确，最不可取\n．．．．的一组器材是（    ）\n（A）一个安培表、一个伏特表和一个滑动变阻器\n（B）一个伏特表和多个定值电阻\n（C）一个安培表和一个电阻箱\n（D）两个安培表和一个滑动变阻器",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q08",
+      "content": "雾霾天气是对大气中各种悬浮颗粒物含量超标的笼统表述，是特定气候条件与人类活动\n相互作用的结果。雾霾中，各种悬浮颗粒物形状不规则，但可视为密度相同、直径不同的球\n体，并用PM10、PM2.5 分别表示球体直径小于或等于10μm、2.5μm 的颗粒物（PM 是颗粒\n物的英文缩写）。\n某科研机构对北京地区的检测结果表明，在静稳的雾霾天气中，近地面高度百米的范围内，\nPM10 的浓度随高度的增加略有减小，大于PM10 的大悬浮颗粒物的浓度随高度的增加明显\n减小，且两种浓度分布基本不随时间变化。\n据此材料，以下叙述正确的是（    ）\n（A）PM10 表示直径小于或等于1.0×10-6m 的悬浮颗粒物\n（B）PM10 受到的空气分子作用力的合力始终大于其所受到的重力\n（C）PM10 和大悬浮颗粒物都在做布朗运动\n（D）PM2.5 的浓度随高度的增加逐渐增大",
+      "answer": "C",
+      "analysis": "试题分析：根据题给信息可知\n，A 错误；由于颗粒物\n6\nPM10\n10 μm\n10 10\nm\nd\n−\n\n=\n\nE\n2\n1\nP\n处于静止状态，其受到空气分子作用力的合力与重力等大反向，故B 错误；PM10 和大悬浮\n颗粒物都在做布朗运动，C 正确；因为PM10 的浓度随高度的增加略有减小，而PM10 中含\n有PM2.5，所以PM2.5 的浓度也应随高度的增加略有减小，D 错误。\n考查了布朗运动、分子力的作用\n第二部分（非选择题 共72 分）\n本部分共4 小题，共72 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q09",
+      "content": "（18 分）\n（1）热敏电阻常用于温度控制或过热保护装置中。如图为某种热敏\n电阻和金属热电阻的阻值R 随温度t 变化的示意图。由图可知，这种\n热敏电阻在温度上升时导电能力________（选填“增强”或“减弱”）；\n相对金属热电阻而言，热敏电阻对温度变化的响应更_______（选填\n“敏感”或“不敏感”）。\n（2）利用如图1 所示装置做“验证机械能守恒定律”实验。\n①为验证机械能是否守恒，需要比较重物下落过程中任意两点间的\n_____。\nA．动能变化量与势能变化量\nB．速度变化量与势能变化量\nC．速度变化量与高度变化量\n②除带夹子的重物、纸带、铁架台（含铁夹）、电磁打点计时器、\n导线及开关外，在下列器材中，还必须使用的两种器材是____。\nA．交流电源\nB．刻度尺\nC．天平（含砝码）\n③实验中，先接通电源，再释放重物，得到如图2 所示的一条纸带。\n在纸带上选取三个连续打出的点A、B、C，测得它们到起始点O 的\n距离分别为hA、hB、hC。\n已知当地重力加速度为g，打点计时器打点的周期为T。设重\n物的质量为m。从打O 点到打B 点的过程中，重物的重力势\n能变化量ΔEp = _______，动能变化量ΔEk = _________。\n④大多数学生的实验结果显示，重力势能的减少量大于动能的增加量，原因是_____。\nA．利用公式v = gt 计算重物速度\nB．利用公式v =\n2gh 计算重物速度\nR\nt\n金属热电阻\n热敏电阻\nO\nC．存在空气阻力和摩擦阻力的影响\nD．没有采用多次实验取平均值的方法\n⑤某同学想用下述方法研究机械能是否守恒：在纸带上选取多个计数点，测量它们到起始点\nO 的距离h，计算对应计数点的重物速度v，描绘v2-h 图像，并做如下判断：若图像是一条\n过原点的直线，则重物下落过程中机械能守恒。请你分析论证该同学的判断依据是否正确。",
+      "answer": "暂无结构化答案",
+      "analysis": "（18 分）\n（1）增强，敏感\n（2）①A\n②AB\n③− mghB，1\n2 m（hC－hA\n2T\n ）2\n④C\n⑤该同学的判断依据不正确。在重物下落h 过程中，若阻力f 恒定，根据mgh − fh = 1\n2 mv2\n− 0 可得：v2 = 2（g − f\nm ）h 可知v2-h 图像就是过原点的一条直线。要想通过v2-h 图像的方\n法验证机械能是否守恒，还必须看图像的斜率是否接近2g。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q009-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q10",
+      "content": "（16 分）\n如图所示，质量为m、电荷量为q 的带电粒子，以初速度v 沿垂直磁\n场方向射入磁感应强度为B 的匀强磁场，在磁场中做匀速圆周运动。\n不计带电粒子所受重力。\n（1）求粒子做匀速圆周运动的半径R 和周期T；\n（2）为使该粒子做匀速直线运动，还需要同时存在一个与磁场方向垂\n直的匀强电场，求电场强度E 的大小。",
+      "answer": "（16 分）\n（1）洛伦兹力提供向心力，有\n2v\nf\nqvB\nm\nR\n=\n=\n带电粒子做匀速圆周运动的半径\nR = mv\nqB\n匀速圆周运动的周期\nT = 2πR\nv  = 2πm\nqB\n（2）粒子受电场力F = qE，洛伦兹力f = qvB。粒子做匀速直线运动，则\nqE = qvB\n场强E 的大小\nE = vB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q11",
+      "content": "（18 分）\n如图所示，电子由静止开始经加速电场\n加速后，沿平行于板面的方向射入偏转\n电场，并从另一侧射出。已知电子质量\n为m，电荷量为e，加速电场电压为U0。\n偏转电场可看做匀强电场，极板间电压\n为U，极板长度为L，板间距为d。\n（1）忽略电子所受重力，求电子射入偏转电场时的初速度v0 和从电场射出时沿垂直板面方\n向的偏转距离Δy；\n（2）分析物理量的数量级，是解决物理问题的常用方法。在解决（1）问时忽略了电子所受\n重力，请利用下列数据分析说明其原因。已知U = 2.0×102 V，d = 4.0×10−2 m，m = 9.1×\n10−31 kg，e = 1.6×10−19 C，g = 10m/s2。\n（3）极板间既有静电场也有重力场。电势反映了静电场各点的能的性质，请写出电势φ 的\n定义式。类比电势的定义方法，在重力场中建立“重力势”φG 的概念，并简要说明电势和\n“重力势”的共同特点。",
+      "answer": "暂无结构化答案",
+      "analysis": "（18 分）\n（1）根据功和能的关系，有\n2\n0\n0\n1\n2\neU\nmv\n=\n电子射入偏转电场的初速度\n0\n0\n2eU\nv\nm\n=\n在偏转电场中，电子的运动时间\n0\n0\n2\nL\nm\nt\nL\nv\neU\n=\n=\n偏转距离\nΔy = 1\n2 a（Δt）2 = UL2\n4U0d\n（2）考虑电子所受重力和电场力的数量级，有\n重力\nG = mg = 10-29N\n电场力 F = eU\nd  = 10-15N\n由于F≫G，因此不需要考虑电子所受重力。\n（3）电场中某点电势φ 定义为电荷在该点的电势能Ep 与其电荷量q 的比值，\n即\np\nE\nq\n=\n由于重力做功与路径无关，可以类比静电场电势的定义，将重力场中物体在某点的重力势能\nEG 与其质量m 的比值，叫做“重力势”，即φG = EG\nm 。\n电势φ 和重力势φG 都是反映场的能的性质的物理量，仅由场自身的因素决定。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016北京理综.pdf#q12",
+      "content": "（20 分）\n（1）动量定理可以表示为Δp = FΔt，其中动量p 和力F 都是\n矢量。在运用动量定理处理二维问题时，可以在相互垂直的\nx、y 两个方向上分别研究。例如，质量为m 的小球斜射到木\n板上，入射的角度是θ，碰撞后弹出的角度也是θ，碰撞前后\n的速度大小都是v，如图1 所示。碰撞过程中忽略小球所受重\n力。\nA．分别求出碰撞前后x、y 方向小球的动量变化量Δpx、Δpy；\nB．分析说明小球对木板的作用力的方向。\n（2）激光束可以看作是粒子流，其中的粒子以相\n同的动量沿光传播方向运动。激光照射到物体上，\n在发生反射、折射和吸收现象的同时，也会对物\n体产生作用。光镊效应就是一个实例，激光束可\n以像镊子一样抓住细胞等微小颗粒。一束激光经\nS 点后被分成若干细光束，若不考虑光的反射和\n吸收，其中光束①和②穿过介质小球的光路如图2 所示。图中O 点是介质小球的球心，入\n射时光束①和②与SO 夹角均为θ，出射时光束均与SO 平行。请在下面两种情况下，分析\n说明两光束因折射对小球产生的合力的方向。\nA．光束①和②强度相同；\nB．光束①比②的强度大。\n2016 年普通高等学校招生全国统一考试",
+      "answer": "（20 分）\n（1）A．\nx 方向：\n动量变化为\nΔpx = mvsinθ－mvsinθ = 0\ny 方向：\n动量变化为\nΔpy = mvcosθ－（－mvcosθ） = 2mvcosθ\n方向沿y 轴正方向\nB．\n根据动量定理可知，木板对小球作用力的方向沿y 轴正方向；根据牛顿第三定律可知，小球\n对木板作用力的方向沿y 轴负方向。\n（2）A．\n仅考虑光的折射，设Δt 时间内每束光穿过小球\n的粒子数为n，每个粒子动量的大小为p。\n这些粒子进入小球前的总动量为\n1\n2\ncos\np\nnp\n\n=\n从小球出射时的总动量为\n2\n2\np\nnp\n=\np1、p2 的方向均沿SO 向右\n根据动量定理\n2\n1\n2\n(1\ncos )\n0\nF t\np\np\nnp\n\n=\n−\n=\n−\n\n可知，小球对这些粒子的作用力F 的方向沿SO 向右；根据牛顿第三定律，两光束对小球的\n合力的方向沿SO 向左。\nB．\n建立如答图所示的Oxy 直角坐标系。\nx 方向：\n根据（2）a 同理可知，两光束对小球的作用力沿x 轴负方向。\ny 方向：\n答图\ny\nx\n设Δt 时间内，光束①穿过小球的粒子数为n1，光束②穿过小球的粒子数为n2，n1＞n2。\n这些粒子进入小球前的总动量为\n1\n1\n2\n(\n) sin\ny\np\nn\nn p\n\n=\n−\n从小球出射时的总动量为\n2\n0\ny\np\n=\n根据动量定理：\n2\n1\n1\n2\n(\n) sin\ny\ny\ny\nF\nt\np\np\nn\nn p\n\n=\n−\n= −\n−\n可知，小球对这些粒子的作用力Fy 的方向沿y 轴负方向，根据牛顿第三定律，两光束对小\n球的作用力沿y 轴正方向。\n所以两光束对小球的合力的方向指向左上方。\n解析\n13. C",
+      "analysis": "处于𝑛= 3能级的大量氢原子，向低能级跃迁时，会出现𝑛= 3向𝑛= 2、\n𝑛= 1直接跃迁的两种情形，辐射出两种频率的光子，还有𝑛= 2向𝑛= 1跃迁时再辐射出一\n种光子，所以会出现3 种频率的光子，故C 正确.\n14. A\n电磁波在真空中以光速𝑐传播，故A 正确；在空气中传播的声波是纵波，\n故B 错误；声波在气体、液体、固体中都可以传播，故C 错误；光是电磁波，传播不需要\n介质，故D 错误.\n15. A\n振动图象以0 为平衡位置、向右为𝑥轴正方向，从振子位于𝑁点时开始计\n时，即0 时刻振子的位移为正向最大值，故A 正确.\n16. B\n由法拉第电磁感应定律得𝐸=\nΔ𝛷\nΔ𝑡=\nΔ𝐵⋅𝑆\nΔ𝑡，所以圆环的感应电动势之比为\n𝐸𝑎\n𝐸𝑏=\n𝑆𝑎\n𝑆𝑏，又圆环的面积𝑆= π𝑟2，所以\n𝐸𝑎\n𝐸𝑏=\n𝑆𝑎\n𝑆𝑏=\n𝑟𝑎2\n𝑟𝑏\n2 =\n4\n1；因为磁场方向垂直纸面向外且磁感应\n强度增大，由楞次定律可以判断圆环内的感应电流沿顺时针方向，故B 正确.\n17. C\n地磁偏角的存在说明地理南、北极与地磁场的南、北极不重合，故A 正\n确；由地球周围地磁场的磁感线分布示意图及磁感线是闭合曲线，可知地球内部也存在磁场，\n地磁南极在地理北极附近，故B 正确；由图可知，在地球的两极附近，磁感线和地面是倾斜\n相交的，不与地面平行，故C 错误；带电粒子速度与磁感线不平行时会受到洛伦兹力的作\n用，故D 正确.\n18. B\n卫星在𝑃点变轨，能够进入轨道2，说明卫星相对轨道1 在做离心运动，\n所以卫星在轨道2 上𝑃点的速度大于在轨道1 上𝑃点的速度，故A 错误；无论在哪个轨道上，\n卫星在𝑃点受到的万有引力相同，由\n𝐺𝑀𝑚\n𝑟2 = 𝑚𝑎可知，其在𝑃点的加速度相同，故B 正确；万\n有引力的方向始终指向地心，所以加速度的方向也始终指向地心，时刻在变化，故C 错误；\n卫星在轨道2 上的速度方向沿着该点的切向，时刻在发生变化，所以动量的方向也是时刻变\n化的，故D 错误.\n19. D\n一个安培表、一个伏特表和一个滑动变阻器，利用公式𝐸= 𝑈+ 𝐼𝑟，测\n量两组数据，可得电池的电动势和内阻，故A 可取；一个伏特表和多个定值电阻，利用公式\n𝐸= 𝑈+\n𝑈\n𝑅𝑟，也可以得到电动势和内阻，故B 可取；一个安培表和一个电阻箱，利用公式\n𝐸= 𝐼𝑅+ 𝐼𝑟，同理可得电动势和内阻，故C 可取；两个安培表和一个滑动变阻器，只能测\n量电流，无法测量电压和电阻，所以无法得到电动势和内阻，故D 不可取.\n20. C\nPM10表示直径小于或等于10μm = 1.0 × 10−5m，故A 错误；PM10颗粒\n悬浮在空气中，其运动状态不能确定，故其受力情况不能确定，故B 错误；材料中指出PM10\n和大悬浮颗粒物，两种浓度分布基本不随时间变化，说明两种颗粒在做无规则运动，故两种\n颗粒都在做布朗运动，故C 正确；材料中并没有说明PM2.5浓度随高度的增加逐渐增大，故\nD 错误.\n21. (1)增强;敏感；(2)①A；②AB；\n③−𝑚𝑔ℎ𝐵；\n1\n2 𝑚(\nℎ𝐶−ℎ𝐴\n2𝑇)\n2\n；④C；⑤该同学的判断依据不正确.在重物下落ℎ的过程\n中，若阻力𝑓恒定，由𝑚𝑔ℎ−𝑓ℎ=\n1\n2 𝑚𝑣2 −0 →𝑣2 = 2 (𝑔−\n𝑓\n𝑚) ℎ可知，𝑣2 −ℎ图象就是过原\n点的一条直线.要想通过𝑣2 −ℎ图象的方法验证机械能是否守恒，还必须看图象的斜率是否\n接近于2𝑔.\n(1)由图可知，热敏电阻的阻值随温度的升高而减小，电阻减小则其导电能力\n增强；由图可知，在相同的温度变化范围内，热敏电阻的阻值变化更大，即热敏电阻对温度\n的变化更敏感.\n(2)①如果机械能守恒，则动能和势能相互转化，所以本实验需要比较重物下落过程中\n两点的动能变化量与势能变化量，故A 正确；\n②电磁打点计时器需要交流电源，数据处理时需要利用刻度尺测量纸带上的距离，故AB\n正确；本实验不需要测量重物的质量，所以不需要天平；\n③从𝑂点到𝐵点，重力势能的变化为Δ𝐸p = 0 −𝑚𝑔ℎ𝐵= −𝑚𝑔ℎ𝐵，因起始点的速度为零，\n所以动能的变化量等于𝐵点的动能，𝐵的速度为𝑣=\nℎ𝐶−ℎ𝐴\n2𝑇，则动能变化量为Δ𝐸k =\n1\n2 𝑚𝑣2 =\n𝑚(ℎ𝐶−ℎ𝐴)2\n8𝑇2\n；\n④由于实验中存在空气阻力和摩擦阻力，重物实际速度小于理论速度，所以动能的增加\n量小于重力势能的减少量，故C 正确.\n22. (1)\n2π𝑚\n𝑞𝐵；(2)𝑣𝐵.\n(1)带电粒子在磁场中，由洛伦兹力提供向心力得\n𝑓= 𝑞𝑣𝐵= 𝑚\n𝑣2\n𝑅，\n带电粒子做匀速圆周运动的半径为\n𝑅=\n𝑚𝑣\n𝑞𝐵，\n匀速圆周运动的周期𝑇=\n2π𝑅\n𝑣=\n2π𝑚\n𝑞𝐵，\n(2)粒子受电场力𝐹= 𝑞𝐸，洛伦兹力𝑓= 𝑞𝑣𝐵.粒子做匀速直线运动，则\n𝑞𝐸= 𝑞𝑣𝐵\n场强𝐸的大小𝐸= 𝑣𝐵\n23. (1)\n𝑈𝐿2\n4𝑈0𝑑；(2)见解析；(3)见解析.\n(1)由功和能的关系得\n𝑒𝑈0 =\n1\n2 𝑚𝑣0\n2，\n电子射入偏转电场的初速度为\n𝑣0 = √\n2𝑒𝑈0\n𝑚，\n在偏转电场中，电子的运动时间为\nΔ𝑡=\n𝐿\n𝑣0 = 𝐿√\n𝑚\n2𝑒𝑈0，\n偏转距离为\nΔ𝑦=\n1\n2𝑎(Δ𝑡)2 =\n𝑈𝐿2\n4𝑈0𝑑.\n(2)考虑电子所受重力和电场力的数量级，有\n重力𝐺= 𝑚𝑔~10−29N，\n电场力𝐹=\n𝑒𝑈\n𝑑∼10−15N，\n由于𝐹≫𝐺，因此不需要考虑电子所受重力.\n(3)电场中某点电势𝜑定义为电荷在该点的电势能𝐸p与其电荷量𝑞的比值，即\n𝜑=\n𝐸p\n𝑞，\n由于重力做功与路径无关，可以类比静电场电势的定义，将重力场中物体在某点的重力\n势能𝐸𝐺与其质量𝑚的比值，叫作“重力势”，即\n𝜑𝐺=\n𝐸𝐺\n𝑚，\n电势𝜑和重力势𝜑𝐺都是反映场的能的性质的物理量，仅由场自身的因素决定.\n24. (1)a. Δ𝑝𝑥= 0,Δ𝑝𝑦= 2𝑚𝑣cos𝜃；b.沿𝑦轴负方向;\n(2)见解析.\n(1)a.𝑥方向：动量变化为\nΔ𝑝𝑥= 𝑚𝑣sin𝜃−𝑚𝑣sin𝜃= 0，\n𝑦方向：动量变化为\nΔ𝑝𝑦= 𝑚𝑣cos𝜃−(−𝑚𝑣cos𝜃) = 2𝑚𝑣cos𝜃，\n方向沿𝑦轴正方向.\nb.由动量定理可知，木板对小球作用力的方向沿𝑦轴正方向；由牛顿第三定律可知，小\n球对木板作用力的方向沿𝑦轴负方向.\n(2)a.仅考虑光的折射，设Δ𝑡时间内每束光穿过小球的粒子数为𝑛，每个粒子动量的大小\n为𝑝.\n这些粒子进入小球前的总动量为\n𝑝1 = 2𝑛𝑝cos𝜃，\n从小球出射时的总动量为\n𝑝2 = 2𝑛𝑝，\n𝑝1、𝑝2的方向均沿𝑆𝑂向右，\n由动量定理得\n𝐹Δ𝑡= 𝑝2 −𝑝1 = 2𝑛𝑝(1 −cos𝜃) > 0，\n可知小球对这些粒子的作用力𝐹的方向沿𝑆𝑂向右；由牛顿第三定律，两光束对小球的合\n力的方向沿𝑆𝑂向左.\nb.建立如图所示的𝑂𝑥𝑦直角坐标系.\n𝑥方向：\n由(2)a同理可知，两光束对小球的作用力沿𝑥轴负方向.\n𝑦方向：\n设Δ𝑡时间内，光束①穿过小球的粒子数为𝑛1，光束②穿过小球的粒子数为𝑛2，𝑛1 > 𝑛2.\n这些粒子进入小球前的总动量为\n𝑝1𝑦= (𝑛1 −𝑛2)𝑝sin𝜃,\n从小球出射时的总动量为\n𝑝2𝑦= 0,\n由动量定理得\n𝐹𝑦Δ𝑡= 𝑝2𝑦−𝑝1𝑦= −(𝑛1 −𝑛2)𝑝sin𝜃,\n可知小球对这些粒子的作用力𝐹𝑦的方向沿𝑦轴负方向，由牛顿第三定律，两光束对小球\n的作用力沿𝑦轴正方向.\n所以两光束对小球的合力的方向指向左上方.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016北京理综.pdf",
+        "page": 4,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q012-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4ac048cc423c1c28-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 2,
+    "assigned": 15,
+    "rendered": 15,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

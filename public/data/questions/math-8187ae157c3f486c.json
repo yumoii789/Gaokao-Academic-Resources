@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1986/1986全国文.pdf",
   "name": "1986全国文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q01",
       "content": "在下列各数中, 已表示成三角形式的复数是\n（\n）\n(A) 2\n(\ncos π\n4 −i sin π\n4\n)\n(B) 2\n(\ncos π\n4 + i sin π\n4\n)\n(C) 2\n(\nsin π\n4 + i cos π\n4\n)\n(D) −2\n(\nsin π\n4 −i cos π\n4\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q02",
       "content": "函数y = 5x + 1 的反函数是\n（\n）\n(A) y = log5(x + 1)\n(B) y = logx5 + 1\n(C) y = log5(x −1)\n(D) y = log(x−1)5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q03",
       "content": "已知全集I = {1, 2, 3, 4, 5, 6, 7, 8}, A = {3, 4, 5}, B = {1, 3, 6}, 那么集合\n{2, 7, 8} 是\n（\n）\n(A) A ∪B\n(B) A ∩B\n(C) A ∪B\n(D) A ∩B",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q04",
       "content": "函数y =\n√\n2 sin 2x cos 2x 是\n（\n）\n(A) 周期为π\n2 的奇函数\n(B) 周期为π\n2 的偶函数\n(C) 周期为π\n4 的奇函数\n(D) 周期为π\n4 的偶函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q05",
       "content": "已知c > 0, 在下列不等式中成立的一个是\n（\n）\n(A) c > 2c\n(B) c >\n(1\n2\n)c\n(C) 2c <\n(1\n2\n)c\n(D) 2c >\n(1\n2\n)c",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q06",
       "content": "有以下20 个数: 87, 91, 94, 88, 93, 91, 89, 87, 92, 86, 90, 92, 88, 90, 91,\n86, 89, 92, 95, 88, 它们的和是\n（\n）\n(A) 1789\n(B) 1799\n(C) 1879\n(D) 1899",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q07",
       "content": "已知某正方体对角线长为a, 那么这个正方体的全面积是\n（\n）\n(A) 2\n√\n2a2\n(B) 2a2\n(C) 2\n√\n3a2\n(D) 3\n√\n2a2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q08",
       "content": "如果方程x2 + y2 + Dx + Ey + F = 0 (D2 + E2 −4F > 0) 所表示的曲线\n关于直线y = x 对称, 那么必有\n（\n）\n(A) D = E\n(B) D = F\n(C) E = F\n(D) D = E = F",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q09",
       "content": "设甲是乙的充分条件, 乙是丙的充要条件, 丙是丁的必要条件, 那么丁是甲\n的\n（\n）\n(A) 充分条件\n(B) 必要条件\n(C) 充要条件\n(D) 既不充分也不必要的条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q10",
       "content": "在下列各图中, y = ax2 + bx 与y = ax + b (ab̸ = 0) 的图象只可能是（\n）\n(A)\nx\ny\nO\n(B)\nx\ny\nO\n(C)\nx\ny\nO\n(D)\nx\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -240,22 +309,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q11",
       "content": "求方程\n√\n25(x2+x−0.5) =\n4√\n5 的解.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -263,22 +343,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q12",
       "content": "已知ω = −1 −\n√\n3i\n2\n, 求ω2 + ω + 1 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -286,22 +372,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q13",
       "content": "在xOy 平面上, △ABC 的三个顶点坐标依次为(0, 0)、(1, 0)、(0, 3), 将这\n个三角形绕x 轴旋转一周, 求所得到的几何体的体积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -309,22 +401,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q14",
       "content": "求lim\nn→∞\n2n2 + n + 7\n5n2 + 4\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -332,22 +430,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q15",
       "content": "求\n(\n2x3 −1\nx2\n)5\n展开式中的常数项.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -355,22 +459,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q16",
       "content": "求与椭圆x2\n9 + y2\n4 = 1 有公共焦点, 且离心率为\n√\n5\n2\n的双曲线方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -378,22 +488,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q17",
       "content": "如图, AB 是圆O 的直径, PA 垂直于圆O 所在的平面, C 是圆周上不同\n于A、B 的任一点, 求证: 平面PAC 垂直于平面PBC.\nB\nA\nC\nP\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -401,22 +517,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q18",
       "content": "求满足方程|z + 3 −\n√\n3i| =\n√\n3 的辐角主值最小的复数z.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -424,22 +550,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q19",
       "content": "已知抛物线y2 = x + 1, 定点A(3, 1), B 为抛物线上任意一点, 点P 在线\n段AB 上, 且有BP : PA = 1 : 2, 当点B 在抛物线上变动时, 求点P 的\n轨迹方程, 并指出这个轨迹为那种曲线.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -447,22 +583,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q20",
       "content": "甲、乙、丙、丁四个公司承包8 项工程, 甲公司承包3 项, 乙公司承包1\n项, 丙、丁两个公司各承包2 项, 问共有多少种承包方式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -470,22 +612,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q21",
       "content": "已知sin A + sin 3A + sin 5A = a, cos A + cos 3A + cos 5A = b. 求证:\n(1) 当b̸ = 0 时, tan 3A = a\nb ;\n(2) (1 + 2 cos 2A)2 = a2 + b2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -493,22 +641,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1986/1986全国文.pdf#q22",
       "content": "已知数列{an}, 其中a1 = 4\n3, a2 = 13\n9 , 且当n ⩾3 时, an −an−1 =\n1\n3(an−1 −an−2).\n(1) 求数列{an} 的通项公式;\n(2) 求lim\nn→∞an.\n28",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1986,
       "subject": "数学",
@@ -516,11 +670,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1986/1986全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q022-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8187ae157c3f486c-q022-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

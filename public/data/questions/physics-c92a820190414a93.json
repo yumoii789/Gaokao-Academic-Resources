@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009四川理综.pdf",
   "name": "2009四川理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q01",
-      "content": "关于电磁波，下列说法正确的是（     ）\n（A）雷达是用X 光来测定物体位置的设备\n（B）使电磁波随各种信号而改变的技术叫做解调\n（C）用红外线照射时，大额钞票上用荧光物质印刷的文字会发出可见光\n（D）变化的电场可以产生变化的磁场\n解析：雷达是根据超声波测定物体位置的，A 错；使电磁波随各种信号而改变的技术叫做调\n制，B 错；用紫外线照射时大额钞票上用荧光物质印刷的文字会发出可见光，利用紫外线的\n荧光效应，C 错；根据麦克斯韦电磁场理论可知变化的电场可以产生变化的磁场、变化的磁\n场产生电场，D 对。",
+      "content": "关于电磁波，下列说法正确的是（     ）\n（A）雷达是用X 光来测定物体位置的设备\n（B）使电磁波随各种信号而改变的技术叫做解调\n（C）用红外线照射时，大额钞票上用荧光物质印刷的文字会发出可见光\n（D）变化的电场可以产生变化的磁场",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "雷达是根据超声波测定物体位置的，A 错；使电磁波随各种信号而改变的技术叫做调\n制，B 错；用紫外线照射时大额钞票上用荧光物质印刷的文字会发出可见光，利用紫外线的\n荧光效应，C 错；根据麦克斯韦电磁场理论可知变化的电场可以产生变化的磁场、变化的磁\n场产生电场，D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q02",
-      "content": "据报道，2009 年4 月29 日，美国亚利桑那州一天文观测机构发现一颗与太阳系其它行\n星逆向运行的小行星，代号为2009HC82。该小行星绕太阳一周的时间为3.39 年，直径2～\n3 千米，其轨道平面与地球轨道平面呈155°的倾斜。假定该小行星与地球均以太阳为中心做\n匀速圆周运动，则小行星和地球绕太阳运动的速度大小的比值为（    ）\n（A）3.39-1/3\n（B）3.39-1/2\n（C）3.393/2\n（D）3.392/3\n解析：小行星和地球绕太阳作圆周运动，都是由万有引力提供向心力，有\n2\nGMm\nR\n＝\n2\n2\n(\n)\nm\nR\nT\nπ\n，\n可知小行星和地球绕太阳运行轨道半径之比为R1:R2＝\n2\n1\n3\n2\n2\nT\nT\n，又根据V＝\nGM\nR\n，联立解\n得V1:V2＝\n1\n3\n2\nT\nT\n，已知\n1\n2\nT\nT\n＝\n1\n3.39\n，则V1:V2＝3\n1\n3.39\n。",
+      "content": "据报道，2009 年4 月29 日，美国亚利桑那州一天文观测机构发现一颗与太阳系其它行\n星逆向运行的小行星，代号为2009HC82。该小行星绕太阳一周的时间为3.39 年，直径2～\n3 千米，其轨道平面与地球轨道平面呈155°的倾斜。假定该小行星与地球均以太阳为中心做\n匀速圆周运动，则小行星和地球绕太阳运动的速度大小的比值为（    ）\n（A）3.39-1/3\n（B）3.39-1/2\n（C）3.393/2\n（D）3.392/3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "小行星和地球绕太阳作圆周运动，都是由万有引力提供向心力，有\n2\nGMm\nR\n＝\n2\n2\n(\n)\nm\nR\nT\nπ\n，\n可知小行星和地球绕太阳运行轨道半径之比为R1:R2＝\n2\n1\n3\n2\n2\nT\nT\n，又根据V＝\nGM\nR\n，联立解\n得V1:V2＝\n1\n3\n2\nT\nT\n，已知\n1\n2\nT\nT\n＝\n1\n3.39\n，则V1:V2＝3\n1\n3.39\n。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -56,22 +71,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q03",
-      "content": "关于热力学定律，下列说法正确的是（     ）\n（A）在一定条件下物体的温度可以降到0K\n（B）物体从单一热源吸收的热量可全部用于做功\n（C）吸收了热量的物体，其内能一定增加\n（D）压缩气体总能使气体的温度升高\n解析：根据热力学第三定律的绝对零度不可能达到可知A 错；物体从外够外界吸收热量、\n对外做功，根据热力学第一定律可知内能可能增加、减小和不变，C 错；压缩气体，外界对\n气体作正功，可能向外解放热，内能可能减少、温度降低，D 错；物体从单一热源吸收的热\n量可全部用于做功而引起其他变化是可能的，B 对。",
+      "content": "关于热力学定律，下列说法正确的是（     ）\n（A）在一定条件下物体的温度可以降到0K\n（B）物体从单一热源吸收的热量可全部用于做功\n（C）吸收了热量的物体，其内能一定增加\n（D）压缩气体总能使气体的温度升高",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据热力学第三定律的绝对零度不可能达到可知A 错；物体从外够外界吸收热量、\n对外做功，根据热力学第一定律可知内能可能增加、减小和不变，C 错；压缩气体，外界对\n气体作正功，可能向外解放热，内能可能减少、温度降低，D 错；物体从单一热源吸收的热\n量可全部用于做功而引起其他变化是可能的，B 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -79,22 +102,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q04",
-      "content": "如图甲所示，理想变压器原、副线圈的匝数比为10∶1，R1＝20Ω，R2＝30Ω，C 为电容\n器。已知通过R1 的正弦交流电如图乙所示，则（     ）\n2 / 8\n（A）交流电的频率为0.02Hz\n（B）原线圈输入电压的最大值为200 A 2E\nAV\n（C）电阻R2 的电功率约为6.67W\n（D）通过R3 的电流始终为零\n解析：根据变压器原理可知原副线圈中电流的周期、频率相同，周期为0.02s、频率为50 赫\n兹，A 错。由图乙可知通过R1 的电流最大值为Im＝1A、根据欧姆定律可知其最大电压为Um\n＝20V，再根据原副线圈的电压之比等于匝数之比可知原线圈输入电压的最大值为200 V、\nB 错；因为电容器有通交流、阻直流的作用，则有电流通过R3 和电容器，D 错；根据正弦\n交流电的峰值和有效值关系并联电路特点可知电阻R2 的电流有效值为I＝\nm\n1\n2\nI\n2\nR\nR\n、电压有\n效值为U＝Um/\n2 V，电阻R2 的电功率为P2＝UI＝20\n3\nW、C 对。",
+      "content": "如图甲所示，理想变压器原、副线圈的匝数比为10∶1，R1＝20Ω，R2＝30Ω，C 为电容\n器。已知通过R1 的正弦交流电如图乙所示，则（     ）\n2 / 8\n（A）交流电的频率为0.02Hz\n（B）原线圈输入电压的最大值为200 A 2E\nAV\n（C）电阻R2 的电功率约为6.67W\n（D）通过R3 的电流始终为零",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据变压器原理可知原副线圈中电流的周期、频率相同，周期为0.02s、频率为50 赫\n兹，A 错。由图乙可知通过R1 的电流最大值为Im＝1A、根据欧姆定律可知其最大电压为Um\n＝20V，再根据原副线圈的电压之比等于匝数之比可知原线圈输入电压的最大值为200 V、\nB 错；因为电容器有通交流、阻直流的作用，则有电流通过R3 和电容器，D 错；根据正弦\n交流电的峰值和有效值关系并联电路特点可知电阻R2 的电流有效值为I＝\nm\n1\n2\nI\n2\nR\nR\n、电压有\n效值为U＝Um/\n2 V，电阻R2 的电功率为P2＝UI＝20\n3\nW、C 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -102,22 +129,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q004-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q05",
-      "content": "氢原子能级的示意图如图所示，大量氢原子从n＝4 的\n能级向n＝2 的能级跃迁时辐射出可见光a，从n＝3 的能级\n向n＝2 的能级跃迁时辐射出可见光b，则（      ）\n（A）氢原子从高能级向低能级跃迁时可能会辐射出γ 射线\n（B）氢原子从n＝4 的能级向n＝3 的能级跃迁时会辐射出\n紫外线\n（C）在水中传播时，a 光较b 光的速度小\n（D）氢原子在n＝2 的能级时可吸收任意频率的光而发生电离\n解析：γ 射线的产生机理是原子核受激发，是原子核变化才产生的，A 错；根据跃迁规律可\n知高能级向低能级跃迁时辐射光子的能量等于这两个能级差，从n＝4 的能级向n＝3 的能\n级跃迁时会辐射出的光子能量小于a 光子的能量、不可能为紫外线，B 错；根据跃迁规律可\n知从n＝4 向n＝2 跃迁时辐射光子的能量大于从n＝3 向n＝2 跃迁时辐射光子的能量，则\n可见光a 的光子能量大于b，又根据光子能量E＝hγ 可得a 光子的频率大于b，则a 的折射\n率大于b，又V＝C/n 可得在水中传播时，a 光较b 光的速度小，B 对；欲使在n＝2 的能级\n的氢原子发生电离，吸收的能量一定不小于3.4eV，D 错。",
+      "content": "氢原子能级的示意图如图所示，大量氢原子从n＝4 的\n能级向n＝2 的能级跃迁时辐射出可见光a，从n＝3 的能级\n向n＝2 的能级跃迁时辐射出可见光b，则（      ）\n（A）氢原子从高能级向低能级跃迁时可能会辐射出γ 射线\n（B）氢原子从n＝4 的能级向n＝3 的能级跃迁时会辐射出\n紫外线\n（C）在水中传播时，a 光较b 光的速度小\n（D）氢原子在n＝2 的能级时可吸收任意频率的光而发生电离",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "γ 射线的产生机理是原子核受激发，是原子核变化才产生的，A 错；根据跃迁规律可\n知高能级向低能级跃迁时辐射光子的能量等于这两个能级差，从n＝4 的能级向n＝3 的能\n级跃迁时会辐射出的光子能量小于a 光子的能量、不可能为紫外线，B 错；根据跃迁规律可\n知从n＝4 向n＝2 跃迁时辐射光子的能量大于从n＝3 向n＝2 跃迁时辐射光子的能量，则\n可见光a 的光子能量大于b，又根据光子能量E＝hγ 可得a 光子的频率大于b，则a 的折射\n率大于b，又V＝C/n 可得在水中传播时，a 光较b 光的速度小，B 对；欲使在n＝2 的能级\n的氢原子发生电离，吸收的能量一定不小于3.4eV，D 错。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -125,22 +161,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q06",
-      "content": "图示为一列沿x 轴负方向传播的简谐横波，实线为\nt＝0 时刻的波形图，虚线为t＝0.6s 时的波形图，波的\n周期T＞0.6s，则（    ）\n（A）波的周期为2.4s\n（B）在t＝0.9s 时，P 点沿y 轴正方向运动\n（C）经过0.4s，P 点经过的路程为4m\n（D）在t＝0.5s 时，Q 点到达波峰位置\nR1\nR2\nR3\nC\n图甲\n~\nt/s\nO\ni/A\n0.01\n0.02\n1\n-1\n图乙\nn            E/eV\n4            -0.85\n3            -1.51\n2            -3.4\n1            -13.6\n∞            0\nx/m\nO\ny/m\n4\n8\n0.2\n-0.2\nP\nQ\n5\n3 / 8\n解析：根据题意应用平移法可知3\n4\nT＝0.6s，解得T＝0.8s，A 错；由图可知振幅A＝0.2m、\n波长λ＝8m。t＝0.9s＝1 1\n8\nT，此时P 点沿y 轴负方向运动，B 错；0.4s＝1\n2\nT，运动路程为\n2A＝0.4m，C 错； t＝0.5s＝5\n8\nT＝1\n2\nT＋1\n8\nT，波形图中Q 正在向下振动，从平衡位置向下\n振动了1\n8\nT，经1\n8\nT 到波谷，再过1\n2\nT 到波峰，D 对。",
+      "content": "图示为一列沿x 轴负方向传播的简谐横波，实线为\nt＝0 时刻的波形图，虚线为t＝0.6s 时的波形图，波的\n周期T＞0.6s，则（    ）\n（A）波的周期为2.4s\n（B）在t＝0.9s 时，P 点沿y 轴正方向运动\n（C）经过0.4s，P 点经过的路程为4m\n（D）在t＝0.5s 时，Q 点到达波峰位置\nR1\nR2\nR3\nC\n图甲\n~\nt/s\nO\ni/A\n0.01\n0.02\n1\n-1\n图乙\nn            E/eV\n4            -0.85\n3            -1.51\n2            -3.4\n1            -13.6\n∞            0\nx/m\nO\ny/m\n4\n8\n0.2\n-0.2\nP\nQ\n5\n3 / 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据题意应用平移法可知3\n4\nT＝0.6s，解得T＝0.8s，A 错；由图可知振幅A＝0.2m、\n波长λ＝8m。t＝0.9s＝1 1\n8\nT，此时P 点沿y 轴负方向运动，B 错；0.4s＝1\n2\nT，运动路程为\n2A＝0.4m，C 错； t＝0.5s＝5\n8\nT＝1\n2\nT＋1\n8\nT，波形图中Q 正在向下振动，从平衡位置向下\n振动了1\n8\nT，经1\n8\nT 到波谷，再过1\n2\nT 到波峰，D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -148,22 +193,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q07",
-      "content": "如图所示，粗糙程度均匀的绝缘斜面下方O 点处有一正点电\n荷，带负电的小物体以初速度v1 从M 点沿斜面上滑，到达N 点时\n速度为零，然后下滑回到M 点，此时速度为v2（v2＜v1）。若小物体\n电荷量保持不变，OM＝ON，则（     ）\n（A）小物体上升的最大高度为\nAv12＋v22\n4g\nE\n（B）从N 到M 的过程中，小物体的电势能逐渐减小\n（C）从M 到N 的过程中，电场力对小物体先做负功后做正功\n（D）从N 到M 的过程中，小物体受到的摩擦力和电场力均是先增大后减小\n解析：设斜面倾角为θ、上升过程沿斜面运动的最大距离为L。因为OM＝ON，则MN 两点\n电势相等，小物体从M 到N、从N 到M 电场力做功均为0。上滑和下滑经过同一个位置时，\n垂直斜面方向上电场力的分力相等，则经过相等的一小段位移在上滑和下滑过程中电场力分\n力对应的摩擦力所作的功均为相等的负功，所以上滑和下滑过程克服电场力产生的摩擦力所\n作的功相等、并设为W1。在上滑和下滑过程，对小物体，应用动能定理分别有：－mgsinθL\n－μmgcosθL－W1＝－\n2\n1\n2\nmv 和mgsinθL－μmgcosθL－W1＝\n2\n2\n2\nmv ，上两式相减可得sinθL＝\n2\n2\n1\n2\n4\nv\nv\ng\n+\n，A 对；由OM＝ON，可知电场力对小物体先作正功后作负功，电势能先减小后增\n大，BC 错；从N 到M 的过程中，小物体受到的电场力垂直斜面的分力先增大后减小，而\n重力分力不变，则摩擦力先增大后减小，在此过程中小物体到O 的距离先减小后增大，根\n据库仑定律可知小物体受到的电场力先增大后减小，D 对。",
+      "content": "如图所示，粗糙程度均匀的绝缘斜面下方O 点处有一正点电\n荷，带负电的小物体以初速度v1 从M 点沿斜面上滑，到达N 点时\n速度为零，然后下滑回到M 点，此时速度为v2（v2＜v1）。若小物体\n电荷量保持不变，OM＝ON，则（     ）\n（A）小物体上升的最大高度为\nAv12＋v22\n4g\nE\n（B）从N 到M 的过程中，小物体的电势能逐渐减小\n（C）从M 到N 的过程中，电场力对小物体先做负功后做正功\n（D）从N 到M 的过程中，小物体受到的摩擦力和电场力均是先增大后减小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "设斜面倾角为θ、上升过程沿斜面运动的最大距离为L。因为OM＝ON，则MN 两点\n电势相等，小物体从M 到N、从N 到M 电场力做功均为0。上滑和下滑经过同一个位置时，\n垂直斜面方向上电场力的分力相等，则经过相等的一小段位移在上滑和下滑过程中电场力分\n力对应的摩擦力所作的功均为相等的负功，所以上滑和下滑过程克服电场力产生的摩擦力所\n作的功相等、并设为W1。在上滑和下滑过程，对小物体，应用动能定理分别有：－mgsinθL\n－μmgcosθL－W1＝－\n2\n1\n2\nmv 和mgsinθL－μmgcosθL－W1＝\n2\n2\n2\nmv ，上两式相减可得sinθL＝\n2\n2\n1\n2\n4\nv\nv\ng\n+\n，A 对；由OM＝ON，可知电场力对小物体先作正功后作负功，电势能先减小后增\n大，BC 错；从N 到M 的过程中，小物体受到的电场力垂直斜面的分力先增大后减小，而\n重力分力不变，则摩擦力先增大后减小，在此过程中小物体到O 的距离先减小后增大，根\n据库仑定律可知小物体受到的电场力先增大后减小，D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -171,22 +224,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q08",
-      "content": "如图所示，空气中有一横截面为半圆环的均匀透明柱体，\n其内圆半径为r，外圆半径为R，R＝A 2E\nAr。现有一束单色光\n垂直于水平端面A 射入透明柱体，只经过两次全反射就垂直\n于水平端面B 射出。设透明柱体的折射率为n，光在透明柱\n体内传播的时间为t，若真空中的光速为c，则（   ）\n（A）n 可能为\nA 3E\nA\n（B）n 可能为2\n（C）t 可能为\nA2 2r\nEc\nE\nA\n（D）t 可能为\nA4.8r\nc\nE\nM\nN\nO\nv1\nr\nR\nA\nB\n4 / 8\n解析：只经过两次全反射可知第一次入射角为45°，反射光路\n图如右图所示。根据全反射可知临界角C≤45°，再根据n＝\n1\nsinC\n可知n≥\n2 ；光在透明柱体中运动路程为L＝4r，运动\n时间为t＝L/V＝4nr/c，则t≥4\n2 r/c，CD 均错。\n第Ⅱ卷\n本卷共10 题，共174 分。",
+      "content": "如图所示，空气中有一横截面为半圆环的均匀透明柱体，\n其内圆半径为r，外圆半径为R，R＝A 2E\nAr。现有一束单色光\n垂直于水平端面A 射入透明柱体，只经过两次全反射就垂直\n于水平端面B 射出。设透明柱体的折射率为n，光在透明柱\n体内传播的时间为t，若真空中的光速为c，则（   ）\n（A）n 可能为\nA 3E\nA\n（B）n 可能为2\n（C）t 可能为\nA2 2r\nEc\nE\nA\n（D）t 可能为\nA4.8r\nc\nE\nM\nN\nO\nv1\nr\nR\nA\nB\n4 / 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "只经过两次全反射可知第一次入射角为45°，反射光路\n图如右图所示。根据全反射可知临界角C≤45°，再根据n＝\n1\nsinC\n可知n≥\n2 ；光在透明柱体中运动路程为L＝4r，运动\n时间为t＝L/V＝4nr/c，则t≥4\n2 r/c，CD 均错。\n第Ⅱ卷\n本卷共10 题，共174 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -194,22 +255,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q008-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q008-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009四川理综.pdf#q09",
       "content": "（17 分）\n（1）在弹性限度内，弹簧弹力的大小与弹簧伸长（或缩短）的长\n度的比值，叫做弹簧的劲度系数。为了测量一轻弹簧的劲度系数，\n某同学进行了如下实验设计：如图所示，将两平行金属导轨水平\n固定在竖直向下的匀强磁场中，金属杆ab 与导轨接触良好，水平\n放置的轻弹簧一端固定于O 点，另一端与金属杆连接并保持绝缘。\n在金属杆滑动的过程中，弹簧与金属杆、金属杆与导轨均保持垂\n直，弹簧的形变始终在弹性限度内，通过减小金属杆与导轨之间的摩擦和在弹簧形变较大时\n读数等方法，使摩擦对实验结果的影响可忽略不计。请你按要求帮助该同学解决实验所涉及\n的两个问题。\n①帮助该同学完成实验设计。请你用低压直流电源（\n）、滑动变阻器（\n）、电流表\n（\n）、开关（\n）设计一电路图，画在图中虚线框内，并正确连在导轨的C、D 两端。\n②若已知导轨间的距离为d，匀强磁场的磁感应强度为B，正确连接电路后，闭合开关，使\n金属杆随挡板缓慢移动，当移开挡板且金属杆静止时，测出通过金属杆的电流为I1，记下金\n属杆的位置，断开开关，测出弹簧对应的长度为x1；改变滑动变阻器的阻值，再次让金属杆\n静止时，测出通过金属杆的电流为I2，弹簧对应的长度为x2，则弹簧的劲度系数k＝________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "：①低压直流电源E、滑动变阻器R、电流表、开关S 串接在CD 两点之间，如图\n所示。\n②设弹簧原长为L0，应用胡克定律有k（x1－L0）＝BI1d、k（x2－L0）＝BI2d，\n两式相减可得k（x1－x2）＝B（I1－I2）d，解得k＝\n1\n2\n1\n2\n(\n)\nBd I\nI\nx\nx\n−\n−\n；\n法二：根据胡克定律F＝kx 可得ΔF＝kΔx，则k＝\nF\nx\n∆\n∆\n＝\n1\n2\n1\n2\n(\n)\nBd I\nI\nx\nx\n−\n−\n；\n（2）气垫导轨（如图甲）工作时，空气从导轨表面的小孔喷出，在导轨表面和滑块内表面\n之间形成一层薄薄的空气层，使滑块不与导轨表面直接接触，大大减小了滑块运动时的阻力。\nA\na\nb\nC\nD\nO\nA\na\nb\nC\nD\nO\n5 / 8\n为了验证动量守恒定律，在水平气垫导轨上放置两个质量均为a 的滑块，每个滑块的一端分\n别与穿过打点计时器的纸带相连，两个打点计时器所用电源的频率均为b。气垫导轨正常工\n作后，接通两个打点计时器的电源，并让两滑块以不同的速度相向运动，两滑块相碰后粘在\n一起继续运动。图乙为某次实验打出的、点迹清晰的纸带的一部分，在纸带上以同间距的6\n个连续点为一段划分纸带，用刻度尺分别量出其长度s1、s2 和s3。若题中各物理量的单位均\n为国际单位，那么，碰撞前两滑块的动量大小分别为_________、_________，两滑块的总动\n量大小为_________；碰撞后两滑块的总动量大小为_________。重复上述实验，多做几次。\n若碰撞前、后两滑块的总动量在实验误差允许的范围内相等，则动量守恒定律得到验证。\n动量P＝mv，根据v＝S/（5T）可知两滑块碰前的速度分别为v1＝0.2s1b、v2＝0.2s3b，\n则碰前动量分别为0.2abs1 和0.2abs3，总动量大小为av1－av2＝0.2ab（s1-s3）；碰撞后两滑块\n的总动量大小为2av＝2a s2/（5T）＝0.4abs2。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -217,11 +287,126 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009四川理综.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q009-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q009-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009四川理综.pdf#q10",
+      "content": "（16 分）\n图示为修建高层建筑常用的塔式起重机。在起重机将质量m＝\n5×103 kg 的重物竖直吊起的过程中，重物由静止开始向上作匀加\n速直线运动，加速度a＝0.2m/s2，当起重机输出功率达到其允许\n的最大值时，保持该功率直到重物做vm＝1.02m/s 的匀速运动。\n取g＝10 m/s2，不计额外功。求：\n（1）起重机允许输出的最大功率。\n（2）重物做匀加速运动所经历的时间和起重机在第2 秒末的输出功率。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设起重机允许输出的最大功率为P0，重物达到最大速度时，拉力F0 等于重力。\nP0＝F0vm                                                                                          ①\nP0＝mg                                                                                            ②\n代入数据，有：P0＝5.1×104W                            ③\n（2）匀加速运动结束时，起重机达到允许输出的最大功率，设此时重物受到的拉力为F，\n速度为v1，匀加速运动经历时间为t1，有：\nP0＝F0v1                                                                                          ④\nF－mg＝ma                                                                                        ⑤\nV1＝at1                                                                                            ⑥\n由③④⑤⑥，代入数据，得：t1＝5s                       ⑦\nT＝2 s 时，重物处于匀加速运动阶段，设此时速度为v2，输出功率为P，则\nv2＝at                                                                                           ⑧\nP＝Fv2                                                                                    ⑨\n由⑤⑧⑨，代入数据，得：P＝2.04×104W。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009四川理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009四川理综.pdf#q11",
+      "content": "（19 分）\n如图所示，直线形挡板p1p2p3 与半径为r 的圆弧形挡板p3p4p5 平滑连接并安装在水平台面\n导轨\n滑块\n图甲\ns1\ns3\ns2\n图乙\n6 / 8\nb1b2b3b4 上，挡板与台面均固定不动。线圈c1c2c3 的匝数为n，其端点c1、c3 通过导线分别与\n电阻R1 和平行板电容器相连，电容器两极板间的距离为d，电阻R1 的阻值是线圈c1c2c3 阻\n值的2 倍，其余电阻不计，线圈c1c2c3 内有一面积为S、方向垂直于线圈平面向上的匀强磁\n场，磁场的磁感应强度B 随时间均匀增大。质量为m 的小滑块带正电，电荷量始终保持为\nq，在水平台面上以初速度v0 从p1 位置出发，沿挡板运动并通过p5 位置。若电容器两板间\n的电场为匀强电场，p1、p2 在电场外，间距为L，其间小滑块与台面的动摩擦因数为μ，其\n余部分的摩擦不计，重力加速度为g。求：\n（1）小滑块通过p2 位置时的速度大小。\n（2）电容器两极板间电场强度的取值范围。\n（3）经过时间t，磁感应强度变化量的取值范围。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）小滑块运动到位置p2 时速度为v1，由动能定理有：\n－μmgL＝\n2\n2\n1\n0\n1\n1\n2\n2\nmv\nmv\n−\n                                                                  ①\nv1＝A\nv02－2μgLE\nA                                                                               ②\n（2）由题意可知，电场方向如图，若小滑块能通过位置p，则小滑块可沿挡板运动且通过位\n置p5，设小滑块在位置p 的速度为v，受到的挡板的弹力为N，匀强电场的电场强度为E，\n由动能定理有：\n－μmgL－2rEqs＝\n2\n2\n1\n0\n1\n1\n2\n2\nmv\nmv\n−\n                             ③\n当滑块在位置p 时，由牛顿第二定律有：N+Eq＝m\n2v\nr\n                     ④\n由题意有：N≥0                    ⑤\n由以上三式可得：E≤Am(v02－2μgL)\nE5qr\nE\nA                                                ⑥\nE 的取值范围：0＜E≤Am(v02－2μgL)\nE5qr\nE\nA                        ⑦\n（3）设线圈产生的电动势为E1，其电阻为R，平行板电容器两端的电压为U，t 时间内磁感\n应强度的变化量为∆B，得：                                  ⑧\nU＝Ed\n由法拉第电磁感应定律得E1＝n\nBS\nt\n∆\n            ⑨\n由全电路的欧姆定律得E1＝I（R+2R）            ⑩\n                     U＝2RI\n经过时间t，磁感应强度变化量的取值范围：0＜ΔB≤A3md(v02－2μgL)\nE10nSqr\nE\nAt。\nc1\nc3\nc2\nB\nR1 d\nb1\nb4\nb2\nb3\np1\np2\np3\np4\np5\nl\nr\n7 / 8",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009四川理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q011-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q011-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q011-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009四川理综.pdf#q12",
+      "content": "（20 分）\n如图所示，轻弹簧一端连于固定点O，可在竖直平面内自由转动，\n另一端连接一带电小球P，其质量m＝2×10-2kg，电荷量q＝\n0.2C。将弹簧拉至水平后，以初速度v0＝20m/s 竖直向下射出小\n球P，小球P 到达O 点的正下方O1 点时速度恰好水平，其大小\nv＝15m/s。若O、O1 相距R＝1.5m，小球P 在O1 点与另一由细\n绳悬挂的、不带电的、质量M＝1.6×10-1kg 的静止绝缘小球N 相\n碰。碰后瞬间，小球P 脱离弹簧，小球N 脱离细绳，同时在空\n间加上竖直向上的匀强电场E 和垂直于纸面的磁感应强度B＝\n1T 的弱强磁场。此后，小球P 在竖直平面内做半径r＝0.5m 的\n圆周运动。小球P、N 均可视为质点，小球P 的电荷量保持不变，不计空气阻力，取g＝\n10m/s2。那么，\n（1）弹簧从水平摆至竖直位置的过程中，其弹力做功为多少？\n（2）请通过计算并比较相关物理量，判断小球P、N 碰撞后能否在某一时刻具有相同的速\n度。\n（3）若题中各量为变量，在保证小球P、N 碰撞后某一时刻具有相同速度的前提下，请推\n导出r 的表达式（要求用B、q、m、θ 表示，其中θ 为小球N 的运动速度与水平方向的夹\n角）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设弹簧的弹力做功为W，有：\n2\n2\n0\n1\n1\n2\n2\nmgR\nW\nmv\nmv\n+\n=\n−\n①\n代入数据，得：W ＝－2.05J\n②\n（2）由题给条件知，N 碰后作平抛运动，\nP 所受电场力和重力平衡，P 带正电荷。\n设P、N 碰后的速度大小分别为v1 和V，\n并令水平向右为正方向，有:\n1\nmv\nmv\nMV\n= ±\n+\n    ③\n而\n：\n1\nBqr\nv\nm\n=\n④\n若P、N 碰后速度同向时，计算可得V<v1，这种碰撞不能实现。P、N 碰后瞬时必为反向运\n动。有：\nmv\nBqr\nV\nM\n+\n=\n         ⑤\nP、N 速度相同时，N 经过的时间为\nNt ，P 经过的时间为\nPt 。设此时N 的速度V1 的方向与\n水平方向的夹角为θ ，有：\n1\n1\ncos\nV\nV\nV\nv\nθ =\n=\n                    ⑥\nE\nP\nN\nO\nO1\nv0\nα1\nθ\nP\nv1\nV1\nN\nθ\nV\nα2\nθ\nP\nv1\nV1\nN\nθ\nV\n8 / 8\n1\n1\nsin\nsin\nN\ngt\nV\nv\nθ\nθ\n=\n=\n          ⑦\n代入数据，得：\n3\n4\nNt\ns\n=\n         ⑧\n对小球P，其圆周运动的周期为T，有：\n2 m\nT\nBq\nπ\n=\n                   ⑨\n经计算得：\nNt ＜T，\nP 经过\nPt 时，对应的圆心角为α ，有：\n2\nPt\nT\nα\nπ\n=\n ⑩\n当B 的方向垂直纸面朝外时，P、N 的速度相同，如图可知，有：\n1\nα\nπ\nθ\n=\n+\n联立相关方程得：\n1\n2\n15\nPt\ns\nπ\n=\n比较得，\n1\nN\nP\nt\nt\n≠\n，在此情况下，P、N 的速度在同一时刻不可能相同。\n当B 的方向垂直纸面朝里时，P、N 的速度相同，同样由图，有：\n2a\nπ\nθ\n=\n−\n，\n同上得：\n2\n15\nPt\nπ\n=\n，\n比较得，\n2\nN\np\nt\nt\n≠\n，在此情况下，P、N 的速度在同一时刻也不可能相同。\n（3）当B 的方向垂直纸面朝外时，设在t 时刻P、N 的速度相同，\nN\nP\nt\nt\nt\n=\n=\n，\n再联立④⑦⑨⑩解得：\n(\n)\n(\n)\n2\n2\n2\n2\n1\n0,1,2\nsin\ng\nn\nm\nr\nn\nB q\nπ\nθ\nθ\n+\n+\n\n\n\n\n=\n=\nK\n当B 的方向垂直纸面朝里时，设在t 时刻P、N 的速度相同\nN\nP\nt\nt\nt\n=\n=\n，\n同理得：\n(\n)\n2\n2\n2 sin\nm g\nr\nB q\nπ\nθ\nθ\n−\n=\n，\n考虑圆周运动的周期性，有：r＝A[(2n＋1)π + θ]m2g\nEB2q2sinθ\nE\nA（n＝0，1，2…）（给定的B、q、r、m、\nθ 等物理量决定n 的取值）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009四川理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q012-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q012-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q012-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c92a820190414a93-q012-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 0,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

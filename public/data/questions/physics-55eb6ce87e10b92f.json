@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
   "name": "2020全国3理综(广西,四川,贵州,云南,西藏)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 16,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 13,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q01",
       "content": "如图，水平放置的圆柱形光滑玻璃棒左边绕有一线圈，右边套\n有一金属圆环。圆环初始时静止。将图中开关S 由断开状态拨至\n连接状态，电路接通的瞬间，可观察到（    ）\n（A）拨至M 端或N 端，圆环都向左运动\n（B）拨至M 端或N 端，圆环都向右运动\n（C）拨至M 端时圆环向左运动，拨至N 端时向右运动\n（D）拨至M 端时圆环向右运动，拨至N 端时向左运动",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "无论开关S 拨至哪一端，当把电路接通一瞬间，左边线圈中的电流从无到有，电流\n在线圈轴线上的磁场从无到有，从而引起穿过圆环的磁通量突然增大，根据楞次定律（增反\n减同），右边圆环中产生了与左边线圈中方向相反的电流，异向电流相互排斥，所以无论哪\n种情况，圆环均向右运动。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2020,
       "subject": "物理",
@@ -33,11 +44,464 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q02",
+      "content": "甲、乙两个物块在光滑水平桌面上沿同一直线运动，\n甲追上乙，并与乙发生碰撞，碰撞前后甲、乙的速度随时\n间的变化如图中实线所示。已知甲的质量为1 kg，则碰撞\n过程两物块损失的机械能为（    ）\n（A）3 J\n（B）4 J\n（C）5 J\n（D）6 J",
+      "answer": "A",
+      "analysis": "由v-t 图可知，碰前甲、乙的速度分别为\n5m / s\nv =\n甲\n，\n=1m / s\nv乙\n；碰后甲、乙的速度分别为\n1m / s\nv= −\n甲\n，\n=2m / s\nv乙\n，甲、乙两物块碰撞过程中，由动量守恒得\n+\n=\n+\nm v\nm v\nm v\nm v\n\n\n甲甲\n乙乙\n甲甲\n乙乙\n解得\n6kg\nm =\n乙\n则损失的机械能为\n2\n2\n2\n2\n1\n1\n1\n1\n+\n-\n-\n2\n2\n2\n2\nE\nm v\nm v\nm v\nm v\n\n\n\n=\n甲甲\n乙乙\n甲甲\n乙乙\nS\nM\nN\n6.0\n4.0\n2.0\n0.0\n− 2.0\nv/m·s−1\n甲\n乙\n甲\n乙\nt\n解得ΔE＝3 J\n故选A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q002-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q03",
+      "content": "“嫦娥四号”探测器于2019 年1 月在月球背面成功着陆，着陆前曾绕月球飞行，某段时间\n可认为绕月做匀速圆周运动，圆周半径为月球半径的K 倍。已知地球半径R 是月球半径的\nP 倍，地球质量是月球质量的Q 倍，地球表面重力加速度大小为g。则“嫦娥四号”绕月球做\n圆周运动的速率为（    ）\n（A）\nRKg\nQP\n（B）\nRPKg\nQ\n（C）\nRQg\nKP\n（D）\nRPg\nQK",
+      "answer": "D",
+      "analysis": "假设在地球表面和月球表面上分别放置质量为m 和m0 的两个物体，则在地球和月\n球表面处，分别有\n2\nMm\nG\nmg\nR\n=\n，\n0\n0\n2\nM m\nQ\nG\nm g\nR\nP\n\n=\n\n\n\n\n\n\n解得\n2\nP\ng\ng\nQ\n=\n设嫦娥四号卫星的质量为m1，根据万有引力提供向心力得\n1\n2\n1\n2\nM m\nv\nQ\nG\nm\nR\nR\nK\nK\nP\nP\n=\n\n\n\n\n\n\n解得\nv＝\nRPg\nQK\n故选D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q04",
+      "content": "如图，悬挂甲物体的细线拴牢在一不可伸长的轻质细绳上O 点\n处；绳的一端固定在墙上，另一端通过光滑定滑轮与物体乙相连。\n甲、乙两物体质量相等。系统平衡时，O 点两侧绳与竖直方向的夹\n角分别为α 和β。若α＝70°，则β 等于（    ）\n（A）45°\n（B）55°\n（C）60°\n（D）70°",
+      "answer": "B",
+      "analysis": "甲物体是拴牢在O 点，且甲、乙两物体的质量相等，则甲、乙绳的拉力大小相等，\nO 点处于平衡状态，则左侧绳子拉力的方向在甲、乙绳子的角平分线上，如图所示。根据几\n何关系有\n180°＝2β＋α\n解得β＝55°。\n故选B。\n甲\nα\nO\n乙\nβ\n甲\nα\nO\n乙\nβ\nmg\nT\nmg\nβ\nβ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q004-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q05",
+      "content": "真空中有一匀强磁场，磁场边界为两个半径分别为a 和3a 的同\n轴圆柱面，磁场的方向与圆柱轴线平行，其横截面如图所示。一速\n率为v 的电子从圆心沿半径方向进入磁场。已知电子质量为m，电\n荷量为e，忽略重力。为使该电子的运动被限制在图中实线圆围成\n的区域内，磁场的磁感应强度最小为（    ）\n（A）3mv\n2ae\n（B）mv\nae\n（C）3mv\n4ae\n（D）3mv\n5ae",
+      "answer": "C",
+      "analysis": "电子在磁场中做匀速圆周运动，由洛伦兹力提供向心力\n2v\neBv\nm r\n=\n则磁感应强度与圆周运动轨迹关系为\nmv\nB\ner\n=\n即运动轨迹半径越大，磁场的磁感应强度越小。令电子运动轨迹最大的\n半径为rmax，为了使电子的运动被限制在图中实线圆围成的区域内，其\n最大半径的运动轨迹与实线圆相切，如图所示\nA 点为电子做圆周运动的圆心，电子从圆心沿半径方向进入磁场，由左\n手定则可得，AB\nOB\n⊥\n，\nABO\n\n为直角三角形，则由几何关系可得\n(\n)\nmax\n2\n2\n2\nmax\n3a\nr\nr\na\n−\n=\n+\n解得\nmax\n4\n3\nr\na\n=\n解得磁场的磁感应强度最小值\nma\nin\nx\nm\n3\n4\nmv\nB\nm\ne\ne\nv\nr\na\n=\n=\n=\n故选C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q005-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q005-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q005-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q06",
+      "content": "1934 年，约里奥—居里夫妇用α 粒子轰击铝箔，首次产生了人工放射性同位素X，反应\n方程为：42He＋2713Al→X＋10n。X 会衰变成原子核Y，衰变方程为X→Y＋01e，则（    ）\n（A）X 的质量数与Y 的质量数相等\n（B）X 的电荷数比Y 的电荷数少1\n（C）X 的电荷数比2713Al 的电荷数多2\n（D）X 的质量数与2713Al 的质量数相等",
+      "answer": "AC",
+      "analysis": "设X 和Y 的质子数分别为n1 和n2，质量数分别为m1 和m2，则反应方程为\n42He＋2713Al→X＋10n，\n1\n2\n1\n2\n0\n1\nX\nY+\nm\nm\nn\nn\ne\n→\n根据反应方程质子数和质量数守恒，解得\n1\n2+13=n ，\n1\n2\n1\nn\nn\n=\n+\n1\n4+27=\n1\nm + ，\n1\n2\n0\nm\nm\n=\n+\n解得\n1\n15\nn =\n ，\n2\n14\nn =\n ，\n1\n30\nm =\n ，\n2\n30\nm =\nAC．X 的质量数（\n1\n30\nm =\n）与Y 的质量数（\n2\n30\nm =\n）相等，比2713Al 的质量数多3，故\nA 正确，D 错误；\nBC．X 的电荷数（\n1\n15\nn =\n）比Y 的电荷数（\n2\n14\nn =\n）多1，比2713Al 的电荷数多2，故B\n错误，C 正确；\n故选AC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q07",
+      "content": "在图（a）所示的交流电路中，电源电压的有效值为220 V，理想变压器原、副线圈的匝\n数比为10∶1，R1、R2、R3 均为固定电阻，R2＝10 Ω，R3＝20 Ω，各电表均为理想电表。已\n知电阻R2 中电流i2 随时间t 变化的正弦曲线如图（b）所示。下列说法正确的是（    ）\n（A）所用交流电的频率为50 Hz\n（B）电压表的示数为100 V\n（C）电流表的示数为1.0 A\n（D）变压器传输的电功率为15.0 W",
+      "answer": "AD",
+      "analysis": "A．交流电的频率为\n1\n1\n50Hz\n0.02s\nf\nT\n=\n=\n=\n，A 正确；\nB．通过R2 电流的有效值为\n2A\n1A\n2\nI =\n=\n，R2 两端即副线圈两端的电压，根据欧姆定律\n可知\n2\n2\n1 10V\n10V\nU\nIR\n=\n= \n=\n，根据理想变压器的电压规律\n1\n1\n2\n2\nU\nn\nU\nn\n=\n可知原线圈的电压\n1\n1\n2\n2\n10 10V\n100V\nn\nU\nU\nn\n=\n=\n\n=\n，电阻\nR1 两端分压即为电压表示数，即\nV\n0\n1\n220V\n100V\n120V\nU\nU\nU\n=\n−\n=\n−\n=\n。B 错误；\nC．电流表的示数为\n2\nA\n3\n10 A\n0.5A\n20\nU\nI\nR\n=\n=\n=\n。C 错误；\nD．副线圈中流过的总电流为\n2\nA\n1A\n0.5A\n1.5A\nI\nI\nI\n=\n+\n=\n+\n=\n，变压器原副线圈传输的功\n率为\n2\n2\n15W\nP\nI U\n=\n=\n，D 正确。\n故选AD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q007-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q007-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q08",
+      "content": "如图，∠M 是锐角三角形PMN 最大的内角，电荷量为q（q＞0）的\n点电荷固定在P 点。下列说法正确的是（    ）\n（A）沿MN 边，从M 点到N 点，电场强度的大小逐渐增大\n（B）沿MN 边，从M 点到N 点，电势先增大后减小\n（C）正电荷在M 点的电势能比其在N 点的电势能大\n（D）将正电荷从M 点移动到N 点，电场力所做的总功为负",
+      "answer": "BC",
+      "analysis": "A．如图所示，点电荷的电场以点电荷为中心，向四周\n呈放射状。∠M 是最大内角，所以PN＞PM，根据点电荷的场\n强公式E＝kQ\nr2 （或者根据电场线的疏密程度）可知从M→N 电\n场强度先增大后减小，A 错误；\nB．电场线与等势面（图中虚线）处处垂直，沿电场线方向电势\n降低，所以从M→N 电势先增大后减小，B 正确；\nC．M、N 两点的电势大小关系为φM＞φN，根据电势能的公式\nEp＝qφ 可知正电荷在M 点的电势能大于在N 点的电势能，C\n正确；\nD．正电荷从M→N，电势能减小，电场力所做的总功为正功，D 错误。\n故选BC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q008-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q008-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q008-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q09",
+      "content": "（6 分）某同学利用图（a）所示装置验证动能定理。调整木板的倾角平衡摩擦阻力后，\n挂上钩码，钩码下落，带动小车运动并打出纸带。某次实验得到的纸带及相关数据如图（b）\n所示。\n已知打出图（b）中相邻两点的时间间隔为0.02 s，从图（b）给出的数据中可以得到，打出\nB 点时小车的速度大小vB＝_____m/s，打出P 点时小车的速度大小vP＝_____m/s（结果均保\n留2 位小数）。\n若要验证动能定理，除了需测量钩码的质量和小车的质量外，还需要从图（b）给出的数据\n中求得的物理量为_________。",
+      "answer": "暂无结构化答案",
+      "analysis": "由匀变速直线运动中间时刻的瞬时速度等于平均速度\n2\n(4.00\n2.56) 10\nm/s=0.36m/s\n0.04\nB\nv\n−\n−\n\n=\n2\nP\n(57.86\n50.66) 10\nm/s=1.80m/s\n0.04\nv\n−\n−\n\n=\n验证动能定理需要求出小车运动的过程中拉力对小车做的功，所以还需要测量对应的B、P\nP\nM\nN\n之间的距离。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q10",
+      "content": "（9 分）已知一热敏电阻当温度从10℃升至60℃时阻值从几千欧姆降至几百欧姆，某\n同学利用伏安法测量其阻值随温度的变化关系。所用器材：电源E、开关S、滑动变阻器R\n（最大阻值为20 Ω）、电压表（可视为理想电表）和毫安表（内阻约为100 Ω）。\n（1）在答题卡上所给的器材符号之间画出连线，组成测量电路图。\n（2）实验时，将热敏电阻置于温度控制室中，记录不同温度下电压表和亳安表的示数，计\n算出相应的热敏电阻阻值。若某次测量中电压表和毫安表的示数分别为5.5 V 和3.0 mA，则\n此时热敏电阻的阻值为_____kΩ（保留2 位有效数字）。实验中得到的该热敏电阻阻值R 随\n温度t 变化的曲线如图（a）所示。\n（3）将热敏电阻从温控室取出置于室温下，测得达到热平衡后热敏电阻的阻值为2.2kΩ。\n由图（a）求得，此时室温为_____℃（保留3 位有效数字）。\n（4）利用实验中的热敏电阻可以制作温控报警器，其电路的一部分如图（b）所示。图中，\nE 为直流电源（电动势为10 V，内阻可忽略）；当图中的输出电压达到或超过6.0 V 时，便\n触发报警器（图中未画出）报警。若要求开始报警时环境温度为50℃，则图中_________（填\n“R1”或“R2”）应使用热敏电阻，另一固定电阻的阻值应为_________kΩ（保留2 位有效数字）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）滑动变阻器由用分压式，电压表可视为理想表，所以用电流表外接。连线如图\n（2）由部分电路欧姆定律得\n3\n5.5\nΩ\n1.8kΩ\n0.3 10\nU\nR\nI\n−\n=\n=\n\n\n（3）由图（a）可以直接可读该电阻的阻值为2.2 kΩ 对应的温度为25.5℃。\n（4）温度升高时，该热敏电阻阻值减小，分得电压减少。而温度高时要求输出电压升高，\n以触发报警，所以R1 为热敏电阻。\n由图线可知，温度为50℃时，R1 ＝0.8kΩ，由欧姆定律可得\n1\n2\n(\n)\nE\nI R\nR\n=\n+\n，\n2\nU\nIR\n=\n代入数据解得\n2\n1.2kΩ\nR =",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q010-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q11",
+      "content": "（12 分）如图，一边长为l0 的正方形金属框abcd 固定在水平面\n内，空间存在方向垂直于水平面、磁感应强度大小为B 的匀强磁场。\n一长度大于2 l0 的均匀导体棒以速率v 自左向右在金属框上匀速滑\n过，滑动过程中导体棒始终与ac 垂直且中点位于ac 上，导体棒与金\n属框接触良好。已知导体棒单位长度的电阻为r，金属框电阻可忽略。\n将导体棒与a 点之间的距离记为x，求导体棒所受安培力的大小随x\n（0≤x≤2 l0）变化的关系式。",
+      "answer": "暂无结构化答案",
+      "analysis": "当导体棒与金属框接触的两点间棒的长度为l 时，由法第电磁感应定律可知导体棒\n上感应电动势的大小为\nE\nBlv\n=\n由欧姆定律可知流过导体棒的感应电流为\nE\nI\nR\n=\n式中R 为这一段导体棒的电阻。按题意有\nR\nrl\n=\n此时导体棒所受安培力大小为\nF\nBIl\n=\n由题设和几何关系有\nl＝2x\n0≤x≤2\n2 l0\nl＝2( 2 l0－x)\n2\n2 l0≤x≤2 l0\n联立各式得\nF＝2B2v\nr x\n0≤x≤2\n2 l0\nF＝2B2v\nr ( 2 l0－x)\n2\n2 l0≤x≤2 l0\nb\nc\nd\na\nx",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q12",
+      "content": "（20 分）如图，相距L＝11.5 m 的两平台位于同一水平\n面内，二者之间用传送带相接。传送带向右匀速运动，其速\n度的大小v 可以由驱动系统根据需要设定。质量m＝10 kg 的\n载物箱（可视为质点），以初速度v0＝5.0 m/s 自左侧平台滑\n上传送带。载物箱与传送带间的动摩擦因数μ＝ 0.10，重力\n加速度取g＝10 m/s2。\n（1）若v＝4.0 m/s，求载物箱通过传送带所需的时间；\n（2）求载物箱到达右侧平台时所能达到的最大速度和最小速度；\n（3）若v＝6.0 m/s，载物箱滑上传送带Δt＝13\n12 s 后，传送带速度突然变为零。求载物箱从\n左侧平台向右侧平台运动的过程中，传送带对它的冲量。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）传送带的速度为v＝4.0 m/s 时，载物箱在传送带上先做匀减速运动，设其加速\n度为a，由牛顿第二定律有：\nμmg＝ma ①\n设载物箱滑上传送带后匀减速运动的距离为x1，由运动学公式有\nv2－v02＝－2as1②\n联立①②式，代入题给数据得s1＝4.5 m；③\n因此，载物箱在到达右侧平台前，速度先减小至v，然后开始做匀速运动，设载物箱从滑上\n传送带到离开传送带所用的时间为t1，做匀减速运动所用的时间为t1′，由运动学公式有\nv＝v0－at1′④\nt1＝t1′＋L－s1\nv\n ⑤\n联立①③④⑤式并代入题给数据有t1＝2.75 s；⑥\n（2）当载物箱滑上传送带后一直做匀减速运动时，到达右侧平台时的速度最小，设为v1，\n当载物箱滑上传送带后一直做匀加速运动时，到达右侧平台时的速度最大，设为v2.由动能\n定理有\n2\n2\n1\n0\n1\n1\n2\n2\nmgL\nmv\nmv\n\n−\n=\n−\n⑦\n2\n2\n2\n0\n1\n1\n2\n2\nmgL\nmv\nmv\n\n=\n−\n⑧\n由⑦⑧式并代入题给条件得\nv1＝2 m/s，v2＝4 3 m/s⑨\n（3）传送带的速度为v＝6.0 m/s 时，由于v0＜v＜v2，载物箱先做匀加速运动，加速度大小\n仍a。设载物箱做匀加速运动通过的距离为s2，所用时间为t3，由运动学公式有\nv＝v0＋at3 ⑩\nv2－v02＝2ax2⑪\n联立①⑩⑪式并代入题给数据得\nt3＝1.0 s⑫\ns2＝5.5 m⑬\n因此载物箱加速运动1.0 s、向右运动5.5 m 时，达到与传送带相同的速度。此后载物箱与传\n送带共同匀速运动（Δt－t3）的时间后，传送带突然停止，设载物箱匀速运动通过的距离为\ns3 有\ns3＝v（Δt－t3）⑭\n由①⑫⑬⑭式可知1\n2 mv2＞μmg（L－s2－s3），即载物箱运动到右侧平台时速度大于零，设\n为v3，由运动学公式有，\nv32－v2＝－2a（L－s2－s3）⑮\n设载物箱通过传送带的过程中，传送带对它的冲量为I。由动量定理有\nI＝m（v3－v0）\n⑯\n联立①⑫⑬⑭⑮⑯并代入题给数据的\nI＝0\n（二）选考题：共15 分。请考生从2 道物理题中每科任选一题作答。如果多做，则每科\n按所做的第一题计分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q012-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q13",
+      "content": "[物理——选修3–3]\n（5 分）如图，一开口向上的导热气缸内。用活塞封闭了一定质量的理想气体，活塞与气缸\n壁间无摩擦。现用外力作用在活塞上。使其缓慢下降。环境温度保持不变，系统始终处于平\n衡状态。在活塞下降过程中（    ）\n（A）气体体积逐渐减小，内能增知\n（B）气体压强逐渐增大，内能不变\n（C）气体压强逐渐增大，放出热量\n（D）外界对气体做功，气体内能不变\n（E）外界对气体做功，气体吸收热量",
+      "answer": "BCD",
+      "analysis": "A．理想气体的内能与温度之间唯一决定，温度保持不变，所以内能不变，A 错误；\nBCED．由理想气体状态方程pV\nT ＝C，可知体积减少，温度不变，所以压强增大。因为温度\n不变，内能不变，体积减少，外界对系统做功，由热力学第一定律ΔU＝W＋Q 可知，系统\n放热，BCD 正确，E 错误；\n故选BCD。\n（10 分）如图，两侧粗细均匀、横截面积相等、高度均为H＝18 cm 的\nU 型管，左管上端封闭，右管上端开口。右管中有高h0＝4 cm 的水银柱，\n水银柱上表面离管口的距离l＝12 cm。管底水平段的体积可忽略。环境\n温度为T1＝283 K。大气压强p0＝76 cmHg。\n（i）现从右侧端口缓慢注入水银（与原水银柱之间无气隙），恰好使水银\n柱下端到达右管底部。此时水银柱的高度为多少？\n（ii）再将左管中密封气体缓慢加热，使水银柱上表面恰与右管口平齐，此时密封气体的温\n度为多少？\n（1）设密封气体初始体积为V1，压强为p1，左、右管的截面积均为S，密封气体先\n经等温压缩过程体积变为V2，压强变为p2。由玻意耳定律有\n1\n1\n2\n2\np V\np V\n=\n设注入水银后水银柱高度为h，水银的密度为ρ，按题设条件有\n1\n0\n0\nh\np\np\ng\n\n=\n+\n，\n2\n0\np\np\ngh\n\n=\n+\n(\n)\n1\n0\n2\nV\nS\nH\nl\nh\n=\n−−\n，\n2\nV\nSH\n=\n联立以上式子并代入题中数据得\nH\nl\nh0\nh＝12.9 cm\n（2）密封气体再经等压膨胀过程体积变为V3，温度变为T2，由盖-吕萨克定律有\n2\n3\n1\n2\nV\nV\nT\nT\n=\n按题设条件有\n3\n(2\n)\nV\nS\nH\nh\n=\n−\n代入题中数据得\nT2＝363 K",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q013-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q013-p009-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q013-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q14",
+      "content": "[物理选修3–4]\n（5 分）如图，一列简谐横波平行于x 轴传播，图中的实\n线和虚线分别为t＝0 和t＝0.1 s 时的波形图。已知平衡位\n置在x＝6 m 处的质点，在0 到0.1 s 时间内运动方向不\n变。这列简谐波的周期为_____s，波速为_____m/s，传播\n方向沿x 轴_____（填“正方向”或“负方向”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "因为x＝6 m 处的质点在0～0.1 s 内运动方向不\n变，所以该处质点从正向位移最大处经过四分之一个周期向下运动至平衡位置处，即\n1\n0.1s\n4T =\n解得周期为T＝0.4 s，所以波速为\n4m\n10m/s\n0.4s\nv\nT\n\n=\n=\n=\n在虚线上，x＝6 m 处的质点向下运动，根据同侧法可知波沿x 轴负方向传播。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 10,
+        "endPage": 10,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q014-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q014-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf#q15",
+      "content": "如图，一折射率为\n3 的材料制作的三棱镜，其横截\n面为直角三角形ABC，∠A＝90°，∠B＝30°。一束平行光\n平行于BC 边从AB 边射入棱镜，不计光线在棱镜内的多\n次反射，求AC 边与BC 边上有光出射区域的长度的比值。",
+      "answer": "A",
+      "analysis": "设从D 点入射的光线经折射后恰好射向C 点，\n光在AB 边上的入射角为θ1，折射角为θ2，如图所示\n由折射定律有\n2\n1\nsin\nsin\nn\n\n\n=\n设从DB 范围入射的光折射后在BC 边上的入射角为θ′，由几何关系有\n2\n30\n\n\n=\n+\n代入题中数据解得\n2\n30\n=\n，\n60\n=\n\nsin\n1\nn\n\ny\nx/m\nO\n1 2 3\n4\n5 6\n7\nA\nC\nB\n所以从DB 范围入射的光折射后在BC 边上发生全反射，\n反射光线垂直射到AC 边，AC 边上全部有光射出。设从\nAD 范围入射的光折射后在AC 边上的入射角为θ″，如图\n所示。\n由几何关系可知\n2\n90\n\n\n=\n−\n根据已知条件可知\nsin\n1\nn\n\n即从AD 范围入射的光折射后在AC 边上发生全反射，反射光线垂直射到BC 边上。设BC\n边上有光线射出的部分为CF，由几何关系得\nsin30\nCF\nAC\n=\n\n\nAC 边与BC 边有光射出区域的长度比值为\n2\nAC\nCF =\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国3理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 10,
+        "endPage": 12,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q015-p010-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q015-p011-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q015-p012-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q015-p012-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-55eb6ce87e10b92f-q015-p010-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 25,
+    "answerGraphics": 3,
+    "assigned": 22,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

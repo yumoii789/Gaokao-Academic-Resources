@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012海南.pdf",
   "name": "2012海南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 19,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 17,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012海南.pdf#q01",
       "content": "根据牛顿第二定律，下列叙述正确的是（    ）\n（A）物体加速度的大小跟它的质量和速度大小的乘积成反比\n（B）物体所受合力必须达到一定值时，才能使物体产生加速度\n（C）物体加速度的大小跟它所受作用力中的任一个的大小成正比\n（D）当物体质量改变但其所受合力的水平分力不变时，物体水平加速度大小与其质量成反比",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "物体加速度的大小与其质量与速度的乘积—动量，无关，A错误；物体所受合外力不为零，即有\n加速度产生，不需要达到某一数值，B错误；物体加速度大小与合外力成正比，C错误，在水平方向应用\n牛顿第二定律，当物体质量改变但其所受合力的水平分力不变时，物体水平加速度大小与其质量成反\n比。D正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,578 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q02",
+      "content": "如图所示，在两水平极板间存在匀强电场和匀强磁场，电场方向竖直向下，磁场方\n向垂直于纸面向里，一带是粒子以某一速度沿水平直线通过两极板，若不计重力，下列\n四个物理量中哪一个改变时，粒子运动轨迹不会改变（     ）\n（A）粒子速度的大小\n（B）粒子所带的电荷量\n（C）电场强度\n（D）磁感应强度",
+      "answer": "暂无结构化答案",
+      "analysis": "粒子能水平通过电容器则qE=qvB，则改变电荷量不会打破平衡使粒子的运动轨迹发生改变。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q03",
+      "content": "如图所示，直线上有o、a、b、c 四点，ab 间的距离与bc 间的距离相等，在o 点处有固定点电荷，已知\nb 点电势高于c 点电势。若一带电负电荷的粒子仅在电场力作用下先从c 点运动到b 点，再从b 点运动到\na 点，则（    ）\n（A）两过程中电场力做的功相等\n（B）前一过程中电场力做的功大于后一过程中电场力做的功\n（C）前一过程中，粒子电势能不断减小\n（D）后一过程中，粒子动能不断减小",
+      "answer": "暂无结构化答案",
+      "analysis": "根据点电荷电场的电场线及电势分布可知，b点电势高于c点，则O点固定的是正电荷，负电荷移\n动过程中电场力做功W= qU，又Ubc<Uab，则前一个过程中电场力做功小于后一个过程电场力的功，A、B\n选项错误；两个过程中均为电场力做正功，电势能减小，动能增加，C正确，D错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q04",
+      "content": "如图所示，理想变压器原、副线圈匝数比为20∶1，两个标有“12V，6W”的小灯泡并联在副线圈的两\n端，当两灯泡都正常工作时，原线圈电路中电压表和电流表（可视为理想的）的\n示数分别是（     ）\n（A）120V，0.10A\n（B）240V，0.025A\n（C）120V，0.05A\n（D）240V，0.05A",
+      "answer": "暂无结构化答案",
+      "analysis": "根据电压关系\n1\n1\n2\n2\nU\nn\nU\nn\n=\n，U2=12V可知U1=240V ,根据功率关系P1=P2, P1=U1I1，P2 =12W，联立可\n得I1=0.05A，正确选项为D。\nv\na\nb\nc\no\nA\nV\n第2页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q05",
+      "content": "如图所示，一质量为m 的条形磁铁用细线悬挂在天花板上，细线一水平金属圆环中穿\n过．现将环从位置Ⅰ释放，环经过磁铁到达位置Ⅱ。设环经过磁铁上端附近时细线的张力\n分别为T1 和T2，重力加速度大小为g，则（     ）\n（A）T1＞mg，T2＞mg\n（B）T1＜mg，T2＜mg\n（C）T1＞mg，T2＜mg\n（D）T1＜mg，T2＞mg",
+      "answer": "暂无结构化答案",
+      "analysis": "由楞次定律，在I位置，圆环受安培力向上，磁铁受安培力向下，细线张力大于\n重力；II位置，圆环受力向上，磁铁受安培力向下，细线张力同样大于重力，故正确选\n项为A。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q06",
+      "content": "如图所示，表面处处同样粗糙的楔形木块 abc 固定在水平地面上，ab 面和 bc 面与地面的夹角分别为\nα 和 β，且 α > β，一初速度为 v0 的小物块沿斜面 ab 向上运动，经时间 t0 后到达顶点 b 时，速度刚好\n为零；然后让小物块立即从静止开始沿斜面 bc 下滑。在小物块从 a 运动到 c 的过程中，可能正确描述\n其速度大小 v 与时间 t 的关系的图像是（    ）",
+      "answer": "暂无结构化答案",
+      "analysis": "由于阻力做功，物\n体下滑到地面时速度 v 小于初始速度 v0，物块在斜面上做匀变速运动，但前后\n两段受力不同，加速度不同，平均速度不同，上升阶段平均速度\n0\n1\n2\nv\nv =\n，下降阶段平均速度\n2\n2\nv\nv =\n，则\n1\n2\nv\nv\n\n，且\nsin\n\n\n\n\n\n\n，sin\n，\nab\nbc\nx\nx\n\n上滑时间1\n1\nab\nx\nt\nv\n=\n，下滑时间2\n2\nbc\nx\nt\nv\n=\n，1\n2\nt\nt\n\n，综上可判\n断正确选项为C。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q07",
+      "content": "下列关于功和机械能的说法，正确的是（      ）\n（A）在有阻力作用的情况下，物体重力势能的减少不等于重力物体所做的功\n（B）合力对物体所做的功等于物体动能的改变量\n（C）物体的重力势能是物体与地球之间的相互作用能，其大小与势能零点的选取有关\n（D）运动物体动能的减少量一定等于其重力势能的增加量",
+      "answer": "暂无结构化答案",
+      "analysis": "重力势能的减少量等于重力对物体所作的功，与有无阻力作用无关，A错；由动能定理可知，合\n力对物体所做的功等于物体动能的变化量，B正确；物体的重力势能是物体与地球相互作用能，势能大小\n与零势能点的选取有关，C正确；在只有重力做功的前提下才可满足物体动能的减少量等于物体重力势能\n的增加量，D错。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q08",
+      "content": "下列关于摩擦力的说法，正确的是（     ）\n（A）作用在物体上的滑动摩擦力只能使物体减速，不可能使物体加速\n（B）作用在物体上的静摩擦力只能使物体加速，不可能使物体减速\n（C）作用在物体上的滑动摩擦力既可能使物体减速，也可能使物体减速\n（D）作用在物体上的静摩擦力既可能使物体加速，也可能使物体减速",
+      "answer": "暂无结构化答案",
+      "analysis": "滑动摩擦力和静摩擦力既可以充当动力给物体加速，也可以充当阻力给物体减速，正确选项为\nCD。\nⅡ\nⅠ\na\nc\nb\nβ\nα\nO\nt\nB\nv\nt0\n2t0 3t0\nv0\nO\nt\nC\nv\nt0\n2t0 3t0\nv0\nt\nO\nA\nv\nt0\n2t0 3t0\nv0\nO\nt\nD\nv\nt0\n2t0 3t0\nv0\n第3页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q09",
+      "content": "将平行板电容器两极板之间的距离、电压、电场强度大小和极板所带的电荷分别用d、U、E 和Q 表\n示．下列说法正确的是（    ）\n（A）保持U 不变，将d 变为原来的两倍，则E 变为原来的一半\n（B）保持E 不变，将d 变为原来的一半，则U 变为原来的两倍\n（C）保持d 不变，将Q 变为原来的两倍，则U 变为原来的一半\n（D）保持d不变，将Q变为原来的一半，则E变为原来的一半",
+      "answer": "暂无结构化答案",
+      "analysis": "由\nU\nE\nd\n=\n，保持U不变，将d变为原来的两倍，E变为原来的一半，A正确；保持E不变，将d变\n为原来的一半，则U变为原来的一半，B错误；由\n4\nQ\nS\nC\nC\nU\nkd\n\n\n=\n=\n，\n，保持d不变，C不变，Q加倍，U\n加倍，C错误；又\n4\nU\nQ\nkQ\nE\nd\nCd\nS\n\n\n=\n=\n=\n，则Q变为原来的一半，E变为原来的一半，D正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q10",
+      "content": "图中装置可演示磁场对通电导线的作用，电磁铁上下两磁极之间某一水\n平面内固定两条平行金属导轨，L 是置于导轨上并与导轨垂直的金属杆，当\n电磁铁线圈两端a、b，导轨两端e、f，分别接到两个不同的直流电源上时，\nL 便在导轨上滑动，下列说法正确的是（     ）\n（A）若a 接正极，b 接负极，e 接正极，f 接负极，则L 向右滑动\n（B）若a 接正极，b 接负极，e 接负极，f 接正极，则L 向右滑动\n（C）若a 接负极，b 接正极，e 接正极，f 接负极，则L 向左滑动\n（D）若a 接负极，b 接正极，e 接负极，f 接正极，则L 向左滑动",
+      "answer": "暂无结构化答案",
+      "analysis": "若a接正极，b接负极，磁场向上，e接正极，f接负极，导体棒中电流向外，根据左手定则，导体\n棒受力向左，向左滑动，A错误；若a接正极，b接负极，磁场向上，e接负极，f接正极，导体棒中电流向\n里，根据左手定则，导体棒受力向右，向右滑动，B正确；若a接负极，b接正极，磁场向下，e接正极，f\n接负极，导体棒中电流向外，根据左手定则，导体棒受力向右，向右滑动，C错误；若a接负极，b接正\n极，磁场向下，e接负极，f接正极，导体棒中电流向里，根据左手定则，导体棒受力向左，向左滑动，D\n正确。\n2012 年普通高等学校招生全国统一考试（海南卷）物理\n第II 卷",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q11",
+      "content": "地球同步卫星到地心的距离r可用地球质量M、地球自转周期T与引力常量G表示为r＝_____________。",
+      "answer": "暂无结构化答案",
+      "analysis": "提供同步卫星的向心力是万有引力，根据牛顿第二定律得：\n2\n2\n2\n(\n)\nMm\nG\nm\nr\nr\nT\n\n=\n，所以r＝\n3 GMT2\n4π2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q12",
+      "content": "N（N＞1）个电荷量均为q（q＞0）的小球，均匀分布在半径为R 的圆周\n上，示意如图，若移去位于圆周上P 点的一个小球，则圆心O 点处的电场强度\n大小为________，方向__________。（已知静电力常量为k）",
+      "answer": "暂无结构化答案",
+      "analysis": "移去P点小球后，余下小球在O点产生的合场强与p点小球在O点产生\n的场强等大反向，故大小为kq\nR2 ，方向沿OP指向P点。\nP\nO\nb\na\ne\nf\n右\n左\nL\n第4页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q012-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q13",
+      "content": "图示电路可用来测量电阻的阻值。其中E 为电源，R 为已知电阻，Rx\n为待测电阻，V 可视为理想电压表，S0 为单刀单掷开关，S1、S2 为单刀双\n掷开关。\n（1）当S0 闭合时，若S1、S2 均向左闭合，电压表读数为U1；若S1、S2 均\n向左闭合，电压读数为U2。由此可求出Rx＝_________。\n（2）若电源电动势E＝1.5V，内阻可忽略；电压表量程为1V，R＝100Ω。\n此电路可测量的Rx 的最大值为_______Ω。",
+      "answer": "暂无结构化答案",
+      "analysis": "S1、S2均向左闭合时U1=IRg，S1、S2均向右闭合时U2 =IR ，故\n1\n2\ng\nU\nR\nR\nU\n=\n；电动势为1.5V，电压\n表为1V，则\n1\n2\n2\n1\nU\nU \n,则Rg最大值为200Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q013-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q013-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q14",
+      "content": "一水平放置的轻弹簧，一端固定，另一端与一小滑块接触，但不粘\n连；初始时滑块静止于水平气垫导轨上的O 点，如图（a）所示．现利\n用此装置探究弹簧的弹性势能Ep 与期其被压缩时长度的改变量x 的关\n系，先推动小滑块压缩弹簧，用米尺测出x 的数值；然后将小滑块从天\n静止释放。用计时器测出小滑块从O 点运动至气垫导轨上另一固定点A\n所用的时间t。多次改变x，测得的x 值及其对应的t 值如下表所示。\n（表中的l/t 值是根据t 值计算得出的）。\nx（cm）\n1.00\n1.50\n2.00\n2.50\n3.00\nt（s）\n3.33\n2.20\n1.60\n1.32\n1.08\n1/t（s-1）\n0.300\n0.455\n0.625\n0.758\n0.926\n （1）根据表中数据，在图（b）中的方格纸上作图线。\n（2）回答下列问题：（不要求写出计算或推导过程）\n①已知点（0，0）在（1/t）-x 图线上，从（1/t）-x 图线看，1/t 与x 是什么关系？\n②从理论上分析，小滑块刚脱离弹簧时的动能Ek 与1/t 是什么关系（不考虑摩擦力）\n③当弹簧长度改变量为x 时，弹性势能Ep 与相应的Ek 是什么关系？\n④综合考虑以上分析，Ep 与x 是什么关系？\n0\n1.00\n2.00\n3.00\nx/cm\n0.25\n0.50\n0.75\n1.00\n1.25\n1\nt /s-1\n图(b)\nE\nR\nS0\nV\nRx\n右\n左\nS2\nS1\n图(a)\n滑块\nO\n气垫导轨\nA\n第5页（共9页）",
+      "answer": "（1）（1/t）-x 图线如图\n（2）①1/t 与x 成正比\n②Ek 与（1/t）2 成正比\n③Ep＝Ek\n④Ep 与x2 成正比",
+      "analysis": "(1/t)-x图线为过原点的直线，故1/t与x成正比，由v= x/t，动能\n2\n2\n1\n1\n( )\n2\n2\nk\nx\nE\nmv\nm t\n=\n=\n，故\n2\n1\n( )\nk\nE\nt\n\n；根据机械能守恒弹簧形变量为x时对应的弹性势能与弹出时物块动能相等即Ep =Ek；综上可得\n2\np\nE\nx\n\n。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q014-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q014-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q014-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q014-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q15",
+      "content": "如图，在竖直平面内有一固定光滑轨道，其中AB 是长为R 的水平直轨道，\nBCD 是圆心为O、半径为R 的3/4 圆弧轨道，两轨道相切于B 点。在外力作用下，\n一小球从A 点由静止开始做匀加速直线运动，到达B 点时撤除外力。已知小球刚\n好能沿圆轨道经过最高点C，重力加速度大小为g。求：\n（1）小球在AB 段运动的加速度的大小；\n（2）小球从D 点运动到A 点所用的时间。\n【解】（1）小球在BCD 段运动时，受到重力mg、轨道正压力N 的作用，如图所示。据题意，N≥0，且小\n球在最高点C 所受轨道正压力为零\nNc＝0                               ①\n设小球在C 点的速度大小为vc,根据牛顿第二定律 有\n2\nC\nv\nmg\nR\n=\n                            ②\n小球从B 点运动到C 点，机械能守恒。设B 点处小球的速度大小为vB,有\n2\n2\n1\n1\n2\n2\n2\nB\nC\nmv\nmv\nmg R\n=\n+\n              ③\n            由于小球在AB 段由静止开始做匀加速运动，设加速度大小为a，由运动学公式有\n2\n2\nB\nv\naR\n=\n                           ④\n0\n1.00\n2.00\n3.00\nx/cm\n0.25\n0.50\n0.75\n1.00\n1.25\n1\nt /s-1\nC\nR\nD\nB\nO\nA\nmg\nN\nC\nR\nD\nB\nO\nA\n第6页（共9页）\n            由②③④式得：\n5\n2\na\ng\n=\n                         ⑤\n（2）设小球在D 处的速度大小为vD,下落到A 点时的速度大小为v，由机械能守恒有\n2\n2\n1\n1\n2\n2\nB\nD\nmv\nmv\nmgR\n=\n+\n                ⑥\n2\n2\n1\n1\n2\n2\nB\nmv\nmv\n=\n                       ⑦\n           设从D 点运动到A 点所用的时间为t，由运动学公式得\nD\ngt\nv\nv\n=\n−\n                          ⑧\n           由④⑤⑥⑦⑧式得\n( 5\n3) R\nt\ng\n=\n−\n                ⑨",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q015-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q015-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q015-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q16",
+      "content": "图（a）所示的xOy 平面处于匀强磁场中，磁场方向与xOy 平面（纸面）垂直，磁感应强度B 随时间\nt 变化的周期为T，变化图线如图（b）所示。当B 为+B0 时，磁感应强度方向指向纸外。在坐标原点O 有\n一带正电的粒子P，其电荷量与质量之比恰好等于2π/（TB0）。不计重力。设P 在某时刻t0 以某一初速度沿\ny 轴正向自O 点开始运动，将它经过时间T 到达的点记为A。\n（1）若t0＝0，则直线OA 与x 轴的夹角是多少？\n（2）若t0＝T/4，则直线OA 与x 轴的夹角时多少？\n（3）为了使直线OA 与x 轴的夹角为π/4，在0＜t0＜T/4 的范围内，t0 应取何值？\n【解】（1）设粒子P 的质量、电荷量与初速度分别为m、q 与v，粒子P 在洛仑兹力作用下，在xy 平面内\n做圆周运动，分别用R 与T′表示圆周的半径和运动周期，则有\n2\n2\n(\n)\nqvB\nm\nR\nT\n\n=\n\n                           ①\n2 R\nv\nT\n\n=\n\n                                  ②\n         由①②式与已知条件得   T′＝T                          ③\n粒子P 在t＝0 到t＝T/2 时间内，沿顺时针方向运动半个圆周，到达x 轴上B 点，此时磁场方向反转，继\n而，在t＝T/2 到t＝T 时间内，沿逆时针方向运动半个圆周，到达x 轴上A 点，如图（a）所示。OA 与x 轴\n的夹角   θ＝0                                   ④\nO\nB\nt\n+B0\nT\n2\n3T\n2\nT\n2T\n图(b)\n-B0\nO\nx\ny\n图(a)\n第7页（共9页）\n（2）粒子P 在t0＝T/4 时刻开始运动，在t＝T /4 到t＝ T /2 时间内，沿顺时针方向运动1/4 个圆周，到达\nC 点，此时磁场方向反转；继而，在t＝ T /2 到t＝T 时间内，沿逆时针方向运动半个圆周，到达B 点，此\n时磁场方向再次反转；在t＝T 到t＝5T /4 时间内，沿顺时针方向运动1/4 个圆周，到达A 点，如图（ｂ）\n所示，由几何关系可知，A 点在y 轴上，即OA 与x 轴的夹角\nθ＝\n2\n                          ⑤\n（3）若在任意时刻t＝t0 （0＜t0＜T/4）粒子P 开始运动，在t＝t0 到t＝ T /2 时间内，沿顺时针方向做圆\n周运动到达C 点，圆心O′位于x 轴上，圆弧OC 对应的圆心角为\n0\n2\n(\n)\n2\nT\nOO C\nt\nT\n\n\n\n=\n−\n             ⑥\n此时磁场方向反转；继而，在t＝ T/ 2 到t＝T 时间内，沿逆时针方向运动半个圆周，到达B 点，此时磁场\n方向再次反转；在t＝T 到t＝T+t0 时间内，沿顺时针方向做圆周运动到达A 点，设圆O′′，圆弧BA 对应的\n圆心角为\n0\n2\nBO A\nt\nT\n\n\n\n=\n                   ⑦\n如图（c）所示，由几何关系可知，C、B 均在O O\n连线上，且OA//O O\n\n ⑧\n若要OA 与x 轴成π/4 角，则有\n3\n4\nOO C\n\n\n\n=\n                  ⑨\n联立⑥⑨式可得         0\n8\nT\nt =\n                          ⑩\n六、选考题：请考生在17、18、19 三题中任选二题作答，如果多做，则按所做的第一、二两题计分。做\n答时用2B 铅笔在答题卡上把所选题号涂黑。计算题请写出必要的文字说明、方程式和演算步骤。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q016-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q016-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q016-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q016-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q016-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q17",
+      "content": "模块3-3 试题（12 分）\n（1）（4 分）两分子间的斥力和引力的合力F 与分子间距离r 的关系如图\n中曲线所示，曲线与r 轴交点的横坐标为r0。相距很远的两分子在分子力\n作用下，由静止开始相互接近。若两分子相距无穷远时分子势能为零，下\n列说法正确的是________（填入正确选项前的字母。选对1 个给2 分，选\n对2 个给3 分，选对3 个给4 分；每选错1 个扣2 分，最低得分为0 分）。\n（A）在r＞r0 阶段，F 做正功，分子动能增加，势能减小\n（B）在r＜r0 阶段，F 做负功，分子动能减小，势能也减小\n（C）在r＝r0 时，分子势能最小，动能最大\n（D）在r＝r0 时，分子势能为零\n（E）分子动能和势能之和在整个过程中不变",
+      "answer": "0\n(\n)\np Sd\nm L\nd\n−\n【解】设小车加速度大小为a，稳定时气缸内气体的压强为P1,活塞受到气缸内外气体的压力分别为\n1\n1\nF\nPS\n=\n                                   ①\n0\n0\nF\nP S\n=\n                                   ②\n         由牛顿第二定律得：\n1\n0\nF\nF\nma\n−\n=\n                         ③\n         小车静止时，在平衡情况下，气缸内情况下，气缸内气体的压强应为P0。由玻意耳定律得\n1 1\n0\nPV\nPV\n=\n                                  ④\n         式中       V\nSL\n=\n                                     ⑤\n1\n(\n)\nV\nS L\nd\n=\n−\n                               ⑥\n         联立①②③④⑤⑥式得：\n0\n(\n)\np Sd\na\nm L\nd\n=\n−\n                    ⑦",
+      "analysis": "r > r0时分子力合力为引力，做正功，分子势能减小动能增加；r=r0时分子势能最小，动能最大；\nr< r0时分子力合力表现为引力，做负功，分子势能增加动能减小，分子动能和势能之和在变化过程中保\n持不变。正确选项为ACE。\nB\nx\ny\nO\n图（a）\nx\ny\nO\nx\ny\nO\n图（b）\n图（c）\nA\nB\nC\nA\nO/\nA\nB\nC\nO//\nF\nr\nO\nr0\n第8页（共9页）\n（2）（8 分）如图所示，一气缸水平固定在静止的小车上，一质量为m、面积为S 的活塞将一定量的气体\n封闭在气缸内，平衡时活塞与气缸底相距L。现让小车以一较小的水平恒定加速度向右运动，稳定时发现\n活塞相对于气缸移动了距离d。已知大气压强为P0，不计气缸和活塞间的摩擦；且小车运动时，大气对活\n塞的压强仍可视为P0；整个过程温度保持不变。求小车加速度的大小。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q017-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q017-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q017-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q18",
+      "content": "模块3-4 试题（12 分）\n（1）（4 分）某波源S 发出一列简谐横波，波源S 的振动图像如图\n所示。在波的传播方向上有A、B 两点，他们到S 的距离分别为\n45m 和55m。测得A、B 两点开始振动的时间间隔为1.0s。由此可\n知：\n①波长λ＝_________m；\n②当B 点离开平衡位置的位移为+6cm 时，A 点离开平衡位置的位\n移是_______cm。",
+      "answer": "暂无结构化答案",
+      "analysis": "由题意可知波速v= x/ t= 10m/s，周期T =2.0s，波长λ=20m，A、B相差半个波长振动情况完全相\n反，故B点位移为+6cm时，A点位移为-6cm。\n（2）一玻璃三棱镜，其横截面为等腰三角形，顶角θ 为锐角，折射率为2 。现在\n横截面内有一光线从其左侧面上半部分射入棱镜。不考虑棱镜内部的反射。若保持\n入射线在过入射点的法线的下方一侧（如图所示），且要求入射角为任何值的光线都\n会从棱镜的右侧面射出，则顶角θ 可在什么范围内取值？\n【解】设入射光线经玻璃折射时，入射角为i，折射角为γ，射到棱镜右侧面的入射\n角为α。根据折射定律有   sin i ＝nsinγ             ①\n由几何关系得    θ＝α+γ                         ②\n当i＝0 时，由①式知γ＝0，α 有最大值αm（如图），由②式得\nθ＝αm\n                   ③\n右\n左\nθ\ni\nγ\nα\nαm\nθ\ni\n第9页（共9页）\n同时αm 应小于玻璃对空气的全反射临界角，即\n1\nsin\nm\nn\n\n\n                  ④\n由①②③④式和题给条件可得，棱镜顶角θ 的取值范围为\n0o＜θ＜45o                                     ⑤",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q018-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q018-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-0c27fc22e3683a8f-q018-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012海南.pdf#q19",
+      "content": "模块3-5 试题（12 分）\n（1）产生光电效应时，关于逸出光电子的最大初动能Ek，下列说法正确的是______。\n（A）对于同种金属，Ek 与照射光的强度无关\n（B）对于同种金属，Ek 与照射光的波长成反比\n（C）对于同种金属，Ek 与光照射的时间成正比\n（D）对于同种金属，Ek 与照射光的频率成线性关系\n（E）对于不同种金属，若照射光频率不变，Ek 与金属的逸出功成线性关系",
+      "answer": "暂无结构化答案",
+      "analysis": "由光电方程\nk\nc\nE\nh\nW\nh\nW\n\n\n=\n−\n=\n−\n，同种金属最大初动能逸出功相同，最大初动能与照射光强\n度无关，与照射光的强度有关但不是反比例函数关系，最大初动能与入射光的频率成成线性关系，不同\n种金属，保持入射光频率不变，最大初动能Ek与逸出功成线性关系。\n（2）一静止的23892U 核经α 衰变成为23490Th 核，释放出的总动能为4.27MeV。问此衰变后23490Th 核的动\n能为多少MeV（保留1 位有效数字）？\n【解】据题意知，此衰变的衰变方程为238\n234\n4\n92\n90\n2\nU\nTh\nHe\n→\n+\n，根据动量守恒定律得\nTh\nTh\nm v\nm v\n\n=\n                           ①\n式中，mα 和mTh 分别为α 粒子和Th 核的质量，vα 和v Th 分别为α 粒子和Th 核的速度的大小。由题设条件\n知\n2\n2\n1\n1\n2\n2\nTh Th\nk\nm v\nm v\nE\n\n+\n=\n                   ②\n4\n234\nTh\nm\nm\n=\n                              ③\n由①②③式得：\n2\n1\n2\nTh Th\nk\nTh\nm\nm v\nE\nm\nm\n\n\n=\n+\n                   ④\n代入数据得，衰变后234\n90Th 核的动能\n2\n1\n0.07\n2\nTh Th\nm v\nMeV\n=\n     ⑤",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012海南.pdf",
+        "page": 9,
+        "endPage": 9,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 22,
+    "answerGraphics": 0,
+    "assigned": 22,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009江苏.pdf",
   "name": "2009江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 13,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009江苏.pdf#q01",
       "content": "两个分别带有电荷量 − Q 和+ 3Q 的相同金属小球（均可视为点电荷），固定在相距为r\n的两处，它们间库仑力的大小为F。两小球相互接触后将其固定距离变为r/2，则两球间库\n仑力的大小为（     ）\n（A）A 1\n12\nE\nAF\n（B）A3\n4\nE\nAF\n（C）A4\n3\nE\nAF\n（D）12F",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "本题考查库仑定律及带电题电量的转移问题。接触前两个点电荷之间的库仑力大小\n为\n2\n3\nQ\nQ\nF\nk\nr\n⋅\n=\n，两个相同的金属球各自带电，接触后再分开，其所带电量先中和后均分，\n所以两球分开后各自带点为+Q，距离又变为原来的1\n2\n，库仑力为\n2\n2\nQ Q\nF\nk\nr\n⋅\n′ =\n\n\n\n\n\n\n，所以两球\n间库仑力的大小为4\n3 F ，C 项正确。如两球原来带正电，则接触各自带电均为+2Q。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,11 +44,466 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q02",
+      "content": "用一根长 1 m 的轻质细绳将一幅质量为 1 kg 的画框对称悬挂在墙\n壁上，已知绳能承受的最大张力为 10 N，为使绳不断裂，画框上两个挂\n钉的间距最大为（g 取 10 m/s2）（    ）\n（A）A 3\nE2\nE\nAm\n（B）A 2\nE2\nE\nAm\n（C）A1\n2\nE\nAm\n（D）A 3\nE4\nE\nAm",
+      "answer": "暂无结构化答案",
+      "analysis": "熟练应用力的合成和分解以及合成与分解中的一些规律，是解决本题的根本；一个\n大小方向确定的力分解为两个等大的力时，合力在分力的角平分线上，且两分力的夹角越大，\n分力越大。题中当绳子拉力达到 F = 10N 的时候，绳子间的张角最大，即两个挂钉间的距离\n最大；画框受到重力和绳子的拉力，三个力为共点力，受力如图。绳子与竖直方向的夹角为\nθ，绳子长为L0 = 1m,则有\n2\ncos\nmg\nF\nθ\n=\n，两个挂钉的间距离\n0\n2\nsin\n2\nL\nL\nθ\n=\n⋅\n，解得\n3\n2\nL =\nm，A 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q03",
+      "content": "英国《新科学家（New Scientist）》杂志评选出了2008 年度世界8 项科学之最，在XTEJ1650-\n500 双星系统中发现的最小黑洞位列其中，若某黑洞的半径R 约45km，质量M 和半径R 的\n关系满足\nAM\nR\nE\nA =\nA c2\n2G\nE\nA（其中c 为光速，G 为引力常量），则该黑洞表面重力加速度的数量级\n为（    ）\n（A）108m/s2\n（B）1010m/s2\n（C）1012m/s2\n（D）1014m/s2",
+      "answer": "暂无结构化答案",
+      "analysis": "处理本题要从所给的材料中，提炼出有用信息，构建好物理模型，选择合适的物理\n挂钉\n挂钉\n2 / 13\n方法求解。黑洞实际为一天体，天体表面的物体受到的重力近似等于物体与该天体之间的万\n有引力，对黑洞表面的某一质量为m 物体有：\n2\nMm\nG\nmg\nR\n=\n，又有\n2\n2\nM\nc\nR\nG\n=\n，联立解得\n2\n2\nc\ng\nR\n=\n，带入数据得重力加速度的数量级为\n12\n2\n10 m/s ，C 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q04",
+      "content": "在无风的情况下，跳伞运动员从水平飞行的飞机上跳伞，下落过程中受到空气阻力，下\n列描绘下落速度的水平分量大小vx、竖直分量大小vy 与时间t 的图像，可能正确的是（    ）\n      A                  B                  C                 D",
+      "answer": "暂无结构化答案",
+      "analysis": "跳伞运动员下落过程中受到的空气阻力并非为恒力，与速度有关，且速度越大受到\n的阻力越大，知道速度与所受阻力的规律是解决本题的关键。竖直方向运动员受重力和空气\n阻力，速度逐渐增大，阻力增大合力减小，加速度减小，水平方向只受阻力，速度减小，阻\n力减小，加速度减小。在v-t 图象中图线的斜率表示加速度，B 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q05",
+      "content": "在如图所示的闪光灯电路中，电源的电动势为E，电容器的\n电容为C。当闪光灯两端电压达到击穿电压U 时，闪光灯才有电\n流通过并发光，正常工作时，闪光灯周期性短暂闪光，则可以判\n定（    ）\n（A）电源的电动势E 一定小于击穿电压U\n（B）电容器所带的最大电荷量一定为CE\n（C）闪光灯闪光时，电容器所带的电荷量一定增大\n（D）在一个闪光周期内，通过电阻R 的电荷量与通过闪光灯的电荷量一定相等",
+      "answer": "暂无结构化答案",
+      "analysis": "理解此电路的工作过程是解决本题的关键。电容器两端的电压与闪光灯两端的电压\n相等，当电源给电容器充电，达到闪光灯击穿电压U 时，闪光灯被击穿，电容器放电，放电\n后闪光灯两端电压小于U，断路，电源再次给电容器充电，达到电压U 时，闪光灯又被击\n穿，电容器放电，如此周期性充放电，使得闪光灯周期性短暂闪光。要使得充电后达到电压\nU，则电源电动势一定大于等于U，A 项错误；电容器两端的最大电压为U，故电容器所带\n的最大电荷量为CU，B 项错误；闪光灯闪光时电容器放电，所带电荷量减少，C 项错误；\n充电时电荷通过R，通过闪光灯放电，故充放电过程中通过电阻R 的电荷量与通过闪光灯的\n电荷量一定相等，D 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q06",
+      "content": "如图所示，理想变压器的原、副线圈匝数比为1∶\n5，原线圈两端的交变电压为u = 20 A 2E\nAsin100πtV，氖\n泡在两端电压达到100V 时开始发光，下列说法中正确\n的有（     ）\n（A）开关接通后，氖泡的发光频率为100Hz\n（B）开关接通后，电压表的示数为100V\nvx\nt\nO\nvy\nt\nO\nvx\nt\nO\nvy\nt\nO\nE\nR\nC\n闪光灯\nV\n氖泡\nu\n3 / 13\n（C）开关断开后，电压表的示数变大\n（D）开关断开后，变压器的输出功率不变",
+      "answer": "暂无结构化答案",
+      "analysis": "本题主要考查变压器的知识，要能对变压器的最大值、有效值、瞬时值以及变压器\n变压原理、功率等问题彻底理解。由交变电压的瞬时值表达式知，原线圈两端电压的有效值\n为\n1\n20 2\n2\nU =\nV = 20V，由\n1\n1\n2\n2\nn\nU\nn\nU\n=\n得副线圈两端的电压为\n2\n100\nU =\nV，电压表的示数为交\n流电的有效值，B 项正确；交变电压的频率为\n100\n50\n2\nf\nπ\nπ\n=\n=\nHz，一个周期内电压两次大于\n100V，即一个周期内氖泡能两次发光，所以其发光频率为100Hz，A 项正确；开关断开前\n后，输入电压不变，变压器的变压比不变，故输出电压不变，C 项错误；断开后，电路消耗\n的功率减小，输出功率决定输入功率，D 项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q07",
+      "content": "如图所示，以8 m/s 匀速行驶的汽车即将通过路口，绿灯还有\n2 s 将熄灭，此时汽车距离停车线18 m。该车加速时最大时速度大\n小为2 m/s2，减速时最大加速度大小为5 m/s2。此路段允许行驶的\n最大速度为12.5 m/s，下列说法中正确的有（    ）\n（A）如果立即做匀加速运动，在绿灯熄灭前汽车可能通过停车线\n（B）如果立即做匀加速运动，在绿灯熄灭前通过停车线汽车一定\n超速\n（C）如果立即做匀减速运动，在绿灯熄灭前汽车一定不能通过停车线\n（D）如果距停车线5 m 处减速，汽车能停在停车线处",
+      "answer": "暂无结构化答案",
+      "analysis": "熟练应用匀变速直线运动的公式，是处理问题的关键，对汽车运动的问题一定要注\n意所求解的问题是否与实际情况相符。如果立即做匀加速直线运动，t1 = 2s 内的位移\n2\n0 1\n1 1\n1\n2\nx\nv t\na t\n=\n+\n = 20m>18m，此时汽车的速度为\n1\n0\n1 1\nv\nv\na t\n=\n+\n= 12m/s<12.5m/s，汽车没有\n超速，A 项正确；如果立即做匀减速运动，速度减为零需要时间\n0\n2\n2\n1.6\nv\nt\na\n=\n=\ns，此过程通\n过的位移为\n2\n2\n2 2\n1\n2\nx\na t\n=\n= 6.4m，C 项正确、D 项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q08",
+      "content": "空间某一静电场的电势φ 在x 轴上分布如图所示，x 轴\n上两点B、C 点电场强度在x 方向上的分量分别是EBx、\nECx，下列说法中正确的有（    ）\n（A）EBx 的大小大于ECx 的大小\n（B）EBx 的方向沿x 轴正方向\n（C）电荷在O 点受到的电场力在x 方向上的分量最大\n（D）负电荷沿x 轴从B 移到C 的过程中，电场力先做正功，后做负功",
+      "answer": "暂无结构化答案",
+      "analysis": "本题的入手点在于如何判断\nBx\nE\n和\nCx\nE\n的大小，由图象可知在x 轴上各点的电场强\n度在x 方向的分量不相同，如果在x 方向上取极小的一段，可以把此段看做是匀强磁场，用\n匀强磁场的处理方法思考，从而得到结论，此方法为微元法；需要对电场力的性质和能的性\n质由较为全面的理解。在B 点和C 点附近分别取很小的一段d，由图象，B 点段对应的电势\n停\n车\n线\n18m\nB O\nC\nx\n4 / 13\n差大于C 点段对应的电势差，看做匀强电场有E\nd\nϕ\n∆\n=\n，可见\nBx\nE\n>\nCx\nE\n，A 项正确；同理可\n知O 点场强最小，电荷在该点受到的电场力最小，C 项错误；沿电场方向电势降低，在O\n点左侧，\nBx\nE\n的方向沿x 轴负方向，在O 点右侧，\nCx\nE\n的方向沿x 轴正方向，所以B 项错\n误，D 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q09",
+      "content": "如图所示，两质量相等的物块A、B 通过一轻质弹簧连接，B\n足够长、放置在水平面上，所有接触面均光滑。弹簧开始时处于原\n长，运动过程中始终处在弹性限度内。在物块A 上施加一个水平\n恒力，A、B 从静止开始运动到第一次速度相等的过程中，下列说法中正确的有（    ）\n（A）当A、B 加速度相等时，系统的机械能最大\n（B）当A、B 加速度相等时，A、B 的速度差最大\n（C）当A、B 的速度相等时，A 的速度达到最大\n（D）当A、B 的速度相等时，弹簧的弹性势能最大",
+      "answer": "暂无结构化答案",
+      "analysis": "处理本题的关键是对物体进行受力分析和运动过程分析，使用图象处理则可以使问\n题大大简化。对A、B 在水平方向受力\n分析如图，F1 为弹簧的拉力；当加速\n度大小相同为\na\n时，对Ａ有\n1\nF\nF\nma\n−\n=\n，对Ｂ有\n1F\nma\n=\n，得\n1\n2\nF\nF =\n，在整个过程中Ａ的合力（加\n速度）一直减小而Ｂ的合力（加速度）\n一直增大，在达到共同加速度之前A\n的合力（加速度）一直大于Ｂ的合力\n（加速度），之后A 的合力（加速度）\n一直小于Ｂ的合力（加速度）.两物体\n运动的v-t 图象如图，tl 时刻，两物体\n加速度相等，斜率相同，速度差最大，\nt2 时刻两物体的速度相等，Ａ速度达到最大值，两实线之间围成的面积有最大值即两物体的\n相对位移最大，弹簧被拉到最长；除重力和弹簧弹力外其它力对系统正功，系统机械能增加，\ntl 时刻之后拉力依然做正功，即加速度相等时，系统机械能并非最大值。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q009-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q10",
+      "content": "（8 分）有一根圆台状均匀质合金棒如图甲所示，某同\n学猜测其电阻的大小与该合金棒的电阻率ρ、长度L 和两\n底面直径d、D 有关。他进行了如下实验：\n（1）用游标卡尺测量合金棒的两底面直径d、D 和长度L。\n图乙中游标卡尺（游标尺上有20 个等分刻度）的读数L =\n________cm。\nA\nF1\nB\nF\nF1\nv\nt\nt2\nt1\nv1\nv2\nv\nA\nB\nA\nB\nF\nD\nd\nL\n甲\n5 / 13\n（2）测量该合金棒电阻的实物电\n路如图丙所示（相关器材的参数已\n在图中标出）。该合金棒的电阻约\n为几个欧姆。图中有一处连接不当\n的导线是______。（用标注在导线\n旁的数字表示）\n（3）改正电路后，通过实验测得合\n金棒的电阻R = 6.72Ω。根据电阻\n定律计算电阻率为ρ、长为L、直\n径分别为d 和D 的圆柱状合金棒\n的电阻分别为Rd = 13.3Ω、RD = 3.38Ω。他发现：在误差允许范围内，电阻R 满足R2 = RdRD，\n由此推断该圆台状合金棒的电阻R = _______。（用ρ、L、d、D 表述）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）游标卡尺的读数，按步骤进行则不会出错。首先，确定游标卡尺的精度为20 分\n度，即为0.05mm，然后以毫米为单位从主尺上读出整毫米数99.00mm，注意小数点后的有\n效数字要与精度一样，再从游标尺上找出对的最齐一根刻线，精度×格数 = 0.05×8mm =\n0.40mm，最后两者相加，根据题目单位要求换算为需要的数据，99.00mm+0.40mm = 99.40mm\n= 9.940cm\n（2）本实验为测定一个几欧姆的电阻，在用伏安法测量其两端的电压和通过电阻的电流时，\n因为安培表的内阻较小，为了减小误差，应用安培表外接法，⑥线的连接使用的是安培表内\n接法。\n（3）审题是处理本题的关键，弄清题意也就能够找到处理本题的方法。根据电阻定律计算\n电阻率为ρ 、长为L、直径分别为d 和D 的圆柱状合金棒的电阻分别为Rd = 13.3Ω、RD =\n3.38Ω.即\n(\n)\n2\n2\nd\nL\nR\nd\nρ\nπ\n=\n，\n(\n)\n2\n2\nD\nL\nR\nD\nρ\nπ\n=\n，而电阻R 满足R2 = Rd·RD，将Rd、RD 带入得\n4 L\nR\ndD\nρ\nπ\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q010-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q11",
+      "content": "（10 分）“探究加速度与物体质量、物体受\n力的关系”的实验装置如图甲所示。\n（1）在平衡小车与桌面之间摩擦力的过程中，\n打出了一条纸袋如图乙所示。计时器大点的时\n间间隔为0.02s。从比较清晰的点起，每5 个点\n取一个计数点，量出相邻计数点之间的距离。该\n小车的加速度a = ______m/s2。（结果保留两位\n有效数字）\n（cm）\n9\n10\n11\n12\n0\n10\n20\n主尺\n游标尺\n乙\n3.52\n3.68\n3.83\n1\n2\n3\n4\n乙\n（单位：cm）\nV\n3 15\nA\n0.6 3\n电源\n①\n②\n③\n⑤\n⑥\n⑦\n   电流表\n(0.6A，0.4Ω)\n 滑动变阻器\n(最大阻值20Ω)\n合金棒\n(6V，内阻不计)\n  电压表\n(3V，3kΩ)\n丙\n④\n砝码\n砝码盘\n甲\n小车 打点计时器\n6 / 13\n（2）平衡摩擦力后，将5 个相同的砝码都放在小车上.挂上砝码盘，然后每次从小车上取一\n个砝码添加到砝码盘中，测量小车的加速度。小车的加速度a 与砝码盘中砝码总重力F 的\n实验数据如下表：\n砝码盘中砝码总重力F（N）\n0.196\n0.392\n0.588\n0.784\n0.980\n加速度a（m·s-2）\n0.69\n1.18\n1.66\n2.18\n2.70\n请根据实验数据作出a-F 的关系图像。\n（3）根据提供的试验数据作出的a-F 图线不通过原点，请说明主要原因。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）处理匀变速直线运动中所打出的\n纸带，求解加速度用公式Δx = aT2，关键弄清\n公式中各个量的物理意义，Δx 为连续相等时\n间内的位移差，t 为连需相等的时间间隔，如\n果每5 个点取一个点，则连续两点的时间间\n隔为T = 0.1s，Δx = （3.68-3.52）×10-2m，\n带入可得加速度a = 0.16m/s2。也可以使用最\n后一段和第二段的位移差求解，得加速度a =\n0.15m/s2.\n（2）根据图中的数据，合理的设计横纵坐标\n的刻度值，使图线倾斜程度太小也不能太大，\n以与水平方向夹角45°左右为宜。由此确定F\n的范围从0 设置到1N 较合适，而a 则从0 到\n3m/s2 较合适。设好刻度，根据数据确定个点的位置，将个点用一条直线连起来，延长交与\nF/N\na/m·s-2\nO\nO\na/(ms-2)\nF/N\n3.0\n2.5\n2.0\n1.5\n1.0\n0.5\n0.2 0.4 0.6 0.8 1.0\nF/N\na/m·s-2\nO\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\n·\n·\n·\n·\n·\nO\na/(ms-2)\nF/N\n7 / 13\n坐标轴某一点。如图所示。\n（3）处理图象问题要注意图线的斜率、交点、拐点、面积等意义，能正确理解这些量的意\n义则很多问题将会迎刃而解。与纵坐标相交而不过原点，该交点说明当不挂砝码时，小车仍\n由加速度，即绳对小车仍有拉力，从此拉力的来源考虑很容易得到答案，是因为砝码盘的重\n力，而在（2）问的图表中只给出了砝码的总重力，而没有考虑砝码盘的重力。\n【选做题】本题包括A、B、C 三个小题，请选定其中两题，并在相应的答题区域内作答。若\n三题都做，则按A、B 两题评分",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p006-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p006-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q12",
+      "content": "（A）【选修模块3—3】（12 分）\n（1）若一气泡从湖底上升到湖面的过程中温度保持不变，则在此过程中关于气泡中的气体，\n下列说法正确的是_________。（填写选项前的字母）\n（A）气体分子间的作用力增大\n（B）气体分子的平均速率增大\n（C）气体分子的平均动能减小\n（D）气体组成的系统的熵增加",
+      "answer": "（1）D （2）4，正，10\n（3）设照片圆形区域的实际半径为R ,运动员的实际长为L\n折射定律\n0\nnsin\nsin90\nα =\n          几何关系\n2\n2\nsin\n,\nR\nR\nL\nr\nl\nR\nh\nα =\n=\n+\n得\n2\n1 L\nh\nn\nr\nl\n=\n−g\n取\n2.2\nL\nm\n=\n，解得\n2.1( )\nh\nm\n=\n（1.6 ~ 2.6m 都算对）\n强强\n0.9c\n壮壮\n0.5c\n光束\n11cm\n10cm\n y/cm\nt/s\nO\n10\n1\n 2\n 3\n 4\n 5\n 6\n-10\n9 / 13",
+      "analysis": "（1）掌握分子动理论和热力学定律才能准确处理本题。气泡的上升过程气泡内的压\n强减小，温度不变，由玻意尔定律知，上升过程中体积增大，微观上体现为分子间距增大，\n分子间引力减小，温度不变所以气体分子的平均动能、平均速率不变，此过程为自发过程，\n故熵增大。D 项正确。\n（2）若将气泡内的气体视为理想气体，气泡从湖底上升到湖面的过程中，对外界做了0.6J\n的功，则此过程中的气泡______（填“吸收”或“放出”）的热量是________J。气泡到达湖\n面后，温度上升的过程中，又对外界做了0.1J 的功，同时吸收了0.3J 的热量，则此过程中，\n气泡内气体内能增加了_________J。\n（2）本题从热力学第一定律入手，抓住理想气内能只与温度有关的特点进行处理。理想气\n体等温过程中内能不变，由热力学第一定律\nU\nQ\nW\n∆\n=\n+\n，物体对外做功0.6J，则一定同时\n从外界吸收热量0.6J，才能保证内能不变。而温度上升的过程，内能增加了0.2J。\n（3）已知气泡内气体的密度为1.29kg/m3，平均摩尔质量为0.29kg/mol。阿伏加德罗常数NA\n= 6.02×1023mol-1，取气体分子的平均直径为2×10-10m，若气泡内的气体能完全变为液体，\n请估算液体体积与原来气体体积的比值。（结果保留以为有效数字）\n(3) 设气体体积为\n0\nV ，液体体积为\n1\nV\n气体分子数\n0\nA\nV\nn\nN\nm\nρ\n=\n,\n3\n1\n6\nd\nV\nn π\n=\n(或\n3\n1\nV\nnd\n=\n)\n则\n3\n1\n0\n6\nA\nV\nd N\nV\nm\nρ π\n=\n   （或\n3\n1\n0\nA\nV\nd N\nV\nm\nρ\n=\n）\n解得\n4\n1\n0\n1 10\nV\nV\n−\n= ×\n    (\n5\n4\n9 10\n~ 2 10\n−\n−\n×\n×\n都算对)\n（3）微观量的运算，注意从单位制检查运算结论，最终结果只要保证数量级正确即可。设\n气体体积为\n0\nV ，液体体积为\n1\nV\n8 / 13\n气体分子数\n0\nA\nV\nn\nN\nm\nρ\n=\n,\n3\n1\n6\nd\nV\nn π\n=\n(或\n3\n1\nV\nnd\n=\n)\n则\n3\n1\n0\n6\nA\nV\nd N\nV\nm\nρ π\n=\n   （或\n3\n1\n0\nA\nV\nd N\nV\nm\nρ\n=\n）\n解得\n4\n1\n0\n1 10\nV\nV\n−\n= ×\n    (\n5\n4\n9 10\n~ 2 10\n−\n−\n×\n×\n都算对)\n（B）【选修模块3—4】（12 分）\n（1）如图所示，强强乘速度为0.9c（c 为光速）的宇宙飞\n船追赶正前方的壮壮，壮壮的飞行速度为0.5c，强强向壮\n壮发出一束光进行联络，则壮壮观测到该光束的传播速度\n为_________。（填写选项前的字母）\n（A）0.4c\n（B）0.5c\n（C）0.9c\n（D）1.0c\n（2）在t = 0 时刻，质点A 开始做简谐运动，其振动\n图象如图所示。质点A 振动的周期是_______s；t = 8s\n时，质点A 的运动沿y 轴的________方向（填“正”\n或“负”）；质点B 在波动的传播方向上与A 相距16m，\n已知波的传播速度为2m/s，在t = 9s 时，质点B 偏离\n平衡位置的位移是______cm。\n（3）如图所示是北京奥\n运会期间安置在游泳池\n底部的照相机拍摄的一\n张照片，照相机的镜头竖\n直向上。照片中，水利方\n运动馆的景象呈限在半\n径r = 11cm 的圆型范围内，水面上的运动员手到脚的长度\nl = 10cm，若已知水的折射率为n = A4\n3\nE\nA，请根据运动员的\n实际身高估算该游泳池的水深h。（结果保留两位有效数字）\n（1）根据爱因斯坦相对论，在任何参考系中，光速不变。D 项正确。\n（2）振动图象和波形图比较容易混淆，而导致出错，在读图是一定要注意横纵坐标的物理\n意义，以避免出错。题图为波的振动图象，图象可知周期为4s，波源的起振方向与波头的振\n动方向相同且向上，t = 6s 时质点在平衡位置向下振动，故8s 时质点在平衡位置向上振动；\n波传播到B 点，需要时间1\n16\n2\nx\nt\nv\n=\n=\ns = 8s，故\n9\nt\ns\n=\n时，质点又振动了1s( 1\n4\n个周期)，处\n于正向最大位移处，位移为10cm.\n(3)根据题意能画出光路图，正确使用物象比解决本题的关键。\n设照片圆形区域的实际半径为R ,运动员的实际长为L ，光路如图：\n折射定律\n0\nnsin\nsin90\nα =\n 几何关系\n2\n2\nsin\n,\nR\nR\nL\nr\nl\nR\nh\nα =\n=\n+\n物象比\n得\n2\nL\nh\nn\nr\nl\n=\n−\n取\n2.2\nL\nm\n=\n，解得\n2.1( )\nh\nm\n=\n（本题为估算题，在取运动员实际长度时可以有一个范围，但要符合实际，故求得h 值可以\n不同1.6 ~ 2.6m 均可）\n（C）【选修模块3—5】（12 分）\n在β 衰变中常伴有一种称为“中微子”的粒子放出。中微子的性质十分特别，因此在实验中\n很难探测。1953 年，莱尼斯和柯文建造了一个由大水槽和探测器组成的实验系统，利用中\n微子与水中11H 的核反应，间接地证实了中微子的存在。\n（1）中微子与水中的11H 发生核反应，产生中子（10n）和正电子（01e），即中微子＋11H→\n10n＋01e 可以判定，中微子的质量数和电荷数分别是________。（填写选项前的字母）\n（A）0 和0\n（B）0 和1\n（C）1 和0\n（D）1 和1\n（2）上述核反应产生的正电子与水中的电子相遇，与电子形成几乎静止的整体后，可以转\n变为两个光子（γ），即01e＋0-1e→2γ。\n已知正电子和电子的质量都为9.1×10-31kg，反应中产生的每个光子的能量约为_____J。正电\n子与电子相遇不可能只转变为一个光子，原因是_____。\n（3）试通过分析比较，具有相同动能的中子和电子的物质波波长的大小。\n（1）发生核反应前后，粒子的质量数和核电荷数均不变，据此可知中微子的质量数\n和电荷数分都是0，A 项正确。\n（2）产生的能量是由于质量亏损。两个电子转变为两个光子之后，质量变为零，由\n2\nE\nmc\n= ∆\n，\n故一个光子的能量为2\nE ，带入数据得2\nE =\n14\n8.2 10−\n×\nJ。\n正电子与水中的电子相遇，与电子形成几乎静止的整体，故系统总动量为零，故如果只产生\n一个光子是不可能的，因为此过程遵循动量守恒。\n（3）物质波的的波长为\nh\np\nλ =\n，要比较波长需要将中子和电子的动量用动能表示出来即\n2\nk\np\nmE\n=\n，因为\nn\nc\nm\nm\n<\n，所以\nn\nc\np\np\n<\n，故\nn\nc\nλ\nλ\n<\n。\n10 / 13",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 7,
+        "endPage": 10,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p008-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p009-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q13",
+      "content": "（15 分）航模兴趣小组设计出一架遥控飞行器，其质量m = 2kg，动力系统提供的恒定\n升力F = 28N。试飞时，飞行器从地面由静止开始竖直上升。设飞行器飞行时所受的阻力大\n小不变，g 取10m/s2。\n（1）第一次试飞，飞行器飞行t1 = 8s 时到达高度H = 64 m。求飞行器所阻力f 的大小；\n（2）第二次试飞，飞行器飞行t2 = 6s 时遥控器出现故障，飞行器立即失去升力。求飞行器\n能达到的最大高度h；\n（3）为了使飞行器不致坠落到地面，求飞行器从开始下落到恢复升力的最长时间t3。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）第一次飞行中，设加速度为\n1a\n匀加速运动\n2\n1 1\n1\n2\nH\na t\n=\n由牛顿第二定律\n1\nF\nmg\nf\nma\n−\n−\n=\n解得f = 4 N\n（2）第二次飞行中，设失去升力时的速度为\n1v ，上升的高度为\n1s\n匀加速运动\n2\n1\n1 2\n1\n2\ns\na t\n=\n设失去升力后的速度为\n2a ，上升的高度为\n2s\n由牛顿第二定律\n2\nmg\nf\nma\n+\n=\n1\n1 2\nv\na t\n=\n2\n1\n2\n2\n2\nv\ns\na\n=\n解得\n1\n2\n42( )\nh\ns\ns\nm\n=\n+\n=\n（3）设失去升力下降阶段加速度为\n3a ；恢复升力后加速度为\n4a ，恢复升力时速度为\n3v\n由牛顿第二定律\n3\nmg\nf\nma\n−\n=\nF + f − mg = ma4\n且\n2\n2\n3\n3\n3\n4\n2\n2\nv\nv\nh\na\na\n+\n=\nv3 = a3t3\n解得t3 = 3 2\n2\n(s)(或2.1s)\n11 / 13",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q013-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q013-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q14",
+      "content": "（16 分）1932 年，劳伦斯和利文斯设计出了\n回旋加速器。回旋加速器的工作原理如图所示，\n置于高真空中的D 形金属盒半径为R，两盒间的\n狭缝很小，带电粒子穿过的时间可以忽略不计。\n磁感应强度为B 的匀强磁场与盒面垂直。A 处粒\n子源产生的粒子，质量为m、电荷量为+q，在加\n速器中被加速，加速电压为U。加速过程中不考\n虑相对论效应和重力作用。\n（1）求粒子第2 次和第1 次经过两D 形盒间狭缝后轨道半径之比；\n（2）求粒子从静止开始加速到出口处所需的时间t；\n（3）实际使用中，磁感应强度和加速电场频率都有最大值的限制。若某一加速器磁感应强\n度和加速电场频率的最大值分别为Bm、fm，试讨论粒子能获得的最大动能Ekm。",
+      "answer": "暂无结构化答案",
+      "analysis": "(1)设粒子第1 次经过狭缝后的半径为r1,速度为v1\nqu = 1\n2\nmv12\nqv1B = m\n2\n1\n1\nv\nr\n解得\n1\n1\n2mU\nr\nB\nq\n=\n同理，粒子第2 次经过狭缝后的半径\n2\n1\n4mU\nr\nB\nq\n=\n则\n2\n1\n:\n2 :1\nr\nr =\n（2）设粒子到出口处被加速了n 圈\n2\n2\n1\n2\n2\n2\nnqU\nmv\nv\nqvB\nm R\nm\nT\nqB\nt\nnT\nπ\n=\n=\n=\n=\n解得\n2\n2\nBR\nt\nU\nπ\n=\n（3）加速电场的频率应等于粒子在磁场中做圆周运动的频率，即\n2\nqB\nf\nm\nπ\n=\n当磁场感应强度为Bm 时，加速电场的频率应为\n2\nm\nBm\nqB\nf\nm\nπ\n=\n粒子的动能\n2\n1\n2\nK\nE\nmv\n=\nR\nA\nB\nU\n出口处\n接交流电源\n12 / 13\n当\nBm\nf\n≤\nmf 时，粒子的最大动能由Bm 决定\n2\nm\nm\nm\nv\nqv B\nm R\n=\n解得\n2\n2\n2\n2\nm\nkm\nq B R\nE\nm\n=\n当\nBm\nf\n≥\nmf 时，粒子的最大动能由fm 决定\n2\nm\nm\nv\nf R\nπ\n=\n        解得\n2\n2\n2\n2\nkm\nm\nE\nmf R\nπ\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q014-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q014-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009江苏.pdf#q15",
+      "content": "（16 分）如图所示，两平行的光滑\n金属导轨安装在一光滑绝缘斜面上，导\n轨间距为l、足够长且电阻忽略不计，导\n轨平面的倾角为α，条形匀强磁场的宽\n度为d，磁感应强度大小为B、方向与\n导轨平面垂直。长度为2d 的绝缘杆将\n导体棒和正方形的单匝线框连接在一\n起组成“\n”型装置，总质量为m，置\n于导轨上。导体棒中通以大小恒为I 的\n电流（由外接恒流源产生，图中未图\n出）。线框的边长为d（d＜l），电阻为R，下边与磁场区域上边界重合。将装置由静止释放，\n导体棒恰好运动到磁场区域下边界处返回，导体棒在整个运动过程中始终与导轨垂直。重力\n加速度为g。求：\n（1）装置从释放到开始返回的过程中，线框中产生的焦耳热 Q；\n（2）线框第一次穿越磁场区域所需的时间 t1；\n（3）经过足够长时间后，线框上边与磁场区域下边界的最大距离 xm。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设装置由静止释放到导体棒运动到磁场下边界的过程中，作用在线框上的安培\n力做功为 W\n由动能定理\nsin\n4\n0\nmg\nd\nW\nBIld\nα\n+\n−\n=\ng\n且Q\nW\n= −\n解得\n4\nsin\nQ\nmgd\nBIld\nα\n=\n−\n（2）设线框刚离开磁场下边界时的速度为\n1v ，则接着向下运动2d\n由动能定理\n2\n1\n1\nsin\n2\n0\n2\nmg\nd\nBIld\nmv\nα\n−\n=\n−\ng\n装置在磁场中运动时收到的合力\nB\nd\nd\n2d\nl\nI\n导体棒\n绝缘杆\n线框\nα\n13 / 13\nsin\n'\nF\nmg\nF\nα\n=\n−\n感应电动势   E = Bdv\n感应电流     I/ = E/R\n安培力       F\nBI d\n′\n′\n=\n由牛顿第二定律，在 t 到 t + Δt 时间内，有\nF\nv\nt\nm\n∆=\n∆\n则\n2 2\nsin\nB d v\nv\ng\nt\nmR\nα\n\n\n∆=\n−\n∆\n\n\n\n\n∑\n∑\n有\n2\n3\n1\n1\n2\nsin\nB d\nv\ngt\nmR\nα\n=\n−\n解得\nt1 = AAEAAEA\n2m（BIld－2mgdsinα） ＋2B2d3\nEmR\nmgsinα\nE\n（3）经过足够长时间后，线框在磁场下边界与最大距离 xm 之间往复运动\n由动能定理\nsin\n(\n)\n0\nm\nm\nmg\nx\nBIl x\nd\nα\n−\n−\n=\ng\n解得\nxm＝A\nBIld\nBIl－mgsinα\nE",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009江苏.pdf",
+        "page": 12,
+        "endPage": 13,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q015-p012-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ce036ab2dba014cd-q015-p012-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 24,
+    "answerGraphics": 0,
+    "assigned": 24,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2010/2010天津理.pdf",
   "name": "2010天津理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q01",
       "content": "i 是虚数单位, 复数−1 + 3i\n1 + 2i =\n(\n)\n(A) 1 + i\n(B) 5 + 5i\n(C) −5 −5i\n(D) −1 −i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q02",
       "content": "函数f (x) = 2x + 3x 的零点所在的一个区间是\n(\n)\n(A) (−2, −1)\n(B) (−1, 0)\n(C) (0, 1)\n(D) (1, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q03",
       "content": "命题“若f (x) 是奇函数, 则f (−x) 是奇函数”的否命题是\n(\n)\n(A) 若f (x) 是偶函数, 则f (−x) 是偶函数\n(B) 若f (x) 不是奇函数, 则f (−x) 不是奇函数\n(C) 若f (−x) 是奇函数, 则f (x) 是奇函数\n(D) 若f (−x) 不是奇函数, 则f (x) 不是奇函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q04",
       "content": "阅读下面的程序框图, 若输出s 的值为−7, 则判断框内可填写\n(\n)\n开始\ni = 1\ns = 2\ni = i + 2\ns = s −i\n输出s\n结束\n否\n是\n(A) i < 3?\n(B) i < 4?\n(C) i < 5?\n(D) i < 6?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q05",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的一条渐近线方程是y =\n√\n3x, 它\n的一个焦点在抛物线y2 = 24x 的准线上, 则双曲线的方程为\n(\n)\n(A) x2\n36 −y2\n108 = 1 (B) x2\n9 −y2\n27 = 1 (C) x2\n108 −y2\n36 = 1 (D) x2\n27 −y2\n9 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q06",
       "content": "已知{an} 是首项为1 的等比数列, Sn 是{an} 的前n 项和, 且9S3 = S6,\n则数列\n{ 1\nan\n}\n的前5 项和为\n(\n)\n(A) 15\n8 或5\n(B) 31\n16 或5\n(C) 31\n16\n(D) 15\n8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q07",
       "content": "在△ABC 中, 内角A, B, C 的对边分别是a, b, c, 若a2 −b2 =\n√\n3bc,\nsin C = 2\n√\n3 sin B, 则A =\n(\n)\n(A) 30◦\n(B) 60◦\n(C) 120◦\n(D) 150◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q08",
       "content": "设函数f (x) =\n{\nlog2x,\nx > 0,\nlog 1\n2 (−x) ,\nx < 0,\n若f (a) > f (−a), 则实数a 的取值\n范围是\n(\n)\n(A) (−1, 0) ∪(0, 1)\n(B) (−∞, −1) ∪(1, +∞)\n(C) (−1, 0) ∪(1, +∞)\n(D) (−∞, −1) ∪(0, 1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q09",
       "content": "设集合A = {x | |x −a| < 1, x ∈R}, B = {x | |x −b| > 2, x ∈R}. 若\nA ⊆B, 则实数a, b 必满足\n(\n)\n(A) |a + b| ⩽3\n(B) |a + b| ⩾3\n(C) |a −b| ⩽3\n(D) |a −b| ⩾3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q10",
       "content": "如图, 用四种不同颜色给图中的A, B, C, D, E, F 六个点涂色, 要求每个\n点涂一种颜色, 且图中每条线段的两个端点涂不同颜色, 则不同的涂色方\n法有\n(\n)\nA\nE\nF\nB\nC\nD\n(A) 288 种\n(B) 264 种\n(C) 240 种\n(D) 168 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -240,22 +309,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q11",
       "content": "甲、乙两人在10 天中每天加工零件的个数用茎叶图表示如图, 中间一列的\n数字表示零件个数的〸位数, 两边的数字表示零件个数的个位数, 则这10\n天甲、乙两人日加工零件的平均数分别为\n和\n.\n甲\n乙\n9 8\n1\n9 7 1\n0 1 3 2 0\n2\n1 4 2 4\n1 1 5\n3\n0 2 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q12",
       "content": "一个几何体的三视图如图所示, 则这个几何体的体积为\n.\n俯视图\n正视图\n侧视图\n2\n1\n1\n2\n2\n2\n1\n1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q13",
       "content": "已知圆C 的圆心是直线\n{\nx = t,\ny = 1 + t,\n(t 为参数) 与x 轴的交点, 且圆C 与\n直线x + y + 3 = 0 相切, 则圆C 的方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q14",
       "content": "如图, 四边形ABCD 是圆O 的内接四边形, 延长AB 和DC 相交于点P,\n若PB\nPA=1\n2, PC\nPD=1\n3, 则BC\nAD 的值为\n.\nA\nO\nP\nB\nC\nD\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -332,22 +437,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q15",
       "content": "如图, 在△ABC 中, AD\n⊥AB, #    »\nBC\n=\n√\n3#    »\nBD,\n���#    »\nAD\n���= 1, 则\n#   »\nAC · #    »\nAD =\n.\nA\nB\nD\nC",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -355,22 +470,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q16",
       "content": "设函数f (x) = x2 −1, 对任意x ∈\n[3\n2, +∞\n)\n, f\n( x\nm\n)\n−4m2f (x) ⩽\nf (x −1) + 4f (m) 恒成立, 则实数m 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -378,22 +503,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q17",
       "content": "已知函数f (x) = 2\n√\n3 sin x cos x + 2cos2x −1 (x ∈R).\n(1) 求函数f (x) 的最小正周期及在区间\n[\n0, π\n2\n]\n上的最大值和最小值;\n(2) 若f (x0) = 6\n5, x0 ∈\n[π\n4 , π\n2\n]\n, 求cos 2x0 的值.\n635",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -401,22 +532,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q18",
       "content": "某射手每次射击击中目标的概率是2\n3, 且各次射击的结果互不影响.\n(1) 假设这名射手射击5 次, 求恰有2 次击中目标的概率;\n(2) 假设这名射手射击5 次, 求有3 次连续击中目标. 另外2 次未击中目\n标的概率;\n(3) 假设这名射手射击3 次, 每次射击, 击中目标得1 分, 未击中目标得0\n分, 在3 次射击中, 若有2 次连续击中, 而另外1 次未击中, 则额外加1 分;\n若3 次全击中, 则额外加3 分. 记ξ 为射手射击3 次后的总的分数, 求ξ\n的分布列.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -424,22 +565,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q19",
       "content": "如图, 在长方体ABCD −A1B1C1D1 中, E、F 分别是棱BC、CC1 上的\n点, CF = AB = 2CE, AB : AD : AA1 = 1 : 2 : 4.\n(1) 求异面直线EF 与A1D 所成角的余弦值;\n(2) 证明AF ⊥平面A1ED;\n(3) 求二面角A1 −ED −F 的正弦值.\nB\nC\nE\nF\nD\nA\nB1\nC1\nD1\nA1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -447,22 +594,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q20",
       "content": "已知椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率e =\n√\n3\n2 , 连接椭圆的四个顶\n点得到的菱形的面积为4.\n(1) 求椭圆的方程;\n(2) 设直线l 与椭圆相交于不同的两点A, B. 已知点A 的坐标为(−a, 0),\n点Q (0, y0) 在线段AB 的垂直平分线上, 且#   »\nQA · #    »\nQB = 4. 求y0 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -470,22 +627,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q21",
       "content": "已知函数f (x) = xe−x (x ∈R).\n(1) 求函数f (x) 的单调区间和极值;\n(2) 已知函数y = g (x) 的图象与函数y = f (x) 的图象关于直线x = 1 对\n称, 证明: 当x > 1 时, f (x) > g (x);\n(3) 如果x1̸ = x2, 且f (x1) = f (x2), 证明: x1 + x2 > 2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -493,22 +656,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b385a50bdd565907-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010天津理.pdf#q22",
       "content": "在数列{an} 中, a1 = 0, 且对任意k ∈N∗. a2k−1, a2k, a2k+1 成等差数列,\n其公差为dk.\n(1) 若dk = 2k, 证明a2k, a2k+1, a2k+2 成等比数列(k ∈N∗);\n(2) 若对任意k ∈N∗, a2k, a2k+1, a2k+2 成等比数列, 其公比为qk.\n①设q1̸ = 1. 证明\n{\n1\nqk −1\n}\n是等差数列;\n②若a2 = 2, 证明3\n2 < 2n −\nn∑\nk=2\nk2\nak\n⩽2 (n ⩾2).\n636",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -516,11 +689,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010天津理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

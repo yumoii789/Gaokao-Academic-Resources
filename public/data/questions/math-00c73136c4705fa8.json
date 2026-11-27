@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:春季高考/2022/2022春季上海.pdf",
   "name": "2022春季上海",
   "track": "spring",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 21,
+    "sourceAnswers": 21,
+    "sourceAnalysis": 21,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q01",
       "content": "已知𝑧𝑧= 2 + i，则𝑧𝑧̅ =________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "2 −i",
+      "analysis": "直接根据共轭复数的概念得答案.\n∵𝑧𝑧= 2 + i\n∴𝑧𝑧̅ = 2 −i\n故答案为：2 −i.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q02",
       "content": "已知𝐴𝐴= (−1,2)，𝐵𝐵= (1,3)，则𝐴𝐴∩𝐵𝐵=________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1,2)",
+      "analysis": "根据集合交集的定义可得解.\n由𝐴𝐴= (−1,2)，𝐵𝐵= (1,3)\n根据集合交集的定义，𝐴𝐴∩𝐵𝐵= (1,2).\n故答案为:(1,2)",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q03",
       "content": "不等式\n𝑥𝑥−1\n𝑥𝑥< 0的解集为_____________.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "{𝑥𝑥|0 < 𝑥𝑥< 1 }",
+      "analysis": "根据分式的运算性质分类讨论求出不等式的解集.\n𝑥𝑥−1\n𝑥𝑥< 0 ⇒�𝑥𝑥−1 < 0\n𝑥𝑥> 0\n 或�𝑥𝑥−1 > 0\n𝑥𝑥< 0\n ，解第一个不等式组，得0 < 𝑥𝑥< 1，第二个不等式组的解集为空集.\n故答案为：{𝑥𝑥|0 < 𝑥𝑥< 1 }\n本题考查了分式不等式的解集，考查了数学运算能力，属于基础题.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -79,22 +98,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q04",
       "content": "已知tan𝛼𝛼= 3，则tan �𝛼𝛼+\nπ\n4�=__________．",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "-2",
+      "analysis": "根据正切和角公式计算出答案.\n由已知得tan �𝛼𝛼+\nπ\n4�=\ntan𝛼𝛼+tanπ\n4\n1−tan𝛼𝛼tanπ\n4\n=\n3+1\n1−3 =\n4\n−2 = −2．\n故答案为：-2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -102,22 +125,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q05",
       "content": "已知方程组�𝑥𝑥+ 𝑚𝑚𝑚𝑚= 2\n𝑚𝑚𝑚𝑚+ 16𝑦𝑦= 8\n 有无穷解，则𝑚𝑚的值为________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "4",
+      "analysis": "依题意可得直线𝑥𝑥+ 𝑚𝑚𝑚𝑚= 2与直线𝑚𝑚𝑚𝑚+ 16𝑦𝑦= 8重合，即可得到方程组，解得即可；\n解：因为方程组�𝑥𝑥+ 𝑚𝑚𝑚𝑚= 2\n𝑚𝑚𝑚𝑚+ 16𝑦𝑦= 8\n 有无穷解，所以直线𝑥𝑥+ 𝑚𝑚𝑚𝑚= 2与直线𝑚𝑚𝑚𝑚+ 16𝑦𝑦= 8重合，所以1 × 16 = 𝑚𝑚2\n且1 × 8 = 2 × 𝑚𝑚，解得𝑚𝑚= 4；\n故答案为：4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -125,22 +152,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q06",
       "content": "已知函数𝑓𝑓(𝑥𝑥) = 𝑥𝑥3的反函数为𝑦𝑦= 𝑓𝑓−1(𝑥𝑥)，则𝑓𝑓−1(27) =________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3",
+      "analysis": "求出函数𝑓𝑓(𝑥𝑥) = 𝑥𝑥3的反函数的解析式，进而可求得结果.\n由𝑦𝑦= 𝑥𝑥3可得𝑥𝑥= �𝑦𝑦\n3\n，故𝑓𝑓−1(𝑥𝑥) = √𝑥𝑥\n3\n，因此，𝑓𝑓−1(27) = √27\n3\n= 3.\n故答案为：3.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -148,22 +179,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q07",
       "content": "在�𝑥𝑥3 +\n1\n𝑥𝑥�\n12\n的展开式中，含\n1\n𝑥𝑥4项的系数为________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "66",
+      "analysis": "写出展开式的通项，令𝑥𝑥的指数为−4，求出参数的值，代入通项后即可得解.\n�𝑥𝑥3 +\n1\n𝑥𝑥�\n12\n展开式的通项为𝑇𝑇𝑟𝑟+1 = C12\n𝑟𝑟⋅(𝑥𝑥3)12−𝑟𝑟⋅�\n1\n𝑥𝑥�\n𝑟𝑟\n= C12\n𝑟𝑟⋅𝑥𝑥36−4𝑟𝑟，\n令36 −4𝑟𝑟= −4，可得𝑟𝑟= 10，因此，展开式中含\n1\n𝑥𝑥4项的系数为C12\n10 = 66.\n故答案为：66.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -171,22 +206,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q08",
       "content": "在△ABC 中，∠𝐴𝐴=\n𝜋𝜋\n3，𝐴𝐴𝐴𝐴= 2，𝐴𝐴𝐴𝐴= 3，则△ABC 的外接圆半径为________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "√21\n3",
+      "analysis": "运用正弦定理及余弦定理可得解.\n根据余弦定理：\n𝐵𝐵𝐶𝐶2 = 𝐴𝐴𝐵𝐵2 + 𝐴𝐴𝐶𝐶2 −2𝐴𝐴𝐴𝐴⋅𝐴𝐴𝐴𝐴cos∠𝐵𝐵𝐵𝐵𝐵𝐵= 4 + 9 −2 × 2 × 3 ×\n1\n2 = 7，\n得𝐵𝐵𝐵𝐵= √7，\n由正弦定理△ABC 的外接圆半径为\n1\n2\n√7\nsin𝜋𝜋\n3\n= √21\n3 .\n故答案为:√21\n3 .",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -194,22 +233,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q09",
       "content": "已知有1、2、3、4 四个数字组成无重复数字，则比2134 大的四位数的个数为________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "17",
+      "analysis": "先分类再分步，按千位为3,4,2 分为三类，再逐次安排百位和十位，即可计算出满足条件的四位数个数.\n千位为3和4时，组成的四位数都比2134 大，有2𝐴𝐴3\n3 = 12个，\n千位为2 时，百位为3 或4 的四位数都比2134 大，有2𝐴𝐴2\n2 = 4个，\n千位为2 时，百位为1，只有2143 比2134 大，有1 个，\n则组成的四位数比2134 大的一共有17 个.\n故答案为：17.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -217,22 +260,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q10",
       "content": "在△ABC 中，∠𝐶𝐶=\n𝜋𝜋\n2，𝐴𝐴𝐴𝐴= 𝐵𝐵𝐵𝐵= 2，M 为AC 的中点，P 在线段AB 上，则𝑀𝑀𝑀𝑀\n������⃑⋅𝐶𝐶𝐶𝐶\n�����⃑的最小值为________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "7\n8",
+      "analysis": "以线段AB 的中点为坐标原点，线段AB 所在直线为𝑥𝑥轴，线段AB 的垂直平分线为𝑦𝑦轴建立平面直角坐标系，\n直接利用数量积的坐标运算求最值即可.\n如图：以线段AB 的中点为坐标原点，线段AB 所在直线为𝑥𝑥轴，线段AB 的垂直平分线为𝑦𝑦轴建立平面直角\n坐标系，\n则𝑀𝑀(√2\n2 , √2\n2 ), 𝐶𝐶(0, √2)，设𝑃𝑃(𝑥𝑥, 0)，−√2 ≤𝑥𝑥≤√2，\n则𝑀𝑀𝑀𝑀\n������⃗⋅𝐶𝐶𝐶𝐶\n�����⃗= (𝑥𝑥−√2\n2 , −√2\n2 ) ⋅(𝑥𝑥, −√2) = (𝑥𝑥−√2\n2 )𝑥𝑥+ 1 = 𝑥𝑥2 −√2\n2 𝑥𝑥+ 1，\n当𝑥𝑥= √2\n4 时，(𝑀𝑀𝑀𝑀\n������⃗⋅𝐶𝐶𝐶𝐶\n�����⃗)min = (√2\n4 )2 −√2\n2 × √2\n4 + 1 =\n7\n8\n故答案为：\n7\n8.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -240,22 +287,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q11",
       "content": "已知双曲线\n𝑥𝑥2\n𝑎𝑎2 −𝑦𝑦2 = 1(𝑎𝑎> 0)，双曲线上右支上有任意两点𝑃𝑃1(𝑥𝑥1, 𝑦𝑦1)、𝑃𝑃2(𝑥𝑥2, 𝑦𝑦2)，满足𝑥𝑥1𝑥𝑥2 −𝑦𝑦1𝑦𝑦2 > 0恒成立，\n则𝑎𝑎的取值范围是________",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "𝑎𝑎≥1",
+      "analysis": "设点𝑃𝑃3(𝑥𝑥2, −𝑦𝑦2)，可得出𝑂𝑂𝑃𝑃1\n�������⃑⋅𝑂𝑂𝑃𝑃3\n�������⃑> 0，分析得出0 <\n1\n𝑎𝑎≤1，即可解得𝑎𝑎的取值范围.\n设点𝑃𝑃3(𝑥𝑥2, −𝑦𝑦2)，则𝑂𝑂𝑃𝑃1\n�������⃑⋅𝑂𝑂𝑃𝑃3\n�������⃑= 𝑥𝑥1𝑥𝑥2 −𝑦𝑦1𝑦𝑦2 > 0，则𝑂𝑂𝑃𝑃1\n�������⃑= 𝑂𝑂𝑃𝑃3\n�������⃑或∠𝑃𝑃1𝑂𝑂𝑃𝑃3为锐角，\n如下图所示：\n设点𝑀𝑀为双曲线的渐近线𝑦𝑦=\n1\n𝑎𝑎𝑥𝑥在第一象限内的一点，\n设点𝑁𝑁为双曲线的渐近线𝑦𝑦= −\n1\n𝑎𝑎𝑥𝑥在第四象限内的一点，\n由题意可知，0 < ∠𝑀𝑀𝑀𝑀𝑀𝑀≤\n𝜋𝜋\n2，则0 <\n1\n𝑎𝑎≤tan\n𝜋𝜋\n4 = 1，解得𝑎𝑎≥1.\n故答案为：𝑎𝑎≥1.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -263,22 +314,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q12",
-      "content": "已知𝑓𝑓(𝑥𝑥)为奇函数，当𝑥𝑥∈(0,1]时，𝑓𝑓(𝑥𝑥) = ln𝑥𝑥，且𝑓𝑓(𝑥𝑥)关于直线𝑥𝑥= 1对称，设𝑓𝑓(𝑥𝑥) = 𝑥𝑥+ 1的正数解依次为𝑥𝑥1、\n𝑥𝑥2、𝑥𝑥3、⋅⋅⋅、𝑥𝑥𝑛𝑛、⋅⋅⋅，则lim\n𝑛𝑛→∞(𝑥𝑥𝑛𝑛+1 −𝑥𝑥𝑛𝑛) =________\n二、单选题",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "已知𝑓𝑓(𝑥𝑥)为奇函数，当𝑥𝑥∈(0,1]时，𝑓𝑓(𝑥𝑥) = ln𝑥𝑥，且𝑓𝑓(𝑥𝑥)关于直线𝑥𝑥= 1对称，设𝑓𝑓(𝑥𝑥) = 𝑥𝑥+ 1的正数解依次为𝑥𝑥1、\n𝑥𝑥2、𝑥𝑥3、⋅⋅⋅、𝑥𝑥𝑛𝑛、⋅⋅⋅，则lim\n𝑛𝑛→∞(𝑥𝑥𝑛𝑛+1 −𝑥𝑥𝑛𝑛) =________",
+      "answer": "2",
+      "analysis": "根据题意可得函数𝑓𝑓(𝑥𝑥)是以4 为周期的周期函数，作出函数𝑓𝑓(𝑥𝑥)的图像，结合图像可知lim\n𝑛𝑛→∞(𝑥𝑥𝑛𝑛+1 −𝑥𝑥𝑛𝑛)的\n几何意义为函数𝑓𝑓(𝑥𝑥)两条渐近线之间的距离，从而可得出答案.\n解：因为𝑓𝑓(𝑥𝑥)为奇函数，所以𝑓𝑓(𝑥𝑥) = −𝑓𝑓(−𝑥𝑥)，且𝑓𝑓(0) = 0，\n又𝑓𝑓(𝑥𝑥)关于直线𝑥𝑥= 1对称，所以𝑓𝑓(1 + 𝑥𝑥) = 𝑓𝑓(1 −𝑥𝑥)，\n所以𝑓𝑓(2 + 𝑥𝑥) = 𝑓𝑓(−𝑥𝑥) = −𝑓𝑓(𝑥𝑥)，\n则𝑓𝑓(4 + 𝑥𝑥) = −𝑓𝑓(2 + 𝑥𝑥) = 𝑓𝑓(𝑥𝑥)，\n所以函数𝑓𝑓(𝑥𝑥)是以4 为周期的周期函数，\n作出函数𝑦𝑦= 𝑓𝑓(𝑥𝑥)和𝑦𝑦= 𝑥𝑥+ 1的图像如图所示：\n由𝑓𝑓(𝑥𝑥) = 𝑥𝑥+ 1的正数解依次为𝑥𝑥1、𝑥𝑥2、𝑥𝑥3、⋅⋅⋅、𝑥𝑥𝑛𝑛、⋅⋅⋅，\n则lim\n𝑛𝑛→∞(𝑥𝑥𝑛𝑛+1 −𝑥𝑥𝑛𝑛)的几何意义为函数𝑓𝑓(𝑥𝑥)两条渐近线之间的距离为2，\n所以lim\n𝑛𝑛→∞(𝑥𝑥𝑛𝑛+1 −𝑥𝑥𝑛𝑛) = 2.\n故答案为：2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -286,22 +341,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q13",
       "content": "下列函数定义域为R的是（  ）\nA．𝑦𝑦= 𝑥𝑥−1\n2\nB．𝑦𝑦= 𝑥𝑥−1\nC．𝑦𝑦= 𝑥𝑥\n1\n3\nD．𝑦𝑦= 𝑥𝑥\n1\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "化分数指数幂为根式，分别求出四个选项中函数的定义域得答案．\n【解答】𝑦𝑦= 𝑥𝑥−1\n2 =\n1\n√𝑥𝑥，定义域为{𝑥𝑥|𝑥𝑥> 0 }，\n𝑦𝑦= 𝑥𝑥−1 =\n1\n𝑥𝑥，定义域为{𝑥𝑥|𝑥𝑥≠0 }，\n𝑦𝑦= 𝑥𝑥\n1\n3 = √𝑥𝑥\n3\n，定义域为R，\n𝑦𝑦= 𝑥𝑥\n1\n2 = √𝑥𝑥，定义域为{𝑥𝑥|𝑥𝑥≥0 }．\n故选：C．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -309,22 +368,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q14",
       "content": "已知𝑎𝑎> 𝑏𝑏> 𝑐𝑐> 𝑑𝑑，下列选项中正确的是（    ）\nA．𝑎𝑎+ 𝑑𝑑> 𝑏𝑏+ 𝑐𝑐\nB．𝑎𝑎+ 𝑐𝑐> 𝑏𝑏+ 𝑑𝑑\nC．𝑎𝑎𝑎𝑎> 𝑏𝑏𝑏𝑏\nD．𝑎𝑎𝑎𝑎> 𝑏𝑏𝑏𝑏",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "用不等式的基本性质得解.\n∵3 > 2 > 1 > 0，但3 + 0 = 2 + 1，3 × 0 < 2 × 1，A、C 错\n∵𝑎𝑎> 𝑏𝑏> 𝑐𝑐> 𝑑𝑑，∴𝑎𝑎> 𝑐𝑐, 𝑏𝑏> 𝑑𝑑，所以𝑎𝑎+ 𝑐𝑐> 𝑏𝑏+ 𝑑𝑑.B 正确.\n∵30 > 2 > −1 > −2，但30 × (−1) < 2 × (−2)，D 错.\n故选:B.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -332,22 +395,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q15",
       "content": "如图，上海海关大楼的上面可以看作一个正四棱柱，四个侧面有四个时钟，则相邻两个时钟的时针从0 时转到\n12 时（含0 时不含12 时）的过程中，能够相互垂直（    ）次\nA．0\nB．2\nC．4\nD．12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "根据正四棱柱相邻侧面的线线关系即可判断.\n当时针在3 时或9 时相互垂直，0 时或6 时时针平行，其它时间时针所在直线异面但不垂直，所以能够垂\n直2 次.\n故选：B.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -355,22 +422,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q015-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q015-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q16",
       "content": "已知等比数列{𝑎𝑎𝑛𝑛}的前𝑛𝑛项和为𝑆𝑆𝑛𝑛，前𝑛𝑛项积为𝑇𝑇𝑛𝑛，则下列选项判断正确的是（      ）\nA．若𝑆𝑆2022 > 𝑆𝑆2021，则数列{𝑎𝑎𝑛𝑛}是递增数列\nB．若𝑇𝑇2022 > 𝑇𝑇2021，则数列{𝑎𝑎𝑛𝑛}是递增数列\nC．若数列{𝑆𝑆𝑛𝑛}是递增数列，则𝑎𝑎2022 ≥𝑎𝑎2021\nD．若数列{𝑇𝑇𝑛𝑛}是递增数列，则𝑎𝑎2022 ≥𝑎𝑎2021",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "根据题意，结合等比数列的性质和特例，以及等比数列的单调性和前𝑛𝑛项和公式，可判定A、B、C 都不正\n确；由数列{𝑇𝑇𝑛𝑛}是递增数列，得到𝑎𝑎𝑛𝑛> 1和𝑞𝑞≥1，可判定D 正确.\n对于A 中，如果数列𝑎𝑎1 = −1，公比为−2，满足𝑆𝑆2022 > 𝑆𝑆2021，但是等比数列{𝑎𝑎𝑛𝑛}不是递增数列，所以A\n不正确；\n对于B 中，如果数列𝑎𝑎1 = 1，公比为−\n1\n2，满足𝑇𝑇2022 > 𝑇𝑇2021，但是等比数列{𝑎𝑎𝑛𝑛}不是递增数列，所以B 不正确；\n对于C 中，如果数列𝑎𝑎1 = 1，公比为\n1\n2，可得𝑆𝑆𝑛𝑛=\n1−(1\n2) 𝑛𝑛\n1\n2\n= 2(1 −\n1\n2𝑛𝑛)，数列{𝑆𝑆𝑛𝑛}是递增数列，但是𝑎𝑎2022 < 𝑎𝑎2021，所\n以C 不正确；\n对于D 中，数列{𝑇𝑇𝑛𝑛}是递增数列，可知𝑇𝑇𝑛𝑛> 𝑇𝑇𝑛𝑛−1，可得𝑎𝑎𝑛𝑛> 1，所以𝑞𝑞≥1，可得𝑎𝑎2022 ≥𝑎𝑎2021正确，所以D 正确；\n故选：D．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -378,22 +453,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q17",
       "content": "如图，在圆柱𝑂𝑂𝑂𝑂1中，底面半径为1，𝐴𝐴𝐴𝐴1为圆柱𝑂𝑂𝑂𝑂1的母线.\n(1)若𝐴𝐴𝐴𝐴1 = 4，𝑀𝑀为𝐴𝐴𝐴𝐴1的中点，求直线𝑀𝑀𝑂𝑂1与底面的夹角大小；\n(2)若圆柱的轴截面为正方形，求该圆柱的侧面积和体积.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)arctan2；\n(2)侧面积4𝜋𝜋，体积2𝜋𝜋.",
+      "analysis": "（1）分析可知直线𝑀𝑀𝑂𝑂1与底面所成的角为∠𝑀𝑀𝑂𝑂1𝐴𝐴1，求出tan∠𝑀𝑀𝑂𝑂1𝐴𝐴1，即可得解；\n（2）求出圆柱的母线长，利用圆柱的侧面积公式和体积公式可求得结果.\n（1）解：因为𝐴𝐴𝐴𝐴1与圆柱𝑂𝑂𝑂𝑂1的上底面垂直，则直线𝑀𝑀𝑂𝑂1与底面所成的角为∠𝑀𝑀𝑂𝑂1𝐴𝐴1，\n易知𝐴𝐴𝐴𝐴1 ⊥𝑂𝑂1𝐴𝐴1，在𝑅𝑅𝑅𝑅△𝑀𝑀𝑂𝑂1𝐴𝐴1中，𝑀𝑀𝐴𝐴1 =\n1\n2 𝐴𝐴𝐴𝐴1 = 2，𝑂𝑂1𝐴𝐴1 = 1，\n故tan∠𝑀𝑀𝑂𝑂1𝐴𝐴1 =\n𝑀𝑀𝐴𝐴1\n𝑂𝑂1𝐴𝐴1 = 2，故直线𝑀𝑀𝑂𝑂1与底面的夹角大小为arctan2.\n（2）解：若圆柱的轴截面为正方形，则𝐴𝐴𝐴𝐴1 = 2，\n故圆柱𝑂𝑂𝑂𝑂1的侧面积为2𝜋𝜋× 1 × 2 = 4𝜋𝜋，体积为𝜋𝜋× 12 × 2 = 2𝜋𝜋.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -401,22 +480,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q017-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q017-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q18",
       "content": "已知数列{𝑎𝑎𝑛𝑛}，𝑎𝑎2 = 1，{𝑎𝑎𝑛𝑛}的前𝑛𝑛项和为𝑆𝑆𝑛𝑛.\n(1)若{𝑎𝑎𝑛𝑛}为等比数列，𝑆𝑆2 = 3，求lim\n𝑛𝑛→∞𝑆𝑆𝑛𝑛；\n(2)若{𝑎𝑎𝑛𝑛}为等差数列，公差为𝑑𝑑，对任意𝑛𝑛∈𝑁𝑁∗，均满足𝑆𝑆2𝑛𝑛≥𝑛𝑛，求𝑑𝑑的取值范围.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)4；\n(2)[0,1].",
+      "analysis": "（1）求出等比数列{𝑎𝑎𝑛𝑛}的公比，求出𝑆𝑆𝑛𝑛，即可求得lim\n𝑛𝑛→∞𝑆𝑆𝑛𝑛；\n（2）分析可得(2𝑛𝑛−3)𝑑𝑑≥−1，分𝑛𝑛= 1、𝑛𝑛≥2两种情况讨论，结合数列的单调性可求得𝑑𝑑的取值范围.\n（1）解：𝑆𝑆2 = 𝑎𝑎1 + 𝑎𝑎2 = 3，则𝑎𝑎1 = 2，所以，等比数列{𝑎𝑎𝑛𝑛}的公比为𝑞𝑞=\n𝑎𝑎2\n𝑎𝑎1 =\n1\n2，\n∴𝑆𝑆𝑛𝑛=\n𝑎𝑎1(1−𝑞𝑞𝑛𝑛)\n1−𝑞𝑞\n= 4 �1 −�\n1\n2�\n𝑛𝑛\n�，因此，lim\n𝑛𝑛→∞𝑆𝑆𝑛𝑛= lim\n𝑛𝑛→∞\n𝑎𝑎1(1−𝑞𝑞𝑛𝑛)\n1−𝑞𝑞\n= lim\n𝑛𝑛→∞�4 −4 ⋅�\n1\n2�\n𝑛𝑛\n�= 4.\n（2）解：由已知可得𝑆𝑆2𝑛𝑛=\n2𝑛𝑛(𝑎𝑎1+𝑎𝑎2𝑛𝑛)\n2\n= 𝑛𝑛(𝑎𝑎2 + 𝑎𝑎2𝑛𝑛−1) ≥𝑛𝑛，则𝑎𝑎2 + 𝑎𝑎2𝑛𝑛−1 ≥1，\n即2𝑎𝑎2 + (2𝑛𝑛−3)𝑑𝑑≥1，可得(2𝑛𝑛−3)𝑑𝑑≥−1.\n当𝑛𝑛= 1时，可得𝑑𝑑≤1；\n当𝑛𝑛≥2时，则2𝑛𝑛−3 ≥1，所以，𝑑𝑑≥\n1\n3−2𝑛𝑛，\n因为数列�\n1\n3−2𝑛𝑛�(𝑛𝑛≥2)为单调递增数列，而−1 ≤\n1\n3−2𝑛𝑛< 0，故𝑑𝑑≥0.\n综上所述，0 ≤𝑑𝑑≤1.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -424,22 +511,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q19",
       "content": "如图，矩形ABCD 区域内，D 处有一棵古树，为保护古树，以D 为圆心，DA 为半径划定圆D 作为保护区域，\n已知𝐴𝐴𝐴𝐴= 30m，𝐴𝐴𝐴𝐴= 15m，点E 为AB 上的动点，点F 为CD 上的动点，满足EF 与圆D 相切.\n(1)若∠ADE= 20°，求EF 的长；\n(2)当点E 在AB 的什么位置时，梯形FEBC 的面积有最大值，最大面积为多少？\n（长度精确到0.1m，面积精确到0.01m²）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)23.3m\n(2)当𝐴𝐴𝐴𝐴= 8.7时，梯形FEBC 的面积有最大值,最大值为255.14",
+      "analysis": "（1）设EF 与圆D 相切于对点𝐻𝐻，连接𝐷𝐷𝐷𝐷，则𝐷𝐷𝐷𝐷⊥𝐸𝐸𝐸𝐸，𝐷𝐷𝐷𝐷= 𝐴𝐴𝐴𝐴= 15，在直角△𝐻𝐻𝐻𝐻𝐻𝐻和直角△𝐹𝐹𝐹𝐹𝐹𝐹中\n分别求出𝐸𝐸𝐸𝐸, 𝐻𝐻𝐻𝐻,从而得出答案.\n（2）先求出梯形𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴的面积的最小值，从而得出梯形FEBC 的面积的最大值.\n（1）设EF 与圆D 相切于对点𝐻𝐻，连接𝐷𝐷𝐷𝐷，则𝐷𝐷𝐷𝐷⊥𝐸𝐸𝐸𝐸，𝐷𝐷𝐷𝐷= 𝐴𝐴𝐴𝐴= 15\n则𝐴𝐴𝐴𝐴= 𝐸𝐸𝐸𝐸，所以直角△𝐴𝐴𝐴𝐴𝐴𝐴与直角△𝐻𝐻𝐻𝐻𝐻𝐻全等\n所以∠𝐴𝐴𝐴𝐴𝐴𝐴= ∠𝐻𝐻𝐻𝐻𝐻𝐻= 20°\n在直角△𝐻𝐻𝐻𝐻𝐻𝐻中，𝐸𝐸𝐸𝐸= 𝐷𝐷𝐷𝐷tan20° = 15tan20°\n∠𝐻𝐻𝐻𝐻𝐻𝐻= 90° −2∠𝐴𝐴𝐴𝐴𝐴𝐴= 50°\n在直角△𝐹𝐹𝐹𝐹𝐹𝐹中，𝐻𝐻𝐻𝐻= 𝐴𝐴𝐴𝐴tan50° = 15tan50°\n𝐸𝐸𝐸𝐸= 𝐸𝐸𝐸𝐸+ 𝐻𝐻𝐻𝐻= 15(tan20° + tan50°) = 15 �\nsin20°\ncos20° +\nsin50°\ncos50°�\n= 15 × sin20°cos50° + cos20°sin50°\ncos20°cos50°\n= 15 × sin(20° + 50°)°\ncos20°cos50°\n= 15 ×\nsin70°\ncos20°cos50° =\n15\ncos50° ≈23.3\n（2）设∠𝐴𝐴𝐴𝐴𝐴𝐴= 𝜃𝜃,∠𝐻𝐻𝐻𝐻𝐻𝐻= 90° −2𝜃𝜃，则𝐴𝐴𝐴𝐴= 15tan𝜃𝜃，\n𝐹𝐹𝐹𝐹= 15tan(90° −2𝜃𝜃)\n𝑆𝑆△𝐸𝐸𝐸𝐸𝐸𝐸=\n1\n2 × 𝐸𝐸𝐸𝐸× 𝐷𝐷𝐷𝐷=\n15\n2 [15tan𝜃𝜃+ 15tan(90° −2𝜃𝜃)] =\n15\n2 �15tan𝜃𝜃+\n15\ntan2𝜃𝜃�\n𝑆𝑆△𝐴𝐴𝐴𝐴𝐴𝐴=\n1\n2 × 𝐴𝐴𝐴𝐴× 𝐴𝐴𝐴𝐴=\n15\n2 × 15tan𝜃𝜃\n所以梯形𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴的面积为𝑆𝑆= 𝑆𝑆△𝐴𝐴𝐴𝐴𝐴𝐴+ 𝑆𝑆△𝐷𝐷𝐷𝐷𝐷𝐷=\n15\n2 �30tan𝜃𝜃+\n15\ntan2𝜃𝜃�=\n225\n2 �2tan𝜃𝜃+\n1−tan2𝜃𝜃\n2tan𝜃𝜃�\n= 225\n4 �3tan𝜃𝜃+\n1\ntan𝜃𝜃�≥225\n4 × 2�3tan𝜃𝜃×\n1\ntan𝜃𝜃= 225√3\n2\n当且当3tan𝜃𝜃=\n1\ntan𝜃𝜃，即tan𝜃𝜃= √3\n3 时取得等号，此时𝐴𝐴𝐴𝐴= 15tan𝜃𝜃= 15 × √3\n3 = 5√3 ≈8.7\n即当tan𝜃𝜃= √3\n3 时，梯形𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴的面积取得最小值\n225√3\n2\n则此时梯形FEBC 的面积有最大值15 × 30 −\n225√3\n2\n≈255.14\n所以当𝐴𝐴𝐴𝐴= 8.7时，梯形FEBC 的面积有最大值,最大值为255.14",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -447,22 +538,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-00c73136c4705fa8-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q20",
       "content": "在椭圆Γ:\n𝑥𝑥2\n𝑎𝑎2 + 𝑦𝑦2 = 1中，直线𝑙𝑙: 𝑥𝑥= 𝑎𝑎上有两点C、D (C 点在第一象限)，左顶点为A，下顶点为B，右焦点为\nF.\n(1)若∠AFB=\n𝜋𝜋\n6，求椭圆Γ的标准方程；\n(2)若点C 的纵坐标为2，点D 的纵坐标为1，则BC 与AD 的交点是否在椭圆上？请说明理由；\n(3)已知直线BC 与椭圆Γ相交于点P，直线AD 与椭圆Γ相交于点Q，若P 与Q 关于原点对称，求|𝐶𝐶𝐶𝐶|的最小值.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)\n𝑥𝑥2\n4 + 𝑦𝑦2 = 1\n(2)交点为(\n3𝑎𝑎\n5 ,\n4\n5)，在椭圆上，理由见解析\n(3)6",
+      "analysis": "（1）写出𝐴𝐴, 𝐵𝐵, 𝐹𝐹三点的坐标，可将tan∠𝐴𝐴𝐴𝐴𝐴𝐴用坐标表示出来，求出𝑐𝑐的值，再结合已知条件，即可求出𝑎𝑎2，\n进而写出椭圆的标准方程；\n（2）根据条件，写出直线𝐵𝐵𝐵𝐵和𝐴𝐴𝐴𝐴的方程，求出交点坐标，再将其代入椭圆标准方程的左边，即可判断该点与椭圆\n的位置关系；\n（3）利用三角换元（或者椭圆的参数方程）的方法设出点𝑃𝑃,𝑄𝑄的坐标，再结合点𝐴𝐴, 𝐵𝐵的坐标，写出直线𝐵𝐵𝐵𝐵和𝐴𝐴𝐴𝐴的\n方程，求出点𝐶𝐶, 𝐷𝐷的坐标，表示出|𝐶𝐶𝐶𝐶|，再利用三角恒等变换以及同角三角函数关系化简|𝐶𝐶𝐶𝐶|，最后根据重要不等\n式计算出|𝐶𝐶𝐶𝐶|的最小值.\n（1）由题可得𝐴𝐴(−𝑎𝑎, 0)， 𝐵𝐵(0,−1), 𝐹𝐹(𝑐𝑐, 0)，又∠𝐴𝐴𝐴𝐴𝐴𝐴=\n𝜋𝜋\n6，\n所以tan∠𝐴𝐴𝐴𝐴𝐴𝐴=\n𝑏𝑏\n𝑐𝑐=\n1\n𝑐𝑐= tan\n𝜋𝜋\n6 = √3\n3 ，解得𝑐𝑐= √3，\n所以𝑎𝑎2 = 1 + (√3)2 = 4，\n故椭圆Γ的标准方程为\n𝑥𝑥2\n4 + 𝑦𝑦2 = 1；\n（2）由𝐵𝐵(0, −1), 𝐶𝐶(𝑎𝑎, 2)，得直线𝐵𝐵𝐵𝐵的方程为：𝑦𝑦=\n3\n𝑎𝑎𝑥𝑥+ 1，\n由𝐴𝐴(−𝑎𝑎, 0), 𝐷𝐷(𝑎𝑎, 1)，得直线𝐴𝐴𝐴𝐴的方程为：𝑦𝑦=\n1\n2𝑎𝑎(𝑥𝑥+ 𝑎𝑎)，\n联立两方程，解得交点为(\n3𝑎𝑎\n5 , \n4\n5)，\n代入椭圆方程的左边，得\n(3𝑎𝑎\n5 )2\n𝑎𝑎2 + (\n4\n5)2 =\n9\n25 +\n16\n25 = 1，\n故直线𝐵𝐵𝐵𝐵与𝐴𝐴𝐴𝐴的交点在椭圆上；\n（3）由题有𝐴𝐴(−𝑎𝑎, 0)， 𝐵𝐵(0, −1)\n因为𝑃𝑃, 𝑄𝑄两点在椭圆上，且关于原点对称，\n则设𝑃𝑃(𝑎𝑎cos𝜃𝜃,sin𝜃𝜃), 𝑄𝑄(−𝑎𝑎cos𝜃𝜃, −sin𝜃𝜃)，\n直线𝐵𝐵𝐵𝐵: 𝑦𝑦=\nsin𝜃𝜃+1\n𝑎𝑎cos𝜃𝜃𝑥𝑥−1，则𝐶𝐶(𝑎𝑎,\nsin𝜃𝜃+1\ncos𝜃𝜃−1)，\n直线𝐴𝐴𝐴𝐴: 𝑦𝑦=\nsin𝜃𝜃\n𝑎𝑎cos𝜃𝜃−𝑎𝑎(𝑥𝑥+ 𝑎𝑎)，则𝐷𝐷(𝑎𝑎,\n2sin𝜃𝜃\ncos𝜃𝜃−1)，\n所以|𝐶𝐶𝐶𝐶| = �\nsin𝜃𝜃+1\ncos𝜃𝜃−1 −\n2sin𝜃𝜃\ncos𝜃𝜃−1�\n= �\n2sin 𝜃𝜃\n2 cos 𝜃𝜃\n2 + sin2 𝜃𝜃\n2 + cos2 𝜃𝜃\n2\ncos2 𝜃𝜃\n2 −sin2 𝜃𝜃\n2\n−\n4sin 𝜃𝜃\n2 cos 𝜃𝜃\n2\n−2sin2 𝜃𝜃\n2\n−1�\n设tan\n𝜃𝜃\n2 = 𝑡𝑡，则|𝐶𝐶𝐶𝐶| = �\n2𝑡𝑡+𝑡𝑡2+1\n1−𝑡𝑡2\n+\n2\n𝑡𝑡−1�= 2 �\n1\n1−𝑡𝑡+\n1\n𝑡𝑡−1�，\n因为\n1\n𝑥𝑥+\n1\n𝑦𝑦=\n𝑥𝑥+𝑦𝑦\n𝑥𝑥𝑦𝑦≥\n𝑥𝑥+𝑦𝑦\n�𝑥𝑥+𝑦𝑦\n2 �\n2 =\n4\n𝑥𝑥+𝑦𝑦，\n所以\n1\n1−𝑡𝑡+\n1\n𝑡𝑡−1 ≥\n4\n1−𝑡𝑡+𝑡𝑡−1 = 3，则|𝐶𝐶𝐶𝐶| ≥6，即|𝐶𝐶𝐶𝐶|的最小值为6.\n关键点点睛：第（3）小题中，以三角函数形式（参数方程）设点是解题的关键，进而利用三角恒等变换\n和同角三角函数关系（二次齐次分式化正余弦为正切）将|𝐶𝐶𝐶𝐶|化简，最终利用重要不等式求出其最小值.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -470,22 +569,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:春季高考/2022/2022春季上海.pdf#q21",
       "content": "已知函数𝑓𝑓(𝑥𝑥)，甲变化：𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)；乙变化：|𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)|，𝑡𝑡> 0.\n(1)若𝑡𝑡= 1，𝑓𝑓(𝑥𝑥) = 2𝑥𝑥，𝑓𝑓(𝑥𝑥)经甲变化得到𝑔𝑔(𝑥𝑥)，求方程𝑔𝑔(𝑥𝑥) = 2的解；\n(2)若𝑓𝑓(𝑥𝑥) = 𝑥𝑥2，𝑓𝑓(𝑥𝑥)经乙变化得到ℎ(𝑥𝑥)，求不等式ℎ(𝑥𝑥) ≤𝑓𝑓(𝑥𝑥)的解集；\n(3)若𝑓𝑓(𝑥𝑥)在(−∞,0)上单调递增，将𝑓𝑓(𝑥𝑥)先进行甲变化得到𝑢𝑢(𝑥𝑥)，再将𝑢𝑢(𝑥𝑥)进行乙变化得到ℎ1(𝑥𝑥)；将𝑓𝑓(𝑥𝑥)先进行乙\n变化得到𝑣𝑣(𝑥𝑥)，再将𝑣𝑣(𝑥𝑥)进行甲变化得到ℎ2(𝑥𝑥)，若对任意𝑡𝑡> 0，总存在ℎ1(𝑥𝑥) = ℎ2(𝑥𝑥)成立，求证：𝑓𝑓(𝑥𝑥)在R 上单\n调递增.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)𝑥𝑥= 2；\n(2)(−∞, (1 −√2)𝑡𝑡] ∪[(1 + √2)𝑡𝑡, +∞)；\n(3)证明见解析.",
+      "analysis": "（1）由题设可得𝑔𝑔(𝑥𝑥) = 2𝑥𝑥−1 = 2，求解即可.\n（2）由题设有𝑡𝑡|2𝑥𝑥+ 𝑡𝑡| ≤𝑥𝑥2，讨论𝑥𝑥< −\n𝑡𝑡\n2、𝑥𝑥≥−\n𝑡𝑡\n2分别求解即可.\n（3）将题设化为对于任意𝑡𝑡> 0存在|[𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)] −[𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)]| = |𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)| −|𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)|，\n即可证结论.\n（1）由题设，甲变化为𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−1)，则𝑔𝑔(𝑥𝑥) = 2𝑥𝑥−2𝑥𝑥−1 = 2𝑥𝑥−1，\n∴𝑔𝑔(𝑥𝑥) = 2𝑥𝑥−1 = 2，解得𝑥𝑥= 2.\n（2）由题设，ℎ(𝑥𝑥) = |(𝑥𝑥+ 𝑡𝑡)2 −𝑥𝑥2| = 𝑡𝑡|2𝑥𝑥+ 𝑡𝑡|，又ℎ(𝑥𝑥) ≤𝑓𝑓(𝑥𝑥)，\n∴𝑡𝑡|2𝑥𝑥+ 𝑡𝑡| ≤𝑥𝑥2，\n当2𝑥𝑥+ 𝑡𝑡< 0，即𝑥𝑥< −\n𝑡𝑡\n2时，则𝑥𝑥2 + 2𝑡𝑡𝑡𝑡+ 𝑡𝑡2 = (𝑥𝑥+ 𝑡𝑡)2 ≥0，恒成立；\n当2𝑥𝑥+ 𝑡𝑡≥0，即𝑥𝑥≥−\n𝑡𝑡\n2时，则𝑥𝑥2 −2𝑡𝑡𝑡𝑡+ 𝑡𝑡2 = (𝑥𝑥−𝑡𝑡)2 ≥2𝑡𝑡2，解得：𝑥𝑥≤(1 −√2)𝑡𝑡或𝑥𝑥≥(1 + √2)𝑡𝑡.\n综上，不等式解集为(−∞,(1 −√2)𝑡𝑡] ∪[(1 + √2)𝑡𝑡,+∞).\n（3）由题设，𝑢𝑢(𝑥𝑥) = 𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)，则ℎ1(𝑥𝑥) = |𝑢𝑢(𝑥𝑥+ 𝑡𝑡) −𝑢𝑢(𝑥𝑥)| = |𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −2𝑓𝑓(𝑥𝑥) + 𝑓𝑓(𝑥𝑥−𝑡𝑡)|，\n𝑣𝑣(𝑥𝑥) = |𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)|，则ℎ2(𝑥𝑥) = 𝑣𝑣(𝑥𝑥) −𝑣𝑣(𝑥𝑥−𝑡𝑡) = |𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)| −|𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)|，\n∵当ℎ1(𝑥𝑥) = ℎ2(𝑥𝑥)成立，𝑓𝑓(𝑥𝑥)在(−∞, 0)上单调递增，\n∴|[𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)] −[𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)]| = |𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥)| −|𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)|，\n∴对于任意𝑡𝑡> 0总存在{𝑓𝑓(𝑥𝑥+ 𝑡𝑡) −𝑓𝑓(𝑥𝑥) > 𝑓𝑓(𝑥𝑥) −𝑓𝑓(𝑥𝑥−𝑡𝑡)\n𝑓𝑓(𝑥𝑥+ 𝑡𝑡) > 𝑓𝑓(𝑥𝑥) > 𝑓𝑓(𝑥𝑥−𝑡𝑡)\n成立，\n∴𝑓𝑓(𝑥𝑥)在R 上单调递增，得证.\n关键点点睛：第三问，利用绝对值的几何意义及区间单调性，结合任意𝑡𝑡> 0存在ℎ1(𝑥𝑥) = ℎ2(𝑥𝑥)，判断函\n数在实数域上单调性.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "数学",
@@ -493,11 +596,23 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2022/2022春季上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 4,
+    "assigned": 3,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

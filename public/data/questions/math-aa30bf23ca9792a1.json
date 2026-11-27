@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2019/2019北京理.pdf",
   "name": "2019北京理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q01",
       "content": "已知复数z = 2 + i, 则z · z =\n(\n)\n(A)\n√\n3\n(B)\n√\n5\n(C) 3\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q02",
       "content": "执行如图所示的程序框图, 输出的s 值为\n(\n)\n开始\nk = 1, s = 1\ns =\n2s2\n3s −2\nk = k + 1\nk ⩾3?\n输出s\n结束\n是\n否\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -56,22 +77,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q03",
       "content": "已知直线l 的参数方程为\n{\nx = 1 + 3t,\ny = 2 + 4t,\n(t 为参数), 则点(1, 0) 到直线l 的\n距离是\n(\n)\n(A) 1\n5\n(B) 2\n5\n(C) 4\n5\n(D) 6\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -79,22 +110,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q04",
       "content": "已知椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为1\n2, 则\n(\n)\n(A) a2 = 2b2\n(B) 3a2 = 4b2\n(C) a = 2b\n(D) 3a = 4b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -102,22 +143,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q05",
       "content": "若x, y 满足|x| ⩽1 −y, 且y ⩾−1, 则3x + y 的最大值为\n(\n)\n(A) −7\n(B) 1\n(C) 5\n(D) 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -125,22 +172,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q06",
       "content": "在天文学中, 天体的明暗程度可以用星等或亮度来描述. 两颗星的星等与\n亮度满足m2−m1 = 5\n2 lg E1\nE2\n, 其中星等为mk 的星的亮度为Ek (k = 1, 2).\n已知太阳的星等是−26.7, 天狼星的星等是−1.45, 则太阳与天狼星的亮度\n的比值为\n(\n)\n(A) 1010.1\n(B) 10.1\n(C) lg 10.1\n(D) 10−10.1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -148,22 +201,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q07",
       "content": "设点A, B, C 不共线, 则“#   »\nAB 与#   »\nAC 的夹角为锐角”是“\n���#   »\nAB + #   »\nAC\n���>\n���#    »\nBC\n���”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q08",
       "content": "数学中有许多形状优美、寓意美好的曲线, 曲线C: x2 + y2 = 1 + |x|y 就\n是其中之一(如图). 给出下列三个结论:\n①曲线C 恰好经过6 个整点(即横、纵坐标均为整数的点);\n②曲线C 上任意一点到原点的距离都不超过\n√\n2;\n③曲线C 所围成的“心形”区域的面积小于3.\n其中, 所有正确结论的序号是\n(\n)\nx\ny\nO\n(A) ①\n(B) ②\n(C) ①②\n(D) ①②③",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -194,22 +259,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q09",
       "content": "函数f (x) = sin2 2x 的最小正周期是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -217,22 +292,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q10",
       "content": "设等差数列{an} 的前n 项和为Sn, 若a2 = −3, S5 = −10, 则a5 =\n,\nSn 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -240,22 +321,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q11",
       "content": "某几何体是由一个正方体去掉一个四棱柱所得, 其三视图如图所示. 如果\n网格纸上小正方形的边长为1, 那么该几何体的体积为\n.\n正(主) 视图\n俯视图\n侧(左) 视图",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -263,22 +350,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q12",
       "content": "已知l, m 是平面α 外的两条不同直线. 给出下列三个论断:\n①l ⊥m;\n②m\nα;\n③l ⊥α.\n以其中的两个论断作为条件, 余下的一个论断作为结论, 写出一个正确的\n命题:\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -286,22 +384,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q13",
       "content": "设函数f (x) = ex + ae−x (a 为常数). 若f (x) 为奇函数, 则a =\n;\n若f (x) 是R 上的增函数, 则a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -309,22 +413,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q14",
       "content": "李明自主创业, 在网上经营一家水果店, 销售的水果中有草莓、京白梨、西\n瓜、桃, 价格依次为60 元/盒、65 元/盒、80 元/盒、90 元/盒. 为增加销\n量, 李明对这四种水果进行促销: 一次购买水果的总价达到120 元, 顾客就\n少付x 元. 每笔订单顾客网上支付成功后, 李明会得到支付款的80%.\n①当x = 10 时, 顾客一次购买草莓和西瓜各1 盒, 需要支付\n元;\n②在促销活动中, 为保证李明每笔订单得到的金额均不低于促销前总价的\n七折, 则x 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q15",
       "content": "在△ABC 中, a = 3, b−c = 2, cos B = −1\n2.\n(1) 求b, c 的值;\n(2) 求sin (B −C) 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -355,22 +471,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q16",
       "content": "如图, 在四棱锥P −ABCD 中, PA ⊥平面ABCD, AD ⊥CD, AD\nBC,\nPA = AD = CD = 2, BC = 3. E 为PD 的中点, 点F 在PC 上, 且\nPF\nPC = 1\n3.\n(1) 求证: CD ⊥平面PAD;\n(2) 求二面角F −AE −P 的余弦值;\n(3) 设点G 在PB 上, 且PG\nPB = 2\n3. 判断直线AG 是否在平面AEF 内,\n说明理由.\nA\nP\nF\nE\nB\nC\nD\nG\n1087",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -378,22 +500,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q17",
       "content": "改革开放以来, 人们的支付方式发生了巨大转变. 近年来, 移动支付已成为\n主要支付方式之一. 为了解某校学生上个月A, B 两种移动支付方式的使\n用情况, 从全校学生中随机抽取了100 人, 发现样本中A, B 两种支付方式\n都不使用的有5 人, 样本中仅使用A 和仅使用B 的学生的支付金额分布\n情况如下:\n支付方式\n支付金额(元)\n(0, 1000]\n(1000, 2000]\n大于2000\n仅使用A\n18 人\n9 人\n3 人\n仅使用B\n10 人\n14 人\n1 人\n(1) 从全校学生中随机抽取1 人, 估计该学生上个月A, B 两种支付方式都\n使用的概率;\n(2) 从样本仅使用A 和仅使用B 的学生中各随机抽取1 人, 以X 表示这\n2 人中上个月支付金额大于1000 元的人数, 求X 的分布列和数学期望;\n(3) 已知上个月样本学生的支付方式在本月没有变化. 现从样本仅使用A\n的学生中, 随机抽查3 人, 发现他们本月的支付金额都大于2000 元. 根据\n抽查结果, 能否认为样本仅使用A 的学生中本月支付金额大于2000 元的\n人数有变化? 说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -401,22 +533,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q017-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-aa30bf23ca9792a1-q017-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q18",
       "content": "已知抛物线C: x2 = −2py 经过点(2, −1).\n(1) 求抛物线C 的方程及其准线方程;\n(2) 设O 为原点, 过抛物线C 的焦点作斜率不为0 的直线l 交抛物线C\n于两点M, N, 直线y = −1 分别交直线OM, ON 于点A 和点B. 求证:\n以AB 为直径的圆经过y 轴上的两个定点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -424,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q19",
       "content": "已知函数f (x) = 1\n4x3 −x2 + x.\n(1) 求曲线y = f (x) 的斜率为1 的切线方程;\n(2) 当x ∈[−2, 4] 时, 求证: x −6 ⩽f (x) ⩽x;\n(3) 设F (x) = |f (x) −(x + a) | (a ∈R), 记F (x) 在区间[−2, 4] 上的最\n大值为M (a). 当M (a) 最小时, 求a 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -447,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019北京理.pdf#q20",
       "content": "已知数列{an} 从中选取第i1 项、第i2 项、· · · 、第im 项(i1 < i2 < · · · < im),\n若ai1 < ai2 < · · · < aim, 则称新数列ai1, ai2, · · · , aim 为{an} 的长度为\nm 的递增子列. 规定: 数列{an} 的任意一项都是{an} 的长度为1 的递增\n子列.\n(1) 写出数列1, 8, 3, 7, 5, 6, 9 的一个长度为4 的递增子列;\n(2) 已知数列{an} 的长度为p 的递增子列的末项的最小值为am0, 长度为\nq 的递增子列的末项的最小值为an0. 若p < q, 求证: am0 < an0;\n(3) 设无穷数列{an} 的各项均为正整数, 且任意两项均不相等. 若{an} 的\n长度为s 的递增子列末项的最小值为2s −1, 且长度为s 末项为2s −1 的\n递增子列恰有2s−1 个(s = 1, 2, · · · ), 求数列{an} 的通项公式.\n1088",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -470,11 +624,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

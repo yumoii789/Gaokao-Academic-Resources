@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
   "name": "2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 12,
+    "sourceAnalysis": 4,
+    "reviewCount": 8,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q01",
       "content": "本题中用大写字母代表原子核。E 经α 衰变成为F，再经β 衰变成为G，再经α 衰变\n成为H。上述系列衰变可记为下式：\nH\nG\nF\nE\n→\n\n→\n\n→\n\nα\nβ\nα\n另一系列衰变如下：\nS\nR\nQ\nP\n→\n\n→\n\n→\n\nα\nβ\nβ\n已知P 是F 的同位素，则（     ）\n（A）Q 是G 的同位素，R 是H 的同位素\n（B）R 是E 的同位素，S 是F 的同位素\n（C）R 是G 的同位素，S 是H 的同位素\n（D）Q 是E 的同位素，R 是F 的同位素",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q02",
       "content": "如图所示，ad、bd、cd 是竖直面内三根固定的光滑细杆，a、\nb、c、d 位于同一圆周上，a 点为圆周的最高点，d 点为最低点。\n每根杆上都套着一个小滑环（图中未画出），三个滑环分别从a、\nb、c 处释放（初速为0），用t1、t2、t3 依次表示各滑环到达d 所\n用的时间，则（     ）\n（A）t1＜t2＜t3\n（B）t1＞t2＞t3\n（C）t3＞t1＞t2\n（D）t1 = t2 = t3",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q03",
       "content": "若以μ 表示水的摩尔质量，υ 表示在标准状态下水蒸气的摩尔体积，ρ 为在标准状态\n下水蒸气的密度，NA 为阿佛加德罗常数，m、Δ 分别表示每个水分子的质量和体积，下面\n是四个关系式：\n①NA = υρ/m\n②ρ = μ/NAΔ\n③m = μ/NA\n④Δ = υ/NA\n其中（     ）\n（A）①和②都是正确的\n（B）①和③都是正确的\n（C）③和④都是正确的\n（D）①和④都是正确的",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q04",
       "content": "一列简谐横波沿x 轴负方向传播，图1 是t = 1s 时的波形图，图2 是波中某振动质元\n位移随时间变化的振动图线（两图用同一时间起点），则图2 可能是图1 中哪个质元的振\n动图线？（         ）\n2 / 8\n（A）x = 0 处的质元\n（B）x = 1m 处的质元\n（C）x = 2m 处的质元\n（D）x = 3m 处的质元",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q05",
       "content": "图中电阻R1、R2、R3 的阻值相等，电池的内阻不计。开关K\n接通后流过R2 的电流是K 接通前的（     ）\n（A）A1\n2\nE\nA\n（B）A2\n3\nE\nA\n（C）A1\n3\nE\nA\n（D）A1\n4\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -125,22 +164,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q06",
       "content": "下表给出了一些金属材料的逸出功。\n材料\n铯\n钙\n镁\n铍\n钛\n逸出功（10-19J）\n3.0\n4.3\n5.9\n6.2\n6.6\n现用波长为400nm 的单色光照射上述材料，能产生光电效应的材料最多有几种？（普朗\n克常量h = 6.6×10\n－34J·s，光速c = 3.0×108m/s）（     ）\n（A）2 种\n（B）3 种\n（C）4 种\n（D）5 种",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -148,22 +198,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q07",
       "content": "下列哪个说法是正确的？（     ）\n（A）游泳运动员仰卧在水面静止不动时处于失重状态\n（B）蹦床运动员在空中上升和下落过程中都处于失重状态\n（C）举重运动员在举起杠铃后不动的那段时间内处于超重状态\n（D）体操运动员双手握住单杠吊在空中不动时处于失重状态",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q08",
       "content": "发出白光的细线光源ab，长度为l0，竖直放置，上端a 恰好在水\n面以下，如图。现考虑线光源ab 发出的靠近水面法线（图中的虚线）\n的细光束经水面折射后所成的像，由于水对光有色散作用，若以l1 表\n示红光成的像的长度，l2 表示蓝光成的像的长度，则（      ）\n（A）l1＜l2＜l0\n（B）l1＞l2＞l0\n（C）l2＞l1＞l0\n（D）l2＜l1＜l0\n3 / 8\n第Ⅱ卷（非选择题）\n本卷共10 题，共174 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -194,22 +256,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q09",
       "content": "（18 分）\n（1）图中给出的是用螺旋测微器测量一金属薄板厚度时的示\n数，此读数应为________mm。\n（2）实验室内有一电压表 mV，量程为 150 mV、内阻约为 150\nΩ。现要将其改装成量程为 10 mA 的电流表，并进行校准。为\n此，实验室提供如下器材：干电池E（电动势为 1.5 V），电阻箱 R，滑线变阻器 Rʹ，电\n流表 A（有 1.5 mA、15 mA 与 150 mA 三个量程）及开关 K。\n（a）对电流表改装时必须知道电压表的内阻。可用图示的电路测\n量电压表 mV 的内阻。在既不损坏仪器又能使精确度尽可能高的\n条件下，电路中的电流表A 应选用的量程是______。若合上 K，\n调节滑线变阻器后测得电压表的读数为 150 mV，电流表 A 的读\n数为 1.05 mA，则电压表的内阻 RmV 为_______。（取三位有效数\n字）\n（b）在对改装成的电流表进行校准时，把 A 作为标准电流表，画出对改装成的电流表\n进行校准的电路原理图（滑线变阻器作限流使用），图中各元件要用题中给出的符号或字\n母标注。图中电阻箱的取值是_______（取三位有效数字），电流表 A 应选的量程是\n________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）6.124\n（2）（a）1.5 mA、143 Ω\n（b）如图所示、16.8 Ω、15 mA\n解析\n14. B",
+      "analysis": "写出衰变通式⬚Z\n𝐴𝐴E →Z−2\n𝐴𝐴−4 F →Z−1\n𝐴𝐴−4 G →Z−3\n𝐴𝐴−8 H，因P是F的同位素，故有\n⬚\n𝑍𝑍−2\n𝐵𝐵\nP →\nQ\n𝑍𝑍−1\n𝐵𝐵\n→𝑍𝑍\n𝐵𝐵R →𝑍𝑍−2\n𝐵𝐵−4 S，比较可知R是E的同位素，S是F的同位素，Q是G的同位素，\n故B 正确.\n15. D\n设杆与水平面夹角为𝜃𝜃，圆的直径为𝑑𝑑，由牛顿第二定律得𝑚𝑚𝑚𝑚sin𝜃𝜃=\n𝑚𝑚𝑚𝑚，解得𝑎𝑎= 𝑔𝑔sin𝜃𝜃，由运动学规律得𝑠𝑠=\n1\n2 𝑎𝑎𝑡𝑡2，又𝑠𝑠= 𝑑𝑑sin𝜃𝜃，解得𝑡𝑡= �\n2𝑑𝑑\n𝑔𝑔，与𝜃𝜃无关，\n则𝑡𝑡1 = 𝑡𝑡2 = 𝑡𝑡3，故D 正确.\n16. B\n由微观量与宏观量的运算关系知：①𝑁𝑁A =\n𝜌𝜌𝜌𝜌\n𝑚𝑚正确；②中\n𝜇𝜇\n𝑁𝑁AΔ为水的密\n度，不等于水蒸气的密度，不正确；③𝑚𝑚=\n𝜇𝜇\n𝑁𝑁A正确；④中\n𝑉𝑉\n𝑁𝑁A为每个水蒸气分子占据的空\n间，不正确,故B 正确.\n17. A\n当𝑡𝑡= 1s时，由振动图线知，质点在平衡位置且向下运动，在波的图\n象中，由波向左传播可知𝑥𝑥= 0处的质点位于平衡位置且向下运动，故A 正确.\n18. B\n开关K接通前，𝑅𝑅1和𝑅𝑅2串联，𝐼𝐼1 =\n𝐸𝐸\n2𝑅𝑅;开关K接通后，𝑅𝑅2和𝑅𝑅3并联，再\n与𝑅𝑅1串联，𝐼𝐼2\n′ =\n1\n2 𝐼𝐼2 =\n1\n2 ⋅\n𝐸𝐸\n𝑅𝑅+𝑅𝑅\n2\n=\n𝐸𝐸\n3𝑅𝑅，故\n𝐼𝐼2′\n𝐼𝐼1 =\n2\n3，故B 正确.\n19. A\n波长400nm光子的能量𝐸𝐸= ℎ\n𝑐𝑐\n𝜆𝜆= 6.6 × 10−34 ×\n3.0×108\n400×10−9 J = 4.95 ×\n10−19J，大于铯和钙的逸出功，故A 正确.\n6 / 8\n20. B\n物体具有向下的加速度时，处于失重状态；具有向上的加速度时，处\n于超重状态.ACD 项的运动员均处于平衡状态，B 中运动员为失重状态，故B 正确.\n21. D\n如图所示，由于蓝光折射率比红光大，故同一点发出的光经水面折射\n后，蓝光比红光偏折角大，经反向延长后所成的虚像长度小，即𝑙𝑙2 < 𝑙𝑙1 < 𝑙𝑙0，故D 正确.\n22. (1)6.124；\n(2)(a)1.5mA；143Ω；(b)如图所示；16.8Ω；15mA.\n(1)由图知螺旋测微器的读数为6mm + 12.4 × 0.01mm = 6.124mm；\n(2)(a)电压表满偏电流𝐼𝐼=\n𝑈𝑈\n𝑅𝑅=\n150mV\n150Ω = 1.0mA，所以选择1.5mA量程的电流表，电压\n表的内阻为𝑅𝑅mV =\n150mV\n1.05mA ≈142.9Ω，题干要求保留三位有效数字，故𝑅𝑅mV ≈143Ω；\n(b)改装成10mA的电流表后，校准时应选用15mA量程的电流表，并联电阻箱的阻值\n为\n𝑅𝑅=\n150×10−3\n(10−1.05)×10−3 Ω = 16.8Ω.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -217,22 +289,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q10",
       "content": "（16 分）在勇气号火星探测器着陆的最后阶段，着陆器降落到火星表面上，再经过\n多次弹跳才停下来。假设着陆器第一次落到火星表面弹起后，到达最高点时高度为h，速\n度方向是水平的，速度大小为v0，求它第二次落到火星表面时速度的大小，计算时不计\n火星大气阻力。已知火星的一个卫星的圆轨道的半径为r，周期为T，火星可视为半径为\nr0 的均匀球体。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "v = A\n8π2hr3\nT2r02 + v02\nE",
+      "analysis": "以𝑔𝑔′表示火星表面附近的重力加速度，𝑀𝑀表示火星的质量，𝑚𝑚表示火星的卫\n星的质量，𝑚𝑚′表示火星表面处某一物体的质量，由万有引力定律和牛顿第二定律得\n𝐺𝐺\n𝑀𝑀𝑚𝑚′\n𝑟𝑟0\n2 = 𝑚𝑚′𝑔𝑔′，𝐺𝐺\n𝑀𝑀𝑀𝑀\n𝑟𝑟2 = 𝑚𝑚�\n2π\n𝑇𝑇�\n2\n𝑟𝑟，\n设着陆器第二次落到火星表面时的速度为𝑣𝑣，它的竖直分量为𝑣𝑣1，水平分量仍为𝑣𝑣0，\n有\n𝑣𝑣1\n2 = 2𝑔𝑔′ℎ，𝑣𝑣= �𝑣𝑣1\n2 + 𝑣𝑣0\n2，\n联立解得 v = A\n8π2hr3\nT2r02 + v02\nE\n7 / 8",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -240,22 +321,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q11",
       "content": "（18 分）图中 a1b1c1d1 和 a2b2c2d2 为在同一竖直平面内的金\n属导轨，处在磁感强度B 的匀强磁场中，磁场方向垂直导轨所在\n平面（纸面）向里。导轨的a1b1 段与a2b2 段是竖直的，距离为l1；\nc1d1 段与c2d2 段也是竖直的，距离为l2。x1y1 与x2y2 为两根用不可\n伸长的绝缘轻线相连的金属细杆，质量分别为m1、m2，它们都垂\n直于导轨并与导轨保持光滑接触。两杆与导轨构成的回路的总电\n阻为R。F 为作用与金属杆x1y1 上竖直向上的恒力。已知两杆运动\n到图示位置时，已匀速向上运动，求此时作用于两杆的重力的功率\n的大小和回路电阻上的热功率。\n4 / 8",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "P = AF－（m1＋m2）g\nB2（l2－l1）2\nE\nAR（m1＋m2）g，Q = [AF－（m1＋m2）g\nB（l2－l1）\nE\nA]2R\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵2(𝑙𝑙2−𝑙𝑙1)2 𝑅𝑅(𝑚𝑚1 + 𝑚𝑚2)𝑔𝑔，�\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵(𝑙𝑙2−𝑙𝑙1)\n�\n2\n𝑅𝑅.",
+      "analysis": "设杆向上运动的速度为𝑣𝑣，因杆的运动，两杆与导轨构成的回路的面积减少，\n从而磁通量也减少.由法拉第电磁感应定律，回路中的感应电动势的大小为\n𝐸𝐸= 𝐵𝐵(𝑙𝑙2 −𝑙𝑙1)𝑣𝑣①,\n回路中的感应电流为\n𝐼𝐼=\n𝐸𝐸\n𝑅𝑅②，电流沿顺时针方向.\n两金属杆都要受到安培力作用，作用于杆𝑥𝑥1𝑦𝑦1的安培力为\n𝐹𝐹1 = 𝐵𝐵𝐵𝐵𝑙𝑙1③，方向向上，\n作用于杆𝑥𝑥2𝑦𝑦2的安培力为\n𝐹𝐹2 = 𝐵𝐵𝐵𝐵𝑙𝑙2④，方向向下，\n当杆做匀速运动时，对系统受力分析得\n𝐹𝐹−𝑚𝑚1𝑔𝑔−𝑚𝑚2𝑔𝑔+ 𝐹𝐹1 −𝐹𝐹2 = 0⑤，\n联立解得𝐼𝐼=\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵(𝑙𝑙2−𝑙𝑙1)\n⑥，\n𝑣𝑣=\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵2(𝑙𝑙2−𝑙𝑙1)2 𝑅𝑅⑦，\n作用于两杆的重力的功率的大小\n𝑃𝑃= (𝑚𝑚1 + 𝑚𝑚2)𝑔𝑔𝑔𝑔⑧，\n回路电阻上的热功率为\n𝑄𝑄= 𝐼𝐼2𝑅𝑅⑨，\n由⑥⑦⑧⑨式，可得\n𝑃𝑃=\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵2(𝑙𝑙2−𝑙𝑙1)2 𝑅𝑅(𝑚𝑚1 + 𝑚𝑚2)𝑔𝑔，\n𝑄𝑄= �\n𝐹𝐹−(𝑚𝑚1+𝑚𝑚2)𝑔𝑔\n𝐵𝐵(𝑙𝑙2−𝑙𝑙1)\n�\n2\n𝑅𝑅.\nP = AF－（m1＋m2）g\nB2（l2－l1）2\nE\nAR（m1＋m2）g，Q = [AF－（m1＋m2）g\nB（l2－l1）\nE\nA]2R",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -263,22 +348,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf#q12",
       "content": "（20 分）一小圆盘静止在桌布上，位于一方桌\n的水平面的中央。桌布的一边与桌的 AB 边重合，\n如图。已知盘与桌布间的动摩擦因数为 μ1，盘与桌\n面间的动摩擦因数为 μ2。现突然以恒定的加速度 a\n将桌布抽离桌面，加速度的方向是水平的且垂直于\nAB 边。若圆盘最后未从桌面掉下，则加速度 a 满\n足的条件是什么？（以 g 表示重力加速度）\nA\nB\na\n桌布\n小圆盘\n5 / 8",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "𝑎𝑎≥\n𝜇𝜇1+2𝜇𝜇2\n𝜇𝜇2\n𝜇𝜇1𝑔𝑔.",
+      "analysis": "设圆盘的质量为𝑚𝑚，桌长为𝑙𝑙，在桌布从圆盘下抽出的过程中，圆盘的加速\n度为𝑎𝑎1，由牛顿第二定律得\n𝜇𝜇1𝑚𝑚𝑚𝑚= 𝑚𝑚𝑎𝑎1，\n桌布抽出后，圆盘在桌面上做匀减速运动，以𝑎𝑎2表示加速度的大小，由牛顿第二定律\n8 / 8\n得\n𝜇𝜇2𝑚𝑚𝑚𝑚= 𝑚𝑚𝑎𝑎2，\n设圆盘刚离开桌布时的速度为𝑣𝑣1，移动的距离为𝑥𝑥1，离开桌布后在桌面上再运动距离\n𝑥𝑥2后便停下，由运动学公式得\n𝑣𝑣1\n2 = 2𝑎𝑎1𝑥𝑥1，𝑣𝑣1\n2 = 2𝑎𝑎2𝑥𝑥2，\n圆盘没有从桌面上掉下的条件是\n𝑥𝑥1 + 𝑥𝑥2 ≤\n1\n2 𝑙𝑙，\n设桌布从盘下抽出所经历时间为𝑡𝑡，在这段时间内桌布移动的距离为𝑥𝑥，由运动学公\n式得\n𝑥𝑥=\n1\n2 𝑎𝑎𝑡𝑡2，𝑥𝑥1 =\n1\n2 𝑎𝑎1𝑡𝑡2，\n又𝑥𝑥=\n1\n2 𝑙𝑙+ 𝑥𝑥1，\n联立解得𝑎𝑎=\n𝜇𝜇1+2𝜇𝜇2\n𝜇𝜇2\n𝜇𝜇1𝑔𝑔，\n故圆盘最后未从桌面掉下，则加速度𝑎𝑎满足的条件为\n𝑎𝑎≥\n𝜇𝜇1+2𝜇𝜇2\n𝜇𝜇2\n𝜇𝜇1𝑔𝑔.\na≥Aμ1＋2μ2\nμ2\nE\nAμ1g",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2004,
       "subject": "物理",
@@ -286,11 +379,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2004/2004全国1理综(河南,河北,山西,浙江,安徽,福建,江西,山东).pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q012-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d6f99d8276641b23-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 2,
+    "assigned": 9,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

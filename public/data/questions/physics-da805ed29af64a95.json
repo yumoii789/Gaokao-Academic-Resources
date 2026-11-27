@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2019/2019北京理综.pdf",
   "name": "2019北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 8,
+    "sourceAnswers": 8,
+    "sourceAnalysis": 11,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q01",
       "content": "一列简谐横波某时刻的波形如图所示，比较介质中的三个质点 a、b、\nc，则（    ）\n（A）此刻 a 的加速度最小\n（B）此刻 b 的速度最小\n（C）若波沿 x 轴正方向传播，此刻 b 向 y 轴正方向运动\n（D）若波沿 x 轴负方向传播，a 比 c 先回到平衡位置",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q02",
       "content": "利用图1 所示的装置（示意图），观察光的干涉、衍射现象，\n在光屏上得到如图2 中甲和乙两种图样。下列关于P 处放置的光\n学元件说法正确的是（    ）\n（A）甲对应单缝，乙对应双缝\n（B）甲对应双缝，乙对应单缝\n（C）都是单缝，甲对应的缝宽较大\n（D）都是双缝，甲对应的双缝间距较大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "在单色光的双缝干涉实验中，干涉条纹等间距分布；而单缝衍射实验中，衍射条纹中间宽，\n向两侧逐渐变窄，所以乙图中𝑃处为双缝，甲图中𝑃处为单缝，故A 正确BCD 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -56,22 +77,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q03",
       "content": "下列说法正确的是（    ）\n（A）温度标志着物体内大量分子热运动的剧烈程度\n（B）内能是物体中所有分子热运动所具有的动能的总和\n（C）气体压强仅与气体分子的平均动能有关\n（D）气体膨胀对外做功且温度降低，分子的平均动能可能不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "温度反映了物体内分子做无规则运动的剧烈程度，故A 正确；内能是物体中所有分子热运动\n所具有的动能和分子势能的总和，故B 错误；微观上看，气体压强既与气体分子平均动能有关，也与气体\n分子的密度有关，故C 错误；温度是气体分子平均动能的量度，温度降低，平均动能减小，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -79,22 +108,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q04",
       "content": "如图所示，正方形区域内存在垂直纸面的匀强磁场。一带电粒子垂直磁场边界从a 点射入，从b 点射\n出。下列说法正确的是（    ）\n（A）粒子带正电\n（B）粒子在b 点速率大于在a 点速率\n（C）若仅减小磁感应强度，则粒子可能从b 点右侧射出\n（D）若仅减小入射速率，则粒子在磁场中运动时间变短",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "由左手定则可知，带正电粒子所受洛伦兹力向上，只有粒子带负电其运动\n方向才能向下，故A 错误；由于洛伦兹力不做功，𝑎点速率与𝑏点速率相等，故B 错误；\n粒子运动的半径𝑅=\n𝑚𝑣\n𝑞𝐵，仅减小磁感应强度𝐵，𝑅增大，则粒子有可能从𝑏点右侧射出，故\nC 正确；若𝑣减小，则𝑅减小，由图可知，粒子转过的圆心角变大，又由粒子在磁场中运\n动的周期𝑇=\n2π𝑚\n𝑞𝐵，𝑡=\n𝜃\n2π ⋅𝑇知，𝜃增大，粒子在磁场中运动时间变长，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -102,22 +135,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q05",
       "content": "如图所示，a、b 两点位于以负点电荷 − Q（Q > 0）为球心的球面上，c 点在\n球面外，则（    ）\n（A）a 点场强的大小比b 点大\n（B）b 点场强的大小比c 点小\n（C）a 点电势比b 点高\n（D）b 点电势比c 点低\na\nc\nb\n− Q\ny\nO\na\nb\nc\nx\na\nb\nB",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "设该球面半径为 R，a 点和b 点处于同一球面上，半径相等，则由 E = kQ\nr2 可知，a 点和b 点的场\n强大小相同，c 点在球面外，则c 点场强小于a、b 点场强，故AB 错误；a 点和b 点在同一等势面上，电势\n相等，故C 错误；由沿电场线方向电势降低可知，c 点电势高于a 点和b 点，故D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -125,22 +166,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q06",
       "content": "2019 年5 月17 日，我国成功发射第45 颗北斗导航卫星，该卫星属于地球静止轨道卫星（同步卫星）。\n该卫星（    ）\n（A）入轨后可以位于北京正上方\n（B）入轨后的速度大于第一宇宙速度\n（C）发射速度大于第二宇宙速度\n（D）若发射到近地圆轨道所需能量较少",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "同步卫星只能定点于赤道上方固定高度处，故A 错误；绕地球做圆周运动的卫星，由万有引力提\n供向心力得，𝐺\n𝑀𝑚\n𝑟2 = 𝑚\n𝑣2\n𝑟，得𝑣= √\n𝐺𝑀\n𝑟，则𝑟越大，𝑣越小，第一宇宙速度是近地卫星运行的最大速度，即同\n步卫星速度小于第一宇宙速度，故B 错误；同步卫星发射速度要小于第二宇宙速度大于第一宇宙速度，故\nC 错误；卫星轨道越低，发射时所需要达到的速度越小，所需的能量越少，故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -148,22 +197,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q07",
       "content": "光电管是一种利用光照射产生电流的装置，当入射光照在管中金属板上时，可能形成光电流。表中给出\n了6 次实验的结果。\n组\n次\n入射光子的能量/eV\n相对光强\n光电流大小/mA\n逸出光电子的最大动\n能/eV\n第\n一\n组\n1\n2\n3\n4.0\n4.0\n4.0\n弱\n中\n强\n29\n43\n60\n0.9\n0 9\n0.9\n第\n二\n组\n4\n5\n6\n6.0\n6.0\n6.0\n弱\n中\n强\n27\n40\n55\n2.9\n2.9\n2.9\n由表中数据得出的论断中不正确的是（    ）\n（A）两组实验采用了不同频率的入射光\n（B）两组实验所用的金属板材质不同\n（C）若入射光子的能量为5.0 eV，逸出光电子的最大动能为1.9 eV\n（D）若入射光子的能量为5.0 eV，相对光强越强，光电流越大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "两组实验中，入射光子的能量不同，所以两组实验采用了不同频率的入射光，故A 错误；\n由光电效应方程 Ek = hν – W 可知，两组实验所用金属板的逸出功均为3.1eV，材质相同，故B 正确；\n由光电效应方程 Ek = hν – W 可得入射光电子能量为5.0eV时，逸出光电子的最大初动能为5.0eV −3.1eV =\n1.9eV，故C 错误；\n分析两组实验可知，入射光子频率不变，入射光越强，光电流越大，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -171,22 +224,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q08",
       "content": "国际单位制（缩写SI）定义了米（m）、秒（s）等7 个基本单位，其\n他单位均可由物理关系导出。例如，由m 和s 可以导出速度单位m·s−1。\n历史上，曾用“米原器”定义米，用平均太阳日定义秒。但是，以实物或\n其运动来定义基本单位会受到环境和测量方式等因素的影响，而采用物理\n常量来定义则可避免这种困扰。1967 年用铯-133 原子基态的两个超精细\n能级间跃迁辐射的频率∆ν = 9 192 631 770 Hz 定义s；1983 年用真空中的\n光速c = 299 792 458 m·s−1 定义m。2018 年第26 届国际计量大会决定，7\n个基本单位全部用基本物理常量来定义（对应关系如图，例如，s 对应∆ν，\nm 对应c）。新SI 自2019 年5 月20 日（国际计量日）正式实施，这将对\n科学和技术发展产生深远影响。下列选项不正确的是（    ）\n（A）7 个基本单位全部用物理常量定义，保证了基本单位的稳定性\n（B）用真空中的光速c（m·s-1）定义m，因为长度l 与速度v 存在l = vt，而s 已定义\n（C）用基本电荷e（C）定义安培（A），因为电荷量与电流I 存在I = q/t，而s 已定义\n（D）因为普朗克常量h（J·s）的单位中没有kg，所以无法用它来定义质量单位\n第二部分（非选择题 共180 分）\n本部分共11 小题，共180 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由题意可得，7 个基本单位都用物理常量定义，故A 不错误；选项BC 正是长度和电流的定\n义方式，故BC 不符合题意；1J · s = 1N · m · s = 1kg · m2 · s−1，则普朗克常量ℎ(J · s)的单位中含有kg，可以\n定义质量，故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -194,22 +251,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q09",
       "content": "（18 分）用如图1 所示装置研究平地运动。将白纸和复写纸对齐\n重叠并固定在竖直的硬板上。钢球沿斜槽轨道PQ 滑下后从Q 点飞出，\n落在水平挡板MN 上。由于挡板靠近硬板一侧较低，钢球落在挡板上\n时，钢球侧面会在白纸上挤压出一个痕迹点。移动挡板，重新释放钢球，\n如此重复，白纸上将留下一系列痕迹点。\n（1）下列实验条件必须满足的有____________。\nA．斜槽轨道光滑\nB．斜槽轨道末段水平\nC．挡板高度等间距变化\nD．每次从斜槽上相同的位置无初速度释放钢球\n（2）为定量研究，建立以水平方向为x 轴、竖直方向为y 轴的坐标系。\na．取平抛运动的起始点为坐标原点，将钢球静置于Q 点，钢球的________（选填“最上端”、“最下端”或\n者“球心”）对应白纸上的位置即为原点；在确定y 轴时______（选填“需要”或者“不需要”）y 轴与重锤\n线平行。\nb．若遗漏记录平抛轨迹的起始点，也可按下述方法处理数据：如图2 所示，在轨\n迹上取A、B、C 三点，AB 和BC 的水平间距相等且均为x，测得AB 和BC 的竖\n直间距分别是y1 和y2，则 y1\ny2 ______1\n3 （选填“大于”、“等于”或者“小于”）。\n可求得钢球平抛的初速度大小为____________（已知当地重力加速度为g，结果\n用上述字母表示）。\n（3）为了得到平抛物体的运动轨迹，同学们还提出了以下三种方案，其中可行的\n是____________。\nA．从细管水平喷出稳定的细水柱，拍摄照片，即可得到平抛运动轨迹\nB．用频闪照相在同一底片上记录平抛小球在不同时刻的位置，平滑连接各位置，即可得到平抛运动轨迹\nC．将铅笔垂直于竖直的白纸板放置，笔尖紧靠白纸板，铅笔以一定初速度水平抛出，将会在白纸上留下笔\n尖的平抛运动轨迹\n（4）伽利略曾研究过平抛运动，他推断：从同一炮台水平发射的炮弹，如果不受空气阻力，不论它们能射\n多远，在空中飞行的时间都一样。这实际上揭示了平抛物体_________。\nA．在水平方向上做匀速直线运动\nB．在竖直方向上做自由落体运动\nC．在下落过程中机械能守恒\n（5）牛顿设想，把物体从高山上水平抛出，速度一次比一次大，落地点就一次比一次远，如果速度足够大，\n物体就不再落回地面，它将绕地球运动，成为人造地球卫星。\n同样是受地球引力，随着抛出速度增大，物体会从做平抛运动逐渐变为做圆周运动，请分析原因。\n___________________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)BD；(2)a.球心；需要；b.大于；𝑥√\n𝑔\n𝑦2−𝑦1；(3)AB；(4)B；(5)物体初速度较小时，运动范围很小，\n引力可以看作恒力-重力，做平抛运动；随着物体初速度增大，运动范围变大，引力不能再看作恒力；当物\n体初速度达到第一宇宙速度时，做圆周运动而成为地球卫星.",
+      "analysis": "(1)实验中应保证每次小球滑出轨道后要平抛，所以斜槽轨道末段必须水平，选项B 正确；同\n时要求每次抛出时的水平速度相同，故需要每次释放小球的高度相同，但不必苛求轨道光滑，故A 错误D\n正确；挡板是为了确定平抛运动的轨迹，不必等间距变化，故C 错误.\n(2)a.小球不能看作质点，初始位置应是球心在竖直平板上水平的投影点，实验中𝑦轴记录小球竖直方向\n上的位移，必须与重垂线平行.\nb.若𝐴为起始点，则\n𝑦1\n𝑦2 =\n1\n2𝑔𝑇2\n1\n2𝑔(2𝑇)2−1\n2𝑔𝑇2 =\n1\n3.现在𝐴点不是起始点，过𝐴点时𝑣𝑦≠0，由𝑦= 𝑣𝑦𝑡可知比值变大.\n由题图可知竖直方向𝑦2−𝑦1= 𝑔Δ𝑡2，水平方向有𝑥= 𝑣0Δ𝑡，解得𝑣0 = 𝑥√\n𝑔\n𝑦2−𝑦1.\n(3)水柱足够细，水面下降缓慢，水流出时的初速度几乎相同，故A可行；B 选项用频闪照片的方式获取\n数据更准确，故B 可行；铅笔抛出时所受空气阻力较大，同时伴有转动，故C 不可行.\n(4)由题意可知，炮弹竖直方向上的高度相同，如果不受空气阻力，发射后落地时间相同，揭示的是平\n抛物体竖直方向上的运动是自由落体运动，故B 正确.\n(5)速度较小时，重力的方向可认为不变，依据平抛的规律，速度增大，落点变远；但地球表面不是平\n面，当速度很大时，需要考虑到地球的形状近似为球形，物体运动轨迹逐渐趋近圆，当物体受到的引力刚好\n等于向心力时，物体将绕地心做圆周运动，而不返回地面.\n试卷点评\n2019 年北京高考理综卷物理学科命题立足落实立德树人根本任务，继续坚持“走大道、求大气”的命\n题理念，追求宽广融通的命题思路，立意高远，突出高考育人功能，有利于引导基础教育促进学生全面而有\n个性地发展。\n回归教材，发挥教材在学科教学的基础性作用\n通览2019 年北京高考物理试题可以看出，绝大部分试题都能从教材中找到原型或相关内容。\n参考例题客观题有半数源于教材（13、14、15、17 题），主观题的21、22 和第23（1）问也均源于教\n材。\n进一步深化能力立意，探索对“美育”和“劳育”的考查\n北京高考物理试题通过对学科思想及研究方法的考查，引导考生领悟体会物理学科中的普适性、统一\n性、对称性以及物理规律的简洁中所蕴含的科学“美”。\n参考例题如2019 年物理卷第21 题，以伽利略的推断和牛顿的思想实验为背景，引导考生体会严谨的\n逻辑推理所蕴含的科学美感。\n北京高考物理试题还结合了物理学科的特点，对“劳育”和“美育”进行考查，以物理实验和生活情境\n为背景考查考生的实践能力和劳动体验。\n参考例题如第21 题通过学生实验考查考生的实践能力，第23 题以“电容充电”为背景，体现对考生创\n造性劳动和创新性思维的考查。\n重视实验，拓宽实验考查的范围\n北京高考物理试题实验考查范围及形式进一步拓展和丰富，范围包含了学生分组实验、演示实验、学生\n活动、拓展思考等几乎所有与实验相关的内容。在此基础上，为进一步丰富实验考查的范围，2019 物理试\n题加入了思想实验的考查。\n参考例题第21（5）问以牛顿在思考“万有引力”时曾设想的一个思想实验为背景设计试题，引导学会\n体会牛顿思想的深邃和视野的宽阔。\n北京高考物理试题实验与模型建构及逻辑推理相结合。\n参考例题第21（5）问以教材中原文呈现牛顿的思想实验，深入考查考生基于实验猜想，结合模型建构\n和逻辑推理分析探究问题的能力。\n回归本质，突出学科关键能力的考查，\n参考例题第23 题以电容充电为背景，要求考生通过图像获取信息，分析信息并进行合理外推获得正确\n结论，试题很好的考查了考生科学推理的能力，获取和处理信息、基于证据得出结论的探究能力。\n丰富素材选取范围，联系生活实际，关注时代发展，紧跟科技前沿\n关注时代发展，呈现我国新时代科技发展的新成就，提升考生的民族自豪感和自信心。\n参考例题如第18 题以5 月17 日我国成功发射第四十五颗北斗导航卫星为背景，考查了万有引力定律\n及其应用、第一宇宙速度、第二宇宙速度等知识。\n如第20 题以2018 年第26 届国际计量大会修订的新国际单位制（SI）为背景材料，在考查考生对基本\n单位、导出单位、基本常数等概念的认识的同时，也通过给出信息对考生进行一次新SI 的科普。\n学业质量水平的测试和学科核心素养的考查\n结合物理学科特点和核心素养的要求，完善考核目标的内涵，探索不同水平层级核心素养的考查方式。\n参考例题第24（3）问要求考生从相对运动的角度思考雨滴下落过程中受到的空气阻力。试题达到“科\n学思维”核心素养中“模型建构”的“水平五”要求：能将较复杂的实际问题中的对象和过程转换成物理模\n型。\n综上，2019 年的北京高考物理试题科学、合理、有效，没有“偏、难、怪”题目，有助于一线教育教学\n克服“刷题”的应试教育顽疾;试卷具有较好的区分度，有利于高校科学选拔人才。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -217,22 +282,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019北京理综.pdf#q10",
       "content": "（16 分）如图所示，垂直于纸面的匀强磁场磁感应强度为B。纸面内有一正\n方形均匀金属线框abcd，其边长为L，总电阻为R，ad 边与磁场边界平行。从ad\n边刚进入磁场直至bc 边刚要进入的过程中，线框在向左的拉力作用下以速度v 匀\n速运动，求：\na\nb\nB\nc\nd\nv\n（1）感应电动势的大小E；\n（2）拉力做功的功率P；\n（3）ab 边产生的焦耳热Q。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1)由法拉第电磁感应定律可得，感应电动势为\nE = BLv\n(2)线框中的感应电流为\n𝐼=\n𝐸\n𝑅，\n线框做匀速直线运动，拉力大小等于安培力大小为\n𝐹= 𝐵𝐼𝐿，\n故拉力的功率为 P = Fv = B2L2v2\nR\n(3)线框𝑎𝑏边电阻为\n𝑅𝑎𝑏=\n𝑅\n4，\n此过程所用时间为\n𝑡=\n𝐿\n𝑣，\n𝑎𝑏边产生的焦耳热为\nQ = 𝐼2𝑅𝑎𝑏𝑡 = B2L3v\n4R",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -240,11 +314,95 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019北京理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2019/2019北京理综.pdf#q11",
+      "content": "（18 分）电容器作为储能器件，在生产生活中有广泛的应用。对给定电容值为C 的电容器充电，无论\n采用何种充电方式，其两极间的电势差u 随电荷量q 的变化图像都相同。\n（1）请在图1 中画出上述u–q 图像。类比直线运动中由v–t 图像求位移的方法，\n求两极间电压为U 时电容器所储存的电能Ep。\n（2）在如图2 所示的充电电路中，R 表示电阻，E 表示电源（忽略内阻）。通过\n改变电路中元件的参数对同一电容器进行两次充电，对应的 q–t 曲线如图3 中\n①②所示。\na．①②两条曲线不同是______（选填E 或R）的改变造成的；\nb．电容器有时需要快速充电，有时需要均匀充电。依据a 中的结论，说明实现这\n两种充电方式的途径：\n__________________。\n（3）设想使用理想的“恒流源”替换（2）中电源对电容器充电，可实现电容器电荷量随时间均匀增加。请\n思考使用“恒流源”和（2）中电源对电容器的充电过程，填写下表（选填“增大”、“减小”或“不变”）。\n“恒流源”\n（2）中电源\nO\nu\nq\n图1\n电源两端电压\n通过电源的电流",
+      "answer": "暂无结构化答案",
+      "analysis": "(1)𝑢−𝑞图线如图所示.\n电压为𝑈时，电容器带电𝑄，图线和横轴围成的面积为所储存的电能𝐸p,则\n𝐸p =\n1\n2 𝑄𝑈，\n又𝑄= 𝐶𝑈，\n故𝐸p =\n1\n2 𝐶𝑈2.\n(2)a. 𝑅\nb.减小电阻𝑅，可以实现对电容器更快速充电；增大电阻𝑅，可以实现更均匀充电.\n(3)\n“恒流源” (2) 中电\n源\n电源两端电压 增大\n不变\n通过电源的电\n流\n不变\n减小",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2019,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2019/2019北京理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q011-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q011-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q011-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2019/2019北京理综.pdf#q12",
+      "content": "（20 分）雨滴落到地面的速度通常仅为几米每秒，这与雨滴下落过程中受到空气阻力有关。雨滴间无\n相互作用且雨滴质量不变，重力加速度为g。\n（1）质量为m 的雨滴由静止开始，下落高度h 时速度为u，求这一过程中克服空气阻力所做的功W。\n（2）将雨滴看作半径为r 的球体，设其竖直落向地面的过程中所受空气阻力f = kr2v2，其中v 是雨滴的速\n度，k 是比例系数。\na．设雨滴的密度为ρ，推导雨滴下落趋近的最大速度vm与半径r 的关系式；\nb．示意图中画出了半径为r1、r2（r1 > r2）的雨滴在空气中无初速下落的 v–t 图\n线，其中_________对应半径为r1 的雨滴（选填①、②）；若不计空气阻力，请\n在图中画出雨滴无初速下落的 v–t 图线。\n（3）由于大量气体分子在各方向运动的几率相等，其对静止雨滴的作用力为零。\n将雨滴简化为垂直于运动方向面积为S 的圆盘，证明：圆盘以速度v 下落时受\n到的空气阻力f∝v2（提示：设单位体积内空气分子数为n，空气分子质量为m0）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）雨滴由静止开始下落，由动能定理得\n𝑚𝑔ℎ−𝑊=\n1\n2𝑚𝑢2，\nO\nu\nq\nO\nv\nt\n①\n②\n可得这一过程克服空气阻力做功为\nW = mgh − 1\n2 mu2\n（2）a．雨滴下落的过程，由牛顿第二定律得\n𝑚𝑔−𝑓= 𝑚𝑎，解得𝑎= 𝑔−\n𝑘𝑟2𝑣2\n𝑚，\n当加速度为零时，雨滴趋近于最大速度  vm，\n又雨滴质量𝑚=\n4\n3 π𝑟3𝜌，\n由 a = 0，可得，雨滴最大速度 vm =\n4πrρg\n3k\nb.①，如图所示\n(3)根据题设条件：大量气体分子在各方向运动的几率相等，其对静止雨滴的作用力为零.\n以下只考虑雨滴下落的定向运动.\n简化的圆盘模型如图。\n设空气分子与圆盘碰撞前后相对速度大小不变.在Δ𝑡时间内，与圆盘碰撞的空气分子质量\n为\nΔ𝑚= 𝑆𝑣Δ𝑡𝑛𝑚0，\n以𝐹表示圆盘对气体分子的作用力，由动量定理得\n𝐹Δ𝑡∝Δ𝑚× 𝑣，解得 F∝nm0Sv2\n由牛顿第三定律可知圆盘所受空气阻力 f∝v2，\n采用不同的碰撞模型，也可得到相同结论。\nO\nv\nt\n①\n②\nS\nv\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2019,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2019/2019北京理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q012-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q012-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-da805ed29af64a95-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 16,
+    "answerGraphics": 0,
+    "assigned": 16,
+    "rendered": 16,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

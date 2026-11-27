@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2017/2017北京理综.pdf",
   "name": "2017北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 11,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 11,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2017/2017北京理综.pdf#q01",
       "content": "以下关于热运动的说法正确的是（    ）\n（A）水流速度越大，水分子的热运动越剧烈\n（B）水凝结成冰后，水分子的热运动停止\n（C）水的温度越高，水分子的热运动越剧烈\n（D）水的温度升高，每一个水分子的运动速率都会增大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2017/2017北京理综.pdf#q02",
       "content": "如图所示，一束可见光穿过平行玻璃砖后，变为a、b 两束\n单色光。如果光束b 是蓝光，则光束a 可能是（    ）\n（A）红光\n（B）黄光\n（C）绿光\n（D）紫\n光",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "试题分析：根据题意作出完整光路图，如图所示，a 光进入玻璃\n砖时光线偏折角较大，根据光的折射定律可知玻璃砖对a 光的\n折射率较大，因此a 光的频率应高于b 光，故选D。\n光的折射",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -56,11 +73,339 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q03",
+      "content": "某弹簧振子沿x 轴的简谐运动图象如图所示，下列\n描述正确的是（    ）\n（A）t = 1 s 时，振子的速度为零，加速度为负的最大值\n（B）t = 2 s 时，振子的速度为负，加速度为正的最大值\n（C）t = 3 s 时，振子的速度为负的最大值，加速度为零\n（D）t = 4 s 时，振子的速度为正，加速度为负的最大值",
+      "answer": "A",
+      "analysis": "简谐运动的𝑥−𝑡图象表示振子的位移随时间的变化规律，𝑡= 1s时，振子处于正向\n最大位移处，振子的速度为零，加速度为负的最大值，故A 正确；𝑡= 2s时，振子处于平衡\n位置，速度为负，加速度为零，选项B 错误；𝑡= 3s时，振子处于负向最大位移处，振子的\n速度为零，加速度为正的最大值，故C 错误；𝑡= 4s时，振子处于平衡位置，振子的速度为\n正，加速度为零，故D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q04",
+      "content": "如图所示，理想变压器的原线圈接在 u = 220 2 sinπt(V)\n的交流电源上，副线圈接有 R = 55 Ω 的负载电阻，原、副线圈\n匝数之比为 2∶1，电流表、电压表均为理想电表。下列说法正\n确的是（    ）\n（A）原线圈的输入功率为220 2 W\n（B）电流表的读数为1 A\n（C）电压表的读数为110 2 V\n（D）副线圈输出交流电的周期为50 s",
+      "answer": "B",
+      "analysis": "电表的读数均为有效值，原线圈两端电压有效值为 220 V，由理想变压器原、副线圈两端电\n压与线圈匝数成正比，可知副线圈两端电压有效值为 110 V，C 错误；\n流过电阻 R 的电流为 2 A，可知负载消耗的功率为 220 W，根据能量守恒可知，原线圈的\n输入功率为 220 W，A 错误；\n由 P = UI 可知，电流表的读数为 1 A，B 正确；\n由交变电压瞬时值表达式可知，ω = 100π rad/s，周期 T = 0.02 s，D 错误。\n5\n− 5\n1\n2\n3\n4\n5\n6\nt/s\nx/cm\n0\na\nb\n~\nR\nu\nA\nV\n正弦式交变电流的“四值”、理想变压器原副线圈电压、电流、功率与匝数的关系",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q05",
+      "content": "利用引力常量G 和下列某一组数据，不能计算出地球质量的是（    ）\n（A）地球的半径及重力加速度（不考虑地球自转）\n（B）人造卫星在地面附近绕地球做圆周运动的速度及周期\n（C）月球绕地球做圆周运动的周期及月球与地球间的距离\n（D）地球绕太阳做圆周运动的周期及地球与太阳间的距离",
+      "answer": "D",
+      "analysis": "设地球的质量为𝑀、半径为𝑅，地球表面的重力加速度为𝑔，由地球表面\n的物体所受重力近似等于万有引力得𝐺\n𝑀𝑚\n𝑅2 = 𝑚𝑔，解得𝑀=\n𝑔𝑅2\n𝐺，可求出地球的质量，故A\n不符合题意；设人造卫星在地面附近绕地球做圆周运动的速度大小为𝑣、周期为𝑇，则𝑅=\n𝑣𝑇\n2π，\n由万有引力提供向心力得𝐺\n𝑀𝑚\n𝑅2 = 𝑚\n𝑣2\n𝑅，解得𝑀=\n𝑣3𝑇\n2π𝐺，可求出地球的质量，故B 不符合题意；\n设月球绕地球做圆周运动的周期为𝑇1，月球与地球间的距离为𝑟1，由万有引力提供向心力得\n𝐺\n𝑀𝑚\n𝑟1\n2 = 𝑚\n4π2\n𝑇1\n2 𝑟1，解得𝑀=\n4π2𝑟13\n𝐺𝑇1\n2 ，可求出地球的质量，故C不符合题意;设地球绕太阳做圆周\n运动的周期为𝑇2，地球与太阳间的距离为𝑟2，太阳的质量为𝑚，由万有引力提供向心力得\n𝐺\n𝑚𝑀\n𝑟2\n2 = 𝑀\n4π2\n𝑇2\n2 𝑟2，解得𝑚=\n4π2𝑟23\n𝐺𝑇2\n2 ，不能求出地球的质量，故D 符合题意.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q06",
+      "content": "2017 年年初，我国研制的“大连光源”——极紫外自由电子激光装置，发出了波长在\n100 nm（1 nm = 10−9 m）附近连续可调的世界上最强的极紫外激光脉冲。大连光源因其光子\n的能量大、密度高，可在能源利用、光刻技术、雾霾治理等领域的研究中发挥重要作用。\n一个处于极紫外波段的光子所具有的能量可以电离一个分子，但又不会把分子打碎。据此判\n断，能够电离一个分子的能量约为（取普朗克常量h = 6.6×10−34 J·s，真空光速c = 3×108 m/s）\n（    ）\n（A）10−21 J\n（B）10−18 J\n（C）10−15 J\n（D）10−12 J",
+      "answer": "B",
+      "analysis": "能够电离一个分子的能量约为𝐸= ℎ\n𝑐\n𝜆= 6.6 × 10−34J ⋅s ×\n3×108m/s\n100×10−9m = 1.98 ×\n10−18J,故B 正确.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q07",
+      "content": "图1 和图2 是教材中演示自感现象的两个电路图，L1 和L2 为电感线圈。实验时，断开\n开关S1 瞬间，灯A1 突然闪亮，随后逐渐变暗；闭合开关S2，灯A2 逐渐变亮，而另一个相\n同的灯A3 立即变亮，最终A2 与A3 的亮度相同。下列说法正确的是（    ）\n（A）图1 中，A1 与L1 的电阻值相同\n（B）图1 中，闭合S1，电路稳定后，A1 中电流大于L1 中电流\n（C）图2 中，变阻器R 与L2 的电阻值相同\n（D）图2 中，闭合S2 瞬间，L2 中电流与变阻器R 中电流相等",
+      "answer": "C",
+      "analysis": "断开开关 S1 瞬间，灯 A1 突然闪亮，由于线圈 L1 的自感，通过 L1 的电流逐渐\n减小，且通过 A1，即自感电流会大于原来通过 A1 的电流，说明闭合 S1，电路稳定时，通\n过 A1 的电流小于通过 L1 的电流，L1 的电阻小于 A1 的电阻，AB 错误；\n闭合 S2，电路稳定时，A2 与 A3 的亮度相同，说明两支路的电流相同，因此变阻器R 与L2\n的电阻值相同，C 正确；\n闭合开关 S2，A2 逐渐变亮，而 A3 立即变亮，说明 L2 中电流与变阻器 R 中电流不相等，\nD 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q08",
+      "content": "物理学原理在现代科技中有许多重要应用。例如，利用波的干涉，可将无线电波的干涉\n信号用于飞机降落的导航。\n如图所示，两个可发射无线电波的天线对称地固\n定于飞机跑道两侧，它们类似于杨氏干涉实验中\n的双缝。两天线同时都发出波长为λ1 和λ2 的无线\n电波。飞机降落过程中，当接收到λ1 和λ2 的信号\n都保持最强时，表明飞机已对准跑道。下列说法\n正确的是（    ）\n（A）天线发出的两种无线电波必须一样强\n（B）导航利用了λ1 与λ2 两种无线电波之间的干涉\n（C）两种无线电波在空间的强弱分布稳定\n（D）两种无线电波各自在空间的强弱分布完全重合",
+      "answer": "C",
+      "analysis": "无线电波的干涉信号可用于飞机降落的导航，飞机降落过程中，当接收到𝜆1\n和𝜆2的信号都保持最强时，表明飞机已对准跑道，即此时飞机接收到的信号为振动加强点，\n是𝜆1与𝜆1的干涉和𝜆2与𝜆2的干涉，而不是𝜆1与𝜆2的干涉，故B 错误；无线电波的干涉与强弱\n无关，故A 错误；飞机接收到的信号是𝜆1的干涉波与𝜆2的干涉波的叠加，因为𝜆1、𝜆2各自强\n弱分布稳定，故叠加后空间中波的强弱分布稳定，故C 正确；在跑道上接收𝜆1和𝜆2的信号都\n保持最强，但是𝜆1与𝜆2各自在空间的强弱分布不一定完全相同，故D 错误.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q09",
+      "content": "（18 分）\n如图1 所示，用质量为m 的重物通过滑轮牵引小车，使它在长木板上运动，打点计时器在\n纸带上记录小车的运动情况。利用该装置可以完成“探究动能定理”的实验。\n（1）打点计时器使用的电源是_______（选填选项前的字母）。\nA．直流电源\nB．交流电源\n（2）实验中，需要平衡摩擦力和其他阻力，正确操作方法是_______（选填选项前的字母）。\nA．把长木板右端垫高\nB．改变小车的质量\n在不挂重物且_______（选填选项前的字母）的情况下，轻推一下小车，若小车拖着纸带做\n匀速运动，表明已经消除了摩擦力和其他阻力的影响。\nA．计时器不打点\nB．计时器打点\n（3）接通电源，释放小车，打点计时器在纸带上打下一系列点，将打下的第一个点标为O。\n在纸带上依次取A、B、C……若干个计数点，已知相邻计数点间的时间间隔为T。测得A、\nB、C……各点到O 点的距离为x1、x2、x3……，如图2 所示。\n实验中，重物质量远小于小车质量，可认为小车所受的拉力大小为mg。从打O 点到打B 点\n的过程中，拉力对小车做的功W = _________，打B 点时小车的速度v = _________。\n（4）以v2 为纵坐标，W 为横坐标，利用实验数据作出如图3 所示的v2–W 图象。由此图象\n可得v2 随W 变化的表达式为_________________。根据功与能的关系，动能的表达式中可\n能包含v2 这个因子；分析实验结果的单位关系，与图线斜率有关的物理量应是_________。\n（5）假设已经完全消除了摩擦力和其他阻力的影响，若重物质量不满足远小于小车质量的\n条件，则从理论上分析，图4 中正确反映v2-W 关系的是________。",
+      "answer": "(1)B;(2)A;B;(3)𝑚𝑔𝑥2;\n𝑥3−𝑥1\n2𝑇;(4)𝑣2 = 𝑘𝑊，𝑘= (4.5~5.0)m2 · s−2 · J−1；质量；(5)A.",
+      "analysis": "(1)打点计时器应使用交流电源，故B 正确.\n(2)平衡摩擦力和其他阻力的原理是使小车的重力沿斜面方向的分力与摩擦力和其他阻\n力平衡，故应将长木板右端垫高来平衡摩擦力，故A 正确；在不挂重物且在打点计时器打\n点的情况下，轻推一下小车，若小车拖着纸带做匀速运动，表明已经消除了摩擦力和其他阻\n力的影响，故B 正确.\n(3)当重物质量远小于小车质量时，实验中认为小车所受的拉力大小为𝑚𝑔，从打𝑂点打\n𝐵点的过程中，拉力对小车做的功𝑊= 𝑚𝑔𝑥2.由中间时刻的瞬时速度等于这段时间内的平均\n速度得，打𝐵点时小车的速度𝑣=\n𝑥3−𝑥1\n2𝑇.\n（4）由图3 可得𝑣2随𝑊变化的表达式为𝑣2 = 𝑘𝑊,𝑘= 4.7.由等式两端的物理量单位可知，\n左侧单位为m2 ⋅s−2，右侧单位为J，所以𝑘的单位为\nm2⋅s−2\nJ\n=\n1\nkg，所以与图线斜率有关的物理\n量应是小车的质量。\n（5）重物质量确定，且完全消除了摩擦力和其他阻力的影响，则小车和重物系统的质量为\n𝑀+ 𝑚，由牛顿第二定律得系统加速度𝑎=\n𝑚𝑔\n𝑀+𝑚，设小车滑行距离𝑥时速度为𝑣，则2𝑎𝑥=\n𝑣2,𝑣2 =\n2𝑚𝑔𝑥\n𝑀+𝑚，又𝑊= 𝑚𝑔𝑥，解得𝑣2 =\n2\n𝑀+𝑚𝑊，𝑚、𝑀为定值，故A正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p004-f08.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q10",
+      "content": "（16 分）\n如图所示，长l = 1 m 的轻质细绳上端固定，下端连接一个可视为\n质点的带电小球，小球静止在水平向右的匀强电场中，绳与竖直\n方向的夹角θ = 37°。已知小球所带电荷量q = 1.0×10-6 C，匀强电\n场的场强E = 3.0×103 N/C，取重力加速度g = 10 m/s2，sin 37° =\n0.6，cos 37° = 0. 8。求：\n（1）小球所受电场力F 的大小。\n（2）小球的质量m。\n（3）将电场撤去，小球回到最低点时速度v 的大小。",
+      "answer": "(1)3.0 × 10−3N;(2)4.0 × 10−4kg;(3)2.0m/s。",
+      "analysis": "(1)由题意已知小球所带的电荷量与匀强电场的场强大小，则\n𝐹= 𝑞𝐸= 3.0 × 10−3N.\n(2)由平衡条件得\n𝑞𝐸\n𝑚𝑔= tan37°，解得𝑚= 4.0 × 10−4kg.\n(3)撤去电场，小球回到最低点，由动能定理得\n𝑚𝑔𝑙(1 −cos37°) =\n1\n2 𝑚𝑣2，\n解得𝑣= √2𝑔𝑙(1 −cos37∘) = 2.0m/s.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q11",
+      "content": "（18 分）\n在磁感应强度为B 的匀强磁场中，一个静止的放射性原子核发生了一次α 衰变。放射出的α\n粒子（42He）在与磁场垂直的平面内做圆周运动，其轨道半径为R。以m、q 分别表示α 粒\n子的质量和电荷量。\n（1）放射性原子核用AZX 表示，新核的元素符号用Y 表示，写出该α 衰变的核反应方程。\n（2）α 粒子的圆周运动可以等效成一个环形电流，求圆周运动的周期和环形电流大小。\n（3）设该衰变过程释放的核能都转为为α 粒子和新核的动能，新核的质量为M，求衰变过\n程的质量亏损Δm。",
+      "answer": "(1)见解析;(2)\n𝑞2𝐵\n2π𝑚;(3)\n(𝑀+𝑚)(𝑞𝐵𝑅)2\n2𝑚𝑀𝑐2\n.",
+      "analysis": "(1)⬚𝑍\n𝐴X →𝑍−2\n𝐴−4 Y+2\n4He.\n(2)设𝛼粒子的速度大小为𝑣，由洛伦兹力提供向心力得\n𝑞𝑣𝐵= 𝑚\n𝑣2\n𝑅,\n又𝑇=\n2π𝑅\n𝑣，\n联立解得𝛼粒子在磁场中运动周期为\n𝑇=\n2π𝑚\n𝑞𝐵，\n故环形电流大小𝐼=\n𝑞\n𝑇=\n𝑞2𝐵\n2π𝑚.\n(3)粒子在磁场中，由洛伦兹力提供向心力得\n𝑞𝑣𝐵= 𝑚\n𝑣2\n𝑅，解得𝑣=\n𝑞𝐵𝑅\n𝑚，\n设衰变后新核Y的速度大小为𝑣′，由系统动量守恒得\n𝑀𝑣′ −𝑚𝑣= 0，解得𝑣′ =\n𝑚𝑣\n𝑀=\n𝑞𝐵𝑅\n𝑀，\n由能量守恒得\nΔ𝑚𝑐2 =\n1\n2 𝑀𝑣′2 +\n1\n2 𝑚𝑣2，解得Δ𝑚=\n(𝑀+𝑚)(𝑞𝐵𝑅)2\n2𝑚𝑀𝑐2\n.\n说明：利用𝑀=\n𝐴−4\n4 𝑚解答，亦可.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017北京理综.pdf#q12",
+      "content": "（20 分）\n发电机和电动机具有装置上的类似性，源于它们机理上的类似性。直流发电机和直流电动机\nW\nO\nv2\nA\nW\nO\nv2\nB\nW\nO\nv2\nC\nW\nO\nv2\nD\nE\n37°\n的工作原理可以简化为如图1、图2 所示的情景。\n在竖直向下的磁感应强度为B 的匀强磁场中，两根光滑平行金属轨道MN、PQ 固定在水平\n面内，相距为L，电阻不计。电阻为R 的金属导体棒ab 垂直于MN、PQ 放在轨道上，与轨\n道接触良好，以速度v（v 平行于MN）向右做匀速运动。\n图1 轨道端点MP 间接有阻值为r 的电阻，导体棒ab 受到水平向右的外力作用。图2 轨道\n端点MP 间接有直流电源，导体棒ab 通过滑轮匀速提升重物，电路中的电流为I。\n（1）求在Δt 时间内，图1“发电机”产生的电能和图2“电动机”输出的机械能。\n（2）从微观角度看，导体棒ab 中的自由电荷所受洛伦兹力在上述能量转化中起着重要作\n用。为了方便，可认为导体棒中的自由电荷为正电荷。\na．请在图3（图1 的导体棒ab）、图4（图2 的导体棒ab）中，分别画出自由电荷所受洛伦\n兹力的示意图。\nb．我们知道，洛伦兹力对运动电荷不做功。那么，导体棒ab 中的自由电荷所受洛伦兹力是\n如何在能量转化过程中起到作用的呢？请以图2“电动机”为例，通过计算分析说明。",
+      "answer": "(1)𝐵𝐼𝐿𝑣Δ𝑡;(2)见解析.",
+      "analysis": "（1）图1 中，电路中的电流为𝐼1 =\n𝐵𝐿𝑣\n𝑅+𝑟，\n棒ab 受到的安培力大小为𝐹1 = 𝐵𝐼1𝐿,\n在Δ𝑡时间内，“发电机”产生的电能等于棒ab 克服安培力做的功为\n𝐸电= 𝐹1 · 𝑣Δ𝑡=\n𝐵2𝐿2𝑣2Δ𝑡\n𝑅+𝑟\n,\n图2 中，棒ab 受到的安培力F2 = BIL\n在Δt 时间内，“电动机”输出的机械能等于安培力对棒ab 做的功\n（2）a．图3 中，棒ab 向右运动，由左手定则可知其中的正电荷受到b→a 方向的洛伦兹\n力，在该洛伦兹力作用下，正电荷沿导体棒运动形成感应电流，有沿b→a 方向的分速度，\n2\nE\nF v t\nBILv t\n=\n=\n\n机\nP\nM\na\nN\nQ\nB\nb\nr\n图1\nP\nM\na\nN\nQ\nB\nb\n图2\n图3\nB\na\nb\n图4\nB\na\nb\n受到向左的洛伦兹力作用；图4 中，在电源形成的电场作用下，棒ab 中的正电荷沿a→b 方\n向运动，受到向右的洛伦兹力作用，该洛伦兹力使导体棒向右运动，正电荷具有向右的分速\n度，又受到沿b→a 方向的洛伦兹力作用。如图3、图4。\nb．设自由电荷的电荷量为q，沿导体棒定向移动的速率为u。\n如图4 所示，沿棒方向的洛伦兹力f1ʹ = qvB，做负功\nW1 = − f1ʹ·uΔt = − qvBuΔt\n垂直棒方向的洛伦兹力f2ʹ = quB，做正功\nW2 = f2ʹ·vΔt = − quBvΔt\n所以W1 = − W2，即导体棒中一个自由电荷所受的洛伦兹力做功为零。\nf1ʹ做负功，阻碍自由电荷的定向移动，宏观上表现为“反电动势”，消耗电源的电能；f2ʹ做正\n功，宏观上表现为安培力做正功，使机械能增加。大量自由电荷所受洛伦兹力做功的宏观表\n现是将电能转化为等量的机械能，在此过程中洛伦兹力通过两个分力做功起到“传递”能量\n的作用。\n闭合电路欧姆定律、法拉第电磁感应定律、左手定则、功能关系\n图3\nB\na\nb\nf\nf1\nf2\n图4\nB\na\nb\nfʹ\nf1ʹ\nf2ʹ\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017北京理综.pdf",
+        "page": 4,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p007-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-998822e3900ee520-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 22,
+    "answerGraphics": 2,
+    "assigned": 20,
+    "rendered": 21,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2014/2014浙江理.pdf",
   "name": "2014浙江理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q01",
       "content": "设全集U = {x ∈N | x ⩾2}, 集合A = {x ∈N | x2 ⩾5}, 则∁UA = (\n)\n(A) ∅\n(B) {2}\n(C) {5}\n(D) {2, 5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q02",
       "content": "已知i 是虚数单位, a, b ∈R, 则“a = b = 1”是“(a + bi)2 = 2i”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q03",
       "content": "某几何体的三视图(单位: cm) 如图所示, 则此几何体的表面积是\n(\n)\n4\n4\n3\n3\n3\n3\n3\n正视图\n俯视图\n侧视图\n(A) 90 cm2\n(B) 129 cm2\n(C) 132 cm2\n(D) 138 cm2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -79,22 +102,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q04",
       "content": "为了得到函数y = sin 3x + cos 3x 的图象, 可以将函数y =\n√\n2 cos 3x 的图\n象\n(\n)\n(A) 向右平移π\n4 个单位\n(B) 向左平移π\n4 个单位\n(C) 向右平移π\n12 个单位\n(D) 向左平移π\n12 个单位",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -102,22 +136,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q05",
       "content": "在(1 + x)6 (1 + y)4 的展开式中, 记xmyn 项的系数为f (m, n), 则f (3, 0)+\nf (2, 1) + f (1, 2) + f (0, 3) =\n(\n)\n(A) 45\n(B) 60\n(C) 120\n(D) 210",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -125,22 +165,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q06",
       "content": "已知函数f (x) = x3 + ax2 + bx + c, 且0 < f (−1) = f (−2) = f (−3) ⩽3,\n则\n(\n)\n(A) c ⩽3\n(B) 3 < c ⩽6\n(C) 6 < c ⩽9\n(D) c > 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -148,22 +198,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q07",
       "content": "在同一直角坐标系中, 函数f (x) = xa (x ⩾0), g (x) = logax 的图象可能\n是\n(\n)\n(A)\n1\nx\ny\n1\n−1\nO\n(B)\n1\nx\ny\n1\n−1\nO\n(C)\n1 x\ny\n1\n−1\nO\n(D)\n1\nx\ny\n1\n−1\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q08",
       "content": "记max {x, y} =\n{\nx,\nx ⩾y,\ny,\nx < y,\nmin {x, y} =\n{\ny,\nx ⩾y,\nx,\nx < y,\n设a, b 为平面\n向量, 则\n(\n)\n(A) min {|a + b| , |a −b|} ⩽min {|a| , |b|}\n(B) min {|a + b| , |a −b|} ⩾min {|a| , |b|}\n(C) max\n{\n|a + b|2, |a −b|2}\n⩽|a|2 + |b|2\n(D) max\n{\n|a + b|2, |a −b|2}\n⩾|a|2 + |b|2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -194,22 +256,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q09",
       "content": "已知甲盒中仅有1 个球且为红球, 乙盒中有m 个红球和n 个蓝球\n(m ⩾3, n ⩾3), 从乙盒中随机抽取i (i = 1, 2) 个球放入甲盒中.\n(a) 放入i 个球后, 甲盒中含有红球的个数记为ξi (i = 1, 2);\n(b) 放入i 个球后, 从甲盒中取1 个球是红球的概率记为pi (i = 1, 2).\n则\n(\n)\n(A) p1 > p2, E (ξ1) < E (ξ2)\n(B) p1 < p2, E (ξ1) > E (ξ2)\n(C) p1 > p2, E (ξ1) > E (ξ2)\n(D) p1 < p2, E (ξ1) < E (ξ2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -217,22 +285,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q10",
       "content": "设函数f1 (x) = x2, f2 (x) = 2 (x −x2), f3 (x) = 1\n3 |sin 2πx|, ai =\ni\n99,\ni = 0, 1, 2, · · · , 99. 记Ik = |fk (a1) −fk (a0)| + |fk (a2) −fk (a1)| + · · · +\n|fk (a99) −fk (a98)|, k = 1, 2, 3, 则\n(\n)\n(A) I1 < I2 < I3\n(B) I2 < I1 < I3\n(C) I1 < I3 < I2\n(D) I3 < I2 < I1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -240,22 +314,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q11",
       "content": "若某程序框图如图所示, 当输入50 时, 则该程序运行后输出的结果\n是\n.\n开始\n输入n\nS = 0, i = 1\nS = 2S + i\ni = i + 1\nS > n?\n输出i\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -263,22 +343,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q12",
       "content": "随机变量ξ 的取值为0, 1, 2, 若P (ξ = 0) =\n1\n5, E (ξ) = 1, 则\nD (ξ) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -286,22 +376,35 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q012-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q012-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q012-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q012-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q13",
       "content": "当实数x, y 满足\n\n\n\n\n\n\n\nx + 2y −4 ⩽0,\nx −y −1 ⩽0,\nx ⩾1\n时, 1 ⩽ax + y ⩽4 恒成立, 则实数a\n的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -309,22 +412,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q14",
       "content": "在8 张奖券中有一、二、三等奖各1 张, 其余5 张无奖. 将这8 张奖券分\n配给4 个人, 每人2 张, 不同的获奖情况有\n种(用数字作答).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -332,22 +441,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q15",
       "content": "设函数f (x) =\n{\nx2 + x,\nx < 0,\n−x2,\nx ⩾0.\n若f (f (a)) ⩽2, 则实数a 的取值范围\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -355,22 +470,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q16",
       "content": "设直线x −3y + m = 0 (m̸ = 0) 与双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的\n两条渐近线分别交于点A, B. 若点P (m, 0) 满足|PA| = |PB|, 则该双曲\n线的离心率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -378,22 +499,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q17",
       "content": "如图, 某人在垂直于水平地面ABC 的墙面前的点A 处进行射击训练. 已\n知点A 到墙面的距离为AB, 某目标点P 沿墙面上的射线CM 移动, 此\n人为了准确瞄准目标点P, 需计算由点A 观察点P 的仰角θ 的大小. 若\nAB = 15 m, AC = 25 m, ∠BCM = 30◦, 则tan θ 的最大值是\n. (仰\n角θ 为直线AP 与平面ABC 所成角)\nC\nM\nA\nP\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -401,22 +528,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q18",
       "content": "在△ABC 中, 内角A, B, C 所对的边分别为a, b, c, 已知a̸ = b, c =\n√\n3,\ncos2A −cos2B =\n√\n3 sin A cos A −\n√\n3 sin B cos B.\n(1) 求角C 的大小;\n(2) 若sin A = 4\n5, 求△ABC 的面积.\n927",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -424,22 +561,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q19",
       "content": "已知数列{an} 和{bn} 满足a1a2a3 · · · an =\n(√\n2\n)bn (n ∈N∗). 若{an} 为\n等比数列, 且a1 = 2, b3 = 6 + b2.\n(1) 求an 与bn;\n(2) 设cn = 1\nan\n−1\nbn\n(n ∈N∗). 记数列{cn} 的前n 项和为Sn.\n①求Sn;\n②求正整数k, 使得对任意n ∈N∗, 均有Sk ⩾Sn.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -447,22 +590,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q20",
       "content": "如图, 在四棱锥A −BCDE 中, 平面ABC ⊥平面BCDE, ∠CDE =\n∠BED = 90◦, AB = CD = 2, DE = BE = 1, AC =\n√\n2.\n(1) 证明: DE ⊥平面ACD;\n(2) 求二面角B −AD −E 的大小.\nC\nB\nD\nA\nE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -470,22 +619,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q21",
       "content": "如图, 设椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0), 动直线l 与椭圆C 只有一个公\n共点P, 且点P 在第一象限.\n(1) 已知直线l 的斜率为k, 用a, b, k 表示点P 的坐标;\n(2) 若过原点O 的直线l1 与l 垂直, 证明: 点P 到直线l1 的距离的最大\n值为a −b.\nx\ny\nO\nl\nP\nl1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -493,22 +652,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014浙江理.pdf#q22",
       "content": "已知函数f (x) = x3 + 3 |x −a| (a ∈R).\n(1) 若f (x) 在[−1, 1] 上的最大值和最小值分别记为M (a), m (a), 求\nM (a) −m (a);\n(2) 设b ∈R, 若[f (x) + b]2 ⩽4 对x ∈[−1, 1] 恒成立, 求3a + b 的取值\n范围.\n928",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -516,11 +685,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ba0ea4861c3c09f9-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

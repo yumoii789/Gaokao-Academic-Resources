@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2025/2025河北.pdf",
   "name": "2025河北",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 11,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q01",
-      "content": "《汉书》记载“姑句家矛端生火”，表明古人很早就发现了尖端\n放电现象。若带电长矛尖端附近某条电场线如图，则a、b、c、d 四\n点中电势最高的是（    ）\nA．a 点\nB．b 点\nC．c 点\nD．d 点\n【详解】根据电场线的性质：沿电场线方向，电势逐渐降低。观察\n图中电场线，可判断电场线方向（假设从电势高处指向低处）。比较\na、b、c、d 四点，d 点位于电场线“上游”，沿电场线方向电势依次降低，即d 点电势高于\nc 点，c 点高于b 点，b 点高于a 点。因此电势最高的是d 点。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "《汉书》记载“姑句家矛端生火”，表明古人很早就发现了尖端\n放电现象。若带电长矛尖端附近某条电场线如图，则a、b、c、d 四\n点中电势最高的是（    ）\nA．a 点\nB．b 点\nC．c 点\nD．d 点",
+      "answer": "D",
+      "analysis": "根据电场线的性质：沿电场线方向，电势逐渐降低。观察\n图中电场线，可判断电场线方向（假设从电势高处指向低处）。比较\na、b、c、d 四点，d 点位于电场线“上游”，沿电场线方向电势依次降低，即d 点电势高于\nc 点，c 点高于b 点，b 点高于a 点。因此电势最高的是d 点。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -33,22 +44,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q02",
-      "content": "某同学将一充气皮球遗忘在操场上，找到时发现因太阳曝晒皮球温度升高，体积变大。\n在此过程中若皮球未漏气，则皮球内封闭气体（    ）\nA．对外做功\nB．向外界传递热量\nC．分子的数密度增大\nD．每个分子的速率都增大\n【详解】A．皮球体积变大，气体膨胀，对外界做功，故A 正确。\nB．太阳暴晒使气体温度升高，是外界对气体传热（气体吸热），而非气体向外界传递热量，\n故B 错误。\nC．皮球未漏气，分子总数不变，体积变大，分子的数密度减小，故C 错误。\nD．温度升高，分子平均动能增大，但并非每个分子速率都增大，只是“平均”情况，故D\n错误。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某同学将一充气皮球遗忘在操场上，找到时发现因太阳曝晒皮球温度升高，体积变大。\n在此过程中若皮球未漏气，则皮球内封闭气体（    ）\nA．对外做功\nB．向外界传递热量\nC．分子的数密度增大\nD．每个分子的速率都增大",
+      "answer": "A",
+      "analysis": "A．皮球体积变大，气体膨胀，对外界做功，故A 正确。\nB．太阳暴晒使气体温度升高，是外界对气体传热（气体吸热），而非气体向外界传递热量，\n故B 错误。\nC．皮球未漏气，分子总数不变，体积变大，分子的数密度减小，故C 错误。\nD．温度升高，分子平均动能增大，但并非每个分子速率都增大，只是“平均”情况，故D\n错误。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -56,22 +75,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q03",
-      "content": "1992 年，江苏扬州出土的古代铜卡尺，由固定尺和活动尺组成，现代游标卡尺的构件与\n其非常相似，已成为常用的测量工具。用游标卡尺测量某物体的长度，示数如图所示，其读\n数为（    ）\nA．14.20 mm\nB．14.2 mm\nC．17.20 mm\nD．17.2 mm\n【详解】根据游标卡尺的读数规则可知主尺读数为17 mm，游标尺为50 分度，每分度值为\n0.02 mm，第10 条刻度线对齐，则游标尺的读数为10×0.02 mm = 0.20 mm。\n所以读数为17 mm + 0.20 mm = 17.20 mm。\n故选C。\n2 / 11",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "1992 年，江苏扬州出土的古代铜卡尺，由固定尺和活动尺组成，现代游标卡尺的构件与\n其非常相似，已成为常用的测量工具。用游标卡尺测量某物体的长度，示数如图所示，其读\n数为（    ）\nA．14.20 mm\nB．14.2 mm\nC．17.20 mm\nD．17.2 mm",
+      "answer": "C",
+      "analysis": "根据游标卡尺的读数规则可知主尺读数为17 mm，游标尺为50 分度，每分度值为\n0.02 mm，第10 条刻度线对齐，则游标尺的读数为10×0.02 mm = 0.20 mm。\n所以读数为17 mm + 0.20 mm = 17.20 mm。\n故选C。\n2 / 11",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -79,22 +102,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q04",
-      "content": "如图，内壁截面为半圆形的光滑凹槽固定在水平面上，左\n右边沿等高。该截面内，一根不可伸长的细绳穿过带有光滑\n孔的小球，一端固定于凹槽左边沿，另一端过右边沿并沿绳\n方向对其施加拉力F。小球半径远小于凹槽半径，所受重力\n大小为G。若小球始终位于内壁最低点，则F 的最大值为\n（    ）\nA．1\n2 G\nB．2\n2 G\nC．G\nD．2 G\n【详解】分析可知当凹槽底部对小球支持力为零时，此时拉力F 最大，根据平衡条件有\n2Fmcos45° = G\n解得Fm =\n2\n2 G\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，内壁截面为半圆形的光滑凹槽固定在水平面上，左\n右边沿等高。该截面内，一根不可伸长的细绳穿过带有光滑\n孔的小球，一端固定于凹槽左边沿，另一端过右边沿并沿绳\n方向对其施加拉力F。小球半径远小于凹槽半径，所受重力\n大小为G。若小球始终位于内壁最低点，则F 的最大值为\n（    ）\nA．1\n2 G\nB．2\n2 G\nC．G\nD．2 G",
+      "answer": "B",
+      "analysis": "分析可知当凹槽底部对小球支持力为零时，此时拉力F 最大，根据平衡条件有\n2Fmcos45° = G\n解得Fm =\n2\n2 G\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -102,22 +133,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q05",
-      "content": "某同学在傍晚用内嵌多个彩灯的塑料绳跳绳，照片录了彩灯在曝\n光时间内的运动轨迹，简图如图。彩灯的运动可视为匀速圆周运动，\n相机本次曝光时间是 1\n30 s，圆弧对应的圆心角约为30°，则该同学\n每分钟跳绳的圈数约为（    ）\nA．90\nB．120\nC．150\nD．180\n【详解】根据题意可知跳绳的转动角速度为\n6 rad/s\n5 rad/s\n1\n30\nt\n\n\n\n\n=\n=\n=\n\n故每分钟跳绳的圈数为\n5\n60\n150\n2\nn\n\n\n\n=\n=\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某同学在傍晚用内嵌多个彩灯的塑料绳跳绳，照片录了彩灯在曝\n光时间内的运动轨迹，简图如图。彩灯的运动可视为匀速圆周运动，\n相机本次曝光时间是 1\n30 s，圆弧对应的圆心角约为30°，则该同学\n每分钟跳绳的圈数约为（    ）\nA．90\nB．120\nC．150\nD．180",
+      "answer": "C",
+      "analysis": "根据题意可知跳绳的转动角速度为\n6 rad/s\n5 rad/s\n1\n30\nt\n\n\n\n\n=\n=\n=\n\n故每分钟跳绳的圈数为\n5\n60\n150\n2\nn\n\n\n\n=\n=\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -125,22 +164,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q06",
-      "content": "2024 年底，世界装机容量最大的抽水蓄能电站——\n河北丰宁抽水蓄能电站全面投产发电。如图，若该电\n站通过理想变压器调节输出电压U2 时，输入电压U1\n保持不变。已知副线圈总匝数为n，分接头1、2 间和\n2、3 间的线圈匝数n12 = n23 = n\n10 ，开关S 接3 时输\n出电压的瞬时值u2 = Umsinωt，则S 接2 时u2–t 的图\n像为（    ）\n3 / 11\n【详解】根据理想变压器电压比与匝数比关系可知\n1\n1\n3\n3\nU\nn\nU\nn\n=\n，\n1\n1\n2\n2\nU\nn\nU\nn\n=\n由于输入电压U1 不变，可知\n2\n2\n3\n3\nU\nn\nU\nn\n=\n即\n2\nm\n10\n2\nsin\n10\nn\nn\nu\nn\nU\nt\nn\n\n−\n=\n−\n解得u2 = 9\n8 Umsinωt；\n可知此时输出的交流电的周期为T = 2π\nω 。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2024 年底，世界装机容量最大的抽水蓄能电站——\n河北丰宁抽水蓄能电站全面投产发电。如图，若该电\n站通过理想变压器调节输出电压U2 时，输入电压U1\n保持不变。已知副线圈总匝数为n，分接头1、2 间和\n2、3 间的线圈匝数n12 = n23 = n\n10 ，开关S 接3 时输\n出电压的瞬时值u2 = Umsinωt，则S 接2 时u2–t 的图\n像为（    ）\n3 / 11",
+      "answer": "D",
+      "analysis": "根据理想变压器电压比与匝数比关系可知\n1\n1\n3\n3\nU\nn\nU\nn\n=\n，\n1\n1\n2\n2\nU\nn\nU\nn\n=\n由于输入电压U1 不变，可知\n2\n2\n3\n3\nU\nn\nU\nn\n=\n即\n2\nm\n10\n2\nsin\n10\nn\nn\nu\nn\nU\nt\nn\n\n−\n=\n−\n解得u2 = 9\n8 Umsinωt；\n可知此时输出的交流电的周期为T = 2π\nω 。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -148,22 +195,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q006-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q07",
-      "content": "随着我国航天事业飞速发展，人们畅想研制一种核聚变能源星际飞行器。从某星球表面\n发射的星际飞行器在飞行过程中只考虑该星球引力，不考虑自转，该星球可视为质量分布均\n匀的球体，半径为R0，表面重力加速度为g0。质量为m 的飞行器与星球中心距离为r 时，\n引力势能为mg0R02\n\n1\nR0 − 1\nr （r≥R0）。要使飞行器在距星球表面高度为R0 的轨道上做匀速\n圆周运动，则发射初速度为（    ）\nA．g0R0\nB．\n3g0R0\n2\nC．2g0R0\nD．3g0R0\n【详解】飞行器在轨道半径r = 2R0 处的总机械能包括动能和势能。\n引力势能为\np\n0\n0\n1\n2\nE\nmg R\n=\n根据万有引力提供向心力(\n)\n(\n)\n2\n2\n0\n0\n2\n2\nGMm\nv\nm\nR\nR\n=\n，在地球表面有\n0\n2\n0\nGMm\nmg\nR\n=\n，解得轨道速度\n满足\n2\n0\n0\n2\ng R\nv =\n，对应动能\n2\nk\n0\n0\n1\n1\n2\n4\nE\nmv\nmg R\n=\n=\n，总机械能\n0\n0\n3\n4\nE\nmg R\n=\n总\nA\nu2\nO\n10\n9 Um\n− 10\n9 Um\nπ\nω\n2π\nω\n3π\nω  t\nB\nu2\nO\n10\n9 Um\n− 10\n9 Um\nπ\nω\n2π\nω\n3π\nω  t\nC\nu2\nO\n9\n8 Um\n− 9\n8 Um\nπ\nω\n2π\nω\n3π\nω  t\nD\nu2\nO\n9\n8 Um\n− 9\n8 Um\nπ\nω\n2π\nω\n3π\nω\nt\n4 / 11\n根据机械能守恒，初始动能\n2\n0\n1\n2 mv\nE\n=\n总\n，解得v0 =\n3g0R0\n2\n 。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "随着我国航天事业飞速发展，人们畅想研制一种核聚变能源星际飞行器。从某星球表面\n发射的星际飞行器在飞行过程中只考虑该星球引力，不考虑自转，该星球可视为质量分布均\n匀的球体，半径为R0，表面重力加速度为g0。质量为m 的飞行器与星球中心距离为r 时，\n引力势能为mg0R02\n\n1\nR0 − 1\nr （r≥R0）。要使飞行器在距星球表面高度为R0 的轨道上做匀速\n圆周运动，则发射初速度为（    ）\nA．g0R0\nB．\n3g0R0\n2\nC．2g0R0\nD．3g0R0",
+      "answer": "B",
+      "analysis": "飞行器在轨道半径r = 2R0 处的总机械能包括动能和势能。\n引力势能为\np\n0\n0\n1\n2\nE\nmg R\n=\n根据万有引力提供向心力(\n)\n(\n)\n2\n2\n0\n0\n2\n2\nGMm\nv\nm\nR\nR\n=\n，在地球表面有\n0\n2\n0\nGMm\nmg\nR\n=\n，解得轨道速度\n满足\n2\n0\n0\n2\ng R\nv =\n，对应动能\n2\nk\n0\n0\n1\n1\n2\n4\nE\nmv\nmg R\n=\n=\n，总机械能\n0\n0\n3\n4\nE\nmg R\n=\n总\nA\nu2\nO\n10\n9 Um\n− 10\n9 Um\nπ\nω\n2π\nω\n3π\nω  t\nB\nu2\nO\n10\n9 Um\n− 10\n9 Um\nπ\nω\n2π\nω\n3π\nω  t\nC\nu2\nO\n9\n8 Um\n− 9\n8 Um\nπ\nω\n2π\nω\n3π\nω  t\nD\nu2\nO\n9\n8 Um\n− 9\n8 Um\nπ\nω\n2π\nω\n3π\nω\nt\n4 / 11\n根据机械能守恒，初始动能\n2\n0\n1\n2 mv\nE\n=\n总\n，解得v0 =\n3g0R0\n2\n 。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -171,22 +227,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q08",
-      "content": "如图，真空中固定在绝缘台上的两个相同的金属小球\nA 和B，带有等量同种电荷，电荷量为q，两者间距远大\n于小球直径，两者之间的静电力大小为F。用一个电荷量\n为Q 的同样的金属小球C 先跟A 接触，再跟B 接触，移\n走C 后，A 和B 之间的静电力大小仍为F，则Q∶q 的\n绝对值可能是（    ）\nA．1\nB．2\nC．3\nD．5\n【详解】C 先跟A 接触后，两者电荷量均变为\n1\n2\nQ\nq\nq\n+\n=\n，C 再跟B 接触后，两则电荷量\n均变为\n1\n2\n3\n2\n4\nq\nq\nQ\nq\nq\n+\n+\n=\n=\n，此时AB 之间静电力大小仍为\n2\n2\nkq\nF\nL\n=\n，则有\n2\n1\n2\n2\n2\nkq q\nkq\nF\nL\nL\n=\n=\n解得Q = q 或Q = − 5q；\n则Q∶q 的绝对值可能是1 或者5。\n故选AD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，真空中固定在绝缘台上的两个相同的金属小球\nA 和B，带有等量同种电荷，电荷量为q，两者间距远大\n于小球直径，两者之间的静电力大小为F。用一个电荷量\n为Q 的同样的金属小球C 先跟A 接触，再跟B 接触，移\n走C 后，A 和B 之间的静电力大小仍为F，则Q∶q 的\n绝对值可能是（    ）\nA．1\nB．2\nC．3\nD．5",
+      "answer": "AD",
+      "analysis": "C 先跟A 接触后，两者电荷量均变为\n1\n2\nQ\nq\nq\n+\n=\n，C 再跟B 接触后，两则电荷量\n均变为\n1\n2\n3\n2\n4\nq\nq\nQ\nq\nq\n+\n+\n=\n=\n，此时AB 之间静电力大小仍为\n2\n2\nkq\nF\nL\n=\n，则有\n2\n1\n2\n2\n2\nkq q\nkq\nF\nL\nL\n=\n=\n解得Q = q 或Q = − 5q；\n则Q∶q 的绝对值可能是1 或者5。\n故选AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -194,22 +254,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q008-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q09",
-      "content": "如图，截面为等腰三角形的光滑斜面体固定在\n水平地面上，两个相同的小物块通过不可伸长的细\n绳跨过顶端的轻质定滑轮，静止在斜面体两侧，细\n绳与斜面平行。此外，两物块分别用相同的轻质弹\n簧与斜面体底端相连，且弹簧均处于原长。将左侧小物块沿斜面缓慢拉下一小段距离，然后\n松开。弹簧始终在弹性限度内，斜面倾角为θ，不计摩擦和空气阻力。在两物块运动过程中，\n下列说法正确的是（    ）\nA．左侧小物块沿斜面做简谐运动\nB．细绳的拉力随左侧小物块加速度的增大而增大\nC．右侧小物块在最高位置的加速度与其在最低位置的加速度大小相等\nD．若θ 增大，则右侧小物块从最低位置运动到最高位置所用的时间变长\n【详解】A．对左侧小物块，设沿斜面向下的位移为x，则有\nsin\nT\nkx\nmg\nma\n\n+\n−\n=\n此时，对右侧小物块，有\nsin\nmg\nkx\nT\nma\n+\n−\n=\n联立可得\n5 / 11\n2\n2\n2\nkx\nma\nF\n=\n=\n则左侧小物块受到的合外力\nF\nma\nkx\n=\n=\n，方向与位移方向相反，故其做简谐运动，故A 正确；\nB．根据以上分析，可得2\n2\nsin\nT\nmg\n\n=\n，绳拉力保持不变，故B 错误；\nC．同理可知，右侧小物块也做简谐运动，根据对称性，其在最高和最低位置的加速度大小\n相等，故C 正确；\nD．弹簧振子振动周期\n2\nm\nT\nk\n\n=\n周\n，与斜面夹角无关，故D 错误。\n故选AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，截面为等腰三角形的光滑斜面体固定在\n水平地面上，两个相同的小物块通过不可伸长的细\n绳跨过顶端的轻质定滑轮，静止在斜面体两侧，细\n绳与斜面平行。此外，两物块分别用相同的轻质弹\n簧与斜面体底端相连，且弹簧均处于原长。将左侧小物块沿斜面缓慢拉下一小段距离，然后\n松开。弹簧始终在弹性限度内，斜面倾角为θ，不计摩擦和空气阻力。在两物块运动过程中，\n下列说法正确的是（    ）\nA．左侧小物块沿斜面做简谐运动\nB．细绳的拉力随左侧小物块加速度的增大而增大\nC．右侧小物块在最高位置的加速度与其在最低位置的加速度大小相等\nD．若θ 增大，则右侧小物块从最低位置运动到最高位置所用的时间变长",
+      "answer": "AC",
+      "analysis": "A．对左侧小物块，设沿斜面向下的位移为x，则有\nsin\nT\nkx\nmg\nma\n\n+\n−\n=\n此时，对右侧小物块，有\nsin\nmg\nkx\nT\nma\n+\n−\n=\n联立可得\n5 / 11\n2\n2\n2\nkx\nma\nF\n=\n=\n则左侧小物块受到的合外力\nF\nma\nkx\n=\n=\n，方向与位移方向相反，故其做简谐运动，故A 正确；\nB．根据以上分析，可得2\n2\nsin\nT\nmg\n\n=\n，绳拉力保持不变，故B 错误；\nC．同理可知，右侧小物块也做简谐运动，根据对称性，其在最高和最低位置的加速度大小\n相等，故C 正确；\nD．弹簧振子振动周期\n2\nm\nT\nk\n\n=\n周\n，与斜面夹角无关，故D 错误。\n故选AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -217,22 +285,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q009-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q10",
-      "content": "如图，真空中两个足够大的平行金属\n板M、N 水平固定，间距为d，M 板接\n地。M 板上方整个区域存在垂直纸面向\n里的匀强磁场。M 板O 点处正上方P 点\n有一粒子源，可沿纸面内任意方向发射比\n荷、速度大小均相同的同种带电粒子。当\n发射方向与OP 的夹角θ = 60°时，粒子\n恰好垂直穿过M 板Q 点处的小孔。已知OQ = 3L，初始时两板均不带电，粒子碰到金属板\n后立即被吸收，电荷在金属板上均匀分布，金属板电量可视为连续变化，不计金属板厚度、\n粒子重力及粒子间的相互作用，忽略边缘效应。下列说法正确的是（    ）\nA．粒子一定带正电\nB．若间距d 增大，则板间所形成的最大电场强度减小\nC．粒子打到M 板上表面的位置与O 点的最大距离为7L\nD．粒子打到M 板下表面的位置与Q 点的最小距离为3 d\n【详解】A．根据粒子在磁场中的偏转方向，根据左手定则可知粒子带负电，选项A 错误；\nB．随着粒子不断打到N 极板上，N 极板带电量不断增加，向下的电场强度增加，粒子做减\n速运动，当粒子恰能到达N 极板时满足\n2\n2\nv\nad\n=\n，\nqE\na\nm\n=\n解得\n2\n2\nmv\nE\nqd\n=\n即d 越大，板间所形成的最大电场强度越小，选项B 正确；\nC．因粒子发射方向与OP 夹角为60°时恰能垂直穿过M 板Q 点的小孔，则由几何关系\n3\ncos60\nL\nr\nr\n−\n=\n解得r = 2L\n可得OP = rsin60° =\n3 L\n可得粒子从磁场上方，直接打在打到M 板上表面的位置与O 点的最大距离为\n(\n)\n(\n)\n2\n2\nm1\n2\n13\nx\nr\nOP\nL\n=\n−\n=\n6 / 11\n当N 极板吸收一定量的粒子后，粒子再从Q 点射入极板，会返回再从在Q 点射出，后继续\n做圆周运动，这时打M 板在板上表面的位置\nm2\nm1\n2\n7\nx\nOQ\nr\nL\nx\n=\n+\n=\n\n则粒子打在M 板上表面的位置的最大距离为7L，选项C 正确；\nD．因金属板厚度不计，当粒子在磁场中运动轨迹的弦长仍\n为PQ 长度时，粒子仍可从Q 点进入两板之间，由几何关系\n可知此时粒子从P 点沿正上方运动，进入两板间时的速度方\n向与M 板夹角为α=30°，则在两板间运动时间\n2 sin\nv\nt\na\n\n=\n其中\n2\n2\nv\na\nd\n=\n打到M 板下表面距离Q 点的最小距离\ncos\ns\nv\nt\n\n=\n解得s = 2dsin2α =\n3 d\n选项D 正确。\n故选BCD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，真空中两个足够大的平行金属\n板M、N 水平固定，间距为d，M 板接\n地。M 板上方整个区域存在垂直纸面向\n里的匀强磁场。M 板O 点处正上方P 点\n有一粒子源，可沿纸面内任意方向发射比\n荷、速度大小均相同的同种带电粒子。当\n发射方向与OP 的夹角θ = 60°时，粒子\n恰好垂直穿过M 板Q 点处的小孔。已知OQ = 3L，初始时两板均不带电，粒子碰到金属板\n后立即被吸收，电荷在金属板上均匀分布，金属板电量可视为连续变化，不计金属板厚度、\n粒子重力及粒子间的相互作用，忽略边缘效应。下列说法正确的是（    ）\nA．粒子一定带正电\nB．若间距d 增大，则板间所形成的最大电场强度减小\nC．粒子打到M 板上表面的位置与O 点的最大距离为7L\nD．粒子打到M 板下表面的位置与Q 点的最小距离为3 d",
+      "answer": "BCD",
+      "analysis": "A．根据粒子在磁场中的偏转方向，根据左手定则可知粒子带负电，选项A 错误；\nB．随着粒子不断打到N 极板上，N 极板带电量不断增加，向下的电场强度增加，粒子做减\n速运动，当粒子恰能到达N 极板时满足\n2\n2\nv\nad\n=\n，\nqE\na\nm\n=\n解得\n2\n2\nmv\nE\nqd\n=\n即d 越大，板间所形成的最大电场强度越小，选项B 正确；\nC．因粒子发射方向与OP 夹角为60°时恰能垂直穿过M 板Q 点的小孔，则由几何关系\n3\ncos60\nL\nr\nr\n−\n=\n解得r = 2L\n可得OP = rsin60° =\n3 L\n可得粒子从磁场上方，直接打在打到M 板上表面的位置与O 点的最大距离为\n(\n)\n(\n)\n2\n2\nm1\n2\n13\nx\nr\nOP\nL\n=\n−\n=\n6 / 11\n当N 极板吸收一定量的粒子后，粒子再从Q 点射入极板，会返回再从在Q 点射出，后继续\n做圆周运动，这时打M 板在板上表面的位置\nm2\nm1\n2\n7\nx\nOQ\nr\nL\nx\n=\n+\n=\n\n则粒子打在M 板上表面的位置的最大距离为7L，选项C 正确；\nD．因金属板厚度不计，当粒子在磁场中运动轨迹的弦长仍\n为PQ 长度时，粒子仍可从Q 点进入两板之间，由几何关系\n可知此时粒子从P 点沿正上方运动，进入两板间时的速度方\n向与M 板夹角为α=30°，则在两板间运动时间\n2 sin\nv\nt\na\n\n=\n其中\n2\n2\nv\na\nd\n=\n打到M 板下表面距离Q 点的最小距离\ncos\ns\nv\nt\n\n=\n解得s = 2dsin2α =\n3 d\n选项D 正确。\n故选BCD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -240,22 +316,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q010-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q010-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q010-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2025/2025河北.pdf#q11",
       "content": "（8 分）（1）某学习小组把热敏电阻置于带有温控的加热\n装置中，利用图1 所示电路研究热敏电阻的温度特性。\n①闭合开关S，观察到温度改变时电流表示数也随之改变。定\n量研究热敏电阻的阻值R 随温度t 变化的规律时，将欧姆表两\n表笔分别接到热敏电阻a、b 两端测量其阻值，这时开关S 应\n________（填“断开”或“闭合”）。\n②按照正确方法测出不同温度下热敏电阻的阻值。电阻R1、R2\n与温度t 的关系分别对应图2 中曲线 Ⅰ、Ⅱ。设计电路时，\n为防止用电器发生故障引起电流异常增大，导致个别电子元件\n温度过高而损坏，可串联一个热敏电阻抑制电流异常增大，起\n到过热保护作用。这种热敏电阻与电阻________（填“R1”或\n“R2”）具有相同温度特性。\n7 / 11\n（2）某学习小组在倾斜的气垫导轨上验证机械能守恒定律，实验装置如图3 所示，当地重\n力加速度为g。\n①方案设计阶段，该小组同学对需要测量哪些物理量产生了不同意见。\n甲同学：需测量滑块和遮光条的总质量、滑块通过两个光电门的速度、两个光电门间的竖直\n高度差。\n乙同学：只需测量滑块通过两个光电门的速度、两个光电门间的竖直高度差。\n丙同学：只需测量滑块通过两个光电门的速度、两个光电门间的距离。\n你认为________（填“甲”“乙”或“丙”）同学的方案不可行。\n②如图3，光电门中光源与光敏管相对，光源发出的光使光敏管感光。当滑块经过时，遮光\n条把光遮住，计时器记录遮光时间，可计算出滑块的速度。实验中使用的遮光条宽度d1 =\n10.0 mm，光电门宽度d2 = 20.0 mm。某次测量时，记录通过光电门A 的遮光时间为25.0 ms，\n则滑块经过光电门A 的速度大小为________m/s。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）①用欧姆表测量热敏电阻的阻值时应该让热敏电阻与电源断开，即开关S 应该\n断开；\n②由题意可知要串联的热敏电阻的阻值应该随温度的增加而快速增加，从而抑制电路中电流\n的增加，由图可知热敏电阻R1 在温度65℃左右电阻异常变化较大，则为防止用电器用电器\n故障引起电流异常增加，可串联一个热敏电阻与R1 具有相同温度特性的热敏电阻；\n（2）①要验证的关系为\n2\n2\n1\n1\n2\n2\nB\nA\nmg h\nmv\nmv\n=\n−\n可得\n2\n2\n2\nB\nA\ng h\nv\nv\n=\n−\n则只需要测量滑块经过两光电门时的速度和两个光电门间的竖直高度差，即甲乙同学的方案\n可行，丙同学的方案不可行；\n②滑块经过光电门的速度为\n3\n1\n3\n10 10\nm/s\n0.4m/s\n25 10\nA\nd\nv\nt\n−\n−\n\n=\n=\n=\n\n",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2025,
       "subject": "物理",
@@ -263,11 +349,155 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2025/2025河北.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q011-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q011-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q011-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q011-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025河北.pdf#q12",
+      "content": "（8 分）自动洗衣机水位检测的精度会影响洗净比和能效等级。某款洗衣机水位检测结\n构如图1 所示。洗衣桶内水位升高时，集气室内气体压强增大，铁芯进入电感线圈的长度增\n加，从而改变线圈的自感系数。洗衣机智能电路通过测定LC 振荡电路的频率来确定水位高\n度。\n8 / 11\n某兴趣小组在恒温环境中对此装置进行实验研究。\n（1）研究集气室内气体压强与体积的关系\n①洗衣桶内水位H 一定时，其内径D 的大小________（填“会”或“不会”）影响集气室\n内气体压强的大小。\n②测量集气室高度h0、集气室内径d。然后缓慢增加桶内水量，记录桶内水位高度H 和集气\n室进水高度，同时使用气压传感器测量集气室内气体压强p。H 和h 数据如下表所示。\nH/cm\n15.00\n20.00\n25.00\n30.00\n35.00\n40.00\n45.00\n50.00\nh/cm\n0.33\n0.40\n0.42\n0.52\n0.61\n0.70\n078\n0.87\n实验中使用同一把刻度尺对H 和h 进行测量，根据数据判断，测量________（填“H”或\n“h”）产生的相对误差较小。\n③利用数据处理软件拟合集气室内气体体积V 与1\np 的关系曲线，如图2 所示。图中拟合直线\n的延长线明显不过原点，经检查实验仪器完好，实验装置密封良好，操作过程规范，数据记\n录准确，则该延长线不过原点的主要原因是_____________________________________。\n（2）研究洗衣桶水位高度与振荡电路频率的关系图3 是桶内水位在两个不同高度时示波器\n显示的u–t 图像，u 的频率即为LC 振荡电路的频率。LC 振荡电路的频率f 与线圈自感系数\nL、电容C 的关系是f =\n1\n2π LC ，则图中________（填“甲”或“乙”）对应的水位较高。\n9 / 11",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）①集气室内气体压强等于桶内水位高度H 和集气室进水高度的高度差产生的\n压强和大气压强之和，根据p = ρgh 可知其内径D 的大小不会影响影响集气室内气体压强的\n大小；\n②由于实验中使用同一把刻度尺进行测量，分度值相同，根据数据分析，桶内水位高度H 明\n显大于集气室内进水高度h，所以测量桶内水位高度H 产生的相对误差较小；\n③该延长线不过原点的主要原因是与集气室相连的细管中的气体被忽略不计，导致集气室气\n体体积V 相比于实际气体体积偏小。\n（2）桶内水位高度H 越大，集气室内气体压强越大，铁芯进入电感线圈的长度越大，电感\n线圈的自感系数越大，根据T = 2π LC 可知LC 振荡电路的周期越大，所以图3 中乙对应\n的水位较高。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025河北.pdf",
+        "page": 7,
+        "endPage": 9,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q012-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025河北.pdf#q13",
+      "content": "（8 分）光纤光谱仪的部分工作原理如图所示。待测光在光纤内经多次全反射从另一端\n射出，再经棱镜偏转，然后通过狭缝进入光电探测器。\n（1）若将光纤简化为真空中的长玻璃丝，设玻璃丝的折射率为2 3\n3 ，求光在玻璃丝内发生\n全反射时的最小入射角。\n（2）若探测器光阴极材料的逸出功为9.939×10−20 J，求该材料的截止频率。（普朗克常量h\n= 6.626×10−34 J·s）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）光在玻璃丝内发生全反射的最小入射角满足sinC = 1\nn\n可得C = 60°\n（2）根据爱因斯坦光电方程hν0 = W0\n可得ν0 = 1.5×1014 Hz",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025河北.pdf",
+        "page": 9,
+        "endPage": 9,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q013-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q013-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025河北.pdf#q14",
+      "content": "（14 分）如图，一长为2 m 的平台，\n距水平地面高度为1.8 m。质量为0.01 kg 的\n小物块以3 m/s 的初速度从平台左端水平向\n右运动。物块与平台、地面间的动摩擦因数\n均为0.2。物块视为质点，不考虑空气阻力，\n重力加速度g 取10 m/s2。\n小物块\n平台\n地面\n10 / 11\n（1）求物块第一次落到地面时距平台右端的水平距离。\n（2）若物块第一次落到地面后弹起的最大高度为0.45 m，物块从离开平台到弹起至最大高\n度所用时间共计1 s。求物块第一次与地面接触过程中，所受弹力冲量的大小，以及物块弹\n离地面时水平速度的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）小物块在平台做匀减速直线运动，根据牛顿第二定律有a = μg\n则小物块从开始运动到离开平台有vx2 – v02 = 2ax0\n小物块从平台飞出后做平抛运动有h = 1\n2 gt12，x = vxt1\n联立解得x = 0.6 m\n（2）物块第一次落到地面后弹起的最大高度为0.45 m，则物块弹起至最大高度所用时间和\n弹起的初速度有hʹ = 1\n2 gt22，vy2 = gt2\n则物块与地面接触的时间Δt = t − t1 − t2 = 0.1 s\n物块与地面接触的过程中根据动量定理，取竖直向上为正，在竖直方向有IN − mgΔt = mvy2\n− m(− vy1)，vy1 = gt1\n解得IN = 0.1N·s\n取水平向右为正，在水平方向有− μNΔt = mvxʹ − mvx，I = NΔt\n解得vxʹ = − 1 m/s\n但由于vxʹ减小为0 将无相对运动和相对运动的趋势，故vxʹ = 0",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025河北.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q014-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q014-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2025/2025河北.pdf#q15",
+      "content": "（16 分）某电磁助推装置设计如图，超\n级电容器经调控系统为电路提供1 000 A 的\n恒定电流，水平固定的平行长直导轨处于垂\n直水平面的匀强磁场中，a 可视为始终垂直\n导轨的导体棒，b 为表面绝缘的无人机。初\n始时a 静止于MM′处，b 静止于a 右侧某\n处。现将开关S 接1 端，a 与b 正碰后锁定\n并一起运动，损失动能全部储存为弹性势\n能。当a 运行至NN′时将S 接2 端，同时解\n除锁定，所储势能瞬间全部转化为动能，a 与b 分离。已知电容器电容C 为10 F，导轨间距\n为0.5 m，磁感应强度大小为1 T，MM′到NN′的距离为5 m，a、b 质量分别为2 kg、8 kg，\na 在导轨间的电阻为0.01 Ω。碰撞、分离时间极短，各部分始终接触良好，不计导轨电阻、\n摩擦和储能耗损，忽略电流对磁场的影响。\n（1）若分离后某时刻a 的速度大小为10 m/s，求此时通过a 的电流大小。\n（2）忽略a、b 所受空气阻力，当a 与b 的初始间距为1.25 m 时，求b 分离后的速度大小，\n分析其是否为b 能够获得的最大速度；并求a 运动过程中电容器的电压减小量。\n（3）忽略a 所受空气阻力，若b 所受空气阻力大小与其速度v 的关系为f = kv2（k = 0.025\nN·s2/m2），初始位置与（2）问一致，试估算a 运行至NN′时。a 分离前的速度大小能否达到\n（2）问中分离前速度的99%，并给出结论。（0.992 = 0.980 1）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）分离后a 切割磁感线有E = BLv\n则通过a 的电流\nE\nI\nR\n=\n解得I = 500 A\n11 / 11\n（2）由于超级电容器经调控系统为电路提供I0 = 1 000 A 的恒定电流，则当a 与b 的初始\n间距为1.25 m 时a 与b 碰撞前的速度为\n2\n0\n1\n2\nab\na\na\nBI Lx\nm v\n=\na 与b 碰撞时根据动量守恒和能量守恒有\nmava = (ma +mb)v 共，\n2\n2\np\n1\n1 (\n)\n2\n2\na\na\na\nb\nm v\nm\nm v\nE\n=\n+\n+\n共\na 与b 整体从MM′到NN′的过程中有\n2\n2\n0\n1\n1\n(\n)\n(\n)\n(\n)\n2\n2\nMN\nab\na\nb\na\nb\nBI L x\nx\nm\nm v\nm\nm v\n−\n=\n+\n−\n+\n共1\n共\na 与b 分离时根据动量守恒和能量守恒有\n(ma +mb)v 共1 = mava1 + mbvb1，\n2\n2\n2\np\n1\n1\n1\n1\n1\n(\n)\n2\n2\n2\na\nb\na\na\nb b\nm\nm v\nE\nm v\nm v\n+\n+\n=\n+\n共1\n联立解得vb1 = 25 m/s\n由于a 和ab 组合体均做匀变速直线运动，分别有\n1\n2\na\nab\nv\nx\nt\n=\n，\n1\n2\n2\nMN\nab\nv\nv\nx\nx\nt\n+\n−\n=\n共\n共\n则电容器流出的电荷量有Δq = I0(t1 + t2)\na 运动过程中电容器的电压减小量\n40V\nq\nU\nC\n\n\n=\n=\n（3）b 所受f = kv2(k = 0.025 N·s2/m2）的空气阻力后，a 与b 整体从MM′到NN′的过程中有\n(BI0L − kv2) = (ma + mb)a，\nv\na\nv\nx\n\n=\n\n求解出\n2\n392.64m/s\nv\n=\n共\n则\n2\n1\n99.05%\nv\nv\n\n共\n共\na 分离前的速度大小能达到（2）问中分离前速度的99%。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2025,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2025/2025河北.pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q015-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-646a35478f38a7ca-q015-p010-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 20,
+    "answerGraphics": 0,
+    "assigned": 20,
+    "rendered": 20,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

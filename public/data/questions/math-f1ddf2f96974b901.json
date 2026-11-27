@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2018/2018浙江.pdf",
   "name": "2018浙江",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q01",
       "content": "已知全集U = {1, 2, 3, 4, 5}, A = {1, 3}, 则∁UA =\n(\n)\n(A) ∅\n(B) {1, 3}\n(C) {2, 4, 5}\n(D) {1, 2, 3, 4, 5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q02",
       "content": "双曲线x2\n3 −y2 = 1 的焦点坐标是\n(\n)\n(A)\n(\n−\n√\n2, 0\n)\n,\n(√\n2, 0\n)\n(B) (−2, 0), (2, 0)\n(C)\n(\n0, −\n√\n2\n)\n,\n(\n0,\n√\n2\n)\n(D) (0, −2), (0, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q03",
       "content": "某几何体的三视图如图所示(单位: cm), 则该几何体的体积(单位: cm3)\n是\n(\n)\n1\n1\n2\n2\n正视图\n俯视图\n侧视图\n(A) 2\n(B) 4\n(C) 6\n(D) 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +106,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q04",
       "content": "复数\n2\n1 −i (i 为虚数单位) 的共轭复数是\n(\n)\n(A) 1 + i\n(B) 1 −i\n(C) −1 + i\n(D) −1 −i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +140,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q05",
       "content": "函数y = 2|x| sin 2x 的图象可能是\n(\n)\n(A)\nx\n−π\nπ\ny\nO\n(B)\nx\n−π\nπ\ny\nO\n(C)\nx\n−π\nπ\ny\nO\n(D)\nx\n−π\nπ\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +169,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q06",
       "content": "已知平面α, 直线m, n 满足m̸ ⊂α, n ⊂α, 则“m\nn”是“m\nα”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +198,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q07",
       "content": "设0 < p < 1, 随机变量ξ 的分布列是\nξ\n0\n1\n2\nP\n1 −p\n2\n1\n2\np\n2\n则当p 在(0, 1) 内增大时,\n(\n)\n(A) D (ξ) 减小\n(B) D (ξ) 增大\n(C) D (ξ) 先减小后增大\n(D) D (ξ) 先增大后减小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q08",
       "content": "已知四棱锥S −ABCD 的底面是正方形, 侧棱长均相等, E 是线段AB 上\n的点(不含端点), 设SE 与BC 所成的角为θ1, SE 与平面ABCD 所成\n的角为θ2, 二面角S −AB −C 的平面角为θ3, 则\n(\n)\n(A) θ1 ⩽θ2 ⩽θ3\n(B) θ3 ⩽θ2 ⩽θ1\n(C) θ1 ⩽θ3 ⩽θ2\n(D) θ2 ⩽θ3 ⩽θ1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +256,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q09",
       "content": "已知a, b, e 是平面向量, e 是单位向量. 若非零向量a 与e 的夹角为π\n3 ,\n向量b 满足b2 −4e · b + 3 = 0, 则|a −b| 的最小值是\n(\n)\n(A)\n√\n3 −1\n(B)\n√\n3 + 1\n(C) 2\n(D) 2 −\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +289,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q10",
       "content": "已知a1, a2, a3, a4 成等比数列, 且a1 + a2 + a3 + a4 = ln (a1 + a2 + a3).\n若a1 > 1, 则\n(\n)\n(A) a1 < a3, a2 < a4\n(B) a1 > a3, a2 < a4\n(C) a1 < a3, a2 > a4\n(D) a1 > a3, a2 > a4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +318,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q11",
       "content": "我国古代数学著作《张邱建算经》中记载百鸡问题: “今有鸡翁一, 值钱五;\n鸡母一, 值钱三; 鸡雏三, 值钱一. 凡百钱, 买鸡百只, 问鸡翁、母、雏各几\n何? ”设鸡翁, 鸡母, 鸡雏个数分别为x, y, z, 则\n\n\n\nx + y + z = 100,\n5x + 3y + 1\n3z = 100,\n当\nz = 81 时, x =\n, y =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +347,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q12",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\nx −y ⩾0,\n2x + y ⩽6,\nx + y ⩾2,\n则z = x + 3y 的最小值是\n, 最\n大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +381,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q13",
       "content": "在△ABC 中, 角A, B, C 所对的边分别为a, b, c. 若a =\n√\n7, b = 2,\nA = 60◦, 则sin B =\n, c =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +410,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q14",
       "content": "二项式\n(\n3√x + 1\n2x\n)8\n的展开式的常数项是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +439,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q15",
       "content": "已知λ ∈R, 函数f (x) =\n{\nx −4,\nx ⩾λ,\nx2 −4x + 3,\nx < λ,\n当λ = 2 时, 不等式\nf (x) < 0 的解集是\n. 若函数f (x) 恰有2 个零点, 则λ 的取值范围\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +472,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q16",
       "content": "从1, 3, 5, 7, 9 中任取2 个数字, 从0, 2, 4, 6 中任取2 个数字, 一共可以\n组成\n个没有重复数字的四位数. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +501,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q17",
       "content": "已知点P (0, 1), 椭圆x2\n4 +y2 = m (m > 1) 上两点A, B 满足#   »\nAP = 2#    »\nPB,\n则当m =\n时, 点B 横坐标的绝对值最大.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +530,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q18",
       "content": "已知角α 的顶点与原点O 重合, 始边与x 轴的非负半轴重合, 它的终边过\n点P\n(\n−3\n5, −4\n5\n)\n.\n(1) 求sin (α + π) 的值;\n(2) 若角β 满足sin (α + β) = 5\n13, 求cos β 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +559,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q19",
       "content": "如图, 已知多面体ABCA1B1C1, A1A, B1B, C1C 均垂直于平面ABC,\n∠ABC = 120◦, A1A = 4, C1C = 1, AB = BC = B1B = 2.\n(1) 证明: AB1 ⊥平面A1B1C1;\n(2) 求直线AC1 与平面ABB1 所成的角的正弦值.\nB1\nC1\nA1\nB\nC\nA\n1085",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +588,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q20",
       "content": "已知等比数列{an} 的公比q > 1, 且a3 + a4 + a5 = 28, a4 + 2 是a3, a5\n的等差中项. 数列{bn} 满足b1 = 1, 数列{(bn+1 −bn) an} 的前n 项和为\n2n2 + n.\n(1) 求q 的值;\n(2) 求数列{bn} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,22 +621,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q21",
       "content": "如图, 已知点P 是y 轴左侧(不含y 轴) 一点, 抛物线C: y2 = 4x 上存在\n不同的两点A, B 满足PA, PB 的中点均在C 上.\n(1) 设AB 中点为M, 证明: PM 垂直于y 轴;\n(2) 若P 是半椭圆x2 + y2\n4 = 1 (x < 0) 上的动点, 求△PAB 面积的取值\n范围.\nB\nA\nM\nP\nx\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -493,22 +650,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2018/2018浙江.pdf#q22",
       "content": "已知函数f (x) = √x −ln x.\n(1) 若f (x) 在x = x1, x2 (x1̸ = x2) 处导数相等, 证明: f (x1) + f (x2) >\n8 −8 ln 2;\n(2) 若a ⩽3 −4 ln 2, 证明: 对于任意k > 0, 直线y = kx + a 与曲线\ny = f (x) 有唯一公共点.\n1086",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -516,11 +683,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2018/2018浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f1ddf2f96974b901-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

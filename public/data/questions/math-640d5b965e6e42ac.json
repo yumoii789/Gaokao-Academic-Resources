@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
   "name": "2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q01",
       "content": "设集合M = {(x, y) | x2 + y2 = 1, x ∈R, y ∈R}, N = {(x, y) |x2 −y =\n0, x ∈R, y ∈R}, 则集合M ∩N 中元素的个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q02",
       "content": "函数y =\n���sin x\n2\n���的最小正周期是\n(\n)\n(A) π\n2\n(B) π\n(C) 2π\n(D) 4π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q03",
       "content": "记函数y = 1 + 3−x 的反函数为y = g(x), 则g(10) =\n(\n)\n(A) 2\n(B) −2\n(C) 3\n(D) −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q04",
       "content": "等比数列{an} 中, a2 = 9, a5 = 243, 则{an} 的前4 项和为\n(\n)\n(A) 81\n(B) 120\n(C) 168\n(D) 192",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q05",
       "content": "圆x2 + y2 −4x = 0 在点P(1,\n√\n3) 处的切线方程为\n(\n)\n(A) x +\n√\n3y −2 = 0\n(B) x +\n√\n3y −4 = 0\n(C) x −\n√\n3y + 4 = 0\n(D) x −\n√\n3y + 2 = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q06",
       "content": "(√x −1\nx\n)6\n展开式中的常数项为\n(\n)\n(A) 15\n(B) −15\n(C) 20\n(D) −20",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q07",
       "content": "设复数z 的辐角的主值为2π\n3 , 虚部为\n√\n3, 则z2 =\n(\n)\n(A) −2 −2\n√\n3i\n(B) −2\n√\n3 −2i\n(C) 2 + 2\n√\n3i\n(D) 2\n√\n3 + 2i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q08",
       "content": "设双曲线的焦点在x 轴上, 两条渐近线为y = ±1\n2x, 则该双曲线的离心率\ne =\n(\n)\n(A) 5\n(B)\n√\n5\n(C)\n√\n5\n2\n(D) 5\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q09",
       "content": "不等式1 < |x + 1| < 3 的解集为\n(\n)\n(A) (0, 2)\n(B) (−2, 0) ∪(2, 4)\n(C) (−4, 0)\n(D) (−4, −2) ∪(0, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q10",
       "content": "正三棱锥的底面边长为2, 侧面均为直角三角形, 则此三棱锥的体积为(\n)\n(A) 2\n√\n2\n3\n(B)\n√\n2\n(C)\n√\n2\n3\n(D) 4\n√\n2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q11",
       "content": "在△ABC 中, AB = 3, BC =\n√\n13, AC = 4, 则边AC 上的高为\n(\n)\n(A) 3\n√\n2\n2\n(B) 3\n√\n3\n2\n(C) 3\n2\n(D) 3\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q12",
       "content": "将4 名教师分配到3 所中学任教, 每所中学至少1 名, 则不同的分配方案\n共有\n(\n)\n(A) 12 种\n(B) 24 种\n(C) 36 种\n(D) 48 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q13",
       "content": "函数y =\n√\nlog 1\n2 (x −1) 的定义域是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q14",
       "content": "用平面α 截半径为R 的球, 如果球心到平面α 的距离为R\n2 , 那么截得小\n圆的面积与球的表面积的比值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q15",
       "content": "函数y = sin x −1\n2 cos x (x ∈R) 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q16",
       "content": "设P 为圆x2 + y2 = 1 上的动点, 则点P 到直线3x −4y −10 = 0 的距离\n的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q17",
       "content": "解方程: 4x −2x+2 −12 = 0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q18",
       "content": "已知α 为锐角, 且tan α = 1\n2, 求sin 2α cos α −sin α\nsin 2α cos 2α\n的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q19",
       "content": "设数列{an} 是公差不为零的等差数列, Sn 是数列{an} 的前n 项和, 且\nS2\n1 = 9S2, S4 = 4S2, 求数列{an} 的通项公式.\n192",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q20",
       "content": "某村计划建造一个室内面积为800 m2 的矩形蔬菜温室. 在温室内, 沿左、\n右两侧与后侧内墙各保留1 m 宽的通道, 沿前侧内墙保留3 m 宽的空地.\n当矩形温室的边长各为多少时? 蔬菜的种植面积最大, 最大种植面积是多\n少?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q21",
       "content": "三棱锥P −ABC 中, 侧面PAC 与底面ABC 垂直, PA = PB = PC = 3.\n(1) 求证: AB ⊥BC;\n(2) 设AB = BC = 2\n√\n3, 求AC 与平面PBC 所成角的大小.\nA\nB\nC\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +624,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf#q22",
       "content": "设椭圆\nx2\nm + 1 + y2 = 1 的两个焦点是F1(−c, 0) 与F2(c, 0), (c > 0), 且椭\n圆上存在一点P, 使得直线PF1 与PF2 垂直.\n(1) 求实数m 的取值范围;\n(2) 设L 是相应于焦点F2 的准线, 直线PF2 与L 相交于点Q, 若\n����\nQF2\nPF2\n����= 2 −\n√\n3, 求直线PF2 的方程.\n193",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +653,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004全国3文(广西,海南,西藏,陕西,内蒙古)(旧课程).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-640d5b965e6e42ac-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-640d5b965e6e42ac-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

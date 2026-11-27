@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2012/2012湖北文.pdf",
   "name": "2012湖北文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q01",
       "content": "已知集合A = {x | x2 −3x + 2 = 0, x ∈R}, B = {x | 0 < x < 5, x ∈N},\n则满足条件A ⊆C ⊆B 的集合C 的个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q02",
       "content": "容量为20 的样本数据, 分组后的频数如下表:\n分组\n[10, 20)\n[20, 30)\n[30, 40)\n[40, 50)\n[50, 60)\n[60, 70)\n频数\n2\n3\n4\n5\n4\n2\n则样本数据落在区间[10, 40) 的频率为\n(\n)\n(A) 0.35\n(B) 0.45\n(C) 0.55\n(D) 0.65",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q03",
       "content": "函数f (x) = x cos 2x 在区间[0, 2π] 上的零点的个数为\n(\n)\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q04",
       "content": "命题“存在一个无理数, 它的平方是有理数”的否定是\n(\n)\n(A) 任意一个有理数, 它的平方是有理数\n(B) 任意一个无理数, 它的平方不是有理数\n(C) 存在一个有理数, 它的平方是有理数\n(D) 存在一个无理数, 它的平方不是有理数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q05",
       "content": "过点P (1, 1) 的直线, 将圆形区域{(x, y) | x2 + y2 ⩽4} 分为两部分, 使得\n这两部分的面积之差最大, 则该直线的方程为\n(\n)\n(A) x + y −2 = 0 (B) y −1 = 0\n(C) x −y = 0\n(D) x + 3y −4 = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q06",
       "content": "已知定义在区间[0, 2] 上的函数y = f (x) 的图象如图所示, 则y =\n−f (2 −x) 的图象为\n(\n)\nx\n1\n2\n1\n−1\ny\nO\n(A)\nx\n1\n2\n1\n−1\ny\nO\n(B)\nx\n1\n2\n1\n−1\ny\nO\n(C)\nx\n1\n2\n1\n−1\ny\nO\n(D)\nx\n1\n2\n1\n−1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -148,22 +193,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q07",
       "content": "定义在(−∞, 0) ∪(0, +∞) 上的函数f (x), 如果对于任意给定的等比数列\n{an}, {f (an)} 仍是等比数列, 则称f (x) 为“保等比数列函数”. 现有定义\n在(−∞, 0) ∪(0, +∞) 上的如下函数:\n①f (x) = x2; ②f (x) = 2x; ③f (x) =\n√\n|x|; ④f (x) = ln |x|.\n则其中是“保等比数列函数”的f (x) 的序号为\n(\n)\n(A) ①②\n(B) ③④\n(C) ①③\n(D) ②④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q08",
       "content": "设△ABC 的内角A, B, C 所对的边分别为a, b, c. 若三边的长为连续的\n三个正整数, 且A > B > C, 3b = 20a cos A, 则sin A : sin B : sin C 为(\n)\n(A) 4 : 3 : 2\n(B) 5 : 6 : 7\n(C) 5 : 4 : 3\n(D) 6 : 5 : 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q09",
       "content": "设a, b, c ∈R+, 则“abc = 1”是“ 1\n√a + 1\n√\nb\n+ 1\n√c ⩽a + b + c”的\n(\n)\n(A) 充分条件但不是必要条件\n(B) 必要条件但不是充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要的条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q10",
       "content": "如图, 在圆心角为直角的扇形OAB 中, 分别以OA, OB 为直径作两个半\n圆. 在扇形OAB 内随机取一点, 则此点取自阴影部分的概率是\n(\n)\nA\nB\nO\n(A) 1\n2 −1\nπ\n(B) 1\nπ\n(C) 1 −2\nπ\n(D) 2\nπ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -240,22 +317,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q11",
       "content": "一支田径运动队有男运动员56 人, 女运动员42 人. 现用分层抽样的方法\n抽取若干人, 若抽取的男运动员有8 人, 则抽取的女运动员有\n人.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -263,22 +350,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q12",
       "content": "若3 + bi\n1 −i = a + bi (a, b 为实数, i 为虚数单位), 则a + b =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -286,22 +379,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q13",
       "content": "已知向量a = (1, 0), b = (1, 1), 则\n(1) 与2a + b 同向的单位向量的坐标表示为\n;\n(2) 向量b −3a 与向量a 夹角的余弦值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q14",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx −y ⩾−1,\nx + y ⩾1,\n3x −y ⩽3,\n则目标函数z = 2x + 3y 的最小\n值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q15",
       "content": "已知某几何体的三视图如图所示, 则该几何体的体积为\n.\n俯视图\n正视图\n侧视图\n2\n1\n1\n4\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -355,22 +466,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q16",
       "content": "阅读如图所示的程序框图, 运行相应的程序, 输出的结果s =\n.\n开始\na = 1, s = 0, n = 1\ns = s + a\na = a + 2\nn < 3?\nn = n + 1\n输出s\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -378,22 +499,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q17",
       "content": "传说古希腊毕达哥拉斯学派的数学家经常在沙滩上画点或用小石子表示\n数. 他们研究过如图所示的三角形数:\n1\n6\n· · ·\n3\n10\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n将三角形数1, 3, 6, 10, · · · 记为数列{an}, 将可被5 整除的三角形数按从\n小到大的顺序组成一个新数列{bn}, 可以推测:\n(1) b2012 是数列{an} 中的第\n项;\n(2) b2k−1 =\n. (用k 表示)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -401,22 +532,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q18",
       "content": "设函数f (x) = sin2ωx + 2\n√\n3 sin ωx · cos ωx −cos2ωx + λ (x ∈R) 的图象\n关于直线x = π 对称, 其中ω, λ 为常数, 且ω ∈\n(1\n2, 1\n)\n.\n(1) 求函数f (x) 的最小正周期;\n(2) 若y = f (x) 的图象经过点\n(π\n4 , 0\n)\n, 求函数f (x) 的值域.\n739",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -424,22 +565,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q19",
       "content": "某个实心零部件的形状是如图所示的几何体, 其下部是底面均是正方形, 侧\n面是全等的等腰梯形的四棱台A1B1C1D1 −ABCD, 上部是一个底面与四\n棱台的上底面重合, 侧面是全等的矩形的四棱柱ABCD −A2B2C2D2.\n(1) 证明: 直线B1D1 ⊥平面ACC2A2;\n(2) 现需要对该零部件表面进行防腐处理. 已知AB = 10, A1B1 = 20,\nAA2 = 30, AA1 = 13 (单位: 厘米), 每平方厘米的加工处理费用为0.20 元,\n需加工处理费多少元?\nA\nA2\nA1\nB\nB2\nB1\nC\nC2\nC1\nD\nD2\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -447,22 +598,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2212e3b144a774ae-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q20",
       "content": "已知等差数列{an} 前三项的和为−3, 前三项的积为8.\n(1) 求等差数列{an} 的通项公式;\n(2) 若a2, a3, a1 成等比数列, 求数列{|an|} 的前n 项和.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -470,22 +631,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q21",
       "content": "设A 是单位圆x2 + y2 = 1 上的任意一点, l 是过点A 与x 轴垂直的直\n线, D 是直线l 与x 轴的交点, 点M 在直线l 上, 且满足|DM| = m|DA|\n(m > 0 且m̸ = 1). 当点A 在圆上运动时, 记点M 的轨迹为曲线C.\n(1) 求曲线C 的方程, 判断曲线C 为何种圆锥曲线, 并求其焦点坐标;\n(2) 过原点且斜率为k 的直线交曲线C 于P, Q 两点, 其中P 在第一象\n限, 它在y 轴上的射影为点N, 直线QN 交曲线C 于另一点H. 是否存\n在m, 使得对任意的k > 0, 都有PQ ⊥PH? 若存在, 求m 的值; 若不存\n在, 请说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -493,22 +660,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012湖北文.pdf#q22",
       "content": "设函数f (x) = axn (1 −x) + b (x > 0), n 为正整数, a, b 为常数. 曲线\ny = f (x) 在(1, f (1)) 处的切线方程为x + y = 1.\n(1) 求a, b 的值;\n(2) 求函数f (x) 的最大值;\n(3) 证明: f (x) < 1\nne.\n740",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -516,11 +689,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012湖北文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

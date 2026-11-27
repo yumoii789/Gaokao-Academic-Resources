@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1977/1977四川(含今重庆市).pdf",
   "name": "1977四川(含今重庆市)",
   "track": "standard",
@@ -15,29 +16,115 @@
   "textPages": 0,
   "ocrPages": 8,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 3,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 3,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1977/1977四川(含今重庆市).pdf#q01",
-      "content": "xdy—2ydx=3x2dx\n解 法 1 : 原 方 程 两 边 同 除 以 zs 得 |\n5 士 dy 一 27dx 一 3 dx\nx x x\nEPIL Cd 9°30\n方 程 的 左 端 志 d7 一 - 丞 -dx 心 d ( 2), mitiM-S-dx=d(3La|x|)\n因 此 方 程 又 可 化 为 : d(Z)=d(sLalx]) g\nsdi=slalxl+c , 或 者 y=sxila|x|+ex:\n其 中 c 为 任 意 常 数 ,\nx dy _2y+3x?\n解 法 2 : 原 方 程 可 写 成 3 八 一 红 士 3 一\n冬 盅 一 t Hly=tx?, 则 4 一 2xt 十 x: dE\n3\n代 人 原 方 程 , 得 - ,22t+ za 皋 一 2 生 3\n“ ag “\ndx x\n—134—\nt 一 SLn|x| 十 c\ni 代 回 原 变 量 t 一 - 志 -, 得\n; 性 3Lnlx1+ey 或 了 一 3xsLan|x| 十 cx\n其 中 c 为 任 意 常 数\n2 717 一 271 十 了 一 cosx J\n解 : 这 是 一 个 常 系 数 线 性 徽 分 方 程 , 它 相 应 的 齐 次 方 程 7“/ 一 27“ 十 7 一 的 特 征 方\n程 为 一 2 十 1 一 0\n特 征 根 为 , 一 : 一 ! , 因 此 相 应 的 齐 次 方 程 的 通 解 为\n了 一 cue* 十 csxe* (ci. ca 是 任 意 常 数 )\n现 在 再 求 原 非 齐 次 方 程 的 特 解 。 设 此 特 解 有 如 下 形 式 :\ny=Acosx+Bsinx ( 其 中 A、 为 待 定 常 数 )\n把 它 代 入 原 方 程 , 并 化 简 后 得\n一 2Bcosx 十 2Asinx 二 cosx\n于 是 A 一 0 , 卫 一 一 言 这 样 我 们 得 到 了 原 非 齐 次 方 程 的 一 个 特 解\n7 一 一 不 sinx, 再 加 上 相 应 齐 次 方 程 的 通 解 , 就 得 到 原 方 程 的 通 解 :\ny=cie¥+c, xe\" 一 止 Sinx。 Cer, c 为 任 意 常 数 ) 。",
+      "content": "解 法 二 , 原 方 程 可 写 成 Csx+27 : 一 言\n两 边 开 平 方 3z 十 2 一 士 专\n连 xz= 李 2 一 - 金 , =i.\n( 2 ) 已 知 Lg5 二 0.6990, 闭 8 4X 2514 是 多 少 位 的 整 数 4 ( 8 分 )\n解 : 因 为\nLg(85+X251) 一 34Lg8 十 11Lg2 一 34LE Ast IILe5\n二 34X3( 工 g10 一 工 g5) 十 1] 公 2Lg5\n一 102(1 一 Lg5) 十 22 s- 二 102 一 80L55\n一 102 一 80X0.6990 一 46.0800\n所 以 8 34X2514 是 47 位 数\n答 : 854X2511 是 幼 位 的 整 数\n(3 ) 把 sin(30“ 十 X) 十 cos(x 十 60“) 一 sinsx 一 cos#x 化 成 积 的 形 式 , ( 8 分 )\n解 :  sin(30°+x)+cos(x+60\")—sin*x—cos’x\n=sin(30\" +x) +sin(90\" — (x+60\") ] — (sin?x+cos*x)\n=sin(30\" +x) +sin(30\"—x)—1\n5iip OTERO — x) co RE a) ego sq\n心 2sin30“cosz 一 1 二 cosxX 一 1 一 一 (1 一 cosx)\n-—2sin2-X-\n: =-—2sin? 2\nC4 ) 试 证 明 :\n。 (@2m)*'—(m+x)\"2]) + ((2x)*' —(m+x)7']) 2. (2me— l= (m=3)ts,\n2mx",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977四川(含今重庆市).pdf",
-        "page": 7,
-        "questionNumber": 1,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
         "extraction": "ocr",
-        "confidence": 67,
-        "needsReview": true
+        "confidence": 64,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977四川(含今重庆市).pdf#q02",
+      "content": "_(m+x+1)?\n请 明 : (2m)*—(m+x)72) + ((2x)'—(m+x)\"1)*. tamvidsfm=x)t 2\n- 5 2mx\nRe a A BATT GT UE STE boul € ht J\n葛 : “ : m+o7’ bd Fm) 1-02 2mx 3\n心 ( 园 十 王 72 一 工 ( 王 十 王 一 工 a 4mx—1+(m?—2mx+x?)\n(m+x)* m+ Xx 2mx\n—129—\n二 《 王 十 王 一 17Cim 十 R 十 1 、 (m+x)? _ , In2 十 : 十 2mz 一 1\n(m+x)2 (m+x—1)2 2mx\n_m+x+1 。 《 十 二 ) 一\n玟 十 工 一 mx\n_mt+x+1, (mtx—D(m+x+1) it\nm+x—1 2mx\n心 (m+x+1)?\n2mx\n二 、 将 半 径 为 R, 丨 心 角 为 120“ 的 扇 形 铁 片 , 卷 成 一 团 锥 客 器 , 问 圆 锥 客 器 的 客 积 是 多 少 9\n《 接 缝 及 卷 边 不 计 ( 10 分 ) 。\n解\n因 为 团 锥 宪 积 W 一 寺 zrsh, 所 以 只 要 汪 申 底 面 半 径 r 和 圆 锥 的 高 h 就 行 丁\n据 图 可 得 扇 形 的 弧 长 :\n一 1207R_ 2x\nf 人 - 180 3 R 2\n2rr 一 TR\nDr C\n一 志 7 叉 X 壮 一 言 卫 :\n佳 据 勾 航 定 理\nER, 2/2\n\\ 2 b= fRe— ( 县 ) 一 2252R",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977四川(含今重庆市).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 5,
+        "extraction": "ocr",
+        "confidence": 64,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977四川(含今重庆市).pdf#q03",
+      "content": "_1_(R)*.2/7\n仁 国 锭 容 积 节 一 寸 ( 去 ) . 2027p\n2/2 ps\n22g\n答 : mi HUY Lame, d\n三 、 如 图 ,AD、BD 分 别 为 人 ABC 的 角 平 分 A\n线 , 延 长 AD 交 人 ABC 的 外 揉 国 FE, # .\n#BE, Rif: BE=DE 水 . > f=\n证 明 : 延 长 BD 交 团 于 卫 5 5\nZBDEw 度 数 一 二 ( 衍 + TT) 标 心 、\n的 度 数 , B ec) |\nERNIE, 亿\n2 1\n一 壮 CS+ E3P) 的 度 数 艺\n—130—\n; LN ms AN\n而 据 已 知 得 : B1E 二 E2Co AdF=C3F\n久 人 BDE 一 人 DBE 故 BE=DE,\nx Wm, BKESEA(-2, 0), B(, 2), CU, OBAABC, SHBCi Erg 7 的 直 线 方\n程 , 并 计 算 人 ABC 的 面 积 。 (165)\n解 : 直 线 BC 的 方 程 为 :\nT= 0—2 Ze is\n不 = < 夕 卵 yir—a=0, 斜 率 为 一 1.\n. BC 边 上 的 高 过 A( 一 2,4) 点 , 斜 率 应 为 ! , 因 此 BC 上 高 所 在 直 线 方 程 为\ny—4=x+2, 即 7 一 z+6。BC 边 上 的 高 , 等 于 A 点 到 直 线 BC 的 诊 离 。\n: pL ad | SPR ERT\nee FY re 一人\n而 IBCI=vE-0'+@-0°=2v2\n所 以 人 ABC 的 面 积 一 音 . |BC| 一 去 . V 页 . 2 五 一 2\n答 : BC 边 上 的 高 所 在 的 直 线 方 程 为 y 一 x+6y 人 ABC 的 面 积 为 2 ( 面 积 单 位 )\n, ( 注 ) 人 ABC 的 面 积 也 可 用 下 法 直 接 求 出 :\nrt JI So |\n* 人 ABC 的 面 积 一 工 不 水运 的 绝 对 值 一 壮 | 0 十 8 十 8 一 0 一 16 十 4[ 一 2-,\n2\n五 、 如 图 , 在 梯 形 ABCD 中 ,\na b o d 二 1 3:1:2,\n求 在 梯 形 ABCD 中 ,eosa, sina A a B\n和 sinB 的 值 、 (165) P d\n解 : 自 A 呐 DC 作 垂 线 AE, 交 DC )\n于 E 自 B 向 DC 作 垂 线 BF, 人 囹\n%DCFF, #DE=x, PEPER SE C\n则 FC 二 b~ a 一 x\n依 题 意 可 知 : e 一 a b 一 Sa,d 一 -a、\n由 勾 股 定 理 得  AE:=at—x?, BF1=(28)i—(3a—a—x)*\n而 已 知 AE 一 BF, 所 以 a?—x?=(2a)?—(3a—a—x)?\n. 整 理 后 得 dax=al\n所 以 x=DE=1., FC=3a—a—x=2a—x -\nrc 1° _ 4°\n4 4 1\nLL TR (oi Ber )\n一 181 一\nBF Jeo\nSHIG rp Cr. ep\niE,\n2 AE _BF 4\nsinB=4p=\"¢ = 5\n六 、 分 别 在 三 个 平 面 直 角 坐 标 上 作 出 下 列 方 程\n的 图 形\n1. F+DG-D=10;\n2 ,(x 十 37 十 (J 一 1 心 0\n3. (x 十 275 一 y 一 1 一 。\n解 : 1,(x+2)(x 一 D 一 0\n两 个 因 式 相 乘 等 于 零 , 必 定 有 一\n个 因 式 是 存 。\n因 此 x+2=0 “ 或 y-1 一 0\n故 此 方 程 的 图 象 为 两 条 直 线\nz 一 一 2, y=1 〔 见 右 图 1 了\n2. Cz+2 s+ CyJ-1) : 一 0\n因 为 平 方 数 (x 十 2 和 CJ 一 17*\n不 可 能 小 于 零 , 要 使 它 们 的 和 为\n零 , 必 须 同时\n{Gia 在\n7 一 1 心 0 hh :\n故 此 方 程 的 固 象 是 一 个 点\n《 一 2 1). ( 见 右 图 2 )\ny\n千 | y 43 一 0\n3,\n3.\nEZ EEN LIFE X\nK =\nZN ad #0\n( 图 三 )\n一 132 一 :\nEAT\ner CGR?\nos Ca 5\nVB y\n4\n河\n北 2\n3\n2 d= 8\n史 口 T O| + a X\n2 i 5\n语\n3\n( 图 一 )\n羔\n3\n23.13 2\ngn 2\nERE EI =\n2\no\n( 国 二 )\n( 十 273 一 Cy 一 73 心 0\n分 解 因 式\n(x+2-y+D(x+2+y-1)=0\n(x= +3) (x+y +D=0 |\n则 z 一 y 十 3 一 0 或 者 x+y+1=0\n故 此 方 程 的 图 象 是 两 条 直 线 : |\nX 一 十 3 一 0 和 x+y+1=0\n( 见 左 图 3 )\n参 考 题 , 该 题 供 超 过 高 中 水 平 的 高 中 生 做 , 考 生 在 等 完 正 题 吊 , 若 有 余 力 应 健 此 题 , 在 总 切\n\\ 之 外 加 分 , 如 作 正 确 解 答 , 正 题 和 参 考 题 总 分 为 120 分 。\n一 、1 , 豪 函数 [(x) 一 士 xt 一 xs 一 2x: 十 3 的 极 值 。 ( 《 分 )\n5 解 :. 先 技 出 可 能 是 极 值 点 的 那 些 z 的 值 , 即 汪 f (x)= 0 的 根\nf/(x)=x*—3x*—4x=10\nx(x—4)(x+1)=10\n其 根 分 别 是 0 , 4 , 一 1 因 此 在 x 二 0,x 二 4 x 二 一 1 处 f(z) 可 能 有 极 值\n又 因 为\n2 £70) =(3x2 —6x—4) |x-0=—4< 0, . 一 0 时 , 有 极 大 值 f(0) 心 3\n£70) =(3x2 —6x—4) |x-4 二 20 入 0, . 心 4 时 , 有 极 小 值 f( 幻 心 一 绍\nf7(-1) 二 (3z3-6x-4) |x--1 一 5 久 0 , . 二 -1 时 , 有 极 小 值 (-1) 一 3 孙\n【 答 ; 当 x 一 0 时 f (x) 有 极 大 值 3 ; x 一 4 时 f(x) 有 设 小 值 一 29y x 一 一 1 时 f(z) 奠\n极 小 值 2 壮 .\n1 :\n2. 计 算 『 tyT-zr-7 产 Er) dx C45)\n解 : atsraer-arcsinx+e\n在 ] 产 Eraz 中 , 令 x 一 2sinty 财\n「JzEzrer- [ 复 玲 * 2costdt= [ dsintdt\n= a+eosbat= [aae— [2cosatat\n=2t—sin2t+c,\n代 回 原 变 量 t=arcsing, #\n17 一 2arcsin 五 一 sin C2aresin 不 ] 十 ca\n, 一 2arcsin 不 - 芒 v 土 豆 +\n所 以\nx2 1 x3\n0 Ker eb brie beg rr\n=arcsinXx+c,— (2aresinf— F-/i—xF 十 c )\n团\n=arcsinx—2aresing—p 5 N/A=x* +o\n—133—\nT\n( 其 中 c 一 ci 一 cz 是 任 意 常 数 )\ns. sm) fasynasay, 8\n(D) : 火 . :\n(D) 是 y 一 x: x 一 J 所 园 成 的 区 域 7 E : x 疮\n( 4 分 ) 1 r\n解 : 区 域 ( D ) 如 右 图 所 示 . ==\nuk 7\n月 要 x\n(1+y2)dxdy 0 1\n(D) 1 of A\nJArarose)e\n=[loe [fF fe i\n( 玟 吊 现 wit\nEPR SESE of 2xiw/ 工 一 2X/x E\n〈 21 3 李 15 s 招 3 = 105\n二 、 权 下 列 方 程 的 通 解 : ,\n1. xdy—2ydx=3x2dx\n解 法 1 : 原 方 程 两 边 同 除 以 zs 得 |\n5 士 dy 一 27dx 一 3 dx\nx x x\nEPIL Cd 9°30\n方 程 的 左 端 志 d7 一 - 丞 -dx 心 d ( 2), mitiM-S-dx=d(3La|x|)\n因 此 方 程 又 可 化 为 : d(Z)=d(sLalx]) g\nsdi=slalxl+c , 或 者 y=sxila|x|+ex:\n其 中 c 为 任 意 常 数 ,\nx dy _2y+3x?\n解 法 2 : 原 方 程 可 写 成 3 八 一 红 士 3 一\n冬 盅 一 t Hly=tx?, 则 4 一 2xt 十 x: dE\n3\n代 人 原 方 程 , 得 - ,22t+ za 皋 一 2 生 3\n“ ag “\ndx x\n—134—\nt 一 SLn|X| 十 c\ni 代 回 原 契 量 t 一 - 得\ni Jo=slalxl+c, 3\n其 中 c 为 任 意 常 数 -\n2 9 y'/—2y’+y=cosx\n解 : 这 是 一 个 常 系 数 线 性 徽 分 方 程\n程 为 为 一 2 十 1 心 0\n特 征 根 为 Au 一 hs 一 , 因 此 林\ny=cie*+c,xe*\n现 在 再 求 原 非 齐 次 方 程 的 特 解\nJ 一 Acosx 十 Bsinzx\n把 它 代 入 原 方 程 , 并 化 简 后 得\n一 2Bcosx 十 2Asinx\n于 是 A=0, 卫 一 一 吊 这\n: y 一 一 李 sinx, 再 加\n歹 一 cie* 十 caxe 一\n%  y=3xLa|x|+cx*\n, 它 相 应 的 齐 次 方 程 7““ 一 27“+7 一 0 的 特 征 方\n应 的 齐 次 方 程 的 通 解 为\nCen c 是 任 意 常 数 )\n。 设 此 特 解 有 如 下 形 式 :\n( 其 中 A、B 为 待 定 常 数 )\n二 c0SX\n# 我 们 得 到 了 原 非 齐 次 方 程 的 一 个 特 解\n上 相 应 齐 次 方 程 的 通 解 , 就 得 到 原 方 程 的 通 解 :\nsinx。 《 cu c 为 任 意 常 数 ) 。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977四川(含今重庆市).pdf",
+        "page": 3,
+        "endPage": 8,
+        "questionNumber": 8,
+        "extraction": "ocr",
+        "confidence": 69,
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 8,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

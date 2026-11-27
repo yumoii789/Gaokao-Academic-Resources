@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014江苏.pdf",
   "name": "2014江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 14,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 5,
+    "reviewCount": 10,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q01",
       "content": "如图所示，一正方形线圈的匝数为n，边长为a，线圈平面与匀强磁场垂直，且一\n半处在磁场中。在Δt 时间内，磁感应强度的方向不变，大小由B 均匀地增大到2B。\n在此过程中，线圈中产生的感应电动势为（    ）\n（A）Ba2\n2Δt\n（B）nBa2\n2Δt\n（C）nBa2\nΔt\n（D）2nBa2\nΔt",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q02",
       "content": "已知地球的质量约为火星质量的10 倍，地球的半径约为火星半径的2 倍，则航天器在火星表面附近绕\n火星做匀速圆周运动的速率约为（     ）\n（A）3.5km/s\n（B）5.0km/s\n（C）17.7km/s\n（D）35.2km/s",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q03",
       "content": "远距离输电的原理图如图所示，升压变压器原、副线圈的匝\n数分别为n1、n2，电压分别为U1、U2，电流分别为I1、I2，输\n电线上的电阻为R。变压器为理想变压器，则下列关系式中正\n确的是（    ）\n（A）I1\nI2 ＝n1\nn2\n（B）I2＝U2\nR\n（C）I1U1＝I22R\n（D）I1U1＝I2U2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q04",
       "content": "如图所示，一圆环上均匀分布着正电荷，x 轴垂直于环面且过圆心O。\n下列关于x 轴上的电场强度和电势的说法中正确的是（     ）\n（A）O 点的电场强度为零，电势最低\n（B）O 点的电场强度为零，电势最高\n（C）从O 点沿x 轴正方向，电场强度减小，电势升高\n（D）从O 点沿x 轴正方向，电场强度增大，电势降低",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -102,22 +139,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q05",
       "content": "一汽车从静止开始做匀加速直线运动，然后刹车做匀减速直线运动，直到停止。下列速度v 和位移x 的\n关系图像中，能描述该过程的是（    ）\n（A）\n（B）\n（C）\n（D）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -125,22 +172,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q06",
       "content": "为了验证平抛运动的小球在竖直方向上做自由落体运动，用如图所示的装置进行实\n验。小锤打击弹性金属片，A 球水平抛出，同时B 球被松开，自由下落。关于该实验，\n下列说法中正确的有（    ）\n（A）两球的质量应相等\n（B）两球应同时落地\n（C）应改变装置的高度,多次实验\n（D）实验也能说明A 球在水平方向上做匀速直线运动",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -148,22 +205,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q07",
       "content": "如图所示，在线圈上端放置一盛有冷水的金属杯，现接通交流电源，过了几\n分钟，杯内的水沸腾起来。若要缩短上述加热时间，下列措施可行的有（    ）\n（A）增加线圈的匝数\n（B）提高交流电源的频率\n（C）将金属杯换为瓷杯\n（D）取走线圈中的铁芯",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -171,22 +238,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q08",
       "content": "如图所示，A、B 两物块的质量分别为2m 和m，静止叠放在水平地面上。A、B 间的动摩擦因数为μ，\nB 与地面间的动摩擦因数为1\n2 μ。最大静摩擦力等于滑动摩擦力，重力加速度为g。现对A 施加一水平拉力\nF，则（    ）\n（A）当F＜2μmg 时，A、B 都相对地面静止\n（B）当F＝5\n2 μmg 时，A 的加速度为1\n3 μg\n（C）当F＞3μmg 时，A 相对B 滑动\n（D）无论F 为何值，B 的加速度不会超过1\n2 μg",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BCD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -194,22 +271,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q09",
       "content": "如图所示，导电物质为电子的霍尔元件位于两串联线圈\n之间，线圈中电流为I，线圈间产生匀强磁场，磁感应强度\n大小B 与I 成正比，方向垂直于霍尔元件的两侧面，此时通\n过霍尔元件的电流为IH，与其前后表面相连的电压表测出\n的霍尔电压UH 满足：UH＝kIHB\nd ，式中k 为霍尔系数，d 为\n霍尔元件两侧面间的距离。电阻R 远大于RL，霍尔元件的\n电阻可以忽略，则（    ）\n（A）霍尔元件前表面的电势低于后表面\n（B）若电源的正负极对调，电压表将反偏\n（C）IH 与I 成正比\n（D）电压表的示数与RL 消耗的电功率成正比",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "CD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -217,22 +304,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q10",
       "content": "（8 分）某同学通过实验测量一种合金的电阻率。\n（1）用螺旋测微器测量合金丝的直径。为防止读数时测微螺杆发生转动，读数前应先旋紧图1 所示的部\n件________（选填“A”、“B”、“C”或“D”）。从图中的示数可读出合金丝的直径为________mm。\n（2）如图2 所示是测量合金丝电阻的电路，相关器材的规格已在图中标出。合上开关，将滑动变阻器的滑\n3 / 9\n片移到最左端的过程中，发现电压表和电流表的指针只在图示位置发生很小的变化。由此可以推断：电路\n中______（选填图中表示接线柱的数字）之间出现了______（选填“短路”或“断路”）。\n                图1                             图2\n（3）在电路故障被排除后，调节滑动变阻器，读出电压表和电流表的示数分别为2.23V 和38mA，由此，\n该同学算出接入电路部分的合金丝的阻值为58.7Ω。为了更准确地测出合金丝的阻值，在不更换实验器材\n的条件下，对实验应作怎样的改进？请写出两条建议。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）B，0.410\n（2）7、9；断路\n（3）电流表改为内接；测量多组电流和电压值，计算出电阻的平均值。（或测量多组电流和电压值，用图\n像法求电阻值）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -240,22 +337,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q11",
       "content": "（10 分）小明通过实验验证力的平行四边形定则。\n（1）实验记录纸如图1 所示，O 点为橡皮筋被拉伸后伸长到的位置，两弹\n簧测力计共同作用时，拉力F1 和F2 的方向分别过P1 和P2 点，一个弹簧测\n力计拉橡皮筋时，拉力F3 的方向过P3 点。三个力的大小分别为：F1＝3.30N、\nF2＝3.85N 和F3＝4.25N。请根据图中给出的标度作图求出F1 和F2 的合力。\n（2）仔细分析实验，小明怀疑实验中的橡皮筋被多次拉伸后弹性发生了变\n化，影响实验结果。他用弹簧测力计先后两次将橡皮筋拉伸到相同长度，发\n现读数不相同，于是进一步探究了拉伸过程对橡皮筋弹性的影响。\n实验装置如图2 所示，将一张白纸固定在竖直放置的木板上，橡皮筋的上端\n固定于O 点，下端N 挂一重物。用与白纸平行的水平力缓慢地移动N，在\n白纸上记录下N 的轨迹。重复上述过程，再次记录下N 的轨迹。\n两次实验记录的轨迹如图3 所示。过O 点作一条直线与轨迹交于a、b 两点，则实验中橡皮筋分别被拉伸\n到a 和b 时所受拉力Fa、Fb 的大小关系为_________。\n（3）根据（2）中的实验，可以得出的实验结果有哪些？（填写选项前的字母）\n（A）橡皮筋的长度与受到的拉力成正比\n（B）两次受到的拉力相同时，橡皮筋第2 次的长度较长\n（C）两次被拉伸到相同长度时，橡皮筋第2 次受到的拉力较大\n图1\n4 / 9\n（D）两次受到的拉力相同时，拉力越大，橡皮筋两次的长度之差越大\n（4）根据小明的上述实验探究，请对验证力的平行四边形定则实验提出两点注意事项。\n________________________________________________________________________________________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）见右图，F 合＝4.6～4.9 都算对\n（2）Fa＝Fb\n（3）BD\n（4）橡皮筋拉伸不宜过长；选用新橡皮筋。（或：拉力不宜过大；选用弹性较好的橡皮筋；换用弹性好的\n弹簧。）\n12A．（1）AD\n（2）增大，等于\n（3）设气体在标准状态时的体积为V1，等压过程V\nT ＝V1\nT1\n气体物质的量n＝V1\nV0 ，且分子数N＝nNA，解得N＝VT1\nV0TNA\n带入数据得N＝5×1024（或N＝6×1024）\n12B．（1）B\n（2）①应在摆球通过平衡位置时开始计时；②应测量单摆多次全振动的时间，再计算出周期的测量值。（或\n在单摆振动稳定后开始计时）\n（3）设光在鳞片中的折射角，折射定律sini＝nsinγ，\n在鳞片中传播路程l1＝2d\ncosγ ，传播速度v＝c\nn ，传播时间t1＝l1\nv\n8 / 9\n解得t1＝\n2n2d\nc\nn2－sin2i\n ，同理，在空气中传播时间t2＝2h\nccosi\n则t＝t1＋t2＝\n2n2d\nc\nn2－sin2i\n ＋2h\nccosi\n（1）A\n（2）4\n2He（或α），15.2\n（3）设A、B 球碰撞后速度分别为v1 和v2\n由动量守恒定律2mv0＝2mv1＋mv2，且由题意知v2－v1\nv0\n ＝15\n16\n解得v1＝17\n48v0，v2＝31\n24v0",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -263,22 +370,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q011-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q011-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q12",
-      "content": "【选做题】本题包括A、B、C 三小题，请选定其中两小题\n．．．．．．．．，并在相应的答题区域内作答\n．．．．．．．．．．．．。若多做，则\n按A、B 两小题评分。\nA．【选修3-3】（12 分）\n一种海浪发电机的气室如图所示。工作时，活塞随海浪上升或下降，\n改变气室中空气的压强，从而驱动进气阀门和出气阀门打开或关闭。\n气室先后经历吸入、压缩和排出空气的过程，推动出气口处的装置发\n电。气室中的空气可视为理想气体。\n（1）下列对理想气体的理解，正确的有_______。\n（A）理想气体实际上并不存在，只是一种理想模型\n（B）只要气体压强不是很高就可视为理想气体\n（C）一定质量的某种理想气体的内能与温度、体积都有关\n（D）在任何温度、任何压强下，理想气体都遵循气体实验定律\n（2）压缩过程中，两个阀门均关闭。若此过程中，气室中的气体与外界无热量交换，内能增加了3.4×104J，\n则该气体的分子平均动能___________（选填“增大”、“减小”或“不变”），活塞对该气体所做的功\n___________（选填“大于”、“小于”或“等于”）3.4×104 J。\n（3）上述过程中，气体刚被压缩时的温度为27℃，体积为0.224m3，压强为1 个标准大气压。已知1 mol\n气体在1 个标准大气压、0℃时的体积为22.4L，阿伏加德罗常数NA＝6.02×1023 mol-1。计算此时气室中气\n体的分子数。（计算结果保留一位有效数字）\nB．【选修3-4】（12 分）\n（1）某同学用单色光进行双缝干涉实验，在屏上观察到图（甲）所\n示的条纹，仅改变一个实验条件后，观察到的条纹如题图（乙）所示。\n他改变的实验条件可能是________。\n（A）减小光源到单缝的距离\n（B）减小双缝之间的距离\n（C）减小双缝到光屏之间的距离\n（D）换用频率更高的单色光源\n（2）在“探究单摆的周期与摆长的关系“实验中，某同学准备好相\n关实验器材后，把单摆从平衡位置拉开一个很小的角度后释放，同时\n按下秒表开始计时，当单摆再次回到释放位置时停止计时，将记录的这段时间作为单摆的周期。以上操作\n中有不妥之处，请对其中两处加以改正。\n（3）Morpho 蝴蝶的翅膀在阳光的照射下呈现出闪亮耀眼的蓝\n色光芒，这是因为光照射到翅膀的鳞片上发生了干涉。电子显\n微镜下鳞片结构的示意图如图所示。一束光以入射角i 从a 点\n入射，经过折射和反射后从b 点出射。设鳞片的折射率为n，\n厚度为d，两片之间空气层厚度为h。取光在空气中的速度为\nc，求光从a 到b 所需的时间t。\nC.【选修3-5】（12 分）\n（1）已知钙和钾的截止频率分别为7.73×1014Hz 和5.44×1014Hz，在某种单色光的照射下两种金属均发\n生光电效应，比较它们表面逸出的具有最大初动能的光电子，钙逸出的光电子具有较大的_________。\n5 / 9\n（A）波长\n（B）频率\n（C）能量\n（D）动量\n（2）氡222 是一种天然放射性气体，被吸入后，会对人的呼吸系统造成辐射损伤。它是世界卫生组织公布\n的主要环境致癌物质之一。其衰变方程是22286Rn→21884Po＋________。已知22286Rn 的半衰期约为3.8 天，\n则约经过________天，16g 的22286Rn 衰变后还剩1g。\n（3）牛顿的《自然哲学的数学原理》中记载，A、B 两个玻璃球相碰，碰撞后的分离速度和它们碰撞前的\n接近速度之比总是约为15∶16。分离速度是指碰撞后B 对A 的速度，接近速度是指碰撞前A 对B 的速\n度。若上述过程是质量为2m 的玻璃球A 以速度v0 碰撞质量为m 的静止玻璃球B，且为对心碰撞，求碰撞\n后A、B 的速度大小。\n四、计算题：本题共3 小题，共计47 分。解答时请写出必要的文字说明、方程式和重要的演算步骤。只\n写出最后答案的不能得分。有数值计算的题，答案中必须明确写出数值和单位。",
+      "content": "【选做题】本题包括A、B、C 三小题，请选定其中两小题\n．．．．．．．．，并在相应的答题区域内作答\n．．．．．．．．．．．．。若多做，则\n按A、B 两小题评分。\nA．【选修3-3】（12 分）\n一种海浪发电机的气室如图所示。工作时，活塞随海浪上升或下降，\n改变气室中空气的压强，从而驱动进气阀门和出气阀门打开或关闭。\n气室先后经历吸入、压缩和排出空气的过程，推动出气口处的装置发\n电。气室中的空气可视为理想气体。\n（1）下列对理想气体的理解，正确的有_______。\n（A）理想气体实际上并不存在，只是一种理想模型\n（B）只要气体压强不是很高就可视为理想气体\n（C）一定质量的某种理想气体的内能与温度、体积都有关\n（D）在任何温度、任何压强下，理想气体都遵循气体实验定律\n（2）压缩过程中，两个阀门均关闭。若此过程中，气室中的气体与外界无热量交换，内能增加了3.4×104J，\n则该气体的分子平均动能___________（选填“增大”、“减小”或“不变”），活塞对该气体所做的功\n___________（选填“大于”、“小于”或“等于”）3.4×104 J。\n（3）上述过程中，气体刚被压缩时的温度为27℃，体积为0.224m3，压强为1 个标准大气压。已知1 mol\n气体在1 个标准大气压、0℃时的体积为22.4L，阿伏加德罗常数NA＝6.02×1023 mol-1。计算此时气室中气\n体的分子数。（计算结果保留一位有效数字）\nB．【选修3-4】（12 分）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）某同学用单色光进行双缝干涉实验，在屏上观察到图（甲）所\n示的条纹，仅改变一个实验条件后，观察到的条纹如题图（乙）所示。\n他改变的实验条件可能是________。\n（A）减小光源到单缝的距离\n（B）减小双缝之间的距离\n（C）减小双缝到光屏之间的距离\n（D）换用频率更高的单色光源\n（2）在“探究单摆的周期与摆长的关系“实验中，某同学准备好相\n关实验器材后，把单摆从平衡位置拉开一个很小的角度后释放，同时\n按下秒表开始计时，当单摆再次回到释放位置时停止计时，将记录的这段时间作为单摆的周期。以上操作\n中有不妥之处，请对其中两处加以改正。\n（3）Morpho 蝴蝶的翅膀在阳光的照射下呈现出闪亮耀眼的蓝\n色光芒，这是因为光照射到翅膀的鳞片上发生了干涉。电子显\n微镜下鳞片结构的示意图如图所示。一束光以入射角i 从a 点\n入射，经过折射和反射后从b 点出射。设鳞片的折射率为n，\n厚度为d，两片之间空气层厚度为h。取光在空气中的速度为\nc，求光从a 到b 所需的时间t。\nC.【选修3-5】（12 分）\n（1）已知钙和钾的截止频率分别为7.73×1014Hz 和5.44×1014Hz，在某种单色光的照射下两种金属均发\n生光电效应，比较它们表面逸出的具有最大初动能的光电子，钙逸出的光电子具有较大的_________。\n5 / 9\n（A）波长\n（B）频率\n（C）能量\n（D）动量\n（2）氡222 是一种天然放射性气体，被吸入后，会对人的呼吸系统造成辐射损伤。它是世界卫生组织公布\n的主要环境致癌物质之一。其衰变方程是22286Rn→21884Po＋________。已知22286Rn 的半衰期约为3.8 天，\n则约经过________天，16g 的22286Rn 衰变后还剩1g。\n（3）牛顿的《自然哲学的数学原理》中记载，A、B 两个玻璃球相碰，碰撞后的分离速度和它们碰撞前的\n接近速度之比总是约为15∶16。分离速度是指碰撞后B 对A 的速度，接近速度是指碰撞前A 对B 的速\n度。若上述过程是质量为2m 的玻璃球A 以速度v0 碰撞质量为m 的静止玻璃球B，且为对心碰撞，求碰撞\n后A、B 的速度大小。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -286,22 +402,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q012-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q012-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q012-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q13",
       "content": "（15 分）如图所示，在匀强磁场中有一\n倾斜的平行金属导轨，导轨间距为L，长为\n3d，导轨平面与水平面的夹角为θ，在导轨\n的中部刷有一段长为d 的薄绝缘涂层。匀强\n磁场的磁感应强度大小为B，方向与导轨平\n面垂直。质量为m 的导体棒从导轨的顶端\n由静止释放，在滑上涂层之前已经做匀速运\n动，并一直匀速滑到导轨底端。导体棒始终\n与导轨垂直，且仅与涂层间有摩擦，接在两\n导轨间的电阻为R，其他部分的电阻均不\n计，重力加速度为g。求：\n（1）导体棒与涂层间的动摩擦因数μ；\n（2）导体棒匀速运动的速度大小v；\n（3）整个运动过程中，电阻产生的焦耳热Q。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）在绝缘涂层上\n受力平衡\nmgsinθ＝mgcosθ，得μ＝tanθ\n（2）在光滑导轨上\n感应电动势 E＝BLv，感应电流\nI＝E/R\n安培力 FA＝BIL，受力平衡\nmgsinθ＝FA\n解得v＝mgRsinθ\nB2L2\n（3）摩擦生热Qf＝mgdcosθ，\n能量守恒有3μmgdcosθ＝Q＋Qf＋1\n2mv2，\n解得焦耳热Q＝2μmgdcosθ－m3g2R2sin2θ\n2B4L4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -309,22 +435,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q013-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q013-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q14",
       "content": "（16 分）某装置用磁场控制带电粒子的运动，工作原理如图所示。装置的长为L，上下两个相同的矩\n形区域内存在匀强磁场，磁感应强度大小均为B、方向与纸面垂直且相反，两磁场的间距为d。装置右端\n有一收集板，M、N、P 为板上的三点，M 位于轴线OOʹ上，N、P 分别位于下方磁场的上、下边界上。在\n纸面内，质量为m、电荷量为－q 的粒子以某一速度从装置左端的中点射入，方向与轴线成30°角，经过上\n方的磁场区域一次，恰好到达P 点。改变粒子入射速度的大小，可以控制粒子到达收集板上的位置。不计\n粒子的重力。\n（1）求磁场区域的宽度h；\n（2）欲使粒子到达收集板的位置从P 点移到N 点，求粒子入射速度的最小变化量Δv；\n（3）欲使粒子到达M 点，求粒子入射速度大小的可能值。\n6 / 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设粒子在磁场中的轨道半径为r\n根据题意L＝3rsin30＋3dcos30，且h＝r（1－cos30）\n解得h＝（3\n2L－3d）（1－3\n2 ），\n（2）设改变入射速度后轨道半径为rʹ\nmv2/r＝qvB，mvʹ2/rʹ＝qvʹB\n由题意3rsin30＝4rʹsin30，得Δv＝v－vʹ＝qB\nm （L\n6－3\n4 d）\n（3）设粒子经过上方磁场n 次\n由题意L＝（2n＋2）dcos30＋（2n＋2）rnsin30\n且mvn2/rn＝qvnB，解得vn＝qB\nm （L\nn＋1－3d），（1≤n＜3L\n3d －1，n 取整数）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -332,22 +466,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q014-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q014-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2014/2014江苏.pdf#q15",
       "content": "（16 分）如图所示，生产车间有两个相互垂直且等高\n的水平传送带甲和乙，甲的速度为v0。小工件离开甲前与甲\n的速度相同，并平稳地传到乙上，工件与乙之间的动摩擦因\n数为μ。乙的宽度足够大，重力加速度为g。\n（1）若乙的速度为v0，求工件在乙上侧向（垂直于乙的运\n动方向）滑过的距离s；\n（2）若乙的速度为2v0，求工件在乙上刚停止侧向滑动时的\n速度大小v；\n（3）保持乙的速度2v0 不变，当工件在乙上刚停止滑动时，\n下一只工件恰好传到乙上，如此反复。若每个工件的质量均\n为m，除工件与传送带之间摩擦外，其他能量损耗均不计，\n求驱动乙的电动机的平均输出功率P－。\n7 / 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）摩擦力与侧向的夹角为45，侧向加速度为ax＝μgcos45\n匀变速直线运动 －2axs＝0－v02\n解得s＝2v02/2μg\n（2）设t＝0 时摩擦力与侧向的夹角为θ，侧向、纵向加速度的大小分别为ax、ay\n则ay/ax＝tanθ\n9 / 9\n在很小的时间Δt 内，侧向、纵向的速度增量Δvx＝axΔt，Δvy＝ayΔt\nΔvy/Δvx＝tanθ\n且由题意知tanθ＝vy/v，则vyʹ/vxʹ＝（vy－Δvy）/（v－Δvx）＝tanθ\n所以摩擦力方向不变\n则当vxʹ＝0 时，vyʹ＝0，即v＝2v0\n（3）工件在乙上滑动时侧向位移为x，沿乙的方向的位移为y\n由题意知ax＝μgcosθ，ay＝μgsinθ\n在侧向上\n－2axx＝0－v02\n纵向有2ayx＝4v02－0\n工件滑动时间为t＝2v0/ay\n乙前进的距离为y1＝2v0t\n工件相对乙的位移L＝\nx2＋（y1－y）2\n则系统产生的热量为Q＝μmgL\n电动机做功为W＝1\n2m（2v0）2－1\n2mv02＋Q\n解得P\n－＝W\nt ＝4 5\n5 μmgv0",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -355,11 +497,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014江苏.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q015-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q015-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f3618d80752cb2c-q015-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

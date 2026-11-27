@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
   "name": "2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 2,
+    "reviewCount": 10,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q01",
       "content": "一物块静止在粗糙的水平桌面上。从某时刻开始，物块受到一方向不变的水平拉力作用。假设物块与\n桌面间的最大静摩擦力等于滑动摩擦力。以a 表示物块的加速度大小，F 表示水平拉力的大小。能正确描\n述F 与a 之间的关系的图像是（    ）\n（A）             （B）            （C）           （D）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q02",
       "content": "如图，在固定斜面上的一物块受到一外力F 的作用，F 平行于斜面向上。若要物块\n在斜面上保持静止，F 的取值应有一定范围，已知其最大值和最小值分别为F1 和F2（F2\n＞0）。由此可求出（    ）\n（A）物块的质量\n（B）斜面的倾角\n（C）物块与斜面间的最大静摩擦力\n（D）物块对斜面的正压力",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -56,22 +73,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q03",
       "content": "如图，在光滑水平桌面上有一边长为L、电阻为R 的正方形导线框；在导线\n框右侧有一宽度为d（d＞L）的条形匀强磁场区域，磁场的边界与导体框的一边\n平行，磁场方向竖直向下，导线框以某一初速度向右运动，t＝0 时导线框的的右\n边恰与磁场的左边界重合，随后导线框进入并通过磁场区域。下列v-t 图像中，可\n能正确描述上述过程的是（    ）\n（A）             （B）            （C）            （D）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -79,22 +110,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q04",
       "content": "空间有一圆柱形匀强磁场区域，该区域的横截面的半径为R，磁场方向垂直横截面。一质量为m、电\n荷量为q（q＞0）的粒子以速率v0 沿横截面的某直径射入磁场，离开磁场时速度方向偏离入射方向60°。\n不计重力，该磁场的磁感应强度大小为（    ）\n（A）3mv0\n 3qR\n（B）mv0\n qR\n（C）3mv0\n qR\n（D）3mv0\n qR\na\nF\nO\na\nF\nO\na\nF\nO\na\nF\nO\nO\nt\nv\nO\nt\nv\nO\nt\nv\nO\nt\nv\nF\nd\nL\n2 / 8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -102,22 +143,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q05",
       "content": "如图，在光滑绝缘水平面上，三个带电小球a、b 和c 分别位于边长为l 的正\n三角形的三个顶点上；a、b 带正电，电荷量均为q，c 带负电。整个系统置于方向\n水平的匀强电场中。已知静电力常量为k。若三个小球均处于静止状态，则匀强电\n场场强的大小为（    ）\n（A）3kq\n 3l2\n（B）3kq\n l2\n（C）3kq\n l2\n（D）2 3kq\n l2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -125,22 +172,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q06",
       "content": "在物理学发展过程中，观测、实验、假说和逻辑推理等方法都起到了重要作用。下列叙述符合史实的是\n（    ）\n（A）奥斯特在实验中观察到电流的磁效应，该效应解释了电和磁之间存在联系\n（B）安培根据通电螺线管的磁场和条形磁铁的磁场的相似性，提出了分子电流假说\n（C）法拉第在实验中观察到，在通有恒定电流的静止导线附近的固定导线圈中，会出现感应电流\n（D）楞次在分析了许多实验事实后提出，感应电流应具有这样的方向，即感应电流的磁场总要阻碍引起\n感应电流的磁通量的变化",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -148,22 +205,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q07",
       "content": "目前，在地球周围有许多人造地球卫星绕着它运转，其中一些卫星的轨道可近似为圆，且轨道半径逐渐变小。\n若卫星在轨道半径逐渐变小的过程中，只受到地球引力和稀薄气体阻力的作用，则下列判断正确的是（     ）\n（A）卫星的动能逐渐减小\n（B）由于地球引力做正功，引力势能一定减小\n（C）由于气体阻力做负功，地球引力做正功，机械能保持不变\n（D）卫星克服气体阻力做的功小于引力势能的减小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -171,22 +234,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q08",
       "content": "公路急转弯处通常是交通事故多发地带。如图，某公路急转弯处是一圆弧，当汽车行驶的速率为 vc 时，\n汽车恰好没有向公路内外两侧滑动的趋势。则在该弯道处（    ）\n（A）路面外侧高内侧低\n（B）车速只要低于 vc，车辆便会向内侧滑动\n（C）车速虽然高于 vc，但只要不超出某一最高限度，车辆便不会向外侧滑动\n（D）当路面结冰时，与未结冰时相比，vc 的值变小\n第II 卷",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -194,22 +263,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q09",
       "content": "（8 分）某同学利用下述装置对轻质弹簧的弹性势能进行探究：一轻质弹簧放置在光滑水平桌面上，\n弹簧左端固定，右端与一小球接触而不固连；弹簧处于原长时，小球恰好在桌面\n边缘，如图（a）所示。向左推小球，使弹黄压缩一段距离后由静止释放；小球离\n开桌面后落到水平地面。通过测量和计算，可求得弹簧被压缩后的弹性势能。\n回答下列问题：\n（1）本实验中可认为，弹簧被压缩后的弹性势能Ep 与小球抛出时的动能Ek 相\n等。已知重力加速度大小为g。为求得Ek，至少需要测量下列物理量中的________（填正确答案标号）。\n（A）小球的质量m\n（B）小球抛出点到落地点的水平距离s\n（C）桌面到地面的高度\n（D）弹簧的压缩量Δx\n（E）弹簧原长l0\n（2）用所选取的测量量和已知量表示Ek，得Ek＝_________。\na\nb\nc\n内侧\n外侧\n公\n路\n图（a）\n3 / 8\n（3）图（b）中的直线是实验测量得到的s-Δx 图线。从理论上可推出，如果h 不变，\nm 增加，s-Δx 图线的斜率会______（填“增大”、“减小”或“不变”）；如果m 不变，\nh 增加，s-Δx 图线的斜率会______（填“增大”、“减小”或“不变”）。由图（b）中给\n出的直线关系和Ek 的表达式可知，Ep 与Δx 的________次方成正比。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -217,22 +296,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q10",
       "content": "（7 分）\n某同学用量程为1mA、内阻为120Ω 的表头按图（a）所示电路改装成量程分别为1V 和1A 的多用电表。\n图中R1 和R2 为定值电阻，S 为开关。回答下列问题：\n（1）根据图（a）所示的电路，在图（b）所示的实物图上连线。\n（2）开关S 闭合时，多用电表用于测量_______（填“电流”、“电压”或“电阻”）；开关S 断开时，多用\n电表用于测量_______（填“电流”、“电压”或“电阻”）。\n（3）表笔A 应为_______色（填“红”或“黑”）。\n（4）定值电阻的阻值R1＝_________Ω，R2＝________Ω。（结果取3 位有效数字）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）如右图\n（2）电流，电压\n（3）黑\n（4）1.00，880",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -240,11 +330,97 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q010-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q11",
+      "content": "（14 分）如图，匀强电场中有一半径为r 的光滑绝缘圆轨道，轨道平面与电场方向平行。a、b 为轨道\n直径的两端，该直径与电场方向平行。一电荷量为q（q＞0）的质点沿轨道内侧运动，\n经过a 点和b 点时对轨道压力的大小分别为Na 和Nb。不计重力，求电场强度的大小\nE、质点经过a 点和b 点时的动能。",
+      "answer": "暂无结构化答案",
+      "analysis": "质点所受电场力的大小为\nf\nqE\n=\n                               ①\n设质点质量为m，经过a 点和b 点时的速度大小分别为va 和vb，由牛顿第二定律有\nmA +\nR2\nR1\nS\n表笔A\n表笔B\n图（a）\nmA\n表笔A\n表笔B\nR2\nR1\nS\nmA\n表笔A\n表笔B\nR2\nR1\nS\n图（b）\na\nb\nE\nr\n+\n+\n+\n+\n+\nΔx\ns\nO\n图（b）\n4 / 8\n2\na\na\nv\nf\nN\nm r\n+\n=\n                          ②\n2\nb\nb\nv\nN\nf\nm r\n−\n=\n                           ③\n设质点经过a 点和b 点时的动能分别为Eka 和Ekb，有\n2\n1\n2\nka\na\nE\nmv\n=\n                             ④\n2\n1\n2\nkb\nb\nE\nmv\n=\n                             ⑤\n根据动能定理有\n2\nkb\nka\nE\nE\nrf\n−\n=\n                         ⑥\n联立①②③④⑤⑥式得\nE＝1\n6q （Nb－Na），，                       ⑦\nEka＝r\n12 （Nb＋5Na）                     ⑧\nEkb＝r\n12 （5Nb＋Na）                     ⑨",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q011-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf#q12",
+      "content": "（18 分）一长木板在水平地面上运动，在t＝0 时刻将一相对于地面静止的物\n块轻放到木板上，以后木板运动的速度-时间图像如图所示。己知物块与木板的质\n量相等，物块与木板间及木板与地面间均有摩擦，物块与木板间的最大静摩擦力等\n于滑动摩擦力，且物块始终在木板上。取重力加速度的大小g＝10m/s2，求：\n（1）物块与木板间、木板与地面间的动摩擦因数；\n（2）从t＝0 时刻到物块与木板均停止运动时，物块相对于木板的位移的大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）从t＝0 时开始，木板与物块之间的摩擦力使物块减速，此过程一直持续到物块和木板具有共\n同速度为止。\n由图可知，在t1＝0.5s 时，物块和木板的速度相同，设t＝0 到t＝t1 时间间隔内，物块和木板的加速度大小\n分别为a1 和a2，则\n1\n1\n1\nv\na\nt\n=\n                                  ①\n0\n1\n2\n1\nv\nv\na\nt\n−\n=\n                              ②\n式中v0＝5m/s，v1＝1m/s 分别为木板在t＝0、t＝t1 时速度的大小。\n设物块和木板为m，物块和木板间、木板与地面间的动摩擦因数分别为μ1 和μ2，由牛顿第二定律得\n1\n1\nmg\nma\n\n=\n                              ③\nv/(ms-1)\nt/s\n0\n1\n5\n0.5\n5 / 8\n1\n2\n2\n(\n2\n)mg\nma\n\n\n+\n=\n                      ④\n联立①②③④式得\nμ1＝0.20                                ⑤\nμ2＝0.30                                            ⑥\n（2）在t1 时刻后，地面对木板的摩擦力阻碍木板运动，物块与木板之间的摩擦力改变方向。设物块与木板\n之间的摩擦力大小为f，物块和木板的加速度大小分别为\n1a和\n2\na，则由牛顿第二定律得\n1\nf\nma\n=\n                                 ⑦\n2\n2\n2\nmg\nf\nma\n\n\n−\n=\n                         ⑧\n假设\n1\nf\nmg\n\n\n，则\n1\n2\na\na\n\n\n=\n；由⑤⑥⑦⑧式得\n2\n1\nf\nmg\nmg\n\n\n=\n\n，与假设矛盾，故\n1\nf\nmg\n\n=\n                                 ⑨\n由⑦⑨式知，物块的加速度的大小\n1a等于a1；物块的v-t 图象如图中点划线所示。\n       由运动学公式可推知，物块和木板相对于地面的运动距离分别为\n2\n1\n1\n1\n2\n2\nv\ns\na\n=\n\n                                ⑩\n2\n0\n1\n1\n2\n1\n2\n2\n2\nv\nv\nv\ns\nt\na\n+\n=\n+\n\n                         ○\n11\n物块相对于木板的位移的大小为\n2\n1\ns\ns\ns\n=\n−\n                                  ○\n12\n联立①⑤⑥⑧⑨⑩○\n11 ○\n12 式得 s＝1.125m                       ○\n13\n（二）选考题：共45 分。请考生从给出的3 道物理题、3 道化学题、2 道生物题中每科任选\n一题作答，并用2B 铅笔在答题卡上把所选题目的题号方框涂黑。注意所做题目的题号必须与\n所涂题目的题号一致，在答题卡选答区域指定位置答题。如果不涂、多涂均按所答第一题评\n分；多答则每学科按所答第一题评分。\n33．【物理——选修3-3】（15 分）\n（1）（5 分）关于一定量的气体，下列说法正确的是_______（填正确答案标号。选对1 个得2 分，选对2\n个得4 分，选对3 个得5 分；每选错1 个扣3 分，最低得分为0 分）。\n（A）气体的体积指的是该气体的分子所能到达的空间的体积，而不是该气体所有分子体积之和\n（B）只要能减弱气体分子热运动的剧烈程度，气体的温度就可以降低\n（C）在完全失重的情况下，气体对容器壁的压强为零\n（D）气体从外界吸收热量，其内能一定增加\n（E）气体在等压膨胀过程中温度一定升高\nv/(ms-1)\nt/s\n0\n1\n5\n0.5\n6 / 8\n（2）（10 分）如图，一上端开口、下端封闭的细长玻璃管竖直放置。玻璃管的下部封有长l1＝\n25.0cm 的空气柱，中间有一段长l2＝25.0cm 的水银柱，上部空气柱的长度l3＝40.0cm。已知大\n气压强为p0＝75.0cmHg。现将一活塞（图中未画出）从玻璃管开口处缓慢往下推，使管下部空\n气柱长度变为l1ʹ＝20.0cm。假设活塞下推过程中没有漏气，求活塞下推的距离。\n以cmHg 为压强单位。在活塞下推时，玻璃管下部空气柱的压强为\n1\n0\n2\np\np\nl\n=\n+\n                                ①\n设活塞下推后，下部空气柱的压强为\n1p，由玻意耳定律得\n1 1\n2 2\np l\np l\n=\n                                 ②\n如图，设活塞下推距离为l\n，则此时玻璃管上部空气柱的长度为\n3\n3\n1\n1\nl\nl\nl\nl\nl\n\n\n=\n+\n−\n−                          ③\n设此时玻璃管上部空气柱的压强为\n3p，则\n3\n1\n2\np\np\nl\n\n\n−\n−\n                                ④\n由玻意耳定律得\n0 3\n3 3\np l\np l\n=\n                                 ⑤\n由①至⑤式及题给数据解得\nΔl＝15.0cm                                  ⑥\n34．【物理——选修3-4】（15 分）\n（1）（5 分）如图，一轻弹簧一端固定，另一端连接一物块构成弹簧振子，该物\n块是由a、b 两个小物块粘在一起组成的。物块在光滑水平面上左右振动 ，振幅\n为A0，周期为T0。当物块向右通过平衡位置时，a、b 之间的粘胶脱开；以后小\n物块a 振动的振幅和周期分别为A 和T，则A________A0（填“＞”、“＜”或“＝”），T_____T0（填“＞”、\n“＜”或“＝”）。\n（2）（10 分）如图，三棱镜的横截面为直角三角形ABC，∠A＝30°，∠B＝60°。\n一束平行于AC 边的光线自AB 边的P 点射入三棱镜，在AC 边发生反射后从BC\n边的M 点射出，若光线在P 点的入射角和在M 点的折射角相等，\n（i）求三棱镜的折射率；\n（ii）在三棱镜的AC 边是否有光线透出，写出分析过程。（不考虑多次反射）\n（i）光路图如图所示，图中N 点为光线在AC 边发生反射的入射点。设光线在P 点的入射角为i、\n折射角为r，在M 点的入射角为r、折射角依题意也为i，有\n0\n60\ni =\n                            ①\n由折射定律有\n               sin\nsin\ni\nn\nr\n=\n                       ②\nsin\nsin\nn\nr\ni\n=\n                      ③\nl1\nl2\nl3\nb\na\nl2\nA\nC\nB\nP\nM\nA\nC\nB\nP\nM\nO\nN\n7 / 8\n由②③式得     r\nr\n=\n                             ④\nOO为过M 点的法线，\nC\n\n为直角，OO∥AC，由几何关系有\nMNC\nr\n\n=\n                        ⑤\n由发射定律可知\nPNA\nMNC\n\n= \n                    ⑥\n联立④⑤⑥式得\nPNA\nr\n\n=\n                          ⑦\n由几何关系得 r＝300                             ⑧\n联立①②⑧式得\n3\nn =\n                            ⑨\n        （ii）设在N 点的入射角为i，由几何关系得\n0\n60\ni=\n                            ⑩\n 此三棱镜的全反射临界角满足\nsin\n1\nC\nn\n=\n                         ○\n11\n由○\n9 ○\n10 ○\n11 式得\nC\ni\n\n\n                             ○\n12\n此光线在N 点发生全反射，三棱镜的AC 边没有光线透出。\n35．【物理—选修3-5】（15 分）\n（1）（5 分）关于原子核的结合能，下列说法正确的是_________（填正确答案标号。选对1 个得2 分，选\n对2 个得4 分，选对3 个得5 分；每选错1 个扣3 分，最低得分为0 分）。\n（A）原子核的结合能等于使其完全分解成自由核子所需的最小能量\n（B）一重原子核衰变成α 粒子和另一原子核，衰变产物的结合能之和一定大于原来重核的结合能\n（C）铯原子核（13355Cs）的结合能小于铅原子核（20882Pb）的结合能\n（D）比结合能越大，原子核越不稳定\n（E）自由核子组成原子核时，其质量亏损所对应的能量大于该原子核的结合能\n（2）（10 分）如图，光滑水平直轨道上有三个质量均为m 的物块A、B、C。B 的左侧固定一轻弹簧（弹\n簧左侧的挡板质最不计）。设A 以速度v0 朝B 运动，压缩弹簧；当A、B 速度相等时，B 与C 恰好相碰并\n粘接在一起，然后继续运动。假设B 和C 碰撞过程时间极短。求从A 开始压缩弹簧直至与弹簧分离的过\n程中，\n（1）整个系统损失的机械能；\n（2）弹簧被压缩到最短时的弹性势能。\n（i）从A 压缩弹簧到A 与B 具有相同速度v1 时，对A、B 与弹簧组成的系统，由动量守恒定律\n得\n0\n1\n2\nmv\nmv\n=\n                             ○\n1\n此时B 与C 发生完全非弹性碰撞，设碰撞后的瞬时速度为v2，损失的机械能为ΔE。对B、C 组成的系统，\n由动量守恒和能量守恒定律得\n1\n2\n2\nmv\nmv\n=\n                             ○\n2\nA\nB\nC\nv0\n8 / 8\n2\n2\n1\n2\n1\n1 (2 )\n2\n2\nmv\nE\nm v\n= \n+\n                  ○\n3\n联立○\n1 ○\n2 ○\n3 式得\nΔE＝1\n16 mv02                                   ○\n4\n（ii）由○\n2 式可知\n2\n1\nv\nv\n\n，A 将继续压缩弹簧，直至A、B、C 三者速度相同，设此时速度为v3，此时弹簧\n被压缩至最短，其弹性势能为Ep。由动量守恒和能量守恒定律得\n0\n3\n3\nmv\nmv\n=\n                             ○\n5\n2\n2\n0\n3\n1\n1 (3 )\n2\n2\np\nmv\nE\nm v\nE\n−\n=\n+\n              ○\n6\n联立○\n4 ○\n5 ○\n6 式得\nEp＝13\n48 mv02                                  ○\n7",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013新课标2理综(内蒙古,辽宁,吉林,黑龙江,贵州,云南,西藏,甘肃,青海,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 8,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p006-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bf1ec519a5576011-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 0,
+    "assigned": 17,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

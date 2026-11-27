@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1958/1958北京.pdf",
   "name": "1958北京",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 11,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q01",
       "content": "解方程𝑥−5 = √𝑥+ 7。\n(5 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q02",
       "content": "已知lg 2 = 0.3010，试利用对数性质判定27 ⋅811 ⋅510 是几位数。\n(5 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q03",
       "content": "由50 个不同的元素中选47 个，问有多少种选法？\n(6 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q04",
       "content": "求tan (arctan 5\n6 −arctan 3\n8) 之值。\n(6 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q05",
       "content": "在△𝐴𝐵𝐶中，已知∠𝐴= 135∘，∠𝐵= 15∘，𝐶= 1。问三角形的最大边长是多少？\n(6 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q06",
       "content": "过球面上的两个不同点能作几个大圆？为什么？\n(6 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q07",
       "content": "自30∘的二面角的一个面上一点𝐴作另一个面的垂线，垂足是𝐵，若已知𝐴𝐵的长是𝑎，求𝐴点到二\n面角的棱的距离。\n(6 分)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q08",
       "content": "已知二次函数𝑦= 3 + 2𝑥−𝑥2。\n(15 分)\n(1) 问𝑥在什么范围内𝑦> 0？又𝑥在什么范围内𝑦< 0？\n(2) 求出这个函数图象的顶点坐标和对称轴方程。\n(3) 画出这个函数的图象。\n二",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q09",
       "content": "设sin 𝛼和sin 𝛽是方程\n𝑥2 −(√2 cos 20∘) 𝑥+ (cos2 20∘−1\n2) = 0\n的两根，其中𝛼，𝛽是锐角，求𝛼，𝛽的度数。\n(15 分)\n三",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q10",
       "content": "有甲、乙两容器，甲容器是直圆柱形，高2 寸，底半径1 寸，乙容器是直圆锥形（锥底向上）高2 寸，\n底面半径2√3 寸，若将甲容器灌满水，然后把甲容器的一部分水倒入乙容器使得甲乙两容器的水面一样\n高，问这时水面的高度是多少？\n(15 分)\n四",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1958/1958北京.pdf#q11",
       "content": "已知\n⌢\n𝐴𝐵是⊙𝑂上含120∘的弧，过𝐴，𝐵两点所引⊙𝑂的切线交于𝐶，⊙𝑀是与\n⌢\n𝐴𝐵，𝐴𝐶，𝐵𝐶都相\n切的圆，求证⊙𝑀的周长等于⊙𝑂的周长的1\n3。\n(15 分)\n𝑂\n𝑀\n𝐴\n𝐵",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1958,
       "subject": "数学",
@@ -263,11 +334,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1958/1958北京.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-f9e2aa199a07a75f-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-f9e2aa199a07a75f-q011-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

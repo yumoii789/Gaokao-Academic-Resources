@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2013/2013陕西理.pdf",
   "name": "2013陕西理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q01",
       "content": "设全集为R, 函数f (x) =\n√\n1 −x2 的定义域为M, 则∁RM 为\n(\n)\n(A) [−1, 1]\n(B) (−1, 1)\n(C) (−∞, −1] ∪[1, +∞)\n(D) (−∞, −1) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q02",
       "content": "根据下列算法语句, 当输入x 为60 时, 输出y 的值为\n(\n)\n输入x;\nIf x ⩽50 Then\ny = 0.5 ∗x\nElse\ny = 25 + 0.6 ∗(x −50)\nEnd If\n输出y.\n(A) 25\n(B) 30\n(C) 31\n(D) 61",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q03",
       "content": "设a, b 为向量, 则“|a · b| = |a| |b|”是“a\nb”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q04",
       "content": "某单位有840 名职工, 现采用系统抽样方法, 抽取42 人做问卷调查, 将840\n人按1, 2, · · · , 840 随机编号, 则抽取的42 人中, 编号落入区间[481, 720]\n的人数为\n(\n)\n(A) 11\n(B) 12\n(C) 13\n(D) 14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q05",
       "content": "如图, 在矩形区域ABCD 的A, C 两点处各有一个通信基站, 假设其信号\n覆盖范围分别是扇形区域ADE 和扇形区域CBF (该矩形区域内无其他\n信号来源, 基站工作正常). 若在该矩形区域内随机地选一地点, 则该地点\n无信号的概率是\n(\n)\nA\nD\nB\nC\nF\nE\n2\n1\n(A) 1 −π\n4\n(B) π\n2 −1\n(C) 2 −π\n2\n(D) π\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -125,22 +164,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q005-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q06",
       "content": "设z1, z2 是复数, 则下列命题中的假命题是\n(\n)\n(A) 若|z1 −z2| = 0, 则z1 = z2\n(B) 若z1 = z2, 则z1 = z2\n(C) 若|z1| = |z2|, 则z1 · z1 = z2 · z2 (D) 若|z1| = |z2|, 则z12 = z22",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -148,22 +198,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q07",
       "content": "设△ABC 的内角A, B, C 所对的边分别为a, b, c, 若b cos C + c cos B =\na sin A, 则△ABC 的形状为\n(\n)\n(A) 锐角三角形\n(B) 直角三角形\n(C) 钝角三角形\n(D) 不确定",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q08",
       "content": "设函数f (x) =\n\n\n\n\n\n(\nx −1\nx\n)6\n,\nx < 0,\n−√x,\nx ⩾0,\n则当x > 0 时, f [f (x)] 表达式的展\n开式中常数项为\n(\n)\n(A) −20\n(B) 20\n(C) −15\n(D) 15",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -194,22 +256,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q09",
       "content": "在如图所示的锐角三角形空地中, 欲建一个面积不小于300 m2 的内接矩\n形花园(阴影部分), 则其边长x (单位m) 的取值范围是\n(\n)\nx\n40 m\n40 m\n(A) [15, 20]\n(B) [12, 25]\n(C) [10, 30]\n(D) [20, 30]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -217,22 +285,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q10",
       "content": "设[x] 表示不大于x 的最大整数, 则对任意实数x, y, 有\n(\n)\n(A) [−x] = −[x]\n(B) [2x] = 2 [x]\n(C) [x + y] ⩽[x] + [y]\n(D) [x −y] ⩽[x] −[y]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -240,22 +318,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q11",
       "content": "双曲线x2\n16 −y2\nm = 1 的离心率为5\n4, 则m 等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -263,22 +347,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q12",
       "content": "某几何体的三视图如图所示, 则其体积为\n.\n俯视图\n主视图\n左视图\n1\n1\n1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -286,22 +376,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q13",
       "content": "若点(x, y) 位于曲线y = |x −1| 与y = 2 所围成的封闭区域, 则2x −y 的\n最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -309,22 +409,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q14",
       "content": "观察下列等式:\n12 = 1\n12 −22 = −3\n12 −22 + 32 = 6\n12 −22 + 32 −42 = −10\n· · · · · ·\n照此规律, 第n 个等式可为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q15",
       "content": "已知a, b, m, n 均为正数, 且a + b = 1, mn = 2, 则(am + bn) (bm + an)\n的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -355,22 +471,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q16",
       "content": "如图, 弦AB 与CD 相交于⊙O 内一点E, 过E 作BC 的平行线与AD\n的延长线相交于点P. 已知PD = 2DA = 2, 则PE =\n.\nA\nE\nB\nO\nC\nD\nP\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -378,22 +500,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q17",
       "content": "如图, 以过原点的直线的倾斜角θ 为参数, 则圆x2 + y2 −x = 0 的参数方\n程为\n.\nx\ny\nO\nθ\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -401,22 +533,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q18",
       "content": "已知向量a =\n(\ncos x, −1\n2\n)\n, b =\n(√\n3 sin x, cos 2x\n)\n, x ∈R, 设函数\nf (x) = a · b.\n(1) 求f (x) 的最小正周期.\n(2) 求f (x) 在\n[\n0, π\n2\n]\n上的最大值和最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -424,22 +566,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q19",
       "content": "设{an} 是公比为q 的等比数列.\n(1) 推导{an} 的前n 项和公式;\n(2) 设q̸ = 1, 证明数列{an + 1} 不是等比数列.\n837",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -447,22 +599,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q20",
       "content": "如图, 四棱柱ABCD −A1B1C1D1 的底面ABCD 是正方形, O 为底面中\n心, A1O ⊥平面ABCD, AB = AA1 =\n√\n2.\n(1) 证明: A1C ⊥平面BB1D1D;\n(2) 求平面OCB1 与平面BB1D1D 的夹角θ 的大小.\nA\nA1\nO\nB\nB1\nC\nC1\nD\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -470,22 +628,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-5e95ed210a745695-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q21",
       "content": "在一场娱乐晚会上, 有5 位民间歌手(1 至5 号) 登台演唱, 由现场数百名\n观众投票选出最受欢迎歌手. 各位观众须彼此独立地在选票上选3 名歌手,\n其中观众甲是1 号歌手的歌迷, 他必选1 号, 不选2 号, 另在3 至5 号中\n随机选2 名. 观众乙和丙对5 位歌手的演唱没有偏爱, 因此在1 至5 号中\n随机选3 名歌手.\n(1) 求观众甲选中3 号歌手且观众乙未选中3 号歌手的概率;\n(2) X 表示3 号歌手得到观众甲、乙、丙的票数之和, 求X 的分布列和数\n学期望.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -493,22 +661,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q22",
       "content": "已知动圆过定点A (4, 0), 且在y 轴上截得的弦MN 的长为8.\n(1) 求动圆圆心的轨迹C 的方程;\n(2) 已知点B (−1, 0), 设不垂直于x 轴的直线l 与轨迹C 交于不同的两点\nP, Q, 若x 轴是∠PBQ 的角平分线, 证明直线l 过定点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -516,22 +690,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013陕西理.pdf#q23",
       "content": "已知函数f (x) = ex, x ∈R.\n(1) 若直线y = kx + 1 与f (x) 的反函数的图象相切, 求实数k 的值;\n(2) 设x > 0, 讨论曲线y = f (x) 与曲线y = mx2 (m > 0) 公共点的个数;\n(3) 设a < b, 比较f (a) + f (b)\n2\n与f (b) −f (a)\nb −a\n的大小, 并说明理由.\n838",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -539,11 +719,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

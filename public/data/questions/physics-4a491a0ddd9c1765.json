@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010海南.pdf",
   "name": "2010海南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 19,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 19,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010海南.pdf#q01",
       "content": "1873 年奥地利维也纳世博会上，比利时出生的法国工程师格拉姆在布展中偶然接错了导线，把另一直\n流发电机发出的电接到了自己送展的直流发电机的电流输出端。由此而观察到的现象导致了他的一项重要\n发明，从而突破了人类在电能利用方中的一个瓶颈。此项发明是（    ）\n（A）新型直流发电机\n（B）直流电动机\n（C）交流电动机\n（D）交流发电机",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "直流发电机发电时接另一直流发电机，则另一直流发电机实际成了直流电动机，B 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,11 +44,567 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q02",
+      "content": "一金属圆环水平固定放置。现将一竖直的条形磁铁，在圆环上方沿圆环轴线从静止开始释放，在条形磁\n铁穿过圆环的过程中，条形磁铁与圆环（     ）\n（A）始终相互吸引\n（B）始终相互排斥\n（C）先相互吸引，后相互排斥\n（D）先相互排斥，后相互吸引",
+      "answer": "暂无结构化答案",
+      "analysis": "由楞次定律可知，当条形磁铁靠近圆环时，感应电流阻碍其靠近，是排斥力；当磁铁穿过圆环远\n离圆环时，感应电流阻碍其远离，是吸引力，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q03",
+      "content": "下列说法正确的是（    ）\n（A）若物体运动速率始终不变，则物体所受合力一定为零\n（B）若物体的加速度均匀增加，则物体做匀加速直线运动\n（C）若物体所受合力与其速度方向相反，则物体做匀减速直线运动\n（D）若物体在任意的相等时间间隔内位移相等，则物体做匀速直线运动",
+      "answer": "暂无结构化答案",
+      "analysis": "物体运动速率不变但方向可能变化，因此合力不一定为零，A 错；物体的加速度均匀增加，即加\n速度在变化，是非匀加速直线运动，B 错；物体所受合力与其速度方向相反，只能判断其做减速运动，但\n加速度大小不可确定，C 错；若物体在任意的相等时间间隔内位移相等，则物体做匀速直线运动，D 对。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q04",
+      "content": "如右图，M、N 和P 是以MN 为直径的半圈弧上的三点，O 点为半圆弧的\n圆心，∠MOP＝60°。电荷量相等、符号相反的两个点电荷分别置于M、N 两\n点，这时O 点电场强度的大小为E1；若将N 点处的点电荷移至P 点，则O\n点的场场强大小变为E2，E1 与E2 之比为（     ）\n（A）1∶2\n（B）2∶1\n（C）2∶A 3E\nA\n（D）4∶A 3E",
+      "answer": "暂无结构化答案",
+      "analysis": "依题意，每个点电荷在O 点产生的场强为\n1\n2\nE ，则当N 点处的点电荷移至\nP 点时，O 点场强如图所示，合场强大小为\n1\n2\n2\nE\nE =\n，则\n1\n2\n2\n1\nE\nE =\n，B 正确。\n60°\nP\nN\nO\nM\nE1/2\nE1/2\nE2\n2 / 10",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q05",
+      "content": "如右图，水平地面上有一楔形物块a ，其斜面上有一小物块b，b 与平行\n于斜面的细绳的一端相连，细绳的另一端固定在斜面上。a 与b 之间光滑，\na 和b 以共同速度在地面轨道的光滑段向左运动。当它们刚运行至轨道的粗\n糙段时（    ）\n（A）绳的张力减小，b 对a 的正压力减小\n（B）绳的张力增加，斜面对b 的支持力增加\n（C）绳的张力减小，地面对a 的支持力增加\n（D）绳的张力增加．地面对a 的支持力减小",
+      "answer": "暂无结构化答案",
+      "analysis": "在光滑段运动时，系统及物块b 处于平衡状态，因此有Tcosθ－Nsinθ＝0，\nTsinθ＋Ncosθ－mg＝0；当它们刚运行至轨道的粗糙段时，系统有水平向右的加速度，\n此时有两种可能，一是物块b 仍相对静止，竖直方向加速度为零，则Tsinθ＋Ncosθ\n－mg＝0 仍成立，但Tcosθ－Nsinθ＝ma＜0，因此绳的张力T 将减小，而地面对a 的\n支持力不变；二是物块b 相对于a 向上滑动，具有向上的加速度，是超重，因此绳\n的张力减小，地面对a 的支持力增大，C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q06",
+      "content": "在水平的足够长的固定木板上，一小物块以某一初速度开始滑动，经一段时间t 后停止。现将该木板改\n置成倾角为45°的斜面，让小物块以相同的初速度沿木板上滑。若小物块与木板之间的动摩擦因数为μ，则\n小物块上滑到最高位置所需时间与t 之比为（     ）\n（A）AAEA\n2\nE1＋μE\nA\n（B）AAEA\nμ\n1＋2 μ E\nA\n（C）AAEA\nμ\n2＋μE\nA\n（D）AAEA1＋μ\n2 μ E",
+      "answer": "暂无结构化答案",
+      "analysis": "木板水平时，小物块的加速度\n1a\ng\nµ\n=\n，设滑行初速度为\n0\nv ，则滑行时间为\n0\nt\ng\nµ\n= v\n；木板改成\n后，小物块上滑的加速度\n2\nsin 45\ncos45\n(1\n) 2\n2\nmg\nmg\ng\na\nm\nµ\nµ\n°+\n°\n+\n=\n=\n，滑行时间\n0\n0\n2\n(1\n) 2\nt\na\ng\nµ\n′ =\n=\n+\nv\nv\n，\n因此\n1\n2\n2\n1\na\nt\nt\na\nµ\nµ\n′ =\n= +\n，A 项正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q07",
+      "content": "下列说法正确的是（     ）\n（A）当线圈中电流不变时，线圈中没有自感电动势\n（B）当线圈中电流反向时，线圈中自感电动势的方向与线圈中原电流的方向相反\n（C）当线圈中电流增大时，线圈中自感电动势的方向与线圈中电流的方向相反\n（D）当线圈中电流减小时，线圈中自感电动势的方向与线圈中电流的方向相反",
+      "answer": "暂无结构化答案",
+      "analysis": "由法拉第电磁感应定律可知，当线圈中电流不变时，不产生自感电动势，A 对；当线圈中电流反\n向时，相当于电流减小，线圈中自感电动势的方向与线圈中原电流的方向相同，B 错；当线圈中电流增大\n时，自感电动势阻碍电流的增大，线圈中自感电动势的方向与线圈中电流的方向相反，C 对；当线圈中电\n流减小时，自感电动势阻碍电流的减小，线圈中自感电动势的方向与线圈中电流的方向相同，D 错。\nN\nmg\nT\nθ\na\nb\n左\n右\nθ\n3 / 10",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q08",
+      "content": "如右图，木箱内有一竖直放置的弹簧，弹簧上方有一物块，木箱静止时弹簧处于压缩状态\n且物块压在箱顶上。若在某一段时间内，物块对箱顶刚好无压力。则在此段时间内，木箱的\n运动状态可能为（     ）\n（A）加速下降\n（B）加速上升\n（C）减速上升\n（D）减速下降",
+      "answer": "暂无结构化答案",
+      "analysis": "木箱静止时物块对箱顶有压力，则物块受到顶向下的压力，当物块对箱顶刚好无压\n力时，表明系统有向上的加速度，是超重，BD 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q09",
+      "content": "如右图，一理想变压器原副线圈匝数之比为 4∶1，原线圈两端接入一正弦\n交流电源；副线圈电路中 R 为负载电阻，交流电压表和交流电流表都是理想\n电表．下列结论正确的是（    ）\n（A）若电压表读数为 6 V，则输入电压的最大值为 24 A 2E\nAV\n（B）若输入电压不变，副线圈匝数增加到原来的 2 倍，则电流表的读数减小到原来的一半\n（C）若输入电压不变，负载电阻的阻值增加到原来的 2 倍，则输入功率也增加到原来的 2 倍\n（D）若保持负载电阻的阻值不变．输入电压增加到原来的 2 倍，则输出功率增加到原来的 4 倍",
+      "answer": "暂无结构化答案",
+      "analysis": "若电压表读数为 6 V，则输入电压为\n1\n4\n6V\n24V\n1\nU =\n×\n=\n 是有效值，因此其最大值为 24 2 V，\nA 正确；\n若输入电压不变，副线圈匝数增加到原来的 2 倍，则输出电压也增加到原来的 2 倍，电流表示数应增加\n到原来的 2 倍，B 错；\n若输入电压不变，负载电阻的阻值增加到原来的 2 倍，则输出电流减小到原来的一半，输入功率等于输出\n功率即 P\nIU\n=\n也减小到原来的一半，C 错；\n若保持负载电阻的阻值不变，输入电压增加到原来的 2 倍，输出电压增大到原来的 2 倍，则由\n2\nU\nP\nR\n=\n可知输出功率增加到原来的 4 倍，D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q10",
+      "content": "火星直径约为地球的一半，质量约为地球的十分之一，它绕太阳公转的轨道半径约为地球公转半径的\n1.5 倍。根据以上数据，以下说法正确的是（     ）\n（A）火星表面重力加速度的数值比地球表面小\n（B）火星公转的周期比地球的长\n（C）火星公转的线速度比地球的大\n（D）火星公转的向心加速度比地球的大",
+      "answer": "暂无结构化答案",
+      "analysis": "由\n2\nMm\nG\nmg\nR\n=\n得\n2\nM\ng\nG R\n=\n，计算得火星表面的重力加速度约为地球表面的2\n5\n，A 正确；由\n2\n2\n2\n(\n)\nMm\nG\nm\nR\nr\nT\nπ\n=\n得\n3\n2\nr\nT\nGM\nπ\n=\n，公转轨道半径大的周期长，B 对；周期长的线速度小，（或由\nGM\nr\n=\nv\n判断轨道半径大的线速度小），C 错；公转向心加速度\n2\nM\na\nG r\n=\n，D 错。\n第Ⅱ卷\nA\nV\nR\n~\n4 / 10\n本卷包括必考题和选考题两部分。第11 题~第16 题为必考题，每个试题考生都必须做答。第17 题~第19\n题为选考题，考生根据要求做答。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q11",
+      "content": "利用静电除尘器可以消除空气中的粉尘．静电除尘器由金属管A 和悬在管中的金\n属丝B 组成，A 和B 分别接到高压电源正极和负极，其装置示意图如右图所示．A、B\n之间有很强的电场，距B 越近，场强__________（填：“越大”或“越小”）。B 附近的\n气体分子被电离成为电子和正离子，粉尘吸附电子后被吸附到_______（填“A”或“B”）\n上，最后在重力作用下落入下面的漏斗中。",
+      "answer": "暂无结构化答案",
+      "analysis": "电极截面如图所示，由电场线可判断越靠近B 场强越大；粉尘吸附电子后带\n负电，因此向正极A 运动。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q011-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q12",
+      "content": "雨滴下落时所受到的空气阻力与雨滴的速度有关，雨滴速度越大，它受到的空气阻力越大；此外，当\n雨滴速度一定时，雨滴下落时所受到的空气阻力还与雨滴半径的α 次方成正比（1≤α≤2）。假设一个大雨\n滴和一个小雨滴从同一云层同时下落，最终它们都_______（填“加速”、“减速”或“匀速”）下落。______\n（填“大”或“小”）雨滴先落到地面；接近地面时，______（填“大”或“小”）雨滴的速度较小。",
+      "answer": "暂无结构化答案",
+      "analysis": "由于雨滴受到的空气阻力与速度有关，速度越大阻力越大，因此最终当阻力增大到与重力平衡时\n都做匀速运动；设雨滴半径为r，则当雨滴匀速下落时受到的空气阻力f∝rα f\nrα\n∝\n，而重力mg＝ρA4\n3\nE\nAπr3，\n由于1≤α≤2，因此半径大的匀速运动的速度大，先落地且落地速度大，小雨滴落地速度小。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q13",
+      "content": "图1 为测量电压表V 内阻r 的电路原理图。图中两个固定电阻的阻值均为R，S1、S2 是开关，E 是电\n源（内阻可忽略）。\n（1）按电路原理图将图2 中的实物图连线；\n（2）开关S1 保持断开，合上开关S2，此时电压表的读数为U1；再合上开关S1，电压表的读数变为U2，\nA\nB\n+\nV\nE\nS2\nS1\nR\nR\n图1\n图2\nV\n电源\nR\nR\nS1\nS2\nE\nA\nB\n+\n5 / 10\n电压表内阻r＝___________（用U1、U2 和R 表示）。",
+      "answer": "暂无结构化答案",
+      "analysis": "开关\n1S 保持断开时，\n1\nRr\nR r\nRr\nR r\nR\nE\nU\n+\n+\n+\n=\n，合上开关\n1S ，则\n2\nE\nU\n=\n，解得\n1\n2\n1\n2\nU\nr\nR\nU\nU\n=\n−\n。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q013-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q013-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q013-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q013-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q013-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q14",
+      "content": "利用气垫导轨验证机械能守恒定律，实验装置示意图如图1 所示：\n（1）实验步骤：\n①将气垫导轨放在水平桌面上，桌面高度不低于1 m，将导轨调至水平；\n②用游标卡尺测量挡光条的宽度l，结果如图2 所示，由此读出l＝________mm；\n③由导轨标尺读出两光电门中心之间的距离s＝__________m；\n④将滑块移至光电门1 左侧某处，待砝码静止不动时，释放滑块，要求砝码落地前挡光条已通过光电门2；\n⑤从数字计时器（图1 中未画出）上分别读出挡光条通过光电门1 和光电门2 所用的时间Δt1 和Δt2；\n⑥用天平称出滑块和挡光条的总质量M，再称出托盘和砝码的总质量m。\n（2）用表示直接测量量的字母写出下列所示物理量的表达式：\n①滑块通过光电门1 和光电门2 时瞬时速度分别为v1＝__________和v2＝________。\n②当滑块通过光电门1 和光电门2 时，系统（包括滑块、挡光条、托盘和砝码）的总动能分别为Ek1＝\n___________和Ek2__________。\n③在滑块从光电门1 运动到光电门2 的过程中，系统势能的减少ΔEp＝__________（重力加速度为g）。\n（3）如果ΔEp＝______________，则可认为验证了机械能守恒定律。",
+      "answer": "暂无结构化答案",
+      "analysis": "由于挡光条宽度很小，因此将挡光条通过光电门时的平均速度当作瞬时速度。\nV\n电源\nR\nR\nS1\nS2\nE\n20\n21\n80\n81\ncm\nl\n光电门1\n光电门2\n定滑轮\n砝码\n挡光条\n滑块\n气垫导轨\n导轨标尺\ns\n图1\n10\ncm\n0\n20\n0\n1\n2\n主尺\n游标\n图2\n6 / 10",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q014-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q014-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q014-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q014-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q15",
+      "content": "右图中左边有一对平行金属板，两板相距为d，电压为U；\n两板之间有匀强磁场，磁感应强度大小为B0，方向与金属板面\n平行并垂直于纸面朝里。图中右边有一半径为R、圆心为O 的\n圆形区域内也存在匀强磁场，磁感应强度大小为B，方向垂直于\n纸面朝里。一电荷量为q 的正离子沿平行于全属板面、垂直于磁\n场的方向射入平行金属板之间，沿同一方向射出平行金属板之\n间的区域，并沿直径EF 方向射入磁场区域，最后从圆形区城边\n界上的G 点射出。已知弧FG 所对应的圆心角为θ，不计重力。\n求：\n（1）离子速度的大小；\n（2）离子的质量。",
+      "answer": "暂无结构化答案",
+      "analysis": "15．（1）由题设知，离子在平行金属板之间做匀速直线运动，它所受到的向上的磁场力和向下的电场力平\n衡\nqvB0＝qE0，\n式中，v 是离子运动速度的大小，E0 是平行金属板之间的匀强电场的强度，有\nE0＝AU\nd E\nA，解得：v＝A U\nB0d E\nA，\n（2）在圆形磁场区域，离子做匀速圆周运动，由洛仑兹力公式和牛顿第\n二定律有\nqvB＝mAv2\nr\nE\nA，\n式中，m 和r 分别是离子的质量和它做圆周运动的半径，由题设，离子从\n磁场边界上的点G 穿出，离子运动的圆周圆心Oʹ必在过E 点垂直于EF\n的直线上，且在EG 的垂直平分线上，由几何关系有\nr＝Rtanα，式中，α 是OOʹ与直径EF 的夹角，由几何半径有\n2α＋θ＝π，\n解得：\nm＝AqBB0Rd\nU\nE\nAcotAθ\n2 E\nA，\n                G\n         O’     ×  ×  ×\n             ×  ×R  × θ×  ×\n×  ×  ×   E      α  O       F\n             ×  ×  ×  ×  ×\n                ×  ×  ×B\nE\nF\nG\nO\nθ\nR\nB\n7 / 10",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q015-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q015-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q015-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q015-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q16",
+      "content": "图1 中，质量为m 的物块叠放在质量为2m 的足够长的木板上方右侧，木板放在光滑的水平地面上，\n物块与木板之间的动摩擦因数为μ＝0.2。在木板上施加一水平向右的拉力F，在0~3s 内F 的变化如图2 所\n示，图中F 以mg 为单位，重力加速度g＝10m/s2。整个系统开始时静止。\n（1）求1s、1.5s、2s、3s 末木板的速度以及2s、3s 末物块的速度；\n（2）在同一坐标系中画出0～3s 内木板和物块的v-t 图象，据此求0～3s 内物块相对于木板滑过的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设木板和物块的加速度分别为a 和a′ ，在t 时刻木板和物块的\n速度分别为\ntv 和\nt′v ，木板和物块之间摩擦力的大小为f ，依牛顿第二定律、\n运动学公式和摩擦定律得\nf\nma′\n=\n①\nf\nmg\nµ\n=\n，当\nt\nt\n′ <\nv\nv\n②\n2\n1\n2\n1\n(\n)\nt\nt\na t\nt\n′\n′\n′\n=\n+\n−\nv\nv\n③\n(2 )\nF\nf\nm a\n−\n=\n④\n2\n1\n2\n1\n(\n)\nt\nt\na t\nt\n=\n+\n−\nv\nv\n⑤\n由①②③④⑤式与题给条件得\nv1＝4m/s，v1.5＝4.5m/s，v2＝4m/s，v3＝4m/s\n⑥\nv2ʹ＝4m/s，v3ʹ＝4m/s\n⑦\n（2）由⑥⑦式得到物块与木板运动的\nt\n−\nv\n图象，如右图所示。在0～3s 内物块相对于木板的距离s\n∆等于\n木板和物块\nt\n−\nv\n图线下的面积之差，即图中带阴影的四边形面积，该四边形由两个三角形组成，上面的三\n角形面积为0.25（m），下面的三角形面积为2（m），因此\n2.25m\ns\n∆=\n⑧\n六、选考题：（请考生在第17、18、19 三题中选二题做答，如果多做，则按所做的第一、二题计分。做答\n时用2B 铅笔在答题卡上把所选题目的题号涂黑。计算题请写出必要的文字说明、方程式和演算步骤。）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q016-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q016-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q016-p007-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q016-p007-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q016-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q17",
+      "content": "【模块3－3 试题】（12 分）\n（1）（4 分）下列说法正确的是（填入正确选项前的字母，每选错一个扣2 分，最低得分为0 分）。\n（A）当一定质量的气体吸热时，其内能可能减小\n（B）玻璃、石墨和金刚石都是晶体，木炭是非晶体\n（C）单晶体有固定的熔点，多晶体和非晶体没有固定的熔点\n（D）当液体与大气相接触时，液体表面层内的分子所受其它分子作用力的合力总是指向液体内部\n（E）气体分子单位时间内与单位面积器壁碰撞的次数，与单位体积内气体的分子数和气体温度有关",
+      "answer": "暂无结构化答案",
+      "analysis": "一定质量的气体吸热时，如果同时对外做功，且做的功大于吸收的热量，则内能减小，（A）正确；\n玻璃是非晶体，（B）错；多晶体也有固定的熔点，（C）错；液体表面层内的分子液体内部分子间距离的密\n度都大于大气，因此分子力的合力指向液体内部，（D）正确；气体分子单位时间内与单位面积器壁碰撞的\n次数，决定气体的压强，因此与单位体积内分子数和气体的温度有关，（E）对。\nm\n2m\nF\n图1\nO\n1 1.5 2\n3\nt/s\n1\n0.4\nF/mg\n图2\nv/（m•s\n-1）\n1\n2\n3 t/s\n0\n4.5\n1.5\n4\n2\n物块\n木板\n8 / 10\n（2）（8 分）如右图，体积为V、内壁光滑的圆柱形导热气缸顶部有一质量和厚度均可忽略\n的活塞；气缸内密封有温度为2.4T0、压强为1.2p0 的理想气体。p0 和T0 分别为大气的压强\n和温度。已知：气体内能U 与温度T 的关系为U＝αT，α 为正的常量；容器内气体的所有\n变化过程都是缓慢的。求：\n（ⅰ）气缸内气体与大气达到平衡时的体积V1：\n（ⅱ）在活塞下降过程中，气缸内气体放出的热量Q。\n（ⅰ）在气体由压缩\n0\n1.2\np\np\n=\n下降到\n0p 的过程中，气体体积不变，温度由\n0\n2.4\nT\nT\n=\n变为\n1T ，由查理定律得\n0\n1\np\nT\nT\np\n=\n①\n在气体温度由\n1T 变为\n0T 的过程中，体积由V 减小到\n1V ，气体压强不变，由着盖·吕萨克定律得\n1\n1\n0\nT\nV\nV\nT\n=\n②\n由①②式得\n1\n1\n2\nV\nV\n=\n③\n（ⅱ）在活塞下降过程中，活塞对气体做的功为\n0\n1\n(\n)\nW\np V\nV\n=\n−\n④\n在这一过程中，气体内能的减少为\n1\n0\n(\n)\nU\nT\nT\nα\n∆\n=\n−\n⑤\n由热力学第一定律得，气缸内气体放出的热量为\nQ\nW\nU\n=\n+ ∆\n⑥\n由②③④⑤⑥式得\n0\n0\n1\n2\nQ\np V\nT\nα\n=\n+\n⑦",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q017-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q017-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q18",
+      "content": "模块3－4 试题（12 分）\n（1）（6 分）一光线以很小的入射角i 射入一厚度为d、折射率为n 的平板玻璃，求出射光线与入射光线之\n间的距离（θ 很小时，sinθ＝θ，cosθ＝1）",
+      "answer": "暂无结构化答案",
+      "analysis": "如图，设光线以很小的入射角i 入射到平板玻璃表面上的A 点，折射角为γ ，从平板玻璃另一表\n面上的B 点射出。设AC 为入射光线的延长线。由折射定律和几何关系可知，它与出射光线平行。过B 点\n作BD\nAC\n⊥\n，交AC 于D 点，则BD 的长度就是出射光线与入射光线之间的距离，由折射定律得\nsin\nsin\ni\nn\nγ =\n①\n由几何关系得\nBAD\ni\nγ\n∠\n= −\n②\ncos\nd\nAB\nγ\n=\n③\n活塞\n9 / 10\n出射光线与入射光线之间的距离为\nsin(\n)\nBD\nAB\ni\nγ\n=\n−\n④\n当入射角i 很小时，有\nsin\n,sin\n,sin(\n)\n,cos\n1\ni\ni\ni\ni\nγ\nγ\nγ\nγ\nγ\n=\n=\n−\n= −\n=\n由此及①②③④式得\n(\n1)\nn\nd\nBD\ni\nn\n−\n=\n⑤\n（2）（6 分）右图为某一报告厅主席台的平面图，AB 是\n讲台，S1、S2 是与讲台上话筒等高的喇叭，它们之间的相\n互位置和尺寸如图所示．报告者的声音放大后经喇叭传\n回话筒再次放大时可能会产生啸叫。为了避免啸叫，话筒\n最好摆放在讲台上适当的位置，在这些位置上两个喇叭\n传来的声音因干涉而相消。已知空气中声速为340 m/s，\n若报告人声音的频率为136 Hz，问讲台上这样的位置有\n多少个？\n相应于声频f = 136 Hz 的声波的波长是\nλ = Av\nf\nE\nA= 2.5 m\n①\n式中v = 340 m/s 是空气中的声速。在右图中，O 是AB 的中\n点，P 是OB 上任一点。将S1P – S2P 表示为\nS1P – S2P = k Aλ\n2\nE\nA\n②\n式中k 为实数，当k = 0，2，4…时，从两个喇叭来的声波因干\n涉而加强；当k = 1，3，5…时，从两个喇叭来的声波因干涉而\n相消。由此可知，O 是干涉加强点；对于B 点，\nS1B – S2B = (20 – 15)m = 4 A1\n2\nE\nAλ\n③\n所以，B 点也是干涉加强点。因而O、B 之间有两个干涉相消点，由对称性可知，AB 上有4 个干涉相消\n点。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q018-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q018-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q018-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4a491a0ddd9c1765-q018-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010海南.pdf#q19",
+      "content": "【模块3 一5 试题】（12 分）\n（1）（4 分）能量为Ei 的光子照射基态氢原子，刚好可使该原子中的电子成为自由电子，这一能量Ei 称为\n氢的电离能。现用一频率为ν 的光子从基态氢原子中击出了一电子，该电子在远离核后速度大小为\n_____________（用光子频率ν、电子质量m、氢的电离能Ei 与普朗克常量h 表示）",
+      "answer": "暂无结构化答案",
+      "analysis": "由能量守恒得\n2\n1\n2\ni\nm\nh\nE\nν\n=\n−\nv\n，解得电子速度为v＝AAEA\n2（hν－Ei）\nm\nE\nA。\n（2）（8 分）在核反应堆中，常用减速剂使快中子减速。假设减速剂的原子核质量是中子的k 倍，中子与\n原子核的每次碰撞都可看成是弹性正碰。设每次碰撞前原子核可认为上静止的，求N 次碰撞后中子速率与\n原速率之比。\n设中子和作减速剂的物质的原子核A 的质量分别为\nn\nm 和\nA\nm ，碰撞后速度分别为\nn′v 和\nA′v ，碰撞\nA\nB\nS1\nS2\n12m\n12m\n9m\n7m\n9m\n10 / 10\n前后的总动量和总能量守恒，有\nn\nn\nn\nn\nA\nA\nm\nm\nm\n′\n′\n=\n+\nv\nv\nv\n①\n2\n2\n2\nn\nn\nn\nn\n1\n1\n1\n2\n2\n2\nA\nA\nm\nm\nm\n′\n′\n=\n+\nv\nv\nv\n②\n式中\nn\nv 为碰撞前中子速度，由题设\nn\nA\nm\nkm\n=\n③\n由①②③式得，经1 次碰撞后中子速率与原速率之比为\nn\nn\n1\n1\nk\nk\n′\n−\n=\n+\nv\nv\n④\n经N 次碰撞后，中子速率与原速率之比为\n1\n(\n)\n1\nN\nk\nk\n−\n+\n⑤",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010海南.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 25,
+    "answerGraphics": 0,
+    "assigned": 25,
+    "rendered": 25,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015广东理.pdf",
   "name": "2015广东理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q01",
       "content": "若集合M = {x | (x + 4)(x + 1) = 0}, N = {x | (x −4)(x −1) = 0}, 则\nM ∩N =\n(\n)\n(A) {1, 4}\n(B) {−1, −4}\n(C) {0}\n(D) ∅",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q02",
       "content": "若复数z = i (3 −2i) (i 是虚数单位), 则z =\n(\n)\n(A) 2 −3i\n(B) 2 + 3i\n(C) 3 + 2i\n(D) 3 −2i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q03",
       "content": "下列函数中, 既不是奇函数, 也不是偶函数的是\n(\n)\n(A) y =\n√\n1 + x2\n(B) y = x + 1\nx\n(C) y = 2x + 1\n2x\n(D) y = x + ex",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q04",
       "content": "袋中共有15 个除了颜色外完全相同的球, 其中有10 个白球, 5 个红球. 从\n袋中任取2 个球, 所取的2 个球中恰有1 个白球, 1 个红球的概率为(\n)\n(A) 5\n21\n(B) 10\n21\n(C) 11\n21\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q05",
       "content": "平行于直线2x + y + 1 = 0 且与圆x2 + y2 = 5 相切的直线的方程是(\n)\n(A) 2x + y + 5 = 0 或2x + y −5 = 0\n(B) 2x + y +\n√\n5 = 0 或2x + y −\n√\n5 = 0\n(C) 2x −y + 5 = 0 或2x −y −5 = 0\n(D) 2x −y +\n√\n5 = 0 或2x −y −\n√\n5 = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q06",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\n4x + 5y ⩾8,\n1 ⩽x ⩽3,\n0 ⩽y ⩽2,\n则z = 3x + 2y 的最小值为(\n)\n(A) 4\n(B) 23\n5\n(C) 6\n(D) 31\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q07",
       "content": "已知双曲线C: x2\na2 −y2\nb2 = 1 的离心率e = 5\n4, 且其右焦点为F2 (5, 0), 则\n双曲线C 的方程为\n(\n)\n(A) x2\n4 −y2\n3 = 1 (B) x2\n9 −y2\n16 = 1 (C) x2\n16 −y2\n9 = 1\n(D) x2\n3 −y2\n4 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q08",
       "content": "若空间中n 个不同的点两两距离都相等, 则正整数n 的取值\n(\n)\n(A) 至多等于3\n(B) 至多等于4\n(C) 等于5\n(D) 大于5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q09",
       "content": "在(√x −1)\n4 的展开式中, x 的系数为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q10",
       "content": "在等差数列{an} 中, 若a3 + a4 + a5 + a6 + a7 = 25, 则a2 + a8 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q11",
       "content": "设△ABC 的内角A, B, C 的对边分别为a, b, c. 若a =\n√\n3, sin B = 1\n2,\nC = π\n6 , 则b =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q12",
       "content": "某高三毕业班有40 人, 同学之间两两彼此给对方仅写一条毕业留言, 那么\n全班共写了\n条毕业留言. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q13",
       "content": "已知随机变量X 服从二项分布B (n, p), 若E (X) = 30, D (X) = 20, 则\np =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q14",
       "content": "已知直线l 的极坐标方程为2ρ sin\n(\nθ −π\n4\n)\n=\n√\n2, 点A 的极坐标为\nA\n(\n2\n√\n2, 7π\n4\n)\n, 则点A 到直线l 的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q15",
       "content": "如图, 已知AB 是圆O 的直径, AB = 4, EC 是圆O 的切线, 切点为C,\nBC = 1. 过圆心O 作BC 的平行线, 分别交EC 和AC 于点D 和点P,\n则OD =\n.\nA\nB\nC\nO\nE\nP\nD\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +450,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q16",
       "content": "在平面直角坐标系xOy 中, 已知向量m\n=\n(√\n2\n2 , −\n√\n2\n2\n)\n, n\n=\n(sin x, cos x), x ∈\n(\n0, π\n2\n)\n.\n(1) 若m ⊥n, 求tan x 的值;\n(2) 若m 与n 的夹角为π\n3 , 求x 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +483,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q17",
       "content": "某工厂36 名工人的年龄数据如下表.\n工人编号\n年龄\n工人编号\n年龄\n工人编号\n年龄\n工人编号\n年龄\n1\n40\n10\n36\n19\n27\n28\n34\n2\n44\n11\n31\n20\n43\n29\n39\n3\n40\n12\n38\n21\n41\n30\n43\n4\n41\n13\n39\n22\n37\n31\n38\n5\n33\n14\n43\n23\n34\n32\n42\n6\n40\n15\n45\n24\n42\n33\n53\n7\n45\n16\n39\n25\n37\n34\n37\n8\n42\n17\n38\n26\n44\n35\n49\n9\n43\n18\n36\n27\n42\n36\n39\n(1) 用系统抽样法从36 名工人中抽取容量为9 的样本, 且在第一分段里用\n随机抽样法抽到的年龄数据为44, 列出样本的年龄数据;\n(2) 计算(1) 中样本的均值x 和方差s2;\n(3) 36 名工人中年龄在x −s 与x + s 之间有多少人? 所占的百分比是多\n少(精确到0.01%)?\n947",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +512,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q18",
       "content": "如图, 三角形PDC 所在的平面与长方形ABCD 所在的平面垂直, PD =\nPC = 4, AB = 6, BC = 3. 点E 是CD 边的中点, 点F, G 分别在线段\nAB, BC 上, 且AF = 2FB, CG = 2GB.\n(1) 证明: PE ⊥FG;\n(2) 求二面角P −AD −C 的正切值;\n(3) 求直线PA 与直线FG 所成角的余弦值.\nA\nP\nF\nE\nB\nC\nG\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +545,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c9b0b3d8af6f328a-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q19",
       "content": "设a > 1, 函数f (x) = (1 + x2) ex −a.\n(1) 求f (x) 的单调区间;\n(2) 证明: f (x) 在(−∞, +∞) 上仅有一个零点;\n(3) 若曲线y = f (x) 在点P 处的切线与x 轴平行, 且在点M (m, n) 处的\n切线与直线OP 平行(O 是坐标原点), 证明: m ⩽\n3\n√\na −2\ne −1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +578,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q20",
       "content": "已知过原点的动直线l 与圆C1: x2 + y2 −6x + 5 = 0 相交于不同的两点\nA, B.\n(1) 求圆C1 的圆心坐标;\n(2) 求线段AB 的中点M 的轨迹C 的方程;\n(3) 是否存在实数k, 使得直线L: y = k (x −4) 与曲线C 只有一个交点?\n若存在, 求出k 的取值范围; 若不存在, 说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,22 +607,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015广东理.pdf#q21",
       "content": "数列{an} 满足a1 + 2a2 + · · · + nan = 4 −n + 2\n2n−1 , n ∈N∗.\n(1) 求a3 的值;\n(2) 求数列{an} 的前n 项和Tn;\n(3) 令b1 = a1, bn = Tn−1\nn\n+\n(\n1 + 1\n2 + 1\n3 + · · · + 1\nn\n)\nan (n ⩾2), 证明: 数\n列{bn} 的前n 项和Sn 满足Sn < 2 + 2 ln n.\n948",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -493,11 +636,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

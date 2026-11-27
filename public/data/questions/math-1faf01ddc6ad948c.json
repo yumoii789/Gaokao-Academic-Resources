@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1981/1981理.pdf",
   "name": "1981理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 10,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q01",
       "content": "设A 表示有理数的集合, B 表示无理数的集合, 即设A = {有理数},\nB = {无理数}, 试写出:\n(1) A ∪B;",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q02",
       "content": "A ∩B.\n2. 在A、B、C、D 四位候选人中,\n(1) 如果选举正、副班长各一人, 共有几种选法? 写出所有可能的选举结果;\n(2) 如果选举班委三人, 共有几种选法? 写出所有可能的选举结果.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q03",
       "content": "下表所列各小题中, 指出A 是B 的充分条件, 还是必要条件, 还是充要条\n件, 或者都不是.\nA\nB\nA是B的什么条件\n四边形ABCD为平行四边形\n四边形ABCD为矩形\na = 3\n|a| = 3\nθ = 150◦\nsin θ = 1\n2\n点(a, b)在圆x2 + y2 = R2上\na2 + b2 = R2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q04",
       "content": "写出余弦定理(只写一个公式即可), 并加以证明.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q05",
       "content": "解不等式(x 为未知数):\n�������\nx −a\nb\n−c\na\nx −b\nc\n−a\nb\nx −c\n�������\n> 0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q06",
       "content": "用数学归纳法证明等式: cos x\n2 · cos x\n22 · cos x\n23 · · · · · cos x\n2n =\nsin x\n2n sin x\n2n\n. 对\n一切自然数n 都成立.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q07",
       "content": "设1980 年底我国人口以10 亿计算.\n(1) 如果我国人口每年比上年平均递增2%, 那么到2000 年底将达到多少?\n(2) 要使2000 年底我国人口不超过12 亿, 那么每年比上年平均递增率最\n高是多少?\n下列对数值可供选用:\nlg 1.0087 = 0.00377\nlg 1.0092 = 0.00396\nlg 1.0096 = 0.00417\nlg 1.0200 = 0.00860\nlg 1.2000 = 0.07918\nlg 1.3098 = 0.11720\nlg 1.4568 = 0.16340\nlg 1.4859 = 0.17200\nlg 1.5157 = 0.18060",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q08",
       "content": "在120◦的二面角P −a −Q 的两个面P 和Q 内, 分别有点A 和点B, 已\n知点A 和点B 到棱a 的距离分别为2 和4, 且线段AB = 10.\n(1) 求直线AB 和棱a 所成的角;\n(2) 求直线AB 和平面Q 所成的角.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q09",
       "content": "给定双曲线x2 −y2\n2 = 1.\n(1) 过点A(2, 1) 的直线L 与所给的双曲线交于两点P1 及P2, 求线段\nP1P2 的中点P 的轨迹方程;\n(2) 过点B(1, 1) 能否作直线m, 使m 与所给双曲线交于两点Q1 及Q2,\n且点B 是线段Q1Q2 的中点? 这样的直线m 如果存在, 求出它的方程; 如\n果不存在, 说明理由.\n附加题",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1981/1981理.pdf#q10",
       "content": "已知以AB 为直径的半圆有一个内接正方形CDEF, 其边长为1 (如\n图).\n设AC = a, BC = b, 作数列u1 = a −b, u2 = a2 −ab + b2,\nu3 = a3 −a2b + ab2 −b3, · · · , uk = ak −ak−1b + ak−2b2 −· · · + (−1)kbk; 求\n证: un = un−1 + un−2 (n ⩾3).\nA\nB\nC\nD\nE\nF\nO\n17",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1981,
       "subject": "数学",
@@ -240,11 +305,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1981/1981理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1faf01ddc6ad948c-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1faf01ddc6ad948c-q010-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

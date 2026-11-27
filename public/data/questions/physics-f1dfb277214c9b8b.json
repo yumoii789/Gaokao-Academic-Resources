@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2024/2024广东.pdf",
   "name": "2024广东",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q01",
-      "content": "将阻值为 50 Ω 的电阻接在正弦式交流电源上。电阻两端\n电压随时间的变化规律如图所示。下列说法正确的是（    ）\nA．该交流电的频率为 100 Hz\nB．通过电阻电流的峰值为 0.2 A\nC．电阻在 1 秒内消耗的电能为 1 J\nD．电阻两端电压表达式为 u = 10 2 sin(100πt)V\n【详解】A．由图可知交流电的周期为0.02s，则频率为\n1\n50Hz\nf\nT\n=\n=\n。故 A 错误；\nB．根据图像可知电压的峰值为 10 2 V，根据欧姆定律可知电流的峰值\nm\nm\n10 2V\n0.2 2A\n50Ω\nU\nI\nR\n=\n=\n=\n故 B 错误；\nC．电流的有效值为\nm\n0.2A\n2\nI\nI =\n=\n所以电阻在 1 s 内消耗的电能为\n2\n2\n0.2\n50 1J=2J\nW\nI Rt\n=\n=\n\n\n故 C 错误；\nD．根据图像可知其电压表达式为\n( )\n( )\nm\n2\nsin\n10 2 sin\nV\n10 2 sin100\nV\nu\nU\nt\nt\nt\nT\n\n\n\n=\n=\n=\n故 D 正确。\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "将阻值为 50 Ω 的电阻接在正弦式交流电源上。电阻两端\n电压随时间的变化规律如图所示。下列说法正确的是（    ）\nA．该交流电的频率为 100 Hz\nB．通过电阻电流的峰值为 0.2 A\nC．电阻在 1 秒内消耗的电能为 1 J\nD．电阻两端电压表达式为 u = 10 2 sin(100πt)V",
+      "answer": "D",
+      "analysis": "A．由图可知交流电的周期为0.02s，则频率为\n1\n50Hz\nf\nT\n=\n=\n。故 A 错误；\nB．根据图像可知电压的峰值为 10 2 V，根据欧姆定律可知电流的峰值\nm\nm\n10 2V\n0.2 2A\n50Ω\nU\nI\nR\n=\n=\n=\n故 B 错误；\nC．电流的有效值为\nm\n0.2A\n2\nI\nI =\n=\n所以电阻在 1 s 内消耗的电能为\n2\n2\n0.2\n50 1J=2J\nW\nI Rt\n=\n=\n\n\n故 C 错误；\nD．根据图像可知其电压表达式为\n( )\n( )\nm\n2\nsin\n10 2 sin\nV\n10 2 sin100\nV\nu\nU\nt\nt\nt\nT\n\n\n\n=\n=\n=\n故 D 正确。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -33,22 +44,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q02",
-      "content": "我国正在建设的大科学装置——“强流重离子加速器”。其科学目标之一是探寻神秘的\n“119 号”元素，科学家尝试使用核反应 Y + 24395Am→A119X + 210n 产生该元素。关于原子\n核 Y 和质量数 A，下列选项正确的是（    ）\nA．Y 为 5826Fe，A = 299\nB．Y 为 5826Fe，A = 301\nC．Y 为 5424Cr，A = 295\nD．Y 为 5424Cr，A = 297\n【详解】根据电荷数守恒设 Y 的质子数为 y，则有\ny + 95 = 119 + 0\n可得 y = 24\n即 Y 为 5424Cr；根据质量数守恒，则有\n54 + 243 = A + 2\n2 / 12\n可得 A = 295\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "我国正在建设的大科学装置——“强流重离子加速器”。其科学目标之一是探寻神秘的\n“119 号”元素，科学家尝试使用核反应 Y + 24395Am→A119X + 210n 产生该元素。关于原子\n核 Y 和质量数 A，下列选项正确的是（    ）\nA．Y 为 5826Fe，A = 299\nB．Y 为 5826Fe，A = 301\nC．Y 为 5424Cr，A = 295\nD．Y 为 5424Cr，A = 297",
+      "answer": "C",
+      "analysis": "根据电荷数守恒设 Y 的质子数为 y，则有\ny + 95 = 119 + 0\n可得 y = 24\n即 Y 为 5424Cr；根据质量数守恒，则有\n54 + 243 = A + 2\n2 / 12\n可得 A = 295\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -56,22 +75,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q03",
-      "content": "一列简谐横波沿 x 轴正方向传播。波速为 1 m/s，t =\n0 时的波形如图所示。t = 1 s 时，x = 1.5 m 处的质点相\n对平衡位置的位移为（    ）\nA．0\nB．0.1 m\nC．− 0.1 m\nD．0.2 m\n【详解】由图可知简谐波的波长为 λ = 2 m，所以周期为 T = λ\nv = 2 s。\n当 t = 1 s 时，x = 1.5 m 处的质点运动半个周期到达波峰处，故相对平衡位置的位移为 0.1\nm。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一列简谐横波沿 x 轴正方向传播。波速为 1 m/s，t =\n0 时的波形如图所示。t = 1 s 时，x = 1.5 m 处的质点相\n对平衡位置的位移为（    ）\nA．0\nB．0.1 m\nC．− 0.1 m\nD．0.2 m",
+      "answer": "B",
+      "analysis": "由图可知简谐波的波长为 λ = 2 m，所以周期为 T = λ\nv = 2 s。\n当 t = 1 s 时，x = 1.5 m 处的质点运动半个周期到达波峰处，故相对平衡位置的位移为 0.1\nm。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -79,22 +102,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q003-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q003-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q04",
-      "content": "电磁俘能器可在汽车发动机振动时利用电磁感\n应发电实现能量回收，结构如图甲所示。两对永磁\n铁可随发动机一起上下振动，每对永磁铁间有水平\n方向的匀强磁场，磁感应强度大小均为 B。磁场中，\n边长为 L 的正方形线圈竖直固定在减震装置上。某\n时刻磁场分布与线圈位置如图乙所示，永磁铁振动\n时磁场分界线不会离开线圈。关于图乙中的线圈。\n下列说法正确的是（    ）\nA．穿过线圈的磁通量为 BL2\nB．永磁铁相对线圈上升越高，线圈中感应电动势越大\nC．永磁铁相对线圈上升越快，线圈中感应电动势越小\nD．永磁铁相对线圈下降时，线圈中感应电流的方向为顺时针方向\n【详解】A．根据图乙可知此时穿过线圈的磁通量为 0，故 A 错误；\nBC．根据法拉第电磁感应定律可知永磁铁相对线圈上升越快，磁通量变化越快，线圈中感\n应电动势越大，故 BC 错误；\nD．永磁铁相对线圈下降时，根据楞次定律可知线圈中感应电流的方向为顺时针方向，故 D\n正确。\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "电磁俘能器可在汽车发动机振动时利用电磁感\n应发电实现能量回收，结构如图甲所示。两对永磁\n铁可随发动机一起上下振动，每对永磁铁间有水平\n方向的匀强磁场，磁感应强度大小均为 B。磁场中，\n边长为 L 的正方形线圈竖直固定在减震装置上。某\n时刻磁场分布与线圈位置如图乙所示，永磁铁振动\n时磁场分界线不会离开线圈。关于图乙中的线圈。\n下列说法正确的是（    ）\nA．穿过线圈的磁通量为 BL2\nB．永磁铁相对线圈上升越高，线圈中感应电动势越大\nC．永磁铁相对线圈上升越快，线圈中感应电动势越小\nD．永磁铁相对线圈下降时，线圈中感应电流的方向为顺时针方向",
+      "answer": "D",
+      "analysis": "A．根据图乙可知此时穿过线圈的磁通量为 0，故 A 错误；\nBC．根据法拉第电磁感应定律可知永磁铁相对线圈上升越快，磁通量变化越快，线圈中感\n应电动势越大，故 BC 错误；\nD．永磁铁相对线圈下降时，根据楞次定律可知线圈中感应电流的方向为顺时针方向，故 D\n正确。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -102,22 +133,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q05",
-      "content": "如图所示，在细绳的拉动下，半径为 r 的卷轴可绕其\n固定的中心点 O 在水平面内转动。卷轴上沿半径方向固\n定着长度为 l 的细管，管底在 O 点。细管内有一根原长\n为 l\n2 、劲度系数为 k 的轻质弹簧，弹簧底端固定在管底，\n顶端连接质量为 m、可视为质点的插销。当以速度 v 匀速\n拉动细绳时，插销做匀速圆周运动。若 v 过大，插销会卡进固定的端盖。使卷轴转动停止。\n忽略摩擦力，弹簧在弹性限度内。要使卷轴转动不停止，v 的最大值为（    ）\nA．r\nk\n2m\nB．l\nk\n2m  C．r\n2k\nm\nD．l\n2k\nm\n3 / 12\n【详解】由题意可知当插销刚卡紧固定端盖时弹簧的伸长量为 Δx = l\n2 ，根据胡克定律有\n2\nkl\nF\nk x\n= =\n插销与卷轴同轴转动，角速度相同，对插销有弹力提供向心力\n2\nF\nml\n=\n对卷轴有 v = rω\n联立解得 v = r\nk\n2m\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，在细绳的拉动下，半径为 r 的卷轴可绕其\n固定的中心点 O 在水平面内转动。卷轴上沿半径方向固\n定着长度为 l 的细管，管底在 O 点。细管内有一根原长\n为 l\n2 、劲度系数为 k 的轻质弹簧，弹簧底端固定在管底，\n顶端连接质量为 m、可视为质点的插销。当以速度 v 匀速\n拉动细绳时，插销做匀速圆周运动。若 v 过大，插销会卡进固定的端盖。使卷轴转动停止。\n忽略摩擦力，弹簧在弹性限度内。要使卷轴转动不停止，v 的最大值为（    ）\nA．r\nk\n2m\nB．l\nk\n2m  C．r\n2k\nm\nD．l\n2k\nm\n3 / 12",
+      "answer": "A",
+      "analysis": "由题意可知当插销刚卡紧固定端盖时弹簧的伸长量为 Δx = l\n2 ，根据胡克定律有\n2\nkl\nF\nk x\n= =\n插销与卷轴同轴转动，角速度相同，对插销有弹力提供向心力\n2\nF\nml\n=\n对卷轴有 v = rω\n联立解得 v = r\nk\n2m\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -125,22 +164,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q06",
-      "content": "如图所示，红绿两束单色光，同时从空气中沿同一路\n径以 θ 角从MN 面射入某长方体透明均匀介质。折射光\n束在 NP 面发生全反射。反射光射向 PQ 面。若 θ 逐渐\n增大。两束光在 NP 面上的全反射现象会先后消失。已\n知在该介质中红光的折射率小于绿光的折射率。下列说\n法正确的是（    ）\nA．在 PQ 面上，红光比绿光更靠近 P 点\nB．θ 逐渐增大时，红光的全反射现象先消失\nC．θ 逐渐增大时，入射光可能在 MN 面发生全反射\nD．θ 逐渐减小时，两束光在 MN 面折射的折射角逐渐增大\n【详解】A．红光的频率比绿光的频率小，则红光的折射率小于绿光的折射率，在 MN 面，\n入射角相同，根据折射定律\nsin\nsin\nn\n\n\n=\n可知绿光在 MN 面的折射角较小，根据几何关系可\n知绿光比红光更靠近 P 点，故A 错误；\nB．根据全反射发生的条件\n1\nsinC\nn\n=\n可知红光发生全反射的临界角较大，θ 逐渐增大时，\n折射光线与 NP 面的交点左移过程中，在 NP 面的入射角先大于红光发生全反射的临界角，\n所以红光的全反射现象先消失，故 B 正确；\nC．在 MN 面，光是从光疏介质到光密介质，无论 θ 多大，在 MN 面都不可能发生全反\n射，故 C 错误；\nD．根据折射定律\nsin\nsin\nn\n\n\n=\n可知 θ 逐渐减小时，两束光在 MN 面折射的折射角逐渐减小，\n故 D 错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，红绿两束单色光，同时从空气中沿同一路\n径以 θ 角从MN 面射入某长方体透明均匀介质。折射光\n束在 NP 面发生全反射。反射光射向 PQ 面。若 θ 逐渐\n增大。两束光在 NP 面上的全反射现象会先后消失。已\n知在该介质中红光的折射率小于绿光的折射率。下列说\n法正确的是（    ）\nA．在 PQ 面上，红光比绿光更靠近 P 点\nB．θ 逐渐增大时，红光的全反射现象先消失\nC．θ 逐渐增大时，入射光可能在 MN 面发生全反射\nD．θ 逐渐减小时，两束光在 MN 面折射的折射角逐渐增大",
+      "answer": "B",
+      "analysis": "A．红光的频率比绿光的频率小，则红光的折射率小于绿光的折射率，在 MN 面，\n入射角相同，根据折射定律\nsin\nsin\nn\n\n\n=\n可知绿光在 MN 面的折射角较小，根据几何关系可\n知绿光比红光更靠近 P 点，故A 错误；\nB．根据全反射发生的条件\n1\nsinC\nn\n=\n可知红光发生全反射的临界角较大，θ 逐渐增大时，\n折射光线与 NP 面的交点左移过程中，在 NP 面的入射角先大于红光发生全反射的临界角，\n所以红光的全反射现象先消失，故 B 正确；\nC．在 MN 面，光是从光疏介质到光密介质，无论 θ 多大，在 MN 面都不可能发生全反\n射，故 C 错误；\nD．根据折射定律\nsin\nsin\nn\n\n\n=\n可知 θ 逐渐减小时，两束光在 MN 面折射的折射角逐渐减小，\n故 D 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -148,22 +195,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q006-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q07",
-      "content": "如图所示，轻质弹簧竖直放置，下端固定。木块从弹簧正上方 H 高度处\n由静止释放。以木块释放点为原点，取竖直向下为正方向。木块的位移为 y。\n所受合外力为 F，运动时间为 t。忽略空气阻力，弹簧在弹性限度内。关于木\n块从释放到第一次回到原点的过程中。其 F – y 图像或 y – t 图像可能正确的\n是（    ）\n4 / 12\n【详解】AB．在木块下落 H 高度之前，木块所受合外力为木块的重力保持不变，即\nF = mg\n当木块接触弹簧后到合力为零前，根据牛顿第二定律\nmg – ky = F\n随着 y 增大 F 减小；\n当弹簧弹力大于木块的重力后到最低点过程中\nF = ky – mg\n木块所受合外力向上，随着 y 增大 F 增大；F – y 图像如题图 B 所示\n故 B 正确，A 错误；\nCD．同理，在木块下落 H 高度之前，木块做匀加速直线运动，根据\ny = 1\n2 gt2\n速度逐渐增大，所以 y – t 图像斜率逐渐增大，当木块接触弹簧后到合力为零前，根据牛顿\n第二定律\nmg – ky = F\n木块的速度继续增大，做加速度减小的加速运动，所以 y – t 图像斜率继续增大，当弹簧弹\n力大于木块的重力后到最低点过程中\nF = ky – mg\n木块所受合外力向上，木块做加速度增大的减速运动，所以\ny – t 图斜率减小，到达最低点后，木块向上运动，经以上分\n析可知，木块先做加速度减小的加速运动，再做加速度增大\n的减速运动，再做匀减速直线运动到最高点，y – t 图像大致\n为右图。\n故 CD 错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，轻质弹簧竖直放置，下端固定。木块从弹簧正上方 H 高度处\n由静止释放。以木块释放点为原点，取竖直向下为正方向。木块的位移为 y。\n所受合外力为 F，运动时间为 t。忽略空气阻力，弹簧在弹性限度内。关于木\n块从释放到第一次回到原点的过程中。其 F – y 图像或 y – t 图像可能正确的\n是（    ）\n4 / 12",
+      "answer": "B",
+      "analysis": "AB．在木块下落 H 高度之前，木块所受合外力为木块的重力保持不变，即\nF = mg\n当木块接触弹簧后到合力为零前，根据牛顿第二定律\nmg – ky = F\n随着 y 增大 F 减小；\n当弹簧弹力大于木块的重力后到最低点过程中\nF = ky – mg\n木块所受合外力向上，随着 y 增大 F 增大；F – y 图像如题图 B 所示\n故 B 正确，A 错误；\nCD．同理，在木块下落 H 高度之前，木块做匀加速直线运动，根据\ny = 1\n2 gt2\n速度逐渐增大，所以 y – t 图像斜率逐渐增大，当木块接触弹簧后到合力为零前，根据牛顿\n第二定律\nmg – ky = F\n木块的速度继续增大，做加速度减小的加速运动，所以 y – t 图像斜率继续增大，当弹簧弹\n力大于木块的重力后到最低点过程中\nF = ky – mg\n木块所受合外力向上，木块做加速度增大的减速运动，所以\ny – t 图斜率减小，到达最低点后，木块向上运动，经以上分\n析可知，木块先做加速度减小的加速运动，再做加速度增大\n的减速运动，再做匀减速直线运动到最高点，y – t 图像大致\n为右图。\n故 CD 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -171,22 +226,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p004-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q08",
-      "content": "污水中的污泥絮体经处理后带负电，可利用电泳技术对其\n进行沉淀去污，基本原理如图所示。涂有绝缘层的金属圆盘和\n金属棒分别接电源正、负极、金属圆盘置于底部、金属棒插入\n污水中，形成如图所示的电场分布，其中实线为电场线，虚线\n为等势面。M 点和 N 点在同一电场线上，M 点和 P 点在同\n一等势面上。下列说法正确的有（    ）\nA．M 点的电势比 N 点的低\nB．N 点的电场强度比 P 点的大\nC．污泥絮体从 M 点移到 N 点，电场力对其做正功\nF\nO\ny\nH\nA\nF\nO\ny\nH\nB\ny\nO\nt\nH\nC\ny\nD\nO\nt\nH\n5 / 12\nD．污泥絮体在 N 点的电势能比其在 P 点的大\n【详解】AC．根据沿着电场线方向电势降低可知 M 点的电势比 N 点的低，污泥絮体带负\n电，根据 Ep = qφ 可知污泥絮体在 M 点的电势能比在 N 点的电势能大，污泥絮体从 M\n点移到 N 点，电势能减小，电场力对其做正功，故 AC 正确；\nB．根据电场线的疏密程度可知 N 点的电场强度比 P 点的小，故 B 错误；\nD．M 点和 P 点在同一等势面上，则污泥絮体在 M 点的电势能与在 P 点的电势能相等，\n结合 AC 选项分析可知污泥絮体在 P 点的电势能比其在 N 点的大，故 D 错误。\n故选 AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "污水中的污泥絮体经处理后带负电，可利用电泳技术对其\n进行沉淀去污，基本原理如图所示。涂有绝缘层的金属圆盘和\n金属棒分别接电源正、负极、金属圆盘置于底部、金属棒插入\n污水中，形成如图所示的电场分布，其中实线为电场线，虚线\n为等势面。M 点和 N 点在同一电场线上，M 点和 P 点在同\n一等势面上。下列说法正确的有（    ）\nA．M 点的电势比 N 点的低\nB．N 点的电场强度比 P 点的大\nC．污泥絮体从 M 点移到 N 点，电场力对其做正功\nF\nO\ny\nH\nA\nF\nO\ny\nH\nB\ny\nO\nt\nH\nC\ny\nD\nO\nt\nH\n5 / 12\nD．污泥絮体在 N 点的电势能比其在 P 点的大",
+      "answer": "AC",
+      "analysis": "AC．根据沿着电场线方向电势降低可知 M 点的电势比 N 点的低，污泥絮体带负\n电，根据 Ep = qφ 可知污泥絮体在 M 点的电势能比在 N 点的电势能大，污泥絮体从 M\n点移到 N 点，电势能减小，电场力对其做正功，故 AC 正确；\nB．根据电场线的疏密程度可知 N 点的电场强度比 P 点的小，故 B 错误；\nD．M 点和 P 点在同一等势面上，则污泥絮体在 M 点的电势能与在 P 点的电势能相等，\n结合 AC 选项分析可知污泥絮体在 P 点的电势能比其在 N 点的大，故 D 错误。\n故选 AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -194,22 +262,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q008-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q09",
-      "content": "如图所示，探测器及其保护背罩通过弹性轻绳连接降落伞。在接\n近某行星表面时以 60 m/s 的速度竖直匀速下落。此时启动“背罩分\n离”，探测器与背罩断开连接，背罩与降落伞保持连接。已知探测器\n质量为 1000 kg，背罩质量为 50 kg，该行星的质量和半径分别为地\n球的 1\n10 和 1\n2 。地球表面重力加速度大小取 g = 10 m/s2。忽略大气\n对探测器和背罩的阻力。下列说法正确的有（    ）\nA．该行星表面的重力加速度大小为 4 m/s2\nB．该行星的第一宇宙速度为 7.9 km/s\nC．“背罩分离”后瞬间，背罩的加速度大小为 80 m/s2\nD．“背罩分离”后瞬间，探测器所受重力对其做功的功率为 30 kW\n【详解】A．在星球表面，根据\n2\nMm\nG\nmg\nR\n=\n可得\n2\nGM\ng\nR\n=\n行星的质量和半径分别为地球的 1\n10 和 1\n2 。地球表面重力加速度大小取 g = 10 m/s2，可得\n该行星表面的重力加速度大小 gʹ = 4 m/s2\n故 A 正确；\nB．在星球表面上空，根据万有引力提供向心力\n2\n2\nMm\nv\nG\nm\nR\nR\n=\n可得星球的第一宇宙速度\nGM\nv\nR\n=\n行星的质量和半径分别为地球的 1\n10 和 1\n2 ，可得该行星的第一宇宙速度\n5\n5\nv\nv\n=\n行\n地\n地球的第一宇宙速度为 7.9 km/s，所以该行星的第一宇宙速度\n6 / 12\n5\n7.9km/s\n5\nv\n=\n\n行\n故 B 错误；\nC．“背罩分离”前，探测器及其保护背罩和降落伞整体做匀速直线运动，对探测器受力分\n子，可知探测器与保护背罩之间的作用力\n4000N\nF\nmg\n=\n=\n“背罩分离”后，背罩所受的合力大小为 4000 N，对背罩，根据牛顿第二定律 F\nm a\n=\n解得\n2\n80m/s\na =\n故 C 正确；\nD．“背罩分离”后瞬间探测器所受重力对其做功的功率\n1000 4 60W\n240kW\nP\nmg v\n=\n=\n\n=\n故 D 错误。\n故选 AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，探测器及其保护背罩通过弹性轻绳连接降落伞。在接\n近某行星表面时以 60 m/s 的速度竖直匀速下落。此时启动“背罩分\n离”，探测器与背罩断开连接，背罩与降落伞保持连接。已知探测器\n质量为 1000 kg，背罩质量为 50 kg，该行星的质量和半径分别为地\n球的 1\n10 和 1\n2 。地球表面重力加速度大小取 g = 10 m/s2。忽略大气\n对探测器和背罩的阻力。下列说法正确的有（    ）\nA．该行星表面的重力加速度大小为 4 m/s2\nB．该行星的第一宇宙速度为 7.9 km/s\nC．“背罩分离”后瞬间，背罩的加速度大小为 80 m/s2\nD．“背罩分离”后瞬间，探测器所受重力对其做功的功率为 30 kW",
+      "answer": "AC",
+      "analysis": "A．在星球表面，根据\n2\nMm\nG\nmg\nR\n=\n可得\n2\nGM\ng\nR\n=\n行星的质量和半径分别为地球的 1\n10 和 1\n2 。地球表面重力加速度大小取 g = 10 m/s2，可得\n该行星表面的重力加速度大小 gʹ = 4 m/s2\n故 A 正确；\nB．在星球表面上空，根据万有引力提供向心力\n2\n2\nMm\nv\nG\nm\nR\nR\n=\n可得星球的第一宇宙速度\nGM\nv\nR\n=\n行星的质量和半径分别为地球的 1\n10 和 1\n2 ，可得该行星的第一宇宙速度\n5\n5\nv\nv\n=\n行\n地\n地球的第一宇宙速度为 7.9 km/s，所以该行星的第一宇宙速度\n6 / 12\n5\n7.9km/s\n5\nv\n=\n\n行\n故 B 错误；\nC．“背罩分离”前，探测器及其保护背罩和降落伞整体做匀速直线运动，对探测器受力分\n子，可知探测器与保护背罩之间的作用力\n4000N\nF\nmg\n=\n=\n“背罩分离”后，背罩所受的合力大小为 4000 N，对背罩，根据牛顿第二定律 F\nm a\n=\n解得\n2\n80m/s\na =\n故 C 正确；\nD．“背罩分离”后瞬间探测器所受重力对其做功的功率\n1000 4 60W\n240kW\nP\nmg v\n=\n=\n\n=\n故 D 错误。\n故选 AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -217,22 +293,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q009-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q10",
-      "content": "如图所示，光滑斜坡上，可视为质点的甲、\n乙两个相同滑块，分别从 H 甲、H 乙 高度同时\n由静止开始下滑。斜坡与水平面在 O 处平滑\n相接，滑块与水平面间的动摩擦因数为 μ，乙\n在水平面上追上甲时发生弹性碰撞。忽略空气\n阻力。下列说法正确的有（    ）\nA．甲在斜坡上运动时与乙相对静止\nB．碰撞后瞬间甲的速度等于碰撞前瞬间乙的速度\nC．乙的运动时间与 H 乙 无关\nD．甲最终停止位置与 O 处相距 H乙\nμ\n【详解】A．两滑块在光滑斜坡上加速度相同，同时由静止开始下滑，则相对速度为 0，故\nA 正确；\nB．两滑块滑到水平面后均做匀减速运动，由于两滑块质量相同，且发生弹性碰撞，可知碰\n后两滑块交换速度，即碰撞后瞬间甲的速度等于碰撞前瞬间乙的速度，故 B 正确；\nC．设斜面倾角为 θ，乙下滑过程有\n2\n1\n1\nsin\n2\nH\ng\nt\n\n=\n乙\n在水平面运动一段时间 t2 后与甲相碰，碰后以甲碰前速度做匀减速运动 t3，乙运动的时间\n为\n1\n2\n3\nt\nt\nt\nt\n=\n+\n+\n由于 t1 与 H 乙 有关，则总时间与 H 乙 有关，故 C 错误；\nD．乙下滑过程有\n2\n1\n2\nmgH\nmv\n=\n乙\n乙\n7 / 12\n由于甲和乙发生弹性碰撞，交换速度，则可知甲最终停止位置与不发生碰撞时乙最终停止的\n位置相同；则如果不发生碰撞，乙在水平面运动到停止有\n2\n2\nv\ngx\n\n=\n乙\n联立可得\nH\nx\n\n=\n乙\n即发生碰撞后甲最终停止位置与 O 处相距 H乙\nμ 。故 D 正确。\n故选 ABD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，光滑斜坡上，可视为质点的甲、\n乙两个相同滑块，分别从 H 甲、H 乙 高度同时\n由静止开始下滑。斜坡与水平面在 O 处平滑\n相接，滑块与水平面间的动摩擦因数为 μ，乙\n在水平面上追上甲时发生弹性碰撞。忽略空气\n阻力。下列说法正确的有（    ）\nA．甲在斜坡上运动时与乙相对静止\nB．碰撞后瞬间甲的速度等于碰撞前瞬间乙的速度\nC．乙的运动时间与 H 乙 无关\nD．甲最终停止位置与 O 处相距 H乙\nμ",
+      "answer": "ABD",
+      "analysis": "A．两滑块在光滑斜坡上加速度相同，同时由静止开始下滑，则相对速度为 0，故\nA 正确；\nB．两滑块滑到水平面后均做匀减速运动，由于两滑块质量相同，且发生弹性碰撞，可知碰\n后两滑块交换速度，即碰撞后瞬间甲的速度等于碰撞前瞬间乙的速度，故 B 正确；\nC．设斜面倾角为 θ，乙下滑过程有\n2\n1\n1\nsin\n2\nH\ng\nt\n\n=\n乙\n在水平面运动一段时间 t2 后与甲相碰，碰后以甲碰前速度做匀减速运动 t3，乙运动的时间\n为\n1\n2\n3\nt\nt\nt\nt\n=\n+\n+\n由于 t1 与 H 乙 有关，则总时间与 H 乙 有关，故 C 错误；\nD．乙下滑过程有\n2\n1\n2\nmgH\nmv\n=\n乙\n乙\n7 / 12\n由于甲和乙发生弹性碰撞，交换速度，则可知甲最终停止位置与不发生碰撞时乙最终停止的\n位置相同；则如果不发生碰撞，乙在水平面运动到停止有\n2\n2\nv\ngx\n\n=\n乙\n联立可得\nH\nx\n\n=\n乙\n即发生碰撞后甲最终停止位置与 O 处相距 H乙\nμ 。故 D 正确。\n故选 ABD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -240,22 +324,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q010-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q010-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024广东.pdf#q11",
       "content": "（7 分）下列是《普通高中物理课程标准》中列出的三个必做实验的部分步骤，请完成\n实验操作和计算。\n（1）图甲是“探究加速度与物体受力、物体质量的关系”实验装置示意图。图中木板右端\n垫高的目的是______________。图乙是实验得到纸带的一部分，每相邻两计数点间有四个点\n未画出。相邻计数点的间距已在图中给出。打点计时器电源频率为 50 Hz，则小车的加速度\n大小为___________m/s2（结果保留 3 位有效数字）。\n（2）在“长度的测量及其测量工具的选用”实验中，某同学用 50 分度的游标卡尺测量一\n例柱体的长度，示数如图丙所示，图丁为局部放大图，读数为___________cm。\n（3）在“用双缝干涉实验测量光的波长”实验调节过程中，在光具座上安装光源、遮光筒\n和光屏。遮光筒不可调节。打开并调节___________。使光束沿遮光筒的轴线把光屏照亮。\n取下光屏，装上单缝、双缝和测量头。调节测量头，并缓慢调节单缝的角度直到目镜中观察\n到___________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）木板右端抬高的目的是平衡摩擦力；\n小车的加速度大小\n2\n2\n2\n2\n(16.29 13.43 10.59\n7.72\n4.88\n2.01) 10\nm/s\n2.86m/s\n9 0.1\na\n−\n+\n+\n−\n−\n−\n\n=\n=\n\n（2）游标卡尺读数为 4.1 cm + 4×0.02 mm = 4.108 cm\n（3）在“用双缝干涉实验测量光的波长”实验调节过程中，在光具座上安装光源、遮光筒\n和光屏，遮光筒不可调节，打开并调节光源，使光束沿遮光筒的轴线把光屏照亮，取下光屏，\n装上、双缝和测量头，调节测量头，并缓慢调节单缝的角度直到目镜中观察到干涉条纹。\n8 / 12",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -263,11 +355,158 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024广东.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q011-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024广东.pdf#q12",
+      "content": "（9 分）某科技小组模仿太阳能发电中的太阳光自动跟踪系统，制作光源跟踪演示装置，\n实现太阳能电池板方向的调整，使电池板正对光源。图甲是光照方向检测电路。所用器材有：\n电源 E（电动势 3 V）；电压表（V1）和（V2）（量程均有 3 V 和 15 V，内阻均可视为无穷\n大）；滑动变阻器 R；两个相同的光敏电阻 RG1 和 RG2；开关 S；手电筒；导线若干。图乙\n是实物图。图中电池板上垂直安装有半透明隔板，隔板两侧装有光敏电阻，电池板固定在电\n动机转轴上。控制单元与检测电路的连接未画出。控制单元对光照方向检测电路无影响。请\n完成下列实验操作和判断。\n（1）电路连接。\n图乙中已正确连接了部分电路，请完成虚线框中滑动变阻器 R、电源 E、开关 S 和电压表\nV1 间的实物图连线_____。\n（2）光敏电阻阻值与光照强度关系测试\n①将图甲中 R 的滑片置于_____端。用手电筒的光斜照射到 RG1 和 RG2，使 RG1 表面的光\n照强度比 RG2 表面的小。\n②闭合 S，将 R 的滑片缓慢滑到某一位置。V1 的示数如图\n丙所示，读数 U1 为_____V，V2 的示数 U2 为 1.17 V。由\n此可知，表面光照强度较小的光敏电阻的阻值_____（填“较\n大”或“较小”）。\n③断开 S。\n（3）光源跟踪测试。\n①将手电筒的光从电池板上方斜照射到 RG1 和 RG2。\n②闭合 S。并启动控制单元。控制单元检测并比较两光敏电阻的电压，控制电动机转动。此\n时两电压表的示数 U1 < U2，图乙中的电动机带动电池板_____（填“逆时针”或“顺时针”）\n转动，直至_____时停止转动，电池板正对手电筒发出的光。\n9 / 12",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电路连线如图\n（2）①为了保证电路的安全，实验开始前要将 R 的滑片置于阻值最大处，即置于 b 端。\n②电压表 V1 量程为 3 V，最小刻度为 0.1 V，则读数为 1.60 V；电压表 V1 比电压表 V2\n的示数大，说明 RG1 > RG2，由此可知表面光照强度较小的光敏电阻的阻值较大。\n（3）电压表的示数 U1 < U2，说明 RG1 表面的光照强度比 RG2 表面的大，因此电动机带动\n电池板逆时针转动，直至 U1 = U2，时停止转动，电池板正对手电筒发出的光。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024广东.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q012-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q012-p009-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024广东.pdf#q13",
+      "content": "（9 分）差压阀可控制气体进行单向流动，广泛\n应用于减震系统。如图所示，A、B 两个导热良好的\n气缸通过差压阀连接，A 内轻质活塞的上方与大气\n连通，B 内气体体积不变。当 A 内气体压强减去 B\n内气体压强大于 Δp 时差压阀打开，A 内气体缓慢\n进入 B 中；当该差值小于或等于 Δp 时差压阀关\n闭。当环境温度 T1 = 300 K 时，A 内气体体积 VA1\n= 4.0×102 m3，B 内气体压强 pB1 等于大气压强 p0，已知活塞的横截面积 S = 0.10 m2，Δp\n= 0.11p0，p0 = 1.0×105 Pa，重力加速度大小取 g = 10 m/s2，A、B 内的气体可视为理想气体，\n忽略活塞与气缸间的摩擦、差压阀与连接管内的气体体积不计。当环境温度降到 T2 = 270 K\n时：\n（1）求 B 内气体压强 pB2；\n（2）求 A 内气体体积 VA2；\n（3）在活塞上缓慢倒入铁砂，若 B 内气体压强回到 p0 并保持不变，求已倒入铁砂的质量\nm。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1、2）假设温度降低到 T2 时，差压阀没有打开，A、B 两个气缸导热良好，B 内\n气体做等容变化，初态\nB1\n0\np\np\n=\n，\n1=300K\nT\n末态\n2\n270K\nT =\n根据\nB1\nB2\n1\n2\np\np\nT\nT\n=\n代入数据可得 pB2 = 9×104 Pa\nA 内气体做等压变化，压强保持不变，初态\n2\n3\nA1\n4.0 10 m\nV\n=\n\n，\n1=300K\nT\n10 / 12\n末态\n2\n270K\nT =\n根据\nA1\nA2\n1\n2\nV\nV\nT\nT\n=\n代入数据可得 VA2 = 3.6×102 m3\n由于\n0\nB2\np\np\np\n−\n\n假设成立，即 pB2 = 9×104 Pa\n（3）恰好稳定时，A 内气体压强为\nA\n0\nmg\np\np\nS\n=\n+\nB 内气体压强\nB\n0\np\np\n=\n此时差压阀恰好关闭，所以有\nA\nB\np\np\np\n\n\n−\n= \n代入数据联立解得 m = 1.1×102 kg",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024广东.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q013-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q013-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024广东.pdf#q14",
+      "content": "（13 分）汽车的安全带和安全气囊是有效保护乘客的装置。\n（1）安全带能通过感应车的加速度自动锁定，其原理的简化模型如\n图甲所示。在水平路面上刹车的过程中，敏感球由于惯性沿底座斜面\n上滑直到与车达到共同的加速度 a，同时顶起敏感臂，使之处于水平\n状态，并卡住卷轴外齿轮，锁定安全带。此时敏感臂对敏感球的压力\n大小为 FN，敏感球的质量为 m，重力加速度为 g。忽略敏感球受到\n的摩擦力。求斜面倾角的正切值 tanθ。\n（2）如图乙所示，在安全气囊的性能测试中，可视为质点的头锤从\n离气囊表面高度为 H 处做自由落体运动。与正下方的气囊发生碰\n撞。以头锤到气囊表面为计时起点，气囊对头锤竖直方向作用力 F 随时间 t 的变化规律，\n可近似用图丙所示的图像描述。已知头锤质量 M = 30 kg，H = 3.2 m，重力加速度大小取 g\n= 10 m/s2。求：\n①碰撞过程中 F 的冲量大小和方向；\n②碰撞结束后头锤上升的最大高度。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）敏感球受向下的重力 mg 和敏感臂向下的压力 FN 以及斜面的支持力 N，则\n由牛顿第二定律可知\n(\n)\nN tan\nmg\nF\nma\n\n+\n=\nH\n头锤\n安全气囊\n试验台\n乙\n丙\n6600\nF/N\nO\n0.1 t/s\n11 / 12\n解得 tanθ =\nma\nmg + FN\n（2）①由图像可知碰撞过程中 F 的冲量大小\nIF = 1\n2 ×0.1×6600 N·s = 330 N·s\n方向竖直向上；\n②头锤落到气囊上时的速度\nv0 =\n2gH = 8 m/s\n与气囊作用过程由动量定理（向上为正方向）\nIF – mgt = mv − (− mv0)\n解得 v = 2 m/s\n则上升的最大高度\nh = v2\n2g = 0.2 m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024广东.pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q014-p010-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q014-p010-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q014-p010-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q014-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024广东.pdf#q15",
+      "content": "（16 分）如图甲所示。两块平行正对的金属板水平放置，板间加上如图乙所示幅值为\nU0、周期为 t0 的交变电压。金属板左侧存在一水平向右的恒定匀强电场，右侧分布着垂直\n纸面向外的匀强磁场。磁感应强度大小为 B。一带电粒子在 t = 0 时刻从左侧电场某处由静\n止释放，在 t = t0 时刻从下板左端边缘位置水平向右进入金属板间的电场内，在 t = 2t0 时\n刻第一次离开金属板间的电场、水平向右进入磁场，并在 t = 3t0 时刻从下板右端边缘位置\n再次水平进入金属板间的电场。已知金属板的板长是板间距离的 π\n3 倍，粒子质量为 m。忽\n略粒子所受的重力和场的边缘效应。\n（1）判断带电粒子的电性并求其所带的电荷量 q；\n（2）求金属板的板间距离 D 和带电粒子在 t = t0 时刻的速度大小 v；\n（3）求从 t = 0 时刻开始到带电粒子最终碰到上金属板的过程中，电场力对粒子做的功 W。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据带电粒子在右侧磁场中的运动轨迹结合左手定则可知，粒子带正电；粒子\n在磁场中运动的周期为 T = 2t0\n根据\n2 m\nT\nqB\n\n=\n则粒子所带的电荷量 ；q = πm\nBt0\n（2）若金属板的板间距离为 D，则板长 πD\n3 粒子在板间运动时\n12 / 12\nπD\n3 = vt0\n出电场时竖直速度为零，则竖直方向\n2\n0\n0\n1\n2\n(0.5 )\n2\nU q\ny\nt\nDm\n=\n\n在磁场中时\n2v\nqvB\nm r\n=\n其中\n2\n2\nmv\ny\nr\nqB\n=\n=\n联立解得\nD =\n3πt0U0\n8B ，v = π\nπU0\n24Bt0\n（3）带电粒子在电场和磁场中的运动轨迹如图，由\n（2）的计算可知金属板的板间距离 D = 3r。\n则粒子在 3t0 时刻再次进入中间的偏转电场，在 4t0\n时刻进入左侧的电场做减速运动速度为零后反向加\n速，在 6t0 时刻再次进入中间的偏转电场，6.5t0 时刻\n碰到上极板，因粒子在偏转电场中运动时，在时间 t0\n内电场力做功为零，在左侧电场中运动时，往返一次电场力做功也为零，可知整个过程中只\n有开始进入左侧电场时电场力做功和最后 0.5t0 时间内电场力做功，则\nW =\n1\n2 𝑚𝑣2 + 𝐸𝑞×\n𝐷\n3 =\n𝜋3𝑚𝑈0\n48𝐵𝑡0 +\n𝜋𝑚𝑈0\n3𝐵𝑡0 = πmU0(π2 + 16)\n48Bt0",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024广东.pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q015-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q015-p012-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-f1dfb277214c9b8b-q015-p011-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 26,
+    "answerGraphics": 0,
+    "assigned": 26,
+    "rendered": 26,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

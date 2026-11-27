@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
   "name": "2002全国旧课程(河南,广东,广西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 11,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 19,
+    "sourceAnswers": 14,
+    "sourceAnalysis": 7,
+    "reviewCount": 13,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q01",
       "content": "下面说法中正确的是（     ）\n（A）光子射到金属表面时，可能有电子发出\n（B）光子射到金属表面时，一定有电子发出\n（C）电子轰击金属表面时，可能有光子发出\n（D）电子轰击金属表面时，一定没有光子发出",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q02",
       "content": "图中a、b、c 为三个物块，M、N 为两个轻质弹簧，R 为跨过光滑定滑\n轮的轻绳，它们连接如图所示并处于平衡状态（     ）\n（A）有可能N 处于拉伸状态而M 处于压缩状态\n（B）有可能N 处于压缩状态而M 处于拉伸状态\n（C）有可能N 处于不伸不缩状态而M 处于拉伸状态\n（D）有可能N 处于拉伸状态而M 处于不伸不缩状态",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q03",
       "content": "处于基态的一群氢原子受某种单色光的照射时，只发射波长为 λ1、λ2、λ3 的三种单色光，\n且 λ1 > λ2 > λ3，则照射光的波长为（     ）\n（A）λ1\n（B）λ1 +λ2 + λ3\n（C）A λ2λ3\nλ2 + λ3\nE\nA\n（D）A λ1λ2\nλ1 + λ2\nE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q04",
       "content": "如图所示，在原来不带电的金属细杆ab 附近P 处，放置一个正点电荷．达到静电平衡后\n（     ）\n（A）a 端的电势比b 端的高\n（B）b 端的电势比d 点的低\n（C）a 端的电势不一定比d 点的低\n（D）杆内c 处场强的方向由a 指向b",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q05",
       "content": "分子间同时存在吸引力和排斥力，下列说法中正确的是（     ）\n（A）固体分子间的吸引力总是大于排斥力\n（B）气体能充满任何容器是因为分子间的排斥力大于吸引力\n（C）分子间的吸引力和排斥力都随分子间距离的增大而减小\n（D）分子间吸引力随分子间距离的增大而增大，而排斥力随距离的增大而减小\n- 2 -",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q06",
       "content": "跨过定滑轮的绳的一端挂一吊板，另一端被吊板上的人拉住，如图所示。\n已知人的质量为70kg，吊板的质量为10kg，绳及定滑轮的质量、滑轮的摩\n擦均可不计取重力加速度g = 10m/s2。当人以440N 的力拉绳时，人与吊板\n的加速度a 和人对吊板的压力F 分别为（     ）\n（A）a = 1.0m/s2，F = 260N\n（B）a = 1.0m/s2，F = 330N\n（C）a = 3.0m/s2，F = 110N\n（D）a = 3.0m/s2，F = 50N",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -148,22 +197,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q07",
       "content": "竖直上抛一球，球又落回原处，已知空气阻力的大小正比于球的速度（     ）\n（A）上升过程中克服重力做的功大于下降过程中重力做的功\n（B）上升过程中克服重力做的功等于下降过程中重力做的功\n（C）上升过程中克服重力做功的平均功率大于下降过程中重力的平均功率\n（D）上升过程中克服重力做功的平均功率等于下降过程中重力的平均功率",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q08",
       "content": "在图中虚线所示的区域存在匀强电场和匀强磁场。取坐标如图所\n示，一带电粒子沿 x 轴正方向进入此区域，在穿过此区域的过程中\n运动方向始终不发生偏转。不计重力的影响，电场强度 E 和磁感应\n强度 B 的方向可能是（    ）\n（A）E 和 B 都沿 x 轴方向\n（B）E 沿 y 轴正向，B 沿 z 轴正向\n（C）E 沿 z 轴正向，B 沿 y 轴正向\n（D）E、B 都沿 z 轴方向",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -194,22 +259,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q09",
       "content": "远距离输电线路的示意图如下图所示，若发电机的输出电压不变，则下列叙述中正确的\n是（   ）\n（A）升压变压器的原线圈中的电流与用户用电设备消耗的功率无关\n（B）输电线中的电流只由升压变压器原副线圈的匝数比决定\n（C）当用户用电器的总电阻减少时，输电线上损失的功率增大\n（D）升压变压器的输出电压等于降压变压器的输入电压",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -217,22 +292,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q10",
       "content": "一列在竖直方向振动的简谐横波，波长为 λ，沿正 x 方向传播，某一时刻，在振动位\n移向上且大小等于振幅一半的各点中，任取相邻的两 P1、P2，已知 P1 的 x 坐标小于 P2 的\nx 坐标（     ）\n（A）若 P1P2 < λ/2，则 P1 向下运动，P2 向上运动\n（B）若 P1P2 < λ/2，则 P1 向上运动，P2 向下运动\n（C）若 P1P2 > λ/2，则 P1 向上运动，P2 向下运动\n（D）若 P1P2 > λ/2，则 P1 向下运动，P2 向上运动\nE，B\nO\nz\nx\ny\n- 3 -\n第Ⅱ卷（非选择题  共110 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -240,22 +325,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q11",
       "content": "（5 分）用螺旋测微器（千分尺）测小球直径时，示数如图所示，\n这时读出的数值是_________，单位是_________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "8.473mm",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -263,22 +354,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q12",
       "content": "（8 分）现有器材：量程为 10.0 mA、内阻约 30 Ω ~ 40 Ω 的电\n流表一个，定值电阻 R1 = 150 Ω，定值电阻 R2 = 100 Ω，单刀单掷开关 S，导线若干，要求\n利用这些器材测量一干电池（电动势约 1.5 V）的电动势。\n（1）按要求在实物图上连线。\n（2）用已知量和直接测得量表示的待测电动势的表达式为 E = ______，式中各直接测得量\n的意义是_______________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）如图所示；\n（2）A I1I2\nI1 − I2\nE R2，I1 是外电阻为 R1 时的电流，I2 是外电阻为 R1 和 R2 串联时的电流。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -286,22 +387,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q012-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q13",
       "content": "（7 分）一个有一定厚度的圆盘，可以绕通过中心垂\n直于盘面的水平轴转动，用下面的方法测量它匀速转动\n时的角度速。\n实验器材：电磁打点计时器，米尺，纸带，复写纸片。\n实验步骤：\n（1）如图所示，将电磁打点计时器固定在桌面上，将纸\n带的一端穿过打点计时器的限位孔后，固定在待测圆盘\n的侧面上，使得圆盘转动时，纸带可以卷在圆盘侧面上。\n（2）启动控制装置使圆盘转动，同时接通电源，打点计时器开始打点。\n（3）经过一段时间，停止转动和打点，取下纸带，进行测量。\n①由已知量和测得量表示的角速度的表达式为 ω = _________，式中各量的意义是：\n_____________________________________________________。\n②某次实验测得圆盘半径r = 5.50×10−2 m，得到的纸带的一段如下图所示，求得角速度为\n_________。\n单位：cm\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n- 4 -",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）A\nx2 − x1\nT（n − 1）r\nE\nT 为电磁打点计时器打点的时间间隔，r 为圆盘的半径，x2、x1 是纸带上选定的两点分别对\n应的米尺上的刻度值，n 为选定的两点间的打点数（含两端点）\n（2）6.8 rad/s（6.75 ~ 6.84 皆可）\n三．",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -309,22 +420,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q013-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q013-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q14",
       "content": "（11 分）有人利用安装在气球载人舱内的单摆来确定气球的高度。已知该单摆在海平面\n处的周期是 T0。当气球停在某一高度时，测得该单摆周期为 T。求该气球此时离海平面的\n高度 h。把地球看作质量均匀分布的半径为 R 的球体。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据单摆周期公式，有\n𝑇𝑇0 = 2π�\n𝑙𝑙\n𝑔𝑔0 ①，𝑇𝑇= 2π�\n𝑙𝑙\n𝑔𝑔②\n其中 l 是单摆长度，g0 和 g 分别是两地点的重力加速度。\n根据万有引力公式，得\ng0 = AGM\nR2\nE\nA，g = A\nGM\n（R + h）2\nE\n其中 G 是引力常量，M 是地球质量。\n由以上各式解得\nh = （A T\nT0\nE\nA− 1）R",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -332,22 +453,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q15",
       "content": "（12 分）如图所示，半径为 R、单位长度电阻为 λ 的均匀导\n体圆环固定在水平面上，圆环中心为 O。匀强磁场垂直水平面方向\n向下，磁感强度为 B。平行于直径 MON 的导体杆，沿垂直于杆的\n方向向右运动。杆的电阻可以忽略不计，杆与圆环接触良好，某时\n刻，杆的位置如图，∠aOb = 2θ，速度为 v，求此时刻作用在杆上\n安培力的大小。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "如图所示，杆切割磁力线时，ab 部分产生的感应电动势\nE = vB（2Rsinθ）\n①\n- 7 -\n此时弧 acb 和弧 adb 的电阻分别为 2λR（π − θ）和 2λRθ，它们并联后\n的电阻为\nr = A2λRθ（π − θ）\nπ\nE\nA\n②\n杆中的电流为\nI = AE\nr\nE\nA\n③\n作用在杆上的安培力为\nF = IB（2Rsinθ）\n④\n由以上各式解得\nF = A2πvB2Rsin2θ\nλθ(π − θ)\nE\nA\n⑤",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -355,22 +480,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q015-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q015-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q16",
       "content": "（12 分）如下一系列核反应是在恒星内部发生的：\np + 126C→137N\n137N→136C + e+ + ν\np + 136C→147N\np + 147N→158O\n158O→157N + e+ + ν\np + 157N→126C + α\n其中 p 为质子，α 为 α 粒子，e+ 为正电子，ν 为一种中微子。已知质子的质量为 mp =\n1.672648×10−27 kg，α 粒子的质量为 mα = 6.644929×10−27 kg，正电子的质量为 me = 9.11×10−31\nkg，中微子的质量可忽略不计，真空中的光速 c = 3.00×108 m/s。试计算该系列核反应完成\n后释放的能量。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "为求出系列反应后释放的能量，将题中所给的诸核反应方程左右两侧分别相加，消去两\n侧相同的项，系列反应最终等效为\n4p→α + 2e+ + 2ν\n①\n设反应后释放的能量为 Q，根据质能关系和能量守恒得\n4mpc2 = mαc2+ 2mec2+ Q\n②\n代入数值可得\nQ = 3.95×10−12 J\n③",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -378,22 +511,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q17",
       "content": "（13 分）雨过天晴，人们常看到天空中出现彩虹，它是由阳光\n照射到空中弥漫的水珠上时出现的现象。在说明这个现象时，需要\n分析光线射入水珠后的光路。一细束光线射入水珠，水珠可视为一\n个半径为R 的球，球心O 到入射光线的垂直距离为d。水的折射率\n为n。\n（1）在图上画出该束光线射入水珠内经一次反射后又从水珠中射出的光路图；\n（2）求这束光线从射向水珠到射出水珠每一次偏转的角度。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）光路如图（a）所示.\n（2）以 i､r 表示入射光线的入射角､折射角，由折射定律有\nsini = nsinr，①\n以 δ1､δ2､δ3 表示每一次偏转的角度，如图所示，由反射定律､折射定律和几何关系可知\nsini = Ad\nR\nE\nA，②\nδ1 = i – r ③，δ2 = π − 2r\n④，δ3 = i – r ⑤\n由以上各式解得\nδ1 = sin−1\nAd\nR\nE\nA− sin−1\nA d\nnR\nE\nA ⑥\nδ2 = π − 2sin−1\nA d\nnR\nE\nA\n⑦\n- 8 -\nδ3 = sin−1\nAd\nR\nE\nA− sin−1\nA d\nnR\nE\nA\n⑧",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -401,22 +538,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q017-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q017-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q18",
       "content": "（13 分）现有m = 0.90kg 的硝酸甘油［C3H5（NO3）3］被密封于体积V0 = 4.0×10-3m3 的\n容器中，在某一时刻被引爆，瞬间发生激烈的化学反应，反应的产物全是氮、氧……等气体。\n假设：反应中每消耗1kg 的硝酸甘油释放能量U = 6.00×106J/kg；反应产生的全部混合气体\n温度升高1K 所需能量Q = 1.00×103J/K；这些混合气体满足理想气体状态方程pV/T = C（常\n量），其中常量C = 240J/K。已知在反应前硝酸甘油的温度T0 = 300K。若设想在化学反应发\n生后容器尚未破裂，且反应释放的能量全部用于升高气体的温度，求器壁所受的压强。\n- 5 -",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "化学反应完成后，硝酸甘油释放的总能量为\nW = mU\n①\n设反应后气体的温度为 T，根据题意，有\nW = Q（T − T0）\n②\n器壁所受的压强为\np =\n𝐶𝐶𝐶𝐶\n𝑉𝑉0\n③\n联立以上各式并代入数据，得\np = 3.4×108 Pa",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -424,22 +569,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q19",
       "content": "（14 分）下面是一个物理演示实验，它显示：图中自由下落的物体A\n和B 经反弹后，B 能上升到比初始位置高得多的地方。A 是某种材料做成\n的实心球，质量m1 = 0.28kg，在其顶部的凹坑中插着质量m2 = 0.10kg 的木\n棍B。B 只是松松地插在凹坑中，其下端与坑底之间有小空隙。将此装置\n从A 下端离地板的高度H = 1.25m 处由静止释放。实验中，A 触地后在极\n短时间内反弹，且其速度大小不变；接着木棍B 脱离球A 开始上升，而球\nA 恰好停留在地板上。求木棍B 上升的高度，重力加速度g = 10m/s2。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据题意，A 碰地板后，反弹速度的大小 v1 等于它下落到地面时速度的大小，即\nv1 = A 2gHE\nA\n①\nA 刚反弹后，速度向上，立刻与下落的 B 碰撞，碰前 B 的速度\nv2 = A 2gHE\nA\n②\n由题意，碰后 A 速度为零，以 v2ʹ 表示 B 上升的速度，根据动量守恒，有\nm1v1 − m2v2 = m2v2ʹ\n③\n令 h 表示 B 上升的高度，有\nh = Av2ʹ2\n2g\nE\nA\n④\n由以上各式并代入数据，得\nh = 4.05 m\n⑤",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -447,22 +596,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q019-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q019-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf#q20",
       "content": "（15 分）如图（a）所示，A、B 为水平放置的平行金属板，板间距离为d（d 远小于板\n的长和宽）。在两板之间有一带负电的质点P。已知若在A、B 间加电压U0，则质点P 可以\n静止平衡。现在A、B 间加上如图（b）所示的随时间t 变化的电压u。在t = 0 时质点P 位\n于A、B 间的中点处且初速为零。已知质点P 能在A、B 之间以最大的幅度上下运动而又不\n与两板相碰，求图（b）中u 改变的各时刻t1、t2、t3 及tn 的表达式。（质点开始从中点上升\n到最高点，及以后每次从最高点到最低点或从最低点到最高点的过程中，电压只改变一次。）\n- 6 -\n2002 年全国普通高等学校招生统一考试",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "设质点 P 的质量为 m，电量大小为 q，根据题意，当 A､B 间的电压为 U0 时，有\nq\n𝑈𝑈0\n𝑑𝑑 = mg\n①\n当两板间的电压为 2U0 时，P 的加速度向上，其大小为 a，则\nq\n2𝑈𝑈0\n𝑑𝑑 – mg = ma②，解得 a = g\n当两板间的电压为零时，P 自由下落，加速度为 g，方向向下。\n在 t = 0 时，两板间的电压为 2U0，P 自A､B 间的中点向上做初速度为零的匀加速运动，\n加速度为 g，设经过时间 τ1，P 的速度变为 v1，此时使电压变为零，让 P 在重力作用下做\n匀减速运动，再经过时间 τ1ʹ，P 正好到达 A 板且速度为零，故有\nv1 = gτ1，0 = v1 − gτ1ʹ，\nA1\n2\nE\nAd = A1\n2\nE\nAgτ12 + v1τ1ʹ − A1\n2\nE\nAgτ1ʹ2，\n由以上各式，得\nτ1 = τ1ʹ，τ1 = A 2\nE2\nd\ng\nE\nA\n③\n- 9 -\n因为 t1 = τ1，得 t1 = A\nd\n2g\nE\n在重力作用下，P 由 A 板处向下做匀加速运动，经过时间 τ2，速度变为 v2，方向向下，这\n时加上电压使 P 做匀减速运动，经过时间 τ2ʹ，P 到达 B 板且速度为零，故有\nv2 = gτ2，0 = v2 − gτ2ʹ，\nd = A1\n2\nE\nAgτ22 + v2τ2ʹ − A1\n2\nE\nAgτ2ʹ2，\n由以上各式，得 τ2 = τ2ʹ，τ2 = A\nd\ng\nE\n因为 t2 = t1 + τ1ʹ + τ2，\n得 t2 = （A 2E\nA+ 1）A\nd\ng\nE\nA\n④\n在电场力与重力的合力作用下，P 由 B 板处向上做匀加速运动，经过时间 τ3，速度变为 v3，\n此时使电压变为零，让P 在重力作用下做匀减速运动.经过时间 τ3ʹ，P 正好到达A 板且速度\n为零，故有\nv3 = gτ3，0 = v3 − gτ3ʹ，\nd = A1\n2\nE\nAgτ32 + v3τ3ʹ − A1\n2\nE\nAgτ3ʹ2\n由上得 τ3 = τ3ʹ，τ3 = A\nd\ng\nE\nA，\n因为 t3 = t2 + τ2ʹ + τ3，\n得 t3 = （A 2E\nA+ 3）A\nd\ng\nE\nA\n⑤\n根据上面分析，因重力作用，P 由 A 板向下做匀加速运动，经过时间 τ2，再加上电压，经\n过时间 τ2ʹ，P 到达 B 且速度为零，因为 t4 = t3 + τ3ʹ + τ2，\n得 t4 = （A 2E\nA+ 5）A\nd\ng\nE\n同样分析可得\ntn = （A 2E\nA+ 2n − 3）A\nd\ng\nE\nA.（n≥2）\n⑥\n解析\n1．AC",
+      "analysis": "当光子频率大于极限频率，照射到金属上会发生光电效应，即有电子逸出，故A 正\n确B 错误；X射线管就是利用高速电子轰击金属表面，金属表面部分原子能量跃迁到激发态\n后，发岀光子的，故C 正确D 错误.\n2．AD\n当𝑚𝑚𝑎𝑎> 𝑚𝑚𝑐𝑐时，有可能出现A 项中的情况，故A 正确；弹簧𝑁𝑁上方是绳子，不存在\n对𝑁𝑁产生压力的条件，𝑁𝑁不可能压缩，故B 错误；若𝑁𝑁处于不伸不缩状态，弹簧𝑀𝑀必须有一\n个向上的弹力与𝑎𝑎的重力平衡，𝑀𝑀必须处于压缩状态，故C 错误；当𝑚𝑚𝑎𝑎≤𝑚𝑚𝑐𝑐时，故D 正确.\n3．D\n- 10 -\n当量子数 n = 2 时，原子可发出 3 种不同波长的光，如图所示。\n由于 λ3 最小，即频率 ν3 最大，利用能级图可知，照射光的光子能量必须\n等于 hν3，hν3 = hν1 + hν2，即\nAhc\nλ3\nE\nA= Ahc\nλ1\nE\nA + Ahc\nλ2\nE\nA，得 λ3 = A λ1λ2\nλ1 + λ2\nE\nA。故 D 正\n确。\n4.\nB\n首先画出电场线，沿电场方向电势降低，𝑏𝑏点电势比𝑑𝑑点低，故B 正确；金属\n杆𝑎𝑎𝑎𝑎在静电平衡后是一个等势体，𝑎𝑎点电势等于𝑏𝑏点电势，也比𝑑𝑑点低，故AC 错误；静电平\n衡后的导体内部场强为零，故D 错误.\n5.\nC\n固体分子之间的距离在𝑟𝑟0附近，在一般情况下分子引力与斥力平衡，故A 错\n误；气体充满容器是由气体分子热运动所致，故B 错误；物体分子之间同时存在斥力和引\n力，这两个力都随着分子间距的增大而减小，故C 正确D 错误.\n6.\nB\n将人与吊板整体考虑，由牛顿第二定律得2𝑇𝑇−(𝑚𝑚人+ 𝑚𝑚板)𝑔𝑔= (𝑚𝑚人+\n𝑚𝑚板)𝑎𝑎，代入解得𝑎𝑎= 1.0m/s2，故CD 错误；用隔离法研究人向上运动，设吊板对人的支持\n力为𝐹𝐹′，则𝑇𝑇+ 𝐹𝐹′ −𝑚𝑚人𝑔𝑔= 𝑚𝑚𝑚𝑚，解得𝐹𝐹′ = 330N，由牛顿第三定律知，人对吊板的压力𝐹𝐹=\n𝐹𝐹′ = 330N，故B 正确.\n7.\nBC\n小球上升和下降时位移(ℎ)大小相等，上升阶段小球克服重力做的功和\n下降阶段重力做的功均为𝑚𝑚𝑚𝑚ℎ，故B 正确A 错误；上升过程小球受到的合外力为𝑚𝑚𝑚𝑚+ 𝑓𝑓，\n下降过程受到的合外力为𝑚𝑚𝑚𝑚−𝑓𝑓，所以上升加速度(𝑎𝑎上)大于下降加速度(𝑎𝑎下)，位移大小相\n等的情况下上升时间(𝑡𝑡上)必小于下降时间(𝑡𝑡下)，由功率的定义值，𝑃𝑃上=\n𝑚𝑚𝑚𝑚ℎ\n𝑡𝑡上\n，𝑃𝑃下=\n𝑚𝑚𝑚𝑚ℎ\n𝑡𝑡下\n，\n所以𝑃𝑃上> 𝑃𝑃下，故C 正确D 错误.\n8.\nAB\n本题没有说明带电粒子的带电性质，假定粒子带正电，A 选项中，磁\n场对粒子作用力为零，电场力与粒子运动方向在同一直线，方向不会发生偏移，故A 正确；\nB 选项中，电场力方向向上，洛伦兹力方向向下，当这两个力平衡时，粒子方向可以始终不\n变，故B 正确；C 选项中电场力、洛伦兹力都是沿𝑦𝑦轴正方向，粒子将做曲线运动，故C 错\n误；D 选项中，电场力沿𝑧𝑧正方向，洛伦兹力沿𝑦𝑦轴方向，两个力不可能平衡，粒子将做曲线\n运动，故D 错误.\n9.\nC\n升压变压器的输入功率大小是由用户用电设备消耗的功率(即次级负载\n消耗的功率)大小决定的，因为发电机的输出电压(即变压器的初级电压)是不变的，所以升\n压变压器的原线圈中的电流由用户用电设备消耗的功率决定，故A 错误；据𝑃𝑃输= 𝑈𝑈𝑈𝑈，输送\n电压𝑈𝑈不变，输送电流𝐼𝐼由输送功率决定，故B 错误；据𝑃𝑃输=\n𝑈𝑈2\n𝑅𝑅用\n，用户用电器总电阻𝑅𝑅用减\n少(即用电器增多，因为用电器是并联的)，则输送功率增大，据𝑃𝑃输= 𝑈𝑈𝑈𝑈，输送电压𝑈𝑈不变，\n输送电流𝐼𝐼增大，又据𝑃𝑃损= 𝐼𝐼2𝑅𝑅，𝑅𝑅为输电线路电阻，不变，所以输电线上损失的功率增大，\n- 11 -\n故C 正确；升压变压器的输出电压等于输电线路电阻上损失电压加上降压变压器电压，故\nD 错误.\n10. AC\n依据题意正确作出图示，如图所示.甲图是𝑃𝑃1𝑃𝑃2 <\n𝜆𝜆\n2的情况，由“上坡下行，\n下坡上行”的方法判断，𝑃𝑃1向下运动，𝑃𝑃2向上运动，故A 正确B 错误；乙图是𝑃𝑃1𝑃𝑃2 >\n𝜆𝜆\n2的情\n况，同样的方法判断，𝑃𝑃1向上运动，𝑃𝑃2向下运动，故C 正确D 错误.\n11.\n从固定刻度部分可读出毫米数和半毫米数，读数为8mm(半毫米刻度未露出，无读\n数)，再从可动刻度上读出47.3 × 0.01 = 0.473mm，其中，千分位为估读数，两部分读数相\n加为8.473mm.\n12．\n本题提供了两只定值电阻及开关、导线等，要求测量电池的电动势。这是一个\n设计性实验，方案是多种多样的，下列答案是较简单的一种方案，由闭合电路的欧姆定律，\n对上列两图中分别列式𝐸𝐸= 𝐼𝐼1(𝑅𝑅1 + 𝑟𝑟)，𝐸𝐸= 𝐼𝐼2(𝑅𝑅1 + 𝑅𝑅2 + 𝑟𝑟)，联立解得𝐸𝐸=\n𝐼𝐼1𝐼𝐼2𝑅𝑅2\n(𝐼𝐼1−𝐼𝐼2).\n13.\n①纸带运动速度为𝑣𝑣=\n𝑥𝑥2−𝑥𝑥1\n𝑇𝑇(𝑛𝑛−1)，又𝑣𝑣= 𝜔𝜔𝜔𝜔，因此𝜔𝜔=\n(𝑥𝑥2−𝑥𝑥1)\n𝑇𝑇(𝑛𝑛−1)𝑟𝑟；\n②取第1 个点与第8 个点，其中𝑥𝑥1 = 0cm,𝑥𝑥2 = 5.20cm,𝑛𝑛= 8,𝑟𝑟= 5.5 × 10−2m,𝑇𝑇= 0.02s，\n代入数据解得𝜔𝜔= 6.8m/s.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2002,
       "subject": "物理",
@@ -470,11 +627,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2002/2002全国旧课程(河南,广东,广西).pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q020-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q020-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-88ffe40b3d932119-q020-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 6,
+    "assigned": 13,
+    "rendered": 13,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

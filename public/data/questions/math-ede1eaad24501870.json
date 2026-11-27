@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2006/2006四川文.pdf",
   "name": "2006四川文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q01",
       "content": "已知集合A = {x | x2 −5x + 6 ⩽0}, 集合B = {x | |2x −1| > 3}, 则集合\nA ∩B =\n(\n)\n(A) {x | 2 ⩽x ⩽3}\n(B) {x | 2 ⩽x < 3}\n(C) {x | 2 < x ⩽3}\n(D) {x | −1 < x < 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q02",
       "content": "函数f(x) = ln(x −1) (x > 1) 的反函数是\n(\n)\n(A) f −1(x) = ex + 1 (x ∈R)\n(B) f −1(x) = 10x + 1 (x ∈R)\n(C) f −1(x) = 10x + 1 (x > 1)\n(D) f −1(x) = ex + 1 (x > 1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q03",
       "content": "曲线y = 4x −x3 在点(−1, −3) 处的切线方程是\n(\n)\n(A) y = 7x + 4\n(B) y = 7x + 2\n(C) y = x −4\n(D) y = x −2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q04",
       "content": "如图, 已知正六边形P1P2P3P4P5P6, 下列向量的数量积中最大的是\n(\n)\nP5\nP4\nP3\nP2\nP1\nP6\n(A) #       »\nP1P2 · #       »\nP1P3\n(B) #       »\nP1P2 · #       »\nP1P4\n(C) #       »\nP1P2 · #       »\nP1P5\n(D) #       »\nP1P2 · #       »\nP1P6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q05",
       "content": "甲校有3600 名学生, 乙校有5400 名学生, 丙校有1800 名学生, 为统计三\n校学生某方面的情况, 计划采用分层抽样法, 抽取一个容量为90 人的样本,\n应在这三校分别抽取学生\n(\n)\n(A) 30 人, 30 人, 30 人\n(B) 30 人, 45 人, 15 人\n(C) 20 人, 30 人, 10 人\n(D) 30 人, 50 人, 10 人",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q06",
       "content": "下列函数中, 图象的一部分如图所示的是\n(\n)\nx\nπ\n12\n−π\n6\n1\n−1\ny\nO\n(A) y = sin\n(\nx + π\n6\n)\n(B) y = sin\n(\n2x −π\n6\n)\n(C) y = cos\n(\n4x −π\n3\n)\n(D) y = cos\n(\n2x −π\n6\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -148,22 +197,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q07",
       "content": "已知二面角α −l −β 的大小为60◦, m、n 为异面直线, 且m ⊥α, n ⊥β,\n则m、n 所成的角为\n(\n)\n(A) 30◦\n(B) 60◦\n(C) 90◦\n(D) 120◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q08",
       "content": "已知两定点A(−2, 0)、B(1, 0), 如果动点P 满足|PA| = 2|PB|, 则点P 的\n轨迹所包围的图形的面积等于\n(\n)\n(A) 9π\n(B) 8π\n(C) 4π\n(D) π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q09",
       "content": "如图, 正四棱锥P −ABCD 底面的四个顶点A、B、C、D 在球O 的同一\n个大圆上, 点P 在球面上, 如果VP −ABCD = 16\n3 , 则球O 的表面积是(\n)\n•O\nP\nA\nB\nD\nC\n(A) 4π\n(B) 8π\n(C) 12π\n(D) 16π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -217,22 +288,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q10",
       "content": "直线y = x −3 与抛物线y2 = 4x 交于A、B 两点, 过A、B 两点向抛物\n线的准线作垂线, 垂足分别为P、Q, 则梯形APQB 的面积为\n(\n)\n(A) 36\n(B) 48\n(C) 56\n(D) 64",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -240,22 +321,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q11",
       "content": "设a、b、c 分别是△ABC 的三个内角A、B、C 所对的边, 则a2 = b(b+c)\n是A = 2B 的\n(\n)\n(A) 充要条件\n(B) 充分而不必要条件\n(C) 必要而不充分条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -263,22 +354,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q12",
       "content": "从0 到9 这10 个数字中任取3 个数字组成一个没有重复数字的三位数,\n这个数不能被3 整除的概率为\n(\n)\n(A) 41\n60\n(B) 38\n54\n(C) 35\n54\n(D) 19\n54",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -286,22 +383,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q13",
       "content": "(1 −2x)10 展开式中的x3 的系数为\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -309,22 +412,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q14",
       "content": "设x、y 满足约束条件\n\n\n\n\n\n\n\n\n\nx ⩾1,\ny ⩾1\n2x,\n2x + y ⩽10,\n则z = 2x −y 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -332,22 +445,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q15",
       "content": "如图, 把椭圆x2\n25 + y2\n16 = 1 的长轴AB 分成8 等分, 过每个分点作x 轴的\n垂线交椭圆的上半部分于P1、P2、· · · 、P7 七个点, F 是椭圆的一个焦点,\n则|P1F| + |P2F| + · · · + |P7F| =\n.\nx\nP1\nP7\nP2\nP6\nP3\nP5\nF\nP4\nA\nB\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -355,22 +474,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q16",
       "content": "m、n 是空间两条不同直线, α、β 是两个不同平面, 下面有四个命题:\n①m ⊥α, n\nβ, α\nβ ⇒m ⊥n;\n②m ⊥n, α\nβ, m ⊥α ⇒n\nβ;\n③m ⊥n, α\nβ, m\nα ⇒n ⊥β;\n④m ⊥α, m\nn, α\nβ ⇒n ⊥β.\n其中真命题的编号是\n. (写出所有真命题的编号)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -378,22 +507,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q17",
       "content": "数列{an} 的前n 项和记为Sn, a1 = 1, an+1 = 2Sn + 1 (n ⩾1).\n(1) 求{an} 的的通项公式;\n(2) 等差数列{bn} 的各项为正, 其前n 项和为Tn, 且T3 = 15, 又a1 + b1,\na2 + b2, a3 + b3 成等比数列, 求Tn.\n334",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -401,22 +540,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q18",
       "content": "已知A、B、C 是△ABC 三内角, 向量m = (−1,\n√\n3), n = (cos A, sin A),\n且m · n = 1.\n(1) 求角A;\n(2) 若\n1 + sin 2B\ncos2 B −sin2 B = −3, 求tan C.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -424,22 +569,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q19",
       "content": "某课程考核分理论和实验两部分进行, 每部分考核成绩只记“合格”与“不合\n格”, 两部分考核都“合格”则该课程考核“合格”. 甲、乙、丙三人在理论考核\n中合格的概率分别为0.9、0.8、0.7; 在实验考核中合格的概率分别为0.8、\n0.7、0.9. 所有考核是否合格互相之间没有影响.\n(1) 求甲、乙、丙三人在理论考核中至少有两人合格的概率;\n(2) 求这三人该课程考核都合格的概率. (结果保留三位小数)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -447,22 +598,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q20",
       "content": "如图, 在长方体ABCD −A1B1C1D1 中, E、P 分别是BC、A1D1 的中\n点, M N 分别是AE CD1 的中点, AD = AA1 = a, AB = 2a.\n(1) 求证: MN\n面ADD1A1;\n(2) 求二面角P −AE −D 的大小.\nA1\nB1\nC1\nA\nB\nC\nE\nM\nN\nD\nP\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -470,22 +627,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q21",
       "content": "已知函数f(x) = x3 + 3ax −1, g(x) = f ′(x) −ax −5, 其中f ′(x) 是f(x)\n的导函数.\n(1) 对满足−1 ⩽a ⩽1 的一切a 的值, 都有g(x) < 0, 求实数x 的取值范\n围;\n(2) 设a = −m2, 当实数m 在什么范围内变化时, 函数y = f(x) 的图像与\n直线y = 3 只有一个公共点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -493,22 +660,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006四川文.pdf#q22",
       "content": "已知两定点F1(−\n√\n2, 0), F2(\n√\n2, 0), 满足条件\n���#     »\nPF2\n���−\n���#     »\nPF1\n���= 2 的点P\n的轨迹是曲线E, 直线y = kx −1 与曲线E 交于A、B 两点.\n(1) 求k 的取值范围;\n(2) 如果\n���#   »\nAB\n���= 6\n√\n3, 且曲线E 上存在点C, 使#   »\nOA + #    »\nOB = m#    »\nOC, 求m\n的值和△ABC 的面积S.\n335",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -516,11 +689,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006四川文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ede1eaad24501870-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 5
+  }
 }

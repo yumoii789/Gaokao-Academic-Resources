@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2021/2021天津.pdf",
   "name": "2021天津",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q01",
-      "content": "单选题\n1. 设集合A = {−1, 0, 1}, B = {1, 3, 5}, C = {0, 2, 4}, 则(A ∩B) ∪\nC =\n(\n)\n(A) {0}\n(B) {0, 1, 3, 5}\n(C) {0, 1, 2, 4}\n(D) {0, 2, 3, 4}",
+      "content": "设集合A = {−1, 0, 1}, B = {1, 3, 5}, C = {0, 2, 4}, 则(A ∩B) ∪\nC =\n(\n)\n(A) {0}\n(B) {0, 1, 3, 5}\n(C) {0, 1, 2, 4}\n(D) {0, 2, 3, 4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q02",
       "content": "已知a ∈R, 则“a > 6”是“a2 > 36”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q03",
       "content": "函数f(x) = ln |x|\nx2 + 2 的图象大致为\n(\n)\n(A)\n1\nx\ny\n0.15\nO\n(B)\n1\nx\ny\n0.15\nO\n(C)\n1\nx\ny\n0.15\nO\n(D)\n1\nx\ny\n0.15\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q04",
       "content": "从某网络平台推荐的影视作品中抽取400 部, 统计其评分数据, 将所得400\n个评分数据氛围8 组: [66, 70), [70, 74), · · · , [94, 98], 并整理得到如下的频\n率分布直方图, 则评分在区间[82, 86) 内的影视作品数量是\n(\n)\n频率\n组距\n0\n评分\n0.035\n0.040\n0.050\n0.025\n0.030\n0.020\n0.045\n66\n70\n74\n78\n82\n86\n90\n94\n98\n(A) 20\n(B) 40\n(C) 64\n(D) 80",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q05",
       "content": "设a = log20.3, b = log 1\n2 0.4, c = 0.40.3, 则三者大小关系为\n(\n)\n(A) a < b < c\n(B) c < a < b\n(C) b < c < a\n(D) a < c < b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q06",
       "content": "两个圆锥的底面是一个球的同一截面, 顶点均在球面上, 若球的体积为\n32π\n3 , 两个圆锥的高之比为1 : 3, 则这两个圆锥的体积之和为\n(\n)\n(A) 3π\n(B) 4π\n(C) 9π\n(D) 12π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q07",
       "content": "若2a = 5b = 10, 则1\na + 1\nb =\n(\n)\n(A) −1\n(B) lg 7\n(C) 1\n(D) log710",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q08",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的右焦点与抛物线y2 = 2px (p >\n0) 的焦点重合, 抛物线的准线交双曲线于A, B 两点, 交双曲线的渐近线于\nC, D 两点, 若|CD| =\n√\n2 |AB|, 则双曲线的离心率为\n(\n)\n(A)\n√\n2\n(B)\n√\n3\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q09",
       "content": "设a ∈R, 函数f(x) =\n{\ncos(2πx −2πa), x < a\nx2 −2(a + 1)x + a2 + 5, x ⩾a\n, 若函数f(x) 在\n区间(0, +∞) 内恰有6 个零点, 则a 的取值范围是\n(\n)\n(A)\n(\n2, 9\n4\n]\n∪\n(5\n2\n11\n4\n]\n(B)\n(7\n4, 2\n]\n∪\n(5\n2, 11\n4\n]\n(C)\n(\n2, 9\n4\n]\n∪\n[11\n4 , 3\n)\n(D)\n(7\n4, 2\n)\n∪\n[11\n4 , 3\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -217,22 +276,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q009-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q009-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q10",
       "content": "i 是虚数单位, 复数9 + 2i\n2 + i =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -240,22 +310,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q11",
       "content": "在\n(\n2x3 + 1\nx\n)6\n的展开式中, x6 的系数是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -263,22 +344,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q12",
       "content": "若斜率为\n√\n3 的直线与y 轴交于点A, 与圆x2 + (y −1)2 = 1 相切于点B,\n则|AB| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -286,22 +373,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q13",
       "content": "若a > 0, b > 0, 则1\na + a\nb2 + b 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -309,22 +402,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q14",
       "content": "甲、乙两人在每次猜谜活动中各猜一个谜语, 若一方猜对且另一方猜错, 则\n猜对的一方获胜, 否则本次平局. 已知每次活动中, 甲、乙猜对的概率分别\n为5\n6 和3\n5, 且每次活动中甲、乙猜对与否互不影响, 各次活动也互不影响,\n则一次活动中, 甲获胜的概率为\n; 3 次活动中, 甲至少获胜2 次的概\n率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -332,22 +431,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q15",
       "content": "在边长为1 的等边三角形ABC 中, D 为线段BC 上的动点, DE ⊥AB\n且交AB 于点E, DF\nAB 且交AC 于点F, 则\n���2#    »\nBE + #    »\nDF\n���的值\n为\n;\n(#    »\nDE + #    »\nDF\n)\n· #    »\nDA 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -355,22 +464,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q16",
       "content": "在△ABC 中, 角A, B, C 对边分别为a, b, c, 且sin A : sin B : sin C = 2 :\n1 :\n√\n2, b =\n√\n2.\n(1) 求a 的值;\n(2) 求cos C 的值;\n(3) 求sin\n(\n2C −π\n6\n)\n的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -378,22 +493,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q17",
       "content": "如图, 在棱长为2 的正方体ABCD −A1B1C1D1 中, E, F 分别为棱BC,\nCD 的中点.\n(1) 求证: D1F\n平面A1EC1;\n(2) 求直线AC1 与平面A1EC1 所成角的正弦值;\n(3) 求二面角A −A1C1 −E 的正弦值.\nB\nC\nE\nF\nD\nA\nB1\nC1\nD1\nA1\n1151",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -401,22 +522,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ef12a29f87303b63-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q18",
       "content": "已知椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的右焦点为F, 上顶点为B, 离心率为\n2\n√\n5\n5 , 且|BF| =\n√\n5.\n(1) 求椭圆的方程;\n(2) 直线l 与椭圆有唯一的公共点M, 与y 轴的正半轴交于点N. 过N 与\nBF 垂直的直线交x 轴于点P. 若MP\nBF, 求直线l 的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -424,22 +555,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q19",
       "content": "已知{an} 是公差为2 的等差数列, 其前8 项的和为64. {bn} 是公比大于\n0 的等比数列, b1 = 4, b3 −b2 = 48.\n(1) 求{an} 和{bn} 的通项公式;\n(2) 记cn = b2n + 1\nbn\n, n ∈N∗.\n①证明: {c2\nn −c2n} 是等比数列;\n②证明:\nn∑\nk=1\n√akak+1\nc2\nk −c2k\n< 2\n√\n2 (n ∈N∗).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -447,22 +584,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2021/2021天津.pdf#q20",
       "content": "已知a > 0, 函数f(x) = ax −xex.\n(1) 求曲线f(x) 在点(0, f(0)) 处的切线方程;\n(2) 证明f(x) 存在唯一的极值点;\n(3) 若存在a, 使得f(x) ⩽a + b 对任意x ∈R 成立, 求实数b 的取值范围.\n1152",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2021,
       "subject": "数学",
@@ -470,11 +613,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2021/2021天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

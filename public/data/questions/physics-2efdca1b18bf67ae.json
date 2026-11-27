@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
   "name": "2012大纲理综(广西,贵州,西藏,甘肃,青海)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 13,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q01",
       "content": "下列关于布朗运动的说法，正确的是（     ）\n（A）布朗运动是液体分子的无规则运动\n（B）液体温度越高，悬浮粒子越小，布朗运动越剧烈\n（C）布朗运动是由于液体各部分的温度不同而引起的\n（D）布朗运动是由液体分子从各个方向对悬浮粒子撞击作用的不平衡引起的",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "布朗运动是悬浮颗粒的无规则运动，不是液体分子的运动，选项A 错；液体的温度越高，悬浮颗\n粒越小，布朗运动越剧烈，选项B 正确；布朗运动是由于液体分子从各个方向对悬浮粒子撞击作用不平衡\n引起的，选项C 错，选项D 正确。\n正确选项：BD",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,384 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q02",
+      "content": "23592U 经过m 次α 衰变和n 次β 衰变20782Pb，则（     ）\n（A）m＝7，n＝3\n（B）m＝7，n＝4\n（C）m＝14，n＝9\n（D）m＝14，n＝18",
+      "answer": "暂无结构化答案",
+      "analysis": "原子核每发生一次α 衰变，质量数减少4，电荷数减少2；每发生一次β 衰变，质量数不变，电荷\n数增加1。比较两种原子核，质量数减少28，即发生了7 次α 衰变；电荷数应减少14，而电荷数减少10，\n说明发生了4 次β 衰变，B 项正确。正确选项：B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q03",
+      "content": "在双缝干涉实验中，某同学用黄光作为入射光，为了增大干涉条纹的间距，该同学可以采用的方法有\n（    ）\n（A）改用红光作为入射光\n（B）改用蓝光作为入射光\n（C）增大双缝到屏的距离\n（D）增大双缝之间的距离",
+      "answer": "暂无结构化答案",
+      "analysis": "根据\nL\nx\nd \n=\n，红光比黄光波长大，所以A 正确；蓝光比黄光波长短，所以B 错误；增大双缝\n到屏的距离即增大L，增大干涉条纹的间距，所以C 正确。增大双缝之间的距离，减小干涉条纹的间距，\n所以D 错误。正确选项：AC",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q04",
+      "content": "质量分别为m1 和m2、电荷量分别为q1 和q2 的两粒子在同一匀强磁场中做匀速圆周运动，已知两粒子\n的动量大小相等。下列说法正确的是（     ）\n（A）若q1＝q2，则它们作圆周运动的半径一定相等\n（B）若m1＝m2，则它们作圆周运动的半径一定相等\n（C）若q1≠q2，则它们作圆周运动的周期一定不相等\n（D）若m1≠m2，则它们作圆周运动的周期一定不相等",
+      "answer": "暂无结构化答案",
+      "analysis": "根据牛顿第二定律得：\nv\nqvB\nm r\n=\n，由圆周运动规律：\n2 r\nT\nv\n\n=\n。得到轨道半径\nmv\np\nr\nqB\nqB\n=\n=\n及\n2 / 7\n周期\n2 m\nT\nqB\n\n=\n。正确选项：A",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q05",
+      "content": "如图，两根互相平行的长直导线过纸面上的 M、N 两点，且与纸面垂\n直，导线中通有大小相等、方向相反的电流。a、O、b 在 M、N 的连线上，\nO 为 MN 的中点，c、d 位于 MN 的中垂线上，且 a、b、c、d 到 O 点\n的距离均相等。关于以上几点处的磁场，下列说法正确的是（    ）\n（A）O 点处的磁感应强度为零\n（B）a、b 两点处的磁感应强度大小相等，方向相反\n（C）c、d 两点处的磁感应强度大小相等，方向相同\n（D）a、c 两点处磁感应强度的方向不同",
+      "answer": "暂无结构化答案",
+      "analysis": "由安培定则可知，两导线在 O 点产生的磁场均竖直向下，合磁感应强度一定不为零，选项 A 错；\n由安培定则，两导线在 a、b 两处产生磁场方向均竖直向下，由于对称性，电流 M 在 a 处产生磁场的磁\n感应强度等于电流 N 在 b 处产生磁场的磁感应强度，同时电流 M 在 b 处产生磁场的磁感应强度等于\n电流 N 在 a 处产生磁场的磁感应强度，所以 a、b 两处磁感应强度大小相等方向相同，选项 B 错；\n根据安培定则，两导线在 c、d 处产生磁场垂直 c、d 两点与导线连线方向向下，且产生的磁场的磁感应\n强度相等，由平行四边形定则可知，c、d 两点处的磁感应强度大小相同，方向相同，选项 C 正确。\na、c 两处磁感应强度的方向均竖直向下，选项 D 错。\n正确选项：C",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q06",
+      "content": "一台电风扇的额定电压为交流220V。在其正常工作过程中，\n用交流电流表测得某一段时间内的工作电流I 随时间t 的变化如\n图所示。这段时间内电风扇的用电量为（    ）\n（A）3.9×10-4 度\n（B）5.5×10-2 度\n（C）7.8×10-2 度\n（D）11.0×10-2 度",
+      "answer": "暂无结构化答案",
+      "analysis": "根据电流的变化情况，分段计算求电功\n3\n1\n1\n1\n0.3 220 10 600J\n3.96 10 J\nW\nI Ut\n=\n=\n\n\n\n=\n\n3\n2\n2\n2\n0.4 220 10 600J\n5.28 10 J\nW\nI Ut\n=\n=\n\n\n\n=\n\n，\n4\n3\n3\n3\n0.2 220 40 600J\n1.056 10 J\nW\nI Ut\n=\n=\n\n\n\n=\n\n则总功\n4\n2\n1\n2\n3\n1.98 10 J\n5.5 10 J\nW\nW\nW\nW\n−\n=\n+\n+\n=\n\n=\n\n，正确选项：B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q07",
+      "content": "一列简谐横波沿x 轴正方向传播，图（a）是t＝0 时刻的波形图，图（b）和图（c）分别是x 轴上某两\n处质点的振动图像。由此可知，这两质点平衡位置之间的距离可能是（    ）\nt/s\ny/m\n0.1\n0\n1\n2\n（b）\nt/s\ny/m\n0.1\n0\n1\n2\n（c）\n-0.05\ny/m\n0.1\n0\n1\n2\n3\n（a）\nx/m\nM\nN\na\nb\nc\nd\nO\nt/min\nI/A\n0.4\n0.3\n0.2\n0\n10 20\n40\n60\n3 / 7\n（A）1\n3 m\n（B）2\n3 m\n（C）1m\n（D）4\n3 m",
+      "answer": "暂无结构化答案",
+      "analysis": "若b 在前c 在后，则b、c 间相差为1\n3T ，则这两质点平衡位置之间的距离可能是1\n2\n3\n3 m\n=\n（\n2m\n=\n），B 正确。若b 在后c 在前，则c、b 间相差为2\n3 T ，则这两质点平衡位置之间的距离可能是\n2\n4\n3\n3 m\n=\n（\n2m\n=\n），D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q007-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q08",
+      "content": "如图，大小相同的摆球a 和b 的质量分别为m 和3m，摆长相同，并排悬挂，平衡时\n两球刚好接触，现将摆球a 向左边拉开一小角度后释放，若两球的碰撞是弹性的，下列判\n断正确的是（    ）\n（A）第一次碰撞后的瞬间，两球的速度大小相等\n（B）第一次碰撞后的瞬间，两球的动量大小相等\n（C）第一次碰撞后，两球的最大摆角不相同\n（D）发生第二次碰撞时，两球在各自的平衡位置",
+      "answer": "暂无结构化答案",
+      "analysis": "根据碰撞动量守恒定律和动能守恒得\n1 1\n1 1\n2 2\n'\n'\nm v\nm v\nm v\n=\n+\n，\n2\n2\n2\n1 1\n1 1\n1 2\n1\n1\n1\n'\n'\n2\n2\n2\nm v\nm v\nm v\n=\n+\n，且\n1\nm\nm\n=\n，\n2\n3\nm\nm\n=\n解得\n1\n2\n1\n1\n1\n1\n2\n1\n'\n2\nm\nm\nv\nv\nv\nm\nm\n−\n=\n= −\n+\n，\n1\n2\n1\n1\n1\n2\n2\n1\n'\n2\nm\nv\nv\nv\nm\nm\n=\n=\n+\n，所以A 正确，B 错误；根据\n2\n1\n(1 cos )\n2 mv\nmgh\nmgR\n\n=\n=\n−\n，知第一次碰撞后，两球的最大摆角相同，C 错误；根据单摆的等时性，\nD 正确。\n第Ⅱ卷\n注意事项：\n1.答题前考生先在答题卡上用0.5 毫米黑色墨水签字笔将自己的姓名、准考证号填写清楚，然后贴好条形\n码。请认真核准条形码上得准考证号、姓名和科目。\n2.第Ⅱ卷共7 页，请用直径0.5 毫米黑色墨水签字笔在答题卡上各题的答题区域内作答，在试题卷上作答\n．．．．．．．\n无效\n．．。\n3.第Ⅱ卷共13 题，共174 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q09",
+      "content": "（6 分）（注意：在试题卷上作答无效\n．．．．．．．．．）\n在黑箱内有一由四个阻值相同的电阻构成的串并联电路，黑箱面板上有三\n个接线柱1、2 和3。用欧姆表测得1、2 接线柱之间的电阻为1Ω，2、3\n接线柱之间的电阻为1.5Ω，1、3 接线柱之间的电阻为2.5Ω。\n（1）在虚线框中画出黑箱中的电阻连接方式；\n（2）如果将1、3 接线柱用导线连接起来，1、2 接线柱之间的电阻为______Ω。",
+      "answer": "（1）黑箱内电阻连接方式，如图\n1\n2\n3\n1Ω\n1Ω\n1Ω\n1Ω\n1\n2\n3\na\nb\n4 / 7\n（2）0.6Ω",
+      "analysis": "（1）因为1、2 接线柱之间的电阻与2、3 接线柱之间的电阻之和等于1、3 接线柱之间的电阻，所\n以2 为中间的结点，又因为2、3 接线柱之间的电阻与1、2 接线柱之间的电阻的差等于1、2 接线柱之间\n的电阻的一半，故2、3 之间有两个电阻并联，后再与第三个电阻串联，每个电阻均为1Ω，连接方式如图\n所示\n（2）将1、3 用导线相连后，两个1Ω 的电阻并联后与第三个1Ω 的电阻串联总电阻1.5Ω 再与第四个1Ω\n的电阻并联等效电阻R＝0.6Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q009-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q10",
+      "content": "（11 分）（注意：在试题卷上作答无效\n．．．．．．．．．）\n图1 为验证牛顿第二定律的实验装置示意图。图中打点计时器\n的电源为50Hz 的交流电源，打点的时间间隔用Δt 表示。在小\n车质量未知的情况下，某同学设计了一种方法用来研究“在外力\n一定的条件下，物体的加速度与其质量间的关系”。\n（1）完成下列实验步骤中的填空：\n①平衡小车所受的阻力：小吊盘中不放物块，调整木板右端的高\n度，用手轻拨小车，直到打点计时器打出一系列________的点。\n②按住小车，在小吊盘中放入适当质量的物块，在小车中放入砝码。\n③打开打点计时器电源，释放小车，获得带有点列的纸带，在纸带上标出小车中砝码的质量m。\n④按住小车，改变小车中砝码的质量，重复步骤③。\n⑤在每条纸带上清晰的部分，每5 个间隔标注一个计数点。测量相邻计数点的间距s1，s2，…。求出与不\n同m 相对应的加速度a。\n⑥以砝码的质量m 为横坐标，1\na 为纵坐标，在坐标纸上做出1\na -m 关系图线。若加速度与小车和砝码的总\n质量成反比，则1\na 与m 应成_________关系（填“线性”或“非线性”）。\n（2）完成下列填空：\n（ⅰ）本实验中，为了保证在改变小车中砝码的质量时，小车所受的拉力近似不变，小吊盘和盘中物块的\n质量之和应满足的条件是_______________________。\n（ⅱ）设纸带上三个相邻计数点的间距为s1、s2 和s3。a 可用s1、s3 和Δt 表示为a＝__________。图2 为\n用米尺测量某一纸带上的s1、s3 的情况，由图可读出s1＝__________mm，s3＝__________mm。由此求得\n加速度的大小a＝__________m/s2。\n（ⅲ）图3 为所得实验图线的示意图。设图中直线的斜率为k，在纵轴上的截距为b，若牛顿定律成立，则\n小车受到的拉力为___________，小车的质量为___________。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）①平衡好小车所受的阻力，小车做匀速运动，打点计时器打出的点间隔基本相等⑥根据牛顿\n第二定律可知，\n1\n(\n)\nM\nm\nF\nM\nm a\na\nF\nF\n=\n+\n\n=\n+\n，1\na\n与m 为一次函数关系，是线性关系。\n（2）（i）为保证小车所受拉力近似不变，应满足小吊盘和盘中物块的质量之和远小于小车的质量。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11 cm 12\n图2\ns1\ns2\ns3\n 小车\n 打点计时器\n复写纸\n小吊盘\n图1\n 纸带\n电源\n 木板\nm\nO\n1/a\n图3\n5 / 7\n(ii) 由\n2\nx\naT\n=\n可知，\n3\n1\n3\n1\n2\n2\n2(5\n)\n50(\n)\ns\ns\ns\ns\na\nt\nt\n−\n−\n=\n=\n\n\n，由图可读出\n1\n36.8 12.5\n24.3\ns\nmm\n=\n−\n=\n3\n120.0\n72.8\n47.2\ns\nmm\n=\n−\n=\n，\n3\n3\n1\n2\n2\n(47.2\n24.3) 10\n1.15\n/\n2(5\n)\n2 (5 0.02)\ns\ns\na\nm s\nt\n−\n−\n−\n\n=\n=\n=\n\n\n\n。\n(iii)设小车的质量为\n'\nm ，则有\n(\n')\nF\nm\nm a\n=\n+\n，变形得1\n1\n'\nm\nm\na\nF\nF\n=\n+\n,所以1\nm\na −\n图象的斜率为1\nk\nF =\n，\n所以作用力\n1\nF\nk\n=\n，1\nm\na −\n图象的截距为\n'\nm\nb\nF =\n，所以\n'\nb\nm\nk\n=\n。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q010-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q11",
+      "content": "（16 分）（注意：在试题卷上作答无效\n．．．．．．．．．）\n如图，一平行板电容器的两个极板竖直放置，在两极板间有一带电小球，小球用一绝\n缘轻线悬挂于O 点。现给电容器缓慢充电，使两级板所带电荷量分别为﹢Q 和﹣Q，\n此时悬线与竖直方向的夹角为π/6。再给电容器缓慢充电，直到悬线和竖直方向的夹\n角增加到π/3，且小球与两极板不接触。求第二次充电使电容器正极板增加的电荷量。",
+      "answer": "暂无结构化答案",
+      "analysis": "设电容器的电容为C，第一次充电后两极板间电压为\nQ\nU\nC\n=\n                                        ①\n两板之间电场的强度为\nU\nE\nd\n=\n                                        ②\n      式中d 为两板间距离。\n按题意。当小球偏转角\n1\n6\n\n=\n时，小球处于平衡位置。设小球质量为m，所带电荷量为q，则有\n1\ncos\nT\nmg\n=\n                                  ③\n1\nsin\nT\nqE\n=\n                                  ④\n式中T 为此时悬线的张力。\n联立①②③④式得\n1\ntan\nqQ\nmgCd\n=\n                                 ⑤\n设第二次充电使正极板增加的电荷量为\nQ\n\n，此时小球偏转角\n2\n3\n\n=\n，则\n2\n(\n)\ntan\nq Q\nQ\nmgCd\n\n+ \n=\n                               ⑥\n联立⑤⑥式得\n1\n2\ntan\ntan\nQ\nQ\nQ\n\n=\n+ \n                                  ⑦\n代入数据解得\n2\nQ\nQ\n\n=\n                                        ⑧\nO\n6 / 7",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q12",
+      "content": "（19 分）（注意：在试卷上作答无效\n．．．．．．．．）\n一单摆在地面处的摆动周期与在某矿井底部摆动周期的比值为k。设地球的半径为R。假定地球的密度均\n匀。已知质量均匀分布的球壳对壳内物体的引力为零，求矿井的深度d。",
+      "answer": "暂无结构化答案",
+      "analysis": "根据万有引力定律，地面处质量为m 的物体的重力为\n2\nmM\nmg\nG R\n=\n                                ①\n式中g 是地面处的重力加速度，M 是地球的质量。设ρ 是地球的密度，则有\n3\n4\n3\nM\nR\n\n=\n                                ②\n摆长为L 的单摆在地面处的摆动周期为\n2\nL\nT\ng\n\n=\n                                ③\n若该物体位于矿井底部，则其重力为\n2\n(\n)\nmM\nmg\nG R\nd\n\n=\n−\n                           ④\n式中g是矿井底部的重力加速度，且\n3\n4\n(\n)\n3\nM\nR\nd\n\n=\n−\n                          ⑤\n在矿井底部此单摆的周期为\n2\nL\nT\ng\n\n=\n\n                                ⑥\n由题意\nT\nkT\n=\n                                  ⑦\n联立以上各式得\n2\n(1\n)\nd\nR\nk\n=\n−\n                                    ⑧",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf#q13",
+      "content": "（20 分）（注意：在试题卷上作答无效\n．．．．．．．．．）\n一探险队员在探险时遇到一山沟，山沟的一侧竖直，另一侧的坡面呈抛\n物线形状。此队员从山沟的竖直一侧，以速度v0 沿水平方向跳向另一侧\n坡面。如图所示，以沟底的O 点为原点建立坐标系Oxy。已知，山沟竖\n直一侧的高度为2h，坡面的抛物线方程为y＝1\n2h x2，探险队员的质量为\nm。人视为质点，忽略空气阻力，重力加速度为g。\n（1）求此人落到坡面时的动能；\n（2）此人水平跳出的速度为多大时，他落在坡面时的动能最小？动能的\n最小值为多少？",
+      "answer": "（1）\n2\n2\n2\n0\n2\n0\n1\n4\n2\ng h\nm v\nv\ngh\n\n\n+\n\n\n+\n\n\nv0\ny\nx\n2h\nO\n7 / 7\n（2）\ngh ；3\n2\nmgh",
+      "analysis": "（1）设探险队员在空中运动的时间为t，在坡面上落点的横坐标为x，纵坐标为y。由运动学公式\n和已知条件得\n0\nx\nv t\n=\n                                         ①\n2\n1\n2\n2\nh\ny\ngt\n−\n=\n                                  ②\n根据题意有\n2\n1\n2\ny\nx\nh\n=\n                                        ③\n由机械能守恒，落到地面时的动能为\n2\n2\n0\n1\n1\n(2\n)\n2\n2\nmv\nmv\nmg\nh\ny\n=\n+\n−\n                     ④\n联立①②③④式得\n2\n2\n2\n2\n0\n2\n0\n1\n1\n4\n2\n2\ng h\nmv\nm v\nv\ngh\n\n\n=\n+\n\n\n+\n\n\n                      ⑤\n（2）⑤式可以改写为\n2\n2\n2\n0\n2\n0\n2\n3\ngh\nv\nv\ngh\ngh\nv\ngh\n\n\n\n\n=\n+\n−\n+\n\n\n+\n\n\n               ⑥\n2v 极小的条件为⑥式中的平方项等于0，由此得\n0v\ngh\n=\n                                        ⑦\n    此时\n2\n3\nv\ngh\n=\n，则最小动能为\n2\nmin\n1\n3\n2\n2\nmv\nmgh\n\n\n=\n\n\n\n\n                               ⑧",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012大纲理综(广西,贵州,西藏,甘肃,青海).pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 26,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q013-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2efdca1b18bf67ae-q013-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 9,
+    "answerGraphics": 0,
+    "assigned": 9,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

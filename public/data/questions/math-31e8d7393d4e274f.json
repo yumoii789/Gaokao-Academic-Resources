@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2007/2007北京理.pdf",
   "name": "2007北京理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q01",
       "content": "已知cos θ · tan θ < 0, 那么角θ 是\n(\n)\n(A) 第一或第二象限角\n(B) 第二或第三象限角\n(C) 第三或第四象限角\n(D) 第一或第四象限角",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q02",
       "content": "函数f(x) = 3x (0 < x ⩽2) 的反函数的定义域为\n(\n)\n(A) (0, +∞)\n(B) (1, 9]\n(C) (0, 1)\n(D) [9, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q03",
       "content": "平面α\n平面β 的一个充分条件是\n(\n)\n(A) 存在一条直线a, a\nα, a\nβ\n(B) 存在一条直线a, a ⊂α, a\nβ\n(C) 存在两条平行直线a, b, a ⊂α, b ⊂β, a\nβ, b\nα\n(D) 存在两条异面直线a, b, a ⊂α, b ⊂β, a\nβ, b\nα",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q04",
       "content": "已知O 是△ABC 所在平面内一点, D 为BC 边中点, 且2#   »\nOA + #    »\nOB +\n#    »\nOC = 0, 那么\n(\n)\n(A) #   »\nAO = #    »\nOD\n(B) #   »\nAO = 2#    »\nOD\n(C) #   »\nAO = 3#    »\nOD\n(D) 2#   »\nAO = #    »\nOD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q05",
       "content": "记者要为5 名志愿者和他们帮助的2 位老人拍照, 要求排成一排, 2 位老\n人相邻但不排在两端, 不同的排法共有\n(\n)\n(A) 1440 种\n(B) 960 种\n(C) 720 种\n(D) 480 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q06",
       "content": "若不等式组\n\n\n\n\n\n\n\n\n\n\n\n\n\nx −y ⩾0,\n2x + y ⩽2,\ny ⩾0,\nx + y ⩽a,\n表示的平面区域是一个三角形, 则a 的取值范\n围是\n(\n)\n(A) a ⩾4\n3\n(B) 0 < a ⩽1\n(C) 1 ⩽a ⩽4\n3\n(D) 0 < a ⩽1 或a ⩾4\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q07",
       "content": "如果正数a, b, c, d 满足a + b = cd = 4, 那么\n(\n)\n(A) ab ⩽c + d, 且等号成立时a, b, c, d 的取值唯一\n(B) ab ⩾c + d, 且等号成立时a, b, c, d 的取值唯一\n(C) ab ⩽c + d, 且等号成立时a, b, c, d 的取值不唯一\n(D) ab ⩾c + d, 且等号成立时a, b, c, d 的取值不唯一",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q08",
       "content": "对于函数①f(x) = lg(|x −2|+1), ②f(x) = (x −2)2, ③f(x) = cos(x+2),\n判断如下三个命题的真假:\n命题甲: f(x + 2) 是偶函数;\n命题乙: f(x) 在(−∞, 2) 上是减函数, 在(2, +∞) 上是增函数;\n命题丙: f(x + 2) −f(x) 在(−∞, +∞) 上是增函数.\n能使命题甲、乙、丙均为真的所有函数的序号是\n(\n)\n(A) ①③\n(B) ①②\n(C) ③\n(D) ②",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q09",
       "content": "2\n(1 + i)2 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -217,22 +280,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q10",
       "content": "若数列{an} 的前n 项和Sn = n2 −10n (n = 1, 2, 3, · · · ), 则此数列的通\n项公式为\n; 数列{nan} 中数值最小的项是第\n项.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -240,22 +310,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q11",
       "content": "在△ABC 中, 若tan A = 1\n3, C = 150◦, BC = 1, 则AB =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -263,22 +339,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q12",
       "content": "已知集合A = {x | |x −a| ⩽1}, B = {x | x2 −5x + 4 ⩾0}. 若A∩B = ∅,\n则实数a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -286,22 +368,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q13",
       "content": "2002 年在北京召开的国际数学家大会, 会标是以我国古代数学家赵爽的弦\n图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一\n个大正方形(如图). 如果小正方形的面积为1, 大正方形的面积为25, 直角\n三角形中较小的锐角为θ, 那么cos 2θ 的值等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -309,22 +397,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q14",
       "content": "已知函数f(x), g(x) 分别由下表给出\nx\n1\n2\n3\nf(x)\n1\n3\n1\nx\n1\n2\n3\ng(x)\n3\n2\n1\n则f[g(1)] 的值为\n; 满足f[g(x)] > g[f(x)] 的x 的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -332,22 +430,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q15",
       "content": "数列{an} 中, a1 = 2, an+1 = an + cn (c 是常数, n = 1, 2, 3, · · · ), 且a1,\na2, a3 成公比不为1 的等比数列.\n(1) 求c 的值;\n(2) 求{an} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -355,22 +459,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q16",
       "content": "如图, 在Rt△AOB 中, ∠OAB = π\n6 , 斜边AB = 4. Rt△AOC 可以通过\nRt△AOB 以直线AO 为轴旋转得到, 且二面角B −AO −C 是直二面角.\n动点D 的斜边AB 上.\n(1) 求证: 平面COD ⊥平面AOB;\n(2) 当D 为AB 的中点时, 求异面直线AO 与CD 所成角的大小;\n(3) 求CD 与平面AOB 所成角的最大值.\nC\nB\nO\nA\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -378,22 +488,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q17",
       "content": "矩形ABCD 的两条对角线相交于点M(2, 0), AB 边所在直线的方程为\nx −3y −6 = 0, 点T(−1, 1) 在AD 边所在直线上.\n(1) 求AD 边所在直线的方程;\n(2) 求矩形ABCD 外接圆的方程;\n(3) 若动圆P 过点N(−2, 0), 且与矩形ABCD 的外接圆外切, 求动圆P\n的圆心的轨迹方程.\n351",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -401,22 +521,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q18",
       "content": "某中学号召学生在今年春节期间至少参加一次社会公益活动(以下简称活\n动). 该校合唱团共有100 名学生, 他们参加活动的次数统计如图所示.\n参加人数\n10\n20\n30\n40\n50\n活动次数\n1\n2\n3\n(1) 求合唱团学生参加活动的人均次数;\n(2) 从合唱团中任意选两名学生, 求他们参加活动次数恰好相等的概率;\n(3) 从合唱团中任选两名学生, 用ξ 表示这两人参加活动次数之差的绝对\n值, 求随机变量ξ 的分布列及数学期望Eξ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -424,22 +550,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q19",
       "content": "如图, 有一块半椭圆形钢板, 其半轴长为2r, 短半轴长为r, 计划将此钢板\n切割成等腰梯形的形状, 下底AB 是半椭圆的短轴, 上底CD 的端点在椭\n圆上, 记CD = 2x, 梯形面积为S.\n(1) 求面积S 以x 为自变量的函数式, 并写出其定义域;\n(2) 求面积S 的最大值.\nA\nB\nC\nD\n2r\n2r",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -447,22 +583,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2007/2007北京理.pdf#q20",
       "content": "已知集合A = {a1, a2, · · · , ak} (k ⩾2), 其中ai ∈Z (i = 1, 2, · · · , k). 由\nA 中的元素构成两个相应的集合: S = {(a, b) | a ∈A, b ∈A, a + b ∈A};\nT = {(a, b) | a ∈A, b ∈A, a −b ∈A}, 其中(a, b) 是有序数对, 集合S 和\nT 中的元素个数分别为m 和n. 若对于任意的a ∈A, 总有−a /∈A, 则称\n集合A 具有性质P.\n(1) 检验集合{0, 1, 2, 3} 与{−1, 2, 3} 是否具有性质P, 并对其中具有\n性质P 的集合, 写出相应的集合S 和T;\n(2) 对任何具有性质P 的集合A, 证明: n ⩽k(k −1)\n2\n;\n(3) 判断m 和n 的大小关系, 并证明你的结论.\n352",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2007,
       "subject": "数学",
@@ -470,11 +616,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2007/2007北京理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-31e8d7393d4e274f-q020-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

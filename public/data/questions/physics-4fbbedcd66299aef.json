@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
   "name": "2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 6,
+    "answerBlocks": 6,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 4,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q01",
       "content": "如图所示，一物体自倾角为θ 的固定斜面顶端沿水平方向抛出后落在\n斜面上。物体与斜面接触时速度与水平方向的夹角φ 满足（     ）\n（A）tanφ＝sinθ\n（B）tanφ＝cosθ\n（C）tanφ＝tanθ\n（D）tanφ＝2tanθ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "竖直速度与水平速度之比为：tanφ＝Agt\nv0 E\nA ，竖直位移与水平位移之比为：tanθ＝A0.5gt2\nv0tE\nA ，故tanφ＝\n2tanθ，D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -33,11 +44,181 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q02",
+      "content": "如图，一辆有动力驱动的小车上有一水平放置的弹簧，其左端固定在小车上，右端与一小球相连，设\n在某一段时间内小球与小车相对静止且弹簧处于压缩状态，若忽略小球与小车间的摩擦力，则在此段时间\n内小车可能是（     ）\n（A）向右做加速运动\n（B）向右做减速运动\n（C）向左做加速运动\n（D）向左做减速运动",
+      "answer": "暂无结构化答案",
+      "analysis": "对小球水平方向受到向右的弹簧弹力N，由牛顿第二定律可知，小球必定具有向右的加速度，小\n球与小车相对静止，故小车可能向右加速运动或向左减速运动。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q03",
+      "content": "一列简谐横波沿x 轴传播，周期为T，t＝0 时刻的波形如图所示.\n此时平衡位置位于x＝3m 处的质点正在向上运动，若a、b 两质点平\n衡位置的坐标分别为xa＝2.5m，xb＝5.5m，则（         ）\n（A）当a 质点处在波峰时，b 质点恰在波谷\n（B）t＝T/4 时，a 质点正在向y 轴负方向运动\n（C）t＝3T/4 时，b 质点正在向y 轴负方向运动\n（D）在某一时刻，a、b 两质点的位移和速度可能相同",
+      "answer": "暂无结构化答案",
+      "analysis": "由图可看出波长为4m，t＝0 时刻x＝3m 处的质点向上振动，可得该波向左传播。将整个波形图\n向左平移1.5m 时，a 质点到达波峰，此时b 质点正好在平衡位置，与t＝0 时刻平衡位置在7m 处的质点振\n动状态一样，故a 质点到达波峰时，b 质点正在平衡位置并向上振动，A 错；将图像整体向左平移1m，即\n波传播T/4 时，a 的振动状态与与t＝0 时刻平衡位置在3.5m 处的质点振动状态一样，即处在平衡位置上\n方并向y 轴正方向运动，B 错；将图像整体向左平移3m，即波传播3T/4 时，a 的振动状态与与t＝0 时刻\n平衡位置在9.5m 处和1.5m 的质点振动状态一样，即处在平衡位置下方并向y 轴负方向运动，C 对；a、b\n质点相隔3m，即相差3T/4，速度相同的质点应该在半周期内才会出现，故D 错。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q04",
+      "content": "已知太阳到地球与地球到月球的距离的比值约为390，月球绕地球旋转的周期约为27 天。利用上述数\n据以及日常的天文知识，可估算出太阳对月球与地球对月球的万有引力的比值约为（       ）\n（A）0.2\n（B）2\n（C）20\n（D）200",
+      "answer": "暂无结构化答案",
+      "analysis": "设太阳质量M，地球质量m，月球质量m0，日地间距离为R，月地间距离为r，日月之间距离近\n似等于R，地球绕太阳的周期为T 约为360 天，月球绕地球的周期为t＝27 天。对地球绕着太阳转动，由\n左\n右\ny\nx/m\na\nb\n0\n1\n2\n2\n－2\n3 4 5\n6\n7\nφ\nθ\n第 2 页 共 6 页\n万有引力定律：GAMm\nR2\nE\nA＝mA4π2R\nT2\nE\nA，同理对月球绕着地球转动：GAmm0\nr2\nE\nA＝m0 A4π2r\nt2\nE\nA，则太阳质量与地球质量之比\n为M∶m＝AR3T2\nr3t2\nE\nA；太阳对月球的万有引力F＝ GAMm0\nR2\nE\nA，地球对月球的万有引力f＝ GAmm0\nr2\nE\nA，故F∶f＝\nA Mr2\nmR2\nE\nA，带入太阳与地球质量比，计算出比值约为2，B 对。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q05",
+      "content": "三个原子核X、Y、Z，X 核放出一个正电子后变为Y 核，Y 核与质子发生核反应后生成Z 核并放出\n一个氦核（42He），则下面说法正确的是（      ）\n（A）X 核比Z 核多一个质子\n（B）X 核比Z 核少一个中子\n（C）X 核的质量数比Z 核质量数大3\n（D）X 核与Z 核的总电荷是Y 核电荷的2 倍\n18、CD 解析：设原子核X 的质量数为x，电荷数为y，依题意写出核反应方程，根据质量数守恒和电荷\n数守恒，可得原子核Y 的质量数为x，电荷数为y-1，原子核Z 的质量数为x－3，电荷数为y-2。由此可\n得X 核的质子（y）比Z 核的质子（y－2）多2 个，A 错；由此可得X 核的中子（x－y）比Z 核的中子（x\n－y－1）多1 个，B 错；X 核的质量数（x）比Z 核的质量数（x－3）多3 个，C 对；X 核与Z 核的总电荷\n（2y－2）是Y 核电荷（y－1）的2 倍，D 对。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf#q06",
+      "content": "已知地球半径约为6.4×106m，空气的摩尔质量约为29×10-3kg/mol，一个标准大气压约为1.0×105Pa，\n利用以上数据可估算出地球表面大气在标准状况下的体积为（        ）\n（A）4×1016m3\n（B）4×1018m3\n（C）4×1020m3\n（D）4×1022m3",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008大纲1理综(河南,河北,山西,辽宁,浙江,安徽,福建,江西,湖北,湖南,广西,陕西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q006-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q006-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4fbbedcd66299aef-q006-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 14,
+    "answerGraphics": 7,
+    "assigned": 7,
+    "rendered": 7,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

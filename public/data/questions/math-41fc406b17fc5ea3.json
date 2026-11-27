@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2013/2013江苏.pdf",
   "name": "2013江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q01",
       "content": "函数y = 3 sin\n(\n2x + π\n4\n)\n的最小正周期为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q02",
       "content": "设z = (2 −i)2 (i 为虚数单位), 则复数z 的模为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q03",
       "content": "双曲线x2\n16 −y2\n9 = 1 的两条渐近线的方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q04",
       "content": "集合{−1, 0, 1} 共有\n个子集.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q05",
       "content": "如图是一个算法的流程图, 则输出的n 的值是\n.\n开始\nn ←1\na ←2\na < 20?\na ←3a + 2\nn ←n + 1\n输出n\n结束\nY\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -125,22 +160,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q06",
       "content": "抽样统计甲、乙两位射击运动员的5 次训练成绩(单位: 环), 结果如下:\n运动员\n第1 次\n第2 次\n第3 次\n第4 次\n第5 次\n甲\n87\n91\n90\n89\n93\n乙\n89\n90\n91\n88\n92\n则成绩较为稳定(方差较小) 的那位运动员成绩的方差为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q07",
       "content": "现有某类病毒记作XmYn, 其中正整数m, n (m ⩽7, n ⩽9) 可以任意选\n取, 则m, n 都取到奇数的概率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q08",
       "content": "如图, 在三棱柱A1B1C1 −ABC 中, D, E, F 分别是AB, AC, AA1 的中\n点. 设三棱锥F −ADE 的体积为V1, 三棱柱A1B1C1 −ABC 的体积为\nV2, 则V1 : V2 =\n.\nA\nA1\nF\nD\nB1\nC1\nB\nC\nE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -194,22 +251,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q008-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q008-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q09",
       "content": "抛物线y = x2 在x = 1 处的切线与两坐标轴围成的三角形区域为D (包\n含三角形内部与边界). 若点P (x, y) 是区域D 内的任意一点, 则x + 2y\n的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -217,22 +285,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q10",
       "content": "设D, E 分别是△ABC 的边AB, BC 上的点, AD = 1\n2AB, BE = 2\n3BC.\n若#    »\nDE = λ1 #   »\nAB + λ2 #   »\nAC (λ1, λ2 为实数), 则λ1 + λ2 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -240,22 +314,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q11",
       "content": "已知f (x) 是定义在R 上的奇函数. 当x > 0 时, f (x) = x2 −4x, 则不等\n式f (x) > x 的解集用区间表示为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -263,22 +343,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q12",
       "content": "在平面直角坐标系xOy 中, 椭圆C 的标准方程为x2\na2 + y2\nb2 = 1 (a > b > 0),\n右焦点为F, 右准线为l, 短轴的一个端点为B, 设原点到直线BF 的距离\n为d1, F 到l 的距离为d2, 若d2 =\n√\n6d1, 则椭圆C 的离心率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -286,22 +372,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q13",
       "content": "在平面直角坐标系xOy 中, 设定点A (a, a), P 是函数y = 1\nx (x > 0) 图象\n上一动点, 若点P, A 之间的最短距离为2\n√\n2, 则满足条件的实数a 的所\n有值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -309,22 +401,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q14",
       "content": "在正项等比数列{an} 中, a5 = 1\n2, a6 + a7 = 3, 则满足a1 + a2 + · · · + an >\na1a2 · · · an 的最大正整数n 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -332,22 +430,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q15",
       "content": "已知a = (cos α, sin α), b = (cos β, sin β), 0 < β < α < π.\n(1) 若|a −b| =\n√\n2, 求证: a ⊥b;\n(2) 设c = (0, 1), 若a + b = c, 求α, β 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -355,22 +459,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q16",
       "content": "如图, 在三棱锥S −ABC 中, 平面SAB ⊥平面SBC, AB ⊥BC,\nAS = AB. 过A 作AF ⊥SB, 垂足为F, 点E, G 分别是棱SA, SC\n的中点. 求证:\n(1) 平面EFG\n平面ABC;\n(2) BC ⊥SA.\nA\nG\nE\nS\nB\nC\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -378,22 +492,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q17",
       "content": "如图, 在平面直角坐标系xOy 中, 点A (0, 3), 直线l: y = 2x −4. 设圆C\n的半径为1, 圆心在l 上.\n(1) 若圆心C 也在直线y = x −1 上, 过点A 作圆C 的切线, 求切线的方\n程;\n(2) 若圆C 上存在点M, 使MA = 2MO, 求圆心C 的横坐标a 的取值范\n围.\nx\ny\nO\nA\nl\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -401,22 +525,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q18",
       "content": "如图, 游客从某旅游景区的景点A 处下山至C 处有两种路径. 一种是从A\n沿直线步行到C, 另一种是先从A 沿索道乘缆车到B, 然后从B 沿直线\n步行到C. 现有甲、乙两位游客从A 处下山, 甲沿AC 匀速步行, 速度为\n50 m/min. 在甲出发2 min 后, 乙从A 乘缆车到B, 在B 处停留1 min\n后, 再从B 匀速步行到C. 假设缆车匀速直线运动的速度为130 m/min,\n山路AC 长为1260 m, 经测量, cos A = 12\n13, cos C = 3\n5.\n(1) 求索道AB 的长;\n(2) 问乙出发多少分钟后, 乙在缆车上与甲的距离最短?\n(3) 为使两位游客在C 处互相等待的时间不超过3 分钟, 乙步行的速度应\n控制在什么范围内?\nC\nB\nA\n815",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -424,22 +558,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q19",
       "content": "设{an} 是首项为a, 公差为d 的等差数列(d̸ = 0), Sn 是其前n 项的和.\n记bn =\nnSn\nn2 + c, n ∈N∗, 其中c 为实数.\n(1) 若c = 0, 且b1, b2, b4 成等比数列, 证明: Snk = n2Sk (k, n ∈N∗);\n(2) 若{bn} 是等差数列, 证明: c = 0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -447,22 +592,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q20",
       "content": "设函数f (x) = ln x −ax, g (x) = ex −ax, 其中a 为实数.\n(1) 若f (x) 在(1, +∞) 上是单调减函数, 且g (x) 在(1, +∞) 上有最小值,\n求a 的取值范围;\n(2) 若g (x) 在(−1, +∞) 上是单调增函数, 试求f (x) 的零点个数, 并证明\n你的结论.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -470,22 +621,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q21",
       "content": "四选二.\n【A】如图, AB 和BC 分别与圆O 相切于点D, C, AC 经过圆心O, 且\nBC = 2OC. 求证: AC = 2AD.\nA\nB\nO\nC\nD\n•\n【B】已知矩阵A =\n[\n−1\n0\n0\n2\n]\n, B =\n[\n1\n2\n0\n6\n]\n, 求矩阵A−1B.\n【C】在平面直角坐标系xOy 中, 直线l 的参数方程为\n{\nx = t + 1,\ny = 2t,\n(t 为参\n数), 曲线C 的参数方程为\n{\nx = 2 tan2 θ,\ny = 2 tan θ,\n(θ 为参数). 试求直线l 和曲线\nC 的普通方程, 并求出它们的公共点的坐标.\n【D】已知a ⩾b > 0, 求证: 2a3 −b3 ⩾2ab2 −a2b.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -493,22 +650,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q22",
       "content": "如图, 在直三棱柱A1B1C1−ABC 中, AB ⊥AC, AB = AC = 2, A1A = 4,\n点D 是BC 的中点.\n(1) 求异面直线A1B 与C1D 所成角的余弦值;\n(2) 求平面ADC1 与平面ABA1 所成二面角的正弦值.\nA\nB\nC\nD\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -516,22 +683,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q022-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q022-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-41fc406b17fc5ea3-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013江苏.pdf#q23",
       "content": "设数列\n{an}:\n1,\n−2,\n−2,\n3,\n3,\n3,\n−4,\n−4,\n−4,\n−4,\n· · · ,\nk 个\n�\n��\n�\n(−1)k−1k, · · · , (−1)k−1k, · · · , 即当(k −1) k\n2\n< n ⩽k (k + 1)\n2\n(k ∈N∗)\n时, an = (−1)k−1k. 记Sn = a1 + a2 + · · · + an (n ∈N∗). 对于l ∈N∗, 定\n义集合Pl = {n | Sn 是an 的整数倍, n ∈N∗, 且1 ⩽n ⩽l}.\n(1) 求集合P11 中元素的个数;\n(2) 求集合P2000 中元素的个数.\n816",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -539,11 +717,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

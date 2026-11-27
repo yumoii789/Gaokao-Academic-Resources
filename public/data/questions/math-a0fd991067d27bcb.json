@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2014/2014天津文.pdf",
   "name": "2014天津文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q01",
       "content": "i 是虚数单位, 复数7 + i\n3 + 4i =\n(\n)\n(A) 1 −i\n(B) −1 + i\n(C) 17\n25 + 31\n25i\n(D) −17\n7 + 25\n7 i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q02",
       "content": "设变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + y −2 ⩾0,\nx −y −2 ⩽0,\ny ⩾1,\n则目标函数z = x + 2y 的最\n小值为\n(\n)\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q03",
       "content": "已知命题p: ∀x > 0, 总有(x + 1) ex > 1, 则¬p 为\n(\n)\n(A) ∃x0 ⩽0, 使得(x0 + 1) ex0 ⩽1\n(B) ∃x0 > 0, 使得(x0 + 1) ex0 ⩽1\n(C) ∀x > 0, 总有(x + 1) ex ⩽1\n(D) ∀x ⩽0, 总有(x + 1) ex ⩽1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q04",
       "content": "设a = log2π, b = log 1\n2 π, c = π−2, 则\n(\n)\n(A) a > b > c\n(B) b > a > c\n(C) a > c > b\n(D) c > b > a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q05",
       "content": "设{an} 是首项为a1, 公差为−1 的等差数列, Sn 为其前n 项和, 若S1,\nS2, S4 成等比数列, 则a1 =\n(\n)\n(A) 2\n(B) −2\n(C) 1\n2\n(D) −1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q06",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的一条渐近线平行于直线l : y =\n2x + 10, 双曲线的一个焦点在直线l 上, 则双曲线的方程为\n(\n)\n(A) x2\n5 −y2\n20 = 1\n(B) x2\n20 −y2\n5 = 1\n(C) 3x2\n25 −3y2\n100 = 1\n(D) 3x2\n100 −3y2\n25 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q07",
       "content": "如图, △ABC 是圆的内接三角形, ∠BAC 的平分线交圆于点D, 交BC 于\nE, 过点B 的圆的切线与AD 的延长线交于点F, 在上述条件下, 给出下列\n四个结论: ①BD 平分∠CBF; ②FB2 = FD·FA; ③AE·CE = BE·DE;\n④AF · BD = AB · BF. 则所有正确结论的序号是\n(\n)\nA\nD\nF\nB\nE\nC\n(A) ①②\n(B) ③④\n(C) ①②③\n(D) ①②④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q08",
       "content": "已知函数f (x) =\n√\n3 sin ωx + cos ωx (ω > 0), x ∈R. 在曲线y = f (x) 与\n直线y = 1 的交点中, 若相邻交点距离的最小值为π\n3 , 则f (x) 的最小正周\n期为\n(\n)\n(A) π\n2\n(B) 2π\n3\n(C) π\n(D) 2π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q09",
       "content": "某大学为了解在校本科生对参加某项社会实践活动的意向, 拟采用分层抽\n样的方法, 从该校四个年级的本科生中抽取一个容量为300 的样本进行\n调查.\n已知该校一年级、二年级、三年级、四年级的本科生人数之比为\n4 : 5 : 5 : 6, 则应从一年级本科生中抽取\n名学生.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q10",
       "content": "已知一个几何体的三视图如图所示(单位:\nm), 则该几何体的体积\n为\nm3.\n2\n4\n2\n4\n2\n4\n正视图\n俯视图\n侧视图",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -240,22 +317,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q11",
       "content": "阅读如图的框图, 运行相应的程序, 输出S 的值为\n.\n开始\nS = 0, n = 3\nS = S + (−2)n\nn = n −1\nn ⩽1?\n输出S\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -263,22 +350,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q12",
       "content": "函数f (x) = lg x2 的单调递减区间是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -286,22 +383,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q13",
       "content": "已知菱形ABCD 的边长为2, ∠BAD = 120◦, 点E, F 分别在边BC, DC\n上, BC = 3BE, DC = λDF. 若#   »\nAE · #   »\nAF = 1, 则λ 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -309,22 +416,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q14",
       "content": "已知函数f (x) =\n{ ��x2 + 5x + 4\n��,\nx ⩽0,\n2 |x −2| ,\nx > 0,\n若函数y = f (x) −a |x| 恰有\n4 个零点, 则实数a 的取值范围为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -332,22 +445,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q15",
       "content": "某校夏令营有3 名男同学A, B, C 和3 名女同学X, Y , Z, 其年级情况如\n下表:\n一年级\n二年级\n三年级\n男同学\nA\nB\nC\n女同学\nX\nY\nZ\n现从这6 名同学中随机选出2 人参加知识竞赛(每人被选到的可能性相\n同).\n(1) 用表中字母列举出所有可能的结果;\n(2) 设M 为事件“选出的2 人来自不同年级且恰有1 名男同学和1 名女同\n学”, 求事件M 发生的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -355,22 +474,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q16",
       "content": "在△ABC 中, 内角A, B, C 所对的边分别为a, b, c, 已知a −c =\n√\n6\n6 b,\nsin B =\n√\n6 sin C.\n(1) 求cos A 的值;\n(2) 求cos\n(\n2A −π\n6\n)\n的值.\n925",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -378,22 +507,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q17",
       "content": "如图, 四棱锥P ABCD 的底面ABCD 是平行四边形, BA = BD =\n√\n2,\nAD = 2, PA = PD =\n√\n5, E, F 分别是棱AD, PC 的中点.\n(1) 证明: EF\n平面PAB;\n(2) 若二面角P −AD −B 为60◦,\n①证明: 平面PBC ⊥平面ABCD;\n②求直线EF 与平面PBC 所成角的正弦值.\nA\nB\nC\nD\nE\nP\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -401,22 +540,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q017-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-a0fd991067d27bcb-q017-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q18",
       "content": "设椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的左、右焦点分别为F1, F2, 右顶点为A,\n上顶点为B, 已知|AB| =\n√\n3\n2 |F1F2|.\n(1) 求椭圆的离心率;\n(2) 设P 为椭圆上异于其顶点的一点, 以线段PB 为直径的圆经过点F1,\n经过点F2 的直线l 与该圆相切与点M, |MF2| = 2\n√\n2. 求椭圆的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -424,22 +573,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q19",
       "content": "已知函数f (x) = x2 −2\n3ax3 (a > 0), x ∈R.\n(1) 求f (x) 的单调区间和极值;\n(2) 若对于任意的x1 ∈(2, +∞), 都存在x2 ∈(1, +∞), 使得f (x1)·f (x2) =\n1, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -447,22 +602,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2014/2014天津文.pdf#q20",
       "content": "已知q 和n 均为给定的大于1 的自然数. 设集合M = {0, 1, 2, · · · , q−1},\n集合A = {x | x = x1 + x2q + · · · + xnqn−1, xi ∈M, i = 1, 2, · · · , n}.\n(1) 当q = 2, n = 3 时, 用列举法表示集合A;\n(2) 设s, t ∈A, s = a1 + a2q + · · · + anqn−1, t = b1 + b2q + · · · + bnqn−1,\n其中ai, bi ∈M, i = 1, 2, · · · , n. 证明: 若an < bn, 则s < t.\n926",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2014,
       "subject": "数学",
@@ -470,11 +631,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2014/2014天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

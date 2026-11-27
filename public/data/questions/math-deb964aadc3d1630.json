@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1960/1960.pdf",
   "name": "1960",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 6,
+    "answerBlocks": 6,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 4,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1960/1960.pdf#q01",
       "content": "(1)\n2x -5 -\n5x - 7 = 0.(\n)\n2\n解方程\n限定在实数范围内",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解\n，\n，\n:(1) 2x - 5 - 5x - 7 = 0\n2x - 5 =\n5x - 7\n2\n2\n2x2-5=5x-7,\n2x2-5x+2=0,\n(2x-1)(x-2)=0,\n∴\n或\n∵\n使原方程无意义舍去\nx = 1\n2\n2\n1\n2\n,\n.\n∴x=2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1960/1960.pdf#q02",
       "content": "有5 组篮球队,每组6 队.首先每组中各队进行单循环比赛(即每两\n队比赛一次),\n然后各组的冠军再进行单循环比赛.问先后共比赛多少次?",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": ":5c + c = 5\n6\n5\n1\n2\n+ 5\n4\n6\n2\n5\n2\n解\n× ·\n·\n·\n·\n1\n2\n=75+10=85\n答:共比赛85 次.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -56,22 +71,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1960/1960.pdf#q03",
       "content": "求证等比数列的各项的对数组成等差数列.(这里所说的等比数列\n的各项都是正数)",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "证明:设等比数列为\na,aq,aq2,⋯,aqn-1\n则各项的对数依次为\nloga,logaq,logaq2,⋯,logaqn-1,\n即loga,loga+logq,loga+2logq,⋯,loga+(n-1)logq,\n∴上面的数列是以loga 为首项,logq 为公差的等差数列.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -79,22 +100,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1960/1960.pdf#q04",
       "content": "1- sin x\n2 = cos x\n2\nx\n.(x\n0\n720\n2\n求使等式\n成立的值的范围\n是°到\n°的角)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": ":\n,cos x\n2\n0\n0\nx\n2\n90\n270\nx\n2\n360\n解根据算术根的定义\n≥，\n　∴°≤\n≤\n°和\n°≤\n≤\n°，\n即0°≤x≤180°和540°≤x≤720°",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -102,22 +129,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1960/1960.pdf#q05",
       "content": "如图,用钢珠测量机件上一小孔的直径.所用钢珠的中心是O,直径\n是12 毫米.将钢珠放在这小孔上,测得钢珠上端D 到机件平面的距离CD 是9\n毫米.求这小孔的直径AB 的长.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\n设AB 为x 毫米,\n则\n毫米\nAC = x\n2\n.\n又直径DE=12 毫米\nCD=9 毫米\n∴CE=12-9=3 毫米\n∵AC2=DC·CE,\n∴\n×\n(x\n2) = 9\n3,\n2\n∴x2=9×3×4\n∴\n取正值\n答小孔的直径是\n毫米\nx = 6 3(\n)\n:\n6 3\n.\n解法二:\n设AB 为x 毫米,\n则\n毫米\nAC = x\n2\n.\n又CD=9 毫米,半径OD=6 毫米,\n∴OC=9-6=3(毫米)\n连结OA,则OA=6 毫米\n在直角三角形OAC 中,OA2=OC2+AC2\n即\n　　∴\n取正值\n答小孔的直径是\n毫米\n6 = 3 +( x\n2)\nx\n4 = 27,\nx = 6 3(\n)\n:\n6 3\n.\n2\n2\n2\n2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -125,22 +156,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-deb964aadc3d1630-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-deb964aadc3d1630-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1960/1960.pdf#q06",
       "content": "四棱锥P—ABCD 的底面是一正方形.PA 与底面垂直.已知PA 是3 厘\n米,P 点到BC 的距离是5 厘米.求PC 的长.\n二、有一直圆柱,高是20 厘米,底面半径是5 厘米.它的一个内接长方体的\n体积是800 立方厘米.求这长方体的底面的长和宽.\n三、从一船上看到在它的南30°东的海面上有一灯塔.船以30\n/小时的速\n度向正东南方向航行半小时后,看到这个灯塔在船的正西方.问这时船与灯\n塔的距离是多少\n?(精确到0.1\n)\n四、要在墙上开一矩形的大玻璃窗,周长限定为6 米.\n(i)求以矩形的一条边长(x)表示窗户的面积(y)的函数式;\n(ii)求这函数图象的顶点的坐标、对称轴的方程;\n(iii)画出这函数的图象,并求出的x 的允许值的范围.\n五、下列(1)、(2)两题选作一题.\n(1)已知方程2x2-x·4sinθ+3cosθ=0 的两个根相等,且θ为锐角,求\nθ和这个方程的两个根.\n(2)a 是什么实数的时候,下列方程组的解是正数:\n2x +ay = 4\nx + 4y = 8\n，\n．\n\n\n",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:∵PA⊥平面ABCD,\n又AB⊥BC,\n∴PB⊥BC,即PB=5 厘米\n又PA=3 厘米,\n因此AB=BC=4 厘米\n∴\n厘米\n答\n是\n厘米\nPC =\nPB + BC\n=\n5 + 4\n=\n41(\n)\n: PC\n41\n.\n2\n2\n2\n2\n二、\n解:设底面的长和宽分别是x 厘米和y 厘米,则\nx + y = 10\n20xy = 800\n2\n2\n2，\n．\n\n\n\n上方程组可变形为\nx + y = 100\n2xy = 80\n2\n2\n，\n．\n\n\n\n解这个方程组,得\n分别解下面的两个方程组:\n，\n就得出\nx + y = 6 5,\nx - y = 2 5\nx + y = 6\n,\n,x - y = -2 5\n:\nx = 4 5,\ny = 2 5;\nx = 2 5\ny = 4 5.\n1\n1\n2\n2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n三、\n解法一:如图,A 是原来船的位置,B 是灯塔,C 是航行半小时后船的位置.\n= 15(sin45\ncos30\n- cos45\nsin30\n)\nsin60\n=\n15\n2\n2 ( 3\n2 - 1\n2)\n3\n2\n= 5 2(3-\n3)\n2\n°\n°\n°\n°\n°\n×\n=4.5(\n)\n答:船与灯塔的距离是4.5\n.\n解法二:如图,过A 引CB 的垂线与CB 的延长线交于D 点.\n△\n中\n°\n×\nADB\n,DB = DAtg30\n= 15 2\n3\n3 = 5 6\n2\n,\n2\n∴\nBC = DC- DB\n= 15 2\n2\n- 5 6\n2\n= 5(3 2 -\n6)\n2\n=4.5(\n)\n答:船与灯塔的距离是4.5\n.\n四、\n解:(i)y=(3-x)x=-x2+3x.\nx 的允许值的范围:0<x<3\n五、\n(1)解:△=16sin2θ-24cosθ=0,\n即2sin2θ-3cosθ=0.\n由sin2θ=1-cos2θ,上方程可变形为\n2cos2θ+3cosθ-2=0,\n(2cosθ-1)(cosθ+2)=0,\ncosθ+2=0,无解.\n由2cosθ-1=0,得\ncos\n= 1\n2\nθ\n．\n∵θ为锐角,∴θ=60°\n∴\n°\n°\n答θ是\n° 方程的两个根都是\nx = 4sin60\n4\n= sin60\n=\n3\n2\n:\n60\n,\n3\n2\n(2)\n: 2x + ay = 4\nx + 4y = 8\n解\n　　　　　　　　①\n　　　　　　　　②\n\n\n\n②×2-①:(8-a)y=12,\n当a≠8 时,\ny = 12\n8- a 　　　　　　　　　　　　③\n把③代入②中,得\nx = 16- 8a\n8- a\n= 8(2 - a)\n8- a\n．\n要使y 是正数,必须并且只须8-a>0,由此要使x 是正数,必须并且只须\n2-a>0.解不等式组\n8- a > 0,\n2 - a > 0,\n\n\n\n得\na<2\n因此,当a<2 的时候,原方程组的解是正数.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1960,
       "subject": "数学",
@@ -148,11 +187,24 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1960/1960.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 10,
+    "assigned": 0,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 1,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import VisitTracker from "@/components/VisitTracker";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -46,6 +48,23 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"小墨高考\",\"url\":\"https://yumoii789.github.io/Gaokao-Academic-Resources/\",\"description\":\"普通高考 · 春季高考 · 词汇工坊。权威真题、启发式 AI 助教、高效学习工具。\",\"inLanguage\":\"zh-CN\"}" }}
         />
         {children}
+        <VisitTracker />
+        <footer className='border-t border-slate-100 bg-white/60'>
+          <div className='mx-auto max-w-5xl px-4 py-6 text-center text-xs text-slate-400'>
+            <a
+              href='https://github.com/yumoii789/Gaokao-Academic-Resources'
+              target='_blank'
+              rel='noreferrer'
+              className='text-slate-500 hover:text-indigo-600 hover:underline'
+            >
+              GitHub 开源地址：yumoii789/Gaokao-Academic-Resources
+            </a>
+            <span className='mx-2'>·</span>
+            <span>真题 PDF 来自公开仓库 deekur/gaokaomath 与 deekur/gaokaophysics</span>
+            <span className='mx-2'>·</span>
+            <Link href='/admin' className='text-slate-400 hover:text-indigo-600 hover:underline'>管理后台</Link>
+          </div>
+        </footer>
       </body>
     </html>
   );

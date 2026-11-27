@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015福建理综.pdf",
   "name": "2015福建理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 5,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 9,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 3,
+    "reviewCount": 6,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q01",
       "content": "如图，若两颗人造卫星a 和b 均绕地球做匀速圆周运动，a、b 到地心O 的距离\n分别为r1、r2，线速度大小分别为v1、v2，则（    ）\n（A）v1\nv2 ＝\nr2\nr1\n（B）v1\nv2 ＝\nr1\nr2\n（C）v1\nv2 ＝(r2\nr1 )2\n（D）v1\nv2 ＝(r1\nr2 )2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q02",
       "content": "图为远距离输电示意图，两变压器均为理想变压器，升压变压器T 的原、副线圈匝数分别为n1、n2，\n在T 的原线圈两端接入一电压u＝Umsinωt 的交流电，若输送电功率为P，输电线的总电阻为2r，不考虑\n其它因素的影响，则输电线上的损失电功率为（    ）\n（A）(n1\nn2 )Um2\n4r\n（B）(n2\nn1 )Um2\n4r\n（C）4(n1\nn2 )2( P\nUm )2r\n（D）4(n2\nn1 )2( P\nUm )2r",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q03",
       "content": "简谐横波在同一均匀介质中沿x 轴正方向传播，波速为v。若某时刻在波的传播方向上，位于平衡位\n置的两质点a、b 相距为s，a、b 之间只存在一个波谷，则从该时刻起，下列四幅波形图中质点a 最早到达\n波谷的是（    ）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -79,22 +106,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q04",
       "content": "如图，在竖直平面内，滑道ABC 关于B 点对称，且A、B、C 三点\n在同一水平线上。若小滑块第一次由A 滑到C，所用时间为t1，第二次\n由C 滑到A，所用时间为t2，小滑块两次的初速度大小相同且运动过程\n始终沿着滑道滑行，小滑块与滑道的动摩擦因数恒定，则（    ）\n（A）t1＜t2\n（B）t1＝t2\n（C）t1＞t2\n（D）无法比较t1、t2 的大小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -102,22 +140,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q05",
       "content": "如图，由某种粗细均匀的总电阻为3R 的金属条制成的矩形线框abcd，固定在水平面内且处于方向竖\n直向下的匀强磁场B 中。一接入电路电阻为R 的导体棒PQ，在水平拉力作用下沿ab、dc 以速度v 匀速滑\n动，滑动过程PQ 始终与ab 垂直，且与线框接触良好，不计摩擦。在PQ 从靠近ad\n处向bc 滑动的过程中（    ）\n（A）PQ 中电流先增大后减小\n（B）PQ 两端电压先减小后增大\nA\nB\nC\n2 / 5\n（C）PQ 上拉力的功率先减小后增大\n（D）线框消耗的电功率先减小后增大\n第II 卷（非选择题 共192 分）\n必考部分\n第II 卷必考部分共10 题，共157 分",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -125,22 +173,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015福建理综.pdf#q06",
       "content": "（18 分）\n（1）（6 分）某同学做“探究弹力和弹簧伸长量的关系”的\n实验。\n①图甲是不挂钩码时弹簧下端指针所指的标尺刻度，其示数\n为7.73cm；图乙是在弹簧下端悬挂钩码后指针所指的标尺\n刻度，此时弹簧的伸长量Δl 为_____cm；\n②本实验通过在弹簧下端悬挂钩码的方法来改变弹簧的弹\n力，关于此操作，下列选项中规范的做法是\n_______________；（填选项前的字母）\n（A）逐一增挂钩码，记下每增加一只钩码后指针所指的标尺刻度和对应的钩码总重\n（B）随意增减钩码，记下增减钩码后指针所指的标尺刻度和对应的钩码总重\n③图丙是该同学所描绘的弹簧的伸长量Δl 与弹力F 的关系图线，图线的AB 段明显偏离直线OA，造成这\n种现象的主要原因是________________________________________。\n（2）（12 分）某学习小组探究一小电珠在不同电压下的电功率大小，实验器材如图甲所示，现已完成部分\n导线的连接。\n①实验要求滑动变阻器的滑片从左到右移动过程中，电流表的示数从零开始逐渐增大，请按此要求用笔画\n线代替导线在图甲实物接线图中完成余下导线的连接；\n②某次测量，电流表指针偏转如图乙所示，则电流表的示数为_________A；\n③该小组描绘出的伏安特性曲线如图丙所示，根据图线判断，将______只相同的小电珠并联后，直接与电\n动势为3V、内阻为1Ω 的电源组成闭合回路，可使小电珠的总功率最大，其总功率的值约为________W（保\n留两位小数）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "①连线如右图\n3 / 5\n②0.44\n③4，2.22～2.28",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -148,11 +206,127 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015福建理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q006-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015福建理综.pdf#q07",
+      "content": "（15 分）\n一摩托车由静止开始在平直的公路上行驶，其运动过程的v-t 图象如图所示。\n求：\n（1）摩托车在0~20 s 这段时间的加速度大小a；\n（2）摩托车在0~75 s 这段时间的平均速度大小v 。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由图知，在0~20s 内做匀加速运动，根据\nv\na\nt\n\n= \n，\n可求加速度a＝1.5m/s2；\n（2）根据v-t 图像与坐标轴围面积表示位移可求在0~75s 时间内位移为x＝1500m，\n所以平均速度为v ＝x\nt ＝20m/s",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015福建理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015福建理综.pdf#q08",
+      "content": "（19 分）\n如图，质量为M 的小车静止在光滑水平面上，小车AB 段是半径为R 的四分之一\n圆弧光滑轨道，BC 段是长为L 的水平粗糙轨道，两段轨道相切于B 点。一质量为\nm 的滑块在小车上从A 点由静止开始沿轨道滑下，重力加速度为g。\n（1）若固定小车，求滑块运动过程中对小车的最大压力；\n（2）若不固定小车，滑块仍从A 点由静止下滑，然后滑入BC 轨道，最后从C 点\n滑出小车。已知滑块质量m＝M\n2 ，在任一时刻滑块相对地面速度的水平分量是小车速度大小的2 倍，滑块\n与轨道BC 间的动摩擦因数为μ，求：\n①滑块运动过程中，小车的最大速度大小vm；\n②滑块从B 到C 运动过程中，小车的位移大小s。",
+      "answer": "：",
+      "analysis": "（1）由图知，滑块运动到B 点时对小车的压力最大\n从A 到B，根据动能定理：\n2\n1\n0\n2\nB\nmgR\nmv\n=\n−\n在B 点：\n2\nB\nN\nv\nF\nmg\nm R\n−\n=\n联立解得：FN＝3mg，根据牛顿第三定律得，滑块对小车的最大压力为3mg\n（2）①若不固定小车， 滑块到达B 点时，小车的速度最大\n根据动量守恒可得：\nm\nmv\nMv\n=\n从A 到B，根据能量守恒：\n2\n2\n1\n1\n2\n2\nm\nmgR\nmv\nMv\n\n=\n+\n联立解得：vm＝\n1\n3gR\nv/(m·s−1)\nt/s\nO\n30\n20\n10\n20\n45\n75\n4 / 5\n②设滑块到C 处时小车的速度为v，则滑块的速度为2v，根据能量守恒：\n2\n2\n1\n1\n(2 )\n2\n2\nmgR\nm\nv\nMv\nmgL\n\n=\n+\n+\n解得：\n1\n1\n3\n3\nm\nv\ngR\ngL\n\n=\n−\n小车的加速度：\n1\n2\nmg\na\ng\nM\n\n\n=\n=\n根据\n2\n2\n2\nm\nv\nv\nas\n−\n=\n解得：s＝L/3",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015福建理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q008-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015福建理综.pdf#q09",
+      "content": "（20 分）\n如图，绝缘粗糙的竖直平面MN 左侧同时存在相互垂直的匀强电场和匀强磁场，\n电场方向水平向右，电场强度大小为E，磁场方向垂直纸面向外，磁感应强度大\n小为B。一质量为m、电荷量为q 的带正电的小滑块从A 点由静止开始沿MN 下\n滑，到达C 点时离开MN 做曲线运动。A、C 两点间距离为h，重力加速度为g。\n（1）求小滑块运动到C 点时的速度大小vc；\n（2）求小滑块从A 点运动到C 点过程中克服摩擦力做的功Wf；\n（3）若D 点为小滑块在电场力、洛伦兹力及重力作用下运动过程中速度最大的\n位置，当小滑块运动到D 点时撤去磁场，此后小滑块继续运动到水平地面上的P\n点。已知小滑块在D 点时的速度大小为vD，从D 点运动到P 点的时间为t，求小滑块运动到P 点时速度的\n大小vP。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由题意知，根据左手定则可判断，滑块在下滑的过程中受水平向左的洛伦兹力，当洛伦兹力\n等于电场力qE 时滑块离开MN 开始做曲线运动，即Bqv＝qE\n解得：v＝E/B\n（2）从A 到C 根据动能定理：\n2\n1\n0\n2\nf\nmgh W\nmv\n−\n=\n−\n解得：Wf＝mgh－mE2\n2B2\n（3）设重力与电场力的合力为F，由图意知，在D 点速度vD 的方向与F 地方向垂直，从D 到P 做类平抛\n运动，在F 方向做匀加速运动a＝F/m，t 时间内在F 方向的位移为\n2\n1\n2\nx\nat\n=\n从D 到P，根据动能定理：\n2\n2\n1\n1\n2\n2\nP\nD\nFx\nmv\nmv\n=\n−\n，其中\n2\n2\n(\n)\n(\n)\nF\nmg\nqE\n=\n+\n联立解得：vP＝\n（mg）2＋（qE）2\nm2\n t2＋vD2\n选考部分\n第Ⅱ卷选考部分共5 题，共35 分。其中第29、30 题为物理题，若第29、30 题都作答，则按第29 题计分。\n29．【物理-选修3-3】（本题共有两小题，每小题6 分，共12 分。每小题只有一个选项符合题意）\n5 / 5\n（1）下列有关分子动理论和物质结构的认识，其中正确的是_______。\n（A）分子间距离减小时分子势能一定减小\n（B）温度越高，物体中分子无规则运动越剧烈\n（C）物体内热运动速率大的分子数占总分子数比例与温度无关\n（D）非晶体的物理性质各向同性而晶体的物理性质都是各向异性\n（2）如图，一定质量的理想气体，由状态a 经过ab 过程到达状态b 或者经过ac 过\n程到达状态c。设气体在状态b 和状态c 的温度分别为Tb 和Tc，在过程ab 和ac 中吸\n收的热量分别为Qab 和Qac 则____。（填选项前的字母）\n（A）Tb＞Tc，Qab＞Qac\n（B）Tb＞Tc，Qab＜Qac\n（C）Tb＝Tc，Qab＞Qac\n（D）Tb＝Tc，Qab＜Qac\n30．【物理选修3-5】（本题共有两小题，每小题6 分，共12 分。每小题只有一个选项符合题意）\n（1）下列有关原子结构和原子核的认识，其中正确的是______。（填选项前的字母）\n（A）γ 射线是高速运动的电子流\n（B）氢原子辐射光子后，其绕核运动的电子动能增大\n（C）太阳辐射能量的主要来源是太阳中发生的重核裂变\n（D）21083Bi 的半衰期是5 天，100 克21083Bi 经过10 天后还剩下50 克\n（2）如图，两滑块A、B 在光滑水平面上沿同一直线相向运动，滑块A 的质\n量为m，速度大小为2v0，方向向右，滑块B 的质量为2m，速度大小为v0，方\n向向左，两滑块发生弹性碰撞后的运动状态是_________。（填选项前的字母）\n（A）A 和B 都向左运动\n（B）A 和B 都向右运动\n（C）A 静止，B 向右运动\n（D）A 向左运动，B 向右运动",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015福建理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q009-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q009-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-050531db8598aeb2-q009-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 14,
+    "answerGraphics": 0,
+    "assigned": 14,
+    "rendered": 14,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

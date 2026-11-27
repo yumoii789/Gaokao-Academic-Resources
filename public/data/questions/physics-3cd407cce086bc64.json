@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
   "name": "2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 11,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 11,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q01",
       "content": "高铁列车在启动阶段的运动可看作初速度为零的匀加速直线运动，在启动阶段列车的动\n能（    ）\n（A）与它所经历的时间成正比\n（B）与它的位移成正比\n（C）与它的速度成正比\n（D）与它的动量成正比",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q02",
       "content": "如图，轻弹簧的下端固定在水平桌面上，上端放有物块P，系统处于静\n止状态，现用一竖直向上的力F 作用在P 上，使其向上做匀加速直线运动，\n以x 表示P 离开静止位置的位移，在弹簧恢复原长前，下列表示F 和x 之间\n关系的图像可能正确的是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "A\n设物块静止时弹簧的形变量为𝑥0，则有𝑚𝑔= 𝑘𝑥0，物块做匀加速直线运动，由牛顿第二定\n律得𝐹−𝑚𝑔+ 𝑘(𝑥0 −𝑥) = 𝑚𝑎，解得𝐹= 𝑚𝑎+ 𝑘𝑥，所以𝐹−𝑥图线是不过原点的倾斜直线，\n故A 正确BCD 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -56,22 +73,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q03",
       "content": "如图，三个固定的带电小球a、b 和c，相互间的距离分别为ab = 5 cm，bc = 3 cm，ca =\n4 cm。小球c 所受库仑力的合力的方向平行于a、b 的连线。设小球a、b 所带电荷量的比值\n的绝对值为k，则（    ）\n（A）a、b 的电荷同号，k = 16\n9\n（B）a、b 的电荷异号，k = 16\n9\n（C）a、b 的电荷同号，k = 64\n27\n（D）a、b 的电荷异号，k = 64\n27",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由题意可知小球𝑐受到的库仑力的合力可能水平向左，也可能\n水平向右，受力如图所示.若合力水平向左，可知小球𝑎对小球𝑐吸引，小\n球𝑏对小球𝑐排斥，所以𝑎、𝑏带异种电荷:由平衡条件可知tan37° =\n𝐹1\n𝐹2，由\n库仑力公式有𝐹1 =\n𝑘′𝑞𝑏𝑞𝑐\n(𝑏𝑐)2 ，𝐹2 =\n𝑘′𝑞𝑎𝑞𝑐\n(𝑎𝑐)2 ，联立解得\n𝑞𝑎\n𝑞𝑏=\n64\n27;同理，若库仑力\n的合力水平向右，可知小球𝑎对小球𝑐排斥，小球𝑏对小球𝑐吸引，所以𝑎、𝑏带异种电荷，同样\n有tan37° =\n𝐹1′\n𝐹2\n′，仍可推得\n𝑞𝑎\n𝑞𝑏=\n64\n27，故D 正确ABC 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -79,22 +108,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q04",
       "content": "如图，导体轨道OPQS 固定，其中PQS 是半圆弧，Q 为半\n圆弧的中心，O 为圆心。轨道的电阻忽略不计。OM 是有一定电\n阻。可绕O 转动的金属杆。M 端位于PQS 上，OM 与轨道接触\n良好。空间存在与半圆所在平面垂直的匀强磁场，磁感应强度的\n大小为B，现使OQ 位置以恒定的角速度逆时针转到OS 位置并\n固定（过程Ⅰ）；再使磁感应强度的大小以一定的变化率从B 增加到Bʹ（过程 Ⅱ）。在过程\nⅠ、Ⅱ 中，流过OM 的电荷量相等，则 Bʹ\nB 等于（     ）\n（A）5\n4\n（B）3\n2\n（C）7\n4\n（D）2\nF\nO\nA\nx\nF\nO\nB\nx\nF\nO\nC\nx\nF\nO\nD\nx\nc\nb\na",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "𝑂𝑀从𝑂𝑄位置以恒定的角速度逆时针转动到𝑂𝑆位置，通过𝑂𝑀的电荷量𝑞1 =\n𝐸\n𝑅Δ𝑡=\nΔ𝛷\nΔ𝑡\n𝑅Δ𝑡=\nΔ𝛷\n𝑅=\n𝐵⋅π𝑟2\n4\n𝑅;磁感应强度的大小以一定的变化率从𝐵增加到𝐵′的过程中，通过𝑂𝑀的电\n荷量𝑞2 =\nΔ𝛷\n𝑅=\n𝑆Δ𝐵\n𝑅=\nπ\n2𝑟2(𝐵′−𝐵)\n𝑅\n，并且𝑞1 = 𝑞2，联立解得\n𝐵′\n𝐵=\n3\n2，故B 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -102,22 +139,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q05",
       "content": "如图，abc 是竖直面内的光滑固定轨道，ab 水平，\n长度为2R，bc 是半径为R 的四分之一的圆弧，与ab 相\n切于b 点。一质量为m 的小球。始终受到与重力大小\n相等的水平外力的作用，自a 点处从静止开始向右运\n动，重力加速度大小为g。小球从a 点开始运动到其轨\n迹最高点，机械能的增量为（     ）\n（A）2mgR\n（B）4mgR\n（C）5mgR\n（D）6mgR",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "小球从𝑎到𝑐的过程，由动能定理得𝐹· 3𝑅−𝑚𝑔𝑅=\n1\n2𝑚𝑣𝑐\n2 −0，由题意知𝐹的大小为\n𝑚𝑔，解得𝑣𝑐= 2√𝑔𝑅，小球离开𝑐点后在竖直方向做竖直上抛运动，水平方向做匀加速直线\n运动，在竖直方向有𝑣𝑐= 𝑔𝑡，在水平方向上有𝑥=\n1\n2 𝑎𝑡2 =\n𝐹𝑡2\n2𝑚，联立解得𝑥= 2𝑅，可知小球\n机械能的增量为Δ𝐸= 𝐹(3𝑅+ 𝑥) = 5𝑚𝑔𝑅，故C 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -125,22 +170,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q06",
       "content": "如图，两个线圈绕在同一根铁芯上，其中一线圈通过开关\n与电源连接，另一线圈与远处沿南北方向水平放置在纸面内\n的直导线连接成回路。将一小磁针悬挂在直导线正上方，开关\n未闭合时小磁针处于静止状态。下列说法正确的是（     ）\n（A）开关闭合后的瞬间，小磁针的N 极朝垂直纸面向里的方\n向转动\n（B）开关闭合并保持一段时间后，小磁针的N 极指向垂直纸\n面向里的方向\n（C）开关闭合并保持一段时间后，小磁针的N 极指向垂直纸面向外的方向\n（D）开关闭合并保持一段时间再断开后的瞬间，小磁针的N 极朝垂直纸面向外的方向转动",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "开关闭合的瞬间，由楞次定律和安培定则可知直导线中电流从南向北，由安培定则\n可知小磁针所在处磁场方向垂直纸面向里，所以小磁针的N极朝垂直纸面向里的方向转动，\n故A 正确；开关闭合并保持一段时间后，直导线中无电流，小磁针受到地磁场作用，小磁针\n的N极指向北，故BC 错误；开关闭合并保持一段时间再断开后的瞬间，由楞次定律和安培\n定则可知直导线中电流从北向南，由安培定则可知小磁针所在处磁场方向垂直纸面向外，所\n以小磁针的N极朝垂直纸面向外的方向转动，故D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -148,22 +201,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q07",
       "content": "2017 年，人类第一次直接探测到来自双中子星合并的引力波。根据科学家们复原的过\n程，在两颗中子星合并前约100 s 时，它们相距约400 km，绕二者连线上的某点每秒转动12\n圈，将两颗中子星都看作是质量均匀分布的球体，由这些数据、万有引力常量并利用牛顿力\n学知识，可以估算出这一时刻两颗中子星（    ）\n（A）质量之积\n（B）质量之和\n（C）速率之和\n（D）各自的自转角速度",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "由题意知两中子星的距离𝐿和周期𝑇，由万有引力提供向心力得\n𝐺𝑚1𝑚2\n𝐿2\n= 𝑚1\n4π2\n𝑇2 𝑟1，\n𝐺𝑚1𝑚2\n𝐿2\n= 𝑚2\n4π2\n𝑇2 𝑟2，其中𝑟1 + 𝑟2 = 𝐿，联立解得\n𝐺(𝑚1+𝑚2)\n𝐿2\n=\n4π2𝐿\n𝑇2 ,可以求出它们的质量之和𝑚1 +\n𝑚2 =\n4π2𝐿3\n𝐺𝑇2 ，故B 正确;由𝑣1 =\n2π𝑟1\n𝑇，𝑣2 =\n2π𝑟2\n𝑇，可得它们的速率之和𝑣1 + 𝑣2 =\n2π𝐿\n𝑇，故C 正\n确;由于𝑟1、𝑟2的具体大小末知，无法求出它们的质量之积𝑚1𝑚2 =\n16π4𝐿4𝑟1𝑟2\n𝐺2𝑇4\n，故A 错误;题中\n条件与中子星自转无关，无法求出自转角速度，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -171,22 +232,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q08",
       "content": "图中虚线a、b、c、d、f 代表匀强电场内间距相等的一组等势面，已知平面b 上的电势\n为2 V。一电子经过a 时的动能为10 eV，从a 到d 的过程中克服电场力所做的功为6 eV。\n下列说法正确的是（    ）\n（A）平面c 上的电势为零\n（B）该电子可能到达不了平面f\n（C）该电子经过平面d 时，其电势能为4 eV\n（D）该电子经过平面b 时的速率是经过d 时的2 倍\na\nb\nc\nd\ne",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AB",
+      "analysis": "由题可知𝑈𝑎𝑑=\n𝑊𝑎𝑑\n𝑞\n=\n−6eV\n−𝑒= 6V，由图可知𝑈𝑎𝑑= 3𝑈𝑎𝑏= 3𝑈𝑏𝑐，所以𝜑𝑎−𝜑𝑏=\n𝜑𝑏−𝜑𝑐= 2V，故平面𝑐上的电势𝜑𝑐= 0，故 A 正确；\n电子进入电场的方向不确定，可能在到达平面𝑓之前沿电场方向的速度减为零，垂直于电场\n方向的速度不为零，故 B 正确；\n由以上分析可得平面𝑑的电势𝜑𝑑= −2V，所以电子在平面𝑑的电势能𝐸p = −𝑒𝜑𝑑= 2eV，电\n子从𝑎到𝑏由动能定理可得𝑊𝑎𝑑= −𝑈𝑎𝑑· 𝑒= 𝐸k𝑏−𝐸k𝑎，解得𝐸k𝑑= 8eV，故C 错误；\n电子从从𝑎到𝑑由动能定理可得𝑊𝑎𝑑= −𝑈𝑎𝑑· 𝑒= 𝐸k𝑑−𝐸k𝑎，可得𝐸k𝑑= 4eV，则𝑣𝑏= √2𝑣𝑑，\n故D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -194,22 +259,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q09",
       "content": "（5 分）如图（a），一弹簧上端固定在支架顶端，下端\n悬挂一托盘；一标尺由游标和主尺构成，主尺竖直固定在\n弹簧左边；托盘上方固定有一能与游标刻度线准确对齐的\n装置，简化为图中的指针。现要测量图（a）中弹簧的劲度\n系数，当托盘内没有砝码时，移动游标，使其零刻度线对\n准指针，此时标尺读数为1.950 cm；当托盘内放有质量为\n0.100 kg 的砝码时，移动游标，再次使其零刻度线对准指\n针，标尺示数如图（b）所示，其读数为_______cm。当地\n的重力加速度大小为9.80 m/s2，此弹簧的劲度系数为\n________N/m（保留3 位有效数字）。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3.775;53.7.",
+      "analysis": "主尺读数为3.7cm，游标上第15个刻度和主尺上某一刻度对齐，所以游标读数为\n15 × 0.05mm = 0.75mm = 0.075cm，所以最终读数为3.7cm + 0.075cm = 3.775cm；由胡克\n定律得𝑘=\n𝐹\nΔ𝑥=\n𝑚𝑔\n𝐿1−𝐿0 =\n0.100×9.8\n(3.775−1.950)×10−2 N/m ≈53.7N/m.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -217,22 +290,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q10",
-      "content": "（10 分）某实验小组利用如图（a）所示的电路\n探究在 25℃ ~ 80℃ 范围内某热敏电阻的温度特性，\n所用器材有：置于温控室（图中虚线区域）中的热敏\n电阻RT，其标称值（25℃时的阻值）为900.0 Ω；电\n源E（6 V，内阻可忽略）；电压表V（量程150 mV）；\n定值电阻R0（阻值20.0 Ω），滑动变阻器R1（最大阻\n值为1 000 Ω）；电阻箱R2（阻值范围0-999.9 Ω）；单\n刀开关S1，单刀双掷开关S2。\n实验时，先按图（a）连接好电路，再将温控室的温度t 升至80.0℃，将S2 与1 端接通，闭\n合S1，调节R1 的滑片位置，使电压表读数为某一值U0；保持R1 的滑片位置不变，将R2 置\n于最大值，将S2 与2 端接通，调节R2，使电压表读数仍为U0：断开S1，记下此时R2 的读\n数，逐步降低温控室的温度t，得到相应温度下R2 的阻值，直至温度降到25.0°C，实验得到\n的R2–t 数据见下表。\nt/℃",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（10 分）某实验小组利用如图（a）所示的电路\n探究在 25℃ ~ 80℃ 范围内某热敏电阻的温度特性，\n所用器材有：置于温控室（图中虚线区域）中的热敏\n电阻RT，其标称值（25℃时的阻值）为900.0 Ω；电\n源E（6 V，内阻可忽略）；电压表V（量程150 mV）；\n定值电阻R0（阻值20.0 Ω），滑动变阻器R1（最大阻\n值为1 000 Ω）；电阻箱R2（阻值范围0-999.9 Ω）；单\n刀开关S1，单刀双掷开关S2。\n实验时，先按图（a）连接好电路，再将温控室的温度t 升至80.0℃，将S2 与1 端接通，闭\n合S1，调节R1 的滑片位置，使电压表读数为某一值U0；保持R1 的滑片位置不变，将R2 置\n于最大值，将S2 与2 端接通，调节R2，使电压表读数仍为U0：断开S1，记下此时R2 的读\n数，逐步降低温控室的温度t，得到相应温度下R2 的阻值，直至温度降到25.0°C，实验得到\n的R2–t 数据见下表。\nt/℃\n25.0\n30.0\n40.0\n50.0\n60.0\n70.0\n80.0\nR2/Ω\n900.0\n680.0\n500.0\n390.0\n320.0\n270.0\n240.0\n回答下列问题：\n（1）在闭合S1 前，图（a）中R1 的滑片应移动到_____（填“a”或“b”）端；\n（2）在图（b）的坐标纸上补齐数据表中所给数据点，并做出R2–t 曲线：___________\n20.0 40.0 60.0 80.0 100.0 t/℃\n0\n200\n400\n600\n800\n1000\nR2/Ω\n图（b）\n（3）由图（b）可得到RT 在25℃ ~ 80°C 范围内的温度特性，当t = 44.0℃时，可得RT =\n____Ω；\n（4）将RT 握于手心，手心温度下R2 的相应读数如图（c）所示，该读数为____Ω，则手心\n温度为______℃。",
+      "answer": "(1)𝑏;(2)见解析;(3)450;(4)620.0;33.0.",
+      "analysis": "本题主要考查研究小灯泡的伏安特性实验、利用伏安特性曲线计算实际功率及其相\n关的知识点，意在考查考生对小灯泡伏安特性曲线的理解和灵活运用相关知识，解决实际问\n题的能力。\n（1）图（a）的电路滑动变阻器采用限流接法，在闭合S1 前，R1 应该调节到接入电路部分\n的电阻值最大，使电路中电流最小，即图（a）中的R1 的滑片应移到b 端。\n（2）将t = 60℃和t = 70℃对应的两组数据对应画在坐标图上，然后用平滑曲线过尽可能多\n的数据点画出R2—t 图象。\n（3）根据题述实验过程可知，测量的R2 数据等于对应的热敏电阻RT 的电阻值。由画出的\nR2–t 图象可知，当t = 44.0℃时，对应的RT = 460Ω。\n（4）由画出的R2–t 图象可知，当RT = 620.0Ω，则手心温度t = 33.0℃.。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -240,126 +321,95 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q010-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q010-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q11",
-      "content": "0",
+      "content": "（12 分）一质量为m 的烟花弹获得动能E 后，从地面竖直升空，当烟花弹上升的速度\n为零时，弹中火药爆炸将烟花弹炸为质量相等的两部分，两部分获得的动能之和也为E，且\n均沿竖直方向运动。爆炸时间极短，重力加速度大小为g，不计空气阻力和火药的质量，求：\n（1）烟花弹从地面开始上升到弹中火药爆炸所经过的时间；\n（2）爆炸后烟花弹向上运动的部分距地面的最大高度",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设烟花弹上升的初速度为𝑣0，由题给条件得\n𝐸=\n1\n2 𝑚𝑣0\n2①,\n设烟花弹从地面开始上升到火药爆炸所用的时间为𝑡，由运动学公式得\n0 −𝑣0 = −𝑔𝑡②,\n联立①②式得 t = 1\ng\n2E\nm\n③.\n(2)设爆炸时烟花弹距地面的高度为ℎ1，由机械能守恒定律得\n𝐸= 𝑚𝑔ℎ1④,\n火药爆炸后，烟花弹上、下两部分均沿竖直方向运动，设爆炸后瞬间其速度分别为𝑣1和\n𝑣2,由题给条件和动量守恒得\n1\n4 𝑚𝑣1\n2 +\n1\n4 𝑚𝑣2\n2 = 𝐸⑤,\n1\n2 𝑚𝑣1 +\n1\n2 𝑚𝑣2 = 0⑥,\n由⑥式知，烟花弹两部分的速度方向相反，向上运动部分做竖直上抛运动.设爆炸后烟\n花弹上部分继续上升的高度为ℎ2，由机械能守恒定律得\n1\n4 𝑚𝑣1\n2 =\n1\n2 𝑚𝑔ℎ2⑦,\n联立④⑤⑥⑦式得，烟花弹上部分距地面的最大高度为\nℎ= ℎ1 + ℎ2 = 2E\nmg ⑧.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
-        "page": 3,
-        "questionNumber": 25,
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q12",
-      "content": "0",
+      "content": "（20 分）如图，在y > 0 的区域存在方向沿y 轴负方向\n的匀强电场，场强大小为E，在y < 0 的区域存在方向垂直于\nxOy 平面向外的匀强磁场。一个氕核11H 和一个氘核21H 先\n后从y 轴上y = h 点以相同的动能射出，速度方向沿x 轴正方\n向。已知11H 进入磁场时，速度方向与x 轴正方向的夹角为\n60°，并从坐标原点O 处第一次射出磁场。11H 的质量为m，\n电荷量为q 不计重力。求：\n（1）11H 第一次进入磁场的位置到原点O 的距离；\n（2）磁场的磁感应强度大小；\n（3）21H 第一次离开磁场的位置到原点O 的距离。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）11H 在电场中做类平抛运动，在磁场中做圆周运动，运动\n轨迹如图所示.设11H 在电场中的加速度大小为𝑎1，初速度大小为𝑣1，它\n在电场中的运动时间为𝑡1，第一次进入磁场的位置到原点𝑂的距离为𝑠1.\n由运动学公式得\n𝑠1 = 𝑣1𝑡1①,\nℎ=\n1\n2 𝑎1𝑡1\n2②,\n由题给条件，⬚1\n1H进入磁场时速度的方向与𝑥轴正方向夹角𝜃1 = 60°,⬚1\n1H进入磁场时速\n度的𝑦分量的大小为\n𝑎1𝑡1 = 𝑣1tan𝜃1③,\n联立以上各式得𝑠1 =\n2√3\n3 ℎ④.\n(2)1\n1H在电场中运动时，由牛顿第二定律得\n𝑞𝐸= 𝑚𝑎1⑤,\n设⬚1\n1H进入磁场时速度的大小为𝑣1\n′，由速度合成法则得\n𝑣1\n′ = √𝑣1\n2 + (𝑎1𝑡1)2⑥,\n设磁感应强度大小为𝐵，⬚1\n1H在磁场中运动的圆轨道半径为𝑅1，由洛伦兹力公式和牛顿\n第二定律得\n𝑞𝑣1\n′𝐵=\n𝑚𝑣1′2\n𝑅1 ⑦,\n由几何关系得\n𝑠1 = 2𝑅1sin𝜃1⑧,\n联立以上各式得𝐵= √\n6𝑚𝐸\n𝑞ℎ⑨.\n(3)设⬚1\n2H在电场中沿𝑥轴正方向射出的速度大小为𝑣2，在电场中的加速度大小为𝑎2，由\n题给条件得\n1\n2 (2𝑚)𝑣2\n2 =\n1\n2 𝑚𝑣1\n2⑩,\n由牛顿第二定律得\n𝑞𝐸= 2𝑚𝑎2⑪,\n设⬚1\n2H第一次射入磁场时的速度大小为𝑣2\n′，速度的方向与𝑥轴正方向夹角为𝜃2，入射点\n到原点的距离为𝑠2，在电场中运动的时间为𝑡2，由运动学公式得\n𝑠2 = 𝑣2𝑡2⑫,\nℎ=\n1\n2 𝑎2𝑡2\n2⑬,\n𝑣2\n′ = √𝑣2\n2 + (𝑎2𝑡2)2⑭,\nsin𝜃2 =\n𝑎2𝑡2\n𝑣2\n′ ,\n𝑠2 = 𝑠1，𝜃2 = 𝜃1，𝑣2\n′ = √2\n2 𝑣1\n′⑯.\n设⬚1\n2H在磁场中做圆周运动的半径为𝑅2，由⑦⑯式及粒子在匀强磁场中做圆周运动的\n半径公式得\n𝑅2 =\n(2𝑚)𝑣2′\n𝑞𝐵\n= √2𝑅1⑰\n所以出射点在原点左侧.设⬚1\n2H进入磁场的入射点到第一次离开磁场的出射点的距离为\n𝑠2\n′，由几何关系得\n𝑠2\n′ = 2𝑅2sin𝜃2⑱,\n联立④⑧⑯⑰⑱式得，⬚1\n2H第一次离开磁场时的位置到原点𝑂的距离为\n𝑠2\n′ −𝑠2 =\n2√3\n3 (√2 −1)ℎ.\n【选修3-3】\n33．如图，一定质量的理想气体从状态a 开始，经历\n过程①、②、③、④到达状态e，对此气体，下列说\n法正确的是_____。\nA．过程①中气体的压强逐渐减小\nB．过程②中气体对外界做正功\nC．过程④中气体从外界吸收了热量\nD．状态c、d 的内能相等\nE．状态d 的压强比状态b 的压强小\n如图，容积为V 的汽缸由导热材料制成，面积为S 的活塞将汽缸\n分成容积相等的上下两部分，汽缸上部通过细管与装有某种液体\n的容器相连，细管上有一阀门K。开始时，K 关闭，汽缸内上下两\n部分气体的压强均为p0。现将K 打开，容器内的液体缓慢地流入\n汽缸，当流入的液体体积为V\n8 时，将K 关闭，活塞平衡时其下方\n气体的体积减小了V\n6 ，不计活塞的质量和体积，外界温度保持不\n变，重力加速度大小为g。求流入汽缸内液体的质量。\n(2)设活塞再次平衡后，活塞上方气体的体积为𝑉1，压强为𝑝1；下方气体的体积为\n𝑉2，压强为𝑝2.在活塞下移的过程中，活塞上、下方气体的温度均保持不变，由玻意耳定律得\n𝑝0\n𝑉\n2 = 𝑝1𝑉1①,\n𝑝0\n𝑉\n2 = 𝑝2𝑉2②,\n由已知条件得\n𝑉1 =\n𝑉\n2 +\n𝑉\n6 −\n𝑉\n8 =\n13\n24 𝑉③,\n𝑉2 =\n𝑉\n2 −\n𝑉\n6 =\n𝑉\n3④,\n设活塞上方液体的质量为𝑚，由力的平衡条件得\n𝑝2𝑆= 𝑝1𝑆+ 𝑚𝑔⑤,\n联立以上各式得𝑚=\n15𝑝0𝑆\n26𝑔⑥.\n【选修3-4】\n34．（5 分）如图，△ABC 为一玻璃三棱镜的横截面，∠A\n= 30°，一束红光垂直AB 边射入，从AC 边上的D 点射出，\n其折射角为60°，则玻璃对红光的折射率为_____。若改用\n蓝光沿同一路径入射，则光线在D 点射出时的折射射角\n______（“小于”“等于”或“大于”）60°。\n（10 分）一列简谐横波在t = 1\n3 s 时的波形图如图（a）所示，P、Q 是介质中的两个质点，\n图（b）是质点Q 的振动图像。求：\n（1）波速及波的传播方向；\n（2）质点Q 的平衡位置的 x 坐标。\n(2)(ⅰ)由图(a)可以看出，该波的波长为\n𝜆= 36cm①，\n由图(b)可以看出，周期为\n𝑇= 2s②，\n波速为𝑣=\n𝜆\n𝑇= 18cm/s③，\n由图(b)知，当𝑡=\n1\n3s时，𝑄点向上运动，结合图(a)可得，波沿𝑥轴负方向传播.\n(ⅱ)设质点𝑃、𝑄平衡位置的𝑥坐标分别为𝑥𝑃、𝑥𝑄.由图(a)知，𝑥= 0处𝑦= −\n𝐴\n2 =\n𝐴sin(−30°)，因此\n𝑥𝑃=\n30°\n360° 𝜆= 3cm④，\n由图(b)知，在𝑡= 0时𝑄点处于平衡位置，经Δ𝑡=\n1\n3s，其振动状态向𝑥轴负方向传播至𝑃\nA\ny\nQ\nP\n− A/2\n0\n18 cm\nx/cm\nA\ny\n0\n1\n2\nt/s\n图（a）\n图（b）\n点处，由此及③式有\n𝑥𝑄−𝑥𝑃= 𝑣Δ𝑡= 6cm⑤，\n由④⑤式得，质点𝑄的平衡位置的𝑥坐标为\n𝑥𝑄= 9cm⑥.\n解析",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
-        "page": 3,
-        "questionNumber": 30,
+        "page": 5,
+        "endPage": 8,
+        "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q13",
-      "content": "0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p007-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p007-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p007-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p008-f08.jpg"
       ],
-      "year": 2018,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
-        "page": 3,
-        "questionNumber": 40,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q14",
-      "content": "0",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2018,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
-        "page": 3,
-        "questionNumber": 50,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q15",
-      "content": "0\n70.0\n80.0\nR2/Ω\n900.0\n680.0\n500.0\n390.0\n320.0\n270.0\n240.0\n回答下列问题：\n（1）在闭合S1 前，图（a）中R1 的滑片应移动到_____（填“a”或“b”）端；\n（2）在图（b）的坐标纸上补齐数据表中所给数据点，并做出R2–t 曲线：___________\n20.0 40.0 60.0 80.0 100.0 t/℃\n0\n200\n400\n600\n800\n1000\nR2/Ω\n图（b）\n（3）由图（b）可得到RT 在25℃ ~ 80°C 范围内的温度特性，当t = 44.0℃时，可得RT =\n____Ω；\n（4）将RT 握于手心，手心温度下R2 的相应读数如图（c）所示，该读数为____Ω，则手心\n温度为______℃。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2018,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2018/2018全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
-        "page": 3,
-        "questionNumber": 60,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-3cd407cce086bc64-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 2,
+    "assigned": 21,
+    "rendered": 22,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

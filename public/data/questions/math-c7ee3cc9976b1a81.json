@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
   "name": "2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q01",
       "content": "已知集合A = {−2, −1, 0, 1, 2}, B = {x | (x −1)(x + 2) < 0}, 则A∩B\n等于\n(\n)\n(A) {−1, 0}\n(B) {0, 1}\n(C) {−1, 0, 1}\n(D) {0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q02",
       "content": "若a 为实数, 且(2 + ai) (a −2i) = −4i, 则a =\n(\n)\n(A) −1\n(B) 0\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q03",
       "content": "根据下面给出的2004 年至2013 年我国二氧化硫年排放量(单位: 万吨)\n柱形图, 以下结论中不正确的是\n(\n)\n2004 2005 2006 2007 2008 2009 2010 2011 2012 2013\n2000\n1900\n2100\n2200\n2300\n2400\n2500\n2600\n2700\n(A) 逐年比较, 2008 年减少二氧化硫排放量的效果最显著\n(B) 2007 年我国治理二氧化硫排放显现成效\n(C) 2006 年以来我国二氧化硫年排放量呈减少趋势\n(D) 2006 年以来我国二氧化硫年排放量与年份正相关",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q04",
       "content": "已知等比数列{an} 满足a1 = 3, a1 + a3 + a5 = 21, 则a3 + a5 + a7 =(\n)\n(A) 21\n(B) 42\n(C) 63\n(D) 84",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q05",
       "content": "设函数f (x) =\n{\n1 + log2 (2 −x),\nx < 1,\n2x−1,\nx ⩾1,\n则f (−2) + f (log212) =\n(\n)\n(A) 3\n(B) 6\n(C) 9\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q06",
       "content": "一个正方体被一个平面截去一部分后, 剩余部分的三视图如图, 则截去部\n分体积与剩余部分体积的比值为\n(\n)\n(A) 1\n8\n(B) 1\n7\n(C) 1\n6\n(D) 1\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +193,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q006-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q006-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q006-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q07",
       "content": "过三点A (1, 3), B (4, 2), C (1, −7) 的圆交y 轴于M, N 两点, 则\n|MN| =\n(\n)\n(A) 2\n√\n6\n(B) 8\n(C) 4\n√\n6\n(D) 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +228,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q08",
       "content": "下边程序框图的算法思路源于我国古代数学名著《九章算术》中的“更相减\n损术”. 执行该程序框图, 若输入的a, b 分别为14, 18, 则输出的a =\n(\n)\n开始\n输入a, b\na̸ = b\na > b\n输出a\na = a −b\nb = b −a\n结束\n是\n否\n是\n否\n(A) 0\n(B) 2\n(C) 4\n(D) 14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +257,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q09",
       "content": "已知A, B 是球O 的球面上两点, ∠AOB = 90◦, C 为该球面上的动点, 若\n三棱锥O −ABC 体积的最大值为36, 则球O 的表面积为\n(\n)\n(A) 36π\n(B) 64π\n(C) 144π\n(D) 256π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +286,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q10",
       "content": "如图, 长方形ABCD 的边AB = 2, BC = 1, O 是AB 的中点, 点P 沿着\n边BC, CD 与DA 运动, 记∠BOP = x. 将动点P 到A, B 两点距离之\n和表示为x 的函数f (x), 则y = f (x) 的图象大致为\n(\n)\nA\nB\nC\nO\nP\nx\nD\n(A)\nx\nπ\n4\n3π\n4\nπ\n2\nπ\ny\n2\nO\n(B)\nx\nπ\n4\n3π\n4\nπ\n2\nπ\ny\n2\nO\n(C)\nx\nπ\n4\n3π\n4\nπ\n2\nπ\ny\n2\nO\n(D)\nx\nπ\n4\n3π\n4\nπ\n2\nπ\ny\n2\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +315,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q11",
       "content": "已知A, B 为双曲线E 的左、右顶点, 点M 在E 上, △ABM 为等腰三\n角形, 且顶角为120◦, 则E 的离心率为\n(\n)\n(A)\n√\n5\n(B) 2\n(C)\n√\n3\n(D)\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +349,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q12",
       "content": "设函数f ′ (x) 是奇函数f (x) (x ∈R) 的导函数, f (−1) = 0, 当x > 0 时,\nxf ′ (x) −f (x) < 0, 则使得f (x) > 0 成立的x 的取值范围是\n(\n)\n(A) (−∞, −1) ∪(0, 1)\n(B) (−1, 0) ∪(1, +∞)\n(C) (−∞, −1) ∪(−1, 0)\n(D) (0, 1) ∪(1, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +378,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q13",
       "content": "设向量a, b 不平行, 向量λa + b 与a + 2b 平行, 则实数λ =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +407,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q14",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\nx −y + 1 ⩾0,\nx −2y ⩽0,\nx + 2y −2 ⩽0,\n则z = x + y 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +436,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q15",
       "content": "(a + x) (1 + x)4 的展开式中x 的奇数次幂项的系数之和为32,\n则\na =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +465,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q16",
       "content": "设Sn 是数列{an} 的前n 项和, 且a1 = −1, an+1 = SnSn+1, 则\nSn =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +498,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q17",
       "content": "在△ABC 中, D 是BC 上的点, AD 平分∠BAC, △ABD 面积是△ADC\n面积的2 倍.\n(1) 求sin B\nsin C ;\n(2) 若AD = 1, DC =\n√\n2\n2 , 求BD 和AC 的长.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +527,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q18",
       "content": "某公司为了解用户对其产品的满意度, 从A, B 两地区分别随机调查了20\n个用户, 得到用户对产品的满意度评分如下:\nA 地区:\n62\n73\n81\n92\n95\n85\n74\n64\n53\n76\n78\n86\n95\n66\n97\n78\n88\n82\n76\n89\nB 地区:\n73\n83\n62\n51\n91\n46\n53\n73\n64\n82\n93\n48\n65\n81\n74\n56\n54\n76\n65\n79\n(1) 根据两组数据完成两地区用户满意度评分的茎叶图, 并通过茎叶图比\n较两地区满意度评分的平均值及分散程度(不要求计算出具体值, 给出结\n论即可);\nA 地区\nB 地区\n4\n5\n6\n7\n8\n9\n965\n(2) 根据用户满意度评分, 将用户的满意度从低到高分为三个等级:\n满意度评分\n低于70 分\n70 分到89 分\n不低于90 分\n满意度等级\n不满意\n满意\n非常满意\n记事件C: “A 地区用户的满意度等级高于B 地区用户的满意度等级”. 假\n设两地区用户的评价结果相互独立. 根据所给数据, 以事件发生的频率作\n为相应事件发生的概率, 求C 的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +556,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q19",
       "content": "如图, 长方体ABCD −A1B1C1D1 中, AB = 16, BC = 10, AA1 = 8, 点\nE, F 分别在A1B1, D1C1 上, A1E = D1F = 4. 过点E, F 的平面α 与此\n长方体的面相交, 交线围成一个正方形.\n(1) 在图中画出这个正方形(不必说明画法和理由);\n(2) 求直线AF 与平面α 所成角的正弦值.\nA\nB\nE\nF\nC\nD\nA1\nB1\nC1\nD1\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +590,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q20",
       "content": "已知椭圆C: 9x2 + y2 = m2 (m > 0), 直线l 不过原点O 且不平行于坐标\n轴, l 与C 有两个交点A, B, 线段AB 的中点为M.\n(1) 证明: 直线OM 的斜率与l 的斜率的乘积为定值;\n(2) 若l 过点\n(m\n3 , m\n)\n, 延长线段OM 与C 交于点P, 四边形OAPB 能\n否为平行四边形? 若能, 求此时l 的斜率; 若不能, 说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,22 +623,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q21",
       "content": "设函数f (x) = emx + x2 −mx.\n(1) 证明: f (x) 在(−∞, 0) 单调递减, 在(0, +∞) 单调递增;\n(2) 若对于任意x1, x2 ∈[−1, 1], 都有|f (x1) −f (x2)| ⩽e −1, 求m 的取\n值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -493,22 +652,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q22",
       "content": "如图, O 为等腰三角形ABC 内一点, ⊙O 与△ABC 的底边BC 交于M,\nN 两点, 与底边上的高AD 交于点G, 且与AB, AC 分别相切于E, F 两\n点.\n(1) 证明: EF\nBC;\n(2) 若AG 等于⊙O 的半径, 且AE = MN = 2\n√\n3, 求四边形EBCF 的\n面积.\nA\nB\nC\nE\nF\nO\nG\nM\nN\nD\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -516,22 +681,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c7ee3cc9976b1a81-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q23",
       "content": "在直角坐标系xOy 中, 曲线C1:\n{\nx = t cos α,\ny = t sin α,\n(t 为参数, t̸ = 0), 其中\n0 ⩽α < π. 在以O 为极点, x 轴正半轴为极轴的极坐标系中, 曲线C2:\nρ = 2 sin θ, C3: ρ = 2\n√\n3 cos θ.\n(1) 求C2 与C3 交点的直角坐标;\n(2) 若C1 与C2 相交于点A, C1 与C3 相交于点B, 求|AB| 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -539,22 +714,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf#q24",
       "content": "设a, b, c, d 均为正数, 且a + b = c + d, 证明:\n(1) 若ab > cd, 则√a +\n√\nb > √c +\n√\nd;\n(2) √a +\n√\nb > √c +\n√\nd 是|a −b| < |c −d| 的充要条件.\n966",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -562,11 +743,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015全国2理(贵州,甘肃,青海,西藏,黑龙江,吉林,海南,宁夏,内蒙古,新疆,云南,广西,辽宁).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

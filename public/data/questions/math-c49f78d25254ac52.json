@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1977/1977黑龙江.pdf",
   "name": "1977黑龙江",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 8,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 8,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1977/1977黑龙江.pdf#q01",
-      "content": "解 答 下 列 各 题 : 编 注 :\n(1) 解 方 程 : V 干 = 4 文 科 做 1-7,\n理 科 做 2-8, (2) 求 过 点 (1,4) 且 与 直 线 2z - 5y 十 3 = 0 垂 直 的 直 线 方 程 . A\n9 附 加 题 ,20 分\n10 参 考 额 , 不 计 入 总 分 1\n(2) 解 不 等 式 : [of < 5. P 一 z",
+      "content": "解 答 下 列 各 题 : 编 注 :\n(1) 解 方 程 : V3z 干 二 4 文 科 做 1-7,\n翻 科 做 2-8 (2) skis (1,4) 且 与 直 线 2 - 5\n9 附 加 题 ,20 分\n10 参 考 题 , 不 计 入 总 分 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977黑龙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1977/1977黑龙江.pdf#q02",
-      "content": "如 果 A4BC 的 LA 的 平 分 线 交 BC 于 D, 交 它 的 外 接 圆 于 一 , 那 么\n4B ,4C = AD - AE.\n(3) 已 知 正 三 角 形 的 外 接 圆 半 径 为 6V5 om, 求 它 的 边 长 。\n万\n2, 计 算 下 列 各 题 : ) fo 10 求 曲 线 y = shu 在 0,7] 上 的 曲 边 梯 形 绕 轴 旋 转 一 周 所 形 成 的 旋 转 体\n( Vf -25aTH. 的 体 积",
+      "content": "解 不 等 式 : |z| < 5.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -56,22 +78,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977黑龙江.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1977/1977黑龙江.pdf#q03",
-      "content": "前 进 大 队 响 应 毛 主 席 关 于 “ 绿 化 祖 国 “ 的 伟 大 吉 吊 , 1975 年 造 林 200 亩 , 叉\n知 1975 年 至 1977 年 这 三 年 内 共 造 林 728 亢 , 求 后 两 年 造 林 面 积 的 年 平 均\n增 长 率 是 多 少 ?\n(2) cos 78° . cos 3° + cos 12° Sin 3°.\n(3) arcsin (cos T)-",
+      "content": "如 果 A4BC 的 LA 的 平 分 线 交\n4B .4C = AD - AE.\n(3) 已 知 正 三 角 形 的 外 接 圆 半 径 为 6V3 em, 求 它 的 边 长\n2. 计 算 下 列 各 题 :",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1) Vm? = 2ma + a2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "原卷解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -79,22 +109,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977黑龙江.pdf",
         "page": 1,
-        "questionNumber": 6,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1977/1977黑龙江.pdf#q04",
-      "content": "解 方 程 : 1g(2* 十 2z — 16) = x (1 — Ig 5).\n3. 解 下 列 各 题 :\n(1) 解 方 程 : 3*+1 — 9 = 18.",
+      "content": "前 进 大 队 响 应 毛 主 席 关 于 “ 绿 化 祖\n知 1975 年 至 1977 年 这 三 年 内 共 j\n增 长 率 是 多 少 ?\n(2) cos 78° . cos 3° + cos 12° Sin 3°.\n(3) arcsin (cos T)-",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -102,22 +143,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977黑龙江.pdf",
         "page": 1,
-        "questionNumber": 7,
+        "endPage": 1,
+        "questionNumber": 6,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1977/1977黑龙江.pdf#q05",
-      "content": "已 知 三 角 形 的 三 边 成 等 差 数 列 , 周 长 为 36 em, 面 积 为 54 cm2, 求 三 边 的\n[3\n(2) 求 数 列 2 ,4 , 8 ,16 , … 前 十 项 的 和 .\n6",
+      "content": "RTE 1g (27 + 22 — 16) = x (1 -\n3. 解 下 列 各 题 :\n(1) 解 方 程 : 3“+1 — 0% 一 18.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -125,11 +177,124 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977黑龙江.pdf",
         "page": 1,
+        "endPage": 1,
+        "questionNumber": 7,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q005-p001-f01.jpg"
+    },
+    {
+      "questionId": "math:普通高考/1977/1977黑龙江.pdf#q06",
+      "content": "已 知 三 角 形 的 三 边 成 等 差 数 列 , 周\n长\n(2) 求 数 列 2 , 4 ,8 ,16 , … 前 十 项 的 和 .\n(\n附 加 题\n# 径 成 30? 角 , 求 它 的 侧 面 积",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977黑龙江.pdf",
+        "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c49f78d25254ac52-q006-p001-f01.jpg"
+    },
+    {
+      "questionId": "math:普通高考/1977/1977黑龙江.pdf#q07",
+      "content": "如 图 , AP 表 示 发 动 机 的 连 杆 , OA 表 示 它 的 曲 柄 . 当 4 在 圆 上 作 圆周 运 动\n时 , 乜 在 z 轴 上 作 直 线 运 动 , 求 乙 点 的 朴 坐 标 . 为 什 么 当 a 是 直 角 时 , ZP\n是 最 大 ?\n/ 十 3 二 0 垂直 的 直 线 方 程 . A\n1\nP x\nBC 于 刀 , 交 么 的 外 接 圆 于 BE, Ba\nC\nE",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977黑龙江.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 9,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977黑龙江.pdf#q08",
+      "content": "求 曲 线 y = sinz 在 [0,7] 上 的 曲 边 梯 形 绕 z 轴 旋 转 一 周 所 形 成 的 旋 转 体\nA B -\n的 体 积\n史 的 伟 大 号 史 , 1975 年 造 林 200 亩 , 叉\ni 林 728 京 , 求 后 两 年 造 林 面 积 的 年 平 均\nIg5).\n长 为 36 em, 面 积 为 54 cm2, 求 三 边 的",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977黑龙江.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 10,
+        "extraction": "ocr",
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 5,
+    "scanPages": 1,
+    "scanRegions": 5,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

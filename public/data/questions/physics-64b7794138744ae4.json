@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
   "name": "2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 17,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 14,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q01",
       "content": "一平行板电容器两极板之间充满云母介质，接在恒压直流电源上，若将云母介质移出，则电容器（    ）\n（A）极板上的电荷量变大，极板间的电场强度变大\n（B）极板上的电荷量变小，极板间的电场强度变大\n（C）极板上的电荷量变大，极板间的电场强度不变\n（D）极板上的电荷量变小，极板间的电场强度不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由\n4π\nrS\nC\nkd\n\n=\n可知，当云母介质抽出时，\nr变小，电容器的电容C 变小；因为电容器接在恒压直流\n电源上，故U 不变，根据Q\nCU\n=\n可知，当C 减小时，Q 减小。再由\nU\nE\nd\n=\n，由于U 与d 都不变，故电场强\n度E 不变，正确选项：D\n电容器的基本计算。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -33,11 +44,343 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q02",
+      "content": "现代质谱仪可用来分析比质子重很多的离子，其示意图如图所示，其\n中加速电压恒定。质子在入口处从静止开始被加速电场加速，经匀强磁场\n偏转后从出口离开磁场。若某种一价正离子在入口处从静止开始被同一加\n速电场加速，为使它经匀强磁场偏转后仍从同一出口离开磁场，需将磁感\n应强度增加到原来的12 倍。此离子和质子的质量比约为（    ）\n（A）11\n（B）12\n（C）121\n（D）144",
+      "answer": "D",
+      "analysis": "设质子的质量数和电荷数分别为\n1\nm 、\n1q ，一价正离子的质量数和\n电荷数为\n2\nm 、\n2q ，对于任意粒子，在加速电场中，由动能定理得：\n2\n1\n0\n2\nqU\nmv\n=\n−\n 故：\n2qU\nv\nm\n=\n     ①\n在磁场中应满足\n2v\nqvB\nm r\n=\n②\n由题意，由于两种粒子从同一入口垂直进入磁场，从同一出口垂直离开磁场，故在磁场中做匀速\n圆周运动的半径应相同．由①②式联立求解得匀速圆周运动的半径\n1\n2mU\nr\nB\nq\n=\n，由于加速电压不\n变，故\n1\n2\n1\n2\n2\n1\n2\n1\n1\n1\nr\nB\nm\nq\nr\nB\nm\nq\n=\n\n\n=\n其中\n2\n1\n1\n2\n12\nB\nB\nq\nq\n=\n=\n，\n，可得\n1\n2\n1\n144\nm\nm =\n故一价正离子与质子的质量比约为144\n带电粒子在电场、磁场中的运动、质谱仪。\n加速电场\n出口\n磁场",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q03",
+      "content": "一含有理想变压器的电路如图所示，图中电阻R1，R2 和R3 的阻\n值分别为3 Ω，1 Ω，4 Ω，A 为理想交流电流表，U 为正弦交流电压\n源，输出电压的有效值恒定。当开关S 断开时，电流表的示数为I；\n当S 闭合时，电流表的示数为4I。该变压器原、副线圈匝数比为（    ）\n（A）2\n（B）3\n（C）4\n（D）5",
+      "answer": "B",
+      "analysis": "解法一：当S 断开时，电路如右图所示\n由闭合电路欧姆定律，原线圈两端电压\n1\n1\nU\nU\nIR\n=\n−\n得\n1\n3\nU\nU\nI\n=\n−\n                   ①\n根据变压器原副边电压关系：\n1\n1\n2\n2\nU\nn\nU\nn\n=\n②\n副线圈中的电流：\n2\n2\n2\n2\n3\n5\nU\nU\nI\nR\nR\n=\n=\n+\n                    ③\n联立①②③得：\n2\n1\n2\n3\n5\nn\nU\nI\nn\nI\n\n\n−\n=\n\n\n\n\n                    ④\n当S 闭合时，电路如右图所示\n由闭合电路欧姆定律，原线圈两端电压\n1\n1\n4\nU\nU\nI R\n＇=\n−\n\n得\n1\n12\nU\nU\nI\n＇=\n−\n⑤\n根据变压器原副边电压关系：\n1\n1\n2\n2\nU\nn\nU\nn\n=\n＇\n＇\n⑥\n副线圈中的电流得：\n2\n2\n2\n2\n1\nU\nU\nI\nR\n=\n＇\n＇\n＇=\n⑦\n联立⑤⑥⑦得\n2\n1\n2\n12\n4\nn\nU\nI\nn\nI\n\n\n−\n=\n\n\n\n\n                    ⑧\n联立④⑧解得\n1\n2\n3\nn\nn =\n解法二：设开关S 断开前后，变压器的等效电阻为R 和R，由于变压器输入功率与输出功率相同，\nS 闭合前：\n2\n2\n2\n3\n( )\n(\n)\nI\nI\nR\nR\nR\nn\n\n=\n\n+\n，得\n2\n3\n2\nR\nR\nR\nn\n+\n=\n①\nS 闭合后：\n2\n2\n2\n4\n(4 )\n'\n(\n)\nI\nI\nR\nR\nn\n\n=\n\n，得\n2\n2\nR\nR\nn\n=\n②\n根据闭合电路欧姆定律：\nS 闭合前：\n1\nU\nI\nR\nR\n=\n+\n③\nS 闭合后：\n1\n4\nU\nI\nR\nR\n=\n\n+\n④\n根据以上各式得：\n2\n1\n2\n2\n2\n3\n1\n2\n2\n1\n3\n1\n=\n5\n4\n3\nR\nR\nn\nn\nR\nR\nR\nn\nn\n+\n+\n=\n+\n+\n+\n解得，\n3\nn =\n变压器的计算\nA\nU\nR1\nR2\nR3\nS\n【难点】由于原边回路有电阻，原线圈两端电压不等于电源电压",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q003-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q003-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q003-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q003-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q04",
+      "content": "利用三颗位置适当的地球同步卫星，可使地球赤道上任意两点之间保持无线电通讯，目前地球同步卫星\n的轨道半径为地球半径的6.6 倍，假设地球的自转周期变小，若仍仅用三颗同步卫星来实现上述目的，则地\n球自转周期的最小值约为（    ）\n（A）1 h\n（B）4 h\n（C）8 h\n（D）16 h",
+      "answer": "B",
+      "analysis": "地球自转周期变小，卫星要与地球保持同步，则卫星的公转周期也应随之变小，由\n2\n2\n2\n4π\nMm\nG\nmr\nr\nT\n=\n可得\n2\n3\n4π r\nT\nGM\n=\n，则卫星离地球的高度应变小，要实现三颗卫星覆盖全球的目的，则卫星周期最小时，由数\n学几何关系可作右图。\n由几何关系得，卫星的轨道半径为\n2\nsin30\nR\nr\nR\n=\n=\n\n①\n由开普勒第三定律\n3\n3\n1\n2\n2\n2\n1\n2\nr\nr\nT\nT\n=\n，代入题中数据，得\n3\n3\n2\n2\n2\n(6.6 )\n24\nR\nr\nT\n=\n②\n由①②解得\n2\n4\nT\nh\n\n卫星运行规律；开普勒第三定律的应用。\n【难点】做出最小周期时的卫星空间关系图",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q004-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q004-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q05",
+      "content": "一质点做匀速直线运动，现对其施加一恒力，且原来作用在质点上的力不发生改变，则（    ）\n（A）质点速度的方向总是与该恒力的方向相同\n（B）质点速度的方向不可能总是与该恒力的方向垂直\n（C）质点加速度的方向总是与该恒力的方向相同\n（D）质点单位时间内速率的变化量总是不变",
+      "answer": "BC",
+      "analysis": "质点一开始做匀速直线运动，处于平衡状态，施加恒力后，则该质点的合外力为该恒力。若该恒\n力方向与质点原运动方向不共线，则质点做曲线运动，质点速度方向时刻与恒力方向不同，A 错误；若F\n的方向某一时刻与质点运动方向垂直，之后质点作曲线运动，力与运动方向夹角会发生变化，例如平抛运\n动，B 正确；由牛顿第二定律可知，质点加速度方向与其所受合外力方向相同，C 正确；根据加速度的定\n义，相等时间内速度变化量相同，速率变化量不一定相同，D 错误。\n牛顿运动定律；力和运动的关系；加速度的定义。\n【易错点】B 选项易错误地以“匀速圆周运动”作为反例来推翻结论",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q06",
+      "content": "如图，一光滑的轻滑轮用细绳OO'悬挂于O 点；另一细绳跨过滑轮，\n其一端悬挂物块a，另一端系一位于水平粗糙桌面上的物块b。外力F 向\n右上方拉b，整个系统处于静止状态。若F 方向不变，大小在一定范围内\n变化，物块b 仍始终保持静止，则（    ）\n（A）绳OO'的张力也在一定范围内变化\n（B）物块b 所受到的支持力也在一定范围内变化\n（C）连接a 和b 的绳的张力也在一定范围内变化\n30°\nR\n卫星\n卫星\n卫星\na\nO\nOʹ\nb\nF\n（D）物块b 与桌面间的摩擦力也在一定范围内变化",
+      "answer": "BD",
+      "analysis": "由题意，在F 保持方向不变，大小发生变化的过程中，物体\na 、b 均保持静止，各绳角度保持不变；选a 受力分析得，绳的拉力\na\nT\nm g\n=\n，所以物体a 受到绳的拉力保持不变。由滑轮性质，滑轮两侧\n绳的拉力相等，所以b 受到绳的拉力大小、方向均保持不变，C 选项错\n误； a 、b 受到绳的拉力大小方向均不变，所以OO的张力不变，A 选\n项错误；对b 进行受力分析，并将各力沿水平方向和竖直方向分解，如\n图所示。由受力平衡得：\nx\nx\nT\nf\nF\n+\n=\n，\ny\ny\nb\nF\nN\nT\nm g\n+\n+\n=\n。T 和\nb\nm g 始\n终不变，当F 大小在一定范围内变化时；支持力在一定范围内变化，B\n选项正确；摩擦力也在一定范围内发生变化，D 选项正确。\n考查动态平衡分析、力的正交分解和力的平衡方程。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q006-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q006-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q07",
+      "content": "如图，一带负电荷的油滴在匀强电场中运动，其轨迹在竖直平面（纸面）内，且相对于过轨迹最低点P\n的竖直线对称。忽略空气阻力。由此可知（    ）\n（A）Q 点的电势比P 点高\n（B）油滴在Q 点的动能比它在P 点的大\n（C）油滴在Q 点的电势能比它在P 点的大\n（D）油滴在Q 点的加速度大小比它在P 点的小",
+      "answer": "AB\nBD",
+      "analysis": "由于匀强电场中的电场力和重力都是恒力，所以合外力为恒力，加速度恒定不变，所以D 选项\n错。由于油滴轨迹相对于过P 的竖直线对称且合外力总是指向轨迹弯曲内侧，所以油滴所受合外力沿竖直\n方向，电场力竖直向上。当油滴得从P 点运动到Q 时，电场力做正功，电势能减小，C 选项错误；油滴带\n负电，电势能减小，电势增加，所以Q 点电势高于P 点电势，A 选项正确；在油滴从P 点运动到Q 的过程\n中，合外力做正功，动能增加，所以Q 点动能大于P 点，B 选项正确；所以选AB。\n带电粒子在复合场中运动、曲线运动中物体受力特点、带电粒子电场力做功与电势能的关系、电势\n能变化与电势变化的关系。\n甲、乙两车在平直公路上同向行驶，其v-t 图像如图所示。已知两车在t = 3 s\n时并排行驶，则（    ）\n（A）在t = 1s 时，甲车在乙车后\n（B）在t = 0 时，甲车在乙车前7.5 m\n（C）两车另一次并排行驶的时刻是t = 2 s\n（D）甲、乙两车两次并排行驶的位置之间沿公路方向的距离为40 m\n甲、乙都沿正方向运动。\n3s\nt =\n时并排行驶，\n=30m/s\nv甲\n，\n=25m/s\nv乙\n，由v\nt\n−图可知：0~3s 内位移\n1\n=\n3 30m=45m\n2\nx\n\n甲\n，\n(\n)\n1\n=\n3\n10+25 m=52.5m\n2\nx\n\n乙\n．故\n0\nt =\n时，甲乙相距\n1\n=7.5m\nx\nx\nx\n\n=\n−\n乙\n甲\n，即甲在乙\n前方7.5m ，B 正确。0~1s 内，\n1\n=\n1 10m=5m\n2\nx \n\n甲\n，\n(\n)\n1\n=\n1\n10+15 m=12.5m\n2\nx \n\n乙\n，\n2\n=7.5m\nx\nx\nx\n乙\n甲\n\n\n\n=\n−\n，\n说明甲、乙初相遇。A、C 错误。乙两次相遇地点之间的距离为\n=45m\n5m=40m\nx\nx\nx\n甲\n甲\n=\n−\n−\n，所以D 正确；\nv\nt\n−图的解读和位移的计算、追击相遇问题。\ng\nf\nTx\nTy\nN\nmb\nT\nFx\nFy\nF\nv/m·s−1\nt/s\n甲\n乙\n3\n1\n2\n30\n20\n10\nO\nP\nQ\n【难点】根据位移判断两车在不同时刻的位置关系。\n第II 卷（非选择题共174 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q007-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q007-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q007-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q08",
+      "content": "（5 分）某同学用图（a）所示的实验装置验证机械能守恒定律，其中打\n点计时器的电源为交流电源，可以使用的频率有20 Hz、30 Hz 和40 Hz，打\n出纸带的一部分如图（b）所示。\n该同学在实验中没有记录交流电的频率f，需要用实验数据和其他条件进行\n推算。\n（1）若从打出的纸带可判定重物匀加速下落，利用f 和图（b）中给出的物\n理量可以写出：在打点计时器打出B点时，重物下落的速度大小为_________，\n打出C 点时重物下落的速度大小为________，重物下落的加速度的大小为________。\n（2）已测得s1 = 8.89cm，s2 = 9.50 cm，s3 = 10.10 cm；当重力加速度大小为9.80 m/s2，试验中重物受到的平\n均阻力大小约为其重力的1%。由此推算出f 为________Hz。",
+      "answer": "（1）f\n2 （s1＋s2），f\n2 （s2＋s3），f2\n2 （s3－s1）；（2）40",
+      "analysis": "⑴由于重物匀加速下落，A\nB\nC\nD\n、、、\n各相邻点之间时间间隔相同，因此B 点应是从A 运动到C\n的过程的中间时刻，由匀变速直线运动的推论可得：B 点的速度\nB\nv 等于AC 段的平均速度，即\n1\n2\n2\nB\nS\nS\nv\nt\n+\n=\n由于\n1\nt\nf\n=\n，故\n1\n2\n(\n)\n2\nB\nf\nv\nS\nS\n=\n+\n同理可得\n2\n3\n(\n)\n2\nC\nf\nv\nS\nS\n=\n+\n匀加速直线运动的加速度\nv\na\nt\n\n= \n故\n2\n2\n3\n1\n2\n3\n1\n(\n)\n(\n)\n2\n(\n)\n1\n2\nC\nB\nf\nS\nS\nS\nS\nv\nv\nf\na\nS\nS\nt\nf\n\n\n+\n−\n+\n\n\n−\n=\n=\n=\n−\n①\n⑵重物下落的过程中，由牛顿第二定律可得：\ng\nm\nF =ma\n−\n阻\n②\n由已知条件\n0.01 g\nF =\nm\n阻\n③\n由②③得\n0.99g\na =\n代入①得：\n2\n3\n1\n(\n)\n2\nf\na\nS\nS\n=\n−\n，代入数据得\n40Hz\nf \n利用运动学公式和推论处理纸带问题。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q008-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q008-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q008-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q09",
+      "content": "（10 分）现要组装一个由热敏电阻控制的报警系统，当要求热敏电阻的温度达到或超过60℃时，系统报\n警。提供的器材有：热敏电阻，报警器（内阻很小，流过的电流超过Ic 时就会报警），电阻箱（最大阻值为\ns1\nA\nB\nC\nD\ns2\ns3\n图（b）\n打点计时器\n图（a）\n纸带\n重物\n999.9 Ω），直流电源（输出电压为U，内阻不计），滑动变阻器R1（最大阻值为1000 Ω），滑动变阻器R2（最\n大阻值为2000 Ω），单刀双掷开关一个，导线若干。\n在室温下对系统进行调节，已知U 约为18 V，Ic 约为10 mA；流过报警器的电流超过20 mA 时，报警器可能\n损坏；该热敏电阻的阻值随温度的升高而减小，在60℃时阻值为650.0 Ω。\n（1）在答题卡上完成待调节的报警系统原理电路图的连线。\n（2）在电路中应选用滑动变阻器________（填“R1”或“R2”）。\n（3）按照下列步骤调节此报警系统：\n①电路接通前，需将电阻箱调到一定的阻值，根据实验要求，这一阻值为______Ω；滑动变阻器的滑片应置\n于______（填“a”或“b”）端附近，不能置于另一端的原因是______。\n②将开关向______（填“c”或“d”）端闭合，缓慢移动滑动变阻器的滑片，直至______。\n（4）保持滑动变阻器滑片的位置不变，将开关向另一端闭合，报警系统即可正常使用。",
+      "answer": "（1）如图\n（2）R2\n（3）①650.0，b，\n接通电源后，流过报警器的电流会超过20mA，报警器可能损坏\n②c，报警器开始报警",
+      "analysis": "①热敏电阻工作温度达到60 C\n\n时，报警器报警。故需通过调节电阻箱使其电阻为60 C\n\n时的热敏电\n阻的阻值，即调节到阻值650.0Ω，光使报警器能正常报警，电路图如上图\n②\n18V\nU =\n，当通过报警器的电流10mA\n20mA\ncI\n\n\n，故电路中总电阻\nc\nU\nR\nI\n=\n，\n900\n1800\nR\n\n\n，故滑动变阻器选\n2\nR 。\n③热敏电阻为650.0时，报警器开始报警，模拟热敏电阻的电阻器阻值也应为650.0为防止通过\n报警器电流过大，造成报警器烧坏，应使滑动变阻器的滑片置于b 端．\n滑动变阻器在电路中的作用及其规格选择、串并联电路相关计算、等效替代思想\n【难点】获取题中信息并转化为解题所需条件、理解电路设计原理、理解调节电阻箱和滑动变阻器的意义",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q009-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q009-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q009-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q10",
+      "content": "（14 分）如图，两固定的绝缘斜面倾角均为θ，上沿相连。两细金\n属棒ab（仅标出a 端）和cd（仅标出c 端）长度均为L，质量分别为\n2m 和m；用两根不可伸长的柔软导线将它们连成闭合回路abdca，并通\n过固定在斜面上沿的两光滑绝缘小定滑轮跨放在斜面上，使两金属棒水\n平。右斜面上存在匀强磁场，磁感应强度大小为B，方向垂直于斜面向\n报警器\n电源\n电阻箱\n开关\n滑动变阻器\n热敏电阻\na\nb\nc\nd\n报警器\n电源\n电阻箱\n开关\n滑动变阻器\n热敏电阻\na\nb\nc\nd\nc\nθ\nB\nθ\na\n上，已知两根导线刚好不在磁场中，回路电阻为R，两金属棒与斜面间的动摩擦因数均为μ，重力加速度大小\n为g，已知金属棒ab 匀速下滑。求：\n（1）作用在金属棒ab 上的安培力的大小；\n（2）金属棒运动速度的大小。",
+      "answer": "（1）F 安 = mgsinθ－3μmgcosθ\n（2）v = mgR（sinθ－3μcosθ）\nB2L2",
+      "analysis": "（1）由ab 、cd 棒被平行于斜面的导线相连，故ab 、cd 速度时时刻刻相等，cd 也做匀速直线运\n动；\n选cd 为研究对象，受力分析如图：\n由于cd 匀速，其受力平衡，沿斜面方向受力平衡方程：\ncos\ncd\ncd\nN\nG\n\n=\n垂直于斜面方向受力平衡方程：\nsin\ncd\ncd\nf\nG\nT\n\n+\n=\n且\ncd\ncd\nf\nN\n\n=\n，联立可得：\ncos\nsin\nT\nmg\nmg\n\n\n\n=\n+\n选ab 为研究对象，受力分析如图：\n其沿斜面方向受力平衡：\n'\nsin\nab\nab\nT\nf\nF\nG\n\n+\n+\n=\n安\n垂直于斜面方向受力平衡：\ncos\nab\nab\nN\nG\n\n=\n且\nab\nab\nf\nN\n\n=\n，T 与\n'\nT 为作用力与反作用力：\n'\nT\nT\n=\n，\n联立可得：\nsin\n3\ncos\nF\nmg\nmg\n安\n\n\n\n=\n−\n①\n（2）设感应电动势为E ，由电磁感应定律：\nE\nBLv\n=\n由闭合电路欧姆定律，回路中电流：\nE\nBLv\nI\nR\nR\n=\n=\n棒中所受的安培力：\n2\n2\nB L v\nF\nBIL\nR\n=\n=\n安\n与①联立可得：\n2\n2\n(sin\n3 cos )\nmgR\nv\nB L\n\n\n\n−\n=\n物体平衡、磁场对电流的作用、电磁感应。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q010-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q010-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q11",
+      "content": "（18 分）如图，一轻弹簧原长为2R，其一端固定在倾角为37°的\n固定直轨道AC 的底端A 处，另一端位于直轨道上B 处，弹簧处于自\n然状态，直轨道与一半径为 5\n6 R 的光滑圆弧轨道相切于C 点，AC =\n7R，A、B、C、D 均在同一竖直面内。质量为m 的小物块P 自C 点\n由静止开始下滑，最低到达E 点（未画出），随后P 沿轨道被弹回，\n最高点到达F 点，AF = 4R，已知P 与直轨道间的动摩擦因数μ = 1\n4 ，\n重力加速度大小为g。（取sin37° = 0.6，cos37° = 0.8）\n（1）求P 第一次运动到B 点时速度的大小。\n（2）求P 运动到E 点时弹簧的弹性势能。\n（3）改变物块P 的质量，将P 推至E 点，从静止开始释放。已知P 自圆弧轨道的最高点D 处水平飞出后，\n恰好通过G 点。G 点在C 点左下方，与C 点水平相距 7\n2 R、竖直相距R，求P 运动到D 点时速度的大小和\n改变后P 的质量。",
+      "answer": "（1）2\ngR\n（2）12\n5 mgR\n（3）1\n3 m\n（i）ρv0S\n（ii）v02\n2g −\nM2g\n2ρ2v02S2",
+      "analysis": "（1）选P 为研究对象，受力分析如图：\n设P 加速度为a ，其垂直于斜面方向受力平衡：\ncos\nG\nN\n=\n沿斜面方向，由牛顿第二定律得：\nsin\nG\nf\nma\n−\n=\n且f\nN\n\n=\n，可得：\n2\nsin\ncos\n5\na\ng\ng\ng\n\n\n\n=\n−\n=\n对CB 段过程，由\n2\n2\n0\n2\ntv\nv\nas\n−\n=\n代入数据得B 点速度：\n2\nB\nv\ngR\n=\n（2）P 从C 点出发，最终静止在F ，分析整段过程；\n由C 到F ，重力势能变化量：\n3 sin\nP\nE\nmg\nR\n\n\n= −\n\n①\n减少的重力势能全部转化为内能。\n设E 点离B 点的距离为xR ，从C 到F ，产热：\ncos (7\n2\n)\nQ\nmg\nR\nxR\n\n\n=\n+\n②\n由\nP\nQ\nE\n= \n，联立①、②解得：\n1\nx = ；\n研究P 从C 点运动到E 点过程\n重力做功：\nsin (5\n)\nG\nW\nmg\nR\nxR\n\n=\n+\n摩擦力做功：\ncos (5\n)\nf\nW\nmg\nR\nxR\n\n\n= −\n+\n动能变化量：\n0J\nk\nE\n\n=\n由动能定理：\nG\nf\nk\nW\nW\nW\nE\n+\n+\n= \n弹\n代入得：\n12\n5\nmgR\nW\n= −\n弹\n由E\nW\n\n= −\n弹\n弹，到E 点时弹性势能E弹为12\n5\nmgR 。\n（3）其几何关系如图可知：\n2\n3\nOQ\nR\n=\n，\n1\n2\nCQ\nR\n=\nA\nB\nF\nG\nR\n7R/2\n37°\nC\nP\nD\n由几何关系可得，G 点在D 左下方，竖直高度差为5\n2\nR ，水平距离为3R 。\n设P 从D 点抛出时速度为\n0v ，到G 点时间为t\n其水平位移：\n0\n3R\nv t\n=\n竖直位移：\n2\n5\n1\n2\n2\nR\ngt\n=\n解得：\n0\n3 5\n5\ngR\nv =\n研究P 从E 点到D 点过程，设P 此时质量为\n'\nm ，此过程中：\n重力做功：\n3\n51\n'\n' (\n6 sin )\n'\n2\n10\nG\nW\nm g\nR\nR\nm gR\n\n= −\n+\n= −\n①\n摩擦力做功：\n6\n'\n'\n6 cos\n'\n5\nf\nW\nm g\nR\nm gR\n\n\n= −\n\n= −\n②\n弹力做功：\n12\n'\n5\nW\nE\nmgR\n弹\n弹\n= −\n=\n③\n动能变化量：\n2\n0\n1\n'\n'\n0J\n2\nk\nE\nm v\n\n=\n−\n9\n'\n10 m gR\n=\n④\n由动能定理：\n'\n'\n'\n'\nG\nf\nk\nW\nW\nW\nE\n弹\n+\n+\n= \n⑤\n将①②③④代入⑤，可得：\n1\n'\n3\nm\nm\n=\n物体平衡、牛顿运动定律、功和能、动能定理、能量守恒定律。\n（二）选考题：共45 分。请考生从给出的3 道物理题、3 道化学题、2 道生物题中每科任选一题做答，并用\n2B 铅笔在答题卡上把所选题目题号后的方框涂黑。注意所选题目的题号必须与所涂题目的题号一致，在答\n题卡选答区域指定位置答题。如果多做，则每学科按所做的第一题计分。\n33．[物理——选修3–3]（15 分）\n（1）（5 分）关于热力学定律，下列说法正确的是________。（填正确答案标号。选对1 个得2 分，选对2 个\n得4 分，选对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）气体吸热后温度一定升高\n（B）对气体做功可以改变其内能\n（C）理想气体等压膨胀过程一定放热\n（D）热量不可能自发地从低温物体传到高温物体\n（E）如果两个系统分别与状态确定的第三个系统达到热平衡，那么这两个系统彼此之间也必定达到热平衡\n热力学第一定律：\nU\nQ\nW\n\n=\n+\n，故对气体做功可改变气体内能，B 选项正确；气体吸热为Q ，但\n不确定外界做功W 的情况，故不能确定气体温度变化，A 选项错误；理想气体等压膨胀，\n0\nW \n，由理想\n气体状态方程PV\nnRT\n=\n，P 不变，V 增大，气体温度升高，内能增大。由\nU\nQ\nW\n\n=\n+\n，气体过程中一定\n吸热，C 选项错误；由热力学第二定律，D 选项正确；根据平衡性质，E 选项正确；\n理想气体状态方程，热力学第一定律，热力学第二定律，热平衡的理解。\n【难点】等压膨胀气体温度升高，内能增大；气体又对外做功，所以气体一定吸热。\n（2）（10 分）在水下气泡内空气的压强大于气泡表面外侧水的压强，两压强差Δp 与气泡半径r 之间的关系\n为Δp = 2σ\nr ，其中σ = 0.070 N/m。现让水下10m 处一半径为0.50 cm 的气泡缓慢上升，已知大气压强p0 =\n1.0×105 Pa，水的密度ρ = 1.0×103 kg/m3，重力加速度大小g = 10 m/s2。\n（i）求在水下10 m 处气泡内外的压强差；\n（ii）忽略水温随水深的变化，在气泡上升到十分接近水面时，求气泡的半径与其原来半径之比的近似值。\n（i）由公式\n2\nP\nr\n\n\n=\n得，\n3\n2 0.070 Pa=28Pa\n5 10\nP\n−\n\n\n=\n\n水下10m 处气泡的压强差是28Pa 。\n（ii）忽略水温随水深的变化，所以在水深10m 处和在接近水面时气泡内温度相同。\n由理想气体状态方程PV\nnRT\n=\n，得\n1 1\n2\n2\nPV\nPV\n=\n①\n其中，\n3\n1\n1\n4\n3\nV\nr\n\n=\n②\n3\n2\n2\n4\n3\nV\nr\n\n=\n③\n由于气泡内外的压强差远小于水压，气泡内压强可近似等于对应位置处的水压，所以有\n5\n3\n5\n1\n0\n1\n0\n1 10 Pa+1 10\n10 10\n2 10 Pa=2\nP\nP\ngh\nP\n\n=\n+\n= \n\n\n\n=\n\n④\n2\n0\nP\nP\n=\n⑤\n将②③④⑤带入①得，\n3\n3\n0\n1\n0\n2\n4\n4\n2\n3\n3\nP\nr\nP\nr\n\n\n\n=\n\n3\n3\n1\n2\n2r\nr\n=\n3\n2\n1\n2\n1.3\nr\nr =\n\n理想气体状态方程\n【难点】当气体内部压强远大于气泡内外压强差时，计算气体内部压强时可忽略掉压强差，即气体压强等\n于对应位置的水压。\n34．[物理——选修3–4]（15 分）\n（1）（5 分）某同学漂浮在海面上，虽然水面波正平稳地以1.8 m./s 的速率向着海滩传播，但他并不向海滩靠\n近。该同学发现从第1 个波峰到第10 个波峰通过身下的时间间隔为15 s。下列说法正确的是_____。（填正确\n答案标号。选对1 个得2 分，选对2 个得4 分，选对3 个得5 分。每选错1 个扣3 分，最低得分为0 分）\n（A）水面波是一种机械波\n（B）该水面波的频率为6 Hz\n（C）该水面波的波长为3 m\n（D）水面波没有将该同学推向岸边，是因为波传播时能量不会传递出去\n（E）水面波没有将该同学推向岸边，是因为波传播时振动的质点并不随波迁移\n水面波是一种典型机械波，A 对；从第一个波峰到第十个波峰中经历了九个波形，时间间隔为15\n秒，所以其振动周期为\n15\n5\ns\ns\n9\n3\nT =\n=\n，频率为0.6Hz，B 错；其波长\n5\n1.8m/s\ns\n3\nvT\n=\n=\n\n3m\n=\n，C 对；波中的\n质点都上下振动，不随波迁移，但是能传递能量，D 错E 对。\n机械波及其特性、波长和波速频率间关系。\n（2）（10 分）如图，在注满水的游泳池的池底有一点光源A，它到池边的水平距离为3.0 m。从点光源A 射\n向池边的光线AB 与竖直方向的夹角恰好等于全反射的临界角，水的折射率为4\n3 。\n（i）求池内的水深；\n（ii）一救生员坐在离池边不远处的高凳上，他的眼睛到地面的高度为\n2.0m。当他看到正前下方的点光源A 时，他的眼睛所接受的光线与竖直\n方向的夹角恰好为45°。求救生员的眼睛到池边的水平距离（结果保留1\n位有效数字）。\n（i）光由A 射向B 发生全反射，光路如图：\n由反射公式可知：sin\n1\nn\n\n=\n得：\n3\nsin\n4\n=\n；\n由\n3m\nAO =\n，由几何关系可得：\n4m\n7m\nAB\nBO\n=\n=\n，\n所以水深\n7m 。\n（ii）光由A 点射入救生员眼中光路图如图：\n由折射率公式：sin45\nsin\nn\n\n=\n可知：\n3 2\nsin\n8\n=\n，\n3\n3 23\ntan\n23\n23\n=\n=\n设\nm\nBE\nx\n=\n，得\n3\ntan\n7\nAQ\nx\nQE\n\n−\n=\n=\n带入数据得：\n3 161\n3\n23\nx =\n−\n，\n由几何关系得，救生员到池边水平距离为(2\n)m\n0.7m\nx\n−\n\n全反射、折射定律。\n35．【物理——选修3-5】\n（1）（5 分）现用一光电管进行光电效应的实验，当用某一频率的光入射时，有光电流产生。下列说法正确\n的是______。（填正确答案标号。选对1 个得2 分，选对2 个得4 分，选对3 个得5 分。每选错1 个扣3 分，\n最低得分为0 分）\n（A）保持入射光的频率不变，入射光的光强变大，饱和光电流变大\n（B）入射光的频率变高，饱和光电流变大\n（C）入射光的频率变高，光电子的最大初动能变大\n（D）保持入射光的光强不变，不断减小入射光的频率，始终有光电流产生\n（E）遏止电压的大小与入射光的频率有关，与入射光的光强无关\n由光电效应规律可知，当频率低于截止频率时无论光照强度多大，都不会有光电流，因此D 错\n误；在发生光电效应时，饱和光电流大小由光照强度来决定，与频率无关，光照强度越大饱和光电流越\n大，因此A 正确，B 错误，根据\nkm\nE\nh\nW\n\n=\n−\n可知，对于同一光电管，逸出功W 不变，当频率变高，最大\n初动能\nkm\nE\n变大，因此C 正确，由\nkm\nc\nE\neU\n=\n和\nkm\nE\nh\nW\n\n=\n−\n，得\nc\nh\nW\neU\n−\n=\n，遏制电压只与入射光频率有\n关，与入射光强无关，因此E 正确。\n光电效应规律\n（2）（10 分）某游乐园入口旁有一喷泉，喷出的水柱将一质量为M 的卡通玩具稳定地悬停在空中。为计算方\n便起见，假设水柱从横截面积为S 的喷口持续以速度v0 竖直向上喷出；玩具底部为平板（面积略大于S）；水\n柱冲击到玩具底板后，在竖直方向水的速度变为零，在水平方向朝四周均匀散开。忽略空气阻力。已知水的\nB\n45°\nA\n3.0 m\n2.0 m\n密度为ρ，重力加速度大小为g。求：\n（i）喷泉单位时间内喷出的水的质量；\n（ii）玩具在空中悬停时，其底面相对于喷口的高度。\n（i）在一段很短的\nt\n时间内，可以为喷泉喷出的水柱保持速度\n0v 不变。\n该时间内，喷出水柱高度：\n0\nl\nv\nt\n=\n\n①\n喷出水柱质量：\nm\nV\n\n\n=\n\n②\n其中\nv\n为水柱体积，满足：\nV\nl S\n\n= \n③\n由①②③可得：喷泉单位时间内喷出的水的质量为\n0\nm\nv\nS\nt\n\n\n=\n\n\n\n（ii）设玩具底面相对于喷口的高度为h\n由玩具受力平衡得：\n=\nF\nMg\n冲\n④\n其中，F冲为玩具底部水体对其的作用力．\n由牛顿第三定律：\n=\nF\nF\n压\n冲\n⑤\n其中，F压为玩具时其底部下面水体的作用力\nv＇为水体到达玩具底部时的速度\n由运动学公式：\n2\n2\n0\n2\nv\nv\ngh\n−\n= −\n＇\n⑥\n在很短\nt\n时间内，冲击玩具水柱的质量为\nm\n\n0\nm\nv\ns\nt\n\n\n=\n\n\n⑦\n由题意可知，在竖直方向上，对该部分水柱有\n动量定理\n(\n)\nF\nmg\nt\nm v\n+ \n= \n\n压\n⑧\n由于\nt\n很小，\nmg\n\n也很小，可以忽略\n⑧式变为\nF\nt\nm v\n= \n\n压\n⑨\n由④⑤⑥⑦⑨可得\nh = v02\n2g −\nM2g\n2ρ2v02S2\n动量定理，流体受力分析，微元法\n【难点】情景比较新颖，微元法的应用\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 8,
+        "endPage": 13,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p011-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p011-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p012-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p013-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p013-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-64b7794138744ae4-q011-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 24,
+    "answerGraphics": 1,
+    "assigned": 23,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

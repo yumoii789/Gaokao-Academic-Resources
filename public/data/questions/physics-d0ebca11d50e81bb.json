@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
   "name": "2009安徽理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q01",
-      "content": "原子核聚变可望给人类未来提供丰富的洁净能源。当氘等离子体被加热到适当高温时，\n氘核参与的几种聚变反应可能发生，放出能量。这几种反应总的效果可以表示为\n621H→k42He＋d11H＋210n＋43.15MeV\n由平衡条件可知（       ）\n（A）k＝1，d＝4\n（B）k＝2，d＝2\n（C）k＝1，d＝6\n（D）k＝2，d＝3\n解析：由质量数守恒和电荷数守恒，分别有4\n10\nk\nd\n+\n=\n，2\n6\nk\nd\n+\n=\n，解得 k＝2，d＝2。\n正确选项为B。",
+      "content": "原子核聚变可望给人类未来提供丰富的洁净能源。当氘等离子体被加热到适当高温时，\n氘核参与的几种聚变反应可能发生，放出能量。这几种反应总的效果可以表示为\n621H→k42He＋d11H＋210n＋43.15MeV\n由平衡条件可知（       ）\n（A）k＝1，d＝4\n（B）k＝2，d＝2\n（C）k＝1，d＝6\n（D）k＝2，d＝3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由质量数守恒和电荷数守恒，分别有4\n10\nk\nd\n+\n=\n，2\n6\nk\nd\n+\n=\n，解得 k＝2，d＝2。\n正确选项为B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q02",
-      "content": "2009 年2 月11 日，俄罗斯的“宇宙-2251”卫星和美国的“铱-33”卫星在西伯利亚上\n空约805km 处发生碰撞。这是历史上首次发生的完整在轨卫星碰撞事件。碰撞过程中产生\n的大量碎片可能会影响太空环境。假定有甲、乙两块碎片，绕地球运动的轨道都是圆，甲的\n运行速率比乙的大，则下列说法中正确的是（     ）\n（A）甲的运行周期一定比乙的长\n（B）甲距地面的高度一定比乙的高\n（C）甲的向心力一定比乙的小\n（D）甲的加速度一定比乙的大\n解析：由\nGM\nv\nr\n=\n可知，甲的速率大，甲碎片的轨道半径小，故B 错；由公式\n3\nR\nT\n2\nGM\nπ\n=\n可知甲的周期小故A 错；由于未知两碎片的质量，无法判断向心力的大小，故C 错；碎片\n的加速度是指引力加速度由\n2\nGMm\nma\nR\n=\n得\n2\nGM\na\nR\n=\n，可知甲的加速度比乙大，故D 对。",
+      "content": "2009 年2 月11 日，俄罗斯的“宇宙-2251”卫星和美国的“铱-33”卫星在西伯利亚上\n空约805km 处发生碰撞。这是历史上首次发生的完整在轨卫星碰撞事件。碰撞过程中产生\n的大量碎片可能会影响太空环境。假定有甲、乙两块碎片，绕地球运动的轨道都是圆，甲的\n运行速率比乙的大，则下列说法中正确的是（     ）\n（A）甲的运行周期一定比乙的长\n（B）甲距地面的高度一定比乙的高\n（C）甲的向心力一定比乙的小\n（D）甲的加速度一定比乙的大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由\nGM\nv\nr\n=\n可知，甲的速率大，甲碎片的轨道半径小，故B 错；由公式\n3\nR\nT\n2\nGM\nπ\n=\n可知甲的周期小故A 错；由于未知两碎片的质量，无法判断向心力的大小，故C 错；碎片\n的加速度是指引力加速度由\n2\nGMm\nma\nR\n=\n得\n2\nGM\na\nR\n=\n，可知甲的加速度比乙大，故D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q03",
-      "content": "大爆炸理论认为，我们的宇宙起源于 137 亿年前的一次大爆炸。除开始瞬间外，在演\n化至今的大部分时间内，宇宙基本上是匀速膨胀的。上世纪末，对 1A 型超新星的观测显示，\n宇宙正在加速膨胀，面对这个出人意料的发现，宇宙学家探究其背后的原因，提出宇宙的大\n部分可能由暗能量组成，它们的排斥作用导致宇宙在近段天文时期内开始加速膨胀。如果真\n是这样，则标志宇宙大小的宇宙半径 R 和宇宙年龄 t 的关系，大致是下面哪个图像？（    ）\n解析：图像中的纵坐标宇宙半径R 可以看作是星球发生的位移x，因而其切线的斜率就是宇\n宙半径增加的快慢程度。由题意，宇宙加速膨胀，其半径增加的速度越来越大。故选C\nR\nt\nR\nt\nR\nt\nR\nt\n（A）\n（B）\n（C）\n（D）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "大爆炸理论认为，我们的宇宙起源于 137 亿年前的一次大爆炸。除开始瞬间外，在演\n化至今的大部分时间内，宇宙基本上是匀速膨胀的。上世纪末，对 1A 型超新星的观测显示，\n宇宙正在加速膨胀，面对这个出人意料的发现，宇宙学家探究其背后的原因，提出宇宙的大\n部分可能由暗能量组成，它们的排斥作用导致宇宙在近段天文时期内开始加速膨胀。如果真\n是这样，则标志宇宙大小的宇宙半径 R 和宇宙年龄 t 的关系，大致是下面哪个图像？（    ）",
+      "answer": "CR",
+      "analysis": "图像中的纵坐标宇宙半径R 可以看作是星球发生的位移x，因而其切线的斜率就是宇\n宙半径增加的快慢程度。由题意，宇宙加速膨胀，其半径增加的速度越来越大。故选C\nR\nt\nR\nt\nR\nt\nR\nt\n（A）\n（B）\n（C）\n（D）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -79,22 +98,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q003-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q003-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q04",
-      "content": "为了节省能量，某商场安装了智能化的电动扶梯。无人乘\n行时，扶梯运转得很慢；有人站上扶梯时，它会先慢慢加速，\n再匀速运转。一顾客乘扶梯上楼，恰好经历了这两个过程，如\n图所示。那么下列说法中正确的是（    ）\n（A）顾客始终受到三个力的作用\n（B）顾客始终处于超重状态\n（C）顾客对扶梯作用力的方向先指向左下方，再竖直向下\n（D）顾客对扶梯作用的方向先指向右下方，再竖直向下\n解析：在慢慢加速的过程中顾客受到的摩擦力水平向左，电梯\n对其的支持力和摩擦力的合力方向指向右上，由牛顿第三定\n律，它的反作用力即人对电梯的作用方向指向向左下；在匀速\n运动的过程中，顾客与电梯间的摩擦力等于零，顾客对扶梯的\n作用仅剩下压力，方向沿竖直向下。",
+      "content": "为了节省能量，某商场安装了智能化的电动扶梯。无人乘\n行时，扶梯运转得很慢；有人站上扶梯时，它会先慢慢加速，\n再匀速运转。一顾客乘扶梯上楼，恰好经历了这两个过程，如\n图所示。那么下列说法中正确的是（    ）\n（A）顾客始终受到三个力的作用\n（B）顾客始终处于超重状态\n（C）顾客对扶梯作用力的方向先指向左下方，再竖直向下\n（D）顾客对扶梯作用的方向先指向右下方，再竖直向下",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "在慢慢加速的过程中顾客受到的摩擦力水平向左，电梯\n对其的支持力和摩擦力的合力方向指向右上，由牛顿第三定\n律，它的反作用力即人对电梯的作用方向指向向左下；在匀速\n运动的过程中，顾客与电梯间的摩擦力等于零，顾客对扶梯的\n作用仅剩下压力，方向沿竖直向下。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -102,22 +132,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q05",
-      "content": "在光滑的绝缘水平面上，有一个正方形的 abcd，顶点 a、\nc 处分别固定一个正点电荷，电荷量相等，如图所示。若将一个带\n负电的粒子置于 b 点，自由释放，粒子将沿着对角线 bd 往复运\n动。粒子从 b 点运动到 d 点的过程中（    ）\n（A）先作匀加速运动，后作匀减速运动\n（B）先从高电势到低电势，后从低电势到高电势\n（C）电势能与机械能之和先增大，后减小\n（D）电势能先减小，后增大\n解析：由于负电荷受到的电场力是变力，加速度是变化的。所\n以A 错；\n由等量正电荷的电场分布知道，在两电荷ac 连线的中垂线bd\n的交点O 点的电势最高，所以从b 到a，电势是先增大后减小，\n故B 错；\n由于只有电场力做功，所以只有电势能与动能的相互转化，故\n电势能与机械能之和守恒，C 错；\n由b 到O 电场力做正功，电势能减小，由O 到d 电场力做负\n功，电势能增加，D 对。",
+      "content": "在光滑的绝缘水平面上，有一个正方形的 abcd，顶点 a、\nc 处分别固定一个正点电荷，电荷量相等，如图所示。若将一个带\n负电的粒子置于 b 点，自由释放，粒子将沿着对角线 bd 往复运\n动。粒子从 b 点运动到 d 点的过程中（    ）\n（A）先作匀加速运动，后作匀减速运动\n（B）先从高电势到低电势，后从低电势到高电势\n（C）电势能与机械能之和先增大，后减小\n（D）电势能先减小，后增大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由于负电荷受到的电场力是变力，加速度是变化的。所\n以A 错；\n由等量正电荷的电场分布知道，在两电荷ac 连线的中垂线bd\n的交点O 点的电势最高，所以从b 到a，电势是先增大后减小，\n故B 错；\n由于只有电场力做功，所以只有电势能与动能的相互转化，故\n电势能与机械能之和守恒，C 错；\n由b 到O 电场力做正功，电势能减小，由O 到d 电场力做负\n功，电势能增加，D 对。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -125,22 +163,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q005-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q06",
-      "content": "右图是科学史上一张著名的实验照片，显示一个带电粒\n子在云室中穿过某种金属板运动的径迹。云室旋转在匀强磁\n场中，磁场方向垂直照片向里。云室中横放的金属板对粒子\n的运动起阻碍作用。分析此径迹可知粒子（   ）\n（A）带正电，由下往上运动\n（B）带正电，由上往下运动\n（C）带负电，由上往下运动\n（D）带负电，由下往上运动\n解析：粒子穿过金属板后，速度变小，由半径公式\nmv\nr\nqB\n=\n可知，半径变小，粒子运动方向\nFN\nmg\nf\na\na\nb\nc\nd\nO\na\nb\nc\nd\n为由下向上；又由于洛仑兹力的方向指向圆心，由左手定则，粒子带正电。选A。",
+      "content": "右图是科学史上一张著名的实验照片，显示一个带电粒\n子在云室中穿过某种金属板运动的径迹。云室旋转在匀强磁\n场中，磁场方向垂直照片向里。云室中横放的金属板对粒子\n的运动起阻碍作用。分析此径迹可知粒子（   ）\n（A）带正电，由下往上运动\n（B）带正电，由上往下运动\n（C）带负电，由上往下运动\n（D）带负电，由下往上运动",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "粒子穿过金属板后，速度变小，由半径公式\nmv\nr\nqB\n=\n可知，半径变小，粒子运动方向\nFN\nmg\nf\na\na\nb\nc\nd\nO\na\nb\nc\nd\n为由下向上；又由于洛仑兹力的方向指向圆心，由左手定则，粒子带正电。选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -148,22 +196,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q07",
-      "content": "如图甲所示，一个电阻为R，面积为S 的矩形导线框abcd，水平旋转在匀强磁场中，磁\n场的磁感应强度为B，方向与ad 边垂直并与线框平面成45°角，o、oʹ分别是ab 和cd 边的\n中点。现将线框右半边obcoʹ绕ooʹ逆时针90°到图乙所示位置。在这一过程中，导线中通过\n的电荷量是（    ）\n（A）A 2BS\nE2R\nE\nA\n（B）A 2BS\nER\nE\nA （C）ABS\nR\nE\nA\n（D）0\n解析：对线框的右半边（obco′）未旋转时整个\n回路的磁通量\n1\n2\nBSsin 45\n2\no\nBS\nΦ =\n=\n对线框的右半边（obco′）旋转90o 后，穿进跟\n穿出的磁通量相等，如右 图整个回路的磁通\n量\n2\n0\nΦ =\n。\n2\n1\n2 BS\n2\n∆Φ = Φ −Φ =\n。根据公式\n2\n2\nBS\nq\nR\nR\n∆Φ\n=\n=\n。选A。\n第Ⅱ卷（非选择题  共180 分）",
+      "content": "如图甲所示，一个电阻为R，面积为S 的矩形导线框abcd，水平旋转在匀强磁场中，磁\n场的磁感应强度为B，方向与ad 边垂直并与线框平面成45°角，o、oʹ分别是ab 和cd 边的\n中点。现将线框右半边obcoʹ绕ooʹ逆时针90°到图乙所示位置。在这一过程中，导线中通过\n的电荷量是（    ）\n（A）A 2BS\nE2R\nE\nA\n（B）A 2BS\nER\nE\nA （C）ABS\nR\nE\nA\n（D）0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "对线框的右半边（obco′）未旋转时整个\n回路的磁通量\n1\n2\nBSsin 45\n2\no\nBS\nΦ =\n=\n对线框的右半边（obco′）旋转90o 后，穿进跟\n穿出的磁通量相等，如右 图整个回路的磁通\n量\n2\n0\nΦ =\n。\n2\n1\n2 BS\n2\n∆Φ = Φ −Φ =\n。根据公式\n2\n2\nBS\nq\nR\nR\n∆Φ\n=\n=\n。选A。\n第Ⅱ卷（非选择题  共180 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -171,22 +227,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q007-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q007-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q08",
       "content": "（18 分）\nⅠ．（6 分）用多用电表进行了几次测量，指针分别处于a、b 的位置，如图所示。若多用电\n表的选择开关处于下面表格中所指的档位，a 和b 的相应读数是多少？请填在表格中。\n指针位置\n选择开关所处挡位\n读数\na\n直流电流100mA\n______mA\n直流电压2.5V\n______V\n甲\na\nb\nc\nd\no′\no\nB\n45°\n乙\na\nb\nc\nd\no′\no\nB\n45°\n5000Ω/V\n2500Ω/V\na\nb\nb(c)\no(o′)\nb(c)\no(o′)\nb\n电阻×100\n______Ω",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "直流电流100mA 档读第二行“0～10”一排，最小度值为2mA 估读到1mA 就可以\n了；直流电压2.5V 档读第二行“0~250”一排，最小分度值为0.05V 估读到0.01V 就可以\n了；电阻×100 档读第一行，测量值等于表盘上读数“3.2”乘以倍率“100”。\nⅡ．（6 分）用右图所示的电路，测定一节干电池的电动势和内\n阻。电池的内阻较小，为了防止在调节滑动变阻器时造成短路，\n电路中用一个定值电阻R0 起保护作用。除电池、开关和导线\n外，可供使用的实验器材还有：\n（a）电流表（量程0.6A、3A）；\n（b）电压表（量程3V、15V）\n（c）定值电阻（阻值1Ω、额定功率5W）\n（d）定值电阻（阻值10Ω，额定功率10W）\n（e）滑动变阻器（阻值范围0～10Ω、额定电流2A）\n（f）滑动变阻器（阻值范围0～100Ω、额定电流1A）\n那么\n（1）要正确完成实验，电压表的量程应选择_____V，电流表的量程应选择______A；R0 应\n选择_______Ω 的定值电阻，R 应选择阻值范围是_______Ω 的滑动变阻器。\n（2）引起该实验系统误差的主要原因是____________________________________。\n由于电源是一节干电池（1.5V），所选量程为3V 的电压表；估算电流时，考虑到干\n电池的内阻一般几Ω 左右，加上保护电阻，最大电流在0.5A 左右，所以选量程为0.6A 的\n电流表；由于电池内阻很小，所以保护电阻不宜太大，否则会使得电流表、电压表取值范围\n小，造成的误差大；滑动变阻器的最大阻值一般比电池内阻大几倍就好了，取0～10Ω 能很\n好地控制电路中的电流和电压，若取0～100Ω 会出现开始几乎不变最后突然变化的现象。\n关于系统误差一般由测量工具和所造成测量方法造成的，一般具有倾向性，总是偏大或\n者偏小。本实验中由于电压表的分流作用造成电流表读数总是比测量值小，造成E\n测<E\n真，\nr 测<r 真。\nⅢ．（6 分）探究力对原来静止的物体做的功与物体获得的速度的关系，实验装置如图所师，\n实验主要过程如下：\n（1）设法让橡皮筋对小车做的功分别为W、2W、3W、……；\n（2）分析打点计时器打出的纸带，求出\n小车的速度v1、v2、v3、……；\n（3）作出W-v 草图；\n（4）分析W-v 图像。如果W-v 图像是\n一条直线，表明W∝v；如果不是直线，\n可考虑是否存在W∝v2、W∝v3、W∝A vE\nA等关系。\n以下关于该试验的说法中有一项不正确\n．．．，它是___________。\nV\nA\nE\nS\nR\nR0\n打点计时器\n纸带\n橡皮筋\n（A）本实验设法让橡皮筋对小车做的功分\n别为W、2W、3W、……。所采用的方法是\n选用同样的橡皮筋，并在每次实验中使橡皮\n筋拉伸的长度保持一致。当用1 条橡皮筋进\n行是实验时，橡皮筋对小车做的功为W，用\n2 条、3 条、……橡皮筋并在一起进行第2\n次、第3 次、……实验时，橡皮筋对小车做\n的功分别是2W、3W、……。\n（B）小车运动中会受到阻力，补偿的方法，可以使木板适当倾斜。\n（C）某同学在一次实验中，得到一条记录纸带。纸带上打出的点，两端密、中间疏。出现\n这种情况的原因，可能是没有使木板倾斜或倾角太小。\n（D）根据记录纸带上打出的点，求小车获得的速度的方法，是以纸带上第一点到最后一点\n的距离来进行计算。\n本实验的目的是探究橡皮绳做的功与物体获得速度的关系。这个速度是指橡皮绳\n做功完毕时的速度，而不整个过程的平均速度，所以D 选项是错误的。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -194,11 +260,127 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
         "page": 3,
+        "endPage": 5,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q008-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q008-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q008-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q09",
+      "content": "（14 分）\n在2008 年北京残奥会开幕式上，运动员手拉绳索向上攀登，最终点燃了主火\n炬，体现了残疾运动员坚忍不拔的意志和自强不息的精神。为了探究上升过程\n中运动员与绳索和吊椅间的作用，可将过程简化。一根不可伸缩的轻绳跨过轻\n质的定滑轮，一端挂一吊椅，另一端被坐在吊椅上的运动员拉住，如图所示。\n设运动员的质量为65kg，吊椅的质量为15kg，不计定滑轮与绳子间的摩擦。\n重力加速度取g＝10m/s2。当运动员与吊椅一起正以加速度a＝1m/s2 上升时，\n试求：\n（1）运动员竖直向下拉绳的力；\n（2）运动员对吊椅的压力。",
+      "answer": "暂无结构化答案",
+      "analysis": "解法一:(1）设运动员受到绳向上的拉力为F，由于跨过定滑轮的两段绳子拉力相\n等，吊椅受到绳的拉力也是F。对运动员和吊椅整体进行受力分析如\n图所示，则有：\n(\n)\n(\n)\n2F- m\nm\nm\ng\nm\na\n+\n=\n+\n人\n人\n椅\n椅\n440\nF\nN\n=\n由牛顿第三定律，运动员竖直向下拉绳的力\n440\nF\nN\n′ =\n（2）设吊椅对运动员的支持力为FN，对运动员进行受力分析如图所\n示，则有：\nN\nF\nF -m g\nm a\n+\n=\n人\n人\nN\nF\n275N\n=\n由牛顿第三定律，运动员对吊椅的压力也为275N\n解法二:设运动员和吊椅的质量分别为M 和m；运动员竖直向下的拉力\n为F，对吊椅的压力大小为FN。\n根据牛顿第三定律，绳对运动员的拉力大小为F，吊椅对运动员的支持力为FN。分别以\nF\nF\n(m 人+m 椅)g\na\nF\nm 人g\na\nFN\n纸带\n橡皮筋\n打点计时器\n运动员和吊椅为研究对象，根据牛顿第二定律\nN\nF\nF -Mg\nMa\n+\n=\n                                    ①\nN\nF\nF\nmg\nma\n−\n−\n=\n                                    ②\n由①②得\n440\nF\nN\n=\n275\nN\nF\nN\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q009-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q009-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q10",
+      "content": "（16 分）\n如图所示，匀强电场方向沿x 轴的正方向，场强为E。\n在A（d，0）点有一个静止的中性微粒，由于内部作\n用，某一时刻突然分裂成两个质量均为m 的带电微粒，\n其中电荷量为q 的微粒1 沿y 轴负方向运动，经过一段\n时间到达（0，－d）点。不计重力和分裂后两微粒间的\n作用。试求：\n（1）分裂时两个微粒各自的速度；\n（2）当微粒1 到达（0，－d）点时，电场力对微粒1 做\n功的瞬间功率；\n（3）当微粒1 到达（0，－d）点时，两微粒间的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）微粒1 在y 方向不受力，做匀速直线运动；在x 方向由于受恒定的电场力，\n做匀加速直线运动。所以微粒1 做的是类平抛运动。设微粒1 分裂时的速度为v1，微粒2\n的速度为v2 则有：\n在y 方向上有\n-\n1\nd\nv t\n=\n在x 方向上有\nqE\na\nm\n=\n-\n2\n1\n2\nd\nat\n=\n1\n- - 2\nqEd\nv\nm\n=\n根号外的负号表示沿y 轴的负方向。\n中性微粒分裂成两微粒时，遵守动量守恒定律，有\n1\n2\n0\nmv\nmv\n+\n=\n2\n1\n2\nqEd\nv\nv\nm\n= −\n=\n方向沿y 正方向。\n（2）设微粒1 到达（0，-d）点时的速度为v，则电场力做功的瞬时功率为\nP\ncos\nB\nBx\nqEv\nqEv\nθ\n=\n=\n（0, -d）\nvy\n（d,0） x\nE\ny\nθ\nvx\ny\nx\nO\nA(d，0)\nE\n其中由运动学公式\n-2\n-2\nBx\nqEd\nv\nad\nm\n= −\n= −\n所以\n-2qEd\nP\nqE\nm\n=\n（3）两微粒的运动具有对称性，如图所示，当微粒1 到达（0，-d）点时发生的位移\n1\n2\nS\nd\n=\n则当当微粒1 到达（0，-d）点时，两微粒间的距离为\n1\nBC\n2\n2 2\nS\nd\n=\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q010-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009安徽理综.pdf#q11",
+      "content": "（20 分）\n过山车是游乐场中常见的设施。下图是一种过山车的简易模型，它由水平轨道和在竖直平面\n内的三个圆形轨道组成，B、C、D 分别是三个圆形轨道的最低点，B、C 间距与C、D 间距\n相等，半径R1＝2.0 m、R2＝1.4 m。一个质量为m＝1.0 kg 的小球（视为质点），从轨道的左\n侧A 点以v0 ＝12.0 m/s 的初速度沿轨道向右运动，A、B 间距L1＝6.0 m。小球与水平轨道\n间的动摩擦因数μ＝0.2，圆形轨道是光滑的。假设水平轨道足够长，圆形轨道间不相互重叠。\n重力加速度取g＝10 m/s2，计算结果保留小数点后一位数字。试求：\n（1）小球在经过第一个圆形轨道的最高点时，轨道对小球作用力的大小；\n（2）如果小球恰能通过第二圆形轨道，B、C 间距L 应是多少；\n（3）在满足（2）的条件下，如果要使小球不能脱离轨道，在第三个圆形轨道的设计中，半\n径R3 应满足的条件；小球最终停留点与起点A 的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设小球经过第一个圆轨道的最高点时的速度为v1 根据动能定理\n2\n2\n1\n1\n1\n0\n1\n1\n-\n2\n2\n2\nmgL\nmgR\nmv\nmv\nµ\n−\n=\n−\n                    ①\n小球在最高点受到重力mg 和轨道对它的作用力F，根据牛顿第二定律\n2\n1\n1\nv\nF\nmg\nm R\n+\n=\n                                     ②\n由①②得F＝10.0N                                               ③\n（2）设小球在第二个圆轨道的最高点的速度为v2，由题意\nmg = Av22\nR2\nE\nA                                        ④\nA v0\nL1\nL\nL\nB\nC\nD\nR1\nR2\nR3\n第一圆轨道\n第二圆轨道\n第三圆轨道\n(\n)\n2\n2\n1\n2\n2\n0\n1\n1\n2\n2\n2\nmg L\nL\nmgR\nmv\nmv\nµ\n−\n+\n−\n=\n−\n               ⑤\n由④⑤得             L = 12.5 m                                       ⑥\n（3）要保证小球不脱离轨道，可分两种情况进行讨论：\nI．轨道半径较小时，小球恰能通过第三个圆轨道，设在最高点的速度为v3，应满足\nmg = Av32\nR3\nE\nA                                     ⑦\n(\n)\n2\n2\n1\n3\n3\n0\n1\n1\n2\n2\n2\n2\nmg L\nL\nmgR\nmv\nmv\nµ\n−\n+\n−\n=\n−\n               ⑧\n由⑥⑦⑧得            R3 = 0.4 m\nII．轨道半径较大时，小球上升的最大高度为R3，根据动能定理\n(\n)\n2\n1\n3\n0\n1\n2\n2\n0\n2\nmg L\nL\nmgR\nmv\nµ\n−\n+\n−\n=\n−\n解得                   R3 = 1.0 m\n为了保证圆轨道不重叠，R3 最大值应满足\n(\n)\n(\n)\n2\n2\n2\n2\n3\n3\n2\nR\nR\nL\nR -R\n+\n=\n+\n解得 R3＝27.9 m\n综合I、II，要使小球不脱离轨道，则第三个圆轨道的半径须满足下面的条件\n3\n0\nR\n0.4m\n<\n≤\n或\n3\n1.0m\n27.9m\nR\n≤\n≤\n当\n3\n0\nR\n0.4m\n<\n≤\n时，小球最终停留点与起始点A 的距离为\nL′，则\n2\n0\n1\n-\n0\n2\nmgL\nmv\nµ\n′ =\n−\n36.0m\nL′ =\n当\n3\n1.0m\n27.9m\nR\n≤\n≤\n时，小球最终停留点与起始点A 的距\n离为L〞，则\n(\n)\n1\nL\nL\n2\n2\n26.0m\nL\nL\nL\n′′\n′\n′\n=\n−\n−\n−\n=\nR2\nR3\nR3-R2\nL",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009安徽理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q011-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-d0ebca11d50e81bb-q011-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 0,
+    "assigned": 23,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
   "name": "2021全国甲理综(广西,四川,贵州,云南,西藏)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 16,
+    "answerBlocks": 0,
+    "sourceAnswers": 8,
+    "sourceAnalysis": 16,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q01",
-      "content": "如图，将光滑长平板的下端置于铁架台水平底座上的挡板P 处，上部架在横杆\n上。横杆的位置可在竖直杆上调节，使得平板与底座之间的夹角θ 可变。将小物块\n由平板与竖直杆交点Q 处静止释放，物块沿平板从Q 点滑至P 点所用的时间t 与\n夹角θ 的大小有关。若由30°逐渐增大至60°，物块的下滑时间t 将（    ）\n（A）逐渐增大\n（B）逐渐减小\n（C）先增大后减小\n（D）先减小后增大\n【详解】设PQ 的水平距离为L，由运动学公式可知\n2\n1\nsin\ncos\n2\nL\ng\nt\n\n=\n可得\n2\n4\nsin 2\nL\nt\ng\n\n=\n可知θ＝45°时，t 有最小值，故当θ 从由30°逐渐增大至60°时下滑时间t 先减小后增大。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，将光滑长平板的下端置于铁架台水平底座上的挡板P 处，上部架在横杆\n上。横杆的位置可在竖直杆上调节，使得平板与底座之间的夹角θ 可变。将小物块\n由平板与竖直杆交点Q 处静止释放，物块沿平板从Q 点滑至P 点所用的时间t 与\n夹角θ 的大小有关。若由30°逐渐增大至60°，物块的下滑时间t 将（    ）\n（A）逐渐增大\n（B）逐渐减小\n（C）先增大后减小\n（D）先减小后增大",
+      "answer": "D",
+      "analysis": "设PQ 的水平距离为L，由运动学公式可知\n2\n1\nsin\ncos\n2\nL\ng\nt\n\n=\n可得\n2\n4\nsin 2\nL\nt\ng\n\n=\n可知θ＝45°时，t 有最小值，故当θ 从由30°逐渐增大至60°时下滑时间t 先减小后增大。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -33,22 +44,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q02",
-      "content": "“旋转纽扣”是一种传统游戏。如图，先将纽扣绕几圈，\n使穿过纽扣的两股细绳拧在一起，然后用力反复拉绳的两端，\n纽扣正转和反转会交替出现。拉动多次后，纽扣绕其中心的转\n速可达50 r/s，此时纽扣上距离中心1 cm 处的点向心加速度\n大小约为（    ）\n（A）10 m/s2\n（B）100 m/s2\n（C）1000 m/s2\n（D）10000 m/s2\n【详解】纽扣在转动过程中ω＝2πn＝100π rad/s，由向心加速度a＝ω2r≈1000 m/s2。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "“旋转纽扣”是一种传统游戏。如图，先将纽扣绕几圈，\n使穿过纽扣的两股细绳拧在一起，然后用力反复拉绳的两端，\n纽扣正转和反转会交替出现。拉动多次后，纽扣绕其中心的转\n速可达50 r/s，此时纽扣上距离中心1 cm 处的点向心加速度\n大小约为（    ）\n（A）10 m/s2\n（B）100 m/s2\n（C）1000 m/s2\n（D）10000 m/s2",
+      "answer": "C",
+      "analysis": "纽扣在转动过程中ω＝2πn＝100π rad/s，由向心加速度a＝ω2r≈1000 m/s2。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -56,22 +75,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q03",
-      "content": "两足够长直导线均折成直角，按图示方式放置在同一平面内，EO 与OʹQ 在一条\n直线上，POʹ与OF 在一条直线上，两导线相互绝缘，通有相等的电流I，电流方向\n如图所示。若一根无限长直导线通过电流I 时，所产生的磁场在距离导线d 处的磁\n感应强度大小为B，则图中与导线距离均为d 的M、N 两点处的磁感应强度大小分\n别为（    ）\n（A）B、0\n（B）0、2B\n（C）2B、2B\n（D）B、B\n【详解】两直角导线可以等效为如图所示的两直导线，由安培定则可知，两直导线\n分别在M 处的磁感应强度方向为垂直纸面向里、垂直纸面向外，故M 处的磁感应强度\n为零；两直导线在N 处的磁感应强度方向均垂直纸面向里，故M 处的磁感应强度为\n2B；综上分析B 正确。\n故选B。\nF\nE\nP\nQ\nO\nM\nOʹ\nd\nd\nd\nd\nN\nI\nI\n2 / 12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "两足够长直导线均折成直角，按图示方式放置在同一平面内，EO 与OʹQ 在一条\n直线上，POʹ与OF 在一条直线上，两导线相互绝缘，通有相等的电流I，电流方向\n如图所示。若一根无限长直导线通过电流I 时，所产生的磁场在距离导线d 处的磁\n感应强度大小为B，则图中与导线距离均为d 的M、N 两点处的磁感应强度大小分\n别为（    ）\n（A）B、0\n（B）0、2B\n（C）2B、2B\n（D）B、B",
+      "answer": "B",
+      "analysis": "两直角导线可以等效为如图所示的两直导线，由安培定则可知，两直导线\n分别在M 处的磁感应强度方向为垂直纸面向里、垂直纸面向外，故M 处的磁感应强度\n为零；两直导线在N 处的磁感应强度方向均垂直纸面向里，故M 处的磁感应强度为\n2B；综上分析B 正确。\n故选B。\nF\nE\nP\nQ\nO\nM\nOʹ\nd\nd\nd\nd\nN\nI\nI\n2 / 12",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -79,22 +106,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q04",
-      "content": "如图，一个原子核X 经图中所示的一系列α、β 衰变后，生成稳定\n的原子核Y，在此过程中放射出电子的总个数为（    ）\n（A）6\n（B）8\n（C）10\n（D）14\n【详解】由图分析可知，核反应方程为\n23892X→20682Y＋a42He＋b0-1e\n设经过a 次α 衰变，b 次β 衰变。由电荷数与质量数守恒可得：\n238＝206+4a；92＝82+2a－b\n解得：a＝8，b＝6。故放出6 个电子。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，一个原子核X 经图中所示的一系列α、β 衰变后，生成稳定\n的原子核Y，在此过程中放射出电子的总个数为（    ）\n（A）6\n（B）8\n（C）10\n（D）14",
+      "answer": "A",
+      "analysis": "由图分析可知，核反应方程为\n23892X→20682Y＋a42He＋b0-1e\n设经过a 次α 衰变，b 次β 衰变。由电荷数与质量数守恒可得：\n238＝206+4a；92＝82+2a－b\n解得：a＝8，b＝6。故放出6 个电子。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -102,22 +138,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q05",
-      "content": "2021 年2 月，执行我国火星探测任务的“天问一号”探测器在成\n功实施三次近火制动后，进入运行周期约为1.8×105 s 的椭圆形停泊轨\n道，轨道与火星表面的最近距离约为2.8×105 m。已知火星半径约为\n3.4×106 m，火星表面处自由落体的加速度大小约为3.7 m/s2，则“天\n问一号”的停泊轨道与火星表面的最远距离约为（    ）\n（A）6×105 m\n（B）6×106 m\n（C）6×107 m\n（D）6×108 m\n【详解】忽略火星自转则\n2\nGMm\nmg\nR\n=\n①\n可知\n2\nGM\ngR\n=\n设与为1.8×105s 的椭圆形停泊轨道周期相同的圆形轨道半径为r，由万引力提供向心力可知\n2\n2\n2\n4\nGMm\nm\nr\nr\nT\n\n=\n②\n设近火点到火星中心为\n1\n1\nR\nR\nd\n=\n+\n③\n设远火点到火星中心为\n2\n2\nR\nR\nd\n=\n+\n④\n由开普勒第三定律可知\n3\n1\n2\n2\n2\n(\n)\n3\n2\nR\nR\nr\nT\nT\n+\n=\n⑤\n由以上分析可得：d≈6×107 m\n故选C。\n3 / 12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2021 年2 月，执行我国火星探测任务的“天问一号”探测器在成\n功实施三次近火制动后，进入运行周期约为1.8×105 s 的椭圆形停泊轨\n道，轨道与火星表面的最近距离约为2.8×105 m。已知火星半径约为\n3.4×106 m，火星表面处自由落体的加速度大小约为3.7 m/s2，则“天\n问一号”的停泊轨道与火星表面的最远距离约为（    ）\n（A）6×105 m\n（B）6×106 m\n（C）6×107 m\n（D）6×108 m",
+      "answer": "C",
+      "analysis": "忽略火星自转则\n2\nGMm\nmg\nR\n=\n①\n可知\n2\nGM\ngR\n=\n设与为1.8×105s 的椭圆形停泊轨道周期相同的圆形轨道半径为r，由万引力提供向心力可知\n2\n2\n2\n4\nGMm\nm\nr\nr\nT\n\n=\n②\n设近火点到火星中心为\n1\n1\nR\nR\nd\n=\n+\n③\n设远火点到火星中心为\n2\n2\nR\nR\nd\n=\n+\n④\n由开普勒第三定律可知\n3\n1\n2\n2\n2\n(\n)\n3\n2\nR\nR\nr\nT\nT\n+\n=\n⑤\n由以上分析可得：d≈6×107 m\n故选C。\n3 / 12",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -125,22 +169,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q06",
-      "content": "某电场的等势面如图所示，图中a、b、c、d、e 为电场中的5 个点，则（    ）\n（A）一正电荷从b 点运动到e 点，电场力做正功\n（B）一电子从a 点运动到d 点，电场力做功为4 eV\n（C）b 点电场强度垂直于该点所在等势面，方向向右\n（D）a、b、c、d 四个点中，b 点的电场强度大小最大\n【详解】A．由图象可知φb＝φe，则正电荷从b 点运动到e 点，电场力不做功，A 错\n误；\nB．由图象可知φa＝3 V，φd＝7 V，根据电场力做功与电势能的变化关系有\nWad＝Epa－Epd＝（φa－φd）（－e）＝4 eV\nB 正确；\nC．沿电场线方向电势逐渐降低，则b 点处的场强方向向左，C 错误；\nD．由于电场线与等势面处处垂直，则可画出电场线分布如图所示。\n由图可看出，b 点电场线最密集，则b 点处的场强最大，D 正确。\n故选BD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某电场的等势面如图所示，图中a、b、c、d、e 为电场中的5 个点，则（    ）\n（A）一正电荷从b 点运动到e 点，电场力做正功\n（B）一电子从a 点运动到d 点，电场力做功为4 eV\n（C）b 点电场强度垂直于该点所在等势面，方向向右\n（D）a、b、c、d 四个点中，b 点的电场强度大小最大",
+      "answer": "BD",
+      "analysis": "A．由图象可知φb＝φe，则正电荷从b 点运动到e 点，电场力不做功，A 错\n误；\nB．由图象可知φa＝3 V，φd＝7 V，根据电场力做功与电势能的变化关系有\nWad＝Epa－Epd＝（φa－φd）（－e）＝4 eV\nB 正确；\nC．沿电场线方向电势逐渐降低，则b 点处的场强方向向左，C 错误；\nD．由于电场线与等势面处处垂直，则可画出电场线分布如图所示。\n由图可看出，b 点电场线最密集，则b 点处的场强最大，D 正确。\n故选BD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -148,22 +196,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q006-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q006-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q006-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q07",
-      "content": "一质量为m 的物体自倾角为α 的固定斜面底端沿斜面向上滑动。该物体开始滑动时的动能为Ek，向上\n滑动一段距离后速度减小为零，此后物体向下滑动，到达斜面底端时动能为Ek\n5 。已知sinα＝0.6，重力加速\n度大小为g。则（    ）\n（A）物体向上滑动的距离为Ek\n2mg\n（B）物体向下滑动时的加速度大小为g\n5\n（C）物体与斜面间的动摩擦因数等于0.5\n（D）物体向上滑动所用的时间比向下滑动的时间长\n【详解】AC．物体从斜面底端回到斜面底端根据动能定理有\n2 cos\n5\nk\nk\nE\nmg\nl\nE\n\n\n−\n\n=\n−\n物体从斜面底端到斜面顶端根据动能定理有\nsin\ncos\n0\nk\nmgl\nmgl\nE\n\n\n\n−\n−\n=\n−\n整理得\nk\nE\nl\nmg\n=\n；\n0.5\n=\nA 错误，C 正确；\nB．物体向下滑动时的根据牛顿第二定律有\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n−\n求解得出\n5\ng\na =\nB 正确；\nD．物体向上滑动时的根据牛顿第二定律有\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n+\n上\n物体向下滑动时的根据牛顿第二定律有\n4 / 12\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n−\n下\n由上式可知\na 上 > a 下\n由于上升过程中的末速度为零，下滑过程中的初速度为零，且走过相同的位移，根据公式\n2\n1\n2\nl\nat\n=\n则可得出\nt\nt\n下\n上\nD 错误。\n故选BC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一质量为m 的物体自倾角为α 的固定斜面底端沿斜面向上滑动。该物体开始滑动时的动能为Ek，向上\n滑动一段距离后速度减小为零，此后物体向下滑动，到达斜面底端时动能为Ek\n5 。已知sinα＝0.6，重力加速\n度大小为g。则（    ）\n（A）物体向上滑动的距离为Ek\n2mg\n（B）物体向下滑动时的加速度大小为g\n5\n（C）物体与斜面间的动摩擦因数等于0.5\n（D）物体向上滑动所用的时间比向下滑动的时间长",
+      "answer": "BC",
+      "analysis": "AC．物体从斜面底端回到斜面底端根据动能定理有\n2 cos\n5\nk\nk\nE\nmg\nl\nE\n\n\n−\n\n=\n−\n物体从斜面底端到斜面顶端根据动能定理有\nsin\ncos\n0\nk\nmgl\nmgl\nE\n\n\n\n−\n−\n=\n−\n整理得\nk\nE\nl\nmg\n=\n；\n0.5\n=\nA 错误，C 正确；\nB．物体向下滑动时的根据牛顿第二定律有\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n−\n求解得出\n5\ng\na =\nB 正确；\nD．物体向上滑动时的根据牛顿第二定律有\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n+\n上\n物体向下滑动时的根据牛顿第二定律有\n4 / 12\nsin\ncos\nma\nmg\nmg\n\n\n\n=\n−\n下\n由上式可知\na 上 > a 下\n由于上升过程中的末速度为零，下滑过程中的初速度为零，且走过相同的位移，根据公式\n2\n1\n2\nl\nat\n=\n则可得出\nt\nt\n下\n上\nD 错误。\n故选BC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -171,22 +228,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q08",
-      "content": "由相同材料的导线绕成边长相同的甲、乙两个正方形闭合线圈，两线圈的质量\n相等，但所用导线的横截面积不同，甲线圈的匝数是乙的2 倍。现两线圈在竖直平\n面内从同一高度同时由静止开始下落，一段时间后进入一方向垂直于纸面的匀强\n磁场区域，磁场的上边界水平，如图所示。不计空气阻力，已知下落过程中线圈始\n终平行于纸面，上、下边保持水平。在线圈下边进入磁场后且上边进入磁场前，可\n能出现的是（    ）\n（A）甲和乙都加速运动\n（B）甲和乙都减速运动\n（C）甲加速运动，乙减速运动\n（D）甲减速运动，乙加速运动\n【详解】设线圈到磁场的高度为h，线圈的边长为l，则线圈下边刚进入磁场时，有\n= 2\nv\ngh\n感应电动势为\nE\nnBlv\n=\n两线圈材料相等（设密度为\n0\n），质量相同（设为m ），则\n0\n4\nm\nnl\nS\n\n=\n\n\n设材料的电阻率为，则线圈电阻\n2 2\n0\n16\n4\nn l\nnl\nR\nS\nm\n\n\n=\n=\n感应电流为\n0\n16\nE\nmBv\nI\nR\nnl\n=\n=\n安培力为\n2\n0\n16\nmB v\nF\nnBIl\n\n=\n=\n由牛顿第二定律有\nmg\nF\nma\n−\n=\n5 / 12\n联立解得\n2\n0\n16\nF\nB v\na\ng\ng\nm\n\n=\n−\n=\n−\n加速度和线圈的匝数、横截面积无关，则甲和乙进入磁场时，具有相同的加速度。当\n2\n0\n16\nB v\ng\n\n\n时，甲和\n乙都加速运动，当\n2\n0\n16\nB v\ng\n\n\n时，甲和乙都减速运动，当\n2\n0\n16\nB v\ng\n\n=\n时都匀速。\n故选AB。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "由相同材料的导线绕成边长相同的甲、乙两个正方形闭合线圈，两线圈的质量\n相等，但所用导线的横截面积不同，甲线圈的匝数是乙的2 倍。现两线圈在竖直平\n面内从同一高度同时由静止开始下落，一段时间后进入一方向垂直于纸面的匀强\n磁场区域，磁场的上边界水平，如图所示。不计空气阻力，已知下落过程中线圈始\n终平行于纸面，上、下边保持水平。在线圈下边进入磁场后且上边进入磁场前，可\n能出现的是（    ）\n（A）甲和乙都加速运动\n（B）甲和乙都减速运动\n（C）甲加速运动，乙减速运动\n（D）甲减速运动，乙加速运动",
+      "answer": "AB",
+      "analysis": "设线圈到磁场的高度为h，线圈的边长为l，则线圈下边刚进入磁场时，有\n= 2\nv\ngh\n感应电动势为\nE\nnBlv\n=\n两线圈材料相等（设密度为\n0\n），质量相同（设为m ），则\n0\n4\nm\nnl\nS\n\n=\n\n\n设材料的电阻率为，则线圈电阻\n2 2\n0\n16\n4\nn l\nnl\nR\nS\nm\n\n\n=\n=\n感应电流为\n0\n16\nE\nmBv\nI\nR\nnl\n=\n=\n安培力为\n2\n0\n16\nmB v\nF\nnBIl\n\n=\n=\n由牛顿第二定律有\nmg\nF\nma\n−\n=\n5 / 12\n联立解得\n2\n0\n16\nF\nB v\na\ng\ng\nm\n\n=\n−\n=\n−\n加速度和线圈的匝数、横截面积无关，则甲和乙进入磁场时，具有相同的加速度。当\n2\n0\n16\nB v\ng\n\n\n时，甲和\n乙都加速运动，当\n2\n0\n16\nB v\ng\n\n\n时，甲和乙都减速运动，当\n2\n0\n16\nB v\ng\n\n=\n时都匀速。\n故选AB。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -194,22 +255,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q008-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q008-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q09",
-      "content": "（5 分）为测量小铜块与瓷砖表面间的动摩擦因数，一同学将贴有\n标尺的瓷砖的一端放在水平桌面上，形成一倾角为α 的斜面（已知sinα\n＝0.34，cosα＝0.94），小铜块可在斜面上加速下滑，如图所示。该同\n学用手机拍摄小铜块的下滑过程，然后解析视频记录的图像，获得5\n个连续相等时间间隔（每个时间间隔∆T＝0.20 s）内小铜块沿斜面下\n滑的距离si（i＝1，2，3，4，5），如下表所示。\ns1\ns2\ns3\ns4\ns5\n5.87cm\n7.58cm\n9.31cm",
+      "content": "（5 分）为测量小铜块与瓷砖表面间的动摩擦因数，一同学将贴有\n标尺的瓷砖的一端放在水平桌面上，形成一倾角为α 的斜面（已知sinα\n＝0.34，cosα＝0.94），小铜块可在斜面上加速下滑，如图所示。该同\n学用手机拍摄小铜块的下滑过程，然后解析视频记录的图像，获得5\n个连续相等时间间隔（每个时间间隔∆T＝0.20 s）内小铜块沿斜面下\n滑的距离si（i＝1，2，3，4，5），如下表所示。\ns1\ns2\ns3\ns4\ns5\n5.87cm\n7.58cm\n9.31cm\n11.02cm\n12.74cm\n由表中数据可得，小铜块沿斜面下滑的加速度大小为_______m/s2，小铜块与瓷砖表面间的动摩擦因数为\n_________。（结果均保留2 位有效数字，重力加速度大小取9.80m/s2）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）根据逐差法有\n(\n) (\n)\n(\n)\n5\n4\n2\n1\n2\n2\ns\ns\ns\ns\na\nT\n+\n−\n+\n=\n\n代入数据可得小铜块沿斜面下滑的加速度大小\na≈0.43 m/s2\n（2）对小铜块受力分析根据牛顿第二定律有\nsin\ncos\nmg\nmg\nma\n\n\n\n−\n=\n代入数据解得μ≈0.32",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -217,22 +286,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q009-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q10",
-      "content": "02cm",
+      "content": "（10 分）某同学用图（a）所示电路探究小灯泡的伏安特性，所用器材\n有：\n小灯泡（额定电压2.5 V，额定电流0.3 A）\n电压表（量程300 mV，内阻300 Ω）\n电流表（量程300 mA，内阻0.27 Ω）\n定值电阻R0\n滑动变阻器R1（阻值0～20 Ω）\n电阻箱R2（最大阻值9999.9 Ω）\n电源E（电动势6 V，内阻不计）\n开关S、导线若干。\n6 / 12\n完成下列填空：\n（1）有3 个阻值分别为10 Ω、20 Ω、30 Ω 的定值电阻可供选择，为了描绘小灯泡电流在0～300 mA 的U-\nI 曲线，R0 应选取阻值为___________Ω 的定值电阻；\n（2）闭合开关前，滑动变阻器的滑片应置于变阻器的___________（填“a”或“b”）端；\n（3）在流过电流表的电流较小时，将电阻箱R2 的阻值置零，改变滑动变阻器滑片的位置，读取电压表和电\n流表的示数U、I，结果如图（b）所示。当流过电流表的电流为10 mA 时，小灯泡的电阻为___________Ω\n（保留1 位有效数字）；\n（4）为使得电压表满量程时对应于小灯泡两端的电压为3 V，该同学经计算知，应将R2 的阻值调整为\n_______Ω。然后调节滑动变阻器R1，测得数据如下表所示：\nU/mV\n24.0\n46.0\n76.0\n110.0\n128.0\n152.0\n184.0\n216.0\n250.0\nI/mA\n140.0\n160.0\n180.0\n2000\n220.0\n240.0\n260.0\n2800\n300.0\n（5）由图（b）和上表可知，随流过小灯泡电流的增加，其灯丝的电阻___________（填“增大”“减小”或\n“不变”）；\n（6）该同学观测到小灯泡刚开始发光时流过电流表的电流为160 mA，可得此时小灯泡电功率W1＝\n_______W（保留2 位有效数字）；当流过电流表的电流为300 mA 时，小灯泡的电功率为W2，则W2\nW1 ＝_______\n（保留至整数）。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）因为小灯泡额定电压2.5 V，电动势6 V，则滑动滑动变阻器时，为了保证电路安全，需要定\n值电阻分担的电压\n6V\n2.5V\n3.5V\nU =\n−\n=\n则有\n0\n3.5V\n11.7Ω\n0.3A\nR =\n\n则需要描绘小灯泡在0~300 mA 的伏安特性曲线，即R0 应选取阻值为10 Ω；\n（2）为了保护电路，滑动变阻器的滑片应置于变阻器的a 端；\n（3）由图可知当流过电流表的电流为10 mA 时，电压为7 mV，则小灯泡的电阻为\n3\n3\n7 10\nΩ=0.7Ω\n10 10\nR\n−\n−\n\n=\n\n（4）由题知电压表满量程时对应于小灯泡两端的电压为3V 时，有\n7 / 12\n2\nV\nV\n3\n0.3\nR\nR\nR\n=\n+\n解得R2＝2700 Ω\n（5）由图（b）和表格可知流过小灯泡电流增加，图像中\nU\nI 变大，则灯丝的电阻增大；\n（6）根据表格可知当电流为160 mA 时，电压表的示数为46 mA，根据（4）的分析可知此时小灯泡两端电\n压为0.46A，则此时小灯泡电功率\nW1＝0.46V×0.16A≈0.074W\n同理可知当流过电流表的电流为300mA 时，小灯泡两端电压为2.5V，此时小灯泡电功率\nW2＝2.5V×0.3A＝0.75W\n故有W2\nW1 ＝\n0.75\n0.074＝10",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -240,80 +317,212 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
         "page": 5,
-        "questionNumber": 11,
+        "endPage": 7,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q010-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q010-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q11",
-      "content": "74cm\n由表中数据可得，小铜块沿斜面下滑的加速度大小为_______m/s2，小铜块与瓷砖表面间的动摩擦因数为\n_________。（结果均保留2 位有效数字，重力加速度大小取9.80m/s2）\n【详解】（1）根据逐差法有\n(\n) (\n)\n(\n)\n5\n4\n2\n1\n2\n2\ns\ns\ns\ns\na\nT\n+\n−\n+\n=\n\n代入数据可得小铜块沿斜面下滑的加速度大小\na≈0.43 m/s2\n（2）对小铜块受力分析根据牛顿第二定律有\nsin\ncos\nmg\nmg\nma\n\n\n\n−\n=\n代入数据解得μ≈0.32\n10．（10 分）某同学用图（a）所示电路探究小灯泡的伏安特性，所用器材\n有：\n小灯泡（额定电压2.5 V，额定电流0.3 A）\n电压表（量程300 mV，内阻300 Ω）\n电流表（量程300 mA，内阻0.27 Ω）\n定值电阻R0\n滑动变阻器R1（阻值0～20 Ω）\n电阻箱R2（最大阻值9999.9 Ω）\n电源E（电动势6 V，内阻不计）\n开关S、导线若干。\n6 / 12\n完成下列填空：\n（1）有3 个阻值分别为10 Ω、20 Ω、30 Ω 的定值电阻可供选择，为了描绘小灯泡电流在0～300 mA 的U-\nI 曲线，R0 应选取阻值为___________Ω 的定值电阻；\n（2）闭合开关前，滑动变阻器的滑片应置于变阻器的___________（填“a”或“b”）端；\n（3）在流过电流表的电流较小时，将电阻箱R2 的阻值置零，改变滑动变阻器滑片的位置，读取电压表和电\n流表的示数U、I，结果如图（b）所示。当流过电流表的电流为10 mA 时，小灯泡的电阻为___________Ω\n（保留1 位有效数字）；\n（4）为使得电压表满量程时对应于小灯泡两端的电压为3 V，该同学经计算知，应将R2 的阻值调整为\n_______Ω。然后调节滑动变阻器R1，测得数据如下表所示：\nU/mV",
+      "content": "（12 分）如图，一倾角为θ 的光滑斜面上有50 个\n减速带（图中未完全画出），相邻减速带间的距离均为\nd，减速带的宽度远小于d；一质量为m 的无动力小车\n（可视为质点）从距第一个减速带L 处由静止释放。已\n知小车通过减速带损失的机械能与到达减速带时的速\n度有关。观察发现，小车通过第30 个减速带后，在相\n邻减速带间的平均速度均相同。小车通过第50 个减速\n带后立刻进入与斜面光滑连接的水平地面，继续滑行距\n离s 后停下。已知小车与地面间的动摩擦因数为μ，重力加速度大小为g。\n（1）求小车通过第30 个减速带后，经过每一个减速带时损失的机械能；\n（2）求小车通过前30 个减速带的过程中在每一个减速带上平均损失的机械能；\n（3）若小车在前30 个减速带上平均每一个损失的机械能大于之后每一个减速带上损失的机械能，则L 应\n满足什么条件？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）由题意可知小车在光滑斜面上滑行时根据牛顿第二定律有\nsin\nmg\nma\n=\n设小车通过第30 个减速带后速度为v1，到达第31 个减速带时的速度为v2，则有\n2\n2\n2\n1\n2\nv\nv\nad\n−\n=\n因为小车通过第30 个减速带后，在相邻减速带间的平均速度均相同，故后面过减速带后的速度与到达下一\n个减速带均为v1 和v2；经过每一个减速带时损失的机械能为\n2\n2\n2\n1\n1\n1\n2\n2\nE\nmv\nmv\n\n=\n−\n联立以上各式解得\nΔE＝mgdsinθ\n（2）由（1）知小车通过第50 个减速带后的速度为v1，则在水平地面上根据动能定理有\n2\n1\n1\n0\n2\nmgs\nmv\n\n−\n=\n−\n从小车开始下滑到通过第30 个减速带，根据动能定理有\n(\n)\n2\n1\n1\n29\nsin\nΔ\n2\nmg L\nd\nE\nmv\n\n+\n−\n=\n总\n减速带\nθ\n（无动力）小车\nL\n8 / 12\n联立解得\n(\n)\nΔ\n=\n29\nsin\nE\nmg L\nd\nmgs\n\n\n+\n−\n总\n故在每一个减速带上平均损失的机械能为\nΔEʹ＝\n𝛥𝐸总\n30 ＝mg(L+29d)sinθ－μmgs\n30\n（3）由题意可知\nE\nE\n\n\n\n可得L＞d＋μs\nsinθ\n某省213286 份试卷，均分3.35（难度0.28）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
-        "page": 5,
-        "questionNumber": 12,
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q011-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q12",
-      "content": "0",
+      "content": "（20 分）如图，长度均为l 的两块挡板竖直相对放置，间距也\n为l，两挡板上边缘P 和M 处于同一水平线上，在该水平线的上方\n区域有方向竖直向下的匀强电场，电场强度大小为E；两挡板间有垂\n直纸面向外、磁感应强度大小可调节的匀强磁场。一质量为m，电荷\n量为q（q＞0）的粒子自电场中某处以大小为v0 的速度水平向右发\n射，恰好从P 点处射入磁场，从两挡板下边缘Q 和N 之间射出磁场，\n运动过程中粒子未与挡板碰撞。已知粒子射入磁场时的速度方向与\nPQ 的夹角为60°，不计重力。\n（1）求粒子发射位置到P 点的距离；\n（2）求磁感应强度大小的取值范围；\n（3）若粒子正好从QN 的中点射出磁场，求粒子在磁场中的轨迹与\n挡板MN 的最近距离。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）带电粒子在匀强电场中做类平抛运动，由类平抛运动规律可知\n0\nx\nv t\n=\n ①\n2\n2\n1\n2\n2\nqEt\ny\nat\nm\n=\n=\n ②\n粒子射入磁场时的速度方向与PQ 的夹角为60°，有\n0\ntan30\ny\nx\nv\nat\nv\nv\n=\n=\n ③\n粒子发射位置到P 点的距离\n2\n2\ns\nx\ny\n=\n+\n ④\n由①②③④式得\n2\n0\n13\n6\nmv\ns\nqE\n=\n ⑤\n（2）带电粒子在磁场运动在速度\n0\n0\n2 3\ncos30\n3\nv\nv\nv =\n=\n°\n ⑥\n带电粒子在磁场中运动两个临界轨迹（分别从Q、N 点射出）如图所示\n9 / 12\n由几何关系可知，最小半径\nmin\n3\n2\ncos30\n3\nl\nr\nl\n=\n=\n\n ⑦\n最大半径\nmax\n2\n2\n( 3\n1)\ncos75\nl\nr\nl\n=\n=\n+\n\n ⑧\n带电粒子在磁场中做圆周运动的向心力由洛伦兹力提供，由向心力公式可知\n2\nmv\nqvB\nr\n=\n ⑨\n由⑥⑦⑧⑨解得，磁感应强度大小的取值范围\n0\n0\n2\n2\n(3\n3)\nmv\nmv\nB\nql\nql\n\n\n+\n（3）若粒子正好从QN 的中点射出磁场时，带电粒子运动轨迹如图所示。\n由几何关系可知\n5\n2\nsin\n5\n5\n2\nl\nl\n=\n=\n⑩\n带电粒子的运动半径为\n3\n5\n4\ncos(30\n)\nl\nr\n\n=\n+\n ⑪\n粒子在磁场中的轨迹与挡板MN 的最近距离\nmin\n3\n3\n( sin30\n)\nd\nr\nl\nr\n=\n+\n−\n ⑫\n由⑩⑪⑫式解得\n39 10 3\n44\nd\nl\n−\n=\n ⑬\n10 / 12\n（二）选考题：\n【物理——选修3-3】",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
-        "page": 6,
-        "questionNumber": 24,
+        "page": 8,
+        "endPage": 10,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q012-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q012-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q012-p008-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q13",
-      "content": "0\n76.0\n110.0\n128.0\n152.0\n184.0\n216.0\n250.0\nI/mA\n140.0\n160.0\n180.0\n2000\n220.0\n240.0\n260.0\n2800\n300.0\n（5）由图（b）和上表可知，随流过小灯泡电流的增加，其灯丝的电阻___________（填“增大”“减小”或\n“不变”）；\n（6）该同学观测到小灯泡刚开始发光时流过电流表的电流为160 mA，可得此时小灯泡电功率W1＝\n_______W（保留2 位有效数字）；当流过电流表的电流为300 mA 时，小灯泡的电功率为W2，则W2\nW1 ＝_______\n（保留至整数）。\n【详解】（1）因为小灯泡额定电压2.5 V，电动势6 V，则滑动滑动变阻器时，为了保证电路安全，需要定\n值电阻分担的电压\n6V\n2.5V\n3.5V\nU =\n−\n=\n则有\n0\n3.5V\n11.7Ω\n0.3A\nR =\n\n则需要描绘小灯泡在0~300 mA 的伏安特性曲线，即R0 应选取阻值为10 Ω；\n（2）为了保护电路，滑动变阻器的滑片应置于变阻器的a 端；\n（3）由图可知当流过电流表的电流为10 mA 时，电压为7 mV，则小灯泡的电阻为\n3\n3\n7 10\nΩ=0.7Ω\n10 10\nR\n−\n−\n\n=\n\n（4）由题知电压表满量程时对应于小灯泡两端的电压为3V 时，有\n7 / 12\n2\nV\nV\n3\n0.3\nR\nR\nR\n=\n+\n解得R2＝2700 Ω\n（5）由图（b）和表格可知流过小灯泡电流增加，图像中\nU\nI 变大，则灯丝的电阻增大；\n（6）根据表格可知当电流为160 mA 时，电压表的示数为46 mA，根据（4）的分析可知此时小灯泡两端电\n压为0.46A，则此时小灯泡电功率\nW1＝0.46V×0.16A≈0.074W\n同理可知当流过电流表的电流为300mA 时，小灯泡两端电压为2.5V，此时小灯泡电功率\nW2＝2.5V×0.3A＝0.75W\n故有W2\nW1 ＝\n0.75\n0.074＝10\n11．（12 分）如图，一倾角为θ 的光滑斜面上有50 个\n减速带（图中未完全画出），相邻减速带间的距离均为\nd，减速带的宽度远小于d；一质量为m 的无动力小车\n（可视为质点）从距第一个减速带L 处由静止释放。已\n知小车通过减速带损失的机械能与到达减速带时的速\n度有关。观察发现，小车通过第30 个减速带后，在相\n邻减速带间的平均速度均相同。小车通过第50 个减速\n带后立刻进入与斜面光滑连接的水平地面，继续滑行距\n离s 后停下。已知小车与地面间的动摩擦因数为μ，重力加速度大小为g。\n（1）求小车通过第30 个减速带后，经过每一个减速带时损失的机械能；\n（2）求小车通过前30 个减速带的过程中在每一个减速带上平均损失的机械能；\n（3）若小车在前30 个减速带上平均每一个损失的机械能大于之后每一个减速带上损失的机械能，则L 应\n满足什么条件？\n【详解】（1）由题意可知小车在光滑斜面上滑行时根据牛顿第二定律有\nsin\nmg\nma\n=\n设小车通过第30 个减速带后速度为v1，到达第31 个减速带时的速度为v2，则有\n2\n2\n2\n1\n2\nv\nv\nad\n−\n=\n因为小车通过第30 个减速带后，在相邻减速带间的平均速度均相同，故后面过减速带后的速度与到达下一\n个减速带均为v1 和v2；经过每一个减速带时损失的机械能为\n2\n2\n2\n1\n1\n1\n2\n2\nE\nmv\nmv\n\n=\n−\n联立以上各式解得\nΔE＝mgdsinθ\n（2）由（1）知小车通过第50 个减速带后的速度为v1，则在水平地面上根据动能定理有\n2\n1\n1\n0\n2\nmgs\nmv\n\n−\n=\n−\n从小车开始下滑到通过第30 个减速带，根据动能定理有\n(\n)\n2\n1\n1\n29\nsin\nΔ\n2\nmg L\nd\nE\nmv\n\n+\n−\n=\n总\n减速带\nθ\n（无动力）小车\nL\n8 / 12\n联立解得\n(\n)\nΔ\n=\n29\nsin\nE\nmg L\nd\nmgs\n\n\n+\n−\n总\n故在每一个减速带上平均损失的机械能为\nΔEʹ＝\n𝛥𝐸总\n30 ＝mg(L+29d)sinθ－μmgs\n30\n（3）由题意可知\nE\nE\n\n\n\n可得L＞d＋μs\nsinθ\n某省213286 份试卷，均分3.35（难度0.28）\n12．（20 分）如图，长度均为l 的两块挡板竖直相对放置，间距也\n为l，两挡板上边缘P 和M 处于同一水平线上，在该水平线的上方\n区域有方向竖直向下的匀强电场，电场强度大小为E；两挡板间有垂\n直纸面向外、磁感应强度大小可调节的匀强磁场。一质量为m，电荷\n量为q（q＞0）的粒子自电场中某处以大小为v0 的速度水平向右发\n射，恰好从P 点处射入磁场，从两挡板下边缘Q 和N 之间射出磁场，\n运动过程中粒子未与挡板碰撞。已知粒子射入磁场时的速度方向与\nPQ 的夹角为60°，不计重力。\n（1）求粒子发射位置到P 点的距离；\n（2）求磁感应强度大小的取值范围；\n（3）若粒子正好从QN 的中点射出磁场，求粒子在磁场中的轨迹与\n挡板MN 的最近距离。\n【详解】（1）带电粒子在匀强电场中做类平抛运动，由类平抛运动规律可知\n0\nx\nv t\n=\n ①\n2\n2\n1\n2\n2\nqEt\ny\nat\nm\n=\n=\n ②\n粒子射入磁场时的速度方向与PQ 的夹角为60°，有\n0\ntan30\ny\nx\nv\nat\nv\nv\n=\n=\n ③\n粒子发射位置到P 点的距离\n2\n2\ns\nx\ny\n=\n+\n ④\n由①②③④式得\n2\n0\n13\n6\nmv\ns\nqE\n=\n ⑤\n（2）带电粒子在磁场运动在速度\n0\n0\n2 3\ncos30\n3\nv\nv\nv =\n=\n°\n ⑥\n带电粒子在磁场中运动两个临界轨迹（分别从Q、N 点射出）如图所示\n9 / 12\n由几何关系可知，最小半径\nmin\n3\n2\ncos30\n3\nl\nr\nl\n=\n=\n\n ⑦\n最大半径\nmax\n2\n2\n( 3\n1)\ncos75\nl\nr\nl\n=\n=\n+\n\n ⑧\n带电粒子在磁场中做圆周运动的向心力由洛伦兹力提供，由向心力公式可知\n2\nmv\nqvB\nr\n=\n ⑨\n由⑥⑦⑧⑨解得，磁感应强度大小的取值范围\n0\n0\n2\n2\n(3\n3)\nmv\nmv\nB\nql\nql\n\n\n+\n（3）若粒子正好从QN 的中点射出磁场时，带电粒子运动轨迹如图所示。\n由几何关系可知\n5\n2\nsin\n5\n5\n2\nl\nl\n=\n=\n⑩\n带电粒子的运动半径为\n3\n5\n4\ncos(30\n)\nl\nr\n\n=\n+\n ⑪\n粒子在磁场中的轨迹与挡板MN 的最近距离\nmin\n3\n3\n( sin30\n)\nd\nr\nl\nr\n=\n+\n−\n ⑫\n由⑩⑪⑫式解得\n39 10 3\n44\nd\nl\n−\n=\n ⑬\n10 / 12\n（二）选考题：\n【物理——选修3-3】\n13．（5 分）如图，一定量的理想气体经历的两个不同过程，分别由体积-温\n度（V-t）图上的两条直线I 和Ⅱ表示，V1 和V2 分别为两直线与纵轴交点的\n纵坐标；t0 为它们的延长线与横轴交点的横坐标，t0 是它们的延长线与横轴\n交点的横坐标，t0＝－273.15℃；a、b 为直线I 上的一点。由图可知，气体\n在状态a 和b 的压强之比pa\npb ＝___________；气体在状态b 和c 的压强之比\npb\npc ＝___________。\n【详解】（1）根据盖吕萨克定律有\n273\nV\nk\nt\n=\n+\n整理得\n273\nV\nkt\nk\n=\n+\n由于体积-温度（V-t）图像可知，直线I 为等压线，则a、b 两点压强相等，则有\npa\npb ＝1\n（2）设\n0 C\nt =\n时，当气体体积为\n1\nV 其压强为\n1p ，当气体体积为\n2\nV 其压强为\n2p ，根据等温变化，则有\n1\n1\n2\n2\npV\np V\n=\n由于直线I 和Ⅱ各为两条等压线，则有\n1\nb\np\np\n=\n ，\n2\nc\np\np\n=\n联立解得\n1\n2\n2\n1\nb\nc\np\np\nV\np\np\nV\n=\n=\n14．（10 分）如图，一汽缸中由活塞封闭有一定量的理想气体，中间的隔板\n将气体分为A、B 两部分；初始时，A、B 的体积均为V，压强均等于大气压\np0，隔板上装有压力传感器和控制装置，当隔板两边压强差超过0.5p0 时隔板\n就会滑动，否则隔板停止运动。气体温度始终保持不变。向右缓慢推动活塞，\n使B 的体积减小为V\n2 。\n（1）求A 的体积和B 的压强；\n（2）再使活塞向左缓慢回到初始位置，求此时A 的体积和B 的压强。\n【详解】（1）对B 气体分析，等温变化，根据波意耳定律有\n0\n1\n2\nB\np V\np\nV\n=\n解得\n0\n2\nB\np\np\n=\n对A 气体分析，根据波意耳定律有\nV2\nV1\nt0\nV/m3\nO\nt1\na\nb\nc\nⅠ\nⅡ\nt/℃\n11 / 12\n0\nA\nA\np V\np V\n=\n0\n0.5\nA\nB\np\np\np\n=\n+\n联立解得\n0.4\nA\nV\nV\n=\n（2）再使活塞向左缓慢回到初始位置，假设隔板不动，则A 的体积为3\n2 V，由波意耳定律可得\n0\n0\n3\n' 2\np V\np\nV\n=\n\n则A 此情况下的压强为\n0\n0\n2\n'\n0.5\n3\nB\np\np\np\np\n=\n\n−\n则隔板一定会向左运动，设稳定后气体A 的体积为\nA\nV 、压强为\nA\np ，气体B 的体积为\nB\nV 、 压强为\nB\np ，\n根据等温变化有\n0\nA\nA\np V\np V\n\n=\n，\n0\nB\nB\np V\np V\n\n=\n2\nA\nB\nV\nV\nV\n\n\n+\n=\n，\n'\n'\n0\n0.5\nA\nB\np\np\np\n=\n−\n联立解得\npBʹ＝3－5\n4\n p0 （舍去），pBʹ＝3+ 5\n4\n p0\nVAʹ＝( 5 －1)V，\n【物理——选修3-4】\n15．（5 分）如图，单色光从折射率n＝1.5、厚度d＝10.0 cm 的玻\n璃板上表面射入。已知真空中的光速为3×108 m/s，则该单色光在玻\n璃板内传播的速度为___________m/s；对于所有可能的入射角，该单\n色光通过玻璃板所用时间t 的取值范围是___________s≤t≤\n___________s（不考虑反射）。\n【详解】（1）该单色光在玻璃板内传播的速度为\n8\n8\n3 10 m/s\n2 10 m / s\n1.5\nc\nv\nn\n\n=\n=\n=\n\n（2）当光垂直玻璃板射入时，光不发生偏折，该单色光通过玻璃板所用时间最短，最短时间\n10\n1\n8\n0.1 s=5 10\ns\n2 10\nd\nt\nv\n−\n=\n=\n\n\n[3]当光的入射角是90°时，该单色光通过玻璃板所用时间最长。由折射定律可知\nsin90\nsin\nn\n\n\n=\n最长时间\n12 / 12\n2\n10\n2\ncos\n3 5 10\ns\n1 sin\nd\nd\nt\nv\nv\n\n\n−\n=\n=\n=\n\n−\n16．（10 分）均匀介质中质点A、B 的平衡位置位于x 轴上，坐标分别为0 和xB＝16 cm。某简谐横波沿x\n轴正方向传播，波速为v＝20 cm/s，波长大于20 cm，振幅为y＝1 cm，且传播时无衰减。t＝0 时刻A、B 偏\n离平衡位置的位移大小相等、方向相同，运动方向相反，此后每隔Δt＝0.6 s 两者偏离平衡位置的位移大小\n相等、方向相同。已知在t1 时刻（t1＞0），质点A 位于波峰。求\n（1）从t1 时刻开始，质点B 最少要经过多长时间位于波峰；\n（2）t1 时刻质点B 偏离平衡位置的位移。\n【详解】（1）因为波长大于20cm，所以波的周期\n1.0s\nT\nv\n\n=\n\n由题可知，波的周期是\n2\n1.2s\nT\nt\n= =\n波的波长\n24cm\nvT\n=\n=\n在t1 时刻（t1>0），质点A 位于波峰。因为AB 距离小于一个波长，B 到波峰最快也是A 的波峰传过去，所\n以 从t1 时刻开始，质点B 运动到波峰所需要的最少时间\n1\n0.8s\nAB\nx\nt\nv\n=\n=\n（2）在t1 时刻（t1>0），由题意可知，此时图象的函数是\ncos\n(cm)\n12\ny\nx\n\n=\nt1 时刻质点B 偏离平衡位置的位移\n(\n)\ncos\ncm\n0.5cm\n12\nB\nB\ny\nx\n\n=\n= −",
+      "content": "（5 分）如图，一定量的理想气体经历的两个不同过程，分别由体积-温\n度（V-t）图上的两条直线I 和Ⅱ表示，V1 和V2 分别为两直线与纵轴交点的\n纵坐标；t0 为它们的延长线与横轴交点的横坐标，t0 是它们的延长线与横轴\n交点的横坐标，t0＝－273.15℃；a、b 为直线I 上的一点。由图可知，气体\n在状态a 和b 的压强之比pa\npb ＝___________；气体在状态b 和c 的压强之比\npb\npc ＝___________。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）根据盖吕萨克定律有\n273\nV\nk\nt\n=\n+\n整理得\n273\nV\nkt\nk\n=\n+\n由于体积-温度（V-t）图像可知，直线I 为等压线，则a、b 两点压强相等，则有\npa\npb ＝1\n（2）设\n0 C\nt =\n时，当气体体积为\n1\nV 其压强为\n1p ，当气体体积为\n2\nV 其压强为\n2p ，根据等温变化，则有\n1\n1\n2\n2\npV\np V\n=\n由于直线I 和Ⅱ各为两条等压线，则有\n1\nb\np\np\n=\n ，\n2\nc\np\np\n=\n联立解得\n1\n2\n2\n1\nb\nc\np\np\nV\np\np\nV\n=\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
-        "page": 6,
-        "questionNumber": 46,
+        "page": 10,
+        "endPage": 10,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q013-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q013-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q14",
+      "content": "（10 分）如图，一汽缸中由活塞封闭有一定量的理想气体，中间的隔板\n将气体分为A、B 两部分；初始时，A、B 的体积均为V，压强均等于大气压\np0，隔板上装有压力传感器和控制装置，当隔板两边压强差超过0.5p0 时隔板\n就会滑动，否则隔板停止运动。气体温度始终保持不变。向右缓慢推动活塞，\n使B 的体积减小为V\n2 。\n（1）求A 的体积和B 的压强；\n（2）再使活塞向左缓慢回到初始位置，求此时A 的体积和B 的压强。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）对B 气体分析，等温变化，根据波意耳定律有\n0\n1\n2\nB\np V\np\nV\n=\n解得\n0\n2\nB\np\np\n=\n对A 气体分析，根据波意耳定律有\nV2\nV1\nt0\nV/m3\nO\nt1\na\nb\nc\nⅠ\nⅡ\nt/℃\n11 / 12\n0\nA\nA\np V\np V\n=\n0\n0.5\nA\nB\np\np\np\n=\n+\n联立解得\n0.4\nA\nV\nV\n=\n（2）再使活塞向左缓慢回到初始位置，假设隔板不动，则A 的体积为3\n2 V，由波意耳定律可得\n0\n0\n3\n' 2\np V\np\nV\n=\n\n则A 此情况下的压强为\n0\n0\n2\n'\n0.5\n3\nB\np\np\np\np\n=\n\n−\n则隔板一定会向左运动，设稳定后气体A 的体积为\nA\nV 、压强为\nA\np ，气体B 的体积为\nB\nV 、 压强为\nB\np ，\n根据等温变化有\n0\nA\nA\np V\np V\n\n=\n，\n0\nB\nB\np V\np V\n\n=\n2\nA\nB\nV\nV\nV\n\n\n+\n=\n，\n'\n'\n0\n0.5\nA\nB\np\np\np\n=\n−\n联立解得\npBʹ＝3－5\n4\n p0 （舍去），pBʹ＝3+ 5\n4\n p0\nVAʹ＝( 5 －1)V，\n【物理——选修3-4】",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q014-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q014-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q15",
+      "content": "（5 分）如图，单色光从折射率n＝1.5、厚度d＝10.0 cm 的玻\n璃板上表面射入。已知真空中的光速为3×108 m/s，则该单色光在玻\n璃板内传播的速度为___________m/s；对于所有可能的入射角，该单\n色光通过玻璃板所用时间t 的取值范围是___________s≤t≤\n___________s（不考虑反射）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）该单色光在玻璃板内传播的速度为\n8\n8\n3 10 m/s\n2 10 m / s\n1.5\nc\nv\nn\n\n=\n=\n=\n\n（2）当光垂直玻璃板射入时，光不发生偏折，该单色光通过玻璃板所用时间最短，最短时间\n10\n1\n8\n0.1 s=5 10\ns\n2 10\nd\nt\nv\n−\n=\n=\n\n\n[3]当光的入射角是90°时，该单色光通过玻璃板所用时间最长。由折射定律可知\nsin90\nsin\nn\n\n\n=\n最长时间\n12 / 12\n2\n10\n2\ncos\n3 5 10\ns\n1 sin\nd\nd\nt\nv\nv\n\n\n−\n=\n=\n=\n\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q015-p011-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c90508a5023e87c8-q015-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf#q16",
+      "content": "（10 分）均匀介质中质点A、B 的平衡位置位于x 轴上，坐标分别为0 和xB＝16 cm。某简谐横波沿x\n轴正方向传播，波速为v＝20 cm/s，波长大于20 cm，振幅为y＝1 cm，且传播时无衰减。t＝0 时刻A、B 偏\n离平衡位置的位移大小相等、方向相同，运动方向相反，此后每隔Δt＝0.6 s 两者偏离平衡位置的位移大小\n相等、方向相同。已知在t1 时刻（t1＞0），质点A 位于波峰。求\n（1）从t1 时刻开始，质点B 最少要经过多长时间位于波峰；\n（2）t1 时刻质点B 偏离平衡位置的位移。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）因为波长大于20cm，所以波的周期\n1.0s\nT\nv\n\n=\n\n由题可知，波的周期是\n2\n1.2s\nT\nt\n= =\n波的波长\n24cm\nvT\n=\n=\n在t1 时刻（t1>0），质点A 位于波峰。因为AB 距离小于一个波长，B 到波峰最快也是A 的波峰传过去，所\n以 从t1 时刻开始，质点B 运动到波峰所需要的最少时间\n1\n0.8s\nAB\nx\nt\nv\n=\n=\n（2）在t1 时刻（t1>0），由题意可知，此时图象的函数是\ncos\n(cm)\n12\ny\nx\n\n=\nt1 时刻质点B 偏离平衡位置的位移\n(\n)\ncos\ncm\n0.5cm\n12\nB\nB\ny\nx\n\n=\n= −",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021全国甲理综(广西,四川,贵州,云南,西藏).pdf",
+        "page": 12,
+        "endPage": 12,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 0,
+    "assigned": 18,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

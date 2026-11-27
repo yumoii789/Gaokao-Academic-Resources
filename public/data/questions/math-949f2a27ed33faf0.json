@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004天津文.pdf",
   "name": "2004天津文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q01",
       "content": "设集合P = {1, 2, 3, 4, 5, 6}, Q = {x ∈R | 2 ⩽x ⩽6}, 那么下列结论\n正确的是\n(\n)\n(A) P ∩Q = P\n(B) P ∩Q ⊇Q\n(C) P ∪Q = Q\n(D) P ∩Q ⫌P",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q02",
       "content": "不等式x −1\nx\n⩾2 的解集为\n(\n)\n(A) [−1, 0)\n(B) [−1, +∞)\n(C) (−∞, −1]\n(D) (−∞, −1] ∪(0, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q03",
       "content": "对任意实数a, b, c 在下列命题中, 真命题是\n(\n)\n(A) “ac > bc”是“a > b”的必要条件\n(B) “ac = bc”是“a = b”的必要条件\n(C) “ac > bc”是“a > b”的充分条件\n(D) “ac = bc”是“a = b”的充分条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q04",
       "content": "若平面向量#»b 与向量#»a = (1, −2) 的夹角是180◦, 且\n���#»b\n���= 3\n√\n5, 则\n#»b =\n(\n)\n(A) (−3, 6)\n(B) (3, −6)\n(C) (6, −3)\n(D) (−6, 3)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q05",
       "content": "设P 是双曲线x2\na2 −y2\n9\n= 1 上一点, 双曲线的一条渐近线方程为\n3x −2y = 0, F1、F2 分别是双曲线的左、右焦点, 若|PF1| = 3, 则\n|PF2| =\n(\n)\n(A) 1 或5\n(B) 6\n(C) 7\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q06",
       "content": "若函数f(x) = logax (0 < a < 1) 在区间[a, 2a] 上的最大值是最小值的3\n倍, 则a =\n(\n)\n(A)\n√\n2\n4\n(B)\n√\n2\n2\n(C) 1\n4\n(D) 1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q07",
       "content": "若过定点M(−1, 0) 且斜率为k 的直线与圆x2 + 4x + y2 −5 = 0 在第一\n象限内的部分有交点, 则k 的取值范围是\n(\n)\n(A) 0 < k <\n√\n5\n(B) −\n√\n5 < k < 0\n(C) 0 < k <\n√\n13\n(D) 0 < k < 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q08",
       "content": "如图, 定点A 和B 都在平面α 内, 定点P /∈α, PB ⊥α, C 是α 内异于\nA 和B 的动点, 且PC ⊥AC. 那么, 动点C 在平面α 内的轨迹是\n(\n)\nA\nC\nB\nP\nα\n(A) 一条线段, 但要去掉两个点\n(B) 一个圆, 但要去掉两个点\n(C) 一个椭圆, 但要去掉两个点\n(D) 半圆, 但要去掉两个点",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +251,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q09",
       "content": "函数y = 3x2−1 (−1 ⩽x < 0) 的反函数是\n(\n)\n(A) y =\n√\n1 + log3x\n(\nx ⩾1\n3\n)\n(B) y = −\n√\n1 + log3x\n(\nx ⩾1\n3\n)\n(C) y =\n√\n1 + log3x\n(1\n3 < x ⩽1\n)\n(D) y = −\n√\n1 + log3x\n(1\n3 < x ⩽1\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q10",
       "content": "函数y = 2 sin\n(π\n6 −2x\n)\n(x ∈[0, π]) 为增函数的区间是\n(\n)\n(A)\n[\n0, π\n3\n]\n(B)\n[ π\n12, 7π\n12\n]\n(C)\n[π\n3 , 5π\n6\n]\n(D)\n[5π\n6 , π\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q11",
       "content": "如图, 在长方体ABCD −A1B1C1D1 中, AB = 6, AD = 4, AA1 = 3.\n分别过BC、A1D1 的两个平行截面将长方体分成三部分, 其体积分别记\n为V1 = VAEA1−DF D1, V2 = VEBE1A1−F CF1D1, V3 = VB1E1B−C1F1C. 若\nV1 : V2 : V3 = 1 : 4 : 1, 则截面A1EFD1 的面积为\n(\n)\nA\nB\nC\nD\nE\nF\nE1\nF1\nA1\nB1\nC1\nD1\n(A) 4\n√\n10\n(B) 8\n√\n3\n(C) 4\n√\n13\n(D) 16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q12",
       "content": "定义在R 上的函数f(x) 既是偶函数又是周期函数, 若f(x) 的最小正周\n期是π, 且当x ∈\n[\n0, π\n2\n]\n时, f(x) = sin x, 则f\n(5π\n3\n)\n的值为\n(\n)\n(A) −1\n2\n(B) 1\n2\n(C) −\n√\n3\n2\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +375,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q13",
       "content": "某工厂生产A、B、C 三种不同型号的产品, 产品数量之比依次为2 : 3 : 5,\n现用分层抽样方法抽出一个容量为n 的样本, 样本中A 种型号产品有16\n件. 那么此样本的容量n =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q14",
       "content": "已知向量#»a = (1, 1), #»b = (2, −3), 若k#»a −2#»b 与#»a 垂直, 则实数k 等\n于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q15",
       "content": "如果过两点A(a, 0) 和B(0, a) 的直线与抛物线y = x2 −2x −3 没有交点,\n那么实数a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q16",
       "content": "从0, 1, 2, 3, 4, 5 中任取3 个数字, 组成没有重复数字的三位数, 其中能被\n5 整除的三位数共有\n个. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +491,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q17",
       "content": "已知tan\n(π\n4 + α\n)\n= 1\n2.\n(1) 求tan α 的值;\n(2) 求sin 2a −cos2α\n1 + cos 2α\n的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +520,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q18",
       "content": "从4 名男生和2 名女生中任选3 人参加演讲比赛.\n(1) 求所选3 人都是男生的概率;\n(2) 求所选3 人中恰有1 名女生的概率;\n(3) 求所选3 人中至少有1 名女生的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +553,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q19",
       "content": "如图, 在四棱锥P −ABCD 中, 底面ABCD 是正方形, 侧棱PD ⊥底面\nABCD, PD = DC, E 是PC 的中点.\n(1) 证明: PA\n平面EDB;\n(2) 求EB 与底面ABCD 所成角的正切值.\nA\nB\nC\nD\nE\nP\n204",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +582,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-949f2a27ed33faf0-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q20",
       "content": "设{an} 是一个公差为d (d̸ = 0) 的等差数列, 它的前10 项和S10 = 110\n且a1, a2, a4 成等比数列.\n(1) 证明a1 = d;\n(2) 求公差d 的值和数列{an} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +615,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q21",
       "content": "已知函数f(x) = ax3 + cx + d (a̸ = 0) 是R 上的奇函数, 当x = 1 时f(x)\n取得极值−2.\n(1) 求f(x) 的单调区间和极大值;\n(2) 证明对任意x1, x2 ∈(−1, 1), 不等式|f(x1) −f(x2)| < 4 恒成立.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +644,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004天津文.pdf#q22",
       "content": "椭圆的中心是原点O, 它的短轴长为2\n√\n2, 相应于焦点F(c, 0) (c > 0) 的\n准线l 与x 轴相交于点A, |OF| = 2|FA|, 过点A 的直线与椭圆相交于P、\nQ 两点.\n(1) 求椭圆的方程及离心率;\n(2) 若#    »\nOP · #    »\nOQ = 0, 求直线PQ 的方程.\n205",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +673,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004天津文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 3,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010江苏.pdf",
   "name": "2010江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010江苏.pdf#q01",
       "content": "如图所示，一块橡皮用细线悬挂于O 点，用铅笔靠着线的左侧水平向右匀速移\n动，运动中始终保持悬线竖直，则橡皮运动的速度（     ）\n（A）大小和方向均不变\n（B）大小不变，方向改变\n（C）大小改变，方向不变\n（D）大小和方向均改变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "橡皮在水平方向匀速运动，在竖直方向匀速运动，合运动是匀速运动．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,11 +44,474 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q02",
+      "content": "一矩形线框置于匀强磁场中，线框平面与磁场方向垂直，先保持线框的面积不变，将磁感应强度在1s\n时间内均匀地增大到原来的两倍，接着保持增大后的磁感应强度不变，在1s 时间内，再将线框的面积均匀\n地减小到原来的一半，先后两个过程中，线框中感应电动势的比值为（    ）\n（A）A1\n2\nE\nA\n（B）1\n（C）2\n（D）4",
+      "answer": "暂无结构化答案",
+      "analysis": "由法拉第电磁感应定律：E\nt\nφ\n∆\n= ∆\n，且\nBS\nφ\n∆\n= ∆\n、\nB S\nφ\n∆\n=\n∆\n有\n1\n(2\n)\nBS\nB\nB S\nBS\nE\nt\nt\nt\n∆\n−\n=\n=\n=\n，\n2\n1\n2 (\n)\n2\n2\nB\nS\nS\nB S\nBS\nE\nt\nt\nt\n−\n∆\n=\n=\n= −\n。大小相等。选项B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q03",
+      "content": "如图所示，置于水平地面的三脚架上固定着一质量为m 的照相机，三脚架的三根轻质\n支架等长，与竖直方向均成30°角，则每根支架中承受的压力大小为（   ）\n（A）A1\n3\nE\nAmg （B）A2\n3\nE\nAmg （C）A 3\nE6\nE\nAmg\n（D）A2 3\nE9\nE\nAmg",
+      "answer": "暂无结构化答案",
+      "analysis": "由力的合成及平衡可得：3Fcos30° = mg，F = A2 3\nE9\nE\nAmg，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q04",
+      "content": "如图所示的电路中，电源的电动势为E，内阻为r，电感L 的电阻不计，电\n阻R 的阻值大于灯泡D 的阻值，在t = 0 时刻闭合开关S，经过一段时间后，\n在t = t1 时刻断开S，下列表示A、B 两点间电压UAB 随时间t 变化的图像中，\n正确的是（    ）\nUAB\nt\nt1\nO\nUAB\nt\nt1\nO\nt1\nUAB\nt\nO\nUAB\nt\nt1\nO\n（A）             （B）             （C）            （D）\nO\n悬线\n橡皮\nE，r\nR\nL\nD\nS\nA\nB\n30°\n2 / 9",
+      "answer": "暂无结构化答案",
+      "analysis": "开关闭合时，线圈由于自感对电流的阻碍作用，可看做电阻，线圈电阻逐渐减小，并联电路电阻\n逐渐减小，电压UAB 逐渐减小；开关闭合后再断开时，线圈的感应电流与原电流方向相同，形成回路，灯\n泡的电流与原电流方向相反，并逐渐减小到0，所以正确选项B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q004-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q05",
+      "content": "空间有一沿x 轴对称分布的电场，其电场强度E 随x 变化的图像\n如图所示。下列说法正确的是（     ）\n（A）O 点的电势最低\n（B）x2 点的电势最高\n（C）x1 和－x1 两点的电势相等\n（D）x1 和x3 两点的电势相等",
+      "answer": "暂无结构化答案",
+      "analysis": "沿x 轴对称分布的电场，由题图可得其电场线以O 点为中心指向正、负方向，沿电场线电势降落\n（最快），所以O 点电势最高，A 错误，B 错误；根据U = Ed，电场强度是变量，可用E-x 图象面积表示，\n所以C 正确；两点电场强度大小相等，电势不相等，D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q06",
+      "content": "2009 年5 月，航天飞机在完成对哈勃空间望远镜的维修任务后，在A 点\n从圆形轨道Ⅰ进入椭圆轨道Ⅱ，B 为轨道Ⅱ上的一点，如图所示，关于航天\n飞机的运动，下列说法中正确的有（    ）\n（A）在轨道Ⅱ上经过A 的速度小于经过B 的速度\n（B）在轨道Ⅱ上经过A 的动能小于在轨道Ⅰ上经过A 的动能\n（C）在轨道Ⅱ上运动的周期小于在轨道Ⅰ上运动的周期\n（D）在轨道Ⅱ上经过A 的加速度小于在轨道Ⅰ上经过A 的加速度",
+      "answer": "暂无结构化答案",
+      "analysis": "根据开普勒定律，近地点的速度大于远地点的速度，A 正确。由I 轨道变到II 轨道要减速，所以\nB 正确。根据开普勒定律，\n3\n2\nR\nc\nT\n=\n，R\nR\n<\nⅡ\nⅠ，所以T\nT\n<\nⅡ\nⅠ。C 正确。根据\n2\nMm\nG\nma\nR\n=\n得：\n2\nGM\na\nR\n=\n，\n又R\nR\n<\nⅡ\nⅠ，所以a\na\n>\nⅡ\nⅠ，D 错误",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q07",
+      "content": "在如图所示的远距离输电电路图中，升压变压器和降压变压器均为\n理想变压器，发电厂的输出电压和输电线的电阻均不变，随着发电厂输\n出功率的增大，下列说法中正确的有（    ）\n（A）升压变压器的输出电压增大\n（B）降压变压器的输出电压增大\n（C）输电线上损耗的功率增大\n（D）输电线上损耗的功率占总功率的比例增大",
+      "answer": "暂无结构化答案",
+      "analysis": "变压器作用是变压，发电厂的输出电压不变，升压变压器输出的电压 U2 应不变，A 错误；\n由于输电线电流 I = A P\nU2\nE\nA，输电线电压损失 U 损 = IR，降压变压器的初级电压 U3 = U2 – U 损，因 P 变大，\nI 变大，所以 U 损 变大，所以降压变压器初级电压 U3 变小，输出电压 U4 也变小，B 错误；\n输电线功率损失 P 损 = I2R，因 I 变大，所以 P 损 变大，C 正确；\nAP损\nP\nE\nA= A\n( P\nU2)2\nEP\nE\nA= APR\nU22\nE\nA，因 P 变大，所以比值变大，D 正确。\nE\nx\nO\n-x1 x1 x2 x3\nA\nB\n轨道Ⅰ\n轨道Ⅱ\nR\n升压变压器\n用\n户\n发\n电\n厂\n降压变压器\n3 / 9",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q08",
+      "content": "如图所示，平直木板AB 倾斜放置，板上的P 点距A 端较近，小物块与木\n板间的动摩擦因数由A 到B 逐渐减小，先让物块从A 由静止开始滑到B。然\n后，将A 着地，抬高B，使木板的倾角与前一过程相同，再让物块从B 由静止\n开始滑到A。上述两过程相比较，下列说法中一定正确的有（    ）\n（A）物块经过P 点的动能，前一过程较小\n（B）物块从顶端滑到P 点的过程中因摩擦产生的热量，前一过程较少\n（C）物块滑到底端的速度，前一过程较大\n（D）物块从顶端滑到底端的时间，前一过程较长",
+      "answer": "暂无结构化答案",
+      "analysis": "由于a = gsinα－μgcosα，动摩擦因数μ 由A 到B 逐渐减小，两过程倾角相同，前一过程加速度a1\n逐渐增大，后一过程加速度a2 逐渐减小，即a1＜a2。根据v = A 2asE\nA，P 点距A 端较近，Ek = A1\n2\nE\nAmv2，所以\nEk1＜Ek2，选项A 正确。由于Q = μmgscosα，且μ1＞μ2，P 点距A 端较近，无法确定两过程中Q 的大小，\n选项B 错误。因Wf = μmglcosα，动摩擦因数μ 由A 到B 或由B 到A 变化相同，Wf 相同，由动能定理：\n2\n1\n2\nf\nmv\nmgh\nW\n=\n−\n，所以物块滑到底端的速度相同。C 错误。由于前一过程加速度a1 逐渐增大，后一过\n程加速度a2 逐渐减小，物块从顶端滑到底端的时间，前一过程较长，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q09",
+      "content": "如图所示，在匀强磁场中附加另一匀强磁场，附加磁场位于图中阴影区\n域，附加磁场区域的对称轴OOʹ与SSʹ垂直。a、b、c 三个质子先后从S 点\n沿垂直于磁场的方向射入磁场，它们的速度大小相等，b 的速度方向与SSʹ\n垂直，a、c 的速度方向与b 的速度方向间的夹角分别为α、β，且α＞β。\n三个质子经过附加磁场区域后能达到同一点Sʹ，则下列说法中正确的有\n（    ）\n（A）三个质子从S 运动到Sʹ的时间相等\n（B）三个质子在附加磁场以外区域运动时，运动轨迹的圆心均在OOʹ轴\n上\n（C）若撤去附加磁场，a 到达SSʹ连线上的位置距S 点最近\n（D）附加磁场方向与原磁场方向相同",
+      "answer": "暂无结构化答案",
+      "analysis": "由于在匀强磁场中的路径大小不同，三个质子从S 运动到S’的时间不相等，A 错误。三个质子在\n附加磁场中只有b 的运动轨迹的圆心在OO’轴上，所以B 错误。撤去附加磁场由作图法可得，a 到达SS’\n连线的位置距S 最近，选项C 正确。三个质子在原磁场的曲率半径是相同的，无附加磁场时a 到达SS’连\n线的位置距S 最近，要使三个质子经过附加磁场区域后能达到同一点S’，附加磁场方向与原磁场方向相\n同，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q10",
+      "content": "（8 分）在测量电源的电动势和内阻的实验中，由于所用的电压表（视为理想电压表）的量程较小，\n某同学设计了如图所示的实物电路。\nA\nP\nB\nO\nO′\nS\nS′\nβ α\na\nb\nc\n附加磁场区域\n4 / 9\n（1）实验时，应先将电阻箱的电阻调到____（选填“最大值”、“最小值”或“任意值”）\n（2）改变电阻箱的阻值R，分别测出阻值R0 = 10Ω 的定值电阻两端的电压U，下列两组R 的取值方案中，\n比较合理的方案是________（选填1 或2）\n方案编号\n电阻箱的阻值R/Ω\n1\n400.0\n350.0\n300.0\n250.0\n200.0\n2\n80.0\n70.0\n60.0\n50.0\n40.0\n（3）根据实验数据描点，绘出的\nA1\nU\nE\nA-R 图像是一条直线。若直线的斜率为k，在\nA1\nU\nE\nA坐标轴上的截距为b，\n则该电源的电动势E = __________，内阻r = ________（用k、b 和R0 表示）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电阻箱接入回路中的电阻越大，回路电流越小，起保护电源、防止烧坏电压表的作用。\n（2）方案1 中电阻箱接入电路的电阻太大，电压表示数太小，误差太大。因此采用方案2。或若R = 300Ω，\n电流约为\nA\n9\n300＋10\nE\nA = 0.03A，若R = 60Ω，电流约为\nA\n9\n60＋10\nE\nA = 0.15A，后者电流大误差小，所以填2。\n（3）电流I = AU\nR0\nE\nA，E = I（R＋R0＋r），得\nA1\nU\nE\nA = A 1\nER0\nE R＋A1\nE\nE\nA＋A r\nER0\nE\nA，A1\nU\nE\nA-R 图象的斜率k = A 1\nER0\nE\nA，截距b\n= A1\nE\nE\nA＋A r\nER0\nE\nA，所以电动势E = A 1\nkR0\nE\nA，内阻r = Ab\nk\nE\nA－R0",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q11",
+      "content": "（10 分）为了探究受到空气阻力时，物体运动速度随时间\n的变化规律，某同学采用了“加速度与物体质量、物体受力关\n系”的实验装置（如图所示）。实验时，平衡小车与木板之间的\n摩擦力后，在小车上安装一薄板，以增大空气对小车运动的阻\n力。\n（1）往砝码盘中加入一小砝码，在释放小车________（选填“之\n前”或“之后”）接通打点计时器的电源，在纸带上打出一系列\n的点。\n（2）从纸带上选取若干计数点进行测量，得出各计数点的时间t 与速度v 的数据如下表：\n时间t/s\n0\n0.50\n1.00\n1.50\n2.00\n2.50\n速度v/(m·s-1)\n0.12\n0.19\n0.23\n0.26\n0.28\n0.29\n请根据实验数据作出小车的v-t 图像。\n定值电阻R0\n（10Ω）\nV\n电压表\n（量程3V）\n电阻箱R\n（阻值范围0-999.9Ω）\n电源（约9V）\n砝码\n小车\n打点计时器\n薄板\n5 / 9\n（3）通过对实验结果的分析，该同学认为：随着运动速度的增加，小车所受的空气阻力将变大，你是否同\n意他的观点？请根据v-t 图象简要阐述理由。",
+      "answer": "（1）之前\n（2）（如右图）\n（3）同意，在v-t 图象中，速度越大时加速度越小，小车受到的合力越小，则小车受空气阻力越大。",
+      "analysis": "（1）操作规程先接通电源再释放小车。（2）描点用光滑的曲线作图（如图）。（3）同意，在v-t 图\n象中，速度越大时加速度越小，小车受到的合力越小，则小车受空气阻力越大。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q011-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q011-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q12",
+      "content": "【选做题】本题包括A、B、C 三小题，请选定其中两题，并在相应的答题区域内作答\n．．．．．．．．．．．．．．．．．．．．，若三题都做，\n则按A、B 两题评分。\nA.（选修模块3-3）（12 分）\n（1）为了将空气装入气瓶内，现将一定质量的空气等温压缩，空气可视为理想气体。下列图象能正确表示\n该过程中空气的压强 p 和体积 V 关系的是______。\n（2）在将空气压缩装入气瓶的过程中，温度保持不变，外界做了 24 kJ 的功。现潜水员背着该气瓶缓慢\n地潜入海底，若在此过程中，瓶中空气的质量保持不变，且放出了 5 kJ 的热量。在上述两个过程中，空气\n的内能共减小_______kJ，空气_______（选填“吸收”或“放出”）总热量为______kJ。\nt/s\nv/ms-1\nO\nt/s\nv/ms-1\nO\n0.5   1.0   1.5   2.0   2.5   3.0\n0.30\n0.25\n0.20\n0.15\n0.10\n0.05\np\nV\n1\nO\np\nV\n1\nO\nA\nB\nC\nD\np\nV\n1\nO\np\nV\n1\nO\n6 / 9\n（3）已知潜水员在岸上和海底吸入空气的密度分别为1.3kg/m3和2.1kg/m3，空气的摩尔质量为0.029kg/mol，\n阿伏伽德罗常数NA = 6.02×1023mol-1。若潜水员呼吸一次吸入2L 空气，试估算潜水员在海底比在岸上每\n呼吸一次多吸入空气的分子数。（结果保留一位有效数字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由玻意尔定律，PV = C，即\n1\nP\nV\n∝\n，选项B 正确。\n（2）根据热力学第一定律：ΔU = W+Q，第一阶段W1 = 24kJ，ΔU1 = 0，所以Q1 = －24kJ，放热；\n第二阶段W2 = 0，ΔQ2 = －5kJ 放热，所以ΔU2 = －5kJ。又ΔU = ΔU1+ΔU2 = －5kJ，即内能减少5kJ； Q\n= Q1+Q2 = －29kJ，即放出热量29kJ。\n（3）设空气的摩尔质量为 M ，在海底和岸上的密度分别为ρ 海和ρ 岸，一次吸人空气的体积为V，\n则有\n(\n)\nA\nV\nn\nN\nM\nρ\nρ\n−\n∆=\n海\n岸\n，代入数据得：Δn = 3×1022\nB．（选修模块3-4）（12 分）\n（1）激光具有相干性好，平行度好、亮度高等特点，在科学技术和日常生活中应用广泛。下面关于激光的\n叙述正确的是_______。\n（A）激光是纵波\n（B）频率相同的激光在不同介质中的波长相同\n（C）两束频率不同的激光能产生干涉现象\n（D）利用激光平行度好的特点可以测量月球到地球的距离\n（2）如图所示，在杨氏双缝干涉实验中，激光的波长为5.30×10-7m，屏上\nP 点距双缝S1 和S2 的路程差为7.95×10-7m。则在这里出现的应是________\n（选填“明条纹”或“暗条纹”）。现改用波长为6.30×10-7m 的激光进行上\n述实验，保持其他条件不变，则屏上的条纹间距将_______（选填“变宽”、\n“变窄”、或“不变”）。\n（3）如图所示，一束激光从O 点由空气射入厚度均匀的介质，经下表面反射后，\n从上面的A 点射出。已知入射角为i，A 与O 相距l，介质的折射率为n，试求\n介质的厚度d。\n（1）测距利用的是平行度好的特点。答案D\n（2）由于\nA7.95\n5.30\nE\nA = 1.5，波程差是半波长的奇数倍，是暗条纹。又Δx =\nAl\nd\nE\nAλ，λ\n变大，Δx 变大，变宽。\n（3）设折射角为γ，折射定律\nAsini\nsinγ\nE\nA = n；几何关系l = 2d tanγ，解得：d = A n2－sin2i\nE2sini\nE\nAl。\nC.【选修模块3-5】（12 分）\n（1）研究光电效应电路如图所示，用频率相同、强度不同的光分别照射密封真空\n管的钠极板（阴极K），钠极板发射出的光电子被阳极A 吸收，在电路中形成光电\n流。下列光电流I 与AK 之间的电压UAK 的关系图象中，正确的是________。\nS1\nS2\nP\nO\n屏\n挡板\n激光\ni\n激光\n介质\nO\nA\nV\nA\nK\nA\n窗口\n光束\n7 / 9\n（2）钠金属中的电子吸收光子的能量，从金属表面逸出，这就是光电子。光电子从金属表面逸出的过程中，\n其动量的大小_______（选填“增大”、“减小”或“不变”），原因是_______。\n（3）已知氢原子处在第一、第二激发态的能级分别为－3.4eV 和－1.51eV，金属钠的截止频率为5.53×\n1014Hz，普朗克常量h = 6.63×10-34J·s。请通过计算判断，氢原子从第二激发态跃迁到第一激发态过程中\n发出的光照射金属钠板，能否发生光电效应。\n（1）虽然I 强>I 弱，但截止电压相等，选项C 正确\n（2）减小；光电子受到金属表面层中力的阻碍作用（或需要克服逸出功）\n（3）氢原子放出的光子能量E = E3－E2，代人数据得：E  = 1 89eV，金属钠的逸出功W0 = hν0，代人数据\n得W0 = 2.3 eV，因为E＜W0，所以不能发生光电效应。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p005-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p006-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p006-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p007-f08.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q012-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q13",
+      "content": "（15 分）如图所示，两足够长的光滑金属导轨竖直放置，相距为L，一理想\n电流表与两导轨相连，匀强磁场与导轨平面垂直。一质量为m、有效电阻为R 的\n导体棒在距磁场上边界h 处静止释放。导体棒进入磁场后，流经电流表的电流逐\n渐减小，最终稳定为I。整个运动过程中，导体棒与导轨接触良好，且始终保持水\n平，不计导轨的电阻。求：\n（1）磁感应强度的大小B；\n（2）电流稳定后，导体棒运动速度的大小v；\n（3）流经电流表电流的最大值Im。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电流稳定后，导体棒做匀速运动 BIl = mg            ①\n解得：B = Amg\nIl\nE\nA                       ②\n（2）感应电动势  E = Blv                             ③\n感应电流    I = AE\nR\nE\nA                                ④\n由②③④解得 v = AI2R\nmg\nE\n（3）由题意知，导体棒刚进入磁场时的速度最大，设为vm\n由自由落体运动的公式可知 vm = A 2ghE\n机械能守恒\n2\n1\n2\nm\nmv\nmgh\n=\n感应电动势的最大值  Em = Blvm\n感应电流的最大值   Im = AEm\nR\nE\n解得：Im = AAEAmg 2gh\nEIR\nE\nO\nUAK\nI\n强光\n弱光\nO\nUAK\nI\n弱光\n强光\nO\nUAK\nI\n强光\n弱光\nO\nUAK\nI\n弱光\n强光\nA\nh\nL\n8 / 9",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q013-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q013-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q14",
+      "content": "（16 分）在游乐节目中，选手需要借助悬挂在高处的绳飞越到水面\n的浮台上，小明和小阳观看后对此进行了讨论。如图所示，他们将选手简\n化为质量m = 60kg 的质点，选手抓住绳由静止开始摆动，此时绳与竖直\n方向夹角α = 53°，绳的悬挂点O 距水面的高度为H = 3m。不考虑空气阻\n力和绳的质量，浮台露出水面的高度不计，水足够深。取重力加速度g =\n10m/s2，sin53° = 0.8，cos53° = 0.6\n（1）求选手摆到最低点时对绳拉力的大小F；\n（2）若绳长l = 2m，选手摆到最高点时松手落入手中。设水对选手的平均浮力f1 = 800N，平均阻力f2 =\n700N，求选手落入水中的深度d；\n（3）若选手摆到最低点时松手，小明认为绳越长，在浮台上的落点距岸边越远；小阳认为绳越短，落点距\n岸边越远，请通过推算说明你的观点。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）机械能守恒：mgl（1－cosα） = A1\n2\nE\nAmv2          ①\n圆周运动：Fʹ－mg = m Av2\nl\nE\nA\n解得：Fʹ = mg（3－2lcosα）\n人对绳的拉力：F = Fʹ\n则：F = 1080N\n（2）动能定理\nmg（H－lcosα＋d）－（f1＋f2）d = 0\n则d = Amg（H－lcosα）\nf1＋f2－mg\nE\nAd\n解得\nd = 1.2m\n（3）选手从最低点开始做平抛运动x = vt\nH－l = A错误!未定义书签。AA1\n2\nE\nAgt2\n且由①式解得：x = 2 A\nl（H－l）（1－cosα）E\n当l = AH\n2\nE\nA时，x 有最大值    解得l = 1.5m\n因此，两人的看法均不正确。当绳长越接近1.5m 时，落点距岸边越远。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 8,
+        "endPage": 8,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q014-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q014-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010江苏.pdf#q15",
+      "content": "（16 分）制备纳米薄膜装置的工作电极可简化为真空中间距为d 的两平行极板，如图甲所示，加在极\n板A、B 间的电压UAB 作周期性变化，其正向电压为U0，反向电压为－kU0（k＞1），电压变化的周期为2τ，\n如图乙所示。在t = 0 时，极板B 附近的一个电子，质量为m、电荷量为e，受电场作用由静止开始运动。\n若整个运动过程中，电子未碰到极板A，且不考虑重力作用。\nUAB ~\n极板A\n极板B\n电子\n图甲\n图乙\nUAB\nt\nτ\n2τ\n3τ\n4τ\nU0\n-kU0\nO\nm\nl α\n浮台\nH\n9 / 9\n（1）若k = A5\n4\nE\nA，电子在0～2r 时间内不能到达极板A，求d 应满足的条件；\n（2）若电子在0～2τ 时间未碰到极板B，求此运动过程中电子速度v 随时间t 变化的关系；\n（3）若电子在第N 个周期内的位移为零，求k 的值。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电子在0～τ 时间内做匀加速运动，\n加速度的大小a1 = AeU0\nmd\nE\nA，位移x1 = A1\n2\nE\nAa1τ2。\n在τ～2τ 时间内先做匀减速运动，后反向做匀加速运动，\n加速度的大小a2 = A5eU0\n4md\nE\nA，初速度的大小v1 = a1τ，\n匀减速运动阶段的位移x2 = Av12\n2a2\nE\nA。由d＞x1＋x2，解得d＞A\n9eU0τ2\n10m\nE\n（2）在2nτ～（2n＋l）τ［n = 0，1，2，……，（N－l）］时间内速度增量Δv1 = a1τ。\n在（2n＋1）τ～2（n＋1）τ［n = 0，1，2，……，（N－l）］时间内，\n加速度的大小a2ʹ = AekU0\nmd\nE\nA，速度增量Δv2 = －a2τ。\n①当0≤t－2nτ＜τ，电子的运动速度v = nΔv1＋nΔv2＋a1（t－2nτ），\n解得v = [t－（k＋1）nτ] AekU0\nmd\nE\nA［n = 0，1，2，……，（N－l）］。\n②当0≤t－（2n＋l）τ＜τ 时，电子的运动速度v = （n＋1）Δv1+nΔv2－a2ʹ[t－（2n＋1）τ]，解得v = [（n＋\n1）（k＋1）τ－kt] AeU0\nmd\nE\nA［n = 0，1，2，……，（N－l）］\n（3）电子在2（N－1）τ～（2N－1）τ 时间内的位移x2N-1 = v2N-2τ＋A1\n2\nE\nAa1τ2\n电子在（2N－1）τ～2NT 时间内的位移x2N = v2N-1τ－A1\n2\nE\nAa2ʹτ2\n由以上两式可知v2N-2 = （N－1）（1－k）τAeU0\nmd\nE\nv2N-1 = (N－Nk＋k) τAeU0\nmd\nE\n依题意得：x2N-1＋x2N = 0\n解得：k = A4N－1\n4N－3\nE",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010江苏.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q015-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q015-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b40ccfd22d584f9d-q015-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 29,
+    "answerGraphics": 0,
+    "assigned": 29,
+    "rendered": 30,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

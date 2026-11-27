@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015浙江理.pdf",
   "name": "2015浙江理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q01",
       "content": "已知集合P = {x | x2 −2x ⩾0}, Q = {x | 1 < x ⩽2}, 则(∁RP)∩Q =(\n)\n(A) [0, 1)\n(B) (0, 2]\n(C) (1, 2)\n(D) [1, 2]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q02",
       "content": "某几何体的三视图如图所示(单位: cm), 则该几何体的体积是\n(\n)\n2\n2\n2\n2\n正视图\n俯视图\n侧视图\n(A) 8 cm3\n(B) 12 cm3\n(C) 32\n3 cm3\n(D) 40\n3 cm3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q03",
       "content": "已知{an} 是等差数列, 公差d 不为零, 前n 项和是Sn, 若a3, a4, a8 成等\n比数列, 则\n(\n)\n(A) a1d > 0, dS4 > 0\n(B) a1d < 0, dS4 < 0\n(C) a1d > 0, dS4 < 0\n(D) a1d < 0, dS4 > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q04",
       "content": "命题“∀n ∈N∗, f (n) ∈N∗且f (n) ⩽n”的否定形式是\n(\n)\n(A) ∀n ∈N∗, f (n) /∈N∗且f (n) > n\n(B) ∀n ∈N∗, f (n) /∈N∗或f (n) > n\n(C) ∃n0 ∈N∗, f (n0) /∈N∗且f (n0) > n0\n(D) ∃n0 ∈N∗, f (n0) /∈N∗或f (n0) > n0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q05",
       "content": "如图, 设抛物线y2 = 4x 的焦点为F, 不经过焦点的直线上有三个不同的点\nA, B, C, 其中点A, B 在抛物线上, 点C 在y 轴上, 则△BCF 与△ACF\n的面积之比是\n(\n)\nF\nA\nB\nC\nx\ny\nO\n(A) |BF| −1\n|AF| −1\n(B) |BF|2 −1\n|AF|2 −1\n(C) |BF| + 1\n|AF| + 1\n(D) |BF|2 + 1\n|AF|2 + 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +168,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q06",
       "content": "设A, B 是有限集, 定义: d (A, B) = card (A ∪B) −card (A ∩B), 其中\ncard (A) 表示有限集A 中元素的个数.\n命题①: 对任意有限集A, B, “A̸ = B”是“d (A, B) > 0”的充分必要条件;\n命题②: 对任意有限集A, B, C, d (A, C) ⩽d (A, B) + d (B, C).\n(\n)\n(A) 命题①和命题②都成立\n(B) 命题①和命题②都不成立\n(C) 命题①成立, 命题②不成立\n(D) 命题①不成立, 命题②成立",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +201,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q006-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q006-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q07",
       "content": "存在函数f (x) 满足: 对于任意x ∈R 都有\n(\n)\n(A) f (sin 2x) = sin x\n(B) f (sin 2x) = x2 + x\n(C) f (x2 + 1) = |x + 1|\n(D) f (x2 + 2x) = |x + 1|",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +235,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q08",
       "content": "如图, 已知△ABC, D 是AB 的中点, 沿直线CD 将△ACD 翻折成\n△A′CD, 所成二面角A′ −CD −B 的平面角为α, 则\n(\n)\nA\nB\nC\nA′\nD\n(A) ∠A′DB ⩽α\n(B) ∠A′DB ⩾α\n(C) ∠A′CB ⩽α\n(D) ∠A′CB ⩾α",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +264,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q09",
       "content": "双曲线x2\n2 −y2 = 1 的焦距是\n, 渐近线方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +297,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q10",
       "content": "已知函数f (x) =\n\n\n\nx + 2\nx −3,\nx ⩾1,\nlg\n(\nx2 + 1\n)\n,\nx < 1,\n则f (f (−3)) =\n, f (x) 的\n最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +326,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q11",
       "content": "函数f (x) = sin2x + sin x cos x + 1 的最小正周期是\n, 单调递减区间\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +355,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q12",
       "content": "若a = log43, 则2a + 2−a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +384,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q13",
       "content": "如图, 在三棱锥A−BCD 中, AB = AC = BD = CD = 3, AD = BC = 2,\n点M, N 分别为AD, BC 的中点, 则异面直线AN, CM 所成的角的余弦\n值是\n.\nA\nB\nC\nN\nD\nM",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +413,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q013-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q013-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q14",
       "content": "若实数x, y 满足x2 + y2 ⩽1, 则|2x + y −2| + |6 −x −3y| 的最小值\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +447,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q15",
       "content": "已知e1, e2 是空间单位向量, e1 · e2 = 1\n2, 若空间向量b 满足b · e1 = 2, b ·\ne2 = 5\n2, 且对于任意x, y ∈R,\n���#»b −(xe1 + ye2)\n���⩾|b −(x0e1 + y0e2)| =\n1 (x0, y0 ∈R), 则x0 =\n, y0 =\n, |b| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +476,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q16",
       "content": "在△ABC 中, 内角A, B, C 所对的边分别是a, b, c.\n已知A = π\n4 ,\nb2 −a2 = 1\n2c2.\n(1) 求tan C 的值;\n(2) 若△ABC 的面积为3, 求b 的值.\n989",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +505,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q17",
       "content": "如图, 在三棱柱ABC −A1B1C1 中, ∠BAC = 90◦, AB = AC = 2,\nA1A = 4, A1 在底面ABC 的射影为BC 的中点, D 是B1C1 的中点.\n(1) 证明: A1D ⊥平面A1BC;\n(2) 求二面角A1 −BD −B1 的平面角的余弦值.\nA\nB\nC\nD\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +534,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q017-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q017-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q18",
       "content": "已知函数f (x) = x2 + ax + b (a, b ∈R), 记M (a, b) 是|f (x)| 在区间\n[−1, 1] 上的最大值.\n(1) 证明: 当|a| ⩾2 时, M (a, b) ⩾2;\n(2) 当a, b 满足M (a, b) ⩽2 时, 求|a| + |b| 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +567,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q19",
       "content": "已知椭圆x2\n2 + y2 = 1 上两个不同的点A, B 关于直线y = mx + 1\n2 对称.\n(1) 求实数m 的取值范围;\n(2) 求△AOB 面积的最大值(O 为坐标原点).\nx\ny\nO\nB\nA",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +596,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015浙江理.pdf#q20",
       "content": "已知数列{an} 满足a1 = 1\n2 且an+1 = an −a2\nn (n ∈N∗).\n(1) 证明: 1 ⩽\nan\nan+1\n⩽2 (n ∈N∗);\n(2) 设数列{a2\nn} 的前n 项和为Sn, 证明:\n1\n2 (n + 2) ⩽Sn\nn\n⩽\n1\n2 (n + 1)\n(n ∈N∗).\n990",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,11 +625,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-76ea5363e35456cb-q020-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

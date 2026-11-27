@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1980/1980文.pdf",
   "name": "1980文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 8,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 8,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q01",
       "content": "化简: 1 −3i\n3 −2i.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q02",
       "content": "解方程组:\n\n\n\n\n\n\n\n2x −3y −z = 5\n4x + 2y + 3z = 9\n3x + 2y = −1\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -56,22 +74,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q03",
       "content": "用解析法证明: 直径所对的圆周角是直角.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -79,22 +103,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q04",
       "content": "某地区1979 年的轻工业产值占工业总产值的20%, 要使1980 年的工业总\n产值比上一年增长10%, 且使1980 年的轻工业产值占工业总产值的24%,\n问1980 年轻工业产值应比上一年增长百分之几?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -102,22 +132,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q05",
       "content": "设3π\n4 < θ < 5π\n4 , 化简:\n√\ncos π\n4 sin\n(3π\n4 −θ\n) [\nsin (π −θ) −sin\n(\nθ −π\n2\n)]\nsin\n(\nθ + π\n4\n)\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -125,22 +161,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q06",
       "content": "(1) 若四边形ABCD 的对角线AC 将四边形分成面积相等的两个三角形,\n证明: 直线AC 必平分对角线BD;\n(2) 写出(1) 的逆命题, 这个逆命题是否正确? 为什么?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -148,22 +190,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q07",
       "content": "如图, 长方形框架ABCD −A′B′C′D′ 三边AB、AD、AA′ 的长分别为6、",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -171,22 +219,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-32f295e987110ac6-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-32f295e987110ac6-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1980/1980文.pdf#q08",
       "content": "3.6, AE 与底面的对角线B′D′ 垂直于E.\n(1) 证明A′E ⊥B′D′;\n(2) 求AE 的长.\nB′\nC′\nD′\nA′\nB\nC\nD\nA\nE\n8. (1) 把参数方程\n\n\n\nx = sec t\ny = 2 tan t\n(t 为参数) 化为直角坐标方程, 并画出方程\n的曲线的略图;\n(2) 当0 ⩽t < π\n2 及π ⩽t < 3π\n2 时, 各得到曲线的哪一部分?\n16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1980,
       "subject": "数学",
@@ -194,11 +252,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1980/1980文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-32f295e987110ac6-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-32f295e987110ac6-q008-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

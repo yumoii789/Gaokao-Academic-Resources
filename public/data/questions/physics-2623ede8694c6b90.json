@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2013/2013福建理综.pdf",
   "name": "2013福建理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 10,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 3,
+    "reviewCount": 7,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q01",
       "content": "设太阳质量为 M，某行星绕太阳公转周期为 T，轨道可视作半径为 r 的圆。已知万有引力常量为 G，\n则描述该行星运动的上述物理量满足（     ）\n（A）GM = 4π2r3\nT2\n（B）GM = 4π2r2\nT2\n（C）GM = 4π2r2\nT3\n（D）GM = 4πr3\nT2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q02",
       "content": "一束由红、紫两色光组成的复色光，从空气斜射向玻璃三棱镜。下面四幅图中能正确表示该复色光经\n三棱镜分离成两束单色光的是（    ）\n（A）               （B）               （C）                （D）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -56,22 +73,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q002-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q03",
       "content": "如图，实验室一台手摇交流发电机，内阻 r = 1.0 Ω，外接 R = 9.0 Ω 的电阻。闭合开关 S，当发电机\n转子以某一转速匀速转动时，产生的电动势 e = 10 2 sin10πt（V），则（    ）\n（A）该交变电流的频率为 10 Hz\n（B）该电动势的有效值为 10 2 V\n（C）外接电阻 R 所消耗的电功率为 10 W\n（D）电路中理想交流电流表 A 的示数为 1.0 A",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -79,22 +108,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q04",
       "content": "如图，t = 0 时刻，波源在坐标原点从平衡位置沿y 轴正方向开始振动，振动周期为0.4 s，在同一均匀\n介质中形成沿x 轴正、负两方向传播的简谐横波。下图中能够正确表示t = 0.6 s 时波形的图是（    ）\n（A）              （B）               （C）             （D）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -102,22 +141,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q004-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q004-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q004-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q05",
       "content": "在国际单位制（简称SI）中，力学和电学的基本单位有：m（米）、kg（千克）、s（秒）、A（安培）。\n导出单位 V（伏特）用上述基本单位可表示为（    ）\n（A）m2·kg·s−4·A−1\n（B）m2·kg·s−3·A−1\n（C）m2·kg·s−2·A−1\n（D）m2·kg·s−1·A−1\n紫\n红\n紫\n红\n紫\n红\n紫\n红\ny\nO\nx\ny\nO\nx\ny\nO\nx\ny\nO\nx\ne\nr\nR\nA\nS\n～\n2 / 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -125,22 +177,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q06",
       "content": "如图，矩形闭合线框在匀强磁场上方，由不同高度静止释放，用t1、t2 分别表示线框\nab 边和cd 边刚进入磁场的时刻。线框下落过程形状不变，ab 边始终保持与磁场水平边\n界OO′平行，线框平面与磁场方向垂直。设OO′下方磁场磁场区域足够大，不计空气影\n响，则下列哪一个图像不可能\n．．．反映线框下落过程中速度v 随时间t 变化的规律（    ）\n（A）              （B）             （C）               （D）\n第Ⅱ卷（非选择题   共192 分）\n第Ⅱ卷必考部分共10 题，共157 分",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -148,22 +206,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013福建理综.pdf#q07",
       "content": "（18 分）\n（1）（6 分）在“探究恒力做功与动能改变的关系”实验中\n（装置如图甲）：\n①下列说法哪一项是正确的_______。（填选项前字母）\n（A）平衡摩擦力时必须将钩码通过细线挂在小车上\n（B）为减小系统误差，应使钩码质量远大于小车质量\n（C）实验时，应使小车靠近打点计时器由静止释放\n②图乙是实验中获得的一条纸带的一部分，选取O、A、B、\nC 计数点，已知打点计时器使用的交流电频率为50 Hz，则\n打B 点时小车的瞬时速度大小为____m/s（保留三位有效数\n字）。\n（2）（12 分）硅光电池在无光照时不产生电能，可视为一电子元件。某实验小组设计如图甲电路，给硅光\n电池加反向电压（硅光电池负极接高电势点，正极接低电势点），探究其在无光照时的反向伏安特性。图中\n电压表的V1 量程选用3V，内阻为6.0kΩ；电压表V2 量程选用15V，内阻约为30kΩ；R0 为保护电阻；直\n流电源电动势E 约为12V，内阻不计。\n①根据图甲，用笔画线代替导线，将图乙连接成完整电路。\n②用遮光罩罩住硅光电池，闭合开关S，调节变阻器R，读出电压表V1、V2 的示教U1、U2。\n（ⅰ）某次测量时，电压表V1 示数如图丙，则U1 = ______V，可算出通过硅光电他的反向电流大小为____mA\n（保留两位小数）。\n（ⅱ）该小组测出大量数据，筛选出下表所示的9 组U1、U2 数据，算出相应的硅光电池两端反向电压UX\n和通过反向电流IX（表中“－”表示反向），并在坐标纸上建立Ix-Ux 坐标系，标出了与表中前5 组Ux、ix\n数据对应的5 个坐标点。请你标出余下的4 个坐标点，并绘出Ix-Ux 图线。\nv\nt\nO\nt1\nt2\nv\nt\nO\nt2\nt1\nv\nt\nO\nt2\nt1\nv\nt\nO\nt2\nt1\n丙\nV\n3\n1\n5\n1\n2\n0\n5\n10\n15\n0\n甲\nV2\nS\nE\nR0\nR\nV1\n－\n+\n硅光电池\nV\n3 15\nV\n3 15\n硅光电池\n乙\nR0\nV1\nV2\nR\nS\nE\nO\nO′\nd\na\nb\nc\nB\n5.53\nO\nA\nB\nC\n单位：cm\n乙\n11.73\n18.59\n垫\n小车\n纸\n钩码\n甲\n打点计时器\n小\n滑\n3 / 7\n1\n2\n3\n4\n5\n6\n7\n8\n9\nU1/V\n0.00\n0.00\n0.06\n0.12\n0.24\n0.42\n0.72\n1.14\n1.74\nU1/V\n0.0\n1.0\n2.1\n3.1\n4.2\n5.4\n6.7\n8.1\n9.7\nUx/V\n0.0\n-1.0\n-2.0\n-3.0\n-4.0\n-5.0\n-6.0\n-7.0\n-8.0\nIx/mA\n-0.00\n-0.00\n-0.01\n-0.02\n-0.04\n-0.07\n-0.12\n-0.19\n-0.29\n（ⅲ）由Ix-Ux 图线可知，硅光电池无光照下加反向电压时，Ix 与Ux 成____（填“线性”或“非线性”）关\n系。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（2）①电路连接如图所示\n②（i）1.40，0.23\n（ii）如图所示\n（iii）非线性",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -171,11 +239,136 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013福建理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p003-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p003-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p003-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013福建理综.pdf#q08",
+      "content": "（15 分）如图，一不可伸长的轻绳上端悬挂于O 点，下端系一质量m\n= 1.0kg 的小球。现将小球拉到A 点（保持绳绷直）由静止释放，当它经过\nB 点时绳恰好被拉断，小球平抛后落在水平地面上的C 点。地面上的D 点\n与OB 在同一竖直线上，已知绳长L = 1.0 m，B 点离地高度H = 1.0 m，A、\nB 两点的高度差h = 0.5 m，重力加速度g 取10m/s2，不计空气影响，求：\n（1）地面上DC 两点间的距离s；\n（2）轻绳所受的最大拉力大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）小球从A 到B 过程机械能守恒，有\n-0.10\n0\n-0.20\n-0.30\n-1.0\n-2.0\n-3.0\n-4.0\n-5.0\n-6.0\n-7.0\n-8.0\n-9.0\nIx/mA\nUx/V\nV\n3 15\nV\n3 15\n硅光电池\nR0\nV1\nV2\nR\nS\nE\n-0.10\n0\n-0.20\n-0.30\n-1.0\n-2.0\n-3.0\n-4.0\n-5.0\n-6.0\n-7.0\n-8.0\n-9.0\nIx/mA\nUx/V\nA\nL\nB\nD\nC\nO\nh\nH\ns\n4 / 7\n2\n1\n2\nB\nmgh\nmv\n=\n                   ①\n小球从B 到C 做平抛运动，在竖直方向上有\n2\n1\n2\nH\ngt\n=\n                      ②\n在水平方向上有\nB\ns\nv t\n=\n                         ③\n由①②③式解得   s = 1.41m                     ④\n（2）小球下摆到达B 点时，绳的拉力和重力的合力提供向心力，由、有\n2\nB\nv\nF\nmg\nm L\n−\n=\n                  ⑤\n由①⑤式解得   F = 20N\n根据牛顿第三定律  F\nF\n= −\n轻绳所受的最大拉力为20N。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013福建理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013福建理综.pdf#q09",
+      "content": "（19 分）质量为M、长为3 L 的杆水平放置，杆两端A、B 系着长为3L\n的不可伸长且光滑的柔软轻绳，绳上套着一质量为m 的小铁环。已知重力加速\n度为g，不计空气影响。\n（1）现让杆和环均静止悬挂在空中，如图甲，求绳中拉力的大小；\n（2）若杆与环保持相对静止，在空中沿AB 方向水平向右做匀加速直线运动，\n此时环恰好悬于A 端的正下方，如图乙所示。\n①求此状态下杆的加速度大小a；\n②为保持这种状态需在杆上施加一个多大的外力，方向如何？",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）如图1.设平衡时，绳中拉力为FT，有\n2\ncos\n0\nT\nF\nmg\n−\n=\n                    ①\n由图知\n6\ncos\n3\n=\n                           ②\n由①②式解得FT =  6\n4 mg                     ③\n（2）①此时，对小铁环受力分析如图2，有\nA\nB\n1.5L\n1.5L\n图1\nL\nmg\nFT\nFT\nθ\na\nA\nB\n2L\nL\n乙\nL\nA\nB\n1.5L\n1.5L\n甲\nL\n5 / 7\nsin\nT\nF\nma\n\n\n=\n                        ④\ncos\n0\nT\nT\nF\nF\nmg\n\n\n\n\n+\n−\n=\n                 ⑤\n由图知\n0\n60\n=\n，代入④⑤式解得\na =  3\n3 g                               ⑥\n②如图3，设外力F 与水平方向成α 角，将杆和小铁环当成一个整体，有\ncos\n(\n)\nF\nM\nm a\n=\n+\n                   ⑦\nsin\n(\n)\n0\nF\nM\nm g\n−\n+\n=\n                ⑧\n由⑥⑦⑧式解得\nF =  2 3\n3 （m＋M）g\ntan\n3\n)\n\n\n=\n0\n(或=60\n即与水平方向夹角为60º斜向右上方。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013福建理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q009-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q009-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013福建理综.pdf#q10",
+      "content": "（20 分）如图甲，空间存在—范围足够大的垂直于xOy 平面向外的匀强磁场，磁感应强度大小为B。\n让质量为m，电量为q（q＜0）的粒子从坐标原点O 沿xOy 平面以不同的初速度大小和方向入射到该磁场\n中。不计重力和粒子间的影响。\n（1）若粒子以初速度v1 沿y 轴正向入射，恰好能经过x 轴上的A（a，0）点，求v1 的大小；\n（2）已知一粒子的初建度大小为v（v＞v1），为使该粒子能经过A（a，0）点，其入射角θ（粒子初速度与\nx 轴正向的夹角）有几个？并求出对应的sinθ 值；\n（3）如图乙，若在此空间再加入沿y 轴正向、大\n小为E 的匀强电场，一粒子从O 点以初速度v0 沿\nx 轴正向发射。研究表明：粒子在xOy 平面内做周\n期性运动，且在任一时刻，粒子速度的x 分量vx 与\n其所在位置的y 坐标成正比，比例系数与场强大小\nE 无关。求该粒子运动过程中的最大速度值vm。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）带电粒子以速率v 在匀强磁场B 中做匀速圆周运动，半径为R，有\n2v\nqvB\nm R\n=\n                              ①\na\nA\nB\n2L\nL\n图2\nL\nmg\na\nA\nB\n2L\nL\n图3\nL\n(M+m)g\nF\nα\nx\ny\nO\nv\nθ\nB\nA\na\n甲\nx\ny\nO\nE\nB\nv0\n乙\n6 / 7\n当粒子沿y 轴正向入射，转过半个圆周至A 点，该圆周的半径为R1，有\n1\n2\na\nR =\n                                  ②\n由②代入①式得\nv1 = Bqa\n2m                              ③\n⑵如图。O、A 两点处于同一圆周上，且圆心在x = a/2 的直线上，半径为R。\n当确定一个初速率v 时，有2 个入射角，分别在第1、2 象限， 有\n      sin\nsin\n2\na\nR\n\n\n=\n=\n               ④\n由①④解得sin\n2\naqB\nmv\n=\n                   ⑤\n⑶粒子在运动过程中仅有电场力做功，因此在轨道的最高点处速率最大，用ym 表示其y 坐标，由动能定\n理，有\n2\n2\nm\n0\n1\n1\n2\n2\nm\nqEy\nmv\nmv\n=\n−\n                   ⑥\n由题意，有 vm = kym                              ⑦\n若E = 0 时，粒子以初速度v0 沿y 轴正向入射，有\n2\n0\n0\n0\nv\nqv B\nm R\n=\n，                          ⑧\nv0 = kR0                                  ⑨\n由⑥⑦⑧⑨式解得vm = E\nB ＋\nE2\nB2＋v02\n选考部分\n29．【物理-选修3-3】（本题共有两小题，每小题6 分，共12 分。每小题只有一个选项符合题意）\n（1）下列四幅图中，能正确反映分子间作用力f 和分子势能EP 随分子间距离r 变化关系的图线是_______。\n（填选图下方的字母）\n（A）             （B）              （C）            （D）\n（2）某自行车轮胎的容积为V，里面已有压强为p0 的空气，现在要使轮胎内的气压增大到p，设充气过程\n为等温过程，空气可看作理想气体，轮胎容积保持不变，则还要向轮胎充入温度相同，压强也是p0，体积\n为______的空气。（填选项前的字母）\n（A）p0\np V\n（B）p\n p0 V\n（C）（p\n p0 －1）V\n（D）（p\n p0 ＋1）V\n30．【物理选修3-5】（本题共有两小题，每小题6 分，共12 分。每小题只有一个符合题意）\n（1）在卢瑟福α 粒子散射实验中，金箔中的原子核可以看作静止不动，下列各图画出的是其中两个α 粒\n子经历金箔散射过程的径迹，其中正确的是________。（填选图下方的字母）\nEp\nO\nr\nEp, f\nf\nr0\nr\nf\nO\nEp ,f\nEp\nr\nf\nO\nr\nEp, f\nEp\nr\nr\nO\nf\nEp\nEp, f\nr\nR\nx\ny\nO\nv\nθ\nB\nA\na/2\nv\nθ\nR\n7 / 7\n（A）         （B）             （C）             （D）\n（2）将静置在地面上，质量为M（含燃料）的火箭模型点火升空，在极短时间内以相对地面的速度v0 竖\n直向下喷出质量为m 的炽热气体。忽略喷气过程重力和空气阻力的影响，则喷气结束时火箭模型获得的速\n度大小是______。（填选项前的字母）\n（A）m\nM v0\n（B）M\nm v0\n（C）\nM\nM－m v0\n（D）\nm\nM－m v0",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013福建理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p007-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p007-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p007-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2623ede8694c6b90-q010-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 27,
+    "answerGraphics": 0,
+    "assigned": 27,
+    "rendered": 27,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

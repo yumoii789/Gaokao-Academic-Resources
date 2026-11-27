@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2013/2013重庆文.pdf",
   "name": "2013重庆文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q01",
       "content": "已知全集U\n=\n{1, 2, 3, 4}, 集合A\n=\n{1, 2}, B\n=\n{2, 3}, 则\n∁U (A ∪B) =\n(\n)\n(A) {1, 3, 4}\n(B) {3, 4}\n(C) {3}\n(D) {4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q02",
       "content": "命题“对任意x ∈R, 都有x2 ⩾0”的否定为\n(\n)\n(A) 存在x0 ∈R, 使得x2\n0 < 0\n(B) 不存在x ∈R, 使得x2 < 0\n(C) 存在x0 ∈R, 使得x2\n0 ⩾0\n(D) 对任意x ∈R, 都有x2 < 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q03",
       "content": "函数y =\n1\nlog2 (x −2) 的定义域是\n(\n)\n(A) (−∞, 2)\n(B) (2, +∞)\n(C) (2, 3) ∪(3, +∞)\n(D) (2, 4) ∪(4, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q04",
       "content": "设P 是圆(x −3)2 + (y + 1)2 = 4 上的动点, Q 是直线x = −3 上的动点,\n则|PQ| 的最小值为\n(\n)\n(A) 6\n(B) 4\n(C) 3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q05",
       "content": "执行如图所示的程序框图, 则输出的k 的值是\n(\n)\n开始\nk = 1, s = 1\ns = s + (k −1)2\nk = k + 1\ns > 15?\n输出k\n结束\n是\n否\n(A) 3\n(B) 4\n(C) 5\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q06",
       "content": "如图是某公司10 个销售店某月销售某产品数量(单位: 台) 的茎叶图, 则\n数据落在区间[22, 30) 内的频率为\n(\n)\n1\n8\n9\n2\n1\n2\n2\n7\n9\n3\n0\n0\n3\n(A) 0.2\n(B) 0.4\n(C) 0.5\n(D) 0.6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -148,22 +197,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q07",
       "content": "关于x 的不等式x2 −2ax −8a2 < 0 (a > 0) 的解集为(x1, x2), 且\nx2 −x1 = 15, 则a =\n(\n)\n(A) 5\n2\n(B) 7\n2\n(C) 15\n4\n(D) 15\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q08",
       "content": "某几何体的三视图如图所示, 则该几何体的表面积为\n(\n)\n2\n3\n3\n4\n10\n8\n正(主) 视图\n俯视图\n侧(左) 视图\n(A) 180\n(B) 200\n(C) 220\n(D) 240",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -194,22 +259,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q09",
       "content": "已知函数f (x) = ax3 + b sin x + 4 (a, b ∈R), f (lg (log210)) = 5, 则\nf (lg (lg 2)) =\n(\n)\n(A) −5\n(B) −1\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -217,22 +292,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q10",
       "content": "设双曲线C 的中心为点O, 若有且只有一对相交于点O, 所成的角为60◦\n的直线A1B1 和A2B2, 使|A1B1| = |A2B2|, 其中A1, B1 和A2, B2 分别\n是这对直线与双曲线C 的交点, 则该双曲线的离心率的取值范围是\n(\n)\n(A)\n(\n2\n√\n3\n3 , 2\n]\n(B)\n[\n2\n√\n3\n3 , 2\n)\n(C)\n(\n2\n√\n3\n3 , +∞\n)\n(D)\n[\n2\n√\n3\n3 , +∞\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -240,22 +321,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q11",
       "content": "设复数z = 1 + 2i (i 是虚数单位), 则|z| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -263,22 +350,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q12",
       "content": "若2, a, b, c, 9 成等差数列, 则c −a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -286,22 +379,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q13",
       "content": "若甲、乙、丙三人随机地站成一排, 则甲、乙两人相邻而站的概率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q14",
       "content": "在OA 为边、OB 为对角线的矩形中, 已知#   »\nOA = (−3, 1), #    »\nOB = (−2, k),\n则实数k =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q15",
       "content": "设0 ⩽α ⩽π, 不等式8x2 −(8 sin α) x + cos 2α ⩾0 对x ∈R 恒成立, 则\nα 的取值范围为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -355,22 +466,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q16",
       "content": "设数列{an} 满足: a1 = 1, an+1 = 3an, n ∈N+.\n(1) 求{an} 的通项公式及前n 项和Sn;\n(2) 已知{bn} 是等差数列, Tn 为其前n 项和, 且b1 = a2, b3 = a1 +a2 +a3,\n求T20.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -378,22 +499,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q17",
       "content": "从某居民区随机抽取10 个家庭, 获得第i 个家庭的月收入xi (单位: 千\n元) 与月储蓄yi (单位: 千元) 的数据资料, 算得\n10\n∑\ni=1\nxi = 80,\n10\n∑\ni=1\nyi = 20,\n10\n∑\ni=1\nxiyi = 184,\n10\n∑\ni=1\nx2\ni = 720.\n(1) 求家庭的月储蓄y 对月收入x 的线性回归方程y = bx + a;\n(2) 判断变量x 与y 之间是正相关还是负相关;\n(3) 若该居民区某家庭月收入为7 千元, 预测该家庭的月储蓄.\n附: 线性回归方程y = bx + a 中, b =\nn∑\ni=1\nxiyi −nxy\nn∑\ni=1\nx2\ni −nx2\n, a = y −bx, 其中x,\ny 为样本平均值, 线性回归方程也可写为�y = �bx + �a.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -401,22 +528,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q18",
       "content": "在△ABC 中, 内角A, B, C 的对边分别为a, b, c, 且a2 = b2 + c2 +\n√\n3bc.\n(1) 求A;\n(2) 设a =\n√\n3, S 为△ABC 的面积, 求S + 3 cos B cos C 的最大值, 并指\n出此时B 的值.\n793",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -424,22 +561,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q19",
       "content": "如图, 四棱锥P −ABCD 中, PA ⊥底面ABCD, PA = 2\n√\n3, BC =\nCD = 2, ∠ACB = ∠ACD = π\n3 .\n(1) 求证: BD ⊥平面PAC;\n(2) 若侧棱PC 上的点F 满足PF = 7FC, 求三棱锥P −BDF 的体积.\nA\nB\nC\nD\nF\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -447,22 +590,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q20",
       "content": "某村庄拟修建一个无盖的圆柱形蓄水池(不计厚度). 设该蓄水池的底面半\n径为r 米, 高为h 米, 体积为V 立方米. 假设建造成本仅与表面积有关,\n侧面的建造成本为100 元/平方米, 底面的建造成本为160 元/平方米, 该\n蓄水池的总建造成本为12000π 元(π 为圆周率).\n(1) 将V 表示成r 的函数V (r), 并求该函数的定义域;\n(2) 讨论函数V (r) 的单调性, 并确定r 和h 为何值时该蓄水池的体积最大.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -470,22 +623,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2013/2013重庆文.pdf#q21",
       "content": "如图, 椭圆的中心为原点O, 长轴在x 轴上, 离心率e =\n√\n2\n2 , 过左焦点F1\n作x 轴的垂线交椭圆于A, A′ 两点, |AA′| = 4.\n(1) 求该椭圆的标准方程;\n(2) 取平行于y 轴的直线与椭圆相交于不同的两点P, P ′, 过P, P ′ 作圆心\n为Q 的圆, 使椭圆上的其余点均在圆Q 外, 求△PP ′Q 的面积S 的最大\n值, 并写出对应的圆Q 的标准方程.\nx\ny\nO\nQ\nA\nF1\nA′\nP\nP ′\n•\n794",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "数学",
@@ -493,11 +652,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2013/2013重庆文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8756a60755fed7da-q021-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
   "name": "2011安徽理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q01",
-      "content": "一质量为m 的物块恰好静止在倾角为θ 斜面上。现对物块施加一个竖直\n向下的恒力F，如图所示。则物块（    ）\n（A）仍处于静止状态\n（B）沿斜面加速下滑\n（C）受到的摩擦力不变\n（D）受到的合外力增大\n解析：由于质量为m 的物块恰好静止在倾角为θ 的斜面上，说明斜面对物块的作用力与物块的重力平衡，\n斜面与物块的动摩擦因数μ＝tanθ。对物块施加一个竖直向下的恒力F，使得合力仍然为零，故物块仍处于\n静止状态，A 正确，B、D 错误。摩擦力由mgsinθ 增大到(F+mg)sinθ，C 错误。",
+      "content": "一质量为m 的物块恰好静止在倾角为θ 斜面上。现对物块施加一个竖直\n向下的恒力F，如图所示。则物块（    ）\n（A）仍处于静止状态\n（B）沿斜面加速下滑\n（C）受到的摩擦力不变\n（D）受到的合外力增大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由于质量为m 的物块恰好静止在倾角为θ 的斜面上，说明斜面对物块的作用力与物块的重力平衡，\n斜面与物块的动摩擦因数μ＝tanθ。对物块施加一个竖直向下的恒力F，使得合力仍然为零，故物块仍处于\n静止状态，A 正确，B、D 错误。摩擦力由mgsinθ 增大到(F+mg)sinθ，C 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,22 +44,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q02",
-      "content": "实验表明，可见光通过三棱镜时各色光的折射率n\n随着波长λ 的变化符合科西经验公式：n＝A＋A B\nλ2\nE\nA＋AC\nλ4\nE\nA，\n其中A、B、C 是正的常量。太阳光进入三棱镜后发生色\n散的情形如下图所示。则（    ）\n（A）屏上c 处是紫光\n（B）屏上d 处是红光\n（C）屏上b 处是紫光\n（D）屏上a 处是红光\n解析：白色光经过三棱镜后产生色散现象，在光屏由上至下（a、b、c、d）依次为红、橙、黄、绿、蓝、\n靛、紫。屏上a 处为红光，屏上d 处是紫光，D 正确。",
+      "content": "实验表明，可见光通过三棱镜时各色光的折射率n\n随着波长λ 的变化符合科西经验公式：n＝A＋A B\nλ2\nE\nA＋AC\nλ4\nE\nA，\n其中A、B、C 是正的常量。太阳光进入三棱镜后发生色\n散的情形如下图所示。则（    ）\n（A）屏上c 处是紫光\n（B）屏上d 处是红光\n（C）屏上b 处是紫光\n（D）屏上a 处是红光",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "白色光经过三棱镜后产生色散现象，在光屏由上至下（a、b、c、d）依次为红、橙、黄、绿、蓝、\n靛、紫。屏上a 处为红光，屏上d 处是紫光，D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -56,22 +75,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q03",
-      "content": "一物体作匀加速直线运动，通过一段位移Δx 所用的时间为t1，紧接着通过下一段位移Δx 所用时间为\nt2。则物体运动的加速度为（    ）\nθ\nF\n屏\na\nb cd\n第2页（共7页）\n（A）A2Δx（t2－t1）\nt1t2（t1＋t2）E\nA\n（B）AΔx（t2－t1）\nt1t2（t1＋t2）E\nA\n（C）A2Δx（t2＋t1）\nt1t2（t1－t2）E\nA\n（D）AΔx（t2＋t1）\nt1t2（t1－t2）E\n答案：A\n解析：物体作匀加速直线运动在前一段\nx\n∆所用的时间为1t ，平均速度为\n1\n1\nx\nv\nt\n∆\n=\n，即为1\n2\nt 时刻的瞬时速度；\n物体在后一段x\n∆所用的时间为\n2t ，平均速度为\n2\n2\nx\nv\nt\n∆\n=\n，即为\n2\n2\nt\n时刻的瞬时速度。速度由\n1v 变化到\n2v 的\n时间为\n1\n2\n2\nt\nt\nt\n+\n∆=\n，所以加速度\n2\n1\n1\n2\n1 2\n1\n2\n2\n(\n)\n(\n)\nv\nv\nx t\nt\na\nt\nt t t\nt\n−\n∆\n−\n=\n=\n∆\n+\n，A 正确。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一物体作匀加速直线运动，通过一段位移Δx 所用的时间为t1，紧接着通过下一段位移Δx 所用时间为\nt2。则物体运动的加速度为（    ）\nθ\nF\n屏\na\nb cd\n第2页（共7页）\n（A）A2Δx（t2－t1）\nt1t2（t1＋t2）E\nA\n（B）AΔx（t2－t1）\nt1t2（t1＋t2）E\nA\n（C）A2Δx（t2＋t1）\nt1t2（t1－t2）E\nA\n（D）AΔx（t2＋t1）\nt1t2（t1－t2）E",
+      "answer": "A",
+      "analysis": "物体作匀加速直线运动在前一段\nx\n∆所用的时间为1t ，平均速度为\n1\n1\nx\nv\nt\n∆\n=\n，即为1\n2\nt 时刻的瞬时速度；\n物体在后一段x\n∆所用的时间为\n2t ，平均速度为\n2\n2\nx\nv\nt\n∆\n=\n，即为\n2\n2\nt\n时刻的瞬时速度。速度由\n1v 变化到\n2v 的\n时间为\n1\n2\n2\nt\nt\nt\n+\n∆=\n，所以加速度\n2\n1\n1\n2\n1 2\n1\n2\n2\n(\n)\n(\n)\nv\nv\nx t\nt\na\nt\nt t t\nt\n−\n∆\n−\n=\n=\n∆\n+\n，A 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -79,22 +106,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q04",
-      "content": "一般的曲线运动可以分成很多小段，每小段都可以看成圆周运动的一部分，\n即把整条曲线用一系列不同半径的小圆弧来代替。如图（a）所示，曲线上的A\n点的曲率圆定义为：通过A 点和曲线上紧邻A 点两侧的两点作一圆，在极限情\n况下，这个圆就叫做A 点的曲率圆，其半径ρ 叫做A 点的曲率半径。现将一物\n体沿与水平面成α 角的方向已速度v0 抛出，如图（b）所示。则在其轨迹最高点\nP 处的曲率半径是（    ）\n（A）Av02\ng\nE\nA\n（B）Av02sin2α\ng E\nA\n（C）Av02cos2α\ng E\nA\n（D）Av02cos2α\ngsinαE\n解析：物体在其轨迹最高点P 处只有水平速度，其水平速度大小为v0cosα，根据牛顿第二定律得\n2\n0\n(\ncos\n)\nv\nmg\nm\nα\nρ\n=\n，所以在其轨迹最高点P 处的曲率半径是\n2\n2\n0 cos\nv\ng\nα\nρ =\n，C 正确。",
+      "content": "一般的曲线运动可以分成很多小段，每小段都可以看成圆周运动的一部分，\n即把整条曲线用一系列不同半径的小圆弧来代替。如图（a）所示，曲线上的A\n点的曲率圆定义为：通过A 点和曲线上紧邻A 点两侧的两点作一圆，在极限情\n况下，这个圆就叫做A 点的曲率圆，其半径ρ 叫做A 点的曲率半径。现将一物\n体沿与水平面成α 角的方向已速度v0 抛出，如图（b）所示。则在其轨迹最高点\nP 处的曲率半径是（    ）\n（A）Av02\ng\nE\nA\n（B）Av02sin2α\ng E\nA\n（C）Av02cos2α\ng E\nA\n（D）Av02cos2α\ngsinαE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "物体在其轨迹最高点P 处只有水平速度，其水平速度大小为v0cosα，根据牛顿第二定律得\n2\n0\n(\ncos\n)\nv\nmg\nm\nα\nρ\n=\n，所以在其轨迹最高点P 处的曲率半径是\n2\n2\n0 cos\nv\ng\nα\nρ =\n，C 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -102,22 +133,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q05",
-      "content": "图（a）为示波管的原理图。如果在电极YYʹ之间所加的电压图按图（b）所示的规律变化，在电极XXʹ\n之间所加的电压按图（c）所示的规律变化，则在荧光屏上会看到的图形是（    ）\n解析：由于电极XXʹ加的是扫描电压，电极YYʹ之间所加的电压信号电压，所以荧光屏上会看到的图形是\nB，答案B 正确。",
+      "content": "图（a）为示波管的原理图。如果在电极YYʹ之间所加的电压图按图（b）所示的规律变化，在电极XXʹ\n之间所加的电压按图（c）所示的规律变化，则在荧光屏上会看到的图形是（    ）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由于电极XXʹ加的是扫描电压，电极YYʹ之间所加的电压信号电压，所以荧光屏上会看到的图形是\nB，答案B 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -125,22 +164,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q06",
-      "content": "如图所示的区域内有垂直于纸面的匀强磁场，磁感应强度为B。电阻为R、半径为L、圆心角为45°的\n（A）\n（B）\n（C）\n（D）\nρ\nA\n图（a）\nv0\nα\nP\n图（b）\nρ\nt\nt1\n2t\nO\nUy\n图(b)\nt\n2t\n3t\nt1\nUx\nO\n图(c)\n图(a)\n— +\nY\nYʹ\nXʹ\nX\n电子枪\n偏转电极\n荧光屏\nX\nXʹ\nY\n亮斑\nYʹ\n第3页（共7页）\n扇形闭合导线框绕垂直于纸面的O 轴以角速度ω 匀速转动（O 轴位于磁场边\n界）。则线框内产生的感应电流的有效值为（     ）\n（A）ABL2ω\n2RE\nA\n（B）AAEA 2BL2ω\nE2RE\n（C）AAEA 2BL2ω\nE4RE\nA\n（D）ABL2ω\n4RE\n解析：交流电流的有效值是根据电流的热效应得出的，线框转动周期为T，而线框转动一周只有T/4 的时\n间内有感应电流，则有\n2\n2\n2\n(\n)\n4\nL\nBL\nT\nR\nI RT\nR\nω\n=\n，所以\n2\n4\nBL\nI\nR\nω\n=\n。D 正确。",
+      "content": "如图所示的区域内有垂直于纸面的匀强磁场，磁感应强度为B。电阻为R、半径为L、圆心角为45°的\n（A）\n（B）\n（C）\n（D）\nρ\nA\n图（a）\nv0\nα\nP\n图（b）\nρ\nt\nt1\n2t\nO\nUy\n图(b)\nt\n2t\n3t\nt1\nUx\nO\n图(c)\n图(a)\n— +\nY\nYʹ\nXʹ\nX\n电子枪\n偏转电极\n荧光屏\nX\nXʹ\nY\n亮斑\nYʹ\n第3页（共7页）\n扇形闭合导线框绕垂直于纸面的O 轴以角速度ω 匀速转动（O 轴位于磁场边\n界）。则线框内产生的感应电流的有效值为（     ）\n（A）ABL2ω\n2RE\nA\n（B）AAEA 2BL2ω\nE2RE\n（C）AAEA 2BL2ω\nE4RE\nA\n（D）ABL2ω\n4RE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "交流电流的有效值是根据电流的热效应得出的，线框转动周期为T，而线框转动一周只有T/4 的时\n间内有感应电流，则有\n2\n2\n2\n(\n)\n4\nL\nBL\nT\nR\nI RT\nR\nω\n=\n，所以\n2\n4\nBL\nI\nR\nω\n=\n。D 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -148,22 +196,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q006-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q006-p002-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q07",
-      "content": "如图（a）所示，两平行正对的金属板A、B 间加有如图\n（b）所示的交变电压，一重力可忽略不计的带正电粒子被固\n定在两板的正中间P 处。若在t0 时刻释放该粒子，粒子会时而\n向A 板运动，时而向B 板运动，并最终打在A 板上。则t0 可\n能属于的时间段是（     ）\n（A）0＜t0＜T/4\n（B）T/2＜t0＜3T/4\n（C）3T/4＜t0＜T\n（D）T＜t0＜9T/8\n解析：若\n0\n0\n4\nT\nt\n<\n<\n，带正电粒子先加速向B 板运动、再减速运动至零；然后再反方向加速运动、减速运\n动至零；如此反复运动，每次向右运动的距离大于向左运动的距离，最终打在B 板上，所以A 错误。若\n0\n3\n2\n4\nT\nT\nt\n<\n<\n，带正电粒子先加速向A 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；\n如此反复运动，每次向左运动的距离大于向右运动的距离，最终打在A 板上，所以B 正确。若\n0\n3\n4\nT\nt\nT\n<\n<\n，\n带正电粒子先加速向A 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；如此反复运动，\n每次向左运动的距离小于向右运动的距离，最终打在B 板上，所以C 错误。若\n0\n9\n8\nT\nT\nt\n<\n<\n，带正电粒子\n先加速向B 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；如此反复运动，每次向右\n运动的距离大于向左运动的距离，最终打在B 板上，所以D 错误。\n第Ⅱ卷（非选择题 共180 分）\n考生注意事项：\n请用0.5 毫米黑色墨水签字笔在答题卡上\n．．．．．作答，在试题卷上答题无效\n．．．．．．．．．。",
+      "content": "如图（a）所示，两平行正对的金属板A、B 间加有如图\n（b）所示的交变电压，一重力可忽略不计的带正电粒子被固\n定在两板的正中间P 处。若在t0 时刻释放该粒子，粒子会时而\n向A 板运动，时而向B 板运动，并最终打在A 板上。则t0 可\n能属于的时间段是（     ）\n（A）0＜t0＜T/4\n（B）T/2＜t0＜3T/4\n（C）3T/4＜t0＜T\n（D）T＜t0＜9T/8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "若\n0\n0\n4\nT\nt\n<\n<\n，带正电粒子先加速向B 板运动、再减速运动至零；然后再反方向加速运动、减速运\n动至零；如此反复运动，每次向右运动的距离大于向左运动的距离，最终打在B 板上，所以A 错误。若\n0\n3\n2\n4\nT\nT\nt\n<\n<\n，带正电粒子先加速向A 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；\n如此反复运动，每次向左运动的距离大于向右运动的距离，最终打在A 板上，所以B 正确。若\n0\n3\n4\nT\nt\nT\n<\n<\n，\n带正电粒子先加速向A 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；如此反复运动，\n每次向左运动的距离小于向右运动的距离，最终打在B 板上，所以C 错误。若\n0\n9\n8\nT\nT\nt\n<\n<\n，带正电粒子\n先加速向B 板运动、再减速运动至零；然后再反方向加速运动、减速运动至零；如此反复运动，每次向右\n运动的距离大于向左运动的距离，最终打在B 板上，所以D 错误。\n第Ⅱ卷（非选择题 共180 分）\n考生注意事项：\n请用0.5 毫米黑色墨水签字笔在答题卡上\n．．．．．作答，在试题卷上答题无效\n．．．．．．．．．。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -171,22 +229,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q08",
-      "content": "（18 分）\nⅠ．为了测量某一弹簧的劲度系数，将该弹簧竖直悬挂起来，\n在自由端挂上不同质量的砝码。实验测出了砝码的质量m 与\n弹簧长度l 的相应数据，七对应点已在图上标出。\n（g＝9.8m/s2）\n（1）作出m-l 的关系图线；\n（2）弹簧的劲度系数为_______N/m。\n解析：Ⅰ．（1）如图所示\nm/克\nl/厘米\n2.5\n2.0\n1.5\n1.0\n0.5\n0.0\n8.0\n10.0 12.0 14.0 16.0 18.0\n×\n×\n×\n×\n×\n×\nω\nL\nO\n45°\nB\nP\nA\nB\n图(a)\nt\nUAB\nU0\n-U0\nO\nT/2 T\n图(b)\n第4页（共7页）\n（2）0.248~0.262\nⅡ．（1）某同学使用多用电表粗略测量一定值电阻的阻值，先把选择开关旋到“×1k”挡位，测量时针偏\n转如图（a）所示。请你简述接下来的测量过程：\n①__________________________________________；\n②__________________________________________；\n③__________________________________________；\n④测量结束后，将选择开关旋到“OFF”挡。\n（2）接下来采用“伏安法”较准确地测量该电阻的阻值，所用实验器材如图（b）所示。其中电压表内阻\n约为5kΩ，电流表内阻约为5Ω。图中部分电路已经连接好，请完成实验电路的连接。\n（3）图（c）是一个多量程多用电表的简化电路图，测量电流、电压和电阻各有两个量程。当转换开关S\n旋到位置3 时，可用来测量______；当S 旋到位置_______时，可用来测量电流，其中S 旋到位置________\n时量程较大。\nm/克\nl/厘米\n2.5\n2.0\n1.5\n1.0\n0.5\n0.0 8.0\n10.0 12.0 14.0 16.0 18.0\n×\n×\n×\n×\n×\n×\n图（a）\nA\nV\n+\nR\n图（b）\nA\nB\nE\nEʹ\n红表笔\n黑表笔\n1\n2 3 4 5\n6\n图（c）\n第5页（共7页）\nⅡ．（1）①断开待测电阻，将选择开关旋到“×100”档；\n②将两表笔短接，调整“欧姆调零旋钮”，使指针指向“0Ω”；\n③再接入待测电阻，将指针示数×100，即为待测电阻阻值。\n（2）如图所示\n（3）电阻，1、2，1",
+      "content": "（18 分）\nⅠ．为了测量某一弹簧的劲度系数，将该弹簧竖直悬挂起来，\n在自由端挂上不同质量的砝码。实验测出了砝码的质量m 与\n弹簧长度l 的相应数据，七对应点已在图上标出。\n（g＝9.8m/s2）\n（1）作出m-l 的关系图线；\n（2）弹簧的劲度系数为_______N/m。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "Ⅰ．（1）如图所示\nm/克\nl/厘米\n2.5\n2.0\n1.5\n1.0\n0.5\n0.0\n8.0\n10.0 12.0 14.0 16.0 18.0\n×\n×\n×\n×\n×\n×\nω\nL\nO\n45°\nB\nP\nA\nB\n图(a)\nt\nUAB\nU0\n-U0\nO\nT/2 T\n图(b)\n第4页（共7页）\n（2）0.248~0.262\nⅡ．（1）某同学使用多用电表粗略测量一定值电阻的阻值，先把选择开关旋到“×1k”挡位，测量时针偏\n转如图（a）所示。请你简述接下来的测量过程：\n①__________________________________________；\n②__________________________________________；\n③__________________________________________；\n④测量结束后，将选择开关旋到“OFF”挡。\n（2）接下来采用“伏安法”较准确地测量该电阻的阻值，所用实验器材如图（b）所示。其中电压表内阻\n约为5kΩ，电流表内阻约为5Ω。图中部分电路已经连接好，请完成实验电路的连接。\n（3）图（c）是一个多量程多用电表的简化电路图，测量电流、电压和电阻各有两个量程。当转换开关S\n旋到位置3 时，可用来测量______；当S 旋到位置_______时，可用来测量电流，其中S 旋到位置________\n时量程较大。\nm/克\nl/厘米\n2.5\n2.0\n1.5\n1.0\n0.5\n0.0 8.0\n10.0 12.0 14.0 16.0 18.0\n×\n×\n×\n×\n×\n×\n图（a）\nA\nV\n+\nR\n图（b）\nA\nB\nE\nEʹ\n红表笔\n黑表笔\n1\n2 3 4 5\n6\n图（c）\n第5页（共7页）\nⅡ．（1）①断开待测电阻，将选择开关旋到“×100”档；\n②将两表笔短接，调整“欧姆调零旋钮”，使指针指向“0Ω”；\n③再接入待测电阻，将指针示数×100，即为待测电阻阻值。\n（2）如图所示\n（3）电阻，1、2，1",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -194,22 +260,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 3,
+        "endPage": 5,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p004-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p004-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p005-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q008-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q09",
-      "content": "（14 分）\n（1）开普勒行星运动第三定律指出：行星绕太阳运动的椭圆轨道的半长轴a 的三次方与它的公转周期T\n的二次方成正比，即\nAa3\nT2\nE\nA＝k，k 是一个对所有行星都相同的常量。将行星绕太阳的运动按圆周运动处理，\n请你推导出太阳系中该常量k 的表达式。已知引力常量为G，太阳的质量为M 太。\n（2）开普勒定律不仅适用于太阳系，它对一切具有中心天体的引力系统（如地月系统）都成立。经测定月\n地距离为3.84×108m，月球绕地球运动的周期为2.36×106s，试计算地球的质M 地。\n（G＝6.67×10-11Nm2/kg2，\n结果保留一位有效数字）\n解析：（1）因行星绕太阳作匀速圆周运动，于是轨道的半长轴a 即为轨道半径r。根据万有引力定律和牛\n顿第二定律有\nGAM太m行\nr2\nE\nA＝m 行\nA4π2\nT2\nE\nAr                 ①\n于是有\nAr3\nT2\nE\nA＝AGM太\n4π2\nE\nA                        ②\n即k＝AGM太\n4π2\nE\nA                         ③\n（2）在月地系统中，设月球绕地球运动的轨道半径为R，周期为T，由②式可得\nAR3\nT2\nE\nA＝AGM地\n4π2\nE\nA                       ④\n解得M 地＝6×1024kg                         ⑤\n（M 地＝5×1024kg 也算对）",
+      "content": "（14 分）\n（1）开普勒行星运动第三定律指出：行星绕太阳运动的椭圆轨道的半长轴a 的三次方与它的公转周期T\n的二次方成正比，即\nAa3\nT2\nE\nA＝k，k 是一个对所有行星都相同的常量。将行星绕太阳的运动按圆周运动处理，\n请你推导出太阳系中该常量k 的表达式。已知引力常量为G，太阳的质量为M 太。\n（2）开普勒定律不仅适用于太阳系，它对一切具有中心天体的引力系统（如地月系统）都成立。经测定月\n地距离为3.84×108m，月球绕地球运动的周期为2.36×106s，试计算地球的质M 地。\n（G＝6.67×10-11Nm2/kg2，\n结果保留一位有效数字）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）因行星绕太阳作匀速圆周运动，于是轨道的半长轴a 即为轨道半径r。根据万有引力定律和牛\n顿第二定律有\nGAM太m行\nr2\nE\nA＝m 行\nA4π2\nT2\nE\nAr                 ①\n于是有\nAr3\nT2\nE\nA＝AGM太\n4π2\nE\nA                        ②\n即k＝AGM太\n4π2\nE\nA                         ③\n（2）在月地系统中，设月球绕地球运动的轨道半径为R，周期为T，由②式可得\nAR3\nT2\nE\nA＝AGM地\n4π2\nE\nA                       ④\n解得M 地＝6×1024kg                         ⑤\n（M 地＝5×1024kg 也算对）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -217,22 +296,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q10",
-      "content": "（16 分）\nA\nV\n+\nR\n图（b）\n第6页（共7页）\n如图所示，在以坐标原点O 为圆心、半径为R 的半圆形区域内，有相\n互垂直的匀强电场和匀强磁场，磁感应强度为B，磁场方向垂直于xOy\n平面向里。一带正电的粒子（不计重力）从O 点沿y 轴正方向以某一\n速度射入，带电粒子恰好做匀速直线运动，经t0 时间从P 点射出。\n（1）求电场强度的大小和方向。\n（2）若仅撤去磁场，带电粒子仍从O 点以相同的速度射入，经\nAt0\n2\nE\nA时\n间恰从半圆形区域的边界射出。求粒子运动加速度的大小。\n（3）若仅撤去电场，带电粒子仍从O 点射入，且速度为原来的4 倍，求粒子在磁场中运动的时间。\n解析：（1）设带电粒子的质量为m，电荷量为q，初速度为v，电场强度为E。可判断出粒子受到的洛伦磁\n力沿x 轴负方向，于是可知电场强度沿x 轴正方向\n且有    qE＝qvB                       ①\n又     R＝vt0                         ②\n则E＝ABR\nt0 E\nA                      ③\n（2）仅有电场时，带电粒子在匀强电场中作类平抛运动\n在y 方向位移\n2\n2\nt\ny\nv\n=\n            ④\n由②④式得\n2\nR\ny =\n                  ⑤\n设在水平方向位移为x，因射出位置在半圆形区域边界上，于是\n                   x＝AAEA 3\nE2 E R\n又有\n2\n0\n1 (\n)\n2\n2\nt\nx\na\n=\n            ⑥\n得a＝AAEA4 3R\nEt02\nE\nA             ⑦\n（3）仅有磁场时，入射速度\n4\nv\nv\n′ =\n，带电粒子在匀强磁场中作匀速圆周运动，设轨道半径为r，由牛顿第\n二定律有\n2\nv\nqv B\nm r\n′\n′\n=\n            ⑧\n又                 qE＝ma                  ⑨\n由⑦⑧⑨式得       r＝AAEA 3\nE3 E\nAR                ⑩\n由几何关系         sinα＝A R\n2rE\nA\nA○\n11 E\n即     sinα＝AAEA 3\nE2 E\nA        α＝Aπ\n3 E\nA\nA○\n12 E\n带电粒子在磁场中运动周期\n            T＝A2πm\nqBE\n则带电粒子在磁场中运动时间\nt＝A2α\n2πE\nAT\nx\ny\nO\nP\nB\nR\n第7页（共7页）\n所以t＝AAEA 3π\nE18E\nAt0            A○\n13 E",
+      "content": "（16 分）\nA\nV\n+\nR\n图（b）\n第6页（共7页）\n如图所示，在以坐标原点O 为圆心、半径为R 的半圆形区域内，有相\n互垂直的匀强电场和匀强磁场，磁感应强度为B，磁场方向垂直于xOy\n平面向里。一带正电的粒子（不计重力）从O 点沿y 轴正方向以某一\n速度射入，带电粒子恰好做匀速直线运动，经t0 时间从P 点射出。\n（1）求电场强度的大小和方向。\n（2）若仅撤去磁场，带电粒子仍从O 点以相同的速度射入，经\nAt0\n2\nE\nA时\n间恰从半圆形区域的边界射出。求粒子运动加速度的大小。\n（3）若仅撤去电场，带电粒子仍从O 点射入，且速度为原来的4 倍，求粒子在磁场中运动的时间。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设带电粒子的质量为m，电荷量为q，初速度为v，电场强度为E。可判断出粒子受到的洛伦磁\n力沿x 轴负方向，于是可知电场强度沿x 轴正方向\n且有    qE＝qvB                       ①\n又     R＝vt0                         ②\n则E＝ABR\nt0 E\nA                      ③\n（2）仅有电场时，带电粒子在匀强电场中作类平抛运动\n在y 方向位移\n2\n2\nt\ny\nv\n=\n            ④\n由②④式得\n2\nR\ny =\n                  ⑤\n设在水平方向位移为x，因射出位置在半圆形区域边界上，于是\n                   x＝AAEA 3\nE2 E R\n又有\n2\n0\n1 (\n)\n2\n2\nt\nx\na\n=\n            ⑥\n得a＝AAEA4 3R\nEt02\nE\nA             ⑦\n（3）仅有磁场时，入射速度\n4\nv\nv\n′ =\n，带电粒子在匀强磁场中作匀速圆周运动，设轨道半径为r，由牛顿第\n二定律有\n2\nv\nqv B\nm r\n′\n′\n=\n            ⑧\n又                 qE＝ma                  ⑨\n由⑦⑧⑨式得       r＝AAEA 3\nE3 E\nAR                ⑩\n由几何关系         sinα＝A R\n2rE\nA\nA○\n11 E\n即     sinα＝AAEA 3\nE2 E\nA        α＝Aπ\n3 E\nA\nA○\n12 E\n带电粒子在磁场中运动周期\n            T＝A2πm\nqBE\n则带电粒子在磁场中运动时间\nt＝A2α\n2πE\nAT\nx\ny\nO\nP\nB\nR\n第7页（共7页）\n所以t＝AAEA 3π\nE18E\nAt0            A○\n13 E",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -240,22 +323,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 5,
+        "endPage": 7,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q010-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q010-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2011/2011安徽理综.pdf#q11",
-      "content": "（20 分）\n如图所示，质量M＝2kg 的滑块套在光滑的水平轨道上，质量m＝1kg 的小球通过长L＝0.5m 的轻质细杆\n与滑块上的光滑轴O 连接，小球和轻杆可在竖直平面内绕O 轴自由转动，开始轻杆处于水平状态，现给小\n球一个竖直向上的初速度v0＝4m/s，g 取10m/s2。\n（1）若锁定滑块，试求小球通过最高点P 时对轻杆的作用力大小和方向。\n（2）若解除对滑块的锁定，试求小球通过最高点时的速度大小。\n（3）在满足（2）的条件下，试求小球击中滑块右侧轨道位置点与小\n球起始位置点间的距离。\n解析：（1）设小球能通过最高点，且此时的速度为v1。在上升过程中，\n因只有重力做功，小球的机械能守恒。则\nA1\n2 E\nAmv12＋mgL＝A1\n2 E\nAmv02             ①\n1\n6\n/\nv\nm s\n=\n                    ②\n      设小球到达最高点时，轻杆对小球的作用力为F，方向向下，则\n                    mg＋F＝mAv12\nLE\nA                  ③\n      由②③式，得   F＝2N                          ④\n      由牛顿第三定律可知，小球对轻杆的作用力大小为2N，方向竖直向上。\n    （2）解除锁定后，设小球通过最高点时的速度为v2，此时滑块的速度为V。在上升过程中，因系统在\n水平方向上不受外力作用，水平方向的动量守恒。以水平向右的方向为正方向，有\n2\n0\nmv\nMV\n+\n=\n                    ⑤\n       在上升过程中，因只有重力做功，系统的机械能守恒，则\n2\n2\n2\n2\n0\n1\n1\n1\n2\n2\n2\nmv\nMV\nmgL\nmv\n+\n+\n=\n      ⑥\n       由⑤⑥式，得   v2＝2m/s                        ⑦\n     （3）设小球击中滑块右侧轨道的位置点与小球起始点的距离为s1，滑块向左移动的距离为s2，任意\n时刻小球的水平速度大小为v3，滑块的速度大小为V/。由系统水平方向的动量守恒，得\n3\n0\nmv\nMV′\n−\n=\n                     ⑦\n          将⑧式两边同乘以t\n∆，得\n3\n0\nmv\nt\nMV\nt\n′\n∆−\n∆=\n                 ⑨\n          因⑨式对任意时刻附近的微小间隔t\n∆都成立，累积相加后，有\n                  ms1－Ms2＝0\nA○\n10 E\n          又      s1＋s2＝2L\nA○\n11 E\n          由\nA○\n10 E\nAA○\n11 E\nA式得s1＝A2\n3\nE\nAm\nA○\n12 E\nM\nm\nv0\nO\nP\nL",
+      "content": "（20 分）\n如图所示，质量M＝2kg 的滑块套在光滑的水平轨道上，质量m＝1kg 的小球通过长L＝0.5m 的轻质细杆\n与滑块上的光滑轴O 连接，小球和轻杆可在竖直平面内绕O 轴自由转动，开始轻杆处于水平状态，现给小\n球一个竖直向上的初速度v0＝4m/s，g 取10m/s2。\n（1）若锁定滑块，试求小球通过最高点P 时对轻杆的作用力大小和方向。\n（2）若解除对滑块的锁定，试求小球通过最高点时的速度大小。\n（3）在满足（2）的条件下，试求小球击中滑块右侧轨道位置点与小\n球起始位置点间的距离。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设小球能通过最高点，且此时的速度为v1。在上升过程中，\n因只有重力做功，小球的机械能守恒。则\nA1\n2 E\nAmv12＋mgL＝A1\n2 E\nAmv02             ①\n1\n6\n/\nv\nm s\n=\n                    ②\n      设小球到达最高点时，轻杆对小球的作用力为F，方向向下，则\n                    mg＋F＝mAv12\nLE\nA                  ③\n      由②③式，得   F＝2N                          ④\n      由牛顿第三定律可知，小球对轻杆的作用力大小为2N，方向竖直向上。\n    （2）解除锁定后，设小球通过最高点时的速度为v2，此时滑块的速度为V。在上升过程中，因系统在\n水平方向上不受外力作用，水平方向的动量守恒。以水平向右的方向为正方向，有\n2\n0\nmv\nMV\n+\n=\n                    ⑤\n       在上升过程中，因只有重力做功，系统的机械能守恒，则\n2\n2\n2\n2\n0\n1\n1\n1\n2\n2\n2\nmv\nMV\nmgL\nmv\n+\n+\n=\n      ⑥\n       由⑤⑥式，得   v2＝2m/s                        ⑦\n     （3）设小球击中滑块右侧轨道的位置点与小球起始点的距离为s1，滑块向左移动的距离为s2，任意\n时刻小球的水平速度大小为v3，滑块的速度大小为V/。由系统水平方向的动量守恒，得\n3\n0\nmv\nMV′\n−\n=\n                     ⑦\n          将⑧式两边同乘以t\n∆，得\n3\n0\nmv\nt\nMV\nt\n′\n∆−\n∆=\n                 ⑨\n          因⑨式对任意时刻附近的微小间隔t\n∆都成立，累积相加后，有\n                  ms1－Ms2＝0\nA○\n10 E\n          又      s1＋s2＝2L\nA○\n11 E\n          由\nA○\n10 E\nAA○\n11 E\nA式得s1＝A2\n3\nE\nAm\nA○\n12 E\nM\nm\nv0\nO\nP\nL",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -263,11 +355,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011安徽理综.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-7e2c7909b9369a09-q011-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 0,
+    "assigned": 17,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

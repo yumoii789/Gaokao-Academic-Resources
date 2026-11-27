@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1953/1953.pdf",
   "name": "1953",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 3,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 5,
+    "answerBlocks": 5,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 5,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1953/1953.pdf#q01",
       "content": "下列十题顺次解答, 不必抄题（但须写明题号: 甲, 乙,\n丙⋯⋯）,结果务须明确,过程可以简单。\n甲、解  x +1\nx -1 + x -1\n x +1 = 10\n3\n乙、若 3x2+kx+12=0 之二根相等,求k.\n丙、求\n之值．\n3\n1\n1\n2\n4\n6\n7\n0\n5\n−\n丁、求\n之值．\nlog 300\n 7 + log 700\n 3 +log 1\n10\n10\n10\n戊、求tan(870°)\n己、若\n求之通值．\ncos2x = 1\n2 ,\nx\n庚、两三角形相似之条件为何？（把你所知道的都写出来）\n辛、长方体之长、宽、高为12 寸,3 寸,4 寸,求对角线之长.\n壬、垂直三棱柱之高为6 寸,底面三边之长为3 寸,4 寸,5 寸,求体\n积.\n癸、球之表面积为36π方寸,求体积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "下列十题顺次解答, 不必抄题（但须写明题号: 甲, 乙,\n丙⋯⋯）,结果务须明确,过程可以简单。\n甲、将原方程整化得6(x2+1)=10(x2-1),故4x2=16,x=±2.\n乙、原方程二根相等之条件为\n× ×\n即\n±\n．\n k - 4\n3\n12 = 0,\nk =\n,k =\n2\n2\n2\n12\n12\n丙、原行列式=3×4×5-6×7-4×7+2×5\n=60-42-28+10=0.\n丁、原式\n×\n×\n．\n= log ( 300\n7\n700\n3\n1) = log 10000 = 4\n10\n10\n戊、\n°\n°\n°\n°\n°\ntan870\n= tan(900\n- 30\n)\n= tan(-30\n) = -tan30\n= - 1\n3\n己、因\n故\nπ± π\nπ± π ．\ncos2x = 1\n2 ,\n2x = 2n\n3 ,x = n\n6\n庚、(i)   ∠A=∠A′,∠B=∠B′;\n(ii)  ∠A=∠A′,AB∶A′B′=AC∶A′C′;\n(iii) AB∶A′B′=AC∶A′C′=BC∶B′C′;\n三者各为△ABC—△A′B′C′之条件.\n辛、对角线\n寸\n寸\n寸．\n=\n12 + 3 + 4\n=\n169\n= 13\n2\n2\n2\n壬、因32+42=52,故底面为直角三角形,\n其面积为1\n2\n3\n4\n= 6\n× × 方寸\n方寸．\n（或用“底面积\n方寸\n方寸”亦可）\n= 1\n4 (3+ 4 +5)(3+ 4 -5)(3-4 +5)(-3+ 4 +5)\n= 6\n棱柱体积=6×6 立方寸=36 立方寸.\n癸、设球的半径为R 寸,则4πR2=36π,∴ R=3.\n球的体积为\nπ\nπ（立方寸）．\n4\n3\nR = 36\n3",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1953,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1953/1953.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1953/1953.pdf#q02",
       "content": "解\n＋\n＋\n．\nx - 2xy\n3y\n= 9,\n4x - 5xy\n6y\n= 30\n2\n2\n2\n 2\n\n\n",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:原方程组消去常数项,得\n2x2+5xy-12y2=0\n将此方程左边分解因式,得\n(x+4y)(2x-3y)=0,\n即     x+4y=0,2x-3y=0.\n由此有\n（）\n，\n；\n（）\n，\n．\nI\nx\nxy\ny\nx\ny\nII\nx\nxy\ny\nx\ny\n2\n2\n2\n2\n2\n3\n9\n4\n0\n2\n3\n9\n2\n3\n0\n−\n+\n=\n+\n=\n\n\n\n−\n+\n=\n−\n=\n\n\n\n解方程组(Ⅰ),得\nx\ny\nx\ny\n1\n1\n2\n2\n4\n3\n3\n1\n3\n3\n4\n3\n3\n1\n3\n3\n=\n= −\n\n\n\n\n\n= −\n=\n\n\n\n\n\n，\n；\n，\n；\n解方程组(Ⅱ),得\nx\ny\nx\ny\n3\n3\n4\n4\n3\n2\n3\n2\n=\n=\n\n\n\n= −\n= −\n\n\n\n，\n；\n，\n．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1953,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1953/1953.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1953/1953.pdf#q03",
       "content": "化简\n．\n(1)\n12\n25  + 90000 +\n64\n27\n4\n6\n(2)\n(2x + 1\nx )\n3\n12\n求\n之展开式中之常数项．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：\n原式\n×\n×\n(1)\n=\n3\n2\n5\n+\n3\n10 +\n2\n3\n= 2\n5\n3 +10 3 + 2\n3\n3\n = 166\n15\n 3\n2\n2\n2\n4\n4\n6\n3\n6\n(2)由二项展开式的通项公式:\nT\n= C (2x )\n( 1\nx)\n= C\n2\nx\nr+1\n12\nr\n3\n12\nr\nr\n12\nr\n12\nr\n36\n4r\n－\n－\n－\n·\n·\n令       36-4r=0,\n∴           r=9.\n故常数项为\nC\nC\n12\n9\n12 9\n12\n3\n3\n2\n2\n1760\n⋅\n⋅\n−=\n=\n．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1953,
       "subject": "数学",
@@ -79,22 +98,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1953/1953.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1953/1953.pdf#q04",
       "content": "锐角三角形ABC 之三高线为AD,BE,CF,垂心为H;求证HD 平分\n∠EDF.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "证明:由于AD⊥BC,BE⊥CA,\n∴  点A,B,D,E 共圆.\n故  ∠ADE=∠ABE.\n又因点F,B,C,E 共圆,\n∴  ∠FBE=∠FCE.\n又因点C,A,F,D 共圆,\n∴  ∠FCA=∠FDA.\n综上可得∠ADE=∠FDA,\n即AD 平分∠EDF.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1953,
       "subject": "数学",
@@ -102,22 +125,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1953/1953.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1953/1953.pdf#q05",
       "content": "已知三角形的两个角为45°及60°,而其夹边长1 尺;求最小边\n之长及面积.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:已知∠B=45°,∠C=60°,于是∠A=75°.\n由正弦定理得\nAC\nsin45\n =\n1\n sin75\n°\n°\n，\n∴\n=\n°\n° =\n+\n=\n−\nAC\nsin\nsin\n(\n)\n(\n)\n45\n75\n2\n2\n2\n2\n3\n2\n1\n2\n3\n1 尺．\n△\n的面积\n× ×\n·\n°\n（平方尺）．\nABC\n S = 1\n2\n1\n( 3\n1)\nsin60\n= 1\n4 (3\n 3)\n−\n−",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1953,
       "subject": "数学",
@@ -125,11 +152,23 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1953/1953.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 1,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

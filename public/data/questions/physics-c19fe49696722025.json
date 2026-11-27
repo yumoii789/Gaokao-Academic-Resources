@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/1977/1977山东B卷.pdf",
   "name": "1977山东B卷",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 2,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 3,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 3,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/1977/1977山东B卷.pdf#q01",
-      "content": "外 电 路 的 总 电 陆 R = ? 、",
+      "content": "矿 井 的 升 降 机 由 井 底 上 升 12 秒 钟 至 井 口",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "物理",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1977/1977山东B卷.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
-        "confidence": 85,
-        "needsReview": true
+        "confidence": 84,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1977/1977山东B卷.pdf#q02",
-      "content": "总 电 路 电 流 强 度 和 各 支 路 电 流 强 度 各 等 于 多 少 ? Fo",
+      "content": "米 人 秒 , 然 后 用 该 速 度 匀 速 上 升 6 秒 , 最 后 8\n在 全 部 上 升 时 间 内 的 平 均 速 度 是 多 少 ? ,\n二 、 有 一 重 50 公 斤 的 物 体 , 在 倾 角 为 30? 的\nBKETE Dr @ 下 滑 过 程 中 , 物 仰 的 动 能 和 重\n是 否 守 饷 ? 为 什 么 ?\n三 、 电 路 如 有 图 所 示 。 电 沅 的 电 动 势 e = 1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "物理",
@@ -56,22 +74,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1977/1977山东B卷.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "ocr",
-        "confidence": 85,
-        "needsReview": true
+        "confidence": 84,
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1977/1977山东B卷.pdf#q03",
-      "content": "5% B, DAARAERE REWER NEALE 日\n代 换 R . 可 使 田 流 表 指 数 为 零 ? 「\n四 、 若 电 路 申 的 电 流 ; =Isinot, 垂 t = 音 少 时 、\ni = 10 安 培 。 若 将 安 培 计 串 联 在 这 个 电 路 中 , 安 培 计 的 读 数 应 是 多 少 ?\nPAR 〈 万 作 录 取 成 续 ,; 考 生 可 视 胎 力 尽 量 作 )\n) 一 、 物体 作 匀 逃 元 周 运 动 , 角 速 度 为 & 元 半 径 为 史 , 其 远 劲 方 程 为 { < . coat 试 椿\n人 : 「 7 = Rsino t\n据 运 动 方 程 求 物 体 的 速 度 , 加 速 度 。",
+      "content": "=0,25 欧 妹 , 叉 s = 及 = 8 欧 姆 , 双 = 及 4=\n问 : 、\n1. 外 电 路 的 总 电 陆 叉 = ?\n2 总 电 路 电 流 强 度 和 各 支 路 电 流 强 度 各 等 于\n3.57% B, DALFAER RAMEE, NX\n代 换 R , 可 使 电 流 表 指 数 为 零 ?\n四 、 若 电 路 中 的 电 流 ; =Isinot, 在 t\ni = 10 安 培 。 若 将 安 培 计 串 联 在 这 个 电 路 中 , 安\n化 CB 卷\n而 仁 止 。 最 初 作 匀 加 途 运 动 , 经 8 秒 钟 速 度 达 到\n秒 钟 作 匀 冶 速 运 动 。 问 : 矿 井 多 深 ? @ 升 降 机 「\n面 上 匀 速 下 滑 。 问 : 接 触 面 闵 的 滢 动 摩 擦 系\n力 势 能 是 否 变 化 ? 为 什 么 ? @ 物 体 具 有 的 机 械 能\n伏 特 , 内 陆 。 一\nAEB. 1 Rg Ra\n1 C\n多 少 ? Daa\n用 多 大 电 阻 E\n5TH,\n墓 计 的 读 数 应 是 多 少 ?\nPAR 〈 万 作 录 取 成 续 ,; 考 生 可 视 胎 力 尽 量 作 )\n) 一 、 物体 作 匀 逃 元 周 运 动 , 角 速 度 为 & 元 半 径 为 史 , 其 远 劲 方 程 为 { < . coat 试 椿\n人 : 「 7 = Rsino t\n据 运 动 方 程 求 物 体 的 速 度 , 加 速 度 。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "物理",
@@ -79,11 +105,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1977/1977山东B卷.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 2,
+        "questionNumber": 7,
         "extraction": "ocr",
-        "confidence": 85,
-        "needsReview": true
+        "confidence": 84,
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

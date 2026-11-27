@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2009/2009广东理.pdf",
   "name": "2009广东理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q01",
       "content": "巳知全集U\n=\nR,\n集合M\n=\n{x | −2 ⩽x −1 ⩽2} 和N\n=\n{x | x = 2k −1, k = 1, 2, · · · } 的关系的韦恩(Venn) 图如图所示, 则阴\n影部分所示的集合的元素共有\n(\n)\nM\nN\nU\n(A) 3 个\n(B) 2 个\n(C) 1 个\n(D) 无穷个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q001-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q02",
       "content": "设z 是复数, α(z) 表示满足zn = 1 的最小正整数n, 则对虚数单位i,\nα(i) =\n(\n)\n(A) 8\n(B) 6\n(C) 4\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -56,22 +78,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q03",
       "content": "若函数y = f(x) 是函数y = ax (a > 0, 且a̸ = 1) 的反函数, 其图象经过\n点(√a, a), 则f(x) =\n(\n)\n(A) log2 x\n(B) log 1\n2 x\n(C) 1\n2x\n(D) x2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -79,22 +107,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q04",
       "content": "巳知等比数列{an} 满足an > 0, n = 1, 2, · · · , 且a5 ·a2n−5 = 22n (n ⩾3),\n则当n ⩾1 时, log2 a1 + log2 a3 + · · · + log2 a2n−1 =\n(\n)\n(A) n(2n −1)\n(B) (n + 1)2\n(C) n2\n(D) (n −1)2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -102,22 +140,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q05",
       "content": "给定下列四个命题:\n①若一个平面内的两条直线与另一个平面都平行, 那么这两个平面相互平\n行;\n②若一个平面经过另一个平面的垂线, 那么这两个平面相互垂直;\n③垂直于同一直线的两条直线相互平行;\n④若两个平面垂直, 那么一个平面内与它们的交线不垂直的直线与另一个\n平面也不垂直.\n其中, 为真命题的是\n(\n)\n(A) ①和②\n(B) ②和③\n(C) ③和④\n(D) ②和④",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -125,22 +169,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q06",
       "content": "一质点受到平面上的三个力F 1, F 2, F 3 (单位: 牛顿) 的作用而处于平衡\n状态. 已知F 1, F 2 成60◦角, 且F 1, F 2 的大小分别为2 和4, 则F 3 的\n大小为\n(\n)\n(A) 6\n(B) 2\n(C) 2\n√\n5\n(D) 2\n√\n7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -148,22 +202,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q07",
       "content": "2010 年广州亚运会组委会要从小张、小赵、小李、小罗、小王五名志愿者\n中选派四人分别从事翻译、导游、礼仪、司机四项不同工作, 若其中小张和\n小赵只能从事前两项工作, 其余三人均能从事这四项工作, 则不同的选派\n方案共有\n(\n)\n(A) 36 种\n(B) 12 种\n(C) 18 种\n(D) 48 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -171,22 +231,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q08",
       "content": "已知甲、乙两车由同一起点同时出发, 并沿同一路线(假定为直线) 行驶.\n甲车、乙车的速度曲线分别为v甲和v乙(如图所示). 那么对于图中给定的\nt0 和t1, 下列判断中一定正确的是\n(\n)\nv甲\nv乙\nt\nv(t)\nO\nt0t1\n(A) 在t1 时刻, 甲车在乙车前面\n(B) t1 时刻后, 甲车在乙车后面\n(C) 在t0 时刻, 两车的位置相同\n(D) t0 时刻后, 乙车在甲车前面",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -194,22 +260,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q09",
       "content": "随机抽取某产品n 件, 测得其长度分别为a1, a2, · · · , an, 则如图所示的程\n序框图输出的s =\n, s 表示的样本的数字特征是\n. (注: 框图中\n的赋值符号“=”也可以写成“←”或“:=”)\n开始\n输入n, a1, a2, · · · , an\ns = 0, i = 1\ni ⩽n?\ns = (i −1) × s + ai\ni\ni = i + 1\n输出s\n结束\n是\n否",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -217,22 +293,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q10",
       "content": "若平面向量a, b 满足|a + b| = 1, a + b 平行于x 轴, b = (2, −1), 则\na =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -240,22 +326,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q11",
       "content": "巳知椭圆G 的中心在坐标原点, 长轴在x 轴上, 离心率为\n√\n3\n2 , 且G 上一\n点到G 的两个焦点的距离之和为12, 则椭圆G 的方程为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -263,22 +355,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q12",
       "content": "已知离散型随机变量X 的分布列如下表.\n若EX = 0, DX = 1, 则\na =\n, b =\n.\nX\n−1\n0\n1\n2\nP\na\nb\nc\n1\n12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -286,22 +384,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q13",
       "content": "若直线l1:\n{\nx = 1 −2t,\ny = 2 + kt,\n(t 为参数) 与直线l2:\n{\nx = s,\ny = 1 −2s,\n(s 为参数) 垂\n直, 则k =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -309,22 +413,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q14",
       "content": "不等式|x + 1|\n|x + 2| ⩾1 的实数解为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q15",
       "content": "如图, 点A, B, C 是圆O 上的点, 且AB = 4, ∠ACB = 45◦, 则圆O 的面\n积等于\n.\nA\nO\nB\nC\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -355,22 +471,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q16",
       "content": "已知向量a = (sin θ, −2) 与b = (1, cos θ) 互相垂直, 其中θ ∈\n(\n0, π\n2\n)\n.\n(1) 求sin θ cos θ 的值;\n(2) 若sin(θ −φ) =\n√\n10\n10 , 0 < φ < π\n2 , 求cos φ 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -378,22 +504,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q17",
       "content": "根据空气质量指数API (为整数) 的不同, 可将空气质量分级如下表: 对某\n城市一年(365 天) 的空气质量进行监测, 获得API 数据按照区间[0, 50],\n(50, 100], (100, 150], (150, 200], (200, 250], (250, 300] 进行分组, 得到频率\n分布直方图如图.\nAPI\n0 ∼50\n51 ∼100\n101 ∼150\n151 ∼200\n201 ∼250\n251 ∼300\n> 300\n级别\nI\nII\nIII1\nIII2\nIV1\nIV2\nV\n状况\n优\n良\n轻微污染\n轻度污染\n中度污染\n中重度污染\n重度污染\n(1) 求直方图中x 的值;\n(2) 计算一年中空气质量分别为良和轻微污染的天数;\n(3) 求该城市某一周至少有2 天的空气质量为良或轻微污染的概率.\n(结果用分数表示. 已知57 = 78125, 27 = 128,\n3\n1825 + 2\n365 +\n7\n1825 +\n3\n1825 +\n8\n9125 = 123\n9125, 365 = 73 × 5)\n频率\n组距\n0\nAPI\n50\n100 150 200 250 300\n7\n1825\n2\n365\nx\n3\n1825\n8\n9125\n519",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -401,22 +533,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q017-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q18",
       "content": "如图, 已知正方体ABCD −A1B1C1D1 的棱长为2, 点E 是正方形\nBCC1B1 的中心, 点F、G 分别是棱C1D1, AA1 的中点. 设点E1, G1\n分别是点E、G 在平面DCC1D1 内的正投影.\n(1) 求以E 为顶点, 以四边形FGAE 在平面DCC1D1 内的正投影为底面\n边界的棱锥的体积;\n(2) 证明: 直线FG1 ⊥FEE1;\n(3) 求异面直线E1G1 与EA 所成角的正弦值.\nA\nB\nC\nE\nD\nG\nF\nA1\nB1\nC1\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -424,22 +567,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-9c711e05d4d9e939-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q19",
       "content": "已知曲线C: y = x2 与直线l: x −y + 2 = 0 交于两点A(xA, yA) 和\nB(xB, yB), 且xA < xB. 记曲线C 在点A 和点B 之间那一段L 与线段\nAB 所围成的平面区域(含边界) 为D. 设点P(s, t) 是L 上的任一点, 且\n点P 与点A 和点B 均不重合.\n(1) 若点Q 是线段AB 的中点, 试求线段PQ 的中点M 的轨迹方程;\n(2) 若曲线G: x2 −2ax + y2 −4y + a2 + 51\n25 = 0 与D 有公共点, 试求a\n的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -447,22 +600,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q20",
       "content": "已知二次函数y = g(x) 的导函数的图象与直线y = 2x 平行, 且y = g(x)\n在x = −1 处取得极小值m −1 (m̸ = 0). 设f(x) = g(x)\nx .\n(1) 若曲线y = f(x) 上的点P 到点Q(0, 2) 的距离的最小值为\n√\n2, 求m\n的值;\n(2) k (k ∈R) 如何取值时, 函数y = f(x) −kx 存在零点, 并求出零点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -470,22 +629,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009广东理.pdf#q21",
       "content": "已知曲线Cn: x2 −2nx + y2 = 0 (n = 1, 2, · · · ). 从点P(−1, 0) 向曲线\nCn 引斜率为kn (kn > 0) 的切线ln, 切点为Pn(xn, yn).\n(1) 求数列{xn} 与{yn} 的通项公式;\n(2) 证明: x1 · x3 · x5 · · · · · x2n−1 <\n√1 −xn\n1 + xn\n<\n√\n2 sin xn\nyn\n.\n520",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -493,11 +658,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009广东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1992/1992上海.pdf",
   "name": "1992上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 6,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 7,
+    "sourceAnswers": 4,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q01",
-      "content": "求 值 , eos HowTo |",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "填 空 题 〔 本 大 题 满 分 30 分 ) 本 大 题 共\n有 10 题 , 只 要 求 直 接 填 写 结 果 , 毒 个 空 格 填 对 得 。",
+      "answer": "YZ, 2, 56; 3. 李 4, 4;",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q02",
-      "content": "(s+) 的 展 开 式 中 巾 的 系 数 是 -\n( 结 果 用 数 值 裤 示 )。",
+      "content": "分 , 否 则 一 律 得 零 分 。\n1, 求 值 , eos HowTo |\n2 (s+) 的 展 开 式 中 巾 的 系 数 是 -\n( 结 果 用 数 值 裤 示 )。\n3. 函 数 4=sinz -sinzcosz cos’ 的 最\nKER.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -56,22 +74,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q03",
-      "content": "函 数 4=sinz -sinzcosz cos’ 的 最\nKER.",
+      "content": "方 程 log(z+ 1) ~log:(s~3) = 1 的 解\n是 _ 。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -79,22 +105,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q04",
-      "content": "方 程 log(z+ 1) ~log:(s~3) = 1 的 解\n是 _ 。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "计 算 (V3 + 刃 * = GR\n庞 数 单 位 .\n[ 编 者 注 】 高 考 上 海 息 滨 分 为 150 分 , 平 现 得 切\n当 限 低 了 压 轴 题 的 难 度\n学 校 招 生 统 一 考 试\n学 试 题",
+      "answer": "6d; 6, w—y+1=0; 7, 608/77,",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -102,22 +135,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q05",
-      "content": "计 算 (V3 + 刃 * = GR\n庞 数 单 位 .\n[ 编 者 注 】 高 考 上 海 息 滨 分 为 150 分 , 平 现 得 切\n当 限 低 了 压 轴 题 的 难 度\n学 校 招 生 统 一 考 试\n学 试 题",
+      "content": "如 果 直 线 ! 与 直 线 z+ 9~1 =0 关 于 3\n铺 对 称 , 那 么 直 线 WER.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -125,22 +165,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 6,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q06",
-      "content": "如 果 直 线 ! 与 直 线 z+ 9~1 =0 关 于 3\n铺 对 称 , 那 么 直 线 WER.",
+      "content": "已 知 国 台 的 下 底 面 半 英 为 8em, 高 为\nbom, 母 线 与 下 底 面 成 45* 的 角 , 那 么 圆 台 的 侧\n面 积 是 _ eme( 结 果 中 保 留 ©.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -148,22 +195,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 6,
+        "endPage": 1,
+        "questionNumber": 7,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q07",
-      "content": "已 知 国 台 的 下 底 面 半 英 为 8em, 高 为\nbom, 母 线 与 下 底 面 成 45* 的 角 , 那 么 圆 台 的 侧\n面 积 是 _ eme( 结 果 中 保 留 ©.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "已 知 函 数 4 = 习 a) 的 反 函 数 是 厂 :(z) =\nv 云 -1(z>0), 那 么 函 数 y= 厂 a) 的 定 义 域 是",
+      "answer": "[~1,+00); 9, 72",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -171,22 +225,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 7,
+        "endPage": 1,
+        "questionNumber": 8,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q08",
-      "content": "已 知 函 数 4 = 习 a) 的 反 函 数 是 厂 :(z) =\nv 云 -1(z>0), 那 么 函 数 y= 厂 a) 的 定 义 域 是",
+      "content": "由 1,2,8, 4, 5 组 成 比 40000 小 的 没 有\n重 复 数 字 的 五 位 数 的 个 数 是 _ 一\n( 铨 果 用 数 值 袭 示 )- 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -194,22 +255,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 8,
+        "endPage": 1,
+        "questionNumber": 9,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q09",
-      "content": "由 1,2,8, 4, 5 组 成 比 40000 小 的 没 有\n重 复 数 字 的 五 位 数 的 个 数 是 _ 一\n( 铨 果 用 数 值 袭 示 )- 5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如 图 , 直 平 行 六 A mA\n面 体 L.C 的 上 底 面 ABCD F 砂 十\nWa, 2540-0 WJ lo\n罡 为 正 方 形 . BF 45 AXE,\nAB, d4, 的 中 版 ,M 是 B\n为 101 分 题 量 已 比 以 往 湘 少 一 个 大 题 ) 平 途\n5-3\nAC 与 BD 的 交 虔 , 则 BF 与 BM 所 成 角 的 大\n小 为 ( 用 反 三 角 函 数 表 示 ).\n二 、 选 择 题 ( 本 大 题 满 分 30 分 ) 本 大 题 共\n有 10 题 , 每 题 都 给 出 代 号 为 4.B.C、D 的 四 个\n结 论 , 其 中 有 东 只 有 一 个 结 论 是 正 确 的 , 必 须 把\n正 确 结 论 的 代 号 写 在 题 后 的 国 括 号 内 , 选 对 得 3\n分 , 不 选 、 选 错 或 者 选 出 的 代 号 超 过 一 个 ( 不 论\n是 否 都 写 在 圆 括 号 内 ), 一 律 得 零 分 .",
+      "answer": "resin.\n二 、 第 11 题 至 第 20 题 .\n题 号 因 1819\n代 号 B AlB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -217,45 +285,59 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 1,
-        "questionNumber": 9,
+        "endPage": 2,
+        "questionNumber": 10,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q10",
-      "content": "如 图 , 直 平 行 六 A mA\n面 体 L.C 的 上 底 面 ABCD F 砂 十\nWa, 2540-0 WJ lo\n罡 为 正 方 形 . BF 45 AXE,\nAB, d4, 的 中 版 ,M 是 B\n为 101 分 题 量 已 比 以 往 湘 少 一 个 大 题 ) 平 途\n5-3\nAC 与 BD 的 交 虔 , 则 BF 与 BM 所 成 角 的 大\n小 为 ( 用 反 三 角 函 数 表 示 ).\n二 、 选 择 题 ( 本 大 题 满 分 30 分 ) 本 大 题 共\n有 10 题 , 每 题 都 给 出 代 号 为 4.B.C、D 的 四 个\n结 论 , 其 中 有 东 只 有 一 个 结 论 是 正 确 的 , 必 须 把\n正 确 结 论 的 代 号 写 在 题 后 的 国 括 号 内 , 选 对 得 3\n分 , 不 选 、 选 错 或 者 选 出 的 代 号 超 过 一 个 ( 不 论\n是 否 都 写 在 圆 括 号 内 ), 一 律 得 零 分 .",
+      "content": "当 0<a<1 时 , 函 数 y= 叹 和 y=\n(@= 12 的 图 象 只 可 能 是 … )\nX 8 目 J 月\n一 0 - 张 0 与 - 沥 <\n(A) (B) © CD) ,",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
-        "page": 1,
-        "questionNumber": 10,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 11,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q11",
-      "content": "当 0<a<1 时 , 函 数 y= 叹 和 y=\n(@= 12 的 图 象 只 可 能 是 … )\nX 8 目 J 月\n一 0 - 张 0 与 - 沥 <\n(A) (B) © CD) ,",
+      "content": "下 列 函 数 中 , 在 区 间 (0,1] 上 为 况 函 数\n剧 是 are )\n(A) y=log,z; (B) y=at,\n(0) y=coszy (D) y=arcsing,",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -263,22 +345,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 11,
+        "endPage": 2,
+        "questionNumber": 12,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q12",
-      "content": "下 列 函 数 中 , 在 区 间 (0,1] 上 为 况 函 数\n剧 是 are )\n(A) y=log,z; (B) y=at,\n(0) y=coszy (D) y=arcsing,",
+      "content": "a8 是 两 个 不 重 合 的 平 留 , 在 下 列 条\n件 中 , 可 判 定 平 面 x 与 日 乐 行 的 是 ….....( )\n(A) o、6 都 垂 直 平 面 ;\n(B) e 内 不 共 线 的 三 点 到 8 的 距 离 都 相\n等 :\n(©) bm 是 e 内 两 条 直 线 , 且 1V B, m/\n8s\nCD) Ion 是 两 条 异 面 直 线 , 且 1Va,m /a,\n118m 1B,\n1. 下 列 函 数 中 , 最 小 正 周 期 为 一 的 偶 函\n数 是 ed )\n(A) y=sin2z, B).y=cosZ,\n(0) y=sin2z + cos2z;(D) y= TRE\nz =sind, 0 一",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -286,22 +375,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 12,
+        "endPage": 2,
+        "questionNumber": 13,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q13",
-      "content": "a8 是 两 个 不 重 合 的 平 留 , 在 下 列 条\n件 中 , 可 判 定 平 面 x 与 日 乐 行 的 是 ….....( )\n(A) o、6 都 垂 直 平 面 ;\n(B) e 内 不 共 线 的 三 点 到 8 的 距 离 都 相\n等 :\n(©) bm 是 e 内 两 条 直 线 , 且 1V B, m/\n8s\nCD) Ion 是 两 条 异 面 直 线 , 且 1Va,m /a,\n118m 1B,\n1. 下 列 函 数 中 , 最 小 正 周 期 为 一 的 偶 函\n数 是 ed )\n(A) y=sin2z, B).y=cosZ,\n(0) y=sin2z + cos2z;(D) y= TRE\nz =sind, 0 一",
+      "content": "在 力 程 ooual © 为 参 数 ) 所 表 示\n的 曲 线 上 的 一 个 点 的 壁 标 晗 ….............( )\n1 2\n(A) C2, 一 77 @ 口 , 2h\n© 人 九 , ao.\n5-4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -309,22 +405,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 13,
+        "endPage": 2,
+        "questionNumber": 15,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q14",
-      "content": "在 力 程 ooual © 为 参 数 ) 所 表 示\n的 曲 线 上 的 一 个 点 的 壁 标 晗 ….............( )\n1 2\n(A) C2, 一 77 @ 口 , 2h\n© 人 九 , ao.\n5-4",
+      "content": "抛 物 线 (y+ 2)=4(z + 1) 的 焦 点 坐 标\n景 eol )\n(A) (0,-2)3 (B) (2,2);\n© (1,-2) CD) (3,2),",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -332,22 +436,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 15,
+        "endPage": 2,
+        "questionNumber": 16,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q15",
-      "content": "抛 物 线 (y+ 2)=4(z + 1) 的 焦 点 坐 标\n景 eol )\n(A) (0,-2)3 (B) (2,2);\n© (1,-2) CD) (3,2),",
+      "content": "下 列 命 题 中 的 真 命 题 是 ….........( )\n(A) 各 侧 面 都 是 矩 形 的 桧 柱 是 长 方 体 ;\n〈B) 有 两 个 相 邻 侧 面 是 矩 形 的 桧 柱 是 直\n桢 柱 ,\n©) 各 侧 面 都 是 等 腰 三 角 形 的 四 栾 修 是\n正 四 校 锭\n《D) 有 两 个 面 互 相 平 行 , 其 余 四 个 面 都 是\n等 履 梯 形 的 六 面 体 是 四 棉 台 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -355,22 +466,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 16,
+        "endPage": 2,
+        "questionNumber": 17,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q16",
-      "content": "下 列 命 题 中 的 真 命 题 是 ….........( )\n(A) 各 侧 面 都 是 矩 形 的 桧 柱 是 长 方 体 ;\n〈B) 有 两 个 相 邻 侧 面 是 矩 形 的 桧 柱 是 直\n桢 柱 ,\n©) 各 侧 面 都 是 等 腰 三 角 形 的 四 栾 修 是\n正 四 校 锭\n《D) 有 两 个 面 互 相 平 行 , 其 余 四 个 面 都 是\n等 履 梯 形 的 六 面 体 是 四 棉 台 .",
+      "content": "函 数 y=are oos y 炀 的 值 域 是 …( )\n(A) [ 引 , CB) (0.5):\n(©) [0,m), CD) (0,71,",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -378,22 +496,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 17,
+        "endPage": 2,
+        "questionNumber": 18,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q17",
-      "content": "函 数 y=are oos y 炀 的 值 域 是 …( )\n(A) [ 引 , CB) (0.5):\n(©) [0,m), CD) (0,71,",
+      "content": "圭 极 坐 标 系 中 , 与 圆 p = ksing 相 切 的\n一 条 直 线 的 方 程 是 0 )\n(A) psinb = 2; (B) poosb =21\n(0) poosf=4;  (D) poos0 = —4,",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -401,22 +526,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 18,
+        "endPage": 2,
+        "questionNumber": 19,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q18",
-      "content": "圭 极 坐 标 系 中 , 与 圆 p = ksing 相 切 的\n一 条 直 线 的 方 程 是 0 )\n(A) psinb = 2; (B) poosb =21\n(0) poosf=4;  (D) poos0 = —4,",
+      "content": "BRE M={z|s>2),P={z]5<3},\nWa‘seM Ro €P\"Rs€ MNP ( )\n(A) 声 分 条 件 但 非 必 要 条 件 !\n(B) 必 要 条 件 但 非 充 分 条 件 ;\n(©) 充 分 必 要 条 件 ;\n(D) 非 充 分 条 件 也 非 必 要 条 件 .\n三 、( 本 大 题 满 分 36 分 ) 本 大 题 共 有 3 题 ,\n解 下 列 各 题 必 须 写 出 必 要 的 步 骠 .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -424,22 +556,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 19,
+        "endPage": 2,
+        "questionNumber": 20,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q19",
-      "content": "BRE M={z|s>2),P={z]5<3},\nWa‘seM Ro €P\"Rs€ MNP ( )\n(A) 声 分 条 件 但 非 必 要 条 件 !\n(B) 必 要 条 件 但 非 充 分 条 件 ;\n(©) 充 分 必 要 条 件 ;\n(D) 非 充 分 条 件 也 非 必 要 条 件 .\n三 、( 本 大 题 满 分 36 分 ) 本 大 题 共 有 3 题 ,\n解 下 列 各 题 必 须 写 出 必 要 的 步 骠 .",
+      "content": "( 本 题 满 分 12 分 》\n已 知 cos tame, «€(0,3), sinp =\n- 目 pele),\n求 c+ ( 用 反 三 角 函 数 表 示 ).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -447,22 +586,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 20,
+        "endPage": 2,
+        "questionNumber": 21,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q20",
-      "content": "( 本 题 满 分 12 分 》\n已 知 cos tame, «€(0,3), sinp =\n- 目 pele),\n求 c+ ( 用 反 三 角 函 数 表 示 ).",
+      "content": "( 本 题 满 分 12 分 )\n设 屹 =2+ai, 其 中 a 是 实 数 , $ 是 虚 数 单\n位 , = A-tAtD+2: 4 jy <7,\n求 的 糖 角 主 值 的 取 借 范 图\n23。( 本 题 满 分 12 分 )\n设 助 直 线 垂 直 于 辅 , 且 与 榆 国 不 -+\n外 =1 交 于 A BFS, PRIEREIPA:\n|PB| = 1 的 点 , 求 点 乙 的 转 迹 方 程 , 并 说 明 轨\n迹 是 什 么 图 形\n四 、( 本 大 题 满 分 4 分 ) 本 大 题 共 有 3 题 ,\n解 下 列 各 题 必 须 写 出 必 要 的 步 骆",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -470,45 +616,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 2,
-        "questionNumber": 21,
+        "endPage": 3,
+        "questionNumber": 22,
         "extraction": "ocr",
         "confidence": 80,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992上海.pdf#q21",
-      "content": "( 本 题 满 分 12 分 )\n设 屹 =2+ai, 其 中 a 是 实 数 , $ 是 虚 数 单\n位 , = A-tAtD+2: 4 jy <7,\n求 的 糖 角 主 值 的 取 借 范 图\n23。( 本 题 满 分 12 分 )\n设 助 直 线 垂 直 于 辅 , 且 与 榆 国 不 -+\n外 =1 交 于 A BFS, PRIEREIPA:\n|PB| = 1 的 点 , 求 点 乙 的 转 迹 方 程 , 并 说 明 轨\n迹 是 什 么 图 形\n四 、( 本 大 题 满 分 4 分 ) 本 大 题 共 有 3 题 ,\n解 下 列 各 题 必 须 写 出 必 要 的 步 骆",
+      "content": "( 本 题 满 分 16 分 ) 本 题 共 有 3 个 小 奂 ,\n, 第 1 小 题 满 分 6 分 , 第 2 小 题 满 分 4 分 , 第 3 小\n题 满 分 6 分 .\n如 图 , 圆 锥 的 轴 截 面 为 等 厢 直 角 三 角 形\nSAB,Q 为 底 面 圆周 上 一 点\n(1) 如 果 QB 的 中 点 为 0,0 女 」 SC, 求 证\nOH | YF SBQ;\n(2) MP LA0Q=60\",@B=2TF, Ri\n国 锥 的 体 积 ;\n(3) 如 果 二 面 角 L-8B-Q@ 的 大 小 为\narc tg YE x 2400 前 大 小 .\n5 s\ni 1\na ae\nya 心",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1992,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1992/1992上海.pdf",
-        "page": 2,
-        "questionNumber": 22,
-        "extraction": "ocr",
-        "confidence": 80,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1992/1992上海.pdf#q22",
-      "content": "( 本 题 满 分 16 分 ) 本 题 共 有 3 个 小 奂 ,\n, 第 1 小 题 满 分 6 分 , 第 2 小 题 满 分 4 分 , 第 3 小\n题 满 分 6 分 .\n如 图 , 圆 锥 的 轴 截 面 为 等 厢 直 角 三 角 形\nSAB,Q 为 底 面 圆周 上 一 点\n(1) 如 果 QB 的 中 点 为 0,0 女 」 SC, 求 证\nOH | YF SBQ;\n(2) MP LA0Q=60\",@B=2TF, Ri\n国 锥 的 体 积 ;\n(3) 如 果 二 面 角 L-8B-Q@ 的 大 小 为\narc tg YE x 2400 前 大 小 .\n5 s\ni 1\na ae\nya 心\n一 、 第 1 题 至 第 10 题 .\n1, YZ, 2, 56; 3. 李 4, 4;\n5. 6d; 6, w—y+1=0; 7, 608/77,\n8, [~1,+00); 9, 72\n10, resin.\n二 、 第 11 题 至 第 20 题 .\n题 号 因 1819\n代 号 B AlB",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -516,57 +646,27 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 24,
         "extraction": "ocr",
         "confidence": 78,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1992/1992上海.pdf#q23",
-      "content": "( 本 题 满 分 18 分 ) 本 题 共 有 2 个 小 题 ,\n第 1 小 题 满 分 9 分 , 第 2 小 题 满 分 9 分 .\n已 知 数 列 (aa}, ,.>0(neN), 它 的 前 项\n的 和 记 为 8..\n(1) 如 果 a) 是 一 个 首 项 为 c, 公 比 为 9\n《 一 41 的 等 比 数 列 , 且 Go=al+ai+ +a\n(em) lim\n2) 如 果 SLY, …, 砂 . 是 一 个 首 项 为\n3, 公 差 为 1 的 等 差 数 列 , 试 比 较 S, 与 3nan(n E\n办 ) 的 大 小 .",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1992,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1992/1992上海.pdf",
-        "page": 3,
-        "questionNumber": 25,
-        "extraction": "ocr",
-        "confidence": 78,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1992/1992上海.pdf#q24",
-      "content": "( 本 题 满 分 20 分\n如 图 , 已 知 双 曲 线 0: (1-a0 史 +a5P 一 口\n=0( 参 数 e>0), 若 O 的 上 升 支 的 顶 点 为 4,\n且 与 直 缕 4= -a 交 于 点 卫 . 以 么 为 焦 点 ,\n切 (0,m) 为 顶 点 的 开 口 向 下 的 抛 物 线 通 过 点 工 .\n当 C 的 一 条 深 近 线 的 斜 率 在 区 间 * 22 ]\n上 变 化 时 , 求 直 线 PM 斜 率 的 最 大 值\n4\nM 丨\n> 一\n答\n三 、21, [ 席 ] cosa = [LEP - 不 ,\nsina =4/1~cos’a = 怡 ,\n_c088 二 - VISiHFB = - 智 ,\ncos(a + B) =cosac086 一 sindsin8 = 一 =.\n古 H 人 e+ 月 人 2\n。 a+ B= arc cosas\n国 65°\nJ C 纳 G 日 34 如\n5-5\n国 7 4\nrT\n=1-i,\nBH) w=z+ai=1+(a-1)i,|w|<v2,\n所 以 Viva-Di<vZ,\n解 得 0<a<2,\n又 由 奶 =1+ (a 1i, Bigh=a-1, Hi\n-1<t89 一 1,\n所 以 0 的 发 值 范 国 是\n夕 Ved\n[oF] =)-\n23. [ 解 】 设 点 卫 的 坐 标 为 (z,9), 点 气 的\n坐标 为 (z,9)。 于 是 , 点 旭 的 坐 标 为 , 一 9.) .\n由 于 一 丁 两 点 在 柑 圆 上 , 所 以\nC\n一 + 子 @\n标\nA\nx\nB\n又 申 1- 仪 - 笃 , 得 -2<a<2.\n“ |PA| = |y-yl, |PB| = a+\n|P4[-|PB|=1, .. |y-ylln+yl=1,\n即 E\n把 毒 = 外 +1 和 贤 = 多 一 1 分 别 代 入 @ 式 ,\n得 点 乙 的 轨 迹 方 程 是\nZope,\n和 导 * 不 = (-2<a<2),\n国 此 , 所 求 软 迹 是 糊 国 仪 - + 多 =1, 以 及\nWEE LoL 契 在 两 直 线 =2, a 一 2 之\n间 的 部 分\n四 、24,[ 解 】 (1) 进 绪 00,..8Q =8B,\n0Q=0B,QC=CB, \"QB|SC, QB| 00,\n古 @B | 平 一 SOC.\n5-6\n\"+ 0HC 平 面 800, s\n. QB) OH, Ne\nx 0H] SC, LAN\n. OH] ¥WSBQ. A Spt s\n(2) 连 绪 4Q,“ Q % <\n为 圆 周 上 一 点 ,\nAB 为 直 径 ,..4Q | QB,\n在 RIAAQB i, LQBA=30°, QB=\n2/3,\n、 2/3\nsoAB=—E oy,\n. © ASAB 是 等 腹 直 角 三 角 形 ,\n、 = 一 4P=\n古 80= 方 48=2,\n团 Jas= 不 m.0 一 .50=&m、\n(3) 过 @ 作 QM | AB, ERM M,\n“ 平 面 84B | 平面 4BQ,\n心 QM LF S4B,\n过 传 作 MP 8B, 垂 足 为 卫 , 连 结 PQ, 则\nQP | 8B( 三 垂 线 定 理 ).\n… 人 WPQ 是 二 面 角 A-SB-Q 的 平 面 觞 ,\n一 MPQ =are ay\n设 圆 锭 底 面 半 积 为 马 人 408=a、 在\nMAOMG 中 ,\nQM = Rsina, OM = Reosa,\n在 RIAMPB 中 , 人 PBM =45“, MB=\nR(1+cosa),\nMP = YER + coum),\n¢gure 3,\n. Reina _ 皂\n国 Y2R(1 + ose) 3\nsina JT\nTtcosa “ 3 ’\npo\n心 LA0Q=60°,\n25, (1) [ 解 一 】 当 g=1 时 ,8,=nae, G\n=na?,\nVoak0, 辽 lima,\n当 0<g<1 阡 ,\n5 颖 a\n28 T-3.\n:\n春 ee\n{RHI of ARN © 的 等 比 数 列 ,\n。 ; __a\n心 lim, = 2s\n. 8, Mm oq.\n国 Rare limG a\n1\ni 8 E 刑 g=1,\nLL mm-==— =\n心 Ge 1g, 0<q<1,\n[ 解 二 ] 当 g=1 时 , 同 解 一 得\nim get\n当 0<g<1 时 , 85,2420,\n同 解 一 得 {a3} 是 首 项 为 a 公 比 为 9 的 等\n比 数 列 ,\n. _a*(l-¢\")\n05 Gm\n。 LoS, 1+9 14+9\nSo lim = limo ey =\n结 论 同 解 一 。\n(2 [ 解 】 由 题 设 知 8u=au=w/ 万 .\n胺 二 3+ Cn 一 工 二 n+2 (n E 加 ,\n仁 8>0, 人 w\na 一 BizwRF5-wRTI (n>),\n当 n=1 时 , S.<3a,\n当 n 一 2 阡 ,\nSum na, = /ATE—3n (VRF2_wHFT)\nSnyHFI — (3n-1) ATE,\n由 (Bry/n+ 1)? —[ (3n—1)4/n +27?\n==3n7+1ln-2\n目 11/37) 11+ 4/87\nsf A 1)\n可 得 当 n= 2,3 if, S,>3ng,; 当 n>4(n\n€ Mt, S,<3na,,\n综 上 所 述 , 得\n当 n= 1 及 n>4(n€ NB, S,<3na.\n当 n=2)3 时 ,5 一 3nam。\n26,[ 解 一 】 团 为 (L-a0a+asyr-a 0\n是 双 曲 线 , 所 以 1 一 0, 从 而 它 可 表 为\n- 县 -\n口 -\n双 曲 线 的 两 条 渐 近 线 的 斜 率 为 士 Se5 一 工 ,\nVENTE AT gy ico, x\n由 e>0 得 4 的 取 值 范 国 是 [2,3].\n把 y = - 代 入 双 曲 线 方 程 , 得 点 九 的 坐\n标 为 (-aa).\n双 曲 线 上 半 支 的 顶 点 为 40,1),\n以 LC0,1) 为 焦 点 , 友 (0,m) 为 顶 点 的 开 口\n向 下 的 抛 物 线 方 程 为\nz= —4(m—1)(y—-m),\n因 为 九 Ca,a) 在 抛 物 线 上 , 所 以\na= —4(m—-1)(a-m), 0)\n即 m= (trams (a=) =0. 解 得\n力 = 二 raz JI-Za+2a),\n根 据 额 设 拗 物 线 的 顶 点 位 置 , 由 @ 可 知\nm>1,m>a, 所 以 n>Lie\n因 此 只 取\n力 = 方 GL+a+ V1-2a+2a%),\n直 线 PM 的 斜 率 为\ng 心 一\n0 ( 一\n=r (a+ Vicar), “ @\nEH, dust, 有\n吊 言 te-1+ V 诊 T30)\n57\n= 不 V-ar+I -(1-w)]\n- 一\n2 zuF+I +(1-u)\n在 [2,3] 上 , 是 凝 函 数 , !-4 是 增 函 数 。\n由 1~4>0, 可 知 (L~4)* 也 是 增 函 数 , 从 而\n在 [2,3] 上 是 凌 函 数 , 故 当 e = 2 时 , 取 最 大\n值 4\n-\nA\n[ 解 二 】 同 解 一 得 双 曲 线 方 程 为\n阎\n多 -\n7-1\n一 的 取 值 范 图 为 [2,37,\n点 卫 的 坂 标 为 ( 一 aoa.\n以 气 为 焦 炉 , 友 为 顶 点 的 开 口 肠 下 的 抛 物\n线 方 程 为\n吊 二 一 4(m 一 1 (y 一 。\n吴 心 一 4(m 一 工 Ca 一 m [0]\nm 一\n[ELLE @\n由 @ 得 m = 吊 +.a, 代 入 @ 得\na*=4(ka+a-1)ka,\nBX a*0, BFL\n4+ 4k - Va =4E,\n根 据 题 设 抛 物 线 顶 点 的 位 置 , 由 G 可 知\nn>a, 所 以 8>0, 因 此\n1B th -1>0,\nXB a=db/(4b + 4k 1),\n由 4 的 取 值 范 图 , 得\na @\nHy b+ 妹 ~1>0, 得 砌 2-L. 于\n色 , 可 由 @ 解 得\nQ <k< CA 、\n_ -\n国 此 Fae =>",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1992,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1992/1992上海.pdf",
-        "page": 3,
-        "questionNumber": 26,
-        "extraction": "ocr",
-        "confidence": 78,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

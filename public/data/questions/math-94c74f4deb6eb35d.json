@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1964/1964.pdf",
   "name": "1964",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 8,
+    "answerBlocks": 8,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 8,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1964/1964.pdf#q01",
       "content": ":\n3\n(1\n3)\n( 3 -1)\n.\n3\n2\n3\n2\n化简\n−\n−\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\n原式=\n[3- (1\n3)- ]\n( 3 -1)\n3\n2\n3\n1\n3\n2\n= 3\n-\n3\n( 3 -1)\n1\n2\n2\n·\n=\n3\n( 3 -1) 2\n=\n3\n2(2 - 3)\n=\n3(2 +\n3)\n2(2 -\n3)(2 +\n3)\n= 2 3 + 3\n2\n.\n解法二:\n原式=\n[3- (1\n3)- ]\n( 3 -1)\n3\n2\n3\n1\n3\n2\n= 3\n-\n3\n( 3 -1)\n=\n3\n( 3 -1)\n1\n2\n2\n2\n·\n=\n3( 3 +1)\n[( 3 -1)( 3 +1)]\n2\n2\n=\n3(4 + 2 3)\n4\n= 2 3 + 3\n2\n.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q02",
       "content": "甲乙二人在河的南岸O 处,隔河在正北方向有一建筑物P.甲向正\n东、乙向正西沿河岸而行,甲每分钟比乙多走a 米.10 分钟后,甲望建筑物\nP 在北a 度西(即北偏西a 度),乙望建筑物P 在北β度东(即北偏东β度),\n求O 与P 之间的距离.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:如图,设OB=x,则OA=x+10a.\n再设OP=h,则\nhtgα=x+10a,\nhtgβ=x.\nh(tgα-tgβ)=10a,\n∴　h =\n10a\ntg\n- tg\n.\nα\nβ",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q03",
       "content": "解方程x4+1=0;并且证明:平面内表示这个方程的根的四个点是一\n个正方形的顶点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:原方程即x4=-1,也就是\nx4=cos(2k+1)π+isin(2k+1)π\n∴x = cos 2k +1\n4\n+ isin2k +1\n4\n.\nπ\nπ\n令k=0、1、2、3,就得到原方程的四个根:\nx = cos 4 + isin 4 =\n2\n2 (1+ i),\n1\nπ\nπ\nx = cos 3\n4 + isin3\n4 =\n2\n2 (-1+ i),\n2\nπ\nπ\nx = cos 5\n4 + isin 5\n4 =\n2\n2 (-1- i),\n3\nπ\nπ\nx = cos 7\n4 + isin7\n4 =\n2\n2 (1- i),\n4\nπ\nπ\n显然\n，故平面内表示这四个根的点\n、\n、\n、\n, x\nM\nM\n1\n2\n3\n=\n=\n=\n=\nx\nx\nx\nM\n2\n3\n4\n1\n1\nM4都在单位圆上\n如图,∠M1OM2 等于x2 的辐角减去x1 的辐角，故\n∠M1OM 2\n2\n= π\n同理\n∠\n∠\n,\nM OM =\nM OM = 2 .\n2\n3\n3\n4\nπ\n又显然有　∠M OM = 2 .\n4\n1\nπ\n∴M1M2=M2M3=M3M4=M4M1.\n∴M1M2M3M4 是一个正方形.\n解法二:x4+1=(x4+2x2+1)-2x2\n= (x +1) - ( 2x)\n2\n2\n2\n= (x +\n2x +1)(x -\n2x +1).\n2\n2\n∴原方程即\n(x +\n2x +1)(x -\n2x +1) = 0.\n2\n2\n它的根是\nx =\n2\n2 (1+ i),x =\n2\n2 (-1+ i),\n1\n2\nx =\n2\n2 (-1- i),x =\n2\n2 (1- i).\n3\n4\n如图,线段M2M1 与M3M4 显然都平行于OX 轴,线段M4M1 与M3M2 都\n平行于OY 轴.\n又M M\n= M M = M M = M M =\n2\n2 +\n2\n2 =\n2.\n1\n2\n2\n3\n3\n4\n4\n1\n所以M1M2M3M4 是一个正方形.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -79,22 +98,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q04",
       "content": "已知A、B、C 是三角形的三个内角,求证:\ncosA = sin B + sin C - sin A\n2sinBsinC\n2\n2\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:利用正弦定理\na\nsinA =\nb\nsinB =\nc\nsinC = 2R,\n得到　\nsinA = a\n2R ,sinB = b\n2R ,sinC = c\n2R .\n代入所要证明的等式的右边,并化简得\nsin B+ sin C - sin A\n2sinBsinC\n= b + c - a\n2bc\n.\n2\n2\n2\n2\n2\n2\n由余弦定理,上式右边就是cosA.\n解法二:利用A=π-(B+C),\nsin2B+sin2C-sin2A=sin2B+sin2c-sin2(B+C)\n=sin2B+sin2C-(sinBcosC+cosBsinC)2\n=sin2B+sin2C-sin2Bcos2C-cos2Bsin2C-2sinBsinCcosBcosC\n=sin2B(1-cos2C)+sin2C(1-cos2B)-2sinBsinCcosBcosC\n=2sin2Bsin2C-2sinBsinCcosBcosC\n=2sinBsinC(sinBsinC-cosBcosC)\n=2sinBsinC[-cos(B+C)]\n=2sinBsinC·cos[π-(B+C)]\n=2sinBsinCcosA.\n两边除以2sinBsinC,得到\nsin B+ sin C- sin A\n2sinBsinC\n= cosA.\n2\n2\n2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -102,22 +125,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q05",
       "content": "已知方程x3+mx2-3x+n=0的三个根的平方和为6,且知这个方程有两\n相等的正根,求m、n 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:设这个方程的三个根为α、α、β.根据已知条件和根与系数\n的关系,得\n2\n+\n= 6,\n(1)\n+ 2\n= -3.\n(2)\n2\n2\n2\nα\nβ\nα\nαβ\n\n\n\n(2)的两边乘以2,得\n2α2+4αβ=-6,(3)\n(1)与(3)的两边分别相加,得\n4α2+4αβ+β2=0,\n即(2α+β)2=0,\n∴β=-2α.\n代入(1),2α2+(-2α)2=6,\n6α2=6,∴α=±1.\nα=-1 不符合题意,舍去.\n故α=1,β=-2.\n∴m=-(2α+β)=0,\nn=-α2β=2.\n解法二:仿解法一得\n2\n+\n= 6,\n(1)\n+ 2\n= -3.\n(2)\n2\n2\n2\nα\nβ\nα\nαβ\n\n\n\n由(2),\n= -3-\n2\n,\n2\nβ\nα\nα\n代入(1),2\n+ (-3-\n2\n) = 6,\n2\n2\n2\nα\nα\nα\n代简,得α4-2α2+1=0,\n即(α2-1)2=0,\n∴α=±1.\nα=-1 不合题意,舍去.\n故α=1,代入(2)得,β=-2.\n∴m=-(2α+β)=0,\nn=-α2β=2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -125,22 +152,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q06",
       "content": "圆台形铁桶的上口半径是15厘米,下底半径是10厘米,母线长是30\n厘米,将铁桶的侧面沿一条母线剪开铺平,得图中扇面形状的铁片ABCD.\n求A、B 两点间的距离.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\nAB = 2\n15 = 30 , CD = 2\n10 = 20 .\nAD = 30.\n⌒\n⌒\n·\n·\nπ\nπ\nπ\nπ\n延长AD、BC 相交于O,设∠COD=θ,OD=x,则\n(x+30)θ=30π,\nxθ=20π,\n相减,得30θ=10π,\n　　θ\nπ\nπ\nθ\n= 3 ,\nx = 20\n= 60.\n因为△OAB 是一个等边三角形,所以\nAB=OA=90（厘米）.\n解法二:\nAB = 2\n15 = 30 ,CD = 2\n10 = 20 .AD = 30,\n⌒\n⌒\n·\n·\nπ\nπ\nπ\nπ\n延长AD、BC 相交于O,设OD=x,则\nx + 30\nx\n= 30\n20\n.\nπ\nπ\n解出x,得\nx=60,\nθ\nπ\nπ\n= 20\n60 = 3 .\n因为△OAB 是一个等边三角形,所以\nAB=OA=90（厘米）.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -148,22 +179,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-94c74f4deb6eb35d-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-94c74f4deb6eb35d-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q07",
       "content": "A、B、C、D 四个点在平面M 和平面N 之外,A、B、C、D 在平面M 内\n的射影是A1、B1、C1、D1,在平面N 内的射影是A2、B2、C2、D2.已知A1、\nB1、C1、D1 在一条直线上,A2B2C2D2 是一个平行四边形,求证ABCD 也是一个\n平行四边形.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:如图,设A1、B1、C1、D1 所在的直线为l,过直线l 与直线作AA1 作\n一平面P,则P 必垂直于M.显然A 在平面P 内.又因B1在平面P 内,且直线\nBB1 垂直于平面M,故BB1 必在平面P 内.因而B 也在平面P 内.同理,C、D\n也在平面P 内.\n因AA2∥DD2,且A2B2∥D2C2,故由AA2 与A2B2所决定的平面平行于由\nDD2 与D2C2 所决定的平面.又P 与这两个平面的交线分别为AB 与CD,故AB\n∥CD.同理BC∥AD.故ABCD 是平行四边形.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -171,22 +210,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1964/1964.pdf#q08",
-      "content": "下图中ABCD 是正方形,其每边长为1;在正方形内,⊙O 与⊙O＇互相\n外切,并且⊙O 与AB、AD 两边相切,⊙O＇与CB、CD 两边相切.\n(1)求这两圆半径之和.\n(2)当两圆半径各多么长时,两圆面积之和最小?当半径各多么长时,\n面积之和最大?证明你的结论.\n附加题\n(1)如果把第8 题中的正方形改成矩形,你能得到什么结果?为什么?\n(2)如果把第8 题中的正方形改成棱长为1 的正方体,把圆改成球,你\n能得到什么结果?为什么?",
+      "content": "下图中ABCD 是正方形,其每边长为1;在正方形内,⊙O 与⊙O＇互相\n外切,并且⊙O 与AB、AD 两边相切,⊙O＇与CB、CD 两边相切.\n(1)求这两圆半径之和.\n(2)当两圆半径各多么长时,两圆面积之和最小?当半径各多么长时,\n面积之和最大?证明你的结论.\n附加题",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1)如果把第8 题中的正方形改成矩形,你能得到什么结果?为什么?\n(2)如果把第8 题中的正方形改成棱长为1 的正方体,把圆改成球,你\n能得到什么结果?为什么?",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1964,
       "subject": "数学",
@@ -194,11 +237,27 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1964/1964.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-94c74f4deb6eb35d-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-94c74f4deb6eb35d-q008-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 13,
+    "answerGraphics": 11,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

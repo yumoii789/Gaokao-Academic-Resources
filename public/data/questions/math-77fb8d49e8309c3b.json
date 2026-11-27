@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2009/2009福建理.pdf",
   "name": "2009福建理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q01",
       "content": "函数f(x) = sin x cos x 的最小值是\n(\n)\n(A) −1\n(B) −1\n2\n(C) 1\n2\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q02",
       "content": "已知全集U = R, 集合A = {x | x2 −2x > 0}, 则∁UA 等于\n(\n)\n(A) {x | 0 ⩽x ⩽2}\n(B) {x | 0 < x < 2}\n(C) {x | x < 0 或x > 2}\n(D) {x | x ⩽0 或x ⩾2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q03",
       "content": "等差数列{an} 的前n 项和为Sn, 且S3 = 6, a1 = 4, 则公差d 等于\n(\n)\n(A) 1\n(B) 5\n3\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q04",
       "content": "∫\nπ\n2\n−π\n2\n(1 + cos x)dx 等于\n(\n)\n(A) π\n(B) 2\n(C) π −2\n(D) π + 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q05",
       "content": "下列函数f(x) 中, 满足“对任意x1, x2 ∈(0, +∞), 当x1 < x2 时, 都有\nf(x1) > f(x2)”的是\n(\n)\n(A) f(x) = 1\nx\n(B) f(x) = (x −1)2\n(C) f(x) = ex\n(D) f(x) = ln(x + 1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q06",
       "content": "阅读如图所示的程序框图, 运行相应的程序, 输出的结果是\n(\n)\n开始\nS = 2\nn = 1\nS =\n1\n1 −S\nn = 2n\nS = 2\n输出n\n结束\n是\n否\n(A) 2\n(B) 4\n(C) 8\n(D) 16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -148,22 +189,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q07",
       "content": "设m, n 是平面α 内的两条不同直线, l1, l2 是平面β 内的两条相交直线,\n则α\nβ 的一个充分而不必要条件是\n(\n)\n(A) m\nβ 且l1\nα\n(B) m\nl1 且n\nl2\n(C) m\nβ 且n\nβ\n(D) m\nβ 且n\nl2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q08",
       "content": "已知某运动员每次投篮命中的概率都为40%. 现采用随机模拟的方法估计\n该运动员三次投篮恰有两次命中的概率: 先由计算器算出0 到9 之间取整\n数值的随机数, 指定1, 2, 3, 4 表示命中, 5, 6, 7, 8, 9, 0 表示不命中; 再以每\n三个随机数为一组, 代表三次投篮的结果. 经随机模拟产生了20 组随机数:\n907\n966\n191\n925\n271\n932\n812\n458\n569\n683\n431\n257\n393\n027\n556\n488\n730\n113\n537\n989\n据此估计, 该运动员三次投篮恰有两次命中的概率为\n(\n)\n(A) 0.35\n(B) 0.25\n(C) 0.20\n(D) 0.15",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q09",
       "content": "设a, b, c 为同一平面内具有相同起点的任意三个非零向量, 且满足a 与b\n不共线, a ⊥c, |a| = |c|, 则|b · c| 的值一定等于\n(\n)\n(A) 以a, b 为两边的三角形面积\n(B) 以b, c 为两边的三角形面积\n(C) 以a, b 为邻边的平行四边形的面积\n(D) 以b, c 为邻边的平行四边形的面积",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q10",
       "content": "函数f(x) = ax2 + bx + c (a̸ = 0) 的图象关于直线x = −b\n2a 对\n称.\n据此可推测, 对任意的非零实数a, b, c, m, n, p, 关于x 的方程\nm[f(x)]2 + nf(x) + p = 0 的解集都不可能是\n(\n)\n(A) {1, 2}\n(B) {1, 4}\n(C) {1, 2, 3, 4}\n(D) {1, 4, 16, 64}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q11",
       "content": "若\n2\n1 −i = a + bi (i 为虚数单位, a, b ∈R) 则a + b =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q12",
       "content": "某校开展“爱我海西、爱我家乡”摄影比赛,\n9 位评委为参赛作品A\n给出的分数如茎叶图所示.\n记分员在去掉一个最高分和一个最低分\n后,\n算的平均分为91,\n复核员在复核时,\n发现有一个数字(茎叶图\n中的x) 无法看清.\n若记分员计算无误, 则数字x 应该是\n.\n作品A\n8\n8\n9\n9\n9\n2\n3\nx\n2\n1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q13",
       "content": "过抛物线y2 = 2px (p > 0) 的焦点F 作倾斜角为45◦的直线交抛物线于\nA、B 两点, 若线段AB 的长为8, 则p =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -309,22 +396,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q14",
       "content": "若曲线f(x) = ax3 + ln x 存在垂直于y 轴的切线, 则实数a 取值范围\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -332,22 +429,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q15",
       "content": "五位同学围成一圈依序循环报数, 规定:\n①第一位同学首次报出的数为1, 第二位同学首次报出的数也为1, 之后每\n位同学所报出的数都是前两位同学所报出的数之和;\n②若报出的数为3 的倍数, 则报该数的同学需拍手一次.\n已知甲同学第一个报数, 当五位同学依序循环报到第100 个数时, 甲同学\n拍手的总次数为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q16",
       "content": "从集合{1, 2, 3, 4, 5} 的所有非空子集中, 等可能地取出一个.\n(1) 记性质r: 集合中的所有元素之和为10, 求所取出的非空子集满足性质\nr 的概率;\n(2) 记所取出的非空子集的元素个数为ξ, 求ξ 的分布列和数学期望Eξ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -378,22 +487,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q17",
       "content": "如图, 四边形ABCD 是边长为1 的正方形, MD ⊥平面ABCD, NB ⊥\n平面ABCD, 且MD = NB = 1, E 为BC 的中点.\n(1) 求异面直线NE 与AM 所成角的余弦值;\n(2) 在线段AN 上是否存在点S, 使得ES ⊥平面AMN? 若存在, 求线段\nAS 的长; 若不存在, 请说明理由.\nA\nB\nC\nD\nM\nN\nE\n515",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -401,22 +516,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q18",
       "content": "如图, 某市拟在长为8 km 的道路OP 的一侧修建一条运动赛道. 赛道的\n前一部分为曲线段OSM, 该曲线段为函数y = A sin ωx (A > 0, ω > 0),\nx ∈[0, 4] 的图象, 且图象的最高点为S\n(\n3, 2\n√\n3\n)\n; 赛道的后一部分为折线段\nMNP. 为保证参赛运动员的安全, 限定∠MNP = 120◦.\n(1) 求A, ω 的值和M, P 两点间的距离;\n(2) 应如何设计, 才能使折线段赛道MNP 最长?\nx\ny\nO\nM\nN\n3\n4\n8\nP\n2\n√\n3\nS",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -424,22 +549,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q19",
       "content": "已知A, B 分别为曲线C: x2\na2 +y2 = 1 (y ⩾0, a > 0) 与x 轴的左、右两个\n交点, 直线l 过点B, 且与x 轴垂直, S 为l 上异于点B 的一点, 连结AS\n交曲线C 于点T.\n(1) 若曲线C 为半圆, 点T 为圆弧˜\nAB 的三等分点, 试求出点S 的坐标;\n(2) 如图, 点M 是以SB 为直径的圆与线段TB 的交点. 试问: 是否存在\na, 使得O, M, S 三点共线? 若存在, 求出a 的值, 若不存在, 请说明理由.\nx\ny\nO\nM\nT\nA\nB\nS\nl",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -447,22 +582,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-77fb8d49e8309c3b-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q20",
       "content": "已知函数f(x) = 1\n3x3 + ax2 + bx, 且f ′(−1) = 0.\n(1) 试用含a 的代数式表示b, 并求f(x) 的单调区间;\n(2) 令a = −1, 设函数f(x) 在x1, x2 (x1 < x2) 处取得极值, 记点\nM(x1, f(x1)), N(x2, f(x2)), P(m, f(m)), x1 < m < x2. 请仔细观察曲线\nf(x) 在点P 处的切线与线段MP 的位置变化趋势, 并解释以下问题:\n①若对任意的m ∈(t, x2], 线段MP 与曲线f(x) 均有异于M, P 的\n公共点, 试确定t 的最小值, 并证明你的结论;\n②若存在点Q(n, f(n)), x1 ⩽n < m, 使得线段PQ 与曲线f(x) 有异\n于P、Q 的公共点, 请直接写出m 的取值范围. (不必给出求解过程)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -470,22 +615,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009福建理.pdf#q21",
       "content": "三选二.\n【A】已知矩阵M =\n(\n2\n−3\n1\n−1\n)\n所对应的线性变换把点A(x, y) 变成点\nA′(13, 5), 试求M 的逆矩阵及点A 的坐标.\n【B】已知直线l: 3x + 4y −12 = 0 与圆C:\n{\nx = −1 + 2 cos θ,\ny = 2 + 2 sin θ,\n(θ 为参数),\n试判断他们的公共点个数.\n【C】解不等式|2x −1| < |x| + 1.\n516",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -493,11 +644,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009福建理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

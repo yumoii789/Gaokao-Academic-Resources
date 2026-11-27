@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2024/2024甘肃.pdf",
   "name": "2024甘肃",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 15,
+    "answerBlocks": 0,
+    "sourceAnswers": 12,
+    "sourceAnalysis": 15,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q01",
-      "content": "2024 年 2 月，我国科学家在兰州重离子加速器国家大科学装置上成功合成了新核素\n16976Os，核反应方程如下：10648Cd + 5828Ni→16076Os + 4X，该方程中 X 是（    ）\nA．质子\nB．中子\nC．电子\nD．α 粒子\n【详解】根据反应前后质量数和电荷数守恒得 X 是 10n。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2024 年 2 月，我国科学家在兰州重离子加速器国家大科学装置上成功合成了新核素\n16976Os，核反应方程如下：10648Cd + 5828Ni→16076Os + 4X，该方程中 X 是（    ）\nA．质子\nB．中子\nC．电子\nD．α 粒子",
+      "answer": "B",
+      "analysis": "根据反应前后质量数和电荷数守恒得 X 是 10n。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q02",
-      "content": "小明测得兰州地铁一号线列车从“东\n方红广场”到“兰州大学”站的 v – t 图\n像如图所示，此两站间的距离约为（    ）\nA．980 m\nB．1230 m\nC．1430 m\nD．1880 m\n【详解】v – t 图像中图线与横轴围成的面\n积表示位移，故可得\n(\n)\n1\n74\n25\n94\n20\nm\n1430m\n2\nx =\n−\n+\n\n\n=\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "小明测得兰州地铁一号线列车从“东\n方红广场”到“兰州大学”站的 v – t 图\n像如图所示，此两站间的距离约为（    ）\nA．980 m\nB．1230 m\nC．1430 m\nD．1880 m",
+      "answer": "C",
+      "analysis": "v – t 图像中图线与横轴围成的面\n积表示位移，故可得\n(\n)\n1\n74\n25\n94\n20\nm\n1430m\n2\nx =\n−\n+\n\n\n=\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -56,22 +71,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q03",
-      "content": "小杰想在离地表一定高度的天宫实验室内，通过测量以下物理量得到天宫实验室轨道处\n的重力加速度，可行的是（    ）\nA．用弹簧秤测出已知质量的砝码所受的重力\nB．测量单摆摆线长度、摆球半径以及摆动周期\nC．从高处释放一个重物、测量其下落高度和时间\nD．测量天宫实验室绕地球做匀速圆周运动的周期和轨道半径\n【详解】在天宫实验室内，物体处于完全失重状态，重力提供了物体绕地球匀速圆周运动的\n向心力，故 ABC 中的实验均无法得到天宫实验室轨道处的重力加速度。由重力提供绕地球\n做匀速圆周运动的向心力得\n2\n2\n2\n4\nMm\nmg\nG\nm\nr\nr\nT\n\n=\n=\n2 / 10\n整理得轨道重力加速度为\n2\n2\n4\ng\nr\nT\n\n=\n故通过测量天宫实验室绕地球做匀速圆周运动的周期和轨道半径可行，D 正确。\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "小杰想在离地表一定高度的天宫实验室内，通过测量以下物理量得到天宫实验室轨道处\n的重力加速度，可行的是（    ）\nA．用弹簧秤测出已知质量的砝码所受的重力\nB．测量单摆摆线长度、摆球半径以及摆动周期\nC．从高处释放一个重物、测量其下落高度和时间\nD．测量天宫实验室绕地球做匀速圆周运动的周期和轨道半径",
+      "answer": "D",
+      "analysis": "在天宫实验室内，物体处于完全失重状态，重力提供了物体绕地球匀速圆周运动的\n向心力，故 ABC 中的实验均无法得到天宫实验室轨道处的重力加速度。由重力提供绕地球\n做匀速圆周运动的向心力得\n2\n2\n2\n4\nMm\nmg\nG\nm\nr\nr\nT\n\n=\n=\n2 / 10\n整理得轨道重力加速度为\n2\n2\n4\ng\nr\nT\n\n=\n故通过测量天宫实验室绕地球做匀速圆周运动的周期和轨道半径可行，D 正确。\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -79,22 +102,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q04",
-      "content": "如图，相距为 d 的固定平行光滑金属导轨与阻值为 R 的电阻\n相连，处在磁感应强度大小为 B、方向垂直纸面向里的匀强磁场中\n长度为 L 的导体棒 ab 沿导轨向右做匀速直线运动，速度大小为\nv。则导体棒 ab 所受的安培力为（    ）\nA．B2d2v\nR\n ，方向向左\nB．B2d2v\nR\n ，方向向右\nC．B2L2v\nR\n ，方向向左\nD．B2L2v\nR\n ，方向向右\n【详解】导体棒 ab 切割磁感线在电路部分得有效长度为 d，故感应电动势为\nE\nBdv\n=\n回路中感应电流为\nE\nI\nR\n=\n根据右手定则，判断电流方向为 b 流向 a。故导体棒 ab 所受的安培力为\nF = BId = B2d2v\nR\n方向向左。\n故选 A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，相距为 d 的固定平行光滑金属导轨与阻值为 R 的电阻\n相连，处在磁感应强度大小为 B、方向垂直纸面向里的匀强磁场中\n长度为 L 的导体棒 ab 沿导轨向右做匀速直线运动，速度大小为\nv。则导体棒 ab 所受的安培力为（    ）\nA．B2d2v\nR\n ，方向向左\nB．B2d2v\nR\n ，方向向右\nC．B2L2v\nR\n ，方向向左\nD．B2L2v\nR\n ，方向向右",
+      "answer": "A",
+      "analysis": "导体棒 ab 切割磁感线在电路部分得有效长度为 d，故感应电动势为\nE\nBdv\n=\n回路中感应电流为\nE\nI\nR\n=\n根据右手定则，判断电流方向为 b 流向 a。故导体棒 ab 所受的安培力为\nF = BId = B2d2v\nR\n方向向左。\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -102,22 +133,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q05",
-      "content": "如图为某单摆的振动图像，重力加速度 g 取\n10 m/s2，下列说法正确的是（    ）\nA．摆长为 1.6 m，起始时刻速度最大\nB．摆长为 2.5 m，起始时刻速度为零\nC．摆长为 1.6 m，A、C 点的速度相同\nD．摆长为 2.5 m，A、B 点的速度相同\n【详解】由单摆的振动图像可知振动周期为\n0.8 s\nT\n\n=\n，由单摆的周期公式\n2\nl\nT\ng\n\n=\n得摆长为\n2\n2\n1.6m\n4\ngT\nl\n\n=\n=\nx – t 图像的斜率代表速度，故起始时刻速度为零，且 A、C 点的速度相同，A、B 点的速\n度大小相同，方向不同。\n综上所述，可知 C 正确，故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图为某单摆的振动图像，重力加速度 g 取\n10 m/s2，下列说法正确的是（    ）\nA．摆长为 1.6 m，起始时刻速度最大\nB．摆长为 2.5 m，起始时刻速度为零\nC．摆长为 1.6 m，A、C 点的速度相同\nD．摆长为 2.5 m，A、B 点的速度相同",
+      "answer": "C",
+      "analysis": "由单摆的振动图像可知振动周期为\n0.8 s\nT\n\n=\n，由单摆的周期公式\n2\nl\nT\ng\n\n=\n得摆长为\n2\n2\n1.6m\n4\ngT\nl\n\n=\n=\nx – t 图像的斜率代表速度，故起始时刻速度为零，且 A、C 点的速度相同，A、B 点的速\n度大小相同，方向不同。\n综上所述，可知 C 正确，故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -125,22 +164,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q06",
-      "content": "工业上常利用感应电炉冶炼合金，装置如图所示。当线圈中通有交变电流时，下列说法\n正确的是（    ）\nA．金属中产生恒定感应电流\nB．金属中产生交变感应电流\nC．若线圈匝数增加，则金属中感应电流减小\n3 / 10\nD．若线圈匝数增加，则金属中感应电流不变\n【详解】AB．当线圈中通有交变电流时，感应电炉金属内的磁通量也不断随之变化，金属\n中产生交变感应电流，A 错误，B 正确；\nCD．若线圈匝数增加，根据电磁感应定律可知，感应电动势增大，则金属中感应电流变大，\nCD 错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "工业上常利用感应电炉冶炼合金，装置如图所示。当线圈中通有交变电流时，下列说法\n正确的是（    ）\nA．金属中产生恒定感应电流\nB．金属中产生交变感应电流\nC．若线圈匝数增加，则金属中感应电流减小\n3 / 10\nD．若线圈匝数增加，则金属中感应电流不变",
+      "answer": "B",
+      "analysis": "AB．当线圈中通有交变电流时，感应电炉金属内的磁通量也不断随之变化，金属\n中产生交变感应电流，A 错误，B 正确；\nCD．若线圈匝数增加，根据电磁感应定律可知，感应电动势增大，则金属中感应电流变大，\nCD 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -148,22 +195,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q07",
-      "content": "一平行板电容器充放电电路如图所示。开关 S 接 1，电源\nE 给电容器 C 充电；开关 S 接 2，电容器 C 对电阻 R 放电。\n下列说法正确的是（    ）\nA．充电过程中，电容器两极板间电势差增加，充电电流增加\nB．充电过程中，电容器的上极板带正电荷、流过电阻 R 的电\n流由 M 点流向 N 点\nC．放电过程中，电容器两极板间电势差减小，放电电流减小\nD．放电过程中，电容器的上极板带负电荷，流过电阻 R 的电流由 N 点流向 M 点\n【详解】A．充电过程中，随着电容器带电量的增加，电容器两极板间电势差增加，充电电\n流在减小，故 A 错误；\nB．根据电路图可知，充电过程中，电容器的上极板带正电荷、流过电阻 R 的电流由 N 点\n流向 M 点，故 B 错误；\nC．放电过程中，随着电容器带电量的减小，电容器两极板间电势差减小，放电电流在减小，\n故 C 正确；\nD．根据电路图可知，放电过程中，电容器的上极板带正电荷，流过电阻 R 的电流由 M 点\n流向 N 点，故 D 错误。\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一平行板电容器充放电电路如图所示。开关 S 接 1，电源\nE 给电容器 C 充电；开关 S 接 2，电容器 C 对电阻 R 放电。\n下列说法正确的是（    ）\nA．充电过程中，电容器两极板间电势差增加，充电电流增加\nB．充电过程中，电容器的上极板带正电荷、流过电阻 R 的电\n流由 M 点流向 N 点\nC．放电过程中，电容器两极板间电势差减小，放电电流减小\nD．放电过程中，电容器的上极板带负电荷，流过电阻 R 的电流由 N 点流向 M 点",
+      "answer": "C",
+      "analysis": "A．充电过程中，随着电容器带电量的增加，电容器两极板间电势差增加，充电电\n流在减小，故 A 错误；\nB．根据电路图可知，充电过程中，电容器的上极板带正电荷、流过电阻 R 的电流由 N 点\n流向 M 点，故 B 错误；\nC．放电过程中，随着电容器带电量的减小，电容器两极板间电势差减小，放电电流在减小，\n故 C 正确；\nD．根据电路图可知，放电过程中，电容器的上极板带正电荷，流过电阻 R 的电流由 M 点\n流向 N 点，故 D 错误。\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -171,22 +226,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q007-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q08",
-      "content": "电动小车在水平面内做匀速圆周运动，下列说法正确的是（    ）\nA．小车的动能不变\nB．小车的动量守恒\nC．小车的加速度不变\nD．小车所受的合外力一定指向圆心\n【详解】A．做匀速圆周运动的物体速度大小不变，故动能不变，故A 正确；\nB．做匀速圆周运动的物体速度方向时刻在改变，故动量不守恒，故B 错误；\nC．做匀速圆周运动的物体加速度大小不变，方向时刻在改变，故C 错误；\nD．做匀速圆周运动的物体所受的合外力一定指向圆心，故D 正确。\n故选 AD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "电动小车在水平面内做匀速圆周运动，下列说法正确的是（    ）\nA．小车的动能不变\nB．小车的动量守恒\nC．小车的加速度不变\nD．小车所受的合外力一定指向圆心",
+      "answer": "AD",
+      "analysis": "A．做匀速圆周运动的物体速度大小不变，故动能不变，故A 正确；\nB．做匀速圆周运动的物体速度方向时刻在改变，故动量不守恒，故B 错误；\nC．做匀速圆周运动的物体加速度大小不变，方向时刻在改变，故C 错误；\nD．做匀速圆周运动的物体所受的合外力一定指向圆心，故D 正确。\n故选 AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -194,22 +257,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q09",
-      "content": "某带电体产生电场的等势面分布如图中实线所\n示，虚线是一带电粒子仅在此电场作用下的运动轨\n迹，M、N 分别是运动轨迹与等势面 b、a 的交点，\n下列说法正确的是（    ）\nA．粒子带负电荷\nB．M 点的电场强度比 N 点的小\nC．粒子在运动轨迹上存在动能最小的点\nD．粒子在 M 点的电势能大于在 N 点的电势能\n【详解】A．根据粒子所受电场力指向曲线轨迹的凹侧可知，带电粒子带正电，故 A 错误；\nB．等差等势面越密集的地方场强越大，故 M 点的电场强度比 N 点的小，故 B 正确；\n4 / 10\nCD．粒子带正电，因为 M 点的电势大于在 N 点的电势，故粒子在 M 点的电势能大于在\nN 点的电势能；由于带电粒子仅在电场作用下运动，电势能与动能总和不变，故可知当电势\n能最大时动能最小，故粒子在运动轨迹上到达最大电势处时动能最小，故 CD 正确。\n故选 BCD。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "某带电体产生电场的等势面分布如图中实线所\n示，虚线是一带电粒子仅在此电场作用下的运动轨\n迹，M、N 分别是运动轨迹与等势面 b、a 的交点，\n下列说法正确的是（    ）\nA．粒子带负电荷\nB．M 点的电场强度比 N 点的小\nC．粒子在运动轨迹上存在动能最小的点\nD．粒子在 M 点的电势能大于在 N 点的电势能",
+      "answer": "BCD",
+      "analysis": "A．根据粒子所受电场力指向曲线轨迹的凹侧可知，带电粒子带正电，故 A 错误；\nB．等差等势面越密集的地方场强越大，故 M 点的电场强度比 N 点的小，故 B 正确；\n4 / 10\nCD．粒子带正电，因为 M 点的电势大于在 N 点的电势，故粒子在 M 点的电势能大于在\nN 点的电势能；由于带电粒子仅在电场作用下运动，电势能与动能总和不变，故可知当电势\n能最大时动能最小，故粒子在运动轨迹上到达最大电势处时动能最小，故 CD 正确。\n故选 BCD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -217,22 +284,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q10",
-      "content": "如图为一半圆柱形均匀透明材料的横截面，一束红光 a 从空气\n沿半径方向入射到圆心 O，当 θ = 30° 时，反射光 b 和折射光 c 刚\n好垂直。下列说法正确的是（    ）\nA．该材料对红光的折射率为\n3\nB．若 θ = 45°，光线 c 消失\nC．若入射光 a 变为白光，光线 b 为白光\nD．若入射光 a 变为紫光，光线 b 和 c 仍然垂直\n【详解】A．根据几何关系可知从材料内发生折射时光线的折射角为 60°，故折射率为\nsin 60\n3\nsin30\nn\n\n=\n=\n\n故 A 正确；\nB．设临界角为 C，得\n1\n1\n1\nsin\n<\n3\n2\nC\nn\n=\n=\n故 C < 45°，故若 θ = 45°，会发生全反射，光线 c 消失，故 B 正确；\nC．由于光线 b 为反射光线，反射角等于入射角，故当入射光 a 变为白光，光线 b 为白光，\n故 C 正确；\nD．对同种介质，紫光的折射率比红光大，故若入射光 a 变为紫光，折射角将变大，光线 b\n和 c 不会垂直，故 D 错误。\n故选 ABC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图为一半圆柱形均匀透明材料的横截面，一束红光 a 从空气\n沿半径方向入射到圆心 O，当 θ = 30° 时，反射光 b 和折射光 c 刚\n好垂直。下列说法正确的是（    ）\nA．该材料对红光的折射率为\n3\nB．若 θ = 45°，光线 c 消失\nC．若入射光 a 变为白光，光线 b 为白光\nD．若入射光 a 变为紫光，光线 b 和 c 仍然垂直",
+      "answer": "ABC",
+      "analysis": "A．根据几何关系可知从材料内发生折射时光线的折射角为 60°，故折射率为\nsin 60\n3\nsin30\nn\n\n=\n=\n\n故 A 正确；\nB．设临界角为 C，得\n1\n1\n1\nsin\n<\n3\n2\nC\nn\n=\n=\n故 C < 45°，故若 θ = 45°，会发生全反射，光线 c 消失，故 B 正确；\nC．由于光线 b 为反射光线，反射角等于入射角，故当入射光 a 变为白光，光线 b 为白光，\n故 C 正确；\nD．对同种介质，紫光的折射率比红光大，故若入射光 a 变为紫光，折射角将变大，光线 b\n和 c 不会垂直，故 D 错误。\n故选 ABC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -240,22 +315,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q010-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024甘肃.pdf#q11",
       "content": "（6 分）用图 1 所示实验装置探究外力一定时加\n速度与质量的关系。\n（1）以下操作正确的是______（单选，填正确答案\n标号）。\nA．使小车质量远小于槽码质量\nB．调整垫块位置以补偿阻力\nC．补偿阻力时移去打点计时器和纸带\nD．释放小车后立即打开打点计时器\n（2）保持槽码质量不变，改变小车上砝码的质量，得到一系列打点纸带。其中一条纸带的\n计数点如图 2 所示，相邻两点之间的距离分别为 S1，S2，…，S8，时间间隔均为 T。下列\n加速度算式中，最优的是______（单选，填正确答案标号）。\nA．a = 1\n7 （S8 − S7\nT2\n + S7 − S6\nT2\n + S6 − S5\nT2\n + S5 − S4\nT2\n + S4 − S3\nT2\n + S3 − S2\nT2\n + S2 − S1\nT2\n ）\n5 / 10\nB．a = 1\n6 （S8 − S6\n2T2 + S7 − S5\n2T2 + S6 − S4\n2T2 + S5 − S3\n2T2 + S4 − S2\n2T2 + S3 − S1\n2T2 ）\nC．a = 1\n5 （S8 − S5\n3T2 + S7 − S4\n3T2 + S6 − S3\n3T2 + S5 − S2\n3T2 + S4 − S1\n3T2 ）\nD．a = 1\n4 （S8 − S4\n4T2 + S7 − S3\n4T2 + S6 − S2\n4T2 + S5 − S1\n4T2 ）\n（3）以小车和砝码的总质量 M 为横坐标，加速度的\n倒数 1\na 为纵坐标，甲、乙两组同学分别得到的 1\na – M\n图像如图 3 所示。\n由图可知，在所受外力一定的条件下，a 与 M 成\n______（填“正比”或“反比”）；甲组所用的______\n（填“小车”、“砝码”或“槽码”）质量比乙组的\n更大。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "（1）A．为了使小车所受的合外力大小近似等于槽码的总重力，故应使小车质量远大于槽码\n质量，故 A 错误；\nB．为了保证小车所受细线拉力等于小车所受合力，则需要调整垫块位置以补偿阻力，也要\n保持细线和长木板平行，故 B 正确；\nC．补偿阻力时不能移去打点计时器和纸带，需要通过纸带上点迹是否均匀来判断小车是否\n做匀速运动，故 C 错误；\nD．根据操作要求，应先打开打点计时器再释放小车，故 D 错误。\n故选B。\n（2）根据逐差法可知\n2\n5\n1\n1\n4\nS\nS\naT\n−\n=\n，\n2\n6\n2\n2\n4\nS\nS\na T\n−\n=\n，\n2\n7\n3\n3\n4\nS\nS\na T\n−\n=\n，\n2\n8\n4\n4\n4\nS\nS\na T\n−\n=\n联立可得小车加速度表达式为\na = 1\n4 （S8 − S4\n4T2 + S7 − S3\n4T2 + S6 − S2\n4T2 + S5 − S1\n4T2 ）\n故选 D。\n（3）根据图像可知 1\na 与 M 成正比，故在所受外力一定的条件下，a 与 M 成反比；\n设槽码的质量为 m，则由牛顿第二定律\n(\n)\nmg\nm\nM a\n=\n+\n化简可得\n1\n1\n1\nM\na\nmg\ng\n=\n\n+\n故斜率越小，槽码的质量 m 越大，由图可知甲组所用的槽码质量比乙组的更大。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -263,11 +346,157 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024甘肃.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q011-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q011-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024甘肃.pdf#q12",
+      "content": "（9 分）精确测量干电池电动势和内阻需要考虑电表内阻的影响。可用器材有：电压表\n（量程 1.5 V，内阻约为 1.5 kΩ）、电流表（量程 0.6 A）、滑动变阻器、开关、干电池和导\n线若干。某小组开展了以下实验。\n6 / 10\n（1）考虑电流表内阻影响\n①用图 1 所示电路测量电流表的内阻。从图 2 电压表和电流表读数可得电流表内阻 RA =\n________Ω（保留 2 位有效数字）。\n②用图 3 所示电路测量干电池电动势和内阻。电压表读数、电流表读数、干电池内阻和电\n流表内阻分别用 U、I、r 和 RA 表示。则干电池电动势 E = U + ______（用 I、r 和 RA 表\n示）。\n③调节滑动变阻器测得多组电表读数，作出图 4 所示的 U – I 图像。则待测干电池电动势\nE = ______V（保留3 位有效数字）、内阻 r = ______Ω（保留 1 位小数）。\n（2）考虑电压表内阻影响\n该小组也尝试用图 5 所示电路测量电压表内阻，但发现实验无法完成。原因是______（单\n选，填正确答案标号）。\nA．电路设计会损坏仪器\nB．滑动变阻器接法错误\nC．电压太大无法读数\nD．电流太小无法读数",
+      "answer": "D",
+      "analysis": "（1）①由图 2 可知，电压表读数为 U = 0.60 V，电流表读数为 I = 0.58 A\n根据欧姆定律可得电流表内阻为\nA\n0.60\n1.0\n0.58\nU\nR\nI\n=\n=\n\n\n②由闭合电路欧姆定律可知，干电池电动势的表达式为\nA\n(\n)\nE\nU\nI r\nR\n=\n+\n+\n③根据\nA\n(\n)\nE\nU\nI r\nR\n=\n+\n+\n变形为\n7 / 10\nA\n(\n)\nU\nr\nR\nI\nE\n= −\n+\n+\n根据图像可知，纵截距 b = E = 1.40 V\n斜率的绝对值\nA\n1.40 1.00 Ω\n2.0Ω\n0.20\n0\nk\nr\nR\n−\n=\n+\n=\n=\n−\n所以待测干电池电动势为 E = 1.40 V，电源内阻为 r = 1.0 Ω\n（2）由于将电压表串联接在电路中，电压表内阻很大，电路中电流太小，故无法完成实验\n的原因可能是电流太小无法读数。\n故选 D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024甘肃.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q012-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q012-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024甘肃.pdf#q13",
+      "content": "（10 分）如图，刚性容器内壁光滑、盛有一定量\n的气体，被隔板分成 A、B 两部分，隔板与容器右\n侧用一根轻质弹簧相连（忽略隔板厚度和弹簧体积）。\n容器横截面积为 S、长为 2l。开始时系统处于平衡\n态，A、B 体积均为 Sl，压强均为 p0，弹簧为原长。\n现将 B 中气体抽出一半，B 的体积变为原来的 3\n4 。\n整个过程系统温度保持不变，气体视为理想气体。求：\n（1）抽气之后 A、B 的压强 pA、pB。\n（2）弹簧的劲度系数 k。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设抽气前两体积为 V = SL，对气体 A 分析：抽气后\n3\n5\n2\n4\n4\nA\nV\nV\nV\nSL\n=\n−\n=\n根据玻意耳定律得\n0\n5\n4\nA\np V\np\nV\n=\n解得 pA = 4\n5 p0\n对气体 B 分析，若体积不变的情况下抽去一半的气体，则压强变为原来的一半即 1\n2 p0，则\n根据玻意耳定律得\n0\n1\n3\n2\n4\nB\np V\np\nV\n=\n解得 pB = 2\n3 p0\n（2）由题意可知，弹簧的压缩量为 l\n4 ，对活塞受力分析有\nA\nB\np S\np S\nF\n=\n+\n根据胡克定律得\n4\nl\nF\nk\n=\n8 / 10\n联立得 k = 8p0S\n15l",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024甘肃.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q013-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q013-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024甘肃.pdf#q14",
+      "content": "（15 分）如图，质量为 2 kg 的小球A（视为质点）在细绳 OʹP 和 OP 作用下处于平\n衡状态，细绳 OʹP = OP = 1.6 m，与竖直方向的夹角均为 60°。质量为 6 kg 的木板 B 静止\n在光滑水平面上，质量为 2 kg 的物块 C 静止在 B 的左端。剪断细绳 OʹP，小球 A 开始\n运动。（重力加速度 g 取 10 m/s2）\n（1）求 A 运动到最低点时细绳 OP 所受的拉力。\n（2）A 在最低点时，细绳 OP 断裂。A 飞出后恰好与 C 左侧碰撞（时间极短）、碰后 A\n竖直下落，C 水平向右运动。求碰后 C 的速度大小。\n（3）A、C 碰后，C 相对 B 滑行 4 m 后与 B 共速。求 C 和 B 之间的动摩擦因数。",
+      "answer": "暂无结构化答案",
+      "analysis": "根据题意，设 AC 质量为 m = 2 kg，B 的质量为 M = 6 kg，细绳 OP 长为 l =1.6\nm，初始时细线与竖直方向夹角 θ = 60°。\n（1）A 开始运动到最低点有\n(\n)\n2\n0\n1\n1 cos\n0\n2\nmgl\nmv\n\n−\n=\n−\n对最低点受力分析，根据牛顿第二定律得\n2\n0\nmv\nF\nmg\nl\n−\n=\n解得 v0 = 4 m/s，F = 40 N\n（2）A 与 C 相碰时，水平方向动量守恒，由于碰后 A 竖直下落可知\n0\nC\n0\nmv\nmv\n=\n+\n故解得 vC = v0 = 4 m/s\n（3）A、C 碰后，C 相对 B 滑行 4 m 后与 B 共速，则对 CB 分析，过程中根据动量守\n恒可得\n(\n)\n0\nmv\nM\nm v\n=\n+\n根据能量守恒得\n(\n)\n2\n2\n0\n1\n1\n2\n2\nmgL\nmv\nm\nM v\n\n=\n−\n+\n相对\n联立解得 μ = 0.15",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024甘肃.pdf",
+        "page": 8,
+        "endPage": 8,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q014-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q014-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024甘肃.pdf#q15",
+      "content": "（17 分）质谱仪是科学研究中的重要仪器，其原理如图所示。Ⅰ 为粒子加速器，加速\n电压为 U；Ⅱ 为速度选择器，匀强电场的电场强度大小为 E1，方向沿纸面向下，匀强磁场\n的磁感应强度大小为 B1，方向垂直纸面向里；Ⅲ 为偏转分离器，匀强磁场的磁感应强度大\n小为 B2，方向垂直纸面向里。从 S 点释放初速度为零的带电粒子（不计重力），加速后进\n9 / 10\n入速度选择器做直线运动、再由 O 点进入分离器做圆周运动，最后打到照相底片的 P 点\n处，运动轨迹如图中虚线所示。\n（1）粒子带正电还是负电？求粒子的比荷。\n（2）求 O 点到 P 点的距离。\n（3）若速度选择器 Ⅱ 中匀强电场的电场强度大小变为 E2（E2 略大于 E1），方向不变，粒\n子恰好垂直打在速度选择器右挡板的 Oʹ 点上。求粒子打在 Oʹ 点的速度大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由于粒子向上偏转，根据左手定则可知粒子带正电；设粒子的质量为 m，电荷\n量为 q，粒子进入速度选择器时的速度为 v0，在速度选择器中粒子做匀速直线运动，由平\n衡条件\n0\n1\n1\nqv B\nqE\n=\n在加速电场中，由动能定理\n2\n0\n1\n2\nqU\nmv\n=\n联立解得，粒子的比荷为 q\nm =\nE12\n2UB12\n（2）由洛伦兹力提供向心力\n2\n0\n0\n2\nv\nqv B\nm r\n=\n可得 O 点到 P 点的距离为\nOP = 2r = 4UB1\nE1B2\n（3）粒子进入 Ⅱ 瞬间，粒子受到向上的洛伦兹力\n0\n1\nF\nqv B\n=\n洛\n向下的电场力\n2\nF\nqE\n=\n由于\n2\n1\nE\nE\n＞\n，且\n0\n1\n1\nqv B\nqE\n=\n所以通过配速法，如图所示\n10 / 10\n其中满足\n2\n0\n1\n1\n(\n)\nqE\nq v\nv B\n=\n+\n则粒子在速度选择器中水平向右以速度 v0 + v1 做匀速运动的同时，竖直方向以 v1 做匀速\n圆周运动，当速度转向到水平向右时，满足垂直打在速度选择器右挡板的 Oʹ 点的要求，故\n此时粒子打在 Oʹ 点的速度大小为\nvʹ =v0 + v1 + v1 = 2E2 − E1\nB1",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024甘肃.pdf",
+        "page": 8,
+        "endPage": 10,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q015-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q015-p010-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c7a40571568fc399-q015-p009-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 0,
+    "assigned": 17,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

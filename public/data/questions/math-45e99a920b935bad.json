@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
   "name": "2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q01",
       "content": "已知集合U = {−2, −1, 0, 1, 2, 3}, A = {−1, 0, 1}, B = {1, 2}, 则\n∁U (A ∪B) =\n(\n)\n(A) {−2, 3}\n(B) {−2, 2, 3}\n(C) {−2, −1, 0, 3}\n(D) {−2, −1, 0, 2, 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q02",
       "content": "若α 为第四象限角, 则\n(\n)\n(A) cos 2α > 0\n(B) cos 2α < 0\n(C) sin 2α > 0\n(D) sin 2α < 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q03",
       "content": "在新冠肺炎疫情防控期间, 某超市开通网上销售业务, 每天能完成1200 份\n订单的配货, 由于订单量大幅增加, 导致订单积压. 为解决困难, 许多志愿\n者踊跃报名参加配货工作. 已知该超市某日积压500 份订单未配货, 预计\n第二天的新订单超过1600 份的概率为0.05. 志愿者每人每天能完成50\n份订单的配货, 为使第二天完成积压订单及当日订单的配货的概率不小于\n0.95, 则至少需要志愿者\n(\n)\n(A) 10 名\n(B) 18 名\n(C) 24 名\n(D) 32 名",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q04",
       "content": "北京天坛的圜丘坛为古代祭天的场所, 分上、中、下三层, 上层中心有一块\n圆形石板(称为天心石), 环绕天心石砌9 块扇面形石板构成第一环, 向外\n每环依次增加9 块, 下一层的第一环比上一层的最后一环多9 块, 向外每\n环依次也增加9 块, 已知每层环数相同, 且下层比中层多729 块, 则三层共\n有扇面形石板(不含天心石)\n(\n)\n(A) 3699 块\n(B) 3474 块\n(C) 3402 块\n(D) 3339 块",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q05",
       "content": "若过点(2, 1) 的圆与两坐标轴都相切, 则圆心到直线2x −y −3 = 0 的距\n离为\n(\n)\n(A)\n√\n5\n5\n(B) 2\n√\n5\n5\n(C) 3\n√\n5\n5\n(D) 4\n√\n5\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q06",
       "content": "数列{an} 中, a1 = 2, am+n = aman. 若ak+1+ak+2+· · ·+ak+10 = 215−25,\n则k =\n(\n)\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q07",
       "content": "如图是一个多面体的三视图, 这个多面体某条棱的一个端点在正视图中对\n应的点为M, 在俯视图中对应的点为N, 则该端点在侧视图中对应的点\n为\n(\n)\nF\nE\nG\nH\nN\nM\n(A) E\n(B) F\n(C) G\n(D) H",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -171,22 +222,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q08",
       "content": "设O 为坐标原点, 直线x = a 与双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的\n两条渐近线分别交于D, E 两点. 若△ODE 的面积为8, 则C 的焦距的\n最小值为\n(\n)\n(A) 4\n(B) 8\n(C) 16\n(D) 32",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q09",
       "content": "设函数f (x) = ln |2x + 1| −ln |2x −1|, 则f (x)\n(\n)\n(A) 是偶函数, 且在\n(1\n2, +∞\n)\n单调递增\n(B) 是奇函数, 且在\n(\n−1\n2, 1\n2\n)\n单调递减\n(C) 是偶函数, 且在\n(\n−∞, −1\n2\n)\n单调递增\n(D) 是奇函数, 且在\n(\n−∞, −1\n2\n)\n单调递减",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q10",
       "content": "已知△ABC 是面积为9\n√\n3\n4\n的等边三角形, 且其顶点都在球O 的球面上.\n若球O 的表面积为16π, 则O 到平面ABC 的距离为\n(\n)\n(A)\n√\n3\n(B) 3\n2\n(C) 1\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q11",
       "content": "若2x −2y < 3−x −3−y, 则\n(\n)\n(A) ln (y −x + 1) > 0\n(B) ln (y −x + 1) < 0\n(C) ln |x −y| > 0\n(D) ln |x −y| < 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -263,22 +342,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q12",
       "content": "0 −1 周期序列在通信技术中有着重要应用. 若序列a1a2 · · · an · · · 满足\nai ∈{0, 1} (i = 1, 2, · · · ), 且存在正整数m, 使得ai+m = ai (i = 1, 2, · · · )\n成立, 则称其为0 −1 周期序列, 并称满足ai+m = ai (i = 1, 2, · · · ) 的最小\n正整数m 为这个序列的周期. 对于周期为m 的0 −1 序列a1a2 · · · an · · · ,\nC (k) = 1\nm\nm\n∑\ni=1\naiai+k (k = 1, 2, · · · , m −1) 是描述其性质的重要指标, 下\n列周期为5 的0 −1 序列中, 满足C (k) ⩽1\n5 (k = 1, 2, 3, 4) 的序列是(\n)\n(A) 11010 · · ·\n(B) 11011 · · ·\n(C) 10001 · · ·\n(D) 11001 · · ·",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -286,22 +375,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q13",
       "content": "已知单位向量a, b 的夹角为45◦, ka −b 与a 垂直, 则k =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q14",
       "content": "4 名同学到3 个小区参加垃圾分类宣传活动, 每名同学只去1 个小区, 每\n个小区至少安排1 名同学, 则不同的安排方法共有\n种.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q15",
       "content": "设复数z1, z2 满足|z1| = |z2| = 2, z1 + z2 =\n√\n3 + i, 则|z1 −z2| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q16",
       "content": "设有下列四个命题:\np1: 两两相交且不过同一点的三条直线必在同一平面内;\np2: 过空间中任意三点有且仅有一个平面;\np3: 若空间两条直线不相交, 则这两条直线平行;\np4: 若直线l ⊂平面α, 直线m ⊥平面α, 则m ⊥l.\n则下述命题中所有真命题的序号是\n.\n①p1 ∧p4;\n②p1 ∧p2;\n③¬p2 ∨p3;\n④¬p3 ∨¬p4.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -378,22 +491,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q17",
       "content": "△ABC 中, sin2 A −sin2 B −sin2 C = sin B sin C.\n(1) 求A;\n(2) 若BC = 3, 求△ABC 周长的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -401,22 +524,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q18",
       "content": "某沙漠地区经过治理, 生态系统得到很大改善, 野生动物数量有所增加. 为\n调查该地区某种野生动物数量, 将其分成面积相近的200 个地块, 从这\n些地块中用简单随机抽样的方法抽取20 个作为样区, 调查得到样本数据\n(xi, yi) (i = 1, 2, · · · , 20), 其中xi 和yi 分别表示第i 个样区的植物覆盖\n面积(单位: 公顷) 和这种野生动物的数量, 并计算得\n20\n∑\ni=1\nxi = 60,\n20\n∑\ni=1\nyi =\n1200,\n20\n∑\ni=1\n(xi −x)2 = 80,\n20\n∑\ni=1\n(yi −y)2 = 9000,\n20\n∑\ni=1\n(xi −x) (yi −y) = 800.\n(1) 求该地区这种野生动物数量的估计值(这种野生动物数量的估计值等\n于样区这种野生动物数量的平均数乘以地块数);\n(2) 求样本(xi, yi) (i = 1, 2, · · · , 20) 的相关系数(精确到0.01);\n(3) 根据现有统计资料, 各地块间植物覆盖面积差异很大. 为提高样本的代\n表性以获得该地区这种野生动物数量更准确的估计, 请给出一种你认为更\n合理的抽样方法, 并说明理由.\n附: 相关系数r =\nn\n∑\ni=1\n(xi −x) (yi −y)\n√n\n∑\ni=1\n(xi −x)2\nn\n∑\ni=1\n(yi −y)2\n,\n√\n2 ≈1.414.\n1121",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -424,22 +553,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q19",
       "content": "已知椭圆C1: x2\na2 + y2\nb2 = 1 (a > b > 0) 的右焦点F 与抛物线C2 的焦点\n重合, C1 的中心与C2 的顶点重合. 过F 且与x 轴垂直的直线交C1 于\nA, B 两点, 交C2 于C, D 两点, 且|CD| = 4\n3|AB|.\n(1) 求C1 的离心率;\n(2) 设M 是C1 与C2 的公共点, 若|MF| = 5, 求C1 与C2 的标准方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -447,22 +582,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q20",
       "content": "如图, 已知三棱柱ABC −A1B1C1 的底面是正三角形, 侧面BB1C1C 是\n矩形, M, N 分别为BC, B1C1 的中点, P 为AM 上一点, 过B1C1 和P\n的平面交AB 于E, 交AC 于F.\n(1) 证明: AA1\nMN, 且平面A1AMN ⊥平面EB1C1F;\n(2) 设O 为△A1B1C1 的中心, 若AO\n平面EB1C1F, 且AO = AB, 求\n直线B1E 与平面A1AMN 所成角的正弦值.\nA\nA1\nB1\nC1\nB\nP\nO\nM\nN\nC\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -470,22 +611,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-45e99a920b935bad-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q21",
       "content": "已知函数f (x) = sin2 x sin 2x.\n(1) 讨论f (x) 在区间(0, π) 的单调性;\n(2) 证明: |f (x)| ⩽3\n√\n3\n8 ;\n(3) 设n ∈N∗, 证明: sin2 x sin2 2x sin2 4x · · · sin2 2nx ⩽3n\n4n .",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -493,22 +644,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q22",
       "content": "已知曲线C1, C2 的参数方程分别为C1:\n{\nx = 4 cos2 θ,\ny = 4 sin2 θ,\n(θ 为参数), C2:\n\n\n\n\n\nx = t + 1\nt ,\ny = t −1\nt ,\n(t 为参数).\n(1) 将C1, C2 的参数方程化为普通方程;\n(2) 以坐标原点为极点, x 轴正半轴为极轴建立极坐标系. 设C1, C2 的交\n点为P, 求圆心在极轴上, 且经过极点和P 的圆的极坐标方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -516,22 +673,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf#q23",
       "content": "已知函数f (x) = |x −a2| + |x −2a + 1|.\n(1) 当a = 2 时, 求不等式f (x) ⩾4 的解集;\n(2) 若f (x) ⩾4, 求a 的取值范围.\n1122",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -539,11 +702,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020全国2理(甘肃,青海,内蒙古,黑龙江,吉林,辽宁.宁夏,新疆,陕西,重庆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

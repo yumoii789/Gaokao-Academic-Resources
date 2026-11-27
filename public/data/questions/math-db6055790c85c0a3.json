@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1961/1961.pdf",
   "name": "1961",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 6,
+    "answerBlocks": 6,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 6,
+    "reviewCount": 1,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1961/1961.pdf#q01",
       "content": "(1)求(2-x)10 展开式里x7 的系数.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1)解:在这个展开式里含有x7 的项是第八项.它的系数是\nC (-1)\n2\n= - C\n8\n= - 10\n9\n8\n1\n2\n3\n8\n10\n7\n7\n3\n10\n·\n·\n· ·\n· ·\n·\n3\n=-960.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1961/1961.pdf#q02",
       "content": "解方程:2lgx=lg(x+12).(注:lg 是以10 为底的对数的符号.)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:2lgx=lg(x+12),\nlgx2=lg(x+12),\n∴x2=x+12,x2-x-12=0,\n(x-4)(x+3)=0,\n∴x1=4,x2=-3.\n当x=-3 时,lgx 没有意义,舍去;x=4 为原方程的解.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1961/1961.pdf#q03",
       "content": "y =\nx -1\nx - 5\nx\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:根据根式的定义,x-1≥0,∴x≥1;\n又根据分母不能为零,x-5≠0,∴x≠5.\n所以自变量x 的允许值的范围是x≥1,但x≠5.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -79,22 +98,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1961/1961.pdf#q04",
       "content": "sin 12 sin 5\n12\n.\n求函数\n的自变量的允许值的范围\n求\n的值\nπ\nπ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": ":sin12 sin 12\n= sin12 cos12\n= 1\n2 sin 6\n= 1\n2\n1\n2\n= 1\n4.\n解法一\n·\nπ\nπ\nπ\nπ\nπ\n5\n解法二\n:sin12 sin 5\n12\n= 1\n2 (cos 3 - cos 2)\n= 1\n2 (1\n2 - 0)\n= 1\n4.\nπ\nπ\nπ\nπ\n解法三\n　∴　\n·\n:sin12 =\n1- cos 6\n2\n=\n1-\n3\n2\n2\n= 1\n2\n2-\n3,\nsin 12 =\n1- cos5\n6 =\n1+\n3\n2\n2\n= 1\n2\n2 +\n3,\nsin 12 sin 12 = 1\n2\n2 -\n3\n1\n2 +\n3 = 1\n4 .\nπ\nπ\nπ\nπ\nπ\nπ\n5\n2\n5\n2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -102,22 +127,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1961/1961.pdf#q05",
       "content": "一个水平放着的圆柱形排水管,内半径是12 厘米.排水管的圆截\n面上被水淹没部分的弧含有150°(如图).求这个截面上有水部分的面\n积.(取π=3.14.)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\n弧\n的长是\n×\n厘米\n扇形\n的面积\n×\n×\n平方厘米\n△\n的面积\n×\n×\n°\n平方厘米\nACB\n12\n5\n= 10 (\n),\nO - ACB\n= 1\n2\n12\n10\n= 60 (\n),\nOAB\n= 1\n2\n12\nsin150\n= 36(\n).\n2\nπ\nπ\nπ\nπ\n6\n∴截面上有水部分的面积=60π-36\n=60×3.14-36=152.4(平方厘米).\n解法二:\n扇形\n的面积\n× ×\n平方厘米\n△\n的面积\n×\n×\n°\n平方厘米\nO - ACB\n= 150\n360\n12 = 60 (\n),\nOAB\n= 1\n2\n12\nsin150\n= 36(\n).\n2\n2\nπ\nπ\n∴截面上有水部分的面积=60π-36\n=60×3.14-36=152.4(平方厘米).",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -125,22 +154,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-db6055790c85c0a3-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-db6055790c85c0a3-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1961/1961.pdf#q06",
       "content": "已知△ABC 的一边BC 在平面N 内,△ABC 所在的平面与平面N 组\n成二面角a(a＜90°).从A 点作平面N 的垂线AA＇,A＇是垂足.设△ABC 的\n面积是S,求证△A＇BC 的面积是Scosa.\n二、一个机器制造厂的三年生产计划,每年比上一年增产机器的台数相同.\n如果第三年比原计划多生产1千台,那末每年比上一年增长的百分数就相同,\n而且第三年生产的台数恰等于原计划三年生产总台数的一半,原计划每年\n各生产机器多少台?\n三、有一块圆环形的铁皮,它的内半径是45 厘米,外半径是75 厘米.用它\n的五分之一(如图中的阴影部分),作圆台形水桶的侧面,这个水桶的容积是\n多少立方厘米?\n四、在平地上有A、B 两点.A 在山的正东.B 在山的东南,且在A 的西65\n°南300 米的地方.在A 测得山顶的仰角是30°,求山高.(sin70°=0.940.\n精确到10 米.)\n五、下面甲、乙两题,选作一题.\n甲、k 是什么实数的时候,方程x2-2(k+3)x+3k2+1=0 有实数根?\n乙、设方程8x2-(8sina)x+2+cos2a=0 的两个根相等,求a.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "证明:\n∴△\n的面积\n·\nA BC\n= 1\n2 BC\nA D\n'\n'\n·\n= 1\n2 BC\nADcos\n= Scos .\nα\nα\n二、\n解法一:\n设原计划第一、二、三年生产机器的千台数分别为x,x+y,x+2y.依题意,\n得方程组:\n(x + y) - x\nx\n= (x + 2y +1) - (x + y)\nx + y\n,\nx + 2y +1= 1\n2\n[x + (x + y) + (x + 2y)].\n\n\n\n\n\n\n这个方程组经过变形后,得方程组:\ny - x = 0,\nx - y - 2 = 0.\n2\n\n\n\n解这个方程组,得\nx = 4,\ny = 2;\nx = 1,\ny = -1.\n1\n1\n2\n2\n\n\n\n\n\n\n由第一组解,得x=4,x+y=6,x+2y=8.\n第二组解不合题意,舍去.\n答:原计划第一、二、三年各生产机器4 千台、6 千台、8 千台.\n解法二:\n设原计划第一、二、三年生产机器的千台数为别为x-y,x,x+y.依题意,\n得方程组:\nx = (x - y)(x+ y +1),\nx + y +1 = 1\n2\n[(x - y) + x + (x + y)].\n2\n\n\n\n这个方程组经过变形后,得方程组:\ny + y - x = 0,\nx - 2y - 2 = 0.\n2\n\n\n\n解这个方程组,得\nx = 6,\ny = 2;\nx = 0,\ny = -1.\n1\n1\n2\n2\n\n\n\n\n\n\n由第一组解,得x-y=4,x=6,x+y=8.\n第二组解不合题意,舍去.\n答:原计划第一、二、三年各生产机器4 千台、6 千台、8 千台.\n三、\n解:\n水桶上口的半径\n×\n厘米\n= 1\n5\n75 = 15(\n),\n水桶下底的半径\n×\n厘米\n= 1\n5\n45 = 9(\n),\n水桶的斜高\n厘米\n= 75- 45 = 30(\n),\n水桶的高=\n30 - (15- 9)\n2\n2\n厘米\n= 12 6(\n),\n∴水桶的容积\n·\n×\n立方厘米\n答水桶的容积是\n立方厘米\n= 1\n3\n12 6 (15 + 9 +15\n9)\n  = 1764 6 (\n).\n:\n1764 6\n.\n2\n2\nπ\nπ\nπ\n四、\n解:如图,CD 为山的高.\n在△ABC 中,∠ACB=45°,∠CAB=65°,\n∴∠ABC=180°-(45°+65°)=70°;\n又AB=300(米)\n∴\n°\n°\n°\n° 米\nAC = ABsin70\nsin45\n= 300sin70\n2\n2\n= 300 2sin70\n(\n).\n在直角三角形ACD 中,∠CAD=30°,\nCD = ACtg30\n= 300 2sin70\n3\n3\n= 100 6 sin70\n°\n°·\n°\n  =100×2.45×0.940\n  =230(米)\n答:山高是230 米\n五、\n甲、解法一:当这个方程的判别式Δ=0 或者Δ>0 的时候,原方程有实数根.\n(k+3)2-(3k2+1)\n=-2k2+6k+8.\n解\n-2k2+6k+8=0,\n即\nk2-3k-4=0,\n得\nk=-1 或者k=4.\n解\n-2k2+6k+8>0,\n即\n-k2+3k+4>0,\n得\n-1<k<4.\n所以在-1≤k≤4 的时候,原方程有实数根.\n解法二:\n这个方程有实数根的条件是:\n(k+3)2-(3k2+1)≥0\n化简得:\n-k2+3k+4≥0,\nk2-3k-4≤0,\n(k+1)(k-4)≤0,\n∴-1≤k≤4 的时候,方程有实数根.\n乙、解:因为方程的两个根相等,所以\n(8sina)2-4·8(2+cos2a)=0.\n化简:\n2sin2a-(2+cos2a)=0,\n2sin2a-(3-2sin2a)=0,\n4sin2a-3=0.\n∴\n±\n由\n得\n为整数\n由\n得\n为整数\n∴\n±\n为整数\n   sin\n=\n3 .\n   sin\n=\n3\n2 ,\n= n\n+ (-1)\n3 ;(n\n)\n   sin\n= -\n3\n2 ,\n= n - (-1)\n3 .(n\n)\n= n\n3\n.(n\n)\nn\nn\nα\nα\nα\nπ\nπ\nα\nα\nπ\nπ\nα\nπ\nπ\n2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1961,
       "subject": "数学",
@@ -148,11 +185,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1961/1961.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-db6055790c85c0a3-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-db6055790c85c0a3-q006-p001-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 5,
+    "assigned": 0,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 2,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

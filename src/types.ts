@@ -21,10 +21,12 @@ export interface QuestionProvenance {
   repository: 'deekur/gaokaomath' | 'deekur/gaokaophysics';
   paperId: string;
   page: number;
+  endPage?: number;
   questionNumber: number;
   extraction: 'text' | 'ocr';
   confidence: number | null;
   needsReview: boolean;
+  reviewReasons?: string[];
 }
 
 export interface StructuredPaperIndex {
@@ -41,8 +43,10 @@ export interface Question {
   questionId: string;
   content: string;
   imagePath?: string;
+  imagePaths?: string[];
   answer: string;
   analysis: string;
+  analysisSource?: 'source' | 'ai' | 'none';
   difficulty: number;
   knowledgePoints: string[];
   tags: string[];

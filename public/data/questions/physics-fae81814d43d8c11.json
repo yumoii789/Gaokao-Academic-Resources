@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2001/2001上海.pdf",
   "name": "2001上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 16,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 44,
+    "sourceAnswers": 17,
+    "sourceAnalysis": 10,
+    "reviewCount": 14,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q01",
       "content": "跳伞运动员在刚跳离飞机、其降落伞尚未打开的一段时间内，下列说法中正确的是（    ）\n（A）空气阻力做正功\n（B）重力势能增加\n（C）动能增加\n（D）空气阻力做负功",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "CD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q02",
       "content": "卢瑟福原子核式结构理论的主要内容有（    ）\n（A）原子的中心有个核，叫做原子核\n（B）原子的正电荷均匀分布在整个原子中\n（C）原子的全部正电荷和几乎全部质量都集中在原子核里\n（D）带负电的电子在核外绕着核旋转",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "第一、二、三题只要求写出答案，不要求写出演算过程。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q03",
       "content": "A、B 两点各放有电量为 + Q 和 + 2Q 的点电荷，A、B、C、D 四点在同一直线上，且\nAC = CD = DB。将一正电荷从C 点沿直线移到D 点，则（    ）\n（A）电场力一直做正功\n（B）电场力先做正功再做负功\n（C）电场力一直做负功\n（D）电场力先做负功再做正功",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "第19、20、21、22、23 题只有最后答案而无演算过程的，不给分。解答中单纯列出与\n解答无关的文字公式，或虽列出公式，但文字符号与题中所给定的不同，不给分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -79,22 +102,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q04",
       "content": "组成星球的物质是靠引力吸引在一起的，这样的星球有一个最大的自转速率，如果超过\n了该速率，星球的万有引力将不足以维持其赤道附近的物体做圆周运动。由此能得到半径为\nR、密度为 ρ、质量为 M 且均匀分布的星球的最小自转周期 T。下列表达式中正确的是（    ）\n（A）T = 2π A\nR3\nGM E\nA\n（B）T = 2π A\n3R3\nGM E\n（C）T = A\nπ\nGρ E\nA\n（D）T = A\n3π\nGρ E\n+ Q\n+ 2Q\nA\nB\nC\nD\n第 2 页 共 16 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -102,22 +129,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q05",
       "content": "如图所示，有两根和竖直方向成 α 角的光滑平行的金属轨道，\n上端接有可变电阻 R，下端足够长，空间有垂直于轨道平面的匀强\n磁场，磁感强度为 B。一根质量为 m 的金属杆从轨道上由静止滑\n下。经过足够长的时间后，金属杆的速度会趋近于一个最大速度\nvmax，则（    ）\n（A）如果 B 增大，vmax 将变大\n（B）如果 α 变小，vmax 将变大\n（C）如果 R 变大，vmax 将变大\n（D）如果 m 变小，vmax 将变大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -125,22 +163,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q06",
       "content": "如图所示是一种延时开关，当 S1 闭合时，电磁铁 F 将衔铁\nD 吸下，C 线路接通。当 S1 断开时，由于电磁感应作用，D 将\n延迟一段时间才被释放。则（    ）\n（A）由于 A 线圈的电磁感应作用，才产生延时释放 D 的作用\n（B）由于 B 线圈的电磁感应作用，才产生延时释放 D 的作用\n（C）如果断开 B 线圈的电键 S2，无延时作用\n（D）如果断开 B 线圈的电键 S2，延时将变长",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -148,22 +196,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q07",
       "content": "如图所示的电路中，闭合电键，灯 L1、L2 正常发光，由于\n电路出现故障，突然发现灯 L1 变亮，灯 L2 变暗，电流表的\n读数变小，根据分析，发生的故障可能是（    ）\n（A）R1 断路\n（B）R2 断路\n（C）R3 短路\n（D）R4 短路",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -171,22 +229,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q08",
       "content": "一升降机在箱底装有若干个弹簧，设在某次事故中，升降\n机吊索在空中断裂，忽略摩擦力，则升降机在从弹簧下端触地后直到最低点\n的一段运动过程中，（    ）\n（A）升降机的速度不断减小\n（B）升降机的加速度不断变大\n（C）先是弹力做的负功小于重力做的正功，然后是弹力做的负功大于重力做的正功\n（D）到最低点时，升降机加速度的值一定大于重力加速度的值。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "CD",
+      "analysis": "全题40 分，每小题5 分，全选对的得5 分，选对但不全的得2 分，有选错或全\n部不选的得0 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -194,22 +262,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q09",
       "content": "请将右面三位科学家的姓名按历史年代先后顺序排列：_______、________、________。\n任选其中二位科学家，简要写出他们在物理学上的主要贡献各一项：\n_______________________，_______________________。\nP\nR\nB\nα\nA\nB\nS1\nS2\nC\nD\nF\nS\nA\nL1\nL2\nR2\nR3\nR4\nR1\n第 3 页 共 16 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "伽利略，牛顿，爱因斯坦。\n伽利略：望远镜的早期发明，将实验方法引进物理学等；\n牛顿：发现运动定律，万有引力定律等；\n爱因斯坦：光电效应，相对论等。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -217,22 +293,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q009-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q10",
       "content": "（a）、（b）两幅图是由单色光分别射到圆孔而形成的图\n象，其中图（a）是光的________（填干涉或衍射）图象。由\n此可以判断出图（a）所对应的圆孔的孔径______（填大于或\n小于）图（b）所对应的圆孔的孔径。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "衍射，小于",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -240,22 +328,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q11",
       "content": "一束质量为m、电量为q 的带电粒子以平行于两极板的速度 v0\n进入匀强电场，如图所示，如果两极板间电压为U，两极板间的距\n离为d，板长为L，设粒子束不会击中极板，则粒子从进入电场到\n飞出极板时电势能的变化量为______（粒子的重力忽略不计）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A q2U2L2\n2md2v02\nE",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -263,22 +357,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q011-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q011-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q12",
       "content": "如图所示，有四列简谐波同时沿x 轴正方向传播，波速分别是 v、2v、3v 和 4v，a、b\n是 x 轴上所给定的两点，且 ab = l。在 t 时刻 a、b 两点间四列波的波形分别如图所示，\n则由该时刻起 a 点出现波峰的先后顺序依次是图________；频率由高到低的先后顺序依次\n是图___________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BDCA，DBCA",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -286,22 +391,34 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q012-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q012-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q012-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q012-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q13",
       "content": "图（a）是在高速公路上用超声波测速仪测量车速的示意图，测速仪发出并接收超声波\n冲信号，根据发出和接收到的信号间的时间差，测出被测物体的速度。图（b）中 p1、p2 是\n测速仪发出的超声波信号，n1、n2 是 p1、p2 由汽车反射回来的信号。设测速仪匀速扫描，\np1、p2 之间的时间间隔 Δt = 1.0 s，超声波在空气中传播的速度是 v = 340 m/s，若汽车是匀\n速行驶的，则根据图 B 可知，汽车在接收到 p1、p2 两个信号之间的时间内前进的距离是\n________，汽车的速度是_______m/s。\n牛顿\n爱因斯坦\n伽利略\na\nb x\nv\n（A）\na\nb x\n2v\n（B）\na\nb x\n3v\n（C）\na\nb x\n4v\n（D）\nL\nd\nv0\n（b）\n（a）\n第 4 页 共 16 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "17，17.9",
+      "analysis": "全题20 分，每小题4 分。第9 小题排序正确得2 分，分别写出两位科学家的贡\n献各得1 分。第10、 11、12、13 小题每空格2 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -309,22 +426,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q14",
       "content": "（5 分）光电效应实验的装置如图所示，则下面说法中正确\n的是（     ）\n（A）用紫外光照射锌板，验电器指针会发生偏转\n（B）用红色光照射锌板，验电器指针会发生偏转\n（C）锌板带的是负电荷\n（D）使验电器指针发生偏转的是正电荷",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -332,22 +453,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q014-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q014-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q014-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q15",
       "content": "（5 分）某同学用同一个注射器做了两次验证波意耳定律的实\n验，操作完全正确。根据实验数据却在 p–V 图上画出了两条不同\n双曲线。造成这种情况的可能原因是（     ）\n（A）两次实验中空气质量不同\n（B）两次实验中温度不同\n（C）两次实验中保持空气质量、温度相同，但所取的气体压的数\n据不同\n（D）两次实验中保持空气质量、温度相同，但所取的气体体的数据不同",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AB",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -355,22 +487,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q16",
       "content": "（6 分）要求测量由 2 节干电池串联而成的电池组的电动势 E\n和内阻 r（约几欧），提供下列器材：电压表 V（量程 3 V，内阻 1\nkΩ）、电压表 V2（量程 15 V，内阻 2 kΩ）、电阻箱（0 ~ 9999 Ω）、\n电键、导线若干。\n某同学用量程为 15 V 的电压表连接成如图所示的电路，实验步骤如\n下：\n（1）合上电键 S，将电阻箱R 阻值调到 R1 = 10 Ω，读得电压表的读数为 U1。\n（2）将电阻箱 R 阻值调到 R2 = 20 Ω，读得电压表的读数为 U2。\n由方程组 U1 = E − AU1\nR1\nE\nAr、U2 = E − AU2\nR2\nE R，解出 E、r。为了减少实验误差，上述实验在选择\n器材和实验步骤中，应做哪些改进？\n________________________________________________________________。\n（b）\n1\n2\n3\n4\n0\np1\np2\nn2\nn1\n（a）\nS\nR\nV\nE\nr\np\nV\nO\n锌\n板\n第 5 页 共 16 页",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）应选用量程为 3 V 的电压表。\n（2）改变电阻箱阻值 R，读取若干个 U 的值，由 I = AU\nR\nE\nA计算出电流的值，然后作出 U–I\n图线，得到 E、r。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -378,22 +516,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q016-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q016-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q17",
       "content": "（7 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（l）如图所示，\n第 9 页 共 16 页\n（2）aAD = 5 m/s2，vAK = 1.39 m/s",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -401,22 +547,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q017-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q017-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q18",
-      "content": "利用打点计时器研究一个约 1.4 m 高的商店卷帘窗的运动。将纸带粘在\n卷帘底部，纸带通过打点计时器随帘在竖直面内向上运动。打印后的纸带如\n下图所示，数据如表格所示。纸带中 AB、BC、CD……每两点之间的时间间\n隔为 0.10 s，根据各间距的长度，可计算出卷帘窗在各间距内的平均速度 v\n平均。可以将 v 平均 近似地作为该间距中间时刻的即时速度v。\n（1）请根据所提供的纸带和数据，绘出卷帘窗运动的 v–t 图像。\n卷帘运动的数据\n间隔\n间距（cm）\nAB\n5.0\nBC\n10.0\nCD\n15.0\nDE",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "利用打点计时器研究一个约 1.4 m 高的商店卷帘窗的运动。将纸带粘在\n卷帘底部，纸带通过打点计时器随帘在竖直面内向上运动。打印后的纸带如\n下图所示，数据如表格所示。纸带中 AB、BC、CD……每两点之间的时间间\n隔为 0.10 s，根据各间距的长度，可计算出卷帘窗在各间距内的平均速度 v\n平均。可以将 v 平均 近似地作为该间距中间时刻的即时速度v。\n（1）请根据所提供的纸带和数据，绘出卷帘窗运动的 v–t 图像。\n卷帘运动的数据\n间隔\n间距（cm）\nAB\n5.0\nBC\n10.0\nCD\n15.0\nDE\n20.0\nEF\n20.0\nFG\n20.0\nGH\n20.0\nHI\n17.0\nIJ\n8.0\nJK\n4.0\n（2）AD 段的加速度为______m/s2，AK 段的平均速度为______m/s。",
+      "answer": "（1）设计的电路图如图所示。\n（2）测量步骤与结果：\n①调节滑动变阻器，使转换器的输出电压为\n零；\n②将砝码放在转换器上，记下输出电压 U0；\n③将待测物放在转换器上，记下输出电压\nU1；\n由 U0 = km0g，得 k = A U0\nm0g\nE\n测得 U = kmg，所以 m = AU\nU0\nE\nAm0。\n（3）①因电源电压不够而输出电压调不到零；\n②待测物体质量超出转换器量程。",
+      "analysis": "全题30 分。14、15 小题每小题5 分，全选对得5 分，选对但不全得2 分，有选\n错的得0 分。\n16 小题第1 空格得2 分，第2 空相得4 分。17 小题（1）正确画出v－t 图，得3 分，后面\n四点（H 用K）连成直线不扣分；（2）每空格各得2 分。18 小题（1）正确设计出电路图得\n2 分；（2）正确写出测量步骤得2 分，只写出部分步骤得1 分；写出两个测量方程并得出结\n果得2 分；（3）提出与本题有关的问题得1 分．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -424,22 +581,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q018-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q018-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q018-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q19",
-      "content": "0\nEF\n20.0\nFG\n20.0\nGH\n20.0\nHI\n17.0\nIJ\n8.0\nJK\n4.0\n（2）AD 段的加速度为______m/s2，AK 段的平均速度为______m/s。\n19．（7 分）某学生为了测量一物体的质量，找到一个力\n电转换器，该转换器的输出电压正比于受压面的压力（比\n例系数为 k），如图所示。测量时先调节输入端的电压。\n使转换器空载时的输出电压为 0；而后在其受压面上放\n一物体，即可测得与物体的质量成正比的输出电压 U。\n现有下列器材：力电转换器、质量为 m0 的砝码、电压\n表、滑动变阻器、干电池各一个、电键及导线若干、待测物体（可置于力电转换器的受压面\n上）。请完成对该物体质量的测量。\n（1）设计一个电路，要求力电转换器的输入电压可调，并且使电压的调节范围尽可能大，\n在方框中画出完整的测量电路图。\n（2）简要说明测量步骤，求出比例系数 k，并测出待测物体的质量 m。\n（3）请设想实验中可能会出现的一个问题。\n四．（60 分）计算题\n20．（10 分）1791 年，米被定义为：在经过巴黎的子午线上，取从赤道到北极长度的一千\n万分之一。\n（1）请由此估算地求的半径 R。（答案保留二位有效数字）\n（2）太阳与地球的距离为 1.5×1011 m，太阳光以平行光束入射到地面。地球表面\nA2\n3\nE\nA的面积\n受压面\n输出\n输入\n+\n+\n力电转换器\n－\n－\nA\nB\nC\n0\n0.1\n0.2\n单位：s\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\nD\nE\nF\nG\nH\nI\nJ\nK\n0.1\n0.00\n0.50\n1.00\n1.50\n2.00\n2.50\n0.1\n0.3\n0.5\n0.7\n0.9\nt/s\nv/m·s−1\n第 6 页 共 16 页\n被水面所覆盖，太阳在一年中辐射到地球表面水面部分的总能量 W 约为 1.87×1024 J。设水\n面对太阳辐射的平均反射率为 7％，而且将吸收到的 35％ 能量重新辐射出去。太阳辐射可\n将水面的水蒸发（设在常温、常压下蒸发 1 kg 水需要 2.2×106 J 的能量），而后凝结成雨滴\n降落到地面。\n（a）估算整个地球表面的年平均降雨量（以毫米表示，球面积为 4πR2）。\n（b）太阳辐射到地球的能量中只有约 50％ 到达地面，W 只是其中的一部分。太阳辐射到\n地球的能量没能全部到达地面，这是为什么？请说明二个理由。",
+      "content": "（7 分）某学生为了测量一物体的质量，找到一个力\n电转换器，该转换器的输出电压正比于受压面的压力（比\n例系数为 k），如图所示。测量时先调节输入端的电压。\n使转换器空载时的输出电压为 0；而后在其受压面上放\n一物体，即可测得与物体的质量成正比的输出电压 U。\n现有下列器材：力电转换器、质量为 m0 的砝码、电压\n表、滑动变阻器、干电池各一个、电键及导线若干、待测物体（可置于力电转换器的受压面\n上）。请完成对该物体质量的测量。\n（1）设计一个电路，要求力电转换器的输入电压可调，并且使电压的调节范围尽可能大，\n在方框中画出完整的测量电路图。\n（2）简要说明测量步骤，求出比例系数 k，并测出待测物体的质量 m。\n（3）请设想实验中可能会出现的一个问题。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）由题意知 2πR×A1\n4\nE\nA= 1.00×107\n解得\nR = 6.37×106 m\n①\n（2）（a）设太阳在一年中辐射到地球水面部分的总能量为 W，有\nW = 1.87×1024 J\n凝结成雨滴年降落到地面水的总质量为 m\n0.00\n0.50\n1.00\n1.50\n2.00\n2.50\n0.1\n0.3\n0.5\n0.7\n0.9\nt/s\nv/m·s−1\n受压面\n输出\n输入\n+\n+\n力电转换器\n－\n－\nV\nR\nP\n第 10 页 共 16 页\nm = AW×(1 − 7%)×(1 − 35%)\nE2.2×106\nE\nA= 5.14×1017 kg\n②\n使地球表面覆盖一层水的厚度为 h\nh = A m\nρS地球\nE\n解得\nh = 1.01×103 mm\n③\n整个地球表面年平均降雨量约为 1.0×103 mm\n（b）大气层的吸收，大气层的散射或反射，云层遮挡等。\n全题10 分。第（1）小题3 分，第（2）小题7 分。其中（1）得出①给3 分，写\n出 R = 6.4×106 m，同样给分。\n（2）（a）得出②给2 分，得出③给2 分。\n（b）写出1 个原因，得1 分；2 个或2 个以上正确的原因，得3 分；如果写出其它合理的\n原因，也同样给分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -447,45 +613,57 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 5,
-        "questionNumber": 20,
+        "endPage": 5,
+        "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q019-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q019-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q20",
-      "content": "（10 分）如图（a）所示，一质量为 m 的物体\n系于长度分别为 l1、l2 的两根细线上，l1 的一端悬\n挂在天花板上，与竖直方向夹角为 θ，l2 水平拉直，\n物体处于平衡状态。现将 l2 线剪断，求剪断瞬时物\n体的加速度。\n（l）下面是某同学对该题的一种解法：\n解：设 l1 线上拉力为 T1，l2 线上拉力为 T2，重力为 mg，物体在三力作用下保持平衡\nT1cosθ = mg，T1sinθ = T2，T2 = mgtgθ\n剪断线的瞬间，T2 突然消失，物体即在 T2 反方向获得加速度。因为 mgtanθ = ma，所以加\n速度 a = gtanθ，方向在 T2 反方向。\n你认为这个结果正确吗？请对该解法作出评价并说明理由。\n（2）若将图（a）中的细线 l1 改为长度相同、质量不计的轻弹簧，如图（b）所示，其他条\n件不变，求解的步骤和结果与（1）完全相同，即 a = gtanθ，你认为这个结果正确吗？请说\n明理由。",
+      "content": "（10 分）1791 年，米被定义为：在经过巴黎的子午线上，取从赤道到北极长度的一千\n万分之一。\n（1）请由此估算地求的半径 R。（答案保留二位有效数字）\n（2）太阳与地球的距离为 1.5×1011 m，太阳光以平行光束入射到地面。地球表面\nA2\n3\nE\nA的面积\n受压面\n输出\n输入\n+\n+\n力电转换器\n－\n－\nA\nB\nC\n0\n0.1\n0.2\n单位：s\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\nD\nE\nF\nG\nH\nI\nJ\nK\n0.1\n0.00\n0.50\n1.00\n1.50\n2.00\n2.50\n0.1\n0.3\n0.5\n0.7\n0.9\nt/s\nv/m·s−1\n第 6 页 共 16 页\n被水面所覆盖，太阳在一年中辐射到地球表面水面部分的总能量 W 约为 1.87×1024 J。设水\n面对太阳辐射的平均反射率为 7％，而且将吸收到的 35％ 能量重新辐射出去。太阳辐射可\n将水面的水蒸发（设在常温、常压下蒸发 1 kg 水需要 2.2×106 J 的能量），而后凝结成雨滴\n降落到地面。\n（a）估算整个地球表面的年平均降雨量（以毫米表示，球面积为 4πR2）。\n（b）太阳辐射到地球的能量中只有约 50％ 到达地面，W 只是其中的一部分。太阳辐射到\n地球的能量没能全部到达地面，这是为什么？请说明二个理由。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）不正确。因为当 l2 被剪断的瞬间，l1 上的张力 T1 即刻发生了变化，所以 T1\n与重力 mg 的合力就不再等于 mgtanθ，所以加速度 a ≠ gtgθ。\n（2）正确。因为 l2 被剪断的瞬间，弹簧 l1 的长度未发生变化，T1 大小和方向都不变，小\n球的合力大小等于 T2，方向水平向左，故小球的加速度 a = gtanθ。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
-        "page": 6,
-        "questionNumber": 21,
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q21",
-      "content": "（12 分）如图所示，一定量气体放在体积为 V0 的\n容器中，室温为 T0 = 300 K，有一光滑导热活塞 C（不\n占体积）将容器分成 A、B 两室，B 室的体积是 A 室\n的两倍，A 室容器上连接有一 U 形管（U 形管内气体的\n体积忽略不计），两边水银柱高度差为 76 cm，右室容器\n中连接有一阀门 K，可与大气相通。\n（外界大气压等于 76\ncmHg）求：\n（1）将阀门 K 打开后，A 室的体积变成多少？\n（2）打开阀门 K 后将容器内的气体从 300 K 分别加热到 400 K 和 540 K，U 形管内两\n边水银面的高度差各为多少？",
+      "content": "（10 分）如图（a）所示，一质量为 m 的物体\n系于长度分别为 l1、l2 的两根细线上，l1 的一端悬\n挂在天花板上，与竖直方向夹角为 θ，l2 水平拉直，\n物体处于平衡状态。现将 l2 线剪断，求剪断瞬时物\n体的加速度。\n（l）下面是某同学对该题的一种解法：\n解：设 l1 线上拉力为 T1，l2 线上拉力为 T2，重力为 mg，物体在三力作用下保持平衡\nT1cosθ = mg，T1sinθ = T2，T2 = mgtgθ\n剪断线的瞬间，T2 突然消失，物体即在 T2 反方向获得加速度。因为 mgtanθ = ma，所以加\n速度 a = gtanθ，方向在 T2 反方向。\n你认为这个结果正确吗？请对该解法作出评价并说明理由。\n（2）若将图（a）中的细线 l1 改为长度相同、质量不计的轻弹簧，如图（b）所示，其他条\n件不变，求解的步骤和结果与（1）完全相同，即 a = gtanθ，你认为这个结果正确吗？请说\n明理由。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）设外界大气压为 p0 = 76 cmHg，开始时，A 室气体的体积为 VA0 = A1\n3\nE\nAV0，由\n气压平衡知\npA0 = p0 + 76 cmHg = 2p0，\n打开阀门，A 室气体等温变化，pA = p0，体积 VA。由玻意耳定律得\npA0VA0 = pAVA\n①\nVA = ApA0VA0\npA\nE\nA= A2\n3\nE\nAV0\n②\n（2）从 T0 = 300 K 升到 T，体积为 V0，压强为 pA，是等压过程。\n从 T0 = 300 K 升到 T 时活塞恰好运动到容器的最右端，此时体积为 V0，压强为 pA1 = p0，\nA 室气体做等压变化，由盖-吕克萨定律得\nT = AV0T0\nVA\nE\nA= A3\n2\nE\nA×300 K = 450 K\n③\nT1 = 400 K < 450 K，所以从 T0 = 300 K 升高到 T1 = 400 K 时，A 室气体做等压变化，pA1\n= pA0 = p0，水银柱的高度差为 0.\n从 T = 450 K 升高到 T2 = 540 K，A 室气体做等容变化，压强为 pA2，由查理定律得\nApA\nT\nE\nA= ApA2\nT2\nE\nA\n④\npA2 = AT2pA\nT\nE\nA= 1.2p0 = 91.2 cmHg\n⑤\nT2 = 540 K 时，水银高度差为 15.2 cm\n全题12 分．第（1）小题4 分，第（2）小题8 分。其中\n第 11 页 共 16 页\n（1）得出①、②各得2 分。\n（2）得出③式，得3 分；结果正确，得3 分。\n得出④、⑤式，各得1 分；结果正确，得2 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -493,22 +671,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 6,
-        "questionNumber": 22,
+        "endPage": 6,
+        "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q021-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q021-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q22",
-      "content": "（8 分）半径为 a 的圆形区域内有均匀磁场，磁感强度\n为 B = 0.2 T，磁场方向垂直纸面向里，半径为 b 的金属圆环\n与磁场同心地放置，磁场与环面垂直，其中 a = 0.4 m，b = 0.6\nm，金属环上分别接有灯 L1、L2，两灯的电阻均为 R0 = 2 Ω，\n一金属棒 MN 与金属环接触良好，棒与环的电阻均忽略不\n计。\n（1）若棒以 v0 = 5 m/s 的速率在环上向右匀速滑动，求棒滑\nM\nO\nOʹ\nN\nL1\nL2\na\nb\nl1\nl2\nθ\n（a）\nl1\nl2\nθ\n（b）\nB\nA\nC\nK\n76 cm\n第 7 页 共 16 页\n过圆环直径 OO′ 的瞬时（如图所示） MN 中的电动势和流过灯 L1 的电流。\n（2）撤去中间的金属棒 MN 将右面的半圆环 OL2O′ 以 OO′ 为轴向上翻转 90°，若此时\n磁场随时间均匀变化，其变化率为\nAΔB\nΔt\nE\nA= A4\nπ\nE\nA（T/s），求 L1 的功率。",
+      "content": "（12 分）如图所示，一定量气体放在体积为 V0 的\n容器中，室温为 T0 = 300 K，有一光滑导热活塞 C（不\n占体积）将容器分成 A、B 两室，B 室的体积是 A 室\n的两倍，A 室容器上连接有一 U 形管（U 形管内气体的\n体积忽略不计），两边水银柱高度差为 76 cm，右室容器\n中连接有一阀门 K，可与大气相通。\n（外界大气压等于 76\ncmHg）求：\n（1）将阀门 K 打开后，A 室的体积变成多少？\n（2）打开阀门 K 后将容器内的气体从 300 K 分别加热到 400 K 和 540 K，U 形管内两\n边水银面的高度差各为多少？",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）金属棒运动到 OOʹ 时，切割产生的电动势为\nE1 = B·2av = 0.2×0.8×5 V = 0.8 V\n①\n流过灯 L1 的电流为\nI1 = AE1\nR\nE\nA= A0.8\n2\nE\nA = 0.4 A\n（2）由法拉第电磁感应定律得\nE2 = AΔФ\nΔt\nE\nA= 0.5×πa2×AΔB\nΔt\nE\nA= 0.32 V\n③\n两灯的电阻相等，故灯 L1 的功率为\nP1 = A\n(E2\n2 )2\nER\nE\nA= 1.28×10−2 W\n④\n全题13 分。第（1）小题6 分，第（2）小题7 分。其中（1）正确得出①式得3\n分，得出②式得3 分；\n（2）得出③式4 分，得出④式得3 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -516,22 +702,61 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 6,
-        "questionNumber": 23,
+        "endPage": 6,
+        "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q022-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q022-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2001/2001上海.pdf#q23",
-      "content": "（18 分）如图所示，光滑斜面的底端 a 与一块质\n量均匀、水平放置的平板光滑相接，平板长为 2L，L\n= 1 m，其中心 C 固定在高为 R 的竖直支架上，R =\n1 m，支架的下端与垂直于纸面的固定转轴 O 连接，\n因此平板可绕转轴 O 沿顺时针方向翻转．问：\n（1）在外面上离平板高度为 h0 处放置一滑块 A，使\n其由静止滑下，滑块与平板间的动摩擦因数 μ = 0.2，\n为使平板不翻转，h0 最大为多少？\n（2）如果斜面上的滑块离平板的高度为 h1 = 0.45 m，并在 h1 处先后由静止释放两块质量\n相同的滑块 A、B，时间间隔为 Δt = 0.2 s，则 B 滑块滑上平板后多少时间，平板恰好翻转。\n（重力加速度 g 取 10 m/s2）\nA\nC\nO\na\nL\nR\nh0\n第 8 页 共 16 页",
+      "content": "（8 分）半径为 a 的圆形区域内有均匀磁场，磁感强度\n为 B = 0.2 T，磁场方向垂直纸面向里，半径为 b 的金属圆环\n与磁场同心地放置，磁场与环面垂直，其中 a = 0.4 m，b = 0.6\nm，金属环上分别接有灯 L1、L2，两灯的电阻均为 R0 = 2 Ω，\n一金属棒 MN 与金属环接触良好，棒与环的电阻均忽略不\n计。\n（1）若棒以 v0 = 5 m/s 的速率在环上向右匀速滑动，求棒滑\nM\nO\nOʹ\nN\nL1\nL2\na\nb\nl1\nl2\nθ\n（a）\nl1\nl2\nθ\n（b）\nB\nA\nC\nK\n76 cm\n第 7 页 共 16 页\n过圆环直径 OO′ 的瞬时（如图所示） MN 中的电动势和流过灯 L1 的电流。\n（2）撤去中间的金属棒 MN 将右面的半圆环 OL2O′ 以 OO′ 为轴向上翻转 90°，若此时\n磁场随时间均匀变化，其变化率为\nAΔB\nΔt\nE\nA= A4\nπ\nE\nA（T/s），求 L1 的功率。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：（1）设 A 滑到 a 处的速度为 v0 = A 2gh0E\nA\n①\nf = μN，N = mg，f = ma，\na = μg\n②\n滑到板上离 a 点的最大距离为 v02 = 2μgs0，\ns0 = A2gh0\n2μg\nE\nA= Ah0\nμ\nE\nA\n③\nA 在板上不翻转应满足条件：摩擦力矩小于正压力力矩，即 M 摩擦 ≤ M 压力\nμmgR ≤ mg（L − s0）\n④\nh0 ≤ μ（L − μR）= 0.2（1 − 0.2）= 0.16 m\n⑤\n（2）当 h = 0.45 m，vA = A 2ghE\nA= A 2×10×4.5 E\nA= 3 m/s\nvA = vB = 3 m/s\n⑥\n设 B 在平板上运动直到平板翻转的时刻为 t，取 Δt = 0.2 s\nsA = vA（t + Δt）− A1\n2\nE\nAμg（t + Δt）2\n⑦\nsB = vBt − A1\n2\nE\nAμgt2\n⑦ʹ\n两物体在平板上恰好保持平板不翻转的条件是\n2μmgR = mg（L − sA）+ mg（L − sB）\n⑧\n由⑦+⑦ʹ 式等于⑧式，得 t = 0.2 s\n全题15 分。第（1）小题7 分，第（2）小题8 分。其中\n（1）得出①、②、③各得1 分，判断 M 摩擦 ≤ M 压力 正确得2 分，④、⑤式各得1 分。\n第 12 页 共 16 页\n（2）得出⑤式得1 分，①式得1 分，写出③式得3 分，最后结果正确得3 分。\n解析",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2001,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2001/2001上海.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q023-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q023-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2001/2001上海.pdf#q24",
+      "content": "（18 分）如图所示，光滑斜面的底端 a 与一块质\n量均匀、水平放置的平板光滑相接，平板长为 2L，L\n= 1 m，其中心 C 固定在高为 R 的竖直支架上，R =\n1 m，支架的下端与垂直于纸面的固定转轴 O 连接，\n因此平板可绕转轴 O 沿顺时针方向翻转．问：\n（1）在外面上离平板高度为 h0 处放置一滑块 A，使\n其由静止滑下，滑块与平板间的动摩擦因数 μ = 0.2，\n为使平板不翻转，h0 最大为多少？\n（2）如果斜面上的滑块离平板的高度为 h1 = 0.45 m，并在 h1 处先后由静止释放两块质量\n相同的滑块 A、B，时间间隔为 Δt = 0.2 s，则 B 滑块滑上平板后多少时间，平板恰好翻转。\n（重力加速度 g 取 10 m/s2）\nA\nC\nO\na\nL\nR\nh0\n第 8 页 共 16 页",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2001,
       "subject": "物理",
@@ -539,11 +764,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2001/2001上海.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q024-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q024-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-fae81814d43d8c11-q024-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 35,
+    "answerGraphics": 11,
+    "assigned": 24,
+    "rendered": 26,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

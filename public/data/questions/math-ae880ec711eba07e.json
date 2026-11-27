@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2011/2011江苏.pdf",
   "name": "2011江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q01",
       "content": "已知集合A = {−1, 1, 2, 4}, B = {−1, 0, 2}, 则A ∩B =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q02",
       "content": "函数f (x) = log5 (2x + 1) 的单调增区间是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q03",
       "content": "设复数z 满足i (z + 1) = −3 + 2i (i 是虚数单位), 则z 的实部是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q04",
       "content": "根据如图所示伪代码, 当输入a, b 分别为2, 3 时, 最后输出的m 的值\n是\n.\nRead\na, b\nIf a > b Then\nm ←a\nElse\nm ←b\nEnd If\nPrint\nm",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q05",
       "content": "从1, 2, 3, 4 这四个数中一次随机取两个数, 则其中一个数是另一个的两倍\n的概率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q06",
       "content": "某老师从星期一到星期五收到信件数分别是10, 6, 8, 5, 6, 则该组数据的\n方差s2 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q07",
       "content": "已知tan\n(\nx + π\n4\n)\n= 2, 则tan x\ntan 2x 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q08",
       "content": "在平面直角坐标系xOy 中, 过坐标原点的一条直线与函数f (x) = 2\nx 的图\n象交于P、Q 两点, 则线段PQ 长的最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q09",
       "content": "函数f (x) = A sin (ωx + φ), (A, ω, φ 是常数, A > 0, ω > 0) 的部分图象\n如图所示, 则f (0) =\n.\nx\nπ\n3\n7π\n12\ny\n−\n√\n2\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -217,22 +280,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q10",
       "content": "已知e1, e2 是夹角为2π\n3 的两个单位向量, a = e1 −2e2, b = ke1 + e2. 若\na · b = 0, 则k 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q11",
       "content": "已知实数a̸ = 0, 函数f (x) =\n{\n2x + a,\nx < 1,\n−x −2a,\nx ⩾1.\n若f (1 −a) =\nf (1 + a), 则a 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q12",
       "content": "在平面直角坐标系xOy 中, 已知点P 是函数f (x) = ex (x > 0) 的图象上\n的动点, 该图象在P 处的切线l 交y 轴于点M. 过点P 作l 的垂线交y\n轴于点N. 设线段MN 的中点的纵坐标为t, 则t 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -286,22 +371,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q13",
       "content": "设1 = a1 ⩽a2 ⩽· · · ⩽a7, 其中a1, a3, a5, a7 成公比为q 的等比数列, a2,\na4, a6 成公差为1 的等差数列, 则q 的最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -309,22 +400,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q14",
       "content": "设集合\nA\n=\n{\n(x, y)\n���m\n2 ⩽(x −2)2 + y2 ⩽m2, x, y ∈R\n}\n,\nB\n=\n{(x, y) | 2m ⩽x + y ⩽2m + 1, x, y ∈R}. 若A∩B̸ = ∅, 则实数m 的取\n值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -332,22 +429,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q15",
       "content": "在△ABC 中, 角A, B, C 所对应的边为a, b, c.\n(1) 若sin\n(\nA + π\n6\n)\n= 2 cos A, 求A 的值;\n(2) 若cos A = 1\n3, b = 3c, 求sin C 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q16",
       "content": "如图, 在四棱锥P −ABCD 中, 平面PAD ⊥平面ABCD, AB = AD,\n∠BAD = 60◦, E, F 分别是AP, AD 的中点. 求证:\n(1) 直线EF\n平面PCD;\n(2) 平面BEF ⊥平面PAD.\nA\nE\nF\nC\nB\nD\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -378,22 +487,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q17",
       "content": "请你设计一个包装盒. 如图所示, ABCD 是边长为60 cm 的正方形硬纸\n片, 切去阴影部分所示的四个全等的等腰直角三角形, 再沿虚线折起, 使得\nA, B, C, D 四个点重合于图中的点P, 正好形成一个正四棱柱形状的包\n装盒, E, F 在AB 上, 是被切去的等腰直角三角形斜边的两个端点. 设\nAE = FB = x (cm).\n(1) 若广告商要求包装盒侧面积S (cm2) 最大, 试问x 应取何值?\n(2) 若广告商要求包装盒容积V (cm3) 最大, 试问x 应取何值? 并求出此\n时包装盒的高与底面边长的比值.\nA\nE\nF\nC\nB\nD\nP\nx\nx\n60\n⇒",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -401,22 +520,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q18",
       "content": "如图, 在平面直角坐标系xOy 中, M, N 分别是椭圆x2\n4 + y2\n2 = 1 的顶点,\n过坐标原点的直线交椭圆于P, A 两点, 其中点P 在第一象限, 过P 作x\n轴的垂线, 垂足为C, 连接AC, 并延长交椭圆于点B, 设直线PA 的斜率\n为k.\n(1) 当直线PA 平分线段MN 时, 求k 的值;\n(2) 当k = 2 时, 求点P 到直线AB 的距离d;\n(3) 对任意k > 0, 求证: PA ⊥PB.\nx\ny\nO\nP\nC\nA\nB\nM\nN\n675",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -424,22 +553,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q19",
       "content": "已知a, b 是实数, 函数f (x) = x3 + ax, g (x) = x2 + bx, f ′ (x) 和g′ (x)\n分别是f (x), g (x) 的导函数, 若f ′ (x) g′ (x) ⩾0 在区间I 上恒成立, 则称\nf (x) 和g (x) 在区间I 上单调性一致.\n(1) 设a > 0, 若函数f (x) 和g (x) 在区间[−1, +∞) 上单调性一致, 求实\n数b 的取值范围;\n(2) 设a < 0 且a̸ = b, 若f (x) 和g (x) 在以a, b 为端点的开区间上单调\n性一致, 求|a −b| 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -447,22 +587,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q20",
       "content": "设M 为部分正整数组成的集合, 数列{an} 的首项a1 = 1, 前n 项和为\nSn, 已知对任意整数k ∈M, 当整数n > k 时, Sn+k + Sn−k = 2 (Sn + Sk)\n都成立.\n(1) 设M = {1}, a2 = 2, 求a5 的值;\n(2) 设M = {3, 4}, 求数列{an} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -470,22 +616,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q21",
       "content": "四选二.\n【A】如图, 圆O1 与圆O2 内切于点A, 其半径分别为r1 与r2 (r1 > r2), 圆\nO1 的弦AB 交圆O2 于点C (O1 不在AB 上), 求证: AB : AC 为定值.\nO1O2\nA\nB\nC\n•\n•\n【B】已知矩阵A =\n[\n1\n1\n2\n1\n]\n, 向量β =\n[\n1\n2\n]\n, 求向量α, 使得A2α = β.\n【C】在平面直角坐标系xOy 中, 求过椭圆\n{\nx = 5 cos φ,\ny = 3 sin φ,\n(φ 为参数) 的右\n焦点, 且与直线\n{\nx = 4 −2t,\ny = 3 −t,\n(t 为参数) 平行的直线的普通方程.\n【D】解不等式: x + |2x −1| < 3.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -493,22 +645,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q22",
       "content": "如图, 在正四棱柱ABCD −A1B1C1D1 中, AA1 = 2, AB = 1, 点N 是\nBC 的中点, 点M 在CC1 上. 设二面角A1 −DN −M 的大小为θ.\n(1) 当θ = 90◦时, 求AM 的长;\n(2) 当cos θ =\n√\n6\n6\n时, 求CM 的长.\nA1\nB1\nC1\nA\nB\nC\nM\nN\nD\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -516,22 +678,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q022-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q022-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae880ec711eba07e-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011江苏.pdf#q23",
       "content": "设整数n ⩾4, P (a, b) 是平面直角坐标系xOy 中的点, 其中a, b ∈{1, 2,\n3, · · · , n}, a > b.\n(1) 记An 为满足a −b = 3 的点P 的个数, 求An;\n(2) 记Bn 为满足1\n3 (a −b) 是整数的点P 的个数, 求Bn.\n676",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -539,11 +712,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1977/初试/1977江苏淮阴地区初试.pdf",
   "name": "1977江苏淮阴地区初试",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 2,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 2,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1977/初试/1977江苏淮阴地区初试.pdf#q01",
-      "content": "4(-1)5 x0.25+8( -0.55) - 0.4+ (-0.2: )3",
+      "content": "淮 阴 地 区\n一 、 计 算 ,\n(1) 4(-1)5 x0.25+8( -0.55) - 0.4+ (-0.2: )3\n(2) (87 +(—1 _) BE 3° °-(2v 2) 言 。\nrt\n- (a 2 +1)? 一 万 a 2\n二 、 化 简 : 不 日 一 。 |\n三 、 求 cos (-18%) , sin48 的 值 国\n四 、( 1 ) 把 P 点 的 直 角 坐 标 C 百 , - 1) 化 成 极 坐 标\n( a ) 把 极 坐 标 方 程 P = 2sin 0 +8eos 8 化 成 直 角 坐 标 方\n程 。\n五 、 以 直 角 三 角 形 A B C 的 直 角 边 B C 为 直 径 作 闻 交 斜 边\nA 卫 于 D , 卫 是 直 角 边 A C 的 中 点 , 连 结 DE , 则 D E\n是 此 阅 的 切 线 。 ( 需 画 图 》\n六 、 用 长 为 8 米 的 木 料 做 一 个 “ 目 9 字 形 窗 框 , 问 窗 桥 的 宽\n和 高 各 多 少 才 能 使 通 过 的 光 线 最 多 ?\n人\nt i 铁 (1)7 100TH\n(2) log, _ gy (2+VD)\n八 、 有 两 点 A(- 2, 2)RB(2, ~1), RIE 轻 上 找 出 焯\n, 使 人 A 卫 旦 =50“。\n243",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -33,34 +44,56 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/初试/1977江苏淮阴地区初试.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 8,
         "extraction": "ocr",
         "confidence": 77,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1977/初试/1977江苏淮阴地区初试.pdf#q02",
-      "content": "(87 +(—1 _) BE 3° °-(2v 2) 言 。\nrt\n- (a 2 +1)? 一 万 a 2\n二 、 化 简 : 不 日 一 。 |\n三 、 求 cos (-18%) , sin48 的 值 国\n四 、( 1 ) 把 P 点 的 直 角 坐 标 C 百 , - 1) 化 成 极 坐 标\n( a ) 把 极 坐 标 方 程 P = 2sin 0 +8eos 8 化 成 直 角 坐 标 方\n程 。\n五 、 以 直 角 三 角 形 A B C 的 直 角 边 B C 为 直 径 作 闻 交 斜 边\nA 卫 于 D , 卫 是 直 角 边 A C 的 中 点 , 连 结 DE , 则 D E\n是 此 阅 的 切 线 。 ( 需 画 图 》\n六 、 用 长 为 8 米 的 木 料 做 一 个 “ 目 9 字 形 窗 框 , 问 窗 桥 的 宽\n和 高 各 多 少 才 能 使 通 过 的 光 线 最 多 ?\n人\nt i 铁 (1)7 100TH\n(2) log, _ gy (2+VD)\n八 、 有 两 点 A(- 2, 2)RB(2, ~1), RIE 轻 上 找 出 焯\n, 使 人 A 卫 旦 =50“。\n243\n九 、 设 在 柑 圆 - 爻 孙 + 吊 二 = 1 上 任 意 一 点 P (x17 1) 的 切\n线 与 椿 圆 长 轻 的 两 端 点 A “ 和 A 的 切 线 相 交 于 Q 「 和 Q ,\n求 证 : A「Q AQ = b“。 【",
+      "content": "设 在 柑 圆 - 爻 孙 + 吊 二 = 1 上 任 意 一 点 P (x17 1) 的 切\n线 与 椿 圆 长 轻 的 两 端 点 A “ 和 A 的 切 线 相 交 于 Q 「 和 Q ,\n求 证 : A「Q AQ = b“。 【",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/初试/1977江苏淮阴地区初试.pdf",
-        "page": 1,
-        "questionNumber": 2,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 9,
         "extraction": "ocr",
-        "confidence": 77,
-        "needsReview": true
+        "confidence": 78,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 2,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

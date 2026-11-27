@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
   "name": "2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 11,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 13,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q01",
       "content": "将质量为1.00 kg 的模型火箭点火升空，50 g 燃烧的燃气以大小为600 m/s 的速度从火箭喷口在很短时\n间内喷出。在燃气喷出后的瞬间，火箭的动量大小为（喷出过程中重力和空气阻力可忽略）（    ）\n（A）30 kg·m/s\n（B）5.7×102 kg·m/s\n（C）6.0×102 kg·m/s\n（D）6.3×102 kg·m/s",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "设火箭的质量为m1，燃气的质量为m2，根据动量守恒，m1v1=m2v2，解得火箭的动量为：\np=m2v2=m1v1=30 kg·m/s，所以A 正确；BCD 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2017,
       "subject": "物理",
@@ -33,11 +44,364 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q02",
+      "content": "发球机从同一高度向正前方依次水平射出两个速度不同的乒乓球（忽略空气的影响）。速度较大的球越\n过球网，速度较小的球没有越过球网，其原因是（    ）\n（A）速度较小的球下降相同距离所用的时间较多\n（B）速度较小的球在下降相同距离时在竖直方向上的速度较大\n（C）速度较大的球通过同一水平距离所用的时间较少\n（D）速度较大的球在相同时间间隔内下降的距离较大",
+      "answer": "C",
+      "analysis": "将乒乓球的平抛运动分解为水平方向的匀速直线运动和竖直方向的自由落体运动，由在竖直\n方向ℎ=\n1\n2 𝑔𝑡2、𝑣𝑦= 𝑔𝑡，知在竖直方向下降相同的高度时，两球所用时间相同、竖直方向上的速度相同，\n故ABD 错误；乒乓球在水平方向做匀速直线运动，有𝑥= 𝑣0𝑡，则速度较大的球通过同一水平距离所用的时\n间较少，故C 正确.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q03",
+      "content": "如图，空间某区域存在匀强电场和匀强磁场，电场方向竖直向上（与纸面平行），\n磁场方向垂直于纸面向里，三个带正电的微粒a，b，c 电荷量相等，质量分别为ma，\nmb，mc，已知在该区域内，a 在纸面内做匀速圆周运动，b 在纸面内向右做匀速直线\n运动，c 在纸面内向左做匀速直线运动。下列选项正确的是（    ）\n（A）ma＞mb＞mc\n（B）mb＞ma＞mc\n（C）mc＞mb＞ma\n（D）ma＞mc＞mb",
+      "answer": "B",
+      "analysis": "由题意知，mag=qE，mbg=qE+Bqv，mcg+Bqv=qE，所以mb＞ma＞mc，故B 正确；ACD 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q04",
+      "content": "大科学工程“人造太阳”主要是将氚核聚变反应释放的能量用来发电，氚核聚变反应方程是21H＋21H→\n32He＋10n，已知21H 的质量为2.0136u，32He 的质量为3.0150u，10n 的质量为1.0087u，1u = 931 MeV/c2。氚\n核聚变反应中释放的核能约为（    ）\n（A）3.7 MeV\n（B）3.3 MeV\n（C）2.7 MeV\n（D）0.93 MeV",
+      "answer": "B",
+      "analysis": "反应过程中亏损的质量为Δ𝑚= 2 × 2.0136u −1.0087u −3.0150u = 0.0035u，反应过程中释\n放的核能Δ𝐸= 0.0035 × 931MeV ≈3.3MeV，故B 正确.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q05",
+      "content": "扫描对到显微镜（STM）可用来探测样品表面原子尺寸上的形貌，为\n了有效隔离外界震动对STM 的扰动，在圆底盘周边沿其径向对称地安装\n若干对紫铜薄板，并施加磁场来快速衰减其微小震动，如图所示，无扰动\n时，按下列四种方案对紫铜薄板施加恒磁场；出现扰动后，对于紫铜薄板\n上下及其左右震动的衰减最有效的方案是（    ）",
+      "answer": "A",
+      "analysis": "感应电流产生的条件是闭合回路中的磁通量发上变化在A 图中系统震动时在磁场中的部分有时多\n有时少，磁通量发生变化，产生感应电流，受到安培力，阻碍系统的震动，故A 正确；而B、C、D 三个图\n均无此现象，故错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q06",
+      "content": "如图，三根相互平行的固定长直导线L1、L2 和L3 两两等距，均通有电流I，L1\n中电流方向与L2 中的相同，与L3 中的相反，下列说法正确的是（    ）\n（A）L1 所受磁场作用力的方向与L2、L3 所在平面垂直\n（B）L3 所受磁场作用力的方向与L1、L2 所在平面垂直\n（C）L1、L2 和L3 单位长度所受的磁场作用力大小之比为1∶1∶3\n（D）L1、L2 和L3 单位长度所受的磁场作用力大小之比为3 ∶3 ∶1",
+      "answer": "BC",
+      "analysis": "因三根导线对称放置，构成等边三角形，每根导线通有相等的电流，由安培定则可知每根\n导线在三角形顶点处产生的磁感应强度大小相等，均为𝐵0.由磁感应强度的叠加原理可知𝐿1，处的磁感应强\n度方向垂直于𝐿2、𝐿3所在平面斜向上，大小为𝐵0，由左手定则可知𝐿1所受磁场作用力的方向与𝐿2、𝐿3所在平\n面平行，故A 错误；同理，𝐿3处的合磁场的磁感应强度方向平行于𝐿1、𝐿2所在平面向右，大小为√3𝐵0，由\n左手定则可知𝐿3所受磁场作用力的方向与𝐿1、𝐿2所在平面垂直，故B 正确；由对称性可知，𝐿1、𝐿2单位长度\n所受的磁场作用力大小相等，均为𝐹1 = 𝐹2 =\n𝐵0𝐼𝐿\n𝐿\n= 𝐵0𝐼，𝐿3单位长度所受的磁场作用力大小为𝐹3 = √3𝐵0𝐼𝐿\n𝐿\n=\n√3𝐵0𝐼，所以三者的大小之比为1 ∶1 ∶√3，故C 正确D 错误.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q07",
+      "content": "在一静止点电荷的电场中，任一点的电势φ 与该点到点电荷的距离r 的关\n系如图所示。电场中四个点a、b、c 和d 的电场强度大小分别Ea、Eb、Ec 和\nEd。点a 到点电荷的距离ra 与点a 的电势φa 已在图中用坐标（ra，φa）标出，\n其余类推。现将一带正电的试探电荷由a 点依次经b、c 点移动到d 点，在相\n邻两点间移动的过程中，电场力所做的功分别为Wab、Wbc 和Wcd。下列选项正\n确的是（    ）\n（A）Ea∶Eb=4∶1\n（B）Ec∶Ed=2∶1\n（C）Wab∶Wbc=3∶1\n（D）Wbc∶Wcd=1∶3",
+      "answer": "AC",
+      "analysis": "由点电荷的电场强度表达式𝐸=\n𝑘𝑄\n𝑟2，则\n𝐸𝑎\n𝐸𝑏=\n𝑟𝑏\n2\n𝑟𝑎2 =\n4\n1，故A 正确；同理，\n𝐸𝑐\n𝐸𝑑=\n4\n1，故B 错误；\n由电势能与电场力做功的关系𝑊𝑎𝑏= 𝑞𝜑𝑎−𝑞𝜑𝑏，\n𝑊𝑎𝑏\n𝑊𝑏𝑐=\n𝜑𝑎−𝜑𝑏\n𝜑𝑏−𝜑𝑐=\n6−3\n3−2 = 3,故C 正确；\n同理，\n𝑊𝑏𝑐\n𝑊cd = 1，故D 错误.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q08",
+      "content": "如图，柔软轻绳ON 的一端O 固定，其中间某点M 拴一重物，用手拉住绳的另一端\nN，初始时，OM 竖直且MN 被拉直，OM 与MN 之间的夹角为α（α＞π\n2 ）。现将重物向\n右上方缓慢拉起，并保持夹角α 不变。在OM 由竖直被拉到水平的过程中（    ）\n（A）MN 上的张力逐渐增大\n（B）MN 上的张力先增大后减小\n（C）OM 上的张力逐渐增大\n（D）OM 上的张力先增大后减小\nA\nC\nB\nD\n紫铜薄板\n底盘\n可加磁场区\nSTM 扫描头\nM\nα\nO\nN",
+      "answer": "AD",
+      "analysis": "对重物受力分析，画出甲、乙、丙三个特殊位置的受力图，其中𝑇𝑂𝑀\n和𝑇𝑀𝑁的合力大小、方向均不变，大小等于𝐺，在重物移动的过程中𝑂𝑀与𝑀𝑁的夹角\n𝛼不变，由图甲、乙、丙可知𝑇𝑂𝑀先增大后减小，𝑇𝑀𝑁逐渐增大，故AD 正确.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q09",
+      "content": "（5 分）\n某探究小组为了研究小车在桌面上的直线运动，用自制“滴水计时\n器”计量时间。实验前，将该计时器固定在小车旁，如图（a）所示。实验时保持桌面水平，用手轻推一下\n小车。在小车运动过程中，滴水计时器等时间间隔地滴下小水滴，图（b）记录了桌面上连续的6 个水滴的\n位置。（已知滴水计时器每30 s 内共滴下46 个小水滴）\n（1）由图（b）可知，小车在桌面上是____________（填“从右向左”或“从左向右”）运动的。\n（2）该小组同学根据图（b）的数据判断出小车做匀变速运动。小车运动到图（b）中A 点位置时的速度大\n小为___________m/s，加速度大小为____________m/s2。（结果均保留2 位有效数字）",
+      "answer": "(1)从右向左；(2)0.19；0.037.",
+      "analysis": "（1）小车在阻力的作用下，做减速运动，由图（b）知，从右向左相邻水滴间的距离逐渐减小，所\n以小车在桌面上是从右向左运动；（2）已知滴水计时器每30 s 内共滴下46 个小水滴，所以相邻两水滴间的\n时间间隔为：∆𝑡=\n30\n45 =\n2\n3 𝑠，所以A 点位置的速度为：𝑣𝐴=\n0.117+0.133\n2∆𝑡\n= 0.19 m s\n⁄ ，根据逐差法可求加速度：\n(𝑥5 + 𝑥4) −(𝑥2 + 𝑥1) = 6𝑎(∆𝑡)2，解得a=0.037 m/s2。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q009-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q10",
+      "content": "（10 分）\n某同学研究小灯泡的伏安特性，所使用的器材有：小灯泡L（额定电压3.8 V，额定电流0.32 A）；电压表V\n（量程3 V，内阻3 kΩ）；电流表A（量程0.5 A，内阻0.5 Ω）；固定电阻R0（阻值1 000 Ω）；滑动变阻器R\n（阻值0~9.0 Ω）；电源E（电动势5 V，内阻不计）；开关S；导线若干。\n（1）实验要求能够实现在0~3.8 V 的范围内对小灯泡的电压进行测量，画出实验电路原理图。\n（2）实验测得该小灯泡伏安特性曲线如图（a）所示。\n由实验曲线可知，随着电流的增加小灯泡的电阻_________（填“增大”、“不变”或\n“减小”），灯丝的电阻率__________（填“增大”、“不变”或“减小”）。\n（3）用另一电源E0（电动势4 V，内阻1.00 Ω）和题给器材连接成图（b）所示的\n电路，调节滑动变阻器R 的阻值，可以改变小灯泡的实际功率。闭合开关S，在R\n的变化范围内，小灯泡的最小功率为____________W，最大功率为___________W。\n（结果均保留2 位小数）",
+      "answer": "(1)电路如图所示；(2)增大；增大；(3)0.39；1.17.",
+      "analysis": "（1）实验要求能够实现在0~3.8V的范围内进行测量，电压表量程为3V，\n需要改装电压表增大量程，故电压表应串联定值电阻，滑动变阻器需要连接成分\n压式电路，由于𝑅𝑥< √𝑅A𝑅V，故电流表应采用外接法.\n（2）伏安特性曲线上的点和原点连线的斜率表示电阻的倒数，图中曲线上的点和\n原点连线的斜率逐渐减小，则电阻逐渐增大；电流增大时，灯丝的温度升高，金属\n材料的电阻率随着温度的升高而增大。\n（3）利用作图法，将滑动变阻器等效为电源内阻，当电源等效内阻为𝑟′ = 𝑟+ 𝑅=\n10Ω时，小灯泡消耗的功率最小，这时作岀电源𝐼−𝑈的图像如图①所示(此时斜率为0.1)，可知小灯泡消耗\n最小功率为𝑃min = 𝑈1𝐼1 = 1.75 × 0.22W = 0.39W；当电源等效内阻为𝑟′ = 𝑟+ 0 = 1Ω时，小灯泡消耗的功率\n最大，这时作岀电源𝐼−𝑈的图像如图②所示(此时斜率为1)，可知小灯泡消耗最大功率为𝑃max = 3.67 ×\n0.318W = 1.17W。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q010-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q11",
+      "content": "（12 分）\n一质量为8.00×104 kg 的太空飞船从其飞行轨道返回地面。飞船在离地面高度1.60×105 m 处以7.5×103 m/s 的\n速度进入大气层，逐渐减慢至速度为100 m/s 时下落到地面。取地面为重力势能零点，在飞船下落过程中，\n重力加速度可视为常量，大小取为9.8 m/s2。（结果保留2 位有效数字）\n（1）分别求出该飞船着地前瞬间的机械能和它进入大气层时的机械能；\n（2）求飞船从离地面高度600 m 处至着地前瞬间的过程中克服阻力所做的功，已知飞船在该处的速度大小\n是其进入大气层时速度大小的2.0%。",
+      "answer": "(1)4.0 × 108J；2.4 × 1012J；(2)9.7 × 108J.",
+      "analysis": "(1)飞船着地前瞬间的机械能为\n𝐸k0 =\n1\n2 𝑚𝑣0\n2①，\n式中，𝑚和𝑣0分别是飞船的质量和着地前瞬间的速率.\n由①式和题给数据得\n𝐸k0 = 4.0 × 108J②，\n设地面附近的重力加速度大小为𝑔.飞船进入大气层时的机械能为\n𝐸机=\n1\n2 𝑚𝑣1\n2 + 𝑚𝑔ℎ③，\n式中，𝑣1是飞船在高度1.6 × 105m处的速度大小.\n由③式和题给数据得\n𝐸机= 2.4 × 1012J④.\n(2)飞船在高度ℎ′ = 600m处的机械能为\n𝐸机\n′ =\n1\n2 𝑚(\n2.0\n100 𝑣1)\n2\n+ 𝑚𝑔ℎ′⑤，\n由功能关系得\n𝑊= 𝐸机\n′ −𝐸k0⑥，\n式中，𝑊是飞船从高度600m处至着地前瞬间的过程中克服阻力所做的功.由②⑤⑥式和题给数据得\n𝑊= 9.7 × 108J⑦.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf#q12",
+      "content": "（20 分）\n真空中存在电场强度大小为E1 的匀强电场，一带电油滴在该电场中竖直向上做匀速直线运动，速度大小为\nv0，在油滴处于位置A 时，将电场强度的大小突然增大到某值，但保持其方向不变。持续一段时间t1 后，又\n突然将电场反向，但保持其大小不变；再持续同样一段时间后，油滴运动到B 点。重力加速度大小为g。\n（1）油滴运动到B 点时的速度；\n（2）求增大后的电场强度的大小；为保证后来的电场强度比原来的大，试给出相应的t1 和v0 应满足的条件。\n已知不存在电场时，油滴以初速度v0 做竖直上抛运动的最大高度恰好等于B、A 两点间距离的两倍。\n（二）选考题：共45 分。请考生从2 道物理题、2 道化学题、2 道生物题中每科任选一题作答。如果多做，\n则每学科按所做的第一题计分。\n33．【物理——选修3–3】（15 分）",
+      "answer": "(1)𝑣0 −2𝑔𝑡1；(2)见解析.",
+      "analysis": "（1）（5 分）氧气分子在 0 ℃ 和 100 ℃ 温度下单位速率间\n隔的分子数占总分子数的百分比随气体分子速率的变化分别\n如图中两条曲线所示。下列说法正确的是________。（填正确\n答案标号。选对1 个得2 分，选对2 个得4 分，选对3 个得5\n分。每选错1 个扣3 分，最低得分为0 分）\n（A）图中两条曲线下面积相等\n（B）图中虚线对应于氧气分子平均动能较小的情形\n（C）图中实线对应于氧气分子在 100 ℃ 时的情形\n（D）图中曲线给出了任意速率区间的氧气分子数目\n（E）与 0 ℃ 时相比，100 ℃ 时氧气分子速率出现在 0 ~ 400 m/s 区间内的分子数占总分子数的百分比较\n大\n温度是分子平均动能的标志，温度升高分子的平均动能增加，不同温度下相同速率的分子所占比例\n不同，温度越高，速率大的分子所占比例越高，故虚线为0℃。实线是100 ℃对应的曲线，曲线下的面积都\n等于1，故相等。正确选项为ABC。\n（2）（10 分）如图，容积均为V 的汽缸A、B 下端有细管（容积可忽略）连\n通，阀门K2 位于细管的中部，A、B 的顶部各有一阀门K1、K3，B 中有一可自\n由滑动的活塞（质量、体积均可忽略）。初始时，三个阀门均打开，活塞在B\n的底部；关闭K2、K3，通过K1 给汽缸充气，使A 中气体的压强达到大气压p0\n的3 倍后关闭K1。已知室温为27 ℃，汽缸导热。\n（ⅰ）打开K2，求稳定时活塞上方气体的体积和压强；\n（ⅱ）接着打开K3，求稳定时活塞的位置；\n（ⅲ）再缓慢加热汽缸内气体使其温度升高20 ℃，求此时活塞下方气体的压强。\n34．【物理——选修3–4】（15 分）\n（1）（5 分）如图（a），在xy 平面内有两个沿z 方向做简谐振动的点波源S1（0，4）和S2（0，－2）。两\n波源的振动图线分别如图（b）和图（c）所示，两列波的波速均为1.00 m/s。两列波从波源传播到点A（8，\n－2）的路程差为________m，两列波引起的点B（4，1）处质点的振动相互__________（填“加强”或“减\n弱”），点C（0，0.5）处质点的振动相互__________（填“加强”或“减弱”）。\n各速率区间的分\n子数占总分子数\nv/m·s−1\n200\n0\n400\n600\n800\n由几何关系可知AS1=10m，AS2=8m，所以波程差为2m；同理可求BS1-BS2=0，为波长整数倍，\n由振动图像知两振源振动方向相反，故B 点为振动减弱点，CS1-CS2=1m，波长λ = vT = 2m，所以C 点振\n动加强。\n（2）（10 分）如图，一玻璃工件的上半部是半径为R 的半球体，O 点为球心；下半\n部是半径为R、高位2R 的圆柱体，圆柱体底面镀有反射膜。有一平行于中心轴OC 的\n光线从半球面射入，该光线与OC 之间的距离为0.6R。已知最后从半球面射出的光线\n恰好与入射光线平行（不考虑多次反射）。求该玻璃的折射率。\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2017,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2017/2017全国1理综(河南,河北,山西,安徽,福建,江西,山东,湖北,湖南,广东).pdf",
+        "page": 4,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p007-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4f078d55241d6a63-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 3,
+    "assigned": 20,
+    "rendered": 20,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1992/1992全国理.pdf",
   "name": "1992全国理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 28,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 28,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q01",
       "content": "log89\nlog23 的值是\n(\n)\n(A) 2\n3\n(B) 1\n(C) 3\n2\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q02",
       "content": "如果函数y = sin(ωx) cos(ωx) 的最小正周期是4π, 那么常数ω 为\n(\n)\n(A) 4\n(B) 2\n(C) 1\n2\n(D) 1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q03",
       "content": "极坐标方程分别是ρ = cos θ 和ρ = sin θ 的两个圆的圆心距是\n(\n)\n(A) 2\n(B)\n√\n2\n(C) 1\n(D)\n√\n2\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q04",
       "content": "方程sin 4x cos 5x = −cos 4x sin 5x 的一个解是\n(\n)\n(A) 10◦\n(B) 20◦\n(C) 50◦\n(D) 70◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q05",
       "content": "已知轴截面是正方形的圆柱的高与球的直径相等, 则圆柱的全面积与球的\n表面积的比是\n(\n)\n(A) 6 : 5\n(B) 5 : 4\n(C) 4 : 3\n(D) 3 : 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -125,22 +160,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q06",
       "content": "如图, 图中曲线是幂函数y = xn 在第一象限的图象. 已知n 取±2, ±1\n2 四\n个值, 则相应于曲线C1、C2、C3、C4 的n 依次为\n(\n)\nx\ny\nO\n1\n1\nC1\nC2\nC3\nC4\n(A) −2, −1\n2, 1\n2, 2\n(B) 2, 1\n2, −1\n2, −2\n(C) −1\n2, −2, 2, 1\n2\n(D) 2, 1\n2, −2, −1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -148,22 +193,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q07",
       "content": "若loga 2 < logb 2 < 0, 则\n(\n)\n(A) 0 < a < b < 1 (B) 0 < b < a < 1 (C) a > b > 1\n(D) b > a > 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q08",
       "content": "直线\n{\nx = t · sin 20◦+ 3,\ny = −t · cos 20◦,\n(t 为参数) 的倾斜角是\n(\n)\n(A) 20◦\n(B) 70◦\n(C) 110◦\n(D) 160◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q09",
       "content": "在四棱锥的四个侧面中, 直角三角形最多可有\n(\n)\n(A) 1 个\n(B) 2 个\n(C) 3 个\n(D) 4 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q10",
       "content": "圆心在抛物线y2 = 2x 上, 且与x 轴和该抛物线的准线都相切的一个圆的\n方程是\n(\n)\n(A) x2 + y2 −x −2y −1\n4 = 0\n(B) x2 + y2 + x −2y + 1 = 0\n(C) x2 + y2 −x −2y + 1 = 0\n(D) x2 + y2 −x −2y + 1\n4 = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -240,22 +313,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q11",
       "content": "在(x2 + 3x + 2)5 的展开式中x 的系数为\n(\n)\n(A) 160\n(B) 240\n(C) 360\n(D) 800",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q12",
       "content": "若0 < a < 1, 在[0, 2π] 上满足sin x ⩾a 的x 的范围是\n(\n)\n(A) [0, arcsin a]\n(B) [arcsin a, π −arcsin a]\n(C) [π −arcsin a, π]\n(D)\n[\narcsin a, π\n2 + arcsin a\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -286,22 +371,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q13",
       "content": "已知直线l1 和l2 夹角的平分线为y = x, 如果l1 的方程是ax + by + c = 0\n(ab > 0), 那么l2 的方程是\n(\n)\n(A) bx + ay + c = 0\n(B) ax −by + c = 0\n(C) bx + ay −c = 0\n(D) bx −ay + c = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -309,22 +400,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q14",
       "content": "如图, 在棱长为1 的正方体ABCD−A1B1C1D1 中, M 和N 分别为A1B1\n和BB1 的中点, 那么直线AM 与CN 所成角的余弦值是\n(\n)\nA\nB\nC\nD\nM\nN\nA1\nB1\nC1\nD1\n(A)\n√\n3\n2\n(B)\n√\n10\n10\n(C) 3\n5\n(D) 2\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -332,22 +429,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-94c9131932f1b775-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q15",
       "content": "已知复数z 的模为2, 则|z −i| 的最大值为\n(\n)\n(A) 1\n(B) 2\n(C)\n√\n5\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -355,22 +462,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q16",
       "content": "函数y = ex −ex\n2\n的反函数\n(\n)\n(A) 是奇函数, 它在(0, +∞) 上是减函数\n(B) 是偶函数, 它在(0, +∞) 上是减函数\n(C) 是奇函数, 它在(0, +∞) 上是增函数\n(D) 是偶函数, 它在(0, +∞) 上是增函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -378,22 +491,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q17",
       "content": "如果函数f(x) = x2 + bx + c 对任意实数t 都有f(2 + t) = f(2 −t), 那\n么\n(\n)\n(A) f(2) < f(1) < f(4)\n(B) f(1) < f(2) < f(4)\n(C) f(2) < f(4) < f(1)\n(D) f(4) < f(2) < f(1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -401,22 +520,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q18",
       "content": "长方体的全面积为11, 12 条棱长度之和为24, 则这个长方体的一条对角线\n长为\n(\n)\n(A) 2\n√\n3\n(B)\n√\n14\n(C) 5\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -424,22 +549,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q19",
       "content": "方程1 + 3−x\n1 + 3x = 3 的解是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -447,22 +578,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q20",
       "content": "sin 15◦sin 75◦的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -470,22 +607,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q21",
       "content": "设含有10 个元素的集合的全部子集数为S, 其中由3 个元素组成的子集\n数为T, 则T\nS 的值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -493,22 +637,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q22",
       "content": "焦点为F1(−2, 0) 和F2(6, 0), 离心率为2 的双曲线的方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -516,22 +666,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q23",
       "content": "已知等差数列{an} 的公差d̸ = 0, 且a1, a3, a9 成等比数列, 则\na1 + a3 + a9\na2 + a4 + a10\n的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -539,22 +695,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q24",
       "content": "已知z ∈C, 解方程: zz −3iz = 1 + 3i.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -562,22 +724,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q25",
       "content": "已知π\n2 < β < α < 3π\n4 , cos(α −β) = 12\n13, sin(α + β) = −3\n5. 求sin 2α 的\n值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -585,22 +753,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q26",
       "content": "已知: 两条异面直线a、b 所成的角为θ, 它们的公垂线段AA1 的长度\n为d.\n在直线a、b 上分别取点E、F, 设A1E = m, AF = n.\n求证:\nEF =\n√\nd2 + m2 + n2 ± 2mn cos θ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -608,22 +782,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 26,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q27",
       "content": "设等差数列{an} 的前n 项和为Sn. 已知a3 = 12, S12 > 0, S13 < 0.\n(1) 求公差d 的取值范围;\n(2) 指出S1, S2, · · · , S12 中哪一个值最大, 并说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -631,22 +811,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 27,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1992/1992全国理.pdf#q28",
       "content": "已知椭圆x2\na2 + y2\nb2 = 1 (a > b > 0), A、B 是椭圆上的两点, 线段AB 的垂\n直平分线与x 轴相交于点P(x0, 0). 证明: −a2 −b2\na\n< x0 < a2 −b2\na\n.\n42",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1992,
       "subject": "数学",
@@ -654,11 +840,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1992/1992全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 28,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

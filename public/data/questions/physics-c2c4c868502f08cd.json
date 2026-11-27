@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
   "name": "2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 16,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 14,
+    "answerBlocks": 13,
+    "sourceAnswers": 6,
+    "sourceAnalysis": 14,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q01",
       "content": "管道高频焊机可以对由钢板卷成的圆管的接缝实施焊接。\n焊机的原理如图所示，圆管通过一个接有高频交流电源的线\n圈，线圈所产生的交变磁场使圆管中产生交变电流，电流产生\n的热量使接缝处的材料熔化将其焊接。焊接过程中所利用的电\n磁学规律的发现者为（    ）\n（A）库仑\n（B）霍尔\n（C）洛伦兹\n（D）法拉第",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由题意可知，圆管为金属导体，导体内部自成闭合回路，且有电阻，当周围的线圈\n中产生出交变磁场时，就会在导体内部感应出涡电流，电流通过电阻要发热。该过程利用原\n理的是电磁感应现象，其发现者为法拉第。故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2020,
       "subject": "物理",
@@ -33,11 +44,418 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q02",
+      "content": "若一均匀球形星体的密度为ρ，引力常量为G，则在该星体表面附近沿圆轨道绕其运动\n的卫星的周期是（    ）\n（A）\n3π\nGρ\n（B）\n4π\nGρ\n（C）\n1\n3πGρ\n（D）\n1\n4πGρ",
+      "answer": "暂无结构化答案",
+      "analysis": "卫星在星体表面附近绕其做圆周运动，则\n2\n2\n2\n4\nGMm\nm\nR\nR\nT\np\n=\n，\n3\n4\n3\nV\nR\n\n=\n ，\nM\nV\n=\n知卫星该星体表面附近沿圆轨道绕其运动的卫星的周期\nT＝\n3π\nGρ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q03",
+      "content": "如图，在摩托车越野赛途中的水平路段前方有一\n个坑，该坑沿摩托车前进方向的水平宽度为3h，其左\n边缘a 点比右边缘b 点高0.5h。若摩托车经过a 点时\n的动能为E1，它会落到坑内c 点。c 与a 的水平距离\n和高度差均为h；若经过a 点时的动能为E2，该摩托\n车恰能越过坑到达b 点。E2\nE1 等于（    ）\n（A）20\n（B）18\n（C）9.0\n（D）3.0",
+      "answer": "B",
+      "analysis": "由题意可知当在a 点动能为E1 时，有\n2\n1\n1\n1\n2\nE\nmv\n=\n根据平抛运动规律有\n2\n1\n1\n2\nh\ngt\n=\n1 1\nh\nv t\n=\n当在a 点时动能为E2 时，有\nh\nh\n2h\na\nc\nb\n2\n2\n2\n1\n2\nE\nmv\n=\n根据平抛运动规律有\n2\n2\n1\n1\n2\n2\nh\ngt\n=\n2 2\n3h\nv t\n=\n联立以上各式可解得E2\nE1 ＝18\n故选B。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q04",
+      "content": "CT 扫描是计算机X 射线断层扫描技术的简称，CT 扫描机可用于对多种病情的探测。图\n（a）是某种CT 机主要部分的剖面图，其中X 射线产生部分的示意图如图（b）所示。图（b）\n中M、N 之间有一电子束的加速电场，虚线框内有匀强偏转磁场；经调节后电子束从静止开\n始沿带箭头的实线所示的方向前进，打到靶上，产生X 射线（如图中带箭头的虚线所示）；\n将电子束打到靶上的点记为P 点。则（    ）\n（A）M 处的电势高于N 处的电势\n（B）增大M、N 之间的加速电压可使P 点左移\n（C）偏转磁场的方向垂直于纸面向外\n（D）增大偏转磁场磁感应强度的大小可使P 点左移",
+      "answer": "D",
+      "analysis": "A．由于电子带负电，要在MN 间加速则MN 间电场方向由N 指向M，根据沿着\n电场线方向电势逐渐降低可知M 的电势低于N 的电势，故A 错误；\nB．增大加速电压则根据\n2\n1\n2\neU\nmv\n=\n可知会增大到达偏转磁场的速度；又根据在偏转磁场\n中洛伦兹力提供向心力有\n2v\nevB\nm R\n=\n，可得\nmv\nR\neB\n=\n可知会增大在偏转磁场中的偏转半径，\n由于磁场宽度相同，故根据几何关系可知会减小偏转的角度，故P 点会右移，故B 错误；\nC．电子在偏转电场中做圆周运动，向下偏转，根据左手定则可知磁场方向垂直纸面向里，\n故C 错误；\nD．由B 选项的分析可知，当其它条件不变时，增大偏转磁场磁感应强度会减小半径，从而\n增大偏转角度，使P 点左移，故D 正确。\n故选D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q05",
+      "content": "氘核21H 可通过一系列聚变反应释放能量，其总效果可用反应式\n621H→242He＋211H＋210n＋43.15 MeV\n表示。海水中富含氘，已知1 kg 海水中含有的氘核约为1.0×1022 个，若全都发生聚变反应，\n其释放的能量与质量为M 的标准煤燃烧时释放的热量相等；已知1 kg 标准煤燃烧释放的热\n量约为2.9×107 J，1 MeV＝ 1.6×10−13J，则M 约为（    ）\n（A）40 kg\n（B）100 kg\n（C）400 kg\n（D）1 000 kg",
+      "answer": "暂无结构化答案",
+      "analysis": "氘核21H 可通过一系列聚变反应释放能量，其总效果可用反应式621H→242He＋211H\n＋210n＋43.15MeV，则平均每个氘核聚变释放的能量为\n43.15\n=\nMeV\n6\n6\nE\n\n=\n1kg 海水中含有的氘核约为1.0×1022 个，可以放出的总能量为\n0\nE\nN\n=\n由Q\nmq\n=\n可得，要释放的相同的热量，需要燃烧标准煤燃烧的质量\n0\n400kg\nE\nQ\nm\nq\nq\n=\n=\n",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q06",
+      "content": "特高压输电可使输送中的电能损耗和电压损失大幅降低。我国已成功掌握并实际应用了\n特高压输电技术。假设从A 处采用550 kV 的超高压向B 处输电，输电线上损耗的电功率为\n∆P，到达B 处时电压下降了∆U。在保持A 处输送的电功率和输电线电阻都不变的条件下，\n改用1 100 kV 特高压输电，输电线上损耗的电功率变为∆P′，到达B 处时电压下降了∆U′。\n不考虑其他因素的影响，则（    ）\n（A）∆P′＝1\n4 ∆P\n（B）∆P′＝1\n2 ∆P\n（C）∆U′＝1\n4 ∆U\n（D）∆U′＝1\n2 ∆U",
+      "answer": "AD",
+      "analysis": "输电线上损失的功率ΔP＝(P\nU )2·r，损失的电压ΔU＝P\nU ·r。当输送电压变为原来的\n2 倍，损失的功率变为原来的1\n4 ，即ΔP′＝1\n4 ΔP；损失的电压变为原来的1\n2 ，即ΔU′＝1\n2 ΔU。\n故选AD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q07",
+      "content": "如图，竖直面内一绝缘细圆环的上、下半圆分别均匀分布着等\n量异种电荷。a、b 为圆环水平直径上的两个点，c、d 为竖直直径\n上的两个点，它们与圆心的距离均相等。则（    ）\n（A）a、b 两点的场强相等\n（B）a、b 两点的电势相等\n（C）c、d 两点的场强相等\n（D）c、d 两点的电势相等",
+      "answer": "ABC",
+      "analysis": "BD．如下图所示，为等量异种电荷周围空间的电场分布\n图。本题的带电圆环，可拆解成这样无数对等量异种电荷的电场，\n沿竖直直径平行放置。它们有共同的对称轴PP′，PP′所在的水平面与每一条电场线都垂直，\n即为等势面，延伸到无限远处，电势为零。故在PP′上的点电势为零，即φa＝φb＝0；而从M\n点到N 点，电势一直在降低，即φc＞φd，故B 正确，D 错误；\nAC．上下两侧电场线分布对称，左右两侧电场线分布也对称，由电场的叠加原理可知AC 正\n确；\n故选ABC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q007-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q08",
+      "content": "水平冰面上有一固定的竖直挡板，一滑冰运动员面对挡板静止在冰面上，他把一质量为\n4.0 kg 的静止物块以大小为5.0 m/s 的速度沿与挡板垂直的方向推向挡板，运动员获得退行\n速度；物块与挡板弹性碰撞，速度反向，追上运动员时，运动员又把物块推向挡板，使其再\n一次以大小为5.0 m/s 的速度与挡板弹性碰撞。总共经过8 次这样推物块后，运动员退行速\n度的大小大于5.0 m/s，反弹的物块不能再追上运动员。不计冰面的摩擦力，该运动员的质量\n可能为（    ）\n（A）48 kg\n（B）53 kg\n（C）58 kg\n（D）63 kg",
+      "answer": "BC",
+      "analysis": "设运动员和物块的质量分别为m、m0 规定运动员运动的方向为正方向，运动员开\n始时静止，第一次将物块推出后，运动员和物块的速度大小分别为v1、v0，则根据动量守恒\n定律\n1\n0 0\n0\nmv\nm v\n=\n−\n解得\n0\n1\n0\nm\nv\nv\nm\n=\n物块与弹性挡板撞击后，运动方向与运动员同向，当运动员再次推出物块\n1\n0 0\n2\n0 0\nmv\nm v\nmv\nm v\n+\n=\n−\n解得\n0\n2\n0\n3m\nv\nv\nm\n=\n第3 次推出后\n2\n0 0\n3\n0 0\nmv\nm v\nmv\nm v\n+\n=\n−\n解得\n0\n3\n0\n5m\nv\nv\nm\n=\n依次类推，第8 次推出后，运动员的速度\n0\n8\n0\n15m\nv\nv\nm\n=\n根据题意可知\n0\n8\n0\n15\nm/s\nm\nv\nv\nm\n=\n\n解得\n60kg\nm \n第7 次运动员的速度一定小于5 m/s，则\n0\n7\n0\n13\nm/s\nm\nv\nv\nm\n=\n\n，解得m＞52 kg。\n综上所述，运动员的质量满足52 kg＜m＜60 kg，AD 错误，BC 正确。\n故选BC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q09",
+      "content": "（5 分）一细绳跨过悬挂的定滑轮，两端分别系有小球A 和B，如图所示。\n一实验小组用此装置测量小球B 运动的加速度。\n令两小球静止，细绳拉紧，然后释放小球，测得小球B 释放时的高度h0＝0.590\nm，下降一段距离后的高度h＝0.100 m；由h0 下降至h 所用的时间T＝0.730 s。\n由此求得小球B 加速度的大小为a＝_______m/s2（保留3 位有效数字）。\n从实验室提供的数据得知，小球A、B 的质量分别为100.0 g 和150.0 g，当地重\n力加速度大小为g＝9.80 m/s2。根据牛顿第二定律计算可得小球B 加速度的大\n小为a′＝_______m/s2（保留3 位有效数字）。\n可以看出，a′与a 有明显差异，除实验中的偶然误差外，写出一条可能产生这一结果的原因：\n__________。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）有题意可知小球下降过程中做匀加速直线运动，故根据运动学公式有\nh0－h＝1\n2 aT2\n代入数据解得a＝1.84 m/s2；\n（2）根据牛顿第二定律可知对小球A 有\nT－mAg＝mAa′\n对小球B 有\nmBg－T＝mBa′\n带入已知数据解得a′＝1.96 m/s2；\n（3）在实验中绳和滑轮之间有摩擦会造成实际计算值偏小。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q009-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q10",
+      "content": "（10 分）某同学要研究一小灯泡L（3.6 V，0.30 A）的伏安特性。所用器材有：电流表\nA1（量程200 mA，内阻Rg1＝10.0 Ω），电流表A2（量程500 mA，内阻Rg2＝1.0 Ω）、定值\n电阻R0（阻值R0＝10.0 Ω）、滑动变阻器R1（最大阻值10 Ω）、电源E（电动势4.5 V，内阻\n很小）、开关S 和若干导线。该同学设计的电路如图（a）所示。\n（1）根据图（a），在图（b）的实物图中画出连线______。\nB\nA\n（2）若I1、I2 分别为流过电流表A1 和A2 的电流，利用I1、I2、Rg1 和R0 写出：小灯泡两端\n的电压U＝_______，流过小灯泡的电流I＝_______。为保证小灯泡的安全，I1 不能超过\n_______mA。\n（3）实验时，调节滑动变阻器，使开关闭合后两电流表的示数为零。逐次改变滑动变阻器\n滑片位置并读取相应的I1 和I2。所得实验数据在下表中给出。\nI1/mA\n32\n55\n85\n125\n144\n173\nI2/mA\n171\n229\n299\n379\n424\n470\n根据实验数据可算得，当I1＝173 mA 时，灯丝电阻R＝_______Ω（保留1 位小数）。\n（4）如果用另一个电阻替代定值电阻R0，其他不变，为了能够测量完整的伏安特性曲线，\n所用电阻的阻值不能小于_______Ω（保留1 位小数）。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据电路图连接实物图如图所示\n（2）①根据电路图可知灯泡两端的电压为电流表A1 和R0 的总电压，故根据欧姆定律有\n(\n)\n1\n1\n0\ng\nU\nI\nR\nR\n=\n+\n②根据并联电路特点可知流过小灯泡的电流为\n2\n1\nI\nI\nI\n=\n−\n③因为小灯泡的额定电压为3.6V，故根据题目中已知数据带入①中可知I1 不能超过180mA；\n（3）根据表中数据可知当I1＝173mA 时，I2＝470mA；根据前面的分析代入数据可知此时\n灯泡两端的电压为U＝3.46V；流过小灯泡的电流为I＝297mA＝0.297A；故根据欧姆定律可\n知此时小灯泡的电阻为\n3.46 Ω\n11.6Ω\n0.297\nU\nR\nI\n=\n=\n=\n（4）要测量完整的伏安特性曲线则灯泡两端的电压至少要达到3.6V，而电流表A1 不能超\n过其量程200mA，此时结合①有\n(\n)\n0\n3.6\n0.2\n10\nR\n=\n?\n解得R0＝8 Ω，即要完整的测量小灯泡伏安特性曲线所用电阻的阻值不能小于8 Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q010-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q11",
+      "content": "（12 分）如图，在0≤x≤h，－∞＜y＜＋∞区域中存在方\n向垂直于纸面的匀强磁场，磁感应强度B 的大小可调，方向\n不变。一质量为m，电荷量为q（q＞0）的粒子以速度v0 从磁\n场区域左侧沿x 轴进入磁场，不计重力。\n（1）若粒子经磁场偏转后穿过y 轴正半轴离开磁场，分析说\n明磁场的方向，并求在这种情况下磁感应强度的最小值Bm；\n（2）如果磁感应强度大小为Bm\n2 ，粒子将通过虚线所示边界\n上的一点离开磁场。求粒子在该点的运动方向与x 轴正方向的夹角及该点到x 轴的距离。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由题意，粒子刚进入磁场时应受到方向向上的洛伦兹力，因此磁场方向垂直于\n纸面向里。设粒子进入磁场中做圆周运动的半径为R，根据洛伦兹力公式和圆周运动规律，\n有\n2\n0\n0\nv\nqv B\nm R\n=\n①\n由此可得\n0\nmv\nR\nqB\n=\n②\n粒子穿过y 轴正半轴离开磁场，其在磁场中做圆周运动的圆心在y 轴正半轴上，半径应满足\nR\nh\n\n③\n由题意，当磁感应强度大小为Bm时，粒子的运动半径最大，由此得\nBm＝mv0\nqh ④\n（2）若磁感应强度大小为Bm\n2 ，粒子做圆周运动的圆心仍在y 轴\n正半轴上，由②④式可得，此时圆弧半径为\n2\nR\nh\n=\n⑤\n粒子会穿过图中P 点离开磁场，运动轨迹如图所示。设粒子在P\n点的运动方向与x 轴正方向的夹角为α，\n由几何关系\n1\nsin\n2\n2\nh\nh\n=\n=\n⑥\n即α＝π\n6  ⑦\n由几何关系可得，P 点与x 轴的距离为\n2 (1\ncos )\ny\nh\n\n=\n−\n⑧\n联立⑦⑧式得\ny＝(2－3 )h ⑨",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q011-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q12",
+      "content": "（20 分）如图，一竖直圆管质量为M，下端距水平地面的高度为H，\n顶端塞有一质量为m 的小球。圆管由静止自由下落，与地面发生多次弹\n性碰撞，且每次碰撞时间均极短；在运动过程中，管始终保持竖直。已知\nM＝4m，球和管之间的滑动摩擦力大小为4mg，g 为重力加速度的大小，\n不计空气阻力。\n（1）求管第一次与地面碰撞后的瞬间，管和球各自的加速度大小；\n（2）管第一次落地弹起后，在上升过程中球没有从管中滑出，求管上升\n的最大高度；\n（3）管第二次落地弹起的上升过程中，球仍没有从管中滑出，求圆管长度应满足的条件。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）管第一次落地弹起的瞬间，小球仍然向下运动。设此时管的加速度大小为a1，\n方向向下；球的加速度大小为a2，方向向上；球与管之间的摩擦力大小为f，由牛顿运动定\n律有\nMa1＝Mg+f  ①\nma2＝ f– mg  ②\n联立①②式并代入题给数据，得\na1＝2g，a2＝3g③\n（2）管第一次碰地前与球的速度大小相同。由运动学公式，碰地前瞬间它们的速度大小均\n为\n0\n2\nv\ngH\n=\n④\n方向均向下。管弹起的瞬间，管的速度反向，球的速度方向依然向下。\n设自弹起时经过时间t1，管与小球的速度刚好相同。取向上为正方向，由运动学公式\nv0–a1t1＝ –v0+a2t1⑤\n联立③④⑤式得\n1\n2\n2\n5\nH\nt\ng\n=\n⑥\n设此时管下端的高度为h1，速度为v。由运动学公式可得\n2\n1\n0 1\n1 1\n1\n2\nh\nv t\na t\n=\n−\n⑦\n0\n1 1\nv\nv\na t\n=\n−\n⑧\n由③④⑥⑧式可判断此时v＞0。此后，管与小球将以加速度g 减速上升h2，到达最高点。\n由运动学公式有\n2\n2\n2\nv\nh\ng\n=\n⑨\n设管第一次落地弹起后上升的最大高度为H1，则\nH1＝h1+ h2⑩\n联立③④⑥⑦⑧⑨⑩式可得\nH1＝13\n25 H⑪\n（3）设第一次弹起过程中球相对管的位移为x1。在管开始下落到上升H1 这一过程中，由动\n能定理有\nMg（H–H1）+mg（H–H1+x1）–4mgx1＝0⑫\n联立⑪⑫式并代入题给数据得\n1\n4\n5\nx\nH\n=\n⑬\n同理可推得，管与球从再次下落到第二次弹起至最高点的过程中，球与管的相对位移x2 为\n2\n1\n4\n5\nx\nH\n=\n⑭\n设圆管长度为L。管第二次落地弹起后的上升过程中，球不会滑出管外的条件是\nx1+ x2≤L⑮\n联立⑪⑬⑭⑮式，L 应满足条件为\nL≥152\n125 H⑯\n（二）选考题：",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q012-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q012-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q13",
+      "content": "【物理选修3-3】\n（5 分）下列关于能量转换过程的叙述，违背热力学第一定律的有_______，不违背热力学第\n一定律、但违背热力学第二定律的有_______。（填正确答案标号）\n（A）汽车通过燃烧汽油获得动力并向空气中散热\n（B）冷水倒入保温杯后，冷水和杯子的温度都变得更低\n（C）某新型热机工作时将从高温热源吸收的热量全部转化为功，而不产生其他影响\n（D）冰箱的制冷机工作时从箱内低温环境中提取热量散发到温度较高的室内",
+      "answer": "暂无结构化答案",
+      "analysis": "A．燃烧汽油产生的内能一方面向机械能转化，同时热传递向空气转移。既不违背\n热力学第一定律，也不违背热力学第二定律；\nB．冷水倒入保温杯后，没有对外做功，同时也没有热传递，内能不可能减少，故违背热力\n学第一定律；\nC．某新型热机工作时将从高温热源吸收的热量全部转化为功，必然产生其他影响故违背热\n力学第二定律；\nD．制冷机消耗电能工作时从箱内低温环境中提取热量散发到温度较高的室内，发生了内能\n的转移，同时对外界产生了影响。既不违背热力学第一定律，也不违背热力学第二定律。\n（10 分）潜水钟是一种水下救生设备，它是一个底部开口、上部\n封闭的容器，外形与钟相似。潜水钟在水下时其内部上方空间里\n存有空气，以满足潜水员水下避险的需要。为计算方便，将潜水\n钟简化为截面积为S、高度为h、开口向下的圆筒；工作母船将潜\n水钟由水面上方开口向下吊放至深度为H 的水下，如图所示。已\n知水的密度为ρ，重力加速度大小为g，大气压强为p0，H≫h，\n忽略温度的变化和水密度随深度的变化。\n（1）求进入圆筒内水的高度l；\n（2）保持H 不变，压入空气使筒内的水全部排出，求压入的空气在其压强为p0 时的体积。\n（1）设潜水钟在水面上方时和放入水下后筒内气体的体积分别为V0 和V1，放入水\n下后筒内气体的压强为p1，由玻意耳定律和题给条件有\np1V1＝p0V0    ①\nV0＝hS    ②\nV1＝（h－l）S    ③\np1＝ p0+ ρg（H–l）    ④\n联立以上各式并考虑到H≫h，h ＞l，解得\nl＝\nρgH\np0＋ρgH h     ⑤\n（2）设水全部排出后筒内气体的压强为p2；此时筒内气体的体积为V0，这些气体在其压强\n为p0 时的体积为V3，由玻意耳定律有\np2V0＝p0V3 ⑥\n其中\np2＝p0＋ρgH    ⑦\n设需压入筒内的气体体积为V，依题意\nV＝V3－V0 ⑧\n联立②⑥⑦⑧式得\nV＝ρgSHh\np0\n     ⑨",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q013-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q013-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf#q14",
+      "content": "【物理选修3-4】\n用一个摆长为80.0 cm 的单摆做实验，要求摆动的最大角度小于5°，则开始时将摆球拉离平\n衡位置的距离应不超过_______cm（保留1 位小数）。（提示：单摆被拉开小角度的情况下，\n所求的距离约等于摆球沿圆弧移动的路程。）\n某同学想设计一个新单摆，要求新单摆摆动10 个周期的时间与原单摆摆动11 个周期的时间\n相等。新单摆的摆长应该取为_______cm。",
+      "answer": "暂无结构化答案",
+      "analysis": "拉离平衡位置的距离\n5\n2\n80cm\n6.97cm\n360\nx\n\n\n=\n\n\n=\n\n题中要求摆动的最大角度小于5°，且保留1 位小数，所以拉离平衡位置的不超过6.9 cm；\n根据单摆周期公式\n2\nL\nT\ng\n\n=\n结合题意可知\n10T′＝11T\n代入数据为\n10\n11 80cm\nL=\n解得新单摆的摆长为\nL′＝96.8 cm\n直角棱镜的折射率n＝1.5，其横截面如图所示，图中∠C＝90°，∠A＝30°。截面内一细束与\nBC 边平行的光线，从棱镜AB 边上的D 点射入，经折射后射到BC\n边上。\n（1）光线在BC 边上是否会发生全反射？说明理由；\n（2）不考虑多次反射，求从AC 边射出的光线与最初的入射光线夹\n角的正弦值。\n（1）如图，设光线在D 点的入射角为i，折射角为r。折射\n光线射到BC 边上的E 点。设光线在E 点的入射角为θ，由几何关\n系，有\nθ＝90°－（30°－r）＞60°        ①\n根据题给数据得\nsinθ＞sin60°＞\n1\nn    ②\n即θ 大于全反射临界角，因此光线在E 点发生全反\n射。\n（2）设光线在AC 边上的F 点射出棱镜，光线的\n入射角为i'，折射角为r'，由几何关系、反射定律\n及折射定律，有\ni＝ 30°    ③\ni' ＝90°–θ    ④\nsin i ＝ nsinr    ⑤\nnsini' ＝ sinr'    ⑥\n联立①③④⑤⑥式并代入题给数据，得\nsinr′＝2 2－3\n4\n     ⑦\n由几何关系，r'即AC 边射出的光线与最初的入射光线的夹角。\nB\nD\nA\nC\n30°\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2020,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2020/2020全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 10,
+        "endPage": 12,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q014-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q014-p011-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c2c4c868502f08cd-q014-p011-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 3,
+    "assigned": 14,
+    "rendered": 14,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

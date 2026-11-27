@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2009/2009山东文.pdf",
   "name": "2009山东文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q01",
       "content": "集合A = {0, 2, a}, B = {1, a2}. 若A ∪B = {0, 1, 2, 4, 16}, 则a 的\n值为\n(\n)\n(A) 0\n(B) 1\n(C) 2\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q02",
       "content": "复数3 −i\n1 −i 等于\n(\n)\n(A) 1 + 2i\n(B) 1 −2i\n(C) 2 + i\n(D) 2 −i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -56,22 +77,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q03",
       "content": "将函数y = sin 2x 的图象向左平移π\n4 个单位, 再向上平移1 个单位, 所得\n图象的函数解析式是\n(\n)\n(A) y = cos 2x\n(B) y = 2cos2x\n(C) y = 1 + sin\n(\n2x + π\n4\n)\n(D) y = 2sin2x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -79,22 +110,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q04",
       "content": "一空间几何体的三视图如图所示, 则该几何体的体积为\n(\n)\n2\n2\n2\n2\n2\n正(主) 视图\n俯视图\n侧(左) 视图\n(A) 2π + 2\n√\n3\n(B) 4π + 2\n√\n3\n(C) 2π + 2\n√\n3\n3\n(D) 4π + 2\n√\n3\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -102,22 +139,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q05",
       "content": "在R 上定义运算⊙: a ⊙b = ab + 2a + b, 则满足x ⊙(x −2) < 0 的实数\nx 的取值范围为\n(\n).\n(A) (0, 2)\n(B) (−2, 1)\n(C) (−∞, −2) ∪(1, +∞)\n(D) (−1, 2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -125,22 +172,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q06",
       "content": "函数y = ex + e−x\nex −e−x 的图象大致为\n(\n)\n(A)\nx\n1\n1\ny\nO\n(B)\nx\n1\n1\ny\nO\n(C)\nx\n1\n1\ny\nO\n(D)\nx\n1\n1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -148,22 +201,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q07",
       "content": "定义在R 上的函数f(x) 满足f(x) =\n{\nlog2(4 −x),\nx ⩽0,\nf(x −1) −f(x −2),\nx > 0,\n则\nf(3) 的值为\n(\n)\n(A) −1\n(B) −2\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q08",
       "content": "设P 是△ABC 所在平面内的一点, #    »\nBC + #   »\nBA = 2#    »\nBP, 则\n(\n)\n(A) #   »\nPA + #    »\nPB = 0\n(B) #    »\nPB + #    »\nPC = 0\n(C) #    »\nPC + #   »\nPA = 0\n(D) #   »\nPA + #    »\nPB + #    »\nPC = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -194,22 +259,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q008-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q008-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q09",
       "content": "已知α, β 表示两个不同的平面, m 为平面α 内的一条直线, 则“α ⊥β”是\n“m ⊥β”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -217,22 +293,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q10",
       "content": "设斜率为2 的直线l 过抛物线y2 = ax (a̸ = 0) 的焦点F, 且和y 轴交于\n点A. 若△OAF (O 为坐标原点) 的面积为4, 则抛物线方程为\n(\n)\n(A) y2 = ±4x\n(B) y2 = ±8x\n(C) y2 = 4x\n(D) y2 = 8x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -240,22 +322,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q11",
       "content": "在区间\n[\n−π\n2 , π\n2\n]\n上随机取一个数x, cos x 的值介于0 到1\n2 之间的概率\n为\n(\n)\n(A) 1\n3\n(B) 2\nπ\n(C) 1\n2\n(D) 2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -263,22 +355,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q12",
       "content": "已知定义在R 上的奇函数f(x) 满足f(x −4) = −f(x), 且在区间[0, 2] 上\n是增函数, 则\n(\n)\n(A) f(−25) < f(11) < f(80)\n(B) f(80) < f(11) < f(−25)\n(C) f(11) < f(80) < f(−25)\n(D) f(−25) < f(80) < f(11)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -286,22 +384,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q13",
       "content": "在等差数列{an} 中, a3 = 7, a5 = a2 + 6, 则a6 =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -309,22 +413,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q14",
       "content": "若函数f(x) = ax −x −a (a > 0 且a̸ = 1) 有两个零点, 则实数a 的取值\n范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -332,22 +442,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q15",
       "content": "执行如图的程序框图, 输出的T =\n.\n开始\nS = 0, T = 0, n = 0\nT > S\nS = S + 5\nn = n + 2\nT = T + n\n输出T\n结束\n否\n是",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -355,22 +471,35 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q015-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q015-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q015-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q015-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q16",
       "content": "某公司租赁甲、乙两种设备生产A, B 两类产品, 甲种设备每天能生产A\n类产品5 件和B 类产品10 件, 乙种设备每天能生产A 类产品6 件和B\n类产品20 件. 已知设备甲每天的租赁费为200 元, 设备乙每天的租赁费为\n300 元. 现该公司至少要生产A 类产品50 件, B 类产品140 件, 所需租赁\n费最少为\n元.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -378,22 +507,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q17",
       "content": "已知函数f(x) = 2 sin xcos2 φ\n2 + cos x sin φ −sin x (0 < φ < π) 在x = π\n处取最小值.\n(1) 求φ 的值;\n(2) 在△ABC 中, a, b, c 分别是角A, B, C 的对边. 已知a = 1, b =\n√\n2,\nf(A) =\n√\n3\n2 , 求角C.\n547",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -401,22 +536,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q18",
       "content": "如图, 在直四棱柱ABCD −A1B1C1D1 中, 底面ABCD 为等腰梯形,\nAB\nCD, AB = 4, BC = CD = 2, AA1 = 2, E、E1 分别是棱AD、\nAA1 的中点.\n(1) 设F 是棱AB 的中点, 证明: 直线EE1\n平面FCC1;\n(2) 证明: 平面D1AC ⊥平面BB1C1C.\nA\nA1\nE1\nC\nC1\nF\nE\nB\nB1\nD\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -424,22 +565,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q018-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q018-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-cbbd7815103fb544-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q19",
       "content": "一汽车厂生产A, B, C 三类轿车, 每类轿车均有舒适型和标准型两种型号,\n某月的产量如下表(单位: 辆) :\n轿车A\n轿车B\n轿车C\n舒适型\n100\n150\nz\n标准型\n300\n450\n600\n按类型分层抽样的方法在这个月生产的轿车中抽取50 辆, 其中有A 类轿\n车10 辆.\n(1) 求z 的值;\n(2) 用分层抽样的方法在C 类轿车中抽取一个容量为5 的样本. 将该样本\n看成一个总体, 从中任取2 辆, 求至少有1 辆舒适型轿车的概率;\n(3) 用随机抽样的方法从B 类舒适型轿车中抽取8 辆, 经检测它们的得分\n如下: 9.4, 8.6, 9.2, 9.6, 8.7, 9.3, 9.0, 8.2. 把这8 辆轿车的得分看作一个总\n体, 从中任取一个数, 求该数与样本平均数之差的绝对值不超过0.5 的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -447,22 +599,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q20",
       "content": "等比数列{an} 的前n 项和为Sn. 已知对任意的n ∈N∗, 点(n, Sn) 均在\n函数y = bx + r (b > 0 且b̸ = 1, b, r 均为常数) 的图象上.\n(1) 求r 的值;\n(2) 当b = 2 时, 记bn = n + 1\n4an\n(n ∈N∗), 求数列{bn} 的前n 项和Tn.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -470,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q21",
       "content": "已知函数f(x) = 1\n3ax3 + bx2 + x + 3, 其中a̸ = 0.\n(1) 当a, b 满足什么条件时, f(x) 取得极值?\n(2) 已知a > 0, 且f(x) 在区间(0, 1] 上单调递增, 试用a 表示出b 的取值\n范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -493,22 +657,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2009/2009山东文.pdf#q22",
       "content": "设m ∈R, 在平面直角坐标系中, 已知向量a = (mx, y + 1), 向量\nb = (x, y −1), a ⊥b, 动点M(x, y) 的轨迹为E.\n(1) 求轨迹E 的方程, 并说明该方程所表示曲线的形状;\n(2) 已知m = 1\n4. 证明: 存在圆心在原点的圆, 使得该圆的任意一条切线与\n轨迹E 恒有两个交点A, B, 且OA ⊥OB (O 为坐标原点), 并求出该圆的\n方程;\n(3) 已知m = 1\n4. 设直线l 与圆C: x2 + y2 = R2 (1 < R < 2) 相切于A1,\n且l 与轨迹E 只有一个公共点B1. 当R 为何值时, |A1B1| 取得最大值?\n并求最大值.\n548",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2009,
       "subject": "数学",
@@ -516,11 +686,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2009/2009山东文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
   "name": "2010大纲1理综(河南,河北,山西,江西,湖北,广西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 14,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 13,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q01",
       "content": "第I 卷共21 小题，每小题6 分，共126 分",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q02",
       "content": "原子核23892U 经放射性衰变①变为原子23490Th，继而经放射性衰变②变为原子核23491Pa，再经放射性\n衰变③变为原子核23492U。放射性衰变①、②和③依次为（     ）\n（A）α 衰变、β 衰变和β 衰变\n（B）β 衰变、α 衰变和β 衰变\n（C）β 衰变、β 衰变和α 衰变\n（D）α 衰变、β 衰变和α 衰变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "238\n234\n92\n90\nU\nTh\n→\n，质量数少4，电荷数少2，说明①为α 衰变\n238\n234\n4\n92\n90\n2\nU\nTh\nHe\n→\n+\n。\n234\n234\n90\n91\nTh\nPa\n→\n，\n质子数加1，说明②为β 衰变，中子转化成质子\n234\n234\n0\n90\n91\n1\nTh\nPa\ne\n−\n→\n+\n。\n234\n234\n91\n92\nPa\nU\n→\n，质子数加1，说明\n③为β 衰变，中子转化成质子\n234\n234\n0\n91\n92\n1\nPa\nU\ne\n−\n→\n+\n。\n考查根据原子核的衰变反应方程，应用质量数与电荷数的守恒分析解决问题。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2010,
       "subject": "物理",
@@ -56,11 +73,397 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q03",
+      "content": "如右图，轻弹簧上端与一质量为m 的木块1 相连，下端与另一质量为M 的木块2 相\n连，整个系统置于水平放置的光滑木坂上，并处于静止状态。现将木板沿水平方向突然抽\n出，设抽出后的瞬间，木块1、2 的加速度大小分别为a1、a2 重力加速度大小为g。则有\n（    ）\n（A）a1 = 0，a2 = g\n（B）a1 = g，a2 = g\n（C）a1 = 0，a2 = AM＋m\nM\nE\nAg\n（D）a1 = g，a2 = a2 = AM＋m\nM\nE\nAg",
+      "answer": "暂无结构化答案",
+      "analysis": "在抽出木板的瞬时，弹簧对1 的支持力和对2 的压力并未改变。对1 物体受重力和支持力，mg =\nF，a1 = 0 。对2 物体受重力和压力，根据牛顿第二定律\nF\nMg\nM\nm\na\ng\nM\nM\n+\n+\n=\n=\n牛顿第二定律应用的瞬时加速度问题。\n1\n2\n2 / 8",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q04",
+      "content": "关于静电场，下列结论普遍成立的是（    ）\n（A）电场强度大的地方电势高，电场强度小的地方电势低\n（B）电场中任意两点之间的电势差只与这两点的场强有关\n（C）在正电荷或负电荷产生的静电场中，场强方向都指向电势降低最快的方向\n（D）将正点电荷从场强为零的一点移动到场强为零的另一点，电场力做功这零",
+      "answer": "暂无结构化答案",
+      "analysis": "在正电荷的电场中，离正电荷近，电场强度大，电势高，离正电荷远，电场强度小，电势低；而\n在负电荷的电场中，离正电荷近，电场强度大，电势低，离负电荷远，电场强度小，电势高，A 错误。电\n势差的大小决定于两点间距和电场强度，B 错误；沿电场方向电势降低，而且速度最快，C 正确；场强为\n零，电势不一定为零，如从带正电荷的导体球上将正电荷移动到另一带负电荷的导体球上，电场力做正功。\n考查静电场中电场强度和电势的特点。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q05",
+      "content": "某地的地磁场磁感应强度的竖直分量方向向下，大小为4.5×10-5T。一灵敏电压表连接在当地入海河\n段的两岸，河宽100m，该河段涨潮和落潮时有海水（视为导体）流过。设落潮时，海水自西向东流，流速\n为2m/s。下列说法正确的是（    ）\n（A）电压表记录的电压为5mV\n（B）电压表记录的电压为9mV\n（C）河南岸的电势较高\n（D）河北岸的电势较高",
+      "answer": "暂无结构化答案",
+      "analysis": "海水在落潮时自西向东流，该过程可以理解为：自西向东运动的导体棒在切割竖直向下的磁场。\n根据右手定则，右岸即北岸是正极电势高，南岸电势低，D 对C 错。根据法拉第电磁感应定律E = BLv =\n4.5×10-5×100×2 = 9×10-3V， B 对A 错\n导体棒切割磁场的实际应用。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q06",
+      "content": "一水平抛出的小球落到一倾角为θ 的斜面上时，其速度方向与斜面垂直，运动\n轨迹如右图中虚线所示。小球在竖直方向下落的距离与在水平方向通过的距离之比\n为（    ）\n（A）tanθ\n（B）2tanθ\n（C）A 1\ntanθE\nA\n（D）A\n1\n2tanθE",
+      "answer": "暂无结构化答案",
+      "analysis": "如图平抛的末速度与竖直方向的夹角等于斜面倾角θ，有：\n0\ntan\nv\ngt\nθ =\n。\n则\n下\n落\n高\n度\n与\n水\n平\n射\n程\n之\n比\n为\n2\n0\n0\n1\n1\n2\n2\n2tan\ngt\ny\ngt\nx\nv t\nv\nθ\n=\n=\n=\n，D 正确。\n平抛速度和位移的分解",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q006-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q07",
+      "content": "右图为两分子系统的势能 Ep 与两分子间距离 r 的关系曲线。下列说法\n正确的是（     ）\n（A）当 r 大于 r1 时，分子间的作用力表现为引力\n（B）当 r 小于 r1 时，分子间的作用力表现为斥力\n（C）当 r 等于 r2 时，分子间的作用力为零\n（D）当 r 由 r1 变到 r2 的过程中，分子间的作用力做负功",
+      "answer": "暂无结构化答案",
+      "analysis": "分子间距等于r0 时分子势能最小，即r0 =  r2。当r 小于r1 时分子力表现为斥力；当r 大于r1 小\nr\nEp\nr2\nO r1\nθ\n3 / 8\n于r2 时分子力表现为斥力；当r 大于r2 时分子力表现为引力，A 错BC 对。在r 由r1 变到r2 的过程中，分\n子斥力做正功分子势能减小，D 错误。\n分子间距于分子力、分子势能的关系",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q08",
+      "content": "某人手持边长为6cm 的正方形平面镜测量身后一棵树的高度。测量时保持镜面与地面垂直，镜子与眼\n睛的距离为0.4m。在某位置时，他在镜中恰好能够看到整棵树的像；然后他向前走了6.0m，发现用这个镜\n子长度的5/6 就能看到整棵树的像。这棵树的高度约为（    ）\n（A）4.0m\n（B）4.5m\n（C）5.0m\n（D）5.5m",
+      "answer": "B",
+      "analysis": "如图是恰好看到树时的反射光路，由图中的三角形可得\n0.4m\n6cm\n0.4m\n+\n=\n树高\n树到镜的距离\n眼睛距镜的距离\n镜高\n眼睛距镜的距离\n，\n即\n0.4m\n0.06m\n0.4m\nH\nL +\n=\n。人离树越远，视野越大，看到树所需镜面\n越小，同理有\n0.4m\n6m\n0.05m\n0.4m\nH\nL +\n+\n=\n，以上两式解得L = 29.6m，\nH = 4.5m。\n平面镜的反射成像，利用数学三角形求解",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q09",
+      "content": "一简谐振子沿x 轴振动，平衡位置在坐标原点。t = 0 时刻振子的位移x = －0.1m；t =\nA4\n3\nE\nAs 时刻x =\n0.1m；t = 4s 时刻x = 0.1m。该振子的振幅和周期可能为（    ）\n（A）0.1m，A8\n3\nE\nAs\n（B）0.1m，8s\n（C）0.2m，A8\n3\nE\nAs\n（D）0.2m，8s",
+      "answer": "A",
+      "analysis": "在t = 4\n3\ns 和t = 4s 两时刻振子的位移相同，第一种情况是此时间差是周期的整数\n倍\n4\n4\n3\nnT\n−\n=\n，当n = 1 时\n8\n3\nT =\ns。在4\n3\ns 的半个周期内振子的位移由负的最大变为正的最\n大，所以振幅是0.1m。A 正确。\n第二种情况是此时间差不是周期的整数倍则4\n4\n(\n0)\n(4\n)\n3\n3\n2\nT\nnT\n−\n+\n−\n=\n+\n，当n = 0 时\n8\nT =\ns，且由于\n2t\n∆\n是\n1t\n∆的二倍说明振幅是该位移的二倍为0.2m。如图答案D。\n振动的周期性引起的位移周期性变化。\n第Ⅱ卷\n注意事项：\n    1.答题前，考生先在答题卡上用直径0.5 毫米的黑色墨水签字笔将自己的姓名，准考证号填写清楚，然\n后贴好条形码。请认真核准条形码上的准考证号，姓名和科目。\n    2.第Ⅱ卷共8 页，请用直径0.5 毫米黑色墨水签字笔在答题卡上各题的答题区域内作答，在试卷上作\n．．．．．\n答无效\n．．．\n眼睛\n树\n的\n像\n树\n△t1\n△t2\n4 / 8\n   3.第Ⅱ卷共13 题，共174 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q10",
+      "content": "（6 分）\n图1 是利用激光测转速的原理示意图，图中圆盘可绕固定轴转动，盘边缘侧面上有一小段涂有很薄的反光\n材料。当盘转到某一位置时，接收器可以接受到反光涂层所反射的激光束，并将所收到的光信号转变成电\n信号，在示波器显示屏上显示出来（如图2 所示）。\n（1）若图2 中示波器显示屏横向的每大格（5 小格）对应的事件为5.00×10-2s，则圆盘的转速为_______\n转/s。（保留3 位有效数字）\n（2）若测得圆盘直径为10.20cm，则可求得圆盘侧面反光涂层的长度为_______cm。（保留3 位有效数字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）从图2 可知圆盘转一圈的时间在横坐标上显示22 格，由题意知图2 中横坐标上每格表示\n1.00×10-2s，所以圆盘转动的周期是0.22s，则转速为4.55 转/s。\n（2）反光引起的电流图像在图2 中横坐标上每次一格，说明反光涂层的长度占圆盘周长的22 分之一为\nA2πr\n22\nE\nA = A2×3.14×5.10\n22\nE\nAcm = 1.46cm。\n匀速圆周运动的周期与转速的关系。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q010-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q11",
+      "content": "（12 分）\n一电流表的量程标定不准确，某同学利用图1 所示电路测量该电流表的\n实际量程Im。所用器材有：\n量程不准的电流表A1，内阻r1 = 10.0Ω，量程标称为5.0mA；\n标准电流表A2，内阻r2 = 45.0Ω，量程标称为1.0mA；\n标准电阻R1，阻值10.0Ω；\n滑动变阻器R，总电阻约为300.0Ω；\n电源E，电动势3.0V，内阻不计；\n保护电阻R2；开关S；导线。\n回答下列问题：\n（1）在答题纸上（图2 所示）的实物图上画出连线。\n图2\n反光涂层\n接收器\n光源\n图1\nA2\nA1\nR\nR1\nR2\nE\nS\na\nb\nc\n图1\n5 / 8\n（2）开关S 闭合前，滑动变阻器的滑动端c 应滑至_______端。\n（3）开关S 闭合后，调节滑动变阻器的滑动端，使电流表A1 满偏，若此时电流表A2 的读数为I2，则A1\n的量程Im = _______。\n（4）若测量时，A1 未调到满偏，两电流表的示数如图3 所示，从图中读出A1 的示数I1 = _______，A2 的\n示数I2 = _______；由读出的数据计算得Im = __________。（保留3 位有效数字）\n（5）写出一条提高测量准确度的建议：___________________。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）连线如图\n（2）b\n（3）Im = AR1 + r2\nr1\nE I2 = 5.5I2\n（4）3.00 mA，0.660 mA，6.05 mA\n（5）多次测量求平均（其它合理答案同样给分，如：测量时，电流表指针偏转大于满刻度的 1/2）\n（1）连线如图\nA1\nmA\nmA\nA2\nR1\nR2\na\nb\nc\nR\nS\nE\n+\n图2\n0\n1\n2\n3\n4\n5\nmA\n电流表A1 示数\n0\n0.2\n0.4\n0.6\n0.8\n1.0\nmA\n电流表A2 示数\n图3\nA1\nmA\nmA\nA2\nR1\nR2\na\nb\nc\nR\nS\nE\n+\n6 / 8\n（2）在滑动变阻器的限流接法中在接通开关前需要将滑动触头滑动到阻值最大端]\n（3 ）闭合开关调节滑动变阻器使待测表满偏，流过的电流为 Im。根据并联电路电压相等有\n1\n2\n2\n1\n(\n)\nm\nI r\nI\nr\nR\n=\n+\n得\n2\n1\n2\n1\n(\n)\nm\nI\nR\nr\nI\nr\n+\n=\n（4）待测表未满偏有\n1 1\n2\n2\n1\n(\n)\nI r\nI\nr\nR\n=\n+\n，将A2 的示数0.66mA 和其他已知条件代入有\n2\n1\n2\n1\n1\n(\n)\n0.66 (10\n45)\n3.63\n10\nI\nR\nr\nI\nr\n+\n×\n+\n=\n=\n=\nmA\n但图中A1 的示数3.0mA 量程为5.0mA，根据电流表的刻度是均匀的，则准确量程为6.05mA",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 4,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p005-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q12",
+      "content": "（15 分）\n汽车由静止开始在平直的公路上行驶，0～60 s 内汽车的加速度随时间\n变化的图线如右图所示。\n（1）画出汽车在0～60 s 内的v–t 图线；\n（2）求这60 s 内汽车行驶的路程。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由加速度图像可知前 10 s 汽车匀加速运动，后 20 s 汽车匀减速运动恰好停止，因为图像\n的面积表示速度的变化，此两段的面积相等。最大速度为 20 m/s。所以速度图像为右图。\n然后利用速度图像的面积求出位移。\n（2）汽车运动的面积为匀加速、匀速、匀减速三段的位移之和。\ns = s1 + s2 + s3 = 10×10 + 30×20 + 10×20 = 900 m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q012-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q012-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q13",
+      "content": "（18 分）\n如右图，质量分别为m 和M 的两个星球A 和B 在引力作用下都绕O 点做\n匀速圆周运动，星球A 和B 两者中心之间的距离为L。已知A、B 的中心\n和O 三点始终共线，A 和B 分别在O 的两侧。引力常数为G。\n（1）求两星球做圆周运动的周期：\n（2）在地月系统中，若忽略其他星球的影响，可以将月球和地球看成上述\n星球A 和B，月球绕其轨道中心运行的周期为T1。但在近似处理问题时，\n常常认为月球是绕地心做圆周运动的，这样算得的运行周期记为T2。已知\n地球和月球的质量分别为5.98×1024kg 和7.35×1022kg。求T2 与T1 两者平\n方之比。（结果保留3 位小数）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设A、B 星做圆周运动的轨道半径分别为r 和R，相互作用力为f，运动周期为T。GA\nMm\n（R＋r）2\nE\nA = mA4π2\nT2\nE\nAr = MA4π2\nT2\nE R，L = r＋R，解得：T = 2π AAEA\nL3\n G（M＋m）\nE\n30\n60\n20\n10\n0\nv/m·s−1\nt/s\nA\nB\nO\na/ms−2\nt/s\nO\n30\n60\n2\n1\n−1\n7 / 8\n（2）在月地系统中，月球做圆周运动的周期为T1 = 2π AAEA\nLʹ3\n G（Mʹ＋mʹ）\nE\nA，若认为月球绕地心运动，则\nGAMʹmʹ\nLʹ2\nE\nA = mʹA4π2\nT22\nE\nALʹ，T2 = 2π AAEA\nLʹ3\nGMʹ\nE\nA，所以\nAT12\nT22\nE\nA = 1＋Amʹ\nMʹE\nA = 1.012，\n ⑴A 和B 绕O 做匀速圆周运动，它们之间的万有引力提供向心力，则A 和B 的向心力相等。且A 和B\n和O 始终共线，说明A 和B 有相同的角速度和周期。\n则有：\n2\n2\nm\nr\nM\nR\nω\nω\n=\n，r\nR\nL\n+\n=\n，解得\nm\nR\nL\nm\nM\n=\n+\n，\nM\nr\nL\nm\nM\n=\n+\n对A 根据牛顿第二定律和万有引力定律得\n2\n2\n2\n(\n)\nGMm\nM\nm\nL\nL\nT\nM\nm\nπ\n=\n+\n化简得\n3\n2\n(\n)\nL\nT\nG M\nm\nπ\n=\n+\n⑵将地月看成双星，由⑴得\n3\n1\n2\n(\n)\nL\nT\nG M\nm\nπ\n=\n+\n将月球看作绕地心做圆周运动，根据牛顿第二定律和万有引力定律得\n2\n2\n2\n(\n)\nGMm\nm\nL\nL\nT\nπ\n=\n化简得\n3\n2\n2\nL\nT\nGM\nπ\n=\n所以两种周期的平方比值为\n24\n22\n2\n2\n24\n1\n5.98 10\n7.35 10\n(\n)\n1.01\n5.98 10\nT\nm\nM\nT\nM\n+\n×\n+\n×\n=\n=\n=\n×",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q013-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q013-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q013-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q013-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf#q14",
+      "content": "（21 分）\n如图，在0≤x≤A 3 EAa 区域内存在与xy 平面垂直的匀强磁场，磁感\n应强度的大小为B。在t = 0 时刻，一位于坐标原点的粒子源在xy\n平面内发射出大量同种带电粒子，所有粒子的初速度大小相同，方\n向与y 轴正方向夹角分布在0～180°范围内。已知沿y 轴正方向发\n射的粒子在t = t0 时刻刚好从磁场边界上P（A 3 EAa，a）点离开磁场。\n求：\n（1）粒子在磁场中做圆周运动的半径R 及粒子的比荷q/m；\n（2）此时刻仍在磁场中的粒子的初速度方向与y 轴正方向夹角的\n取值范围；\n（3）从粒子发射到全部粒子离开磁场所用的时间。",
+      "answer": "暂无结构化答案",
+      "analysis": "⑴粒子沿y 轴的正方向进入磁场，从P 点经过做OP 的垂\n直平分线与\nx\n轴的交点为圆心，根据直角三角形有\n2\n2\n2\n( 3\n)\nR\na\na\nR\n=\n+\n−\n解得\n2 3\n3\nR\na\n=\nO\ny\nx\nP ( 3 a，a)\n3 a\n8 / 8\n3\nsin\n2\na\nR\nθ =\n=\n，则粒子做圆周运动的的圆心角为120°，周期为\n0\n3\nT\nt\n=\n粒子做圆周运动的向心力由洛仑兹力提供，根据牛顿第二定律得\n2\n2\n(\n)\nBqv\nm\nR\nT\nπ\n=\n，\n2 R\nv\nT\nπ\n=\n，化简得\n0\n2\n3\nq\nm\nBt\nπ\n=\n⑵仍在磁场中的粒子其圆心角一定大于120°，这样粒子角度最小时从磁\n场右边界穿出；角度最大时从磁场左边界穿出。\n角度最小时从磁场右边界穿出圆心角120°，所经过圆弧的弦与⑴中相等\n穿出点如图，根据弦与半径、x 轴的夹角都是30°，所以此时速度与y 轴的正方\n向的夹角是60°。\n角度最大时从磁场左边界穿出，半径与y 轴的的夹角是60°，则此时速度与y 轴\n的正方向的夹角是120°。\n所以速度与y 轴的正方向的夹角范围是60°到120°\n⑶在磁场中运动时间最长的粒子的轨迹应该与磁场的右边界相切，\n在三角形中两个相等的腰为\n2 3\n3\nR\na\n=\n，而它的高是\n2 3\n3\n3\n3\n3\nh\na\na\na\n=\n−\n=\n，半径与y 轴的的夹角是30°，这种粒子的圆心角是240°。\n所用 时间 为\n0\n2t 。\n所以从粒子发射到全部离开所用 时间 为\n0\n2t 。\nR\nR\nR",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2010,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2010/2010大纲1理综(河南,河北,山西,江西,湖北,广西).pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 26,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q014-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q014-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q014-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q014-p008-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-124149fd28aaf8a0-q014-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 21,
+    "answerGraphics": 0,
+    "assigned": 21,
+    "rendered": 22,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

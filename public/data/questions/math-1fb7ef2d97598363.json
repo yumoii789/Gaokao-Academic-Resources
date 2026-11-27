@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2020/2020江苏.pdf",
   "name": "2020江苏",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q01",
       "content": "已知集合A = {−1, 0, 1, 2}, B = {0, 2, 3}, 则A ∩B =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q02",
       "content": "已知i 是虚数单位, 则复数z = (1 + i) (2 −i) 的实部是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q03",
       "content": "已知一组数据4, 2a, 3 −a, 5, 6 的平均数为4, 则a 的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q04",
       "content": "将一颗质地均匀的正方体骰子先后抛掷2 次, 观察向上的点数, 则点数和\n为5 的概率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q05",
       "content": "如图是一个算法流程图. 若输出y 的值为−2, 则输入x 的值是\n.\n开始\n输入x\nx > 0?\ny ←2x\ny ←x + 1\n输出y\n结束\nY\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q06",
       "content": "在平面直角坐标系xOy 中, 若双曲线x2\na2 −y2\n5 = 1 (a > 0) 的一条渐近线\n方程为y =\n√\n5\n2 x, 则该双曲线的离心率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q07",
       "content": "已知y = f (x) 是奇函数, 当x ⩾0 时, f (x) = x\n2\n3 , 则f (−8) 的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q08",
       "content": "已知sin2 (π\n4 + α\n)\n= 2\n3, 则sin 2α 的值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -194,22 +255,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q09",
       "content": "如图, 六角螺帽毛坯是由一个正六棱柱挖去一个圆柱所构成的. 已知螺帽\n的底面正六边形边长为2 cm, 高为2 cm, 内孔半径为0.5 cm, 则此六角螺\n帽毛坯的体积是\ncm2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -217,22 +284,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q10",
       "content": "将函数y = 3 sin\n(\n2x + π\n4\n)\n的图象向右平移π\n6 个单位长度, 则平移后的图\n象中与y 轴最近的对称轴的方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q11",
       "content": "设{an} 是公差为d 的等差数列, {bn} 是公比为q 的等比数列. 已知数\n列{an + bn} 的前n 项和Sn = n2 −n + 2n −1 (n ∈N∗), 则d + q 的值\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q12",
       "content": "已知5x2y2 + y4 = 1 (x, y ∈R), 则x2 + y2 的最小值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -286,22 +375,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q13",
       "content": "在△ABC 中, AB = 4, AC = 3, ∠BAC = 90◦, D 在边BC 上, 延长AD\n到P, 使得AP = 9, 若#   »\nPA = m#    »\nPB +\n(3\n2 −m\n) #    »\nPC (m 为常数), 则CD\n的长度是\n.\nA\nB\nC\nD\nP",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -309,22 +404,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q14",
       "content": "在平面直角坐标系xOy 中, 已知P\n(√\n3\n2 , 0\n)\n, A, B 是圆C:\nx2 +\n(\ny −1\n2\n)2\n= 36 上的两个动点, 满足PA = PB, 则△PAB 面积的最\n大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -332,22 +433,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q15",
       "content": "在三棱柱ABC −A1B1C1 中, AB ⊥AC, B1C ⊥平面ABC, E, F 分别\n是AC, B1C 的中点.\n(1) 求证: EF\n平面AB1C1;\n(2) 求证: 平面AB1C ⊥平面ABB1.\nA\nB\nC\nA1\nB1\nC1\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -355,22 +462,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q16",
       "content": "在△ABC 中, 角A, B, C 的对边分别为a, b, c, 已知a = 3, c =\n√\n2,\nB = 45◦.\n(1) 求sin C 的值;\n(2) 在边BC 上取一点D, 使得cos ∠ADC = −4\n5, 求tan ∠DAC 的值.\nA\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -378,22 +495,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q17",
       "content": "某地准备在山谷中建一座桥梁, 桥址位置的竖直截面图如图所示: 谷底O\n在水平线MN 上、桥AB 与MN 平行, OO′ 为铅垂线(O′ 在AB 上). 经测\n量, 左侧曲线AO 上任一点D 到MN 的距离h1 (米) 与D 到OO′ 的距离\na (米) 之间满足关系式h1 = 1\n40a2; 右侧曲线BO 上任一点F 到MN 的距\n离h2 (米) 与F 到OO′ 的距离b (米) 之间满足关系式h2 = −1\n800b3 + 6b.\n已知点B 到OO′ 的距离为40 米.\n(1) 求桥AB 的长度;\n(2) 计划在谷底两侧建造平行于OO′ 的桥墩CD 和EF, 且CE 为80 米,\n其中C, E 在AB 上(不包括端点). 桥墩EF 每米造价k (万元)、桥墩\nCD 每米造价3\n2k (万元) (k > 0). 问O′E 为多少米时, 桥墩CD 与EF\n的总造价最低?\nA\nB\nC\nO′\nO\nD\nh1\na\nD1\nM\nN\nE\nF\nh2\nb\nF1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -401,22 +528,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q017-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q18",
       "content": "在平面直角坐标系xOy 中, 已知椭圆E: x2\n4 + y2\n3 = 1 的左、右焦点分别\n为F1, F2, 点A 在椭圆E 上且在第一象限内, AF2 ⊥F1F2, 直线AF1 与\n椭圆E 相交于另一点B.\n(1) 求△AF1F2 的周长;\n(2) 在x 轴上任取一点P, 直线AP 与椭圆E 的右准线相交于点Q, 求\n#    »\nOP · #    »\nQP 的最小值;\n(3) 设点M 在椭圆E 上, 记△OAB 与△MAB 的面积分别为S1, S2, 若\nS2 = 3S1, 求点M 的坐标.\n1115",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -424,22 +562,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q19",
       "content": "已知关于x 的函数y = f (x), y = g (x) 与h (x) = kx + b (k, b ∈R) 在区\n间D 上恒有f (x) ⩾h (x) ⩾g (x).\n(1) 若f (x) = x2 + 2x, g (x) = −x2 + 2x, D = (−∞, +∞), 求h (x) 的表\n达式;\n(2) 若f (x) = x2 −x + 1, g (x) = k ln x, h (x) = kx −k, D = (0, +∞), 求\nk 的取值范围;\n(3) 若f (x) = x4 −2x2, g (x) = 4x2 −8, h (x) = 4 (t3 −t) x −3t4 + 2t2\n(\n0 < |t| ⩽\n√\n2\n)\n, D = [m, n] ⊆\n[\n−\n√\n2,\n√\n2\n]\n, 求证: n −m ⩽\n√\n7.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -447,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q20",
       "content": "已知数列{an} (n ∈N∗) 的首项a1 = 1, 前n 项和为Sn. 设λ 与k 是\n常数, 若对一切正整数n, 均有S\n1\nk\nn+1 −S\n1\nkn = λa\n1\nk\nn+1 成立, 则称此数列为\n“λ ∼k”数列.\n(1) 若等差数列{an} 是“λ ∼1”数列, 求λ 的值;\n(2) 若数列{an} 是“\n√\n3\n3\n∼2”数列, 且an > 0, 求数列{an} 的通项公式;\n(2) 对于给定的λ, 是否存在三个不同的数列{an} 为“λ ∼3”数列, 且\nan ⩾0? 若存在, 求λ 的取值范围; 若不存在, 说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -470,22 +624,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q21",
-      "content": "三选二.\n【A】平面上点A (2, −1) 在矩阵M =\n[\na\n1\n−1\nb\n]\n对应的变换作用下得到点\nB (3, −4).\n(1) 求实数a, b 的值;\n(2) 求矩阵M 的逆矩阵M −1.\n【B】在极坐标系中, 已知点A\n(\nρ1, π\n3\n)\n在直线l: ρ cos θ = 2 上, 点B\n(\nρ2, π\n6\n)\n在圆C: ρ = 4 sin θ 上(其中ρ ⩾0, 0 ⩽θ < 2π).\n(1) 求ρ1, ρ2 的值;\n(2) 求出直线l 与圆C 的公共点的极坐标.\n【C】设x ∈R, 解不等式2|x + 1| + |x| ⩽4.",
+      "content": "三选二.\n【A】平面上点A (2, −1) 在矩阵M =\n[\na\n1\n−1\nb\n]\n对应的变换作用下得到点\nB (3, −4).\n(1) 求实数a, b 的值;\n(2) 求矩阵M 的逆矩阵M −1.\n【B】在极坐标系中, 已知点A\n(\nρ1, π\n3\n)\n在直线l: ρ cos θ = 2 上, 点B\n(\nρ2, π\n6\n)\n在圆C: ρ = 4 sin θ 上(其中ρ ⩾0, 0 ⩽θ < 2π).",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1) 求ρ1, ρ2 的值;\n(2) 求出直线l 与圆C 的公共点的极坐标.\n【C】设x ∈R, 解不等式2|x + 1| + |x| ⩽4.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -493,22 +653,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q22",
       "content": "在三棱锥A −BCD 中, 已知CB = CD =\n√\n5, BD = 2, O 为BD 的中\n点, AO ⊥平面BCD, AO = 2, E 为AC 的中点.\n(1) 求直线AB 与DE 所成角的余弦值;\n(2) 若点F 在BC 上, 满足BF = 1\n4BC, 设二面角F −DE −C 的大小为\nθ, 求sin θ 的值.\nA\nB\nC\nD\nO\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -516,22 +680,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-1fb7ef2d97598363-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2020/2020江苏.pdf#q23",
       "content": "甲口袋中装有2 个黑球和1 个白球, 乙口袋中装有3 个白球. 现从甲、乙\n两口袋中各任取一个球交换放入另一口袋, 重复n 次这样的操作, 记甲口\n袋中黑球个数为Xn, 恰有2 个黑球的概率为pn, 恰有1 个黑球的概率为\nqn.\n(1) 求p1, q1 和p2, q2;\n(2) 求2pn + qn 与2pn−1 + qn−1 的递推关系式和Xn 的数学期望E (Xn)\n(用n 表示).\n1116",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2020,
       "subject": "数学",
@@ -539,11 +713,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2020/2020江苏.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

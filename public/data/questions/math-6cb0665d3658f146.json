@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
   "name": "2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q01",
       "content": "设集合M = {m ∈Z | −3 < m < 2}, N = {n ∈Z | −1 ⩽n ⩽3}, 则\nM ∩N =\n(\n)\n(A) {0, 1}\n(B) {−1, 0, 1}\n(C) {0, 1, 2}\n(D) {−1, 0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q02",
       "content": "设a, b ∈R 且b̸ = 0, 若复数(a + bi)3 是实数, 则\n(\n)\n(A) b2 = 3a2\n(B) a2 = 3b2\n(C) b2 = 9a2\n(D) a2 = 9b2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q03",
       "content": "函数f(x) = 1\nx −x 的图象关于\n(\n)\n(A) y 轴对称\n(B) 直线y = −x 对称\n(C) 坐标原点对称\n(D) 直线y = x 对称",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q04",
       "content": "若x ∈(e−1, 1), a = ln x, b = 2 ln x, c = ln3x, 则\n(\n)\n(A) a < b < c\n(B) c < a < b\n(C) b < a < c\n(D) b < c < a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q05",
       "content": "设变量x, y 满足约束条件:\n\n\n\n\n\n\n\ny ⩾x,\nx + 2y ⩽2,\nx ⩾−2,\n则z = x −3y 的最小值\n(\n)\n(A) −2\n(B) −4\n(C) −6\n(D) −8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q06",
       "content": "从20 名男同学,10 名女同学中任选3 名参加体能测试, 则选到的3 名同学\n中既有男同学又有女同学的概率为\n(\n)\n(A) 9\n29\n(B) 10\n29\n(C) 19\n29\n(D) 20\n29",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q07",
       "content": "(1 −√x)\n6(1 + √x)\n4 的展开式中x 的系数是\n(\n)\n(A) −4\n(B) −3\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q08",
       "content": "若动直线x = a 与函数f(x) = sin x 和g(x) = cos x 的图象分别交于M、\nN 两点, 则|MN| 的最大值为\n(\n)\n(A) 1\n(B)\n√\n2\n(C)\n√\n3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q09",
       "content": "设a > 1, 则双曲线x2\na2 −\ny2\n(a + 1)2 = 1 的离心率e 的取值范围是\n(\n)\n(A)\n(√\n2, 2\n)\n(B)\n(√\n2,\n√\n5\n)\n(C) (2, 5)\n(D)\n(\n2,\n√\n5\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q10",
       "content": "已知正四棱锥S −ABCD 的侧棱长与底面边长都相等, E 是SB 的中点,\n则AE, SD 所成的角的余弦值为\n(\n)\n(A) 1\n3\n(B)\n√\n2\n3\n(C)\n√\n3\n3\n(D) 2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q11",
       "content": "等腰三角形两腰所在直线的方程分别为x + y −2 = 0 与x −7y −4 = 0,\n原点在等腰三角形的底边上, 则底边所在直线的斜率为\n(\n)\n(A) 3\n(B) 2\n(C) −1\n3\n(D) −1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q12",
       "content": "已知球的半径为2, 相互垂直的两个平面分别截球面得两个圆. 若两圆的公\n共弦长为2, 则两圆的圆心距等于\n(\n)\n(A) 1\n(B)\n√\n2\n(C)\n√\n3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q13",
       "content": "设向量a = (1, 2), b = (2, 3). 若向量λa + b 与向量c = (−4, −7) 共线,\n则λ =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q14",
       "content": "设曲线y = eax 在点(0, 1) 处的切线与直线x + 2y + 1 = 0 垂直, 则\na =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q15",
       "content": "已知F 是抛物线C: y2 = 4x 的焦点, 过F 且斜率为1 的直线交C 于A、\nB 两点. 设|FA| > |FB|, 则|FA| 与|FB| 的比值等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q16",
       "content": "平面内的一个四边形为平行四边形的充要条件有多个, 如两组对边分别平\n行, 类似地, 写出空间中的一个四棱柱为平行六面体的两个充要条件:\n充要条件①\n;\n充要条件②\n.\n(写出你认为正确的两个充要条件)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q17",
       "content": "在△ABC 中, cos B = −5\n13, cos C = 4\n5.\n(1) 求sin A 的值;\n(2) 设△ABC 的面积S△ABC = 33\n2 , 求BC 的长.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q18",
       "content": "购买某种保险, 每个投保人每年度向保险公司交纳保费a 元, 若投保人在\n购买保险的一年度内出险, 则可以获得10000 元的赔偿金. 假定在一年度\n内有10000 人购买了这种保险, 且各投保人是否出险相互独立. 已知保险\n公司在一年度内至少支付赔偿金10000 元的概率为1 −0.999104.\n(1) 求一投保人在一年度内出险的概率p;\n(2) 设保险公司开办该项险种业务除赔偿金外的成本为50000 元, 为保证\n盈利的期望不小于0, 求每位投保人应交纳的最低保费. (单位: 元)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q19",
       "content": "如图, 正四棱柱ABCD −A1B1C1D1 中, AA1 = 2AB = 4, 点E 在CC1\n上且C1E = 3EC.\n(1) 证明: A1C ⊥平面BED;\n(2) 求二面角A1 −DE −B 的大小.\nA\nB\nC\nD\nA1\nE\nB1\nC1\nD1\n437",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -447,22 +566,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6cb0665d3658f146-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6cb0665d3658f146-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q20",
       "content": "设数列{an} 的前n 项和为Sn. 已知a1 = a, an+1 = Sn + 3n, n ∈N∗.\n(1) 设bn = Sn −3n, 求数列{bn} 的通项公式;\n(2) 若an+1 ⩾an, n ∈N∗, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -470,22 +599,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q21",
       "content": "设椭圆中心在坐标原点, A(2, 0), B(0, 1) 是它的两个顶点, 直线y = kx\n(k > 0) 与AB 相交于点D, 与椭圆相交于E、F 两点.\n(1) 若#    »\nED = 6#    »\nDF, 求k 的值;\n(2) 求四边形AEBF 面积的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -493,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf#q22",
       "content": "设函数f(x) =\nsin x\n2 + cos x.\n(1) 求f(x) 的单调区间;\n(2) 如果对任何x ⩾0, 都有f(x) ⩽ax, 求a 的取值范围.\n438",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -516,11 +657,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008大纲2理(黑龙江,吉林,贵州,新疆,内蒙古,青海,云南,西藏,甘肃).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

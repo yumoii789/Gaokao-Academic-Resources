@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import type { Paper, Question } from '@/types';
 import QuestionCard from './QuestionCard';
 
-export default function StructuredPaper({ paper, onShowOriginal }: { paper: Paper; onShowOriginal: () => void }) {
+export default function StructuredPaper({ paper, focusQuestionId, onShowOriginal }: { paper: Paper; focusQuestionId?: string | null; onShowOriginal: () => void }) {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const info = paper.structured;
@@ -29,6 +29,14 @@ export default function StructuredPaper({ paper, onShowOriginal }: { paper: Pape
     return () => { cancelled = true; };
   }, [info]);
 
+  useEffect(() => {
+    if (status !== 'ready' || !focusQuestionId) return;
+    const timer = window.setTimeout(() => {
+      document.getElementById('question-' + focusQuestionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [status, focusQuestionId]);
+
   if (!info) return null;
   return (
     <div>
@@ -49,7 +57,7 @@ export default function StructuredPaper({ paper, onShowOriginal }: { paper: Pape
         </div>
       )}
       {status === 'ready' && questions.map((q, i) => (
-        <QuestionCard key={q.questionId} question={q} index={i} />
+        <QuestionCard key={q.questionId} question={q} index={i} highlighted={q.questionId === focusQuestionId} />
       ))}
     </div>
   );

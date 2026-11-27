@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1995/1995全国文.pdf",
   "name": "1995全国文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 26,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 26,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q01",
       "content": "已知集合I = {0, −1, −2, −3, −4}, 集合M = {0, −1, −2}, N =\n{0, −3, −4}, 则M ∩N =\n(\n)\n(A) {0}\n(B) {−3, −4}\n(C) {−1, −2}\n(D) ∅",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q02",
       "content": "函数y =\n1\nx + 1 的图象是\n(\n)\n(A)\nx\ny\nO\n1\n(B)\nx\ny\nO\n−1\n(C)\nx\ny\nO\n1\n(D)\nx\ny\nO\n−1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q03",
       "content": "函数y = 4 sin\n(\n3x + π\n4\n)\n+ 3 cos\n(\n3x + π\n4\n)\n的最小正周期是\n(\n)\n(A) 6π\n(B) 2π\n(C) 2π\n3\n(D) π\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q04",
       "content": "正方体的全面积是a2, 它的顶点都在球面上, 这个球的表面积是\n(\n)\n(A) πa2\n3\n(B) πa2\n2\n(C) 2πa2\n(D) 3πa2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q05",
       "content": "如图, 若图中的直线l1, l2, l3 的斜率分别为k1, k2, k3, 则\n(\n)\nx\ny\nl1\nl2\nl3\nO\n(A) k1 < k2 < k3 (B) k3 < k1 < k2\n(C) k3 < k2 < k1\n(D) k1 < k3 < k2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -125,22 +160,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q06",
       "content": "双曲线3x2 −y2 = 3 的渐近线方程是\n(\n)\n(A) y = ±3x\n(B) y = ±1\n3x\n(C) y = ±\n√\n3x\n(D) y = ±\n√\n3\n3 x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q07",
       "content": "使sin x ⩽cos x 成立的x 的一个变化区间是\n(\n)\n(A)\n[\n−3π\n4 , π\n4\n]\n(B)\n[\n−π\n2 , π\n2\n]\n(C)\n[\n−π\n4 , 3π\n4\n]\n(D) [0, π]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q08",
       "content": "x2 + y2 −2x = 0 和x2 + y2 + 4y = 0 的位置关系是\n(\n)\n(A) 相离\n(B) 外切\n(C) 相交\n(D) 内切",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q09",
       "content": "已知θ 是第三象限角, 且sin4 θ + cos4 θ = 5\n9, 那么sin 2θ 等于\n(\n)\n(A) 2\n√\n2\n3\n(B) −2\n√\n2\n3\n(C) 2\n3\n(D) −2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q10",
       "content": "如图, ABCD −A1B1C1D1 是正方体, B1E1 = D1F1 = A1B1\n4\n, 则BE1 与\nDF1 所成的角的余弦值是\n(\n)\nA\nB\nC\nD\nE1\nF1\nA1\nB1\nC1\nD1\n(A) 15\n17\n(B) 1\n2\n(C)\n8\n17\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -240,22 +309,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q11",
       "content": "已知y = loga(2 −x) 是x 的增函数, 则a 的取值范围是\n(\n)\n(A) (0, 2)\n(B) (0, 1)\n(C) (1, 2)\n(D) (2, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -263,22 +342,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q011-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q011-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q12",
       "content": "在(1 −x3)(1 + x)10 的展开式中, x5 的系数是\n(\n)\n(A) −297\n(B) −252\n(C) 297\n(D) 207",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -286,22 +376,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q13",
       "content": "已知直线l ⊥平面α, 直线m ⊂平面β, 有下面四个命题:\n①α\nβ ⇒l ⊥m;;\n②α ⊥β ⇒l\nm;\n③l\nm ⇒α ⊥β;\n④l ⊥m ⇒α\nβ.\n其中正确的两个命题是\n(\n)\n(A) ①与②\n(B) ③与④\n(C) ②与④\n(D) ①与③",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -309,22 +405,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q14",
       "content": "等差数列{an}, {bn} 的前n 项和分别为Sn 与Tn, 若Sn\nTn\n=\n2n\n3n + 1, 则\nlim\nn→∞\nan\nbn\n等于\n(\n)\n(A) 1\n(B)\n√\n6\n3\n(C) 2\n3\n(D) 4\n9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -332,22 +434,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q15",
       "content": "用1, 2, 3, 4, 5 这五个数字组成没有重复数字的三位数, 其中偶数共有(\n)\n(A) 24 个\n(B) 30 个\n(C) 40 个\n(D) 50 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -355,22 +463,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q16",
       "content": "方程log2(x + 1)2 + log4(x + 1) = 5 的解是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -378,22 +496,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q17",
       "content": "已知圆台上、下底面圆周都在球面上, 且下底面过球心, 母线与底面所成的\n角为π\n3 , 则圆台的体积与球体积之比为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -401,22 +525,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q18",
       "content": "函数y = cos x + cos\n(\nx + π\n3\n)\n的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -424,22 +554,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q19",
       "content": "若直线l 过抛物线y2 = 4(x + 1) 的焦点, 并且与x 轴垂直, 则l 被抛物线\n截得的线段长为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -447,22 +583,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q20",
       "content": "四个不同的小球放入编号为1, 2, 3, 4 的四个盒中, 则恰有一个空盒的放法\n共有\n种. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -470,22 +612,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q21",
       "content": "解方程3x+2 −32−x = 80.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -493,22 +641,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q22",
       "content": "设复数z = cos θ + i sin θ, θ ∈(π, 2π), 求复数z2 + z 的模和辐角.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -516,22 +671,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q23",
       "content": "设\n{an}\n是由正数组成的等比数列,\nSn\n是其前\nn\n项和,\n证明：\nlog0.5Sn + log0.5Sn+2\n2\n> log0.5Sn+1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -539,22 +700,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q24",
       "content": "如图, 圆柱的轴截面ABCD 是正方形, 点E 在底面的圆周上, AF ⊥DE,\nF 是垂足.\n(1) 求证: AF ⊥DB;\n(2) 如果圆柱与三棱锥D −ABE 的体积的比等于3π, 求点E 到截面\nABCD 的距离.\nA\nB\nC\nD\nE\nF",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -562,22 +729,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q024-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q024-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-fdbba14b320d3aac-q024-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q25",
       "content": "某地为促进淡水鱼养殖业的发展, 将价格控制在适当范围内, 决定对淡水\n鱼养殖提供政府补贴. 设淡水鱼的市场价格为x 元/千克, 政府补贴为t\n元/千克. 根据市场调查, 当8 ⩽x ⩽14 时, 淡水鱼的市场日供应量P 千克\n与市场日需求量Q 千克近似满足关系: P = 1000(x+t−8) (x ⩾8, t ⩾0),\nQ = 500\n√\n40 −(x −8)2 (8 ⩽x ⩽14). 当P = Q 时市场价格称为市场平\n衡价格.\n(1) 将市场平衡价格表示为政府补贴的函数, 并求出函数的定义域;\n(2) 为使市场平衡价格不高于每千克10 元, 政府补贴至少为每千克多少元?",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -585,22 +763,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1995/1995全国文.pdf#q26",
       "content": "已知椭圆x2\n24 + y2\n16 = 1, 直线l: x = 12. P 是l 上一点, 射线OP 交椭圆\n于点R, 又点Q 在OP 上且满足|OQ| · |OP| = |OR|2, 当点P 在l 上移\n动时, 求点Q 的轨迹方程, 并说明轨迹是什么曲线.\n52",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1995,
       "subject": "数学",
@@ -608,11 +792,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1995/1995全国文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 26,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 5,
+    "answerGraphics": 0,
+    "assigned": 5,
+    "rendered": 7,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

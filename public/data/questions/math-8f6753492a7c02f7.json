@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
   "name": "2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q01",
       "content": "设全集U = {x ∈N∗| x < 6}, 集合A = {1, 3}, B = {3, 5}, 则\n∁U (A ∪B) =\n(\n)\n(A) {1, 4}\n(B) {1, 5}\n(C) {2, 4}\n(D) {2, 5}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q02",
       "content": "不等式x −3\nx + 2 < 0 的解集为\n(\n)\n(A) {x | −2 < x < 3}\n(B) {x | x < −2}\n(C) {x | x < −2 或x > 3}\n(D) {x | x > 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q03",
       "content": "已知sin α = 2\n3, 则cos (π −2α) =\n(\n)\n(A) −\n√\n5\n3\n(B) −1\n9\n(C) 1\n9\n(D)\n√\n5\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q04",
       "content": "函数y = 1 + ln (x −1) (x > 1) 的反函数是\n(\n)\n(A) y = ex+1 −1 (x > 0)\n(B) y = ex−1 + 1 (x > 0)\n(C) y = ex+1 −1 (x ∈R)\n(D) y = ex−1 + 1 (x ∈R)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q05",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx ⩾−1,\ny ⩾x,\n3x + 2y ⩽5,\n则z = 2x + y 的最大值为(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q06",
       "content": "如果等差数列{an} 中, a3 + a4 + a5 = 12, 那么a1 + a2 + · · · + a7 = (\n)\n(A) 14\n(B) 21\n(C) 28\n(D) 35",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q07",
       "content": "若曲线y = x2 + ax + b 在点(0, b) 处的切线方程是x −y + 1 = 0, 则(\n)\n(A) a = 1, b = 1\n(B) a = −1, b = 1\n(C) a = 1, b = −1\n(D) a = −1, b = −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q08",
       "content": "在三棱锥S −ABC 中, 底面ABC 为边长等于2 的等边三角形, SA 垂直\n于底面ABC, SA = 3, 那么直线AB 与平面SBC 所成角的正弦值为(\n)\n(A)\n√\n3\n4\n(B)\n√\n5\n4\n(C)\n√\n7\n4\n(D) 3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q09",
       "content": "将标号为1, 2, 3, 4, 5, 6 的6 张卡片放入3 个不同的信封中, 若每个信封\n放2 张, 其中标号为1, 2 的卡片放入同一信封, 则不同的放法共有\n(\n)\n(A) 12 种\n(B) 18 种\n(C) 36 种\n(D) 54 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q10",
       "content": "△ABC 中, 点D 在边AB 上, CD 平分∠ACB. 若#    »\nCB = a, #   »\nCA = b,\n|a| = 1, |b| = 2, 则#    »\nCD =\n(\n)\n(A) 1\n3a + 2\n3b\n(B) 2\n3a + 1\n3b\n(C) 3\n5a + 4\n5b\n(D) 4\n5a + 3\n5b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q11",
       "content": "与正方体ABCD −A1B1C1D1 的三条棱AB、CC1、A1D1 所在直线的距\n离相等的点\n(\n)\n(A) 有且只有1 个\n(B) 有且只有2 个\n(C) 有且只有3 个\n(D) 有无数个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q12",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为\n√\n3\n2 , 过右焦点F 且斜\n率为k (k > 0) 的直线与C 相交于A、B 两点. 若#   »\nAF = 3#    »\nFB, 则k =(\n)\n(A) 1\n(B)\n√\n2\n(C)\n√\n3\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q13",
       "content": "已知α 是第二象限的角, tan α = −1\n2, 则cos α =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q14",
       "content": "(\nx + 1\nx\n)9\n的展开式中x3 的系数是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q15",
       "content": "已知抛物线C: y2 = 2px (p > 0) 的准线为l, 过M (1, 0) 且斜率为\n√\n3 的直\n线与l 相交于点A, 与C 的一个交点为B. 若#     »\nAM = #     »\nMB, 则p =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q16",
       "content": "已知球O 的半径为4, 圆M 与圆N 为该球的两个小圆, AB 为圆M\n与圆N 的公共弦, AB = 4.\n若OM = ON = 3, 则两圆圆心的距离\nMN =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q17",
       "content": "△ABC 中, D 为边BC 上的一点, BD = 33, sin B = 5\n13, cos ∠ADC = 3\n5,\n求AD.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q18",
       "content": "已知{an} 是各项均为正数的等比数列, 且a1 + a2 = 2\n( 1\na1\n+ 1\na2\n)\n,\na3 + a4 + a5 = 64\n( 1\na3\n+ 1\na4\n+ 1\na5\n)\n.\n(1) 求{an} 的通项公式;\n(2) 设bn =\n(\nan + 1\nan\n)2\n, 求数列{bn} 的前n 项和Tn.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q19",
       "content": "如图, 直三棱柱ABC −A1B1C1 中, AC = BC, AA1 = AB, D 为BB1 的\n中点, E 为AB1 上的一点, AE = 3EB1.\n(1) 证明: DE 为异面直线AB1 与CD 的公垂线;\n(2) 设异面直线AB1 与CD 的夹角为45◦, 求二面角A1 −AC1 −B1 的大\n小.\nA\nB\nC\nA1\nB1\nC1\nD\nE\n587",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -447,22 +566,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8f6753492a7c02f7-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8f6753492a7c02f7-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q20",
       "content": "如图, 由M 到N 的电路中有4 个组件, 分别标为T1, T2, T3, T4, 电流能通\n过T1, T2, T3 的概率都是p, 电流能通过T4 的概率是0.9. 电流能否通过各\n组件相互独立. 已知T1, T2, T3 中至少有一个能通过电流的概率为0.999.\n(1) 求p;\n(2) 求电流能在M 与N 之间通过的概率.\nM\nN\nT1\nT2\nT4\nT3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -470,22 +599,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8f6753492a7c02f7-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8f6753492a7c02f7-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q21",
       "content": "已知函数f (x) = x3 −3ax2 + 3x + 1.\n(1) 设a = 2, 求f (x) 的单调区间;\n(2) 设f (x) 在区间(2, 3) 中至少有一个极值点, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -493,22 +632,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf#q22",
       "content": "己知斜率为1 的直线l 与双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 相交于\nB、D 两点, 且BD 的中点为M (1, 3).\n(1) 求C 的离心率;\n(2) 设C 的右顶点为A, 右焦点为F, |DF| · |BF| = 17, 证明: 过A、B、\nD 三点的圆与x 轴相切.\n588",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -516,11 +661,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010大纲2文(甘肃,贵州,新疆,青海,西藏,内蒙古,云南).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

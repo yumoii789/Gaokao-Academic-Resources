@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
   "name": "2012安徽理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 11,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 11,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q01",
       "content": "我国发射的“天宫一号”和“神州八号”在对接前，“天宫一号”的运行轨道高度为350km，“神州八\n号”的运行轨道高度为343km。它们的运行轨道均视为圆周，则（    ）\n（A）“天宫一号”比“神州八号”速度大\n（B）“天宫一号”比“神州八号”周期大\n（C）“天宫一号”比“神州八号”角速度大\n（D）“天宫一号”比“神州八号”加速度大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "由万有引力提供航天器做圆周运动的向心力得：\n2\n2\n2\n2\n2\n4\nn\nMm\nv\nG\nm\nm\nr\nm\nr\nma\nr\nr\nT\n\n\n=\n=\n=\n=\n，所以\nGM\nv\nr\n=\n、\n2\n3\n4\nr\nT\nGM\n\n=\n、\n3\nGM\nr\n=\n、\n2\nn\nGM\na\nr\n=\n。而“天宫一号”轨道半径r天比“神州八号”轨道半径\nr神大，故正确选项：B",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2012,
       "subject": "物理",
@@ -33,11 +44,344 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q02",
+      "content": "一列简谐横波沿x 轴正方向传播，在t = 0s 时波形如图1 所示，已知波速为\n10m/s，则t = 0.1s 时正确的波形是图2 中的（    ）\n图2",
+      "answer": "暂无结构化答案",
+      "analysis": "由图1 可得波长λ = 4.0m，其周期T = λ/v = 0.4s。而t = 0.1s = T/4，波沿x 轴正方向传播，即图1\n的波形向x 轴正方向移动1/4 波长，得到图2 的C 图。正确选项C\nx/m\n1.0\nO\nC\ny/m\n2.0 3.0 4.0\n1.0\nO\nD\ny/m\n2.0 3.0 4.0 x/m\n1.0\nB\ny/m\n2.0 3.0 4.0 x/m\nO\n1.0\nA\ny/m\n2.0 3.0 4.0 x/m\nO\n1.0\nO\ny/m\n2.0 3.0 4.0 x/m\n图1\n第2页（共8页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q03",
+      "content": "如图所示，在竖直平面内有一个半径为R 的圆弧轨道。半径OA 水平、OB\n竖直，一个质量为m 的小球自A 正上方P 点由静止开始自由下落，小球沿轨\n道到达最高点B 时恰好对轨道没有压力，已知AP = 2R，重力加速度为g，则\n小球从P 到B 的运动过程中（    ）\n（A）重力做功2mgR\n（B）机械能减少mgR\n（C）合外力做功mgR\n（D）克服摩擦力做功1\n2 mgR",
+      "answer": "暂无结构化答案",
+      "analysis": "小球沿轨道到达最高点B 时恰好对轨道没有压力，由牛顿第二定律：\n2\nB\nv\nmg\nm R\n=\n；小球从P 到B 的运动过程中，由动能定理：\n2\n1\n2\nG\nf\nB\nW\nW\nmv\n+\n=\n。重力做功\nG\nW\nmgR\n=\n，合外\n力做功\n2\n1\n1\n2\n2\nB\nW\nmv\nmgR\n=\n=\n，摩擦力做的功为\n1\n2\nf\nW\nmgR\n= −\n，即克服摩擦力做功1\n2 mgR ，机械能减少\n1\n2 mgR 。正确选项：D",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q003-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q003-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q04",
+      "content": "如图所示，放在固定斜面上的物块以加速度a 沿斜面匀加速下滑，若在物块上再施加一个竖直向下的\n恒力F，则（    ）\n（A）物块可能匀速下滑\n（B）物块将以加速度a 匀加速下滑\n（C）物块将以大于a 的加速度匀加速下滑\n（D）物块将以小于a 的加速度匀加速下滑",
+      "answer": "暂无结构化答案",
+      "analysis": "设斜面的倾角为，物块与斜面间动摩擦因数为，施加一个竖直向下的恒力F 时，加速度为a。\n根据牛顿第二定律，不施加恒力F 时：\nsin\ncos\nmg\nmg\nma\n\n\n\n−\n=\n，得\n(sin\ncos\n)\na\ng\n\n\n\n=\n−\n；施加一\n个竖直向下的恒力F 时：(\n)sin\n(\n)cos\nmg\nF\nmg\nF\nma\n\n\n\n\n+\n−\n+\n=\n，得\n(\n)(sin\ncos\n)\nF\na\ng\nm\n\n\n\n=\n+\n−\n。\n故正确选项：C",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q05",
+      "content": "如图所示，在平面直角坐标系中，有方向平行于坐标平面的匀\n强电场，其中坐标原点 O 处的电势为 0 V，点 A 处的电势为 6\nV，点 B 处的电势为 3 V，则电场强度的大小为（    ）\n（A）200 V/m\n（B）200 3 V/m\n（C）100 V/m\n（D）100 3 V/m",
+      "answer": "暂无结构化答案",
+      "analysis": "由于\n6\nA\nV\n=\n、\n3\nB\nV\n=\n、\n0\nO\nV\n=\n，且是匀强电场，则\n在（3,0）的点的电势为3V。匀强电场的方向垂直于点（3,0）与B 点的连线，由几何关系可得O 到点（3,0）\n与B 点的连线的距离d = 1.5cm，匀强电场的电场强度\n/\n200\n/\nBO\nE\nU\nd\nV m\n=\n=\n，\n正确选项：A",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q06",
+      "content": "如图所示，圆形区域内有垂直于纸面向里的匀强磁场，一个带电粒子以速度\nv 从A 点沿直径AOB 方向射入磁场，经过Δt 时间从C 点射出磁场，OC 与OB\nF\nO\n60°\nC\nA\nB\nP\nA\nB\nO\nR\n2R\nB(0, 3 )\nA(6,0)\nx/cm\ny/cm\nO\n第3页（共8页）\n成60°角。现将带电粒子的速度变为v/3，仍从A 点射入磁场，不计重力，则粒子在磁场中的运动时间变为\n（    ）\n（A）1\n2 Δt\n（B）2Δt\n（C）1\n3 Δt\n（D）3Δt",
+      "answer": "暂无结构化答案",
+      "analysis": "由牛顿第二定律\n2v\nqvB\nm r\n=\n及匀速圆周运动\n2 r\nT\nv\n\n=\n得：\nmv\nr\nqB\n=\n；\n2 m\nT\nqB\n\n=\n。由图可得以速度v 从A 点沿直径AOB 方向射入磁\n场经过Δt = T/6 从C 点射出磁场，轨道半径\n3\nr\nAO\n=\n；速度变为v/3 时，\n运动半径是r/3 =\n3\n/3\nAO\n，由几何关系可得在磁场中运动转过的圆心\n角为1200，运动时间为T/3,即2Δt。正确选项：B",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q006-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q07",
+      "content": "如图1 所示，半径为R 的均匀带电圆形平板，单位面积\n带电量为σ，其轴线上任意一点P（坐标为x）的电场强度可\n以由库仑定律和电场强度的叠加原理求出：E = 2πkσ[1－\nx\n（R2＋x2）1/2 ]，方向沿x 轴。现考虑单位面积带电量为σ0 的\n无限大均匀带电平板，从其中间挖去一半径为r 的圆版，如\n图2 所示。则圆孔轴线上任意一点Q（坐标为x）的电场强\n度为（     ）\n（A）2πkσ0\nx\n（r2＋x2）1/2\n（B）2πkσ0\nr\n（r2＋x2）1/2\n（C）2πkσ0x\nr\n（D）2πkσ0r\nx",
+      "answer": "暂无结构化答案",
+      "analysis": "由于带电体表面的电场强度的方向垂直于带电体表面，无限大均匀带电平板周围的电场应是垂直\n于平板的匀强电场，即电场强度处处相等等于圆板中心轴上x = 0 时的电场强度，由题中信息可得单位面\n积带电量为\n0\n无限大均匀带电平板场强为\n0\n2\nE\nk\n\n=\n。而半径为r 的圆板在其轴线上Q 点电场场强为\n0\n2\n2 1/ 2\n2\n[1\n]\n(\n)\nx\nE\nk\nr\nx\n\n=\n−\n+\n，由电场叠加原理可得图2 中Q（坐标为x）的电场强度为E 和E的矢量和，\n即\n0\n2\n2 1/ 2\n2\n(\n)\nx\nE\nE\nk\nr\nx\n\n\n−\n=\n+\n。正确选项：A（当R →时，\n2\n2\n0\nR\nx\nx\n=\n+\n，则无限大均匀带电平板在\nQ 点产生的电场强度为\n0\n2\nE\nk\n\n=\n，而半径为r 的圆板在Q 点场强为\n0\n2\n2 1/ 2\n2\n[1\n]\n(\n)\nx\nE\nk\nr\nx\n\n=\n−\n+\n，由电\n场叠加原理可得图2 中Q（坐标为x）的电场强度为E 和E的矢量和，即\n0\n2\n2 1/ 2\n2\n(\n)\nx\nE\nE\nk\nr\nx\n\n\n−\n=\n+\n）\nx\n·\n图1\nP\n·\nQ\nx\nO\nO\nR\nr\n图2\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\n×\nA\nB\nO\nC\n●\n●\nD\n第4页（共8页）\n第Ⅱ卷（非选择题 共180 分）\n考生注意事项：\n请用0.5 毫米黑色墨水签字笔在答题卡上\n．．．．．作答，在试题卷上答题无效\n．．．．．．．．．。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q08",
+      "content": "（18 分）\nⅠ．（10 分）图1 为“验证牛顿第二定律”的实验装置示意图。砂和砂桶的总质量为m，小车和砝码的总\n质量为M。实验中用砂和砂桶总重力的大小作为细线对小车拉力的大小。\n（1）实验中，为了使细线对小车的拉力等于小车所受的合外力，\n先调节长木板一滑轮的高度，使细线与长木板平行。接下来还需\n要进行的一项操作是（     ）\n（A）将长木板水平放置，让小车连着已经穿过打点计时器的纸\n带，给打点计时器通电，调节m 的大小，使小车在砂和砂桶的\n牵引下运动，从打出的纸带判断小车是否做匀速运动。\n（B）将长木板的一端垫起适当的高度，让小车连着已经穿过打点计时器的纸带，撤去砂和砂桶，给打点\n计时器通电，轻推小车，从打出的纸带判断小车是否做匀速运动。\n（C）将长木板的一端垫起适当的高度，撤去纸带以及砂和砂桶，轻推小车，观察判断小车是否做匀速运\n动。\n（2）实验中要进行质量m 和M 的选取，以下最合理的一组是（    ）\n（A）M = 20g，m = 10g、15g、20g、25g、30g、40g\n（B）M = 200g，m = 20g、40g、60g、80g、100g、120g\n（C）M = 400g，m = 10g、15g、20g、25g、30g、40g\n（D）M = 400g，m = 20g、40g、60g、80g、100g、120g\n（3）图2 是试验中得到的一条纸带，A、B、C、D、E、\nF、G 为7 个相邻的计数点，相邻的两个计数点之间还有四\n个点未画出。量出相邻的计数点之间的距离分别为sAB =\n4.22cm、sBC = 4.65cm、sCD = 5.08cm、sDE = 5.49cm、sEF =\n5.91cm、sFG = 6.34cm。已知打点计时器的工作频率为50Hz，则小车的加速度a = _________m/s2（结果保\n留2 位有效数字）。",
+      "answer": "C",
+      "analysis": "Ⅰ．（1）平衡摩擦阻力是通过B 的方法来实现的，故选B\n（2）由于本实验中要求砂和砂桶的质量m 远小于小车和砝码的质量M，故选C 合理。\n（3）由于连续相等时间内的位移差Δs = 0.42cm，由匀变速运动规律Δs = aT2，且T = 5×0.02s = 0.1s，所以\na = ΔS/ T2 = 0.42m/s2。\nⅡ．（8 分）图为“测绘小灯伏安特性曲线”实验的实物电路图，已知小灯泡额定电压为2.5V。\n（1）完成下列实验步骤：\n①闭合开关前，调节滑动变阻器的滑片，_____________；\n②闭合开关后，逐渐移动变阻器的滑片，_____________；\n+\n-\n图2\nA   B    C    D      E      F       G\n图1\n小车 砝码 打点计时器\n接交流电\n砂桶\n第5页（共8页）\n③断开开关，……。根据实验数据在方格纸上作出小灯泡灯丝的伏安特性曲线。\n（2）在虚线框中画出与实物电路相应的电路图。\nⅡ．（1）①由于滑动变阻器的分压作用，使开始实验时小灯泡两端电压为0，应使滑动变阻器的\n滑片靠近变阻器左端的接线柱。\n②描绘小灯泡灯丝的伏安特性曲线，必须测量多组数据，即增加小灯泡两端的电压，记录电流表和电压表\n的多组读数，直至电压达到额定电压\n（2）如图所示",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q008-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q008-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q008-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q09",
+      "content": "（14 分）\n质量为 0.1 kg 的弹性球从空中某高度由静止开始下落，该下落过程对应的\nv – t 图象如图所示。球与水平地面相碰后离开地面时的速度大小为碰撞前的\n3/4。设球受到的空气阻力大小恒为 f，取 g = 10 m/s2，求：\n（1）弹性球受到的空气阻力 f 的大小；\n（2）弹性球第一次碰撞后反弹的高度 h。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设弹性球第一次下落过程中的加速度大小为a1，由图知\n2\n2\n1\n4\n/\n8\n/\n0.5\nv\na\nm s\nm s\nt\n\n=\n=\n=\n\n                      ①\n        根据牛顿第二定律，得\n1\nmg\nf\nma\n−\n=\n                                    ②\n1\n(\n)\n0.2\nf\nm g\na\nN\n=\n−\n=\n                             ③\n        （2）由图知弹性球第一次到达地面时的速度大小为v1 = 4m/s，设球第一次离开地面时的速度为\nv2，则\n2\n1\n3\n3\n/\n4\nv\nv\nm s\n=\n=\n                          ④\n         第一次离开地面后，设上升过程中球的加速度大小为a2，则\n2\nmg\nf\nma\n+\n=\n              a2 = 12m/s2                                         ⑤\n        于是，有\n2\n2\n2\n0\n2\nv\na h\n−\n= −\n                                    ⑥\n         解得\n3\n8\nh\nm\n=\n                                     ⑦",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q009-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q009-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q009-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q10",
+      "content": "（16 分）\n图1 是交流发电机模型示意图。在磁感应强度为B 的匀强磁场中，有一矩形线圈abcd 可绕线圈平面内垂\n直于磁感线的OOʹ轴转动，由线圈引起的导线ae 和df 分别与两个跟线圈一起绕OOʹ转动的金属圈环相连\n接，金属圆环又分别与两个固定的电刷保持滑动接触，这样矩形线圈在转动中就可以保持和外电路电阻R\n形成闭合电路。图2 是线圈的主视图，导线ab 和cd 分别用它们的横截面来表示。已知ab 长度为L1，bc\nS\nV\nA\nR\nO\nv(m/s)\n4\nt(s)\n0.5\n第6页（共8页）\n长度为L2，线圈以恒定角速度ω 逆时针转动。（只考虑单匝线圈）\n（1）线圈平面处于中性面位置时开始计时，试推导t 时刻整个线圈中的感应电动势e1 的表达式；\n（2）线圈平面处于与中性面成φ0 夹角位置时开始计时，如图3 所示，试写出t 时刻整个线圈中的感应电\n动势e2 的表达式；\n（3）若线圈电阻为r，求线圈每转动一周电阻R 上产生的焦耳热。（其它电阻均不计）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）矩形线圈abcd 转动过程中，只有ab 和cd 切割磁感线，设ab 和cd 的转动速度为v，则\n2\n2\nL\nv\n\n=\n                                           ①\n    在t 时刻，导线ab 和cd 因切割磁感线而产生的感应电动势均为\n             E1 = BL1v                                            ②\n    由图可知\nsin\nv\nv\nt\n\n=\n⊥\n                                     ③\n    则整个线圈的感应电动势为\n1\n1\n1\n2\n2\nsin\ne\nE\nBL L\nt\n\n\n=\n=\n                              ④\n（2）当线圈由图3 位置开始运动时，在t 时刻整个线圈的感应电动势为\n2\n1\n2\n0\nsin(\n)\ne\nBL L\nt\n\n\n\n=\n+\n                               ⑤\n（3）由闭合电路欧姆定律可知\nE\nI\nR\nr\n=\n+\n                                           ⑥\n这里的E 为线圈产生的电动势的有效值\n1\n2\n2\n2\nm\nE\nBL L\nE\n\n=\n=\n                                   ⑦\n则线圈转动一周在R 上产生的焦耳热为\n2\nR\nQ\nI RT\n=\n                                         ⑧\n其中\n2\nT\n\n\n=\n                                            ⑨\n于是\n2\n1\n2\nR\nBL L\nQ\nR\nR\nr\n\n\n=\n\n\n+\n\n\n                                ⑩\n图3\nd\na\nO\nB\nt\n图2\nd\na\nO\nB\nt\n中性面\nφ0\n×\n×\nO\n图1\nf\nO′\nd\nc\nN\nS\na\nb\ne\nR\nωt\nB\n⊙\n⊙\na\nd\n中\n性\n面\nv\nv\n第7页（共8页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q010-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q010-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q010-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q010-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2012/2012安徽理综.pdf#q11",
+      "content": "（20 分）\n如图所示，装置的左边是足够长的光滑水平面，一轻质\n弹簧左端固定，右端连接着质量M = 2kg 的小物块A。\n装置的中间是水平传送带，它与左右两边的台面等高，\n并能平滑对接。传送带始终以u = 2m/s 的速率逆时针转\n动。装置的右边是一光滑的曲面，质量m = 1kg 的小物\n块B 从其上距水平台面h = 1.0m 处由静止释放。已知\n物块B 与传送带之间的摩擦因数μ = 0.2，l = 1.0m。设物块A、B 中间发生的是对心弹性碰撞，第一次碰\n撞前物块A 静止且处于平衡状态。取g = 10m/s2。\n（1）求物块B 与物块A 第一次碰撞前速度大小；\n（2）通过计算说明物块B 与物块A 第一次碰撞后能否\n运动到右边曲面上？\n（3）如果物块A、B 每次碰撞后，物块A 再回到平衡\n位置时都会立即被锁定，而当他们再次碰撞前锁定被解\n除，试求出物块B 第n 次碰撞后的运动速度大小。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设物块B 沿光滑曲面下滑到水平位置时的速度大小为v0\n由机械能守恒知\n2\n0\n1\n2\nmgh\nmv\n=\n                                    ①\n0\n2\nv\ngh\n=\n                                      ②\n设物块B 在传送带上滑动过程中因受摩擦力所产生的加速度大小为a\nmg\nma\n\n=\n                                      ③\n设物块B 通过传送带后运动速度大小为v，有\n2\n2\n0\n2\nv\nv\nal\n−\n= −\n                                   ④\n结合②③④式解得\n            v = 4m/s                                           ⑤\n由于v\nu\n\n = 2m/s，所以v = 4m/s 即为物块B 与物块A 第一次碰撞前的速度大小\n（2）设物块A、B 第一次碰撞后的速度分别为V、v1，取向右为正方向，由弹性碰撞知\n1\nmv\nmv\nMV\n−\n=\n+\n                                  ⑥\n2\n2\n2\n1\n1\n1\n1\n2\n2\n2\nmv\nmv\nMV\n=\n+\n                            ⑦\n    解得\n1\n1\n4\n/\n3\n3\nv\nv\nm s\n=\n=\n                                  ⑧\n即碰撞后物块B 在水平台面向右匀速运动\n设物块B 在传送带上向右运动的最大位移为l，则\n2\n1\n0\n2\nv\nal\n−\n= −\n                                    ⑨\n4\n1\n9\nl\nm\nm\n=\n\n                                     ⑩\n所以物块B 不能通过传送带运动到右边的曲面上\n（3）当物块B 在传送带上向右运动的速度为零时，将会沿传送带向左加速。可以判断，物块B 运动到左\n边台面是的速度大小为v1，继而与物块A 发生第二次碰撞。设第二次碰撞后物块B 速度大小为v2，同上\n计算可知\nl\nA\nu=2m/s\nB\nh\n第8页（共8页）\n2\n2\n1\n1\n1\n( )\n3\n3\nv\nv\nv\n=\n=\n                                   ○\n11\n物块B 与物块A 第三次碰撞、第四次碰撞……，碰撞后物块B 的速度大小依次为\n3\n3\n2\n1\n1\n( )\n3\n3\nv\nv\nv\n=\n=\n4\n4\n3\n1\n1\n( )\n3\n3\nv\nv\nv\n=\n=\n  ……        ○\n12\n则第n 次碰撞后物块B 的速度大小为\n1\n( )\n3\nn\nnv\nv\n=\n                                        ○\n13",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2012,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2012/2012安徽理综.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q011-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q011-p007-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q011-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-729ef8a51952f7f0-q011-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 21,
+    "answerGraphics": 0,
+    "assigned": 21,
+    "rendered": 21,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

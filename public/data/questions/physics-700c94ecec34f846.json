@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2015/2015天津理综.pdf",
   "name": "2015天津理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 2,
+    "reviewCount": 11,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q01",
       "content": "本卷共8 题，每题6 分，共48 分。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q02",
       "content": "物理学重视逻辑，崇尚理性，其理论总是建立在对事实观察的基础上，下列说法正确的是（    ）\n（A）天然放射现象说明原子核内部是有结构的\n（B）电子的发现使人认识到原子具有核式结构\n（C）α 粒子散射实验的重要发现是电荷是量子化的\n（D）密立根油滴实验表明核外电子的轨道是不连续的",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -56,22 +74,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q03",
       "content": "中国古人对许多自然现象有深刻认识，唐人张志和在《玄真子•涛之灵》中写道：\n“雨色映日而为虹”。从物理学的角度看，虹是太阳光经过雨滴的两次折射和一次\n反射形成的，右图是彩虹成因的简化示意图，其中a、b 是两种不同频率的单色光，\n则两光（    ）\n（A）在同种玻璃种传播，a 光的传播速度一定大于b 光\n（B）以相同角度斜射到同一玻璃板透过平行表面后，b 光侧移量大\n（C）分别照射同一光电管，若b 光能引起光电效应，a 光一定也能\n（D）以相同的入射角从水中射入空气，在空气张只能看到一种光时，一定是a 光",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -79,22 +103,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q04",
       "content": "图甲为一列简谐横波在某一时刻的波形图，a、b 两质点的横坐标分别为xa＝2m 和xb＝6m，图乙为质\n点b 从该时刻开始计时的振动图象，下列说法正确的是（    ）\n（A）该波沿+x 方向传播，波速为1m/s\n（B）质点a 经过4s 振动的路程为4m\n（C）此时刻质点a 的速度沿+y 方向\n（D）质点a 在t＝2s 时速度为零\nx/m\ny/m\nO\n0.5\n–0.5\n2\n4\n6\n8\n10\n图甲\nt/s\ny/m\nO\n0.5\n–0.5\n2\n4\n6\n8\n10\n图乙\na\nb\n2 / 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -102,22 +136,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q05",
       "content": "未来的星际航行中，宇航员长期处于零重力状态，为缓解这种状态带来\n的不适，有人设想在未来的航天器上加装一段圆柱形“旋转舱”，如图所\n示。当旋转舱绕其轴线匀速旋转时，宇航员站在旋转舱内圆柱形侧壁上，\n可以受到与他站在地球表面时相同大小的支持力，为达到目的，下列说法\n正确的是（    ）\n（A）旋转舱的半径越大，转动的角速度就应越大\n（B）旋转舱的半径越大，转动的角速度就应越小\n（C）宇航员质量越大，旋转舱的角速度就应越大\n（D）宇航员质量越大，旋转舱的角速度就应越小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -125,22 +170,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q06",
       "content": "如图所示，固定的竖直光滑长杆上套有质量为m 的小圆环，圆环与水平状态的轻质弹\n簧一端连接，弹簧的另一端连接在墙上，并且处于原长状态，现让圆环由静止开始下滑，\n已知弹簧原长为L，圆环下滑到最大距离时弹簧的长度变为2L（未超过弹性限度），则在\n圆环下滑到最大距离的过程中（    ）\n（A）圆环的机械能守恒\n（B）弹簧弹性势能变化了3 mgL\n（C）圆环下滑到最大距离时，所受合力为零\n（D）圆环重力势能与弹簧弹性势能之和保持不变",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -148,22 +203,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q07",
       "content": "如图所示，理想变压器的原线圈连接一只理想交流电流表，副线圈匝数可以\n通过滑动触头Q 来调节，在副线圈两端连接了定值电阻R0 和滑动变阻器R，P\n为滑动变阻器的滑动触头，在原线圈上加一电压为U 的正弦交流电，则（    ）\n（A）保持Q 的位置不动，将P 向上滑动时，电流表读数变大\n（B）保持Q 的位置不动，将P 向上滑动时，电流表读数变小\n（C）保持P 的位置不动，将Q 向上滑动时，电流表读数变大\n（D）保持P 的位置不动，将Q 向上滑动时，电流表读数变小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -171,22 +236,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q08",
       "content": "如图所示，氕核、氘核、氚核三种粒子从同一位置无初速地飘入电场线水平向右的加速电场E1，之后\n进入电场线竖直向下的匀强电场E2 发生偏转，最后打在屏上。整个装置处于真空中，不计粒子重力及其相\n互作用，那么（    ）\n（A）偏转电场E2 对三种粒子做功一样多\n（B）三种粒子打到屏上时速度一样大\n（C）三种粒子运动到屏上所用时间相同\n（D）三种粒子一定打到屏上的同一位置",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -194,22 +269,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q09",
       "content": "P1、P2 为相距遥远的两颗行星，距各自表面相同高度处各有一颗卫星s1、s2\n做匀速圆周运动，图中纵坐标表示行星对周围空间各处物体的引力产生的加速\n度a，横坐标表示物体到行星中心的距离r 的平方，两条曲线分别表示P1、P2\n周围的a 与r2 的反比关系，它们左端点横坐标相同。则（    ）\n（A）P1 的平均密度比P2 的大\n（B）P1 的“第一宇宙速度”比P2 的小\n（C）s1 的向心加速度比s2 的大\n（D）s1 的公转周期比s2 的大\n旋转舱\nR\nR0\nP\nQ\nA\n+\n+\n–\n–\n屏\nr2\na\nO\nP1\nP2\nm\nL\n3 / 7\n第II 卷\n注意事项：\n1．用黑色黑水的钢笔或者签字笔将答案写在答题卡上。\n2．本卷共4 题，共72 分。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -217,22 +302,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q10",
       "content": "（18 分）\n（1）如图所示，在光滑水平面的左侧固定一竖直挡板，A 球在水平面上静止放置，B 球向左运动与A 球\n发生正碰，B 球碰撞前、后的速率之比为3∶1，A 球垂直撞向挡板，碰后原速\n率返回。两球刚好不发生碰撞，A、B 两球的质量之比为__________，A、B 碰\n撞前、后两球总动能之比为__________。\n（2）某同学利用单摆测量重力加速度。\n①为了使测量误差尽量小，下列说法正确的是_________。\n（A）组装单摆须选用密度和直径都较小的摆球\n（B）组装单摆须选用轻且不易伸长的细线\n（C）实验时须使摆球在同一竖直面内摆动\n（D）摆长一定的情况下，摆的振幅尽量大\n②如图所示，在物理支架的竖直立柱上固定有摆长约为1m 的单摆，实验时，由于仅有\n量程为20cm、精度为1mm 的钢板刻度尺，于是他先使摆球自然下垂，在竖直立柱上与\n摆球最下端处于同一水平面的位置做一标记点，测出单摆的周期T1；然后保持悬点位置\n不变，设法将摆长缩短一些，再次使摆球自然下垂，用同样方法在竖直立柱上做另一标\n记点，并测出单摆周期T2；最后用钢板刻度尺量出竖直立柱上两标记点之间的距离ΔL。\n用上述测量结果，写出重力加速度的表达式g＝____________。\n（3）用电流表和电压表测定由三节干电池串联组成的电池组（电动势约为4.5V，内电阻约为1Ω）的电动\n势和内电阻，除了待测电池组，电键，导线外，还有下列器材供选用；\n（A）电流表：量程0.6A，内电阻约为1Ω\n（B）电流表：量程3A，内电阻约为0.2Ω\n（C）电压表：量程3V，内电阻约为30kΩ\n（D）电压表：量程6V，内电阻约为60kΩ\n（E）滑动变阻器：0~1000Ω，额定电流0.5A\n（F）滑动变阻器：0~20Ω，额定电流2A\n①为了使测量结果尽量准确，电流表应选用_____，电压表选用_____，滑动变阻器选用_____（均填仪器的\n字母代号）\n②如图为正确选择仪器后，连好的部分电路，为了使测量误差尽量小，还需要在电路中用导线将_______和\n_______相连、_______和_______相连、_______和_______相连（均填仪器上接线柱的字母代号）\nA        B\n4 / 7\n③实验时发现电流表坏了，于是不再使用电流表，剩余仪器中仅用电阻箱替换掉滑动变阻器，重新连接电\n路，仍能完成实验，实验中读出几组电阻箱的阻值R 和对应电压表的示数U；用图像法处理采集到数据，\n为在直角坐标系中得到的函数图像是一条直线，则可以______为纵坐标，以______为横坐标。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -240,22 +335,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q010-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2015/2015天津理综.pdf#q11",
       "content": "（16 分）\n某快递公司分拣邮件的水平传输装置示意图如图，皮带在电动机的带动下保持v＝1m/s 的恒定速度向右运\n动，现将一质量为m＝2kg 的邮件轻放在皮带上，邮件和皮带间的动摩擦力因数μ＝0.5。设皮带足够长，\n取g＝10m/s2，在邮件与皮带发生相对滑动的过程中，求：\n（1）邮件滑动的时间t；\n（2）邮件对地的位移大小x；\n（3）邮件与皮带间的摩擦力对皮带做的功W。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）设邮件放到皮带上与皮带发生相对滑动过程中受到的滑动摩擦力为F，则\n                            Fm＝μmg                       ①\n     取向右为正方向，对邮件应用动量定理，有\n                            Ft＝mv–0                       ②\n      由①②式并代入数据得\n                            t＝0.2s                         ③\n （2）邮件与皮带发生相对滑动的过程中，对邮件应用动能定理，有\n                            Fx＝mv2/2–0                    ④\n      由①④式并代入数据得\n                            x＝0.1m                        ⑤\n （3）邮件与皮带发生相对滑动的过程中，设皮带相对地面的位移为s，则\n                            s＝vt                           ⑥\n       摩擦力对皮带做的功\n                            W＝－Fs                         ⑦\n      由①③⑥⑦式并代入数据得\n                            W＝－2J                         ⑧",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "物理",
@@ -263,11 +369,92 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2015/2015天津理综.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015天津理综.pdf#q12",
+      "content": "（18 分）\n如图所示，“凸”字形硬质金属线框质量为m，相邻各边互相垂直，且处于同一竖直\n平面内，ab 边长为l，cd 边长为2l，ab 与cd 平行，间距为2l。匀强磁场区域的上\n下边界均水平，磁场方向垂直于线框所在平面。开始时，cd 边到磁场上边界的距离\n为2l，线框由静止释放，从cd 边进入磁场直到ef、pq 边进入磁场前，线框做匀速\n运动，在ef、pq 边离开磁场后，ab 边离开磁场之前，线框又做匀速运动。线框完\n+\n–\n+\n+\n–\n–\na\nb\nb\nc\nc\nd\nd\ne\nf\nf\ng\nh\nv\nm\na\nb\nc\nd\ne\nf\np\nq\n2l\n磁场区\n5 / 7\n全穿过磁场过程中产生的热量为Q。线框在下落过程中始终处于原竖直平面内，且ab、cd 边保持水平，重\n力加速度为g；求：\n（1）线框ab 边将离开磁场时做匀速运动的速度大小是cd 边刚进入磁场时的几倍；\n（2）磁场上下边界间的距离H。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设磁场的磁感应强度大小为B，cd 边刚进磁场时，线框做匀速运动的速度为v1\n                            E1＝2Blv1                                ①\n     设线框总电阻为R，此时线框中电流为I1，闭合电路欧姆定律，有\n1\n1\nE\nI\nR\n=\n                       ②\n     设此时线框所受安培力为F1，有\n1\n1\n2\nF\nI lB\n=\n                    ③\n     由于线框做匀速运动，其受力平衡，有\n                           mg＝F1                                       ④\n     由①②③④式得\n1\n2 2\n4\nmgR\nv\nB l\n=\n                      ⑤\n     设ab 边离开磁场之前，线框做匀速运动的速度为v2，同理可得\n2\n2 2\nmgR\nv\nB l\n=\n                      ⑥\n      由⑤⑥式得           v2＝4v1                           ⑦\n（2）线框自释放直到cd 边进入磁场前，有机械能守恒定律，有\n                          2mgl＝m\n2\n1v /2                      ⑧\n     线框完全穿过磁场的过程中，由能量守恒定律，有\n2\n2\n2\n1\n1\n1\n2\n2\n2\nmg\nl\nH\nmv\nmv\nQ\n+\n=\n−\n+\n（\n）\n    ⑨\n      由⑦⑧⑨式得\n28\nQ\nH\nl\nmg\n=\n+\n                    ⑩",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015天津理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q012-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q012-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2015/2015天津理综.pdf#q13",
+      "content": "（20 分）\n现代科学仪器常利用电场、磁场控制带电粒子的运动。在真空中存在着如图所示的多层紧密相邻的匀强电\n场和匀强磁场，电场和磁场的宽度均为d。电场强度为E，方向水平向右；磁感应强度为B，方向垂直纸面\n向里。电场、磁场的边界互相平行且与电场方向垂直，一个质量为m、电荷量为q 的带正电粒子在第1 层\n电场左侧边界某处由静止释放，粒子始终在电场、磁场中运动，不计粒子重力及运动时的电磁辐射。\n6 / 7\n（1）求粒子在第2 层磁场中运动时速度v2 的大小与轨迹半径r2；\n（2）粒子从第n 层磁场右侧边界穿出时，速度的方向与水平方向的夹角为θn，试求sinθn；\n（3）若粒子恰好不能从第n 层磁场右侧边界穿出，试问在其他条件不变的情况下，也进入第n 层磁场，\n但比荷较该粒子大的粒子能否穿出该层磁场右侧边界，请简要推理说明之。",
+      "answer": "（1）2\n qEd\nm ，2\nB\n mEd\nq\n（2）sinθn＝B\n nqd\n2mE\n（3）若粒子恰好不能从第n 层磁场右侧边界穿出，则θn＝π\n2 ，sinθn＝1，在其他条件不变的情况下，换用\n比荷更大的粒子，设其比荷为qʹ\nmʹ ，假设能穿出第n 层磁场右侧边界，粒子穿出时速度方向与水平方向的夹\n角为θnʹ，由于qʹ\nmʹ ＞q\nm ，则导致sinθnʹ＞1，说明θnʹ不存在，即原假设不成立。所以比荷较该粒子大的粒子\n不能穿出该层磁场右侧边界。\n（1）粒子在进入第2 层磁场时，经过两次电场加速，中间穿过磁场时洛伦兹力不做功。\n      由动能定理，有\n2\n2\n1\n2\n2\nqEd\nmv\n=\n                           ①\n      由式①解得\n2\n2 qEd\nv\nm\n=\n                            ②\n      粒子在第二层磁场中受到的洛伦兹力充当向心力，有\n2\n2\n2\n2\nv\nqv B\nm r\n=\n                            ③\n      由②③式解得\n2\n2\nmEd\nr\nB\nq\n=\n                           ④\n（2）设粒子在第n 层磁场中运动的速度为\nnv ，轨迹半径为\nnr （各量的下标均代表粒子所在层数，下同）。\n……\n……\n第2 层\n第1 层\n第n 层\nq\n7 / 7\n2\n1\n2\nn\nnqEd\nmv\n=\n                           ⑤\n2\nn\nn\nn\nv\nqv B\nm r\n=\n                            ⑥\n    粒子进入第n 层磁场时，速度的方向与水平方向的夹角为\nn\n，从第n 层磁场右侧边界穿出时速度方\n向与水平方向的夹角为\nn\n，粒子在电场中运动时，垂直于电场线方向的速度分量不变，有\n1\n1\nsin\nsin\nn\nn\nn\nn\nv\nv\n\n\n−\n−=\n                   ⑦\n        由图1 看\nsin\nsin\nn\nn\nn\nn\nr\nr\nd\n\n\n−\n=\n                  ⑧\n由⑥⑦⑧式得\n1\n1\nsin\nsin\nn\nn\nn\nr\nr\nd\n\n\n−\n−\n−\n=\n                  ⑨\n由⑨式看出1\n1\n2\n2\nsin\n, sin\n,\n, sin\nn\nn\nr\nr\nr\n\n\n\n……\n为一等差数列，公差为d，可得\n1\n1\nsin\nsin\n(\n1)\nn\nn\nr\nr\nn\nd\n\n\n=\n+\n−\n               ⑩\n当n＝1 时，由图2 看出\n1\n1\nsin\nr\nd\n=\n                             ⑪\n由⑤⑥⑩⑪式得\n                       sinθn＝B\n nqd\n2mE                         ⑫\n（3）若粒子恰好不能从第n 层磁场右侧边界穿出，则θn＝π\n2 ，sinθn＝1，在其他条件不变的情况下，换用\n比荷更大的粒子，设其比荷为qʹ\nmʹ ，假设能穿出第n 层磁场右侧边界，粒子穿出时速度方向与水平方向的夹\n角为θnʹ，由于qʹ\nmʹ ＞q\nm ，则导致sinθnʹ＞1，说明θnʹ不存在，即原假设不成立。所以比荷较该粒子大的粒子\n不能穿出该层磁场右侧边界。\nd\nrn\nrn\nαn\nθn\n图1\nd\nr1\nθ1\n图2\nθ1",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2015/2015天津理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q013-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-700c94ecec34f846-q013-p007-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 10,
+    "answerGraphics": 0,
+    "assigned": 10,
+    "rendered": 13,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

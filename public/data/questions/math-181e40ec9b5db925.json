@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015湖南理.pdf",
   "name": "2015湖南理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 1,
+    "reviewCount": 20,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q01",
       "content": "已知(1 −i)2\nz\n= 1 + i (i 为虚数单位), 则复数z =\n(\n)\n(A) 1 + i\n(B) 1 −i\n(C) −1 + i\n(D) −1 −i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q02",
       "content": "设A, B 是两个集合, 则“A ∩B = A”是“A ⊆B”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q03",
       "content": "执行如图所示的程序框图, 如果输入n = 3, 则输出的S =\n(\n)\n开始\n输入n\ni = 1, S = 0\nS = S +\n1\n(2i −1)(2i + 1)\ni = i + 1\ni > n?\n输出S\n结束\n是\n否\n(A) 6\n7\n(B) 3\n7\n(C) 8\n9\n(D) 4\n9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q04",
       "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + y ⩾−1,\n2x −y ⩽1,\ny ⩽1,\n则z = 3x −y 的最小值为(\n)\n(A) −7\n(B) −1\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q05",
       "content": "设函数f (x) = ln (1 + x) −ln (1 −x), 则f (x) 是\n(\n)\n(A) 奇函数, 且在(0, 1) 是增函数\n(B) 奇函数, 且在(0, 1) 是减函数\n(C) 偶函数, 且在(0, 1) 是增函数\n(D) 偶函数, 且在(0, 1) 是减函数",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q06",
       "content": "已知\n(√x −a\n√x\n)5\n的展开式中含x\n3\n2 的项的系数为30, 则a =\n(\n)\n(A)\n√\n3\n(B) −\n√\n3\n(C) 6\n(D) −6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q07",
       "content": "在如图所示的正方形中随机投掷10000 个点, 则落入阴影部分(曲线C 为\n正态分布N (0, 1) 的密度曲线) 的点的个数的估计值为\n(\n)\nx\ny\nC\n1\n1\nO\n附: 若X ∼N (µ, σ2), 则P(µ −σ < X ⩽µ + σ) = 0.6826, P(µ −2σ <\nX ⩽µ + 2σ) = 0.9544.\n(A) 2386\n(B) 2718\n(C) 3413\n(D) 4772",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q08",
       "content": "已知点A, B, C 在圆x2 + y2 = 1 上运动, 且AB ⊥BC. 若点P 的坐标\n为(2, 0), 则\n���#   »\nPA + #    »\nPB + #    »\nPC\n���的最大值为\n(\n)\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q09",
       "content": "将函数f (x) = sin 2x 的图象向右平移φ\n(\n0 < φ < π\n2\n)\n个单位后得到函数\ng (x) 的图象, 若对满足|f (x1) −g (x2)| = 2 的x1, x2, 有|x1 −x2|min = π\n3 ,\n则φ =\n(\n)\n(A) 5π\n12\n(B) π\n3\n(C) π\n4\n(D) π\n6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q10",
       "content": "某工件的三视图如图所示, 现将该工件通过切削, 加工成一个体积尽可能\n大的长方体新工件, 并使新工件的一个面落在原工件的一个面内, 则原工\n件材料的利用率为(材料的利用率= 新工件的体积\n原工件的体积)\n(\n)\n2\n2\n2\n1\n1\n2\n正视图\n俯视图\n侧视图\n(A) 8\n9π\n(B) 16\n9π\n(C) 4\n(√\n2 −1\n)3\nπ\n(D) 12\n(√\n2 −1\n)3\nπ",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +317,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q010-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q010-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q11",
       "content": "∫2\n0\n(x −1) dx =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +352,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q12",
       "content": "在一次马拉松比赛中, 35 名运动员的成绩(单位: 分钟) 茎叶图如图所示.\n13\n0\n0\n3\n4\n5\n6\n6\n8\n8\n8\n9\n14\n1\n1\n1\n2\n2\n2\n3\n3\n4\n4\n5\n5\n5\n6\n6\n7\n8\n15\n0\n1\n2\n2\n3\n3\n3\n若将运动员按成绩由好到差编为1 ∼35 号, 再用系统抽样的方法从中抽取\n7 人, 则其中成绩在区间[139, 151] 上的运动员的人数是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +382,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q13",
       "content": "设F 是双曲线C: x2\na2 −y2\nb2 = 1 的一个焦点, 若C 上存在点P, 使线段\nPF 的中点恰为其虚轴的一个端点, 则C 的离心率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +415,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q14",
       "content": "设Sn 为等比数列{an} 的前n 项和, 若a1 = 1, 且3S1, 2S2, S3 成等差数\n列, 则an =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,22 +444,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q15",
       "content": "已知函数f (x) =\n{\nx3,\nx ⩽a,\nx2,\nx > a,\n若存在实数b, 使函数g (x) = f (x) −b 有\n两个零点, 则a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -355,22 +473,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q16",
-      "content": "三选二.\n【A】如图, 在⊙O 中, 相交于点E 的两弦AB, CD 的中点分别是M, N,\n直线MO 与直线CD 相交于点F. 证明:\n(1) ∠MEN + ∠NOM = 180◦;\n(2) FE · FN = FM · FO.\nA\nE\nO\nN\nF\nM\nB\nC\nD\n•\n【B】已知直线l :\n\n\n\n\n\nx = 5 +\n√\n3\n2 t,\ny =\n√\n3 + 1\n2t,\n(t 为参数), 以坐标原点为极点, x 轴的正\n半轴为极轴建立极坐标系, 曲线C 的极坐标方程为ρ = 2 cos θ.\n(1) 将曲线C 的极坐标方程化为直角坐标方程;\n(2) 设点M 的直角坐标为\n(\n5,\n√\n3\n)\n, 直线l 与曲线C 的交点为A, B, 求\n|MA| · |MB| 的值.\n【C】设a > 0, b > 0, 且a + b = 1\na + 1\nb, 证明:\n(1) a + b ⩾2;\n(2) a2 + a < 2 与b2 + b < 2 不可能同时成立.\n955",
+      "content": "三选二.\n【A】如图, 在⊙O 中, 相交于点E 的两弦AB, CD 的中点分别是M, N,\n直线MO 与直线CD 相交于点F. 证明:\n(1) ∠MEN + ∠NOM = 180◦;\n(2) FE · FN = FM · FO.\nA\nE\nO\nN\nF\nM\nB\nC\nD\n•\n【B】已知直线l :\n\n\n\n\n\nx = 5 +\n√\n3\n2 t,\ny =\n√\n3 + 1\n2t,\n(t 为参数), 以坐标原点为极点, x 轴的正\n半轴为极轴建立极坐标系, 曲线C 的极坐标方程为ρ = 2 cos θ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1) 将曲线C 的极坐标方程化为直角坐标方程;\n(2) 设点M 的直角坐标为\n(\n5,\n√\n3\n)\n, 直线l 与曲线C 的交点为A, B, 求\n|MA| · |MB| 的值.\n【C】设a > 0, b > 0, 且a + b = 1\na + 1\nb, 证明:\n(1) a + b ⩾2;\n(2) a2 + a < 2 与b2 + b < 2 不可能同时成立.\n955",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -378,22 +502,31 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q016-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q17",
       "content": "设△ABC 的内角A, B, C 的对边分别为a, b, c, a = b tan A, 且B 为钝\n角.\n(1) 证明: B −A = π\n2 ;\n(2) 求sin A + sin C 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -401,22 +534,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q18",
       "content": "某商场举行有奖促销活动, 顾客购买一定金额的商品后即可抽奖, 每次抽\n奖都是从装有4 个红球、6 个白球的甲箱和装有5 个红球、5 个白球的乙\n箱中, 各随机摸出1 个球. 在摸出的2 个球中, 若都是红球, 则获一等奖;\n若只有1 个红球, 则获二等奖; 若没有红球, 则不获奖.\n(1) 求顾客抽奖1 次能获奖的概率;\n(2) 若某顾客有3 次抽奖的机会, 记该顾客在3 次抽奖中获一等奖的次数\n为X, 求X 的分布列和数学期望.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +563,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q19",
       "content": "如图, 已知四棱台ABCD −A1B1C1D1 的上、下底面分别是边长为3 和6\n的正方形, AA1 = 6, 且AA1 ⊥底面ABCD, 点P, Q 分别在棱DD1, BC\n上.\n(1) 若点P 是DD1 的中点, 证明: AB1 ⊥PQ;\n(2) 若PQ\n平面ABB1A1, 二面角P −QD −A 的余弦值为3\n7, 求四面\n体ADPQ 的体积.\nA\nA1\nP\nQ\nB\nB1\nC\nC1\nD\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +592,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q20",
       "content": "已知抛物线C1: x2 = 4y 的焦点F 也是椭圆C2: y2\na2 + x2\nb2 = 1 (a > b > 0)\n的一个焦点, C1 与C2 的公共弦长为2\n√\n6.\n(1) 求C2 的方程;\n(2) 过点F 的直线l 与C1 相交于A, B 两点, 与C2 相交于C, D 两点,\n且#   »\nAC 与#    »\nBD 同向.\n①若|AC| = |BD|, 求直线l 的斜率;\n②设C1 在点A 处的切线与x 轴的交点为M, 证明: 直线l 绕点F\n旋转时, △MFD 总是钝角三角形.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,22 +625,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015湖南理.pdf#q21",
       "content": "已知a > 0, 函数f (x) = eax sin x (x ∈[0, +∞)), 记xn 为f (x) 的从小到\n大的第n (n ∈N∗) 个极值点. 证明:\n(1) 数列{f (xn)} 是等比数列;\n(2) 若a ⩾\n1\n√\ne2 −1, 则对一切n ∈N∗, xn < |f (xn)| 恒成立.\n956",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -493,11 +654,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-181e40ec9b5db925-q021-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 4
+  }
 }

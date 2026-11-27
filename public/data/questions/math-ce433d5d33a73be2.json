@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004湖南理.pdf",
   "name": "2004湖南理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q01",
       "content": "复数\n(\n1 + 1\ni\n)4\n的值是\n(\n)\n(A) 4i\n(B) −4i\n(C) 4\n(D) −4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q02",
       "content": "如果双曲线x2\n13 −y2\n12 = 1 上一点P 到右焦点的距离等于\n√\n13, 那么点P\n到右准线的距离是\n(\n)\n(A) 13\n5\n(B) 13\n(C) 5\n(D) 5\n13",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q03",
       "content": "设f −1(x) 是函数f(x) = log2(x+1) 的反函数, 若[1+f −1(a)][1+f −1(b)] =\n8, 则f(a −b) 的值为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) log23",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q04",
       "content": "把正方形ABCD 沿对角线AC 折起, 当以A、B、C、D 四点为顶点的三\n棱锥体积最大时, 直线BD 和平面ABC 所成的角的大小为\n(\n)\n(A) 90\n(B) 60\n(C) 45\n(D) 30",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q05",
       "content": "某公司在甲、乙、丙、丁四个地区分别有150 个、120 个、180 个、150 个\n销售点. 公司为了调查产品销售的情况, 需从这600 个销售点中抽取一个\n容量为100 的样本, 记这项调查为①; 在丙地区中有20 个特大型销售点,\n要从中抽取7 个调查其销售收入和售后服务情况, 记这项调查为②. 则完\n成①、②这两项调查宜采用的抽样方法依次是\n(\n)\n(A) 分层抽样, 系统抽样法\n(B) 分层抽样法, 简单随机抽样法\n(C) 系统抽样法, 分层抽样法\n(D) 简随机抽样法, 分层抽样法",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q06",
       "content": "设函数f(x) =\n{\nx2 + bx + c,\nx ⩽0,\n2,\nx > 0.\n若f(−4) = f(0), f(−2) = −2, 则\n关于x 的方程f(x) = x 的解的个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q07",
       "content": "设a > 0, b > 0, 则以下不等式中不恒成立的是\n(\n)\n(A) (a + b)\n(1\na + 1\nb\n)\n⩾4\n(B) a3 + b3 ⩾2ab2\n(C) a2 + b2 + 2 ⩾2a + 2b\n(D)\n√\n|a −b| ⩾√a −\n√\nb",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q08",
       "content": "数列{an} 中, a1 = 1\n5, an + an+1 =\n6\n5n+1 , n ∈N∗, 则lim\nn→∞(a1 + a2 + · · · +\nan)=\n(\n)\n(A) 2\n5\n(B) 2\n7\n(C) 1\n4\n(D) 4\n25",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q09",
       "content": "设集合U\n= {(x, y) | x ∈R, y ∈R}, A = {(x, y) | 2x −y + m > 0},\nB = {(x, y) | x + y −n ⩽0}, 那么点P(2, 3) ∈A ∩(∁UB) 的充要条件\n是\n(\n)\n(A) m > −1, n < 5\n(B) m < −1, n < 5\n(C) m > −1, n > 5\n(D) m < −1, n > 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q10",
       "content": "从正方体的八个顶点中任取三个点为顶点作三角形, 其中直角三角形的个\n数为\n(\n)\n(A) 56\n(B) 52\n(C) 48\n(D) 40",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q11",
       "content": "农民收入由工资性收入和其它收入两部分构成. 2003 年某地区农民人均收\n入为3150 元(其中工资性收入为1800 元, 其它收入为1350 元), 预计该地\n区自2004 年起的5 年内, 农民的工资性收入将以每年6% 的年增长率增\n长, 其它收入每年增加160 元. 根据以上数据, 2008 年该地区农民人均收\n入介于\n(\n)\n(A) 4200 元∼4400 元\n(B) 4400 元∼4600 元\n(C) 4600 元∼4800 元\n(D) 4800 元∼5000 元",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q12",
       "content": "设f(x)、g(x) 分别是定义在R 上的奇函数和偶函数, 当x < 0 时,\nf ′(x)g(x) + f(x)g′(x) > 0.\n且g (−3) = 0, 则不等式f(x)g(x) < 0 的\n解集是\n(\n)\n(A) (−3, 0) ∪(3, +∞)\n(B) (−3, 0) ∪(0, 3)\n(C) (−∞, −3) ∪(3, +∞)\n(D) (−∞, −3) ∪(0, 3)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q13",
       "content": "已知向量a = (cos θ, sin θ), 向量b = (\n√\n3, −1), 则|2a −b| 的最大值\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q14",
       "content": "同时抛掷两枚相同的均匀硬币, 随机变量ξ = 1 表示结果中有正面向上,\nξ = 0 表示结果中没有正面向上, 则Eξ =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q15",
       "content": "若\n(\nx3 +\n1\nx√x\n)n\n的展开式中的常数项为84, 则n =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q16",
       "content": "设F 是椭圆x2\n7 + y2\n6\n= 1 的右焦点, 且椭圆上至少有21 个不同的点\nPi (i = 1, 2, 3, · · · ), 使|FP1|, |FP2|, |FP3|, · · · 组成公差为d 的等差数\n列, 则d 的取值范围为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q17",
       "content": "已知sin\n(π\n4 + 2α\n)\n· sin\n(π\n4 −2α\n)\n= 1\n4, α ∈\n(π\n4 , π\n2\n)\n, 求2sin2α + tan α −\ncot α −1 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q18",
       "content": "如图, 在底面是菱形的四棱锥P −ABCD 中, ∠ABC = 60◦, PA = AC =\na, PB = PD =\n√\n2a, 点E 在PD 上, 且PE : ED = 2 : 1.\n(1) 证明: PA ⊥平面ABCD;\n(2) 求以AC 为棱, EAC 与DAC 为面的二面角θ 的大小:\n(3) 在棱PC 上是否存在一点F, 使BF\n平面AEC? 证明你的结论.\nA\nP\nB\nC\nD\nE",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +537,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q19",
       "content": "甲、乙、丙三台机床各自独立地加工同一种零件, 已知甲机床加工的零件\n是一等品而乙机床加工的零件不是一等品的概率为1\n4, 乙机床加工的零件\n是一等品而丙机床加工的零件不是一等品的概率为1\n12, 甲、丙两台机床加\n工的零件都是一等品的概率为2\n9.\n(1) 分别求甲、乙、丙三台机床各自加工零件是一等品的概率;\n(2) 从甲、乙、丙加工的零件中各取一个检验, 求至少有一个一等品的概率.\n174",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +570,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q20",
       "content": "已知函数f(x) = x2eax, 其中a ⩽0, e 为自然对数的底数.\n(1) 讨论函数f(x) 的单调性;\n(2) 求函数f(x) 在区间[0, 1] 上的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +599,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q21",
       "content": "如图, 过抛物线x2 = 4y 的对称轴上任一点P(0, m) (m > 0) 作直线与抛\n物线交于A、B 两点, 点Q 是点P 关于原点的对称点.\n(1) 设点P 分有向线段#   »\nAB 所成的比为λ, 证明: #    »\nQP ⊥(#   »\nQA −λ#    »\nQB);\n(2) 设直线AB 的方程是x −2y + 12 = 0, 过A、B 两点的圆C 与抛物线\n在点A 处有共同的切线, 求圆C 的方程.\nx\ny\nP\nQ\nO\nA\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +628,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004湖南理.pdf#q22",
       "content": "如图, 直线l1: y = kx + 1 −k\n(\nk̸ = 0, k̸ = ±1\n2\n)\n与l2: y = 1\n2x + 1\n2 相交\n于点P. 直线l1 与x 轴交于点P1, 过点P1 作x 轴的垂线交直线l2 于点\nQ1, 过点Q1 作y 轴的垂线交直线l1 于点P2, 过点P2 作x 轴的垂线交直\n线l2 于点Q2, · · · , 这样一直作下去, 可得到一系列点P1, Q1, P2, Q2, · · · .\n点Pn (n = 1, 2, · · · ) 的横坐标构成数列{xn}.\n(1) 证明: xn+1 −1 = 1\n2k(xn −1), n ∈N∗;\n(2) 求数列{xn} 的通项公式;\n(3) 比较2|PPn|2 与4k2|PP1|2 + 5 的大小.\nx\ny\nP\nP3\nP1\nQ1\nP2\nQ2\nO\nl1\nl2\n175",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +661,31 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q022-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q022-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ce433d5d33a73be2-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 3,
+    "rendered": 4,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

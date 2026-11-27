@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2010/2010湖南理.pdf",
   "name": "2010湖南理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q01",
       "content": "已知集合M = {1, 2, 3}, N = {2, 3, 4}, 则\n(\n)\n(A) M ⊆N\n(B) N ⊆M\n(C) M ∩N = {2, 3}\n(D) M ∪N = {1, 4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q02",
       "content": "下列命题中是假命题的是\n(\n)\n(A) ∀x ∈R, 2x−1 > 0\n(B) ∀x ∈N∗, (x −1)2 > 0\n(C) ∃x ∈R, lg x < 1\n(D) ∃x ∈R, tan x = 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q03",
       "content": "极坐标方程ρ = cos θ 和参数方程\n{\nx = −1 −t,\ny = 2 + 3t,\n(t 为参数) 所表示的图形\n分别是\n(\n)\n(A) 圆、直线\n(B) 直线、圆\n(C) 圆、圆\n(D) 直线、直线",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q04",
       "content": "在Rt△ABC 中, ∠C = 90◦, AC = 4, 则#   »\nAB · #   »\nAC 等于\n(\n)\n(A) −16\n(B) −8\n(C) 8\n(D) 16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q05",
       "content": "∫4\n2\n1\nxdx 等于\n(\n)\n(A) −2 ln 2\n(B) 2 ln 2\n(C) −ln 2\n(D) ln 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q06",
       "content": "在△ABC 中, 角A, B, C 所对的边长分别为a, b, c, 若∠C = 120◦,\nc =\n√\n2a, 则\n(\n)\n(A) a > b\n(B) a < b\n(C) a = b\n(D) a 与b 的大小关系不能确定",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q07",
       "content": "在某种信息传输过程中, 用4 个数字的一个排列(数字允许重复) 表示一个\n信息, 不同排列表示不同信息, 若所用数字只有0 和1, 则与信息0110 至\n多有两个对应位置上的数字相同的信息个数为\n(\n)\n(A) 10\n(B) 11\n(C) 12\n(D) 15",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q08",
       "content": "用min{a, b} 表示a, b 两数中的最小值. 若函数f (x) = min{|x|, |x + t|}\n的图象关于直线x = −1\n2 对称, 则t 的值为\n(\n)\n(A) −2\n(B) 2\n(C) −1\n(D) 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q09",
       "content": "已知一种材料的最佳加入量在110 g 到210 g 之间. 若用0.618 法安排实\n验, 则第一次试点的加入量可以是\ng.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q10",
       "content": "如图所示, 过⊙O 外一点P 作一条直线与⊙O 交于A, B 两点. 已知\nPA = 2, 点P 到⊙O 的切线长PT = 4, 则弦AB 的长为\n.\nA\nB\nO\nT\nP\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -240,22 +309,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q11",
       "content": "在区间[−1, 2] 上随机取一个数x, 则|x| ⩽1 的概率为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -263,22 +342,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q12",
       "content": "如图是求12 + 22 + 32 + · · · + 1002 的值的程序框图, 则正整数n =\n.\n开始\ni = 1, s = 0\ni ⩽n?\ns = s + i2\ni = i + 1\n输出s\n结束\n否\n是",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -286,22 +371,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q13",
       "content": "图中的三个直角三角形是一个体积为20 cm3 的几何体的三视图, 则\nh =\ncm.\n俯视图\n正视图\n侧视图\nh\n6\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -309,22 +404,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q14",
       "content": "过抛物线x2 = 2py (p > 0) 的焦点作斜率为1 的直线与该抛物线交于A,\nB 两点, A, B 在x 轴上的正射影分别为D, C. 若梯形ABCD 的面积为\n12\n√\n2, 则p =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q15",
       "content": "若数列{an} 满足: 对任意的n ∈N∗, 只有有限个正整数m 使得am < n\n成立, 记这样的m 的个数为(an)∗, 则得到一个新数列{(an)∗}. 例如, 若数\n列{an} 是1, 2, 3, · · · , n, · · · , 则数列{(an)∗} 是0, 1, 2, · · · , n −1, · · · .\n已知对任意的n ∈N∗, an = n2, 则(a5)∗=\n, ((an)∗)∗=\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -355,22 +466,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q16",
       "content": "已知函数f (x) =\n√\n3 sin 2x −2sin2x.\n(1) 求函数f (x) 的最大值;\n(2) 求函数f (x) 的零点的集合.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -378,22 +495,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q016-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q17",
       "content": "如图, 是某城市通过抽样得到的居民某年的月均用水量(单位: 吨) 的频率\n分布直方图.\n频率\n组距\n0\n月均用水量/吨\n0.37\n0.39\n0.1\n0.02\nx\n1\n2\n3\n4\n5\n(1) 求直方图中x 的值;\n(2) 若将频率视为概率, 从这个城市随机抽取3 位居民(看作有放回的抽\n样), 求月均用水量在3 至4 吨的居民数X 的分布列和数学期望.\n601",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -401,22 +528,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q017-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q18",
       "content": "如图所示, 在正方体ABCD −A1B1C1D1 中, E 是棱DD1 的中点.\n(1) 求直线BE 和平面ABB1A1 所成的角的正弦值;\n(2) 在棱C1D1 上是否存在一点F, 使B1F\n平面A1BE? 证明你的结论.\nB\nC\nD\nA\nB1\nE\nC1\nD1\nA1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -424,22 +562,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q19",
       "content": "为了考察冰川的融化状况, 一支科考队在某冰川上相距8 km 的A, B 两\n点各建一个考察基地. 视冰川面为平面形, 以过A, B 两点的直线为x 轴,\n线段AB 的垂直平分线为y 轴建立平面直角坐标系(如图). 在直线x = 2\n的右侧, 考察范围为到点B 的距离不超过6\n√\n5\n5\nkm 的区域; 在直线x = 2\n的左侧, 考察范围为到A, B 两点的距离之和不超过4\n√\n5 km 的区域.\n(1) 求考察区域边界曲线的方程;\n(2) 如图所示, 设线段P1P2, P2P3 是冰川的部分边界线(不考虑其他边界),\n当冰川融化时, 边界线沿与其垂直的方向朝考察区域平行移动, 第一年移\n动0.2 km, 以后每年移动的距离为前一年的2 倍. 求冰川边界线移动到考\n察区域所需的最短时间.\nx\ny\nO\nP2(−8\n√\n3\n3 , 6)\nP1(−5\n√\n3, −1)\nP3(8, 6)\n冰\nA(−4, 0)\n川\n域\n区\nB(4, 0)\n已\n化\n融\nx = 2\n•\n•\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -447,22 +595,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-172486cf25fe9917-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q20",
       "content": "已知函数f (x) = x2 + bx + c (b, c ∈R), 对任意的x ∈R, 恒有\nf ′ (x) ⩽f (x).\n(1) 证明: 当x ⩾0 时, f (x) ⩽(x + c)2;\n(2) 若对满足题设条件的任意b, c, 不等式f (c) −f (b) ⩽M (c2 −b2) 恒成\n立, 求M 的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -470,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2010/2010湖南理.pdf#q21",
       "content": "数列{an} (n ∈N∗) 中, a1\n=\na, an+1 是函数fn (x)\n=\n1\n3x3 −\n1\n2 (3an + n2) x2 + 3n2anx 的极小值点.\n(1) 当a = 0 时, 求通项an;\n(2) 是否存在a, 使数列{an} 是等比数列? 若存在, 求a 的取值范围; 若不\n存在, 请说明理由.\n602",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2010,
       "subject": "数学",
@@ -493,11 +657,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2010/2010湖南理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

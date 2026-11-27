@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2004/2004浙江理.pdf",
   "name": "2004浙江理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q01",
       "content": "若U = {1, 2, 3, 4}, M = {1, 2}, N = {2, 3}, 则∁U(M ∪N) =\n(\n)\n(A) {1, 2, 3}\n(B) {2}\n(C) {1, 3, 4}\n(D) {4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q02",
       "content": "点P 从(1, 0) 出发, 沿单位圆x2 + y2 = 1 逆时针方向运动2π\n3 弧长到达\nQ 点, 则Q 的坐标为\n(\n)\n(A)\n(\n−1\n2,\n√\n3\n2\n)\n(B)\n(\n−\n√\n3\n2 , −1\n2\n)\n(C)\n(\n−1\n2, −\n√\n3\n2\n)\n(D)\n(\n−\n√\n3\n2 , 1\n2\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q03",
       "content": "已知等差数列{an} 的公差为2, 若a1, a3, a4 成等比数列, 则a2 =\n(\n)\n(A) −4\n(B) −6\n(C) −8\n(D) −10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -79,22 +106,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q04",
       "content": "曲线y2 = 4x 关于直线x = 2 对称的曲线方程是\n(\n)\n(A) y2 = 8 −4x\n(B) y2 = 4x −8\n(C) y2 = 16 −4x (D) y2 = 4x −16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -102,22 +140,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q05",
       "content": "设z = x −y, 式中变量x 和y 满足条件\n{\nx + y −3 ⩾0,\nx −2y ⩾0,\n则z 的最小值\n为\n(\n)\n(A) 1\n(B) −1\n(C) 3\n(D) −3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -125,22 +169,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q06",
       "content": "已知复数z1 = 3 + 4i, z2 = t + i, 且z1 · z2 是实数, 则实数t =\n(\n)\n(A) 3\n4\n(B) 4\n3\n(C) −4\n3\n(D) −3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -148,22 +198,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q07",
       "content": "若\n(√x +\n2\n3√x\n)n\n展开式中存在常数项, 则n 的值可以是\n(\n)\n(A) 8\n(B) 9\n(C) 10\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -171,22 +227,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q08",
       "content": "在△ABC 中, “A > 30◦”是“sin A > 1\n2”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -194,22 +256,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q09",
       "content": "若椭圆x2\na2 + y2\nb2 = 1 (a > b > 0) 的左、右焦点分别为F1、F2, 线段F1F2\n被抛物线y2 = 2bx 的焦点分成5 : 3 两段, 则此椭圆的离心率为\n(\n)\n(A) 16\n17\n(B) 4\n√\n17\n17\n(C) 4\n5\n(D) 2\n√\n5\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -217,22 +285,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q10",
       "content": "如图, 在正三棱柱ABC −A1B1C1 中已知AB = 1, D 在棱BB1 上, 且\nBD = 1, 若AD 与平面AA1C1C 所成的角为α, 则α =\n(\n)\nC\nB\nD\nA\nC1\nB1\nA1\n(A) π\n3\n(B) π\n4\n(C) arcsin\n√\n10\n4\n(D) arcsin\n√\n6\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -240,22 +314,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q11",
       "content": "设f ′(x) 是函数f(x) 的导函数, y = f ′(x) 的图象如图所示, 则y = f(x)\n的图象最有可能的是\n(\n)\nx\n1\n2\ny\ny = f ′(x)\nO\n(A)\nx\n1 2\ny\nO\n(B)\nx\n1 2\ny\nO\n(C)\nx\n1\n2\ny\nO\n(D)\nx\n1 2\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -263,22 +347,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q12",
       "content": "若f(x) 和g(x) 都是定义在实数集R 上的函数, 且方程x −f[g(x)] = 0\n有实数解, 则g[f(x)] 不可能是\n(\n)\n(A) x2 + x −1\n5\n(B) x2 + x + 1\n5\n(C) x2 −1\n5\n(D) x2 + 1\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -286,22 +380,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q13",
       "content": "已知f(x) =\n{\n1,\nx ⩾0,\n−1,\nx < 0,\n则不等式x + (x + 2) · f(x + 2) ⩽5 的解集\n是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -309,22 +409,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q14",
       "content": "已知平面上三点A、B、C 满足\n���#   »\nAB\n���= 3,\n���#    »\nBC\n���= 4,\n���#   »\nCA\n���= 5, 则\n#   »\nAB · #    »\nBC + #    »\nBC · #   »\nCA + #   »\nCA · #   »\nAB 的值等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -332,22 +438,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q15",
       "content": "设坐标平面内有一个质点从原点出发, 沿x 轴跳动, 每次向正方向或负方\n向跳1 个单位, 经过5 次跳动质点落在点(3, 0) (允许重复过此点) 处, 则\n质点不同的运动方法共有\n种. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -355,22 +467,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q16",
       "content": "已知平面α 和平面交于直线l, P 是空间一点, PA ⊥α, 垂足为A, PB ⊥β,\n垂足为B, 且PA = 1, PB = 2, 若点A 在β 内的射影与点B 在α 内的\n射影重合, 则点P 到l 的距离为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -378,22 +496,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q17",
       "content": "在△ABC 中, 角A、B、C 所对的边分别为a、b、c, 且cos A = 1\n3.\n(1) 求sin2 B + C\n2\n+ cos 2A 的值;\n(2) 若a =\n√\n3, 求bc 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -401,22 +525,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q18",
       "content": "盒子中有大小相同的球10 个, 其中标号为1 的球3 个, 标号为2 的球4\n个, 标号为5 的球3 个, 第一次从盒子中任取1 个球, 放回后第二次再任\n取1 个球(假设取到每个球的可能性都相同). 记第一次与第二次取到球的\n标号之和为ε.\n(1) 求随机变量ε 的分布列;\n(2) 求随机变量ε 的期望Eε.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -424,22 +554,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q19",
       "content": "如图, 已知正方形ABCD 和矩形ACEF 所在的平面互相垂直, AB =\n√\n2,\nAF = 1, M 是线段EF 的中点.\n(1) 求证: AM\n平面BDE;\n(2) 求二面角A −DF −B 的大小.\nD\nM\nA\nB\nC\nE\nF\n206",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -447,22 +588,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q20",
       "content": "设曲线y = e−x (x ⩾0) 在点M (t, e−t) 处的切线l 与x 轴y 轴所围成的\n三角形面积为S(t).\n(1) 求切线l 的方程;\n(2) 求S(t) 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -470,22 +621,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q21",
       "content": "已知双曲线的中心在原点, 右顶点为A(1, 0) 点P、Q. 在双曲线的右支上,\n点M(m, 0) 到直线AP 的距离为1.\n(1) 若直线AP 的斜率为k, 且|k| ∈\n[√\n3\n3 ,\n√\n3\n]\n, 求实数m 的取值范围;\n(2) 当m =\n√\n2 + 1 时, △APQ 的内心恰好是点M, 求此双曲线的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -493,22 +650,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2004/2004浙江理.pdf#q22",
       "content": "如图, △OBC 的在个顶点坐标分别为(0, 0)、(1, 0)、(0, 2), 设P 为线\n段BC 的中点, P2 为线段CO 的中点, P3 为线段OP1 的中点, 对于每\n一个正整数n, Pn+3 为线段PnPn+1 的中点, 令Pn 的坐标为(xn, yn),\nan = 1\n2yn + yn+1 + yn+2.\n(1) 求a1, a2, a3 及an;\n(2) 证明yn+4 = 1 −yn\n4 , n ∈N∗;\n(3) 若记bn = y4n+4 −y4n, n ∈N∗, 证明{bn} 是等比数列.\nx\ny\nB\nP3\nP1\nC\nP2\nP4\nO\nP5\n207",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2004,
       "subject": "数学",
@@ -516,11 +679,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2004/2004浙江理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-e26bd260ee0e113f-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 7,
+    "answerGraphics": 0,
+    "assigned": 7,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

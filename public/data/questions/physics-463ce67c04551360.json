@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2006/2006北京理综.pdf",
   "name": "2006北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 10,
+    "sourceAnalysis": 3,
+    "reviewCount": 9,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q01",
       "content": "目前核电站利用的核反应是（     ）\n（A）裂变，核燃料为铀\n（B）聚变，核燃烧为铀\n（C）裂变，核燃烧为氘\n（D）聚变，核燃料为氘",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q02",
       "content": "使用电的金属球靠近不带电的验电器，验电器的箔片开。下列各图表示验电器上感应电\n荷的分布情况，正确的是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q03",
       "content": "如图所示，两个相通的容器 P、Q 间装有阀门 K、P 中充满气体，Q 为真空，整个系\n统与外界没有热交换。打开阀门 K 后，P 中的气体进入 Q 中，最终达到平衡，则（   ）\n（A）气体体积膨胀，内能增加\n（B）气体分子势能减少，内能增加\n（C）气体分子势能增加，压强可能不变\n（D）Q 中气体不可能自发地全部退回到 P 中",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -79,22 +102,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q04",
       "content": "水的折射率为 n，距水面深 h 处有一个点光源，岸上的人看到水面被该光源照亮的圆\n形区域的直径为（    ）\n（A）2htan（arcsin A1\nn\nE\nA）\n（B）2htan（arcsinn）\n（C）2htan（arccosA1\nn\nE\nA）\n（D）2hcot（arccosn）\nA\nB\nC\nD",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q05",
       "content": "某同学看到一只鸟落在树枝上的 P 处，树枝在 10 s\n内上下振动了 6 次，鸟飞走后，他把 50 g 的砝码挂在 P\n处，发现树枝在 10 s 内上下振动了 12 次。将 50 g 的砝\n码换成 500 g 砝码后，他发现树枝在 15 s 内上下振动了 6\n次，你估计鸟的质量最接近（    ）\n（A）50 g\n（B）200 g\n（C）500 g\n（D）550 g",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -125,22 +168,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q06",
       "content": "一飞船在某行星表面附近沿圆轨道绕该行星飞行。认为行星是密度均匀的球体，要确定\n该行星的密度，只需要测量（     ）\n（A）飞船的轨道半径\n（B）飞船的运行速度\n（C）飞船的运行周期\n（D）行星的质量",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -148,22 +201,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q07",
       "content": "木块 A、B 分别重 50 N 和 60 N，它们与水平地面之间的动摩擦因数均为 0.25；夹在\nA、B 之间的轻弹簧被压缩了 2 cm，弹簧的劲度系数为 400 N/m。系统置于水平地面静止\n不动。现用 F = 1 N 的水平拉力作用在木块 B 上。如图所示，力 F 作用后（        ）\n（A）木块 A 所受摩擦力大小是 12.5 N\n（B）木块 A 所受摩擦力大小是 11.5 N\n（C）木块 B 所受摩擦力大小是 9 N\n（D）木块 B 所受摩擦力大小是 7 N",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -171,22 +230,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q08",
       "content": "如图所示，匀强磁场的方向垂直纸面向里，一带电微粒从磁\n场边界 d 点垂直于磁场方向射入，沿曲线 dPa 打到屏 MN 上\n的 a 点，通过 Pa 段用时为 t。若该微粒经过 P 点时，与一个\n静止的不带电微粒碰撞并结合为一个新微粒，最终打到屏 MN\n上。两个微粒所受重力均忽略。新微粒运动的（        ）\n（A）轨迹为 Pb，至屏幕的时间将小于 t\n（B）轨迹为 Pc，至屏幕的时间将大于 t\n（C）轨迹为 Pb，至屏幕的时间将等于 t\n（D）轨迹为 Pa，至屏幕的时间将大于 t\n第Ⅱ卷（选择题  共180 分）\n注意事项：\n1．用钢笔或圆珠笔将答案直接写在试卷上。\n2．答卷前将密封线内的项目填写清楚。\n本卷11 小题，共180 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -194,22 +263,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q09",
       "content": "（18 分）\n（1）游标为 20 分度（测量值可准确到 0.05\nmm）的卡尺示数如图所示，两测脚间狭缝的\n宽度为________mm。用激光照射该狭缝，在\n屏上出现衍射条纹。如果减小狭缝的宽度，衍\n射条纹的宽度将变________。\n（2）某同学用如图所示电路，测绘标有“3.8 V，0.3 A”的小灯泡的\n灯丝电阻 R 随电压 U 变化的图象：\n①除了导线和开关外，有以下一些器材可供选择：\n电流表：A1（量程 100 mA，内阻约 2 Ω）；\nA2（量程 0.6 A，内阻约 0.3 Ω）；\n电压表：V1（量程 5 V，内阻约 5 kΩ）；\nV2（量程 15 V，内阻约 15 kΩ）；\n滑动变阻器：R1（阻值范围 0 ~ 10 Ω）；\nR2（阻值范围0 ~ 2 kΩ）；\n电源：E1（电动势为 1.5 V，内阻为 0.2 Ω）；\nE2（电动势为 4 V，内阻约为 0.04 Ω）。\n为了调节方便，测量准确，实验中应选用电流表________，电压表_________，滑动变阻器\n__________，电源__________。（填器材的符号）\n②根据实验数据，计算并描绘出 R–U 的图象如图所示。由图象可知，此灯泡在不工作时，\n灯丝电阻为_________；当所加电压为 3.00 V 时，灯丝电阻为_________，灯泡实际消耗的\n电功率为__________W。\n③根据 R–U 图象，可确定小灯泡耗电功率 P 与外加电压 U 的关系。符合该关系的示意图\n是下列图中的_________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）0.15，宽\n（2）E2，A2，V1，R1；1.5，11.5，0.78；A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -217,22 +296,38 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p003-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q10",
       "content": "（16 分）下图是简化后的跳台滑雪的雪道示意\n图。整个雪道由倾斜的助滑雪道 AB 和着陆雪道\nDE，以及水平的起跳平台 CD 组成，AB 与 CD 圆\n滑连接。运动员从助滑雪道 AB 上由静止开始，在\n重力作用下，滑到 D 点水平飞出，不计飞行中的空\n2\n4\n6\n8\n10\n12\n14\nR/Ω\n2\n1\n3\n4\n0\nU/V\n图乙\nP/W\nU/V\nO\nA\nP/W\nU/V\nO\nB\nP/W\nU/V\nO\nC\nP/W\nU/V\nO\nD\nV\nA\nE\nS\nR\n气阻力，经 2 s 在水平方向飞行了 60 m，落在着陆雪道 DE 上，已知从 B 点到 D 点运\n动员的速度大小不变。（g 取 10 m/s2）求：\n（1）运动员在 AB 段下滑到 B 点的速度大小。\n（2）若不计阻力，运动员在 AB 段下滑过程中下降的高度。\n（3）若运动员的质量为 60 kg，在 AB 段下降的实际高度是 50 m，此过程中他克服阻力所\n做的功。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（16 分）\n（1）运动员从 D 点飞出时的速度\nv = Asx\nt\nE\nA= 30 m/s\n依题意，下滑到助滑雪道末端 B 点的速度大小是 30 m/s\n（2）在下滑过程中机械能守恒，有\nmgh = A1\n2\nE\nAmv2\n下降的高度：h = Av2\n2g\nE\nA= 45 m\n（3）由动能定理得\nmgh − Wf = A1\n2\nE\nAmv2\n解得运动员克服阻力做功\nWf = mgH − A1\n2\nE\nAmv2 = 3000 J",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -240,22 +335,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q11",
       "content": "（18 分）如图 1 所示，真空中相距 d = 5 cm 的两块平行金属板 A、B 与电源连接（图\n中未画出），其中 B 板接地（电势为零），A 板电势变化的规律如图 2 所示。将一个质量\nm = 2.0×10−23 kg，电量 q = + 1.6×10−19 C 的带电粒子从紧临 B 板处释放，不计重力。求：\n（1）在 t = 0 时刻释放该带电粒子，释放瞬间粒子加速度的大小；\n（2）若 A 板电势变化周期 T = 1.0×10−5 s，在 t = 0 时将带电粒子从紧临 B 板处无初速释\n放，粒子到达 A 板时动量的大小；\n（3）A 板电势变化频率多大时，在 t = AT\n4\nE\nA到 t = AT\n2\nE\nA时间内从紧临 B 板处无初速释放该带\n电粒子，粒子不能到达 A 板。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）金属板间的电场强度为\nE = AU\nd\nE\n带电粒子所受电场力\nF = qE = AqU\nd\nE\n由牛顿第二定律得\nF = ma\n解得\na = AqU\nmd\nE\nA= 4×109 m/s2\n（2）粒子在 0 ~ AT\n2\nE\nA时间内走过的距离为\nA1\n2\nE\nAa(AT\n2\nE\nA)2 = 5.0×10−2 m\n故带电粒子在 t = AT\n2\nE\nA时恰好到达 A 板\n根据动量定理，此时粒子动量\np = Ft = 4.0×10−23 kg·m/s\n（3）带电粒子在 t = AT\n4\nE\nA~ t = AT\n2\nE\nA向 A 板做匀加速运动，在 t = AT\n2\nE\nA~ t = A3T\n4\nE\nA向 A 板做匀减\n速运动，速度为零后将返回，粒子向 A 板运动可能的最大位移\ns = 2×\n2\n1 a（AT\n4\nE\nA）2 = A 1\n16\nE\nAaT2\n要求粒子不能到达 A 板，有 s < d\n由 f = A1\nT\nE\nA，电势变化频率应满足\nf > A\na\n16d\nE\nA = 5 A 2E\nA×104 Hz",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -263,22 +366,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q011-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2006/2006北京理综.pdf#q12",
       "content": "（20 分）磁流体推进船的动力来源于电流与磁场间的相互作用。图（a）是在平静海面\n上某实验船的示意图，磁流体推进器由磁体、电极和矩形通道（简称通道）组成。如图（b）\n所示，通道尺寸 a = 2.0 m、b = 0.15 m、c = 0.10 m。工作时，在通道内沿z 轴正方向加 B =\n8.0 T 的匀强磁场；沿x 轴负方向加匀强电场，使两金属板间的电压 U = 99.6 V；海水沿y\n轴方向流过通道。已知海水的电阻率 ρ = 0.20 Ω·m。\n（1）船静止时，求电源接通瞬间推进器对海水推力的大小和方向；\n（2）船以 vs = 5.0 m/s 的速度匀速前进。若以船为参照物，海水以 5.0 m/s 的速率涌入进\n水口，由于通道的截面积小于进水口的截面积，在通道内海水速率增加到 vd = 8.0 m/s。求\n此时两金属板间的感应电动势 U 感；\nz\nx\ny\nc\nb\na\nU\n绝缘板\n金属板\n前进方向\n进水口\n磁流体推进器\n出水口\n（a）\n（b）\n（3）船行驶时，通道中海水两侧的电压按 U′ = U − U 感 计算，海水受到电磁力的 80％ 可\n以转化为对船的推力。当船以 vs = 5.0 m/s 的速度匀速前进时，求海水推力的功率。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（20 分）\n（1）根据安培力公式知推进器对海水的推力为\nF1 = I1Bb，其中 I1 = AU\nR\nE\n又 R = ρA b\nac\nE\n联立解得\nFt = AU\nR\nE Bb = AUac\nρ\nE B = 796.8 N\n对海水推力的方向沿 y 轴正方向（向右）\n（2）U 感 = Bvdb = 9.6 V\n（3）根据欧姆定律\nI2 = AUʹ\nR\nE\nA= A(U − Bvdb)ac\nEρb\nE\nA= 600 A\n安培推力\nF2 = I2Bb = 720 N\n对船的推力\nF = 80%F2 = 576 N\n推力的功率\nP = Fvs = 80%F2vs = 2880 W\n解析\n13. A",
+      "analysis": "裂变反应是重核分裂成几个中等质量的原子核核反应，聚变反应是两个轻核\n结合成质量较大的原子核的核反应.目前的核电站以⬚92\n235U为核燃料，⬚92\n235U俘获一个中子后\n发生裂变反应，其核反应方程为⬚92\n235U+0\n1n →56\n141 Ba+36\n92Kr + 30\n1n,故A 正确.\n14. B\n验电器中的自由电子处在带电金属球所形成的电场中，受电场力作用发生定\n向移动，在验电器的金属球和箔片两端出现等量的异种电荷(感应电荷)，当感应电荷产生的\n电场与带电金属球的电场的矢量和为零时，验电器中的自由电子停止定向移动，达到静电平\n衡状态，故AC 错误；由于电子受电场力方向与电场的方向相反，故若金属球带负电，则验\n电器中的自由电子将远离金属球，即靠近带电金属球的一端出现的感应电荷为正电荷，而远\n离带电金属球的一端出现的感应电荷为负电荷，故B 正确D 错误.\n15. D\n“系统与外界没有热交换”表明气体状态的变化过程是绝热过程，即热力学第\n一定律Δ𝑈𝑈= 𝑊𝑊+ 𝑄𝑄中𝑄𝑄= 0；由于容器𝑄𝑄为真空，故𝑃𝑃中气体向𝑄𝑄中的扩散过程为自由膨胀过\n程，即𝑊𝑊= 0,故气体的内能不变，故A、B 错误(B项也可这样判断；由于气体分子间的相互\n作用力始终表现为引力，故气体膨胀过程分子力做负功，分子势能增大，故B 错误)；由于\n气体内能不变而分子势能增大，则气体分子的平均动能减小，故气体温度降低，由\n𝑝𝑝𝑝𝑝\n𝑇𝑇= 𝐶𝐶知\n气体的压强必定减小，故C 错误(C项也可这样判断：由于气体膨胀、分子平均速率减小，故\n单位时间内气体分子容器壁单位面积的冲量减小，宏观上的气体压强亦减小，故C 错误)；\n宏观上的热现象均是不可逆的，故D 正确.\n16. A\n当光从水中射向空气时，若入射角大于等于临界角，将在水面处发生全反射\n现象.如图所示，设光源发出的某条光线恰好在𝑃𝑃处发生全反射现象，图中𝑂𝑂𝑂𝑂即岸上的人观\n察到的水面被光源照亮的圆形区域的半径.依临界角的定义有sin𝐶𝐶=\n1\n𝑛𝑛，由几何关系有𝑅𝑅=\nℎtan𝐶𝐶解以上两式可得所求圆形区域直径为𝐷𝐷= 2ℎtan �arcsin\n1\n𝑛𝑛�，故A 正确.\n17. B\n由题中所述实验可以看出：在𝑃𝑃处悬挂物体的质量越大，则树枝振动的频率\n越低.因此可以断定鸟的质量介于50g与500g之间，由题给选项可知只有选项B 可能是正确\n的.\n18. C\n“飞船在某行星表面附近沿圆轨道绕该行星飞行”，可以认为飞船的轨道半径\n与行星的半径相等，飞船做圆周运动的向心力由行星对它的万有引力提供，由万有引力定律\n和牛顿第二定律得𝐺𝐺\n𝑀𝑀𝑀𝑀\n𝑅𝑅2 = 𝑚𝑚�\n2π\n𝑇𝑇�\n2\n𝑅𝑅，由上式可得\n𝑀𝑀\n4π\n3 ⋅𝑅𝑅3 =\n4π2\n4π\n3 ⋅𝐺𝐺𝑇𝑇2，可得行星的密度𝜌𝜌=\n3π\n𝐺𝐺𝑇𝑇2，上\n式表明只要测得飞船运行的周期，即可得到行星的密度，故C 正确.\n19. C\n由题给条件知未施加力𝐹𝐹时，弹簧的弹力大小为\n𝑓𝑓= 𝑘𝑘· Δ𝑥𝑥= 400 × 0.02N = 8N,\n物块𝐴𝐴与地面间的滑动摩擦力大小为\n𝑓𝑓𝜇𝜇𝜇𝜇= 𝜇𝜇𝑁𝑁𝐴𝐴= 0.25 × 50N = 12.5N,\n物块𝐵𝐵与地面间的滑动摩擦力大小为\n𝑓𝑓𝜇𝜇𝜇𝜇= 𝜇𝜇𝑁𝑁𝐵𝐵= 0.25 × 60N = 15N,\n施加力𝐹𝐹后装置仍处于静止状态，𝐵𝐵受地面的摩擦力为𝑓𝑓𝐵𝐵，𝐴𝐴受地面的摩擦力为𝑓𝑓𝐴𝐴，\n由平衡条件得\n𝐹𝐹+ 𝑓𝑓= 𝑓𝑓𝐵𝐵，𝑓𝑓𝐴𝐴= 𝑓𝑓,\n代入数据解得\n𝑓𝑓𝐵𝐵= 9N，𝑓𝑓𝐴𝐴= 8N\n综合以上分析可知，所给选项中只有C 项正确.\n20. D\n令带电微粒的质量为𝑚𝑚1，速率为𝑣𝑣1，不带电的微粒质量\n为𝑚𝑚2.带电微粒与不带电微粒在𝑝𝑝处碰撞后的速率为𝑣𝑣2，由动量守恒定律\n得𝑚𝑚1𝑣𝑣1 = (𝑚𝑚1 + 𝑚𝑚2)𝑣𝑣2，由粒子在磁场中做匀速圆周运动的半径𝑅𝑅=\n𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞\n可知，碰撞前后微粒做圆周运动的半径未发生变化，即碰后粒子的运动轨迹仍为𝑝𝑝𝑝𝑝；粒子在\n𝑝𝑝𝑝𝑝段的飞行时间为𝑡𝑡=\n𝑝𝑝𝑝𝑝\n𝑣𝑣1，𝑡𝑡′ =\n𝑝𝑝𝑝𝑝\n𝑣𝑣2，因𝑣𝑣2 =\n𝑚𝑚1𝑣𝑣1\n𝑚𝑚1+𝑚𝑚2 < 𝑣𝑣1，所以𝑡𝑡′ > 𝑡𝑡，综合可知D 正确.\n21.\n(1)0.15；宽；\n(2)①A2；V1；𝑅𝑅1；𝐸𝐸2；②1.5；11.5；0.78；③A.\n(1)从卡尺的示数可以看岀：主尺读数为0mm ,游标尺读数为3 × 0.05 =\n0.15mm，所以所测狭缝宽度为0 + 0.15 = 0.15mm；发生明显衍射现象的条件是：障碍物(\n或孔)的尺寸比波长小或跟波长差不多，本题中若减小狭缝的宽度，衍射现象将更加明显，\n即衍射条纹将变宽.\n(2)①描绘小灯泡的电阻随电压的变化规律，即要求测出小灯泡两端的电压从零到额定\n电压各个不同状态的电阻阻值，为保证能够测得额定电压下的电阻，则要求电源的电动势略\n大于额定电压，所以电源应选𝐸𝐸2；由小灯泡的标称值知其额定电流为0.3A，所以选用的安培\n表的量程应略大于0.3A，故安培表应选A2；为减小读数误差，在电压表量程满足条件的前提\n下，应尽量选择小量程的电压表，故电压表应选V1；为了调节电压方便，应选择小阻值的滑\n动变阻器，故滑动变阻器应选𝑅𝑅1.\n②小灯泡不工作时的电阻，即其两端电压为零时的阻值，由题给𝑅𝑅−𝑈𝑈图象可以看出，\n当灯泡两端电压为0 时所对应的电阻为1.5Ω；由图象可以看出，当灯泡两端的电压为3.00V\n时，所对应的电阻阻值为11.5Ω；灯泡的功率为𝑃𝑃=\n𝑈𝑈2\n𝑅𝑅=\n3.002\n11.5 W = 0.78W.\n③当灯泡两端的电压为 0 时，灯泡的功率也为零，故 BD 错误；由 𝑃𝑃=\n𝑈𝑈2\n𝑅𝑅 可在图象中选\n取几个特殊点，分别计算在不同电压下灯泡的功率，定性地作出 𝑃𝑃−𝑈𝑈 图象，可得图象 A\n正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2006,
       "subject": "物理",
@@ -286,11 +397,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2006/2006北京理综.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q012-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-463ce67c04551360-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 21,
+    "answerGraphics": 2,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

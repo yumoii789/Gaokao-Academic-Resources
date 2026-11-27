@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
   "name": "2000全国新课程理综(山西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 7,
+    "answerBlocks": 9,
+    "sourceAnswers": 6,
+    "sourceAnalysis": 6,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q01",
       "content": "光子的能量为 hν，动量的大小为\nAhν\nc\nE\nA。如果一个静止的放射性元素的原子在发生 γ 衰\n变时只发出一个 γ 光子，则衰变后的原子核（    ）\n（A）仍然静止\n（B）沿着与光子运动方向相同的方向运动\n（C）沿着与光子运动方向相反的方向运动\n（D）可能向任何方向运动",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q02",
       "content": "杨氏双缝干涉实验中，下列说法正确的是（n 为自然数，λ 为光波波长）（    ）\n①在距双缝的路程相等的点形成暗条纹\n②在距双缝的路程差为 n 的点形成亮条纹\n③在距双缝的路程差为 n Aλ\n2\nE\nA的点形成亮条纹\n④在距双缝的路程差为 （n + A1\n2\nE\nA）λ 的点形成暗条纹\n（A）①②\n（B）②③\n（C）③④\n（D）②④",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "光屏上某点到双缝的路程差为半波长的偶数倍时(波长的整数倍)，该点出现亮条纹；\n光屏上某点到双缝的路程差为半波长的奇数倍时，该点出现暗条纹，所以①③错②④正确，\n故ABC 错误D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q03",
       "content": "图示的电路图中，C2  =  2C1，R2  =  2R1。下列说法正确的是（    ）\n①开关处于断开状态，电容 C2 的电量大于 C1 的电量\n②开关处于断开状态，电容 C1 的电量大于 C2 的电量\n③开关处于接通状态，电容 C2 的电量大于 C1 的电量\n④开关处于接通状态，电容 C1 的电量大于 C2 的电量\n（A）①\n（B）④\n（C）①③\n（D）②④",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "开关处于断开状态时，电容𝐶𝐶1和𝐶𝐶2的电压都为电源电动势，由𝐶𝐶 =\n𝑄𝑄\n𝑈𝑈、𝐶𝐶2 = 2𝐶𝐶1可\n知电容𝐶𝐶2的电量大于𝐶𝐶1的电量，故①正确②错误；开关处于接通状态时，电容𝐶𝐶1和𝑅𝑅2并联，\n电容𝐶𝐶2和𝑅𝑅1并联，两电容两端的电压等于和它对应并联电阻的电压，由图可知两电阻串联且\n𝑅𝑅2 = 2𝑅𝑅1，所以𝑅𝑅2两端的电压为𝑅𝑅1的2 倍，由𝐶𝐶 =\n𝑄𝑄\n𝑈𝑈可知，两个电容上的电量相等，故③④\n错误，故A 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -79,22 +100,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q04",
       "content": "下列说法正确的是（    ）\n（A）当两个分子间的距离小于平衡距离时，分子间的作用表现为引力\n（B）物体的内能是物体中所有分子热运动动能之和\n（C）只经历等温过程的理想气体，如果压强增加一倍，则其体积减少一半\n（D）如果没有能量损失，则热机能把从单独一个热源吸收的热量全部转化成机械能",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "两个分子间在平衡距离时，分子间作用力之和为零，小于平衡距离表现为斥力，大\n于平衡距离表现为引力，故A 错误；物体内所有分子做无规则运动的动能和分子势能的总\n和叫做物体的内能，故B 错误；由\n𝑝𝑝1\n𝑝𝑝2 =\n𝑉𝑉2\n𝑉𝑉1可知C 正确；由热力学第二定律知不可能从单一\n热源取热，并把它全部变为功而不产生其他任何影响，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -102,22 +131,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q05",
       "content": "如图：凸透镜 L 的焦距为 f，在离透镜 1.5f 处垂直放置一平\n面镜 M。现在焦点 F 处有一物体 P，则在透镜另一侧（    ）\n（A）不成像\n（B）距透镜 2f 处成等大、正立的实像\n（C）距透镜 2f 处成等大、倒立的实像\n（D）距透镜 f 处成等大、正立的虚像\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "𝑃𝑃在平面镜中成像，距离透镜2𝑓𝑓，物体𝑃𝑃发出的光经过平面镜𝑀𝑀的反射，反射光线\n进入透镜𝐿𝐿成像，相当于𝑃𝑃的像从距离透镜2𝑓𝑓处发出光，在透镜𝐿𝐿中成像.由透镜成像公式\n1\n𝑓𝑓 =\n1\n𝑢𝑢+\n1\n𝑣𝑣可得，𝑃𝑃的像通过透镜成的像为等大倒立的实像，故C 正确ABC 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -125,22 +158,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q06",
       "content": "如图所示，OD 是水平面，AB 是斜面。初速为 v0 的物体\n从 D 点出发沿 DBA 滑动到顶点 A 时速度刚好为零。如果斜\n面改为 AC，让该物体从 D 点出发沿 DCA 滑动到 A 点且速\n度刚好为零，则物体具有的初速度（已知物体与路面之间的动摩\n擦因数处处相同且不为零）（    ）\n（A）大于 v0\n（B）等于 v0\n（C）小于 v0\n（D）取决于斜面的倾\n角",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "设斜面倾角为𝜃𝜃，动摩擦因数为𝜇𝜇，物体由𝐷𝐷点出发，达到𝐴𝐴端速度为零，它在𝐷𝐷处的\n动能一部分转化为𝐴𝐴处的重力势能，另一部分则克服摩擦力做功生热，由动能定理得\n−𝜇𝜇𝜇𝜇𝜇𝜇𝑠𝑠𝐷𝐷𝐷𝐷−𝜇𝜇𝜇𝜇𝜇𝜇𝑠𝑠𝐴𝐴𝐴𝐴cos𝜃𝜃−𝑚𝑚𝑚𝑚ℎ = 0 −\n1\n2 𝑚𝑚𝑣𝑣2，整理得−𝜇𝜇𝜇𝜇𝜇𝜇𝑠𝑠𝑂𝑂𝑂𝑂−𝑚𝑚𝑚𝑚ℎ = 0 −\n1\n2 𝑚𝑚𝑣𝑣2,由此\n可见，速度𝑣𝑣的大小只与ℎ和𝑠𝑠𝑂𝑂𝑂𝑂有关，与斜面的倾角没有关系，故B 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -148,22 +189,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q07",
-      "content": "（20 分）1956 年李政道和杨振宁提出在弱相互作用中宇称不守恒，并由吴健雄用 6027Co\n放射源进行了实验验证，次年，李、杨二人为此获得诺贝尔物理奖，6027Co 的衰变方程是\n6027Co→AZNi + 0−1e + A ¯\nEνeE\n其中\nA ¯\nEνeEA 是反中微子，它的电荷为零，静止质量可认为是零。\n（1）Co 与 Fe 同周期，它应在周期表的第_______周期。6027Co 的核外电子数为_____。在\n上述衰变方程中，衰变产物 AZNi 的质量数 A 是_______，核电荷数 Z 是__________。\n（2）在衰变前 6027Co 核静止，根据云室照片可以看出，衰变产物 Ni 和 0−1e 的运动径迹\n不在一条直线上.如果认为衰变产物只有 Ni 和 0−1e，那么衰变过程将违背_______守恒定律。\n（3）无水 CoCl2 为深蓝色，吸水后变为粉红色的水合物，水合物受热后又变成无水 CoCl2，\n故常在实验室中用作吸湿剂和空气湿度指示剂。\nCoCl2 深蓝色· →\n←\n\nV\n吸水\n CoCl2 粉红色·xH2O\n现有无水 CoCl2 65 g，吸水后变成 CoCl2·xH2O 119 g，水合物中 x 的值是______。\n（4）6027Co 是典型的 γ 放射源，可用于作物诱变育种。我国应用该方法培育出了许多农作\n物新品种，如棉花高产品种“鲁棉 1 号”，年种植面积曾达到 3000 多万亩，在我国自己培\n育的棉花品种中栽培面积最大。γ 射线处理作物后主要引起_______，从而产生可遗传的变\n异.除 γ 射线，用于人工诱变的其它射线还有_______、_______和_______。\n第II 卷",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（20 分）1956 年李政道和杨振宁提出在弱相互作用中宇称不守恒，并由吴健雄用 6027Co\n放射源进行了实验验证，次年，李、杨二人为此获得诺贝尔物理奖，6027Co 的衰变方程是\n6027Co→AZNi + 0−1e + A ¯\nEνeE\n其中\nA ¯\nEνeEA 是反中微子，它的电荷为零，静止质量可认为是零。\n（1）Co 与 Fe 同周期，它应在周期表的第_______周期。6027Co 的核外电子数为_____。在\n上述衰变方程中，衰变产物 AZNi 的质量数 A 是_______，核电荷数 Z 是__________。\n（2）在衰变前 6027Co 核静止，根据云室照片可以看出，衰变产物 Ni 和 0−1e 的运动径迹\n不在一条直线上.如果认为衰变产物只有 Ni 和 0−1e，那么衰变过程将违背_______守恒定律。\n（3）无水 CoCl2 为深蓝色，吸水后变为粉红色的水合物，水合物受热后又变成无水 CoCl2，\n故常在实验室中用作吸湿剂和空气湿度指示剂。\nCoCl2 深蓝色· →\n←\n\nV\n吸水\n CoCl2 粉红色·xH2O\n现有无水 CoCl2 65 g，吸水后变成 CoCl2·xH2O 119 g，水合物中 x 的值是______。\n（4）6027Co 是典型的 γ 放射源，可用于作物诱变育种。我国应用该方法培育出了许多农作\n物新品种，如棉花高产品种“鲁棉 1 号”，年种植面积曾达到 3000 多万亩，在我国自己培\n育的棉花品种中栽培面积最大。γ 射线处理作物后主要引起_______，从而产生可遗传的变\n异.除 γ 射线，用于人工诱变的其它射线还有_______、_______和_______。\n第II 卷\n29．（14 分）如图，某压缩式喷雾器储液桶的容量是 5.7×10−3 m3。\n往桶内倒入 4.2×10−3 m3 的药液后开始打气，打气过程中药液不会向\n外喷出。如果每次能打进 2.5×10−4 m3 的空气，要使喷雾器内空气的\n压强达到 4 标准大气压应打气几次？这个压强能否使喷雾器内的药\n液全部喷完？（设大气压强为 1 标准大气压）\n30．（19 分）如图所示，直角三角形的斜边倾角为 30°，\n底边 BC 长为 2L，处在水平位置，斜边 AC 是光滑绝缘\n的。在底边中点 O 处放置一正电荷 Q。一个质量为 m、\n电量为 q 的带负电的质点从斜面顶端 A 沿斜边滑下，滑\n到斜边上的垂足 D 时速度为 v。",
+      "answer": "（1）四；27；60；28\n5\n（2）动量\n（3）6\n（4）基因突变；X 射线，中子（流），紫外线",
+      "analysis": "（1）在质点的运动中不发生变化的是（    ）\n①动能\n②电势能与重力势能之和\n③动能与重力势能之和\n④动能、电势能、重力势能三者之和\nA\nB\nC\nD\nO\n3\n（A）①②\n（B）②③\n（C）④\n（D）②\n（2）质点的运动是（    ）\n（A）匀加速运动\n（B）匀减速运动\n（C）先匀加速后匀减速的运动\n（D）加速度随时间变化的运动\n（3）该质点滑到非常接近斜边底端 C 点时速率 vc 为多少？沿斜面向下的加速度 ac 为多\n少？\n31．（15 分）电阻 R1，R2，R3 连结成图示的电路，放在一个箱中（虚\n框所示），箱面上有三个接线柱 A、B、C。请用多用表和导线设计一\n个实验，通过在 A、B、C 的测量，确定各个电阻的阻值。要求写出\n实验步骤并用所测值表示电阻 R1、R2、R3。\n4\n解析",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2000,
       "subject": "物理",
@@ -171,80 +220,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
         "page": 2,
+        "endPage": 4,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q08",
-      "content": "（14 分）如图，某压缩式喷雾器储液桶的容量是 5.7×10−3 m3。\n往桶内倒入 4.2×10−3 m3 的药液后开始打气，打气过程中药液不会向\n外喷出。如果每次能打进 2.5×10−4 m3 的空气，要使喷雾器内空气的\n压强达到 4 标准大气压应打气几次？这个压强能否使喷雾器内的药\n液全部喷完？（设大气压强为 1 标准大气压）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q007-p003-f03.jpg"
       ],
-      "year": 2000,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
-        "page": 2,
-        "questionNumber": 29,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q09",
-      "content": "（19 分）如图所示，直角三角形的斜边倾角为 30°，\n底边 BC 长为 2L，处在水平位置，斜边 AC 是光滑绝缘\n的。在底边中点 O 处放置一正电荷 Q。一个质量为 m、\n电量为 q 的带负电的质点从斜面顶端 A 沿斜边滑下，滑\n到斜边上的垂足 D 时速度为 v。\n（1）在质点的运动中不发生变化的是（    ）\n①动能\n②电势能与重力势能之和\n③动能与重力势能之和\n④动能、电势能、重力势能三者之和\nA\nB\nC\nD\nO\n3\n（A）①②\n（B）②③\n（C）④\n（D）②\n（2）质点的运动是（    ）\n（A）匀加速运动\n（B）匀减速运动\n（C）先匀加速后匀减速的运动\n（D）加速度随时间变化的运动\n（3）该质点滑到非常接近斜边底端 C 点时速率 vc 为多少？沿斜面向下的加速度 ac 为多\n少？",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2000,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
-        "page": 2,
-        "questionNumber": 30,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf#q10",
-      "content": "（15 分）电阻 R1，R2，R3 连结成图示的电路，放在一个箱中（虚\n框所示），箱面上有三个接线柱 A、B、C。请用多用表和导线设计一\n个实验，通过在 A、B、C 的测量，确定各个电阻的阻值。要求写出\n实验步骤并用所测值表示电阻 R1、R2、R3。\n4\n解析\n17．C",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2000,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/2000/2000全国新课程理综(山西).pdf",
-        "page": 3,
-        "questionNumber": 31,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-669907d1c3555d5d-q007-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 6,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

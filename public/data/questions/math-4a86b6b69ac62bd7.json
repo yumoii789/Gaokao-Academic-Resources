@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1977/1977北京理.pdf",
   "name": "1977北京理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 12,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1977/1977北京理.pdf#q01",
       "content": "解方程: √x −1 = 3 −x.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1977/1977北京理.pdf#q02",
       "content": "计算: 2−1\n2 + 20\n√\n2 +\n1\n√\n2 −1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -56,22 +74,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1977/1977北京理.pdf#q03",
-      "content": "已知lg 2 = 0.3010, lg 3 = 0.4771, 求lg\n√",
+      "content": "已知lg 2 = 0.3010, lg 3 = 0.4771, 求lg\n√\n45.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -79,22 +103,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977北京理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1977/1977北京理.pdf#q04",
-      "content": "4. 证明: (1 + tan α)2 = 1 + sin 2α\ncos2 α\n.\n5. 求过两直线x+y−7 = 0 和3x−y−1 = 0 的交点且过(1, 1) 点的直线方程.\n6. 某工厂今年七月份的产值为100 万元, 以后每月产值比上月增加20%, 问\n今年七月份到〸月份总产值是多少?\n7. 已知二次函数y = x2 −6x + 5.\n(1) 求出它的图象的顶点坐标和对称轴方程;\n(2) 画出它的图象;\n(3) 分别求出它的图象和x 轴、y 轴的交点坐标.\n8. 一只船以20 海里/小时的速度向正东航行, 起初船在A 处看见一灯塔B\n在船的北45◦东方向, 一小时后船在C 处看见这个灯塔在船的北15◦东方\n向, 求这时船和灯塔的距离CB.\n9. 一个圆内接三角形ABC, ∠A 的平分线交BC 于D, 交外接圆于E, 求证:\nAD · AE = AC · AB.\n10. 当m 取哪些值时, 直线y = x + m 与椭圆x2\n16 + y2\n9 = 1 有一个交点? 有\n两个交点? 没有交点? 当它们有一个交点时, 画出它的图象.\n附加题\n11. (1) 求函数f(x) =\n\n\n\nx2 sin π\nx, (x̸ = 0)\n0, (x = 0)\n的导数.\n(2) 求椭圆x2\na2 + y2\nb2 = 1 绕x 轴旋转而成的旋转体体积.\n12. (1) 试用ε −δ 语言叙述“函数f(x) 在点x = x0 处连续”的定义.\n(2) 试证明: 若f(x) 在点x = x0 处连续, 且f(x0) > 0, 则存在一个x0 的\n(x0 −δ, x0 + δ), 在这个邻域内, 处处有f(x) > 0.\n1",
+      "content": "证明: (1 + tan α)2 = 1 + sin 2α\ncos2 α\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1977,
       "subject": "数学",
@@ -102,11 +132,257 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1977/1977北京理.pdf",
         "page": 1,
-        "questionNumber": 45,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q05",
+      "content": "求过两直线x+y−7 = 0 和3x−y−1 = 0 的交点且过(1, 1) 点的直线方程.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q06",
+      "content": "某工厂今年七月份的产值为100 万元, 以后每月产值比上月增加20%, 问\n今年七月份到〸月份总产值是多少?",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q07",
+      "content": "已知二次函数y = x2 −6x + 5.\n(1) 求出它的图象的顶点坐标和对称轴方程;\n(2) 画出它的图象;\n(3) 分别求出它的图象和x 轴、y 轴的交点坐标.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q08",
+      "content": "一只船以20 海里/小时的速度向正东航行, 起初船在A 处看见一灯塔B\n在船的北45◦东方向, 一小时后船在C 处看见这个灯塔在船的北15◦东方\n向, 求这时船和灯塔的距离CB.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q09",
+      "content": "一个圆内接三角形ABC, ∠A 的平分线交BC 于D, 交外接圆于E, 求证:\nAD · AE = AC · AB.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q10",
+      "content": "当m 取哪些值时, 直线y = x + m 与椭圆x2\n16 + y2\n9 = 1 有一个交点? 有\n两个交点? 没有交点? 当它们有一个交点时, 画出它的图象.\n附加题",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q11",
+      "content": "(1) 求函数f(x) =\n\n\n\nx2 sin π\nx, (x̸ = 0)\n0, (x = 0)\n的导数.\n(2) 求椭圆x2\na2 + y2\nb2 = 1 绕x 轴旋转而成的旋转体体积.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/1977/1977北京理.pdf#q12",
+      "content": "(1) 试用ε −δ 语言叙述“函数f(x) 在点x = x0 处连续”的定义.\n(2) 试证明: 若f(x) 在点x = x0 处连续, 且f(x0) > 0, 则存在一个x0 的\n(x0 −δ, x0 + δ), 在这个邻域内, 处处有f(x) > 0.\n1",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1977,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/1977/1977北京理.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

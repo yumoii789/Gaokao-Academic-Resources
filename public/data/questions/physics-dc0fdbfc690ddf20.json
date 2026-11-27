@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2019/2019上海.pdf",
   "name": "2019上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 20,
+    "sourceAnswers": 17,
+    "sourceAnalysis": 3,
+    "reviewCount": 18,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q01",
-      "content": "试卷满分100 分，考试时间60 分钟。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "试卷满分100 分，考试时间60 分钟。\n2．本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。\n3．答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q02",
-      "content": "本考试分设试卷和答题纸。试卷包括三部分，第一部分为选择题，第二部分为填空\n题，第三部分为综合题。",
+      "content": "以下运动中，物体加速度一定保持不变的是（    ）\n（A）简谐运动\n（B）匀速圆周运动\n（C）竖直上抛运动\n（D）加速直线运动",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -56,22 +73,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q002-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q002-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q03",
-      "content": "答题前，务必在答题纸上填写姓名、报名号、考场号和座位号，并将核对后的条形\n码贴在指定位置上。作答必须涂或写在答题纸上，在试卷上作答一律不得分。第一部分的作\n答必须涂在答题纸上相应的区域，第二、三部分的作答必须写在答题纸上与试卷题号对应的\n位置。\n一、选择题（共40 分。第1-8 小题，每小题3 分；第9-12 小题，每小题4 分。每小题只有\n一个正确答案。）\n1．以下运动中，物体加速度一定保持不变的是（    ）\n（A）简谐运动\n（B）匀速圆周运动\n（C）竖直上抛运动\n（D）加速直线运动\n2．原子核内一定存在着（    ）\n（A）质子\n（B）α 粒子\n（C）电子\n（D）光子\n3．弹簧振子做简谐运动，t = 0 时振子经过平衡位置，机械能E 与时间t 的关系是（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "原子核内一定存在着（    ）\n（A）质子\n（B）α 粒子\n（C）电子\n（D）光子",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -79,22 +109,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q04",
-      "content": "“泊松亮斑”是光的（    ）\n（A）干涉现象，说明光具有波动性\n（B）衍射现象，说明光具有波动性\n（C）干涉现象，说明光具有粒子性\n（D）衍射现象，说明光具有粒子性",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "弹簧振子做简谐运动，t = 0 时振子经过平衡位置，机械能E 与时间t 的关系是（    ）",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -102,22 +138,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 1,
-        "questionNumber": 4,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q05",
-      "content": "两容器中装有质量相等、温度相同的同种理想气体，若容积不同，则两容器中气体的（    ）\n（A）分子平均动能相等，压强相等\n（B）分子平均动能相等，压强不等\n（C）分子平均动能不等，压强相等\n（D）分子平均动能不等，压强不等\nO\nE\nt\nO\nE\nt\nA\nB\nC\nD\nO\nE\nt\nO\nE\nt\n2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "“泊松亮斑”是光的（    ）\n（A）干涉现象，说明光具有波动性\n（B）衍射现象，说明光具有波动性\n（C）干涉现象，说明光具有粒子性\n（D）衍射现象，说明光具有粒子性",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -125,45 +167,61 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 1,
-        "questionNumber": 5,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q06",
-      "content": "在如图所示的传动装置中，内轮a 和外轮b 的转轴分别过各自圆心O、Oʹ\n且垂直纸面。轮a 通过摩擦带动轮b 做无相对滑动的转动，则两轮（    ）\n（A）转动方向相同，周期相等\n（B）转动方向相反，周期相等\n（C）转动方向相同，周期不等\n（D）转动方向相反，周期不等",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "两容器中装有质量相等、温度相同的同种理想气体，若容积不同，则两容器中气体的（    ）\n（A）分子平均动能相等，压强相等\n（B）分子平均动能相等，压强不等\n（C）分子平均动能不等，压强相等\n（D）分子平均动能不等，压强不等\nO\nE\nt\nO\nE\nt\nA\nB\nC\nD\nO\nE\nt\nO\nE\nt\n2",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
-        "page": 2,
-        "questionNumber": 6,
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q07",
-      "content": "如图，甲虫沿树枝由A 缓慢上爬到B 的过程中，树枝对甲虫的作用\n力（    ）\n（A）一直增大\n（B）一直减小\n（C）保持不变\n（D）先减小后增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在如图所示的传动装置中，内轮a 和外轮b 的转轴分别过各自圆心O、Oʹ\n且垂直纸面。轮a 通过摩擦带动轮b 做无相对滑动的转动，则两轮（    ）\n（A）转动方向相同，周期相等\n（B）转动方向相反，周期相等\n（C）转动方向相同，周期不等\n（D）转动方向相反，周期不等",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -171,22 +229,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 7,
+        "endPage": 2,
+        "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q08",
-      "content": "两波源 Ⅰ、Ⅱ 在水槽中形成的波形如图所示，其中实线为\n波峰，虚线为波谷，则（    ）\n（A）a 是振动始终加强的点\n（B）b 是振动始终加强的点\n（C）a 和b 都是振动始终加强的点\n（D）a 和b 都不是振动始终加强的点",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，甲虫沿树枝由A 缓慢上爬到B 的过程中，树枝对甲虫的作用\n力（    ）\n（A）一直增大\n（B）一直减小\n（C）保持不变\n（D）先减小后增大",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -194,22 +262,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 8,
+        "endPage": 2,
+        "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q09",
-      "content": "一定质量的理想气体，其状态经历a→b→c 的变化，p–T 图线如图所\n示，在该过程中气体体积（    ）\n（A）先不变后增大\n（B）先增大后不变\n（C）先不变后减小\n（D）先减小后不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "两波源 Ⅰ、Ⅱ 在水槽中形成的波形如图所示，其中实线为\n波峰，虚线为波谷，则（    ）\n（A）a 是振动始终加强的点\n（B）b 是振动始终加强的点\n（C）a 和b 都是振动始终加强的点\n（D）a 和b 都不是振动始终加强的点",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -217,22 +295,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 9,
+        "endPage": 2,
+        "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q10",
-      "content": "如图，直流电路与导体圆环 a、b 共面，电路由电源 E 和滑动变阻器 R 构成。在滑动\n变阻器的滑片向上滑动过程中，a、b 中的感应电流方向是（    ）\n（A）a 顺时针，b 顺时针\n（B）a 逆时针，b 逆时针\n（C）a 顺时针，b 逆时针\n（D）a 逆时针，b 顺时针",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一定质量的理想气体，其状态经历a→b→c 的变化，p–T 图线如图所\n示，在该过程中气体体积（    ）\n（A）先不变后增大\n（B）先增大后不变\n（C）先不变后减小\n（D）先减小后不变",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -240,22 +328,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 10,
+        "endPage": 2,
+        "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q010-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q11",
-      "content": "如图，在薄金属圆筒表面上通以与其轴线平行、分布均匀的恒定电流时，该\n圆筒的形变趋势为（    ）\n（A）沿轴线上下压缩\n（B）沿轴线上下拉伸\n（C）沿半径向内收缩\n（D）沿半径向外膨胀",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，直流电路与导体圆环 a、b 共面，电路由电源 E 和滑动变阻器 R 构成。在滑动\n变阻器的滑片向上滑动过程中，a、b 中的感应电流方向是（    ）\n（A）a 顺时针，b 顺时针\n（B）a 逆时针，b 逆时针\n（C）a 顺时针，b 逆时针\n（D）a 逆时针，b 顺时针",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -263,22 +361,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 11,
+        "endPage": 2,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q011-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q011-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q12",
-      "content": "将演员从高处跳下的视频倒序播放，可实现演员轻松跃上高处的特效。在观众看来，演\n员上升过程中在低处的高度变化（    ）\n（A）比高处快；加速度向下\n（B）比高处慢；加速度向下\n（C）比高处快；加速度向上\n（D）比高处慢；加速度向上\n二、填空题（共20 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，在薄金属圆筒表面上通以与其轴线平行、分布均匀的恒定电流时，该\n圆筒的形变趋势为（    ）\n（A）沿轴线上下压缩\n（B）沿轴线上下拉伸\n（C）沿半径向内收缩\n（D）沿半径向外膨胀",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -286,22 +394,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 12,
+        "endPage": 2,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q012-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q012-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q13",
-      "content": "“神舟十号太空授课”的一项内容是测量航天员的“体重”。测量设备以恒定拉力拉动\nb\na\nⅠ Ⅱ\np\nT\na\nc\nb\nO\nOʹ\na\nb\nI\nB\nA\na\nb\nE\nR\n3\n航天员，并同时测量两个物理量：设备提供的拉力和________；再根据____________就能得\n出航天员的质量。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "将演员从高处跳下的视频倒序播放，可实现演员轻松跃上高处的特效。在观众看来，演\n员上升过程中在低处的高度变化（    ）\n（A）比高处快；加速度向下\n（B）比高处慢；加速度向下\n（C）比高处快；加速度向上\n（D）比高处慢；加速度向上",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -309,45 +427,57 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 2,
-        "questionNumber": 13,
+        "endPage": 2,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q14",
-      "content": "如图电场中，P、Q 两点的电场强度大小 EP > EQ，其理由是\n_______________；电势φP > φQ，其理由是_____________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "“神舟十号太空授课”的一项内容是测量航天员的“体重”。测量设备以恒定拉力拉动\nb\na\nⅠ Ⅱ\np\nT\na\nc\nb\nO\nOʹ\na\nb\nI\nB\nA\na\nb\nE\nR\n3\n航天员，并同时测量两个物理量：设备提供的拉力和________；再根据____________就能得\n出航天员的质量。",
+      "answer": "宇航员的加速度，牛顿第二定律",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
-        "page": 3,
-        "questionNumber": 14,
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q15",
-      "content": "已知环形电流在圆心处的磁感应强度大小与其\n半径成反比，通电直导线在其延长线上的磁感应强度\n为零。纸面内闭合导线框a、b 由同心半圆与直线构\n成，通以大小相同的电流，如图所示。a、b 在其圆心\nOa、Ob 处的磁感应强度的大小Ba_______Bb（选填“＞”\n“ = ”或“＜”），Oa 处的磁场方向_____________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图电场中，P、Q 两点的电场强度大小 EP > EQ，其理由是\n_______________；电势φP > φQ，其理由是_____________。",
+      "answer": "P 点所在位置处的电场线较Q 点处的密；P、Q 两点位于同一根电场线上，由于沿着电\n场线方向电势降低，所以P 点电势高",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -355,22 +485,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 3,
-        "questionNumber": 15,
+        "endPage": 3,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q015-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q015-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q16",
-      "content": "如图，硬质塑料瓶灌入水后盖紧瓶盖，在下端开一小孔后水开始流出，且水流\n逐渐减小，瓶中气体经历的过程可近似视为_______过程；水流停止后，水面与孔\n之间的高度差为h，瓶中气体的压强为__________。（已知大气压强为p0，水的密\n度为ρ，重力加速度g）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "已知环形电流在圆心处的磁感应强度大小与其\n半径成反比，通电直导线在其延长线上的磁感应强度\n为零。纸面内闭合导线框a、b 由同心半圆与直线构\n成，通以大小相同的电流，如图所示。a、b 在其圆心\nOa、Ob 处的磁感应强度的大小Ba_______Bb（选填“＞”\n“ = ”或“＜”），Oa 处的磁场方向_____________。",
+      "answer": "＜，垂直纸面向上",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -378,22 +518,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 3,
-        "questionNumber": 16,
+        "endPage": 3,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q016-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q016-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q17",
-      "content": "在如图电路中，电源电动势为E，内阻为r，R0 为定值电阻。当滑\n动变阻器R 的滑片向右移动时，电流表A 的示数如何变化？\n分析思路为：①R 接入电路的阻值增大→②回路总电阻增大→③总电\n流I 减小→④端电压U 增大→⑤流过R0 的电流I0 增大→⑥电流表中的\n电流IA 减小\n由③推得④的理由是：____________；由⑤推得⑥的理由是：______。\n三、综合题（共40 分）\n注意：第19、20 题在列式计算、逻辑推理以及回答问题过程中，要求给出必要的图示、文\n字说明、公式、演算等。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，硬质塑料瓶灌入水后盖紧瓶盖，在下端开一小孔后水开始流出，且水流\n逐渐减小，瓶中气体经历的过程可近似视为_______过程；水流停止后，水面与孔\n之间的高度差为h，瓶中气体的压强为__________。（已知大气压强为p0，水的密\n度为ρ，重力加速度g）",
+      "answer": "等温；p0 – ρgh",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -401,22 +551,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 3,
-        "questionNumber": 17,
+        "endPage": 3,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q017-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q017-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q18",
-      "content": "（10 分）做“用单摆测定重力加速度”的实验，供选择的器材有：\nA．1.2 m 长的细线；B．约2 m 长的弹性绳；C．带孔的小铁球；D．带孔的软木球；\nE．光电门\n（1）应选用的摆线是__________，摆球是_________（均选填器材前面的字母）。光电门\n应放在摆球摆动过程中的__________（选填“最低点”或“最高点”）\n（2）单摆摆动过程中光电门接收到光信号强度I 随时间t\n的变化如图所示，由此可得单摆周期为（    ）\nA．t1 − 0\nB．t2 − t1\nC．t3 − t1\nD．t4 − t1\n（3）某同学利用秒表做此实验后，与用光电门做实验的\n同学们交流，发现自己测得的重力加速度值明显偏大。该\n同学在实验中出现的操作失误可能是___________。\nR\nr\nR\nr\na\nb\nOa\nOb\nI\nI\nP\nQ\nO\nt\nI\nt1\nt2\nt3\nt4\nA\nP\nR0\nR\nE，r\n4",
+      "content": "在如图电路中，电源电动势为E，内阻为r，R0 为定值电阻。当滑\n动变阻器R 的滑片向右移动时，电流表A 的示数如何变化？\n分析思路为：①R 接入电路的阻值增大→②回路总电阻增大→③总电\n流I 减小→④端电压U 增大→⑤流过R0 的电流I0 增大→⑥电流表中的\n电流IA 减小\n由③推得④的理由是：____________；由⑤推得⑥的理由是：______。\n三、综合题（共40 分）\n注意：第19、20 题在列式计算、逻辑推理以及回答问题过程中，要求给出必要的图示、文\n字说明、公式、演算等。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "U = E − Ir，IA = I − I0\n16．【参考】课本上的第六章D 压缩气体的应用一节的自主活动：\n在一个如图6-35 所示的扁平塑料饮料瓶靠近底部的四面，用针对称地刺四\n个小孔，灌入大半瓶水后，比较盖紧瓶盖和打开瓶盖两种情况下所见现象的\n区别。再从不同方向挤压瓶体，观察所发生的情况，并作出解释。\n三、综合题（共40 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -424,45 +584,63 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 3,
-        "questionNumber": 18,
+        "endPage": 3,
+        "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q018-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q19",
-      "content": "如图，半径为a 的金属圆环竖直固定，电阻忽略不计。空\n间存在与环面垂直的匀强磁场，磁感应强度为B。一质量为m\n的导体棒受到始终向上的拉力作用，以速率v 向下匀速运动，\n棒始终与y 轴垂直，扫过整个环面时与环接触良好。导体棒单\n位长度电阻值为r，重力加速度为g。求：\n（1）导体棒中的感应电流I 及通过导体棒的总电荷量q；\n（2）导体棒位于y > 0 处拉力的功率P。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "（10 分）做“用单摆测定重力加速度”的实验，供选择的器材有：\nA．1.2 m 长的细线；B．约2 m 长的弹性绳；C．带孔的小铁球；D．带孔的软木球；\nE．光电门\n（1）应选用的摆线是__________，摆球是_________（均选填器材前面的字母）。光电门\n应放在摆球摆动过程中的__________（选填“最低点”或“最高点”）\n（2）单摆摆动过程中光电门接收到光信号强度I 随时间t\n的变化如图所示，由此可得单摆周期为（    ）\nA．t1 − 0\nB．t2 − t1\nC．t3 − t1\nD．t4 − t1\n（3）某同学利用秒表做此实验后，与用光电门做实验的\n同学们交流，发现自己测得的重力加速度值明显偏大。该\n同学在实验中出现的操作失误可能是___________。\nR\nr\nR\nr\na\nb\nOa\nOb\nI\nI\nP\nQ\nO\nt\nI\nt1\nt2\nt3\nt4\nA\nP\nR0\nR\nE，r\n4",
+      "answer": "（本题共10 分）\n（1）A，C，最低点\n（2）C\n（3）计数次数偏大",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
-        "page": 4,
-        "questionNumber": 19,
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q019-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q019-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2019/2019上海.pdf#q20",
-      "content": "如图，光滑轨道 abc 固定在竖直平面内，在c 点\n与粗糙水平轨道 cd 相切，a、c 与轨道最低点 b 之间\n的高度差分别为 H1 和 H2。一个质量为 m 的小球 A\n从 a 处由静止起沿轨道运动，在 b 处与质量也为 m\n的静止小滑块 B 相撞后静止，并将动能全部传递给\nB。随后 B 沿轨道运动到 d 静止，从 c 运动到 d 的\n时间为 t。重力加速度为 g。\n（1）求滑块与水平轨道 cd 间的动摩擦因数 μ；\n（2）可以用 A、B 在轨道 abc 上的运动来类比光电效应。分析说明小球 A、滑块 B 可\n以类比光电效应中的什么粒子，哪个物理量可以类比极限频率。\na\nb\nc\nd\nA\nB\nH1\nH2\ny\nO\nv\nB\n5",
+      "content": "如图，半径为a 的金属圆环竖直固定，电阻忽略不计。空\n间存在与环面垂直的匀强磁场，磁感应强度为B。一质量为m\n的导体棒受到始终向上的拉力作用，以速率v 向下匀速运动，\n棒始终与y 轴垂直，扫过整个环面时与环接触良好。导体棒单\n位长度电阻值为r，重力加速度为g。求：\n（1）导体棒中的感应电流I 及通过导体棒的总电荷量q；\n（2）导体棒位于y > 0 处拉力的功率P。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "【解】（1）I = BLv\nR = BLv\nLr = Bv\nr\nq = It = Bv\nr ·2a\nv = 2Ba\nr\n（2）当 0 < y < 2a 时：P = （mg − BIL）v = （mg – B Bv\nr 2 a2 − (a − y)2 ）v\n = （mg − 2B2v a2 − (a − y)2\nr\n ）v\n当 y ≥ 2a 时：P = mgv",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2019,
       "subject": "物理",
@@ -470,11 +648,60 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2019/2019上海.pdf",
         "page": 4,
+        "endPage": 4,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q020-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q020-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2019/2019上海.pdf#q21",
+      "content": "如图，光滑轨道 abc 固定在竖直平面内，在c 点\n与粗糙水平轨道 cd 相切，a、c 与轨道最低点 b 之间\n的高度差分别为 H1 和 H2。一个质量为 m 的小球 A\n从 a 处由静止起沿轨道运动，在 b 处与质量也为 m\n的静止小滑块 B 相撞后静止，并将动能全部传递给\nB。随后 B 沿轨道运动到 d 静止，从 c 运动到 d 的\n时间为 t。重力加速度为 g。\n（1）求滑块与水平轨道 cd 间的动摩擦因数 μ；\n（2）可以用 A、B 在轨道 abc 上的运动来类比光电效应。分析说明小球 A、滑块 B 可\n以类比光电效应中的什么粒子，哪个物理量可以类比极限频率。\na\nb\nc\nd\nA\nB\nH1\nH2\ny\nO\nv\nB\n5",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由 A 球运动到 b 处的机械能为：\nE = mgH1\n然后将这部分能量传递给 B，设 B 球在 c 处的速度为 v，则由机械能守恒定律可知，\nmgH1 = mgH2 + 1\n2 mv2\nv =\n2g(H1 − H2)\nv = at = μgt\nμ =\n2g(H1 − H2)\ngt\n6\n（2）光子，光电子，H2\n光电效应是指当光子入射到金属表面后，金属内表面附近的电子吸收了光子的全部能\n量后，脱离金属束缚的现象；在此过程中光子提供能量，电子吸收能量。因此（1）中的小\n球 A 可以类比为光子，滑块 B 可以类比成电子；A 与 B 的碰撞可以类比为电子吸收光\n子的能量；b、c 之间的高度差 H2 对应的能量差可类比极限频率对应的光子能量。因此\nH2 可类比极限频率。\n由爱因斯坦光电方程：Ek = hν-W0 画出图像：\n在此题中类似的有：Ek = mgH1-mgH2\n这个类比的思路在一师一优课平台，2015-2016 年鲁科版选修3-5 有一节部级优课“光电效\n应”中授课老师自制了实物教具。\nO\nν\nEk\nν0\n-W0\n斜率h\nO\nH1\nEk\nH2\n-mgH2\n斜率mg\n= ;\n: =\na Lo —\n(=\n051 0 —\n图 5\n志 电 子 吸\nEizme2 £\naed 收 光 于 E\n1 Js\npo\nStig\nre —\n图 6\n7",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2019,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2019/2019上海.pdf",
+        "page": 4,
+        "endPage": 5,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q021-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q021-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dc0fdbfc690ddf20-q021-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 3,
+    "assigned": 16,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

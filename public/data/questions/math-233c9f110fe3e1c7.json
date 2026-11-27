@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1954/1954.pdf",
   "name": "1954",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 4,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 5,
+    "answerBlocks": 5,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 4,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1954/1954.pdf#q01",
       "content": "下列六题顺次解答,不必抄题（但须写明题号:甲,乙,丙,⋯⋯）.\n结果务须明确,过程可以简单.\n甲、化简\n·\n·\n·\n·\n］\n[(a\nb )\n(a\nb )\n(b )\n- 3\n2\n2\n-1\n-3\n1\n2\n1\n2\n7\n1\n3\n乙、解\n．\n1\n 6 logx = 1\n3loga + 2logb + logc\n丙、用二项式定理计算\n·\n使误差小于\n．\n(3\n02) ,\n1\n1000\n4\n丁、直角三角形弦上半圆的面积等于勾上半圆与股上半圆\n面积之和,试证明之.\n戊、已知球的半径为r,求内接正方体的体积.\n己、已知三角形的一边之长为a ,两邻角为β 及γ ,求计算边\n长 b 的计算公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "下列六题顺次解答,不必抄题,结果务须明确,过程可以简单.\n甲、解：原式\n·\n= (a b a b\n b  )\n= (a\n b\n)\n= (a\nb )\n   = a\n3\n2\n-2\n1\n2\n- 3\n2 h\n7\n2\n1\n3\n3\n2+ 1\n2\n-2-3\n2 +7\n2\n1\n3\n2\n0\n1\n3\n2\n3\n乙、解:原式可化为\n logx\n= loga b c\n 1\n6\n1\n3",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1954,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1954/1954.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1954/1954.pdf#q02",
       "content": "描绘y=3x2-7x-1 之图象,并按下列条件分别求x 的值的范围:\n(i)y>0;   (ii)y<0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "于是有\nx\n= a b c\nx = (a b c)\n= a b\nc\n1\n6\n1\n3\n2\n1\n3\n2\n6\n2\n12\n6\n∴\n．\n丙、解:由 (3.02)4=(3+0.02)4\n=34+4×33×0.02+6×32×(0.02)2\n+4×3×(0.02)3+(0.02)4,\n可知第4项的值已小于0.01,所以,计算可到第3项为止,其误差必小于\n千分之一.\n(3.02)4  =34+4×33×0.02+6×32×(0.02)2\n=81+2.16+0.0216\n=83.182\n丁、证:设直角三角形的勾为a,股为b,弦为c,则有\nc2=a2+b2\n所以弦上半圆的面积\nπ\nπ·\nπ·\nπ\nπ\n．\n= 1\n2\n( c\n2\n) = 1\n2\nc\n4\n= 1\n2\na + b\n4\n= 1\n2\n( a\n2) + 1\n2\n( b\n2)\n2\n2\n2\n2\n2\n2\n即弦上半圆面积=勾上半圆面积+股上半圆的面积.\n戊、解:内接正方体的中心即该球的球心.正方体过中心的对角线为该球\n的直径,故其长为2r.若设正方体的边长为a,则有\n3a\n= 4r\na = 2\n3\n3r\n2\n2\n,\n．\n所以内接正方体的体积\nV = a = (2\n3\n 3r)\n= 8\n9\n3r\n3\n3\n3\n己、解:由正弦定理可知\na\nsin\n180\n- (\n+ r)\n=\nb\n sin\n［\n°\nβ\n］\nβ\n,\n    b =\nasin\nsin\n180\n- (\n+ r)\n =\nasin\nsin(\n+ r)\n∴\nβ\n［\n°\nβ\n］\nβ\nβ\n二、解:将原方程变形,可得\n(x - 7\n6) = 1\n3 (y + 61\n12)\n2\n．\n于是抛物线顶点为\n（如图）．\n,\n(7\n6 ,\n61\n12)\n−\n抛物线与x 轴的交点为:\nM ( 7\n6 -\n61\n6\n,0),\nN( 7\n6 +\n61\n6\n,0),\n即\n M(7 -\n61\n6\n,0),\nN(7 +\n61\n6\n,0)．\n当y>0 时,x 的取值范围为:\n(-\n, 7 -\n61\n6\n), (7 +\n61\n6\n,+\n)\n∞\n∞．\n当y<0 时,x 的取值范围为:\n(7 -\n61\n6\n, 7 +\n61\n6\n )．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1954,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1954/1954.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1954/1954.pdf#q03",
       "content": "假设两圆互相外切,求证用连心线段为直径所作的圆必与前两圆的\n外公切线相切.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "证明:设⊙O1 及⊙O2 为互相外切的二圆,其中一外公切线为A1A2,切点\nA1 及A2（如图）,令点O 为连心线O1O2 的中点,过O 作OA⊥A1A2.\n∵     OA = 1\n2 (O A + O A ) = 1\n2 O O\n1\n1\n2\n2\n1\n2\n∴   以O1O2 为直径,即以O 为圆心,OA 为半径的圆必与直线A1A2相切.\n同理可证,此圆必切于⊙O1 及⊙O2 的另外一条外公切线.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1954,
       "subject": "数学",
@@ -79,22 +98,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1954/1954.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1954/1954.pdf#q04",
       "content": "解\n求之通值．\n1+ tgx\n1- tgx\n= 1+ sin2x,\nx",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：cosx + sinx\ncosx - sinx = (cosx + sinx) ,\n2\ncosx+sinx=(cosx+sinx)2(cosx-sinx),\n(cosx+sinx)(1-cos2x+sinx2)=0,\n2(cosx+sinx)·sin2x=0,\n∴  cosx+sinx=0,sin2x=0.\n由方程  cosx+sinx=0 得,tgx=-1．\n∴\nπ\nπ （为整数）．\n     x = k\n- 4\nk\n由方程    sin2x=0,得\nx=kπ（k 为整数）.\n由检验可知\nx = k\n- 4 ,x = k\nk\nπ\nπ\nπ（为整数）均为方程的通解．",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1954,
       "subject": "数学",
@@ -102,22 +127,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1954/1954.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1954/1954.pdf#q05",
       "content": "有一直圆锥,全面积为a;与之同底同高之直圆柱全面积为a′.求\n该圆锥高与母线之比.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:设直圆锥的高为h,底面半径为R,母线长为l,则\na\n=\nR(R + )\n2\nR(R + h)\n=\nR +\n2(R + h) ,\na\n′\nπ\nπ\nl\nl\n∴    2a(R+h)=a’(R+l).\n由\n代入可得\nR =\n- h ,\n2\n2\nl\n2a(\n- h\n+ h) = a (\n- h\n+ ),\n(2a - a )\n- h\n= a\n- 2ah.\n2\n2\n2\n2\n2\n2\nl\nl\nl\nl\nl\n'\n'\n'\n两边同乘以l ,可得\n(2a - a )\n- (h)\n= a - 2a\nh\n2\n'\n'\nl\nl\nl\nl\n·\n等式两边平方,\n(4a - 4aa +a\n)\n- (h)\n= a -4aa\nh + 4a ( h) ,\n(8a - 4aa +a\n)(h) - 4aa\nh + (4aa -4a ) = 0\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n'\n'\n'\n'\n'\n'\n'\n［\n］\n·\n′·\n．\nl\nl\nl\nl\nl\nl\n这个关于\n的一元二次方程的判别式\nh\nl\nΔ = (-4aa') -4(8a -4aa'+a' )(4aa'\n2\n2\n2\n−4\n2\na )\n=16a(2a-a′)3>0,\n∴该一元二次方程有两个实根,解得\n h\nl = 4aa'\n16a(2a - a')\n2(8a - 4aa +a\n)\n= 2aa\n2(2a - a ) a(2a - a )\n4a\n+ (2a - a )\n3\n2\n2\n2\n2\n±\n±\n．\n'\n'\n'\n'\n'\n'\n即为圆锥的高与母线的比.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1954,
       "subject": "数学",
@@ -125,11 +154,23 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1954/1954.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 2,
+    "assigned": 0,
+    "rendered": 0,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

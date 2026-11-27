@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/1997/1997上海.pdf",
   "name": "1997上海",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 11,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 27,
+    "answerBlocks": 36,
+    "sourceAnswers": 27,
+    "sourceAnalysis": 5,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q01",
-      "content": "全卷共七大题，其中第五大题分为两题。在120 分钟内完成。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "全卷共七大题，其中第五大题分为两题。在120 分钟内完成。\n2．第三大题中有部分试题分为并列的A、B 两组。考生限选做其中的一组。如两组都\n做或交叉选做，只以A 组计分。\n3．第五、六、七题要求写出必要的文字说明、方程式和重要的演算步骤，只写出最后\n答案。而未写出主要演算过程的，不能得分。有数字计算的问题，答案中必须明确写出数值\n和单位。",
+      "answer": "D",
+      "analysis": "定出评分标准是为了尽可能在统一的标准下评定成绩。试题的参考解答是用来说明评\n分标准的，考生按其他方法或步骤解答，正确的，同样给分；有错的，根据错误的性质，参\n照评分标准中相应的规定评分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q02",
-      "content": "第三大题中有部分试题分为并列的A、B 两组。考生限选做其中的一组。如两组都\n做或交叉选做，只以A 组计分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "弹簧振子在光滑水平面上作简谐振动。在振子向平衡位置运动的过程中（    ）\n（A）振子所受的回复力逐渐增大\n（B）振子的位移逐渐增大\n（C）振子的速度逐渐减小\n（D）振子的加速度逐渐减小",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -56,22 +71,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q03",
-      "content": "第五、六、七题要求写出必要的文字说明、方程式和重要的演算步骤，只写出最后\n答案。而未写出主要演算过程的，不能得分。有数字计算的问题，答案中必须明确写出数值\n和单位。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "对一定质量的理想气体，下列说法正确的是（    ）\n（A）压强增大，体积增大，分子的平均动能一定增大\n（B）压强减小，体积减小，分子的平均动能一定增大\n（C）压强减小，体积增大，分子的平均动能一定增大\n（D）压强增大，体积减小，分子的平均动能一定增大",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -79,22 +100,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 1,
+        "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q04",
-      "content": "弹簧振子在光滑水平面上作简谐振动。在振子向平衡位置运动的过程中（    ）\n（A）振子所受的回复力逐渐增大\n（B）振子的位移逐渐增大\n（C）振子的速度逐渐减小\n（D）振子的加速度逐渐减小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "氘核（21H）和氚核（31H）聚合成氦核（42He）的核反应方程如下：\n21H + 31H→42He + 10n\n设氘核质量为 m1，氚核质量为 m2，氦核质量为 m3，中子质量为 m4，则反应过程中释放的\n能量为（    ）\n（A）（m1 + m2 − m3）c2\n（B）（m1 + m2 − m4）c2\n（C）（m1 + m2 − m3 − m4）c2\n（D）（m3 + m4 − m1 − m2）c2",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -102,22 +129,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
-        "questionNumber": 1,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q05",
-      "content": "对一定质量的理想气体，下列说法正确的是（    ）\n（A）压强增大，体积增大，分子的平均动能一定增大\n（B）压强减小，体积减小，分子的平均动能一定增大\n（C）压强减小，体积增大，分子的平均动能一定增大\n（D）压强增大，体积减小，分子的平均动能一定增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一磁棒自远处匀速沿一圆形线圈的轴线运动，并穿\n过线圈向远处而去，如右图所示。则下列四图中，较\n正确反映线圈中电流i 与时间t 关系的是（线圈中电流\n以图示箭头为正方向）（    ）",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -125,22 +158,35 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
-        "questionNumber": 2,
+        "endPage": 1,
+        "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q005-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q005-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q005-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q06",
-      "content": "氘核（21H）和氚核（31H）聚合成氦核（42He）的核反应方程如下：\n21H + 31H→42He + 10n\n设氘核质量为 m1，氚核质量为 m2，氦核质量为 m3，中子质量为 m4，则反应过程中释放的\n能量为（    ）\n（A）（m1 + m2 − m3）c2\n（B）（m1 + m2 − m4）c2\n（C）（m1 + m2 − m3 − m4）c2\n（D）（m3 + m4 − m1 − m2）c2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "质量为m 的小球被系在轻绳一端，在竖直平面内作半径为R 的圆周运动，运动过程中小\nS\nN\nt\ni\nO\nA\nt\ni\nO\nB\nt\ni\nO\nC\nt\ni\nO\nD\n第 2 页 共 11 页\n球受到空气阻力的作用。设某一时刻小球通过轨道的最低点，此时绳子的张力为7mg，此后\n小球继续作圆周运动，经过半个圆周恰能通过最高点，则在此过程中小球克服空气阻力所做\n的功为（    ）\n（A）A1\n4\nE\nAmgR\n（B）A1\n3\nE\nAmgR\n（C）A1\n2\nE\nAmgR\n（D）mgR",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -148,68 +194,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 1,
-        "questionNumber": 3,
+        "endPage": 2,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q07",
-      "content": "一磁棒自远处匀速沿一圆形线圈的轴线运动，并穿\n过线圈向远处而去，如右图所示。则下列四图中，较\n正确反映线圈中电流i 与时间t 关系的是（线圈中电流\n以图示箭头为正方向）（    ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 1,
-        "questionNumber": 4,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q08",
-      "content": "质量为m 的小球被系在轻绳一端，在竖直平面内作半径为R 的圆周运动，运动过程中小\nS\nN\nt\ni\nO\nA\nt\ni\nO\nB\nt\ni\nO\nC\nt\ni\nO\nD\n第 2 页 共 11 页\n球受到空气阻力的作用。设某一时刻小球通过轨道的最低点，此时绳子的张力为7mg，此后\n小球继续作圆周运动，经过半个圆周恰能通过最高点，则在此过程中小球克服空气阻力所做\n的功为（    ）\n（A）A1\n4\nE\nAmgR\n（B）A1\n3\nE\nAmgR\n（C）A1\n2\nE\nAmgR\n（D）mgR",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 1,
-        "questionNumber": 5,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q09",
       "content": "如图所示是一种手控制动器。a 是一个转动着的轮子，b 是\n摩擦制动片，c 是杠杆，O 是其固定转动轴。手在A 点施加一\n个作用力F 时，b 将压紧轮子，使轮子制动。若使轮子制动所\n需的力矩是一定的，则下列说法正确的是（    ）\n（A）轮a 逆时针转动时，所需的力F 较小\n（B）轮a 顺时针转动时，所需的力F 较小\n（C）无论a 逆时针还是顺时针转动，所需的力F 相同\n（D）无法比较F 的大小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -217,68 +223,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q08",
+      "content": "一列横波沿水平方向传播，某一时刻的波形如图所示，则图中a、b、c、d 四点在此时刻\n具有相同运动方向的是（    ）\n（A）a 和c\n（B）a 和d\n（C）b 和c\n（D）b 和d",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q008-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q09",
+      "content": "在光滑水平面上，两球沿球心连线以相等速率相向而行，并发生碰撞，下列现象可能的\n是（    ）\n（A）若两球质量相同，碰后以某一相等速率互相分开\n（B）若两球质量相同，碰后以某一相等速率同向而行\n（C）若两球质量不同，碰后以某一相等速率互相分开\n（D）若两球质量不同，碰后以某一相等速率同向而行",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q10",
-      "content": "一列横波沿水平方向传播，某一时刻的波形如图所示，则图中a、b、c、d 四点在此时刻\n具有相同运动方向的是（    ）\n（A）a 和c\n（B）a 和d\n（C）b 和c\n（D）b 和d",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 2,
-        "questionNumber": 7,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q11",
-      "content": "在光滑水平面上，两球沿球心连线以相等速率相向而行，并发生碰撞，下列现象可能的\n是（    ）\n（A）若两球质量相同，碰后以某一相等速率互相分开\n（B）若两球质量相同，碰后以某一相等速率同向而行\n（C）若两球质量不同，碰后以某一相等速率互相分开\n（D）若两球质量不同，碰后以某一相等速率同向而行",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 2,
-        "questionNumber": 8,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q12",
       "content": "如图所示，一金属直杆MN 两端接有导线，悬挂于线圈上方，MN 与线圈轴线均处于竖\n直平面内，为使MN 垂直纸面向外运动，可以（     ）\n（A）将a、c 端接在电源正极，b、d 端接在电源负极\n（B）将b、d 端接在电源正极，a、c 端接在电源负极\n（C）将a、d 端接在电源正极，b、c 端接在电源负极\na\nb\nc\nd\nb\na\nd\nc\nM\nN\nF\nA\nc\nO\na\nb\n第 3 页 共 11 页\n（D）将a、c 端接在交流电源的一端，b、d 接在交流电源的另一端",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "ABD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -286,22 +318,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q010-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q010-p002-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q13",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q11",
       "content": "某人身系弹性绳自高空P 点自由下落，图中a 点是弹性绳的原长位置，c 是\n人所到达的最低点，b 是人静止地悬吊着时的平衡位置，不计空气阻力，则下列\n说法中正确的是（    ）\n（A）从P 至c 过程中重力的冲量大于弹性绳弹力的冲量\n（B）从P 至c 过程中重力所做功等于人克服弹力所做的功\n（C）从P 至b 过程中人的速度不断增大\n（D）从a 至c 过程中加速度方向保持不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -309,22 +351,94 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q011-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q12",
+      "content": "如图所示，A、B 为平行金属板，两板相距为d，分别与\n电源两极相连，两板的中央各有一小孔M 和N。今有一带\n电质点，自A 板上方相距为d 的P 点由静止自由下落（P、\nM、N 在同一竖直线上），空气阻力忽略不计，到达N 孔时\n速度恰好为零，然后沿原路返回。若保持两极板间的电压不\n变，则（    ）\n（A）把A 板向上平移一小段距离，质点自P 点自由下落后\n仍能返回\n（B）把A 板向下平移一小段距离，质点自P 自由下落后将穿过N 孔继续下落\n（C）把B 板向上平移一小段距离，质点自P 点自由下落后仍能返回\n（D）把B 板向下平移一小段距离，质点自P 点自由下落后将穿过N 孔继续下落",
+      "answer": "ACD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q012-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q012-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q13",
+      "content": "A．关于原子结构，卢瑟福根据___________实验提出了原子核式结构模型。本世纪初，\n玻尔结合普朗克量子学说提出的原子模型，成功地解释了___________原子的光谱。",
+      "answer": "α 粒子散射，氢",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q14",
-      "content": "如图所示，A、B 为平行金属板，两板相距为d，分别与\n电源两极相连，两板的中央各有一小孔M 和N。今有一带\n电质点，自A 板上方相距为d 的P 点由静止自由下落（P、\nM、N 在同一竖直线上），空气阻力忽略不计，到达N 孔时\n速度恰好为零，然后沿原路返回。若保持两极板间的电压不\n变，则（    ）\n（A）把A 板向上平移一小段距离，质点自P 点自由下落后\n仍能返回\n（B）把A 板向下平移一小段距离，质点自P 自由下落后将穿过N 孔继续下落\n（C）把B 板向上平移一小段距离，质点自P 点自由下落后仍能返回\n（D）把B 板向下平移一小段距离，质点自P 点自由下落后将穿过N 孔继续下落",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "A．在一次“飞车过黄河”的表演中，汽车在空中飞经最高点后在对岸着地。已知汽车\n从最高点至着地点经历时间约0.8 秒，两点间的水平距离约为30 米，忽略空气阻力，则最\n高点与着地点间的高度差约为___________米。",
+      "answer": "3.2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -332,22 +446,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 3,
-        "questionNumber": 11,
+        "endPage": 3,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q15",
-      "content": "A．关于原子结构，卢瑟福根据___________实验提出了原子核式结构模型。本世纪初，\n玻尔结合普朗克量子学说提出的原子模型，成功地解释了___________原子的光谱。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "A．一交流电压的瞬时值表达式为 u = 15sin100πt (V)，将该交流电压加在一电阻上时，\n产生的电功率为 25 W。那么，这个电阻的阻值是___________Ω。\nB 组：\n12B．关于光的本性，早期有牛顿的微粒说和惠更斯的___________说，后来又有麦克斯韦的\n电磁说。本世纪初，为解释___________现象，爱因斯坦提出了光子说。\n13B．在一次“飞车过黄河”的表演中，汽车在空中飞经最高点后在对岸着地。已知汽车从\n最高点至着地点经历时间约0.8 秒，两点间的水平距离约为30 米，忽略空气阻力，则汽车\n在最高点时的速度约为___________米／秒。\n14B．水电站给远处山村送电的输出功率是 100 kW，用 2 000 V 电压输电，线路上损失的\nM\nN\nP\nA\nB\nd\nd\nP\na\nb\nc\n第 4 页 共 11 页\n功率是 2.5×104 W，如果改用 20 000 V 高压输电，线路上损失的功率是___________W。",
+      "answer": "4.5\nB 组：\n12．波动，光电效应\n13．37.5\n14．250",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -355,68 +475,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 3,
-        "questionNumber": 12,
+        "endPage": 4,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q16",
-      "content": "A．在一次“飞车过黄河”的表演中，汽车在空中飞经最高点后在对岸着地。已知汽车\n从最高点至着地点经历时间约0.8 秒，两点间的水平距离约为30 米，忽略空气阻力，则最\n高点与着地点间的高度差约为___________米。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 3,
-        "questionNumber": 13,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q17",
-      "content": "A．一交流电压的瞬时值表达式为 u = 15sin100πt (V)，将该交流电压加在一电阻上时，\n产生的电功率为 25 W。那么，这个电阻的阻值是___________Ω。\nB 组：\n12B．关于光的本性，早期有牛顿的微粒说和惠更斯的___________说，后来又有麦克斯韦的\n电磁说。本世纪初，为解释___________现象，爱因斯坦提出了光子说。\n13B．在一次“飞车过黄河”的表演中，汽车在空中飞经最高点后在对岸着地。已知汽车从\n最高点至着地点经历时间约0.8 秒，两点间的水平距离约为30 米，忽略空气阻力，则汽车\n在最高点时的速度约为___________米／秒。\n14B．水电站给远处山村送电的输出功率是 100 kW，用 2 000 V 电压输电，线路上损失的\nM\nN\nP\nA\nB\nd\nd\nP\na\nb\nc\n第 4 页 共 11 页\n功率是 2.5×104 W，如果改用 20 000 V 高压输电，线路上损失的功率是___________W。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 3,
-        "questionNumber": 14,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q18",
       "content": "已知LC 振荡电路中电感为L0，为利用此振荡电路发射波长为λ 的电磁波，振荡电路的\n电容应为___________。\n第 5 页 共 11 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -424,68 +504,90 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q17",
+      "content": "如图所示，空间存在垂直于纸面的均匀磁场，在半径为a 的\n圆形区域内、外，磁场方向相反，磁感应强度的大小均为B。一\n半径为b，电阻为R 的圆形导线环放置在纸面内，其圆心与圆形\n区域的中心重合。在内、外磁场同时由 B 均匀地减小到零的过程\n中，通过导线截面的电量 q = __________。",
+      "answer": "ABπ（2a2 − b2）\nR\nE\nA（或\nABπ（b2 − 2a2）\nR\nE\nA）",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q017-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q017-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q18",
+      "content": "已知铜的密度为8.9×103 千克/米\n3，铜的原子量为64，质子和中子的质量均约为\n1.67×10−27 千克，则铜块中平均每个铜原子所占的空间体积约为___________米3。",
+      "answer": "1.2×10−29",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q19",
-      "content": "如图所示，空间存在垂直于纸面的均匀磁场，在半径为a 的\n圆形区域内、外，磁场方向相反，磁感应强度的大小均为B。一\n半径为b，电阻为R 的圆形导线环放置在纸面内，其圆心与圆形\n区域的中心重合。在内、外磁场同时由 B 均匀地减小到零的过程\n中，通过导线截面的电量 q = __________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 5,
-        "questionNumber": 16,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q20",
-      "content": "已知铜的密度为8.9×103 千克/米\n3，铜的原子量为64，质子和中子的质量均约为\n1.67×10−27 千克，则铜块中平均每个铜原子所占的空间体积约为___________米3。\n四．（29 分）本题共5 小题。第（1）小题4 分，第（2）、（3）、（4）小题各6 分、第（5）\n小题7 分。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 5,
-        "questionNumber": 17,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q21",
       "content": "如图所示，一静电计与锌板相连，在A 处用\n一紫外灯照射锌板，关灯后，指针保持一定偏角。\n①现用一带负电的金属小球与锌板接触，则静电\n计指针偏角将________（填“增大”，“减小”或\n“不变”）。\n②使静电计指针回到零，再用相同强度的钠灯发\n出的黄光照射锌板，静电计指针无偏转。那么，\n若改用强度更大的红外线灯照射锌板，可观察到\n静电计指针_______（填“有”或“无”）偏转。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "①减小②无",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -493,22 +595,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q019-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q019-p005-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q22",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q20",
       "content": "用万用表测电阻。\n①每次换档后，需重新________，再进行测量。\n②如果表的指针偏转过大，为使测量比较精确，应将选择开关拨\n至倍率较________（填大或小）的档位上。\n③某次测电阻时，表的指针位置如图所示，则该电阻的测量值是\n________欧。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "①调零②小③190",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -516,22 +628,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q020-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q020-p005-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q23",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q21",
       "content": "某同学用以下器材测量电阻：\n①安培计、②电阻箱、③单刀双掷电键（这种电键在掷刀a 倒向b 时ab 接通，倒向c 时ac\n接通）、④待测电阻、⑤电源、⑥限流电阻，如图所示。实验方法是利用单刀双掷电键分别\n将电阻箱和待测电阻接入电路，用电阻箱替代待测电阻的方法来测定待测电阻的阻值。\n在图中完成电路的连接（其中有二条导线已连接好）。\nB\nB\na\nb\n紫外灯\n锌板\n静电计\nA\n第 6 页 共 11 页\n②本实验中电键应先接通的是含有________（填“待测电阻”或“电阻箱”）的电路。用电\n键变换电路，调节电阻箱时，应使两次测量的________大小相同，这时待测电阻的值可以从\n________上读出。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "①如图\n第 9 页 共 11 页\n②待测电阻，电流（或安培计读数），电阻箱",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -539,22 +661,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q021-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q021-p006-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q24",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q22",
       "content": "下图表示用打点计时器记录小车的运动情况，开始时小车在光滑水平玻璃板上运动。后\n来在薄布面上作匀减速运动，所打出的纸带如图所示（附有刻度尺），纸带上相邻两点对应\n的时间间隔为0.02 秒。\n从纸带上可以确定小车作匀减速运动的初速度是________m/s，小车在布上运动的加速度大\n小是________m/s2。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "0.9 米/秒，5 米/秒2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -562,68 +694,92 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q022-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q022-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q23",
+      "content": "为测定木块与斜面之间的滑动摩擦系数，某同学让木块\n从斜面上端自静止起作匀加速下滑运动，他使用的实验器材\n仅限于①倾角固定的斜面（倾角未知）、②木块、③秒表、\n④米尺。\n实验中应记录的数据是________________，计算摩擦系数的公式是 μ = __________。为了减\n小测量的误差，可采用的办法是____________________。\n①\n②\n③\n④\n⑤\n⑥\na\nc\nb\nRx\n布\n纸带\n厘米刻度尺\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ncm\nL\nh\nd\n纸带\n第 7 页 共 11 页\n五、本大题有两题：",
+      "answer": "h，d，L，t；μ = Ah\nd\nE\nA− A2L2\ngt2d\nE\nA；多次测量取平均值的方法\n五．",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q023-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q023-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q24",
+      "content": "（10 分）单色细光束射到折射率n = A 2E\nA的透明球表面，\n光束在过球心的平面内，入射角i = 45°。研究经折射进入球\n内后又经内表面反射一次，再经球面折射后射出的光线，如\n图所示（图上已画出入射光和出射光）。\n（1）在图上大致画出光线在球内的路径和方向；\n（2）求入射光与出射光之间的夹角α；\n（3）如果入射的是一束白光，透明球的色散情况与玻璃相\n仿，问哪种颜色光的α 角最大，哪种颜色光的α 角最小？",
+      "answer": "（10 分）\n（1）如图\n（2）由折射定律\nAsini\nsinr\nE\nA= n\n得 sinr = Asini\nn\nE\nA= A\n2\nE2\n2\nE\nA= A1\n2\nE\nr = 30°\n由几何关系及对称性，有\nAα\n2\nE\nA= r −（i − r） = 2r − i\nα = 4r − 2i\n以 r = 30°，i = 45° 代入得：α = 30°\n（3）红光 α 最大，紫光 α 最小。",
+      "analysis": "（1）3 分：路径 2 分。方向 1 分。（只要反射点在两虚线之间的圆上，路径即\n算对；只要有一只箭头。方向即算对）\n（2）5 分：由折射定律（①式）得 r = 30° 得 2 分；由几何关系（②式或②′式）得出 α =\n30° 得 3 分。\n（3）2 分：每个结论各 1 分。\n①\n②\n③\n④\n⑤\n⑥\na\nc\nb\nRx\ni = 45°\nO\nα\nr\nr\nr\nr\n第 10 页 共 11 页",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 1997,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1997/1997上海.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/1997/1997上海.pdf#q25",
-      "content": "为测定木块与斜面之间的滑动摩擦系数，某同学让木块\n从斜面上端自静止起作匀加速下滑运动，他使用的实验器材\n仅限于①倾角固定的斜面（倾角未知）、②木块、③秒表、\n④米尺。\n实验中应记录的数据是________________，计算摩擦系数的公式是 μ = __________。为了减\n小测量的误差，可采用的办法是____________________。\n①\n②\n③\n④\n⑤\n⑥\na\nc\nb\nRx\n布\n纸带\n厘米刻度尺\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\ncm\nL\nh\nd\n纸带\n第 7 页 共 11 页\n五、本大题有两题：",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 6,
-        "questionNumber": 22,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q26",
-      "content": "（10 分）单色细光束射到折射率n = A 2E\nA的透明球表面，\n光束在过球心的平面内，入射角i = 45°。研究经折射进入球\n内后又经内表面反射一次，再经球面折射后射出的光线，如\n图所示（图上已画出入射光和出射光）。\n（1）在图上大致画出光线在球内的路径和方向；\n（2）求入射光与出射光之间的夹角α；\n（3）如果入射的是一束白光，透明球的色散情况与玻璃相\n仿，问哪种颜色光的α 角最大，哪种颜色光的α 角最小？",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1997,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1997/1997上海.pdf",
-        "page": 7,
-        "questionNumber": 23,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q27",
       "content": "（12 分）如图所示的电路中，R1 = 3 Ω，R2 = 9 Ω，R3 = 6 Ω，\n电源电动势E = 24 V，内阻不计，当电键S1、S2 均开启和均闭\n合时，灯泡L 都同样正常发光。\n（1）写出两种情况下流经灯泡的电流方向：\nS1、S2 均开启时：________；\nS1、S2 均闭合时：________。\n（2）求灯泡正常发光时的电阻R 和电压U。\n六、（12 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（12 分）\n（1）S1、S2 均开启时：从 b→a\nS1、S2 均闭合时：从 a→b\n（2）S1、S2 均开启时流过灯泡电流\nI1 = A\nE\nR1 + R2 + R\nE\nS1、S2 均闭合时流过灯泡的电流\nI2 = A\nE\nR·R1\nR + R1 + R3\nE\nA·A\nR1\nR + R1\nE\n同样正常发光，应有\nI1 = I2\n即\nA\nE\nR1 + R2 + R\nE\nA= A\nE\nR·R1\nR + R1 + R3\nE\nA·A\nR1\nR + R1\nE\n解之，得\nR = AR1(R1 + R2 − R3)\nR3\nE\nA= A3(3 + 9 − 6)\nE6\nE\nAΩ = 3 Ω\nU = A\nE\nR1 + R2 + R\nE\nA·R = A\n24\n3 + 9 + 3\nE\nA×3 V = 4.8 V",
+      "analysis": "（1）3 分：其中① 1 分② 2 分\n（2）9 分：列出③式 1 分，列出④式 2 分。列出⑤式 2 分（直接列出⑥式得 5 分），得\n出 R、U 结果各 2 分。\n六、（12 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -631,22 +787,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q025-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q025-p007-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q025-p007-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q28",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q26",
       "content": "有人设计了一种测温装置，其结构如图所示。玻璃泡A 内封有一定量气体，\n与A 相连的B 管插在水银槽中，管内水银面的高度x 即可反映泡内气体的温\n度，即环境温度，并可由B 管上的刻度直接读出。设B 管的体积与A 泡的体积\n相比可略去不计。\n（1）在标准大气压下对B 管进行温度刻度（标准大气压相当于76 厘米水银柱\n的压强）。已知当温度t1 = 27℃时，管内水银面高度x1 = 16 厘米，此高度即为\n27℃的刻度线。问t = 0℃的刻度线在x 为多少厘米处？\n（2）若大气压已变为相当于75 厘米水银柱的压强，利用该测温装置测量温度\n时所得读数仍为27℃，问此时实际温度为多少？\n七、（14 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）为等容过程，有\np = AT\nT1\nE\nAp1\n①\n以 p1 = 76 − 16 = 60 cmHg，T1 = 273 + 27 = 300 K，T = 273 K\n代入上式，得\np = A273\n300\nE\nA×60 = 54.6 cmHg\nx = 76 − 54.6 = 21.4 cm\n（2）此时A 泡内气体压强\np′ = 75 − 16 = 59 cmHg\n实际温度：T′ = Apʹ\np\nE\nAT1\n②\n代入数据：T′ = A59\n60\nE\nA×300 = 295 K = 22℃",
+      "analysis": "（1）6 分。知道为等容过程并列出①式得 3 分，得出 x = 21.4 cm 得 3 分。\n（2）6 分。求出 p′ = 59 cmHg 得2 分，由公式②求出 T = 295 K（或 22℃）得4 分。其中\n公式②占 2 分，结果占 2 分。\n第 11 页 共 11 页\n七、（14 分）",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -654,22 +819,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q026-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b985878b72c87d93-q026-p007-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1997/1997上海.pdf#q29",
+      "questionId": "physics:普通高考/1997/1997上海.pdf#q27",
       "content": "静止在太空中的飞行器上，有一种装置，它利用电场加速带电粒子，形成向外发射的高\n速粒子流，从而对飞行器产生反冲力，使其获得加速度。已知飞行器质量为M，发射的是2\n价氧离子，发射离子的功率恒为P，加速的电压为U，每个氧离子的质量为m，单位电荷的\n电量为e。不计发射氧离子后飞行器质量的变化，求：\n（1）射出的氧离子速度；\n（2）每秒钟射出的氧离子数；\n（3）射出离子后飞行器开始运动时的加速度。\nA\nB x\ni = 45°\nO\nα\nR1\nR3\nR2\nL\nS1\nS2\na\nb\nE\n第 8 页 共 11 页",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）qU = A1\n2\nE\nAmv2\n①\nv = A\n2qU\nm\nE\nA= 2 A\neU\nm\nE\nA\n②\n（2）设每秒钟射出的氧离子数为 n，有\nP = nqU\n③\n得\nn = A P\nqU\nE\nA= A P\n2eU\nE\nA\n④\n（3）F = AΔp\nΔt\nE\nA= nmv = A P\n2eU\nE\nA·m·2 A\neU\nm\nE\nA= PA\nm\neU\nE\nA\n⑤\na = AF\nM\nE\nA= AP\nM\nm\nEeU\nE\nA\n⑥",
+      "analysis": "共 14 分。（1）4 分，写出①得 2 分，得出结果②式 2 分。\n（2）5 分。列出③式 3 分，得出④式 2 分。\n（3）5 分。得出⑤式 3 分，得出⑥式 2 分。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1997,
       "subject": "物理",
@@ -677,11 +850,24 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1997/1997上海.pdf",
         "page": 7,
+        "endPage": 8,
         "questionNumber": 26,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 18,
+    "answerGraphics": 2,
+    "assigned": 16,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

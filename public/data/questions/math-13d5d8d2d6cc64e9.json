@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
   "name": "2008新课标理(海南,宁夏)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q01",
       "content": "已知函数y = 2 sin(ωx + φ) (ω > 0) 在区间[0, 2π] 的图象如图, 那么\nω =\n(\n)\nx\n1\n2π\ny\n1\nO\n(A) 1\n(B) 2\n(C) 1\n2\n(D) 1\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q02",
       "content": "已知复数z = 1 −i, 则z2 −2z\nz −1\n=\n(\n)\n(A) 2i\n(B) −2i\n(C) 2\n(D) −2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q03",
       "content": "如果等腰三角形的周长是底边长的5 倍, 那么它的顶角的余弦值为\n(\n)\n(A) 5\n18\n(B) 3\n4\n(C)\n√\n3\n2\n(D) 7\n8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q04",
       "content": "设等比数列{an} 的公比q = 2, 前n 项和为Sn, 则S4\na2\n=\n(\n)\n(A) 2\n(B) 4\n(C) 15\n2\n(D) 17\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q05",
       "content": "下面的程序框图, 如果输入三个实数a, b, c, 要求输出这三个数中最大的\n数, 那么在空白的判断框中, 应该填入下面四个选项中的\n(\n)\n开始\n输入a, b, c\nx = a\nb > x\nx = b\nx = c\n输出x\n结束\n否\n否\n是\n是\n(A) c > x\n(B) x > c\n(C) c > b\n(D) b > c",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -125,22 +164,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q06",
       "content": "已知a1 > a2 > a3 > 0, 则使得(1 −aix)2 < 1 (i = 1, 2, 3) 都成立的x 取\n值范围是\n(\n)\n(A)\n(\n0, 1\na1\n)\n(B)\n(\n0, 2\na1\n)\n(C)\n(\n0, 1\na3\n)\n(D)\n(\n0, 2\na3\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q07",
       "content": "3 −sin 70◦\n2 −cos210◦=\n(\n)\n(A) 1\n2\n(B)\n√\n2\n2\n(C) 2\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -171,22 +226,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q08",
       "content": "平面向量a,b 共线的充要条件是\n(\n)\n(A) a, b 方向相同\n(B) a, b 两向量中至少有一个为零向量\n(C) ∃λ ∈R, b = λa\n(D) 存在不全为零的实数λ1, λ2, λ1a + λ2b = 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -194,22 +255,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q09",
       "content": "甲、乙、丙3 位志愿者安排在周一至周五的5 天中参加某项志愿者活动, 要\n求每人参加一天且每天至多安排一人, 并要求甲安排在另外两位前面. 不\n同的安排方法共有\n(\n)\n(A) 20 种\n(B) 30 种\n(C) 40 种\n(D) 60 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q10",
       "content": "由直线x = 1\n2, x = 2, 曲线y = 1\nx 及x 轴所围图形的面积为\n(\n)\n(A) 15\n4\n(B) 17\n4\n(C) 1\n2 ln 2\n(D) 2 ln 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q11",
       "content": "已知点P 在抛物线y2 = 4x 上, 那么点P 到点Q(2, −1) 的距离与点P 到\n抛物线焦点距离之和取得最小值时, 点P 的坐标为\n(\n)\n(A)\n(1\n4, −1\n)\n(B)\n(1\n4, 1\n)\n(C) (1, 2)\n(D) (1, −2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q12",
       "content": "某几何体的一条棱长为\n√\n7, 在该几何体的正视图中, 这条棱的投影是长为\n√\n6 的线段, 在该几何体的侧视图与俯视图中, 这条棱的投影分别是长为a\n和b 的线段, 则a + b 的最大值为\n(\n)\n(A) 2\n√\n2\n(B) 2\n√\n3\n(C) 4\n(D) 2\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q13",
       "content": "已知向量a = (0, −1, 1), b = (4, 1, 0), |λa + b| =\n√\n29 且λ > 0, 则\nλ =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q14",
       "content": "设双曲线x2\n9 −y2\n16 = 1 的右顶点为A, 右焦点为F. 过点F 平行双曲线的\n一条渐近线的直线与双曲线交于点B, 则△AFB 的面积为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -332,22 +437,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q15",
       "content": "一个六棱柱的底面是正六边形, 其侧棱垂直底面. 已知该六棱柱的顶点都\n在同一个球面上, 且该六棱柱的体积为9\n8, 底面周长为3, 则这个球的体积\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -355,22 +466,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q16",
       "content": "从甲、乙两品种的棉花中各抽测了25 根棉花的纤维长度(单位: mm), 结\n果如下:\n甲品种: 271 273 280 285 285 287 292 294 295 301 303 303 307 308 310 314\n319 323 325 325 328 331 334 337 352\n乙品种: 284 292 295 304 306 307 312 313 315 315 316 318 318 320 322 322\n324 327 329 331 333 336 337 343 356\n由以上数据设计了如下茎叶图\n甲\n乙\n3\n1\n27\n7\n5\n5\n0\n28\n4\n5\n4\n2\n29\n2\n5\n8\n7\n3\n3\n1\n30\n4\n6\n7\n9\n4\n0\n31\n2\n3\n5\n5\n6\n8\n8\n8\n5\n5\n3\n32\n0\n2\n2\n4\n7\n9\n7\n4\n1\n33\n1\n3\n6\n7\n34\n3\n2\n35\n6\n根据以上茎叶图, 对甲、乙两品种棉花的纤维长度作比较, 写出两个统计结\n论:\n①\n;\n②\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -378,22 +499,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q17",
       "content": "已知{an} 是一个等差数列, 且a2 = 1, a5 = −5.\n(1) 求{an} 的通项an;\n(2) 求{an} 前n 项和Sn 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -401,22 +528,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q18",
       "content": "如图, 已知点P 在正方体ABCD−A′B′C′D′ 的对角线BD′ 上, ∠PDA =\n60◦.\n(1) 求DP 与CC′ 所成角的大小;\n(2) 求DP 与平面AA′D′D 所成角的大小.\nA\nB\nC\nD\nA′\nP\nB′\nC′\nD′\n467",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -424,22 +557,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q19",
       "content": "A, B 两个投资项目的利润率分别为随机变量X1 和X2. 根据市场分析,\nX1 和X2 的分布列分别为\nX1\n5%\n10%\nP\n0.8\n0.2\nX2\n2%\n8%\n12%\nP\n0.2\n0.5\n0.3\n(1) 在A, B 两个项目上各投资100 万元, Y1 和Y2 分别表示投资项目A\n和B 所获得的利润, 求方差DY1, DY2;\n(2) 将x (0 ⩽x ⩽100) 万元投资A 项目, 100 −x 万元投资B 项目, f(x)\n表示投资A 项目所得利润的方差与投资B 项目所得利润的方差的和. 求\nf(x) 的最小值, 并指出x 为何值时, f(x) 取到最小值.\n(注: D(aX + b) = a2DX)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -447,22 +590,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q20",
       "content": "在直角坐标系xOy 中, 椭圆C1: x2\na2 + y2\nb2 = 1 (a > b > 0) 的左、右焦点分\n别为F1、F2, F2 也是抛物线C2: y2 = 4x 的焦点, 点M 为C1 与C2 在第\n一象限的交点, 且|MF2| = 5\n3.\n(1) 求C1 的方程;\n(2) 平面上的点N 满足#      »\nMN = #       »\nMF1 + #       »\nMF2, 直线l\nMN, 且与C1 交于\nA、B 两点, 若#   »\nOA · #    »\nOB = 0, 求直线l 的方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -470,22 +619,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q21",
       "content": "设函数f(x) = ax +\n1\nx + b (a, b ∈Z), 曲线y = f(x) 在点(2, f(2)) 处的\n切线方程为y = 3.\n(1) 求f(x) 的解析式;\n(2) 证明: 函数y = f(x) 的图象是一个中心对称图形, 并求其对称中心;\n(3) 证明: 曲线y = f(x) 上任一点的切线与直线x = 1 和直线y = x 所围\n三角形的面积为定值, 并求出此定值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -493,22 +648,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q22",
       "content": "如图, 过圆O 外一点M 作它的一条切线, 切点为A, 过A 点作直线AP\n垂直直线OM, 垂足为P.\n(1) 证明: OM · OP = OA2;\n(2) N 为线段AP 上一点, 直线NB 垂直直线ON, 且交圆O 于B 点. 过\nB 点的切线交直线ON 于K. 证明: ∠OKM = 90◦.\nA\nP\nB\nK\nO\nM\nN",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -516,22 +677,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q23",
       "content": "已知曲线C1:\n{\nx = cos θ,\ny = sin θ,\n(θ 为参数), 曲线C2:\n\n\n\n\n\n\n\nx =\n√\n2\n2 t −\n√\n2,\ny =\n√\n2\n2 t,\n(t 为参\n数).\n(1) 指出C1, C2 各是什么曲线, 并说明C1 与C2 公共点的个数;\n(2) 若把C1, C2 上各点的纵坐标都压缩为原来的一半, 分别得到曲线C1\n′,\nC2\n′. 写出C1\n′, C2\n′ 的参数方程. C1\n′ 与C2\n′ 公共点的个数和C1 与C2 公\n共点的个数是否相同? 说明你的理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -539,22 +710,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf#q24",
       "content": "已知函数f(x) = |x −8| −|x −4|.\n(1) 作出函数y = f(x) 的图象;\n(2) 解不等式|x −8| −|x −4| > 2.\nx\nO\n1\ny\n1\n468",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2008,
       "subject": "数学",
@@ -562,11 +739,31 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2008/2008新课标理(海南,宁夏).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q024-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q024-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-13d5d8d2d6cc64e9-q024-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 9,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

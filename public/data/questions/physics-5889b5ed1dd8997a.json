@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
   "name": "2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 15,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 14,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q01",
       "content": "质量为m 的物体用轻绳AB 悬挂于天花板上。用水平向左的力F 缓慢拉动绳的中点O，\n如图所示。用T 表示绳OA 段拉力的大小，在O 点向左移动的过程中（    ）\n（A）F 逐渐变大，T 逐渐变大\n（B）F 逐渐变大，T 逐渐变小\n（C）F 逐渐变小，T 逐渐变大\n（D）F 逐渐变小，T 逐渐变小",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "动态平衡问题，F 与T 的变化情况如图：\n可得：\n'\n''\nF\nF\nF\n→\n→\n\n'\n''\nT\nT\nT\n→\n→\n\n物体平衡",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -33,11 +44,391 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q001-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q02",
+      "content": "如图，P 是固定的点电荷，虚线是以P 为圆心的两个圆．带电粒子Q 在P 的电场中运\n动，运动轨迹与两圆在同一平面内，a、b、c 为轨迹上的三个点。若Q 仅受P 的电场力作用，\n其在a、b、c 点的加速度大小分别为aa，ab，ac，速度大小分别为va，vb，vc，则（    ）\n（A）aa＞ab＞ac，va＞vc＞vb\n（B）aa＞ab＞ac，vb＞vc＞va\n（C）ab＞ac＞aa，vb＞vc＞va\n（D）ab＞ac＞aa，va＞vc＞vb",
+      "answer": "D",
+      "analysis": "由库仑定律可知，粒子在a、b、c 三点受到的电场力的大小关系为𝐹𝑏> 𝐹𝑐> 𝐹𝑎 ，由\n𝑎=\n𝐹合\n𝑚，可知𝑎𝑏> 𝑎𝑐> 𝑎𝑎，由题意可知，粒子Q 的电性与P 相同，受斥力作用结合运动轨\n迹，得𝑣𝑎> 𝑣𝑐> 𝑣𝑏\n牛顿第二定律、库仑定律、电荷间相互作用。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q03",
+      "content": "小球P 和Q 用不可伸长的轻绳悬挂在天花板上，P 球的质量大于Q\n球的质量，悬挂P 球的绳比悬挂Q 球的绳短．将两球拉起，使两绳均被\n水平拉直，如图所示，将两球由静止释放，在各自轨迹的最低点（    ）\n（A）P 球的速度一定大于Q 球的速度\n（B）P 球的动能一定小于Q 球的动能\n（C）P 球所受绳的拉力一定大于Q 球所受绳的拉力\n（D）P 球的向心加速度一定小于Q 球的向心加速度\na\nb\nc\nP",
+      "answer": "C",
+      "analysis": "由动能定理：\n2\n1\n0\n2\nmgL\nmv\n=\n−\n得\n2\nv\ngL\n=\n．由\n于1\n2\nl\nl\n\n，则\nP\nQ\nv\nv\n\n，A 错误； 又\n2\nkQ\nQ\nE\nm gl\n=\n，\n1\nkP\nP\nE\nm gl\n=\n其大小无法判断，B 错误； 受力分析T\nmg\nF\n−\n=\n向；\n2v\nF\nm L\n=\n向\n；F\nF\nma\n=\n=\n向\n合\n 联立可得\n3\nT\nmg\n=\n，\n2\na\ng\n=\n则\np\nQ\nT\nT\n\n C 正确，\nP\nQ\na\na\n=\n D 错误。\n牛顿第二定律、圆周运动、动能定理。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q003-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q003-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q04",
+      "content": "阻值相等的四个电阻，电容器C 及电池E（内阻可忽略）连接成如图所示电\n路．开关S 断开且电流稳定时，C 所带的电荷量为Q1；闭合开关S，电流再次稳\n定后，C 所带的电荷量为Q2。Q1 与Q2 的比值为（    ）\n（A）2\n5\n（B）1\n2\n（C）3\n5\n（D）2\n3",
+      "answer": "C",
+      "analysis": "由已知可得：\n1\n1\nQ = U C\n2\n2\nQ = U C 则\n1\n1\n2\n2\nQ\nU\n=\nQ\nU\nS 断开时等效电路如图：\n(\n)\n(\n)\n(\n)\n(\n)\n1\nR R + R\nR + R + R\n1\nU =\nE\nR R + R\n2\nR + R + R + R\n\n\n1 E\n5\n=\nS 闭合时等效电路如图：\n2\nR R\n1\nR + R\nU =\nE\nR R\n3\nR + R + R\n\n=\n\n则\n1\n1\n2\n2\nQ\nU\n3\n=\nQ\nU\n5\n=\n串并联电路、电容器的电容。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q004-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q004-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q004-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q004-p002-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q05",
+      "content": "一圆筒处于磁感应强度大小为B 的匀强\n磁场\n中，磁场方向与筒的轴平行，筒的横截面如\n图所\n示。图中直径MN 的两端分别开有小孔。筒\n绕其\n中心轴以角速度ω 顺时针转动．在该截面内，\n一带\n电粒子从小孔M 射入筒内，射入时的运动方\n向与\nMN 成30°角。当筒转过90°时，该粒子恰好\n从小孔N 飞出圆筒。不计重力。若粒子在筒\n内未与\n筒壁发生碰撞，则带电粒子的比荷为（    ）\n（A）ω\n3B\n（B）ω\n2B\n （C）ω\nB\n（D）\n2ω\nB",
+      "answer": "A",
+      "analysis": "如图所示，由几何关系可知粒子的运动轨迹圆心为\n'\nO ，\n'\n'\n30\nMO N\n\n=\n由粒子在磁场中的运动规律可知\n2\n2π\nF\nm\nr\nT\n\n\n=\n\n\n\n\n向\n ①\n=\nF\nF\nqvB\n=\n向\n合\n  ②\n由①②得\n2 m\nT\nBq\n\n=\n即比荷\n2\nq\nm\nBT\n\n=\n ③\n由圆周运动与几何关系可知t\nt\n=\n粒子\n筒\n即30\n90\n360\n360\nT\nT\n\n\n\n=\n\n\n\n粒子\n筒\n则\n3\nT\nT\n=\n粒子\n筒  ④\n又有\n2\nT\n\n\n=\n筒\n    ⑤\n由③④⑤得\n3\nq\nm\nB\n\n=\n带电粒子在磁场中运动。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q005-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q005-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q005-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q06",
+      "content": "两实心小球甲和乙由同一种材料制成，甲球质量大于乙球质\n量．两球在空气中由静止下\n落，假设它们运动时受到的阻力与球的半径成正比，与球的速率无关。若它们下落相同的距离，则（    ）\n（A）甲球用的时间比乙球长\n（B）甲球末速度的大小大于乙球末速度的大小\n（C）甲球加速度的大小小于乙球加速度的大小\n（D）甲球克服阻力做的功大于乙球克服阻力做的功",
+      "answer": "BD",
+      "analysis": "设f\nkR\n=\n，则受力分析得F\nmg\nf\n=\n−\n合\n又F\nma\n=\n合\n、\n3\n4\n3\nm\nR\n\n\n=\n\n，\n得\n2\n4\n3\nk\na\ng\nR\n\n\n=\n−\n\n。由m 甲＞m 乙、ρ 甲 = ρ 乙可知a 甲＞a 乙，C 错误；v-t 图像\n如图，可知甲、乙位移相同，则v 甲＞v 乙，B 正确；t 甲＜t 乙，A 错误；由功的定\n义可知\n=\nW\nf\nx\n\n克服\n，x\nx\n=\n甲\n乙，f\nf\n\n甲\n乙，则W\nW\n\n甲克服\n乙克服  D 正确。\n牛顿第二定律、速度图像、功。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q07",
+      "content": "法拉第圆盘发动机的示意图如图所示．铜圆盘安装在竖直的铜轴上，两铜片P、Q\n分别与圆盘的边缘和铜轴接触．圆盘处于方向竖直向上的匀强磁场B 中。圆盘旋转时，\n关于流过电阻R 的电流，下列说法正确的是（    ）\n（A）若圆盘转动的角速度恒定，则电流大小恒定\n（B）若从上向下看，圆盘顺时针转动，则电流沿a 到b\n的方向流动\n（C）若圆盘转动方向不变，角速度大小发生变化，则电\n流方向可能发生变化\n（D）若圆盘转动的角速度变为原来的两倍，则电流在R 上的热功率也变为原来的2 倍",
+      "answer": "AB",
+      "analysis": "将圆盘看成无数幅条组成，它们都在切割磁感线从而产生感应电动势，出现感应电流：根据右手定\n则圆盘上感应电流从边缘向中心，则当圆盘顺时针转动时，流过电阻的电流方向从a 到b，B 正确；由法拉\n第电磁感应定律得感生电动势\n2\n1\n2\nE\nBLV\nBL \n=\n=\n A 正确，C 错误；由\n2\nE\nP\nR\n=\n 得\n2\n4\n2\n1\n4 B L\nP\nR\n\n=\n 当变为2 倍\n时，P 变为原来的4 倍，D 错误。\n电磁感应、电功率、圆周运动。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q007-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q08",
+      "content": "如图，小球套在光滑的竖直杆上，轻弹簧一端固定于O 点，另一端与小球相\n连．现将小球从M 点由静止释放，它在下降的过程中经过了N 点，已知在M、N\n两点处，弹簧对小球的弹力大小相等。且∠ONM＜∠OMN＜π\n2 ，在小球从M 点运\n动到N 点的过程中（    ）\n（A）弹力对小球先做正功后做负功\n（B）有两个时刻小球的加速度等于重力加速度\n（C）弹簧长度最短时，弹力对小球做功的功率为零\n（D）小球到达N 点时的动能等于其在M、N 两点的重力势能差",
+      "answer": "BCD",
+      "analysis": "由题意可知在运动过程中受力如上图，小球的位移为MN，则从M\nA\n→\n弹簧处于压缩态，则弹力做负功；从A\nB\n→\n 弹簧从压缩变为原长，弹力做正功；\n从B\nN\n→\n 弹簧从原长到伸长，弹力做负功，则A 错误；在A 点受力如中图，则F\nmg\n=\n合\n 即a\ng\n=\n，B 正确；\n在B 点弹簧处于原长则受力如下图，在A 点时，F弹 垂直于杆，则\n=\ncos\n=0\nP\nF V\n\n弹\n弹\n，C 正确；从M 到N 小\n球与弹簧机械能守恒，则\nk\nP\nE\nE\n=\n增\n减即\n0\nkN\nP\nM\nP\nN\nP\nN\nP\nM\nE\nE\nE\nE\nE\n−\n=\n−\n+\n−\n重\n重\n弹\n弹\n，而M、N 两点弹力相同，由胡克\n定律可知，弹簧形变量相同，则\nP\nN\nP\nM\nE\nE\n=\n弹\n弹\n，即\nKN\nP\nM\nP\nN\nE\nE\nE\n=\n−\n重\n重，D 正确。\n胡克定律、功与能的关系、机械能守恒。\n第II 卷（非选择题共174 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q008-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q008-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q008-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q09",
+      "content": "（6 分）\n某物理小组对轻弹簧的弹性势能进行探究，实验装置如图（a）所示：轻弹簧放置在光滑水平桌面上，弹簧左\n端固定，右端与一物块接触而不连接，纸带穿过打点计时器并与物块连接。向左推物块使弹簧压缩一段距离，\n由静止释放物块，通过测量和计算，可求得弹簧被压缩后的弹性势能。\n（1）实验中涉及到下列操作步骤：\n①把纸带向左拉直\n②松手释放物块\n③接通打点计时器电源\n④向左推物块使弹簧压缩，并测量弹簧压缩量\n上述步骤正确的操作顺序是__________（填入代表步骤的序号）。\n（2）图（b）中M 和L 纸带是分别把弹簧压缩到不同位置后所得到的实际打点结果。打点计时器所用交流电\n的频率为50 Hz。由M 纸带所给的数据，可求出在该纸带对应的实验中物块脱离弹簧时的速度为_______m/s。\n比较两纸带可知，________（填“M”或“L”）纸带对应的实验中弹簧被压缩后的弹性势能大。",
+      "answer": "(1)④①③②;(2)1.29;𝑀.",
+      "analysis": "：⑴略\n⑵脱离弹簧后物体应该匀速直线运动，则\n2\n2.58\n2.57 10\n1.29\n/\n0.04\nv\nm s\n−\n+\n=\n\n=\n由能量守恒可知，物体的末动能越大，则弹簧被压缩时的弹性势能越大，则\nPM\nPL\nE\nE\n",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q009-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q009-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q10",
+      "content": "（9 分）某同学利用图所示电路测量量\n程为2.5 V 的\n电压表V 的内阻（内阻为数千欧姆），可供\n选择的器材\n有：电阻箱R（最大阻值99999.9 Ω），滑动\n变阻器R1（最\n大阻值50 Ω），滑动变阻器R2（最大阻值5\nkΩ），直流电\n源E（电动势3 V），开关1 个，导线若干。\n实验步骤如下：\n①按电路原理图连接线路；\n②将电阻箱阻值调节为0，将滑动变阻器的\n滑片移到与图中最左端所对应的位置，闭合\n开关S；\n③调节滑动变阻器，使电压表满偏\n④保持滑动变阻器滑片的位置不变，调节电阻箱\n阻值，使电压表的示数为2.00 V，记下电阻箱的\n阻值。\n回答下列问题：\n（1）实验中应选择滑动变阻器_______（填“R1”或“R2”）。\n（2）根据所示电路将右图中实物图连线。\n（3）实验步骤④中记录的电阻箱阻值为630.0 Ω，若认为调节电阻箱时滑动变阻器上的分压不变，计算可得\n电压表的内阻为________Ω（结果保留到个位）。\n（4）如果此电压表是由一个表头和电阻串联构成的，可推断该表头的满刻度电流为___（填正确答案标号）。\n（A）100 μA\n（B）250 μA\n（C）500 μA\n（D）1 mA",
+      "answer": "(1)𝑅1;(2)见解析;(3)2520;(4)D.",
+      "analysis": "⑴实验原理类比于半偏法测电表内阻，电压表所在支路的总电压应该尽量不变化，即滑动变阻器\n选最大阻值小的即选\n1R\n⑵ 如图\n⑶ 近似认为电压表所在电路的总电压不变，且流过电压表与变阻箱的电流不变，\n2\n2.5\n2\nV\nR\nR\n−\n=\n 则\n4\n2520\nV\nR\nR\n=\n=\n\n⑷ 由欧姆定律可知，\nU\n2.5\n=\n1mA\n2520\nI\nR =\n\n满\n满",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q010-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q010-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q010-p005-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q010-p005-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q11",
+      "content": "（12 分）如图，水平面（纸面）内\n间距为\nl 的平行金属导轨间接一电阻，质量为\nm、长度\n为l 的金属杆置于导轨上。t = 0 时，金\n属杆在\n水平向右、大小为F 的恒定拉力作用下\n由静止\n开始运动。t0 时刻，金属杆进入磁感应\n强度大\n小为B，方向垂直于纸面向里的匀强磁场区域，且在磁场中恰好能保持匀速运动。杆与导轨的电阻均忽略不\n计，两者始终保持垂直且接触良好，两者之间的动摩擦因数为μ。重力加速度大小为g。求：\n（1）金属杆在磁场中运动时产生的电动势的大小；\n（2）电阻的阻值。",
+      "answer": "(1)𝐵𝑙𝑡0 (\n𝐹\n𝑚−𝜇𝑔)；(2)\n𝐵2𝑙2𝑡0\n𝑚.",
+      "analysis": "⑴ 由题意可知\n0\n0 ~ t 时间内受力分析如图\nF\nF\nf\n=\n−\n合\n ①\nf\nmg\n\n=\n   ②\n物体做匀加速直线运动 F\nma\n=\n合\n  ③\n物体匀加进入磁场瞬间的速度为v ，则\n0\nv\nat\n=\n  ④\n由法拉第电磁感应定律可知E\nBlv\n=\n  ⑤\n由①②③④⑤可得\n(\n)\n0\nBlt\nE\nF\nmg\nm\n\n=\n−\n    ⑥\n⑵ 金属杆在磁场中的受力如图即由杆在磁场中匀速直线运动可知\n0\nF\nF\nf\n−\n−\n=\n安\n  ⑦\nf\nmg\n\n=\n       ⑧\n由安培力可知 F\nBIl\n=\n安\n  ⑨\n由欧姆定律可知\nE\nI\nR\n=\n   ⑩\n由⑥⑦⑧⑨⑩可知\n2 2\n0\nB l t\nR\nm\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q011-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf#q12",
+      "content": "（20 分）轻质弹簧原长为2l，将弹簧竖直放置在地面上，在其顶端将一\n质量为5m 的物体由静止释放，当弹簧被压缩到最短时，弹簧长度为l，现将\n该弹簧水平放置，一端固定在A 点，另一端与物块P 接触但不连接．AB 是\n长度为5l 的水平轨道，B 端与半径l 的光滑半圆轨道BCD 相切，半圆的直\n径RD 竖直，如图所示，物块P 与AB 间的动摩擦因数μ = 0.5。用外力推动\n物块P，将弹簧压缩至长度l，然后放开，P 开始沿轨道运动，重力加速度大小为g。\n（1）若P 的质量为m，求P 到达B 点时的速度的大小，以及它离开圆轨道后落回到AB 上的位置与B 点之\n间的距离；\n（2）若P 能滑上圆轨道，且仍能沿圆轨道滑下，求P 的质量的取值范围。",
+      "answer": "(1)√6𝑔𝑙；2√2𝑙；(2)\n5\n3 𝑚≤𝑀<\n5\n2 𝑚.",
+      "analysis": "⑴地面上，\nP\nE 重转化为\nP\nE 弹，E机守恒\n∴\nP\nP\nE\nE\n\n= \n重\n弹\n5\nP\nmgl\nE\n=\n，此时弹簧长度为l\nA\nB\n→\n：能量守恒：\nP\nKB\nE\nE\nQ\n=\n+\n即\n2\n1\n5\n4\n6\n2\n\n=\n+\n\n\n=\nB\nB\nmgl\nmv\nmg\nl\nv\ngl\nB\nD\n→\n：动能定理：\n2\n2\n1\n1\n2\n2\n2\n2\n−\n\n=\n−\n\n=\nD\nB\nD\nmg\nl\nmv\nmv\nv\ngl\n此后，物体做平抛运动：\n2\n1\n4\n2\n2\nl\ny\nl\ngt\nt\ng\n=\n=\n=\n2 2\nD\nx\nv t\nl\n=\n=\n∴B 点速度\n6\nBv\ngl\n=\n，落点与B 点距离为2 2l\n⑵假设物块质量为\n'\nm\n则A\nB\n→\n：能量守恒：\n'\n'\np\nKB\nE\nE\nQ\n=\n+\n' 2\n1\n5\n'\n'\n4\n2\nB\nmgl\nm v\nm g\nl\n\n=\n+\n\n解得：\n' 2\n5\n2\n'\nB\nmgl\nv\ngl\nm\n=\n−\n若要滑上圆弧，则\n'\n0\nBv ≥\n，即\n' 2\n0\nB\nv\n≥\n，解得\n5\n'\n2\nm\nm\n≤\n若要滑上圆弧还能沿圆弧滑下，则最高不能超过C 点\n此时 假设恰好到达C 点，则根据能量守恒：\n'\np\npc\nE\nQ\nE\n=\n+\n5\n'\n4\n'\nmgl\nm g\nl\nm gl\n\n=\n\n+\n解得：\n5\n'\n3\nm\nm\n=\n故若使物块不超过C 点，\n5\n'\n3\nm\nm\n≥\n综上：5\n3 m≤mʹ≤5\n2 m\n（二）选考题：共45 分．请考生从3 道物理题，3 道化学题，2 道生物题中，每科任选一道作答，如果多做\n则每科按所做的第一题计分．\n33．【物理——选修3-3】（15 分）\n（1）（5 分）一定量的理想气体从状态a 开始，经历等温或等压过程ab、bc、cd、\nda 回到原状态，其p-T 图像如图所示．其中对角线ac 的延长线过原点O。下列判\n断正确的是__________。\n（填正确答案标号。选对1 个得2 分，选对2 个得4 分，选对3 个得5 分．每选\n错一个扣3 分，最低得分为0 分）\n（A）气体在a、c 两状态的体积相等\n（B）气体在状态a 时的内能大于它在状态c 时的内能\n（C）在过程cd 中气体向外界放出的热量大于外界对气体做的功\n（D）在过程da 中气体从外界吸收的热量小于气体对外界做的功\n（E）在过程bc 中外界对气体做的功等于在过程da 中气体对外界做的\n功\n由PV\nnRT\n=\n得\nnR\nP\nT\nV\n=\n\n且P\nkT\n=\n，即体积V 不变，\na\nc\nV\nV\n=\n，A 正确；温度是气体分子平均\n动能的标志，理想气体内能是温度T 的函数，而\na\nc\nT\nT\n\n 故\na\nc\nE\nE\n\n，B 正确；cd 过程为恒温升压过程，外\n界对系统做正功，但系统内能不变，故放热，放热量Q\nW\n=\n外，C 错误；da 过程为恒压升温过程，体积增\n加，对外做功，吸热，但吸热量Q\nW\nE\n=\n+\n外\n內，故Q\nW\n\n外，D 错误；bc 过程恒压降温，体积减小\nbc\nW\nP V\nnR T\n=\n\n=\n\n，da 过程\nda\n'\n'\n'\nW\nP\nV\nnR T\n=\n\n=\n\n，因为\nbc\nda\nT\nT\n\n= \n，故\n'\nW\nW\n=\n，E 正确。\n（2）（10 分）一氧气瓶的容积为0.08 m3，开始时瓶中氧气的压强为20 个大气压．某实验室每天消耗1 个大\n气压的氧气0.36 m3。当氧气瓶中的压强降低到2 个大气压时，需重新充气。若氧气的温度保持不变，求这瓶\n氧气重新充气前可供该实验室使用多少天。\n瓶中气体量\n3\n3\n20\n0.08\n1.6\nPV\natm\nm\natm m\n=\n\n=\n\n剩余气体量\n3\n3\n2\n0.08\n0.16\nP V\natm\nm\natm m\n=\n\n=\n\n剩\n剩\n每天用量\n3\n3\n1\n0.36\n0.36\nP V\natm\nm\natm m\n=\n\n=\n\n用\n用\n1.6\n0.16\n4\n0.36\nn\n−\n=\n=\n（天）\n34．【物理——选修3-4】（15 分）\n（1）（5 分）关于电磁波，下列说法正确的是_______。（填正确答案标号，选对1 个得2 分，选对2 个得4\n分，选对3 个得5 分．每选错一个扣3 分，最低得分为0 分）\n（A）电磁波在真空中的传播速度与电磁波的频率无关\n（B）周期性变化的电场和磁场可以相互激发，形成电磁波\n（C）电磁波在真空中自由传播时，其传播方向与电场强度、磁感应强度均垂直\n（D）利用电磁波传递信号可以实现无线通信，但电磁波不能通过电缆、光缆传输\n（E）电磁波可以由电磁振荡产生，若波源的电磁振荡停止，空间的电磁波随即消失\n电磁波在真空中传播速度不变，与波长、频率无关，A 正确；电磁波的形成即是变化的电场和变化\n的磁场互相激发得到，B 正确；电磁波传播方向与电场方向与磁场方向垂直，C 正确；光是一种电磁波，光\n可在光导纤维中传播，D 错误；电磁振荡停止后，电磁波仍会在介质或真空中继续传播，E 错误。\n（2）（10 分）一列简谐横波在介质中沿x 轴正向传播，波长不小于10 cm。O 和A 是介质中平衡位置分别位\n于x = 0 和x = 5 cm 处的两个质点。t = 0 时开始观测，此时质点O 的位移为y = 4 cm，质点A 处于波峰位置；\nt = 1\n3 s 时，质点O 第一次回到平衡位置，t = 1s 时，质点A 第一次回到平衡位置。求：\n（ⅰ）简谐波的周期、波速和波长；\n（ⅱ）质点O 的位移随时间变化的关系式。\n（i）\n0s\nt =\n时，A 处质点位于波峰位置\n1s\nt =\n时，A 处质点第一次回到平衡位置可知\n1s\n4\nT =\n，\n=4s\nT\n1s\n3\nt =\n时，O 第一次到平衡位置\n1s\nt =\n时，A 第一次到平衡位置\n可知波从O 传到A 用时\n2 s\n3 ，传播距离\n5cm\nx =\n故波速\n7.5cm / s\nx\nv\nt\n=\n=\n，波长\n30cm\nvT\n=\n=\n（ii）设\n0\nsin(\nt\n)\ny\nA\n\n\n=\n+\n可知\n2\nrad/s\n2\nT\n\n\n=\n=\n又由\n0s\nt =\n时，\n4cm\ny =\n；\n1s\n3\nt =\n，\n0\ny =\n，\n代入得\n8cm\nA =\n，再结合题意得\n0\n5\n6\n\n\n=\n故\n5\n0.08sin(\nt\n)\n2\n6\ny\n\n\n=\n+\n或者\n1\n0.08cos(\nt\n)\n2\n3\ny\n\n\n=\n+\n35．【物理——选修3-5】（15 分）\n（1）（5 分）在下列描述核过程的方程中，属于α 衰变的是______，属于β 衰变的是______，属于裂变的是\n________，属于聚变的是___________。（填正确答案标号）\n（A）146C→147N＋0-1e\n（B）3215P→3216S＋0-1e\n（C）23892U→23490Th＋42He\n（D）147N＋42He→178O＋11H\n（E）23592U＋10n→-14054Xe＋9438Sr＋210n （F）31H＋21H→42He＋10n\nα 衰变C，β 衰变AB，裂变E，聚变F\n（2）（10 分）如图，光滑冰面上静止放置一表面光滑的斜面体，\n斜面体右侧一蹲在滑板上的小孩和其前面的冰块均静止于冰面\n上。某时刻小孩将冰块以相对冰面3 m/s 的速度向斜面体推出，\n冰块平滑地滑上斜面体，在斜面体上上升的最大高度为h = 0.3 m（h 小于斜面体的高度）。已知小孩与滑板的\n总质量为m1 = 30kg，冰块的质量为m2 = 10 kg，小孩与滑板始终无相对运动。取重力加速度的大小g = 10\nm/s2。\n（ⅰ）求斜面体的质量；\n（ⅱ）通过计算判断，冰块与斜面体分离后能否追\n上小孩？\n（ⅰ）规定水平向左为正，对小冰块与鞋面\n组成的\n系统\n由动量守恒：\n(\n)\n=\n+\nm v\nm\nM v\n冰\n冰\n冰\n共\n由能量守恒：\n(\n)\n2\n2\n1\n1\n=\n+\n2\n2\nm v\nm\nM v\nm gh\n+\n冰\n冰\n冰\n共\n冰\n解得\n1m / s\nv\n=\n共\n，M = 20kg\n（ii）由动量守恒(\n)\n+\nM\nm\nm\nM v\nMv\nm v\n=\n+\n冰\n共\n冰\n由能量守恒\n2\n2\n2\n1\n1\n1\n=\n2\n2\n2\nM\nm\nm v\nMv\nm v\n+\n冰\n冰\n冰\n联立解得\n2m / s\nM\nv\n=\n1m / s\nm\nv = −\n对小孩和冰块组成的系统：\n0\nm v\nm v\n=\n+\n小小\n冰冰\n解得\n1m/ s\nv\n= −\n小\n1m/ s\nm\nv\nv\n=\n= −\n小\n即两者速度相同，故追不上。\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016全国2理综(内蒙古,辽宁,吉林,黑龙江,重庆,西藏,陕西,甘肃,青海,宁夏,新疆).pdf",
+        "page": 6,
+        "endPage": 11,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p008-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p009-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p009-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p009-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p009-f07.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p011-f08.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p011-f09.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p011-f10.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-5889b5ed1dd8997a-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 40,
+    "answerGraphics": 2,
+    "assigned": 38,
+    "rendered": 38,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

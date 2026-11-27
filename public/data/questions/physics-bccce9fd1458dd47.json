@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
   "name": "2011浙江理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 7,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q01",
       "content": "如图所示，甲、乙两人在冰面上 “拔河”。两人中间位置\n处有一分界线，约定先使对方过分界线者为赢。若绳子质量不\n计，冰面可看成光滑，则下列说法正确的是（    ）\n（A）甲对绳的拉力与绳对甲的拉力是一对平衡力\n（B）甲对绳的拉力与乙对绳的拉力是作用力与反作用力\n（C）若甲的质量比乙大，则甲能赢得“拔河”比赛的胜利\n（D）若乙收绳的速度比甲快，则乙能赢得“拔河”比赛的胜利",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "甲对绳的拉力与绳对甲的拉力是作用力和反作用力，故A 错误；甲对绳的拉力与乙对\n绳的拉力的一对平衡力，故B 错误；若甲的质量比乙大，则甲的加速度比乙的小，可知乙先到\n分界线，故甲能赢得“拔河”比赛的胜利，故C 正确；收绳速度的快慢并不能决定“拔河”比\n赛的输赢，故D 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,11 +44,357 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q02",
+      "content": "关于天然放射现象，下列说法正确的是（    ）\n（A）α 射线是由氦原子核衰变产生\n（B）β 射线是由原子核外电子电离产生\n（C）γ 射线是由原子核外的内层电子跃迁产生\n（D）通过化学反应不能改变物质的放射性",
+      "answer": "暂无结构化答案",
+      "analysis": "放射线是从原子核中释放出来的，通过化学反应并不能改变物质的放射性，故正确答\n案为D。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q03",
+      "content": "如图所示，在铁芯上、下分别绕有匝数n1 = 800 和n2 = 200 的两个线\n圈，上线圈两端u = 51sin314tV 的交流电源相连，将下线圈两端接交流电\n压表，则交流电压表的读数可能是（      ）\n（A）2.0V\n（B）9.0V\n（C）12.7V\n（D）144.0V",
+      "answer": "暂无结构化答案",
+      "analysis": "交流电源电压的有效值Ｕ1 = 51\n2V，如果看成理想的来处理有Ｕ\n1/Ｕ2 = n1/n2、n1 = 800、n2 = 200，解得Ｕ2 = 9.0V，故交流电压表的读数应该小于9.0V，所以答\n案为A。\n分界线\n甲\n乙\nV\nn1\nn2\nu\n第2页（共7页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q04",
+      "content": "“B 超”可用于探测人体内脏的病变状况。下图是超声波从肝脏表面\n入射，经折射与反射，最后从肝脏表面射出的示意图。超声波在进入肝脏\n发生折射时遵循的规律与光的折射规律类似，可表述为sinθ1/sinθ2 = v1/v2\n（式中θ1 是入射角，θ2 是折射角，v1、v2 为别是超声波在肝外和肝内的传\n播速度），超声波在肿瘤表面发生反射时遵循的规律与光的反射规律相\n同，已知v2 = 0.9v1 入射点与出射点之间的距离是d，入射角为i，肿瘤的反射面恰好与肝脏表\n面平行，则肿瘤离肝脏表面的深度h 为（    ）\n（A）\n9dsini\n100－81sin2i\n（B）d\n81－100sin2i\n100sini\n（C）d\n81－100sin2i\n20sini\n（D）d\n100－81sin2i\n18sini",
+      "answer": "暂无结构化答案",
+      "analysis": "已知入射角为i，设折射角为r，根据题意有tanr = d/2\nh 、sini\nsinr = v1\nv2，而v2 = 0.9v1，解\n得h = d\n100－81sin2i\n18sini\n。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q05",
+      "content": "关于波动，下列说法正确的是（    ）\n（A）各种波均会发生偏振现象\n（B）用白光做单缝衍射与双缝干涉实验，均可看到彩色条纹\n（C）声波传播过程中，介质中质点的运动速度等于声波的传播速度\n（D）已知地震波得纵波速度大于横波速度，此性质可用于横波的预警",
+      "answer": "暂无结构化答案",
+      "analysis": "只有横波才能发生偏振现象，故A 错误；用白光做单缝衍射与双缝衍射，都可以观察\n到彩色条纹，故B 正确；声波在传播过程中，介质中质点的速度并不等于声波的传播速度，故\nC 错误；已知地震波的纵波波速大于横波波速，此性质可用于横波的预警，故D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q06",
+      "content": "为了探测X 星球，载着登陆舱的探测飞船在该星球中心为圆心，半径为r1 的圆轨道上运\n动，周期为T1，总质量为m1。随后登陆舱脱离飞船，变轨到离星球更近的半径为r2 的圆轨道\n上运动，此时登陆舱的质量为m2 则（    ）\n（A）X 星球的质量为M = 4π2r13\nGT12\n（B）X 星球表面的重力加速度为gx = 4π2\nT12r1\n（C）登陆舱在r1 与r2 轨道上运动是的速度大小之比为v1\nv2 =\nm1r2\nm2r1\n（D）登陆舱在半径为r2 轨道上做圆周运动的周期为T2 = T1\nr23\nr13",
+      "answer": "暂无结构化答案",
+      "analysis": "根据GMm1\nr12 = m4π2\nT12r1、GMm1\nr22 = m4π2\nT22r2，可得M = 4π2r13\nGT12 、T2 = T1\nr23\nr13，故A、D 正\n确；登陆舱在半径为r1 的圆轨道上运动的向心加速度a = r112 = 4π2\nT12r1，此加速度与X 星球表\n面的重力加速度并不相等，故C 错误；根据GMm\nr2 = mv2\nr ，得v =\nGM\nr ，则v1\nv2 =\nr2\nr1，故C\n错误。\ni\nh\n肝脏\n肿瘤\nd\n第3页（共7页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q07",
+      "content": "利用如图所示装置可以选择一定速度范围内的带电粒子。\n图中板MN 上方是磁感应强度大小为B、方向垂直纸面向里的\n匀强磁场，板上有两条宽度分别为2d 和d 的缝，两缝近端相\n距为L。一群质量为m、电荷量为q，具有不同速度的粒子从\n宽度为2d 的缝垂直于板MN 进入磁场，对于能够从宽度为d\n的缝射出的粒子，下列说法正确的是（     ）\n（A）粒子带正电\n（B）射出粒子的最大速度为qB（L + 3d）\n2m\n（C）保持d 和L 不变，增大B，射出粒子的最大速度与最小速度之差增大\n（D）保持d 和B 不变，增大L，射出粒子的最大速度与最小速度之差增大",
+      "answer": "暂无结构化答案",
+      "analysis": "由左手定则可判断粒子带负电，故A 错误；由题意知：粒子的最大半径rmax = L＋3d\n2\n、\n粒子的最小半径rmin = L\n2，根据r = mv\nqB，可得vmax = qB（L＋3d）\n2m\n、vmin = qBL\n2m ，则vmax－vmin =\n3qBd\n2m ，故可知B、C 正确，D 错误。\n非选择题部分（共180 分）\n注意事项：\n1.用黑色字迹的签字笔或钢笔将答案写在答题纸上，不能答在试题卷上。\n2.在答题纸上作图，可先使用2B 铅笔，确定后必须使用黑色字迹的签字笔或钢笔描黑。\n非选择题部分共12 题，共180 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q08",
+      "content": "（10 分）在“探究加速度与力、质量的关系”实验时，已提供了小车，一端附有定滑轮的\n长木板、纸带、带小盘的细线、刻度尺、天平、导线。为了完成实验，还须从下图中选取实验\n器材，其名称是_______（漏选或全选得零分）；并分别写出所选器材的作用_____________。\n2d\nL\nd\nM\nN\nB\n第4页（共7页）",
+      "answer": "暂无结构化答案",
+      "analysis": "电磁打点计时器（电火花计时器）记录小车运动的位置和时间；钩码用以改变小车的\n质量；砝码用以改变小车受到的拉力的大小，还可以用于测量小车的质量。如果选电磁打点计\n时器，则需要学生电源，如果选电火花计时器，则不需要学生电源。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q008-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q09",
+      "content": "（10 分）在“探究导体电阻与其影响因素的定量关系”\n实验中，为了探究3 根材料未知，横截面积均为S = 0.20mm2\n的金属丝a、b、c 的电阻率，采用如图所示的实验电路，M\n为金属丝c 的左端点，O 为金属丝a 的右端点，P 是金属丝\n上可移动的接触点。在实验过程中，电流表读数始终I =\n1.25A。电压表读数U 随OP 间距离x 的变化如下表：\nx/mm\n600\n700\n800\n900\n1000\n1200\n1400\n1600\n1800\n2000\n2100\n2200\n2300\n2400\nU/V\n3.95\n4.50\n5.10\n5.90\n6.50\n6.65\n6.82\n6.93\n7.02\n7.15\n7.85\n8.50\n9.05\n9.75\n（1）绘出电压表读数U 随OP 间距离x 变化的图线；\n（2）求出金属丝的电阻率ρ，并进行比较。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）以OP 间距离x 为横轴，以电压表读数U 为纵轴，描点、连线绘出电压表读数U\n随OP 间距离x 变化的图线。\nx/mm\nU/V\n600 800 1000 1200 1400 1600 1800 2000 2200 2400\n10.5\n10.0\n9.5\n9.0\n8.5\n8.0\n7.5\n7.0\n6.5\n6.0\n5.5\n5.0\n4.5\n4.0\n3.5\nA\nV\na\nb\nc\nM\nP\nO\nR\nS\n第5页（共7页）\n（2）根据电阻定律R = ρl\nS可得ρ = RS\nl = SU\nlI 。\nρa = （6.5－3.9）0.2010\n－6\n1.25（1000－600）Ωm = 1.0410\n－6Ωm，\nρb = （7.1－6.5）0.2010\n－6\n1.25（2000－1000）Ωm = 9.610\n－7Ωm，\nρc = （9.7－7.1）0.2010\n－6\n1.25（2400－2000）Ωm = 1.0410\n－6Ωm，\n通过计算可知，金属丝a 与c 电阻率相同，远大于金属丝b 的电阻率。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q009-p005-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q10",
+      "content": "（16 分）如图甲所示，在水平面上固定有长为 L = 2 m、宽为 d = 1 m 的金属“U”型轨\n导，在“U”型导轨右侧 l = 0.5 m 范围内存在垂直纸面向里的匀强磁场，且磁感应强度随时间\n变化规律如图乙所示。在 t = 0 时刻，质量为 m = 0.1 kg 的导体棒以 v0 = 1 m/s 的初速度从导\n轨的左端开始向右运动，导体棒与导轨之间的动摩擦因数为 μ = 0.1，导轨与导体棒单位长度的\n电阻均为 λ = 0.1 Ω/m，不计导体棒与导轨之间的接触电阻及地球磁场的影响（取 g = 10 m/s2）。\n（1）通过计算分析 4 s 内导体棒的运动情况；\n（2）计算 4 s 内回路中电流的大小，并判断电流方向；\n（3）计算 4 s 内回路产生的焦耳热。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）导体棒先在无磁场区域做匀减速运动，有－μmg = ma，vt = v0＋at，x = v0t＋1\n2at2，\n代入数据解得：t = 1s，x = 0.5m，导体棒没有进入磁场区域。\n导体棒在1s 末已经停止运动，以后一直保持静止，离左端位置仍为x = 0.5m。\n（2）前2s 磁通量不变，回路电动势和电流分别为E = 0，I = 0，后2s 回路产生的电动势为E =\nΦ\nt = ldB\nt = 0.1V，回路的总长度为5m，因此回路的总电阻为R = 5 = 0.5，电流为I = E\nR =\n0.2A，根据楞次定律，在回路中的电流方向是顺时针方向，\n（3）前2s 电流为零，后2s 有恒定电流，焦耳热为Q = I2Rt = 0.04J，\nl\nL\nd\nv0\n图甲\nB/T\nt/s\nO\n0.4\n0.3\n0.2\n0.1\n1\n2\n3\n4\n图乙\n第6页（共7页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q11",
+      "content": "（20 分）节能混合动力车是一种可以利用汽油及所储存电能作为动力来源的汽车。有一质\n量 m = 1000 kg 的混合动力轿车，在平直公路上以 v1 = 90 km/h 匀速行驶，发动机的输出功率\n为 P = 50 kW。当驾驶员看到前方有 80 km/h 的限速标志时，保持发动机功率不变，立即启动\n利用电磁阻尼带动的发电机工作给电池充电，使轿车做减速运动，运动 L = 72 m 后，速度变\n为 v2 = 72 km/h。此过程中发动机功率的 1\n5 用于轿车的牵引，4\n5 用于供给发电机工作，发动机\n输送给发电机的能量最后有 50% 转化为电池的电能。假设轿车在上述运动过程中所受阻力保\n持不变。求：\n（1）轿车以 90 km/h 在平直公路上匀速行驶时，所受阻力 F 阻 的大小；\n（2）轿车从 90 km/h 减速到 72 km/h 过程中，获得的电能 E 电；\n（3）轿车仅用其在上述减速过程中获得的电能 E 电 维持 72 km/h 匀速运动的距离 Lʹ。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）汽车牵引力与输出功率的关系P = F 牵v，将P = 50kW，v1 = 90 km/h = 25 m/s，\n代入得\nF 牵 = P\nv1 = 2×103 N\n当轿车匀速行驶时，牵引力与阻力大小相等，有\nF 阻 = 2×103 N\n（2）在减速过程中，注意到发动机只有 1\n5 P 用于汽车的牵引，根据动能定理有 1\n5Pt－F 阻L =\n1\n2mv22－1\n2mv12，代入数据得\nPt = 1.575×105J\n电源获得的电能为\nE 电 = 0.54\n5Pt = 6.3×104 J\n（3）根据题设，轿车在平直公路上匀速行驶时受到的阻力仍为 F 阻 = 2×103N，。此过程中，由\n能量转化及守恒定律可知，仅有电能用于克服阻力做功 E 电 = F 阻Lʹ，代入数据得Lʹ = 31.5m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011浙江理综.pdf#q12",
+      "content": "（22 分）如图甲所示，静电除尘装置中有一长为L、宽为b、高为d 的矩形通道，其前、\n后面板使用绝缘材料，上、下面板使用金属材料。图乙是装置的截面图，上、下两板与电压恒\n定的高压直流电源相连。质量为m、电荷量为－q、分布均匀的尘埃以水平速度v0 进入矩形通\n道，当带负电的尘埃碰到下板后其所带电荷被中和，同时被收集。通过调整两板间距d 可以改\n变收集效率。当d = d0 时为81%（即离下板0.81d0 范围内的尘埃能够被收集）。不计尘埃的\n重力及尘埃之间的相互作用。\n（1）求收集效率为100%时，两板间距的最大值为dm；\n（2）求收集率η 与两板间距d 的函数关系；\nL\nd\nb\nv0\n图甲\n+\n+\n+\n+ + +\n+\nL\nd\n接地线\n图乙\nv0\n第7页（共7页）\n（3）若单位体积内的尘埃数为n，求稳定工作时单位时间下板收集的尘埃质量\n/\nM\nt\n\n与两板\n间距d 的函数关系，并绘出图线。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）收集效率为81%，即离下板0.81d0 的尘埃恰好到达下板的右端边缘，设高压电\n源的电压为U，在水平方向有L = v0t，在竖直方向有0.81d0 = 1\n2at2，\n其中a = F\nm = qE\nm = qU\nmd0，当减少两板间距时，能够增大电场强度，提高装置对尘埃的收集效\n率。收集效率恰好为100%时，两板间距为dm。如果进一步减少d，收集效率仍为100%。因此，\n在水平方向有L = v0t，竖直方向有dm = 1\n2a’t2，其中a’ = F’\nm = qE’\nm = qU\nmdm，联立可得dm =\n0.9d0，\n（2）通过前面的求解可知，当d≤0.9d0 时，收集效率为100%，当d＞0.9d0 时，设距下板x\n处的尘埃恰好到达下板的右端边缘，此时有x = qUL2\n2mdv02，根据题意，收集效率为 = x\nd，联立\n可得 = 0.81（d0/d）2，\n（3）稳定工作时单位时间下板收集的尘埃质量ΔM\nΔt =\n0\nnmbdv\n\n，当d≤0.9d0 时， = 1，因此\nΔM\nΔt =\n0\nnmbdv 当d＞0.9d0 时， = 0.81（d0/d）2，因此ΔM\nΔt = η = 0.81nmbv0d02/d， 绘出的图\n线如下",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011浙江理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q012-p007-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bccce9fd1458dd47-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 13,
+    "answerGraphics": 0,
+    "assigned": 13,
+    "rendered": 13,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

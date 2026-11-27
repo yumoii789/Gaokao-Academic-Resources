@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
   "name": "2023全国甲理(广西,贵州,西藏,四川)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q01",
-      "content": "单选题\n1. 设全集\nU\n=\nZ,\n集合\nM\n=\n{x | x = 3k + 1, k ∈Z},\nN\n=\n{x | x = 3k + 2, k ∈Z}, 则∁U(M ∪N) =\n(\n)\n(A) {x | x = 3k, k ∈Z}\n(B) {x | x = 3k −1, k ∈Z}\n(C) {x | x = 3k −2, k ∈Z}\n(D) ∅",
+      "content": "设全集\nU\n=\nZ,\n集合\nM\n=\n{x | x = 3k + 1, k ∈Z},\nN\n=\n{x | x = 3k + 2, k ∈Z}, 则∁U(M ∪N) =\n(\n)\n(A) {x | x = 3k, k ∈Z}\n(B) {x | x = 3k −1, k ∈Z}\n(C) {x | x = 3k −2, k ∈Z}\n(D) ∅",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q02",
       "content": "设a ∈R, (a + i)(1 −ai) = 2, 则a =\n(\n)\n(A) −2\n(B) −1\n(C) 1\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q03",
       "content": "执行如图的程序框图, 则输出的B =\n(\n)\n开始\n输入n = 3, A = 1, B = 2, k = 1\nk ⩽n\nA = A + B\nB = A + B\nk = k + 1\n输出B\n结束\n是\n否\n(A) 21\n(B) 34\n(C) 55\n(D) 89",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q04",
       "content": "已知向量a, b, c 满足|a| = |b| = 1, |c| =\n√\n2, 且a + b + c = 0, 则\ncos⟨a −c, b −c⟩=\n(\n)\n(A) −4\n5\n(B) −2\n5\n(C) 2\n5\n(D) 4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q05",
       "content": "设等比数列{an} 的各项均为正数, 前n 项和为Sn, 若a1 = 1, S5 = 5S3−4,\n则S4 =\n(\n)\n(A) 15\n8\n(B) 65\n8\n(C) 15\n(D) 40",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q06",
       "content": "某地的中学生中有60% 的同学爱好滑冰, 50% 的同学爱好滑雪, 70% 的同\n学爱好滑冰或爱好滑雪. 在该地的中学生中随机调查一位同学, 若该同学\n爱好滑雪, 则该同学也爱好滑冰的概率为\n(\n)\n(A) 0.8\n(B) 0.6\n(C) 0.5\n(D) 0.4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q07",
       "content": "设甲: sin2 α + sin2 β = 1, 乙: sin α + cos β = 0, 则\n(\n)\n(A) 甲是乙的充分条件但不是必要条件\n(B) 甲是乙的必要条件但不是充分条件\n(C) 甲是乙的充要条件\n(D) 甲既不是乙的充分条件也不是乙的必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q08",
       "content": "已知双曲线C: x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的离心率为\n√\n5, C 的一条渐\n近线与圆(x −2)2 + (y −3)2 = 1 交于A, B 两点, 则|AB| =\n(\n)\n(A)\n√\n5\n5\n(B) 2\n√\n5\n5\n(C) 3\n√\n5\n5\n(D) 4\n√\n5\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q09",
       "content": "现有5 名志愿者报名参加公益活动, 在某一星期的星期六、星期日两天, 每\n天从这5 人中安排2 人参加公益活动, 则恰有1 人在这两天都参加的不同\n安排方式共有\n(\n)\n(A) 120 种\n(B) 60 种\n(C) 30 种\n(D) 20 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q10",
       "content": "函数y = f(x) 的图象由函数y = cos\n(\n2x + π\n6\n)\n的图象向左平移π\n6 个单\n位长度得到, 则y = f(x) 的图象与直线y = 1\n2x −1\n2 的交点个数为\n(\n)\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q11",
       "content": "已知四棱锥P −ABCD 的底面是边长为4 的正方形, PC = PD = 3,\n∠PCA = 45◦, 则△PBC 面积为\n(\n)\n(A) 2\n√\n2\n(B) 3\n√\n2\n(C) 4\n√\n2\n(D) 6\n√\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q12",
       "content": "设O 为坐标原点, F1, F2 为椭圆C: x2\n9 + y2\n6 = 1 的两个焦点, 点P 在C\n上, cos ∠F1PF2 = 3\n5, 则|OP| =\n(\n)\n(A) 13\n5\n(B)\n√\n30\n2\n(C) 14\n5\n(D)\n√\n35\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -286,22 +367,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q13",
       "content": "若f(x) = (x −1)2 + ax + sin\n(\nx + π\n2\n)\n为偶函数, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -309,22 +400,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q14",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\n3x −2y ⩽3,\n−2x + 3y ⩽3,\nx + y ⩾1,\n则z = 3x+2y 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -332,22 +429,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q15",
       "content": "在正方体ABCD −A1B1C1D1 中, E, F 分别为AB, C1D1 的中点. 以\nEF 为直径的球的球面与该正方体的棱共有\n个公共点.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -355,22 +458,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q16",
       "content": "在△ABC 中, ∠BAC = 60◦, AB = 2, BC =\n√\n6, ∠BAC 的角平分线交\nBC 于D, 则AD =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -378,22 +487,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q17",
       "content": "记Sn 为数列{an} 的前n 项和, 已知a2 = 1, 2Sn = nan.\n(1) 求{an} 的通项公式;\n(2) 求数列\n{an+1\n2n\n}\n的前n 项和Tn.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -401,22 +516,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q18",
       "content": "如图, 在三棱柱ABC −A1B1C1 中, A1C ⊥平面ABC, ∠ACB = 90◦,\nAA1 = 2, A1 到平面BCC1B1 的距离为1.\n(1) 证明: A1C = AC;\n(2) 已知AA1 与BB1 的距离为2, 求AB1 与平面BCC1B1 所成角的正\n弦值.\nC\nB\nA\nC1\nB1\nA1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -424,22 +545,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-8a12579f81a9af83-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q19",
-      "content": "一项试验旨在研究臭氧效应, 试验方案如下: 选40 只小白鼠, 随机地将其\n中20 只分配到试验组, 另外20 只分配到对照组, 试验组的小白鼠饲养在\n高浓度臭氧环境, 对照组的小白鼠饲养在正常环境, 一段时间后统计每只\n小白鼠体重的增加量(单位: g).\n(1) 设X 表示指定的两只小白鼠中分配到对照组的只数, 求X 的分布列\n和数学期望;\n(2) 试验结果如下:\n对照组的小白鼠体重的增加量从小到大排序为\n15.2\n18.8",
+      "content": "一项试验旨在研究臭氧效应, 试验方案如下: 选40 只小白鼠, 随机地将其\n中20 只分配到试验组, 另外20 只分配到对照组, 试验组的小白鼠饲养在\n高浓度臭氧环境, 对照组的小白鼠饲养在正常环境, 一段时间后统计每只\n小白鼠体重的增加量(单位: g).\n(1) 设X 表示指定的两只小白鼠中分配到对照组的只数, 求X 的分布列\n和数学期望;\n(2) 试验结果如下:\n对照组的小白鼠体重的增加量从小到大排序为\n15.2\n18.8\n20.2\n21.3\n22.5\n23.2\n25.8\n26.5\n27.5\n30.1\n32.6\n34.3\n34.8\n35.6\n35.6\n35.8\n36.2\n37.3\n40.5\n43.2\n试验组的小白鼠体重的增加量从小到大排序为\n7.8\n9.2\n11.4\n12.4\n13.2\n15.5\n16.5\n18.0\n18.8\n19.2\n19.8\n20.2\n21.6\n22.8\n23.6\n23.9\n25.1\n28.2\n32.3\n36.5\n①求40 只小白鼠体重的增加量的中位数m, 再分别统计两样本中小\n于m 与不小于m 的数据的个数, 完成如下列联表:\n< m\n⩾m\n对照组\n试验组\n②根据①中的列联表, 能否有95% 的把握认为小白鼠在高浓度臭氧环\n境中与在正常环境中体重的增加量有差异?\n附: K2 =\nn(ad −bc)2\n(a + b)(c + d)(a + c)(b + d), P (K2 ⩾k)\n0.100\n0.050\n0.010\nk\n2.706\n3.841\n6.635\n1181",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
@@ -447,356 +578,142 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q20",
-      "content": "2",
+      "content": "已知直线x −2y + 1 = 0 与抛物线C: y2 = 2px (p > 0) 交于A, B 两点,\n|AB| = 4\n√\n15.\n(1) 求p;\n(2) 设F 为C 的焦点, M, N 为C 上两点, 且#     »\nFM · #    »\nFN = 0, 求△MFN\n面积的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q21",
-      "content": "3",
+      "content": "已知函数f(x) = ax −sin x\ncos3 x, x ∈\n(\n0, π\n2\n)\n.\n(1) 当a = 8 时, 讨论f(x) 的单调性;\n(2) 若f(x) < sin 2x, 求a 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q22",
-      "content": "5",
+      "content": "已知点P(2, 1), 直线l:\n{\nx = 2 + t cos α,\ny = 1 + t sin α,\n(t 为参数), α 为l 的倾斜角, l\n与x 轴正半轴、y 轴正半轴分别交于点A, B, 且|PA| · |PB| = 4.\n(1) 求α;\n(2) 以坐标原点为极点, x 轴正半轴为极轴建立极坐标系, 求l 的极坐标方\n程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q23",
-      "content": "2",
+      "content": "设a > 0, 函数f(x) = 2|x −a| −a.\n(1) 求不等式f(x) < x 的解集;\n(2) 若曲线y = f(x) 与x 轴所围成的图形的面积为2, 求a.\n1182",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2023,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q24",
-      "content": "8",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 25,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q25",
-      "content": "5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 26,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q26",
-      "content": "5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 27,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q27",
-      "content": "1",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 30,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q28",
-      "content": "6",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 32,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q29",
-      "content": "3\n34.8",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 34,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q30",
-      "content": "6\n35.6\n35.8",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 35,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q31",
-      "content": "2",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 36,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q32",
-      "content": "3",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 37,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q33",
-      "content": "5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 40,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf#q34",
-      "content": "2\n试验组的小白鼠体重的增加量从小到大排序为\n7.8\n9.2\n11.4\n12.4\n13.2\n15.5\n16.5\n18.0\n18.8\n19.2\n19.8\n20.2\n21.6\n22.8\n23.6\n23.9\n25.1\n28.2\n32.3\n36.5\n①求40 只小白鼠体重的增加量的中位数m, 再分别统计两样本中小\n于m 与不小于m 的数据的个数, 完成如下列联表:\n< m\n⩾m\n对照组\n试验组\n②根据①中的列联表, 能否有95% 的把握认为小白鼠在高浓度臭氧环\n境中与在正常环境中体重的增加量有差异?\n附: K2 =\nn(ad −bc)2\n(a + b)(c + d)(a + c)(b + d), P (K2 ⩾k)\n0.100\n0.050\n0.010\nk\n2.706\n3.841\n6.635\n1181\n20. 已知直线x −2y + 1 = 0 与抛物线C: y2 = 2px (p > 0) 交于A, B 两点,\n|AB| = 4\n√\n15.\n(1) 求p;\n(2) 设F 为C 的焦点, M, N 为C 上两点, 且#     »\nFM · #    »\nFN = 0, 求△MFN\n面积的最小值.\n21. 已知函数f(x) = ax −sin x\ncos3 x, x ∈\n(\n0, π\n2\n)\n.\n(1) 当a = 8 时, 讨论f(x) 的单调性;\n(2) 若f(x) < sin 2x, 求a 的取值范围.\n22. 已知点P(2, 1), 直线l:\n{\nx = 2 + t cos α,\ny = 1 + t sin α,\n(t 为参数), α 为l 的倾斜角, l\n与x 轴正半轴、y 轴正半轴分别交于点A, B, 且|PA| · |PB| = 4.\n(1) 求α;\n(2) 以坐标原点为极点, x 轴正半轴为极轴建立极坐标系, 求l 的极坐标方\n程.\n23. 设a > 0, 函数f(x) = 2|x −a| −a.\n(1) 求不等式f(x) < x 的解集;\n(2) 若曲线y = f(x) 与x 轴所围成的图形的面积为2, 求a.\n1182",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 2023,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/2023/2023全国甲理(广西,贵州,西藏,四川).pdf",
-        "page": 1,
-        "questionNumber": 43,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

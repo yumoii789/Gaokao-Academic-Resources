@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2015/2015福建理.pdf",
   "name": "2015福建理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 23,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 23,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q01",
       "content": "若集合A = {i, i2, i3, i4} (i 是虚数单位), B = {1, −1}, 则A ∩B = (\n)\n(A) {−1}\n(B) {1}\n(C) {1, −1}\n(D) ∅",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q02",
       "content": "下列函数为奇函数的是\n(\n)\n(A) y = √x\n(B) y = |sin x|\n(C) y = cos x\n(D) y = ex −e−x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q03",
       "content": "若双曲线E: x2\n9 −y2\n16 = 1 的左、右焦点分别为F1, F2, 点P 在双曲线E\n上, 且|PF1| = 3, 则|PF2| 等于\n(\n)\n(A) 11\n(B) 9\n(C) 5\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q04",
-      "content": "为了解某社区居民的家庭年收入与年支出的关系, 随机调查了该社区5 户\n家庭, 得到如下统计数据表:\n收入x (万元)",
+      "content": "为了解某社区居民的家庭年收入与年支出的关系, 随机调查了该社区5 户\n家庭, 得到如下统计数据表:\n收入x (万元)\n8.2\n8.6\n10.0\n11.3\n11.9\n支出y (万元)\n6.2\n7.5\n8.0\n8.5\n9.8\n根据上表可得回归直线方程ˆy = ˆbx + ˆa, 其中ˆb = 0.76, ˆa = y −ˆbx. 据此估\n计, 该社区一户年收入为15 万元家庭的年支出为\n(\n)\n(A) 11.4 万元\n(B) 11.8 万元\n(C) 12.0 万元\n(D) 12.2 万元",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q05",
-      "content": "2\n8.6",
+      "content": "若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + 2y ⩾0,\nx −y ⩽0,\nx −2y + 2 ⩾0,\n则z = 2x −y 的最小值等\n于\n(\n)\n(A) −5\n2\n(B) −2\n(C) −3\n2\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 8,
+        "endPage": 1,
+        "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q06",
-      "content": "0",
+      "content": "阅读如图所示的程序框图, 运行相应的程序, 则输出的结果为\n(\n)\n开始\ni = 1\nS = 0\nS = S + cos iπ\n2\ni = i + 1\ni > 5?\n输出S\n结束\n是\n否\n(A) 2\n(B) 1\n(C) 0\n(D) −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -148,22 +189,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 10,
+        "endPage": 1,
+        "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q07",
-      "content": "3\n11.9\n支出y (万元)\n6.2\n7.5\n8.0\n8.5\n9.8\n根据上表可得回归直线方程ˆy = ˆbx + ˆa, 其中ˆb = 0.76, ˆa = y −ˆbx. 据此估\n计, 该社区一户年收入为15 万元家庭的年支出为\n(\n)\n(A) 11.4 万元\n(B) 11.8 万元\n(C) 12.0 万元\n(D) 12.2 万元\n5. 若变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + 2y ⩾0,\nx −y ⩽0,\nx −2y + 2 ⩾0,\n则z = 2x −y 的最小值等\n于\n(\n)\n(A) −5\n2\n(B) −2\n(C) −3\n2\n(D) 2\n6. 阅读如图所示的程序框图, 运行相应的程序, 则输出的结果为\n(\n)\n开始\ni = 1\nS = 0\nS = S + cos iπ\n2\ni = i + 1\ni > 5?\n输出S\n结束\n是\n否\n(A) 2\n(B) 1\n(C) 0\n(D) −1\n7. 若l, m 是两条不同的直线, m 垂直于平面α, 则“l ⊥m”是“l\nα”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件\n8. 若a, b 是函数f (x) = x2 −px + q (p > 0, q > 0) 的两个不同的零点, 且a,\nb, −2 这三个数可适当排序后成等差数列, 也可适当排序后成等比数列, 则\np + q 的值等于\n(\n)\n(A) 6\n(B) 7\n(C) 8\n(D) 9\n9. 已知#   »\nAB ⊥#   »\nAC,\n���#   »\nAB\n���= 1\nt ,\n���#   »\nAC\n���= t. 若点P 是△ABC 所在平面内的一\n点. 且#   »\nAP =\n#   »\nAB\n���#   »\nAB\n���\n+ 4#   »\nAC\n���#   »\nAC\n���\n, 则#    »\nPB · #    »\nPC 的最大值等于\n(\n)\n(A) 13\n(B) 15\n(C) 19\n(D) 21\n10. 若定义在R 上的函数f (x) 满足f (0) = −1, 其导函数f ′ (x) 满足\nf ′ (x) > k > 1, 则下列结论中一定错误的是\n(\n)\n(A) f\n(1\nk\n)\n< 1\nk\n(B) f\n(1\nk\n)\n>\n1\nk −1\n(C) f\n(\n1\nk −1\n)\n<\n1\nk −1\n(D) f\n(\n1\nk −1\n)\n>\nk\nk −1",
+      "content": "若l, m 是两条不同的直线, m 垂直于平面α, 则“l ⊥m”是“l\nα”的\n(\n)\n(A) 充分而不必要条件\n(B) 必要而不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 11,
+        "endPage": 1,
+        "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q08",
-      "content": "(x + 2)5 的展开式中, x2 的系数等于\n. (用数字作答)",
+      "content": "若a, b 是函数f (x) = x2 −px + q (p > 0, q > 0) 的两个不同的零点, 且a,\nb, −2 这三个数可适当排序后成等差数列, 也可适当排序后成等比数列, 则\np + q 的值等于\n(\n)\n(A) 6\n(B) 7\n(C) 8\n(D) 9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 11,
+        "endPage": 1,
+        "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q09",
-      "content": "若锐角△ABC 的面积为10\n√\n3, 且AB = 5, AC = 8, 则BC 等于\n.",
+      "content": "已知#   »\nAB ⊥#   »\nAC,\n���#   »\nAB\n���= 1\nt ,\n���#   »\nAC\n���= t. 若点P 是△ABC 所在平面内的一\n点. 且#   »\nAP =\n#   »\nAB\n���#   »\nAB\n���\n+ 4#   »\nAC\n���#   »\nAC\n���\n, 则#    »\nPB · #    »\nPC 的最大值等于\n(\n)\n(A) 13\n(B) 15\n(C) 19\n(D) 21",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 12,
+        "endPage": 1,
+        "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q10",
-      "content": "如图, 点A 的坐标为(1, 0), 点C 的坐标为(2, 4), 函数f (x) = x2. 若在矩\n形ABCD 内随机取一点, 则此点取自阴影部分的概率等于\n.\nA\nB\nx\ny\nD\nC\nO\nf(x) = x2",
+      "content": "若定义在R 上的函数f (x) 满足f (0) = −1, 其导函数f ′ (x) 满足\nf ′ (x) > k > 1, 则下列结论中一定错误的是\n(\n)\n(A) f\n(1\nk\n)\n< 1\nk\n(B) f\n(1\nk\n)\n>\n1\nk −1\n(C) f\n(\n1\nk −1\n)\n<\n1\nk −1\n(D) f\n(\n1\nk −1\n)\n>\nk\nk −1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 13,
+        "endPage": 1,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q11",
-      "content": "若函数f (x) =\n{\n−x + 6,\nx ⩽2,\n3 + logax,\nx > 2,\n(a > 0, 且a̸ = 1) 的值域是[4, +∞),\n则实数a 的取值范围是\n.",
+      "content": "(x + 2)5 的展开式中, x2 的系数等于\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 14,
+        "endPage": 1,
+        "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q12",
-      "content": "一个二元码是由0 和1 组成的数字串x1x2 · · · xn (n ∈N∗), 其中xk (k = 1,\n2, · · · , n) 称为第k 位码元. 二元码是通信中常用的码, 但在通信过程中有\n时会发生码元错误(即码元由0 变为1, 或者由1 变为0). 已知某种二元\n码x1x2 · · · x7 的码元满足如下校验方程组:\n\n\n\n\n\n\n\nx4 ⊕x5 ⊕x6 ⊕x7 = 0,\nx2 ⊕x3 ⊕x6 ⊕x7 = 0,\nx1 ⊕x3 ⊕x5 ⊕x7 = 0,\n其中\n运算⊕定义为: 0 ⊕0 = 0, 0 ⊕1 = 1, 1 ⊕0 = 1, 1 ⊕1 = 0. 现已知一个这\n种二元码在通信过程中仅在第k 位发生码元错误后变成了1101101, 那么\n利用上述校验方程组可判定k 等于\n.",
+      "content": "若锐角△ABC 的面积为10\n√\n3, 且AB = 5, AC = 8, 则BC 等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 15,
+        "endPage": 1,
+        "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q13",
-      "content": "某银行规定, 一张银行卡若在一天内出现3 次密码尝试错误, 该银行卡将\n被锁定. 小王到该银行取钱时, 发现自己忘记了银行卡的密码, 但可以确认\n该银行卡的正确密码是他常用的6 个密码之一, 小王决定从中不重复地随\n机选择1 个进行尝试. 若密码正确, 则结束尝试; 否则继续尝试, 直至该银\n行卡被锁定.\n(1) 求当天小王的该银行卡被锁定的概率;\n(2) 设当天小王用该银行卡尝试密码的次数为X, 求X 的分布列和数学期\n望.",
+      "content": "如图, 点A 的坐标为(1, 0), 点C 的坐标为(2, 4), 函数f (x) = x2. 若在矩\n形ABCD 内随机取一点, 则此点取自阴影部分的概率等于\n.\nA\nB\nx\ny\nD\nC\nO\nf(x) = x2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -309,22 +396,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 16,
+        "endPage": 1,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q013-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q013-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q14",
-      "content": "如图, 在几何体ABCDE 中, 四边形ABCD 是矩形, AB ⊥平面BEC,\nBE ⊥EC, AB = BE = EC = 2, G, F 分别是线段BE, DC 的中点.\n(1) 求证: GF\n平面ADE;\n(2) 求平面AEF 与平面BEC 所成锐二面角的余弦值.\nA\nG\nF\nE\nB\nC\nD\n943",
+      "content": "若函数f (x) =\n{\n−x + 6,\nx ⩽2,\n3 + logax,\nx > 2,\n(a > 0, 且a̸ = 1) 的值域是[4, +∞),\n则实数a 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -332,91 +429,123 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 1,
-        "questionNumber": 17,
+        "endPage": 1,
+        "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q15",
-      "content": "已知椭圆E: x2\na2 + y2\nb2 = 1 (a > b > 0) 过点\n(\n0,\n√\n2\n)\n, 且离心率e =\n√\n2\n2 .\n(1) 求椭圆E 的方程;\n(2) 设直线l: x = my −1 (m ∈R) 交椭圆E 于A, B 两点, 判断点\nG\n(\n−9\n4, 0\n)\n与以线段AB 为直径的圆的位置关系, 并说明理由.\nx\ny\nO\nG\nA\nB\nl\n•",
+      "content": "一个二元码是由0 和1 组成的数字串x1x2 · · · xn (n ∈N∗), 其中xk (k = 1,\n2, · · · , n) 称为第k 位码元. 二元码是通信中常用的码, 但在通信过程中有\n时会发生码元错误(即码元由0 变为1, 或者由1 变为0). 已知某种二元\n码x1x2 · · · x7 的码元满足如下校验方程组:\n\n\n\n\n\n\n\nx4 ⊕x5 ⊕x6 ⊕x7 = 0,\nx2 ⊕x3 ⊕x6 ⊕x7 = 0,\nx1 ⊕x3 ⊕x5 ⊕x7 = 0,\n其中\n运算⊕定义为: 0 ⊕0 = 0, 0 ⊕1 = 1, 1 ⊕0 = 1, 1 ⊕1 = 0. 现已知一个这\n种二元码在通信过程中仅在第k 位发生码元错误后变成了1101101, 那么\n利用上述校验方程组可判定k 等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
-        "page": 2,
-        "questionNumber": 18,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q16",
-      "content": "已知函数f (x) 的图象是由函数g (x) = cos x 的图象经如下变换得到: 先\n将g (x) 图象上所有点的纵坐标伸长到原来的2 倍(横坐标不变), 再将所\n得到的图象向右平移π\n2 个单位长度.\n(1) 求函数f (x) 的解析式, 并求其图象的对称轴方程;\n(2) 已知关于x 的方程f (x) + g (x) = m 在[0, 2π) 内有两个不同的解α,\nβ.\n①求实数m 的取值范围;\n②证明: cos (α −β) = 2m2\n5\n−1.",
+      "content": "某银行规定, 一张银行卡若在一天内出现3 次密码尝试错误, 该银行卡将\n被锁定. 小王到该银行取钱时, 发现自己忘记了银行卡的密码, 但可以确认\n该银行卡的正确密码是他常用的6 个密码之一, 小王决定从中不重复地随\n机选择1 个进行尝试. 若密码正确, 则结束尝试; 否则继续尝试, 直至该银\n行卡被锁定.\n(1) 求当天小王的该银行卡被锁定的概率;\n(2) 设当天小王用该银行卡尝试密码的次数为X, 求X 的分布列和数学期\n望.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
-        "page": 2,
-        "questionNumber": 19,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q17",
-      "content": "已知函数f (x) = ln (1 + x), g (x) = kx (k ∈R).\n(1) 证明: 当x > 0 时, f (x) < x;\n(2) 证明: 当k < 1 时, 存在x0 > 0, 使得对任意的x ∈(0, x0), 恒有\nf (x) > g (x);\n(3) 确定k 的所有可能取值, 使得存在t > 0, 对任意的x ∈(0, t), 恒有\n|f (x) −g (x)| < x2.",
+      "content": "如图, 在几何体ABCDE 中, 四边形ABCD 是矩形, AB ⊥平面BEC,\nBE ⊥EC, AB = BE = EC = 2, G, F 分别是线段BE, DC 的中点.\n(1) 求证: GF\n平面ADE;\n(2) 求平面AEF 与平面BEC 所成锐二面角的余弦值.\nA\nG\nF\nE\nB\nC\nD\n943",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
       "provenance": {
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
-        "page": 2,
-        "questionNumber": 20,
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q017-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q18",
-      "content": "已知矩阵A =\n(\n2\n1\n4\n3\n)\n, B =\n(\n1\n1\n0\n−1\n)\n.\n(1) 求A 的逆矩阵A−1;\n(2) 求矩阵C, 使得AC = B.",
+      "content": "已知椭圆E: x2\na2 + y2\nb2 = 1 (a > b > 0) 过点\n(\n0,\n√\n2\n)\n, 且离心率e =\n√\n2\n2 .\n(1) 求椭圆E 的方程;\n(2) 设直线l: x = my −1 (m ∈R) 交椭圆E 于A, B 两点, 判断点\nG\n(\n−9\n4, 0\n)\n与以线段AB 为直径的圆的位置关系, 并说明理由.\nx\ny\nO\nG\nA\nB\nl\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -424,22 +553,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 2,
-        "questionNumber": 21,
+        "endPage": 2,
+        "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-b0d179a9dbf8fa24-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q19",
-      "content": "在平面直角坐标系xOy 中, 圆C 的参数方程为\n{\nx = 1 + 3 cos t,\ny = −2 + 3 sin t,\n(t 为参\n数). 在极坐标系(与平面直角坐标系xOy 取相同的长度单位, 且以原点O\n为极点, 以x 轴非负半轴为极轴) 中, 直线l 的方程为\n√\n2ρ sin\n(\nθ −π\n4\n)\n= m\n(m ∈R).\n(1) 求圆C 的普通方程及直线l 的直角坐标方程;\n(2) 设圆心C 到直线l 的距离等于2, 求m 的值.",
+      "content": "已知函数f (x) 的图象是由函数g (x) = cos x 的图象经如下变换得到: 先\n将g (x) 图象上所有点的纵坐标伸长到原来的2 倍(横坐标不变), 再将所\n得到的图象向右平移π\n2 个单位长度.\n(1) 求函数f (x) 的解析式, 并求其图象的对称轴方程;\n(2) 已知关于x 的方程f (x) + g (x) = m 在[0, 2π) 内有两个不同的解α,\nβ.\n①求实数m 的取值范围;\n②证明: cos (α −β) = 2m2\n5\n−1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -447,22 +586,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 2,
-        "questionNumber": 22,
+        "endPage": 2,
+        "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2015/2015福建理.pdf#q20",
-      "content": "已知a > 0, b > 0, c > 0, 函数f (x) = |x + a| + |x −b| + c 的最小值为4.\n(1) 求a + b + c 的值;\n(2) 求1\n4a2 + 1\n9b2 + c2 的最小值.\n944",
+      "content": "已知函数f (x) = ln (1 + x), g (x) = kx (k ∈R).\n(1) 证明: 当x > 0 时, f (x) < x;\n(2) 证明: 当k < 1 时, 存在x0 > 0, 使得对任意的x ∈(0, x0), 恒有\nf (x) > g (x);\n(3) 确定k 的所有可能取值, 使得存在t > 0, 对任意的x ∈(0, t), 恒有\n|f (x) −g (x)| < x2.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2015,
       "subject": "数学",
@@ -470,11 +615,113 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2015/2015福建理.pdf",
         "page": 2,
+        "endPage": 2,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015福建理.pdf#q21",
+      "content": "已知矩阵A =\n(\n2\n1\n4\n3\n)\n, B =\n(\n1\n1\n0\n−1\n)\n.\n(1) 求A 的逆矩阵A−1;\n(2) 求矩阵C, 使得AC = B.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015福建理.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015福建理.pdf#q22",
+      "content": "在平面直角坐标系xOy 中, 圆C 的参数方程为\n{\nx = 1 + 3 cos t,\ny = −2 + 3 sin t,\n(t 为参\n数). 在极坐标系(与平面直角坐标系xOy 取相同的长度单位, 且以原点O\n为极点, 以x 轴非负半轴为极轴) 中, 直线l 的方程为\n√\n2ρ sin\n(\nθ −π\n4\n)\n= m\n(m ∈R).\n(1) 求圆C 的普通方程及直线l 的直角坐标方程;\n(2) 设圆心C 到直线l 的距离等于2, 求m 的值.",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015福建理.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "math:普通高考/2015/2015福建理.pdf#q23",
+      "content": "已知a > 0, b > 0, c > 0, 函数f (x) = |x + a| + |x −b| + c 的最小值为4.\n(1) 求a + b + c 的值;\n(2) 求1\n4a2 + 1\n9b2 + c2 的最小值.\n944",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2015,
+      "subject": "数学",
+      "provenance": {
+        "repository": "deekur/gaokaomath",
+        "paperId": "math:普通高考/2015/2015福建理.pdf",
+        "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 4,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 5,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2012/2012山东理.pdf",
   "name": "2012山东理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q01",
       "content": "若复数z 满足z (2 −i) = 11 + 7i (i 为虚数单位), 则z 为\n(\n)\n(A) 3 + 5i\n(B) 3 −5i\n(C) −3 + 5i\n(D) −3 −5i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q02",
       "content": "已知全集U = {0, 1, 2, 3, 4}, 集合A = {1, 2, 3}, B = {2, 4}, 则\n(\n∁UA\n)\n∪B =\n(\n)\n(A) {1, 2, 4}\n(B) {2, 3, 4}\n(C) {0, 2, 4}\n(D) {0, 2, 3 4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q03",
       "content": "设a > 0 且a̸ = 1, 则“函数f (x) = ax 在R 上是减函数”是“函数\ng (x) = (2 −a) x3 在R 上是增函数”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q04",
       "content": "采用系统抽样方法从960 人中抽取32 人做问卷调查. 为此将他们随机编\n号为1, 2, · · · , 960, 分组后在第一组采用简单随机抽样的方法抽到的号码\n为9. 抽到的32 人中, 编号落入区间[1, 450] 的人做问卷A, 编号落入区间\n[451, 750] 的人做问卷B, 其余的人做问卷C. 则抽到的人中, 做问卷B 的\n人数为\n(\n)\n(A) 7\n(B) 9\n(C) 10\n(D) 15",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q05",
       "content": "设变量x, y 满足约束条件\n\n\n\n\n\n\n\nx + 2y ⩾2,\n2x + y ⩽4,\n4x −y ⩾−1,\n则目标函数z = 3x −y 的取值\n范围是\n(\n)\n(A)\n[\n−3\n2, 6\n]\n(B)\n[\n−3\n2, −1\n]\n(C) [−1, 6]\n(D)\n[\n−6, 3\n2\n]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q06",
       "content": "执行如图所示的程序框图, 如果输入a = 4, 那么输出的n 的值为\n(\n)\n开始\n输入a\nP = 0, Q = 1, n = 0\nP ⩽Q\nP = P + an\nQ = 2Q + 1\nn = n + 1\n输出n\n结束\n是\n否\n(A) 2\n(B) 3\n(C) 4\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -148,22 +197,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q006-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q07",
       "content": "若θ ∈\n[π\n4 , π\n2\n]\n, sin 2θ = 3\n√\n7\n8 , 则sin θ =\n(\n)\n(A) 3\n5\n(B) 4\n5\n(C)\n√\n7\n4\n(D) 3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -171,22 +230,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q08",
       "content": "定义在R 的函数f (x) 满足f (x + 6) = f (x).\n当−3 ⩽x < −1 时,\nf (x) = −(x + 2)2; 当−1 ⩽x < 3 时, f (x) = x. 则f (1) + f (2) + · · · +\nf (2012) =\n(\n)\n(A) 335\n(B) 338\n(C) 1678\n(D) 2012",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -194,22 +259,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q09",
       "content": "函数f (x) =\ncos 6x\n2x −2−x 的图象大致为\n(\n)\n(A)\ny\nx\nO\n(B)\ny\nx\nO\n(C)\ny\nx\nO\n(D)\ny\nx\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -217,22 +288,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q10",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的离心率为\n√\n3\n2 . 双曲线x2 −y2 = 1\n的渐近线与椭圆C 有四个交点, 以这四个交点为顶点的四边形的面积为\n16, 则椭圆C 的方程为\n(\n)\n(A) x2\n8 + y2\n2 = 1 (B) x2\n12 + y2\n6 = 1\n(C) x2\n16 + y2\n4 = 1\n(D) x2\n20 + y2\n5 = 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -240,22 +317,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q11",
       "content": "现有16 张不同的卡片, 其中红色、黄色、蓝色、绿色卡片各4 张, 从中任\n取3 张. 要求这3 张卡片不能是同一种颜色, 且红色卡片至多1 张. 不同\n的取法种数为\n(\n)\n(A) 232\n(B) 252\n(C) 472\n(D) 484",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -263,22 +346,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q12",
       "content": "设函数f (x) = 1\nx, g (x) = ax2 + bx (a, b ∈R, a̸ = 0). 若y = f (x) 的图\n象与y = g (x) 图象有且仅有两个不同的公共点A (x1, y1), B (x2, y2), 则下\n列判断正确的是\n(\n)\n(A) 当a < 0 时, x1 + x2 < 0, y1 + y2 > 0\n(B) 当a < 0 时, x1 + x2 > 0, y1 + y2 < 0\n(C) 当a > 0 时, x1 + x2 < 0, y1 + y2 < 0\n(D) 当a > 0 时, x1 + x2 > 0, y1 + y2 > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -286,22 +375,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q13",
       "content": "若不等式|kx −4| ⩽2 的解集为{x | 1 ⩽x ⩽3}, 则实数k =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -309,22 +408,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q14",
       "content": "如图, 正方体ABCD −A1B1C1D1 的棱长为1, E, F 分别为线段AA1,\nB1C 上的点, 则三棱锥D1 −EDF 的体积为\n.\nA\nB\nF\nE\nC\nD\nA1\nB1\nC1\nD1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -332,22 +437,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q014-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q014-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q15",
       "content": "设a > 0, 若曲线y = √x 与直线x = a, y = 0 所围成封闭图形的面积为\na2, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -355,22 +470,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q16",
       "content": "如图, 在平面直角坐标系xOy 中, 一单位圆的圆心的初始位置在(0, 1), 此\n时圆上一点P 的位置在(0, 0), 圆在x 轴上沿正向滚动. 当圆滚动到圆心\n位于(2, 1) 时, #    »\nOP 的坐标为\n.\n1\nP\ny\nx\n1\n2\nO\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -378,22 +503,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q016-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q016-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q17",
       "content": "已知向量m = (sin x, 1), n =\n(√\n3A cos x, A\n2 cos 2x\n)\n(A > 0), 函数\nf (x) = m · n 的最大值为6.\n(1) 求A;\n(2) 将函数y = f (x) 的图象向左平移π\n12 个单位, 再将所得图象上各点的\n横坐标缩短为原来的1\n2 倍, 纵坐标不变, 得到函数y = g (x) 的图象, 求\ng (x) 在\n[\n0, 5π\n24\n]\n上的值域.\n759",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -401,22 +538,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q18",
       "content": "在如图所示的几何体中, 四边形ABCD 是等腰梯形, AB\nCD, ∠DAB =\n60◦, FC ⊥平面ABCD, AE ⊥BD, CB = CD = CF.\n(1) 求证: BD ⊥平面AED;\n(2) 求二面角F −BD −C 的余弦值.\nA\nF\nB\nC\nE\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -424,22 +567,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-2ede7645f99286fc-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q19",
       "content": "现有甲乙两个靶, 某射手向甲靶射击一次命中的概率为3\n4, 命中得1 分, 没\n有命中得0 分; 向乙靶射击两次, 每次命中的概率为2\n3, 每命中一次得2\n分, 没有命中得0 分. 该射手每次射击的结果相互独立, 假设该射手完成以\n上三次射击.\n(1) 求该射手恰好命中一次的概率;\n(2) 求该射手的总得分X 的分布列及数学期望EX.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -447,22 +600,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q20",
       "content": "在等差数列{an} 中, a3 + a4 + a5 = 84, a9 = 73.\n(1) 求数列{an} 的通项公式;\n(2) 对任意m ∈N∗, 将数列{an} 中落入区间(9m, 92m) 内的项的个数记\n为bm, 求数列{bm} 的前m 项和Sm.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -470,22 +629,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q21",
       "content": "在平面直角坐标系xOy 中, F 是抛物线C: x2 = 2py (p > 0) 的焦点, M\n是抛物线C 上位于第一象限内的任意一点, 过M, F, O 三点的圆的圆心\n为Q, 点Q 到抛物线C 的准线的距离为3\n4.\n(1) 求抛物线C 的方程;\n(2) 是否存在点M, 使得直线MQ 与抛物线C 相切于点M? 若存在, 求\n出点M 的坐标; 若不存在, 说明理由;\n(3) 若点M 的横坐标为\n√\n2, 直线l: y = kx + 1\n4 与抛物线C 有两个不\n同的交点A, B, l 与圆Q 有两个不同的交点D, E, 求当1\n2 ⩽k ⩽2 时,\n|AB|2 + |DE|2 的最小值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -493,22 +658,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012山东理.pdf#q22",
       "content": "已知函数f (x) = ln x + k\nex\n(k 为常数, e = 2.71828 · · · 是自然对数的底数),\n曲线y = f (x) 在点(1, f (1)) 处的切线与x 轴平行.\n(1) 求k 的值;\n(2) 求f (x) 的单调区间;\n(3) 设g (x) = (x2 + x)f ′ (x), 其中f ′ (x) 为f (x) 的导函数. 证明: 对任意\nx > 0, g (x) < 1 + e−2.\n760",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -516,11 +687,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012山东理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

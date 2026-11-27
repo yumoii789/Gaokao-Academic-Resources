@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2012/2012北京文.pdf",
   "name": "2012北京文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q01",
       "content": "已知集合A = {x ∈R | 3x + 2 > 0}, B = {x ∈R | (x + 1)(x −3) > 0},\n则A ∩B =\n(\n)\n(A) (−∞, −1)\n(B)\n(\n−1, −2\n3\n)\n(C)\n(\n−2\n3, 3\n)\n(D) (3, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q02",
       "content": "在复平面内, 复数\n10i\n3 + i 对应的点的坐标为\n(\n)\n(A) (1, 3)\n(B) (3, 1)\n(C) (−1, 3)\n(D) (3, −1)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q03",
       "content": "设不等式组\n{\n0 ⩽x ⩽2,\n0 ⩽y ⩽2\n表示的平面区域为D. 在区域D 内随机取一个\n点, 则此点到坐标原点的距离大于2 的概率是\n(\n)\n(A) π\n4\n(B) π −2\n2\n(C) π\n6\n(D) 4 −π\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -79,22 +106,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q04",
       "content": "执行如图所示的程序框图, 输出的S 值为\n(\n)\n开始\nk = 0, S = 1\nk = k + 1\nS = S · 2k\nk < 3\n输出S\n结束\n否\n是\n(A) 2\n(B) 4\n(C) 8\n(D) 16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -102,22 +135,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q05",
       "content": "函数f (x) = x\n1\n2 −\n(1\n2\n)x\n的零点个数为\n(\n)\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -125,22 +168,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q06",
       "content": "已知{an} 为等比数列, 下面结论中正确的是\n(\n)\n(A) a1 + a3 ⩾2a2\n(B) a2\n1 + a2\n3 ⩾2a2\n2\n(C) 若a1 = a3, 则a1 = a2\n(D) 若a3 > a1, 则a4 > a2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -148,22 +197,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q07",
       "content": "某三棱锥的三视图如图所示, 该三棱锥的表面积是\n(\n)\n俯视图\n正(主) 视图\n侧(左) 视图\n2\n3\n4\n4\n(A) 28 + 6\n√\n5\n(B) 30 + 6\n√\n5\n(C) 56 + 12\n√\n5\n(D) 60 + 12\n√\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -171,22 +226,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q08",
       "content": "某棵果树前n 年的总产量Sn 与n 之间的关系如图所示. 从目前记录的结\n果看, 前m 年的年平均产量最高, m 的值为\n(\n)\nn\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nSn\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\nO\n(A) 5\n(B) 7\n(C) 9\n(D) 11",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -194,22 +259,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q09",
       "content": "直线y = x 被圆x2 + (y −2)2 = 4 截得的弦长为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -217,22 +292,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q10",
       "content": "已知{an} 为等差数列, Sn 为其前n 项和, 若a1 = 1\n2, S2 = a3, 则\na2 =\n; Sn =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -240,22 +321,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q11",
       "content": "在△ABC 中, 若a = 3, b =\n√\n3, ∠A = π\n3 , 则∠C 的大小为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -263,22 +354,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q12",
       "content": "已知函数f (x) = lg x. 若f (ab) = 1, 则f (a2) + f (b2) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -286,22 +383,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q13",
       "content": "已知正方形ABCD 的边长为1, 点E 是AB 边上的动点, 则#    »\nDE · #    »\nCB 的\n值为\n; #    »\nDE · #    »\nDC 的最大值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -309,22 +412,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q14",
       "content": "已知f (x) = m (x −2m) (x + m + 3), g (x) = 2x−2. 若∀x ∈R, f (x) < 0\n或g (x) < 0, 则m 的取值范围是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -332,22 +441,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q15",
       "content": "已知函数f (x) = (sin x −cos x) sin 2x\nsin x\n.\n(1) 求f (x) 的定义域及最小正周期;\n(2) 求f (x) 的单调递减区间.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -355,22 +470,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q16",
       "content": "如图1, 在Rt△ABC 中, ∠C = 90◦, D, E 分别是AC, AB 的中点, 点\nF 为线段CD 上的一点, 将△ADE 沿DE 折起到△A1DE 的位置, 使\nA1F ⊥CD, 如图2.\n(1) 求证: DE\n平面A1CB;\n(2) 求证: A1F ⊥BE;\n(3) 线段A1B 上是否存在点Q, 使A1C ⊥平面DEQ? 说明理由.\nA\nB\nC\nD\nF\nE\n图1\n•\nA1\nB\nC\nD\nE\n图2\nF\n719",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -378,22 +503,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q016-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-befebeadeebfdd77-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q17",
       "content": "近年来, 某市为促进生活垃圾的分类处理, 将生活垃圾分为厨余垃圾、可回\n收物和其他垃圾三类, 并分别设置了相应的垃圾箱. 为调查居民生活垃圾\n分类投放情况, 现随机抽取了该市三类垃圾箱中总计1000 吨生活垃圾, 数\n据统计如下(单位: 吨):\n“厨余垃圾”箱\n“可回收物”箱\n“其他垃圾”箱\n厨余垃圾\n400\n100\n100\n可回收物\n30\n240\n30\n其他垃圾\n20\n20\n60\n(1) 试估计厨余垃圾投放正确的概率;\n(2) 试估计生活垃圾投放错误的概率;\n(3) 假设厨余垃圾在“厨余垃圾”箱、“可回收物”箱、“其他垃圾”箱的投放量\n分别为a, b, c, 其中a > 0, a + b + c = 600. 当数据a, b, c 的方差s2 最大\n时, 写出a, b, c 的值(结论不要求证明), 并求此时s2 的值.\n(注: s2 = 1\nn\n[\n(x1 −x)2 + (x2 −x)2 + · · · + (xn −x)2]\n, 其中x 为数据x1,\nx2, · · · , xn 的平均数)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -401,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q18",
       "content": "已知函数f (x) = ax2 + 1 (a > 0), g (x) = x3 + bx.\n(1) 若曲线y = f (x) 与曲线y = g (x) 在它们的交点(1, c) 处具有公共切\n线, 求a, b 的值;\n(2) 当a = 3, b = −9 时, 若函数f (x) + g (x) 在区间[k, 2] 上的最大值为\n28, 求k 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -424,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q19",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的一个顶点为A (2, 0), 离心率为\n√\n2\n2 , 直线y = k (x −1) 与椭圆C 交于不同的两点M, N.\n(1) 求椭圆C 的方程;\n(2) 当△AMN 的面积为\n√\n10\n3\n时, 求k 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -447,22 +595,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2012/2012北京文.pdf#q20",
       "content": "设A 是如下形式的2 行3 列的数表,\na\nb\nc\nd\ne\nf\n满足性质P: a, b, c, d, e, f ∈[−1, 1], 且a + b + c + d + e + f = 0.\n记ri (A) 为A 的第i 行各数之和(i = 1, 2), cj (A) 为A 的第j 列各数之\n和(j = 1, 2, 3); 记k (A) 为|r1 (A) |, |r2 (A) |, |c1 (A) |, |c2 (A) |, |c3 (A) |\n中的最小值.\n(1) 对如下数表A, 求k (A) 的值;\n1\n1\n−0.8\n0.1\n−0.3\n−1\n(2) 设数表A 形如\n1\n1\n−1 −2d\nd\nd\n−1\n其中−1 ⩽d ⩽0. 求k (A) 的最大值;\n(3) 对所有满足性质P 的2 行3 列的数表A, 求k (A) 的最大值.\n720",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2012,
       "subject": "数学",
@@ -470,11 +624,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2012/2012北京文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

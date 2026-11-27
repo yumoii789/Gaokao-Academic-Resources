@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1998/1998全国理.pdf",
   "name": "1998全国理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 1,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 25,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 25,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q01",
       "content": "sin 600◦的值是\n(\n)\n(A) 1\n2\n(B) −1\n2\n(C)\n√\n3\n2\n(D) −\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q02",
       "content": "函数y = a|x| (a > 1) 的图象是\n(\n)\n(A)\nx\ny\nO\n(B)\nx\ny\nO\n1\n(C)\nx\ny\nO\n1\n(D)\nx\ny\nO\n1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -56,22 +73,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q002-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q002-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q002-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q002-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q03",
       "content": "曲线的极坐标方程ρ = 4 sin θ 化成直角坐标方程为\n(\n)\n(A) x2 + (y + 2)2 = 4\n(B) x2 + (y −2)2 = 4\n(C) (x −2)2 + y2 = 4\n(D) (x + 2)2 + y2 = 4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -79,22 +108,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q04",
       "content": "两条直线A1x+B1y +C1 = 0, A2x+B2y +C2 = 0 垂直的充要条件是(\n)\n(A) A1A2 + B1B2 = 0\n(B) A1A2 −B1B2 = 0\n(C) A1A2\nB1B2\n= −1\n(D) B1B2\nA1A2\n= 1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -102,22 +137,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q05",
       "content": "函数f(x) = 1\nx (x̸ = 0) 的反函数f −1(x) =\n(\n)\n(A) x (x̸ = 0)\n(B) 1\nx (x̸ = 0)\n(C) −x (x̸ = 0)\n(D) −1\nx (x̸ = 0)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -125,22 +166,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q06",
       "content": "已知点P(sin α −cos α, tan α) 在第一象限, 则在[0, 2π] 内α 的取值范围\n是\n(\n)\n(A)\n(π\n2 , 3π\n4\n)\n∪\n(\nπ, 5π\n4\n)\n(B)\n(π\n4 , π\n2\n)\n∪\n(\nπ, 5π\n4\n)\n(C)\n(π\n2 , 3π\n4\n)\n∪\n(5π\n4 , 3π\n2\n)\n(D)\n(π\n4 , π\n2\n)\n∪\n(3π\n4 , π\n)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -148,22 +195,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q07",
       "content": "已知圆锥的全面积是底面积的3 倍, 那么该圆锥的侧面展开图扇形的圆心\n角为\n(\n)\n(A) 120◦\n(B) 150◦\n(C) 180◦\n(D) 240◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -171,22 +224,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q08",
       "content": "复数−i 的一个立方根是i, 它的另外两个立方根是\n(\n)\n(A)\n√\n3\n2 ± 1\n2i\n(B) −\n√\n3\n2 ± 1\n2i\n(C) ±\n√\n3\n2 + 1\n2i\n(D) ±\n√\n3\n2 −1\n2i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -194,22 +253,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q09",
       "content": "如果棱台的两底面积分别是S, S′, 中截面的面积是S0, 那么\n(\n)\n(A) 2√S0 =\n√\nS +\n√\nS′\n(B) S0 =\n√\nSS′\n(C) 2S0 = S + S′\n(D) S2\n0 = 2SS′",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -217,22 +282,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q10",
       "content": "向高为H 的水瓶中注水, 注满为止, 如果注水量V 与水深h 的函数关系\n的图象如下图所示, 那么水瓶的形状是\n(\n)\nh\nV\nO\nH\n(A)\n(B)\n(C)\n(D)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -240,22 +311,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q010-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q11",
       "content": "3 名医生和6 名护士被分配到3 所学校为学生体检, 每校分配1 名医生和\n2 名护士, 不同的分配方法共有\n(\n)\n(A) 90 种\n(B) 180 种\n(C) 270 种\n(D) 540 种",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -263,22 +344,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q011-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q011-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q12",
       "content": "椭圆x2\n12 + y2\n3 = 1 的焦点为F1 和F2, 点P 在椭圆上, 如果线段PF1 的中\n点在y 轴上, 那么|PF1| 是|PF2| 的\n(\n)\n(A) 7 倍\n(B) 5 倍\n(C) 4 倍\n(D) 3 倍",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -286,22 +377,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q012-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q012-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q13",
       "content": "球面上有3 个点, 其中任意两点的球面距离都等于大圆周长的1\n6, 经过这3\n个点的小圆的周长为4π, 那么这个球的半径为\n(\n)\n(A) 4\n√\n3\n(B) 2\n√\n3\n(C) 2\n(D)\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -309,22 +411,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q14",
       "content": "一个直角三角形三内角的正弦值成等比数列, 其最小内角为\n(\n)\n(A) arccos\n√\n5 −1\n2\n(B) arcsin\n√\n5 −1\n2\n(C) arccos 1 −\n√\n5\n2\n(D) arcsin 1 −\n√\n5\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -332,22 +440,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q15",
       "content": "在等比数列{an} 中, a1 > 1, 且前n 项和Sn 满足lim\nn→∞Sn = 1\na1\n, 那么a1\n的取值范围是\n(\n)\n(A) (1, +∞)\n(B) (1, 4)\n(C) (1, 2)\n(D) (1,\n√\n2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -355,22 +469,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q16",
       "content": "设圆过双曲线x2\n9 −y2\n16 = 1 的一个顶点和一个焦点, 圆心在此双曲线上, 则\n圆心到双曲线中心的距离是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -378,22 +498,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q17",
       "content": "(x + 2)10(x2 −1) 的展开式中x10 的系数为\n. (用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -401,22 +527,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q18",
       "content": "在直四棱柱A1B1C1D1 −ABCD 中, 当底面四边形ABCD 满足条\n件\n时, 有A1C ⊥B1D1. (注: 填上你认为正确的一种条件即可, 不必\n考虑所有可能的情形)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -424,22 +556,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q19",
       "content": "关于函数f(x) = 4 sin\n(\n2x + π\n3\n)\n(x ∈R), 有下列命题:\n①由f(x1) = f(x2) = 0 可得x1 −x2 必是π 的整数倍;\n②y = f(x) 的表达式可改写为y = 4 cos\n(\n2x −π\n6\n)\n;\n③y = f(x) 的图象关于点\n(\n−π\n6 , 0\n)\n对称;\n④y = f(x) 的图象关于直线x = −π\n6 对称.\n其中正确的命题的序号是\n. (注: 把你认为正确的命题的序号都填\n上)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -447,22 +585,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q20",
       "content": "在△ABC 中, a, b, c 分别是角A, B, C 的对边, 设a+c = 2b, A−C = π\n3 ,\n求sin B 的值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -470,22 +614,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q21",
       "content": "如图, 直线l1 和l2 相交于点M, l1 ⊥l2, 点N ∈l1. 以A, B 为端点的曲\n线段C 上的任一点到l2 的距离与到点N 的距离相等. 若△AMN 为锐\n角三角形, |AM| =\n√\n17, |AN| = 3, 且|BN| = 6. 建立适当的坐标系, 求曲\n线段C 的方程.\nl1\nl2\nN\nM\nA\nB",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -493,22 +643,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q021-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q021-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q021-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q021-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q22",
       "content": "如图, 为处理含有某种杂质的污水, 要制造一底宽为2 米的无盖长方体沉\n淀箱, 污水从A 孔流入, 经沉淀后从B 孔流出. 设箱体的长度为a 米, 高\n度为b 米. 已知流出的水中该杂质的质量分数与a, b 的乘积ab 成反比. 现\n有制箱材料60 平方米. 问当a, b 各为多少米时, 经沉淀后流出的水中该杂\n质的质量分数最小. (A、B 孔的面积忽略不计)\nA\nB\na\nb\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -516,22 +678,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q022-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q022-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q23",
       "content": "已知斜三棱柱ABC −A1B1C1 的侧面A1ACC1 与底面ABC 垂直,\n∠ABC = 90◦, BC = 2, AC = 2\n√\n3, 且AA1 ⊥A1C, AA1 = A1C .\n(1) 求侧棱A1A 与底面ABC 所成角的大小;\n(2) 求侧面A1ABB1 与底面ABC 所成二面角的大小;\n(3) 求顶点C 到侧面A1ABB1 的距离.\nA\nB\nC\nA1\nB1\nC1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -539,22 +711,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q023-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-6bff71d30a1e7237-q023-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q24",
       "content": "设曲线C 的方程是y = x3 −x, 将C 沿x 轴、y 轴正向分别平行移动t、\ns 单位长度后得曲线C1.\n(1) 写出曲线C1 的方程;\n(2) 证明曲线C 与C1 关于点A\n( t\n2, s\n2\n)\n对称;\n(3) 如果曲线C 与C1 有且仅有一个公共点, 证明s = t3\n4 −t 且t̸ = 0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -562,22 +744,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1998/1998全国理.pdf#q25",
       "content": "已知数列{bn} 是等差数列, b1 = 1, b1 + b2 + · · · + b10 = 145.\n(1) 求数列{bn} 的通项bn;\n(2) 设数列{an} 的通项an = loga\n(\n1 + 1\nbn\n)\n(其中a > 0, 且a̸ = 1), 记\nSn 是数列{an} 的前n 项和. 试比较Sn 与1\n3 loga bn + 1 的大小, 并证明\n你的结论.\n56",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1998,
       "subject": "数学",
@@ -585,11 +773,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1998/1998全国理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 0,
+    "assigned": 11,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

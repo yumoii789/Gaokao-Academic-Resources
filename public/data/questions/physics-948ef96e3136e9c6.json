@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2011/2011海南.pdf",
   "name": "2011海南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 19,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 19,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2011/2011海南.pdf#q01",
       "content": "关于静电场，下列说法正确的是（    ）\n（A）电势等于零的物体一定不带电\n（B）电场强度为零的点，电势一定为零\n（C）同一电场线上的各点，电势一定相等\n（D）负电荷沿电场线方向移动时，电势能一定增加",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "考察电场和电势概念及其电场力做功与电势能的关系，选D",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2011,
       "subject": "物理",
@@ -33,11 +44,574 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2011/2011海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q02",
+      "content": "如图，E 为内阻不能忽略的电池，R1、R2、R3 为定值电阻，S0、S 为开关，V\n与A 分别为电压表与电流表。初始时S0 与S 均闭合，现将S 断开，则（    ）\n（A）V 的读数变大，A 的读数变小\n（B）V 的读数变大，A 的读数变大\n（C）V 的读数变小，A 的读数变小\n（D）V 的读数变小，A 的读数变大",
+      "answer": "暂无结构化答案",
+      "analysis": "S 断开，相当于外电阻变大，总电流减小，故路端电压U = E－Ir 增大，\nV 的读数变大。S 断开，使原来R2 与R3 并联的电阻变为R3 的电阻，电阻变大了，\nR3 两端的电压增大，电流增大，A 的读数变大。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q03",
+      "content": "三个相同的金属小球1、2、3 分别置于绝缘支架上，各球之间的距离远大于小球的直径。球1 的带电\n量为q，球2 的带电量为nq，球3 不带电且离球1 和球2 很远，此时球1、2 之间作用力的大小为F。现使\n球3 先与球2 接触，再与球1 接触，然后将球3 移至远处，此时1、2 之间作用力的大小仍为F，方向不\n变。由此可知（    ）\n（A）n = 3\n（B）n = 4\n（C）n = 5\n（D）n = 6",
+      "answer": "暂无结构化答案",
+      "analysis": "设1、2 距离为R，则：\n2\n2\nnq\nF\nR\n=\n，3 与2 接触后，它们带的电的电量均为：2\nnq ，再3 与1 接触\n后，它们带的电的电量均为(\n2)\n4\nn\nq\n+\n，最后\n2\n2\n(\n2)\n8\nn n\nq\nF\nR\n+\n=\n有上两式得：n = 6\nR1\nR2\nS\nS0\nE\nR3\nV\nA\n第2页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q04",
+      "content": "如图，墙上有两个钉子 a 和 b，它们的连线与水平方向的夹角为 45°，两\n者的高度差为 l。一条不可伸长的轻质细绳一端固定于 a 点，另一端跨过光滑\n钉子 b 悬挂一质量为 m1 的重物。在绳子距 a 端 l/2 的 c 点有一固定绳圈。\n若绳圈上悬挂质量为 m2 的钩码，平衡后绳的 ac 段正好水平，则重物和钩码\n的质量比\nAm1\nm2\nE\nA为（    ）\n（A）A错误!未定义书签。AA 5E\nA\n（B）2\n（C）A 5\nE2\nE\nA\n（D ）\nA 2E\nA",
+      "answer": "暂无结构化答案",
+      "analysis": "平衡后设绳的BC 段与水平方向成 α 角，则：\n2\ntan\n2,sin\n5\nα\nα\n=\n=\n 对节点 C 分析三力平衡，在\n竖直方向上有：\n2\n1 sin\nm g\nm g\nα\n=\n得：\n1\n2\n1\n5\nsin\n2\nm\nm\nα\n=\n=\n，选C",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q05",
+      "content": "如图，粗糙的水平地面上有一斜劈，斜劈上一物块正在沿斜面以速度v0 匀\n速下滑，斜劈保持静止，则地面对斜劈的摩擦力（    ）\n（A）等于零\n（B）不为零，方向向右\n（C）不为零，方向向左\n（D）不为零，v0 较大时方向向左，v0 较小时方向向右",
+      "answer": "暂无结构化答案",
+      "analysis": "斜劈和物块都平衡对斜劈和物块整体受力分析知地面对斜劈的摩擦力为零，选A",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q06",
+      "content": "如图，EOF 和EʹOʹFʹ为空间一匀强磁场的边界，其中EO∥EʹOʹ，FO∥FʹOʹ，\n且EO⊥OF；OOʹ为∠EOF 的角平分析，OOʹ间的距离为l；磁场方向垂直于纸\n面向里。一边长为l 的正方形导线框沿OOʹ方向匀速通过磁场，t = 0 时刻恰好\n位于图示位置。规定导线框中感应电流沿逆时针方向时为正，则感应电流i 与\n时间t 的关系图线可能正确的是（     ）",
+      "answer": "暂无结构化答案",
+      "analysis": "从图示位置到左边框运动至O/点，感应电流均匀增大为正；左边框再运动至O O/中点过程，感应电\n流为正不变；左边框由O O/中点再运动至O 过程感应电流先减小后方向增大；以后右边框再运动至O O/\n中点过程，感应电流为负不变；右边框再运动至O 过程感应电流减小至0，图B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q07",
+      "content": "自然界的电、热和磁等现象都是相互联系的，很多物理学家为寻找它们之间的联系做出了贡献。下列说\n法正确的是（    ）\n（A）奥斯特发现了电流的磁效应，揭示了电现象和磁现象之间的联系\n（B）欧姆发现了欧姆定律，说明了热现象和电现象之间存在联系\n（C）法拉第发现了电磁感应现象，揭示了磁现象和电现象之间的联系\nt\ni\nO\nA\nt\ni\nO\nB\nt\ni\nO\nC\nt\ni\nO\nD\na\nc\nl\nb\nl/2\nm1\nv0\nE\nE′\nO\nO′\nF\nFʹ\n×  ×\n×  ×\n×  ×\n×  ×\n第3页（共9页）\n（D）焦耳发现了电流的热效应，定量得出了电能和热能之间的转换关系",
+      "answer": "暂无结构化答案",
+      "analysis": "考察物理学的发展史，选ACD",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q08",
+      "content": "一物体自t = 0 时开始做直线运动，其速度图线如图所示。下列选项正\n确的是（     ）\n（A）在0～6s 内，物体离出发点最远为30m\n（B）在0～6s 内，物体经过的路程为40m\n（C）在0～4s 内，物体的平均速率为7.5m/s\n（D）在5～6s 内，物体所受的合外力做负功",
+      "answer": "暂无结构化答案",
+      "analysis": "在0—5s,物体向正向运动，5—6s 向负向运动，故5s 末离出发点最远，A 错；由面积法求出0—5s\n的位移s1 = 35m, 5—6s 的位移s2 = -5m，总路程为：40m，B 对；由面积法求出0—4s 的位移s = 30m，平\n度速度为：v = s/t = 7.5m/s C 对；由图像知5～6s 过程物体加速，合力和位移同向，合力做正功，D 错",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q09",
+      "content": "一质量为1kg 的质点静止于光滑水平面上，从t = 0 时起，第1 秒内受到2N 的水平外力作用，第2 秒\n内受到同方向的1N 的外力作用。下列判断正确的是（    ）\n（A）0～2s 内外力的平均功率是\nA9\n4\nE\nAW\n（B）第2 秒内外力所做的功是\nA5\n4\nE\nAJ\n（C）第2 秒末外力的瞬时功率最大\n（D）第1 秒内与第2 秒内质点动能增加量的比值是\nA4\n5\nE",
+      "answer": "暂无结构化答案",
+      "analysis": "由动量定理求出1s 末、2s 末速度分别为：v1 = 2m/s、v2 = 3m/s 故合力做功为\n2\n1\n4.5\n2\nW\nmv\nJ\n=\n=\n功率为\n4.5\n1.5\n3\nW\np\nW\nW\nt\n=\n=\n=\n 1s 末、2s 末功率分别为：4W、3W 第1 秒内与第2 秒动能增加量分别为：\n2\n1\n1\n2\n2 mv\nJ\n=\n、\n2\n2\n2\n1\n1\n1\n2.5\n2\n2\nmv\nmv\nJ\n−\n=\n，比值：4：5",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q10",
+      "content": "空间存在方向垂直于纸面向里的匀强磁场，图中的正方形为其边界。一细束由两种粒\n子组成的粒子流沿垂直于磁场的方向从O 点入射。这两种粒子带同种电荷，它们的电荷\n量、质量均不同，但其比荷相同，且都包含不同速率的粒子。不计重力。下列说法正确的\n是（   ）\n（A）入射速度不同的粒子在磁场中的运动时间一定不同\n（B）入射速度相同的粒子在磁场中的运动轨迹一定相同\n（C）在磁场中运动时间相同的粒子，其运动轨迹一定相同\n（D）在磁场中运动时间越长的粒子，其轨迹所对的圆心角一定越大",
+      "answer": "暂无结构化答案",
+      "analysis": "在磁场中半径\nmv\nr\nqB\n=\n 运动时间：\nm\nt\nqB\nθ\n=\n（θ为转过圆心角），故BD 正确，当粒子从O 点所在的\n边上射出的粒子时：轨迹可以不同，但圆心角相同为1800，因而AC 错\n第II 卷\n本卷包括必考题和选考题两部分，第11 题~第16 题为必考题，每个试题考生都必须做答，第17 题~第19\n题为选考题，考生根据要求做答。\nt/s\nv/m·s-1\n0\n10\n-10\n2\n4\n6\nB\nO\n第4页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q11",
+      "content": "如图，理想变压器原线圈与一 10 V 的交流电源相连，副线圈并联两个\n小灯泡 a 和 b，小灯泡 a 的额定功率为 0.3 W，正常发光时电阻为 30 Ω，\n已知两灯泡均正常发光，流过原线圈的电流为 0.09 A，可计算出原、副线圈\n的匝数比为_______，流过灯泡 b 的电流为_______A。",
+      "answer": "暂无结构化答案",
+      "analysis": "副线圈电压\n2\n3\na\na\na\nU\nU\nP R\nV\n=\n=\n=\n1\n1\n2\n2\n10\n3\nn\nU\nn\nU\n=\n=\n，\n3\nb\na\nU\nU\nV\n=\n=\n由能量守恒得：\n1 1\na\nb b\nU I\nP\nU I\n=\n+\n  代人数据得：\n0.2\nbI\nA\n=",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q12",
+      "content": "2011 年4 月10 日，我国成功发射第8 颗北斗导航卫星，建成以后北斗导航卫星系统将包含多可地球\n同步卫星，这有助于减少我国对GPS 导航系统的依赖，GPS 由运行周期为12 小时的卫星群组成，设北斗\n星的同步卫星和GPS 导航的轨道半径分别为R1 和R2，向心加速度分别为a1 和a2，则R1∶R2 = _____，a1∶\na2 = _______。（可用根式表示）",
+      "answer": "暂无结构化答案",
+      "analysis": "1\n2\n2\nT\nT =\n，由\n2\n2\n2\n4\nGMm\nm\nR\nma\nR\nT\nπ\n=\n=\n得：\n2\n3\n2\n4\nGMT\nR\nπ\n=\n，\n2\nGM\na\nR\n=\n因而：\n2\n3\n3\n1\n1\n2\n2\n4\nR\nT\nR\nT\n\n\n=\n=\n\n\n\n\n ，\n2\n1\n1\n2\n2\na\nR\na\nR\n−\n\n\n= \n\n\n\n = A 1\n23 2\nE",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q13",
+      "content": "图1 是改装并校准电流表的电路图，已知表头μA 的量程为Ig = 600μA，内阻为Rg，mA 是标准电流\n表，要求改装后的电流表量程为I = 60mA。完成下列填空。\n（1）图1 中分流电阻Rp 的阻值应为_________（用Ig、Rg 和I 表示）。\n（2）在电表改装完成后的某次校准测量中，mA 表的示数如图2 所示，由此读出流过mA 电流表的电流为\n_______mA。此时流过分流电阻RP 的电流为_______mA（保留1 位小数）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电流表改装，\n3\n1\n1\n60\n99\n1\n1\n600 10\ng\nP\ng\ng\ng\nR\nR\nR\nR\nI\nI\n−\n=\n=\n=\n−\n−\n×\n（2）由图示可得，电流表读数为49.5mA，实际流经表头的电流为500μA 即0.5mA，此时流过分流电阻RP\n的电流为（49.5－0.5）mA = 49.0mA。\nμA\nmA\nRP\nE\nS\nR\n图1\n图2\nmA\n0\n10\n20\n30\n40\n50\n60\n~\nb\na\n第5页（共9页）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q013-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q013-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q14",
+      "content": "现要通过实验验证机械能守恒定律。实验装置如图1 所示：水平\n桌面上固定一倾斜的气垫导轨；导轨上A 点处有一带长方形遮光片的\n滑块，其总质量为M，左端由跨过轻质光滑定滑轮的细绳与一质量为\nm 的砝码相连；遮光片两条长边与导轨垂直；导轨上B 点有一光电门，\n可以测量遮光片经过光电门时的挡光时间t。用d 表示A 点到导轨低\n端C 点的距离，h 表示A 与C 的高度差，b 表示遮光片的宽度，s 表示\nA，B 两点的距离，将遮光片通过光电门的平均速度看作滑块通过B 点\n时的瞬时速度。用g 表示重力加速度。完成下列填空和作图；\n（1）若将滑块自A 点由静止释放，则在滑块从A 运动至B 的过程中，\n滑块、遮光片与砝码组成的系统重力势能的减小量可表示为________。\n动能的增加量可表示为______。若在运动过程中机械能守恒，A1\nt2\nE\nA与s 的关系式为\nA1\nt2\nE\nA = ________。\n（2）多次改变光电门的位置，每次均令滑块自同一点（A 点）下滑，测量相应的s 与t 值，结果如下表所\n示：\n1\n2\n3\n4\n5\ns（m）\n0.600\n0.800\n1.000\n1.200\n1.400\nt（ms）\n8.22\n7.17\n6.44\n5.85\n5.43\n1/t2（104s-2）\n1.48\n1.95\n2.41\n2.92\n3.39\n以s 为横坐标，\nA1\nt2\nE\nA为纵坐标，在答题卡上对应图2 位置的坐标纸中描出第1 和第5 个数据点；根据5 个数\n据点作直线，求得该直线的斜率k = _______×104m-1·s-2 （保留3 位有效数字）。\n由测得的h、d、b、M 和m 数值可以计算出\nA1\nt2\nE\nA-s 直线的斜率k0，将k 和k0 进行比较，若其差值在试验允\n许的范围内，则可认为此试验验证了机械能守恒定律。\n1.4\ns(m)\n1\nt2 (104s-2)\n1.8\n2.2\n2.6\n3.0\n3.4\n0.6\n0.8\n1.0\n1.2\n1.4\nm\nB\nA\nC\nM\n遮光片\n光电门\n图1\n第6页（共9页）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）重力势能的减少量\n(\n)\np\nh\nh\nE\nMg\ns\nmgs\nM\nm gs\nd\nd\n∆\n=\n−\n=\n−\n，\n到达B 点的速度为\nB\nb\nv\nt\n=\n，动能的增加量\n2\n2\n2\n1\n1\n(\n)\n(\n)\n2\n2\nk\nB\nb\nE\nM\nm v\nM\nm\nt\n∆\n=\n+\n=\n+\n。\n若在运动过程中机械能守恒，\np\nk\nE\nE\n∆\n= ∆\n可得：\n2\n2\n1\n2(\n)\n(\n)\nhM\ndm g s\nt\nM\nm db\n−\n=\n+\n（2）利用图像可求得斜率为2.40×104m-1·s-2。利用实验数\n据分别进行逐差法得直线斜率为2.399×104m-1·s-2，保留3\n位有效数字为2.40×104m-1·s-2。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q014-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q014-p005-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q014-p006-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q014-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q15",
+      "content": "如图，水平地面上有一个坑，其竖直截面为半圆。ab 为沿水平方向的\n直径。若在a 点以初速度v0 沿ab 方向抛出一小球，小球会击中坑壁上的c\n点。已知c 点与水平地面的距离为圆半径的一半，求圆的半径。",
+      "answer": "暂无结构化答案",
+      "analysis": "设圆半径为r，质点做平抛运动，则：\n0\nx\nv t\n=\n               ①\n2\n1\n0.5\n2\ny\nr\ngt\n=\n=\n       ②\n过c 点做cd⊥ab 与d 点，△acd∽△cbd 可得cd2 = ad·db 即为：\n2\n( )\n(2\n)\n2\nr\nx\nr\nx\n=\n−\n     ③\n由①②③得：r = AAEA4（7±4 3）v02\nE gE",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q015-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q015-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q16",
+      "content": "如图，ab 和cd 是两条竖直放置的长直光滑金属导轨，MN 和MʹNʹ是两根用\n细线连接的金属杆，其质量分别为m 和2m。竖直向上的外力F 作用在杆MN 上，\n使两杆水平静止，并刚好与导轨接触；两杆的总电阻为R，导轨间距为l。整个\n装置处在磁感应强度为B 的匀强磁场中，磁场方向与导轨所在平面垂直。导轨电\n阻可忽略，重力加速度为g。在t = 0 时刻将细线烧断，保持F 不变，金属杆和导\n轨始终接触良好。求：\n（1）细线少断后，任意时刻两杆运动的速度之比；\n（2）两杆分别达到的最大速度。",
+      "answer": "暂无结构化答案",
+      "analysis": "设某时刻MN 和\n'\n'\nM N 速度分别为v1、v2。\n（1）MN 和\n'\n'\nM N 动量守恒：mv1－2mv2 = 0\n求出：\n1\n2\n2\nv\nv =\n①\nB\na\nc\nb\nd\nM\nN\nN′\nF\nM′\na\nb\nc\n第7页（共9页）\n（2）当MN 和\n'\n'\nM N 的加速度为零时，速度最大\n对\n'\n'\nM N 受力平衡：BIl\nmg\n=\n ②\nE\nI\nR\n=\n③\n1\n2\nE\nBlv\nblv\n=\n+\n④\n由①②③④得：v1 = A4mgR\n3B2l2\nE\nA，v2 = A2mgR\n3B2l2\nE\n六、选考题：请考生在17、18、19 三题中任选二题作答，如果多做，则按所做的第一、二题计分。作答\n时用2B 铅笔在答题卡上把所选题目的题号涂黑。计算题请写出的文字说明、方程式和演算步骤。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q016-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q016-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q17",
+      "content": "【模块3-3 试题】（12 分）\n（1）（4 分）关于空气湿度，下列说法正确的是________（填入正确选项前的字母。选对1 个给2 分，选\n对2 个给4 分；选错1 个扣2 分，最低得0 分）。\n（A）当人们感到潮湿时，空气的绝对湿度一定较大\n（B）当人们感到干燥时，空气的相对湿度一定较小\n（C）空气的绝对湿度用空气中所含水蒸汽的压强表示\n（D）空气的相对湿度定义为水的饱和蒸汽压与相同温度时空气中所含水蒸气的压强之比",
+      "answer": "暂无结构化答案",
+      "analysis": "人们感到潮湿时，空气中实际水汽含量大，即空气中所含水蒸气的压强大，空气的绝对湿度大，A、\nC 正确；空气的相对湿度定义为水蒸气的实际压强与相同温度时水的饱和蒸汽压之比，人们感到干燥时，\n相对湿度较大，B、D 错误。\n（2）（8 分）如图，容积为V1 的容器内充有压缩空气。容器与\n水银压强计相连，压强计左右两管下部由软胶管相连。气阀关\n闭时，两管中水银面等高，左管中水银面上方到气阀之间空气\n的体积为V2。打开气阀，左管中水银下降；缓慢地向上提右\n管，使左管中水银面回到原来高度，此时右管与左管中水银面\n的高度差为h。已知水银的密度为ρ，大气压强为p0，重力加\n速度为g；空气可视为理想气体，其温度不变。求气阀打开前容器中压缩空气的压强p1。\n由玻意耳定律得\np1V1＋p0V2 = （p0＋ρgh）（V1＋V2），\np1 = Aρgh（V1＋V2）＋p0V1\nV1 E",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q017-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q017-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q18",
+      "content": "【模块3-4 试题】（12 分）\n（1）（4 分）一列简谐横波在t = 0 时的波形图如图所示。介质中x = 2m 处的质点P 沿y 轴方向做简谐运\n动的表达式为y = 10sin（5πt）cm。关于这列简谐波，下列说法正确的是______（填入正确选项前的字母。\n选对1 个给2 分，选对2 个给4 分；选错1 个扣2 分，最低得0 分）。\n（A）周期为4.0s\n（B）振幅为20cm\n（C）传播方向沿x 轴正向\n（D）传播速度为10m/s",
+      "answer": "暂无结构化答案",
+      "analysis": "5\nω\nπ\n=\n 周期为：\n2\n0.4\nT\ns\nπ\nω\n=\n=\n，由波的图像得：振幅\n10\nA\ncm\n=\n、波长\n4m\nλ =\n，故波速为\n10\n/\nv\nm s\nT\nλ\n=\n=\n，p 点在t = 0 时\n振动方向为正y 方向，波向正x 方向传播\np0\nh\nV2\n软胶管\np0\n气阀\nV1\n10\n0\n-10\nP\ny/cm\nx/m\n1   2   3   4   5   6\n第8页（共9页）\n（2）（8 分）一赛艇停在平静的水面上，赛艇前端有一标记P 离\n水面的高度为h1 = 0.6m，尾部下端Q 略高于水面；赛艇正前方离\n赛艇前端s1 = 0.8m 处有一浮标，示意如图。一潜水员在浮标前方\ns2 = 3.0m 处下潜到深度为h2 = 4.0m 时，看到标记刚好被浮标挡\n住，此处看不到船尾端Q；继续下潜Δh = 4.0m，恰好能看见Q。\n求：\n（i）水的折射率n；\n（ii）赛艇的长度l。（可用根式表示）\n（i）设过P 点光线，恰好被浮子挡住时，入射角、折射角\n分别为：α、β则：\n1\n2\n2\n1\n1\nsin\ns\ns\nh\nα =\n+\n           ①\n2\n2\n2\n2\n2\nsin\ns\ns\nh\nβ =\n+\n         ②\nsin\nsin\nn\nα\nβ\n=\n                 ③\n由①②③得：\n4\n3\nn =\n（ii）潜水员和Q 点连线与水平方向夹角刚好为临界角C，则：\n1\n3\nsin\n4\nC\nn\n=\n=\n   ④\n2\n1\n2\ntan\nh\nh\nC\ns\ns\nl\n+ ∆\n=\n+\n+\n ⑤\n 由④⑤得：\n8 7\n(\n3.8)\n3.3\n3\nl\nm\nm\n=\n−\n≈",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q018-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q018-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q018-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2011/2011海南.pdf#q19",
+      "content": "【模块3-5 试题】（12 分）\n（1）（4 分）2011 年3 月11 日，日本发生九级大地震，造成福岛核电站的核泄漏事故。在泄露的污染物中\n含有131I 和137Cs 两种放射性核素，它们通过一系列衰变产生对人体有危害的辐射。在下列四个式子中，有\n两个能分别反映131I 和137Cs 衰变过程，它们分别是_______和__________（填入正确选项前的字母）。131I\n和137Cs 原子核中的中子数分别是________和_______。\n（A）X1→13756Ba＋10n\n（B）X2→13154Xe＋0-1e\n（C）X3→13756Ba＋0-1e\n（D）X4→13154Xe＋11p",
+      "answer": "暂无结构化答案",
+      "analysis": "由质量数和核电荷数守恒可以得出正确选项 B C 131I 和137Cs 原子核中的中子数分别78 和82\n（2）（8 分）一质量为2m 的物体P 静止于光滑水平地面上，\n其截面如图所示。图中ab 为粗糙的水平面，长度为L；bc 为\n一光滑斜面，斜面和水平面通过与ab 和bc 均相切的长度可忽\n略的光滑圆弧连接。现有一质量为m 的木块以大小为v0 的水\n平初速度从a 点向左运动，在斜面上上升的最大高度为h，返\n回后在到达a 点前与物体P 相对静止。重力加速度为g。求：\n（i）木块在ab 段受到的摩擦力f；\n（ii）木块最后距a 点的距离s。\ns2\ns1\nl\nh1\nP\nQ\n浮标\nh2\nΔh\nv0\nc\nP\nb\na\n第9页（共9页）\n（i）设木块和物体P 共同速度为v,两物体从开始到第一次到达共同速度过程由动量和能量守恒得：\n0\n(\n2 )\nmv\nm\nm v\n=\n+\n                         ①\n2\n2\n0\n1\n1 (\n2 )\n2\n2\nmv\nm\nm v\nmgh\nfL\n=\n+\n+\n+\n         ②\n由①②得：\n2\n0\n(\n3\n)\n3\nm v\ngh\nf\nL\n−\n=\n                ③\n（ii）木块返回与物体P 第二次达到共同速度与第一次相同（动量守恒）全过程能量守恒得：\n2\n2\n0\n1\n1 (\n2 )\n(2\n)\n2\n2\nmv\nm\nm v\nf\nL\ns\n=\n+\n+\n−\n       ④\n由②③④得：\n2\n0\n2\n0\n6\n3\nv\ngh\ns\nL\nv\ngh\n−\n=\n−",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2011,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2011/2011海南.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q019-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q019-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-948ef96e3136e9c6-q019-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 16,
+    "answerGraphics": 0,
+    "assigned": 16,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 3
+  }
 }

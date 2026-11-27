@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
   "name": "2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 5,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 12,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 3,
+    "reviewCount": 9,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q01",
       "content": "如图所示，位于光滑固定斜面上的小物块P 受到一水平向右的\n推力F 的作用。已知物块P 沿斜面加速下滑。现保持F 的方向不\n变，使其减小，则加速度（     ）\n（A）一定变小\n（B）一定变大\n（C）一定不变\n（D）可能变小，可能变大，也可能不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q02",
       "content": "一束复色光由空气射向玻璃，发生折射而分为a、b 两束单\n色光，其传播方向如图所示。设玻璃对a、b 的折射率分别为na\n和nb，a、b 在玻璃中的传播速度分别为va 和vb，则（    ）\n（A）na＞nb\n（B）na＜nb\n（C）va＞vb\n（D）va＜vb",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -56,22 +77,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q03",
       "content": "对于定量气体，可能发生的过程是（    ）\n（A）等压压缩，温度降低\n（B）等温吸热，体积不变\n（C）放出热量，内能增加\n（D）绝热压缩，内能不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -79,22 +110,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q04",
       "content": "图中画出了氢原子的 4 个能级，并注明了相应的能量 E。处在 n = 4 的能\n级的一群氢原子向低能级跃迁时，能够发出若干种不同频率的光波。已知金属\n钾的逸出功为 2.22 eV。在这些光波中，能够从金属钾的表面打出光电子的总共\n有（   ）\n（A）二种\n（B）三种\n（C）四种\n（D）五种",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -102,22 +139,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q05",
       "content": "已知引力常量G、月球中心到地球中心的距离R 和月球绕地球运行的周期T。仅利用这\n三个数据，可以估算出的物理量有（     ）\n（A）月球的质量\n（B）地球的质量\n（C）地球的半径\n（D）月球绕地球运行速度的大小",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -125,22 +172,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q06",
       "content": "一简谐横波沿x 轴正方向传播，某时刻其波\n形如图所示。下列说法正确的是（    ）\n（A）由波形图可知该波的波长\n（B）由波形图可知该波的周期\n（C）经1/4 周期后质元P 运动到Q 点\n（D）经1/4 周期后质元R 的速度变为零\nn\nEn/eV\n0 -0.85\n-1.51\n-3.4\n-13.6\n∞\n4\n3\n2\n1\nF\nP\n空气\n玻璃\na\nb\ny\nx/cm\n1\n2\n3\n4\n5\n6\nP\nQ\nR",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -148,22 +201,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q006-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q006-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q07",
       "content": "处在匀强磁场中的矩形线圈 abcd，以恒定的角速度绕 ab 边转\n动，磁场方向平行于纸面并与 ab 垂直。在 t = 0 时刻，线圈平面与\n纸面重合（如图），线圈的 cd 边离开纸面向外运动。若规定由\na→b→c→d→a 方向的感应电流为正，则能反映线圈中感应电流 I\n随时间 t 变化的图线是（     ）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -171,22 +234,36 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f05.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q08",
       "content": "图中a、b 是两个点电荷，它们的电量分别为Q1、Q2，MN 是\nab 连线的中垂线，P 是中垂线上的一点。下列哪中情况能使P 点场\n强方向指向MN 的左侧？（    ）\n（A）Q1、Q2 都是正电荷，且Q1＜Q2\n（B）Q1 是正电荷，Q2 是负电荷，且Q1＞|Q2|\n（C）Q1 是负电荷，Q2 是正电荷，且|Q1|＜Q2\n（D）Q1、Q2 都是负电荷，且|Q1|＞|Q2|",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "ACD",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -194,22 +271,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q09",
       "content": "（17 分）\n（1）用游标为50 分度的卡尺（测量值可准\n确到0.02mm）测定某圆柱的直径时，卡尺上\n的示数如图。可读出圆柱的直径为\n_____mm。\n（2）利用图1 所示的电路测量电流表mA 的内阻RA。图中R1、R2 为电阻，K1、K2 为电键，\nB 是电源（内阻可忽略）。\n①根据图1 所给出的电路原理图，在图2 的实物图上连线。\n②已知R1 = 140Ω，R2 = 60Ω。当电键K1 闭合、K2 断开时，电流表读数为6.4mA；当K1、\nK2 均闭合时，电流表读数为8.5mA。由此可以求出RA = _____Ω。（保留2 位有效数字）\nI\nt\nO\nI\nt\nO\nI\nt\nO\nI\nt\nO\n（A）\n（B）\n（C）\n（D）\nB\na\nb\nc\nd\nM\nN\nb\na\n左\n右\nP",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）42.12\n（2）43Ω\n电路见图",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -217,22 +304,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q009-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q10",
       "content": "（16 分）如图所示，在水平桌面的边角处有\n一轻质光滑的定滑轮K，一条不可伸长的轻绳绕\n过K 分别与物块A、B 相连，A、B 的质量分别\n为mA、mB。开始时系统处于静止状态。现用一水\n平恒力F 拉物块A，使物块B 上升。已知当B 上\n升距离为h 时，B 的速度为v。求此过程中物块\nA 克服摩擦力所做的功。重力加速度为g。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：由于连结AB 绳子在运动过程中未松，故AB 有一样的速度大小，对AB 系统，由\n功能关系有：\nFh－W－mBgh = （mA＋mB）v2/2\n求得：W = Fh－mBgh－A1\n2\nE\nA（mA＋mB）v2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -240,22 +337,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q010-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q010-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q010-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q010-p003-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q11",
       "content": "（19 分）在同时存在匀强电场和匀强磁场的空间中取正交坐标\n系Oxyz（z 轴正方向竖直向上），如图所示。已知电场方向沿z 轴正\n方向，场强大小为E；磁场方向沿y 轴正方向，磁感应强度的大小为\nB；重力加速度为g。问：一质量为m、带电量为＋q 的从原点出发的\n质点能否在坐标轴（x，y，z）上以速度v 做匀速运动？若能，m、q、\nE、B、v 及g 应满足怎样的关系？若不能，说明理由。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：能\n第一种情况：mg＞qE，由平衡条件知洛仑兹力f 沿z 轴正向，粒子以v 沿x 轴正向运动由匀\n速运动易知其条件是：mg－qE = qvB\n第二种情况：mg＜qE，则f 沿z 轴负方向 ，粒子以v 沿x 轴负向运动，由匀速运动知条件\n是：qE－mg = qvB",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -263,22 +371,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q011-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q011-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf#q12",
       "content": "（20 分）质量为M 的小物块A 静止在离地面高h 的水平桌面的边缘，质量为m 的小物\nR1\nR2\nK1\nK2\n+\nmA\n图2\n图2\nO\nz\nx\ny\nR1\nR2\nK1\nK2\nmA\nB\n图1\nB\nA\nF\nK\n块B 沿桌面向A 运动以速度v0 与之发生正碰（碰\n撞时间极短）。碰后A 离开桌面，其落地点离出发\n点的水平距离为L。碰后B 反向运动。求B 后退\n的距离。已知B 与桌面间的动摩擦因数为μ。重力\n加速度为g。\nM\nm\nv0\nB\nA\nh\nL\n2005 年高考理综全国卷Ⅱ物理部分（黑龙江、吉林、广西",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解：设AB 碰后A 的速度为v1，则A 平抛有：h = A1\n2\nE\nAgt2，L = v1t\n求得：v1 = LA\ng\n2h\nE\nA                                                       ①\n设碰后B 的速度为v2，则对AB 碰撞过程由动量守恒有：mv0 = Mv1－mv2\n②\n设B 后退距离为s，对B 后退直至停止过程，由动能定理：μmgs = A1\n2\nE\nAmv22\n③\n由①②③解得：s = A 1\n2μg\nE\nA（AML\nm\ng\nE2h\nE\nA－v0）2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2005,
       "subject": "物理",
@@ -286,11 +402,29 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2005/2005全国2理综(内蒙古,吉林,黑龙江,广西,宁夏,新疆).pdf",
         "page": 3,
+        "endPage": 5,
         "questionNumber": 25,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q012-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q012-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-4791a439e539d042-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 16,
+    "answerGraphics": 0,
+    "assigned": 16,
+    "rendered": 18,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2024/2024海南.pdf",
   "name": "2024海南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 18,
+    "answerBlocks": 0,
+    "sourceAnswers": 14,
+    "sourceAnalysis": 18,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q01",
-      "content": "神舟十七号载人飞船返回舱于 2024 年 4 月 30 日在东风着陆场成功着陆，在飞船返回\n至离地面十几公里时打开主伞飞船快速减速，返回舱速度大大减小，在减速过程中（    ）\nA．返回舱处于超重状态\nB．返回舱处于失重状态\nC．主伞的拉力不做功\nD．重力对返回舱做负功\n【详解】AB．返回舱在减速过程中，加速度竖直向上，处于超重状态，故 A 正确，B 错误；\nC．主伞的拉力与返回舱运动方向相反，对返回舱做负功，故 C 错误；\nD．返回舱的重力与返回舱运动方向相同，重力对返回舱做正功，故 D 错误。\n故选 A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "神舟十七号载人飞船返回舱于 2024 年 4 月 30 日在东风着陆场成功着陆，在飞船返回\n至离地面十几公里时打开主伞飞船快速减速，返回舱速度大大减小，在减速过程中（    ）\nA．返回舱处于超重状态\nB．返回舱处于失重状态\nC．主伞的拉力不做功\nD．重力对返回舱做负功",
+      "answer": "A",
+      "analysis": "AB．返回舱在减速过程中，加速度竖直向上，处于超重状态，故 A 正确，B 错误；\nC．主伞的拉力与返回舱运动方向相反，对返回舱做负功，故 C 错误；\nD．返回舱的重力与返回舱运动方向相同，重力对返回舱做正功，故 D 错误。\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q02",
-      "content": "人工核反应 3014Si + 11H → X + 3015P 中的 X 是（    ）\nA．中子\nB．质子\nC．电子\nD．α 粒子\n【详解】根据质量数守恒和电荷数守恒可知 X 的电荷数为 0，质量数为 1，则 X 是中子。\n故选 A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "人工核反应 3014Si + 11H → X + 3015P 中的 X 是（    ）\nA．中子\nB．质子\nC．电子\nD．α 粒子",
+      "answer": "A",
+      "analysis": "根据质量数守恒和电荷数守恒可知 X 的电荷数为 0，质量数为 1，则 X 是中子。\n故选 A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q03",
-      "content": "在跨越河流表演中，一人骑车以 25 m/s 的速度\n水平冲出平台，恰好跨越长 x = 25 m 的河流落在\n河对岸平台上，已知河流宽度 25 m，不计空气阻\n力，取 g = 10 m/s2，则两平台的高度差 h 为（    ）\nA．0.5 m\nB．5 m\nC．10 m\nD．20 m\n【详解】车做平抛运动，设运动时间为 t，\n竖直方向 h = 1\n2 gt2\n水平方向 d= v0t\n其中 d = 25 m、v0 = 25 m/s\n解得 h = 5 m\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在跨越河流表演中，一人骑车以 25 m/s 的速度\n水平冲出平台，恰好跨越长 x = 25 m 的河流落在\n河对岸平台上，已知河流宽度 25 m，不计空气阻\n力，取 g = 10 m/s2，则两平台的高度差 h 为（    ）\nA．0.5 m\nB．5 m\nC．10 m\nD．20 m",
+      "answer": "B",
+      "analysis": "车做平抛运动，设运动时间为 t，\n竖直方向 h = 1\n2 gt2\n水平方向 d= v0t\n其中 d = 25 m、v0 = 25 m/s\n解得 h = 5 m\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -79,22 +98,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q04",
-      "content": "一正三角形 OPQ 玻璃砖，某束光线垂直于 OP 射入，恰好在\nPQ 界面发生全反射，则玻璃砖的折射率（    ）\nA．2\nB．3\nC．2 3\n3\nD．2\n【详解】如图所示\n根据几何关系可知光线在 PQ 界面的入射角为 C = 60°，\n根据全反射的临界条件可得 sinC = 1\nn\n解得 n = 2 3\n3\n故选 C。\n2 / 12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一正三角形 OPQ 玻璃砖，某束光线垂直于 OP 射入，恰好在\nPQ 界面发生全反射，则玻璃砖的折射率（    ）\nA．2\nB．3\nC．2 3\n3\nD．2",
+      "answer": "C",
+      "analysis": "如图所示\n根据几何关系可知光线在 PQ 界面的入射角为 C = 60°，\n根据全反射的临界条件可得 sinC = 1\nn\n解得 n = 2 3\n3\n故选 C。\n2 / 12",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -102,22 +129,31 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q004-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q004-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q05",
-      "content": "商场自动感应门如图所示，人走进时两扇门从静止开始同时\n向左右平移，经 4 s 恰好完全打开，两扇门移动距离均为 2 m，\n若门从静止开始以相同加速度大小先匀加速运动后匀减速运\n动，完全打开时速度恰好为 0，则加速度的大小为（    ）\nA．1.25 m/s2\nB．1 m/s2\nC．0.5 m/s2\nD．0.25 m/s2\n【详解】设门的最大速度为 v，根据匀变速直线运动的规律可知加速过程和减速过程的平均\n速度均为2\nv\n，且时间相等，均为 2 s，根据\n4\n2\nv\nx =\n\n可得 v = 1 m/s\n则加速度\n2\n2\n1 m/s\n0.5m/s\n2\nv\na\nt\n=\n=\n=\n故选 C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "商场自动感应门如图所示，人走进时两扇门从静止开始同时\n向左右平移，经 4 s 恰好完全打开，两扇门移动距离均为 2 m，\n若门从静止开始以相同加速度大小先匀加速运动后匀减速运\n动，完全打开时速度恰好为 0，则加速度的大小为（    ）\nA．1.25 m/s2\nB．1 m/s2\nC．0.5 m/s2\nD．0.25 m/s2",
+      "answer": "C",
+      "analysis": "设门的最大速度为 v，根据匀变速直线运动的规律可知加速过程和减速过程的平均\n速度均为2\nv\n，且时间相等，均为 2 s，根据\n4\n2\nv\nx =\n\n可得 v = 1 m/s\n则加速度\n2\n2\n1 m/s\n0.5m/s\n2\nv\na\nt\n=\n=\n=\n故选 C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -125,22 +161,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q06",
-      "content": "嫦娥六号进入环月圆轨道，周期为 T，轨道高度与月球半径之比为 k，引力常量为 G，\n则月球的平均密度为（    ）\nA．3π(1 + k)3\nGT2k3\nB．3π\nGT2\nC．π(1 + k)\n3GT2k\nD．3π(1 + k)3\nGT2\n【详解】设月球半径为 R，质量为 M，对嫦娥六号，根据万有引力提供向心力\n2\n2\n2\n4\n(\n1)\n[(\n1) ]\nMm\nG\nm\nk\nR\nk\nR\nT\n\n=\n\n+\n+\n月球的体积\n3\n4\n3\nV\nR\n\n=\n月球的平均密度\nM\nV\n=\n联立可得 ρ = 3π(1 + k)3\nGT2\n故选 D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "嫦娥六号进入环月圆轨道，周期为 T，轨道高度与月球半径之比为 k，引力常量为 G，\n则月球的平均密度为（    ）\nA．3π(1 + k)3\nGT2k3\nB．3π\nGT2\nC．π(1 + k)\n3GT2k\nD．3π(1 + k)3\nGT2",
+      "answer": "D",
+      "analysis": "设月球半径为 R，质量为 M，对嫦娥六号，根据万有引力提供向心力\n2\n2\n2\n4\n(\n1)\n[(\n1) ]\nMm\nG\nm\nk\nR\nk\nR\nT\n\n=\n\n+\n+\n月球的体积\n3\n4\n3\nV\nR\n\n=\n月球的平均密度\nM\nV\n=\n联立可得 ρ = 3π(1 + k)3\nGT2\n故选 D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -148,22 +192,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q07",
-      "content": "用铝制易拉罐制作温度计，一透明薄吸\n管里有一段油柱（长度不计）粗细均匀，吸\n管与罐密封性良好，罐内气体可视为理想气\n体，已知罐体积为 330 cm3，薄吸管底面积\n0.5 cm2，罐外吸管总长度为 20 cm，当温度\n为 27℃ 时，油柱离罐口 10 cm，不考虑大气压强变化，下列说法正确的是（    ）\nA．若在吸管上标注等差温度值，则刻度左密右疏\nB．该装置所测温度不高于 31.5℃\nC．该装置所测温度不低于 23.5℃\nD．其他条件不变，缓慢把吸管拉出来一点，则油柱离罐口距离增大\n【详解】A．由盖-吕萨克定律得\n3 / 12\n1\n2\n1\nV\nV\nT\nT\n=\n其中\n3\n1\n0\n1\n335cm\nV\nV\nSl\n=\n+\n=\n，1\n273\n27(K)\n300K\nT =\n+\n=\n，\n3\n1\n0\n1\n330\n0.5 (cm )\nV\nV\nSl\nx\n=\n+\n=\n+\n代入解得\n30\n19800 (K)\n67\n67\nT\nx\n=\n+\n根据\n273K\nT\nt\n= +\n可知\n30\n1509 (\n)\n67\n67\nt\nx\n=\n+\n℃\n故若在吸管上标注等差温度值，则刻度均匀，故 A 错误；\nBC．当 x = 20 cm 时，该装置所测的温度最高，代入解得\ntmax = 31.5℃\n故该装置所测温度不高于 31.5℃，当 x = 0 时，该装置所测的温度最低，代入解得\ntmin = 22.5℃\n故该装置所测温度不低于 22.5℃，故B 正确，C 错误；\nD．其他条件不变，缓慢把吸管拉出来一点，由盖—吕萨克定律可知，油柱离罐口距离不变，\n故 D 错误。\n故选 B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "用铝制易拉罐制作温度计，一透明薄吸\n管里有一段油柱（长度不计）粗细均匀，吸\n管与罐密封性良好，罐内气体可视为理想气\n体，已知罐体积为 330 cm3，薄吸管底面积\n0.5 cm2，罐外吸管总长度为 20 cm，当温度\n为 27℃ 时，油柱离罐口 10 cm，不考虑大气压强变化，下列说法正确的是（    ）\nA．若在吸管上标注等差温度值，则刻度左密右疏\nB．该装置所测温度不高于 31.5℃\nC．该装置所测温度不低于 23.5℃\nD．其他条件不变，缓慢把吸管拉出来一点，则油柱离罐口距离增大",
+      "answer": "B",
+      "analysis": "A．由盖-吕萨克定律得\n3 / 12\n1\n2\n1\nV\nV\nT\nT\n=\n其中\n3\n1\n0\n1\n335cm\nV\nV\nSl\n=\n+\n=\n，1\n273\n27(K)\n300K\nT =\n+\n=\n，\n3\n1\n0\n1\n330\n0.5 (cm )\nV\nV\nSl\nx\n=\n+\n=\n+\n代入解得\n30\n19800 (K)\n67\n67\nT\nx\n=\n+\n根据\n273K\nT\nt\n= +\n可知\n30\n1509 (\n)\n67\n67\nt\nx\n=\n+\n℃\n故若在吸管上标注等差温度值，则刻度均匀，故 A 错误；\nBC．当 x = 20 cm 时，该装置所测的温度最高，代入解得\ntmax = 31.5℃\n故该装置所测温度不高于 31.5℃，当 x = 0 时，该装置所测的温度最低，代入解得\ntmin = 22.5℃\n故该装置所测温度不低于 22.5℃，故B 正确，C 错误；\nD．其他条件不变，缓慢把吸管拉出来一点，由盖—吕萨克定律可知，油柱离罐口距离不变，\n故 D 错误。\n故选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -171,22 +219,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q08",
-      "content": "利用如图所示的装置研究光电效应，闭合单刀双掷开关\nS1，用频率为 ν1 的光照射光电管，调节滑动变阻器，使电\n流表的示数刚好为 0，此时电压表的示数为 U1，已知电子\n电荷量为 e，普朗克常量为 h，下列说法正确的是（    ）\nA．其他条件不变，增大光强，电压表示数增大\nB．改用比 ν1 更大频率的光照射，调整电流表的示数为零，\n此时电压表示数仍为 U\nC．其他条件不变，使开关接 S2，电流表示数仍为零\nD．光电管阴极材料的截止频率 νc = ν1 – eU1\nh\n【详解】A．当开关 S 接 1 时，由爱因斯坦光电效应方程 eU = hν1 − W0，故其他条件不变\n时，增大光强，电压表的示数不变，故 A 错误；\nB．若改用比 ν1 更大频率的光照射时，调整电流表的示数为零，而金属的逸出功不变，故\n遏止电压变大，即此时电压表示数大于 U，故 B 错误；\nC．其他条件不变时，使开关 S 接 2，此时 hν1 > W0，可发生光电效应，故电流表示数不为\n零，故 C 错误；\nD．根据爱因斯坦光电效应方程 eU1 = hν1 − W0，其中 W0 = hνc。联立解得光电管阴极材料\n的截止频率为 νc = ν1 – eU1\nh 。故 D 正确。\n故选 D。\n4 / 12",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "利用如图所示的装置研究光电效应，闭合单刀双掷开关\nS1，用频率为 ν1 的光照射光电管，调节滑动变阻器，使电\n流表的示数刚好为 0，此时电压表的示数为 U1，已知电子\n电荷量为 e，普朗克常量为 h，下列说法正确的是（    ）\nA．其他条件不变，增大光强，电压表示数增大\nB．改用比 ν1 更大频率的光照射，调整电流表的示数为零，\n此时电压表示数仍为 U\nC．其他条件不变，使开关接 S2，电流表示数仍为零\nD．光电管阴极材料的截止频率 νc = ν1 – eU1\nh",
+      "answer": "D",
+      "analysis": "A．当开关 S 接 1 时，由爱因斯坦光电效应方程 eU = hν1 − W0，故其他条件不变\n时，增大光强，电压表的示数不变，故 A 错误；\nB．若改用比 ν1 更大频率的光照射时，调整电流表的示数为零，而金属的逸出功不变，故\n遏止电压变大，即此时电压表示数大于 U，故 B 错误；\nC．其他条件不变时，使开关 S 接 2，此时 hν1 > W0，可发生光电效应，故电流表示数不为\n零，故 C 错误；\nD．根据爱因斯坦光电效应方程 eU1 = hν1 − W0，其中 W0 = hνc。联立解得光电管阴极材料\n的截止频率为 νc = ν1 – eU1\nh 。故 D 正确。\n故选 D。\n4 / 12",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -194,22 +250,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q008-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q09",
-      "content": "电动汽车充电站变压器输入电压为 10 kV，输出电压为\n220 V，每个充电桩输入电流 16 A，设原副线圈匝数分别为\nn1、n2，输入正弦交流的频率为 50 Hz，则下列说法正确的是\n（    ）\nA．交流电的周期为 0.02 s\nB．原副线圈匝数比 n1∶n2 = 11∶500\nC．输出的最大电压为 220 V\nD．若 10 台充电桩同时使用，输入功率为 35.2 kW\n【详解】A．交流电的周期为\n1\n0.02s\nT\nf\n=\n=\n。故 A 正确；\nB．根据理想变压器原副线圈的电压与线圈匝数的关系可得，原副线圈匝数比为\n1\n1\n2\n2\n10 1000\n500\n220\n11\nn\nU\nn\nU\n\n=\n=\n=\n。故 B 错误；\nC．输出的最大电压为\n2m\n2\n2\n220 2V\nU\nU\n=\n=\n。故 C 错误；\nD\n．\n若\n10\n台\n充\n电\n桩\n同\n时\n使\n用\n，\n输\n出\n功\n率\n为\n2\n2\n2\n10\n10 220 16W\n35200W",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "电动汽车充电站变压器输入电压为 10 kV，输出电压为\n220 V，每个充电桩输入电流 16 A，设原副线圈匝数分别为\nn1、n2，输入正弦交流的频率为 50 Hz，则下列说法正确的是\n（    ）\nA．交流电的周期为 0.02 s\nB．原副线圈匝数比 n1∶n2 = 11∶500\nC．输出的最大电压为 220 V\nD．若 10 台充电桩同时使用，输入功率为 35.2 kW",
+      "answer": "AD",
+      "analysis": "A．交流电的周期为\n1\n0.02s\nT\nf\n=\n=\n。故 A 正确；\nB．根据理想变压器原副线圈的电压与线圈匝数的关系可得，原副线圈匝数比为\n1\n1\n2\n2\n10 1000\n500\n220\n11\nn\nU\nn\nU\n\n=\n=\n=\n。故 B 错误；\nC．输出的最大电压为\n2m\n2\n2\n220 2V\nU\nU\n=\n=\n。故 C 错误；\nD\n．\n若\n10\n台\n充\n电\n桩\n同\n时\n使\n用\n，\n输\n出\n功\n率\n为\n2\n2\n2\n10\n10 220 16W\n35200W\n35.2kW\nP\nU I\n=\n=\n\n\n=\n=\n总\n，变压器不改变功率，故输入功率为\n2\n35.2kW\nP\nP\n=\n=\n1总\n总\n。故 D 正确。\n故选 AD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -217,22 +281,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q009-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q009-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2024/2024海南.pdf#q10",
-      "content": "2kW\nP\nU I\n=\n=\n\n\n=\n=\n总\n，变压器不改变功率，故输入功率为\n2\n35.2kW\nP\nP\n=\n=\n1总\n总\n。故 D 正确。\n故选 AD。\n10．一歌手在湖边唱歌，歌声通过空气和水传到距其 2 km 的湖对岸，空气中的声速为 340\nm/s，水中声速为 1450 m/s，歌声可视为频率为 400 Hz 的声波，则下列说法正确的是（    ）\nA．在水中传播频率会改变\nB．由空气和水传到湖对岸的时间差约为 4.5 s\nC．在空气中波长为 0.85 m\nD．在水中的波长为 5 m\n【详解】A．频率只与波源有关，故在水中传播频率不会改变，故A 错误；\nB．由空气传到湖对岸的时间为\n2000 s\n5.88s\n340\ns\nt\nv\n=\n=\n\n空\n空\n，由水传到湖对岸的时间为\n2000 s\n1.38s\n1450\ns\nt\nv\n=\n=\n\n水\n水\n，故由空气和水传到湖对岸的时间差约为\n4.5s\nt\nt\nt\n=\n−\n=\n空\n水\n。\n故 B 正确；\nC．在空气中的波长为\n340 m\n0.85m\n400\nv\nf\n\n=\n=\n=\n空\n空\n。故 C 正确；\n5 / 12\nD．在水中的波长为\n1450 m\n3.625m\n400\nv\nf\n\n=\n=\n=\n水\n水\n。故 D 错误。\n故选 BC。\n11．一定质量的理想气体从状态 a 开始经 ab、bc、ca 三个过程\n回到原状态，已知 ab 垂直于 T 轴，bc 延长线过 O 点，下列说\n法正确的是（    ）\nA．be 过程外界对气体做功\nB．ca 过程气体压强不变\nC．ab 过程气体放出热量\nD．ca 过程气体内能减小\n【详解】A．由理想气体状态方程\npV\nC\nT\n=\n化简可得\nC\nV\nT\np\n=\n\n由图像可知，图像的斜率越大，压强越小，故\na\nb\nc\np\np\np\n=\n＜\nbc 过程为等压变化，体积减小，外界对气体做功，故A 正确；\nB．由 A 选项可知，ca 过程压强减小，故 B 错误；\nC．ab 过程为等温变化，内能不变，故\n0\nU\n\n=\n根据玻意耳定律可知，体积减小，压强增大，外界对气体做功，故\n0\nW＞\n根据热力学第一定律\nU\nQ W\n\n=\n+\n解得\n0\nQ＜\n故 ab 过程气体放出热量，故 C 正确；\nD．ca 过程，温度升高，内能增大，故 D 错误。\n故选 AC。\n12．真空中有两个点电荷，电荷量均为 − q（q≥0），\n固定于相距为2r 的P1、P2 两点，O 是P1P2 连线的\n中点，M 点在P1P2 连线的中垂线上，距离O 点为\nr，N 点在P1P2 连线上，距离O 点为x（x ≪ r），已\n知静电力常量为k，则下列说法正确的是（    ）\nA．P1P2 中垂线上电场强度最大的点到O 点的距离\n为\n3\n3 r\nB．P1P2 中垂线上电场强度的最大值为 4 3kq\n9r2\nC．在M 点放入一电子，从静止释放，电子的加速度一直减小\nD．在N 点放入一电子，从静止释放，电子的运动可视为简谐运动\n6 / 12\n【详解】AB．设P1 处的点电荷在P1P2 中垂线上某点A 处产生的场强与竖直向下的夹角为\nθ，则根据场强的叠加原理可知，A 点的合场强为\n2\n2\n2 sin\ncos\nq\nE\nk r\n\n\n=\n，根据均值不等式\n可知当cosθ =\n3\n3 时E 有最大值，且最大值为4 3kq\n9r2 。\n再根据几何关系可知A 点到O 点的距离为y = rcotθ =\n2\n2 r。故A 错误，B 正确；\nC．在M 点放入一电子，从静止释放，由于r >\n2\n2 r，可知电子向上运动的过程中电场力一\n直减小，则电子的加速度一直减小，故 C 正确；\nD．根据等量同种电荷的电场线分布可知，电子运动过程中，O 点为平衡位置，可知当发生\n位移 x 时，粒子受到的电场力为\n2\n2\n4\n(\n) (\n)\nrx\nF\nkeq\nr\nx\nr\nx\n−\n=\n\n+\n−\n由于 x ≪ r，整理后有\n3\n4keq\nF\nx\nr\n= −\n\n在 N 点放入一电子，从静止释放，电子将以 O 点为平衡位置做简谐运动，故 D 正确。\n故选 CD。\n13．两根足够长的导轨由上下段电阻不计，光\n滑的金属导轨组成，在 M、N 两点绝缘连接，\nM、N 等高，间距 L = 1 m，连接处平滑。导轨\n平面与水平面夹角为 30°，导轨两端分别连接一\n个阻值 R = 0.02 Ω 的电阻和 C = 1 F 的电容\n器，整个装置处于 B = 0.2 T 的垂直导轨平面斜\n向上的匀强磁场中，两根导体棒 ab、cd 分别放\n在 MN 两侧，质量分为 m1 = 0.8 kg，m2 = 0.4\nkg，ab 棒电阻为 0.08 Ω，cd 棒的电阻不计，将 ab 由静止释放，同时 cd 从距离 MN 为\nx0 = 4.32 m 处在一个大小 F = 4.64 N，方向沿导轨平面向上的力作用下由静止开始运动，两\n棒恰好在 M、N 处发生弹性碰撞，碰撞前瞬间撤去 F，已知碰前瞬间 ab 的速度为 4.5 m/s，\ng = 10 m/s2（    ）\nA．ab 从释放到第一次碰撞前所用时间为 1.44 s\nB．ab 从释放到第一次碰撞前，R 上消耗的焦耳热为 0.78 J\nC．两棒第一次碰撞后瞬间，ab 的速度大小为 6.3 m/s\nD．两棒第一次碰撞后瞬间，cd 的速度大小为 8.4 m/s\n【详解】A．由于金属棒 ab、cd 同时由静止释放，且恰好在 M、N 处发生弹性碰撞，则说\n明 ab、cd 在到达 M、N 处所用的时间是相同的，对金属棒 cd 和电容器组成的回路有\nΔq = C·BLΔv\n对 cd 根据牛顿第二定律有 F – BIL − m2gsin30° = m2a2\n其中\n2\nv\na\nt\n\n= ，\nq\nI\nt\n\n= \n7 / 12\n联立有\n2\n2\n2\n2\n2\nsin30\nF\nm g\na\nm\nCB L\n−\n=\n+\n则说明金属棒 cd 做匀加速直线运动，则有\n2\n0\n2\n1\n2\nx\na t\n=\n联立解得 a2 = 6 m/s2，t = 1.2 s\n故 A 错误；\nB．由题知，知碰前瞬间 ab 的速度为 4.5 m/s，则根据功能关系有\n2\n1\n1 1\n1\nsin30\n2\nab\nm gx\nQ\nm v\n−\n=\n金属棒下滑过程中根据动量定理有\n1\n1 1\nsin30\nm g\nt\nBIL t\nmv\n−\n=\n其中\nab\nBLx\nq\nIt\nR\n=\n=\n总\n，R 总 = R + Rab = 0.1 Ω\n联立解得 q = 6 C，xab = 3 m，Q = 3.9 J\n则 R 上消耗的焦耳热为\n0.78J\nR\nR\nQ\nQ\nR\n=\n=\n总\n故 B 正确；\nCD．由于两棒恰好在 M、N 处发生弹性碰撞，取沿斜面向下为正，有\nm1v1 − m2v2 = m1v1′ + m2v2′\n2\n2\n2\n2\n1 1\n2\n2\n1 1\n2\n2\n1\n1\n1\n1\n2\n2\n2\n2\nm v\nm v\nm v\nm v\n\n\n+\n=\n+\n其中 v2 = a2t = 7 2 m/s\n联立解得 v1′ = − 3.3 m/s，v2′ = 8.4 m/s\n故 C 错误、D 正确。\n故选 BD。\n三、实验题（本题共两个小题，其中14 题（1）6 分，14 题（2）6 分，15 题6 分，总共18\n分）\n14．（6 分）水平圆盘上紧贴边缘放置一密度均匀的小圆柱体，如图（1）所示，图（2）为\n俯视图，测得圆盘直径 D = 42.02 cm，圆柱体质量 m = 30.0 g，圆盘绕过盘心 O1 的竖直轴\n匀速转动，转动时小圆柱体相对圆盘静止。\n8 / 12\n为了研究小圆柱体做匀速圆周运动时所需要的向心力情况，某同学设计了如下实验步骤：\n（1）用秒表测圆盘转动 10 周所用的时间 t = 62.8 s，则圆盘转动的角速度 ω =_____rad/s\n（π 取 3.14）\n（2）用游标卡尺测量小圆柱体不同位置的直径，某次测量的示数如图（3）所示，该读数 d\n=_____mm，多次测量后，得到平均值恰好与 d 相等。\n（3）写出小圆柱体所需向心力表达式 F =_____（用 D、m、ω、d 表示），其大小为_____N\n（保留2 位有效数字）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一歌手在湖边唱歌，歌声通过空气和水传到距其 2 km 的湖对岸，空气中的声速为 340\nm/s，水中声速为 1450 m/s，歌声可视为频率为 400 Hz 的声波，则下列说法正确的是（    ）\nA．在水中传播频率会改变\nB．由空气和水传到湖对岸的时间差约为 4.5 s\nC．在空气中波长为 0.85 m\nD．在水中的波长为 5 m",
+      "answer": "BC",
+      "analysis": "A．频率只与波源有关，故在水中传播频率不会改变，故A 错误；\nB．由空气传到湖对岸的时间为\n2000 s\n5.88s\n340\ns\nt\nv\n=\n=\n\n空\n空\n，由水传到湖对岸的时间为\n2000 s\n1.38s\n1450\ns\nt\nv\n=\n=\n\n水\n水\n，故由空气和水传到湖对岸的时间差约为\n4.5s\nt\nt\nt\n=\n−\n=\n空\n水\n。\n故 B 正确；\nC．在空气中的波长为\n340 m\n0.85m\n400\nv\nf\n\n=\n=\n=\n空\n空\n。故 C 正确；\n5 / 12\nD．在水中的波长为\n1450 m\n3.625m\n400\nv\nf\n\n=\n=\n=\n水\n水\n。故 D 错误。\n故选 BC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2024,
       "subject": "物理",
@@ -240,11 +312,275 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2024/2024海南.pdf",
         "page": 4,
-        "questionNumber": 35,
+        "endPage": 5,
+        "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q11",
+      "content": "一定质量的理想气体从状态 a 开始经 ab、bc、ca 三个过程\n回到原状态，已知 ab 垂直于 T 轴，bc 延长线过 O 点，下列说\n法正确的是（    ）\nA．be 过程外界对气体做功\nB．ca 过程气体压强不变\nC．ab 过程气体放出热量\nD．ca 过程气体内能减小",
+      "answer": "AC",
+      "analysis": "A．由理想气体状态方程\npV\nC\nT\n=\n化简可得\nC\nV\nT\np\n=\n\n由图像可知，图像的斜率越大，压强越小，故\na\nb\nc\np\np\np\n=\n＜\nbc 过程为等压变化，体积减小，外界对气体做功，故A 正确；\nB．由 A 选项可知，ca 过程压强减小，故 B 错误；\nC．ab 过程为等温变化，内能不变，故\n0\nU\n\n=\n根据玻意耳定律可知，体积减小，压强增大，外界对气体做功，故\n0\nW＞\n根据热力学第一定律\nU\nQ W\n\n=\n+\n解得\n0\nQ＜\n故 ab 过程气体放出热量，故 C 正确；\nD．ca 过程，温度升高，内能增大，故 D 错误。\n故选 AC。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q12",
+      "content": "真空中有两个点电荷，电荷量均为 − q（q≥0），\n固定于相距为2r 的P1、P2 两点，O 是P1P2 连线的\n中点，M 点在P1P2 连线的中垂线上，距离O 点为\nr，N 点在P1P2 连线上，距离O 点为x（x ≪ r），已\n知静电力常量为k，则下列说法正确的是（    ）\nA．P1P2 中垂线上电场强度最大的点到O 点的距离\n为\n3\n3 r\nB．P1P2 中垂线上电场强度的最大值为 4 3kq\n9r2\nC．在M 点放入一电子，从静止释放，电子的加速度一直减小\nD．在N 点放入一电子，从静止释放，电子的运动可视为简谐运动\n6 / 12",
+      "answer": "CD",
+      "analysis": "AB．设P1 处的点电荷在P1P2 中垂线上某点A 处产生的场强与竖直向下的夹角为\nθ，则根据场强的叠加原理可知，A 点的合场强为\n2\n2\n2 sin\ncos\nq\nE\nk r\n\n\n=\n，根据均值不等式\n可知当cosθ =\n3\n3 时E 有最大值，且最大值为4 3kq\n9r2 。\n再根据几何关系可知A 点到O 点的距离为y = rcotθ =\n2\n2 r。故A 错误，B 正确；\nC．在M 点放入一电子，从静止释放，由于r >\n2\n2 r，可知电子向上运动的过程中电场力一\n直减小，则电子的加速度一直减小，故 C 正确；\nD．根据等量同种电荷的电场线分布可知，电子运动过程中，O 点为平衡位置，可知当发生\n位移 x 时，粒子受到的电场力为\n2\n2\n4\n(\n) (\n)\nrx\nF\nkeq\nr\nx\nr\nx\n−\n=\n\n+\n−\n由于 x ≪ r，整理后有\n3\n4keq\nF\nx\nr\n= −\n\n在 N 点放入一电子，从静止释放，电子将以 O 点为平衡位置做简谐运动，故 D 正确。\n故选 CD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q012-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q13",
+      "content": "两根足够长的导轨由上下段电阻不计，光\n滑的金属导轨组成，在 M、N 两点绝缘连接，\nM、N 等高，间距 L = 1 m，连接处平滑。导轨\n平面与水平面夹角为 30°，导轨两端分别连接一\n个阻值 R = 0.02 Ω 的电阻和 C = 1 F 的电容\n器，整个装置处于 B = 0.2 T 的垂直导轨平面斜\n向上的匀强磁场中，两根导体棒 ab、cd 分别放\n在 MN 两侧，质量分为 m1 = 0.8 kg，m2 = 0.4\nkg，ab 棒电阻为 0.08 Ω，cd 棒的电阻不计，将 ab 由静止释放，同时 cd 从距离 MN 为\nx0 = 4.32 m 处在一个大小 F = 4.64 N，方向沿导轨平面向上的力作用下由静止开始运动，两\n棒恰好在 M、N 处发生弹性碰撞，碰撞前瞬间撤去 F，已知碰前瞬间 ab 的速度为 4.5 m/s，\ng = 10 m/s2（    ）\nA．ab 从释放到第一次碰撞前所用时间为 1.44 s\nB．ab 从释放到第一次碰撞前，R 上消耗的焦耳热为 0.78 J\nC．两棒第一次碰撞后瞬间，ab 的速度大小为 6.3 m/s\nD．两棒第一次碰撞后瞬间，cd 的速度大小为 8.4 m/s",
+      "answer": "BD",
+      "analysis": "A．由于金属棒 ab、cd 同时由静止释放，且恰好在 M、N 处发生弹性碰撞，则说\n明 ab、cd 在到达 M、N 处所用的时间是相同的，对金属棒 cd 和电容器组成的回路有\nΔq = C·BLΔv\n对 cd 根据牛顿第二定律有 F – BIL − m2gsin30° = m2a2\n其中\n2\nv\na\nt\n\n= ，\nq\nI\nt\n\n= \n7 / 12\n联立有\n2\n2\n2\n2\n2\nsin30\nF\nm g\na\nm\nCB L\n−\n=\n+\n则说明金属棒 cd 做匀加速直线运动，则有\n2\n0\n2\n1\n2\nx\na t\n=\n联立解得 a2 = 6 m/s2，t = 1.2 s\n故 A 错误；\nB．由题知，知碰前瞬间 ab 的速度为 4.5 m/s，则根据功能关系有\n2\n1\n1 1\n1\nsin30\n2\nab\nm gx\nQ\nm v\n−\n=\n金属棒下滑过程中根据动量定理有\n1\n1 1\nsin30\nm g\nt\nBIL t\nmv\n−\n=\n其中\nab\nBLx\nq\nIt\nR\n=\n=\n总\n，R 总 = R + Rab = 0.1 Ω\n联立解得 q = 6 C，xab = 3 m，Q = 3.9 J\n则 R 上消耗的焦耳热为\n0.78J\nR\nR\nQ\nQ\nR\n=\n=\n总\n故 B 正确；\nCD．由于两棒恰好在 M、N 处发生弹性碰撞，取沿斜面向下为正，有\nm1v1 − m2v2 = m1v1′ + m2v2′\n2\n2\n2\n2\n1 1\n2\n2\n1 1\n2\n2\n1\n1\n1\n1\n2\n2\n2\n2\nm v\nm v\nm v\nm v\n\n\n+\n=\n+\n其中 v2 = a2t = 7 2 m/s\n联立解得 v1′ = − 3.3 m/s，v2′ = 8.4 m/s\n故 C 错误、D 正确。\n故选 BD。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q013-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q013-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q14",
+      "content": "（6 分）水平圆盘上紧贴边缘放置一密度均匀的小圆柱体，如图（1）所示，图（2）为\n俯视图，测得圆盘直径 D = 42.02 cm，圆柱体质量 m = 30.0 g，圆盘绕过盘心 O1 的竖直轴\n匀速转动，转动时小圆柱体相对圆盘静止。\n8 / 12\n为了研究小圆柱体做匀速圆周运动时所需要的向心力情况，某同学设计了如下实验步骤：\n（1）用秒表测圆盘转动 10 周所用的时间 t = 62.8 s，则圆盘转动的角速度 ω =_____rad/s\n（π 取 3.14）\n（2）用游标卡尺测量小圆柱体不同位置的直径，某次测量的示数如图（3）所示，该读数 d\n=_____mm，多次测量后，得到平均值恰好与 d 相等。\n（3）写出小圆柱体所需向心力表达式 F =_____（用 D、m、ω、d 表示），其大小为_____N\n（保留2 位有效数字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）圆盘转动 10 周所用的时间 t = 62.8 s，则圆盘转动的周期为\n62.8 s\n10\nT =\n根据角速度与周期的关系有\n2π\n1rad/s\nT\n=\n=\n（2）根据游标卡尺的读数规则有 1.6 cm + 2×0.1mm = 16.2 mm\n（3）小圆柱体做圆周运动的半径为\n2\nD\nd\nr\n−\n=\n则小圆柱体所需向心力表达式 F = 1\n2 mω2(D − d)\n带入数据有 F = 6.1×10−3 N\n（6 分）为验证两个互成角度的力的合成规律，某组同学用两个弹簧测力计、橡皮条、轻质\n小圆环、木板、刻度尺、白纸、铅笔、细线和图钉等器材，按照如下实验步骤完成实验：\n（Ⅰ）用图钉将白纸固定在水平木板上；\n（Ⅱ）如图（1）（2）所示，橡皮条的一端固定在木板上的 G 点，另一端连接轻质小圆环，\n将两细线系在小圆环上，细线另一端系在弹簧测力计上，用两个弹簧测力计共同拉动小圆环\n到某位置，并标记圆环的圆心位置为 O 点，拉力 F1 和 F2 的方向分别过 P1 和 P2 点，\n大小分别为 F1 = 3.60 N、F2 = 2.90 N；拉力 F1 和 F2，改用一个弹簧测力计拉动小圆环，\n使其圆心到 O 点，在拉力 F 的方向上标记 P3 点，拉力的大小为 F = 5.60 N。请完成下列\n问题：\n（1）在图（2）中按照给定的标度画出 F1、F2 和 F 的图示，然后按平行四边形定则画出\nF1、F2 的合力 F′。\n（2）比较 F 和 F′，写出可能产生误差的两点原因_________________________。\n9 / 12\n（1）按照给定的标度画出 F1、F2 和 F 的图示，然后按平行四边形定则画出 F1、F2 的合\n力 F′，如下图所示\n（2）F 和 F′ 不完全重合的误差可能是：①没有做到弹簧秤、细绳、橡皮条都与木板平行；\n②读数时没有正视弹簧测力计。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 7,
+        "endPage": 9,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q014-p007-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q014-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q014-p009-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q014-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q15",
+      "content": "（6 分）用如图 a 所示的电路观察电容器的充放电现象，实验器材有电源 E、电容器\nC、电压表、电流表、电流传感器、计算机、定值电阻 R、单刀双掷开关 S1、开关 S2、导\n线若干。\n（1）闭合开关 S2，将 S1 接 1，电压表示数增大，最后稳定在 12.3 V。在此过程中，电流\n表的示数_____（填选项标号）\nA．一直稳定在某一数值\nB．先增大，后逐渐减小为零\nC．先增大，后稳定在某一非零数值\n（2）先后断开开关 S2、S1，将电流表更换成电流传感器，再将 S1 接 2，此时通过定值电\n阻 R 的电流方向_____（选填“a→b”或“b→a”），通过传感器将电流信息传入计算机，画\n出电流随时间变化的 I – t 图像，如图 b，t = 2 s 时 I = 1.10 mA，图中 M、N 区域面积比\n为 8∶7，可求出 R =_____kΩ（保留 2 位有效数字）。",
+      "answer": "B",
+      "analysis": "（1）电容器充电过程中，当电路刚接通后，电流表示数从 0 增大某一最大值，后随着电容\n器的不断充电，电路中的充电电流在减小，当充电结束电路稳定后，此时电路相当于开路，\n电流为 0。故选 B。\n（2）根据电路图可知充电结束后电容器上极板带正电，将 S1 接 2，电容器放电，此时通\n过定值电阻 R 的电流方向 a→b；\nt = 2 s 时 I = 1.10 mA 可知此时电容器两端的电压为 U2 = IR\n电容器开始放电前两端电压为 12.3 V，根据 I – t 图像与横轴围成的面积表示放电量可得 0\n~ 2 s 间的放电量为 Q1 = ΔU⋅C = (12.3 − 1.10×10−3×R)C\nS1\nC\nA\nV\n1\n2\nE\nR\nS2\na\nb\n图 a\n图 b\nI\nO\nM\nN\n2 s\n1.10 mA\nt\n10 / 12\n2 s 后到放电结束间放电量为 Q2 =ΔUʹ⋅C = 1.10×10−3⋅RC\n根据题意 Q1∶Q2 = 8∶7，解得 R = 5.2 kΩ",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q015-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q015-p009-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q16",
+      "content": "（8 分）虚接是常见的电路故障，如图所示，电热器 A 与电热器 B\n并联。电路中的 C 处由于某种原因形成了虚接，造成了该处接触电阻 0\n~ 240 Ω 之间不稳定变化，可等效为电阻 RC，已知 MN 两端电压 U =\n220 V，A 与 B 的电阻 RA = RB = 24 Ω，求：\n（1）MN 间电阻 R 的变化范围；\n（2）当 RC = 240 Ω，电热器 B 消耗的功率（保留 3 位有效数字）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据电路可知当 RC = 0 时MN 间电阻 R 的阻值最小，为\nA\nA\nB\nB\n12\nR R\nR\nR\nR\n+\n=\n=\n\n当 RC = 240 Ω 时 MN 间电阻 R 的阻值最大，为\n(\n)\n(\n)\nA\nA\nB\nB\n24\n4\n22\n0\n2 0\nR\nR\nR\nR\nR\n+\n+\n=\n+\n=\n\n故MN 间电阻R 的变化范围为 12 Ω ≤ R ≤ 22 Ω\n（2）当 RC = 240 Ω，通过电热器 B 的电流为\nC\nB\nI\nR\nU\nR\n=\n+\n此时电热器B 消耗的功率为 PB = I2RB\n解得 PB = 16.7 W",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 10,
+        "endPage": 10,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q016-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q016-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q17",
+      "content": "（12 分）某游乐项目装置简化如图，A 为\n固定在地面上的光滑圆弧形滑梯，半径 R = 10\nm，滑梯顶点 a 与滑梯末端 b 的高度 h = 5 m，\n静止在光滑水平面上的滑板 B，紧靠滑梯的末\n端，并与其水平相切，滑板质量 M = 25 kg，一\n质量为 m = 50 kg 的游客，从 a 点由静止开始下滑，在 b 点滑上滑板，当滑板右端运动到\n与其上表面等高平台的边缘时，游客恰好滑上平台，并在平台上滑行 s = 16 m 停下。游客\n视为质点，其与滑板及平台表面之间的动摩擦系数均为 μ = 0.2，忽略空气阻力，重力加速\n度 g = 10 m/s2，求：\n（1）游客滑到 b 点时对滑梯的压力的大小；\n（2）滑板的长度 L。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）设游客滑到 b 点时速度为 v0，从 a 到 b 过程，根据机械能守恒\n2\n0\n1\n2\nmgh\nmv\n=\n解得 v0 = 10 m/s\n在 b 点根据牛顿第二定律\n2\n0\nN\nv\nF\nmg\nm R\n−\n=\n解得 FN = 1000 N\n根据牛顿第三定律得游客滑到 b 点时对滑梯的压力的大小为\nFNʹ = FN = 1000 N\n（2）设游客恰好滑上平台时的速度为 v，在平台上运动过程由动能定理得\n11 / 12\n2\n1\n0\n2\nmgs\nmv\n\n−\n=\n−\n解得 v = 8 m/s\n根据题意当滑板右端运动到与其上表面等高平台的边缘时，游客恰好滑上平台，可知该过程\n游客一直做减速运动，滑板一直做加速运动，设加速度大小分别为 a1 和 a2，得\n2\n1\n2m/s\nmg\na\ng\nm\n\n\n=\n=\n=\n，\n2\n2\n4m/s\nmg\na\nM\n\n=\n=\n根据运动学规律对游客\n0\n1\nv\nv\na t\n=\n−\n，解得 t = 1 s\n该段时间内游客的位移为\n0\n1\n9m\n2\nv\nv\ns\nt\n+\n=\n=\n滑板的位移为\n2\n2\n2\n1\n2m\n2\ns\na t\n=\n=\n根据位移关系得滑板的长度为 L = s1 – s2 = 7 m",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 10,
+        "endPage": 11,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q017-p010-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q017-p010-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2024/2024海南.pdf#q18",
+      "content": "（18 分）如图，在 xOy 坐标系中有三个区域，圆\n形区域 Ⅰ 分别与 x 轴和 y 轴相切于 P 点和 S 点。\n半圆形区域 Ⅱ 的半径是区域 Ⅰ 半径的 2 倍。区域\nⅠ、Ⅱ 的圆心 O1、O2 连线与 x 轴平行，半圆与圆相\n切于 Q 点，QF 垂直于 x 轴，半圆的直径 MN 所在\n的直线右侧为区域 Ⅲ。区域 Ⅰ、Ⅱ 分别有磁感应强\n度大小为 B、B\n2 的匀强磁场，磁场方向均垂直纸面向\n外。区域 Ⅰ 下方有一粒子源和加速电场组成的发射\n器，可将质量为 m、电荷量为 q 的粒子由电场加速到 v0。改变发射器的位置，使带电粒子\n在 OF 范围内都沿着 y 轴正方向以相同的速度 v0 沿纸面射入区域 Ⅰ。已知某粒子从 P\n点射入区域 Ⅰ，并从 Q 点射入区域 Ⅱ（不计粒子的重力和粒子之间的影响）\n（1）求加速电场两板间的电压 U 和区域 Ⅰ 的半径 R；\n（2）在能射入区域 Ⅲ 的粒子中，某粒子在区域 Ⅱ 中运动的时间最短，求该粒子在区域\nⅠ 和区域 Ⅱ 中运动的总时间 t；\n（3）在区域 Ⅲ 加入匀强磁场和匀强电场，磁感应强度大小为 B，方向垂直纸面向里，电\n场强度的大小 E = Bv0，方向沿 x 轴正方向。此后，粒子源中某粒子经区域 Ⅰ、Ⅱ 射入区\n域 Ⅲ，进入区域 Ⅲ 时速度方向与 y 轴负方向的夹角成 74° 角。当粒子动能最大时，求粒\n子的速度大小及所在的位置到 y 轴的距离。（sin37° = 0.6，sin53° = 0.8）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）根据动能定理得 qU = 1\n2 mv02\n解得 U = mv02\n2q\n粒子进入区域 I 做匀速圆周运动，根据题意某粒子从 P 点射入区域 Ⅰ，并从 Q 点射入区\n域 Ⅱ，故可知此时粒子的运动轨迹半径与区域 Ⅰ 的半径 R 相等，粒子在磁场中运动洛伦\n12 / 12\n兹力提供向心力 Bqv0 = mv02\nR\n解得 R = mv0\nBq\n（2）带电粒子在 OF 范围内都沿着 y 轴正方向以相同的速度 v0 沿纸面射入区域 Ⅰ，由\n（1）可得，粒子的在磁场中做匀速圆周运动，轨迹半径均为 R，因为在区域Ⅰ中的磁场半\n径和轨迹半径相等，粒子射入点、区域 Ⅰ 圆心 O1、轨迹圆心 O'、粒子出射点四点构成一\n个菱形，有几何关系可得，区域 Ⅰ 圆心 O1 和粒子出射点连线平行于粒子射入点与轨迹圆\n心 O' 连线，则区域 Ⅰ 圆心 O1 和粒子出射点水平，根据磁聚焦原理可知粒子都从 Q 点\n射出，粒子射入区域 II，仍做匀速圆周运动，洛伦兹力提供向心力\n2\n0\n0\n2\n'\nv\nB\nq\nv\nm R\n=\n解得 Rʹ = 2R\n如图，要使粒子在区域 Ⅱ 中运动的时间最短，轨迹所\n对应的圆心角最小，可知在区域 Ⅱ 中运动的圆弧所\n对的弦长最短，即此时最短弦长为区域 Ⅱ 的磁场圆\n半径 2R，根据几何知识可得此时在区域 Ⅱ 和区域\nⅠ 中运动的轨迹所对应的圆心角都为 60°，粒子在两\n区域磁场中运动周期分别为\n1\n0\n2\n2\nR\nm\nT\nv\nBq\n\n\n=\n=\n，\n2\n0\n2\n2\n4\nR\nm\nT\nv\nBq\n\n\n\n=\n=\n故可得该粒子在区域 Ⅰ 和区域 Ⅱ 中运动的总时间为\nt =\n60°\n360° 𝑇1 +\n60°\n360° 𝑇2= πm\nBq\n（3）如图，将速度 v0 分解为沿 y 轴正方向的速度 v0 及速度 vʹ，因为 E = Bv0 可得 Eq\n= Bqv0，故可知沿y 轴正方向的速度 v0 产生的洛伦兹力与电场力平衡，粒子同时受到另一\n方向的洛伦兹力 Bqvʹ，故粒子沿 y 正方向做旋进运动，根据角度可知\n0\n0\n2\nsin53\n1.6\nv\nv\nv\n=\n=\n故当 vʹ 方向为竖直向上时此时粒子速度最大，即最大速度为\nvm = v0 + 1.6v0 = 2.6v0\n根据几何关系可知此时所在的位置到 y 轴的距离为\nL = R + Rsin53° + 2R + 2R = 5.8R = 29mv0\n5Bq",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2024,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2024/2024海南.pdf",
+        "page": 11,
+        "endPage": 12,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q018-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q018-p012-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q018-p012-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-e19351b6c14354dd-q018-p011-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 0,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

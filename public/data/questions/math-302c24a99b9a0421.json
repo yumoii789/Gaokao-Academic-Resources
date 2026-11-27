@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
   "name": "2006全国1文(河南,河北,山西,海南,广西)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q01",
       "content": "已知向量a, b 满足|a| = 1, |b| = 4, 且a · b = 2, 则a 与b 夹角为\n(\n)\n(A) π\n6\n(B) π\n4\n(C) π\n3\n(D) π\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q02",
       "content": "设集合M = {x | x2 −x < 0}, N = {x | |x| < 2}, 则\n(\n)\n(A) M ∩N = ∅\n(B) M ∩N = M\n(C) M ∪N = M\n(D) M ∪N = R",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q03",
       "content": "已知函数y = ex 的图象与函数y = f(x) 的图象关于直线y = x 对称,\n则\n(\n)\n(A) f(2x) = e2x (x ∈R)\n(B) f(2x) = ln 2 · ln x (x > 0)\n(C) f(2x) = 2ex (x ∈R)\n(D) f(2x) = ln x + ln 2 (x > 0)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q04",
       "content": "双曲线mx2 + y2 = 1 的虚轴长是实轴长的2 倍, 则m =\n(\n)\n(A) −1\n4\n(B) −4\n(C) 4\n(D) 1\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q05",
       "content": "设Sn 是等差数列{an} 的前n 项和, 若S7 = 35, 则a4 =\n(\n)\n(A) 8\n(B) 7\n(C) 6\n(D) 5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q06",
       "content": "函数f(x) = tan\n(\nx + π\n4\n)\n的单调增区间为\n(\n)\n(A)\n(\nkπ −π\n2 , kπ + π\n2\n)\n, k ∈Z\n(B) (kπ, (k + 1)π), k ∈Z\n(C)\n(\nkπ −3π\n4 , kπ + π\n4\n)\n, k ∈Z\n(D)\n(\nkπ −π\n4 , kπ + 3π\n4\n)\n, k ∈Z",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q07",
       "content": "从圆x2 −2x + y2 −2y + 1 = 0 外一点P(3, 2) 向这个圆作两条切线, 则两\n切线夹角的余弦值为\n(\n)\n(A) 1\n2\n(B) 3\n5\n(C)\n√\n3\n2\n(D) 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q08",
       "content": "△ABC 的内角A, B, C 的对边分别为a, b, c, 若a, b, c 成等比数列, 且\nc = 2a, 则cos B =\n(\n)\n(A) 1\n4\n(B) 3\n4\n(C)\n√\n2\n4\n(D)\n√\n2\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q09",
       "content": "已知各顶点都在一个球面上的正四棱柱高为4, 体积为16, 则这个球的表\n面积是\n(\n)\n(A) 16π\n(B) 20π\n(C) 24π\n(D) 32π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q10",
       "content": "在\n(\nx −1\n2x\n)10\n的展开式中, x4 的系数为\n(\n)\n(A) −120\n(B) 120\n(C) −15\n(D) 15",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q11",
       "content": "抛物线y = −x2 上的点到直线4x + 3y −8 = 0 距离的最小值是\n(\n)\n(A) 4\n3\n(B) 7\n5\n(C) 8\n5\n(D) 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q12",
       "content": "用长度分别为2, 3, 4, 5, 6 (单位: cm) 的5 根细木棒围成一个三角形(允\n许连接, 但不允许折断), 能够得到的三角形的最大面积为\n(\n)\n(A) 8\n√\n5 cm2\n(B) 6\n√\n10 cm2\n(C) 3\n√\n55 cm2\n(D) 20 cm2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q13",
       "content": "已知函数f(x) = a −\n1\n2x + 1, 若f(x) 为奇函数, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q14",
       "content": "已知正四棱锥的体积为12, 底面对角线长为2\n√\n6, 则侧面与底面所成的二\n面角等于\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q15",
       "content": "设z = 2y −x, 式中变量x, y 满足下列条件:\n\n\n\n\n\n\n\n2x −y ⩾−1,\n3x + 2y ⩽23,\ny ⩾1,\n则z 的最大\n值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q16",
       "content": "安排7 位工作人员在5 月1 日至5 月7 日值班, 每人值班一天, 其中甲、\n乙二人都不安排在5 月1 日和2 日, 不同的安排方法共有\n种. (用数\n字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -378,22 +479,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q17",
       "content": "已知{an} 为等比数列, a3 = 2, a2 + a4 = 20\n3 , 求{an} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -401,22 +508,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q18",
       "content": "△ABC 的三个内角为A, B, C, 求当A 为何值时, cos A + 2 cos B + C\n2\n取\n得最大值, 并求出这个最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -424,22 +537,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q19",
       "content": "A, B 是治疗同一种疾病的两种药, 用若干试验组进行对比试验. 每个试验\n组由4 只小白鼠组成, 其中2 只服用A, 另2 只服用B, 然后观察疗效. 若\n在一个试验组中, 服用A 有效的小白鼠的只数比服用B 有效的多, 就称该\n试验组为甲类组. 设每只小白鼠服用A 有效的概率为2\n3, 服用B 有效的概\n率为1\n2.\n(1) 求一个试验组为甲类组的概率;\n(2) 观察3 个试验组, 求这3 个试验组中至少有一个甲类组的概率.\n314",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -447,22 +566,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q20",
       "content": "如图, l1, l2 是互相垂直的异面直线, MN 是它们的公垂线段. 点A, B 在\nl1 上, C 在l2 上, AM = MB = MN.\n(1) 证明: AC ⊥NB;\n(2) 若∠ACB = 60◦, 求NB 与平面ABC 所成角的余弦值.\nB\nC\nM\nN\nl2\nl1\nA",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -470,22 +595,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-302c24a99b9a0421-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-302c24a99b9a0421-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q21",
       "content": "设P 是椭圆x2\na2 + y2 = 1 (a > 1) 短轴的一个端点, Q 为椭圆上一个动点,\n求|PQ| 的最大值.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -493,22 +628,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf#q22",
       "content": "设a 为实数, 函数f(x) = x3 −ax2 + (a2 −1)x 在(−∞, 0) 和(1, +∞) 都\n是增函数, 求a 的取值范围.\n315",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2006,
       "subject": "数学",
@@ -516,11 +657,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2006/2006全国1文(河南,河北,山西,海南,广西).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 1,
+    "answerGraphics": 0,
+    "assigned": 1,
+    "rendered": 1,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2008/2008四川理综.pdf",
   "name": "2008四川理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 10,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 7,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2008/2008四川理综.pdf#q01",
       "content": "下列说法正确的是（       ）\n（A）物体吸收热量，其温度一定升高\n（B）热量只能从高温物体向低温物体传递\n（C）遵守热力学第一定律的过程一定能实现\n（D）做功和热传递是改变物体内能的两种方式",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "由热力学第一定律可知，做功与热传递可以改变物体的内能，D 正确；故物体吸收\n热量时，其内能不一定增大，A 错；由热力学第二定律可知，宏观的热现象有方向性，但若\n通过外界做功，热量也可以从低温物体传到高温物体，B、C 错。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2008,
       "subject": "物理",
@@ -33,11 +44,355 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2008/2008四川理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q02",
+      "content": "下列说法正确的是（       ）\n（A）γ 射线在电场和磁场中都不会发生偏转\n（B）β 射线比α 射线更容易使气体电离\n（C）太阳辐射的能量主要来源于重核裂变\n（D）核反应堆产生的能量来自轻核聚变",
+      "answer": "A",
+      "analysis": "γ 射线中的γ 光子不带电，故在电场与磁场中都不会发生偏转，A 正确；α 粒子的\n特点是电离能力很强，B 错；太阳辐射的能量主要来源于轻核的聚变，C 错；核反应堆产生\n的能量是来自于重核的裂变，D 错。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q03",
+      "content": "如图，一理想变压器原线圈接入一交流电源，副\n线圈电路中R1、R2、R3 和R4 均为固定电阻，开关S\n是闭合的。V1 和V2 为理想电压表，读数分别为U1 和\nU2；A1、A2 和A3 为理想电流表，读数分别为I1、I2 和\nI3。现断开S，U1 数值不变，下列推断中正确的是\n（        ）\n（A）U2 变小、I3 变小\n（B）U2 不变、I3 变大\n（C）I1 变小、I2 变小\n（D）I1 变大、I2 变大",
+      "answer": "BC",
+      "analysis": "因为变压器的匝数与U1 不变，所以U2 与两电压表的示数均不变．当S 断开时，因\n为负载电阻增大，故次级线圈中的电流I2 减小，由于输入功率等于输出功率，所以I1 也将\n减小，C 正确；因为R1 的电压减小，故R2、R3 两端的电压将增大，I3 变大，B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q04",
+      "content": "在沿水平方向的匀强磁场中，有一圆形金属线圈可绕沿其直径的竖直轴自由转动。开始\n时线圈静止，线圈平面与磁场方向既不平行也不垂直，所成的锐角为α。在磁场开始增强后\nV1\nV2\nA1\nA2\nA3\nS\nR1\nR2\nR3 R4\n～\n的一个极短时间内，线圈平面（         ）\n（A）维持不动\n（B）将向使α 减小的方向转动\n（C）将向使α 增大的方向转动\n（D）将转动，因不知磁场方向，不能确定α 会增大还是会减小",
+      "answer": "B",
+      "analysis": "由楞次定律可知，当磁场开始增强时，线圈平面转动的效果是为了减小线圈磁通量\n的增加，而线圈平面与磁场间的夹角越小时，通过的磁通量越小，所以将向使α 减小的方向\n转动。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q05",
+      "content": "一物体沿固定斜面从静止开始向下运动，经过时间t0 滑至斜面底端。已知在物体运动过\n程中物体所受的摩擦力恒定。若用F、v、s 和E 分别表示该物体所受的合力、物体的速度、\n位移和机械能，则下列图象中可能正确的是（      ）",
+      "answer": "AD",
+      "analysis": "物体在沿斜面向下滑动过程中，所受的合力为重力沿斜面向下的分力及摩擦力，故\n大小不变，A 正确；而物体在此合力作用下作匀加速运动，v＝at，s＝A1\n2\nE\nAat2，所以B、C 错；\n物体受摩擦力作用，总的机械能将减小，D 正确．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q005-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q005-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q06",
+      "content": "一列简谐横波沿直线传播，该直线上的a、b 两点相\n距4.42 m。图中实、虚两条曲线分别表示平衡位置在a、\nb 两点处质点的振动曲线。从图示可知（     ）\n（A）此列波的频率一定是10Hz\n（B）此列波的波长一定是0.1m\n（C）此列波的传播速度可能是34m/s\n（D）a 点一定比b 点距波源近",
+      "answer": "AC",
+      "analysis": "由振动图像可知，振动周期为0.1s，故此列波的频率一定是10Hz，A 正确；因为\n波速为v＝A\n4.42\n0.1n-0.07\nE\nA，当n=2 时，波速为34m/s，故C 正确；由图不能断定波长一定是0.1m，\n也无法确定哪一点距波源近一些．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q07",
+      "content": "1990 年4 月25 日，科学家将哈勃天文望远镜送上距地球表面约600 km 的高空，使得\n人类对宇宙中星体的观测与研究有了极大的进展。假设哈勃望远镜沿圆轨道绕地球运行。已\n知地球半径为6.4×106m，利用地球同步卫星与地球表面的距离为3.6×107m 这一事实可得\n到哈勃望远镜绕地球运行的周期。以下数据中最接近其运行周期的是（      ）\n（A）0.6 小时\n（B）1.6 小时\n（C）4.0 小时\n（D）24 小时",
+      "answer": "B",
+      "analysis": "由开普勒行星运动定律可知，\n=\n2\n3\nT\nR\n恒量，所以\n(\n)\n2\n2\n3\n2\n2\n1\n3\n1)\n(\nt\nh\nr\nt\nh\nr\n+\n=\n+\n，r 为地球的半\n径，h1、t1、h2、t2 分别表示望远镜到地表的距离，望远镜的周期、同步卫星距地表的距离、\nE\nO\nt\nt0\nD\nF\nO\nt\nt0\nA\ns\nO\nt\nt0\nC\nv\nO\nt\nt0\nB\ny\nt/s\n0\n0.03\n0.1\n同步卫星的周期（24h），代入数据得：t1=1.6h。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q007-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q007-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q08",
+      "content": "如图，一束单色光射入一玻璃球体，入射角为60°。己知光线在玻璃\n球内经一次反射后，再次折射回到空气中时与入射光线平行。此玻璃的\n折射率为（        ）\n（A）A 2E\nA   （B）1.5     （C）A 3E\nA        （D）2",
+      "answer": "C",
+      "analysis": "如图，为光线在玻璃球内的光路图．A、C 为折射点，B\n为反射点，作OD 平行于入射光线，故\n°\n=\n∠\n=\n∠\n60\nCOD\nAOD\n，所\n以\n°\n=\n∠\n30\nOAB\n，玻璃的折射率\n3\n30\nsin\n60\nsin\n=\n°\n°\n=\nn\n。\n第Ⅱ卷\n本卷共10 题，共174 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q09",
+      "content": "（17 分）\nI．\n（9 分）一水平放置的圆盘绕过其圆心的竖直轴匀速转动。盘边缘上固定一竖直的挡光片。\n盘转动时挡光片从一光电数字计时器的光电门的狭缝中经过，如图1 所示。图2 为光电数字\n计时器的示意图。光源A 中射出的光可照到B 中的接收器上。若A、B 间的光路被遮断，\n显示器C 上可显示出光线被遮住的时间。\n挡光片的宽度用螺旋测微器测得，结果如图3 所示。圆盘直径用游标卡尺测得，结果如图4\n所示。由图可知，\n（1）挡光片的宽度为_____mm。\n（2）圆盘的直径为_______cm。\n（3）若光电数字计时器所显示的时间为50.0 ms，则圆盘转动的角速度为______弧度/秒（保\n留3 位有效数字）。",
+      "answer": "（ 7 分）\nⅠ．（1）10.243（2）24.220（3）1.69\nⅡ．（1）20％（2）5％",
+      "analysis": "由螺旋测微器与游标卡尺的读数规则可得两者的读数。\n242\n.\n10\n01\n.0\n2.\n24\n10\n=\n×\n+\n=\nd\nmm，\n20\n.\n242\n05\n.0\n4\n242\n=\n×\n+\n=\nD\nmm=24.220cm。\n圆盘转动的角速度为\nt\nw\nθ\n=\n，而\nπ\nπ\nθ\n2\n2\n×\n=\nr\nd\n，综合两式并代入数据可得：\n69\n.1\n=\nw\nrad/s．\nO\n60°\nA\nB\nC\nD\n60°\nⅡ．（8 分）图为用伏安法测量电阻的原理图。图中V 为电压表，内阻\n为4000Ω；mA 为电流表，内阻为50Ω。E 为电源，R 为电阻箱，Rx 为\n待测电阻，S 为开关。\n（1）当开关闭合后电压表读数U＝l.6V，电流表读数I＝2.0mA。若将\nRx＝AU\nI\nE\nA作为测量值，所得结果的百分误差是______。\n（2）若将电流表改为内接。开关闭合后，重新测得电压表读数和电流\n表读数，仍将电压表读数与电流表读数之比作为测量值，这时结果的百分误差是_______。\n（百分误差＝A实际值－测量值\n实际值\nE\nA×100％)\nII  （1）测量值为R＝AU\nI\nE\nA＝800Ω，因电流表外接，所以\nV\nx\nV\nx\nR\nR\nR\nR\nR\n+\n=\n，故真实值为\nRx＝1000Ω，对应的百分误差\n%\n20\n1000\n800\n1000\n=\n−\n=\n∆\n．\n（2）电流表内接时，百分误差\n%\n5\n1000\n1000\n1050\n=\n−\n=\n∆′\n．",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q009-p004-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q10",
+      "content": "（16 分）\nA、B 两辆汽车在笔直的公路上同向行驶。当B 车在A 车前84m 处时，B 车速度为4m/s，\n且正以2 m/s2 的加速度做匀加速运动；经过一段时间后，B 车加速度突然变为零。A 车一直\n以20 m/s 的速度做匀速运动。经过12 s 后两车相遇。问B 车加速行驶的时间是多少？\n23、解析：设A 车的速度为vA，B 车加速行驶时间为t，两车在t0 时相遇。则有\n0t\nv\ns\nA\nA =\n                                          ①\n)\n)(\n(\n2\n1\n0\n2\nt\nt\nat\nv\nat\nt\nv\ns\nB\nB\nB\n−\n+\n+\n+\n=\n                      ②\n式中，t0 =12s，sA、sB 分别为 A、B 两车相遇前行驶的路程。依题意有\ns\ns\ns\nB\nA\n+\n=\n                                       ③\n式中 s＝84 m。由①②③式得\n[\n]\n0\n)\n(\n2\n2\n0\n0\n2\n=\n−\n−\n+\n−\na\ns\nt\nv\nv\nt\nt\nt\nA\nB\n                               ④\n代入题给数据\n   vA=20m/s，vB=4m/s，a =2m/s2，\n有\n0\n108\n24\n2\n=\n+\n−\nt\nt\n                                           ⑤\n式中矿的单位为s。解得\n    t1=6 s，t2=18 s                                          ⑥\nt2＝18s 不合题意，舍去。因此，B 车加速行驶的时间为 6 s。",
+      "answer": "暂无结构化答案",
+      "analysis": "（ 6 分）\n设A 车的速度为vA，B 车加速行驶时间为t，两车在t0 时相遇。则有\nsA＝vAt0                                          ①\nsB＝vBt0＋A1\n2\nE\nAat2＋（vB＋at）（t0－t）                       ②\n式中，t0 ＝12s，sA、sB 分别为 A、B 两车相遇前行驶的路程。依题意有\nsA ＝sB＋s                                       ③\n式中s＝84m。由①②③式得\nt2－2t0t＋A2（vB－vA）t0－2s\na\nE\nA＝0                               ④\n代入题给数据\nvA＝20m/s，vB＝4m/s，a＝2m/s2，\n有\n24t＋108＝0                                           ⑤\n式中t 的单位为s。解得\nt1＝6s，t2＝18s                                          ⑥\nt2＝18s 不合题意，舍去。因此，B 车加速行驶的时间为 6s。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q11",
+      "content": "（19 分）\nV\nmA\nR\nRx\nE\nS\n如图，一半径为R 的光滑绝缘半球面开口向下，固定在水平\n面上。整个空间存在匀强磁场，磁感应强度方向竖直向下。\n一电荷量为q（q＞0）、质量为m 的小球P 在球面上做水平\n的匀速圆周运动，圆心为O′。球心O 到该圆周上任一点的\n连线与竖直方向的夹角为θ（0＜θ＜Aπ\n2\nE\nA）。为了使小球能够\n在该圆周上运动，求磁感应强度大小的最小值及小球P 相应的速率。重力加速度为g。\n24、解析：\n据题意，小球P 在球面上做水平的匀速圆周运动，该圆周的圆心为O’。P 受到向下的\n重力mg、球面对它沿OP 方向的支持力N 和磁场的洛仑兹力\n            f＝qvB                                     ①\n式中v 为小球运动的速率。洛仑兹力f 的方向指向O’。根据牛顿第二定律\n0\ncos\n=\n−mg\nN\nθ\n                                              ②\nθ\nsin\nsin\n2\nR\nv\nm\nN\nf\n=\n−\n                                          ③\n由①②③式得\n0\ncos\nsin\nsin\n2\n2\n=\n+\n−\nθ\nθ\nθ\nqR\nv\nm\nqBR\nv\n                               ④\n由于v 是实数，必须满足\nθ\nθ\nθ\ncos\nsin\n4\nsin\n2\n2\ngR\nm\nqBR\n−\n\n\n\n\n\n\n=\n∆\n≥0                               ⑤\n由此得B≥\nθ\ncos\n2\nR\ng\nq\nm\n                                      ⑥\n可见，为了使小球能够在该圆周上运动，磁感应强度大小的最小值为\nθ\ncos\n2\nmin\nR\ng\nq\nm\nB\n=\n                                       ⑦\n此时，带电小球做匀速圆周运动的速率为\nm\nR\nqB\nv\n2\nsin\nmin\nθ\n=\n                                        ⑧\n由⑦⑧式得\nv＝A\n gR\ncosθ E\nAsinθ                                        ⑨",
+      "answer": "暂无结构化答案",
+      "analysis": "（l9 分）\n据题意，小球P 在球面上做水平的匀速圆周运动，该圆周的圆心为O′。P 受到向下的重力\nmg、球面对它沿OP 方向的支持力N 和磁场的洛仑兹力\n            f＝qvB                                     ①\n式中v 为小球运动的速率。洛仑兹力f 的方向指向O′。根据牛顿第二定律\nNcosθ－mg＝0                                              ②\nf－Nsinθ＝mA v2\nRsinθ\nE\nA                                          ③\n由①②③式得\nv2－AqBRsinθ\nm\nE\nAv＋AqBRsin2θ\ncosθ\nE\nA＝0                               ④\n由于v 是实数，必须满足\nΔ＝（AqBRsinθ\nmE\nA）2－A4gRsin2θ\ncosθ\nE\nA≥0                               ⑤\n由此得\nB≥A2m\nq\nE\nAA\ng\nRcosθ E\nA                                      ⑥\n可见，为了使小球能够在该圆周上运动，磁感应强度大小的最小值为\nBmin＝A2m\nq\nE\nAA\ng\nRcosθ E\nA                                       ⑦\n此时，带电小球做匀速圆周运动的速率为\nv＝AqBminRsinθ\n2mE\nA                                        ⑧\n由⑦⑧式得\nv＝A\n gR\ncosθ E\nAsinθ                                        ⑨",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2008/2008四川理综.pdf#q12",
+      "content": "（20 分）\n一倾角为θ＝45°的斜血固定于地面，斜面顶端离地面的高度h0\n＝1m，斜面底端有一垂直于斜而的固定挡板。在斜面顶端自由\n释放一质量m＝0.09kg 的小物块（视为质点）。小物块与斜面之\n间的动摩擦因数μ＝0.2。当小物块与挡板碰撞后，将以原速返\n回。重力加速度g＝10 m/s2。在小物块与挡板的前4 次碰撞过程\n中，挡板给予小物块的总冲量是多少？\n25、解析：\n解法一：设小物块从高为h 处由静止开始沿斜面向下运动，到达斜面底端时速度为v。\n由功能关系得\nm\nh0\n45°\nP\nO′\nO\nR\nθ\nθ\nθ\nµ\nsin\ncos\n2\n1\n2\nh\nmg\nmv\nmgh\n+\n=\n                  ①\n以沿斜面向上为动量的正方向。按动量定理，碰撞过程中挡板给小物块的冲量\n)\n( v\nm\nmv\nI\n−\n−\n=\n                                                 ②\n设碰撞后小物块所能达到的最大高度为h’，则\nθ\nθ\nµ\nsin\ncos\n2\n1\n2\nh\nmg\nh\nmg\nmv\n′\n+\n′\n=\n                               ③\n同理，有\nθ\nθ\nµ\nsin\ncos\n2\n1\n2\nh\nmg\nv\nm\nh\nmg\n′\n+\n′\n=\n′\n                             ④\n)\n( v\nm\nv\nm\nI\n′\n−\n−\n′\n=\n′\n                                        ⑤\n式中，v’为小物块再次到达斜面底端时的速度，I’为再次碰撞过程中挡板给小物块的\n冲量。由①②③④⑤式得\nkI\nI =\n′\n⑥\n式中\nµ\nθ\nµ\nθ\n+\n−\n=\ntan\ntan\nk\n                                           ⑦\n由此可知，小物块前4 次与挡板碰撞所获得的冲量成等比级数，首项为\n)\ncot\n1(\n2\n2\n0\n1\nθ\nµ\n−\n=\ngh\nm\nI\n                                ⑧\n总冲量为\n)\n1(\n3\n2\n1\n4\n3\n2\n1\nk\nk\nk\nI\nI\nI\nI\nI\nI\n+\n+\n+\n=\n+\n+\n+\n=\n                    ⑨\n由\n)\n1\n1\n1\n1\n2\nk\nk\nk\nk\nk\nn\nn\n−\n−\n=\n…\n+\n+\n+\n−\n                              ⑩\n得\n)\ncot\n1(\n2\n2\n1\n1\n0\n4\nθ\nµ\n−\n−\n−\n=\ngh\nm\nk\nk\nI\n                           ⑾\n代入数据得\n)\n6\n3\n(\n43\n.0\n+\n=\nI\nN·s                              ⑿\n解法二：设小物块从高为h 处由静止开始沿斜面向下运动，小物块受到重力，斜面对它\n的摩擦力和支持力，小物块向下运动的加速度为a，依牛顿第二定律得\nma\nmg\nmg\n=\n−\nθ\nµ\nθ\ncos\nsin\n                          ①\n设小物块与挡板碰撞前的速度为v，则\nθ\nsin\n2\n2\nh\na\nv =\n                                 ②\n以沿斜面向上为动量的正方向。按动量定理，碰撞过程中挡板给小物块的冲量为\n)\n( v\nm\nmv\nI\n−\n−\n=\n                               ③\n由①②③式得\n)\ncot\n1(\n2\n2\n1\nθ\nµ\n−\n=\ngh\nm\nI\n                                  ④\n设小物块碰撞后沿斜面向上运动的加速度大小为a’， 依牛顿第二定律有\na\nm\nmg\nmg\n′\n=\n−\nθ\nµ\nθ\ncos\nsin\n                                  ⑤\n小物块沿斜面向上运动的最大高度为\nθ\nsin\n2\n2\na\nv\nh\n′\n=\n′\n                                       ⑥\n由②⑤⑥式得\nh\nk\nh\n2\n=\n′\n                                  ⑦\n式中\nµ\nθ\nµ\nθ\n+\n−\n=\ntan\ntan\nk\n                                ⑧\n同理，小物块再次与挡板碰撞所获得的冲量\n)\ncot\n1(\n2\n2\nθ\nµ\n−\n′\n=\n′\nh\ng\nm\nI\n                          ⑨\n由④⑦⑨式得\nkI\nI =\n′\n                           ⑩\n由此可知，小物块前4 次与挡板碰撞所获得的冲量成等比级数，首项为\n)\ncot\n1(\n2\n2\n0\n1\nθ\nµ\n−\n=\ngh\nm\nI\n ⑾\n总冲量为\n)\n1(\n3\n2\n1\n4\n3\n2\n1\nk\nk\nk\nI\nI\nI\nI\nI\nI\n+\n+\n+\n=\n+\n+\n+\n=\n           ⑿\n由\n)\n1\n1\n1\n1\n2\nk\nk\nk\nk\nk\nn\nn\n−\n−\n=\n…\n+\n+\n+\n−\n⒀\n得\n)\ncot\n1(\n2\n2\n1\n1\n0\n4\nθ\nµ\n−\n−\n−\n=\ngh\nm\nk\nk\nI\n                           ⒁\n代入数据得     I＝0.43（3＋A 6E\nA）N·s                              ⒂",
+      "answer": "暂无结构化答案",
+      "analysis": "（20 分）\n解法一：设小物块从高为h 处由静止开始沿斜面向下运动，到达斜面底端时速度为v。\n由功能关系得\nmgh＝mv2/2＋μmgcosθA h\nsinθ\nE\nA                                 ①\n以沿斜面向上为动量的正方向。按动量定理，碰撞过程中挡板给小物块的冲量\nI＝mv－m（－v）                                                 ②\n设碰撞后小物块所能达到的最大高度为h′，则\nmv2/2＝mgh′＋μmgcosθA h′\nsinθ\nE\nA                          ③\n同理，有\nmgh′＝mv′2/2＋μmgcosθA h′\nsinθ\nE\nA                          ④\nI′＝mv′－m（－v′）                                    ⑤\n式中，v′为小物块再次到达斜面底端时的速度，I′为再次碰撞过程中挡板给小物块的冲量。由\n①②③④⑤式得\nI′＝kI\n⑥\n式中k＝A\ntgθ－μ\ntgθ＋μ E\nA                                      ⑦\n由此可知，小物块前4 次与挡板碰撞所获得的冲量成等比级数，首项为\nI1＝2mA 2gh0（1－μcotθ）E\nA                                ⑧\n总冲量为I＝I1＋I2＋I3＋I4＝I1（1＋k＋k2＋k3）                    ⑨\n由1＋k＋k2＋……＋kn－1＝A1－kn\n1－k\nE\nA                            ⑩\n得：I＝A1－k4\n1－k\nE\nA2mA 2gh0（1－μcotθ）E\nA                           ⑾\n代入数据得：I＝0.43（3＋A 6E\nA）N·s                              ⑿\n解法二：设小物块从高为h 处由静止开始沿斜面向下运动，小物块受到重力，斜面对它的摩\n擦力和支持力，小物块向下运动的加速度为a，依牛顿第二定律得\nmgsinθ－μmgcosθ＝ma                          ①\n设小物块与挡板碰撞前的速度为v，则\nv2＝2aA h\nsinθ\nE\nA                                 ②\n以沿斜面向上为动量的正方向。按动量定理，碰撞过程中挡板给小物块的冲量为\nI＝mv－m（－v）                               ③\n由①②③式得\nI1＝2mA 2gh（1－μcotθ）E\nA                                  ④\n设小物块碰撞后沿斜面向上运动的加速度大小为a′， 依牛顿第二定律有\nmgsinθ－μmgcosθ＝ma′                                  ⑤\n小物块沿斜面向上运动的最大高度为\nh′＝A v2\n2a′\nE\nAsinθ                                       ⑥\n由②⑤⑥式得：h′＝k2h                             ⑦\n式中：k＝A\ntgθ－μ\ntgθ＋μ E\nA                                ⑧\n同理，小物块再次与挡板碰撞所获得的冲量\nI′＝2mA 2gh′（1－μcotθ）E\nA                          ⑨\n由④⑦⑨式得：I′＝kI                            ⑩\n由此可知，小物块前4 次与挡板碰撞所获得的冲量成等比级数，首项为\nI1＝2mA 2gh0（1－μcotθ）E\nA                         ⑾\n总冲量为I＝I1＋I2＋I3＋I4＝I1（1＋k＋k2＋k3）           ⑿\n由1＋k＋k2＋……＋kn－1＝A1－kn\n1－k\nE\nA                            ⒀\n得：I＝A1－k4\n1－k\nE\nA2mA 2gh0（1－μcotθ）E\nA                           ⒁\n代入数据得：I＝0.43（3＋A 6E\nA）N·s                             ⒂",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2008,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2008/2008四川理综.pdf",
+        "page": 5,
+        "endPage": 7,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-dcf8a02289d81cb1-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 2,
+    "assigned": 9,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

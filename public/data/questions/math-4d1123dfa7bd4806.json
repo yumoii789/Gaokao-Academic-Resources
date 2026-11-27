@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2019/2019浙江.pdf",
   "name": "2019浙江",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q01",
       "content": "已知全集U = {−1, 0, 1, 2, 3}, 集合A = {0, 1, 2}, B = {−1, 0, 1}, 则\n(\n∁UA\n)\n∩B =\n(\n)\n(A) {−1}\n(B) {0, 1}\n(C) {−1, 2, 3}\n(D) {−1, 0, 1, 3}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q02",
       "content": "渐近线方程为x ± y = 0 的双曲线的离心率是\n(\n)\n(A)\n√\n2\n2\n(B) 1\n(C)\n√\n2\n(D) 2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q03",
       "content": "若实数x, y 满足约束条件\n\n\n\n\n\n\n\nx −3y + 4 ⩾0,\n3x −y −4 ⩽0,\nx + y ⩾0,\n则z = 3x + 2y 的最大值\n是\n(\n)\n(A) −1\n(B) 1\n(C) 10\n(D) 12",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q04",
       "content": "祖暅是我国南北朝时代的伟大科学家, 他提出的“幂势既同, 则积不容异”称\n为祖暅原理, 利用该原理可以得到柱体的体积公式V柱体= Sh, 其中S 是\n柱体的底面积, h 是柱体的高. 若某柱体的三视图如图所示(单位: cm), 则\n该柱体的体积(单位: cm3) 是\n(\n)\n正视图\n俯视图\n侧视图\n2\n2\n2\n3\n3\n6\n(A) 158\n(B) 162\n(C) 182\n(D) 324",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q05",
       "content": "若a > 0, b > 0, 则“a + b ⩽4”是“ab ⩽4”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充分必要条件\n(D) 既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q06",
       "content": "在同一直角坐标系中, 函数y = 1\nax , y = loga\n(\nx + 1\n2\n)\n(a > 0, 且a̸ = 1)\n的图象可能是\n(\n)\n(A)\nx\n1\ny\nO\n(B)\nx\n1\ny\nO\n(C)\nx\n1\ny\nO\n(D)\nx\n1\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q07",
       "content": "设0 < a < 1, 则随机变量X 的分布列是\nX\n0\na\n1\nP\n1\n3\n1\n3\n1\n3\n则当a 在(0, 1) 内增大时\n(\n)\n(A) D (X) 增大\n(B) D (X) 减小\n(C) D (X) 先增大后减小\n(D) D (X) 先减小后增大",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q08",
       "content": "设三棱锥V −ABC 的底面是正三角形, 侧棱长均相等, P 是棱V A 上的点\n(不含端点), 记直线PB 与直线AC 所成角为α, 直线PB 与平面ABC\n所成角为β, 二面角P −AC −B 的平面角为γ, 则\n(\n)\n(A) β < γ, α < γ\n(B) β < α, β < γ\n(C) β < α, γ < α\n(D) α < β, γ < β",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q09",
       "content": "已知a, b ∈R, 函数f (x) =\n\n\n\nx,\nx < 0,\n1\n3x3 −1\n2 (a + 1) x2 + ax,\nx ⩾0,\n若函数\ny = f (x) −ax −b 恰有3 个零点, 则\n(\n)\n(A) a < −1, b < 0\n(B) a < −1, b > 0\n(C) a > −1, b < 0\n(D) a > −1, b > 0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q10",
       "content": "设a, b ∈R, 数列{an} 满足a1 = a, an+1 = a2\nn + b, n ∈N∗, 则\n(\n)\n(A) 当b = 1\n2 时, a10 > 10\n(B) 当b = 1\n4 时, a10 > 10\n(C) 当b = −2 时, a10 > 10\n(D) 当b = −4 时, a10 > 10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -240,22 +309,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q11",
       "content": "复数z =\n1\n1 + i (i 为虚数单位), 则|z| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -263,22 +343,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q12",
       "content": "已知圆C 的圆心坐标是(0, m), 半径长是r. 若直线2x −y + 3 = 0 与圆\n相切于点A (−2, −1), 则m =\n, r =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -286,22 +372,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q13",
       "content": "在二项式\n(√\n2 + x\n)9 的展开式中, 常数项是\n, 系数为有理数的项的\n个数是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -309,22 +405,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q14",
       "content": "在△ABC 中, ∠ABC = 90◦, AB = 4, BC = 3, 点D 在线段AC 上, 若\n∠BDC = 45◦, 则BD =\n, cos ∠ABD =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -332,22 +434,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q15",
       "content": "已知椭圆x2\n9 + y2\n5 = 1 的左焦点为F, 点P 在椭圆上且在x 轴的上方, 若\n线段PF 的中点在以原点O 为圆心, |OF| 为半径的圆上, 则直线PF 的\n斜率是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -355,22 +463,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q16",
       "content": "已知a ∈R, 函数f (x) = ax3 −x, 若存在t ∈R, 使得|f (t + 2) −f (t)| ⩽\n2\n3, 则实数a 的最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -378,22 +492,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q17",
       "content": "已知正方形ABCD 的边长为1, 当每个λi (i = 1, 2, 3, 4, 5, 6) 取\n遍±1 时,\n���λ1 #   »\nAB + λ2 #    »\nBC + λ3 #    »\nCD + λ4 #    »\nDA + λ5 #   »\nAC + λ6 #    »\nBD\n���的最小值\n是\n, 最大值是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -401,22 +521,34 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q017-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q017-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q017-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q017-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q18",
       "content": "设函数f (x) = sin x, x ∈R.\n(1) 已知θ ∈[0, 2π), 函数f (x + θ) 是偶函数, 求θ 的值;\n(2) 求函数y =\n[\nf\n(\nx + π\n12\n)]2\n+\n[\nf\n(\nx + π\n4\n)]2\n的值域.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -424,22 +556,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q19",
       "content": "如图, 已知三棱柱ABC −A1B1C1, 平面A1ACC1 ⊥平面ABC, ∠ABC =\n90◦, ∠BAC = 30◦, A1A = A1C = AC, E, F 分别是AC, A1B1 的中点.\n(1) 证明: EF ⊥BC;\n(2) 求直线EF 与平面A1BC 所成角的余弦值.\nE\nF\nA\nB\nC\nA1\nB1\nC1\n1111",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -447,22 +585,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q019-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q019-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q20",
       "content": "设等差数列{an} 的前n 项和为Sn, a3 = 4, a4 = S3. 数列{bn} 满足: 对\n每个n ∈N∗, Sn + bn, Sn+1 + bn, Sn+2 + bn 成等比数列.\n(1) 求数列{an}, {bn} 的通项公式;\n(2) 记cn =\n√an\n2bn\n, n ∈N∗, 证明: c1 + c2 + · · · + cn < 2√n, n ∈N∗.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -470,22 +618,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q21",
       "content": "如图, 已知点F (1, 0) 为抛物线y2 = 2px (p > 0) 的焦点, 过点F 的直线\n交抛物线于A, B 两点, 点C 在抛物线上, 使得△ABC 的重心G 在x 轴\n上, 直线AC 交x 轴于点Q, 且Q 在点F 的右侧. 记△AFG, △CQG 的\n面积分别为S1, S2.\n(1) 求p 的值及抛物线的准线方程;\n(2) 求S1\nS2\n的最小值及此时点G 的坐标.\nA\nG\nQ\nB\nC\nF\nx\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -493,22 +647,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2019/2019浙江.pdf#q22",
       "content": "已知实数a̸ = 0, 设函数f (x) = a ln x + √x + 1, x > 0.\n(1) 当a = −3\n4 时, 求函数f (x) 的单调区间;\n(2) 对任意x ∈\n[ 1\ne2 , +∞\n)\n均有f (x) ⩽\n√x\n2a , 求a 的取值范围.\n注: e = 2.71828 · · · 为自然对数的底数.\n1112",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2019,
       "subject": "数学",
@@ -516,11 +680,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2019/2019浙江.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-4d1123dfa7bd4806-q022-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 0,
+    "assigned": 8,
+    "rendered": 10,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

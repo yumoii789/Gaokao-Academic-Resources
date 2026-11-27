@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2022/2022天津.pdf",
   "name": "2022天津",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 12,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 13,
+    "answerBlocks": 13,
+    "sourceAnswers": 13,
+    "sourceAnalysis": 13,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q01",
-      "content": "单选题\n1．从夸父逐日到羲和探日，中华民族对太阳的求知探索从未停歇。2021 年10 月，我国第一颗太阳探测科学技术\n试验卫星“羲和号”顺利升空。太阳的能量由核反应提供，其中一种反应序列包含核反应：H\n2\n3\ne + H\n2\n3\ne →H\n2\n4\ne + 2X，\n下列说法正确的是（    ）\nA．X 是中子\nB．该反应有质量亏损\nC． 2\n4He比 2\n3He的质子数多\nD．该反应是裂变反应",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "从夸父逐日到羲和探日，中华民族对太阳的求知探索从未停歇。2021 年10 月，我国第一颗太阳探测科学技术\n试验卫星“羲和号”顺利升空。太阳的能量由核反应提供，其中一种反应序列包含核反应：H\n2\n3\ne + H\n2\n3\ne →H\n2\n4\ne + 2X，\n下列说法正确的是（    ）\nA．X 是中子\nB．该反应有质量亏损\nC． 2\n4He比 2\n3He的质子数多\nD．该反应是裂变反应",
+      "answer": "B",
+      "analysis": "A．根据核反应过程满足质量数和电荷数守恒可知，X 的质量数为1，电荷数为1，可知X 是质子，故A\n错误；\nBD．两个轻核结合成质量较大的核，核反应属于聚变反应，反应过程存在质量亏损，释放能量，故B 正确，D 错\n误；\nC．𝐻𝐻𝐻𝐻\n2\n4\n与𝐻𝐻𝐻𝐻\n2\n3\n的质子数相同，均为2 个质子，故C 错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q02",
       "content": "如图所示，一正点电荷固定在圆心，M、N 是圆上的两点，下列说法正确的是（    ）\nA．M 点和N 点电势相同\nB．M 点和N 点电场强度相同\nC．负电荷由M 点到N 点，电势能始终增大\nD．负电荷由M 点到N 点，电场力始终做正功",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "AB．M、N 是以O 为圆心的圆上的两点，则电势相同，场强大小相等方向不同，A 正确，B 错误；\nCD．由于两点电势相等，负电荷由M 点到N 点，电场力做功为零，电势能变化量为零，CD 错误。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -56,22 +71,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q03",
       "content": "2022 年3 月，中国空间站“天宫课堂”再次开讲，授课期间利用了我国的中继卫是系统进行信号传输，天地通\n信始终高效稳定。已知空间站在距离地面400 公里左右的轨道上运行，其运动视为匀速圆周运动，中继卫星系统中\n某卫星是距离地面36000 公里左右的地球静止轨道卫星（同步卫星），则该卫星（    ）\nA．授课期间经过天津正上空\nB．加速度大于空间站的加速度\nC．运行周期大于空间站的运行周期\nD．运行速度大于地球的第一宇宙速度",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "A．该卫星在地球静止轨道卫星（同步卫星）上，处于赤道平面上，不可能经过天津正上空，A 错误；\nBCD．卫星正常运行，由万有引力提供向心力\n𝐺𝐺𝑀𝑀𝑀𝑀\n𝑟𝑟2 = 𝑚𝑚𝑣𝑣2\n𝑟𝑟= 𝑚𝑚(2𝜋𝜋\n𝑇𝑇)2𝑟𝑟= 𝑚𝑚𝑚𝑚\n得\n𝑣𝑣= �\n𝐺𝐺𝐺𝐺\n𝑟𝑟，𝑎𝑎= 𝐺𝐺\n𝑀𝑀\n𝑟𝑟2，𝑇𝑇=2𝜋𝜋�𝑟𝑟3\n𝐺𝐺𝐺𝐺\n由于该卫星轨道半径大于空间站半径，故加速度小于空间站的加速度；运行周期大于空间站的运行周期；第一宇宙\n速度是近地卫星的运行速度，则该卫星的运行速度小于地球的第一宇宙速度。BD 错误，C 正确。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -79,22 +102,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q04",
       "content": "如图所示，边长为a 的正方形铝框平放在光滑绝缘水平桌面上，桌面上有边界平行、宽为b 且足够长的匀强磁\n场区域，磁场方向垂直于桌面，铝框依靠惯性滑过磁场区域，滑行过程中铝框平面始终与磁场垂直且一边与磁场边\n界平行，已知𝑎𝑎< 𝑏𝑏，在滑入和滑出磁场区域的两个过程中（  ）\nA．铝框所用时间相同\nB．铝框上产生的热量相同\nC．铝框中的电流方向相同\nD．安培力对铝框的冲量相同",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "A．铝框进入和离开磁场过程，磁通量变化，都会产生感应电流，受向左安培力而减速，完全在磁场中运\n动时磁通量不变做匀速运动；可知离开磁场过程的平均速度小于进入磁场过程的平均速度，所以离开磁场过程的时\n间大于进入磁场过程的时间，A 错误；\nC．由楞次定律可知，铝框进入磁场过程磁通量增加，感应电流为逆时针方向；离开磁场过程磁通量减小，感应电\n流为顺时针方向，C 错误；\nD．铝框进入和离开磁场过程安培力对铝框的冲量为\n𝐼𝐼\n安= −𝐵𝐵𝐼𝐼𝑎𝑎Δ𝑡𝑡\n又\n𝑞𝑞= 𝐼𝐼Δ𝑡𝑡= 𝐸𝐸\n𝑅𝑅Δ𝑡𝑡= ΔΦ\n𝑅𝑅Δ𝑡𝑡Δ𝑡𝑡= ΔΦ\n𝑅𝑅= 𝐵𝐵𝑎𝑎2\n𝑅𝑅\n得\n𝐼𝐼\n安= −𝐵𝐵2𝑎𝑎3\n𝑅𝑅\nD 正确；\nB．铝框进入和离开磁场过程，铝框均做减速运动，可知铝框进入磁场过程的速度一直大于铝框离开磁场过程的速\n度，根据\n𝐹𝐹\n安= 𝐵𝐵𝐵𝐵𝐵𝐵= 𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵\n𝑅𝑅𝑎𝑎= 𝐵𝐵2𝑎𝑎2𝑣𝑣\n𝑅𝑅\n可知铝框进入磁场过程受到的安培力一直大于铝框离开磁场过程受到的安培力，故铝框进入磁场过程克服安培力做\n的功大于铝框离开磁场过程克服安培力做的功，即铝框进入磁场过程产生的热量大于铝框离开磁场过程产生的热量，\nB 错误。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -102,22 +133,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q05",
-      "content": "在同一均匀介质中，分别位于坐标原点和𝑥𝑥= 7m处的两个波源O 和P，沿y 轴振动，形成了两列相向传播的简\n谐横波a 和b，某时刻a 和b 分别传播到𝑥𝑥= 3m和𝑥𝑥= 5m处，波形如图所示。下列说法正确的是（    ）\nA．a 与b 的频率之比为2: 1\nB．O 与P 开始振动的时刻相同\nC．a 与b 相遇后会出现干涉现象\nD．O 开始振动时沿y 轴正方向运动\n二、多选题",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "在同一均匀介质中，分别位于坐标原点和𝑥𝑥= 7m处的两个波源O 和P，沿y 轴振动，形成了两列相向传播的简\n谐横波a 和b，某时刻a 和b 分别传播到𝑥𝑥= 3m和𝑥𝑥= 5m处，波形如图所示。下列说法正确的是（    ）\nA．a 与b 的频率之比为2: 1\nB．O 与P 开始振动的时刻相同\nC．a 与b 相遇后会出现干涉现象\nD．O 开始振动时沿y 轴正方向运动",
+      "answer": "A",
+      "analysis": "A．由同一均匀介质条件可得a 和b 两列波在介质中传播速度𝑣𝑣相同，由图可知，a 和b 两列波的波长之\n比为\n𝜆𝜆𝑎𝑎\n𝜆𝜆𝑏𝑏\n= 2\n4 = 1\n2\n根据\n𝑓𝑓= 𝑣𝑣\n𝜆𝜆\n可得a 与b 的频率之比为\n𝑓𝑓𝑎𝑎\n𝑓𝑓𝑏𝑏\n= 𝜆𝜆𝑏𝑏\n𝜆𝜆𝑎𝑎\n= 2\n1\n故A 正确；\nB．因a 和b 两列波的波速相同，由a 和b 两列波分别传播到𝑥𝑥= 3m和𝑥𝑥= 5m处的时刻相同，可知O 与P 开始振\n动的时刻不相同，故B 错误；\nC．因a 与b 的频率不同，a 与b 相遇后不能产生干涉现象，故C 错误；\nD．a 波刚传到3m处，由波形平移法可知，3m处的质点开始振动方向沿y 轴负方向，而所有质点的开始振动方向\n都相同，所以O 点开始振动的方向也沿y 轴负方向，故D 错误。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -125,22 +164,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q005-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q06",
       "content": "采用涡轮增压技术可提高汽车发动机效率。将涡轮增压简化为以下两个过程，一定质量的理想气体首先经过绝\n热过程被压缩，然后经过等压过程回到初始温度，则（    ）\nA．绝热过程中，气体分子平均动能增加\nB．绝热过程中，外界对气体做负功\nC．等压过程中，外界对气体做正功\nD．等压过程中，气体内能不变",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "AC",
+      "analysis": "AB．一定质量的理想气体经过绝热过程被压缩，可知气体体积减小，外界对气体做正功，根据热力学第\n一定律可知，气体内能增加，则气体温度升高，气体分子平均动能增加，故A 正确，B 错误；\nCD．一定质量的理想气体经过等压过程回到初始温度，可知气体温度降低，气体内能减少；根据\n𝑉𝑉\n𝑇𝑇= 𝐶𝐶\n可知气体体积减小，外界对气体做正功，故C 正确，D 错误。\n故选AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -148,22 +195,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q07",
       "content": "不同波长的电磁波具有不同的特性，在科研、生产和生活中有广泛的应用。a、b 两单色光在电磁波谱中的位置\n如图所示。下列说法正确的是（  ）\nA．若a、b 光均由氢原子能级跃迁产生，产生a 光的能级能量差大\nB．若a、b 光分别照射同一小孔发生衍射，a 光的衍射现象更明显\nC．若a、b 光分别照射同一光电管发生光电效应，a 光的遏止电压高\nD．若a、b 光分别作为同一双缝干涉装置光源时，a 光的干涉条纹间距大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "BD",
+      "analysis": "由图中a、b 两单色光在电磁波谱中的位置，判断出a 光的波长𝜆𝜆𝑎𝑎大于b 光的波长𝜆𝜆𝑏𝑏，a 光的频率𝜈𝜈𝑎𝑎小于\nb 光的频率𝜈𝜈𝑏𝑏。\nA．若a、b 光均由氢原子能级跃迁产生，根据玻尔原子理论的频率条件\nℎ𝜈𝜈= 𝐸𝐸n −𝐸𝐸m\n可知产生a 光的能级能量差小，故A 错误；\nB．若a、b 光分别照射同一小孔发生衍射，根据发生明显衍射现象的条件，a 光的衍射现象更明显，故B 正确；\nC．在分别照射同一光电管发生光电效应时，根据爱因斯坦光电效应方程\n𝑒𝑒𝑈𝑈𝑐𝑐= 𝐸𝐸k = ℎ𝜈𝜈−𝑊𝑊0\n可知a 光的遏止电压低，故C 错误；\nD．a、b 光分别作为同一双缝干涉装置光源时，相邻两条亮纹或暗纹的中心间距\nΔ𝑥𝑥= 𝑙𝑙\n𝑑𝑑𝜆𝜆\n可知a 光的干涉条纹间距大，故D 正确。\n故选BD。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -171,22 +222,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q08",
-      "content": "如图所示，两理想变压器间接有电阻R，电表均为理想交流电表，a、b 接入电压有效值不变的正弦交流电源。\n闭合开关S 后（    ）\nA．R 的发热功率不变\nB．电压表的示数不变\nC．电流表A1的示数变大\nD．电流表A2的示数变小\n三、实验题",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，两理想变压器间接有电阻R，电表均为理想交流电表，a、b 接入电压有效值不变的正弦交流电源。\n闭合开关S 后（    ）\nA．R 的发热功率不变\nB．电压表的示数不变\nC．电流表A1的示数变大\nD．电流表A2的示数变小",
+      "answer": "BC",
+      "analysis": "AC．闭合开关S 后，负载电阻减小，匝数为𝑛𝑛4的线圈输出功率变大，匝数为𝑛𝑛1的线圈输入功率也变大，a、\nb 两端电压有效值不变，由\n𝑃𝑃1 = 𝑈𝑈1𝐼𝐼1\n可知电流表A1的示数变大，根据\n𝐼𝐼1\n𝐼𝐼2\n= 𝑛𝑛2\n𝑛𝑛1\n因\n𝑛𝑛2\n𝑛𝑛1比值不变，𝐼𝐼1变大，𝐼𝐼2变大，因此，R 的发热功率变大，故A 错误，C 正确；\nB．根据理想变压器电压比等于匝数比\n𝑈𝑈1\n𝑈𝑈2\n= 𝑛𝑛1\n𝑛𝑛2\n可知输出电压𝑈𝑈2不变，电压表的示数不变，故B 正确；\nD．根据理想变压器电流与匝数关系可得\n𝐼𝐼1\n𝐼𝐼2\n= 𝑛𝑛2\n𝑛𝑛1\n𝐼𝐼2\n𝐼𝐼4\n= 𝑛𝑛4\n𝑛𝑛3\n由于匝数均保持不变，𝐼𝐼1增大，所以𝐼𝐼2、𝐼𝐼4增大，故电流表A2的示数变大，故D 错误。\n故选BC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -194,22 +253,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q09",
       "content": "某同学验证两个小球在斜槽末端碰撞时的动量守恒，实验装置如图所示。A、B 为两个直径相同的小球。实验时，\n不放B，让A 从固定的斜槽上E 点自由滚下，在水平面上得到一个落点位置；将B 放置在斜槽末端，让A 再次从\n斜槽上E 点自由滚下，与B 发生正碰，在水平面上又得到两个落点位置。三个落点位置标记为M、N、P。\n（1）为了确认两个小球的直径相同，该同学用10 分度的游标卡尺对它们的直径进行了测量，某次测量的结果如下\n图所示，其读数为          mm。\n（2）下列关于实验的要求哪个是正确的          。\nA．斜槽的末端必须是水平的     B．斜槽的轨道必须是光滑的\nC．必须测出斜槽末端的高度     D．A、B 的质量必须相同\n（3）如果该同学实验操作正确且碰撞可视为弹性碰撞，A、B 碰后在水平面上的落点位置分别\n为          、          。（填落点位置的标记字母）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "10.5     A     M     P",
+      "analysis": "（1）[1]观察主尺的单位为cm，读出主尺的读数是10mm，游标尺上的第五条刻度线与主尺上的刻度线对\n齐，其读数为0.5mm，结合主尺及游标尺的读数得到被测直径为\n𝐷𝐷= 10mm + 0.1 × 5mm = 10.5mm\n（2）[2]ABC．首先考查在实验的过程中，需要小球A 两次沿斜槽滚到末端时的速度都水平且大小相同。实验时应\n使小球A 每次都从同一位置由静止开始释放，并不需要斜槽的轨道光滑的条件，也不需要测出斜槽末端的高度，但\n是必须保证斜槽末端水平，故A 正确，BC 错误；\nD．小球A 与B 发生正碰时，为使小球A 在碰后不反弹，要求小球A 的质量大于小球B 的质量，故D 错误。\n故选A。\n（3）[3][4]设A、B 两球的质量分别为mA 和mB，由（2）中分析知mA>mB；碰前A 的速度v0；因为两个金属小\n球的碰撞视为弹性碰撞，则由动量守恒定律得\n𝑚𝑚A𝑣𝑣0 = 𝑚𝑚A𝑣𝑣A + 𝑚𝑚B𝑣𝑣B\n由机械能守恒定律得\n1\n2 𝑚𝑚A𝑣𝑣0\n2 = 1\n2 𝑚𝑚A𝑣𝑣A\n2 + 1\n2 𝑚𝑚B𝑣𝑣B\n2\n解得\n𝑣𝑣A =\n𝑚𝑚A−𝑚𝑚B\n𝑚𝑚A+𝑚𝑚B 𝑣𝑣0，𝑣𝑣B =\n2𝑚𝑚A\n𝑚𝑚𝐴𝐴+𝑚𝑚B 𝑣𝑣0\n可见碰后小球A 的速度小于小球B 的速度，也小于碰前A 的速度v0；所以小球A 单独滚下落到水平面上的位置为\nN，A、B 碰后在水平面上的落点位置分别为M、P。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -217,22 +284,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q009-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q10",
       "content": "实验小组测量某型号电池的电动势和内阻。用电流表、电压表、滑动变阻器、待测电池等器材组成如图1 所示\n实验电路，由测得的实验数据绘制成的𝑈𝑈−𝐼𝐼图像如图2 所示。\n（1）图1 的电路图为下图中的          。（选填“A”或“B”）\n（2）如果实验中所用电表均视为理想电表，根据图2 得到该电池的电动势𝐸𝐸=          V，内阻𝑟𝑟=          Ω。\n（3）实验后进行反思，发现上述实验方案存在系统误差。若考虑到电表内阻的影响，对测得的实验数据进行修正，\n在图2 中重新绘制𝑈𝑈−𝐼𝐼图线，与原图线比较，新绘制的图线与横坐标轴交点的数值将          ，与纵坐标轴交\n点的数值将          。（两空均选填“变大”“变小”或“不变”）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B     4.5     1.8     不变     变大",
+      "analysis": "（1）[1]通过观察实物图可知电压表接在电源两端，故电路图为B；\n（2）[2][3]根据闭合电路欧姆定律\n𝐸𝐸= 𝑈𝑈+ 𝐼𝐼𝐼𝐼\n有\n𝑈𝑈= −𝐼𝐼𝐼𝐼+ 𝐸𝐸\n则𝑈𝑈−𝐼𝐼图线在纵轴上的截距表示电池的电动势E，斜率是电池的内阻r，根据图像可知，纵轴截距为4.5，横轴截\n距为2.5，结合上述分析可知电池电动势𝐸𝐸= 4.5V；内阻\n𝑟𝑟= 4.5\n2.5Ω = 1.8Ω\n（3）[4][5]分析测量电路可知系统误差的来源是电压表的分流作用，使得电流表的示数小于流过电池的电流，考虑\n电压表内阻𝑅𝑅V的影响，流过电压表的电流为\n𝐼𝐼V =\n𝑈𝑈\n测\n𝑅𝑅V\n可知流过电池的电流为\n𝐼𝐼= 𝐼𝐼\n测+\n𝑈𝑈\n测\n𝑅𝑅V，𝐼𝐼> 𝐼𝐼\n测\n因电压表内阻𝑅𝑅V不变，随着电压𝑈𝑈\n测值减小，电压表电流𝐼𝐼V减小，当电压𝑈𝑈\n测值趋于0 时，I 趋于𝐼𝐼\n测，在图2 中重新\n绘制的𝑈𝑈−𝐼𝐼图线如图所示\n故新绘制的图线与横坐标轴交点的数值将不变，与纵坐标轴交点的数值将变大。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -240,22 +315,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q010-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q11",
       "content": "冰壶是冬季奥运会上非常受欢迎的体育项目。如图所示，运动员在水平冰面上将冰壶A 推到M 点放手，此时\nA 的速度𝑣𝑣0 = 2m/s，匀减速滑行𝑥𝑥1 = 16.8m到达N 点时，队友用毛刷开始擦A 运动前方的冰面，使A 与𝑁𝑁𝑁𝑁间冰\n面的动摩擦因数减小，A 继续匀减速滑行𝑥𝑥2 = 3.5m，与静止在P 点的冰壶B 发生正碰，碰后瞬间A、B 的速度分\n别为𝑣𝑣A = 0.05m/s和𝑣𝑣B = 0.55m/s。已知A、B 质量相同，A 与𝑀𝑀𝑀𝑀间冰面的动摩擦因数𝜇𝜇1 = 0.01，重力加速度𝑔𝑔取\n10m/s2，运动过程中两冰壶均视为质点，A、B 碰撞时间极短。求冰壶A\n（1）在N 点的速度𝑣𝑣1的大小；\n（2）与𝑁𝑁𝑁𝑁间冰面的动摩擦因数𝜇𝜇2。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）𝑣𝑣1 = 0.8m/s；（2）𝜇𝜇2 = 0.004",
+      "analysis": "（1）设冰壶质量为𝑚𝑚，A 受到冰面的支持力为𝑁𝑁，由竖直方向受力平衡，有\n𝑁𝑁= 𝑚𝑚𝑚𝑚\n设A 在𝑀𝑀𝑀𝑀间受到的滑动摩擦力为𝑓𝑓，则有\n𝑓𝑓= 𝜇𝜇1𝑁𝑁\n设A 在𝑀𝑀𝑀𝑀间的加速度大小为𝑎𝑎，由牛顿第二定律可得\n𝑓𝑓= 𝑚𝑚𝑚𝑚\n联立解得\n𝑎𝑎= 𝜇𝜇1𝑔𝑔= 0.1m/s2\n由速度与位移的关系式，有\n𝑣𝑣1\n2 −𝑣𝑣0\n2 = −2𝑎𝑎𝑥𝑥1\n代入数据解得\n𝑣𝑣1 = 0.8m/s\n（2）设碰撞前瞬间A 的速度为𝑣𝑣2，由动量守恒定律可得\n𝑚𝑚𝑣𝑣2 = 𝑚𝑚𝑣𝑣A + 𝑚𝑚𝑣𝑣B\n解得\n𝑣𝑣2 = 0.6m/s\n设A 在𝑁𝑁𝑁𝑁间受到的滑动摩擦力为𝑓𝑓′，则有\n𝑓𝑓′ = 𝜇𝜇2𝑚𝑚𝑚𝑚\n由动能定理可得\n−𝑓𝑓′ ⋅𝑥𝑥2 = 1\n2 𝑚𝑚𝑣𝑣2\n2 −1\n2 𝑚𝑚𝑣𝑣1\n2\n联立解得\n𝜇𝜇2 = 0.004",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -263,22 +346,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q011-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q12",
       "content": "如图所示，M 和N 为平行金属板，质量为m，电荷量为q 的带电粒子从M 由静止开始被两板间的电场加速\n后，从N 上的小孔穿出，以速度v 由C 点射入圆形匀强磁场区域，经D 点穿出磁场，CD 为圆形区域的直径。已\n知磁场的磁感应强度大小为B、方向垂直于纸面向外，粒子速度方向与磁场方向垂直，重力略不计。\n（1）判断粒子的电性，并求M、N 间的电压U；\n（2）求粒子在磁场中做圆周运动的轨道半径r；\n（3）若粒子的轨道半径与磁场区域的直径相等，求粒子在磁场中运动的时间t。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）正电，𝑈𝑈=\n𝑚𝑚𝑣𝑣2\n2𝑞𝑞；（2）𝑟𝑟=\n𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞；（3）𝑡𝑡=\n𝜋𝜋𝜋𝜋\n3𝑞𝑞𝑞𝑞",
+      "analysis": "（1）带电粒子在磁场中运动，根据左手定则可知粒子带正电。粒子在电场中运动由动能定理可知\n𝑞𝑞𝑞𝑞= 1\n2 𝑚𝑚𝑣𝑣2\n解得\n𝑈𝑈= 𝑚𝑚𝑣𝑣2\n2𝑞𝑞\n（2）粒子在磁场中做匀速圆周运动，所受洛伦兹力提供向心力，有\n𝑞𝑞𝑞𝑞𝑞𝑞= 𝑚𝑚𝑣𝑣2\n𝑟𝑟\n解得\n𝑟𝑟= 𝑚𝑚𝑚𝑚\n𝑞𝑞𝑞𝑞\n（3）设粒子运动轨道圆弧对应的圆心角为𝜃𝜃，如图\n依题意粒子的轨道半径与磁场区域的直径相等，由几何关系，得\n𝜃𝜃= 𝜋𝜋\n3\n设粒子在磁场中做匀速圆周运动的周期为T，有\n𝑇𝑇= 2𝜋𝜋𝜋𝜋\n𝑣𝑣\n带电粒子在磁场中运动的时间\n𝑡𝑡= 𝜃𝜃\n2𝜋𝜋𝑇𝑇\n联立各式解得\n𝑡𝑡= 𝜋𝜋𝜋𝜋\n3𝑞𝑞𝑞𝑞",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -286,22 +377,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q012-p005-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2022/2022天津.pdf#q13",
       "content": "直流电磁泵是利用安培力推动导电液体运动的一种设备，可用图1 所示的模型讨论其原理，图2 为图1 的正视\n图。将两块相同的矩形导电平板竖直正对固定在长方体绝缘容器中，平板与容器等宽，两板间距为𝑙𝑙，容器中装有\n导电液体，平板底端与容器底部留有高度可忽略的空隙，导电液体仅能从空隙进入两板间。初始时两板间接有直流\n电源，电源极性如图所示。若想实现两板间液面上升，可在两板间加垂直于𝑂𝑂𝑂𝑂𝑂𝑂面的匀强磁场，磁感应强度的大小\n为𝐵𝐵，两板间液面上升时两板外的液面高度变化可忽略不计。已知导电液体的密度为𝜌𝜌0、电阻率为𝜌𝜌，重力加速度为\n𝑔𝑔。\n（1）试判断所加磁场的方向；\n（2）求两板间液面稳定在初始液面高度2 倍时的电压𝑈𝑈0；\n（3）假定平板与容器足够高，求电压𝑈𝑈满足什么条件时两板间液面能够持续上升。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）沿𝑧𝑧轴负方向；（2）𝑈𝑈0 =\n𝜌𝜌0𝜌𝜌𝜌𝜌𝜌𝜌\n2𝐵𝐵；（3）𝑈𝑈≥\n𝜌𝜌0𝜌𝜌𝜌𝜌𝜌𝜌\n𝐵𝐵",
+      "analysis": "（1）想实现两板间液面上升，导电液体需要受到向上的安培力，由图可知电流方向沿𝑥𝑥轴正方向，根据左\n手定则可知，所加磁场的方向沿𝑧𝑧轴负方向。\n（2）设平板宽度为𝑏𝑏，两板间初始液面高度为ℎ，当液面稳定在高度2ℎ时，两板间液体的电阻为𝑅𝑅，则有\n𝑅𝑅= 𝜌𝜌\n𝑙𝑙\n2ℎ𝑏𝑏\n当两板间所加电压为𝑈𝑈0时，设流过导电液体的电流为𝐼𝐼，由欧姆定律可得\n𝐼𝐼= 𝑈𝑈0\n𝑅𝑅\n外加磁场磁感应强度大小为𝐵𝐵时，设液体所受安培力的大小为𝐹𝐹，则有\n𝐹𝐹= 𝐵𝐵𝐵𝐵𝐵𝐵\n两板间液面稳定在高度2ℎ时，设两板间高出板外液面的液体质量为𝑚𝑚，则有\n𝑚𝑚= 𝜌𝜌0𝑏𝑏ℎ𝑙𝑙\n两板间液体受到的安培力与两板间高出板外液面的液体重力平衡，则有\n𝐹𝐹= 𝑚𝑚𝑚𝑚\n联立以上式子解得\n𝑈𝑈0 = 𝜌𝜌0𝜌𝜌𝜌𝜌𝜌𝜌\n2𝐵𝐵\n（3）设两板间液面稳定时高度为nh，则两板间比容器中液面高出的部分液体的高度为(n－1)h，与（2）同理可得\n𝑈𝑈\n𝜌𝜌\n𝑙𝑙\n𝑛𝑛ℎ𝑏𝑏\n𝑙𝑙𝑙𝑙= 𝜌𝜌0(𝑛𝑛ℎ−ℎ)𝑏𝑏𝑏𝑏𝑏𝑏\n整理上式，得\n𝑈𝑈= 𝑛𝑛−1\n𝑛𝑛\n⋅𝜌𝜌𝜌𝜌0𝑙𝑙𝑙𝑙\n𝐵𝐵\n平板与容器足够高，若使两板间液面能够持续上升，则n 趋近无穷大，即\n𝑛𝑛−1\n𝑛𝑛无限趋近于1，可得\n𝑈𝑈≥𝜌𝜌0𝜌𝜌𝜌𝜌𝜌𝜌\n𝐵𝐵",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2022,
       "subject": "物理",
@@ -309,11 +408,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2022/2022天津.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q013-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-ad1995c05f54f30c-q013-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 3,
+    "assigned": 7,
+    "rendered": 11,
+    "scanPages": 4,
+    "scanRegions": 4,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 4
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2018/2018海南.pdf",
   "name": "2018海南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 13,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 16,
+    "answerBlocks": 9,
+    "sourceAnswers": 9,
+    "sourceAnalysis": 16,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2018/2018海南.pdf#q01",
       "content": "一攀岩者以1 m/s 的速度匀速向上攀登，途中碰落了岩壁上的石块，石块自由下落。3 s 后攀岩者听到石\n块落地的声音，此时他离地面的高度约为（    ）\n（A）10 m\n（B）30 m\n（C）50 m\n（D）70 m\n【试题分析】本题考查自由落体运动遵循的规律及其相关的知识点，同时考查了估算能力。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "根据自由落体运动遵循的规律可知，石块自由下落的高度约为h =\n1\n2 gt2 = 44.1m；用时3 秒，攀\n岩者爬了3 米，所以距离地面高度约为h ≈44.1 + 3 = 47.1m，则考虑考到空气阻力和声速的影响，他离地\n面的高度约为50m，选项C 正确。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -33,11 +44,488 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018海南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q02",
+      "content": "土星与太阳的距离是火星与太阳距离的6 倍多。由此信息可知（    ）\n（A）土星的质量比火星的小\n（B）土星运行的速率比火星的小\n（C）土星运行的周期比火星的小\n（D）土星运行的角速度大小比火星的大\n【试题分析】本题考查圆周运动及万有引力定律相关的知识点。",
+      "answer": "暂无结构化答案",
+      "analysis": "根据万有引力提供向心力G\nMm\nr2 = m\nv2\nr ，得v = √\nGM\nr ，即r 越大速度越小，但是不比较土星和地球\n质量大小，故A 错误，B 正确；由G\nMm\nr2 = m\n4π2\nT2 r，得T = √\n4π2r3\nGM ，即r 越大周期越大，故C 错误；由G\nMm\nr2 =\n mω2r，得ω = √\nGM\nr3 ，即r 越大角速度越小，故D 错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 2,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q03",
+      "content": "如图，一绝缘光滑固定斜面处于匀强磁场中，磁场的磁感应强度大小为B，方向垂直\n于斜面向上，通有电流I 的金属细杆水平静止在斜面上。若电流变为0.5I，磁感应强度\n大小变为3B，电流和磁场的方向均不变，则金属细杆将（    ）\n（A）沿斜面加速上滑\n（B）沿斜面加速下滑\n（C）沿斜面匀速上滑\n（D）仍静止在斜面上\n【试题分析】本题是一道关于安培力的共点力的平衡问题及牛顿第二定律相关知识",
+      "answer": "暂无结构化答案",
+      "analysis": "最初金属细杆受到三个力作用，且合力为零，如图所示：\n由平衡可知，安培力F = BIL = mgsinθ，若电流变为0.5I，磁感应强度大小变为3B，则安培力F1 =\n 3B\n1\n2 IL = 1.5mgsinθ，根据牛顿第二定律，F1 −mgsinθ = ma，故金属细杆以a = 0.5gsinθ 的加速度沿\n着斜面加速上滑，故A 正确\nB\nI\n2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 3,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q003-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q04",
+      "content": "已知234\n90  Th 的半衰期为24 天。4 g 234\n90  Th 经过72 天还剩下（    ）\n（A）0\n（B）0.5 g\n（C）1 g\n（D）1.5 g\n【试题分析】本题考查核衰变的半衰期的规律及其相关的知识点",
+      "answer": "暂无结构化答案",
+      "analysis": "由衰变公式m′ = m (\n1\n2)\nt\nT，知m′ = 4 (\n1\n2)\n72\n24 = 4 (\n1\n2)\n3\n = 0.5g，故B 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 4,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q05",
+      "content": "如图，用长为l 的轻绳悬挂一质量为M 的沙箱，沙箱静止。一质量为m 的弹丸以速度v 水平射入沙箱并\n留在其中，随后与沙箱共同摆动一小角度。不计空气阻力。对子弹射向沙箱到与其共同摆过一小角度的过程\n（    ）\n（A）若保持m、v、l 不变，M 变大，则系统损失的机械能变小\n（B）若保持M、v、l 不变，m 变大，则系统损失的机械能变小\n（C）若保持M、m、l 不变，v 变大，则系统损失的机械能变大\n（D）若保持M、m、v 不变，l 变大，则系统损失的机械能变大\n【试题分析】本题考机械能守恒定律及动量守恒定律的相关知识点",
+      "answer": "暂无结构化答案",
+      "analysis": "分析易得只有子弹射入沙箱并停留在沙箱中这个过程中系统的机械能才会损失，由动量守恒得，\nmv = （m + M）v共，则系统损失的机械能\n∆E = 1\n2 mv2 −1\n2 (m + M)v共\n2 = 1\n2 mv2 −1\n2 (m + M) ( mv\nm + M)\n2\n =\nmMv2\n2（m + M）\n对于A 选项，由 ∆E =\nmMv2\n2（m+M） =\nmv2\n2（m\nM+1）可知若保持m、v、l 不变， M 越大则系统损失的机械能变大，\n故A 错误\n对于B 选项，由 ∆E =\nmMv2\n2（m+M） =\nMv2\n2（M\nm+1）可知若保持M、v、l 不变，m 变大则系统损失的机械能变大，故\nB 错误\n对于C 选项，由 ∆E =\nmMv2\n2（m+M）可知若保持M、m、l 不变，v 变大则系统损失的机械能变大，故C 正确\n对于D 选项，子弹与沙箱共同向上摆动一小角度的过程系统机械能守恒，故D 错误",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q06",
+      "content": "某大瀑布的平均水流量为5900 m3/s，水的落差为50 m。已知水的密度为1.00×103 kg/m3。在大瀑布水流\n下落过程中，重力做功的平均功率约为（    ）\n（A）3×106 W\n（B）3×107 W\n（C）3×108 W\n（D）3×109 W\n【试题分析】本题考平均功率及平均水流量的相关知识点，同时考查了估算能力",
+      "answer": "暂无结构化答案",
+      "analysis": "由平均功率定义得\nP = W\nt = mgh\nt\n = Qtρgh\nt\n = Qρgh ≈5900 × 1 × 103 × 10 × 50 ≈6000 × 1 × 103 × 10 × 50 = 3 × 109w\n故D 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 6,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q07",
+      "content": "如图，在磁感应强度大小为B 的匀强磁场中，有一面积为S 的矩形单匝闭合导线abcd，\nab 边与磁场方向垂直，线框的电阻为R。使线框以恒定角速度ω 绕过ad、bc 中点的轴旋\n转。下列说法正确的是（    ）\n（A）线框abcd 中感应电动势的最大值是BSω\n（B）线框abcd 中感应电动势的有效值是BSω\n（C）线框平面与磁场方向平行时，流经线框的电流最大\n（D）线框平面与磁场方向垂直时，流经线框的电流最大\nB\na\nd\nc\nb\nω\n3\n【试题分析】本题考查了交变电流的最大值、有效值和瞬时值的相关知识点",
+      "answer": "AC",
+      "analysis": "一个单匝线圈在匀强磁场中旋转，当从中性面开始计时，产生的正弦式交变电流电动势的瞬时\n值表达式为：e =  Emsinθ.＝Emsinωt.\n故感应电动势的最大值Em＝BSω，有效值E＝Em\n2\n，故A 正确，B 错误\n当θ = 90o时，即线框平面与磁场方向平行时，电流最大故C 错误，D 正确",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 7,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q08",
+      "content": "如图（a），一长木板静止于光滑水平桌面上，t = 0\n时，小物块以速度v0 滑到长木板上，图（b）为物块与\n木板运动的v–t 图像，图中t1、v0、v1 已知。重力加速\n度大小为g。由此可求得（    ）\n（A）木板的长度\n（B）物块与木板的质量之比\n（C）物块与木板之间的动摩擦因数\n（D）从t = 0 开始到t1 时刻，木板获得的动能\n【试题分析】本题考查了v-t 与牛顿第二定律综合运用，滑块模型等",
+      "answer": "BC",
+      "analysis": "A、根据题意只能求出AB 的相对位移，不知道B 最终停在哪里，无法求出木板的长度，故A 不能够\n求解出；\n由图象的斜率表示加速度求出长木板的加速度为aA =\nv1\nt1，小物块的加速度aB =\nv0−v1\nt1 ，\n根据牛顿第二定律得：μmg = MaA，μmg = maB，解得：\nm\nM =\nv1\nv0−v1，μ =\nv0−v1\ngt1 ，故B 和C 能够求解出；\nD、木板获得的动能EkA =\n1\n2Mv1\n2 =\n1\n2 mv1（v0 −v1），题目t1、v0、v1 已知，但是M，m 不知道，故D 不\n能够求解出",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 8,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q09",
+      "content": "如图，a、b、c、d 为一边长为l 的正方形的顶点。电荷量均为q（q > 0）的两个点电荷分别固定在a、c\n两点，静电力常量为k。不计重力。下列说法正确的是（    ）\n（A）b 点的电场强度大小为\n2kq\nl2\n（B）过b、d 点的直线位于同一等势面上\n（C）在两点电荷产生的电场中，ac 中点的电势最低\n（D）在b 点从静止释放的电子，到达d 点时速度为零\n【试题分析】本题考查电场强度以及等量同种电荷的电场电势图的相关知识点",
+      "answer": "AD",
+      "analysis": "由图可知b 点的电场𝐸 = 𝐸𝑎𝑐𝑜𝑠450 + 𝐸𝑏𝑐𝑜𝑠450 = √2𝑘𝑞\n𝑙2 ，故A 正确。\n沿着电场线电势逐渐降低，而等量正点电荷的电场与电势图如下，由图可知过\nb、d 点的直线不在同一等势面上，故B、C 错误；由对称性可知，b、d 点电势\n相同，故电子在b、d 点电势能相同，即动能也相同，都为0，故D 正确。\na\nd\nc\nb\n4",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 9,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q009-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q10",
+      "content": "如图，三个电阻R1、R2、R3 的阻值均为R，电源的内阻r < R，c 为滑动变阻器\n的中点。闭合开关后，将滑动变阻器的滑片由c 点向a 端滑动，下列说法正确的是\n（    ）\n（A）R2 消耗的功率变小\n（B）R3 消耗的功率变大\n（C）电源输出的功率变大\n（D）电源内阻消耗的功率变大",
+      "answer": "CD\n【试题分析】本题考查闭合电路欧姆定律的综合动态分析问题的相关知识点",
+      "analysis": "把等效电路画出，如下\n设Rca = Rx，Rcd = R滑−Rx，则R外 = R +\n(R+Rx)(R+R滑−Rx)\nR+R+R滑\n当Rx =\nR滑\n2 时，R外有最大值，当滑动变阻器的滑片由c 点向a 端滑动时，Rca减小， Rcd增大，\n易得R外减小，\nR总 = R外+ r  减小， I1 =\nE\nR总\n增大，故电源内阻消耗的功率Pr  = I1\n2r增大，故D 正确\nUR3+Rcb = UR2+Rca = E −I1（r + R1）减小，\nI3 =\nUR3+Rcb\nR3+Rcb 减小，故PR3  = I3\n2R3减小，故B 错误\n而I2 =  I1 − I3增大，故PR2  = I2\n2R2减大，故A 错误\n根据电源输出功率与R外的关系图可知，当R外> r 时，R外减小电源输出功率越大，故C 正确；\n5",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 10,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q010-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q010-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q010-p004-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q11",
+      "content": "（6 分）\n学生课外实验小组使用如图所示的实验装置测量重力加速度大小。实验时，他们先\n测量分液漏斗下端到水桶底部的距离s；然后使漏斗中的水一滴一滴地下落，调整\n阀门使水滴落到桶底发出声音的同时，下一滴水刚好从漏斗的下端滴落；用秒表测\n量第1 个水滴从漏斗的下端滴落至第n 个水滴落到桶底所用的时间t。\n（1）重力加速度大小可表示为g = _____（用s、n、t 表示）；\n（2）如果某次实验中，s = 0.90 m，n = 30，t = 13.0 s，则测得的重力加速度大小g\n= ______m/s2；（保留2 位有效数字）\n（3）写出一条能提高测量结果准确程度的建议：__________。\n【试题分析】本题考查一个利用自由落体运动规律测量重力加速度的实验",
+      "answer": "(1)\n2𝑛2𝑠\n𝑡2 ;(2)9.6;(3)𝑛的值取得大一些(答案合理即可).",
+      "analysis": "（1）已知第1 个水滴从漏斗的下端滴落至第n 个水滴落到桶底所用的时间t，所以一个水滴从漏斗\n的下端滴落到桶底所用的时间∆t =\nt\nn，所以s =\n1\n2 g（∆t）\n2 =\n1\n2 g (\nt\nn)\n2\n，故g =\n2n2s\nt2\n（2）g =\n2n2s\nt2 =\n2×302×0.90\n13.02\n = 9.6m/s\n2\n（3）提高精度可以提高测量时间的精度和距离的精度，也可以适当增大n，或多测几次取平均。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 11,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q12",
+      "content": "（12 分）\n某同学利用图（a）中的电路测量电流表A 的内阻RA（约为5 Ω）和直流电源的电动势E（约为10 V）。图\n中R1 和R2 为电阻箱，S1 和S2 为开关。已知电流表的量程为100 mA，直流电源的内阻为r。\n（1）断开S2，闭合S1，调节R1 的阻值，使A 满偏；保持R1 的阻值不变，闭合S2，调节R2，当R2 的阻值\n为4.8 Ω 时A 的示数为48.0 mA。忽略S2 闭合后电路中总电阻的变化，经计算得RA = ______Ω；（保留2 位\n有效数字）\n（2）保持S1 闭合，断开S2，多次改变R1 的阻值，并记录电流表的相应示数。若某次R1 的示数如图（b）\n所示，则此次R1 的阻值为______Ω；\n（3）利用记录的R1 的阻值和相应的电流表示数I，作出I−1–R1 图线，如图（c）所示。用电池的电动势E、\n内阻r 和电流表内阻RA 表示I−1 随R1 变化的关系式为I−1 = ______。利用图（c）可求得E = _____V。（保留\n2 位有效数字）\n6\n【试题分析】本题考查是一个半偏法测表头内阻的实验，附带测量电源的电动势",
+      "answer": "(1)5.2;(2)148.2;(3)\n𝑅A+𝑟\n𝐸\n+\n1\n𝐸𝑅1;9.1.",
+      "analysis": "（1）因为忽略S2 闭合后电路中总电阻的变化，总电流还是为100mA，表头与R2 并联，电流按电阻\n成反比分配，即：RA：R2 = I2：IA = 52：48，易知：RA = 5.2Ω。\n（2）由图可知R1 = 1 × 100Ω + 4 × 10Ω + 8 × 1Ω + 2 × 0.1Ω = 148.2Ω\n（3）根据闭合电路欧姆定律， I =\nE\nRA+r+R1\n易得\n1\nI =\nR1\nE +\nRA+r\nE\n由斜率k =\n1\nE =\n22.5−12\n196−100，可求出E =\n1\nk =\n196−100\n22.5−12 ≈9.1V.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 12,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q012-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q012-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q012-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q13",
+      "content": "（10 分）如图，圆心为O、半径为r 的圆形区域外存在匀强磁\n场，磁场方向垂直于纸面向外，磁感应强度大小为B。P 是圆外一点，\nOP = 3r。一质量为m、电荷量为q（q > 0）的粒子从P 点在纸面内垂\n直于OP 射出。己知粒子运动轨迹经过圆心O，不计重力。求：\n（1）粒子在磁场中做圆周运动的半径；\n（2）粒子第一次在圆形区域内运动所用的时间。\n【试题分析】本题考查在匀强磁场中的匀速圆周运动及其相关的知识点，意在考查考生灵活运用相关知识解\n决问题的的能力。",
+      "answer": "(1)\n4\n3 𝑟;(2)\n3𝑚\n2𝑞𝐵.",
+      "analysis": "（1）找圆心，画轨迹，求半径。\n设粒子在磁场中运动半径为R，由几何关系得：R + √R2 + r2 = 3r              ①\n易得R = 4\n3 r               ②\n（2）设进入磁场时速度的大小为v，由洛伦兹力公式和牛顿第二定律有\n                                        qvB =\nmv2\nr                       ③\n7\n进入圆形区域，带电粒子做匀速直线运动，则\n                                      2r = vt                        ④\n联立②③④解得 t = 3m\n2qB",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 13,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q013-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q013-p006-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q013-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q14",
+      "content": "（16 分）如图，光滑轨道PQO 的水平段QO = h\n2 ，轨道在O 点\n与水平地面平滑连接。一质量为m 的小物块A 从高h 处由静止开始\n沿轨道下滑，在O 点与质量为4m 的静止小物块B 发生碰撞。A、B\n与地面间的动摩擦因数均为μ = 0.5，重力加速度大小为g。假设A、\nB 间的碰撞为完全弹性碰撞，碰撞时间极短。求：\n（1）第一次碰撞后瞬间A 和B 速度的大小；\n（2）A、B 均停止运动后，二者之间的距离。\n【试题分析】本题主要考查机械能、匀变速直线运动规律、动量守恒定律、能量守恒定律及其相关的知识点，\n意在考查考生灵活运用相关知识综合分析问题的的能力。",
+      "answer": "(1)\n3\n5 √2𝑔ℎ；\n2\n5 √2𝑔ℎ;(2)\n26\n125 ℎ.",
+      "analysis": "（1）设A 滑到水平轨道的速度为v0，则有\nmgh =\n1\n2 mv0\n2            ①\nA 与B 碰撞时，由动量守恒有   mv0 = mvA + 4mvB           ②\n由动能不变有\n1\n2 mv0\n2 =\n1\n2 mvA\n2 +\n1\n2 4mvB\n2        ③\n联立①②③得                        vA = −\n3\n5 √2gh\nvB =\n2\n5 √2gh           ④\n第一次碰撞后瞬间A 和B 速度的大小分别为\n3\n5 √2gh和\n2\n5 √2gh\n（2）第一次碰撞后A 经过水平段QO 所需时间tA =\n2∙h\n2\nvA =\nh\n3\n5√2gh =\n5√2gh\n6g          ⑤\n第一次碰撞后B 停下来所需时间tB =\nvB\naB =\n2\n5√2gh\nμg\n =\n4√2gh\n5g                      ⑥\n易知         tA > 𝑡B\n故第一次碰撞后B 停时，A 还没有追上B\n设第一次碰撞后B 停下来滑动的位移为xB，由动能定理得\n−μ4mgxB = 0 −\n1\n2 4mvB\n2               ⑦\n解得xB =\n8\n25 h                  ⑧\n设A 第二次碰撞B 前的速度为v1，由动能定理得\n−μmgxB =\n1\n2 mv1\n2 −\n1\n2 mvA\n2            ⑨\n解得v1 = √\n2\n5 gh               ⑩\nv1 > 0，故A 与B 会发生第二次碰撞\nA 与B 会发生第二次碰撞，由动量守恒有\n8\nmv1 = mvA\n，+ 4mvB\n，             ⑪\n由动能不变有\n1\n2 mv1\n2 =\n1\n2 mvA\n，2 +\n1\n2 4mvB\n，2            ⑫\n解得： vA\n， = −\n3\n5 √\n2\n5 gh\nvB\n， =\n2\n5 √\n2\n5gh         ⑬\nB 发生第二次碰撞后，向右滑动的距离为xB\n，，由动能定理得\n−μ4mgxB\n， = 0 −\n1\n24mvB\n，2           ⑭\n解得 xB\n， =\n8\n125 h                ⑮\nA 发生第二次碰撞后，向左滑动的距离为xA\n，，由动能定理得\n−μmgxA\n， = 0 −\n1\n2 mvA\n，2                ⑯\n解得   xA\n， =\n18\n125 h                ⑰\n故xA\n，< xB，即A 不会再回到光滑轨道PQO 的水平段QO 上，在O 点左边停下\n所以A、B 均停止运动后它们之间的距离为∆x = xA\n，+xB\n， =\n18\n125 h +\n8\n125 h =\n26\n125 h   ⑱\n五、选考题：共12 分。请考生从第15、16 题中任选一题作答。如果多做，则按所做的第一题计分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q014-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q014-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q15",
+      "content": "[选修3-3] （12 分）\n（1）（4 分）如图，一定量的理想气体，由状态a 等压变化到状态b，再从b 等容变化到状态c，a、c 两状\n态温度相等。下列说法正确的是_____。（填入正确答案标号。选对1 个得2 分，选对2 个得4 分；有选错的\n得0 分）\n（A）从状态b 到状态c 的过程中气体吸热\n（B）气体在状态a 的内能等于在状态c 的内能\n（C）气体在状态b 的温度小于在状态a 的温度\n（D）从状态a 到状态b 的过程中气体对外做正功\n【试题分析】本题考查对一定质量的理想气体的P—V 图线的理解、理想气体状态方程、热力学第一定律、\n理想气体内能及其相关的知识点。",
+      "answer": "(1)BD.",
+      "analysis": "内能（internal energy）是组成物体分子的无规则热运动动能和分子间相互作用势能的总和，由\n于理想气体的不考虑分子势能内能，故理想气体的内能等于分子平均动能的总和，而温度是分子平均动能的\n宏观表现，由理想气体状态方程pbVb/Tb = pcVc/Tc 可知，当Vb = Vc，pb>pc 时，Tb>TC，故∆Ucb < 0，根据热力\n学第一定律∆Ucb = W + Q，体积V 不变，故W = 0，所以∆Q < 0，从状态b 到状态c 的过程中气体放热，\n选项A 错误；同理，气体在状态a 的温度等于在状态c 的温度，故气体在状态a 的内能等于在状态c 的内\n能，，选项B 正确；由理想气体状态方程paVa/Ta = pbVb/Tb 可知，当pa  = pb，Va <Vb 时，Ta <Tb，选项C 错\n误；从状态a 到状态b 的过程中气体膨胀对外做正功，故D 正确\n（2）（8 分）一储存氮气的容器被一绝热轻活塞分隔成两个气室A 和B，活寨可无摩擦地滑动。开始时用销\np\nV\nO\na\nb\nc\n9\n钉固定活塞，A 中气体体积为2.5×10−4 m3，温度为27 ℃，压强为6.0×104 Pa；B 中气体体积为4.0×10−4 m3，\n温度为 − 17℃，压强为2.0×104 Pa。现将A 中气体的温度降至 − 17 ℃，然后拔掉销钉，并保持A、B 中气\n体温度不变，求稳定后A 和B 中气体的压强。\n【试题分析】本题考查了查理定律、玻意耳定律、关联气体、压强及其相关的知识点。\nA 气体的温度由27℃降至-17℃，由查理定律得\nPA\nTA =\nPA\n，\nTA\n，                     ①\n拔掉销钉后，A、B 中气体的压强相同，根据玻意耳定律，对A 气体有\nPA\n，VA = PVA\n，                    ②\n对B 气体有\nPBVB = PVB\n，                      ③\n由已知条件得VA\n，+ VB\n， = 2.5 × 10\n-4𝑚\n3+4.0 × 10\n-4𝑚\n3          ④\n联立以上各式得p = 3.27 × 104Pa",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 8,
+        "endPage": 9,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q015-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q015-p008-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q015-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018海南.pdf#q16",
+      "content": "[选修3-4]（12 分）\n（1）\n（4 分）警车向路上的车辆发射频率已知的超声波，同时探测反射波的频率。下列说法正确的是_______。\n（填入正确答案标号。选对1 个得2 分，选对2 个得4 分：有选错的得0 分）\n（A）车辆匀速驶向停在路边的警车，警车探测到的反射波频率增高\n（B）车辆匀速驶离停在路边的警车，警车探测到的反射波频率降低\n（C）警车匀速驶向停在路边的汽车，探测到的反射波频率降低\n（D）警车匀速驶离停在路边的汽车，探测到的反射波频率不变",
+      "answer": "暂无结构化答案",
+      "analysis": "车辆匀速驶向停在路边的警车，警车探测到的反射波的频率增高，故 A 正确；车辆匀速驶离停在\n路边的警车，警车探测到的反射波的频率降低，故 B 正确；警车匀速驶向停在路边的汽车，探测到的反射\n波的频率增高，故 C 错误；警车匀速驶离停在路边的汽车，探测到的反射波的频率降低，故 D 错误。\n（2）（8 分）如图，由透明介质构成的半球壳的内外表面半径分别为R 和2R。\n一横截面半径为R 的平行光束入射到半球壳内表面，入射方向与半球壳的对称\n轴平行，所有的入射光线都能从半球壳的外表面射出。已知透明介质的折射率\n为n =\n2 。求半球壳外表面上有光线射出区域的圆形边界的半径。不考虑多\n次反射。\n【试题分析】本题考查折射定律及其相关的知识点\n分析边缘光线a，如下图：\n由几何关系得，\nsin90o\nsin∠CAB = √2，可得∠CAB = 45°，\n在△OAB 中，AC = AB，设为r，在△OBC 中，\n10\n由勾股定理有：(R + r0)2 + r0\n2 = （√2R）\n2\n进而求出r0 = √3−1\n2\nR\n故半球壳外表面上有光线射出区域的圆形边界的半径为r = r0 + R = √3+1\n2\nR\n光路图如图所示，则𝐵𝑂′为圆形边界的半径.\n由折射定律得\n𝑛=\nsin90°\nsin𝜃,解得𝜃= 45°,\n在△𝐴𝐵𝑂中，由余弦定理得\n𝑅2 + |𝐴𝐵|2 −2𝑅|𝐴𝐵|cos(180° −𝜃) = (√2𝑅)2,\n解得|𝐴𝐵| = √6−√2\n2\n𝑅,\n|𝐵𝑂′| = 𝑅+ |𝐴𝐵|cos𝜃= √3+1\n2\n𝑅.\n解析\n1.\nC\n3s内石块下落的高度ℎ =\n1\n2 𝑔𝑡2 = 45m，攀岩者向上攀爬的距离𝑥 = 𝑣𝑡 = 3m，则此\n时他离地面的高度为45m + 3m = 48m，故C 正确.\n2.\nB\n由万有引力提供向心力可知，\n𝐺𝑀𝑚\n𝑟2 = 𝑚\n𝑣2\n𝑟 = 𝑚𝑟𝜔2，解得𝑣 = √\n𝐺𝑀\n𝑟，𝜔 = √\n𝐺𝑀\n𝑟3 ，因土\n星的轨道半径大，所以土星运行的速率小，角速度小，又𝑇 =\n2π\n𝜔，则土星运行的周期大，由题目信息无法\n确定它们的质量大小关系，故B 正确.\n3.\nA\n由左手定则可知，金属细杆所受安培力𝐹 = 𝐵𝐼𝐿，沿斜面向上，由平衡条件知𝐵𝐼𝐿 =\n 𝑚𝑔sin𝜃，当电流变为0.5𝐼，磁感应强度大小变为3𝐵时，安培力𝐹′ = 1.5𝐵𝐼𝐿，方向不变，则合力沿光滑斜面\n向上，所以金属细杆会沿斜面加速上滑，故A 正确.\n4.\nB\n由𝑚′ = (\n1\n2)\n𝑛\n𝑚，𝑛 =\n72\n24 = 3解得𝑚′ = 0.5g，故B 正确.\n5.\nC\n弹丸射入沙箱过程中，由动量守恒定律得𝑚𝑣 = (𝑀+ 𝑚)𝑣′，损失的机械能Δ𝐸 =\n1\n2 𝑚𝑣2 −\n1\n2 (𝑀+ 𝑚)𝑣′2，联立解得Δ𝐸 =\n𝑣2\n2( 1\n𝑀+ 1\n𝑚)，而共同摆动的过程中机械能守恒，故保持𝑚、𝑣、𝑙不变，𝑀\n变大，系统损失的机械能变大，故A 错误；保持𝑀、𝑣、𝑙不变，𝑣变大，系统损失的机械能变大，故B 错误；\n保持𝑀、𝑚、𝑙不变，𝑣变大，系统损失的机械能变大，故C 正确；保持𝑀、𝑚、𝑣不变，𝑙变大，系统损失的\n机械能不变，故D 错误.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018海南.pdf",
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q016-p009-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q016-p009-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q016-p010-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-af23e989ab6cacb0-q016-p009-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 1,
+    "assigned": 22,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

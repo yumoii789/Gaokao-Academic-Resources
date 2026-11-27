@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2005/2005湖南文.pdf",
   "name": "2005湖南文",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q01",
       "content": "设全集U = {−2, −1, 0, 1, 2}, A = {−2, −1, 0}, B = {0, 1, 2}, 则\n(∁UA) ∩B =\n(\n)\n(A) {0}\n(B) {−2, −1}\n(C) {1, 2}\n(D) {0, 1, 2}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q02",
       "content": "tan 600◦的值是\n(\n)\n(A) −\n√\n3\n3\n(B)\n√\n3\n3\n(C) −\n√\n3\n(D)\n√\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q03",
       "content": "函数f(x) = √1 −2x 的定义域是\n(\n)\n(A) (−∞, 0]\n(B) [0, +∞)\n(C) (−∞, 0)\n(D) (−∞, +∞)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q04",
       "content": "如图, 正方体ABCD −A1B1C1D1 的棱长为1, E 是A1B1 的中点, 则E\n到平面ABC1D1 的距离为\n(\n)\nA1\nB1\nC1\nA\nB\nC\nE\nD\nD1\n•\n(A)\n√\n3\n2\n(B)\n√\n2\n2\n(C) 1\n2\n(D)\n√\n3\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q05",
       "content": "已知数列{an} 满足a1 = 0, an+1 = an −\n√\n3\n√\n3an + 1 (n ∈N∗), 则a20=\n(\n)\n(A) 0\n(B) −\n√\n3\n(C)\n√\n3\n(D)\n√\n3\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q06",
       "content": "设集合A =\n{\nx\n����\nx −1\nx + 1 < 0\n}\n, B = {x | |x −1| < a}, 则“a = 1”是\n“A ∩B̸ = ∅”的\n(\n)\n(A) 充分不必要条件\n(B) 必要不充分条件\n(C) 充要条件\n(D) 既不充分又不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q07",
       "content": "设直线的方程是Ax + By = 0, 从1, 2, 3, 4, 5 这五个数中每次取两个不同\n的数作为A、B 的值, 则所得不同直线的条数是\n(\n)\n(A) 20\n(B) 19\n(C) 18\n(D) 16",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q08",
       "content": "已知双曲线x2\na2 −y2\nb2 = 1 (a > 0, b > 0) 的右焦点为F, 右准线与一条渐近\n线交于点A, △OAF 的面积为a2\n2 (O 为原点), 则两条渐近线的夹角为(\n)\n(A) 30◦\n(B) 45◦\n(C) 60◦\n(D) 90◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q09",
       "content": "P 是△ABC 所在平面上一点, 若#   »\nPA · #    »\nPB = #    »\nPB · #    »\nPC = #    »\nPC · #   »\nPA, 则P\n是△ABC 的\n(\n)\n(A) 外心\n(B) 内心\n(C) 重心\n(D) 垂心",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q10",
       "content": "某公司在甲、乙两地销售一种品牌车, 利润(单位: 万元) 分别为L1 =\n5.06x −0.15x2 和L2 = 2x, 其中x 为销售量(单位: 辆). 若该公司在这两\n地共销售15 辆车, 则能获得的最大利润为\n(\n)\n(A) 45.606\n(B) 45.6\n(C) 45.56\n(D) 45.51",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q11",
       "content": "设直线2x + 3y + 1 = 0 和圆x2 + y2 −2x −3 = 0 相交于点A、B, 则弦\nAB 的垂直平分线方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q12",
       "content": "一工厂生产了某种产品16800 件, 它们来自甲、乙、丙3 条生产线, 为检查\n这批产品的质量, 决定采用分层抽样的方法进行抽样, 已知甲、乙、丙三条\n生产线抽取的个体数组成一个等差数列, 则乙生产线生产了\n件产品.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q13",
       "content": "在(1 + x) + (1 + x)2 + · · · + (1 + x)6 的展开式中, x2 项的系数是\n.\n(用数字作答)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q14",
       "content": "设函数f(x) 的图象关于点(1, 2) 对称, 且存在反函数f −1(x), f(4) = 0, 则\nf −1(4) =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -332,22 +425,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q15",
       "content": "已知平面α, β 和直线, 给出条件:\n①m\nα; ②m ⊥α; ③m ⊂α; ④α ⊥β; ⑤α\nβ.\n(1) 当满足条件\n时, 有m\nβ;\n(2) 当满足条件\n时, 有m ⊥β. (填所选条件的序号)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -355,22 +454,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q015-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q16",
       "content": "已知数列{log2(an −1)} (n ∈N∗) 为等差数列, 且a1 = 3, a3 = 9.\n(1) 求数列{an} 的通项公式;\n(2) 证明:\n1\na2 −a1\n+\n1\na3 −a2\n+ · · · +\n1\nan+1 −an\n< 1.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -378,22 +487,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q17",
       "content": "已知在△ABC 中, sin A(sin B + cos B) −sin C = 0, sin B + cos 2C = 0,\n求角A、B、C 的大小.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -401,22 +516,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q18",
       "content": "如图1, 已知ABCD 是上、下底边长分别为2 和6, 高为\n√\n3 的等腰梯形,\n将它沿对称轴OO1 折成直二面角, 如图2.\n(1) 证明: AC ⊥BO1;\n(2) 求二面角O −AC −O1 的大小.\nA\nB\nC\nO\n图1\nD\nO1\nA\nB\nC\nO\nD\nO1\n图2\n236",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -424,22 +545,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q018-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q018-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-c09d7cd31f9e5c9f-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q19",
       "content": "设t̸ = 0, 点P(t, 0) 是函数f(x) = x3 + ax 与g(x) = bx2 + c 的图象的一\n个公共点, 两函数的图象在点P 处有相同的切线.\n(1) 用t 表示a, b, c;\n(2) 若函数y = f(x) −g(x) 在(−1, 3) 上单调递减, 求t 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -447,22 +579,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q20",
       "content": "某单位组织4 个部门的职工旅游, 规定每个部门只能在韶山、衡山、张家\n界3 个景区中任选一个, 假设各部门选择每个景区是等可能的.\n(1) 求3 个景区都有部门选择的概率;\n(2) 求恰有2 个景区有部门选择的概率.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -470,22 +608,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2005/2005湖南文.pdf#q21",
       "content": "已知椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的左、右焦点为F1、F2, 离心率为\ne. 直线l: y = ex + a 与x 轴、y 轴分别交于点A、B, M 是直线l 与椭圆\nC 的一个公共点, P 是点F1 关于直线l 的对称点, 设#     »\nAM = λ#   »\nAB.\n(1) 证明: λ = 1 −e2;\n(2) 若λ = 3\n4, △PF1F2 的周长为6; 写出椭圆C 的方程;\n(3) 确定λ 的值, 使得△PF1F2 是等腰三角形.\n237",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2005,
       "subject": "数学",
@@ -493,11 +637,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2005/2005湖南文.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 3,
+    "rendered": 4,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

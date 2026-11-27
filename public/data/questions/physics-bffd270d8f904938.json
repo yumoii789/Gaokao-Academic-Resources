@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2018/2018北京理综.pdf",
   "name": "2018北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 8,
+    "sourceAnswers": 8,
+    "sourceAnalysis": 10,
+    "reviewCount": 2,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q01",
       "content": "在核反应方程42He + 147N→178O + X 中，X 表示的是（    ）\n（A）质子\n（B）中子\n（C）电子\n（D）α 粒子",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q02",
       "content": "关于分子动理论，下列说法正确的是（    ）\n（A）气体扩散的快慢与温度无关\n（B）布朗运动是液体分子的无规则运动\n（C）分子间同时存在着引力和斥力\n（D）分子间的引力总是随分子间距增大而增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "温度越高，扩散越快，故A 错误；布朗运动反映了分子的无规则运动，但不是分子运动，\n故B 错误；分子间同时存在引力和斥力，故C 正确；分子间的引力总是随分子间距增大而减小，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -56,22 +73,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q03",
       "content": "用双缝干涉实验装置得到白光的干涉条纹，在光源与单缝之间加上红色滤光片后（    ）\n（A）干涉条纹消失\n（B）彩色条纹中的红色条纹消失\n（C）中央条纹变成暗条纹\n（D）中央条纹变成红色",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "当用白光做干涉实验时，光屏上得到干涉条纹，中央部分是白色的亮条纹；在光源与单\n缝之间加上红色滤光片后，只有红光能通过单缝，在光屏上形成红色的干涉条纹，中央部分为红色的亮条\n纹，故ABC 错误D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -79,22 +100,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q04",
       "content": "如图所示，一列简谐横波向右传播，P、Q 两质点平衡位置相距0.15 m。当P\n运动到上方最大位移处时，Q 刚好运动到下方最大位移处，则这列波的波长可能是\n（    ）\n（A）0.60 m\n（B）0.30 m\n（C）0.20 m\n（D）0.15 m",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "由题意可知𝑃、𝑄两质点平衡位置与波长之间满足：𝑥𝑃𝑄= (𝑛+ 0.5)𝜆，其中𝑛= 0、1、2…得\n𝜆=\n0.3m\n2𝑛+1，只有B 项合乎要求.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -102,22 +127,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q004-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q05",
       "content": "若想检验“使月球绕地球运动的力”与“使苹果落地的力”遵循同样的规律，在已知月地距离约为地球\n半径 60 倍的情况下，需要验证（    ）\n（A）地球吸引月球的力约为地球吸引苹果的力的 1/602\n（B）月球公转的加速度约为苹果落向地面加速度的 1/602\n（C）自由落体在月球表面的加速度约为地球表面的 1/6\n（D）苹果在月球表面受到的引力约为在地球表面的 1/60",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "“使月球绕地球运动的力”与“使苹果落地的力”遵循同样的规律即万有引力定律.已知月地距\n离约为地球半径60倍的情况下，由\n𝐺𝑀𝑚\n𝑟2\n= 𝑚𝑎，得𝑎=\n𝐺𝑀\n𝑟2 ，所以月球围绕地球运动说的加速度是地球表面重\n力加速度的\n1\n602，B 项正确，由于月球的质量与苹果的质量不等，所以由𝐹=\n𝐺𝑀𝑚\n𝑟2 可知，故A 错误；由题目的\n已知条件，无法确定月球表面的重力加速度与地球表面重力加速度的关系，故C 错误.由于不知道月球与地\n球的质量关系以及月球与地球的半径，无法比较苹果在月球表面受到的引力与在地球表面的受到的力的关\n系，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -125,22 +158,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q06",
       "content": "某空间存在匀强磁场和匀强电场。一个带电粒子（不计重力）以一定初速度射入该空间后，做匀速直线\n运动；若仅撤除电场，则该粒子做匀速圆周运动，下列因素与完成上述两类运动无关的是（    ）\n（A）磁场和电场的方向\n（B）磁场和电场的强弱\n（C）粒子的电性和电量\n（D）粒子入射时的速度",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "当带电粒子在复合场内做匀速直线运动时，由于不考虑粒子的重力，所以有𝑞𝑣𝐵= 𝑞𝐸即\n𝑣=\n𝐸\n𝐵，当仅撤除电场，则该粒子做匀速圆周运动，洛伦兹力提供向心力.由于粒子做匀速直线运动时，粒子\n的电场力与洛伦兹力必须等值反向，所以与完成上述两类运动无关的是粒子的电性和电量，故C 正确，其\n余项错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -148,22 +185,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q07",
       "content": "研究与平行板电容器电容有关因素的实验装置如图所示，下列说法正确的\n是（    ）\n（A）实验前，只用带电玻璃棒与电容器a 板接触，能使电容器带电\n（B）实验中，只将电容器b 板向上平移，静电计指针的张角变小\nP\nQ\nv\na\nb\n（C）实验中，只在极板间插入有机玻璃板，静电计指针的张角变大\n（D）实验中，只增加极板带电量，静电计指针的张角变大，表明电容增大",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "当用带电玻璃棒与电容器𝑎板接触，由于静电感应，从而在𝑏板感应出等量的异种电荷，\n从而使电容器带电，故A 正确；由平行板电容器的决定式：𝐶=\n𝜀𝑆\n4π𝑘𝑑，将电容器𝑏板向上平移，即正对面积\n𝑆减小，则电容C 减小，由𝑈=\n𝑄\n𝐶可知，电量𝑄不变，则电压𝑈增大，则静电计指针的张角变大，故B 错误；\n同理，只在极板间插入有机玻璃板，则介电系数增大，电容𝐶增大，电量不变时，则电压𝑈减小，静电计指\n针的张角减小，故C 错误；电容器的电容与电量无关，故D 错误.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -171,22 +212,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q007-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q007-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q08",
       "content": "根据高中所学知识可知，做自由落体运动的小球，将落在正下方位置。但实际上，赤道上方200 m 处无\n初速下落的小球将落在正下方位置偏东约6 cm 处，这一现象可解释为，除重力外，由于地球自转，下落过\n程小球还受到一个水平向东的“力”，该“力”与竖直方向的速度大小成正比，现将小球从赤道地面竖直上\n抛，考虑对称性，上升过程该“力”水平向西，则小球（    ）\n（A）到最高点时，水平方向的加速度和速度均为零\n（B）到最高点时，水平方向的加速度和速度均不为零\n（C）落地点在抛出点东侧\n（D）落地点在抛出点西侧",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "上升过程水平方向向西加速，在最高点竖直方向上速度为零，水平方向上有向西的水平\n速度，且有竖直向下的加速度，故A 错误；下降过程向西减速，按照对称性，落至地面时水平速度为0，整\n个过程都在向西运动，所以落点在抛出点的西侧，故C 错误D 正确.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -194,22 +243,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q09",
       "content": "（18 分）用图甲所示的实验装置研究小车速度随时间变化\n的规律。\n主要实验步骤如下：\na．安装好实验器材。接通电源后，让拖着纸带的小车沿长木板\n运动，重复几次。\nb．选出一条点迹清晰的纸带，找一个合适的点当作计时起点\nO（t = 0），然后每隔相同的时间间隔T 选取一个计数点，如图\n乙中A、B、C、D、E、F……所示。\nc．通过测量、计算可以得到在打A、B、C、D、E……点时小车的速度，分别记作v1、v2、v3、v4、v5……\nd．以速度v 为纵轴、时间t 为横轴建立直角坐标系，在坐标纸上描点，如图丙所示。\n结合上述实验步骤，请你完成下列任务：\nO\n图 2\nB\nC\nD\nE\nF\nA\nt\nv\n图 3\n0\nT\n2T\n3T\n4T\n5T\nv1\nv2\nv3\nv4\nv5\n纸带\n打点计时器\n图 1\n重物\n小车\n（1）在下列仪器和器材中，还需要使用的有____________和___________(填选项前的字母)。\nA．电压合适的50 Hz 交流电源\nB．电压可调的直流电源\nC．刻度尺\nD．秒表\nE．天平（含砝码）\n（2）在图3 中已标出计数点A、B、D、E 对应的坐标点，请在该图中标出计数点C 对应的坐标点，并画出\nv–t 图像_____________。\n（3）观察v–t 图像，可以判断小车做匀变速直线运动，其依据是___________。v–t 图像斜率的物理意义是\n______________________。\n（4）描绘v–t 图像前，还不知道小车是否做匀变速直线运动。用平均速度 Δx\nΔt 表示各计数点的瞬时速度，\n从理论上讲，对Δt 的要求是______（选填“越小越好”或“与大小无关”）；从实验的角度看，选取的Δx 大\n小与速度测量的误差______（选填“有关”或“无关”）。\n（5）早在16 世纪末，伽利略就猜想落体运动的速度应该是均匀变\n化的。当时只能靠滴水计时，为此他设计了如图丁所示的“斜面实\n验”，反复做了上百次，验证了他的猜想。请你结合匀变速直线运\n动的知识，分析说明如何利用伽利略“斜面实验”检验小球的速度\n是随时间均匀变化的_____________________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(1)A;C;(2)如图所示.\n(3)小车的速度随时间均匀变化；加速度;\n(4)越小越好；有关;\n(5)如果小球的初速度为0，且速度与时间成正比，那么它通过的位移𝑥∝𝑡2.因此，只要测量小球\n通过不同位移所用的时间，分析𝑥∝𝑡2是否成立，就可以检验小球的速度是否随时间均匀变化..",
+      "analysis": "(1)打点计时器需用交流电源，计算速度需要利用刻度尺测量长度，故需要的仪器选AC；\n(2)利用所给点迹描点连线，得到图象，其中𝐶点的横坐标为3𝑇，纵坐标为𝑣3；\n(3)由图可知速度随时间均匀增大，所以小球做匀加速运动，图象的斜率代表了匀加速运动的加速度.\n(4)当Δ𝑡越小时，平均速度\nΔ𝑥\nΔ𝑡越接近各计数点的瞬时速度；由于计算速度需要用到Δ𝑥的测量值，所以Δ𝑥\n大小与速度测量的误差有关.\n(5)如果小球的初速度为0，且速度与时间成正比，那么它通过的位移𝑥∝𝑡2，因此，只要测量小球通过\n不同位移所用的时间，分析𝑥∝𝑡2是否成立，就可以检验小球的速度是否随时间均匀变化.\nt\nv\n0\nT\n2T\n3T\n4T\n5T\nv1\nv2\nv3\nv4\nv5\n2018 年北京高考理综卷物理命题延续了近几年的命题思路和成功经验。如回归学科本质，注重对学科\n思想方法的考查，回归中学教材，注重从教材中提取素材，回归中学课堂，贴近中学教学的实际等。\n在确保稳定的前提下，命题组在深化学科能力考查、丰富试题选材范围、创新试题呈现方式、以及探索\n核心素养的考查方式等方面进行了有益的尝试，以进一步提高命题技术，提升命题质量。\n试题立意宏大，能力考查宽广。\n2018 年高考物理命题继续坚持“走大道、求大气”的命题理念，追求宽广融通的命题思路。在试题立\n意上体现物理学的普遍性和统一性，突出对学科“核心概念”的理解和对学科思想方法的领悟。如第17 题\n以万有引力定律的发现为背景素材，引导考生思考如何检验“使月球绕地球运动的力”与“使苹果落地的力”\n遵循同样的规律，在思考的过程中体会物理学的普适性和统一性。第24 题从点电荷电场线起源于点电荷、\n延伸到无穷远的物理图像，逐步深入，引导考生领会到其中蕴含的“电场强度与对应球面面积之积”是一个\n守恒量。在此基础上，延伸到同一球面单位面积接受的来自天体的电磁波功率与望远镜球面大小有关的思\n想，引导考生理解地球上不同口径的望远镜观测同一天体其接收的功率应该与它的接收面积成正比……试\n题通过巧妙设计，逐步引导考生领悟守恒思想和理解场的概念。\n创新试题呈现形式，丰富素材选取范围。\n联系实际并解决实际问题是考查创新意识和实践能力的体现，2018 年理综卷物理试题在试题素材选择\n上，注重联系实际问题的考查，注重呈现改革开放和中国特色社会主义新时代的伟大成就，反映人类科学思\n想及物理学科的发展历史。如第24 题即以FAST 为背景素材，通过对相关知识的介绍，考查考生通过新情\n境获取信息，思考问题解决问题的能力，提升考生的民族自豪感和自信心。第21（5）问即以伽利略斜面实\n验为背景，引导考生思考伽利略如何利用“斜面实验”检验小球速度是随时间均匀变化的。第20 题以“落\n体偏东”现象为素材，系统深入地考查了考生对质点运动学相关概念和规律的深入理解和对称性思想的考\n查。\n创新实验能力考查，将实验操作与理论思考融合。\n2018 年北京高考理综卷涉及到4 个学生实验的考查，涵盖1 个力学实验，2 个电学实验和1 个光学实\n验，是历年高考试题中实验考查分值占比最高的年份，在能力考查上则呈现如下三个方面的特点。1、加强\n实验操作技能的考查，将亲手做过实验与没有做过实验的考生区分出来。如理综卷第21（1）（2）问以及选\n择题第15 题，均是对考生基本实验操作技能的考查。2、加强对实验原理及实验分析能力的考查，将做过实\n验并深入思考实验的考生与做了实验但不思考的考生区分开来。如理综卷第21（3）问以及第19 题，均是\n对考生实验原理的思考以及实验分析能力的考查。3、加强对实验全过程的整体思考的考查，把基于实验原\n理的实验设计、实验操作、实验数据处理以及实验结果分析的内在逻辑考查出来。如理综卷第21 题以“探\n究小车速度随时间变化的规律”为素材，第（4）问考查考生对打点计时器打点纸带中某点瞬时速度的计算。\n中学往往以一段时间的平均速度计算这段时间中间时刻的瞬时速度，这一方法的前提是小车做匀变速直线\n运动。以实验中需要探究的规律处理实验过程中的数据，这是逻辑错误。理综卷第23 题同样也是考查考生\n对实验整体的理解和深入思考。\n深化能力立意，体现核心素养的考查。\n新修订课标的颁布、核心素养以及学业质量标准的提出，为高考及高中学业水平考试等级性考试提出了\n新的要求。2018 年高考物理命题结合物理学科特点和核心素养的要求，完善考核目标的内涵，探索不同水\n平层级核心素养的考查方式。\n如物理观念的考查，第20 题中，考查的内容刚好全程涉及了从受力到加速度的动力学基本定律，以及\n从加速度到速度、从速度到位移、从位移到位置的质点运动学基本概念的整个分析、思考过程。体现了对运\n动和相互作用观的深入考查，符合学业质量水平的“水平五”中的“能将复杂的实际问题中的对象和过程转\n换成物理模型，能在新的情境中对综合性物理问题进行分析和推理，获得正确结论”的水平表述。\n如科学思维的考查，2018 年理综卷物理试题体现了科学思维的各个要素的考查。如第20、24 题对模型\n建构、科学推理的要求；第23（2）b、第24（1）a 对科学论证的要求；第21（5）对质疑创新的要求等。\n通过2018 年理综卷物理试题的命题实践，物理组努力追求学科能力立意和核心素养导向的统一，在坚\n持能力立意的同时，试题在体现核心素养的考查方面进行了大胆尝试和创新，为下一步等级考的命题工作积\n累了实践经验。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -217,22 +270,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q009-p002-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q009-p003-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q009-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2018/2018北京理综.pdf#q10",
       "content": "（16 分）2022 年将在我国举办第二十四届冬奥会，跳台滑雪是其中最\n具观赏性的项目之一。某滑道示意图如下，长直助滑道AB 与弯曲滑道BC\n平滑衔接，滑道BC 高h = 10 m，C 是半径R = 20 m 圆弧的最低点，质量\nm = 60 kg 的运动员从A 处由静止开始匀加速下滑，加速度a = 4.5 m/s2，\n到达B 点时速度vB = 30 m/s。取重力加速度g = 10 m/s2。\n（1）求长直助滑道AB 的长度L；\n（2）求运动员在AB 段所受合外力的冲量的I 大小；\n（3）若不计BC 段的阻力，画出运动员经过C 点时的受力图，并求其所受支持力FN的大小。\n22. (1)100m;(2)1800N ⋅s;(3)3900N",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1)由匀变速直线运动的速度与位移关系为\n𝑣2 −𝑣0\n2 = 2𝑎𝐿，代入数据可解得𝐿= 100m.\n(2)由动量定理可知合外力的冲量等于动量变化量得\n𝐼合= 𝑚𝑣𝐵，得𝐼合= 1800N · s.\n(3)小球在最低点的受力如图所示，\n由𝐵到𝐶，由动能定理得\n1\n2 𝑚𝑣𝐶\n2 −\n1\n2 𝑚𝑣𝐵\n2 = 𝑚𝑔ℎ，\n在𝐶点，由牛顿第二定律得\n𝐹N −𝑚𝑔=\n𝑚𝑣𝐶\n2\n𝑅，\n联立求得𝐹N = 3900N.\n图 4\nN\nmg\nB\nh\nC\nA",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2018,
       "subject": "物理",
@@ -240,11 +303,95 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2018/2018北京理综.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q010-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q010-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018北京理综.pdf#q11",
+      "content": "（18 分）如图1 所示，用电动势为E、内阻为r 的电源，向滑动变阻器R 供电。改变变阻器R 的阻值，\n路端电压U 与电流I 均随之变化。\n（1）以U 为纵坐标，I 为横坐标，在图2 中画出变阻器阻值R 变化过程中U–I 图像的示意图，并说明U–I\n图像与两坐标轴交点的物理意义。\n（2）a．请在图2 画好的U–I 关系图线上任取一点，画出带网格的图形，以其面积表示此时电源的输出功\n率；\nb．请推导该电源对外电路能够输出的最大电功率及条件。\n（3）请写出电源电动势定义式，并结合能量守恒定律证明：电源电动势在数值上等于内、外电路电势降落\n之和。\n23. (1)𝑈−𝐼图象如图所示.\n图象与纵轴交点的坐标值为电源电动势，与横轴交点的坐标值为短路电流.\n(2)a.如图所示.\nb.由闭合电路欧姆定律得𝐼=\n𝐸\n𝑅+𝑟，\n输出功率 𝑃= 𝐼2𝑅=\n𝐸2\n𝑅+𝑟2\n𝑅+2𝑟，由于𝑅+\n𝑟2\n𝑅≥2𝑟，所以当 R = r 时，输出功率最大，最大为 Pmax = E2\n4r 。\n（3）电动势的定义式 E = W非静电力\nq\n ，由能量守恒定律，非静电力做的功等于内外电路上产生的电热，有\nW = I2rt + I2Rt = Irq + Irq，即𝐼𝐸𝑡= 𝐼2𝑅𝑡+ 𝐼2𝑟𝑡\n得到 E = Ir + IR = U 内 + U 外\nU\nI\nO\n图 1\n图 2\nE\nR\nS\nr",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q011-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q011-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q011-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q011-p004-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2018/2018北京理综.pdf#q12",
+      "content": "（20 分）（1）静电场可以用电场线和等势面形象描述。\na．请根据电场强度的定义和库仑定律推导出点电荷Q 的场强表达式；\nb．点电荷的电场线和等势面分布如图所示，等势面S1、S2 到点电荷的距离\n分别为r1、r2。我们知道，电场线的疏密反映了空间区域电场强度的大小。\n请计算S1、S2 上单位面积通过的电场线条数之比N1/N2。\n（2）观测宇宙中辐射电磁波的天体，距离越远单位面积接收的电磁波功率\n越小，观测越困难。为了收集足够强的来自天体的电磁波，增大望远镜口径\n是提高天文观测能力的一条重要路径。2016 年9 月25 日，世界上最大的单\n口径球面射电望远镜FAST 在我国贵州落成启用，被誉为“中国天眼”。FAST 直径为500 m，有效提高了人\n类观测宇宙的精度和范围。\na．设直径为100 m 的望远镜能够接收到的来自某天体的电磁波功率为P1，计算FAST 能够接收到的来自该\n天体的电磁波功率P2；\nb．在宇宙大尺度上，天体的空间分布是均匀的，仅以辐射功率为P 的同类天体为观测对象，设直径为100\nm 望远镜能够观测到的此类天体数目是N0，计算FAST 能够观测到的此类天体数目N。",
+      "answer": "暂无结构化答案",
+      "analysis": "(1)a.由库仑定律以及电场强度的定义式，推导点电荷的场强公式.\nb.由穿过两等势面单位面积上的电场线条数之比等于电场强度之比，可求得\n𝑁1\n𝑁2 =\n𝐸1\n𝐸2 =\n𝑟22\n𝑟1\n2.\n(2)a.地球上不同望远镜观测同一天体，单位面积上接收的功率相同，所以\n𝑃2 =\n5002\n1002 𝑃1 = 25𝑃1.\nb.在宇宙大尺度上，天体的空间分布是均匀的，因此，一个望远镜能观测的此类天体数目正比于以望远镜为\n球心，以最远观测距离为半径的球体的体积.\n设地面上望远镜能观测到此类天体需收集到的电磁波的总功率的最小值为𝑃0，直径为100m望远镜和FAST能\n观测到的最远距离分别为𝐿0和𝐿，则\n𝑃0 = π (\n500\n2 )\n2\n𝑃\n4π𝐿2 = π (\n100\n2 )\n2\n𝑃\n4π𝐿0\n2，\n可得𝐿= 5𝐿0，则\n𝑁= 𝐿3\n𝐿0\n3 𝑁0 = 125𝑁0\nE\nS1\nS2\n解析",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2018,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2018/2018北京理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q012-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-bffd270d8f904938-q012-p005-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 11,
+    "answerGraphics": 1,
+    "assigned": 10,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
   "name": "2016浙江理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 4,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 1,
+    "reviewCount": 11,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q01",
       "content": "以下说法正确的是（    ）\n（A）在静电场中，沿着电场线方向电势逐渐降低\n（B）外力对物体所做的功越多，对应的功率越大\n（C）电容器电容C 与电容器所带电荷量Q 成正比\n（D）在超重和失重现象中，地球对物体的实际作用力发生了变化",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q02",
       "content": "如图所示，两个不带电的导体A 和B，用一对绝缘柱支持使它们彼此接触。\n把一带正电荷的物体C 置于A 附近，贴在A、B 下部的金属箔都张开，（    ）\n（A）此时A 带正电，B 带负电\n（B）此时A 电势低，B 电势高\n（C）移去C，贴在A、B 下部的金属箔都闭合\n（D）先把A 和B 分开，然后移去C，贴在A、B 下部的金属箔都闭合",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q03",
       "content": "如图所示，a、b 两个闭合正方形线圈用同样的导线制成，匝数均为10\n匝，边长la = 3lb，图示区域内有垂直纸面向里的均强磁场，且磁感应强度随\n时间均匀增大，不考虑线圈之间的相互影响，则（    ）\n（A）两线圈内产生顺时针方向的感应电流\n（B）a、b 线圈中感应电动势之比为9∶1\n（C）a、b 线圈中感应电流之比为3∶4\n（D）a、b 线圈中电功率之比为3∶1",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "B",
+      "analysis": "根据楞次定律可知，两线圈内均产生逆时针方向的感应电流，选项A 错误；因磁感应强度随时间\n均匀增大，则\n，根据法拉第电磁感应定律可知\n，则\n，选项B 正\n确；根据\n，故a、b 线圈中感应电流之比为3:1，选项C 错误；电功\n率\n，故a、b 线圈中电功率之比为27:1，选项D 错误；故选（B）\n【考点定位】法拉第电磁感应定律；楞次定律；闭合电路欧姆定律；电功率。\n【名师点睛】此题是一道常规题，考查法拉第电磁感应定律、以及闭合电路的欧姆定律；要推导某个物理量\n与其他物理量之间的关系，可以先找到这个物理量的表达式，然后看这个物理量和什么因素有关；这里线圈\n的匝数是容易被忽略的量。\nB\nk\nt\n\n=\n\n2\nΔ\nΔ\nΔ\nΔ\nΦ\nB\nE\nn\nn\nl\nt\nt\n=\n=\n2\n3\n9\n( )\n1\n1\na\nb\nE\nE =\n=\n2\n4\n4\n4\nB\nn\nl S\nE\nE\nklS\nt\nI\nl\nnl\nR\nnl\nS\n\n\n\n\n\n\n\n=\n=\n=\n=\n\n\n2 3\n2\n3\n4\n4\nklS\nB\nnk l S\nP\nIE\nn\nl\nl\nt\n\n\n\n=\n=\n\n=\n\n\n\n\n2 / 4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2016,
       "subject": "物理",
@@ -79,11 +106,325 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q04",
+      "content": "如图所示为一种常见的身高体重测量仪。测量仪顶部向下发射波速为 v 的超声波，超声波经反\n射后返回，被测量仪接收，测量仪记录发射和接收的时间间隔。质量为 M0 的测重台置于压力传感\n器上，传感器输出电压与作用在其上的压力成正比。当测重台没有站人时，测量仪记录的时间间隔\n为 t0，输出电压为 U0，某同学站上测重台，测量仪记录的时间间隔为 t，输出电压为 U，则该同学\n身高和质量分别为（    ）\n（A）v（t0 − t），U\nU0 M0\n（B）1\n2 v（t0 − t），U\nU0 M0\n（C）v（t0 − t），U − U0\nU0\n M0\n（D）1\n2 v（t0 − t），U − U0\nU0\n M0",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q05",
+      "content": "如图所示为一滑草场。某条滑道由上下两段高均为h，与水平面倾角分别\n为45°和37°的滑道组成，滑草车与草地之间的动摩擦因数为μ。质量为m 的\n载人滑草车从坡顶由静止开始自由下滑，经过上、下两段滑道后，最后恰好静\n止于滑道的底端（不计滑草车在两段滑道交接处的能量损失，sin37° = 0.6，\ncos37° = 0.8）。则（    ）\n（A）动摩擦因数μ = 6\n7\n（B）载人滑草车最大速度为\n 2gh\n7\n（C）载人滑草车克服摩擦力做功为mgh\n（D）载人滑草车在下段滑道上的加速度大小为3\n5 g",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q06",
+      "content": "如图所示，把A、B 两个相同的导电小球分别用长为0.10 m 的绝缘细线悬挂于OA 和OB\n两点。用丝绸摩擦过的玻璃棒与A 球接触，棒移开后将悬点OB 移到OA 点固定。两球接触后\n分开，平衡时距离为0.12 m。已测得每个小球质量是8.0×10-4kg，带电小球可视为点电荷，\n重力加速度g = 10m/s2，静电力常量k = 9.0×109N·m2/C2，则（    ）\n（A）两球所带电荷量相等\n（B）A 球所受的静电力为1.0×10-2N\n（C）B 球所带的电荷量为4\n6 ×10-8C\n（D）A、B 两球连线中点处的电场强度为0",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q006-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q07",
+      "content": "如图所示为赛车场的一个水平“梨形”赛道，两个弯道分别为半径R = 90 m\n的大圆弧和r = 40 m 的小圆弧，直道与弯道相切。大、小圆弧圆心O、Oʹ距离L\n= 100 m。赛车沿弯道路线行驶时，路面对轮胎的最大径向静摩擦力是赛车重力的\n2.25 倍。假设赛车在直道上做匀变速直线运动，在弯道上做匀速圆周运动，要使赛\n车不打滑，绕赛道一圈时间最短（发动机功率足够大，重力加速度g = 10 m/s2，π\n= 3.14），则赛车（    ）\n（A）在绕过小圆弧弯道后加速\n（B）在大圆弧弯道上的速率为45 m/s\n（C）在直道上的加速度大小为5.63 m/s2\n（D）通过小圆弧弯道的时间为5.85 s\n3 / 4\n非选择题部分（共180 分）\n非选择题部分共12 题，共180 分。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q08",
+      "content": "（10 分）某同学在“探究弹力和弹簧伸长的关系”的实验中，测得图中弹簧OC 的劲度系数为500 N/m。\n如图1 所示，用弹簧OC 和弹簧秤a、b 做“探究求合力的方法”实验。在保持弹簧伸长1.00 cm 不变的条\n件下，\n（1）若弹簧秤a、b 间夹角为90°，弹簧秤a 的读数是______N（图2 中所示），则弹簧秤b 的读数可能为\n_____N。\n（2）若弹簧秤a、b 间夹角大于90°，保持弹簧秤a 与弹簧OC 的夹角不变，减小弹簧秤b 与弹簧OC 的夹\n角，则弹簧秤a 的读数________、弹簧秤b 的读数________（填“变大”、“变小”或“不变”）。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q09",
+      "content": "（10 分）某同学用伏安法测量导体的电阻，现有量程为3 V、内阻约为3 kΩ 的电压表和量程为0.6 A、\n内阻约为0.1 Ω 的电流表。采用分压电路接线，图1 是实物的部分连线图，待测电阻为图2 中的R1，其阻值\n约为5 Ω。\n（1）测R1 阻值的最优连接方式为导线①连接______（填a 或b）、导线②连接______（填c 或d）。\n（2）正确接线测得实验数据如表，用作图法求得R1 的阻值为______Ω。\nU/A\n0.40\n0.80\n1.20\n1.60\n2.00\n2.40\nI/A\n0.09\n0.19\n0.27\n0.35\n0.44\n0.53\n（3）已知图2 中R2 与R1 是材料相同、厚度相等、表面为正方形的两导体，R2 的边长是R1 的1\n10 ，若测R2\n的阻值，则最优的连线应选_____（填选项）。\n（A）①连接a，②连接c\n（B）①连接a，②连接d\n（C）①连接b，②连接c\n（D）①连接b，②连接d\n4 / 4",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q009-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q10",
+      "content": "（16 分）在真空环境内探测微粒在重力场中能量的简化装置如图所示。P 是\n一个微粒源，能持续水平向右发射质量相同、初速度不同的微粒。高度为h 的探\n测屏AB 竖直放置，离P 点的水平距离为L，上端A 与P 点的高度差也为h。\n（1）若微粒打在探测屏AB 的中点，求微粒在空中飞行的时间；\n（2）求能被屏探测到的微粒的初速度范围；\n（3）若打在探测屏A、B 两点的微粒的动能相等，求L 与h 的关系。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q11",
+      "content": "（20 分）小明设计的电磁健身器的简化装置如图所示，两根平行金属导轨\n相距l = 0.50 m，倾角θ = 53°，导轨上端串接一个R = 0.05 Ω 的电阻。在导轨\n间长d = 0.56 m 的区域内，存在方向垂直导轨平面向下的匀强磁场，磁感应强\n度B = 2.0 T。质量m = 4.0 kg 的金属棒CD 水平置于导轨上，用绝缘绳索通过\n定滑轮与拉杆GH 相连。CD 棒的初始位置与磁场区域的下边界相距s = 0.24\nm。一位健身者用恒力F = 80 N 拉动GH 杆，CD 棒由静止开始运动，上升过\n程中CD 棒始终保持与导轨垂直。当CD 棒到达磁场上边界时健身者松手，触\n发恢复装置使CD 棒回到初始位置（重力加速度g = 10 m/s2，sin 53° = 0.8，不\n计其他电阻、摩擦力以及拉杆和绳索的质量）。求：\n（1）CD 棒进入磁场时速度v 的大小；\n（2）CD 棒进入磁场时所受的安培力FA 的大小；\n（3）在拉升CD 棒的过程中，健身者所做的功W 和电阻产生的焦耳热Q。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q011-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q011-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2016/2016浙江理综.pdf#q12",
+      "content": "（22 分）为了进一步提高回旋加速器的能量，科学家建造了“扇形聚焦\n回旋加速器”。在扇形聚焦过程中，离子能以不变的速率在闭合平衡轨道上周\n期性旋转。\n扇形聚焦磁场分布的简化图如图所示，圆心为O 的圆形区域等分成六个扇形\n区域，其中三个为峰区，三个为谷区，峰区和谷区相间分布。峰区内存在方向\n垂直纸面向里的匀强磁场，磁感应强度为B，谷区内没有磁场。质量为m，电\n荷量为q 的正离子，以不变的速率v 旋转，其闭合平衡轨道如图中虚线所示。\n（1）求闭合平衡轨道在峰区内圆弧的半径r，并判断离子旋转的方向是顺时\n针还是逆时针；\n（2）求轨道在一个峰区内圆弧的圆心角θ，及离子绕闭合平衡轨道旋转的周\n期T；\n（3）在谷区也施加垂直纸面向里的匀强磁场，磁感应强度为B'，新的闭合平衡轨道在一个峰区内的圆心角\nθ 变为90°，求B'和B 的关系。已知：sin（α±β） = sinαcosβ±cosαsinβ，cosα = 1－2sin2α\n2",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "待补解析"
+      ],
+      "year": 2016,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2016/2016浙江理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q012-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-b85a02a1af8b7adc-q012-p004-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 10,
+    "answerGraphics": 0,
+    "assigned": 10,
+    "rendered": 11,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

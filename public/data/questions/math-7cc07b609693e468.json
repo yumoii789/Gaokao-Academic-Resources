@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2025/2025天津.pdf",
   "name": "2025天津",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 5,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 20,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 20,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q01",
-      "content": "单选题\n1．已知集合𝑈𝑈= {1,2,3,4,5}, 𝐴𝐴= {1,3}, 𝐵𝐵= {2,3,5}，则∁𝑈𝑈(𝐴𝐴∪𝐵𝐵) =（    ）\nA．{1,2,3,4}\nB．{2,3,4}\nC．{2,4}\nD．{4}",
+      "content": "已知集合𝑈𝑈= {1,2,3,4,5}, 𝐴𝐴= {1,3}, 𝐵𝐵= {2,3,5}，则∁𝑈𝑈(𝐴𝐴∪𝐵𝐵) =（    ）\nA．{1,2,3,4}\nB．{2,3,4}\nC．{2,4}\nD．{4}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q02",
       "content": "设𝑥𝑥∈𝑅𝑅，则“𝑥𝑥= 0”是“sin2𝑥𝑥= 0”的（   ）\nA．充分不必要条件\nB．必要不充分条件\nC．充要条件\nD．既不充分也不必要条件",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q03",
       "content": "已知函数𝑦𝑦= 𝑓𝑓(𝑥𝑥)的图象如下，则𝑓𝑓(𝑥𝑥)的解析式可能为（   ）\nA．𝑓𝑓(𝑥𝑥) =\n𝑥𝑥\n1−|𝑥𝑥|\nB．𝑓𝑓(𝑥𝑥) =\n𝑥𝑥\n|𝑥𝑥|−1\nC．𝑓𝑓(𝑥𝑥) =\n|𝑥𝑥|\n1−𝑥𝑥2\nD．𝑓𝑓(𝑥𝑥) =\n|𝑥𝑥|\n𝑥𝑥2−1",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -79,22 +102,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-7cc07b609693e468-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-7cc07b609693e468-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q04",
       "content": "若m,n 为直线，𝛼𝛼, 𝛽𝛽为两个平面，则下列结论中正确的是（   ）\nA．若𝑚𝑚//𝛼𝛼, 𝑛𝑛⊂𝛼𝛼，则𝑚𝑚//𝑛𝑛\nB．若𝑚𝑚⊥𝛼𝛼, 𝑚𝑚⊥𝛽𝛽，则𝛼𝛼⊥𝛽𝛽\nC．若𝑚𝑚//𝛼𝛼, 𝑚𝑚⊥𝛽𝛽，则𝛼𝛼⊥𝛽𝛽\nD．若𝑚𝑚⊂𝛼𝛼, 𝛼𝛼⊥𝛽𝛽，则𝑚𝑚⊥𝛽𝛽",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -102,22 +135,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q05",
       "content": "下列说法中错误的是（   ）\nA．若𝑋𝑋∼𝑁𝑁(𝜇𝜇, 𝜎𝜎2)，则𝑃𝑃(𝑋𝑋≤𝜇𝜇−𝜎𝜎) = 𝑃𝑃(𝑋𝑋≥𝜇𝜇+ 𝜎𝜎)\nB．若𝑋𝑋∼𝑁𝑁(1, 22)，𝑌𝑌∼𝑁𝑁(2, 22)，则𝑃𝑃(𝑋𝑋< 1) < 𝑃𝑃(𝑌𝑌< 2)\nC．|𝑟𝑟|越接近1，相关性越强\nD．|𝑟𝑟|越接近0，相关性越弱",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q06",
       "content": "数列{𝑎𝑎𝑛𝑛}的前n 项和𝑆𝑆𝑛𝑛= −𝑛𝑛2 + 8𝑛𝑛，则数列{|𝑎𝑎𝑛𝑛|}的前12项和为（   ）\nA．112\nB．48\nC．80\nD．64",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q07",
       "content": "函数𝑓𝑓(𝑥𝑥) = 0.3𝑥𝑥−\n√\n𝑥𝑥的零点所在区间是（   ）\nA．(0,0.3)\nB．(0.3,0.5)\nC．(0.5,1)\nD．(1,2)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q08",
       "content": "𝑓𝑓(𝑥𝑥) = sin(𝜔𝜔𝜔𝜔+ 𝜑𝜑)(𝜔𝜔> 0, −π < 𝜑𝜑< π)，在[−5π\n12 , π\n12]上单调递增，且𝑥𝑥= π\n12为它的一条对称轴，�π\n3 , 0�是它的一\n个对称中心，当𝑥𝑥∈[0, π\n2]时，𝑓𝑓(𝑥𝑥)的最小值为（   ）\nA．−\n√\n3\n2\nB．−1\n2\nC．1\nD．0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -194,22 +251,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q09",
       "content": "双曲线𝑥𝑥2\n𝑎𝑎2 −𝑦𝑦2\n𝑏𝑏2 = 1(𝑎𝑎> 0, 𝑏𝑏> 0)的左、右焦点分别为𝐹𝐹1, 𝐹𝐹2，以右焦点𝐹𝐹2为焦点的抛物线𝑦𝑦2 = 2𝑝𝑝𝑝𝑝(𝑝𝑝> 0)与双曲\n线交于第一象限的点P，若|𝑃𝑃𝐹𝐹1| + |𝑃𝑃𝐹𝐹2| = 3|𝐹𝐹1𝐹𝐹2|，则双曲线的离心率𝑒𝑒=（   ）\nA．2\nB．5\nC．\n√\n2+1\n2\nD．\n√\n5+1\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -217,22 +280,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q10",
       "content": "已知i 是虚数单位，则|3+i\ni |= ________．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -240,22 +309,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q11",
       "content": "在(𝑥𝑥−1)6的展开式中，𝑥𝑥3项的系数为________．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -263,22 +338,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q12",
       "content": "𝑙𝑙1: 𝑥𝑥−𝑦𝑦+ 6 = 0，与x 轴交于点A，与y 轴交于点B，与(𝑥𝑥+ 1)2 + (𝑦𝑦−3)2 = 𝑟𝑟2(𝑟𝑟> 0)交于C、D 两点，|𝐴𝐴𝐴𝐴| =\n3|𝐶𝐶𝐶𝐶|，则𝑟𝑟=_________．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -286,22 +367,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q13",
       "content": "小桐操场跑圈，一周2 次，一次5 圈或6 圈.第一次跑5 圈或6 圈的概率均为0．5，若第一次跑5 圈，则第二\n次跑5 圈的概率为0．4，6 圈的概率为0．6；若第一次跑6 圈，则第二次跑5 圈的概率为0．6，6 圈的概率为0．4．小\n桐一周跑11 圈的概率为________；若一周至少跑11 圈为运动量达标，则连续跑4 周，记合格周数为X，则期望\n𝐸𝐸(𝑋𝑋) =_______",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -309,22 +396,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q14",
       "content": "△𝐴𝐴𝐴𝐴𝐴𝐴中，D为AB边中点，𝐶𝐶𝐶𝐶\n������������= 1\n3 𝐶𝐶𝐶𝐶\n������������, 𝐴𝐴𝐴𝐴\n������������= 𝑎𝑎⃗, 𝐴𝐴𝐴𝐴\n������������= 𝑏𝑏⃗，则𝐴𝐴𝐴𝐴\n������������=______（用𝑎𝑎⃗，𝑏𝑏⃗表示），若|𝐴𝐴𝐴𝐴\n������������| = 5，𝐴𝐴𝐴𝐴⊥𝐶𝐶𝐶𝐶，\n则𝐴𝐴𝐴𝐴\n������������⋅𝐶𝐶𝐶𝐶\n������������=_______",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -332,22 +425,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q15",
       "content": "若𝑎𝑎, 𝑏𝑏∈R，对∀𝑥𝑥∈[−2,2]，均有(2𝑎𝑎+ 𝑏𝑏)𝑥𝑥2 + 𝑏𝑏𝑏𝑏−𝑎𝑎−1 ≤0恒成立，则2𝑎𝑎+ 𝑏𝑏的最小值为_______",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -355,22 +454,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q16",
       "content": "在△𝐴𝐴𝐴𝐴𝐴𝐴中，角𝐴𝐴, 𝐵𝐵, 𝐶𝐶的对边分别为𝑎𝑎, 𝑏𝑏, 𝑐𝑐．已知𝑎𝑎sin𝐵𝐵=\n√\n3𝑏𝑏cos𝐴𝐴，𝑐𝑐−2𝑏𝑏= 1，𝑎𝑎=\n√\n7．\n(1)求A 的值；\n(2)求c 的值；\n(3)求sin(𝐴𝐴+ 2𝐵𝐵)的值．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -378,22 +483,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q17",
       "content": "正方体𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴−𝐴𝐴1𝐵𝐵1𝐶𝐶1𝐷𝐷1的棱长为4，𝐸𝐸、𝐹𝐹分别为𝐴𝐴1𝐷𝐷1, 𝐶𝐶1𝐵𝐵1中点，𝐶𝐶𝐶𝐶= 3𝐺𝐺𝐶𝐶1．\n(1)求证：𝐺𝐺𝐺𝐺⊥平面𝐹𝐹𝐹𝐹𝐹𝐹；\n(2)求平面𝐹𝐹𝐹𝐹𝐹𝐹与平面𝐸𝐸𝐸𝐸𝐸𝐸夹角的余弦值；\n(3)求三棱锥𝐷𝐷−𝐹𝐹𝐹𝐹𝐹𝐹的体积．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -401,22 +512,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-7cc07b609693e468-q017-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-7cc07b609693e468-q017-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q18",
       "content": "已知椭圆𝑥𝑥2\n𝑎𝑎2 + 𝑦𝑦2\n𝑏𝑏2 = 1(𝑎𝑎> 𝑏𝑏> 0)的左焦点为F，右顶点为A，P 为𝑥𝑥= 𝑎𝑎上一点，且直线𝑃𝑃𝑃𝑃的斜率为1\n3，△𝑃𝑃𝑃𝑃𝑃𝑃的\n面积为3\n2，离心率为1\n2.\n(1)求椭圆的方程；\n(2)过点P 的直线与椭圆有唯一交点B（异于点A），求证：PF 平分∠𝐴𝐴𝐴𝐴𝐴𝐴.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -424,22 +545,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q19",
       "content": "已知数列{𝑎𝑎𝑛𝑛}是等差数列，{𝑏𝑏𝑛𝑛}是等比数列，𝑎𝑎1 = 𝑏𝑏1 = 2, 𝑎𝑎2 = 𝑏𝑏2 + 1, 𝑎𝑎3 = 𝑏𝑏3．\n(1)求{𝑎𝑎𝑛𝑛}，{𝑏𝑏𝑛𝑛}的通项公式；\n(2)∀𝑛𝑛∈N∗，𝐼𝐼= {0,1}，有𝑇𝑇𝑛𝑛= {𝑝𝑝1𝑎𝑎1𝑏𝑏1 + 𝑝𝑝2𝑎𝑎2𝑏𝑏2+. . . +𝑝𝑝𝑛𝑛−1𝑎𝑎𝑛𝑛−1𝑏𝑏𝑛𝑛−1 + 𝑝𝑝𝑛𝑛𝑎𝑎𝑛𝑛𝑏𝑏𝑛𝑛|𝑝𝑝1, 𝑝𝑝2, . . . , 𝑝𝑝𝑛𝑛−1, 𝑝𝑝𝑛𝑛∈𝐼𝐼}，\n（i）求证：对任意实数𝑡𝑡∈𝑇𝑇𝑛𝑛，均有𝑡𝑡< 𝑎𝑎𝑛𝑛+1𝑏𝑏𝑛𝑛+1;\n（ii）求𝑇𝑇𝑛𝑛所有元素之和．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -447,22 +574,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2025/2025天津.pdf#q20",
       "content": "已知函数𝑓𝑓(𝑥𝑥) = 𝑎𝑎𝑎𝑎−(ln𝑥𝑥)2\n(1)𝑎𝑎= 1时，求𝑓𝑓(𝑥𝑥)在点(1, 𝑓𝑓(1))处的切线方程；\n(2)𝑓𝑓(𝑥𝑥)有3 个零点，𝑥𝑥1, 𝑥𝑥2, 𝑥𝑥3且(𝑥𝑥1 < 𝑥𝑥2 < 𝑥𝑥3).\n（i）求a 的取值范围；\n（ii）证明(ln𝑥𝑥2 −ln𝑥𝑥1) ⋅ln𝑥𝑥3 < 4e\ne−1．",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2025,
       "subject": "数学",
@@ -470,11 +603,25 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2025/2025天津.pdf",
         "page": 5,
+        "endPage": 5,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 2,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

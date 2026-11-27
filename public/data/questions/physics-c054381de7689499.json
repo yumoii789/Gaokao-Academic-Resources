@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/1990/1990广东.pdf",
   "name": "1990广东",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 0,
   "ocrPages": 12,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 38,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 38,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q01",
-      "content": "图 1-1 为 同 一 实 验 室 中 的 两 个 单 摆 的 振 动 图 象 , N :\n从 图 象 可 以 知 道 它 们 的 1 0\nA. 摄 球 质 量 相 等 H J to |\nB. 振 幅 相 等 7 NC\nCc. 摸 长 相 等 FRR\nD. 摄 球 同 时 改 变 速 度 方 向 国 -",
+      "content": "图 1-1 为 同 一 实 验 室 中 的 两 个 单 摆 的 振 动 图 象 ,\n从 图 象 可 以 知 道 它 们 的\nA 摆 球 质 量 相 等\nB. 振 幂 相 等\nC. 摄 长 相 等\nD, 摄 球 同 时 改 变 速 度 方 向",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -33,22 +44,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q001-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q02",
-      "content": "用 理 想 变 压 器 把 6600 伏 的 交 流 电 变 为 220 伏 的 交 流 电 , 变 压 器 原 线 国 匝 数 与 帽 线 国 匠 数 之 比\nnn EHF\nA. 1:30 B. 30:1 C.900:1 D. 14900",
+      "content": "用 理 想 变 压 器 把 6600 伏 的 交 流 电 变 为 220 伏 的 :\nu 应 等 于\nA. 1:30 B. 30:1 C.900:1 D.1:9",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -56,22 +78,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q03",
-      "content": "用 一 台 简 易 收 音 机 选 择 出 某 一 电 台 发 出 的 电 磁 波 , 并 通 过 耳 机 昕 到 该 电 台 的 播 音 ; 必 顾 经 过\n的 两 个 过 程 是\nA. 调 谐 和 调 幅 B 调 幅 和 检 波 2 : 1\nC. 调 谐 和 检 波 D. 检 波 和 调 制 执 下 一 3\n4 一 定 质 量 的 理 想 气 体 从 初 状 态 0 出 发 , 分 别 经 历 如 图 PR Eg 5\n1-2 所 示 的 四 种 不 咖 过 程 , 其 中 气 体 伽 积 增 大 并 对 外 | “ 一 “\n做 务 的 过 程 是 0\n0 一 人 B.0 一 B C.0O-+C D. 0 一 D 图 1-2\n5. 已 知 图 1-3 所 示 的 情 况 中 物 体 4 都 受 有 静 摩 擦 力 作 用 , 其 中 物 体 4 所 受 静 摩 擦 力 的 方 向 与\n103\n它 对 地 的 速 度 方 向 相 反 的 是 郝 一 种 ?\nFR P 。 勿 迹\ney C 团 ) boat\nEr SP ee\n5 A B C 口\n图 1 一 3\n6. 现 代 光 学 装 置 中 的 透 镜 . 棱 镜 的 表 面 常 涂 上 一 层 薛 腹 ( 一 舱 用 氟 化 镁 ) 当 蕹 膜 的 厚 度 是 入 射\n光 在 薄 膜 中 波 长 的 1/4 时 , 可 以 大 大 况 少 入 射 光 的 反 射 损 失 , 从 而 增 强 透 射 光 的 强 度 , 这 种 作\n用 是 应 用 了 光 的\n: A. 色 散 现 象 B. 全 反 射 现 象 C. 干 涉 现 象 D. MAHAR\n7. 如 图 1-4 所 示 , 两 个 长 方 体 4 和 5 始 终 豪 在 at ft\n一 起 , 在 光 滑 的 水 平 桌 面 上 涂 同 一 直 线 运 动 。 ge HE fl\n下 列 郜 一 种 判 断 是 错 误 的 ( 不 计 空 气 阻 力 ?\nA. 4、B 以 同 一 速 度 作 匀 速 运 动 时 ,4,8 间 一 定 不 存 在 压 力 Bis\n“ BAB 以 同 一 速 度 作 匀 速 运 动 时 ,4、8 间 存 在 压 力\nC. 4B 以 同 一 加 速 度 作 匀 加 速 运 动 时 , 它 们 的 加 速 度 与 合 外 力 成 正 比\nD: 4、8 以 同 一 加 速 度 作 匀 加 速 运 动 时 ,8 的 加 速 度 与 4 对 5 的 压 力 奶 正 比\n8 一 带 电 粒 子 射 入 菜 个 固 定 不 动 的 孤 立 点 电 荷 60 为 正 ) 的 电 场 中 , 一\n粒 子 运 动 转 迹 如 图 1-5 中 虚线 abo 所 示 . 图 中 实 线 是 间 心 团 弧 , 代 沥\n表 电 来 的 儿 个 等 势 面 , 不 计 重 力 , 下 列 判 断 中 郡 一 个 是 错误 的 ? 此\nA 此 粒 子 一 定 带 正 电 ©\nB 粒 子 在 》 点 的 电 势 能 一 定 大 于 在 。 点 的 电 势 能 阮\nC 粒 子 在 。 点 的 速 度 小 于 在 a 点 的 速 度 fa\nD. 粒 子 在 5 点 的 加 途 度 一 定 大 于 在 。 点 的 加 速 度 . Bis\n9 关 于 日 光 灯 线 路 有 如 下 说 法 , 其 中 郧 一 个 是 错误 的 ?\n^ 镇 流 器 的 主 要 功 用 是 降 压 限 流 和 产 生 隆 时 高 厌\nB. 由 于 起 动 器 中 氖 气 放 电 . 生 热 , 使 两 舷 片 接 触 , 仑 而 使 灯 管 灯 丝 中 有 电 流 通 过\nC 灯 管 中 水 银 熙 汽 放 电 一 般 是 在 起 动 器 中 氧 气 放 电 之 后 发 生\nD: 起 动 器 的 触 片 接 蚊 时 , 氖 气 放 电 ; 新 开 后 , 灯 等 的 水 银 熙 汽 放 电\n10 一 个 质 量 为 2. 0 千 克 的 滑 块 , 以 4 米 / 秒 的 速 度 在 光 潺 的 水 平 面 上 向 左 滑 行 . 从 棣 一 时 刻 起 ,\n在 滑 块 上 作 用 一 个 向 右 的 水 平 力 , 经 过 一 段 时 间 , 滑 块 的 速 度 变 为 向 右 , 大 小 为 4 米 / 秒 . 在\n这 段 时 间 里 水 平 力 做 的 功 是\nA. 16 焦 耳 B. 零 C. 32 焦 耳 D. 8 焦 耳\n11 从 下 列 给 出 的 郾 一 组 数 据 可 以 算 出 阿 伏 伽 德 罗 常 数 ?\nA 水 分 子 的 质 量 和 水 的 摩 尔 质 量 B 水 的 摩 尔 质 量 和 水 分 子 的 大 小\n. 水 的 密 度 和 水 分 子 的 质 量 D: 水 分 子 的 大 小 和 水 的 摩 尔 质 量",
+      "content": "用 一 台 简 易 收 音 机 选 择 出 某 一 电 台 发 出 的 电 碑\n的 两 个 过 程 是\nA 调 谐 和 调 幅 B 调 幅 和 检 波\nC. 调 谐 和 检 波 D. 检 波 和 调 制",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -79,22 +112,93 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 1,
-        "questionNumber": 8,
+        "endPage": 1,
+        "questionNumber": 3,
         "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q04",
-      "content": "电 容 器 C,C: 和 可 变 电 阻 器 R,,R:, 电 源 * 连 接 如 图 1-6。 |\n, 当 变 阻 器 R, 的 滑 动 触 头 在 图 示 位 置 时 ,Ci.0: 的 电 量 相\n104\n| 等 . 欲 使 C 的 电 量 大 于 C 的 电 量 , 应 Ci C\nA, 增 大 Ra B 减少 R:\nC 将 R, 的 滑 动 触 头 向 4 端 秸 动\nD 将 , 的 滑 动 触 头 向 端 移 动 2 Z",
+      "content": "一 定 质 量 的 理 想 气 体 从 初 状 态 0 出 发 , 分 别 经\n1-2 所 示 的 四 种 不 同 过 程 , 其 中 气 体 体 积 增 大\n做 功 的 过 程 是\nA.0O 一 4 B.0 一 5 c.o+¢ D.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 4,
+        "extraction": "ocr",
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      }
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q05",
+      "content": "已 知 图 1-3 所 示 的 情 况 中 物 体 4 都 受 有 静 摩 源\n4 32 IX AL\nE\nTIE CRN\noo]\n1 1\nPE 1\n0 ) |\n丨 S 水\nh bribes\n图 i-\nz 流 电 , 变 压 器 原 线 国 匠 数 与 幅 线 国 匠 数 之 比\n00\n波 , 并 通 过 耳 机 吻 到 该 电 台 的 播 音 ; 必 须 经 过\nP\nB Bi a 8\n万 如 图 公\n# 对 外 爱 盛 认 壁 所 不 信 说\n0\n0 一 D 图 1-2\n力 作 用 , 其 中 物 体 4 所 受 静 摩 擦 力 的 方 向 与\n103 |\n它 对 地 的 速 度 方 向 相 反 的 是 郝 一 种 ?\nFR P 。 勿 迹\ney C 团 ) boat\nEr SP ee\n5 A B C 口\n图 1 一 3",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 5,
+        "extraction": "ocr",
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q005-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q005-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q06",
+      "content": "现 代 光 学 装 置 中 的 透 镜 . 棱 镜 的 表 面 常 涂 上 一 层 薛 腹 ( 一 舱 用 氟 化 镁 ) 当 蕹 膜 的 厚 度 是 入 射\n光 在 薄 膜 中 波 长 的 1/4 时 , 可 以 大 大 况 少 入 射 光 的 反 射 损 失 , 从 而 增 强 透 射 光 的 强 度 , 这 种 作\n用 是 应 用 了 光 的\n: A. 色 散 现 象 B. 全 反 射 现 象 C. 干 涉 现 象 D. MAHAR",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -102,229 +206,357 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 2,
-        "questionNumber": 12,
+        "endPage": 2,
+        "questionNumber": 6,
         "extraction": "ocr",
         "confidence": 87,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q05",
-      "content": "一 带 电 粒 子 , 沿 垂 直 于 磁 场 的 方 向 射 入 一 匀 强 磁 场 区 Ry\n域 , 粒 子 的 一 段 径 迹 如 图 1 一 7 所 示 , 径 迹 上 的 每 一 小 殴\n都 可 R 5\n以 近 似 看 成 圆 孟 . 由 于 带 电 粒 子 使 泡 途 的 空 气 电 离 , 粒 子 图 1-6\n的 能 量 递 深 减 小 ( 带 电 量 不 变 ). 从 图 中 粒 子 的 径 迷 可 以 确 定\nA 敢 子 从 5 到 a, 带 正 电 B: 粒 子 从 a 到 5, 带 正 电\nC 粒 子 从 a 到 5, 带 负 电 ““_D: 粒 子 从 8 到 a, 带 负 电\nXL RR P\nX a X\nX x x x Iy -\nB 1 a\n吴 X 仁 心\nE\nX 5k AXA REIN\n1 X 22 X X R: e |\nx X X X\n图 1~7 图 1-8 3",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q006-p002-f01.jpg"
       ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 3,
-        "questionNumber": 13,
-        "extraction": "ocr",
-        "confidence": 80,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q06",
-      "content": "在 图 1-8 所 示 的 三 极 管 电 路 中 , 各 电 流 值 或 电 流 改 变 P\n量 的 正 确 关 系 是\n人 . 心 十 厂 E\nC Al 宇 QA D. AI>AL",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 3,
-        "questionNumber": 14,
-        "extraction": "ocr",
-        "confidence": 80,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q006-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q07",
-      "content": "一 个 戴 着 近 视 眼 锷 ( 不 是 隐 形 眼 镜 ] 的 人 , 从 空 气 中 潜 5\n入 水 中 sw 一 n#7 , 则 他 的 眼 镜 Q C\nA 焦 践 变 长 丁 B. 焦 旺 变 短 丁\nC. 焦 距 未 变 D. 变 成 会 根 透 镜 固 1-9\nfie | \\ : \\ : \\\nBiase .0 90 5 0 命 一 0 节 a\ni 4 【 1\n图 1-10",
+      "content": "如 图 1-4 所 示 , 两 个 长 方 体 4 和 5 始 终 豪 在 at ft\n一 起 , 在 光 滑 的 水 平 桌 面 上 涂 同 一 直 线 运 动 。 ge HE fl\n下 列 郜 一 种 判 断 是 错 误 的 ( 不 计 空 气 阻 力 ?\nA. 4、B 以 同 一 速 度 作 匀 速 运 动 时 ,4,8 间 一 定 不 存 在 压 力 Bis\n“ BAB 以 同 一 速 度 作 匀 速 运 动 时 ,4、8 间 存 在 压 力\nC. 4B 以 同 一 加 速 度 作 匀 加 速 运 动 时 , 它 们 的 加 速 度 与 合 外 力 成 正 比\nD: 4、8 以 同 一 加 速 度 作 匀 加 速 运 动 时 ,8 的 加 速 度 与 4 对 5 的 压 力 奶 正 比",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 3,
-        "questionNumber": 15,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 7,
         "extraction": "ocr",
-        "confidence": 80,
-        "needsReview": true
-      }
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q08",
-      "content": "均 匀 的 直 角 三 角 形 木 板 4 8 C, 可 绕 垂 直 纸 面 . 通 过 0 的 水 平 轴 转 动 . 现 用 一 始 终 沿 48 边 、\n5 105\n的 方 使 BC 边 缓 慢 地 由 水 平 位 置 转 至 坂 直 位 置 , 则 在 此 过 程 中 , 力 P 的 大 小 随 转 角 变\n化 的 图 象 是",
+      "content": "一 带 电 粒 子 射 入 菜 个 固 定 不 动 的 孤 立 点 电 荷 60 为 正 ) 的 电 场 中 , 一\n粒 子 运 动 转 迹 如 图 1-5 中 虚线 abo 所 示 . 图 中 实 线 是 间 心 团 弧 , 代 沥\n表 电 来 的 儿 个 等 势 面 , 不 计 重 力 , 下 列 判 断 中 郡 一 个 是 错误 的 ? 此\nA 此 粒 子 一 定 带 正 电 ©\nB 粒 子 在 》 点 的 电 势 能 一 定 大 于 在 。 点 的 电 势 能 阮\nC 粒 子 在 。 点 的 速 度 小 于 在 a 点 的 速 度 fa\nD. 粒 子 在 5 点 的 加 途 度 一 定 大 于 在 。 点 的 加 速 度 . Bis",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 3,
-        "questionNumber": 16,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 8,
         "extraction": "ocr",
-        "confidence": 80,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q09",
-      "content": "如 图 1-11 所 示 , 使 光 滑 斜 面 的 倾 角 0 从 30“ 逐 渐 增 加 到 60“, 那 么 在 斜 面 上 的 小 溥 块 ( 每 一 次\n出 发 点 都 在 同 一 坂 直 线 上 ) 由 静 止 下 滑 至 斜 面 底 部 同 一 点 0 所 需 要 的 时 间 ; 将 随 6 角 的 增 |\n颅 面 1 “ 门 一 “ ARE — ARR Ew l\nA. 增 加 “B. 减 小 C. 先 增 大 后 减 小 “ _D: 先 况 小 后 增 大\nE | |\n- i\n/ v\nal b\n/ | r 一\nok |\noa 4 |\n/ I {2 xed\n“ gues 1 浩\nA\n图 1-il 图 1-12",
+      "content": "关 于 日 光 灯 线 路 有 如 下 说 法 , 其 中 郧 一 个 是 错误 的 ?\n^ 镇 流 器 的 主 要 功 用 是 降 压 限 流 和 产 生 隆 时 高 厌\nB. 由 于 起 动 器 中 氖 气 放 电 . 生 热 , 使 两 舷 片 接 触 , 仑 而 使 灯 管 灯 丝 中 有 电 流 通 过\nC 灯 管 中 水 银 熙 汽 放 电 一 般 是 在 起 动 器 中 氧 气 放 电 之 后 发 生\nD: 起 动 器 的 触 片 接 蚊 时 , 氖 气 放 电 ; 新 开 后 , 灯 等 的 水 银 熙 汽 放 电",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 4,
-        "questionNumber": 17,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 9,
         "extraction": "ocr",
-        "confidence": 81,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q10",
-      "content": "在 光 溥 的 火 平 面 上 , 有 a.5 两 物 体 质 量 分 别 为 m 和 m,, 在 . 时 刻 发 生 正 碟 , 碰 撞 过 程 中 无\n能 量 损 失 . 两 物 体 碰 撞 前 后 的 速 度 图 象 如 图 1-12 所 示 , 下 列 郧 个 关 系 是 正 确 的 ?\n入 力 m 8 河 巩 320 沥 李 D. A.B 两 选 项 都 可 能",
+      "content": "一 个 质 量 为 2. 0 千 克 的 滑 块 , 以 4 米 / 秒 的 速 度 在 光 潺 的 水 平 面 上 向 左 滑 行 . 从 棣 一 时 刻 起 ,\n在 滑 块 上 作 用 一 个 向 右 的 水 平 力 , 经 过 一 段 时 间 , 滑 块 的 速 度 变 为 向 右 , 大 小 为 4 米 / 秒 . 在\n这 段 时 间 里 水 平 力 做 的 功 是\nA. 16 焦 耳 B. 零 C. 32 焦 耳 D. 8 焦 耳",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 4,
-        "questionNumber": 18,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 10,
         "extraction": "ocr",
-        "confidence": 81,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q11",
-      "content": "图 1-13 中 PW@ 是 一 个 固 定 的 光 溥 轨 道 , 其 中 P 是\n直 缕 鄯 分 , VG 为 半 国 驹 PH 5 No WEN 炳 相 [ 5 <7\n切 ,P 、@ 两 点 处 于 同 一 水 平 高 度 . 现 有 一 小 滑 块 自 P 4 芬\n点 从 静 止 开 始 浙 轨 道 下 滑 那 久 7\nA 滑 块 不 能 达 到 点 We 仁\nB . 滑 块 到 达 0 点 后 , 将 自 由 下 落 国 1-18\n. 滑 块 以 达 @ 点 后 , 又 滁 软 道 返 回\nD. 溥 块 到 达 0 点 后 , 将 滁 国 孟 的 切 线 方 向 飞 出",
+      "content": "从 下 列 给 出 的 郾 一 组 数 据 可 以 算 出 阿 伏 伽 德 罗 常 数 ?\nA 水 分 子 的 质 量 和 水 的 摩 尔 质 量 B 水 的 摩 尔 质 量 和 水 分 子 的 大 小\n. 水 的 密 度 和 水 分 子 的 质 量 D: 水 分 子 的 大 小 和 水 的 摩 尔 质 量",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 4,
-        "questionNumber": 19,
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 11,
         "extraction": "ocr",
-        "confidence": 81,
-        "needsReview": true
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q12",
-      "content": "如 图 1-14 所 示 , 小 潜 块 沿 光 潜 曲 面 自 高 度 为 ) 处 , 由 静 止 开 始 下 滑 , 经 过 摩 擦 系 数 恒 定 的 水 一\n平 面 AB 后 再 溶 上 另 一 光 溶 曲 面 ,0 AB 的 中 点 :\n如 果 滑 坡 经 过 4 ,C 两 点 的 速 率 之 比 为 43, 则 滑 坡 IC : ball\n滑 上 另 一 曲 面 的 最 大 高 度 / 为 7H gran\nAt BL c 专 . 34 图 1-14",
+      "content": "电 容 器 C,C: 和 可 变 电 阻 器 R,,R:, 电 源 * 连 接 如 图 1-6。 |\n, 当 变 阻 器 R, 的 滑 动 触 头 在 图 示 位 置 时 ,Ci.0: 的 电 量 相\n104\n| 等 . 欲 使 C 的 电 量 大 于 C 的 电 量 , 应 Ci C\nA, 增 大 Ra B 减少 R:\nC 将 R, 的 滑 动 触 头 向 4 端 秸 动\nD 将 , 的 滑 动 触 头 向 端 移 动 2 Z",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 4,
-        "questionNumber": 20,
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 12,
         "extraction": "ocr",
-        "confidence": 81,
-        "needsReview": true
-      }
+        "confidence": 87,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q012-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q012-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q13",
-      "content": "以 水 平 速 度 ,( 米 / 秒 ) 飞 行 的 子 弹 打 进 木 板 , 假 设 它 的 动 能 全 部 变 奶 热 , 并 有 20% 的 热 量 被\n子 弹 吸 收 , 则 子 弹 温 度 升 高 的 摄氏 度 数 4 为 [ 子 弹 的 比 热 为 C ( 焦 耳 / 十 克 “ 度 ),7 是 热 功\n当 量 ]\nv? v? mv? 许\nT607 “ 印 105 C.16X0100067 D 石",
+      "content": "一 带 电 粒 子 , 沿 垂 直 于 磁 场 的 方 向 射 入 一 匀 强 磁 场 区 Ry\n域 , 粒 子 的 一 段 径 迹 如 图 1 一 7 所 示 , 径 迹 上 的 每 一 小 殴\n都 可 R 5\n以 近 似 看 成 圆 孟 . 由 于 带 电 粒 子 使 泡 途 的 空 气 电 离 , 粒 子 图 1-6\n的 能 量 递 深 减 小 ( 带 电 量 不 变 ). 从 图 中 粒 子 的 径 迷 可 以 确 定\nA 敢 子 从 5 到 a, 带 正 电 B: 粒 子 从 a 到 5, 带 正 电\nC 粒 子 从 a 到 5, 带 负 电 ““_D: 粒 子 从 8 到 a, 带 负 电\nXL RR P\nX a X\nX x x x Iy -\nB 1 a\n吴 X 仁 心\nE\nX 5k AXA REIN\n1 X 22 X X R: e |\nx X X X\n图 1~7 图 1-8 3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 4,
-        "questionNumber": 21,
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 13,
         "extraction": "ocr",
-        "confidence": 81,
-        "needsReview": true
-      }
+        "confidence": 80,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q013-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q013-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q14",
-      "content": "如 图 1-15 所 示 ,7 是 变 压 器 , 金 属 棒 。 可 1\n在 两 条 平 行 的 金 属 导 轨 上 滑 行 , 匀 强 磁 场\n106\n| 5 的 方 向 垂 直 纸 面 向 里 ,01、0: 是 理 想 的 s\n5 二 极 管 , 若 电 流 计 @ 中 有 电 流 通 过 , 则 可 D 林\nx Jl FC\nAcad SMES [Reedy\nB.a 5 森 向 右 匀 加 速 运 动\nC.a b 棍 呐 左 匀 加 速 运 动 图 1-15\nD.a 5 棍 向 左 匀 况 速 运 助",
+      "content": "在 图 1-8 所 示 的 三 极 管 电 路 中 , 各 电 流 值 或 电 流 改 变 P\n量 的 正 确 关 系 是\n人 . 心 十 厂 E\nC Al 宇 QA D. AI>AL",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 14,
+        "extraction": "ocr",
+        "confidence": 80,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q014-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q014-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q15",
+      "content": "一 个 戴 着 近 视 眼 锷 ( 不 是 隐 形 眼 镜 ] 的 人 , 从 空 气 中 潜 5\n入 水 中 sw 一 n#7 , 则 他 的 眼 镜 Q C\nA 焦 践 变 长 丁 B. 焦 旺 变 短 丁\nC. 焦 距 未 变 D. 变 成 会 根 透 镜 固 1-9\nfie | \\ : \\ : \\\nBiase .0 90 5 0 命 一 0 节 a\ni 4 【 1\n图 1-10",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 15,
+        "extraction": "ocr",
+        "confidence": 80,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q015-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q015-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q16",
+      "content": "均 匀 的 直 角 三 角 形 木 板 4 8 C, 可 绕 垂 直 纸 面 . 通 过 0 的 水 平 轴 转 动 . 现 用 一 始 终 沿 48 边 、\n5 105\n的 方 使 BC 边 缓 慢 地 由 水 平 位 置 转 至 坂 直 位 置 , 则 在 此 过 程 中 , 力 P 的 大 小 随 转 角 变\n化 的 图 象 是",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 16,
+        "extraction": "ocr",
+        "confidence": 80,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q016-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q016-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q17",
+      "content": "如 图 1-11 所 示 , 使 光 滑 斜 面 的 倾 角 0 从 30“ 逐 渐 增 加 到 60“, 那 么 在 斜 面 上 的 小 溥 块 ( 每 一 次\n出 发 点 都 在 同 一 坂 直 线 上 ) 由 静 止 下 滑 至 斜 面 底 部 同 一 点 0 所 需 要 的 时 间 ; 将 随 6 角 的 增 |\n颅 面 1 “ 门 一 “ ARE — ARR Ew l\nA. 增 加 “B. 减 小 C. 先 增 大 后 减 小 “ _D: 先 况 小 后 增 大\nE | |\n- i\n/ v\nal b\n/ | r 一\nok |\noa 4 |\n/ I {2 xed\n“ gues 1 浩\nA\n图 1-il 图 1-12",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -332,137 +564,271 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 4,
-        "questionNumber": 22,
+        "endPage": 4,
+        "questionNumber": 17,
         "extraction": "ocr",
         "confidence": 81,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q15",
-      "content": "如 图 1-16(a) 所 示 , 一 个 固 定 不 动 的 闭 合 线 园 处 于 垂 直 于 纸 面 的 匀 强 磁 场 中 , 设 垂 直 于 纸 面\n向 里 为 磁 感 应 强 度 B 的 正 方 向 , 线 国 中 的 箭 头 指 向 为 电 流 ; 的 正 方 向 。\n积 R F |\nx * 1 i 1 i\n日 i\nXX x xox 1 i 1 | 霭 |\na) by |\n3 图 1-16 |\n已 知 线 圈 中 感 生 电 流 ; 随 时 间 变 化 的 图 象 如 图 1 一 16() 所 示 , 则 磁 感 应 强 度 8 随 时 间 而\n变 化 的 图 象 应 是\nB B\n广 一 广 A\nEE] !\n0 IS TEE DR 3p 4 449 2 4\nL 口 技 沥 |\nA B\n3 【 he\nAche AA\nC D\n图 1 一 17",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q017-p004-f01.jpg"
       ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 5,
-        "questionNumber": 23,
-        "extraction": "ocr",
-        "confidence": 82,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q16",
-      "content": "有 一 负 载 电 阻 R , 当 它 接 到 30 伏 直 流 电 源 上 时 , 消 耗 的 功 率 为 P , 现 有 一 台 理 想 变 压 器 , 它\n的 输 入 电 压 7 一 300sinet 伏 , 若 把 上 述 负 载 接 到 此 变 压 器 副 线 圆 的 两 端 , 消 耗 的 功 率 为 介 ,\n则 变 压 器 原 副 线 国 的 匣 数 比 为 {\nA.10:1 B 10 211 C 10 史 山 D.10: V2\n107",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 5,
-        "questionNumber": 24,
-        "extraction": "ocr",
-        "confidence": 82,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q17",
-      "content": "图 1_18 中 每 一 个 图 都 有 两 条 图 线 , 分 别 表 示 一 种 直 线 运 动 过 程 的 加 速 度 和 速 度 陶 时 间 变 化\n的 图 象 . 其 中 郧 些 图 可 能 是 正 确 的 ?\nav) av) aj) a|w is\n]\n: oe\n0 t 0 t o to t\n4 = |\n1) 2) 5 3) (4) 5 1\n图 1-18 |\nA. 只 有 (4 B. 只 有 (3) 和 C4\nC. 只 有 (2)、(8) 和 ( 幻 D. (1D、C2)、(37、(4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 6,
-        "questionNumber": 25,
-        "extraction": "ocr",
-        "confidence": 79,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q017-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q18",
-      "content": "图 1-19 为 沿 z 轻 负 方 向 传 播 的 横 波 pr Ye\n在 : 一 0 时 的 图 象 . 已 知 4 质 点 的 振 S\n动 周 期 为 0.4 秒 , 下 面 郧 一 些 判 断 -zK------- HNC\n是 正 确 的 ? 目 7 河 助 pg 李\nC) 波 速 一 25 米 / 称 ; 0 ne : 习 cm)\n(@0F0. 9 秒 内 B 质 炉 的 位 移 为 正 ; 小 --- 一 --\n(3)0 质 点 的 振 动 频 率 为 2.5 薛 教 : “ 匕 ------>\n(op 质 点 比 4 质 点 先 回 到 平 衡 余 置 , |\n仁 . 只 有 (17、(2) 和 (3) 图 1-19\nB. HE). (OFM)\nC. RAE WHMEG)\nD. 只 有 (2) 和 (47 (ms pe re",
+      "content": "在 光 溥 的 火 平 面 上 , 有 a.5 两 物 体 质 量 分 别 为 m 和 m,, 在 . 时 刻 发 生 正 碟 , 碰 撞 过 程 中 无\n能 量 损 失 . 两 物 体 碰 撞 前 后 的 速 度 图 象 如 图 1-12 所 示 , 下 列 郧 个 关 系 是 正 确 的 ?\n入 力 m 8 河 巩 320 沥 李 D. A.B 两 选 项 都 可 能",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 6,
-        "questionNumber": 26,
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 18,
         "extraction": "ocr",
-        "confidence": 79,
-        "needsReview": true
-      }
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q018-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q018-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q19",
-      "content": "有 三 个 质 量 相 等 , 分 别 带 正 电 . 货 电 和 不 带 电 的\n质 炭 , 由 两 水 平 束 板 间 中 央 处 以 相 同 的 初 速 ou vo = | mi fe\n先 后 垂 直 匀 强 电 场 射 入 , 并 分 别 葆 在 负 极 板 上 SS\n甲 、 乙 、 丙 三 处 ( 如 图 1-20 所 示 . 由 此 可 断 定 : Nh\n() 萱 土 甲 处 的 质 点 带 正 电 , 乙 处 质 点 不 带 电 , — , |\n丙 处 质 点 带 负 电 ;\n(2) 三 个 质 炉 在 电 场 中 运 动 的 时 间 相 等 ; 图 1-20\n(3) 三 个 质 点 在 电 场 中 的 加 途 度 :aw 一 az 一 em |\nDEA RAEI EIB GFE Fn>E>En |\nA. 只 有 (1) 和 (2) 卫 . 只 有 (2) 和 (3) q\nC. 只 有 (1) 和 (3) D. 全 对 |",
+      "content": "图 1-13 中 PW@ 是 一 个 固 定 的 光 溥 轨 道 , 其 中 P 是\n直 缕 鄯 分 , VG 为 半 国 驹 PH 5 No WEN 炳 相 [ 5 <7\n切 ,P 、@ 两 点 处 于 同 一 水 平 高 度 . 现 有 一 小 滑 块 自 P 4 芬\n点 从 静 止 开 始 浙 轨 道 下 滑 那 久 7\nA 滑 块 不 能 达 到 点 We 仁\nB . 滑 块 到 达 0 点 后 , 将 自 由 下 落 国 1-18\n. 滑 块 以 达 @ 点 后 , 又 滁 软 道 返 回\nD. 溥 块 到 达 0 点 后 , 将 滁 国 孟 的 切 线 方 向 飞 出",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 6,
-        "questionNumber": 27,
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 19,
         "extraction": "ocr",
-        "confidence": 79,
-        "needsReview": true
-      }
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q019-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q019-p004-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q20",
-      "content": "图 1-21 表 示 C 振 荥 电 路 中 电 容 器 一 极 板 L ‖\n「 带 电 量 随 时 间 变 化 的 曲 线 . 下 列 判 断 中 , 哥 一 些 ED 7 |\n是 正 确 的 ? |\nCE b 和 时 刻 , 电 路 中 的 电 流 最 大 ; Bio |\nFE ab 时 间 内 , 电 场 能 转 变 为 磁 场 能 : -\n108\n1 -\n| (3) 在 。 和 。 时 刻 , 循 场 能 为 零 ;\n《 在 0a Fil =~ 时 间 内 , 电 容 器 被 充 电 。\nA. 只 有 (1) 和 (8) B. 只 有 (2) 和 (4 C 只 有 (4) D. 只 有 (1)、(2) 和 (3)",
+      "content": "如 图 1-14 所 示 , 小 潜 块 沿 光 潜 曲 面 自 高 度 为 ) 处 , 由 静 止 开 始 下 滑 , 经 过 摩 擦 系 数 恒 定 的 水 一\n平 面 AB 后 再 溶 上 另 一 光 溶 曲 面 ,0 AB 的 中 点 :\n如 果 滑 坡 经 过 4 ,C 两 点 的 速 率 之 比 为 43, 则 滑 坡 IC : ball\n滑 上 另 一 曲 面 的 最 大 高 度 / 为 7H gran\nAt BL c 专 . 34 图 1-14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 20,
+        "extraction": "ocr",
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q020-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q020-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q21",
+      "content": "以 水 平 速 度 ,( 米 / 秒 ) 飞 行 的 子 弹 打 进 木 板 , 假 设 它 的 动 能 全 部 变 奶 热 , 并 有 20% 的 热 量 被\n子 弹 吸 收 , 则 子 弹 温 度 升 高 的 摄氏 度 数 4 为 [ 子 弹 的 比 热 为 C ( 焦 耳 / 十 克 “ 度 ),7 是 热 功\n当 量 ]\nv? v? mv? 许\nT607 “ 印 105 C.16X0100067 D 石",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 21,
+        "extraction": "ocr",
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q021-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q021-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q22",
+      "content": "如 图 1-15 所 示 ,7 是 变 压 器 , 金 属 棒 。 可 1\n在 两 条 平 行 的 金 属 导 轨 上 滑 行 , 匀 强 磁 场\n106\n| 5 的 方 向 垂 直 纸 面 向 里 ,01、0: 是 理 想 的 s\n5 二 极 管 , 若 电 流 计 @ 中 有 电 流 通 过 , 则 可 D 林\nx Jl FC\nAcad SMES [Reedy\nB.a 5 森 向 右 匀 加 速 运 动\nC.a b 棍 呐 左 匀 加 速 运 动 图 1-15\nD.a 5 棍 向 左 匀 况 速 运 助",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "ocr",
+        "confidence": 81,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q022-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q022-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q23",
+      "content": "如 图 1-16(a) 所 示 , 一 个 固 定 不 动 的 闭 合 线 园 处 于 垂 直 于 纸 面 的 匀 强 磁 场 中 , 设 垂 直 于 纸 面\n向 里 为 磁 感 应 强 度 B 的 正 方 向 , 线 国 中 的 箭 头 指 向 为 电 流 ; 的 正 方 向 。\n积 R F |\nx * 1 i 1 i\n日 i\nXX x xox 1 i 1 | 霭 |\na) by |\n3 图 1-16 |\n已 知 线 圈 中 感 生 电 流 ; 随 时 间 变 化 的 图 象 如 图 1 一 16() 所 示 , 则 磁 感 应 强 度 8 随 时 间 而\n变 化 的 图 象 应 是\nB B\n广 一 广 A\nEE] !\n0 IS TEE DR 3p 4 449 2 4\nL 口 技 沥 |\nA B\n3 【 he\nAche AA\nC D\n图 1 一 17",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "ocr",
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q023-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q023-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q24",
+      "content": "有 一 负 载 电 阻 R , 当 它 接 到 30 伏 直 流 电 源 上 时 , 消 耗 的 功 率 为 P , 现 有 一 台 理 想 变 压 器 , 它\n的 输 入 电 压 7 一 300sinet 伏 , 若 把 上 述 负 载 接 到 此 变 压 器 副 线 圆 的 两 端 , 消 耗 的 功 率 为 介 ,\n则 变 压 器 原 副 线 国 的 匣 数 比 为 {\nA.10:1 B 10 211 C 10 史 山 D.10: V2\n107",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "ocr",
+        "confidence": 82,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q024-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q024-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q25",
+      "content": "图 1_18 中 每 一 个 图 都 有 两 条 图 线 , 分 别 表 示 一 种 直 线 运 动 过 程 的 加 速 度 和 速 度 陶 时 间 变 化\n的 图 象 . 其 中 郧 些 图 可 能 是 正 确 的 ?\nav) av) aj) a|w is\n]\n: oe\n0 t 0 t o to t\n4 = |\n1) 2) 5 3) (4) 5 1\n图 1-18 |\nA. 只 有 (4 B. 只 有 (3) 和 C4\nC. 只 有 (2)、(8) 和 ( 幻 D. (1D、C2)、(37、(4",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -470,137 +836,238 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 6,
-        "questionNumber": 28,
+        "endPage": 6,
+        "questionNumber": 25,
         "extraction": "ocr",
         "confidence": 79,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q21",
-      "content": "先 后 用 两 种 不 同 的 单 色 光 , 在 相 同 条 件 下 用 同 一 双 缝 千 涉 装 置 做 实 验 , 在 屏 幕 上 相 邻 的 两\n条 亮 纹 间 距 不 同 , 其 中 间 距 较 大 的 那 种 单 色 光 比 另 一 种 单 色 光\n(1) 在 真 空 中 的 波 长 较 短 ; (2) 在 玲 璃 中 传 播 的 速 度 较 大 ;\n(3) 在 玻 璃 中 传 播 时 , 玻 璃 的 折 射 率 较 大 ; 〔4 其 光 子 的 能 量 较 小 。\n其 中 正 确 的 是\nA. HE MFG) B. HAMM) Cc. 只 有 (2) D. 只 有 (2)、(3) 和 (4)",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q025-p006-f01.jpg"
       ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 7,
-        "questionNumber": 29,
-        "extraction": "ocr",
-        "confidence": 86,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q22",
-      "content": "ETH 经 过 若 干 次 。 褥 变 和 8 衰 变 , 变 成 铅 诚 P5, 上 述 过 程 中\n() 重 核 减 少 了 8 个 质 子 ; (2) 重 核 减 少 了 16 个 中 子 ;\n(3) 经 过 了 欣 。 衰 变 和 4 次 褶 变 i ( 旦 经 过 了 8 次 a 衰 变 和 6 次 衰 变 。\n其 中 正 确 的 是 :\nA. HF MMR) B. HEM. (DMP) Cc. 只 有 (4 D. REM. (Ff)\n二 . 实 验 题 (10 分 )\nCL 在 用 打 点 计 时 器 验 证 物 体 自 由 下 艺 过 程 中 机 梅 能 守 饷 的 实 验 里 , 以 下 帮 些 步 骤 是 必 要 的 ?\n请 把 它 们 选 出 来 , 并 将 它 们 的 字 母 代 号 按 搓 作 顺 序 塔 在 后 面 横 线 空 白 处 :\nA 断 开 电 源 , 取 下 纸 带 进 行 测 量 记 录 ;\n, B 将 纸 带 固 定 在 重 键 上 , 并 把 它 穿 过 计 时 器 , 提 升 到 一 定 高 度 :\nC. 接 通 电 源 , 释 放 纸 带 ;\nD: 用 天 平 测 出 重 锤 的 质 量 ;\nE. 把 打 点 计 时 器 固 定 在 支 架 上 , 并 接 在 交 流 低 压 电 源 两 端 :\nF. 用 秒 表 测 出 重 锤 下 葛 时 间 。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 7,
-        "questionNumber": 30,
-        "extraction": "ocr",
-        "confidence": 86,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q23",
-      "content": "在 利 用 长 方 形 玻 璃 砚 测 定 玻 璃 折 射 率 的 实 验 中 ( 参 见 图 2 一 1) ,ao「 和 5「 为 玻 璋 砚 的 两 上\n界 面 ,PisPzvPavP4 表 示 4 根 大 头 针 。 当 眼 睛 从 位 置 4 溜 P,P, 连 线 方 向 看 去 时 ,p, 完 全\nrite\n; Be, 2\nPy\nC 白\nPy\n图 2-1 yi\n109\n国\n挡 住 了 P: 以 及 PavP, 的 像 . 请 依 据 P,、Pa、Ps、P 的 位 置 , 在 图 上 作 出 aa’ 面 的 入 射 光 线 和 :\n它 的 折 射 光 线 , 标 明 人 射 角 i, 折 射 角 r. 如 果 菜 同 学 做 实 验 时 ,P 的 位 置 没 有 找 准 , 误 为 ,\n将 会 使 测 得 的 折 射 率 变 得 偏",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 7,
-        "questionNumber": 32,
-        "extraction": "ocr",
-        "confidence": 86,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q24",
-      "content": "用 伏 安 法 测 量 一 定 值 电 阻 , 实 验 器 材 如 下 ;\n@ 待 测 电 阻 R, ( 约 30 千 欧 ,1 瓦 ); @) 直 流 微 安 表 ( 量 程 0 一 500 微 安 , 内 阻 300 欧 ) ;\n@ 直 流 电 压 表 ( 量 程 0~10 伏 , 内 阻 100 千 欧 ); @ 直 流 穗 压 电 源 ( 输 出 电 压 20 伏 );\n@ 潘 动 变 阻 器 (0 一 2 千 欧 ,0.3 安 ); @ 电 键 、 导 线 等 。\n图 2-2 所 示 4 个 电 路 图 中 , 应 选 郧 一 个 来 做 实 验 ? 请 塔 上 它 的 字 母 代 号 : 2 「\nx 3 a 2\n=] le\n“ em | |\nBr] “ 伯 g J |\n图 2-2 |\n接 所 选 用 的 电 路 图 , 将 实 物 图 连 接 起 来 。 |\n|\n“ R.\nE\n电 压 表 WER\n图 |\nv 5 /\n8 ww , 1\n* Ea t=\n图 2-3 |\n三 、 填 充 题 ( 共 9 分 , 每 小 题 3 分 ) |",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 8,
-        "questionNumber": 33,
-        "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q25",
-      "content": "氡 ( 雷 R,) 经 过 一 次 。 褶 变 成 为 针 (Po), A Pp 5\n其 核 反 应 方 程 是 : i\n已 知 氡 222 衰 变 为 针 的 半 衰 期 是 3. 8K,\n那 么 , 克 氢 经 过 7.6 天 后 还 《\n剩 下 10 克 。 5",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "OCR待校对"
-      ],
-      "year": 1990,
-      "subject": "物理",
-      "provenance": {
-        "repository": "deekur/gaokaophysics",
-        "paperId": "physics:普通高考/1990/1990广东.pdf",
-        "page": 8,
-        "questionNumber": 34,
-        "extraction": "ocr",
-        "confidence": 84,
-        "needsReview": true
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q025-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/1990/1990广东.pdf#q26",
-      "content": "如 图 2-4 所 示 , 一 发 光 点 4 放 在 凹 透 镜 |\n( 光 心 为 0) 前 , 已 知 4 B C 是 其 中 一\n条 光 路 . 请 在 图 2-4 上 用 作 图 法 求 出 4 图 2-4 1\n的 像 点 4「 及 透 镜 的 焦 点 P 的 位 置 。 |\n110 ¥",
+      "content": "图 1-19 为 沿 z 轻 负 方 向 传 播 的 横 波 pr Ye\n在 : 一 0 时 的 图 象 . 已 知 4 质 点 的 振 S\n动 周 期 为 0.4 秒 , 下 面 郧 一 些 判 断 -zK------- HNC\n是 正 确 的 ? 目 7 河 助 pg 李\nC) 波 速 一 25 米 / 称 ; 0 ne : 习 cm)\n(@0F0. 9 秒 内 B 质 炉 的 位 移 为 正 ; 小 --- 一 --\n(3)0 质 点 的 振 动 频 率 为 2.5 薛 教 : “ 匕 ------>\n(op 质 点 比 4 质 点 先 回 到 平 衡 余 置 , |\n仁 . 只 有 (17、(2) 和 (3) 图 1-19\nB. HE). (OFM)\nC. RAE WHMEG)\nD. 只 有 (2) 和 (47 (ms pe re",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 26,
+        "extraction": "ocr",
+        "confidence": 79,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q026-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q026-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q27",
+      "content": "有 三 个 质 量 相 等 , 分 别 带 正 电 . 货 电 和 不 带 电 的\n质 炭 , 由 两 水 平 束 板 间 中 央 处 以 相 同 的 初 速 ou vo = | mi fe\n先 后 垂 直 匀 强 电 场 射 入 , 并 分 别 葆 在 负 极 板 上 SS\n甲 、 乙 、 丙 三 处 ( 如 图 1-20 所 示 . 由 此 可 断 定 : Nh\n() 萱 土 甲 处 的 质 点 带 正 电 , 乙 处 质 点 不 带 电 , — , |\n丙 处 质 点 带 负 电 ;\n(2) 三 个 质 炉 在 电 场 中 运 动 的 时 间 相 等 ; 图 1-20\n(3) 三 个 质 点 在 电 场 中 的 加 途 度 :aw 一 az 一 em |\nDEA RAEI EIB GFE Fn>E>En |\nA. 只 有 (1) 和 (2) 卫 . 只 有 (2) 和 (3) q\nC. 只 有 (1) 和 (3) D. 全 对 |",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 6,
+        "endPage": 6,
+        "questionNumber": 27,
+        "extraction": "ocr",
+        "confidence": 79,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q027-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q027-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q28",
+      "content": "图 1-21 表 示 C 振 荥 电 路 中 电 容 器 一 极 板 L ‖\n「 带 电 量 随 时 间 变 化 的 曲 线 . 下 列 判 断 中 , 哥 一 些 ED 7 |\n是 正 确 的 ? |\nCE b 和 时 刻 , 电 路 中 的 电 流 最 大 ; Bio |\nFE ab 时 间 内 , 电 场 能 转 变 为 磁 场 能 : -\n108\n1 -\n| (3) 在 。 和 。 时 刻 , 循 场 能 为 零 ;\n《 在 0a Fil =~ 时 间 内 , 电 容 器 被 充 电 。\nA. 只 有 (1) 和 (8) B. 只 有 (2) 和 (4 C 只 有 (4) D. 只 有 (1)、(2) 和 (3)",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 28,
+        "extraction": "ocr",
+        "confidence": 79,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q028-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q028-p006-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q29",
+      "content": "先 后 用 两 种 不 同 的 单 色 光 , 在 相 同 条 件 下 用 同 一 双 缝 千 涉 装 置 做 实 验 , 在 屏 幕 上 相 邻 的 两\n条 亮 纹 间 距 不 同 , 其 中 间 距 较 大 的 那 种 单 色 光 比 另 一 种 单 色 光\n(1) 在 真 空 中 的 波 长 较 短 ; (2) 在 玲 璃 中 传 播 的 速 度 较 大 ;\n(3) 在 玻 璃 中 传 播 时 , 玻 璃 的 折 射 率 较 大 ; 〔4 其 光 子 的 能 量 较 小 。\n其 中 正 确 的 是\nA. HE MFG) B. HAMM) Cc. 只 有 (2) D. 只 有 (2)、(3) 和 (4)",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 29,
+        "extraction": "ocr",
+        "confidence": 86,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q029-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q029-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q30",
+      "content": "ETH 经 过 若 干 次 。 褥 变 和 8 衰 变 , 变 成 铅 诚 P5, 上 述 过 程 中\n() 重 核 减 少 了 8 个 质 子 ; (2) 重 核 减 少 了 16 个 中 子 ;\n(3) 经 过 了 欣 。 衰 变 和 4 次 褶 变 i ( 旦 经 过 了 8 次 a 衰 变 和 6 次 衰 变 。\n其 中 正 确 的 是 :\nA. HF MMR) B. HEM. (DMP) Cc. 只 有 (4 D. REM. (Ff)\n二 . 实 验 题 (10 分 )\nCL 在 用 打 点 计 时 器 验 证 物 体 自 由 下 艺 过 程 中 机 梅 能 守 饷 的 实 验 里 , 以 下 帮 些 步 骤 是 必 要 的 ?\n请 把 它 们 选 出 来 , 并 将 它 们 的 字 母 代 号 按 搓 作 顺 序 塔 在 后 面 横 线 空 白 处 :\nA 断 开 电 源 , 取 下 纸 带 进 行 测 量 记 录 ;\n, B 将 纸 带 固 定 在 重 键 上 , 并 把 它 穿 过 计 时 器 , 提 升 到 一 定 高 度 :\nC. 接 通 电 源 , 释 放 纸 带 ;\nD: 用 天 平 测 出 重 锤 的 质 量 ;\nE. 把 打 点 计 时 器 固 定 在 支 架 上 , 并 接 在 交 流 低 压 电 源 两 端 :\nF. 用 秒 表 测 出 重 锤 下 葛 时 间 。",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 7,
+        "endPage": 7,
+        "questionNumber": 30,
+        "extraction": "ocr",
+        "confidence": 86,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q030-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q030-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q31",
+      "content": "在 利 用 长 方 形 玻 璃 砚 测 定 玻 璃 折 射 率 的 实 验 中 ( 参 见 图 2 一 1) ,ao「 和 5「 为 玻 璋 砚 的 两 上\n界 面 ,PisPzvPavP4 表 示 4 根 大 头 针 。 当 眼 睛 从 位 置 4 溜 P,P, 连 线 方 向 看 去 时 ,p, 完 全\nrite\n; Be, 2\nPy\nC 白\nPy\n图 2-1 yi\n109\n国\n挡 住 了 P: 以 及 PavP, 的 像 . 请 依 据 P,、Pa、Ps、P 的 位 置 , 在 图 上 作 出 aa’ 面 的 入 射 光 线 和 :\n它 的 折 射 光 线 , 标 明 人 射 角 i, 折 射 角 r. 如 果 菜 同 学 做 实 验 时 ,P 的 位 置 没 有 找 准 , 误 为 ,\n将 会 使 测 得 的 折 射 率 变 得 偏",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 7,
+        "endPage": 8,
+        "questionNumber": 32,
+        "extraction": "ocr",
+        "confidence": 86,
+        "needsReview": true,
+        "reviewReasons": [
+          "题号跳变",
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q031-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q031-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q32",
+      "content": "用 伏 安 法 测 量 一 定 值 电 阻 , 实 验 器 材 如 下 ;\n@ 待 测 电 阻 R, ( 约 30 千 欧 ,1 瓦 ); @) 直 流 微 安 表 ( 量 程 0 一 500 微 安 , 内 阻 300 欧 ) ;\n@ 直 流 电 压 表 ( 量 程 0~10 伏 , 内 阻 100 千 欧 ); @ 直 流 穗 压 电 源 ( 输 出 电 压 20 伏 );\n@ 潘 动 变 阻 器 (0 一 2 千 欧 ,0.3 安 ); @ 电 键 、 导 线 等 。\n图 2-2 所 示 4 个 电 路 图 中 , 应 选 郧 一 个 来 做 实 验 ? 请 塔 上 它 的 字 母 代 号 : 2 「\nx 3 a 2\n=] le\n“ em | |\nBr] “ 伯 g J |\n图 2-2 |\n接 所 选 用 的 电 路 图 , 将 实 物 图 连 接 起 来 。 |\n|\n“ R.\nE\n电 压 表 WER\n图 |\nv 5 /\n8 ww , 1\n* Ea t=\n图 2-3 |\n三 、 填 充 题 ( 共 9 分 , 每 小 题 3 分 ) |",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -608,22 +1075,101 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 8,
+        "endPage": 8,
+        "questionNumber": 33,
+        "extraction": "ocr",
+        "confidence": 84,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q032-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q032-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q33",
+      "content": "氡 ( 雷 R,) 经 过 一 次 。 褶 变 成 为 针 (Po), A Pp 5\n其 核 反 应 方 程 是 : i\n已 知 氡 222 衰 变 为 针 的 半 衰 期 是 3. 8K,\n那 么 , 克 氢 经 过 7.6 天 后 还 《\n剩 下 10 克 。 5",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 8,
+        "endPage": 8,
+        "questionNumber": 34,
+        "extraction": "ocr",
+        "confidence": 84,
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q033-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q033-p008-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q34",
+      "content": "如 图 2-4 所 示 , 一 发 光 点 4 放 在 凹 透 镜 |\n( 光 心 为 0) 前 , 已 知 4 B C 是 其 中 一\n条 光 路 . 请 在 图 2-4 上 用 作 图 法 求 出 4 图 2-4 1\n的 像 点 4「 及 透 镜 的 焦 点 P 的 位 置 。 |\n110 ¥",
+      "answer": "暂无结构化答案",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "OCR待校对",
+        "待补解析"
+      ],
+      "year": 1990,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/1990/1990广东.pdf",
+        "page": 8,
+        "endPage": 8,
         "questionNumber": 35,
         "extraction": "ocr",
         "confidence": 84,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q034-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q034-p008-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q27",
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q35",
       "content": "半 径 为 。 的 半 圆 弧 形 硬 质 导 线 PO 以 速 度 » 在 水 平 放 置 的 平 行 导 轨 上 运 动 . 匀 强 磁 场 的 磁\n感 应 强 度 为 8 , 方 向 与 导 轨 平 面 垂 直 并 指 向 纸 里 ( 如 图 36 题 图 ) 8 是 固 定 电 阻 . 设 导 轨 , 导\n线 P 的 电 阻 及 PO 与 导 轨 的 摩 擦 均 可 忽 略 . 当 导 线 P@ 作 匀 速 运 动 时 , 外 力 的 功 率 是 :\nE X X X X IE\nx x x BX 5\nX X X X\nx H—— x 央 葛\n? X X X X\nX X x X X x X x\n图 2-5 图 2-6\n三 综 合 题 (21 分 )",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -631,22 +1177,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 9,
+        "endPage": 9,
         "questionNumber": 36,
         "extraction": "ocr",
         "confidence": 85,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q035-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q035-p009-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q28",
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q36",
       "content": "如 图 2-6, 固 定 在 匀 强 磁 场 中 的 正 方 形 导 线 框 ao , 边 长 为 1, 其 中 a 是 一 段 电 阻 为 R 的 均\n匀 电 阻 丝 , 其 余 均 为 电 阻 可 忽 略 的 铜 线 . 磁 场 的 磁 感 应 强 度 为 , 方 向 垂 直 纸 面 向 里 . 现 有\n一 一 材 料 及 粗 细 都 与 a 段 相 同 的 电 阻 丝 PO 架 在 导 线 框 上 , 与 线 框 保 持 良 好 的 接 触 , 以 恒\n定 的 速 度 , 人 od 滑 向 5e. 当 PQ 滑 到 距 o 端 占 ! 位 置 时 , 问 :\n(a) 流 过 ap 段 电 阻 丝 的 电 流 方 向 如 何 ? TAC LLIN\n( 流 过 aP 段 的 电 流 强 度 多 大 ? ‖ i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -654,22 +1211,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 9,
+        "endPage": 9,
         "questionNumber": 37,
         "extraction": "ocr",
         "confidence": 85,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q036-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q036-p009-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q29",
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q37",
       "content": "用 销 钉 固 定 的 不 溥 气 的 活 塞 把 水 平 放 置 的 坂 固 容 器 『 |\n分 隔 为 4 、 两 部 分 : 其 体 积 之 比 V,:7s 一 2*1.4 中 日 ‖\n有 温 度 为 127C \\ 压 强 为 1. 8X105 标 的 空 气 .8 中 有 【 ‖\n温 度 为 27C、 压 强 为 1.2X10 帕 的 空 气 . 拔 出 错 钉 使 Borel)\n活 塞 可 以 无 摩 擦 地 水 平 移 动 ( 容 器 仍 不 潘 气 ) 。 俗 钌\n由 于 容 器 壁 缓 慢 导 热 , 最 后 两 边 都 变 为 室 温 27iC , 固 2-7\n活 塞 也 停 住 . 求 : 俊\n(a) 容 器 中 后 来 两 部 分 气 体 的 体 积 比 V |\n( 最 后 4 中 气 体 的 压 强 p 一 ? i 颊 a",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -677,22 +1245,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 9,
+        "endPage": 9,
         "questionNumber": 38,
         "extraction": "ocr",
         "confidence": 85,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q037-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q037-p009-f01.jpg"
     },
     {
-      "questionId": "physics:普通高考/1990/1990广东.pdf#q30",
-      "content": "质 量 为 m 一 2. 0 千 克 的 小 铁 块 静 止 于 水 平 导 轨 ee - 人 - )\n45 的 4 端 . 导 扬 及 支 架 48CD 形 状 如 图 2 A vem - 伊\n-8, 其 重 心 在 图 中 的 0 点 , 质 量 力 一 4. 0 十 克 , 闯\n可 绕 通 过 支 架 D 点 的 垂 直 于 纸 面 的 水 平 轻 自 = i\n由 转 动 . 现 加 一 个 浴 导 扔 方 向 的 恒 力 , 通 过 仪\n细 线 作 用 于 铁 块 ,P 一 12 牛 顿 : 铁 块 和 导 轩 之 J\n间 的 摩 擦 系 数 一 0. 50, 重 力 加 速 度 g 二 10 米 5KD82\n/ 秒 “. 从 加 力 的 时 刻 算 起 , 导 轨 ( 及 支 架 ) 能 保 江\n持 静 止 的 最 长 时 间 是 多 少 ? oon\n图 2-8 3\n。 111\n1990 年 广 东 省 物 理 试 题 参 考 答 案\n一 , 选 择 题 §\nTCD 3.C 4D“5.D “6.C “7.B 8 C8 BYTE.\n11.A 12.D 13.A 14.C 15.A “16.D 17.D :18.A \"19.A 20.A\n21.B 22.A 23.C. 24.A 25.D 26.B 27.C 28.D 29.B 30.B\n二 \\ 实 验 题 学 5\n31.E.B,C,A 或 B、EAC、A。 4\n, 32. 作 图 奶 图 所 示 . 大 。 a\n: 扬\ni 0 荣\nb b’\nO 。\nPly sh IRC OAT REE\nC\n32 题 答 李 图\n186\n38. B , 实 物 连 线 如 图 所 示 。\n余 江 二 厉\na\n/ E 4 \\\nERIS he\n/ - 电 压 表 微 安 表\n4 “ 真 流 电 源 / C p\nEv 5B 辽 动\nP+ Tate tf\nBEERE B\n三 , 填 光 题 i 《 c\n34. 英 Rn 一 振 a 十 He; 40, EEE an\n35. 作 图 奶 图 所 示 。 E\n. 86.4a’B%Y/R, 工 4\n三 . 综 合 题 咤 2\n37. (a) 流 过 oP 的 电 流 方 啶 为 P-va 。 |\nQ 把 Po 看 成 电 源 , 外 电 路 的 电 阻 1\nfede,\n小 一 许 - 一 命 R : 35 题 答 李 国\nE 刑 十 马\n全 电 路 总 电 阻 “ 一 8 十 7 二 春 R\n感 生 电 动 势 * 一 l\n2 盂 玟 区 不 B\n全 电 路 总 电 流 7 二 不 二 行 命\n由 并 联 电 路 性 质 得 , Lo+ly=1, 二 2\n一 连 1 一心 Blz\n厂 二 37 S 涛\n38. Ca) 对 4 部 气 体 有 ; 244 一 命 @\nFis\ng PaPFa _ a\n对 部 气 体 有 : ee @\n由 题 意 知 : P 一 ay 二 2Pa7 二 口 5 (3)\nVi Py Ty Fa 一 二 8X105.800 2_9 2\n综 合 (1),(27、(3) 得 : 砂 一 FX“72“ 矿 一 12X105“400“ 工 一 4\nLT SS SIL SUSI : 3\n187\n或 历 二 租 限 p 一 播 2B 1.8 X 10 二 LL3 X 10H\n39. 铁 块 溥 动 后 , 导 轨 受 到 向 右 的 摩 擦 力 丁 ,\n了 一 pmg 二 0.5 X 2 X 10 二 10 牛 顿\nABCD 以 D 为 轴 , 刚 要 失 去 平 衡 时 C 端 受 力 y 一 0\n设 此 时 铁 块 走 过 路 程 为 8, 铁 块 到 7 点 水 平 距 离 为 (0. 7 一 8) , 据 平 衡 条 件 有\nMg X 0.1 十 mg C0.7 一 8 一 丁 X 0.8\n多 一 0.5 米\n对 小 铁 块 : P 一 mg =ma, 5 二 1.0 米 / 称\nots 1377 郎\n|\n|\n188",
+      "questionId": "physics:普通高考/1990/1990广东.pdf#q38",
+      "content": "质 量 为 m 一 2. 0 千 克 的 小 铁 块 静 止 于 水 平 导 轨 ee - 人 - )\n45 的 4 端 . 导 扬 及 支 架 48CD 形 状 如 图 2 A vem - 伊\n-8, 其 重 心 在 图 中 的 0 点 , 质 量 力 一 4. 0 十 克 , 闯\n可 绕 通 过 支 架 D 点 的 垂 直 于 纸 面 的 水 平 轻 自 = i\n由 转 动 . 现 加 一 个 浴 导 扔 方 向 的 恒 力 , 通 过 仪\n细 线 作 用 于 铁 块 ,P 一 12 牛 顿 : 铁 块 和 导 轩 之 J\n间 的 摩 擦 系 数 一 0. 50, 重 力 加 速 度 g 二 10 米 5KD82\n/ 秒 “. 从 加 力 的 时 刻 算 起 , 导 轨 ( 及 支 架 ) 能 保 江\n持 静 止 的 最 长 时 间 是 多 少 ? oon\n图 2-8 3\n。 111\n1990 年 广 东 省 物 理\n一 \\ 选 择 题\nGC 仁 人 e 江 8 文 ing 闯 BY\n11.A 12.D 13.A 14.C 15.A 16.D |\n21.B_22.A 23.C. 24.A 25D 26.B 2\n二 \\ 实 验 题 p\n31.E,B.C.A HB.E.C.A. 4\n, 32. 作 图 奶 图 所 示 . 天 。 ak]\n: i\n4 0\nir\ni\nf\n0\n32 WERE\n186\n洗 题 参 考 答 案\nC 9.D 10.B\n7.D 18.A 19.A 20.A\n7.C 28.D 29.B 30.B\n氏\n|\n(18, N ,\nPy 4\nen\n]\n38. B , 实 物 连 线 如 图 所 示 。\n余 江 二 厉\na\n/ E 4 \\\nERIS he\n/ - 电 压 表 微 安 表\n4 “ 真 流 电 源 / C p\nEv 5B 辽 动\nP+ Tate tf\nBEERE B\n三 , 填 光 题 i 《 c\n34. 英 Rn 一 振 a 十 He; 40, EEE an\n35. 作 图 奶 图 所 示 。 E\n. 86.4a’B%Y/R, 工 4\n三 . 综 合 题 咤 2\n37. (a) 流 过 oP 的 电 流 方 啶 为 P-va 。 |\nQ 把 Po 看 成 电 源 , 外 电 路 的 电 阻 1\nfede,\n小 一 许 - 一 命 R : 35 题 答 李 国\nE 刑 十 马\n全 电 路 总 电 阻 “ 一 8 十 7 二 春 R\n感 生 电 动 势 * 一 l\n2 盂 玟 区 不 B\n全 电 路 总 电 流 7 二 不 二 行 命\n由 并 联 电 路 性 质 得 , Lo+ly=1, 二 2\n一 连 1 一心 Blz\n厂 二 37 S 涛\n38. Ca) 对 4 部 气 体 有 ; 244 一 命 @\nFis\ng PaPFa _ a\n对 部 气 体 有 : ee @\n由 题 意 知 : P 一 ay 二 2Pa7 二 口 5 (3)\nVi Py Ty Fa 一 二 8X105.800 2_9 2\n综 合 (1),(27、(3) 得 : 砂 一 FX“72“ 矿 一 12X105“400“ 工 一 4\nLT SS SIL SUSI : 3\n187\n或 历 二 租 限 p 一 播 2B 1.8 X 10 二 LL3 X 10H\n39. 铁 块 溥 动 后 , 导 轨 受 到 向 右 的 摩 擦 力 丁 ,\n了 一 pmg 二 0.5 X 2 X 10 二 10 牛 顿\nABCD 以 D 为 轴 , 刚 要 失 去 平 衡 时 C 端 受 力 y 一 0\n设 此 时 铁 块 走 过 路 程 为 8, 铁 块 到 7 点 水 平 距 离 为 (0. 7 一 8) , 据 平 衡 条 件 有\nMg X 0.1 十 mg C0.7 一 8 一 丁 X 0.8\n多 一 0.5 米\n对 小 铁 块 : P 一 mg =ma, 5 二 1.0 米 / 称\nots 1377 郎\n|\n|\n188",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 1990,
       "subject": "物理",
@@ -700,11 +1279,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/1990/1990广东.pdf",
         "page": 9,
+        "endPage": 12,
         "questionNumber": 39,
         "extraction": "ocr",
         "confidence": 85,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q038-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-c054381de7689499-q038-p009-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 0,
+    "answerGraphics": 0,
+    "assigned": 32,
+    "rendered": 32,
+    "scanPages": 12,
+    "scanRegions": 32,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

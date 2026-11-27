@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2021/2021湖北.pdf",
   "name": "2021湖北",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 14,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 16,
+    "answerBlocks": 0,
+    "sourceAnswers": 11,
+    "sourceAnalysis": 16,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q01",
-      "content": "20 世纪60 年代，我国以国防为主的尖端科技取得了突破性的发展。1964 年，我国第一\n颗原子弹试爆成功；1967 年，我国第一颗氢弹试爆成功。关于原子弹和氢弹，下列说法正确\n的是（    ）\nA．原子弹和氢弹都是根据核裂变原理研制的\nB．原子弹和氢弹都是根据核聚变原理研制的\nC．原子弹是根据核裂变原理研制的，氢弹是根据核聚变原理研制的\nD．原子弹是根据核聚变原理研制的，氢弹是根据核裂变原理研制的\n【详解】原子弹是根据重核裂变研制的，而氢弹是根据轻核聚变研制的，故ABD 错误，C\n正确。\n故选C。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "20 世纪60 年代，我国以国防为主的尖端科技取得了突破性的发展。1964 年，我国第一\n颗原子弹试爆成功；1967 年，我国第一颗氢弹试爆成功。关于原子弹和氢弹，下列说法正确\n的是（    ）\nA．原子弹和氢弹都是根据核裂变原理研制的\nB．原子弹和氢弹都是根据核聚变原理研制的\nC．原子弹是根据核裂变原理研制的，氢弹是根据核聚变原理研制的\nD．原子弹是根据核聚变原理研制的，氢弹是根据核裂变原理研制的",
+      "answer": "C",
+      "analysis": "原子弹是根据重核裂变研制的，而氢弹是根据轻核聚变研制的，故ABD 错误，C\n正确。\n故选C。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q02",
-      "content": "2019 年，我国运动员陈芋汐获得国际泳联世锦赛女子单人 10 米跳台冠军。某轮比赛中，\n陈芋汐在跳台上倒立静止，然后下落，前 5 m 完成技术动作，随后 5 m 完成姿态调整。假\n设整个下落过程近似为自由落体运动，重力加速度大小取 10 m/s2，则她用于姿态调整的时\n间约为（    ）\nA．0.2 s\nB．0.4 s\nC．1.0 s\nD．1.4 s\n【详解】陈芋汐下落的整个过程所用的时间为\n2\n2 10\n10\nH\nt\ns\ng\n\n=\n=\n\n1.4s\n下落前5 m 的过程所用的时间为\n1\n2\n2 5s\n1s\n10\nh\nt\ng\n\n=\n=\n=\n则陈芋汐用于姿态调整的时间约为\n2\n1\n0.4s\nt\nt\nt\n= −\n=\n故B 正确，ACD 错误。\n故选B。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2019 年，我国运动员陈芋汐获得国际泳联世锦赛女子单人 10 米跳台冠军。某轮比赛中，\n陈芋汐在跳台上倒立静止，然后下落，前 5 m 完成技术动作，随后 5 m 完成姿态调整。假\n设整个下落过程近似为自由落体运动，重力加速度大小取 10 m/s2，则她用于姿态调整的时\n间约为（    ）\nA．0.2 s\nB．0.4 s\nC．1.0 s\nD．1.4 s",
+      "answer": "B",
+      "analysis": "陈芋汐下落的整个过程所用的时间为\n2\n2 10\n10\nH\nt\ns\ng\n\n=\n=\n\n1.4s\n下落前5 m 的过程所用的时间为\n1\n2\n2 5s\n1s\n10\nh\nt\ng\n\n=\n=\n=\n则陈芋汐用于姿态调整的时间约为\n2\n1\n0.4s\nt\nt\nt\n= −\n=\n故B 正确，ACD 错误。\n故选B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q03",
-      "content": "抗日战争时期，我军缴获不少敌军武器武装自己，其中某轻机枪子弹弹头质量约8 g，出\n膛速度大小约750 m/s。某战士在使用该机枪连续射击1 分钟的过程中，机枪所受子弹的平\n均反冲力大小约12 N，则机枪在这1 分钟内射出子弹的数量约为（    ）\nA．40\nB．80\nC．120\nD．160\n【详解】设1 分钟内射出的子弹数量为n，则对这n 颗子弹由动量定理得\nFt = nmv0\n2 / 14\n代入数据解得\nn = 120\n故选C",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "抗日战争时期，我军缴获不少敌军武器武装自己，其中某轻机枪子弹弹头质量约8 g，出\n膛速度大小约750 m/s。某战士在使用该机枪连续射击1 分钟的过程中，机枪所受子弹的平\n均反冲力大小约12 N，则机枪在这1 分钟内射出子弹的数量约为（    ）\nA．40\nB．80\nC．120\nD．160",
+      "answer": "C",
+      "analysis": "设1 分钟内射出的子弹数量为n，则对这n 颗子弹由动量定理得\nFt = nmv0\n2 / 14\n代入数据解得\nn = 120\n故选C",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -79,22 +98,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q04",
-      "content": "如图（a）所示，一物块以一定初速度沿倾角为30°的固定斜面上滑，运动过程中摩擦力\n大小 f 恒定，物块动能 Ek 与运动路程 s 的关系如图（b）所示。重力加速度大小取10 m/s2，\n物块质量 m 和所受摩擦力大小 f 分别为（    ）\nA．m = 0.7 kg，f = 0.5 N\nB．m = 0.7 kg，f = 1.0 N\nC．m = 0.8 kg，f = 0.5 N\nD．m = 0.8 kg，f = 1.0 N\n【详解】0~10m 内物块上滑，由动能定理得\nk\nk0\nsin30\nmg\ns\nfs\nE\nE\n\n−\n−\n=\n−\n整理得\nk\nk0\n(\nsin30\n)\nE\nE\nmg\nf s\n\n=\n−\n+\n结合0~10m 内的图像得，斜率的绝对值\n|\n|\nsin30\n4N\nk\nmg\nf\n\n=\n+\n=\n10~20 m 内物块下滑，由动能定理得\n(\n)\n1\nk\nsin30\n(\n)\nmg\nf\ns\ns\nE\n−\n−\n=\n整理得\n(\n)\n(\n)\nk\n1\nsin30\nsin30\nE\nmg\nf s\nmg\nf s\n\n\n−\n−\n−\n=\n结合10~20 m 内的图像得，斜率\nsin 30\n3N\nk\nmg\nf\n\n\n=\n\n−\n=\n联立解得\n0.5N\nf =\n0.7kg\nm =\n故选A。\n3 / 14",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图（a）所示，一物块以一定初速度沿倾角为30°的固定斜面上滑，运动过程中摩擦力\n大小 f 恒定，物块动能 Ek 与运动路程 s 的关系如图（b）所示。重力加速度大小取10 m/s2，\n物块质量 m 和所受摩擦力大小 f 分别为（    ）\nA．m = 0.7 kg，f = 0.5 N\nB．m = 0.7 kg，f = 1.0 N\nC．m = 0.8 kg，f = 0.5 N\nD．m = 0.8 kg，f = 1.0 N",
+      "answer": "A",
+      "analysis": "0~10m 内物块上滑，由动能定理得\nk\nk0\nsin30\nmg\ns\nfs\nE\nE\n\n−\n−\n=\n−\n整理得\nk\nk0\n(\nsin30\n)\nE\nE\nmg\nf s\n\n=\n−\n+\n结合0~10m 内的图像得，斜率的绝对值\n|\n|\nsin30\n4N\nk\nmg\nf\n\n=\n+\n=\n10~20 m 内物块下滑，由动能定理得\n(\n)\n1\nk\nsin30\n(\n)\nmg\nf\ns\ns\nE\n−\n−\n=\n整理得\n(\n)\n(\n)\nk\n1\nsin30\nsin30\nE\nmg\nf s\nmg\nf s\n\n\n−\n−\n−\n=\n结合10~20 m 内的图像得，斜率\nsin 30\n3N\nk\nmg\nf\n\n\n=\n\n−\n=\n联立解得\n0.5N\nf =\n0.7kg\nm =\n故选A。\n3 / 14",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -102,22 +125,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q004-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q05",
-      "content": "如图所示，由波长为λ1\n和λ2 的单色光组成的一束\n复色光，经半反半透镜后\n分成透射光和反射光。透\n射光经扩束器后垂直照射\n到双缝上并在屏上形成干\n涉条纹。O 是两单色光中\n央亮条纹的中心位置，P1\n和P2分别是波长为λ1和λ2\n的光形成的距离O 点最近\n的亮条纹中心位置。反射\n光入射到三棱镜一侧面上，从另一侧面M 和N 位置出射，则（    ）\nA．λ1＜λ2，M 是波长为λ1 的光出射位置\nB．λ1＜λ2，N 是波长为λ1 的光出射位置\nC．λ1＞λ2，M 是波长为λ1 的光出射位置\nD．λ1＞λ2，N 是波长为λ1 的光出射位置\n【详解】由双缝干涉条纹间距的公式\nL\nx\nd\n\n=\n可知，当两种色光通过同一双缝干涉装置时，波长越长条纹间距越宽，由屏上亮条纹的位置\n可知λ1＞λ2。\n反射光经过三棱镜后分成两束色光，由图可知M 光的折射角大，又由折射定律可知，入射\n角相同时，折射率越大的色光折射角越大，由于λ1＞λ2，则n1＜n2。\n所以N 是波长为λ1 的光出射位置，故D 正确，ABC 错误。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，由波长为λ1\n和λ2 的单色光组成的一束\n复色光，经半反半透镜后\n分成透射光和反射光。透\n射光经扩束器后垂直照射\n到双缝上并在屏上形成干\n涉条纹。O 是两单色光中\n央亮条纹的中心位置，P1\n和P2分别是波长为λ1和λ2\n的光形成的距离O 点最近\n的亮条纹中心位置。反射\n光入射到三棱镜一侧面上，从另一侧面M 和N 位置出射，则（    ）\nA．λ1＜λ2，M 是波长为λ1 的光出射位置\nB．λ1＜λ2，N 是波长为λ1 的光出射位置\nC．λ1＞λ2，M 是波长为λ1 的光出射位置\nD．λ1＞λ2，N 是波长为λ1 的光出射位置",
+      "answer": "D",
+      "analysis": "由双缝干涉条纹间距的公式\nL\nx\nd\n\n=\n可知，当两种色光通过同一双缝干涉装置时，波长越长条纹间距越宽，由屏上亮条纹的位置\n可知λ1＞λ2。\n反射光经过三棱镜后分成两束色光，由图可知M 光的折射角大，又由折射定律可知，入射\n角相同时，折射率越大的色光折射角越大，由于λ1＞λ2，则n1＜n2。\n所以N 是波长为λ1 的光出射位置，故D 正确，ABC 错误。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -125,22 +156,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q005-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q005-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q06",
-      "content": "如图所示，理想变压器原线圈接入电压\n恒定的正弦交流电，副线圈接入最大阻值为\n2R 的滑动变阻器和阻值为R 的定值电阻。在\n变阻器滑片从a 端向b 端缓慢移动的过程中\n（    ）\nA．电流表A1 示数减小\nB．电流表A2 示数增大\nC．原线圈输入功率先增大后减小\nD．定值电阻R 消耗的功率先减小后增大\n【详解】AB．由于原线圈所接电压恒定，匝数比恒定，故变压器副线圈的输出电压恒定，变\n阻器的滑片从a 端向b 端缓慢移动的过程中，由数学知识可知，变压器副线圈所接的电阻值\n逐渐增大，则由欧姆定律得\n2\n2\nU\nI\nR\n=\n副\n可知副线圈的电流逐渐减小，由\n1\n2\n2\n1\nn\nI\nn\nI\n=\n可知变压器原线圈的电流I1 也逐渐减小，故A 正确，B 错误；\nC．原线圈的输入功率为\n4 / 14\n1 1\nP\nU I\n=\n入\n由于I1 逐渐减小，则原线圈的输入功率逐渐减小，故C 错误；\nD．由于副线圈的电流逐渐减小，则定值电阻与变阻器右半部分并联的总电流减小，又与定\n值电阻并联的变阻器右半部分的电阻值减小，则由并联分流规律可知，流过定值电阻的电流\n逐渐减小，则由公式\n2\nRP\nI R\n=\n可知，定值电阻R 消耗的电功率逐渐减小，故D 错误。\n故选A。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，理想变压器原线圈接入电压\n恒定的正弦交流电，副线圈接入最大阻值为\n2R 的滑动变阻器和阻值为R 的定值电阻。在\n变阻器滑片从a 端向b 端缓慢移动的过程中\n（    ）\nA．电流表A1 示数减小\nB．电流表A2 示数增大\nC．原线圈输入功率先增大后减小\nD．定值电阻R 消耗的功率先减小后增大",
+      "answer": "A",
+      "analysis": "AB．由于原线圈所接电压恒定，匝数比恒定，故变压器副线圈的输出电压恒定，变\n阻器的滑片从a 端向b 端缓慢移动的过程中，由数学知识可知，变压器副线圈所接的电阻值\n逐渐增大，则由欧姆定律得\n2\n2\nU\nI\nR\n=\n副\n可知副线圈的电流逐渐减小，由\n1\n2\n2\n1\nn\nI\nn\nI\n=\n可知变压器原线圈的电流I1 也逐渐减小，故A 正确，B 错误；\nC．原线圈的输入功率为\n4 / 14\n1 1\nP\nU I\n=\n入\n由于I1 逐渐减小，则原线圈的输入功率逐渐减小，故C 错误；\nD．由于副线圈的电流逐渐减小，则定值电阻与变阻器右半部分并联的总电流减小，又与定\n值电阻并联的变阻器右半部分的电阻值减小，则由并联分流规律可知，流过定值电阻的电流\n逐渐减小，则由公式\n2\nRP\nI R\n=\n可知，定值电阻R 消耗的电功率逐渐减小，故D 错误。\n故选A。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -148,22 +187,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 3,
+        "endPage": 4,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q006-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q006-p003-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q07",
-      "content": "2021 年5 月，天问一号探测器软着陆火星取得成功，迈出了我国星际探测征程的重要一\n步。火星与地球公转轨道近似为圆，两轨道平面近似重合，且火星与地球公转方向相同。火\n星与地球每隔约26 个月相距最近，地球公转周期为12 个月。由以上条件可以近似得出（    ）\nA．地球与火星的动能之比\nB．地球与火星的自转周期之比\nC．地球表面与火星表面重力加速度大小之比\nD．地球与火星绕太阳运动的向心加速度大小之比\n【详解】A． 设地球和火星的公转周期分别为T1、T2 ，轨道半径分别为r1、r2，由开普勒第\n三定律可得\n3\n2\n1\n1\n3\n2\n2\n2\nr\nT\nr\nT\n=\n可求得地球与火星的轨道半径之比，由太阳的引力提供向心力，则有\n2\n2\nMm\nv\nG\nm\nr\nr\n=\n得\nGM\nv\nr\n=\n即地球与火星的线速度之比可以求得，但由于地球与火星的质量关系未知，因此不能求得地\n球与火星的动能之比，A 错误；\nB．则有地球和火星的角速度分别为\n1\n1\n2\nT\n\n=\n2\n2\n2\nT\n\n=\n由题意知火星和地球每隔约26 个月相距最近一次，又火星的轨道半径大于地球的轨道半径，\n则\n1\n2\n2\nt\nt\n\n\n\n−\n=\n5 / 14\n由以上可解得\n2\n156\n7\nT =\n月\n则地球与火星绕太阳的公转周期之比\nT1∶T2 =7∶13\n但不能求出两星球自转周期之比，B 错误；\nC．由物体在地球和火星表面的重力等于各自对物体的引力，则有\n2\nMm\nG\nmg\nR\n=\n得\n2\nGM\ng\nR\n=\n由于地球和火星的质量关系以及半径关系均未知，则两星球表面重力加速度的关系不可求，\nC 错误；\nD．地球与火星绕太阳运动的向心加速度由太阳对地球和火星的引力产生，所以向心加速度\n大小则有\n2\nMm\nG\nma\nr\n=\n得\n2\nGM\na\nr\n=\n由于两星球的轨道半径之比已知，则地球与火星绕太阳运动的向心加速度之比可以求得，D\n正确。\n故选D。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "2021 年5 月，天问一号探测器软着陆火星取得成功，迈出了我国星际探测征程的重要一\n步。火星与地球公转轨道近似为圆，两轨道平面近似重合，且火星与地球公转方向相同。火\n星与地球每隔约26 个月相距最近，地球公转周期为12 个月。由以上条件可以近似得出（    ）\nA．地球与火星的动能之比\nB．地球与火星的自转周期之比\nC．地球表面与火星表面重力加速度大小之比\nD．地球与火星绕太阳运动的向心加速度大小之比",
+      "answer": "D",
+      "analysis": "A． 设地球和火星的公转周期分别为T1、T2 ，轨道半径分别为r1、r2，由开普勒第\n三定律可得\n3\n2\n1\n1\n3\n2\n2\n2\nr\nT\nr\nT\n=\n可求得地球与火星的轨道半径之比，由太阳的引力提供向心力，则有\n2\n2\nMm\nv\nG\nm\nr\nr\n=\n得\nGM\nv\nr\n=\n即地球与火星的线速度之比可以求得，但由于地球与火星的质量关系未知，因此不能求得地\n球与火星的动能之比，A 错误；\nB．则有地球和火星的角速度分别为\n1\n1\n2\nT\n\n=\n2\n2\n2\nT\n\n=\n由题意知火星和地球每隔约26 个月相距最近一次，又火星的轨道半径大于地球的轨道半径，\n则\n1\n2\n2\nt\nt\n\n\n\n−\n=\n5 / 14\n由以上可解得\n2\n156\n7\nT =\n月\n则地球与火星绕太阳的公转周期之比\nT1∶T2 =7∶13\n但不能求出两星球自转周期之比，B 错误；\nC．由物体在地球和火星表面的重力等于各自对物体的引力，则有\n2\nMm\nG\nmg\nR\n=\n得\n2\nGM\ng\nR\n=\n由于地球和火星的质量关系以及半径关系均未知，则两星球表面重力加速度的关系不可求，\nC 错误；\nD．地球与火星绕太阳运动的向心加速度由太阳对地球和火星的引力产生，所以向心加速度\n大小则有\n2\nMm\nG\nma\nr\n=\n得\n2\nGM\na\nr\n=\n由于两星球的轨道半径之比已知，则地球与火星绕太阳运动的向心加速度之比可以求得，D\n正确。\n故选D。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -171,22 +218,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q08",
-      "content": "关于电场，下列说法正确的是（    ）\nA．电场是物质存在的一种形式\nB．电场力一定对正电荷做正功\nC．电场线是实际存在的线，反映电场强度的大小和方向\nD．静电场的电场线总是与等势面垂直，且从电势高的等势面指向电势低的等势面\n【详解】A．电场是存在于电荷周围的一种特殊媒介物质，A 正确；\nB．如果正电荷的速度方向与电场力的夹角大于90°，则电场力做负功，等于90°电场力不做\n功，小于90°电场力做正功，B 错误；\nC．电场线是为了形象地描绘电场而人为引入的一簇曲线，该曲线的疏密程度反映场强的大\n小，C 错误；\nD．静电场的电场线在空间上与等势面垂直，且沿电场线的方向电势降低，即由高等势面指\n向低等势面，D 正确。\n故选AD。\n6 / 14",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "关于电场，下列说法正确的是（    ）\nA．电场是物质存在的一种形式\nB．电场力一定对正电荷做正功\nC．电场线是实际存在的线，反映电场强度的大小和方向\nD．静电场的电场线总是与等势面垂直，且从电势高的等势面指向电势低的等势面",
+      "answer": "AD",
+      "analysis": "A．电场是存在于电荷周围的一种特殊媒介物质，A 正确；\nB．如果正电荷的速度方向与电场力的夹角大于90°，则电场力做负功，等于90°电场力不做\n功，小于90°电场力做正功，B 错误；\nC．电场线是为了形象地描绘电场而人为引入的一簇曲线，该曲线的疏密程度反映场强的大\n小，C 错误；\nD．静电场的电场线在空间上与等势面垂直，且沿电场线的方向电势降低，即由高等势面指\n向低等势面，D 正确。\n故选AD。\n6 / 14",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -194,22 +245,26 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q09",
-      "content": "一电中性微粒静止在垂直纸面向里的匀强磁场中，在某\n一时刻突然分裂成a、b 和c 三个微粒，a 和b 在磁场中做\n半径相等的匀速圆周运动，环绕方向如图所示，c 未在图中\n标出。仅考虑磁场对带电微粒的作用力，下列说法正确的是\n（    ）\nA．a 带负电荷\nB．b 带正电荷\nC．c 带负电荷\nD．a 和b 的动量大小一定相等\n【详解】ABC．由左手定则可知， 粒子a、粒子b 均带正\n电，电中性的微粒分裂的过程中，总的电荷量应保持不变，\n则粒子c 应带负电，A 错误，BC 正确；\nD．粒子在磁场中做匀速圆周运动时，洛伦兹力提供向心力，即\n2v\nqvB\nm\nR\n=\n解得\nmv\nR\nqB\n=\n由于粒子a 与粒子b 的质量、电荷量大小关系未知，则粒子a 与粒子b 的动量大小关系不确\n定，D 错误。\n故选BC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一电中性微粒静止在垂直纸面向里的匀强磁场中，在某\n一时刻突然分裂成a、b 和c 三个微粒，a 和b 在磁场中做\n半径相等的匀速圆周运动，环绕方向如图所示，c 未在图中\n标出。仅考虑磁场对带电微粒的作用力，下列说法正确的是\n（    ）\nA．a 带负电荷\nB．b 带正电荷\nC．c 带负电荷\nD．a 和b 的动量大小一定相等",
+      "answer": "BC",
+      "analysis": "ABC．由左手定则可知， 粒子a、粒子b 均带正\n电，电中性的微粒分裂的过程中，总的电荷量应保持不变，\n则粒子c 应带负电，A 错误，BC 正确；\nD．粒子在磁场中做匀速圆周运动时，洛伦兹力提供向心力，即\n2v\nqvB\nm\nR\n=\n解得\nmv\nR\nqB\n=\n由于粒子a 与粒子b 的质量、电荷量大小关系未知，则粒子a 与粒子b 的动量大小关系不确\n定，D 错误。\n故选BC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -217,22 +272,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 6,
+        "endPage": 6,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q009-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q009-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q10",
-      "content": "一列简谐横波沿 x 轴传播，在t = 0 时刻和\nt = 1 s 时刻的波形分别如图中实线和虚线所示。\n已知x = 0 处的质点在0～1 s 内运动的路程为4.5\ncm。下列说法正确的是（    ）\nA．波沿x 轴正方向传播\nB．波源振动周期为1.1 s\nC．波的传播速度大小为13 m/s\nD．t = 1 s 时，x = 6 m 处的质点沿y 轴负方向运\n动\n【详解】A．由题意，x =0 处的质点在0~1 s 的\n时间内通过的路程为4.5 cm，则结合图可知t =\n0 时刻x = 0 处的质点沿y 轴的负方向运动，则由质点的振动和波的传播方向关系可知，该波\n的传播方向沿x 轴的正方向，故A 正确；\nBC．由题意可知，t = 1 s 为13\n12 T，解得\n12 s\n13\nT =\n由图可知\n12m\n=\n则\n7 / 14\n12 m/s\n13m/s\n12\n13\nv\nT\n\n=\n=\n=\n故C 正确，B 错误；\nD．由同侧法可知t=1 s 时，x=6 m 处的质点沿y 轴正方向运动，故D 错误。\n故选AC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "一列简谐横波沿 x 轴传播，在t = 0 时刻和\nt = 1 s 时刻的波形分别如图中实线和虚线所示。\n已知x = 0 处的质点在0～1 s 内运动的路程为4.5\ncm。下列说法正确的是（    ）\nA．波沿x 轴正方向传播\nB．波源振动周期为1.1 s\nC．波的传播速度大小为13 m/s\nD．t = 1 s 时，x = 6 m 处的质点沿y 轴负方向运\n动",
+      "answer": "AC",
+      "analysis": "A．由题意，x =0 处的质点在0~1 s 的\n时间内通过的路程为4.5 cm，则结合图可知t =\n0 时刻x = 0 处的质点沿y 轴的负方向运动，则由质点的振动和波的传播方向关系可知，该波\n的传播方向沿x 轴的正方向，故A 正确；\nBC．由题意可知，t = 1 s 为13\n12 T，解得\n12 s\n13\nT =\n由图可知\n12m\n=\n则\n7 / 14\n12 m/s\n13m/s\n12\n13\nv\nT\n\n=\n=\n=\n故C 正确，B 错误；\nD．由同侧法可知t=1 s 时，x=6 m 处的质点沿y 轴正方向运动，故D 错误。\n故选AC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -240,22 +303,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q010-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q010-p006-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q11",
-      "content": "如图所示，一匀强电场E 大小未知、方向水平向\n右。两根长度均为L 的绝缘轻绳分别将小球M 和N 悬\n挂在电场中，悬点均为O。两小球质量均为m、带等量\n异号电荷，电荷量大小均为q（q＞0）。平衡时两轻绳\n与竖直方向的夹角均为θ = 45°。若仅将两小球的电荷\n量同时变为原来的2 倍，两小球仍在原位置平衡。已\n知静电力常量为k，重力加速度大小为g，下列说法正\n确的是（    ）\nA．M 带正电荷\nB．N 带正电荷\nC．q = L\nmg\nk\nD．q = 3L\nmg\nk\n【详解】AB．由题图可知，对小球M 受力分析如图（a）所示，对小球N 受力分析如图（b）\n所示，由受力分析图可知小球M 带负电，小球N 带正电，故B 正确，A 错误；\nCD．由几何关系可知，两小球之间的距离为r =\n2 L\n当两小球的电荷量为q 时，由力的平衡条件得\nmgtan45° = qE – kq2\nr2\n两小球的电荷量同时变为原来的2 倍后，由力的平衡条件得\nmgtan45° = 2qE – k(2q)2\nr2\n整理解得\nq = L\nmg\nk\n故C 正确，D 错误。\n故选BC。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图所示，一匀强电场E 大小未知、方向水平向\n右。两根长度均为L 的绝缘轻绳分别将小球M 和N 悬\n挂在电场中，悬点均为O。两小球质量均为m、带等量\n异号电荷，电荷量大小均为q（q＞0）。平衡时两轻绳\n与竖直方向的夹角均为θ = 45°。若仅将两小球的电荷\n量同时变为原来的2 倍，两小球仍在原位置平衡。已\n知静电力常量为k，重力加速度大小为g，下列说法正\n确的是（    ）\nA．M 带正电荷\nB．N 带正电荷\nC．q = L\nmg\nk\nD．q = 3L\nmg\nk",
+      "answer": "BC",
+      "analysis": "AB．由题图可知，对小球M 受力分析如图（a）所示，对小球N 受力分析如图（b）\n所示，由受力分析图可知小球M 带负电，小球N 带正电，故B 正确，A 错误；\nCD．由几何关系可知，两小球之间的距离为r =\n2 L\n当两小球的电荷量为q 时，由力的平衡条件得\nmgtan45° = qE – kq2\nr2\n两小球的电荷量同时变为原来的2 倍后，由力的平衡条件得\nmgtan45° = 2qE – k(2q)2\nr2\n整理解得\nq = L\nmg\nk\n故C 正确，D 错误。\n故选BC。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -263,22 +334,30 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 7,
+        "endPage": 7,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q011-p007-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q12",
-      "content": "（7 分）某同学假期在家里进行了重力加速度测量实验。如图（a）所示，将一根米尺竖\n直固定，在米尺零刻度处由静止释放实心小钢球，小球下落途经某位置时，使用相机对其进\n行拍照，相机曝光时间为1\n500 s。由于小球的运动，它在照片上留下了一条模糊的径迹。根\nT\nF 引\nmg\nF\n（a）\n（b）\nT\nF 引\nmg\nF\n8 / 14\n据照片中米尺刻度读出小球所在位置到释放点的距离H、小球在曝光时间内移动的距离Δl。\n计算出小球通过该位置时的速度大小v，进而得出重力加速度大小g。实验数据如下表：\n次数\n1\n2\n3\n4\n5\nΔl/cm\n0.85\n0.86\n0.82\n0.83\n0.85\nv/（m·s−1）\n4.25\n4.10\n4.15\n4.25\nH/m\n0.9181\n0.9423\n0.8530\n0.8860\n0.9231\n（1）测量该小球直径时，游标卡尺示数如图（b）所示，小球直径为________mm。\n（2）在第2 次实验中，小球下落H = 0.9423 m 时的速度大小v =________m/s（保留3 位有\n效数字）；第3 次实验测得的当地重力加速度大小g =________m/s2（保留3 位有效数字）。\n（3）可以减小本实验重力加速度大小测量误差的措施有_______。\nA．适当减小相机的曝光时间\nB．让小球在真空管中自由下落；\nC．用质量相等的实心铝球代替实心钢球\n【分析】本题考查重力加速度的测量，意在考查考生对实验原理的理解以及处理实验数据的\n能力。\n【详解】（1）由游标卡尺的读数规则可知，小球的直径为\n15mm 15 0.05mm",
+      "content": "（7 分）某同学假期在家里进行了重力加速度测量实验。如图（a）所示，将一根米尺竖\n直固定，在米尺零刻度处由静止释放实心小钢球，小球下落途经某位置时，使用相机对其进\n行拍照，相机曝光时间为1\n500 s。由于小球的运动，它在照片上留下了一条模糊的径迹。根\nT\nF 引\nmg\nF\n（a）\n（b）\nT\nF 引\nmg\nF\n8 / 14\n据照片中米尺刻度读出小球所在位置到释放点的距离H、小球在曝光时间内移动的距离Δl。\n计算出小球通过该位置时的速度大小v，进而得出重力加速度大小g。实验数据如下表：\n次数\n1\n2\n3\n4\n5\nΔl/cm\n0.85\n0.86\n0.82\n0.83\n0.85\nv/（m·s−1）\n4.25\n4.10\n4.15\n4.25\nH/m\n0.9181\n0.9423\n0.8530\n0.8860\n0.9231\n（1）测量该小球直径时，游标卡尺示数如图（b）所示，小球直径为________mm。\n（2）在第2 次实验中，小球下落H = 0.9423 m 时的速度大小v =________m/s（保留3 位有\n效数字）；第3 次实验测得的当地重力加速度大小g =________m/s2（保留3 位有效数字）。\n（3）可以减小本实验重力加速度大小测量误差的措施有_______。\nA．适当减小相机的曝光时间\nB．让小球在真空管中自由下落；\nC．用质量相等的实心铝球代替实心钢球",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "本题考查重力加速度的测量，意在考查考生对实验原理的理解以及处理实验数据的\n能力。\n（1）由游标卡尺的读数规则可知，小球的直径为\n15mm 15 0.05mm\n15.75mm\n+\n\n=\n（2）由题意可知，小球下落H =0.9423 m 时的速度\n2\n0.86 10\n m / s\n4.30?m / s\n1\n500\nl\nv\nT\n−\n\n\n=\n=\n=\n由运动学公式\n2\n2\nv\ngh\n=\n得\n2\n2\n2\n2\n4.10\nm/s\n9.85m/s\n2\n2 0.8530\nv\ng\nH\n=\n=\n=\n\n（3）A．小球下落一定高度时的瞬时速度近似为曝光时间内的平均速度，曝光时间越短，曝\n光时间内的平均速度越接近瞬时速度，实验误差越小，故A 正确；\nB．让小球在真空管中自由下落，可减小空气阻力的影响，可减小实验误差，故B 正确；\nC．质量相等的实心铝球代替实心钢球时，铝球体积更大，阻力对铝球的影响较大，实验误\n9 / 14\n差较大，故C 错误。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -286,45 +365,124 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 7,
+        "endPage": 9,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q012-p008-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q012-p008-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q13",
-      "content": "75mm\n+\n\n=\n（2）由题意可知，小球下落H =0.9423 m 时的速度\n2\n0.86 10\n m / s\n4.30?m / s\n1\n500\nl\nv\nT\n−\n\n\n=\n=\n=\n由运动学公式\n2\n2\nv\ngh\n=\n得\n2\n2\n2\n2\n4.10\nm/s\n9.85m/s\n2\n2 0.8530\nv\ng\nH\n=\n=\n=\n\n（3）A．小球下落一定高度时的瞬时速度近似为曝光时间内的平均速度，曝光时间越短，曝\n光时间内的平均速度越接近瞬时速度，实验误差越小，故A 正确；\nB．让小球在真空管中自由下落，可减小空气阻力的影响，可减小实验误差，故B 正确；\nC．质量相等的实心铝球代替实心钢球时，铝球体积更大，阻力对铝球的影响较大，实验误\n9 / 14\n差较大，故C 错误。\n13．（9 分）小明同学打算估测5 个相同规格电阻的阻值。现有一个量程为0.6 A 的电流表、\n一个电池组（电动势E 不大于4.5 V、内阻r 未知）、一个阻值为R0 的定值电阻、一个阻值\n为R1 的定值电阻（用作保护电阻），开关S 和导线若干。他设计了如图（a）所示的电路，实\n验步骤如下：\n第一步∶把5 个待测电阻分别单独接入A、B 之间，发现电流表的示数基本一致，据此他认\n为5 个电阻的阻值相等，均设为R。\n第二步∶取下待测电阻，在A、B 之间接入定值电阻R0，记下电流表的示数I0。\n第三步∶取下定值电阻R0，将n 个（n = 1，2，3，4，5）待测电阻串联后接入A、B 之间，\n记下串联待测电阻的个数n 与电流表对应示数In。\n请完成如下计算和判断∶\n（1）根据上述第二步，1\nI0 与R0、R1、E、r 的关系式是1\nI0 =___________。\n（2）定义Y = 1\nI0 − 1\nIn ，则Y 与n、R、R0、E 的关系式是Y =__________。\n（3）已知R0 = 12.0 Ω，实验测得I0 = 0.182 A，得到数据如下表∶\nn\n1\n2\n3\n4\n5\nIn/A\n0.334\n0.286\n0.250\n0.224\n0.200\nY/A−1\n2.500\n1.998\n1.495\n1.030\n0.495\n根据上述数据作出Y– n 图像，如图（b）所示，可得R =______Ω（保留2 位有效数字），同\n时可得E =______V（保留2 位有效数字）。\n（4）本实验中电流表的内阻对表中Y 的测量值_______影响（选填“有”或“无”）。\n【详解】（1）由闭合电路欧姆定律得\n0\n1\n0\n(\n)\nE\nI R\nR\nr\n=\n+\n+\n整理得\n1\nI0 = R1 + R0 + r\nE\n10 / 14\n（2）A、B 间接入n 个待测电阻后，由闭合电路欧姆定律得\n(\n)\n1\nn\nE\nI\nR\nnR\nr\n=\n+\n+\n又\n0\n1\n1\nn\nY\nI\nI\n=\n−\n由以上整理得\nY = R0 − nR\nE\n（3）由Y = R0 − nR\nE\n 变形得\n0\nR\nR\nY\nn\nE\nE\n= −\n+\n结合图（b）得\n1\n0.5?A\nR\nE\n−\n=\n1\n0\n3.0A\nR\nE\n−\n=\n又\n0\n12.0Ω\nR =\n解得\nE = 4.0 V，R = 2.0 Ω\n（4）如果考虑电流表的内阻，则有\n0\n1\n0\n(\nE\nI R\nR\n=\n+\n)\nr\nR\n+ +\n1\n(\n)\nn\nA\nE\nI R\nnR\nr\nR\n=\n+\n+ +\n整理得\n0\nR\nnR\nY\nE\n−\n=\n显然电流表的内阻对Y 的测量值没有影响。\n14．（9 分）质量为m 的薄壁导热柱形气缸，内壁光滑，用横截面积为S 的活塞封闭一定量\n的理想气体。在下述所有过程中，气缸不漏气且与活塞不脱离。当气缸如图（a）竖直倒立\n静置时。缸内气体体积为V1，温度为T1。已知重力加速度大小为g，大气压强为p0。\n（1）将气缸如图（b）竖直悬挂，缸内气体温度仍为T1，求此时缸内气体体积V2；\n（2）如图（c）所示，将气缸水平放置，稳定后对气缸缓慢加热，当缸内气体体积为V3 时，\n求此时缸内气体的温度。\n11 / 14\n【详解】（1）图（a）状态下，对气缸受力分析，如图1 所示，则封闭气体的压强为\n1\n0\nmg\np\np\nS\n=\n+\n当气缸按图（b）方式悬挂时，对气缸受力分析，如图2 所示，则封闭气体的压强为\n2\n0\nmg\np\np\nS\n=\n−\n对封闭气体由玻意耳定律得\n1\n1\n2\n2\np V\np V\n=\n解得\nV2 = p0S + mg\np0S − mg V1\n（2）当气缸按图（c）的方式水平放置时，封闭气体的压强为\np3 = p0\n由理想气体状态方程得\n3\n3\n1 1\n1\n3\np V\npV\nT\nT\n=\n解得\nT3 =\np0SV3T1\n(p0S + mg)V1\n12 / 14\n15．（15 分）如图所示，一圆心为O、半径\n为R 的光滑半圆弧轨道固定在竖直平面内，\n其下端与光滑水平面在Q 点相切。在水平面\n上，质量为m 的小物块A 以某一速度向质量\n也为m 的静止小物块B 运动。A、B 发生正碰\n后，B 到达半圆弧轨道最高点时对轨道压力恰\n好为零，A 沿半圆弧轨道运动到与O 点等高\n的C 点时速度为零。已知重力加速度大小为\ng，忽略空气阻力。\n（1）求B 从半圆弧轨道飞出后落到水平面的位置到Q 点的距离；\n（2）当A 由C 点沿半圆弧轨道下滑到D 点时，OD 与OQ 夹角为θ，求此时A 所受力对A\n做功的功率；\n（3）求碰撞过程中A 和B 损失的总动能。\n【详解】解：（1）设 B 到半圆弧轨道最高点时速度为v2，由于B 对轨道最高点的压力为零，\n则由牛顿第二定律得\n2\n2v\nmg\nm\nR\n\n=\nB 离开最高点后做平抛运动，则在竖直方向上有\n2\n1\n2\n2\nR\ngt\n=\n在水平方向上有\n2\nx\nv t\n\n=\n联立解得\nx = 2R\n（2）对A 由C 到D 的过程，由机械能守恒定律得\n2\n1\ncos\n2\nD\nmgR\nmv\n=\n由于对A 做功的力只有重力，则A 所受力对A 做功的功率为\nsin\nD\nP\nmgv\n\n=\n解得\nP = mgsinθ 2gRcosθ\n（3）设A、B 碰后瞬间的速度分别为v1，v2，对B 由Q 到最高点的过程，由机械能守恒定\n律得\n2\n2\n2\n2\n1\n1\n2\n2\n2\nmv\nmv\nmg\nR\n\n=\n+\n\n解得\n2\n5\nv\ngR\n=\n对A 由Q 到C 的过程，由机械能守恒定律得\n2\n1\n1\n2 mv\nmgR\n=\n13 / 14\n解得\n1\n2\nv\ngR\n=\n设碰前瞬间A 的速度为v0，对A、B 碰撞的过程，由动量守恒定律得\n0\n1\n2\nmv\nmv\nmv\n=\n+\n解得\n0\n2\n5\nv\ngR\ngR\n=\n+\n碰撞过程中A 和B 损失的总动能为\n2\n2\n2\n0\n1\n2\n1\n1\n1\n2\n2\n2\nmv\nm\nmv\nE\nv\n−\n−\n\n=\n解得\nΔE =\n10 mgR",
+      "content": "（9 分）小明同学打算估测5 个相同规格电阻的阻值。现有一个量程为0.6 A 的电流表、\n一个电池组（电动势E 不大于4.5 V、内阻r 未知）、一个阻值为R0 的定值电阻、一个阻值\n为R1 的定值电阻（用作保护电阻），开关S 和导线若干。他设计了如图（a）所示的电路，实\n验步骤如下：\n第一步∶把5 个待测电阻分别单独接入A、B 之间，发现电流表的示数基本一致，据此他认\n为5 个电阻的阻值相等，均设为R。\n第二步∶取下待测电阻，在A、B 之间接入定值电阻R0，记下电流表的示数I0。\n第三步∶取下定值电阻R0，将n 个（n = 1，2，3，4，5）待测电阻串联后接入A、B 之间，\n记下串联待测电阻的个数n 与电流表对应示数In。\n请完成如下计算和判断∶\n（1）根据上述第二步，1\nI0 与R0、R1、E、r 的关系式是1\nI0 =___________。\n（2）定义Y = 1\nI0 − 1\nIn ，则Y 与n、R、R0、E 的关系式是Y =__________。\n（3）已知R0 = 12.0 Ω，实验测得I0 = 0.182 A，得到数据如下表∶\nn\n1\n2\n3\n4\n5\nIn/A\n0.334\n0.286\n0.250\n0.224\n0.200\nY/A−1\n2.500\n1.998\n1.495\n1.030\n0.495\n根据上述数据作出Y– n 图像，如图（b）所示，可得R =______Ω（保留2 位有效数字），同\n时可得E =______V（保留2 位有效数字）。\n（4）本实验中电流表的内阻对表中Y 的测量值_______影响（选填“有”或“无”）。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）由闭合电路欧姆定律得\n0\n1\n0\n(\n)\nE\nI R\nR\nr\n=\n+\n+\n整理得\n1\nI0 = R1 + R0 + r\nE\n10 / 14\n（2）A、B 间接入n 个待测电阻后，由闭合电路欧姆定律得\n(\n)\n1\nn\nE\nI\nR\nnR\nr\n=\n+\n+\n又\n0\n1\n1\nn\nY\nI\nI\n=\n−\n由以上整理得\nY = R0 − nR\nE\n（3）由Y = R0 − nR\nE\n 变形得\n0\nR\nR\nY\nn\nE\nE\n= −\n+\n结合图（b）得\n1\n0.5?A\nR\nE\n−\n=\n1\n0\n3.0A\nR\nE\n−\n=\n又\n0\n12.0Ω\nR =\n解得\nE = 4.0 V，R = 2.0 Ω\n（4）如果考虑电流表的内阻，则有\n0\n1\n0\n(\nE\nI R\nR\n=\n+\n)\nr\nR\n+ +\n1\n(\n)\nn\nA\nE\nI R\nnR\nr\nR\n=\n+\n+ +\n整理得\n0\nR\nnR\nY\nE\n−\n=\n显然电流表的内阻对Y 的测量值没有影响。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
       "provenance": {
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
-        "page": 8,
-        "questionNumber": 15,
+        "page": 9,
+        "endPage": 10,
+        "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q013-p009-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q013-p009-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2021/2021湖北.pdf#q14",
-      "content": "（16 分）如图（a）所示，两根不计电阻、间距为 L 的足够长平行光滑金属导轨，竖直\n固定在匀强磁场中，磁场方向垂直于导轨平面向里，磁感应强度大小为 B。导轨上端串联非\n线性电子元件 Z 和阻值为 R 的电阻。元件Z 的 U–I 图像如图（b）所示，当流过元件 Z 的\n电流大于或等于 I0 时，电压稳定为 Um。质量为 m、不计电阻的金属棒可沿导轨运动，运\n动中金属棒始终水平且与导轨保持良好接触。忽略空气阻力及回路中的电流对原磁场的影响，\n重力加速度大小为g。为了方便计算，取 I0 = mg\n4BL ，Um = mgR\n2BL 。以下计算结果只能选用\nm、g、B、L、R 表示。\n（1）闭合开关S。，由静止释放金属棒，求金属棒下落的最大速度 v1；\n（2）断开开关S，由静止释放金属棒，求金属棒下落的最大速度 v2；\n（3）先闭合开关S，由静止释放金属棒，金属棒达到最大速度后，再断开开关 S。忽略回\n路中电流突变的时间，求S 断开瞬间金属棒的加速度大小 a。\n【详解】\n（1）闭合开关S，金属棒下落的过程中受竖直向下的重力、竖直向上的安培力作用，\n当重力与安培力大小相等时，金属棒的加速度为零，速度最大，则：mg = BI1L\n由法拉第电磁感应定律得：E1 = BLv1\n由欧姆定律得：\n1\n1\nE\nI\nR\n=\n14 / 14\n解得：v1 = mgR\nB2L2\n（2）由第（1）问得：\n1\nmg\nI\nBL\n=\n由于\n0\n1\nI\nI\n\n断开开关S 后，当金属棒的速度达到最大时，元件Z 两端的电压恒为\nm\n2\nmgR\nU\nBL\n=\n此时定值电阻两端的电压为\n2\nm\nR\nU\nBLv\nU\n=\n−\n回路中的电流为\n2\n1\nI\nI\n=\n又由欧姆定律得\n2\nR\nU\nI\nR\n=\n解得\nv2 = 3mgR\n2B2L2\n（3）开关S 闭合，当金属棒的速度最大时，金属棒产生的感应电动势为\n1\nmgR\nE\nBL\n=\n断开开关S 的瞬间，元件Z 两端的电压为\nm\n2\nmgR\nU\nBL\n=\n则定值电阻两端的电压为\n1\nm\n2\nR\nmgR\nU\nE\nU\nBL\n=\n−\n=\n电路中的电流为\nR\nU\nI\nR\n\n=\n金属棒受到的安培力为\nA\nF\nBI L\n\n=\n对金属棒由牛顿第二定律得\nA\nmg\nF\nma\n−\n=\n解得\na = g\n2",
+      "content": "（9 分）质量为m 的薄壁导热柱形气缸，内壁光滑，用横截面积为S 的活塞封闭一定量\n的理想气体。在下述所有过程中，气缸不漏气且与活塞不脱离。当气缸如图（a）竖直倒立\n静置时。缸内气体体积为V1，温度为T1。已知重力加速度大小为g，大气压强为p0。\n（1）将气缸如图（b）竖直悬挂，缸内气体温度仍为T1，求此时缸内气体体积V2；\n（2）如图（c）所示，将气缸水平放置，稳定后对气缸缓慢加热，当缸内气体体积为V3 时，\n求此时缸内气体的温度。\n11 / 14",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "（1）图（a）状态下，对气缸受力分析，如图1 所示，则封闭气体的压强为\n1\n0\nmg\np\np\nS\n=\n+\n当气缸按图（b）方式悬挂时，对气缸受力分析，如图2 所示，则封闭气体的压强为\n2\n0\nmg\np\np\nS\n=\n−\n对封闭气体由玻意耳定律得\n1\n1\n2\n2\np V\np V\n=\n解得\nV2 = p0S + mg\np0S − mg V1\n（2）当气缸按图（c）的方式水平放置时，封闭气体的压强为\np3 = p0\n由理想气体状态方程得\n3\n3\n1 1\n1\n3\np V\npV\nT\nT\n=\n解得\nT3 =\np0SV3T1\n(p0S + mg)V1\n12 / 14",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021湖北.pdf",
+        "page": 10,
+        "endPage": 12,
+        "questionNumber": 14,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q014-p011-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q014-p011-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q014-p011-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021湖北.pdf#q15",
+      "content": "（15 分）如图所示，一圆心为O、半径\n为R 的光滑半圆弧轨道固定在竖直平面内，\n其下端与光滑水平面在Q 点相切。在水平面\n上，质量为m 的小物块A 以某一速度向质量\n也为m 的静止小物块B 运动。A、B 发生正碰\n后，B 到达半圆弧轨道最高点时对轨道压力恰\n好为零，A 沿半圆弧轨道运动到与O 点等高\n的C 点时速度为零。已知重力加速度大小为\ng，忽略空气阻力。\n（1）求B 从半圆弧轨道飞出后落到水平面的位置到Q 点的距离；\n（2）当A 由C 点沿半圆弧轨道下滑到D 点时，OD 与OQ 夹角为θ，求此时A 所受力对A\n做功的功率；\n（3）求碰撞过程中A 和B 损失的总动能。",
+      "answer": "暂无结构化答案",
+      "analysis": "解：（1）设 B 到半圆弧轨道最高点时速度为v2，由于B 对轨道最高点的压力为零，\n则由牛顿第二定律得\n2\n2v\nmg\nm\nR\n\n=\nB 离开最高点后做平抛运动，则在竖直方向上有\n2\n1\n2\n2\nR\ngt\n=\n在水平方向上有\n2\nx\nv t\n\n=\n联立解得\nx = 2R\n（2）对A 由C 到D 的过程，由机械能守恒定律得\n2\n1\ncos\n2\nD\nmgR\nmv\n=\n由于对A 做功的力只有重力，则A 所受力对A 做功的功率为\nsin\nD\nP\nmgv\n\n=\n解得\nP = mgsinθ 2gRcosθ\n（3）设A、B 碰后瞬间的速度分别为v1，v2，对B 由Q 到最高点的过程，由机械能守恒定\n律得\n2\n2\n2\n2\n1\n1\n2\n2\n2\nmv\nmv\nmg\nR\n\n=\n+\n\n解得\n2\n5\nv\ngR\n=\n对A 由Q 到C 的过程，由机械能守恒定律得\n2\n1\n1\n2 mv\nmgR\n=\n13 / 14\n解得\n1\n2\nv\ngR\n=\n设碰前瞬间A 的速度为v0，对A、B 碰撞的过程，由动量守恒定律得\n0\n1\n2\nmv\nmv\nmv\n=\n+\n解得\n0\n2\n5\nv\ngR\ngR\n=\n+\n碰撞过程中A 和B 损失的总动能为\n2\n2\n2\n0\n1\n2\n1\n1\n1\n2\n2\n2\nmv\nm\nmv\nE\nv\n−\n−\n\n=\n解得\nΔE =\n10 mgR",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2021,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2021/2021湖北.pdf",
+        "page": 12,
+        "endPage": 13,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q015-p012-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q015-p012-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2021/2021湖北.pdf#q16",
+      "content": "（16 分）如图（a）所示，两根不计电阻、间距为 L 的足够长平行光滑金属导轨，竖直\n固定在匀强磁场中，磁场方向垂直于导轨平面向里，磁感应强度大小为 B。导轨上端串联非\n线性电子元件 Z 和阻值为 R 的电阻。元件Z 的 U–I 图像如图（b）所示，当流过元件 Z 的\n电流大于或等于 I0 时，电压稳定为 Um。质量为 m、不计电阻的金属棒可沿导轨运动，运\n动中金属棒始终水平且与导轨保持良好接触。忽略空气阻力及回路中的电流对原磁场的影响，\n重力加速度大小为g。为了方便计算，取 I0 = mg\n4BL ，Um = mgR\n2BL 。以下计算结果只能选用\nm、g、B、L、R 表示。\n（1）闭合开关S。，由静止释放金属棒，求金属棒下落的最大速度 v1；\n（2）断开开关S，由静止释放金属棒，求金属棒下落的最大速度 v2；\n（3）先闭合开关S，由静止释放金属棒，金属棒达到最大速度后，再断开开关 S。忽略回\n路中电流突变的时间，求S 断开瞬间金属棒的加速度大小 a。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）闭合开关S，金属棒下落的过程中受竖直向下的重力、竖直向上的安培力作用，\n当重力与安培力大小相等时，金属棒的加速度为零，速度最大，则：mg = BI1L\n由法拉第电磁感应定律得：E1 = BLv1\n由欧姆定律得：\n1\n1\nE\nI\nR\n=\n14 / 14\n解得：v1 = mgR\nB2L2\n（2）由第（1）问得：\n1\nmg\nI\nBL\n=\n由于\n0\n1\nI\nI\n\n断开开关S 后，当金属棒的速度达到最大时，元件Z 两端的电压恒为\nm\n2\nmgR\nU\nBL\n=\n此时定值电阻两端的电压为\n2\nm\nR\nU\nBLv\nU\n=\n−\n回路中的电流为\n2\n1\nI\nI\n=\n又由欧姆定律得\n2\nR\nU\nI\nR\n=\n解得\nv2 = 3mgR\n2B2L2\n（3）开关S 闭合，当金属棒的速度最大时，金属棒产生的感应电动势为\n1\nmgR\nE\nBL\n=\n断开开关S 的瞬间，元件Z 两端的电压为\nm\n2\nmgR\nU\nBL\n=\n则定值电阻两端的电压为\n1\nm\n2\nR\nmgR\nU\nE\nU\nBL\n=\n−\n=\n电路中的电流为\nR\nU\nI\nR\n\n=\n金属棒受到的安培力为\nA\nF\nBI L\n\n=\n对金属棒由牛顿第二定律得\nA\nmg\nF\nma\n−\n=\n解得\na = g\n2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2021,
       "subject": "物理",
@@ -332,11 +490,27 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2021/2021湖北.pdf",
         "page": 13,
+        "endPage": 14,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q016-p013-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-152e01bb230c82fc-q016-p013-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 12,
+    "answerGraphics": 0,
+    "assigned": 12,
+    "rendered": 12,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

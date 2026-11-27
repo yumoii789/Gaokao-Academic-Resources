@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2003/2003河南.pdf",
   "name": "2003河南",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 4,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 22,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 22,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q01",
       "content": "若圆C 与圆\n2\n2\n(\n2)\n(\n1)\n1\nx\ny\n+\n+\n−\n=\n关于原点对称，则圆C 的方程为\nA.\n2\n2\n(\n2)\n(\n1)\n1\nx\ny\n−\n+\n+\n=\nB.\n2\n2\n(\n2)\n(\n1)\n1\nx\ny\n−\n+\n−\n=\nC.\n2\n2\n(\n1)\n(\n2)\n1\nx\ny\n−\n+\n+\n=\nD.\n2\n2\n(\n1)\n(\n2)\n1\nx\ny\n+\n+\n−\n=",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q02",
       "content": "抛物线\n2\ny\nax\n=\n的准线方程是\n2\ny =\n，则a 的值为\nA. 1\n8\nB.\n1\n8\n−\nC.8\nD.﹣8",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q03",
       "content": "已知\n(\n2\nx\nπ\n∈−\n，0) ，\n5\n4\ncos\n=\nx\n，则tan 2x =\nA. 24\n7\nB.\n7\n24\n−\nC. 7\n24\nD.\n24\n7\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q04",
       "content": "已知四边形ABCD 是菱形，点P 在对角线AC 上（不包括端点A 、C ），则AP =\n\nA. (\n)\nAB\nAD\nλ\n+\n\n\n，\n(0\nλ ∈\n，1)\nB. (\n)\nAB\nBC\nλ\n+\n\n\n，\n(0\nλ ∈\n，\n2 )\n2\nC. (\n)\nAB\nAD\nλ\n−\n\n\n，\n(0\nλ ∈\n，1)\nD. (\n)\nAB\nBC\nλ\n−\n\n\n，\n(0\nλ ∈\n，\n2 )\n2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -102,22 +131,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q05",
       "content": "设函数\n\n\n\n>\n≤\n−\n=\n−\n)\n0\n(\n)\n0\n(1\n2\n)\n(\n2\n1\nx\nx\nx\nx\nf\nx\n，若\n1\n)\n(\n0 >\nx\nf\n，则\n0x 的取值范围是\nA.\n1\n(−，)1\nB.\n1\n(−，\n)\n∞\n+\nC. −∞\n(\n，\n0\n(\n)\n2 \n−\n，\n)\n∞\n+\nD. −∞\n(\n，\n1(\n)1 \n−\n，\n)\n∞\n+",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -125,22 +160,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q06",
       "content": "等差数列{\n}\nna\n中，已知\n1\n1\n3\na =\n，\n2\n5\n4\na\na\n+\n=\n，\n33\nna =\n，则n 为\nA.48\nB.49\nC.50\nD.51",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -148,22 +189,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q07",
       "content": "函数\n1\nln\n1\nx\ny\nx\n+\n=\n−\n，\n1(\n∈\nx\n，\n)\n∞\n+\n的反函数为\nA.\n1\n1\nx\nx\ne\ny\ne\n−\n=\n+\n，\n0\n(\n∈\nx\n，\n)\n∞\n+\nB.\n1\n1\nx\nx\ne\ny\ne\n+\n=\n−\n，\n0\n(\n∈\nx\n，\n)\n∞\n+\nC.\n1\n1\nx\nx\ne\ny\ne\n−\n=\n+\n，\n−∞\n∈(\nx\n，)\n0\nD.\n1\n1\nx\nx\ne\ny\ne\n+\n=\n−\n，\n−∞\n∈(\nx\n，)\n0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -171,22 +218,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q08",
       "content": "棱长为a 的正方体中，连结相邻面的中心，以这些线段为棱的八面体的体积为\nA. 3\n3\na\nB. 4\n3\na\nC. 6\n3\na\nD. 12\n3\na",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -194,22 +247,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q09",
       "content": "设\n0\na >\n，\n2\n( )\nf x\nax\nbx\nc\n=\n+\n+\n，曲线\n)\n(x\nf\ny =\n在点\n0\n(x\nP\n，\n))\n(\n0x\nf\n处的切线的倾\n斜角的取值范围为0\n[ ，\n]\n4\nπ ，则P 到曲线\n)\n(x\nf\ny =\n对称轴距离的取值范围为\nA.[0 ，1]\na\nB.[0 ，1 ]\n2a\nC.[0 ，|\n|]\n2\nb\na\nD.[0 ，\n1\n|\n|]\n2\nb\na\n−",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -217,22 +276,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q10",
       "content": "已知双曲线中心在原点且一个焦点为\n( 7\nF\n，0) ，直线\n1\ny\nx\n=\n−与其相交于M\nN\n、\n两点，MN 中点的横坐标为\n2\n3\n−\n，则此双曲线的方程是\nA.\n1\n4\n3\n2\n2\n=\n−y\nx\nB.\n1\n3\n4\n2\n2\n=\n−y\nx\nC.\n1\n2\n5\n2\n2\n=\n−y\nx\nD.\n1\n5\n2\n2\n2\n=\n−y\nx",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -240,22 +305,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q11",
       "content": "已知长方形的四个顶点\n(0\nA\n，0) ，(2\nB\n，0) ，(2\nC\n，1) 和\n(0\nD\n，1) .一质点从AB\n的中点\n0P 沿与AB 夹角为θ 的方向射到BC 上的点\n1P 后，依次反射到CD 、DA 和\nAB 上的点\n2P ，3P 和\n4P（入射角等于反射角）.设\n4P 的坐标为\n4\n(x ，0) ，若\n4\n1\n2\nx\n<\n<\n，\n则\nθ\ntan\n的取值范围是\nA. 1\n(3\n，1)\nB. 1\n(3\n，2\n3）\nC. 2\n(5\n，1)\n2\nD. 2\n(5\n，2)\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -263,22 +334,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q12",
       "content": "一个四面体的所有棱长都为\n2 ，四个顶点在同一球面上，则此球的表面积为\nA.3π\nB. 4π\nC.3 3π\nD.6π",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -286,22 +363,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q13",
       "content": "9\n2\n)\n2\n1\n(\nx\nx −\n展开式中\n9\nx 的系数是________________.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -309,22 +392,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q14",
       "content": "某公司生产三种型号的轿车，产量分别为1200 辆，6000 辆和2000 辆.为检验该公\n司的产品质量，现用分层抽样的方法抽取46 辆进行检验，这三种型号的轿车依次应\n抽取______、__________、__________辆.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -332,22 +421,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q15",
       "content": "对于四面体ABCD ，给出下列四个命题：①若AB\nAC\n=\n，BD\nCD\n=\n，则\nBC\nAD\n⊥\n；②若AB\nCD\n=\n，AC\nBD\n=\n，则BC\nAD\n⊥\n；③若AB\nAC\n⊥\n，\nBD\nCD\n⊥\n，则BC\nAD\n⊥\n；④若AB\nCD\n⊥\n，BD\nAC\n⊥\n，则BC\nAD\n⊥\n.其中真\n命题的序号是________．（写出所有真命题的序号）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -355,22 +450,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q16",
       "content": "将三种作物种植在如图的5 块试验田里，每块种植一种作物且相邻的试验田不能种\n植同一作物，不同的种植方法共有________种（以数字作答）.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -378,22 +479,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q016-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q016-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q17",
       "content": "已知函数\n)\ncos\n(sin\nsin\n2\n)\n(\nx\nx\nx\nx\nf\n+\n=\n.\n⑴求函数\n)\n(x\nf\n的最小正周期和最大值；\n⑵在给出的直角坐标系中，画出函数\n)\n(x\nf\ny =\n在区间[\n2\nπ\n−\n，\n]\n2\nπ 上的图象.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -401,22 +512,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q18",
       "content": "有三种产品，合格率分别是0.90，0.95 和0.95，各抽取一件进行检验．\n⑴求恰有一件不合格的概率；\n⑵求至少有两件不合格的概率．（精确到0.001）",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -424,22 +541,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q018-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q018-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q19",
       "content": "如图，在直三棱柱\n1\n1\n1\nABC\nA B C\n−\n中，底面是等腰直角三角形，\n90\nACB\n∠\n=\n°，侧\n棱\n1\n2\nAA =\n，D\nE\n、\n分别是\n1\nCC 与\n1A B 的中点，点E 在平面ABD 上的射影是\nABD\n∆\n的重心G .\n⑴求\n1A B 与平面ABD 所成角的大小（结果用反三角函数值表示）；\n⑵求点\n1A 到平面AED 的距离.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -447,22 +574,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q019-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-abb06e075739b2c5-q019-p003-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q20",
       "content": "已知\n0\nc >\n，设P ：函数\nx\ny\nc\n=\n在R 上单调递减，Q ：不等式\n|\n2 | 1\nx\nx\nc\n+\n−\n> 的解\n集为R .如果P 和Q 有且仅有一个正确，求c 的取值范围.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -470,22 +607,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q21",
       "content": "已知常数\n0\na >\n，向量\n(0\nc =\n\n，)\na ，\n(1\ni =\n\n，0) ，经过原点O 以c\ni\nλ\n+ \n\n为方向向量\n的直线与经过定点\n(0\nA\n，)\na 以\n2\ni\nc\nλ\n−\n\n为方向向量的直线相交于点P ，其中\nR\nλ ∈\n.\n试问：是否存在两个定点E\nF\n、\n，使得|\n|\n|\n|\nPE\nPF\n+\n为定值.若存在，求出E\nF\n、\n的\n坐标；若不存在，说明理由.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -493,22 +636,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2003/2003河南.pdf#q22",
       "content": "已知\n0\na >\n，n 为正整数．\n⑴设\n(\n)n\ny\nx\na\n=\n−\n，证明\n1\n(\n)n\ny\nn x\na\n−\n′ =\n−\n；\n⑵设\n( )\n(\n)\nn\nn\nnf\nx\nx\nx\na\n=\n−\n−\n，对任意n\na\n≥\n，证明\n1(\n1)\n(\n1)\n( )\nn\nn\nf\nn\nn\nf\nn\n+′\n′\n+\n>\n+\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2003,
       "subject": "数学",
@@ -516,11 +665,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2003/2003河南.pdf",
         "page": 4,
+        "endPage": 4,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 2,
+    "answerGraphics": 0,
+    "assigned": 2,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 1
+  }
 }

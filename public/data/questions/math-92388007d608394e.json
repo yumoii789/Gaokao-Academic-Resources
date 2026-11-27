@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:春季高考/2018/2018春季上海.pdf",
   "name": "2018春季上海",
   "track": "spring",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 1,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 21,
+    "sourceAnswers": 21,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q01",
       "content": "不等式|\n|\n1\nx 的解集为",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(\n, 1)\n(1,\n)\n\n\n",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -33,22 +44,29 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q02",
       "content": "计算：\n3\n1\nlim\n2\nn\nn\nn\n\n\n\n",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -56,22 +74,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q03",
       "content": "设集合\n{ | 0\n2}\nA\nx\nx\n\n\n\n，\n{ | 1\n1}\nB\nx\nx\n\n\n\n，则A\nB \n",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "(0,1)",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -79,22 +103,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q04",
       "content": "若复数\n1\ni\nz （i 是虚数单位），则\n2\nz\nz\n\n",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "2",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -102,22 +132,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q05",
       "content": "已知{\n}\nna\n是等差数列，若\n2\n8\n10\na\na\n\n\n，则\n3\n5\n7\na\na\na\n\n\n",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "15",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -125,22 +161,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q06",
       "content": "已知平面上动点P 到两个定点(1,0) 和( 1,0)\n\n的距离之和等于4，则动点P 的轨迹方程为",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "2\n2\n1\n4\n3\nx\ny\n\n",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -148,22 +190,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q07",
       "content": "如图，在长方体\n1\n1\n1\n1\nABCD\nA B C D\n\n中，\n3\nAB \n，\n4\nBC \n，\n1\n5\nAA \n，O 是\n1\n1\nAC 的中点，则三棱锥\n1\n1\nA\nAOB\n\n的体积为\n（第7 题）\n（第12 题）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "5",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -171,22 +219,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q007-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q007-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q007-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q08",
       "content": "某校组队参加辩论赛，从6 名学生中选出4 人分别担任一、二、三、四辩，若其中学生甲必须参赛\n且不担任四辩，则不同的安排方法种数为\n（结果用数值表示）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "180",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -194,22 +253,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q09",
       "content": "设a R ，若\n2\n9\n2\n(\n)\nx\nx\n\n与\n9\n2\n(\n)\na\nx\nx\n\n的二项展开式中的常数项相等，则a ",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "4",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -217,22 +282,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q10",
       "content": "设mR ，若z 是关于x 的方程\n2\n2\n1\n0\nx\nmx\nm\n\n\n\n的一个虚根，则|\n|\nz 的取值范围是",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "3\n(\n,\n)\n3\n",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -240,22 +311,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q11",
       "content": "设\n0\na \n，函数\n( )\n2(1\n)sin(\n)\nf x\nx\nx\nax\n\n\n\n，\n(0,1)\nx \n，若函数\n2\n1\ny\nx\n\n与\n( )\ny\nf x\n\n的图像有且仅有\n两个不同的公共点，则a 的取值范围是",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "11\n19\n(\n,\n]\n6\n6\n\n",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -263,22 +340,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q12",
-      "content": "如图，正方形ABCD 的边长为20 米，圆O 的半径为1 米，圆心是正方形的中心，点P、Q 分别在线段\nAD、CB 上，若线段PQ 与圆O 有公共点，则称点Q 在点P 的“盲区”中，已知点P 以1.5 米/秒的速度从\nA 出发向D 移动，同时，点Q 以1 米/秒的速度从C 出发向B 移动，则在点P 从A 移动到D 的过程中，点\nQ 在点P 的盲区中的时长约为\n秒（精确到0.1）\n2 / 7\n二. 选择题（本大题共4 题，每题5 分，共20 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "如图，正方形ABCD 的边长为20 米，圆O 的半径为1 米，圆心是正方形的中心，点P、Q 分别在线段\nAD、CB 上，若线段PQ 与圆O 有公共点，则称点Q 在点P 的“盲区”中，已知点P 以1.5 米/秒的速度从\nA 出发向D 移动，同时，点Q 以1 米/秒的速度从C 出发向B 移动，则在点P 从A 移动到D 的过程中，点\nQ 在点P 的盲区中的时长约为\n秒（精确到0.1）\n2 / 7",
+      "answer": "4.4",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -286,22 +369,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q012-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q012-p001-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q13",
       "content": "下列函数中，为偶函数的是（\n）\nA.\n2\ny\nx\n\nB.\n1\n3\ny\nx\n\nC.\n1\n2\ny\nx\n\n\nD.\n3\ny\nx\n",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -309,22 +402,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q14",
       "content": "如图，在直三棱柱\n1\n1\n1\nABC\nA B C\n\n的棱所在的直线中，与直线\n1\nBC 异面的直线的条数为（\n）\nA. 1\nB. 2\nC. 3\nD. 4",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "C",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -332,22 +431,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q014-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q014-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q15",
       "content": "设\nn\nS 为数列{\n}\nna\n的前n 项和，“{\n}\nna\n是递增数列”是“{\n}\nn\nS\n是递增数列”的（\n）\nA. 充分非必要条件\nB. 必要非充分条件\nC. 充要条件\nD. 既非充分又非必要条件",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "D",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -355,22 +464,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q015-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q015-p002-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q16",
-      "content": "已知A、B 为平面上的两个定点，且|\n| 2\nAB \n\n，该平面上的动线段PQ 的端点P 、Q ，满足|\n| 5\nAP \n\n，\n6\nAP AB\n\n\n\n，\n2\nAQ\nAP\n\n\n\n，则动线段PQ 所形成图形的面积为（\n）\nA. 36\nB. 60\nC. 72\nD. 108\n三. 解答题（本大题共5 题，共14+14+14+16+18=76 分）",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "content": "已知A、B 为平面上的两个定点，且|\n| 2\nAB \n\n，该平面上的动线段PQ 的端点P 、Q ，满足|\n| 5\nAP \n\n，\n6\nAP AB\n\n\n\n，\n2\nAQ\nAP\n\n\n\n，则动线段PQ 所形成图形的面积为（\n）\nA. 36\nB. 60\nC. 72\nD. 108",
+      "answer": "B",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -378,22 +497,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q17",
       "content": "已知\ncos\ny\nx\n\n.\n（1）若\n1\n( )\n3\nf \n，且\n[0, ]\n\n\n\n，求\n(\n)\n3\nf\n\n\n的值；\n（2）求函数\n(2 )\n2 ( )\ny\nf\nx\nf x\n\n\n的最小值.\n3 / 7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）1\n2 6\n6\n\n；（2）\n3\n2\n\n.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -401,22 +526,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 2,
+        "endPage": 3,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q18",
       "content": "已知a\nR\n\n，双曲线\n2\n2\n2\n:\n1\nx\ny\na\n\n\n\n.\n（1）若点(2,1) 在上，求的焦点坐标；\n（2）若\n1\na ，直线\n1\ny\nkx\n\n与相交于A、B 两点，且线段AB 中点的横坐标为1，求实数k 的值.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）( 3,0) ，(\n3,0)\n\n；（2）\n5\n1\n2\n.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -424,22 +555,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 3,
+        "endPage": 3,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q19",
       "content": "利 用 “ 平 行 于 圆锥 母 线 的 平 面 截 圆锥 面 , 所 得 截 线 是 抛 物 线 “ 的 几 何 原 理 , 某 快 餐 店 用 两 个 射 灯 ( 射 出\n的 光 锥 为 圆 锥 〉 在 广 告 牌 上 投 影 出 其 标 识 , 如 图 1 所 示 , 图 2 是 投 影 射 出 的 抛 物 线 的 平 面 图 , 图 3 是 一 个\n射 灯 投 影 的 直 观 图 , 在 图 2 与 图 3 中 , 点 0 、 、 五 在 抛 物 线 上 ,OC 是 抛 物 线 的 对 称 轶 ,OC L 48 于 C ,\n4B =3 米 ,0C=4.5 米 .\n(1) 求 抛 物 线 的 焦 点 到 准 线 的 距 离 ;\n(2) 在 图 3 中 , 已 知 OC 平 行 于 圆 锥 的 母 线 SD ,4B DE 是 圆 锥 底 面 的 直 径 , 求 圆 锥 的 母 线 与 轶 的 夹 角\n的 大 小 ( 精 确 到 0.01° ) .\n5\nE 30\n1 一 八 pad)\ni ) RAN ---3E\n1 4 C B hy =\n(ED ( 图 2 ( 图 3\n4/7\n5 / 7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）1\n4\n；（2）9.59°.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "OCR待校对"
+        "OCR待校对",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -447,22 +584,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 4,
+        "endPage": 5,
         "questionNumber": 19,
         "extraction": "ocr",
         "confidence": 86,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "OCR待校对",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q019-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-92388007d608394e-q019-p004-f01.jpg"
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q20",
       "content": "设\n0\na \n，函数\n1\n( )\n1\n2x\nf x\na\n\n\n\n.\n（1）若\n1\na ，求\n( )\nf x 的反函数\n1( )\nf\nx\n\n；\n（2）求函数\n( )\n(\n)\ny\nf x\nf\nx\n\n\n\n的最大值（用a 表示）；\n（3）设( )\n( )\n(\n1)\ng x\nf x\nf x\n\n\n\n，若对任意\n(\n,0]\nx \n，( )\n(0)\ng x\ng\n\n恒成立，求a 取值范围.\n6 / 7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）\n1\n2\n1\n( )\nlog\nx\nf\nx\nx\n\n\n\n（0\n1\nx\n\n\n）；（2）\nmax\n2\n1\n(1+ )\ny\na\n\n（当\n0\nx \n时取到）；（3）(0, 2] .",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -470,22 +618,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 5,
+        "endPage": 6,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:春季高考/2018/2018春季上海.pdf#q21",
       "content": "若{ }\nnc\n是递增数列，数列{\n}\nna\n满足：对任意\n*\nn\nN\n\n，存在\n*\nm\nN\n\n，使得\n1\n0\nm\nn\nm\nn\na\nc\na\nc \n\n\n\n，则称{\n}\nna\n是{ }\nnc\n的“分隔数列”.\n（1）设\n2\nnc\nn\n\n，\n1\nna\nn\n\n，证明：数列{\n}\nna\n是{ }\nnc\n的分隔数列；\n（2）设\n4\nnc\nn\n\n\n，\nn\nS 是{ }\nnc\n的前n 项和，\n3\n2\nn\nn\nd\nc\n\n\n，判断数列{\n}\nn\nS\n是否是数列{\n}\nn\nd\n的分隔数列，并说\n明理由；\n（3）设\n1\nn\nnc\naq \n\n，\nnT 是{ }\nnc\n的前n 项和，若数列{ }\nnT\n是{ }\nnc\n的分隔数列，求实数a 、q 的取值范围.\n7 / 7",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）证明略；（2）不是，反例：\n4\nn \n时，m 无解；（3）\n0\n2\na\nq\n\n\n\n\n.",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "春季高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2018,
       "subject": "数学",
@@ -493,11 +647,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:春季高考/2018/2018春季上海.pdf",
         "page": 6,
+        "endPage": 7,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 3,
+    "answerGraphics": 0,
+    "assigned": 4,
+    "rendered": 6,
+    "scanPages": 1,
+    "scanRegions": 1,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

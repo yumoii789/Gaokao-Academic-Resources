@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2011/2011陕西理.pdf",
   "name": "2011陕西理",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 21,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 21,
+    "shortQuestions": 1
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q01",
       "content": "设a, b 是向量, 命题“若a = −b, 则|a| = |b|”的逆命题是\n(\n)\n(A) 若a̸ = −b, 则|a|̸ = |b|\n(B) 若a = −b, 则|a|̸ = |b|\n(C) 若|a|̸ = |b|, 则a̸ = −b\n(D) 若|a| = |b|, 则a = −b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -33,22 +44,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q001-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q001-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q02",
       "content": "设抛物线的顶点在原点, 准线方程为x = −2, 则抛物线的方程是\n(\n)\n(A) y2 = −8x\n(B) y2 = −4x\n(C) y2 = 8x\n(D) y2 = 4x",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -56,22 +77,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q03",
       "content": "设函数f (x) (x ∈R) 满足f (−x) = f (x), f (x + 2) = f (x), 则y = f (x)\n的图象可能是\n(\n)\n(A)\nx\n2\n1\n−2 −1\ny\nO\n(B)\nx\n2\n1\n−2 −1\ny\nO\n(C)\nx\n4\n2\n−4 −2\ny\nO\n(D)\nx\n4\n2\n−4 −2\ny\nO",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -79,22 +106,35 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q003-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q003-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q003-p001-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q003-p001-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q04",
       "content": "(4x −2−x)\n6 (x ∈R) 展开式中的常数项是\n(\n)\n(A) −20\n(B) −15\n(C) 15\n(D) 20",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -102,22 +142,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q05",
       "content": "某几何体的三视图如图所示, 则它的体积是\n(\n)\n俯视图\n主视图\n左视图\n2\n2\n2\n•\n(A) 8 −2π\n3\n(B) 8 −π\n3\n(C) 8 −2π\n(D) 2π\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -125,22 +171,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q005-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q005-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q06",
       "content": "函数f (x) = √x −cos x 在[0, +∞) 内\n(\n)\n(A) 没有零点\n(B) 有且仅有一个零点\n(C) 有且仅有两个零点\n(D) 有无穷多个零点",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -148,22 +205,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q07",
       "content": "设集合M =\n{\ny\n��y = | cos2 x −sin2 x|, x ∈R\n}\n, N =\n{\nx\n����\n����x −1\ni\n����<\n√\n2, i\n为虚数单位, x ∈R\n}\n, 则M ∩N 为\n(\n)\n(A) (0, 1)\n(B) (0, 1]\n(C) [0, 1)\n(D) [0, 1]",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -171,22 +234,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q08",
       "content": "如图, x1, x2, x3 为某次考试三个评阅人对同一道题的独立评分, p 为该题\n的最终得分, 当x1 = 6, x2 = 9, p = 8.5 时, x3 等于\n(\n)\n开始\n输入x1, x2\n|x1 −x2| ⩽2\n输入x3\n|x3 −x1| < |x3 −x2|\nx1 = x3\nx2 = x3\np = x1 + x2\n2\n输出p\n结束\n否\n否\n是\n是\n(A) 11\n(B) 10\n(C) 8\n(D) 7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -194,22 +263,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q09",
       "content": "设(x1, y1), (x2, y2), · · · , (xn, yn) 是变量x 和y 的n 个样本点, 直线l 是\n由这些样本点通过最小二乘法得到的线性回归直线(如图), 以下结论中正\n确的是\n(\n)\nx\ny\nl\nO\n(A) x 和y 的相关系数为直线l 的斜率\n(B) x 和y 的相关系数在0 到1 之间\n(C) 当n 为偶数时, 分布在l 两侧的样本点的个数一定相同\n(D) 直线l 过点(¯x, ¯y)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -217,22 +296,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q009-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q009-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q10",
       "content": "甲、乙两人一起去游“2011 西安世园会”, 他们约定, 各自独立地从1 到6\n号景点中任选4 个进行游览, 每个景点参观1 小时, 则最后一小时他们同\n在一个景点的概率是\n(\n)\n(A) 1\n36\n(B) 1\n9\n(C) 5\n36\n(D) 1\n6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -240,22 +329,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q11",
       "content": "设(x) =\n\n\n\n\n\nlg x,\nx > 0,\nx +\n∫a\n0\n3t2dt,\nx ⩽0.\n若f (f (1)) = 1, 则a =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -263,22 +358,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q12",
       "content": "设n ∈N+, 一元二次方程x2 −4x + n = 0 有整数根的充要条件是\nn =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -286,22 +387,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q13",
       "content": "观察下列等式\n1 = 1\n2 + 3 + 4 = 9\n3 + 4 + 5 + 6 + 7 = 25\n4 + 5 + 6 + 7 + 8 + 9 + 10 = 49\n· · ·\n照此规律, 第n 个等式应为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -309,22 +416,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q14",
       "content": "植树节某班20 名同学在一段直线公路一侧植树, 每人植一棵, 相邻两棵树\n相距10 米, 开始时需将树苗集中放置在某一树坑旁边, 使每位同学从各自\n树坑出发前来领取树苗往返所走的路程总和最小, 这个最小值为\n米.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -332,22 +445,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q15",
       "content": "三选一.\n【A】若关于x 的不等式|a| ⩾|x + 1| + |x −2| 存在实数解, 则实数a 的取\n值范围是\n.\n【B】如图, ∠B = ∠D, AE ⊥BC, ∠ACD = 90◦, 且AB = 6, AC = 4,\nAD = 12, 则BE =\n.\nA\nE\nC\nB\nD\n【C】直角坐标系xOy 中, 以原点为极点, x 轴正半轴为极轴建立极坐标系,\n设点A, B 分别在曲线C1:\n{\nx = 3 + cos θ,\ny = 4 + sin θ,\n(θ 为参数) 和曲线C2: ρ = 1\n上, 则|AB| 的最小值为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -355,22 +474,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q015-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q015-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q015-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q16",
       "content": "如图, 在△ABC 中, ∠ABC = 60◦, ∠BAC = 90◦, AD 是BC 上的高, 沿\nAD 把△ABD 折起, 使∠BDC = 90◦.\n(1) 证明: 平面ADB ⊥平面BDC;\n(2) 设E 为BC 的中点, 求#   »\nAE 与#    »\nDB 夹角的余弦值.\nA\nC\nB\nD\nA\nB\nC\nE\nD\n693",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -378,22 +508,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q016-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q016-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q016-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q17",
       "content": "如图, 设P 是圆x2 + y2 = 25 上的动点, 点D 是P 在x 轴上的投影, M\n为PD 上一点, 且|MD| = 4\n5 |PD|.\n(1) 当P 在圆上运动时, 求点M 的轨迹C 的方程;\n(2) 求过点(3, 0) 且斜率为4\n5 的直线被C 所截线段的长度.\nx\ny\nO\nD\nP\nM•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -401,22 +542,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q017-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q017-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q18",
       "content": "叙述并证明余弦定理.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -424,22 +575,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": true
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "题干过短",
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q018-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q018-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q19",
       "content": "如图, 从点P1 (0, 0) 作x 轴的垂线交曲线y = ex 于点Q1 (0, 1), 曲线在Q1\n点处的切线与x 轴交于点P2, 再从P2 作x 轴的垂线交曲线于点Q2, 依次\n重复上述过程得到一系列点: P1, Q1; P2, Q2; · · · ; Pn, Qn, 记Pk 点的坐标\n为(xk, 0) (k = 1, 2, · · · , n).\n(1) 试求xk 与xk−1 的关系(2 ⩽k ⩽n);\n(2) 求|P1Q1| + |P2Q2| + |P3Q3| + · · · + |PnQn|.\nx\ny\nO\nP1\ny = ex\nP2\nP3\nP4\nQ4\nQ3\nQ2\nQ1\n•\n•\n•\n•\n•\n•\n•\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -447,22 +609,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q20",
       "content": "如图, A 地到火车站共有两条路径L1 和L2, 据统计, 通过两条路径所用的\n时间互不影响, 所用时间落在各时间段内的频率如下表:\n所用时间(分钟)\n10 ∼20\n20 ∼30\n30 ∼40\n40 ∼50\n50 ∼60\n选择L1 的人数\n6\n12\n18\n12\n12\n选择L2 的人数\n0\n4\n16\n16\n4\n现甲、乙两人分别有40 分钟和50 分钟时间用于赶往火车站.\n(1) 为了尽最大可能在各自允许的时间内赶到火车站, 甲和乙应如何选择\n各自的路径?\n(2) 用X 表示甲、乙两人中在允许的时间内能赶到火车站的人数, 针对(1)\n的选择方案, 求X 的分布列和数学期望.\nA\n火车站\n•\n•\nL1\nL2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -470,22 +642,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q020-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q020-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2011/2011陕西理.pdf#q21",
       "content": "设函数f (x) 定义在(0, +∞) 上, f (1) = 0, 导函数f ′ (x) = 1\nx, g (x) =\nf (x) + f ′ (x).\n(1) 求g (x) 的单调区间和最小值;\n(2) 讨论g (x) 与g\n(1\nx\n)\n的大小关系;\n(3) 是否存在x0 > 0, 使得|g (x) −g (x0)| < 1\nx 对任意x > 0 成立? 若存\n在, 求出x0 的取值范围; 若不存在, 请说明理由.\n694",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2011,
       "subject": "数学",
@@ -493,11 +675,31 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2011/2011陕西理.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q021-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q021-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-86b00643857f5b1e-q021-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 14,
+    "answerGraphics": 0,
+    "assigned": 14,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 5
+  }
 }

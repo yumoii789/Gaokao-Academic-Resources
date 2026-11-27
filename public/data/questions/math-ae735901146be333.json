@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/1963/1963.pdf",
   "name": "1963",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 8,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 7,
+    "answerBlocks": 9,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 6,
+    "reviewCount": 1,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/1963/1963.pdf#q01",
       "content": "tg\n=\n2,\ncos\n+ sin\ncos\n- sin\n.\n已知θ\n求\nθ\nθ\nθ\nθ 的值",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": ":\ntg\n=\n2,\n cos\n0.\n解法一∵\nθ\n∴\nθ≠\n以cosθ除分式的分子和分母,得\ncos\n+ sin\ncos\n- sin\n= 1+ tg\n1- tg\n=\n1+\n2\n1- 2\nθ\nθ\nθ\nθ\nθ\nθ\n=\n(1+\n2)\n(1-\n2)(1+\n2)\n= 1+ 2 2 + 2\n-1\n= -3- 2 2.\n2\n解法二∵\nθ\n∴θ在第Ⅰ象限或第Ⅲ象限\n:\n tg\n=\n2,\n.\n∴\nθ\n±\nθ\n±\n sin\n=\n2\n3\n,\n cos\n=\n1\n3\n.\n当θ在第Ⅰ象限时\nθ\nθ\n,sin\n= -\n2\n3\n,\ncos\n= 1\n3\n,\n∴\nθ\nθ\nθ\nθ\n cos\n+ sin\ncos\n- sin\n=\n1\n3\n+\n2\n3\n1\n3\n-\n2\n3\n= 1+\n2\n1-\n2\n = -3- 2 2;\n当θ在第Ⅲ象限时\nθ\nθ\n,sin\n= -\n2\n3\n, cos\n= - 1\n3\n,\n∴\nθ\nθ\nθ\nθ\n cos\n+ sin\ncos\n- sin\n=\n- 1\n3\n-\n2\n3\n- 1\n3\n- (-\n2\n3\n)\n= 1+\n2\n1-\n2\n= -3- 2 2.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -33,22 +44,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q02",
       "content": "(1)\n1+\n3i\n.\n求出复数\n的模数和辐角\n  (2)\nXOY\n,\nA\n1+\n3i,\n在直角坐标系\n所在的平面内以点表示复数\n把OA 绕着O 点按反时针方向旋转150°,设A 点到达的位置为B,写出B\n点所表示的复数的代数式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:\n(1)1+\n3i\nr =\n1 + ( 3)\n= 2;,\n2\n2\n的模数\n的辐角θ的主值是\n°\n1+\n3i\n60\n∴辐角是k·360°+60°.\n(其中k 为任何整数)\n(2)B 点所表示的复数的模数是2,而辐角的主值是60°+150°=210°,\n∴B 点所表示的复数是:\n2(cos210°+isin210°)\n= - 3 - i.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -56,22 +71,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q03",
       "content": "如图,AB 为半圆的直径,CD⊥AB.已知AB=1,AC:CB=4:1,求CD.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解:∵AB=1,AC:CB=4:1,\n∴\n∴\n×\nAC = 4\n5\n,\nCB = 1\n5\n.\nCD =\n4\n5\n1 = 2",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -79,22 +98,30 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae735901146be333-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae735901146be333-q003-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q04",
       "content": "从二面角内任意一点向二面角的两个面作垂线,求证这两条垂线所\n决定的平面垂直于二面角的棱.(要求画图)",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -102,22 +129,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q05",
       "content": "利用下列常用对数表,计算23.28-1.1\n对数表\nN\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n23 3617 3636 3655 3674 3692 3711 3729 3747 3766 3784 2\n4\n6\n7\n9\n11 13 15 17\n24 3802 3820 3838 3856 3874 3892 3909 3927 3945 3962 2\n4\n5\n7\n9\n11 12 14 16\n25 3979 3997 4014 4031 4048 4065 4082 4099 4116 4133 2\n3\n5\n7\n9\n10 12 14 15\n反对数表\nm\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n.48 3020 3027 3034 3041 3048 3055 3062 3069 3076 3083 1\n1\n2\n3\n4\n4\n5\n6\n6\n.49 3090 3097 3105 3112 3119 3126 3133 3141 3148 3155 1\n1\n2\n3\n4\n4\n5\n6\n6\n.50 3162 3170 3177 3184 3192 3199 3206 3214 3221 3228 1\n1\n2\n3\n4\n4\n5\n6\n7",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "5\n4.证法一:\n已知:二面角M-AB-N,P 是M-AB-N 内任意一点,PC 垂直平面M 于C,PD\n垂直平面N 于D.\n求证:平面PCD⊥AB.\n证明:∵PC⊥平面M,\n∴PC 和AB 垂直,\n∵PD⊥平面N,\n∴PD 和AB 垂直.\n∴平面PCD⊥AB.\n证法二:\n已知:同证法一.\n求证:同证法一.\n证明:∵PC⊥平面M,\n∴过PC 的平面PCD⊥平面M.\n∵PD⊥平面N,\n∴过PD 的平面PCD⊥平面N.\n∴平面PCD 垂直平面M 和N 的交线.\n而AB 即是平面M 和N 的交线,\n∴平面PCD⊥AB.\n对数表\nN\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n23 3617 3636 3655 3674 3692 3711 3729 3747 3766 3784 2\n4\n6\n7\n9\n11 13 15 17\n24 3802 3820 3838 3856 3874 3892 3909 3927 3945 3962 2\n4\n5\n7\n9\n11 12 14 16\n25 3979 3997 4014 4031 4048 4065 4082 4099 4116 4133 2\n3\n5\n7\n9\n10 12 14 15\n反对数表\nm\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n.48 3020 3027 3034 3041 3048 3055 3062 3069 3076 3083 1\n1\n2\n3\n4\n4\n5\n6\n6\n.49 3090 3097 3105 3112 3119 3126 3133 3141 3148 3155 1\n1\n2\n3\n4\n4\n5\n6\n6\n.50 3162 3170 3177 3184 3192 3199 3206 3214 3221 3228 1\n1\n2\n3\n4\n4\n5\n6\n7\n5.解:lg23.28-1.1=-1.1×lg23.28\n=-1.1×1.3670\n=-1.5037\n= 2.4963.\n∴23.28-1.1=0.03135.",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -125,22 +158,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q06",
       "content": "解方程:sin3x-sinx+cos2x=0.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "解法一:\nsin3x-sinx+cos2x=0,\n2cos2xsinx+cos2x=0,\ncos2x(2sinx+1)=0\n由\n得\nπ± π\ncos2x = 0,\n 2x = 2n\n,\n2\n∴\n± π\nx = n\n4 .\nπ\n(n 是整数)\n由\n得\n2sinx +1= 0,\nsinx = - 1\n2 ,\n∴x = 2n\n- 6 ;\nπ\nπ\nx = (2n +1)\n+ 6 .\nπ\nπ\n(n 是整数)\n∴\n±\nπ\n是整数\nx = n\n4 ,x = 2n\n- 6 ,x = (2n +1)\n+ 6 .(n\n)\nπ\nπ\nπ\nπ\nπ\n解法二:\nsin3x-sinx+cos2x=0,\n(3sinx-4sin3x)-sinx+(1-2sin2x)=0,\n整理,得\n4sin3x+2sin2x-2sinx-1=0.\n分解,得\n(2sinx+1)(2sin2x-1)=0.\n由\n得\n    2sinx +1= 0,\n sinx = - 1\n2 ,\n∴  x = 2n\n- 6 ;\nπ\nπ\n x = (2n +1)\n+ 6\nπ\nπ\n.\n(n\n)\n是整数\n由\n得\n±\n±\n  2sin x -1= 0,\n sinx =\n1 =\n2\n2\n2\n2\n∴  x = 2n\n+ 4 ,x = (2n +1)\n- 4 ;\nπ\nπ\nπ\nπ\n                                  x = 2n\n- 4 ,x = (2n +1)\n+ 4 .\nπ\nπ\nπ\nπ\n(n 是整数)\n∴\n±\n是整数\nx = 2n\n- 6 ,x = (2n +1)\n+ 6 ,x = n\n.(n\n)\nπ\nπ\nπ\nπ\nπ\nπ\n4",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -148,22 +185,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
     },
     {
       "questionId": "math:普通高考/1963/1963.pdf#q07",
-      "content": "用1,2,3,4,7,9 组成没有重复数字的五位数,问;\n(1)这样的五位数一共有多少个?\n(2)在这些五位数中,有多少个是偶数?\n(3)在这些五位数中,有多少个是3 的倍数?\n8\n:\nx - 2xy - y = 1,\nxy + 3 = x\n2\n2\n．解方程组\n\n\n\n(限定在实数范围内)",
+      "content": "用1,2,3,4,7,9 组成没有重复数字的五位数,问;\n(1)这样的五位数一共有多少个?\n(2)在这些五位数中,有多少个是偶数?\n(3)在这些五位数中,有多少个是3 的倍数?\n8\n:\nx - 2xy - y = 1,\nxy + 3 = x\n2\n2\n．解方程组\n\n\n\n(限定在实数范围内)\n9.如图,线段CD 与⊙O 相交于A、B 两点,且AC=BD,\n又CE、DF 分别与⊙O 相切于E、F.\n求证:△OEC≌△OFD.\n10.如图,半径为1 的球,内切于圆锥(即直圆锥),已知圆锥的母线与\n底面的夹角是2θ.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "(1)\n2\ntg\n(1- tg\n)\n;\n2\n求证圆锥的母线与底面半径的和是\nθ\nθ\n(2)\n2\ntg\n(1- tg\n)\n;\n2\n2\n求证圆锥的全面积是\nπ\nθ\nθ\n(3)当θ是什么值的时候,圆锥的全面积最小?(θ用反三角函数表\n示)\n(图中V 是圆锥的顶点,VB 是母线,O 是球心,A 是球和圆锥底面的切\n点.)",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 1963,
       "subject": "数学",
@@ -171,57 +212,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/1963/1963.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
-    },
-    {
-      "questionId": "math:普通高考/1963/1963.pdf#q08",
-      "content": "如图,线段CD 与⊙O 相交于A、B 两点,且AC=BD,\n又CE、DF 分别与⊙O 相切于E、F.\n求证:△OEC≌△OFD.",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-ae735901146be333-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-ae735901146be333-q007-p002-f02.jpg"
       ],
-      "year": 1963,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1963/1963.pdf",
-        "page": 1,
-        "questionNumber": 9,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": true
-      }
-    },
-    {
-      "questionId": "math:普通高考/1963/1963.pdf#q09",
-      "content": "如图,半径为1 的球,内切于圆锥(即直圆锥),已知圆锥的母线与\n底面的夹角是2θ.\n(1)\n2\ntg\n(1- tg\n)\n;\n2\n求证圆锥的母线与底面半径的和是\nθ\nθ\n(2)\n2\ntg\n(1- tg\n)\n;\n2\n2\n求证圆锥的全面积是\nπ\nθ\nθ\n(3)当θ是什么值的时候,圆锥的全面积最小?(θ用反三角函数表\n示)\n(图中V 是圆锥的顶点,VB 是母线,O 是球心,A 是球和圆锥底面的切\n点.)",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
-      "difficulty": 0,
-      "knowledgePoints": [],
-      "tags": [
-        "普通高考",
-        "文本层提取"
-      ],
-      "year": 1963,
-      "subject": "数学",
-      "provenance": {
-        "repository": "deekur/gaokaomath",
-        "paperId": "math:普通高考/1963/1963.pdf",
-        "page": 2,
-        "questionNumber": 10,
-        "extraction": "text",
-        "confidence": null,
-        "needsReview": false
-      }
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-ae735901146be333-q007-p002-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 8,
+    "answerGraphics": 5,
+    "assigned": 3,
+    "rendered": 3,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

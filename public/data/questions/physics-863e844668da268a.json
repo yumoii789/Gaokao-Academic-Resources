@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2013/2013北京理综.pdf",
   "name": "2013北京理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 2,
+    "sourceAnalysis": 3,
+    "reviewCount": 9,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q01",
       "content": "下列说法正确的是（     ）\n（A）液体中悬浮的微粒的无规则运动称为布朗运动\n（B）液体分子的无规则运动称为布朗运动\n（C）物体从外界吸收热量，其内能一定增加\n（D）物体对外界做功，其内能一定减少",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q02",
       "content": "如图所示，一束可见光射向半圆形玻璃砖的圆心O，经折射后分为两束单色光a 和b。下列判断正确\n的是（     ）\n（A）玻璃对a 光的折射率小于对b 光的折射率\n（B）a 光的频率大于b 光的频率\n（C）在真空中a 光的波长大于b 光的波长\n（D）a 光光子能量小于b 光光子能量",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -56,22 +73,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q002-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q03",
       "content": "一列沿x 轴正方向传播的简谐机械横波，波速为4m/s。某时刻波形如图所示，下列说法正确的是（    ）\n（A）这列波的振幅为4cm\n（B）这列波的周期为1s\n（C）此时x＝4m 处质点沿y 轴负方向运动\n（D）此时x＝4m 处质点的加速度为0",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -79,22 +106,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q003-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q04",
       "content": "倾角为α、质量为M 的斜面体静止在水平桌面上，质量为m 的木块静止在斜面体上。下列结论正确的\n是（    ）\n（A）木块受到的摩擦力大小是mgcosα\n（B）木块对斜面体的压力大小是mgsina\n（C）桌面对斜面体的摩擦力大小是mgsinαcosα\n（D）桌面对斜面体的支持力大小是（M＋m）g",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -102,22 +139,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q05",
       "content": "如图，在磁感应强度为 B、方向垂直纸面向里的匀强磁场中，金属杆 MN 在\n平行金属导轨上以速度 v 向右匀速滑动，MN 中产生的感应电动势为 E1；若磁\n感应强度增为 2B，其他条件不变，MN 中产生的感应电动势变为 E2。则通过电\n阻R 的电流方向及 E1 与 E2 之比 E1∶E2 分别为（    ）\n（A）c→a，2∶1\n（B）a→c，2∶1\n（C）a→c，1∶2\n（D）c→a，1∶2",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -125,22 +168,33 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q005-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q005-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q005-p001-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q06",
       "content": "某原子电离后其核外只有一个电子，若该电子在核的静电力作用下绕核做匀速圆周运动，那么电子运\n动（    ）\n（A）半径越大，加速度越大\n（B）半径越小，周期越大\n（C）半径越大，角速度越小\n（D）半径越小，线速度越小\na\nb\nO\ny/cm\nx/m\n0\n2\n10\n4\n6\n8\n2\n-2\n12\nv\na\nc\nR\nb\nd\nv\nB\nM\nN\nm\nM\nα\n2 / 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -148,22 +202,28 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q07",
       "content": "在实验操作前应该对实验进行适当的分析。研究平抛运动的实验装\n置示意如图。小球每次都从斜槽的同一位置无初速度释放，并从斜槽末\n端水平飞出。改变水平板的高度，就改变了小球在板上落点的位置，从\n而可描绘出小球的运动轨迹。某同学设想小球先后三次做平抛，将水平\n板依次放在如图1、2、3 的位置，且1 与2 的间距等于2 与3 的间距。\n若三次实验中，小球从抛出点到落点的水平位移依次为x1、x2、x3，机械\n能的变化量依次为ΔE1、ΔE2、ΔE3，忽略空气阻力的影响，下面分析正确的是（    ）\n（A）x2－x1＝x3－x2，ΔE1＝ΔE2＝ΔE3 （B）x2－x1＞x3－x2，ΔE1＝ΔE2＝ΔE3\n（C）x2－x1＞x3－x2，ΔE1＜ΔE2＜ΔE3 （D）x2－x1＜x3－x2，ΔE1＜ΔE2＜ΔE3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -171,22 +231,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q007-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q007-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q08",
       "content": "以往我们认识的光电效应是单光子光电效应，即一个电子在极短时间内只\n能吸收到一个光子而从金属表面逸出。强激光的出现丰富了人们对于光电效应\n的认识，用强激光照射金属，由于其光子密度极大，一个电子在极短时间内吸\n收多个光子成为可能，从而形成多光子电效应，这已被实验证实。\n光电效应实验装置示意如图。用频率为ν的普通光源照射阴极K，没有发生光\n电效应。换用同样频率为ν 的强激光照射阴极K，则发生了光电效应；此时，\n若加上反向电压U，即将阴极K 接电源正极，阳极A 接电源负极，在KA 之间\n就形成了使光电子减速的电场，逐渐增大U，光电流会逐渐减小；当光电流恰\n好减小到零时，所加反向电压U 可能是下列的（其中W 为逸出功，h 为普朗克常量，e 为电子电量）（    ）\n（A）U＝hν\ne －W\ne\n（B）U＝2hν\ne －W\ne\n（C）U＝2hν－W\n（D）U＝5hν\n2e －W\ne\n第二部分 （非选择题  共180 分）\n本部分共11 小题 ，共180 分。",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -194,22 +264,32 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q008-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q008-p002-f01.jpg"
     },
     {
       "questionId": "physics:普通高考/2013/2013北京理综.pdf#q09",
       "content": "（18 分）\n某同学通过实验测定一个阻值约为5Ω 的电阻Rx 的阻值。\n（1）现有电源（4V，内阻可不计）、滑动变阻器（0～50Ω，额定电流2A），开关和导线若干，以及下列电\n表：\n（A）电流表（0～3A，内阻约0.025Ω）\n（B）电流表（0～0.6A，内阻约0.125Ω）\n（C）电压表（0～3V，内阻约3kΩ）\n（D）电压表（0～15V，内阻约15kΩ）\n为减小测量误差，在实验中，电流表应选用______，电压表应选用______（选填器材前的字母）；实验电路\n应采用图1 中的________（选填“甲”或“乙”）。\n（2）图2 是测量Rx 的实验器材实物图，图中已连接了部分导线。请请根据在（1）问中所选的电路图，补\n充完成图2 中实物间的连线。\nA\nV\nRx\nR\n甲\nA\nV\nRx\nR\n乙\n图1\nx\ny\n1\n2\n3\n斜槽\n水平板\nK\nA\nV\n电源\nG\n3 / 6\n（3）接通开关，改变滑动变阻器画片P 的位置，并记录对应的电流表示数I、电压表示数U。某次电表示\n数如图3 所示，可得该电阻的测量值Rx＝U\nI ＝________Ω（保留两位有效数字）。\n（4）若在（1）问中选用甲电路，产生误差的主要原因是_____；若在（1）问中选用乙电路，产生误差的\n主要原因是_______。（选填选项前的字母）\n（A）电流表测量值小于流经Rx 的电流值\n（B）电流表测量值大于流经Rx 的电流值\n（C）电压表测量值小于Rx 两端的电压值\n（D）电压表测量值大于Rx 两端的电压值\n（5）在不损坏电表的前提下，将滑动变阻器滑片P 从一端滑向另一端，随滑片P 移动距离x 的增加，被\n测电阻Rx 两端的电压U 也随之增加，下列反映U-x 关系的示意图中正确的是________。",
-      "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "answer": "（1）B、C、甲\n（2）如图\nV\nA\n学生用交源\n图2\nP\nRx\n0\n1\n2\n3\n0\n0.2\n0.4\n0.6\nA\n0\n5\n10\n15\n0\n1\n2\n3\nV\n图3\nU\nx\nO\nA\nU\nx\nO\nC\nU\nx\nO\nB\n图4\n4 / 6\n（3）5.2Ω\n（4）B、D\n（5）A",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2013,
       "subject": "物理",
@@ -217,11 +297,129 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2013/2013北京理综.pdf",
         "page": 2,
+        "endPage": 4,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p003-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p003-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p003-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p003-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p004-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q009-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013北京理综.pdf#q10",
+      "content": "（16 分）如图所示，两平行金属板间距为 d，电势差为 U，板间电场可视为匀强电场；金属板下方有\n一磁感应强度为 B 的匀强磁场。带电量为 + q、质量为 m 的粒子，由静止开始从正极板出发，经电场加\n速后射出，并进入磁场做匀速圆周运动。忽略重力的影响，求：\n（1）匀强电场场强 E 的大小；\n（2）粒子从电场射出时速度 v 的大小；\n（3）粒子在磁场中做匀速圆周运动的半径 R。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）电场强度E＝U\nd\n（2）根据动能定理，有qU＝1\n2 mv2\n得v＝\n2qU\nm\n（3）粒子在磁场中做匀速圆周运动时，洛伦兹力提供向心力，有\nqvB＝mv2\nR\n得R＝1\nB\n2mU\nq",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+        "page": 4,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013北京理综.pdf#q11",
+      "content": "（18 分）蹦床比赛分成预备运动和比赛动作。最初，运动员静止站在蹦床上；在预备运动阶段，他经\n过若干次蹦跳，逐渐增加上升高度，最终达到完成比赛动作所需的高度；此后，进入比赛动作阶段。\n把蹦床简化为一个竖直放置的轻弹簧，弹力大小F＝kx（x 为床面下沉的距离，k 为常量）。质量m＝\n50kg 的运动员静止站在蹦床上，床面下沉x0＝0.10m；在预备运动中，假定运动员所做的总功W 全部用于\n其机械能；在比赛动作中，把该运动员视作质点，其每次离开床面做竖直上抛运动的腾空时间均为Δt＝2.0s，\n设运动员每次落下使床面压缩的最大深度均为xl。取重力加速度g＝10m/s2，忽略空气阻力的影响。\n（1）求常量k，并在图中画出弹力F 随x 变化的示意图；\n（2）求在比赛动作中，运动员离开床面后上升的最大高度hm；\n（3）借助F-x 图像可以确定弹性做功的规律，在此基础上，求x1 和W 的值。\nV\nA\n学生用交源\nP\nRx\nx\nO\nF\n+\n+q m\nd\nO\nB\n+\nU\n5 / 6",
+      "answer": "（1）5000N/m，如图\n（2）5m\n（3）1.1m，2525J",
+      "analysis": "（1）床面下沉\n0\n0.10\nx\nm\n=\n，运动员受力平衡\n0\nmg\nkx\n=\n得\n3\n0\n5.0 10\n/\nmg\nk\nN m\nx\n=\n=\n\nF-x 图线如图\n（2）运动员从x＝0 处离开床面，开始腾空，其上升、下落时间相等\n2\n1\n(\n)\n5.0\n2\n2\nm\nt\nh\ng\nm\n\n=\n=\n（3）参考由速度-时间图像求位移的方法，F—x 图线下的面积等于弹力做的功，从x 处到x＝0，弹力做功\nWT\n2\n1\n1\n2\n2\nT\nW\nx kx\nkx\n=\n\n\n=\n运动员从x1 处上升到最大高度hm 的过程，根据动能定理，有\n2\n1\n0\n1\n(\n)\n0\n2\nm\nkx\nmg x\nh\n−\n+\n=\n得\n2\n1\n0\n0\n0\n2\n1.1\nm\nx\nx\nx\nx h\nm\n=\n+\n+\n=\n对整个预备运动，由题设条件以及功和能的关系，有\n2\n0\n0\n1\n(\n)\n2\nm\nW\nkx\nmg h\nx\n+\n=\n+\n得W＝2525J＝2.5×103J",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q011-p005-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q011-p005-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2013/2013北京理综.pdf#q12",
+      "content": "（20 分）对于同一物理问题，常常可以从宏观与微观两个不同角度进行研究，找出其内在联系，从而\n更加深刻地理解其物理本质。\n（1）一段横截面积为S、长为l 的直导线，单位体积内有n 个自由电子，电子电量为e。该导线通有电流\n时，假设自由电子定向移动的速率均为v。\n（a）求导线中的电流I；\n（b）将该导线放在匀强磁场中，电流方向垂直于磁感应强度B，导线所受安培力大小为F 安，导线内自由\n电子所受洛伦兹力大小的总和为F，推导F 安＝F。\nx\nO\nF\nx\nO\nF\n6 / 6\n（2）正方体密闭容器中有大量运动粒子，每个粒子质量为m，单位体积内粒子数量n 为恒量。为简化问\n题，我们假定：粒子大小可以忽略；其速率均为v，且与器壁各面碰撞的机会均等；与器壁碰撞前后瞬间，\n粒子速度方向都与器壁垂直，且速率不变。利用所学力学知识，导出器壁单位面积所受粒子压力f 与m、\nn 和v 的关系。\n（注意：解题过程中需要用到、但题目没有给出的物理量，要在解题时做必要的说明）",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）（a）设Δt 时间内通过导体横截面的电量为Δq，由电流定义，有\nI＝Δq\nΔt ＝neSvΔt\nΔt\n ＝neS\n（b）每个自由电子所受的洛伦兹力F 洛＝evB\n设导体中共有N 个自由电子N＝n·Sl\n导体中自由电子所受洛伦兹力大小的总和\nF＝NF 洛＝nSl·evB\n由安培力公式，有F 安＝IlB＝neSv·lB\n得F 安＝F\n（2）一个粒子每与器壁碰撞一次给器壁的冲量为\nΔI＝2mv\n如图，以器壁上的面积S 为底，以vΔt 为高构成柱体，由题设可知，其内的粒子在Δt 时间内有1/6 与器壁\nS 发生碰撞，碰壁粒子总数为\nN＝1\n6 nSvΔt\nΔt 时间内粒子的冲量为\nI＝NΔt＝1\n3 nSmv2Δt\n面积为S 的器壁受到粒子压力为F＝I\nΔt\n器壁单位面积所受粒子压力为\nf＝F\nS ＝1\n3 nmv2\n【解二】考虑单位面积，t 时间内能达到容器壁的粒子所占据的体积为V＝Svt＝1×vt，\n其中粒子有均等的概率与容器各面相碰，即可能达到目标区域的粒子数为1\n6 nV＝1\n6 nvt，\n由动量定理可得：f＝ΔP\nt ＝\n1\n6nvt（2×mv）\nt\n ＝1\n3 nmv2",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2013,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2013/2013北京理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q012-p006-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-863e844668da268a-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 17,
+    "answerGraphics": 0,
+    "assigned": 17,
+    "rendered": 17,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

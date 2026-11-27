@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
   "name": "2009浙江理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 9,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q01",
       "content": "如图所示，质量为m 的等边三棱柱静止在水平放置的斜面上。\n已知三棱柱与斜面之的动摩擦因数为μ，斜面的倾角为30°，则斜面\n对三棱柱的支持力与摩擦力的大小分别为（   ）\n（A）A 3\nE2 E\nAmg 和\nA1\n2 E\nAmg\n（B）mg 和\nA 3\nE2 E\nAmg\n（C）A1\n2 E\nAmg 和\nA1\n2 E\nAμmg\n（D）A 3\nE2 E\nAmg 和\nA 3\nE2 E\nAμmg",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "受力如图所示，\nN\n3\nF\ncos30\n2\no\nmg\nmg\n=\n=\n，\n1\nsin30\n2\no\nf\nF\nmg\nmg\n=\n=",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2009,
       "subject": "物理",
@@ -33,11 +44,370 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q001-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q001-p001-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q001-p001-f03.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q001-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q02",
+      "content": "氦原子核由两个质子与两个中子组成，这两个质子之间存在着万有引力、库仑力和核力，\n则 3 种力从大到小的排列顺序是（     ）\n（A）核力、万有引力、库仑力\n（B）万有引力、库仑力、核力\n（C）库仑力、万有引力、核力\n（D）核力、库仑力、万有引力",
+      "answer": "暂无结构化答案",
+      "analysis": "核力是强力，它能将核子束缚在原子核内。万有引力最弱，研究核子间相互作用时\n万有引力可以忽略。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q03",
+      "content": "如图所示，在光滑绝缘水平面上放置3 个电荷量均为q\n（q＞0）的相同小球，小球之间用劲度系数均为k0 的轻质弹\n簧绝缘连接。当3 个小球处在静止状态时，每根弹簧长度为\nl0。已知静电力常量为k，若不考虑弹簧的静电感应，则每根\n弹簧的原长为（     ）\n（A）l＋A5kq2\n2k0l2\nE\nA\n（B）l－Akq2\nk0l2\nE\nA\n（C）l－A5kq2\n4k0l2\nE\nA\n（D）l－A5kq2\n2k0l2\nE",
+      "answer": "暂无结构化答案",
+      "analysis": "第三个小球受三个力的作用，它们的关系是\n(\n)\n2\n2\n0\n2\n2\n2\nq\nq\nk x\nk\nk\nl\nl\n=\n+\n，得\n2\n2\n0\n5\n4\nkq\nx\nk l\n=\n；\n2\n0\n2\n0\n5\n4\nkq\nl\nl\nx\nl\nk l\n= −\n= −\n30°\nmg\nFN\nFf\nq\nq\nq\nk0\nk0\nl\nl\nm\n30°\n2 / 9",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q003-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q003-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q04",
+      "content": "如图所示，在磁感应强度大小为B、方向竖直向上的匀强磁场中，\n有一质量为m、阻值为R 的闭合矩形金属线框abcd 用绝缘轻质细杆悬\n挂在O 点，并可绕O 点摆动。金属线框从右侧某一位置静止开始释放，\n在摆动到左侧最高点的过程中，细杆和金属框平面始终处于同一平面，\n且垂直纸面。则线框中应电流的方向是（    ）\n（A）a→b→c→d→a\n（B）d→c→b→a→d\n（C）先是d→c→b→a→d，后是a→b→c→d→a\n（D）先是a→b→c→d→a，后是d→c→b→a→d",
+      "answer": "暂无结构化答案",
+      "analysis": "由楞次定律，一开始磁通量减小，后来磁通量增大，由“增反”“减同”可知电流\n方向是d→c→b→a→d。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q004-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q004-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q05",
+      "content": "如图所示，有一束平行于等边三棱镜截面ABC 的单色光从\n空气射向E 点，并偏折到F 点。已知入射方向与边AB 的夹角为\nθ＝30°，E、F 分别为边BC 的中点，则（     ）\n（A）该棱镜的折射率为\nA 3E\n（B）光在F 点发生全反射\n（C）光从空气进入棱镜，波长变小\n（D）从F 点出射的光束与入射到E 点的光束平行",
+      "answer": "暂无结构化答案",
+      "analysis": "在E 点作出法结线可知入射角为60o ，折射角为30o，\n折射率为\n3 ；由光路的可逆性可知，在BC 边上的入射角小于临界角，不会发生全反射，\nB 错；由公式\nn\nλ\nλ\n=\n空气\n介\n，可知C 对；三棱镜两次折射使得光线都向底边偏折，不会与入射\n到E 点的光束平行，故D 错",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q005-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q005-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q06",
+      "content": "在讨论地球潮汐成因时，地球绕太阳运行轨道与月球绕地球运行轨道可视为圆轨道。已\n知太阳质量约为月球质量的2.7×107 倍，地球绕太阳运行的轨道半径约为月球绕地球运行\n的轨道半径的400 倍。关于太阳和月球对地球上相同质量海水的引力，以下说法正确的是\n（   ）\n（A）太阳引力远大于月球引力\n（B）太阳引力与月球引力相差不大\n（C）月球对不同区域海水的吸引力大小相等\n（D）月球对不同区域海水的吸引力大小有差异",
+      "answer": "暂无结构化答案",
+      "analysis": "2\n2\nF\nM\nF\nM\nR\nR\n=\n•\n太阳\n太阳\n月\n月\n月\n太阳\n，代入数据可知，太阳的引力远大于月球的引力；由于月心\n到不同区域海水的距离不同，所以引力大小有差异。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q07",
+      "content": "空间存在匀强电场，有一电荷量q（q＞0），质量m 的粒子从O 点以速率v0 射入电场，\na\nb\nc\nd\nB\nO\nA\nB\nC\nE\nF\nθ\n3 / 9\n运动到A 点时速率为2v0。现有另一电荷为q、质量m 的粒子以速率2v0 仍从O 点射入该电\n场，运动到B 点时速率为3v0。若忽略重力的影响，则（     ）\n（A）在O、A、B 三点中，B 点电势最高\n（B）在O、A、B 三点中，A 点电势最高\n（C）OA 间的电势差比BO 间的电势差大\n（D）OA 间的电势差比BA 间的电势差小",
+      "answer": "暂无结构化答案",
+      "analysis": "正电荷由O 到A，动能变大，电场力做正功，电势能减小，电势也减小，O 点电势\n较高；负电荷从O 到B 速度增大，电场力也做正功，电势能减小，电势升高，B 点电势比\nO 点高。所以B 点最高，A 对；\n(\n)\n(\n)\n2\n2\n2\n0\n0\nOA\n0\nOA\n1\n1\n2\nW\n3\n2\n2\nU\n2\nm\nv\nm v\nmv\nq\nq\nq\n−\n=\n=\n=\n(\n)\n(\n)\n2\n2\n2\n0\n0\n0\n1\n1\n3\n2\n5\n2\n2\n2\nOB\nOB\nm\nv\nm\nv\nW\nmv\nU\nq\nq\nq\n−\n=\n=\n=\n−\n−\n−\n，故D 对",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q08",
+      "content": "一列波长大于1m 的横波沿着x 轴正方向传播，处\n在x1＝1m 和x2＝2m 的两质点A、B 的振动图像如图\n所示。由此可知（    ）\n（A）波长为\nA4\n3\nE\nAm\n（B）波速为1m/s\n（C）3s 末A、B 两质点的位移相同\n（D）1s 末A 点的振动速度大于B 点的振动速度",
+      "answer": "暂无结构化答案",
+      "analysis": "2\n1\n1\nx\nx\nx\nm\n∆=\n−\n=\n，由于波沿x 正方向传播，所以A 先振动，又由于波长大于1m，\n所以\n3\n3\nT\n4\nt\ns\n∆=\n=\n，所以\n3\n4\nx\nλ\n∆=\n，\n4\n3 m\nλ =\n，A 对，波速\n1\n/\n3\nx\nv\nm s\nt\n∆\n=\n=\n∆\n，B 错；由振\n动图像知，在3s 末，A、B 两质点的位移不相同，C 错；1s 末A 点速度为零，B 点速度最\n大，D 错。\n第Ⅱ卷（非选择题部分  共174 分）",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q008-p003-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q09",
+      "content": "Ⅰ.（9 分）\n（1）如图甲所示，在“描绘小灯泡的伏安特性曲线”实验中，同组同学已经完成部分导线\n的连接，请你在实物接线图中完成余下导线的连接。\ny/cm\nt/s\nO\n2\n-2\n1\n2\n3\n4\nB\nA\n4 / 9\n（2）某同学从标称为“220V 25W”，“220V 300W”，“220V 500W”的3 只灯泡中任选一只，\n正确使用多用电表测量灯泡阻值如图乙所示。该灯泡的阻值是______Ω，标称的额定功率为\n_______W。",
+      "answer": "暂无结构化答案",
+      "analysis": "Ⅰ.本题考查多用电表和电路设计\n（1）如图所示。实验要求电压从零开始调整，滑动变阻器采用分压式接法。\n（2）16×10＝160Ω，由于灯泡正常工作时的电阻为\n2\nU\nR\nP\n=\n比不工作时的电阻大的多，而\n“220V  25W”、 “220V  300W”、 “220V 500W”正常工作时的电阻分别为1936Ω、161Ω 和\n98Ω，故为25W。\nⅡ.（9 分）\n在“探究单摆周期与摆长的关系”实验中，两位同学用游标卡尺测量小球的直径如图甲、乙\n所示。测量方法正确的是___________（选填“甲”或“乙”）。\nA\nV\n+\n×1k ×100 ×10 ×1\nΩ\nOFF\n2.5\n50\n100\n10\n10\nV\nΩ\nΩ\nΩ\n+\nA\nV\n+\n5 / 9\n（2）实验时，若摆球在垂直纸面的平面内摆动，为了\n将人工记录振动次数改为自动记录振动次数，在摆球\n运动最低点的左、右两侧分别放置一激光光源与光敏\n电阻，如图甲所示。光敏电阻与某一自动记录相连，\n该仪器显示的光敏电阻阻值R 随时间t 变化图线如图\n乙所示，则该单摆的振动周期为_______。若保持悬点\n到小球顶点的绳长不变，改用直径是原小球直径2 倍\n的另一小球进行实验，则该单摆的周期将_______（填\n“变大”、“不变”或“变小”），图乙中的Δt 将_______\n（填“变大”、“不变”或“变小”）。\n本题考查游标卡尺和单摆的知识\n（1）应将待测物体正确地放在测脚中如乙图；（2）单摆1 个周期遮光两次；单摆周期与小\n球质量、大小无关，但若改用直径变为原小球直径的2 倍，周期变大，但遮光时间Δt 变大",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 3,
+        "endPage": 5,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p004-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p004-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p005-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p005-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p005-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p005-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q009-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q10",
+      "content": "（14 分）如图所示，相距为d 的平行金属板A、B 竖\n直放置，在两板之间水平放置一绝缘平板。有一质量m、\n电荷量q（q＞0）的小物块在与金属板A 相距l 处静止。\n若某一时刻在金属板A、B 间加一电压UAB＝－A3μmgd\n2q\nE\nA，\n小物块与金属板只发生了一次碰撞，碰撞后电荷量变为－\n图甲\n0\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n0\n2\n3\n4\n5\n6\n7\n8\n9\n10\n1\n图乙\n图乙\n图甲\nt1+t0\nt1+2t0\nt1\nO\nR\nt\nΔt\nΔt\nΔt\n图乙\n光敏\n电阻\n激光\n光源\n接自动\n记录仪\n图甲\n电源\nA\nB\nl\nd\n6 / 9\nA1\n2\nE\nAq，并以与碰前大小相等的速度反方向弹回。已知小物块与绝缘平板间的动摩擦因数为μ，\n若不计小物块几何量对电场的影响和碰撞时间。则：\n（1）小物块与金属板A 碰撞前瞬间的速度大小是多少？\n（2）小物块碰撞后经过多长时间停止运动？停在何位置？",
+      "answer": "暂无结构化答案",
+      "analysis": "本题考查电场中的动力学问题\n（1）加电压后，B 极板电势高于A 板，小物块在电场力作用与摩擦力共同作用下向A 板做\n匀加速直线运动。电场强度为\nBA\nU\nE\nd\n=\n小物块所受的电场力与摩擦力方向相反，则合外力为\n                           F\nqE\nmg\nµ\n=\n−\n合\n故小物块运动的加速度为\n1\n1\n2\nF\nqU\nmgd\na\ng\nm\nmd\nµ\nµ\n−\n=\n=\n=\n合\n设小物块与A 板相碰时的速度为v1，由\n2\n1\n1\n2\nv\na l\n=\n解得\n1v\ngl\nµ\n=\n（2）小物块与A 板相碰后以v1 大小相等的速度反弹，因为电荷量及电性改变，电场力大小\n与方向发生变化，摩擦力的方向发生改变，小物块所受的合外力大小 为\n                          F\n2\nqE\nmg\nµ\n=\n−\n合\n加速度大小为\n2\n1\nm\n4\nF\na\ng\nµ\n=\n=\n合\n设小物块碰后到停止的时间为t，注意到末速度为零，有\n1\n2\n0\nv\na t\n−\n= −\n解得\n1\n2\nv\nt\na\n=\n1\n4\ng\nµ\n=\n设小物块碰后停止时距离为x ，注意到末速度为零，有\n2\n1\n2\n0-\n2\nv\na x\n= −\n则\n2\n2\n2\n2\nv\nx\nl\na\n=\n=\n或距离B 板为d－2l",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q010-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q010-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q11",
+      "content": "（18 分）某校物理兴趣小组决定举行遥控塞车比赛。比赛路径如图所示，赛车从起点A\n7 / 9\n出发，沿水平直线轨道运动L 后，出B 点进入半径为R 的光滑竖直圆轨道，离开竖直圆轨\n道后继续在光滑平直轨道上运动到C 点，并能越过壕沟。已知赛车质量m＝0.1kg，通电后\n以额定功率P＝1.5W 工作，进入竖直圆轨道前受到的阻值为0.3N，随后在运动中受到的阻\n力均可不计。图中L＝10.00m，R＝0.32m，h＝1.25m，S＝1.50m。问：要使赛车完成比赛，\n电动机至少工作多长时间？（取g＝10m/s2）",
+      "answer": "暂无结构化答案",
+      "analysis": "本题考查平抛、圆周运动和功能关系。\n设赛车越过壕沟需要的最小速度为v1，由平抛运动的规律\n1\nS\nv t\n=\n2\n1\n2\nh\ngt\n=\n解得\n1\n3\n/\n2\nR\nv\nS\nm s\nh\n=\n=\n设赛车恰好越过圆轨道，对应圆轨道最高点的速度为v2，最低点的速度为v3，由牛顿第二定\n律及机械能守恒定律\n2\n2v\nmg\nm R\n=\n(\n)\n2\n2\n3\n2\n1\n1\n2\n2\n2\nmv\nmv\nmg\nR\n=\n+\n解得\n3\n5\n4\nv\ngh\n=\n=\nm/s\n通过分析比较，赛车要完成比赛，在进入圆轨道前的速度最小应该是\nmin\n4\nv\n=\nm/s\n设电动机工作时间至少为t，根据功能原理\n2\nmin\n1\n2\nPt\nfL\nmv\n−\n=\n由此可得                   t＝2.53s",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 6,
+        "endPage": 7,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q011-p007-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q011-p007-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2009/2009浙江理综.pdf#q12",
+      "content": "（22 分）如图所示，x 轴正方向水平向右，y 轴正方向竖直向上。在xOy 平面内与y 轴\n平行的匀强电场，在半径为R 的圆内还有与xOy 平面垂直的匀强磁场。在圆的左边放置一\n带电微粒发射装置，它沿x 轴正方向发射出一束具有相同质量m、电荷量q（q＞0）和初速\n度v 的带电微粒。发射时，这束带电微粒分布在0＜y＜2R 的区间内。已知重力加速度大小\n为g。\nA\nB\nR\nL\nC\ns\nh\n8 / 9\n（1）从A 点射出的带电微粒平行于x 轴从C 点进入有磁场区域，并从坐标原点O 沿y 轴\n负方向离开，求电场强度和磁感应强度的大小与方向。\n（2）请指出这束带电微粒与x 轴相交的区域，并说明理由。\n（3）在这束带电磁微粒初速度变为2v，那么它们与x 轴相交的区域又在哪里？并说明理由。",
+      "answer": "暂无结构化答案",
+      "analysis": "本题考查带电粒子在复合场中的运动。\n带电粒子平行于x 轴从C 点进入磁场，说明带电微粒所受重力和电场力平衡。设电场强度\n大小为E，由\n                       mg\nqE\n=\n可得\nmg\nE\nq\n=\n方向沿y 轴正方向。\n带电微粒进入磁场后，将做圆周运动。 且\n                       r＝R\n如图（a）所示，设磁感应强度大小为B。由\n2\nqvB\nmv\nR\n=\n得\nmv\nB\nqR\n=\n方向垂直于纸面向外\ny\nx\nO\nO′\nR\nC\nA\nv\n带\n电\n粒\n子\n发\n射\n装\n置\ny\nx\nO\nO´\nR\nC\nA\nv\n带\n电\n粒\n子\n发\n射\n装\n置\nM\nN\nP\n9 / 9\n（2）这束带电微粒都通过坐标原点。\n方法一：从任一点P 水平进入磁场的带电微粒在磁场中做半径为R 的匀速圆周运动，其圆\n心位于其正下方的Q 点，如图b 所示，这束带电微粒进入磁场后的圆心轨迹是如图b 的虚\n线半圆，此圆的圆心是坐标原点。\n方法二：从任一点P 水平进入磁场的带电微粒在磁场中做半径为R 的匀速圆周运动。如图b\n示，高P 点与O′点的连线与y 轴的夹角为θ，其圆心Q 的坐标为（－Rsinθ，Rcosθ），圆周\n运动轨迹方程为\n(\n)\n(\n)\n2\n2\n2\nsin\ncos\nx\nR\ny\nR\nR\nθ\nθ\n+\n+\n−\n=\n得x＝0，y＝0\n或 x＝-Rsinθ，y＝R（1+cosθ）\n（3）这束带电微粒与x 轴相交的区域是x＞0\n带电微粒在磁场中经过一段半径为r′的圆弧运动后，将在y 同的右方（x＞0）的区域离开磁\n场并做匀速直线运动，如图c 所示。靠近M 点发射出来的带电微粒在突出磁场后会射向x\n同正方向的无穷远处，靠近N 点发射出来的带电微粒会在靠近原点之处穿出磁场。\n所以，这束带电微粒与x 轴相交的区域范围是x>0.\nx\ny\nR\nO/\nO\nv\nC\nA\nx\ny\nR\nO/\nv\nQ\nP\nO\nR\nθ\n图(a)\n图(b)\nx\ny\nR\nO/\nO\nv\n带\n点\n微\n粒\n发\n射\n装\n置\nC\nP\nQ\nr\n图 (c)\ny\nx\nO\nO´\nR\nC\nA\nv\n带\n电\n粒\n子\n发\n射\n装\n置\nM\nN\nP",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2009,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2009/2009浙江理综.pdf",
+        "page": 7,
+        "endPage": 9,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p008-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p008-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p009-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p009-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p009-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p009-f06.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p009-f07.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-2431139850e9cbf3-q012-p008-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 23,
+    "answerGraphics": 0,
+    "assigned": 23,
+    "rendered": 23,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }

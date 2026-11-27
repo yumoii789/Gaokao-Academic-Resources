@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
   "name": "2016全国3文(云南,广西,贵州)",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 2,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 24,
+    "answerBlocks": 0,
+    "sourceAnswers": 0,
+    "sourceAnalysis": 0,
+    "reviewCount": 24,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q01",
       "content": "设集合A = {0, 2, 4, 6, 8, 10}, B = {4, 8}, 则∁AB =\n(\n)\n(A) {4, 8}\n(B) {0, 2, 6}\n(C) {0, 2, 6, 10}\n(D) {0, 2, 4, 6, 8, 10}",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -33,22 +44,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 1,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q02",
       "content": "若z = 4 + 3i, 则z\n|z| =\n(\n)\n(A) 1\n(B) −1\n(C) 4\n5 + 3\n5i\n(D) 4\n5 −3\n5i",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -56,22 +73,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 2,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q03",
       "content": "已知向量#   »\nBA =\n(\n1\n2,\n√\n3\n2\n)\n, #    »\nBC =\n(√\n3\n2 , 1\n2\n)\n, 则∠ABC =\n(\n)\n(A) 30◦\n(B) 45◦\n(C) 60◦\n(D) 120◦",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -79,22 +102,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 3,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q04",
       "content": "某旅游城市为向游客介绍本地的气温情况, 绘制了一年中月平均最高气温\n和平均最低气温的雷达图. 图中A 点表示〸月的平均最高气温约为15◦C,\nB 点表示四月的平均最低气温约为5◦C. 下面叙述不正确的是\n(\n)\n四月\n〸月\n一月\n七月\n20◦C\n15◦C\n10◦C\n5◦C\n〸一月\n〸二月\nA\nB\n三月\n二月\n九月\n八月\n五月\n六月\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n•\n平均最低气温\n平均最高气温\n(A) 各月的平均最低气温都在0◦C 以上\n(B) 七月的平均温差比一月的平均温差大\n(C) 三月和〸一月的平均最高气温基本相同\n(D) 平均气温高于20◦C 的月份有5 个",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -102,22 +131,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 4,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q004-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q004-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q05",
       "content": "小敏打开计算机时, 忘记了开机密码的前两位, 只记得第一位是M, I, N\n中的一个字母, 第二位是1, 2, 3, 4, 5 中的一个数字, 则小敏输入一次密码\n能够成功开机的概率是\n(\n)\n(A) 8\n15\n(B) 1\n8\n(C) 1\n15\n(D) 1\n30",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -125,22 +164,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 5,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q06",
       "content": "若tan θ = −1\n3, 则cos 2θ =\n(\n)\n(A) −4\n5\n(B) −1\n5\n(C) 1\n5\n(D) 4\n5",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -148,22 +193,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 6,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q07",
       "content": "已知a = 2\n4\n3 , b = 3\n2\n3 , c = 25\n1\n3 , 则\n(\n)\n(A) b < a < c\n(B) a < b < c\n(C) b < c < a\n(D) c < a < b",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -171,22 +222,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 7,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q08",
       "content": "执行下图的程序框图, 如果输入的a = 4, b = 6, 那么输出的n =\n(\n)\n开始\n输入a, b\nn = 0, s = 0\na = b −a\nb = b −a\na = b + a\ns = s + a, n = n + 1\ns > 16\n输出n\n结束\n是\n否\n(A) 3\n(B) 4\n(C) 5\n(D) 6",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -194,22 +251,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 8,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q008-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q008-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q09",
       "content": "在△ABC 中, B = π\n4 , BC 边上的高等于1\n3BC, 则sin A =\n(\n)\n(A) 3\n10\n(B)\n√\n10\n10\n(C)\n√\n5\n5\n(D) 3\n√\n10\n10",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -217,22 +284,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 9,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q10",
       "content": "如图, 网格纸上小正方形的边长为1, 粗实线画出的是某多面体的三视图,\n则该多面体的表面积为\n(\n)\n(A) 18 + 36\n√\n5\n(B) 54 + 18\n√\n5\n(C) 90\n(D) 81",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -240,22 +313,33 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 10,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q010-p001-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q010-p001-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q010-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q11",
       "content": "在封闭的直三棱柱ABC−A1B1C1 内有一个体积为V 的球, 若AB ⊥BC,\nAB = 6, BC = 8, AA1 = 3, 则V 的最大值是\n(\n)\n(A) 4π\n(B) 9π\n2\n(C) 6π\n(D) 32π\n3",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -263,22 +347,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 11,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q12",
       "content": "已知O 为坐标原点, F 是椭圆C: x2\na2 + y2\nb2 = 1 (a > b > 0) 的左焦点, A,\nB 分别为C 的左、右顶点, P 为C 上一点, 且PF ⊥x 轴. 过点A 的直\n线l 与线段PF 交于点M, 与y 轴交于点E. 若直线BM 经过OE 的中\n点, 则C 的离心率为\n(\n)\n(A) 1\n3\n(B) 1\n2\n(C) 2\n3\n(D) 3\n4",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -286,22 +376,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 12,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q13",
       "content": "若x, y 满足约束条件\n\n\n\n\n\n\n\n2x −y + 1 ⩾0,\nx −2y −1 ⩽0,\nx ⩽1,\n, 则z = 2x + 3y −5 的最小值\n为\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -309,22 +405,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 13,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q14",
       "content": "函数y = sin x −\n√\n3 cos x 的图象可由函数y = 2 sin x 的图象至少向右平\n移\n个单位长度得到.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -332,22 +434,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q15",
       "content": "已知直线l: x −\n√\n3y + 6 = 0 与圆x2 + y2 = 12 交于A, B 两点, 过A, B\n分别作l 的垂线与x 轴交于C, D 两点, 则|CD| =\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -355,22 +463,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 15,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q16",
       "content": "已知f (x) 为偶函数, 当x ⩽0 时, f (x) = e−x−1 −x, 则曲线y = f (x) 在\n点(1, 2) 处的切线方程是\n.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -378,22 +492,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 16,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q17",
       "content": "已知各项都为正数的数列{an} 满足a1 = 1, a2\nn −(2an+1 −1) an −2an+1 =\n0.\n(1) 求a2, a3;\n(2) 求{an} 的通项公式.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -401,22 +521,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 17,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q18",
       "content": "下图是我国2008 年至2014 年生活垃圾无害化处理量(单位: 亿吨) 的折\n线图.\n1\n2\n3\n4\n5\n6\n7\n年份代码t\n年生活垃圾无害化处理量y\n0.80\n1.00\n1.20\n1.40\n1.60\n1.80\n注: 年份代码1 −7 分别对应年份2008 −2014\n1009\n(1) 由折线图看出, 可用线性回归模型拟合y 与t 的关系, 请用相关系数加\n以说明;\n(2) 建立y 关于t 的回归方程(系数精确到0.01), 预测2016 年我国生活垃\n圾无害化处理量.\n参考数据:\n7∑\ni=1\nyi\n= 9.32,\n7∑\ni=1\ntiyi\n= 40.17,\n√\n7∑\ni=1\n(yi −y)2\n= 0.55,\n√\n7 ≈2.646.\n参考公式: 相关系数r =\nn∑\ni=1\n(\nti −t\n)\n(yi −y)\n√n∑\ni=1\n(\nti −t\n)2\nn∑\ni=1\n(yi −y)2\n.\n回归方程ˆy\n=\nˆa + ˆbt 中斜率和截距的最小二乘估计公式分别为:\nˆb =\nn∑\ni=1\n(\nti −t\n)\n(yi −y)\nn∑\ni=1\n(\nti −t\n)2\n, ˆa = y −ˆbt.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -424,22 +550,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 1,
+        "endPage": 2,
         "questionNumber": 18,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q018-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q018-p001-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q19",
       "content": "如图, 四棱锥P −ABCD 中, PA ⊥平面ABCD, AD\nBC, AB = AD =\nAC = 3, PA = BC = 4, M 为线段AD 上一点, AM = 2MD, N 为PC\n的中点.\n(1) 证明: MN\n平面PAB;\n(2) 求四面体N −BCM 的体积.\nA\nN\nM\nP\nB\nC\nD",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -447,22 +583,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 19,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q019-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q019-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q20",
       "content": "已知抛物线C: y2 = 2x 的焦点为F, 平行于x 轴的两条直线l1, l2 分别交\nC 于A, B 两点, 交C 的准线于P, Q 两点.\n(1) 若F 在线段AB 上, R 是PQ 的中点, 证明AR\nFQ;\n(2) 若△PQF 的面积是△ABF 的面积的两倍, 求AB 中点的轨迹方程.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -470,22 +616,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 20,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q21",
       "content": "设函数f (x) = ln x −x + 1.\n(1) 讨论f (x) 的单调性;\n(2) 证明当x ∈(1, +∞) 时, 1 < x −1\nln x < x;\n(3) 设c > 1, 证明当x ∈(0, 1) 时, 1 + (c −1) x > cx.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -493,22 +645,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 21,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q021-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q021-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q22",
       "content": "如图, ⊙O 中˜\nAB 的中点为P, 弦PC, PD 分别交AB 于E, F 两点.\n(1) 若∠PFB = 2∠PCD, 求∠PCD 的大小;\n(2) 若EC 的垂直平分线与FD 的垂直平分线交于点G, 证明OG ⊥CD.\nA\nO\nG\nP\nB\nC\nD\nE\nF\n•",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -516,22 +678,32 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 22,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
-      }
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q022-p002-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/math-543f3c223ad511c3-q022-p002-f01.jpg"
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q23",
       "content": "在直角坐标系xOy 中, 曲线C1 的参数方程为\n{\nx =\n√\n3 cos α,\ny = sin α,\n(α 为参数),\n以坐标原点为极点, 以x 轴的正半轴为极轴, 建立极坐标系, 曲线C2 的极\n坐标方程为ρ sin\n(\nθ + π\n4\n)\n= 2\n√\n2.\n(1) 写出C1 的普通方程和C2 的直角坐标方程;\n(2) 设点P 在C1 上, 点Q 在C2 上, 求|PQ| 的最小值及此时P 的直角\n坐标.",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -539,22 +711,28 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 23,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     },
     {
       "questionId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf#q24",
       "content": "已知函数f (x) = |2x −a| + a.\n(1) 当a = 2 时, 求不等式f (x) ⩽6 的解集;\n(2) 设函数g (x) = |2x −1|, 当x ∈R 时, f (x) + g (x) ⩾3, 求a 的取值范\n围.\n1010",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "原卷未提供可提取解析。",
+      "analysisSource": "none",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "待补解析"
       ],
       "year": 2016,
       "subject": "数学",
@@ -562,11 +740,26 @@
         "repository": "deekur/gaokaomath",
         "paperId": "math:普通高考/2016/2016全国3文(云南,广西,贵州).pdf",
         "page": 2,
+        "endPage": 2,
         "questionNumber": 24,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": true,
+        "reviewReasons": [
+          "原卷未提供可提取解析"
+        ]
       }
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 6,
+    "answerGraphics": 0,
+    "assigned": 6,
+    "rendered": 8,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0,
+    "textRegions": 2
+  }
 }

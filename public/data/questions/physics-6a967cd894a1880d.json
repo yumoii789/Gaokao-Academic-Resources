@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "parserVersion": "2.0.0",
   "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
   "name": "2014浙江理综",
   "track": "standard",
@@ -15,17 +16,27 @@
   "textPages": 6,
   "ocrPages": 0,
   "emptyPages": 0,
+  "diagnostics": {
+    "questionBlocks": 12,
+    "answerBlocks": 0,
+    "sourceAnswers": 1,
+    "sourceAnalysis": 12,
+    "reviewCount": 0,
+    "shortQuestions": 0
+  },
   "questions": [
     {
       "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q01",
       "content": "下列说法正确的是（     ）\n（A）机械波的振幅与波源无关\n（B）机械波的传播速度由介质本身的性质决定\n（C）物体受到的静摩擦力方向与其运动方向相反\n（D）动摩擦因数的数值跟相互接触的两个物体的材料无关",
       "answer": "暂无结构化答案",
-      "analysis": "原卷自动结构化，未提供人工校对解析。",
+      "analysis": "机械波振幅与波源有关，波速由介质决定，静摩擦力方向相对运动趋势相反，与物体运动方向无\n关，动摩擦因数与接触物材料，粗糙程度，接触面温度等有关，所以选 B。",
+      "analysisSource": "source",
       "difficulty": 0,
       "knowledgePoints": [],
       "tags": [
         "普通高考",
-        "文本层提取"
+        "文本层提取",
+        "原卷解析"
       ],
       "year": 2014,
       "subject": "物理",
@@ -33,11 +44,363 @@
         "repository": "deekur/gaokaophysics",
         "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
         "page": 1,
+        "endPage": 1,
         "questionNumber": 14,
         "extraction": "text",
         "confidence": null,
-        "needsReview": false
+        "needsReview": false,
+        "reviewReasons": []
       }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q02",
+      "content": "如图所示为远距离交流输电的简化电路图。发电厂的输出电压是\nU，用等效总电阻是 r 的两条输电线输电，输电线路中的电流是 I1，\n其末端间的电压为 U1。在输电线与用户间连有一想想变压器，流入用\n户端的电流是 I2．则（    ）\n（A）用户端的电压为 I1U1/I2\n（B）输电线上的电压降为 U\n（C）理想变压器的输入功率为 I12r\n（D）输电线路上损失的电功率为 I1U",
+      "answer": "暂无结构化答案",
+      "analysis": "理想变压器输入端与输出端功率相等，U1 I1 = U2 I2，用户端的电压 U2 = I1\nI2U1，选项A 正确；输\n电线上的电压降ΔU = U − U1 = I1r，选项B 错误；理想变压器输电线上损失的功率为 I12r，选项C、D 错\n误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 15,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q002-p001-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q002-p001-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q03",
+      "content": "长期以来“卡戎星（Charon）”被认为是冥王星唯一的卫星，它的公转轨道半径 r1 = 19600 km，公转\n周期 T1 = 6.39 天。2006 年 3 月，天文学家新发现两颗冥王星的小卫星，其中一颗的公转轨道半径 r2 =\n48000 km，则它的公转周期 T2 最接近于（    ）\n（A）15 天\n（B）25 天\n（C）35 天\n（D）45 天",
+      "answer": "暂无结构化答案",
+      "analysis": "根据开普勒第三定律 r31\nT21 = r32\nT22，代入数据计算可得 T2 约等于 25 天。选项 B 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 1,
+        "endPage": 1,
+        "questionNumber": 16,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q04",
+      "content": "一位游客在千岛湖边欲乘游船，当日风浪很大，游船上下浮动。可把游艇浮动简化成竖直方向的简谐\n运动，振幅为 20 cm，周期为 3.0 s。当船上升到最高点时，甲板刚好与码头地面平齐。地面与甲板的高度\n差不超过 10 cm 时，游客能舒服地登船。在一个周期内，游客能舒服地登船的时间是（    ）\n（A）0.5 s\n（B）0.75 s\n（C）1.0 s\n（D）1.5 s",
+      "answer": "暂无结构化答案",
+      "analysis": "从平衡位置开始计时，游船的振动方程x = 20sin2π\n3 t cm，游客要舒服地登船需满足的条件Δx = 20\n2 / 6\n－x≤10，解得0.25s≤t≤1.25s，故游客能舒服地登船的时间Δt = 1.0s，选项C 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 1,
+        "endPage": 2,
+        "questionNumber": 17,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q05",
+      "content": "关于下列光学现象，说法正确的是（    ）\n（A）水中蓝光的传播速度比红光快\n（B）光从空气向射入玻璃时可能发生全反射\n（C）在岸边观察前方水中的一条鱼，鱼的实际深度比看到的要深\n（D）分别用蓝光和红光在同一装置上做双缝干涉实验，用红光时得到的条纹间距更宽",
+      "answer": "暂无结构化答案",
+      "analysis": "在同一种介质中，波长越短，波速越慢，故红光的传播速度比蓝光大，选项A 错误；光从空气射\n向玻璃是从光疏介质射向光密介质，不能发生全反射，选项B 错误；在岸边观察水中的鱼，由于光的折射，\n鱼的实际深度比看到的深度要深，选项C 正确；在空气中红光的波长比蓝光要长，根据Δx = l\ndλ 可知红光\n的双缝干涉条纹间距大，选项D 正确。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 18,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      }
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q06",
+      "content": "如图所示，水平地面上固定一个光滑绝缘斜面，斜面\n与水平面的夹角为θ。一根轻质绝缘细线的一端固定在斜\n面顶端，另一端系有一个带电小球A，细线与斜面平行。\n小球A 的质量为m、电量为q。小球A 的右侧固定放置带\n等量同种电荷的小球B，两球心的高度相同、间距为d。\n静电力常量为k，重力加速度为g，两带电小球可视为点电\n荷。小球A 静止在斜面上，则（     ）\n（A）小球A 与B 之间库仑力的大小为kq2\nd2\n（B）当q\nd  =\n mgsinθ\nk\n  时，细线上的拉力为0\n（C）当q\nd  =\n mgtanθ\nk\n  时，细线上的拉力为0\n（D）当q\nd  =\n mg\n ktanθ  时，斜面对小球A 的支持力为0",
+      "answer": "暂无结构化答案",
+      "analysis": "点电荷库仑定律F = kq2/d2，所以A 正确；当细线上的拉力为0 的时候，\n小球A 受到库仑力、斜面支持力、重力，具体关系为kq2/d2 = mgtanθ，即C 选项\n正确。由受力分析可知，斜面对小球的支持力不可能为0，所以D 选项错误。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 2,
+        "endPage": 2,
+        "questionNumber": 19,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q006-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q006-p002-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q006-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q07",
+      "content": "如图 1 所示，两根光滑平行导轨水平放置，间距为 L，其间有竖直向下的\n匀强磁场，磁感应强度为 B。垂直于导轨水平对称放置一根均匀金属棒。从 t =\n0 时刻起，棒上有如图 2 所示的持续交流电流 I，周期为 T，最大值为 Im，图\n1 中 I 所示方向为电流正方向。则金属棒（    ）\n（A）一直向右移动\nmg\nkq2/d2\nFN\nθ\n3 / 6\n（B）速度随时间周期性变化\n（C）受到的安培力随时间周期性变化\n（D）受到的安培力在一个周期内做正功",
+      "answer": "暂无结构化答案",
+      "analysis": "根据题意得出v-t 图象如图所示，金属棒一直向右运动，A 正确。速度随时间做周期性变化，B 正\n确。据F 安 = BIL 及左手定则可判定，F 安大小不变，方向做周期性变化，则C 项正确。F 安在前半周期做\n正功，后半周期做负功，则D 项错。\n非选择题部分（共180 分）\n非选择题部分共12 题，共180 分。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 2,
+        "endPage": 3,
+        "questionNumber": 20,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q007-p002-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q007-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q007-p002-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q08",
+      "content": "（10 分）在“探究弹力和弹簧伸长的关系”时，某同学把两根弹簧如\n图 1 连接起来进行探究。\n钩码数\n1\n2\n3\n4\nLA/cm\n15.71\n19.71\n23.66\n27.76\nLB/cm\n29.96\n35.76\n41.51\n47.36\n（1）某次测量如图 2 所示，指针示数为___________cm。\n（2）在弹性限度内，将 50 g 的钩码逐个挂在弹簧下端，得到指针 A、B\n的示数 LA 和 LB 如表 1。用表 1 数据计算弹簧 Ⅰ 的劲度系数为\n_________N/m（重力加速度 g = 10 m/s2）。由表 1 数据_____（填“能”\n或“不能”）计算出弹簧 Ⅱ 的劲度系数。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由图2 可知刻度尺能精确到 0.1 cm，读数时需要往后估读一位．故指针示数为 16.00 ± 0.05\ncm。\n（2）由表1 中数据可知每挂一个钩码，弹簧 Ⅰ 的平均伸长量 Δx1 ≈ 4 cm，弹簧 Ⅱ 的总平均伸长量 Δx2\n≈ 5.80 cm，根据胡克定律可求得弹簧 Ⅰ 的劲度系数为 12.5 N/m，同理也能求出弹簧 Ⅱ 的劲度系数。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 3,
+        "endPage": 3,
+        "questionNumber": 21,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q008-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q008-p003-f02.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q008-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q09",
+      "content": "（10 分）小明对 2B 铅笔芯的导电性能感兴趣，于是用伏安法测量其电阻值。\n（1）图 1 是部分连接好的实物电路图，请用电流表外接法完成接线并在图 1 中画出。\n4 / 6\n（2）小明用电流表内接法和外接法分别测量了一段 2B 铅笔芯的伏安特性，并将得到的电流、电压数据\n描到 U–I 图上，如图2 所示。在图中，由电流表外接法得到的数据点是用_______（填“○”或“×”）表\n示的。\n（3）请你选择一组数据点，在图 2 上用作图法作图，并求出这段铅笔芯的电阻为______Ω。",
+      "answer": "（1）如图所示：\n（2）“×”\n（3）作图如下图：\n用“×”连线R = （1.1 ~ 1.3）Ω；用“○”连线R = （1.5 ~ 1.7）Ω",
+      "analysis": "（1）由图 2 中的电压、电流数据从零开始可知滑动变阻器采用分压式，电压表选择量程 3 V，电\n流表采用外接法。\n（2）外接法由于电压表分流，测得的电阻比内接法测得的要小，故电流表外接法得到的数据点是用“×”\n表示的。\n（3）用“×”数据点连直线，斜率为铅笔芯的电阻，考虑误差因素，R =（1.1 ~ 1.3）Ω，用“○”数据点连\n直线，同理得R = （1.5 ~ 1.7）Ω。",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 3,
+        "endPage": 4,
+        "questionNumber": 22,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q009-p003-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q009-p003-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q009-p004-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q009-p004-f04.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q009-p003-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q10",
+      "content": "（16 分）如图所示，装甲车在水平地面上以速度v0\n= 20m/s 沿直线前进，车上机枪的枪管水平，距地面高为\nh = 1.8m。在车正前方竖直一块高为两米的长方形靶，其\n底边与地面接触。枪口与靶距离为L 时，机枪手正对靶\n射出第一发子弹，子弹相对于枪口的初速度为v =\n800m/s。在子弹射出的同时，装甲车开始匀减速运动，行进s = 90m 后停下。装甲车停下后，机枪手以相\n同方式射出第二发子弹。（不计空气阻力，子弹看成质点，重力加速度g = 10m/s2）\n（1）求装甲车匀减速运动时的加速度大小；\n（2）当L = 410m 时，求第一发子弹的弹孔离地的高度，并计算靶上两个弹孔之间的距离；\n（3）若靶上只有一个弹孔，求L 的范围。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）装甲车加速度a = v20\n2s = 20\n9 m/s2.\n5 / 6\n（2）第一发子弹飞行时间t1 =\nL\nv＋v0 = 0.5 s\n弹孔离地高度h1 = h－1\n2gt21 = 0.55 m\n第二发子弹离地的高度h2 = h－1\n2g\n\n\n\nL－s\nt\n2\n = 1.0 m\n两弹孔之间的距离Δh = h2－h1 = 0.45 m.\n（3）第一发子弹打到靶的下沿时，装甲车离靶的距离为L1\nL1 = （v0＋v）\n2h\ng = 492 m\n第二发子弹打到靶的下沿时，装甲车离靶的距离为L2\nL2 = v\n2h\ng ＋s = 570 m\nL 的范围 492 m<L≤570 m.",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 4,
+        "endPage": 5,
+        "questionNumber": 23,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q010-p004-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q010-p004-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q11",
+      "content": "（20 分）其同学设计一个发电测速装置，工作原理如图所示。一\n个半径为 R = 0.1 m 的圆形金属导轨固定在竖直平面上，一根长为 R\n的金属棒 OA，A 端与导轨接触良好，O 端固定在圆心处的转轴上。\n转轴的左端有一个半径为 r = R/3 的圆盘，圆盘和金属棒能随转轴一\n起转动。圆盘上绕有不可伸长的细线，下端挂着一个质量为 m = 0.5 kg\n的铝块。在金属导轨区域内存在垂直于导轨平面向右的匀强磁场，磁\n感应强度 B = 0.5 T。a 点与导轨相连，b 点通过电刷与 O 端相连。\n测量 a、b 两点间的电势差 U 可算得铝块速度。铝块由静止释放，下落 h = 0.3 m 时，测得 U = 0.15 V。\n（细线与圆盘间没有滑动，金属棒、导轨、导线及电刷的电阻均不计，重力加速度 g = 10 m/s2）\n（1）测 U 时，a 点相接的是电压表的“正极”还是“负极”？\n（2）求此时铝块的速度大小；\n（3）求此下落过程中铝块机械能的损失。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）正极\n（2）由电磁感应定律得 U = E = ΔΦ\nΔt\nΔΦ = 1\n2BR2Δθ\nU = 1\n2BωR2\nv = rω = 1\n3ωR\n所以 v = 2U\n3BR = 2 m/s\n（3）ΔE = mgh − 1\n2mv2\nΔE = 0.5 J",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 5,
+        "endPage": 5,
+        "questionNumber": 24,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q011-p005-f01.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q011-p005-f01.jpg"
+    },
+    {
+      "questionId": "physics:普通高考/2014/2014浙江理综.pdf#q12",
+      "content": "（22 分）离子推进器是太空飞行器常用的动力系统，某种推进器设计的简化原理如图 1 所示，截面\n半径为 R 的圆柱腔分为两个工作区。Ⅰ 为电离区，将氙气电离获得 1 价正离子；Ⅱ 为加速区，长度为\nL，两端加有电压，形成轴向的匀强电场。Ⅰ 区产生的正离子以接近 0 的初速度进入 Ⅱ 区，被加速后以\n速度 vM 从右侧喷出。Ⅰ 区内有轴向的匀强磁场，磁感应强度大小为 B，在离轴线 R/2 处的 C 点持续\n射出一定速率范围的电子。假设射出的电子仅在垂直于轴线的截面上运动，截面如图 2 所示（从左向右\n6 / 6\n看）。电子的初速度方向与中心 O 点和 C 点的连线成 α 角（0 < α < 90°）。推进器工作时，向 Ⅰ区注入\n稀薄的氙气。电子使氙气电离的最小速率为 v0，电子在 Ⅰ 区内不与器壁相碰且能到达的区域越大\n．．．．．．．．．．．．．．．，电离\n．．\n效果越好\n．．．．。已知离子质量为 M；电子质量为 m，电量为 e。（电子碰到器壁即被吸收，不考虑电子间的碰\n撞）。\n（1）求 Ⅱ 区的加速电压及离子的加速度大小；\n（2）为取得好的电离效果，请判断 Ⅰ 区中的磁场方向（按图 2 说明是“垂直纸面向里”或“垂直纸面\n向外”）；\n（3）α 为 90° 时，要取得好的电离效果，求射出的电子速率 v 的范围；\n（4）要取得好的电离效果，求射出的电子最大速率 vmax 与 α 的关系。",
+      "answer": "暂无结构化答案",
+      "analysis": "（1）由动能定理得1\n2Mv2M = eU                              ①\nU = Mv2M\n2e                                ②\na = eE\nM = e U\nML = vM2\n2L                         ③\n（2）垂直纸面向外                                        ④\n（3）设电子运动的最大半径为 r\n2r = 3\n2R                                  ⑤\neBv = mv2\nr                                ⑥\n所以有 v0 ≤ v ≤ 3eBR\n4m                                    ⑦\n要使⑦式有解，磁感应强度B>4mv0\n3eR                      ⑧\n（4）如图所示，OA = R－r，OC = R\n2，AC = r\n根据几何关系得r =\n3R\n4（2－sin α）                          ⑨\n由⑥⑨式得 vmax =\n3eBR\n4m（2 − sinα）\nO\nC\nv\nα\n图 2\n图 1\n左\n右\nR\nI\nII\nB\nL",
+      "analysisSource": "source",
+      "difficulty": 0,
+      "knowledgePoints": [],
+      "tags": [
+        "普通高考",
+        "文本层提取",
+        "原卷解析"
+      ],
+      "year": 2014,
+      "subject": "物理",
+      "provenance": {
+        "repository": "deekur/gaokaophysics",
+        "paperId": "physics:普通高考/2014/2014浙江理综.pdf",
+        "page": 5,
+        "endPage": 6,
+        "questionNumber": 25,
+        "extraction": "text",
+        "confidence": null,
+        "needsReview": false,
+        "reviewReasons": []
+      },
+      "imagePaths": [
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f01.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f02.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f03.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f04.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f05.jpg",
+        "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f06.jpg"
+      ],
+      "imagePath": "/Gaokao-Academic-Resources/data/figures/physics-6a967cd894a1880d-q012-p006-f01.jpg"
     }
-  ]
+  ],
+  "figureStats": {
+    "detected": 19,
+    "answerGraphics": 0,
+    "assigned": 19,
+    "rendered": 19,
+    "scanPages": 0,
+    "scanRegions": 0,
+    "unassigned": 0,
+    "missingFigureRefs": 0
+  }
 }
